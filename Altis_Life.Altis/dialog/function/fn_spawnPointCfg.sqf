@@ -27,18 +27,23 @@ switch (_side) do
 	
 	case civilian:
 	{
-	if(license_civ_rebel && playerSide == civilian) then 
-		{
 		_return = [
 			["civ_spawn_1","Kavala","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
 			["civ_spawn_2","Pyrgos","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
 			["civ_spawn_3","Athira","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
 			["civ_spawn_4","Sofia","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
-			["reb_spawn_1","Camp Rebelle","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"],
 			["pvp_spawn_1","ZonePvP (A)","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"],
 			["pvp_spawn_2","ZonePvP (B)","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]
 		];
 			
+		if(license_civ_rebel && playerSide == civilian) then {
+				_return set[count _return,["reb_spawn_1","Camp Rebelle","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]];
+		};
+		
+		if(license_bl && playerSide == civilian) then {
+				_return set[count _return,["bl_spawn","Bratstvo Ledjanoe HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]];
+		};
+		
 		if(count life_houses > 0) then {
 			{
 				_pos = call compile format["%1",_x select 0];
@@ -48,29 +53,7 @@ switch (_side) do
 				_return set[count _return,[format["house_%1",_house getVariable "uid"],_houseName,"\a3\ui_f\data\map\MapControl\lighthouse_ca.paa"]];
 			} foreach life_houses;
 		};
-	} else
-	{
-			_return = [
-			["civ_spawn_1","Kavala","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
-			["civ_spawn_2","Pyrgos","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
-			["civ_spawn_3","Athira","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
-			["civ_spawn_4","Sofia","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
-			["pvp_spawn_1","ZonePvP (A)","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"],
-			["pvp_spawn_2","ZonePvP (B)","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]
-			];
-			
-			if(count life_houses > 0) then {
-			{
-				_pos = call compile format["%1",_x select 0];
-				_house = nearestBuilding _pos;
-				_houseName = getText(configFile >> "CfgVehicles" >> (typeOf _house) >> "displayName");
-				
-				_return set[count _return,[format["house_%1",_house getVariable "uid"],_houseName,"\a3\ui_f\data\map\MapControl\lighthouse_ca.paa"]];
-			} foreach life_houses;
-		};
-	}
 	};
-	
 	case independent: {
 		_return = [
 			["medic_spawn_1","Kavala Hospital","\a3\ui_f\data\map\MapControl\hospital_ca.paa"],

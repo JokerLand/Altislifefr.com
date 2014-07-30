@@ -180,12 +180,19 @@ switch (_vehicle) do
 		};
 	};
 
-	case "B_MRAP_01_F":
+	case "I_MRAP_03_F":
 	{
 		switch (_index) do
 		{
-			case 0: {_color = "Regular"};
-			case 1: {_color = "Black"};
+			case 0: {_color = "Police"};
+		};
+	};
+	
+	case "I_MRAP_03_hmg_F":
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Police"};
 		};
 	};
 	

@@ -33,5 +33,5 @@ if(playerSide == west) then {
     player setVariable["coplevel",_getRank,TRUE];
 };
 
-player setObjectTextureGlobal [0,"cop.jpg"]
+player setObjectTextureGlobal [0,"cop.jpg"];
 [] execVM "statusBar.sqf";

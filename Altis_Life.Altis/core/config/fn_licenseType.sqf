@@ -44,6 +44,8 @@ switch (_mode) do
 			case "grapes": {_var = "license_civ_grapes"};
 			case "moonshine": {_var = "license_civ_moonshine"};
 			case "presse": {_var = "license_civ_presse"};
+			//case "assurance": {_var = "license_assurance_veh"};
+			case "bl": {_var = "license_bl"};
 			default {_var = ""};
 		};
 	};
@@ -80,6 +82,8 @@ switch (_mode) do
 			case "license_civ_grapes": {_var = "grapes"};
 			case "license_civ_moonshine": {_var = "moonshine"};
 			case "license_civ_presse": {_var = "presse"};
+			//case "license_assurance_veh": {_var = "assurance"};
+			case "license_bl": {_var = "bl"};
 			default {_var = ""};
 		};
 	};

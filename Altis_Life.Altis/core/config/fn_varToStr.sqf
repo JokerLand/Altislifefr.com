@@ -100,4 +100,6 @@ switch (_var) do
 	case "license_civ_grapes": {"Traitement Vin"};
 	case "license_civ_moonshine": {"Traitement Moonshine"};
 	case "license_civ_presse": {"Journaliste"};
+	//case "license_assurance_veh": {"Assurance Véhicules"};
+	case "license_bl": {"Bratstvo Ledjanoe"};
 };

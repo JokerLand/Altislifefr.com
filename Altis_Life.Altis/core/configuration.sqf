@@ -208,7 +208,9 @@ life_licenses =
 	["license_civ_grapes","civ"],
 	["license_civ_moonshine","civ"],
 	["license_civ_presse","civ"],
-	["license_civ_home","civ"]
+	["license_civ_home","civ"],
+	//["license_assurance_veh","civ"],
+	["license_bl","civ"]
 ];
 
 //Setup License Variables

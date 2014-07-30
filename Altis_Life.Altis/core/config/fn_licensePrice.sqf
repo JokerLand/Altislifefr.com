@@ -39,4 +39,5 @@ switch (_type) do
 	case "moonshine": {15000};
 	case "meth": {175000};
 	case "presse": {250000};
+	//case "assurance": {50000};
 };

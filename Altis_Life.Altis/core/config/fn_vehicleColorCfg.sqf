@@ -177,7 +177,7 @@ switch (_vehicle) do
 	{
 		_ret = 
 		[
-			["\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_co.paa","donate"],
+			["\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_co.paa","reb"],
 			["\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_civilian_co.paa","civ"],
 			["\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_indp_co.paa","reb"],
 			["\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_opfor_co.paa","reb"],
@@ -185,12 +185,19 @@ switch (_vehicle) do
 		];
 	};
 
-	case "B_MRAP_01_F":
+	case "I_MRAP_03_F":
 	{
 		_ret = 
 		[
-			["textures\mrap_police_noir.jpg","cop","textures\mrap_police_noir_adds.jpg"],
-			["#(argb,8,8,3)color(0.05,0.05,0.05,1)","fed"]
+			["textures\strider_police_altis.jpg","cop"]
+		];
+	};
+	
+	case "I_MRAP_03_hmg_F":
+	{
+		_ret = 
+		[
+			["textures\strider_police_altis.jpg","cop","#(argb,8,8,3)color(0.05,0.05,0.05,1)"]
 		];
 	};
 	

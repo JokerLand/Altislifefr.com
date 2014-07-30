@@ -22,5 +22,5 @@ if(!(str(player) in ["medic_1","medic_2"])) then {
 waitUntil{!isNull (findDisplay 38500)}; //Wait for the spawn selection to be open.
 waitUntil{isNull (findDisplay 38500)}; //Wait for the spawn selection to be done.
 
-player setObjectTextureGlobal [0,"textures\medic_uniform.jpg"]
+player setObjectTextureGlobal [0,"textures\medic_uniform.jpg"];
 [] execVM "statusBar.sqf";
