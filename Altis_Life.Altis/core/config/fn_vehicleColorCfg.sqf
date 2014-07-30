@@ -119,6 +119,11 @@ switch (_vehicle) do
 	{
 		_ret = 
 		[
+			["textures\van_yellow.jpg","civ"],
+			["textures\van_orange.jpg","civ"],
+			["textures\van_blue.jpg","civ"],
+			["textures\van_green.jpg","civ"],
+			["#(argb,8,8,3)color(0.05,0.05,0.05,1)","civ"],
 			["\a3\soft_f_gamma\Van_01\Data\van_01_ext_co.paa","civ"],
 			["\a3\soft_f_gamma\Van_01\Data\van_01_ext_red_co.paa","civ"]
 		];
@@ -128,6 +133,11 @@ switch (_vehicle) do
 	{
 		_ret = 
 		[
+			["textures\van_yellow.jpg","civ"],
+			["textures\van_orange.jpg","civ"],
+			["textures\van_blue.jpg","civ"],
+			["textures\van_green.jpg","civ"],
+			["#(argb,8,8,3)color(0.05,0.05,0.05,1)","civ"],
 			["\a3\soft_f_gamma\Van_01\Data\van_01_ext_co.paa","civ"],
 			["\a3\soft_f_gamma\Van_01\Data\van_01_ext_red_co.paa","civ"]
 		];
@@ -239,6 +249,11 @@ switch (_vehicle) do
 	{
 		_ret = 
 		[
+			["textures\zamak_blue.jpg","civ","\a3\soft_f_beta\Truck_02\data\truck_02_kuz_co.paa"],
+			["textures\zamak_yellow.jpg","civ","\a3\soft_f_beta\Truck_02\data\truck_02_kuz_co.paa"],
+			["textures\zamak_red.jpg","civ","\a3\soft_f_beta\Truck_02\data\truck_02_kuz_co.paa"],
+			["textures\zamak_green.jpg","civ","\a3\soft_f_beta\Truck_02\data\truck_02_kuz_co.paa"],
+			["#(argb,8,8,3)color(0.05,0.05,0.05,1)","civ","\a3\soft_f_beta\Truck_02\data\truck_02_kuz_co.paa"],
 			["\A3\Soft_F_Beta\Truck_02\data\truck_02_kab_co.paa","civ","\a3\soft_f_beta\Truck_02\data\truck_02_kuz_co.paa"],
 			["#(argb,8,8,3)color(0.05,0.05,0.05,1)","fed"]
 		];
@@ -248,6 +263,11 @@ switch (_vehicle) do
 	{
 		_ret = 
 		[
+			["textures\zamak_blue.jpg","civ","\a3\soft_f_beta\Truck_02\data\truck_02_kuz_co.paa"],
+			["textures\zamak_yellow.jpg","civ","\a3\soft_f_beta\Truck_02\data\truck_02_kuz_co.paa"],
+			["textures\zamak_red.jpg","civ","\a3\soft_f_beta\Truck_02\data\truck_02_kuz_co.paa"],
+			["textures\zamak_green.jpg","civ","\a3\soft_f_beta\Truck_02\data\truck_02_kuz_co.paa"],
+			["#(argb,8,8,3)color(0.05,0.05,0.05,1)","civ","\a3\soft_f_beta\Truck_02\data\truck_02_kuz_co.paa"],
 			["\A3\Soft_F_Beta\Truck_02\data\truck_02_kab_co.paa","civ","\a3\soft_f_beta\Truck_02\data\truck_02_kuz_co.paa"],
 			["#(argb,8,8,3)color(0.05,0.05,0.05,1)","fed"]
 		];

@@ -105,8 +105,13 @@ switch (_vehicle) do
 	{
 		switch (_index) do
 		{
-			case 0: {_color = "White"};
-			case 1: {_color = "Red"};
+			case 0: {_color = "Jaune"};
+			case 1: {_color = "Orange"};
+			case 2: {_color = "Bleu"};
+			case 3: {_color = "Vert"};
+			case 4: {_color = "Noir"};
+			case 5: {_color = "Blanc"};
+			case 6: {_color = "Rouge"};
 		};
 	};
 
@@ -114,8 +119,13 @@ switch (_vehicle) do
 	{
 		switch (_index) do
 		{
-			case 0: {_color = "White"};
-			case 1: {_color = "Red"};
+			case 0: {_color = "Jaune"};
+			case 1: {_color = "Orange"};
+			case 2: {_color = "Bleu"};
+			case 3: {_color = "Vert"};
+			case 4: {_color = "Noir"};
+			case 5: {_color = "Blanc"};
+			case 6: {_color = "Rouge"};
 		};
 	};
 
@@ -234,8 +244,13 @@ switch (_vehicle) do
 	{
 		switch (_index) do
 		{
-			case 0: {_color = "Orange"};
-			case 1: {_color = "Black"};
+			case 0: {_color = "Bleu"};
+			case 1: {_color = "Jaune"};
+			case 2: {_color = "Rouge"};
+			case 3: {_color = "Vert"};
+			case 4: {_color = "Noir"};
+			case 5: {_color = "Orange"};
+			case 6: {_color = "Noir"};
 		};
 	};
 	
@@ -244,8 +259,13 @@ switch (_vehicle) do
 	{
 		switch (_index) do
 		{
-			case 0: {_color = "Orange"};
-			case 1: {_color = "Black"};
+			case 0: {_color = "Bleu"};
+			case 1: {_color = "Jaune"};
+			case 2: {_color = "Rouge"};
+			case 3: {_color = "Vert"};
+			case 4: {_color = "Noir"};
+			case 5: {_color = "Orange"};
+			case 6: {_color = "Noir"};
 		};
 	};
 
