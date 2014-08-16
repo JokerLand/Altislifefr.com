@@ -12,6 +12,306 @@ _color = "";
 
 switch (_vehicle) do
 {
+	case "A3L_VolksWagenGolfGTiblack" :
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Jaune";};
+			case 1: {_color = "Rouge";};
+			case 2: {_color = "Vert";};
+			case 3: {_color = "Bleu";};
+			case 4: {_color = "Brun";};
+			case 5: {_color = "Noir";};
+		};
+	};
+	
+	case "RDS_Golf4_Civ_01" :
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Jaune";};
+			case 1: {_color = "Rouge";};
+			case 2: {_color = "Vert";};
+			case 3: {_color = "Bleu";};
+			case 4: {_color = "Brun";};
+			case 5: {_color = "Noir";};
+		};
+	};
+	
+	case "DAR_ImpalaCiv" :
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Jaune";};
+			case 1: {_color = "Rouge";};
+			case 2: {_color = "Vert";};
+			case 3: {_color = "Bleu";};
+			case 4: {_color = "Brun";};
+			case 5: {_color = "Noir";};
+		};
+	};
+	
+	case "exxpensive_chevrolet_caprice_base" :
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Jaune";};
+			case 1: {_color = "Rouge";};
+			case 2: {_color = "Vert";};
+			case 3: {_color = "Bleu";};
+			case 4: {_color = "Brun";};
+			case 5: {_color = "Noir";};
+		};
+	};
+	
+	case "A3L_PuntoBlue" :
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Jaune";};
+			case 1: {_color = "Rouge";};
+			case 2: {_color = "Vert";};
+			case 3: {_color = "Bleu";};
+			case 4: {_color = "Brun";};
+			case 5: {_color = "Noir";};
+		};
+	};
+	
+	case "DAR_FusionCiv" :
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Jaune";};
+			case 1: {_color = "Rouge";};
+			case 2: {_color = "Vert";};
+			case 3: {_color = "Bleu";};
+			case 4: {_color = "Brun";};
+			case 5: {_color = "Noir";};
+		};
+	};
+	
+	case "DAR_TaurusCiv" :
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Jaune";};
+			case 1: {_color = "Rouge";};
+			case 2: {_color = "Vert";};
+			case 3: {_color = "Bleu";};
+			case 4: {_color = "Brun";};
+			case 5: {_color = "Noir";};
+		};
+	};
+	
+	case "exxpensive_cadillac_sedan_base" :
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Jaune";};
+			case 1: {_color = "Rouge";};
+			case 2: {_color = "Vert";};
+			case 3: {_color = "Bleu";};
+			case 4: {_color = "Brun";};
+			case 5: {_color = "Noir";};
+		};
+	};
+	
+	case "DAR_TahoeCiv" :
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Jaune";};
+			case 1: {_color = "Rouge";};
+			case 2: {_color = "Vert";};
+			case 3: {_color = "Bleu";};
+			case 4: {_color = "Brun";};
+			case 5: {_color = "Noir";};
+		};
+	};
+	
+	case "DAR_M3CivGrey" :
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Jaune";};
+			case 1: {_color = "Rouge";};
+			case 2: {_color = "Vert";};
+			case 3: {_color = "Bleu";};
+			case 4: {_color = "Brun";};
+			case 5: {_color = "Noir";};
+		};
+	};
+	
+	case "BMW_M5Black" :
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Jaune";};
+			case 1: {_color = "Rouge";};
+			case 2: {_color = "Vert";};
+			case 3: {_color = "Bleu";};
+			case 4: {_color = "Brun";};
+			case 5: {_color = "Noir";};
+		};
+	};
+	
+	case "SAL_IROCCiv" :
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Rouge";};
+			case 1: {_color = "Noir";};
+			case 2: {_color = "Argent";};
+			case 3: {_color = "Orange";};
+			case 4: {_color = "Bordeau";};
+			case 5: {_color = "Blanc";};
+		};
+	};
+	
+	case "SAL_AudiCiv" :
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Rouge";};
+			case 1: {_color = "Noir";};
+			case 2: {_color = "Argent";};
+			case 3: {_color = "Orange";};
+			case 4: {_color = "Bordeau";};
+			case 5: {_color = "Blanc";};
+		};
+	};
+	
+	case "A3L_ChargerCstm" :
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Jaune";};
+			case 1: {_color = "Rouge";};
+			case 2: {_color = "Vert";};
+			case 3: {_color = "Bleu";};
+			case 4: {_color = "Brun";};
+			case 5: {_color = "Noir";};
+		};
+	};
+	
+	case "DAR_ChallengerCivWhite" :
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Rouge";};
+			case 1: {_color = "Noir";};
+			case 2: {_color = "Argent";};
+			case 3: {_color = "Orange";};
+			case 4: {_color = "Bordeau";};
+			case 5: {_color = "Blanc";};
+		};
+	};
+	
+	case "exxpensive_ford_raptor_base" :
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Jaune";};
+			case 1: {_color = "Rouge";};
+			case 2: {_color = "Vert";};
+			case 3: {_color = "Bleu";};
+			case 4: {_color = "Brun";};
+			case 5: {_color = "Noir";};
+		};
+	};
+	
+	case "exxpensive_jaguar_base" :
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Jaune";};
+			case 1: {_color = "Rouge";};
+			case 2: {_color = "Vert";};
+			case 3: {_color = "Bleu";};
+			case 4: {_color = "Brun";};
+			case 5: {_color = "Noir";};
+		};
+	};
+	
+	case "exxpensive_ferrari_458_base" :
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Jaune";};
+			case 1: {_color = "Rouge";};
+			case 2: {_color = "Vert";};
+			case 3: {_color = "Bleu";};
+			case 4: {_color = "Brun";};
+			case 5: {_color = "Noir";};
+		};
+	};
+	
+	case "exxpensive_mercedes_sls_base" :
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Jaune";};
+			case 1: {_color = "Rouge";};
+			case 2: {_color = "Vert";};
+			case 3: {_color = "Bleu";};
+			case 4: {_color = "Brun";};
+			case 5: {_color = "Noir";};
+		};
+	};
+	
+	case "Jonzie_Viper" :
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Jaune";};
+			case 1: {_color = "Rouge";};
+			case 2: {_color = "Vert";};
+			case 3: {_color = "Bleu";};
+			case 4: {_color = "Brun";};
+			case 5: {_color = "Noir";};
+		};
+	};
+	
+	case "exxpensive_lamborghini_aventador_base" :
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Jaune";};
+			case 1: {_color = "Rouge";};
+			case 2: {_color = "Vert";};
+			case 3: {_color = "Bleu";};
+			case 4: {_color = "Brun";};
+			case 5: {_color = "Noir";};
+		};
+	};
+	
+	case "DAR_MF1Civ" :
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Rouge";};
+			case 1: {_color = "Noir";};
+			case 2: {_color = "Argent";};
+			case 3: {_color = "Orange";};
+			case 4: {_color = "Bordeau";};
+			case 5: {_color = "Blanc";};
+		};
+	};
+	
+	case "A3L_Dumptruck" :
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Jaune";};
+			case 1: {_color = "Rouge";};
+			case 2: {_color = "Vert";};
+			case 3: {_color = "Bleu";};
+			case 4: {_color = "Brun";};
+			case 5: {_color = "Noir";};
+		};
+	};
+	
+	
 	case "I_Heli_light_03_unarmed_F" :
 	{
 		switch (_index) do

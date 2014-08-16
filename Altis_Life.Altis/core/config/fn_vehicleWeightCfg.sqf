@@ -10,6 +10,35 @@ _className = [_this,0,"",[""]] call BIS_fnc_param;
 
 switch (_className) do
 {
+	case "RDS_Gaz24_Civ_02": {45};
+	case "RDS_S1203_Civ_01": {65};
+	case "A3L_VolksWagenGolfGTiblack": {35};
+	case "RDS_Golf4_Civ_01": {40};
+	case "RDS_Octavia_Civ_01": {45};
+	case "DAR_ImpalaCiv": {55};
+	case "exxpensive_chevrolet_caprice_base": {75};
+	case "A3L_PuntoBlue": {35};
+	case "DAR_FusionCiv": {50};
+	case "DAR_TaurusCiv": {55};
+	case "DAR_TahoeCiv": {85};
+	case "C_Offroad_01_F": {65};
+	case "SAL_AudiCiv": {50};
+	case "exxpensive_cadillac_sedan_base": {50};
+	case "DAR_M3CivGrey": {20};
+	case "BMW_M5Black": {50};
+	case "SAL_IROCCiv": {20};
+	case "SAL_77TRANSAMCiv": {20};
+	case "DAR_ChallengerCivWhite": {20};
+	case "exxpensive_ford_raptor_base": {90};
+	case "exxpensive_jaguar_base": {20};
+	case "exxpensive_ferrari_458_base": {15};
+	case "exxpensive_mercedes_sls_base": {20};
+	case "Jonzie_Viper": {20};
+	case "exxpensive_lamborghini_aventador_base": {10};
+	case "DAR_MF1Civ": {10};
+	case "A3L_Dumptruck": {375};
+	case "GNT_C185": {90};
+	case "IVORY_T6A_1": {50};
 	case "C_Offroad_01_F": {65};
 	case "I_G_Offroad_01_F": {75};
 	case "B_G_Offroad_01_F": {65};
