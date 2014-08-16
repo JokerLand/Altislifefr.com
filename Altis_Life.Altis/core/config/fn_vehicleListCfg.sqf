@@ -49,7 +49,6 @@ switch (_shop) do
 			["RDS_Golf4_Civ_01",6000],
 			["RDS_Octavia_Civ_01",6000],
 			["DAR_ImpalaCiv",5500],
-			["exxpensive_chevrolet_caprice_base",6000],
 			["A3L_PuntoBlue",6000],
 			["DAR_FusionCiv",10000],
 			["DAR_TaurusCiv",12000],
@@ -57,7 +56,6 @@ switch (_shop) do
 			["DAR_TahoeCiv",16000],
 			["C_SUV_01_F",22000],
 			["SAL_AudiCiv",22000],
-			["exxpensive_cadillac_sedan_base",33000],
 			["I_G_Offroad_01_F",55000],
 			["DAR_M3CivGrey",40000],
 			["BMW_M5Black",65000],
@@ -65,12 +63,7 @@ switch (_shop) do
 			["SAL_77TRANSAMCiv",100000],
 			["A3L_ChargerCstm",110000],
 			["DAR_ChallengerCivWhite",120000],
-			["exxpensive_ford_raptor_base",140000],
-			["exxpensive_jaguar_base",200000],
-			["exxpensive_ferrari_458_base",270000],
-			["exxpensive_mercedes_sls_base",270000],
 			["Jonzie_Viper",270000],
-			["exxpensive_lamborghini_aventador_base",300000],
 			["DAR_MF1Civ",400000]
 		];
 	};

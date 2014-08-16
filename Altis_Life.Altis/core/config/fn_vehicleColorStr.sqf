@@ -51,19 +51,6 @@ switch (_vehicle) do
 		};
 	};
 	
-	case "exxpensive_chevrolet_caprice_base" :
-	{
-		switch (_index) do
-		{
-			case 0: {_color = "Jaune";};
-			case 1: {_color = "Rouge";};
-			case 2: {_color = "Vert";};
-			case 3: {_color = "Bleu";};
-			case 4: {_color = "Brun";};
-			case 5: {_color = "Noir";};
-		};
-	};
-	
 	case "A3L_PuntoBlue" :
 	{
 		switch (_index) do
@@ -91,19 +78,6 @@ switch (_vehicle) do
 	};
 	
 	case "DAR_TaurusCiv" :
-	{
-		switch (_index) do
-		{
-			case 0: {_color = "Jaune";};
-			case 1: {_color = "Rouge";};
-			case 2: {_color = "Vert";};
-			case 3: {_color = "Bleu";};
-			case 4: {_color = "Brun";};
-			case 5: {_color = "Noir";};
-		};
-	};
-	
-	case "exxpensive_cadillac_sedan_base" :
 	{
 		switch (_index) do
 		{
@@ -207,72 +181,7 @@ switch (_vehicle) do
 		};
 	};
 	
-	case "exxpensive_ford_raptor_base" :
-	{
-		switch (_index) do
-		{
-			case 0: {_color = "Jaune";};
-			case 1: {_color = "Rouge";};
-			case 2: {_color = "Vert";};
-			case 3: {_color = "Bleu";};
-			case 4: {_color = "Brun";};
-			case 5: {_color = "Noir";};
-		};
-	};
-	
-	case "exxpensive_jaguar_base" :
-	{
-		switch (_index) do
-		{
-			case 0: {_color = "Jaune";};
-			case 1: {_color = "Rouge";};
-			case 2: {_color = "Vert";};
-			case 3: {_color = "Bleu";};
-			case 4: {_color = "Brun";};
-			case 5: {_color = "Noir";};
-		};
-	};
-	
-	case "exxpensive_ferrari_458_base" :
-	{
-		switch (_index) do
-		{
-			case 0: {_color = "Jaune";};
-			case 1: {_color = "Rouge";};
-			case 2: {_color = "Vert";};
-			case 3: {_color = "Bleu";};
-			case 4: {_color = "Brun";};
-			case 5: {_color = "Noir";};
-		};
-	};
-	
-	case "exxpensive_mercedes_sls_base" :
-	{
-		switch (_index) do
-		{
-			case 0: {_color = "Jaune";};
-			case 1: {_color = "Rouge";};
-			case 2: {_color = "Vert";};
-			case 3: {_color = "Bleu";};
-			case 4: {_color = "Brun";};
-			case 5: {_color = "Noir";};
-		};
-	};
-	
 	case "Jonzie_Viper" :
-	{
-		switch (_index) do
-		{
-			case 0: {_color = "Jaune";};
-			case 1: {_color = "Rouge";};
-			case 2: {_color = "Vert";};
-			case 3: {_color = "Bleu";};
-			case 4: {_color = "Brun";};
-			case 5: {_color = "Noir";};
-		};
-	};
-	
-	case "exxpensive_lamborghini_aventador_base" :
 	{
 		switch (_index) do
 		{

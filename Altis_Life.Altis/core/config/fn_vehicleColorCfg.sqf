@@ -51,18 +51,6 @@ switch (_vehicle) do
  		];
  	};
 	
-	case "exxpensive_chevrolet_caprice_base":
-	{
- 		_ret = 
- 		[
- 			["#(argb,8,8,3)color(0.6,0.3,0.01,1)","civ"],
-			["#(argb,8,8,3)color(1,0.1,0.01,0.1)","civ"],
-			["#(argb,8,8,3)color(0,1,0,0.1)","civ"],
-			["#(argb,8,8,3)color(0.02,0.47,0.62,0.1)","civ"],
-			["#(argb,8,8,3)color(1,0.6,0,0.1)","civ"],
-			["#(ai,64,64,1)Fresnel(0.3,3)","civ"]
- 		];
- 	};
 	
 	case "A3L_PuntoBlue":
 	{
@@ -126,19 +114,6 @@ switch (_vehicle) do
 			["DAR_MF1\Data\Body_coOrange","civ"],
 			["DAR_MF1\Data\Body_coBurgundy","civ"],
 			["SAL_A4\Data\Body_co.paa","civ"]
- 		];
- 	};
-		
-	case "exxpensive_cadillac_sedan_base":
-	{
- 		_ret = 
- 		[
- 			["#(argb,8,8,3)color(0.6,0.3,0.01,1)","civ"],
-			["#(argb,8,8,3)color(1,0.1,0.01,0.1)","civ"],
-			["#(argb,8,8,3)color(0,1,0,0.1)","civ"],
-			["#(argb,8,8,3)color(0.02,0.47,0.62,0.1)","civ"],
-			["#(argb,8,8,3)color(1,0.6,0,0.1)","civ"],
-			["#(ai,64,64,1)Fresnel(0.3,3)","civ"]
  		];
  	};
 	
@@ -207,72 +182,7 @@ switch (_vehicle) do
  		];
  	};
 	
-	case "exxpensive_ford_raptor_base":
-	{
- 		_ret = 
- 		[
- 			["#(argb,8,8,3)color(0.6,0.3,0.01,1)","civ"],
-			["#(argb,8,8,3)color(1,0.1,0.01,0.1)","civ"],
-			["#(argb,8,8,3)color(0,1,0,0.1)","civ"],
-			["#(argb,8,8,3)color(0.02,0.47,0.62,0.1)","civ"],
-			["#(argb,8,8,3)color(1,0.6,0,0.1)","civ"],
-			["#(ai,64,64,1)Fresnel(0.3,3)","civ"]
- 		];
- 	};
-	
-	case "exxpensive_jaguar_base":
-	{
- 		_ret = 
- 		[
- 			["#(argb,8,8,3)color(0.6,0.3,0.01,1)","civ"],
-			["#(argb,8,8,3)color(1,0.1,0.01,0.1)","civ"],
-			["#(argb,8,8,3)color(0,1,0,0.1)","civ"],
-			["#(argb,8,8,3)color(0.02,0.47,0.62,0.1)","civ"],
-			["#(argb,8,8,3)color(1,0.6,0,0.1)","civ"],
-			["#(ai,64,64,1)Fresnel(0.3,3)","civ"]
- 		];
- 	};
-	
-	case "exxpensive_ferrari_458_base":
-	{
- 		_ret = 
- 		[
- 			["#(argb,8,8,3)color(0.6,0.3,0.01,1)","civ"],
-			["#(argb,8,8,3)color(1,0.1,0.01,0.1)","civ"],
-			["#(argb,8,8,3)color(0,1,0,0.1)","civ"],
-			["#(argb,8,8,3)color(0.02,0.47,0.62,0.1)","civ"],
-			["#(argb,8,8,3)color(1,0.6,0,0.1)","civ"],
-			["#(ai,64,64,1)Fresnel(0.3,3)","civ"]
- 		];
- 	};
-	
-	case "exxpensive_mercedes_sls_base":
-	{
- 		_ret = 
- 		[
- 			["#(argb,8,8,3)color(0.6,0.3,0.01,1)","civ"],
-			["#(argb,8,8,3)color(1,0.1,0.01,0.1)","civ"],
-			["#(argb,8,8,3)color(0,1,0,0.1)","civ"],
-			["#(argb,8,8,3)color(0.02,0.47,0.62,0.1)","civ"],
-			["#(argb,8,8,3)color(1,0.6,0,0.1)","civ"],
-			["#(ai,64,64,1)Fresnel(0.3,3)","civ"]
- 		];
- 	};
-	
 	case "Jonzie_Viper":
-	{
- 		_ret = 
- 		[
- 			["#(argb,8,8,3)color(0.6,0.3,0.01,1)","civ"],
-			["#(argb,8,8,3)color(1,0.1,0.01,0.1)","civ"],
-			["#(argb,8,8,3)color(0,1,0,0.1)","civ"],
-			["#(argb,8,8,3)color(0.02,0.47,0.62,0.1)","civ"],
-			["#(argb,8,8,3)color(1,0.6,0,0.1)","civ"],
-			["#(ai,64,64,1)Fresnel(0.3,3)","civ"]
- 		];
- 	};
-	
-	case "exxpensive_lamborghini_aventador_base":
 	{
  		_ret = 
  		[
