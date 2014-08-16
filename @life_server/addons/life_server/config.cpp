@@ -82,7 +82,7 @@ class CfgFunctions
 	
 	class TON_System
 	{
-		tag = "TON";
+	        tag = "TON";
 		class Systems
 		{
 			file = "\life_server\Functions\Systems";
@@ -102,9 +102,22 @@ class CfgFunctions
 			class chopShopSell {};
 			class clientDisconnect {};
 			class cleanupRequest {};
-		};
-		
-		class Housing
+        };
+	};
+                 
+    class GHBSystem
+	{
+	         tag = "GHB";
+		class Smartphone
+	    {
+			file = "\life_server\Functions\Smartphone";
+			class handleMessages {};
+			class msgRequest {};
+        };
+	};	
+
+	               
+        class Housing
 		{
 			file = "\life_server\Functions\Housing";
 			class addHouse {};
