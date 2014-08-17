@@ -66,5 +66,9 @@ switch (_item) do
 	case "moonshine": {4};
 	case "grapes": {5};
 	case "artefact": {5};
+        case "burger": {1};
+        case "cola": {1};
+        case "frite": {1};
+        case "biere": {1};
 	default {1};
 };

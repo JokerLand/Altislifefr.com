@@ -75,6 +75,10 @@ switch (_mode) do
 			case "artefact": {"life_inv_artefact"};
 			case "ephedrine": {"life_inv_ephedrine"};
 			case "phosphore": {"life_inv_phosphore"};
+                        case "burger": {"life_inv_burger"};
+                        case "cola": {"life_inv_cola"};
+                        case "frite": {"life_inv_frite"};
+                        case "biere": {"life_inv_biere"};
 		};
 	};
 	
@@ -141,6 +145,10 @@ switch (_mode) do
 			case "life_inv_artefact": {"artefact"};
 			case "life_inv_ephedrine": {"ephedrine"};
 			case "life_inv_phosphore": {"phosphore"};
+                        case "life_inv_burger": {"burger"};
+                        case "life_inv_cola": {"cola"};
+                        case "life_inv_frite": {"frite"};
+                        case "life_inv_biere": {"biere"};
 		};
 	};
 };

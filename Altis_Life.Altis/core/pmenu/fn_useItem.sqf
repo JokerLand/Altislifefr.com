@@ -20,6 +20,14 @@ switch (true) do
 			player setFatigue 0;
 		};
 	};
+        
+        case (_item == "cola" or _item == "biere"):
+	{
+		if(([false,_item,1] call life_fnc_handleInv)) then
+		{
+			life_thirst =100;
+		};
+	};
 	
 	case (_item == "boltcutter"): {
 		[cursorTarget] spawn life_fnc_boltcutter;
@@ -143,7 +151,7 @@ switch (true) do
 		[] spawn life_fnc_lockpick;
 	};
 	
-	case (_item in ["apple","rabbit","salema","ornate","mackerel","tuna","mullet","catshark","turtle","turtlesoup","donuts","tbacon","peach"]):
+	case (_item in ["apple","rabbit","salema","ornate","mackerel","tuna","mullet","catshark","turtle","turtlesoup","donuts","tbacon","peach","burger","frite"]):
 	{
 		[_item] call life_fnc_eatFood;
 	};

@@ -64,13 +64,14 @@ life_eat_Rabbit = 20;
 life_eat_Apple = 5;
 life_eat_turtlesoup = 62;
 life_eat_donuts = 30;
+life_eat_burger = 65;
+life_eat_frite = 30;
 
 /*
 *****************************
 ****** Life Variables *******
 *****************************
 */
-life_smartphoneTarget = ObjNull;
 life_net_dropped = false;
 life_hit_explosive = false;
 life_siren_active = false;
@@ -174,8 +175,12 @@ life_inv_items =
 	"life_inv_vodka",
 	"life_inv_grapes",
 	"life_inv_artefact",
-    "life_inv_ephedrine",
-	"life_inv_phosphore"
+        "life_inv_ephedrine",
+	"life_inv_phosphore",
+        "life_inv_burger",
+        "life_inv_cola",
+        "life_inv_frite",
+        "life_inv_biere"
 ];
 
 //Setup variable inv vars.
@@ -268,7 +273,11 @@ sell_array =
 	["grapes",60],
 	["artefact",2000],
 	["ephedrine",400],
-	["phosphore",400]
+	["phosphore",400],
+        ["burger",100],
+        ["cola",50],
+        ["frite",75],
+        ["biere",60]
 ];
 __CONST__(sell_array,sell_array);
 
@@ -301,7 +310,11 @@ buy_array =
 	["storagebig",150000],
 	["barriere",1000],
 	["cone",100],
-	["phosphore",500]
+	["phosphore",500],
+        ["burger",150],
+        ["cola",75],
+        ["frite",115],
+        ["biere",90]
 ];
 __CONST__(buy_array,buy_array);
 
