@@ -76,6 +76,13 @@ class CfgSounds
 		sound[] = {"\sounds\flashbang.ogg", 1.0, 1};
 		titles[] = {};
 	};
+        
+        class Patdown 
+        {
+		name = "Patdown";
+		sound[] = {"\sounds\patdown.ogg", .90, 1};
+		titles[] = {};
+        };
 	
 	class Intro
 	  {
