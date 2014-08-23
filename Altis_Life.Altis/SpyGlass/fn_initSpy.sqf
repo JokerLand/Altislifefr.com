@@ -14,7 +14,7 @@ __CONST__(SPY_cfg_enableSys,true); //Set to false to disable the scripted Spygla
 if(!(call SPY_cfg_enableSys)) exitWith {}; //Don't waste anymore time since it was disabled.
 //Additional configuration section.
 __CONST__(SPY_cfg_runVarCheck,true); //Run the variable checker? set to false if client performance is low.
-__CONST__(SPY_cfg_runPatchCheck,true); //Set to false to disable the patch checking (Not recommended but if you can't figure out how to white-list addons then whatever).
+__CONST__(SPY_cfg_runPatchCheck,false); //Set to false to disable the patch checking (Not recommended but if you can't figure out how to white-list addons then whatever).
 
 /*
 	Compile our list of allowed addon patches, by default this DOES NOT ALLOW ANY ADDONS.
@@ -108,7 +108,9 @@ SPY_cfg_patchList =
 "dar_ilpdn","DAR_Impala_F","DAR_MF1_A","DAR_Tahoe","DAR_Tahoe_A","DAR_Tahoe_F","DAR_Taurus","DAR_Taurus_F","DDOPP_taserPack","Exxpensive_soft","exxpensive_soft_2","exxpensive_soft_3","GNT_C185","HAFM_UK_WHEELED","HK430_M4benelli",
 "hk430&m4benelli_noaddons","hlcweapons_core","hlcweapons_aks","DAR_Impala_A","IVORY_T6A","Jonzie_Carpack","jonzie_sounds","Jonzie_Viper","rds_A2_Civilians","SAL_77TRANSAM_A","SAL_Audi_A","SAL_IROC_A","gign_shield","sounds","wheeled","wheeled2","CAWheeled3",
 "CASounds","CAWheeled2_MMT","Extended_EventHandlers","exxpensive_BMWM3E46","exxpensive_mercedes_sls","exxpensive_jaguar","exxpensvie_ford_raptor","exxpensive_lamborghini_aventador","exxpensvie_caddiac_sedan","exxpensive_mini_cooper",
-"exxpensive_volvo_242","Jonzie_A3L_Car_Base","Modified_MPInterrupt"];
+"exxpensive_volvo_242","Jonzie_A3L_Car_Base","Modified_MPInterrupt","cl3_wheeled","cl3_anims","cl3_sounds","cl3_vehiclefunctions","CL3_Wheeled","CL3_Anims","CL3_Sounds","CL3_VehicleFunctions","cl3_sounds_env","cl3_dbs_volante","cl3_r8_spyder",
+"cl3_z4_2008","cl3_veyron","cl3_dodge_charger_2012","cl3_458","cl3_civic_vti","cl3_lamborghini_gt1","cl3_murcielago","cl3_reventon","cl3_range_rover","cl3_e63_amg","cl3_carrera_gt","cl3_dumper_truck","cl3_insignia","cl3_golf_mk2","cl3_golf_learner",
+"cl3_polo_gti"];
 
 __CONST__(SPY_cfg_patchList,SPY_cfg_patchList); //Make the array static / constant.
 uiNamespace setVariable["RscDisplayRemoteMissions",displayNull]; //For Spy-Glass..

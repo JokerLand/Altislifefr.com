@@ -80,8 +80,7 @@ switch(_shop) do
 					[
 						["arifle_sdar_F","Taser Rifle",2500],
 						["20Rnd_556x45_UW_mag","Taser Rifle Magazine",50],
-						["DDOPP_X26","Tazer",2000],
-						["DDOPP_1Rnd_X26",nil,50],
+						["hgun_P07_snds_F","Tazer",2000],
 						["16Rnd_9x21_Mag",nil,50]
 					]
 				];
@@ -100,8 +99,7 @@ switch(_shop) do
 					[
 						["arifle_sdar_F","Taser Rifle",2500],
 						["20Rnd_556x45_UW_mag","Taser Rifle Magazine",50],
-						["DDOPP_X26","Tazer",2000],
-						["DDOPP_1Rnd_X26",nil,50],
+						["hgun_P07_snds_F","Tazer",2000],
 						["16Rnd_9x21_Mag",nil,50],
 						["hgun_ACPC2_F",nil,4500],
 						["9Rnd_45ACP_Mag",nil,70],
@@ -124,8 +122,7 @@ switch(_shop) do
 					[
 						["arifle_sdar_F","Taser Rifle",2500],
 						["20Rnd_556x45_UW_mag","Taser Rifle Magazine",50],
-						["DDOPP_X26","Tazer",2000],
-						["DDOPP_1Rnd_X26",nil,50],
+						["hgun_P07_snds_F","Tazer",2000],
 						["16Rnd_9x21_Mag",nil,50],
 						["hgun_ACPC2_F",nil,4500],
 						["9Rnd_45ACP_Mag",nil,70],
@@ -166,8 +163,7 @@ switch(_shop) do
 					[
 						["arifle_sdar_F","Taser Rifle",2500],
 						["20Rnd_556x45_UW_mag","Taser Rifle Magazine",50],
-						["DDOPP_X26","Tazer",2000],
-						["DDOPP_1Rnd_X26",nil,50],
+						["hgun_P07_snds_F","Tazer",2000],
 						["16Rnd_9x21_Mag",nil,50],
 						["hgun_ACPC2_F",nil,4500],
 						["9Rnd_45ACP_Mag",nil,70],
@@ -215,8 +211,7 @@ switch(_shop) do
 					[
 						["arifle_sdar_F","Taser Rifle",2500],
 						["20Rnd_556x45_UW_mag","Taser Rifle Magazine",50],
-						["DDOPP_X26","Tazer",2000],
-						["DDOPP_1Rnd_X26",nil,50],
+						["hgun_P07_snds_F","Tazer",2000],
 						["16Rnd_9x21_Mag",nil,50],
 						["hgun_ACPC2_F",nil,4500],
 						["9Rnd_45ACP_Mag",nil,70],
@@ -267,8 +262,7 @@ switch(_shop) do
 					[
 						["arifle_sdar_F","Taser Rifle",2500],
 						["20Rnd_556x45_UW_mag","Taser Rifle Magazine",50],
-						["DDOPP_X26","Tazer",2000],
-						["DDOPP_1Rnd_X26",nil,50],
+						["hgun_P07_snds_F","Tazer",2000],
 						["16Rnd_9x21_Mag",nil,50],
 						["hgun_ACPC2_F",nil,4500],
 						["9Rnd_45ACP_Mag",nil,70],
@@ -322,8 +316,7 @@ switch(_shop) do
 					[
 						["arifle_sdar_F","Taser Rifle",2500],
 						["20Rnd_556x45_UW_mag","Taser Rifle Magazine",50],
-						["DDOPP_X26","Tazer",2000],
-						["DDOPP_1Rnd_X26",nil,50],
+						["hgun_P07_snds_F","Tazer",2000],
 						["16Rnd_9x21_Mag",nil,50],
 						["hgun_ACPC2_F",nil,4500],
 						["9Rnd_45ACP_Mag",nil,70],

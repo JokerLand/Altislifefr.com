@@ -21,7 +21,7 @@ if(!isNil "TON_Debug") then {
 if(!isNull _source) then {
 	if(_source != _unit) then {
 		_curWep = currentWeapon _source;
-		if(_projectile in ["B_9x21_Ball","B_556x45_dual"] && _curWep in ["DDOPP_X26","hgun_P07_snds_F","arifle_SDAR_F"]) then {
+		if(_projectile in ["B_9x21_Ball","B_556x45_dual"] && _curWep in ["hgun_P07_snds_F","arifle_SDAR_F"]) then {
 			if(side _source == west && playerSide != west) then {
 				private["_distance","_isVehicle","_isQuad"];
 				_distance = if(_projectile == "B_556x45_dual") then {100} else {35};
@@ -49,7 +49,7 @@ if(!isNull _source) then {
 	};
 };
 
-if(vehicle _source isKindOf "LandVehicle" && !life_vShop_rentalOnly) exitWith {
+if(vehicle _source isKindOf "LandVehicle") exitWith {
 		 
 					_unit setDamage 0.5;
 					_source setDamage 0.9;

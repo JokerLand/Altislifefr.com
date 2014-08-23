@@ -16,12 +16,20 @@ switch (_vehicle) do
 	{
 		switch (_index) do
 		{
-			case 0: {_color = "Jaune";};
-			case 1: {_color = "Rouge";};
-			case 2: {_color = "Vert";};
-			case 3: {_color = "Bleu";};
-			case 4: {_color = "Brun";};
-			case 5: {_color = "Noir";};
+			case 0: {_color = "Noir";};
+			case 1: {_color = "Gris Sombre";};
+			case 2: {_color = "Gris";};
+			case 3: {_color = "Gris Clair";};
+			case 4: {_color = "Blanc";};
+			case 5: {_color = "Sable";};
+			case 6: {_color = "Bordeau";};
+			case 7: {_color = "Bleu";};
+			case 8: {_color = "Bleu Nuit";};
+			case 9: {_color = "Mauve Nuit";};
+			case 10: {_color = "Vert";};
+			case 11: {_color = "Rouge";};
+			case 12: {_color = "Jaune";};
+			case 13: {_color = "Orange";};
 		};
 	};
 	
@@ -29,12 +37,20 @@ switch (_vehicle) do
 	{
 		switch (_index) do
 		{
-			case 0: {_color = "Jaune";};
-			case 1: {_color = "Rouge";};
-			case 2: {_color = "Vert";};
-			case 3: {_color = "Bleu";};
-			case 4: {_color = "Brun";};
-			case 5: {_color = "Noir";};
+			case 0: {_color = "Noir";};
+			case 1: {_color = "Gris Sombre";};
+			case 2: {_color = "Gris";};
+			case 3: {_color = "Gris Clair";};
+			case 4: {_color = "Blanc";};
+			case 5: {_color = "Sable";};
+			case 6: {_color = "Bordeau";};
+			case 7: {_color = "Bleu";};
+			case 8: {_color = "Bleu Nuit";};
+			case 9: {_color = "Mauve Nuit";};
+			case 10: {_color = "Vert";};
+			case 11: {_color = "Rouge";};
+			case 12: {_color = "Jaune";};
+			case 13: {_color = "Orange";};
 		};
 	};
 	
@@ -42,12 +58,20 @@ switch (_vehicle) do
 	{
 		switch (_index) do
 		{
-			case 0: {_color = "Jaune";};
-			case 1: {_color = "Rouge";};
-			case 2: {_color = "Vert";};
-			case 3: {_color = "Bleu";};
-			case 4: {_color = "Brun";};
-			case 5: {_color = "Noir";};
+			case 0: {_color = "Noir";};
+			case 1: {_color = "Gris Sombre";};
+			case 2: {_color = "Gris";};
+			case 3: {_color = "Gris Clair";};
+			case 4: {_color = "Blanc";};
+			case 5: {_color = "Sable";};
+			case 6: {_color = "Bordeau";};
+			case 7: {_color = "Bleu";};
+			case 8: {_color = "Bleu Nuit";};
+			case 9: {_color = "Mauve Nuit";};
+			case 10: {_color = "Vert";};
+			case 11: {_color = "Rouge";};
+			case 12: {_color = "Jaune";};
+			case 13: {_color = "Orange";};
 		};
 	};
 	
@@ -55,12 +79,41 @@ switch (_vehicle) do
 	{
 		switch (_index) do
 		{
-			case 0: {_color = "Jaune";};
-			case 1: {_color = "Rouge";};
-			case 2: {_color = "Vert";};
-			case 3: {_color = "Bleu";};
-			case 4: {_color = "Brun";};
-			case 5: {_color = "Noir";};
+			case 0: {_color = "Noir";};
+			case 1: {_color = "Gris Sombre";};
+			case 2: {_color = "Gris";};
+			case 3: {_color = "Gris Clair";};
+			case 4: {_color = "Blanc";};
+			case 5: {_color = "Sable";};
+			case 6: {_color = "Bordeau";};
+			case 7: {_color = "Bleu";};
+			case 8: {_color = "Bleu Nuit";};
+			case 9: {_color = "Mauve Nuit";};
+			case 10: {_color = "Vert";};
+			case 11: {_color = "Rouge";};
+			case 12: {_color = "Jaune";};
+			case 13: {_color = "Orange";};
+		};
+	};
+	
+	case "cl3_civic_vti_black" :
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Noir";};
+			case 1: {_color = "Gris Sombre";};
+			case 2: {_color = "Gris";};
+			case 3: {_color = "Gris Clair";};
+			case 4: {_color = "Blanc";};
+			case 5: {_color = "Sable";};
+			case 6: {_color = "Bordeau";};
+			case 7: {_color = "Bleu";};
+			case 8: {_color = "Bleu Nuit";};
+			case 9: {_color = "Mauve Nuit";};
+			case 10: {_color = "Vert";};
+			case 11: {_color = "Rouge";};
+			case 12: {_color = "Jaune";};
+			case 13: {_color = "Orange";};
 		};
 	};
 	
@@ -68,12 +121,20 @@ switch (_vehicle) do
 	{
 		switch (_index) do
 		{
-			case 0: {_color = "Jaune";};
-			case 1: {_color = "Rouge";};
-			case 2: {_color = "Vert";};
-			case 3: {_color = "Bleu";};
-			case 4: {_color = "Brun";};
-			case 5: {_color = "Noir";};
+			case 0: {_color = "Noir";};
+			case 1: {_color = "Gris Sombre";};
+			case 2: {_color = "Gris";};
+			case 3: {_color = "Gris Clair";};
+			case 4: {_color = "Blanc";};
+			case 5: {_color = "Sable";};
+			case 6: {_color = "Bordeau";};
+			case 7: {_color = "Bleu";};
+			case 8: {_color = "Bleu Nuit";};
+			case 9: {_color = "Mauve Nuit";};
+			case 10: {_color = "Vert";};
+			case 11: {_color = "Rouge";};
+			case 12: {_color = "Jaune";};
+			case 13: {_color = "Orange";};
 		};
 	};
 	
@@ -81,12 +142,62 @@ switch (_vehicle) do
 	{
 		switch (_index) do
 		{
-			case 0: {_color = "Jaune";};
-			case 1: {_color = "Rouge";};
-			case 2: {_color = "Vert";};
-			case 3: {_color = "Bleu";};
-			case 4: {_color = "Brun";};
-			case 5: {_color = "Noir";};
+			case 0: {_color = "Noir";};
+			case 1: {_color = "Gris Sombre";};
+			case 2: {_color = "Gris";};
+			case 3: {_color = "Gris Clair";};
+			case 4: {_color = "Blanc";};
+			case 5: {_color = "Sable";};
+			case 6: {_color = "Bordeau";};
+			case 7: {_color = "Bleu";};
+			case 8: {_color = "Bleu Nuit";};
+			case 9: {_color = "Mauve Nuit";};
+			case 10: {_color = "Vert";};
+			case 11: {_color = "Rouge";};
+			case 12: {_color = "Jaune";};
+			case 13: {_color = "Orange";};
+		};
+	};
+	
+	case "cl3_polo_gti_black" :
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Noir";};
+			case 1: {_color = "Gris Sombre";};
+			case 2: {_color = "Gris";};
+			case 3: {_color = "Gris Clair";};
+			case 4: {_color = "Blanc";};
+			case 5: {_color = "Sable";};
+			case 6: {_color = "Bordeau";};
+			case 7: {_color = "Bleu";};
+			case 8: {_color = "Bleu Nuit";};
+			case 9: {_color = "Mauve Nuit";};
+			case 10: {_color = "Vert";};
+			case 11: {_color = "Rouge";};
+			case 12: {_color = "Jaune";};
+			case 13: {_color = "Orange";};
+		};
+	};
+	
+	case "cl3_insignia_black" :
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Noir";};
+			case 1: {_color = "Gris Sombre";};
+			case 2: {_color = "Gris";};
+			case 3: {_color = "Gris Clair";};
+			case 4: {_color = "Blanc";};
+			case 5: {_color = "Sable";};
+			case 6: {_color = "Bordeau";};
+			case 7: {_color = "Bleu";};
+			case 8: {_color = "Bleu Nuit";};
+			case 9: {_color = "Mauve Nuit";};
+			case 10: {_color = "Vert";};
+			case 11: {_color = "Rouge";};
+			case 12: {_color = "Jaune";};
+			case 13: {_color = "Orange";};
 		};
 	};
 	
@@ -94,12 +205,20 @@ switch (_vehicle) do
 	{
 		switch (_index) do
 		{
-			case 0: {_color = "Jaune";};
-			case 1: {_color = "Rouge";};
-			case 2: {_color = "Vert";};
-			case 3: {_color = "Bleu";};
-			case 4: {_color = "Brun";};
-			case 5: {_color = "Noir";};
+			case 0: {_color = "Noir";};
+			case 1: {_color = "Gris Sombre";};
+			case 2: {_color = "Gris";};
+			case 3: {_color = "Gris Clair";};
+			case 4: {_color = "Blanc";};
+			case 5: {_color = "Sable";};
+			case 6: {_color = "Bordeau";};
+			case 7: {_color = "Bleu";};
+			case 8: {_color = "Bleu Nuit";};
+			case 9: {_color = "Mauve Nuit";};
+			case 10: {_color = "Vert";};
+			case 11: {_color = "Rouge";};
+			case 12: {_color = "Jaune";};
+			case 13: {_color = "Orange";};
 		};
 	};
 	
@@ -107,12 +226,62 @@ switch (_vehicle) do
 	{
 		switch (_index) do
 		{
-			case 0: {_color = "Jaune";};
-			case 1: {_color = "Rouge";};
-			case 2: {_color = "Vert";};
-			case 3: {_color = "Bleu";};
-			case 4: {_color = "Brun";};
-			case 5: {_color = "Noir";};
+			case 0: {_color = "Noir";};
+			case 1: {_color = "Gris Sombre";};
+			case 2: {_color = "Gris";};
+			case 3: {_color = "Gris Clair";};
+			case 4: {_color = "Blanc";};
+			case 5: {_color = "Sable";};
+			case 6: {_color = "Bordeau";};
+			case 7: {_color = "Bleu";};
+			case 8: {_color = "Bleu Nuit";};
+			case 9: {_color = "Mauve Nuit";};
+			case 10: {_color = "Vert";};
+			case 11: {_color = "Rouge";};
+			case 12: {_color = "Jaune";};
+			case 13: {_color = "Orange";};
+		};
+	};
+	
+	case "cl3_e63_amg_black" :
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Noir";};
+			case 1: {_color = "Gris Sombre";};
+			case 2: {_color = "Gris";};
+			case 3: {_color = "Gris Clair";};
+			case 4: {_color = "Blanc";};
+			case 5: {_color = "Sable";};
+			case 6: {_color = "Bordeau";};
+			case 7: {_color = "Bleu";};
+			case 8: {_color = "Bleu Nuit";};
+			case 9: {_color = "Mauve Nuit";};
+			case 10: {_color = "Vert";};
+			case 11: {_color = "Rouge";};
+			case 12: {_color = "Jaune";};
+			case 13: {_color = "Orange";};
+		};
+	};
+	
+	case "cl3_range_rover_black" :
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Noir";};
+			case 1: {_color = "Gris Sombre";};
+			case 2: {_color = "Gris";};
+			case 3: {_color = "Gris Clair";};
+			case 4: {_color = "Blanc";};
+			case 5: {_color = "Sable";};
+			case 6: {_color = "Bordeau";};
+			case 7: {_color = "Bleu";};
+			case 8: {_color = "Bleu Nuit";};
+			case 9: {_color = "Mauve Nuit";};
+			case 10: {_color = "Vert";};
+			case 11: {_color = "Rouge";};
+			case 12: {_color = "Jaune";};
+			case 13: {_color = "Orange";};
 		};
 	};
 	
@@ -120,12 +289,20 @@ switch (_vehicle) do
 	{
 		switch (_index) do
 		{
-			case 0: {_color = "Jaune";};
-			case 1: {_color = "Rouge";};
-			case 2: {_color = "Vert";};
-			case 3: {_color = "Bleu";};
-			case 4: {_color = "Brun";};
-			case 5: {_color = "Noir";};
+			case 0: {_color = "Noir";};
+			case 1: {_color = "Gris Sombre";};
+			case 2: {_color = "Gris";};
+			case 3: {_color = "Gris Clair";};
+			case 4: {_color = "Blanc";};
+			case 5: {_color = "Sable";};
+			case 6: {_color = "Bordeau";};
+			case 7: {_color = "Bleu";};
+			case 8: {_color = "Bleu Nuit";};
+			case 9: {_color = "Mauve Nuit";};
+			case 10: {_color = "Vert";};
+			case 11: {_color = "Rouge";};
+			case 12: {_color = "Jaune";};
+			case 13: {_color = "Orange";};
 		};
 	};
 	
@@ -155,16 +332,24 @@ switch (_vehicle) do
 		};
 	};
 	
-	case "A3L_ChargerCstm" :
+	case "cl3_dodge_charger_s_black" :
 	{
 		switch (_index) do
 		{
-			case 0: {_color = "Jaune";};
-			case 1: {_color = "Rouge";};
-			case 2: {_color = "Vert";};
-			case 3: {_color = "Bleu";};
-			case 4: {_color = "Brun";};
-			case 5: {_color = "Noir";};
+			case 0: {_color = "Noir";};
+			case 1: {_color = "Gris Sombre";};
+			case 2: {_color = "Gris";};
+			case 3: {_color = "Gris Clair";};
+			case 4: {_color = "Blanc";};
+			case 5: {_color = "Sable";};
+			case 6: {_color = "Bordeau";};
+			case 7: {_color = "Bleu";};
+			case 8: {_color = "Bleu Nuit";};
+			case 9: {_color = "Mauve Nuit";};
+			case 10: {_color = "Vert";};
+			case 11: {_color = "Rouge";};
+			case 12: {_color = "Jaune";};
+			case 13: {_color = "Orange";};
 		};
 	};
 	
@@ -181,16 +366,171 @@ switch (_vehicle) do
 		};
 	};
 	
+	case "cl3_z4_2008_black" :
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Noir";};
+			case 1: {_color = "Gris Sombre";};
+			case 2: {_color = "Gris";};
+			case 3: {_color = "Gris Clair";};
+			case 4: {_color = "Blanc";};
+			case 5: {_color = "Sable";};
+			case 6: {_color = "Bordeau";};
+			case 7: {_color = "Bleu";};
+			case 8: {_color = "Bleu Nuit";};
+			case 9: {_color = "Mauve Nuit";};
+			case 10: {_color = "Vert";};
+			case 11: {_color = "Rouge";};
+			case 12: {_color = "Jaune";};
+			case 13: {_color = "Orange";};
+		};
+	};
+	
+	case "cl3_carrera_gt_black" :
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Noir";};
+			case 1: {_color = "Gris Sombre";};
+			case 2: {_color = "Gris";};
+			case 3: {_color = "Gris Clair";};
+			case 4: {_color = "Blanc";};
+			case 5: {_color = "Sable";};
+			case 6: {_color = "Bordeau";};
+			case 7: {_color = "Bleu";};
+			case 8: {_color = "Bleu Nuit";};
+			case 9: {_color = "Mauve Nuit";};
+			case 10: {_color = "Vert";};
+			case 11: {_color = "Rouge";};
+			case 12: {_color = "Jaune";};
+			case 13: {_color = "Orange";};
+		};
+	};
+	
+	case "cl3_dbs_volante_black" :
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Noir";};
+			case 1: {_color = "Gris Sombre";};
+			case 2: {_color = "Gris";};
+			case 3: {_color = "Gris Clair";};
+			case 4: {_color = "Blanc";};
+			case 5: {_color = "Sable";};
+			case 6: {_color = "Bordeau";};
+			case 7: {_color = "Bleu";};
+			case 8: {_color = "Bleu Nuit";};
+			case 9: {_color = "Mauve Nuit";};
+			case 10: {_color = "Vert";};
+			case 11: {_color = "Rouge";};
+			case 12: {_color = "Jaune";};
+			case 13: {_color = "Orange";};
+		};
+	};
+	
 	case "Jonzie_Viper" :
 	{
 		switch (_index) do
 		{
-			case 0: {_color = "Jaune";};
-			case 1: {_color = "Rouge";};
-			case 2: {_color = "Vert";};
-			case 3: {_color = "Bleu";};
-			case 4: {_color = "Brun";};
-			case 5: {_color = "Noir";};
+			case 0: {_color = "Noir";};
+			case 1: {_color = "Gris Sombre";};
+			case 2: {_color = "Gris";};
+			case 3: {_color = "Gris Clair";};
+			case 4: {_color = "Blanc";};
+			case 5: {_color = "Sable";};
+			case 6: {_color = "Bordeau";};
+			case 7: {_color = "Bleu";};
+			case 8: {_color = "Bleu Nuit";};
+			case 9: {_color = "Mauve Nuit";};
+			case 10: {_color = "Vert";};
+			case 11: {_color = "Rouge";};
+			case 12: {_color = "Jaune";};
+			case 13: {_color = "Orange";};
+		};
+	};
+	
+	case "cl3_r8_spyder_black" :
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Noir";};
+			case 1: {_color = "Gris Sombre";};
+			case 2: {_color = "Gris";};
+			case 3: {_color = "Gris Clair";};
+			case 4: {_color = "Blanc";};
+			case 5: {_color = "Sable";};
+			case 6: {_color = "Bordeau";};
+			case 7: {_color = "Bleu";};
+			case 8: {_color = "Bleu Nuit";};
+			case 9: {_color = "Mauve Nuit";};
+			case 10: {_color = "Vert";};
+			case 11: {_color = "Rouge";};
+			case 12: {_color = "Jaune";};
+			case 13: {_color = "Orange";};
+		};
+	};
+	
+	case "cl3_458_black" :
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Noir";};
+			case 1: {_color = "Gris Sombre";};
+			case 2: {_color = "Gris";};
+			case 3: {_color = "Gris Clair";};
+			case 4: {_color = "Blanc";};
+			case 5: {_color = "Sable";};
+			case 6: {_color = "Bordeau";};
+			case 7: {_color = "Bleu";};
+			case 8: {_color = "Bleu Nuit";};
+			case 9: {_color = "Mauve Nuit";};
+			case 10: {_color = "Vert";};
+			case 11: {_color = "Rouge";};
+			case 12: {_color = "Jaune";};
+			case 13: {_color = "Orange";};
+		};
+	};
+	
+	case "cl3_murcielago_black" :
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Noir";};
+			case 1: {_color = "Gris Sombre";};
+			case 2: {_color = "Gris";};
+			case 3: {_color = "Gris Clair";};
+			case 4: {_color = "Blanc";};
+			case 5: {_color = "Sable";};
+			case 6: {_color = "Bordeau";};
+			case 7: {_color = "Bleu";};
+			case 8: {_color = "Bleu Nuit";};
+			case 9: {_color = "Mauve Nuit";};
+			case 10: {_color = "Vert";};
+			case 11: {_color = "Rouge";};
+			case 12: {_color = "Jaune";};
+			case 13: {_color = "Orange";};
+		};
+	};
+	
+	case "cl3_reventon_black" :
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Noir";};
+			case 1: {_color = "Gris Sombre";};
+			case 2: {_color = "Gris";};
+			case 3: {_color = "Gris Clair";};
+			case 4: {_color = "Blanc";};
+			case 5: {_color = "Sable";};
+			case 6: {_color = "Bordeau";};
+			case 7: {_color = "Bleu";};
+			case 8: {_color = "Bleu Nuit";};
+			case 9: {_color = "Mauve Nuit";};
+			case 10: {_color = "Vert";};
+			case 11: {_color = "Rouge";};
+			case 12: {_color = "Jaune";};
+			case 13: {_color = "Orange";};
 		};
 	};
 	
@@ -204,6 +544,88 @@ switch (_vehicle) do
 			case 3: {_color = "Orange";};
 			case 4: {_color = "Bordeau";};
 			case 5: {_color = "Blanc";};
+		};
+	};
+	
+	case "cl3_veyron_blk_wht" :
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Noir";};
+			case 1: {_color = "Gris Sombre";};
+			case 2: {_color = "Gris";};
+			case 3: {_color = "Gris Clair";};
+			case 4: {_color = "Blanc";};
+			case 5: {_color = "Sable";};
+			case 6: {_color = "Bordeau";};
+			case 7: {_color = "Bleu";};
+			case 8: {_color = "Bleu Nuit";};
+			case 9: {_color = "Mauve Nuit";};
+			case 10: {_color = "Vert";};
+			case 11: {_color = "Rouge";};
+			case 12: {_color = "Jaune";};
+			case 13: {_color = "Orange";};
+		};
+	};
+	
+	case "cl3_lamborghini_gt1_black" :
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Noir";};
+			case 1: {_color = "Gris Sombre";};
+			case 2: {_color = "Gris";};
+			case 3: {_color = "Gris Clair";};
+			case 4: {_color = "Blanc";};
+			case 5: {_color = "Sable";};
+			case 6: {_color = "Bordeau";};
+			case 7: {_color = "Bleu";};
+			case 8: {_color = "Bleu Nuit";};
+			case 9: {_color = "Mauve Nuit";};
+			case 10: {_color = "Vert";};
+			case 11: {_color = "Rouge";};
+			case 12: {_color = "Jaune";};
+			case 13: {_color = "Orange";};
+		};
+	};
+	
+	case "cl3_insignia_camo" :
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Camo";};
+			case 1: {_color = "Camo Urbain";};
+			case 2: {_color = "Noir";};
+		};
+	};
+	
+	case "cl3_dodge_charger_s_camo" :
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Camo";};
+			case 1: {_color = "Camo Urbain";};
+			case 2: {_color = "Noir";};
+		};
+	};
+	
+	case "cl3_e63_amg_camo" :
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Camo";};
+			case 1: {_color = "Camo Urbain";};
+			case 2: {_color = "Noir";};
+		};
+	};
+	
+	case "cl3_range_rover_camo" :
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Camo";};
+			case 1: {_color = "Camo Urbain";};
+			case 2: {_color = "Noir";};
 		};
 	};
 	
