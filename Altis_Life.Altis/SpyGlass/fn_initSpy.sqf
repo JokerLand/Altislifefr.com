@@ -14,7 +14,7 @@ __CONST__(SPY_cfg_enableSys,true); //Set to false to disable the scripted Spygla
 if(!(call SPY_cfg_enableSys)) exitWith {}; //Don't waste anymore time since it was disabled.
 //Additional configuration section.
 __CONST__(SPY_cfg_runVarCheck,true); //Run the variable checker? set to false if client performance is low.
-__CONST__(SPY_cfg_runPatchCheck,true); //Set to false to disable the patch checking (Not recommended but if you can't figure out how to white-list addons then whatever).
+__CONST__(SPY_cfg_runPatchCheck,false); //Set to false to disable the patch checking (Not recommended but if you can't figure out how to white-list addons then whatever).
 
 /*
 	Compile our list of allowed addon patches, by default this DOES NOT ALLOW ANY ADDONS.
@@ -74,7 +74,7 @@ SPY_cfg_patchList =
 "A3_Structures_F_EPC_Civ_Tourism","A3_Structures_F_EPC_Dominants_GhostHotel","A3_Structures_F_EPC_Dominants_Stadium","A3_Structures_F_EPC_Furniture","A3_Structures_F_EPC_Items_Documents",
 "A3_Structures_F_EPC_Items_Electronics","A3_Structures_F_EPC_Walls","A3_UIFonts_F","A3_Animals_F","A3_Animals_F_AnimConfig","A3_Animals_F_Fishes","A3_Animals_F_Kestrel","A3_Animals_F_Rabbit",
 "A3_Animals_F_Seagull","A3_Animals_F_Snakes","A3_Animals_F_Turtle","A3_Animals_F_Chicken","A3_Animals_F_Dog","A3_Animals_F_Goat","A3_Animals_F_Sheep","A3_Anims_F","A3_Anims_F_Config_Sdr",
-"A3_Anims_F_EPA","A3_Anims_F_EPC","A3_Map_Data","A3_Map_Stratis","A3_Map_Stratis_Scenes","A3_Plants","A3_bush","A3_Plants_F_Bush","A3_Signs_F","A3_Signs_F_AD","A3_UI_F","A3_UI_F_Curator","A3_Weapons_F",
+"A3_Anims_F_EPA","A3_Anims_F_EPC","A3_Map_Data","A3_Map_Stratis","A3_Map_Stratis_Scenes","A3_Plants_F_Bush","A3_Signs_F","A3_Signs_F_AD","A3_UI_F","A3_UI_F_Curator","A3_Weapons_F",
 "A3_Weapons_F_NATO","A3_Weapons_F_CSAT","A3_Weapons_F_AAF","A3_weapons_F_FIA","A3_Weapons_F_ItemHolders","A3_Weapons_F_Headgear","A3_Weapons_F_Uniforms","A3_Weapons_F_Vests","A3_Weapons_F_Ammoboxes",
 "A3_Weapons_F_DummyWeapons","A3_Weapons_F_Explosives","A3_Weapons_F_Items","A3_Weapons_F_Launchers_NLAW","A3_Weapons_F_Launchers_LAW","A3_Weapons_F_EBR","A3_Weapons_F_LongRangeRifles_GM6",
 "A3_Weapons_F_LongRangeRifles_M320","A3_Weapons_F_Machineguns_M200","A3_Weapons_F_Pistols_P07","A3_Weapons_F_Pistols_Rook40","A3_Weapons_F_Rifles_Khaybar","A3_Weapons_F_Rifles_MX","A3_Weapons_F_Rifles_SDAR",
@@ -98,17 +98,21 @@ SPY_cfg_patchList =
 "A3_Armor_F_AMV","A3_Armor_F_Marid","A3_Armor_F_EPC_MBT_01","A3_Armor_F_APC_Wheeled_03","A3_CargoPoses_F","A3_Soft_F_Crusher_UGV","A3_Missions_F_Curator","A3_Data_F_Kart_ParticleEffects","A3_Language_F_Kart",
 "A3_LanguageMissions_F_Kart","A3_Structures_F_Kart_Civ_SportsGrounds","A3_Structures_F_Kart_Mil_Flags","A3_Anims_F_Kart","A3_Structures_F_Kart_Signs_Companies","A3_UI_F_Kart",
 "A3_Weapons_F_Kart_Pistols_Pistol_Signal_F","A3_Data_F_Kart","A3_Missions_F_Kart","A3_Modules_F_Kart","A3_Modules_F_Kart_TimeTrials","A3_Weapons_F_Kart","A3_Characters_F_Kart","A3_Soft_F_Kart_Kart_01",
-"A3_Structures_F_Civ_Graffiti","A3_Structures_F_Civ_Kiosks","A3_Structures_F_Civ_Tourism","A3_Structures_F_Items_Medical","A3_Structures_F_Items_Military","A3_Structures_F_Naval_Fishing","A3_Structures_F_Signs_Companies",
-"A3_Structures_F_Mil_Scrapyard","A3_Soft_F_Bootcamp_Truck","A3_Soft_F_Bootcamp_Quadbike","A3_Soft_F_Bootcamp_Offroad_01","A3_Weapons_F_Bootcamp","A3_Modules_F_Bootcamp_Misc","A3_Modules_F_Bootcamp","A3_Characters_F_Bootcamp_Common",
-"A3_Weapons_F_Bootcamp_Ammoboxes","A3_UI_F_Bootcamp","A3_Characters_F_Bootcamp","A3_Weapons_F_Bootcamp_LongRangeRifles_M320","A3_Weapons_F_Bootcamp_LongRangeRifles_GM6","A3_Structures_F_Bootcamp_Items_Food","A3_Structures_F_Bootcamp_Items_Electronics",
-"A3_Structures_F_Bootcamp_Civ_SportsGrounds","A3_Structures_F_Bootcamp_Civ_Camping","A3_Language_F_Bootcamp","A3_Functions_F_Bootcamp","A3_Structures_F_Bootcamp_VR_Helpers","A3_Structures_F_Bootcamp_VR_CoverObjects","A3_Structures_F_Bootcamp_VR_Blocks",
-"A3_Structures_F_Bootcamp_Training","A3_Structures_F_Bootcamp_System","A3_Structures_F_Bootcamp_Items_Sport","A3_Structures_F_Bootcamp_Ind_Cargo","A3_Sounds_F_Bootcamp","A3_Data_F_Bootcamp","A3_Map_VR_Scenes","A3_Missions_F_Bootcamp","A3_Music_F_Bootcamp","Map_VR","A3_Stones"
-];
+"A3_Structures_F_Civ_Graffiti","A3_Structures_F_Civ_Kiosks","A3_Structures_F_Civ_Tourism","A3_Structures_F_Items_Medical","A3_Structures_F_Items_Military","A3_Structures_F_Naval_Fishing","A3_Structures_F_Signs_Companies","A3_Structures_F_Mil_Scrapyard",
+"A3_Soft_F_Bootcamp_Truck","A3_Soft_F_Bootcamp_Quadbike","A3_Soft_F_Bootcamp_Offroad_01","A3_Weapons_F_Bootcamp","A3_Modules_F_Bootcamp_Misc","A3_Modules_F_Bootcamp","A3_Characters_F_Bootcamp_Common","A3_Weapons_F_Bootcamp_Ammoboxes","A3_UI_F_Bootcamp",
+"A3_Characters_F_Bootcamp","A3_Weapons_F_Bootcamp_LongRangeRifles_M320","A3_Weapons_F_Bootcamp_LongRangeRifles_GM6","A3_Structures_F_Bootcamp_Items_Food","A3_Structures_F_Bootcamp_Items_Electronics","A3_Structures_F_Bootcamp_Civ_SportsGrounds",
+"A3_Structures_F_Bootcamp_Civ_Camping","A3_Language_F_Bootcamp","A3_Functions_F_Bootcamp","A3_Structures_F_Bootcamp_VR_Helpers","A3_Structures_F_Bootcamp_VR_CoverObjects","A3_Structures_F_Bootcamp_VR_Blocks","A3_Structures_F_Bootcamp_Training",
+"A3_Structures_F_Bootcamp_System","A3_Structures_F_Bootcamp_Items_Sport","A3_Structures_F_Bootcamp_Ind_Cargo","A3_Sounds_F_Bootcamp","A3_Data_F_Bootcamp","A3_Map_VR_Scenes","A3_Missions_F_Bootcamp","A3_Music_F_Bootcamp","Map_VR",
+"BMW_M5","A3L_Charger","A3L_Dumptruck","A3L_Punto","A3L_VolksWagenGolfGTi","cba_ai","cba_arrays","cba_common","cba_diagnostic","cba_events","CBA_Extended_EventHandlers","cba_hashes","cba_help","cba_keybinding",
+"cba_main","cba_main_a3","cba_network","cba_strings","cba_ui","cba_ui_helper","cba_vectors","cba_versioning","cba_xeh","cba_xeh_a3","DAR_Firebird_F","DAR_Challenger_F","DAR_Challenger","DAR_Charger_F","DAR_Explorer_F","DAR_Fusion_F",
+"dar_ilpdn","DAR_Impala_F","DAR_MF1_A","DAR_Tahoe","DAR_Tahoe_A","DAR_Tahoe_F","DAR_Taurus","DAR_Taurus_F","DDOPP_taserPack","Exxpensive_soft","exxpensive_soft_2","exxpensive_soft_3","GNT_C185","HAFM_UK_WHEELED","HK430_M4benelli",
+"hk430&m4benelli_noaddons","hlcweapons_core","hlcweapons_aks","DAR_Impala_A","IVORY_T6A","Jonzie_Carpack","jonzie_sounds","Jonzie_Viper","rds_A2_Civilians","SAL_77TRANSAM_A","SAL_Audi_A","SAL_IROC_A","gign_shield","sounds","wheeled","wheeled2","CAWheeled3",
+"CASounds","CAWheeled2_MMT","Extended_EventHandlers","exxpensive_BMWM3E46","exxpensive_mercedes_sls","exxpensive_jaguar","exxpensvie_ford_raptor","exxpensive_lamborghini_aventador","exxpensvie_caddiac_sedan","exxpensive_mini_cooper",
+"exxpensive_volvo_242","Jonzie_A3L_Car_Base","Modified_MPInterrupt","cl3_wheeled","cl3_anims","cl3_sounds","cl3_vehiclefunctions","CL3_Wheeled","CL3_Anims","CL3_Sounds","CL3_VehicleFunctions","cl3_sounds_env","cl3_dbs_volante","cl3_r8_spyder",
+"cl3_z4_2008","cl3_veyron","cl3_dodge_charger_2012","cl3_458","cl3_civic_vti","cl3_lamborghini_gt1","cl3_murcielago","cl3_reventon","cl3_range_rover","cl3_e63_amg","cl3_carrera_gt","cl3_dumper_truck","cl3_insignia","cl3_golf_mk2","cl3_golf_learner",
+"cl3_polo_gti"];
 
 __CONST__(SPY_cfg_patchList,SPY_cfg_patchList); //Make the array static / constant.
 uiNamespace setVariable["RscDisplayRemoteMissions",displayNull]; //For Spy-Glass..
 
-[] spawn {
-	waitUntil {(!isNil "life_fnc_moveIn" && !isNil "life_adminlevel")};
-	[] call SPY_fnc_payLoad; //Initialize Spyglass.
-};
+[] call SPY_fnc_payLoad; //Initialize Spyglass.

@@ -24,8 +24,6 @@ __CONST__(JJJJ_MMMM___EEEEEEE_LLYYSSTTIICCC_SHIT_RE,"No");
 __CONST__(JJJJ_MMMM___EEEEEEE_LLYYSSTTIICCC_SHIT_RE_OLD,"No");
 __CONST__(JJJJ_MMMM___EEEEEEE_SPAWN_VEH,"No");
 __CONST__(JJJJ_MMMM___EEEEEEE_SPAWN_WEAPON,"No");
-if(!(__GETC__(SPY_cfg_enableSys))) exitWith {}; //Don't waste anymore time since it was disabled.
-//if(__GETC__(life_adminlevel) != 0) exitWith {}; //Don't run this for admins?
 
 //Make sure all functions were offloaded to the client..
 waitUntil {!isNil "SPY_fnc_menuCheck" && !isNil "SPY_fnc_variablecheck" && !isNil "SPY_fnc_cmdMenuCheck"};
@@ -63,6 +61,25 @@ _allowedChildren = [
 		["SpyGlass",false,false] call BIS_fnc_endMission;
 	};
 } foreach _children;
+
+//Validate that RscDisplayInventory is not modified common cheat-engine sqf executor method.
+private["_onLoad","_onUnload"];
+_onLoad = getText(configFile >> "RscDisplayInventory" >> "onLoad");
+_onUnload = getText(configFile >> "RscDisplayInventory" >> "onUnload");
+
+if(_onLoad != "[""onLoad"",_this,""RscDisplayInventory"",'IGUI'] call compile preprocessfilelinenumbers ""A3\ui_f\scripts\initDisplay.sqf""") exitWith {
+	[[profileName,getPlayerUID player,"Modified_RscDisplayInventory_onLoad"],"SPY_fnc_cookieJar",false,false] spawn life_fnc_MP;
+	[[profileName,"Modified RscDisplayInventory_onLoad (CheatEngine injection)"],"SPY_fnc_notifyAdmins",true,false] spawn life_fnc_MP;
+	sleep 0.5;
+	["SpyGlass",false,false] call BIS_fnc_endMission;
+};
+if(_onUnload != "[""onUnload"",_this,""RscDisplayInventory"",'IGUI'] call compile preprocessfilelinenumbers ""A3\ui_f\scripts\initDisplay.sqf""") exitWith {
+	[[profileName,getPlayerUID player,"Modified_RscDisplayInventory_onUnload"],"SPY_fnc_cookieJar",false,false] spawn life_fnc_MP;
+	[[profileName,"Modified RscDisplayInventory_onUnload (CheatEngine injection)"],"SPY_fnc_notifyAdmins",true,false] spawn life_fnc_MP;
+	sleep 0.5;
+	["SpyGlass",false,false] call BIS_fnc_endMission;
+};
+
 	
 //Launch our workers
 [] call SPY_fnc_menuCheck;
@@ -70,6 +87,8 @@ _allowedChildren = [
 [] spawn SPY_fnc_variableCheck;
 
 //Create a no-recoil hack check.
+//Reminder to Tonic, dafuq?
+/*
 [] spawn {
 	while {true} do {
 		if((unitRecoilCoefficient player) < 1) then {
@@ -81,3 +100,4 @@ _allowedChildren = [
 		sleep 1.5;
 	};
 };
+*/
