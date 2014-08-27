@@ -510,6 +510,7 @@ switch (_vehicle) do
 			case 11: {_color = "Rouge";};
 			case 12: {_color = "Jaune";};
 			case 13: {_color = "Orange";};
+			case 14: {_color = "Police";};
 		};
 	};
 	

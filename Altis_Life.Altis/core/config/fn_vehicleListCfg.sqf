@@ -162,6 +162,8 @@ switch (_shop) do
 			["I_MRAP_03_F",1000000]];
 			_return set[count _return,
 			["DAR_TaurusPolice",100000]];
+			_return set[count _return,
+			["cl3_murcielago_black",400000]];
 			
 			}; 
   
