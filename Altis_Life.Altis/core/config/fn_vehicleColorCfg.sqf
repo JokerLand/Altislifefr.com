@@ -510,7 +510,8 @@ switch (_vehicle) do
 			["#(argb,8,8,3)color(0.5,1,0.5,0.05)","civ"],
 			["#(argb,8,8,3)color(1,0,0,1)","civ"],
 			["#(argb,8,8,3)color(0.6,0.3,0.01,1)","civ"],
-			["#(argb,8,8,3)color(1,0.3,0.01,0.6)","civ"]
+			["#(argb,8,8,3)color(1,0.3,0.01,0.6)","civ"],
+			["textures\murcielago_police.jpg","cop"]
  		];
  	};
 	
