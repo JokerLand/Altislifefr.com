@@ -216,7 +216,15 @@ life_licenses =
 	["license_civ_presse","civ"],
 	["license_civ_home","civ"],
 	//["license_assurance_veh","civ"],
-	["license_bl","civ"]
+	["license_bl","civ"],
+	["license_he","civ"],
+	["license_lmc","civ"],
+	["license_bgf","civ"],
+	["license_fh","civ"],
+	["license_sal","civ"],
+	["license_ms","civ"],
+	["license_ng","civ"],
+	["license_fonda","civ"]
 ];
 
 //Setup License Variables

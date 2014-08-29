@@ -106,4 +106,12 @@ switch (_var) do
 	case "license_civ_presse": {"Journaliste"};
 	//case "license_assurance_veh": {"Assurance Véhicules"};
 	case "license_bl": {"Bratstvo Ledjanoe"};
+	case "license_he": {"H.E"};
+	case "license_lmc": {"L.M.C"};
+	case "license_bgf": {"BGF"};
+	case "license_fh": {"F.H"};
+	case "license_sal": {"Salamander"};
+	case "license_ms": {"MS-13"};
+	case "license_ng": {"'Neghta"};
+	case "license_fonda": {"Admin"};
 };
