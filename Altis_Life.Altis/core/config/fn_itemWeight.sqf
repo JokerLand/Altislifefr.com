@@ -65,7 +65,7 @@ switch (_item) do
 	case "vodka": {4};
 	case "moonshine": {4};
 	case "grapes": {5};
-	case "artefact": {5};
+	case "artefact": {7};
         case "burger": {1};
         case "cola": {1};
         case "frite": {1};
