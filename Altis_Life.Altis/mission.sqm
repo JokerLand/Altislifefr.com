@@ -5909,7 +5909,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="car_sal";
-					init="removeallWeapons this;    this enableSimulation false;  this allowDamage false;    this addAction[""Marché"",life_fnc_virt_menu,""rebel"",0,false,false,"""",' license_sal && playerSide == civilian'];  this addAction[""Uniformes"",life_fnc_clothingMenu,""sal"",0,false,false,"""",' license_sal && playerSide == civilian'];    this addAction[""Armes"",life_fnc_weaponShopMenu,""rebel"",0,false,false,"""",' license_sal && playerSide == civilian'];    this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu,"""",0,FALSE,FALSE,"""",' vehicle player == player && license_sal && player distance _target < 4 '];";
+					init="removeallWeapons this;  this enableSimulation false;  this allowDamage false;  this addAction[""Vehicules Rebelles"",life_fnc_vehicleShopMenu,[""reb_car"",civilian,[""car_ms""],""reb"",""Rebel Motorpool - Western Side""],0,false,false,"""",'license_civ_rebel']; this addAction[""Vehicle Garage"",  {   [[getPlayerUID player,playerSide,""Car"",player],""TON_fnc_getVehicles"",false,false,"""",' license_sal && playerSide == civilian'] spawn life_fnc_MP; life_garage_type = ""Car"";  createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""car_sal"";  }]; this addAction[""Store vehicle in Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];";
 				};
 			};
 		};
@@ -6343,7 +6343,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={9207.4072,272.24942,19276.199};
+					position[]={9207.7949,272.22977,19277.168};
 					azimut=2.0144;
 					special="NONE";
 					id=349;
@@ -6364,7 +6364,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={9211.1279,272.17398,19276.516};
+					position[]={9211.0107,272.18216,19277.178};
 					azimut=-6.9521198;
 					special="NONE";
 					id=350;
@@ -73265,7 +73265,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=339;
+		items=338;
 		class Item0
 		{
 			position[]={8459.6777,104.56568,25131.203};
@@ -75907,105 +75907,97 @@ class Mission
 		};
 		class Item322
 		{
-			position[]={9210.4512,109.79,11462.508};
-			name="MS13";
-			text="M.S. 13";
-			type="mil_destroy";
-			colorName="ColorRed";
-		};
-		class Item323
-		{
 			position[]={9186.4482,109.797,11474.231};
 			name="air_ms";
 			type="Empty";
 		};
-		class Item324
+		class Item323
 		{
 			position[]={9187.1084,109.79147,11451.54};
 			name="car_ms";
 			type="Empty";
 			angle=-204.939;
 		};
-		class Item325
+		class Item324
 		{
 			position[]={9209.7637,109.79,11486.373};
 			name="spawn_ms";
 			type="Empty";
 		};
-		class Item326
+		class Item325
 		{
 			position[]={22754.439,0.012690978,13846.074};
 			name="fh_ship";
 			type="Empty";
 		};
-		class Item327
+		class Item326
 		{
 			position[]={22778.291,3.1503491,13783.473};
 			name="car_fh";
 			type="Empty";
 			angle=-113.83601;
 		};
-		class Item328
+		class Item327
 		{
 			position[]={22878.377,19.309841,13767.264};
 			name="air_fh";
 			type="Empty";
 			angle=-29.147839;
 		};
-		class Item329
+		class Item328
 		{
 			position[]={24026.848,9.4552326,15441.553};
 			name="fonda_car";
 			type="Empty";
 			angle=52.218296;
 		};
-		class Item330
+		class Item329
 		{
 			position[]={24031.102,9.1816006,15517.905};
 			name="fonda_air";
 			type="Empty";
 			angle=-90.529366;
 		};
-		class Item331
+		class Item330
 		{
 			position[]={22869.051,18.560944,13779.891};
 			name="spawn_fh";
 			type="Empty";
 		};
-		class Item332
+		class Item331
 		{
 			position[]={24003.668,9.4483032,15459.965};
 			name="spawn_fon";
 			type="Empty";
 		};
-		class Item333
+		class Item332
 		{
 			position[]={9205.543,272.33762,19321.717};
 			name="lmc_air";
 			type="Empty";
 			angle=-38.57375;
 		};
-		class Item334
+		class Item333
 		{
 			position[]={9196.7744,272.40524,19297.057};
 			name="lmc_car";
 			type="Empty";
 			angle=72.937668;
 		};
-		class Item335
+		class Item334
 		{
 			position[]={9201.6348,272.28998,19288.289};
 			name="spawn_lmc";
 			type="Empty";
 		};
-		class Item336
+		class Item335
 		{
 			position[]={23898.771,0.010216916,15492.631};
 			name="fonda_ship";
 			type="Empty";
 			angle=-39.786934;
 		};
-		class Item337
+		class Item336
 		{
 			position[]={3634.9146,10.139597,13102.686};
 			name="bg";
@@ -76013,7 +76005,7 @@ class Mission
 			type="mil_dot";
 			colorName="ColorGreen";
 		};
-		class Item338
+		class Item337
 		{
 			position[]={3634.8425,10.15228,13098.131};
 			name="atm_1_3_11_5_4_3_1_4";
