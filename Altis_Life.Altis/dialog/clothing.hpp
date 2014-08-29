@@ -54,7 +54,7 @@ class Life_Clothing {
 			idc = -1;
 			text = "$STR_Global_Close";
 			onButtonClick = "closeDialog 0;";
-			x = -0.14;
+			x = 0.161 + (1 / 250 / (safezoneW / safezoneH));
 			y = 0.54 - (1 / 25);
 			w = (6.25 / 40);
 			h = (1 / 25);
@@ -65,7 +65,7 @@ class Life_Clothing {
 			idc = -1;
 			text = "$STR_Global_Buy";
 			onButtonClick = "[] call life_fnc_buyClothes;";
-			x = -0.30;
+			x = (1 / 250 / (safezoneW / safezoneH));
 			y = 0.54 - (1 / 25);
 			w = (6.25 / 40);
 			h = (1 / 25);
@@ -76,8 +76,10 @@ class Life_Clothing {
 			idc = 3105;
 			colorBackground[] = {0,0,0,0.7};
 			onLBSelChanged  = "_this call life_fnc_clothingFilter";
-			x = -0.30; y = 0.5 - (1 / 25);
-			w = 0.318; h = 0.035;
+			x = (1 / 250 / (safezoneW / safezoneH));
+			y = 0.5 - (1 / 25);
+			w = 0.318;
+			h = 0.035;
 		};
 		
 		class PriceTag : Life_RscStructuredText

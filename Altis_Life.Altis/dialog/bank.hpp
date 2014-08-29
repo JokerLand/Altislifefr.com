@@ -34,7 +34,7 @@ class Life_atm_management {
 			x = 0.39;
 			y = 0.26;
 			w = 0.3;
-			h = 0.2;
+			h = 0.14;
 		};
 		
 		class moneyEdit : Life_RscEdit {
