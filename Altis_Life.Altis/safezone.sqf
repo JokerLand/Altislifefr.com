@@ -8,7 +8,7 @@
     Edit the #defines below.
 */
 
-#define SAFETY_ZONES    [["safezone_kavala", 1100],["safezone_negades_1", 600],["safezone_athira", 100],["safezone_pomme", 100],["safezone_pomme2", 100],["safezone_donator", 150],["safezone_reb", 180],["safezone_sofia", 180],["safezone_pyrgos", 180]] // Syntax: [["marker1", radius1], ["marker2", radius2], ...]
+#define SAFETY_ZONES    [["safezone_kavala", 400],["safezone_negades_1", 600],["safezone_athira", 100],["safezone_pomme", 60],["safezone_pomme2", 60],["safezone_donator", 150],["safezone_reb", 180],["safezone_sofia", 180],["safezone_pyrgos", 180]] // Syntax: [["marker1", radius1], ["marker2", radius2], ...]
 #define MESSAGE "Vous etes dans une safezone, Vous ne pouvez pas entreprendre d'action agressive."
 
      if (isDedicated) exitWith {};

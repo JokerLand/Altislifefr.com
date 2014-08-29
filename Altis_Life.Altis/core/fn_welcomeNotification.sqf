@@ -4,27 +4,17 @@
 	Description:
 	Called upon first spawn selection and welcomes our player.
 */
-_txt = parseText format 
+format["Bonjour %1, Lis c'est important!",name player] hintC
+[
+	"Bienvenue sur le serveur, avec cette MaJ, beaucoup de choses ont changé.",
+	"Nouvelle Touche !",
+	"Windows Gauche: Touche d'interaction principale ! Peut être modifiée ESC->Configurer->Controles->Personnalisé->Touche Utilisateur 10",
+	"Cette touche permet de ramasser les objets et l'argent",
+	"De pêcher",
+	"Intéragir avec les joueurs (En tant que policier)",
+	"Intéragir avec les véhicules (Reparer ect.. et afficher le menu en tant que policier",
+	"Si tu as des difficultés à cibler l'objet avec lequel tu souhaites intéragir, utilise la touche [²]",
+	"Bonne continuation sur le serveur AltisLifeFr.com !",
+	"N'oublie pas de lire les règles sur le site !"
+];
 	
-	["
-		www.AltisLifeFr.com<br/><br/>
-		
-		Si vous voyez des objets invisibles ou autres bugs.
-		Verifiez que vous lancez bien le jeu via notre <t color='#00aa00'>#Launcher</t>
-		disponible sur www.altislifefr.com
-		
-		<br/><br/>------------------------<br/><br/>
-		
-		Vous êtes sur un serveur RP (Jeu de Rôle).
-		Il est donc important de consulter les règles disponibles sur le forum.
-		Le Fairplay et le RP sont de rigueur en Jeu !
-		
-		<br/><br/>------------------------<br/><br/>
-		
-		Pour tout problèmes nous vous invitons à demander de l'aide sur le Forum ou Teamspeak.
-		Le Staff ne peut rien faire Ingame et se doit de rester RP.<br/><br/>
-		
-		Bienvenue et Bon Jeu !
-	"];
-	
-format["Bonjour %1, Lis c'est important!",name player] hintC _txt;

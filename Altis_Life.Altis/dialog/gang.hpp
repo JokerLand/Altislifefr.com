@@ -233,8 +233,7 @@ class Life_Create_Gang_Diag {
 			text = "$STR_Gang_PriceTxt";
 			x = 0.1;
 			y = 0.25;
-			w = 0.5; 
-			h = 0.11;
+			w = 0.5; h = 0.32;
 		};
 		
 		class Title : Life_RscTitle {
