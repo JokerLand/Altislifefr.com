@@ -39,10 +39,6 @@ switch (_side) do
 		if(license_civ_rebel && playerSide == civilian) then {
 				_return set[count _return,["reb_spawn_1","Camp Rebelle","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]];
 		};
-                
-                if(license_he && playerSide == civilian) then {
-				_return set[count _return,["spawn_he","Hawk Eye HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]];
-		};
 		
 		if(license_bl && playerSide == civilian) then {
 				_return set[count _return,["bl_spawn","Bratstvo Ledjanoe HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]];

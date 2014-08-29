@@ -46,7 +46,6 @@ switch (_mode) do
 			case "presse": {_var = "license_civ_presse"};
 			//case "assurance": {_var = "license_assurance_veh"};
 			case "bl": {_var = "license_bl"};
-                        case "he": {_var = "license_he"};
 			default {_var = ""};
 		};
 	};
@@ -85,7 +84,6 @@ switch (_mode) do
 			case "license_civ_presse": {_var = "presse"};
 			//case "license_assurance_veh": {_var = "assurance"};
 			case "license_bl": {_var = "bl"};
-                        case "license_he": {_var = "he"};
 			default {_var = ""};
 		};
 	};
