@@ -79,6 +79,10 @@ switch (_side) do
                 if(license_fmg && playerSide == civilian) then {
 				_return set[count _return,["spawn_fmg","For My Games HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]];
 		};
+                
+                 if(license_sop && playerSide == civilian) then {
+				_return set[count _return,["spawn_sop","Soprano HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]];
+		};
 		
 		if(license_bl && playerSide == civilian) then {
 				_return set[count _return,["bl_spawn","Bratstvo Ledjanoe HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]];

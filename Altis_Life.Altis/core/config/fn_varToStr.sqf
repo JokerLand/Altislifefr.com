@@ -116,4 +116,5 @@ switch (_var) do
 	case "license_fonda": {"Admin"};
         case "license_fst": {"F.S.T"};
         case "license_fmg": {"F.M.G"};
+        case "license_sop": {"Soprano"};
 };
