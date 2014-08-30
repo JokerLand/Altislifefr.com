@@ -77,7 +77,7 @@ switch (_side) do
 		};
 		
                 if(license_fmg && playerSide == civilian) then {
-				_return set[count _return,["spawn_fmg","For My Games HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]];
+				_return set[count _return,["fmg_spawn","For My Games HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]];
 		};
                 
                  if(license_sop && playerSide == civilian) then {
