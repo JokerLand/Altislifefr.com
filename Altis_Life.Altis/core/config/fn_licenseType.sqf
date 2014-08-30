@@ -55,6 +55,7 @@ switch (_mode) do
 			case "ng": {_var = "license_ng"};
 			case "fonda": {_var = "license_fonda"};
                         case "fst": {_var = "license_fst"};
+                        case "fmg": {_var = "license_fmg"};
 			default {_var = ""};
 		};
 	};
@@ -102,6 +103,7 @@ switch (_mode) do
 			case "license_ng": {_var = "ng"};
 			case "license_fonda": {_var = "fonda"};
                         case "license_fst": {_var = "fst"};
+                        case "license_fmg": {_var = "fmg"};
 			default {_var = ""};
 		};
 	};

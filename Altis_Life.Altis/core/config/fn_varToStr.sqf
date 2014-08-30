@@ -115,4 +115,5 @@ switch (_var) do
 	case "license_ng": {"'Neghta"};
 	case "license_fonda": {"Admin"};
         case "license_fst": {"F.S.T"};
+        case "license_fmg": {"F.M.G"};
 };
