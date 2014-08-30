@@ -39,6 +39,50 @@ switch (_side) do
 		if(license_civ_rebel && playerSide == civilian) then {
 				_return set[count _return,["reb_spawn_1","Camp Rebelle","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]];
 		};
+                
+                if(license_he && playerSide == civilian) then {
+				_return set[count _return,["spawn_he","Hawk Eye HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]];
+		};
+                
+                if(license_lmc && playerSide == civilian) then {
+				_return set[count _return,["spawn_lmc","Legion of Murdeous Chaos HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]];
+		};
+                
+                 if(license_bgf && playerSide == civilian) then {
+				_return set[count _return,["spawn_bgf","Black Guerilla Family HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]];
+		};
+                
+                 if(license_fh && playerSide == civilian) then {
+				_return set[count _return,["spawn_fh","Force et Honneur HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]];
+		};
+                
+                  if(license_sal && playerSide == civilian) then {
+				_return set[count _return,["spawn_sal","Salamander HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]];
+		};
+                
+                if(license_ms && playerSide == civilian) then {
+				_return set[count _return,["spawn_ms","Mara Salvatrucha HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]];
+		};
+                
+                 if(license_ng && playerSide == civilian) then {
+				_return set[count _return,["spawn_ng","Ngheta HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]];
+		};
+                
+                 if(license_fonda && playerSide == civilian) then {
+				_return set[count _return,["spawn_fon","Fondateurs HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]];
+		};
+                
+                 if(license_fst && playerSide == civilian) then {
+				_return set[count _return,["spawn_fst","Forces Spécials Tactiques HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]];
+		};
+		
+                if(license_fmg && playerSide == civilian) then {
+				_return set[count _return,["fmg_spawn","For My Games HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]];
+		};
+                
+                 if(license_sop && playerSide == civilian) then {
+				_return set[count _return,["spawn_sop","Soprano HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]];
+		};
 		
 		if(license_bl && playerSide == civilian) then {
 				_return set[count _return,["bl_spawn","Bratstvo Ledjanoe HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]];

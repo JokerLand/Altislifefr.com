@@ -26,6 +26,8 @@ if([false,_food,1] call life_fnc_handleInv) then {
 		case "donuts": {_val = 30};
 		case "tbacon": {_val = 40};
 		case "peach": {_val = 10};
+                case "burger": {_val =65};
+                case "frite": {_val=30};
 	};
 
 	_sum = life_hunger + _val;
