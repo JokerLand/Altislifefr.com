@@ -10,8 +10,8 @@ _unit = _this select 0;
 _container = _this select 1;
 
 _isPack = getNumber(configFile >> "CfgVehicles" >> (typeOf _container) >> "isBackpack");
-if(_isPack == 1 && playerSide != west) then {
-	hint localize "STR_MISC_Backpack";
+if(_isPack == 1) then {
+	hint "You are not allowed to look into someone's backpack";
 	[] spawn {
 		waitUntil {!isNull (findDisplay 602)};
 		closeDialog 0;
