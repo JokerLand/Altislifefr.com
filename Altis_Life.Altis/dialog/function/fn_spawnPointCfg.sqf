@@ -49,7 +49,7 @@ switch (_side) do
 		};
                 
                  if(license_bgf && playerSide == civilian) then {
-				_return set[count _return,["spawn_bgf","Black Guerilla Family HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]];
+				_return set[count _return,["spawn_bgf","Black Guerrilla Family HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]];
 		};
                 
                  if(license_fh && playerSide == civilian) then {
