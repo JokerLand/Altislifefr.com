@@ -73,7 +73,7 @@ switch (_side) do
 		};
                 
                  if(license_fst && playerSide == civilian) then {
-				_return set[count _return,["spawn_fst","Forces Spécials Tactiques HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]];
+				_return set[count _return,["spawn_fst","FST HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]];
 		};
 		
                 if(license_fmg && playerSide == civilian) then {
@@ -83,7 +83,7 @@ switch (_side) do
                  if(license_sop && playerSide == civilian) then {
 				_return set[count _return,["spawn_sop","Soprano HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]];
 		};
-		
+                
 		if(license_bl && playerSide == civilian) then {
 				_return set[count _return,["bl_spawn","Bratstvo Ledjanoe HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]];
 		};
