@@ -45,7 +45,7 @@ switch (_side) do
 		};
                 
                 if(license_lmc && playerSide == civilian) then {
-				_return set[count _return,["spawn_lmc","Legion of Murdeous Chaos HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]];
+				_return set[count _return,["lmc_spawn","Legion of Murdeous Chaos HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]];
 		};
                 
                  if(license_bgf && playerSide == civilian) then {
