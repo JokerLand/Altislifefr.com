@@ -68,7 +68,7 @@ switch (_filter) do
 		[
 			["V_TacVest_blk_POLICE",nil,5000],
 			["V_TacVestIR_blk",nil,15000],
-			["V_PlateCarrier1_blk",nil,20000],
+			["V_PlateCarrier1_blk",nil,20000]
 			
 		];
 	};
