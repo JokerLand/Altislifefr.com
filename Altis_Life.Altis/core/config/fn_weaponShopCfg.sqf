@@ -69,56 +69,44 @@ switch(_shop) do
 		};
 	};
 
-	case "cop_recrue":
+	case "cop_recrue": //nouvelle reforme: coplvl 1 policier
 	{
 		switch(true) do
 		{
 			case (playerSide != west): {"Interdit aux civils !"};
 			default
 			{
-				["Armurerie pour recrue",
-					[
-						["arifle_sdar_F","Taser Rifle",2500],
-						["20Rnd_556x45_UW_mag","Taser Rifle Magazine",50],
-						["hgun_P07_snds_F","Tazer",2000],
-						["16Rnd_9x21_Mag",nil,50]
-					]
-				];
-			};
-		};
-	};
-	
-	case "cop_policier":
-	{
-		switch(true) do
-		{
-			case (playerSide != west): {"Interdit aux civils !"};
-			default
-			{
-				["Armurerie pour policier",
+				["Armurerie",
 					[
 						["arifle_sdar_F","Taser Rifle",2500],
 						["20Rnd_556x45_UW_mag","Taser Rifle Magazine",50],
 						["hgun_P07_snds_F","Tazer",2000],
 						["16Rnd_9x21_Mag",nil,50],
-						["hgun_ACPC2_F",nil,4500],
-						["9Rnd_45ACP_Mag",nil,70],
 						["SMG_02_F",nil,4600],
-						["30Rnd_9x21_Mag",nil,60]
+						["30Rnd_9x21_Mag",nil,60],
+						["M4_Benelli",nil,6500],
+						["8Rnd_B_Beneli_74Slug",nil,80],
+						["8Rnd_12Gauge_Pellets",nil,80],
+						["acc_flashlight",nil,750],
+						["optic_Holosight",nil,1200],
+						["optic_ACO_grn_smg",nil,2000],
+						["optic_Aco_smg",nil,2000],
+						["optic_ACO_grn",nil,3200],
+						["optic_Aco",nil,3200]
 					]
 				];
 			};
 		};
 	};
 	
-	case "cop_brigadier":
+	case "cop_policier": //nouvelle reforme: coplvl 2 Brigadier
 	{
 		switch(true) do
 		{
 			case (playerSide != west): {"Interdit aux civils !"};
 			default
 			{
-				["Equipement Armurerie Brigadier/Brigadier-Chef",
+				["Armurerie",
 					[
 						["arifle_sdar_F","Taser Rifle",2500],
 						["20Rnd_556x45_UW_mag","Taser Rifle Magazine",50],
@@ -128,14 +116,13 @@ switch(_shop) do
 						["9Rnd_45ACP_Mag",nil,70],
 						["SMG_02_F",nil,4600],
 						["30Rnd_9x21_Mag",nil,60],
-						["arifle_MX_Black_F",nil,6200],
-						["arifle_MXC_Black_F",nil,6500],
-						["30Rnd_65x39_caseless_mag",nil,80],
-						["HK430",nil,6500],
-						["HK430_30Rnd_556x45",nil,80],
 						["M4_Benelli",nil,6500],
 						["8Rnd_B_Beneli_74Slug",nil,80],
 						["8Rnd_12Gauge_Pellets",nil,80],
+						["HK430",nil,6500],
+						["HK430_30Rnd_556x45",nil,80],
+						["arifle_MX_Black_F",nil,6200],
+						["30Rnd_65x39_caseless_mag",nil,80],
 						["acc_flashlight",nil,750],
 						["optic_Holosight",nil,1200],
 						["optic_ACO_grn_smg",nil,2000],
@@ -152,14 +139,56 @@ switch(_shop) do
 		};
 	};
 	
-	case "cop_major":
+	case "cop_brigadier":  //nouvelle reforme: coplvl 3 Adjudant
 	{
 		switch(true) do
 		{
 			case (playerSide != west): {"Interdit aux civils !"};
 			default
 			{
-				["Armurerie pour major",
+				["Armurerie",
+					[
+						["arifle_sdar_F","Taser Rifle",2500],
+						["20Rnd_556x45_UW_mag","Taser Rifle Magazine",50],
+						["hgun_P07_snds_F","Tazer",2000],
+						["16Rnd_9x21_Mag",nil,50],
+						["hgun_ACPC2_F",nil,4500],
+						["9Rnd_45ACP_Mag",nil,70],
+						["SMG_02_F",nil,4600],
+						["30Rnd_9x21_Mag",nil,60],
+						["M4_Benelli",nil,6500],
+						["8Rnd_B_Beneli_74Slug",nil,80],
+						["8Rnd_12Gauge_Pellets",nil,80],
+						["HK430",nil,6500],
+						["HK430_30Rnd_556x45",nil,80],
+						["arifle_MX_Black_F",nil,6200],
+						["arifle_MXC_Black_F",nil,6500],
+						["arifle_MXM_Black_F",nil,7300],
+						["30Rnd_65x39_caseless_mag",nil,80],
+						["acc_flashlight",nil,750],
+						["optic_Holosight",nil,1200],
+						["optic_ACO_grn_smg",nil,2000],
+						["optic_Aco_smg",nil,2000],
+						["optic_ACO_grn",nil,3200],
+						["optic_Aco",nil,3200],
+						["optic_MRCO",nil,10000],
+						["optic_Hamr",nil,10000], 
+						["optic_Arco",nil,10000],
+						["SmokeShell",nil,100]
+					]
+				];
+			};
+		};
+	};
+	
+	case "cop_major":  //nouvelle reforme: coplvl 4 Major
+	{
+		switch(true) do
+		{
+			case (playerSide != west): {"Interdit aux civils !"};
+			default
+			{
+				["Armurerie",
 					[
 						["arifle_sdar_F","Taser Rifle",2500],
 						["20Rnd_556x45_UW_mag","Taser Rifle Magazine",50],
@@ -200,14 +229,14 @@ switch(_shop) do
 		};
 	};
 	
-	case "cop_lieutenant":
+	case "cop_lieutenant":  //nouvelle reforme: coplvl 5 Lieutenant
 	{
 		switch(true) do
 		{
 			case (playerSide != west): {"Interdit aux civils !"};
 			default
 			{
-				["Armurerie pour lieutenant",
+				["Armurerie",
 					[
 						["arifle_sdar_F","Taser Rifle",2500],
 						["20Rnd_556x45_UW_mag","Taser Rifle Magazine",50],
@@ -253,14 +282,14 @@ switch(_shop) do
 		};
 	};
 	
-	case "cop_capitaine":
+	case "cop_capitaine":  //nouvelle reforme: coplvl 6 capitaine
 	{
 		switch(true) do
 		{
 			case (playerSide != west): {"Interdit aux civils !"};
 			default
 			{
-				["Armurerie pour capitaine",
+				["Armurerie",
 					[
 						["arifle_sdar_F","Taser Rifle",2500],
 						["20Rnd_556x45_UW_mag","Taser Rifle Magazine",50],
@@ -316,7 +345,7 @@ switch(_shop) do
 			case (playerSide != west): {"Interdit aux civils !"};
 			default
 			{
-				["Armurerie pour commandant",
+				["Armurerie",
 					[
 						["arifle_sdar_F","Taser Rifle",2500],
 						["20Rnd_556x45_UW_mag","Taser Rifle Magazine",50],
