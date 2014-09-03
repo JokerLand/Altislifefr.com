@@ -147,13 +147,13 @@ switch (_shop) do
 		["C_Offroad_01_F",30000]];
 		_return set[count _return,
 		["DAR_ImpalaPolice",50000]];
+		_return set[count _return,
+		["DAR_TahoePolice",100000]];
   
 		if(__GETC__(life_coplevel) > 1) then
 		{
 		_return set[count _return,
 		["C_SUV_01_F",100000]];
-		_return set[count _return,
-		["DAR_TahoePolice",100000]];
 		_return set[count _return,
 		["DAR_TaurusPolice",100000]];		
 		};
