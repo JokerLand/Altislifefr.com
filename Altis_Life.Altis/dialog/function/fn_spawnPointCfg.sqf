@@ -36,7 +36,7 @@ switch (_side) do
 			["pvp_spawn_2","ZonePvP (B)","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]
 		];
 			
-		if(license_civ_rebel && playerSide == civilian) then {
+				if(license_civ_rebel && playerSide == civilian) then {
 				_return set[count _return,["reb_spawn_1","Camp Rebelle","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]];
 		};
                 
