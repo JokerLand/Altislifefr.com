@@ -2,13 +2,13 @@
 /*
 	File: fn_weaponShopCfg.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Master configuration file for the weapon shops.
-	
+
 	Return:
 	String: Close the menu
-	Array: 
+	Array:
 	[Shop Name,
 	[ //Array of items to add to the store
 		[classname,Custom Name (set nil for default),price]
@@ -44,10 +44,10 @@ switch(_shop) do
 			};
 		};
 	};
-	
+
 	case "med_basic":
 	{
-		switch (true) do 
+		switch (true) do
 		{
 			case (playerSide != independent): {"You are not an EMS Medic"};
 			default {
@@ -78,9 +78,10 @@ switch(_shop) do
 			{
 				["Armurerie",
 					[
-						["arifle_sdar_F","Taser Rifle",2500],
-						["20Rnd_556x45_UW_mag","Taser Rifle Magazine",50],
-						["hgun_P07_snds_F","Tazer",2000],
+						["DDOPP_X26","Tazer",2000],
+						["DDOPP_X26_b","Tazer",2000],
+						["DDOPP_1Rnd_X26",nil,50],
+						["hgun_P07_snds_F",nil,2000],
 						["16Rnd_9x21_Mag",nil,50],
 						["SMG_02_F",nil,4600],
 						["30Rnd_9x21_Mag",nil,60],
@@ -98,7 +99,7 @@ switch(_shop) do
 			};
 		};
 	};
-	
+
 	case "cop_policier": //nouvelle reforme: coplvl 2 Brigadier
 	{
 		switch(true) do
@@ -108,9 +109,10 @@ switch(_shop) do
 			{
 				["Armurerie",
 					[
-						["arifle_sdar_F","Taser Rifle",2500],
-						["20Rnd_556x45_UW_mag","Taser Rifle Magazine",50],
-						["hgun_P07_snds_F","Tazer",2000],
+						["DDOPP_X26","Tazer",2000],
+						["DDOPP_X26_b","Tazer",2000],
+						["DDOPP_1Rnd_X26",nil,50],
+						["hgun_P07_snds_F",nil,2000],
 						["16Rnd_9x21_Mag",nil,50],
 						["hgun_ACPC2_F",nil,4500],
 						["9Rnd_45ACP_Mag",nil,70],
@@ -130,7 +132,7 @@ switch(_shop) do
 						["optic_ACO_grn",nil,3200],
 						["optic_Aco",nil,3200],
 						["optic_MRCO",nil,10000],
-						["optic_Hamr",nil,10000], 
+						["optic_Hamr",nil,10000],
 						["optic_Arco",nil,10000],
 						["SmokeShell",nil,100]
 					]
@@ -138,7 +140,7 @@ switch(_shop) do
 			};
 		};
 	};
-	
+
 	case "cop_brigadier":  //nouvelle reforme: coplvl 3 Adjudant
 	{
 		switch(true) do
@@ -148,9 +150,10 @@ switch(_shop) do
 			{
 				["Armurerie",
 					[
-						["arifle_sdar_F","Taser Rifle",2500],
-						["20Rnd_556x45_UW_mag","Taser Rifle Magazine",50],
-						["hgun_P07_snds_F","Tazer",2000],
+						["DDOPP_X26","Tazer",2000],
+						["DDOPP_X26_b","Tazer",2000],
+						["DDOPP_1Rnd_X26",nil,50],
+						["hgun_P07_snds_F",nil,2000],
 						["16Rnd_9x21_Mag",nil,50],
 						["hgun_ACPC2_F",nil,4500],
 						["9Rnd_45ACP_Mag",nil,70],
@@ -172,7 +175,7 @@ switch(_shop) do
 						["optic_ACO_grn",nil,3200],
 						["optic_Aco",nil,3200],
 						["optic_MRCO",nil,10000],
-						["optic_Hamr",nil,10000], 
+						["optic_Hamr",nil,10000],
 						["optic_Arco",nil,10000],
 						["SmokeShell",nil,100]
 					]
@@ -180,7 +183,7 @@ switch(_shop) do
 			};
 		};
 	};
-	
+
 	case "cop_major":  //nouvelle reforme: coplvl 4 Major
 	{
 		switch(true) do
@@ -190,9 +193,10 @@ switch(_shop) do
 			{
 				["Armurerie",
 					[
-						["arifle_sdar_F","Taser Rifle",2500],
-						["20Rnd_556x45_UW_mag","Taser Rifle Magazine",50],
-						["hgun_P07_snds_F","Tazer",2000],
+						["DDOPP_X26","Tazer",2000],
+						["DDOPP_X26_b","Tazer",2000],
+						["DDOPP_1Rnd_X26",nil,50],
+						["hgun_P07_snds_F",nil,2000],
 						["16Rnd_9x21_Mag",nil,50],
 						["hgun_ACPC2_F",nil,4500],
 						["9Rnd_45ACP_Mag",nil,70],
@@ -216,9 +220,9 @@ switch(_shop) do
 						["optic_ACO_grn",nil,3200],
 						["optic_Aco",nil,3200],
 						["optic_MRCO",nil,10000],
-						["optic_Hamr",nil,10000], 
+						["optic_Hamr",nil,10000],
 						["optic_Arco",nil,10000],
-						["optic_DMS",nil,30000],		
+						["optic_DMS",nil,30000],
 						["optic_LRPS",nil,50000],
 						["optic_SOS",nil,30000],
 						["B_UavTerminal",nil,5200],
@@ -229,7 +233,7 @@ switch(_shop) do
 			};
 		};
 	};
-	
+
 	case "cop_lieutenant":  //nouvelle reforme: coplvl 5 Lieutenant
 	{
 		switch(true) do
@@ -239,9 +243,10 @@ switch(_shop) do
 			{
 				["Armurerie",
 					[
-						["arifle_sdar_F","Taser Rifle",2500],
-						["20Rnd_556x45_UW_mag","Taser Rifle Magazine",50],
-						["hgun_P07_snds_F","Tazer",2000],
+						["DDOPP_X26","Tazer",2000],
+						["DDOPP_X26_b","Tazer",2000],
+						["DDOPP_1Rnd_X26",nil,50],
+						["hgun_P07_snds_F",nil,2000],
 						["16Rnd_9x21_Mag",nil,50],
 						["hgun_ACPC2_F",nil,4500],
 						["9Rnd_45ACP_Mag",nil,70],
@@ -269,9 +274,9 @@ switch(_shop) do
 						["optic_ACO_grn",nil,3200],
 						["optic_Aco",nil,3200],
 						["optic_MRCO",nil,10000],
-						["optic_Hamr",nil,10000], 
+						["optic_Hamr",nil,10000],
 						["optic_Arco",nil,10000],
-						["optic_DMS",nil,30000],						
+						["optic_DMS",nil,30000],
 						["optic_LRPS",nil,50000],
 						["optic_SOS",nil,30000],
 						["B_UavTerminal",nil,5200],
@@ -283,7 +288,7 @@ switch(_shop) do
 			};
 		};
 	};
-	
+
 	case "cop_capitaine":  //nouvelle reforme: coplvl 6 capitaine
 	{
 		switch(true) do
@@ -293,9 +298,10 @@ switch(_shop) do
 			{
 				["Armurerie",
 					[
-						["arifle_sdar_F","Taser Rifle",2500],
-						["20Rnd_556x45_UW_mag","Taser Rifle Magazine",50],
-						["hgun_P07_snds_F","Tazer",2000],
+						["DDOPP_X26","Tazer",2000],
+						["DDOPP_X26_b","Tazer",2000],
+						["DDOPP_1Rnd_X26",nil,50],
+						["hgun_P07_snds_F",nil,2000],
 						["16Rnd_9x21_Mag",nil,50],
 						["hgun_ACPC2_F",nil,4500],
 						["9Rnd_45ACP_Mag",nil,70],
@@ -325,9 +331,9 @@ switch(_shop) do
 						["optic_ACO_grn",nil,3200],
 						["optic_Aco",nil,3200],
 						["optic_MRCO",nil,10000],
-						["optic_Hamr",nil,10000], 
+						["optic_Hamr",nil,10000],
 						["optic_Arco",nil,10000],
-						["optic_DMS",nil,30000],						
+						["optic_DMS",nil,30000],
 						["optic_LRPS",nil,50000],
 						["optic_SOS",nil,30000],
 						["optic_tws",nil,40000],
@@ -340,7 +346,7 @@ switch(_shop) do
 			};
 		};
 	};
-	
+
 	case "cop_admin":
 	{
 		switch(true) do
@@ -350,9 +356,10 @@ switch(_shop) do
 			{
 				["Armurerie",
 					[
-						["arifle_sdar_F","Taser Rifle",2500],
-						["20Rnd_556x45_UW_mag","Taser Rifle Magazine",50],
-						["hgun_P07_snds_F","Tazer",2000],
+						["DDOPP_X26","Tazer",2000],
+						["DDOPP_X26_b","Tazer",2000],
+						["DDOPP_1Rnd_X26",nil,50],
+						["hgun_P07_snds_F",nil,2000],
 						["16Rnd_9x21_Mag",nil,50],
 						["hgun_ACPC2_F",nil,4500],
 						["9Rnd_45ACP_Mag",nil,70],
@@ -382,13 +389,13 @@ switch(_shop) do
 						["optic_ACO_grn",nil,3200],
 						["optic_Aco",nil,3200],
 						["optic_MRCO",nil,10000],
-						["optic_Hamr",nil,10000], 
-						["optic_Arco",nil,10000],														
+						["optic_Hamr",nil,10000],
+						["optic_Arco",nil,10000],
 						["optic_LRPS",nil,50000],
 						["optic_SOS",nil,30000],
 						["optic_tws",nil,40000],
 						["B_UavTerminal",nil,5200],
-						["acc_pointer_IR",nil,4200],							
+						["acc_pointer_IR",nil,4200],
 						["optic_DMS",nil,1200],
 						["HandGrenade_Stone","Flashbang",1700],
 						["SmokeShell",nil,100]
@@ -397,7 +404,7 @@ switch(_shop) do
 			};
 		};
 	};
-	
+
 	case "rebel":
 	{
 		switch(true) do
@@ -457,7 +464,60 @@ switch(_shop) do
 			};
 		};
 	};
-	
+
+	case "bl":
+	{
+		switch(true) do
+		{
+			case (playerSide != civilian): {"You are not a civilian!"};
+			case (!license_bl): {"Vous n'etes pas BL !"};
+			default
+			{
+				["Armurerie BL",
+					[
+
+						["hlc_rifle_ak12",nil,200000],
+						["hlc_rifle_akm",nil,250000],
+						["hlc_rifle_rpk",nil,350000],
+						["hlc_rifle_akmgl",nil,350000],
+						["srifle_EBR_F",nil,400000],
+						["20Rnd_762x51_Mag",nil,90],
+						["optic_DMS",nil,1200],
+						["optic_ACO_grn",nil,3500],
+						["hlc_optic_kobra",nil,3500],
+						["optic_Holosight",nil,3600],
+						["acc_flashlight",nil,1000],
+						["optic_Hamr",nil,7500],
+						["HLC_Optic_1p29",nil,7500],
+						["HLC_Optic_PSO1",nil,80000],
+						["30Rnd_9x21_Mag",nil,200],
+						["20Rnd_556x45_UW_mag",nil,125],
+						["30Rnd_556x45_Stanag",nil,300],
+						["10Rnd_762x51_Mag",nil,500],
+						["30Rnd_65x39_caseless_green",nil,275],
+						["hlc_30Rnd_545x39_B_AK",nil,300],
+						["hlc_30Rnd_545x39_t_ak",nil,300],
+						["hlc_45Rnd_545x39_t_rpk",nil,300],
+						["hlc_30Rnd_545x39_EP_ak",nil,300],
+						["hlc_30Rnd_762x39_b_ak",nil,300],
+						["hlc_30Rnd_762x39_t_ak",nil,300],
+						["hlc_45Rnd_762x39_t_rpk",nil,300],
+						["hlc_45Rnd_762x39_m_rpk",nil,300],
+						["hlc_10rnd_12g_buck_S12",nil,300],
+						["hlc_10rnd_12g_slug_S12",nil,300],
+						["hlc_GRD_White",nil,5000],
+						["hlc_GRD_red",nil,5000],
+						["hlc_GRD_green",nil,5000],
+						["hlc_GRD_blue",nil,5000],
+						["hlc_GRD_orange",nil,5000],
+						["hlc_GRD_purple",nil,5000],
+						["SmokeShellRed","Fumigene rouge",5000]
+					]
+				];
+			};
+		};
+	};
+
 	case "gun":
 	{
 		switch(true) do
@@ -485,7 +545,7 @@ switch(_shop) do
 			};
 		};
 	};
-	
+
 	case "donator":
 	{
 				["Donator Shop",
@@ -518,11 +578,11 @@ switch(_shop) do
 						["150Rnd_762x51_Box_Tracer",nil,800],
 						["7Rnd_408_Mag",nil,800],
 						["5Rnd_127x108_Mag",nil,800]
-						
+
 					]
 				];
 	};
-	
+
 	case "genstore":
 	{
 		["Altis General Store",

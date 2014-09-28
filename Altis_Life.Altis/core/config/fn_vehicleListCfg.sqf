@@ -2,7 +2,7 @@
 /*
 	File:
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Master configuration list / array for buyable vehicles & prices and their shop.
 */
@@ -31,16 +31,16 @@ switch (_shop) do
 			["C_SUV_01_F",20000]];
 		};
 	};
-	
+
 	case "med_air_hs": {
 		_return = [
 			["O_Heli_Light_02_unarmed_F",75000]
 		];
 	};
-	
+
 	case "civ_car":
 	{
-		_return = 
+		_return =
 		[
 			["RDS_Gaz24_Civ_02",2000],
 			["RDS_S1203_Civ_01",3300],
@@ -78,7 +78,7 @@ switch (_shop) do
 			["cl3_lamborghini_gt1_black",1000000]
 		];
 	};
-	
+
 	case "civ_truck":
 	{
 			_return =
@@ -90,10 +90,11 @@ switch (_shop) do
 				["I_Truck_02_covered_F",100000],
 				["B_Truck_01_transport_F",200000],
 				["A3L_Dumptruck",250000],
-				["B_Truck_01_covered_F",400000]
+				["B_Truck_01_covered_F",300000],
+				["ALFR_GeK_Scania_420",400000]
 			];
 	};
-	
+
 	case "donator":
 	{
 		if(__GETC__(life_donator) > 0) then
@@ -104,16 +105,17 @@ switch (_shop) do
 				["C_Van_01_Fuel_F",7500],
 				["C_SUV_01_F",20000],
 				["I_G_Offroad_01_F",45000],
-				["B_Heli_Light_01_F",200000],
+				["B_Heli_Light_01_F",100000],
 				["B_Truck_01_box_F",250000],
+				["ALFR_GeK_Scania_420",250000],
 				["O_Truck_03_device_F",750000],
-				["O_Heli_Light_02_unarmed_F",600000],
-				["I_Heli_Transport_02_F",1200000],
+				["O_Heli_Light_02_unarmed_F",300000],
+				["I_Heli_Transport_02_F",600000],
 				["IVORY_T6A_1",3000000]
 			];
 		};
 	};
-	
+
 	case "reb_car":
 	{
 		_return =
@@ -126,12 +128,12 @@ switch (_shop) do
 			["cl3_range_rover_camo",400000],
 			["O_MRAP_02_F",1000000],
 			["O_Truck_03_transport_F",1000000],
-			["O_Truck_03_covered_F",1350000],			
+			["O_Truck_03_covered_F",1350000],
 			["O_Truck_03_ammo_F",1500000],
-			["B_Heli_Light_01_F",325000],
-			["O_Heli_Light_02_unarmed_F",850000]
+			["B_Heli_Light_01_F",225000],
+			["O_Heli_Light_02_unarmed_F",650000]
 		];
-		
+
 		if(license_civ_rebel) then
 		{
 			_return set[count _return,
@@ -140,7 +142,7 @@ switch (_shop) do
 			["O_MRAP_02_hmg_F",5000000]];
 		};
 	};
-	
+
 	case "cop_car":
 	{
 		_return set[count _return,
@@ -149,15 +151,15 @@ switch (_shop) do
 		["DAR_ImpalaPolice",50000]];
 		_return set[count _return,
 		["DAR_TahoePolice",100000]];
-  
+
 		if(__GETC__(life_coplevel) > 1) then
 		{
 		_return set[count _return,
 		["C_SUV_01_F",100000]];
 		_return set[count _return,
-		["DAR_TaurusPolice",100000]];		
+		["DAR_TaurusPolice",100000]];
 		};
-  
+
 			if(__GETC__(life_coplevel) > 2) then
 			{
 			_return set[count _return,
@@ -168,26 +170,27 @@ switch (_shop) do
 			["cl3_murcielago_black",400000]];
 			_return set[count _return,
 			["I_MRAP_03_F",1000000]];
-			}; 
-  
+			};
+
 				if(__GETC__(life_coplevel) > 3) then
 				{
 				_return set[count _return,
 				["DAR_ExplorerPolice",150000]];
 				_return set[count _return,
 				["I_MRAP_03_hmg_F",3000000]];
-				}; 
+				};
 	};
-	
+
 	case "civ_air":
 	{
 		_return =
 		[
-			["B_Heli_Light_01_F",253000],
-			["O_Heli_Light_02_unarmed_F",750000]
+			["B_Heli_Light_01_F",153000],
+			["O_Heli_Light_02_unarmed_F",550000],
+			["GNT_C185F",800000]
 		];
 	};
-	
+
 	case "cop_air":
 	{
 			if(__GETC__(life_coplevel) > 1) then
@@ -195,7 +198,7 @@ switch (_shop) do
 				_return set[count _return,
 				["B_Heli_Light_01_F",75000]];
 			};
-			
+
 			if(__GETC__(life_coplevel) > 2) then
 			{
 				_return set[count _return,
@@ -208,7 +211,7 @@ switch (_shop) do
 			["B_Heli_Transport_01_F",200000]];
 			};
 	};
-	
+
 	case "cop_airhq":
 	{
 		_return set[count _return,
@@ -221,15 +224,13 @@ switch (_shop) do
 			["B_MRAP_01_hmg_F",750000]];
 		};
 	};
-	
+
 	case "civ_ship":
 	{
 		_return =
 		[
 			["C_Rubberboat",5000],
-			["C_Boat_Civil_01_F",22000],
-			["GNT_C185F",1000000]
-			
+			["C_Boat_Civil_01_F",22000]
 		];
 	};
 
