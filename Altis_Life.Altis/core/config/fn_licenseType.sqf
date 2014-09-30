@@ -1,7 +1,7 @@
 /*
 	File: fn_licenseType.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Returns the short-var of the license name to a long var and display name.
 */
@@ -57,10 +57,13 @@ switch (_mode) do
                         case "fst": {_var = "license_fst"};
                         case "fmg": {_var = "license_fmg"};
                         case "sop": {_var = "license_sop"};
+                        case "rosth": {_var = "licence_rosth"};
+                        case "bmg": {_var = "licence_bmg"};
+                        case "olympia" {_var = "licence_olympia"};
 			default {_var = ""};
 		};
 	};
-	
+
 	case 1:
 	{
 		switch (_type) do
@@ -105,6 +108,8 @@ switch (_mode) do
 			case "license_fonda": {_var = "fonda"};
                         case "license_fst": {_var = "fst"};
                         case "license_fmg": {_var = "fmg"};
+                        case "license_sop": {_var = "sop"};
+
 			default {_var = ""};
 		};
 	};
