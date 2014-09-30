@@ -54,12 +54,12 @@ switch (_mode) do
 			case "ms": {_var = "license_ms"};
 			case "ng": {_var = "license_ng"};
 			case "fonda": {_var = "license_fonda"};
-                        case "fst": {_var = "license_fst"};
-                        case "fmg": {_var = "license_fmg"};
-                        case "sop": {_var = "license_sop"};
-                        case "rosth": {_var = "licence_rosth"};
-                        case "bmg": {_var = "licence_bmg"};
-                        case "olympia" {_var = "licence_olympia"};
+            case "fst": {_var = "license_fst"};
+            case "fmg": {_var = "license_fmg"};
+            case "sop": {_var = "license_sop"};
+            case "rosth": {_var = "licence_rosth"};
+            case "bmg": {_var = "licence_bmg"};
+            case "olympia" {_var = "licence_olympia"};
 			default {_var = ""};
 		};
 	};
@@ -106,9 +106,12 @@ switch (_mode) do
 			case "license_ms": {_var = "ms"};
 			case "license_ng": {_var = "ng"};
 			case "license_fonda": {_var = "fonda"};
-                        case "license_fst": {_var = "fst"};
-                        case "license_fmg": {_var = "fmg"};
-                        case "license_sop": {_var = "sop"};
+            case "license_fst": {_var = "fst"};
+            case "license_fmg": {_var = "fmg"};
+            case "license_sop": {_var = "sop"};
+            case "licence_rosth": {_var = "rosth"};
+            case "licence_bmg": { _var = "bmg"};
+            case "licence_olympia": {_var = "olympia"};
 
 			default {_var = ""};
 		};
