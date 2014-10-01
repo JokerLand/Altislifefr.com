@@ -78,7 +78,6 @@ switch(_shop) do
 			{
 				["Armurerie",
 					[
-
 						["DDOPP_X26","Tazer",2000],
 						["DDOPP_X26_b","Tazer",2000],
 						["DDOPP_1Rnd_X26",nil,50],

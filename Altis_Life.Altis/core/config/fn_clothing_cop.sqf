@@ -20,12 +20,10 @@ switch (_filter) do
 	case 0:
 	{
 		_ret set[count _ret,["U_Rangemaster","Cop Uniform",25]];
-
 		if(__GETC__(life_coplevel) > 1) then
 		{
 			_ret set[count _ret,["U_B_Wetsuit",nil,2000]];
 		};
-
 	};
 
 	//Hats
@@ -38,14 +36,10 @@ switch (_filter) do
 			_ret set[count _ret,["H_Beret_blk",nil,100]];
 		};
 
-
-
 		if(__GETC__(life_coplevel) > 3) then
 		{
 			_ret set[count _ret,["H_Beret_02",nil,150]];
 		};
-
-
 
 		if(__GETC__(life_coplevel) > 6) then
 		{
@@ -75,14 +69,12 @@ switch (_filter) do
 	//Vest
 	case 3:
 	{
-
 		_ret =
 		[
 			["V_TacVest_blk_POLICE",nil,5000],
 			["V_TacVestIR_blk",nil,15000],
 			["V_PlateCarrier1_blk",nil,20000],
 			["V_RebreatherB",nil,5000]
-
 		];
 	};
 
