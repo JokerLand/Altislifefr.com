@@ -59,7 +59,7 @@ switch (_mode) do
             case "sop": {_var = "license_sop"};
             case "rosth": {_var = "licence_rosth"};
             case "bmg": {_var = "licence_bmg"};
-            case "olympia": {_var = "licence_olympia"};
+            case "olympia" {_var = "licence_olympia"};
 			default {_var = ""};
 		};
 	};
