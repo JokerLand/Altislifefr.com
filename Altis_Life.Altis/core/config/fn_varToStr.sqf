@@ -1,7 +1,7 @@
 /*
 	File: fn_varToStr.sqf
 	Author: Bryan "Tonic" Boardwine
-
+	
 	Description:
 	Takes the long-name (variable) and returns a display name for our
 	virtual item.
@@ -75,7 +75,7 @@ switch (_var) do
     case "life_inv_cola": {"Coca Cola"};
     case "life_inv_frite": {"Frite"};
     case "life_inv_biere": {"Biere Pression"};
-
+	
 	//License Block
 	case "license_civ_driver": {"Permis de Conduire"};
 	case "license_civ_air": {"Licence Pilote"};
@@ -114,10 +114,7 @@ switch (_var) do
 	case "license_ms": {"MS-13"};
 	case "license_ng": {"'Neghta"};
 	case "license_fonda": {"Admin"};
-    case "license_fst": {"F.S.T"};
-    case "license_fmg": {"F.M.G"};
-    case "license_sop": {"Soprano"};
-    case "licence_rosth": {"Rosthein"};
-    case "licence_bmg": {"BMG"};
-    case "licence_olympia": {"olympia"};
+        case "license_fst": {"F.S.T"};
+        case "license_fmg": {"F.M.G"};
+        case "license_sop": {"Soprano"};
 };
