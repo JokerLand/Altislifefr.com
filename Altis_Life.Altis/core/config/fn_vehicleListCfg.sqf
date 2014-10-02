@@ -152,16 +152,12 @@ switch (_shop) do
 		_return set[count _return,
 		["DAR_TahoePolice",100000]];
 
-
-
 		if(__GETC__(life_coplevel) > 1) then
 		{
 		_return set[count _return,
 		["C_SUV_01_F",100000]];
 		_return set[count _return,
-
 		["DAR_TaurusPolice",100000]];
-
 		};
 
 			if(__GETC__(life_coplevel) > 2) then
@@ -174,9 +170,7 @@ switch (_shop) do
 			["cl3_murcielago_black",400000]];
 			_return set[count _return,
 			["I_MRAP_03_F",1000000]];
-
 			};
-
 
 				if(__GETC__(life_coplevel) > 3) then
 				{
@@ -184,9 +178,7 @@ switch (_shop) do
 				["DAR_ExplorerPolice",150000]];
 				_return set[count _return,
 				["I_MRAP_03_hmg_F",3000000]];
-
 				};
-
 	};
 
 	case "civ_air":
