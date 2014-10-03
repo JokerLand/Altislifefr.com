@@ -84,6 +84,50 @@ switch (_code) do
 		};
 	};
 	
+	//Takwondo(f1)
+	case 59:
+	{
+		//if(_shift) then {_handled = true;};
+		if ((!_shift) && (vehicle player == player)) then
+		{
+			cutText [format["Je suis un Ninja!!!"], "PLAIN DOWN"];
+			player playMove "AmovPercMstpSnonWnonDnon_exerciseKata";
+		};
+	};
+
+	//Mouvements(f2)
+	case 60:
+	{
+		//if(_shift) then {_handled = true;};
+		if ((!_shift) && (vehicle player == player)) then
+		{
+			cutText [format["Plus vite!!!"], "PLAIN DOWN"];
+			player playMove "AmovPercMstpSnonWnonDnon_exercisekneeBendA";
+		};
+	};
+
+	//Mouvements(f3)
+	case 61:
+	{
+	    //if(_shift) then {_handled = true;};
+		if ((!_shift) && (vehicle player == player)) then
+		{
+			cutText [format["Plus vite!!!"], "PLAIN DOWN"];
+			player playMove "AmovPercMstpSnonWnonDnon_exercisekneeBendB";
+		};
+	};
+
+	//Pompe(f4)
+	case 62:
+	{
+		//if(_shift) then {_handled = true;};
+		if ((!_shift) && (vehicle player == player)) then
+		{
+			cutText [format["Pompe!!!!!!"], "PLAIN DOWN"];
+			player playMove "AmovPercMstpSnonWnonDnon_exercisePushup";
+		};
+	};
+	
 	//Interaction key (default is Left Windows, can be mapped via Controls -> Custom -> User Action 10)
 	case _interactionKey:
 	{
