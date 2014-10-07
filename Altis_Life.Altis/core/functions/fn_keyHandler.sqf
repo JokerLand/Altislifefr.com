@@ -132,7 +132,7 @@ switch (_code) do
 	case _interactionKey:
 	{
 		if(!life_action_inUse) then {
-			if(playerSide == west) then
+			if(playerSide == west && uniform player == "U_Rangemaster") then
 			{
 				player setObjectTextureGlobal [0, "cop.jpg"];
 			};
