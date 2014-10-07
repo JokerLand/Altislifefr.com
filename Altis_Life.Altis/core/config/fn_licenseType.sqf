@@ -49,6 +49,9 @@ switch (_mode) do
 			case "he": {_var = "license_he"};
 			case "lmc": {_var = "license_lmc"};
 			case "bgf": {_var = "license_bgf"};
+			case "bmg": {_var = "license_bmg"};
+			case "olympia": {_var = "license_olympia"};
+			case "rosthein": {_var = "license_rosthein"};
 			case "fh": {_var = "license_fh"};
 			case "sal": {_var = "license_sal"};
 			case "ms": {_var = "license_ms"};
@@ -98,6 +101,9 @@ switch (_mode) do
 			case "license_he": {_var = "he"};
 			case "license_lmc": {_var = "lmc"};
 			case "license_bgf": {_var = "bgf"};
+			case "license_bmg": {_var = "bmg"};
+			case "license_olympia": {_var = "olympia"};
+			case "license_rosthein": {_var = "rosthein"};
 			case "license_fh": {_var = "fh"};
 			case "license_sal": {_var = "sal"};
 			case "license_ms": {_var = "ms"};

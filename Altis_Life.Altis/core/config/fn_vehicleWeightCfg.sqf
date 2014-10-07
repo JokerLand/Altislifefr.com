@@ -70,6 +70,7 @@ switch (_className) do
 	case "C_Boat_Civil_01_police_F": {85};
 	case "C_Boat_Civil_01_rescue_F": {85};
 	case "ALFR_GeK_Scania_420": {600};
+	case "cl3_veyron_wht_blu": {10};
 	case "B_Truck_01_box_F": {600};
 	case "B_Truck_01_covered_F": {500};
 	case "B_Truck_01_transport_F": {425};
