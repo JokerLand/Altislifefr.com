@@ -170,6 +170,10 @@ switch (_shop) do
 			_return set[count _return,
 			["cl3_murcielago_black",400000]];
 			_return set[count _return,
+			["cl3_e63_amg_camo",55000]];
+			_return set[count _return,
+			["cl3_insignia_camo",50000]];
+			_return set[count _return,
 			["I_MRAP_03_F",1000000]];
 			};
 

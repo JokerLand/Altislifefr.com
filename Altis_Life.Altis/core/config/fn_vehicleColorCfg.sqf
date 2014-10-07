@@ -639,7 +639,10 @@ switch (_vehicle) do
  		[
  			["cl3_vehiclefunctions\skins\skin_camo_co.paa","reb"],
 			["cl3_vehiclefunctions\skins\skin_camo_urban_co.paa","reb"],
-			["#(ai,64,64,1)Fresnel(0.3,3)","reb"]
+			["#(ai,64,64,1)Fresnel(0.3,3)","reb"],
+			["cl3_vehiclefunctions\skins\skin_camo_co.paa","cop"],
+			["cl3_vehiclefunctions\skins\skin_camo_urban_co.paa","cop"],
+			["#(ai,64,64,1)Fresnel(0.3,3)","cop"]
  		];
  	};
 
@@ -659,7 +662,10 @@ switch (_vehicle) do
  		[
  			["cl3_vehiclefunctions\skins\skin_camo_co.paa","reb"],
 			["cl3_vehiclefunctions\skins\skin_camo_urban_co.paa","reb"],
-			["#(ai,64,64,1)Fresnel(0.3,3)","reb"]
+			["#(ai,64,64,1)Fresnel(0.3,3)","reb"],
+			["cl3_vehiclefunctions\skins\skin_camo_co.paa","cop"],
+			["cl3_vehiclefunctions\skins\skin_camo_urban_co.paa","cop"],
+			["#(ai,64,64,1)Fresnel(0.3,3)","cop"]
  		];
  	};
 
