@@ -639,9 +639,7 @@ switch (_vehicle) do
 			case 0: {_color = "Camo";};
 			case 1: {_color = "Camo Urbain";};
 			case 2: {_color = "Noir";};
-			case 3: {_color = "Camo";};
-			case 4: {_color = "Camo Urbain";};
-			case 5: {_color = "Noir";};
+			case 3: {_color = "Noir";};
 		};
 	};
 
@@ -662,9 +660,7 @@ switch (_vehicle) do
 			case 0: {_color = "Camo";};
 			case 1: {_color = "Camo Urbain";};
 			case 2: {_color = "Noir";};
-			case 3: {_color = "Camo";};
-			case 4: {_color = "Camo Urbain";};
-			case 5: {_color = "Noir";};
+			case 3: {_color = "Noir";};
 		};
 	};
 

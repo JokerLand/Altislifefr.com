@@ -29,6 +29,15 @@ switch (_filter) do
 			_ret set[count _ret,["U_PMC_CombatUniformRS_SSBPBB","Tenue BAC",1500]];
 			_ret set[count _ret,["U_PMC_BluPolo_GrnPants","Tenue BAC",1500]];
 			_ret set[count _ret,["U_PMC_WhtPolo_BluPants","Tenue BAC",1500]];
+			_ret set[count _ret,["U_PMC_GTShirt_SJeans","Tenue BAC",1500]];
+			_ret set[count _ret,["U_PMC_BlkTShirt_DJeans","Tenue BAC",1500]];
+			_ret set[count _ret,["U_PMC_BlackPoloShirt_BeigeCords","Tenue BAC",1500]];
+			_ret set[count _ret,["U_PMC_CombatUniformLS_SSGPBB","Tenue BAC",1500]];
+			_ret set[count _ret,["U_PMC_CombatUniformLS_ChckDBS_GPSB","Tenue BAC",1500]];
+			_ret set[count _ret,["U_PMC_CombatUniformLS_ChckP_BPBB","Tenue BAC",1500]];
+			_ret set[count _ret,["U_PMC_CombatUniformRS_BSGPSB","Tenue BAC",1500]];
+			_ret set[count _ret,["U_PMC_CombatUniformRS_GSSPBB","Tenue BAC",1500]];
+			_ret set[count _ret,["U_PMC_CombatUniformRS_SSBPBB","Tenue BAC",1500]];
 		};
 	};
 
