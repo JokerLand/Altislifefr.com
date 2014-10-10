@@ -37,7 +37,6 @@ switch (_filter) do
 			_ret set[count _ret,["U_PMC_CombatUniformLS_ChckP_BPBB","Tenue BAC",1500]];
 			_ret set[count _ret,["U_PMC_CombatUniformRS_BSGPSB","Tenue BAC",1500]];
 			_ret set[count _ret,["U_PMC_CombatUniformRS_GSSPBB","Tenue BAC",1500]];
-			_ret set[count _ret,["U_PMC_CombatUniformRS_SSBPBB","Tenue BAC",1500]];
 		};
 	};
 
