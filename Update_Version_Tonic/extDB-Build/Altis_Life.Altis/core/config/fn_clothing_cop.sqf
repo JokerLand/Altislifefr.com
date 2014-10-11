@@ -22,34 +22,49 @@ switch (_filter) do
 		_ret pushBack ["U_Rangemaster","Cop Uniform",25];
 		if(__GETC__(life_coplevel) > 1) then
 		{
-			_ret pushBack ["U_B_CombatUniform_mcam_tshirt",nil,350];
-			_ret pushBack ["U_B_survival_uniform",nil,1250];
+			_ret set[count _ret,["U_B_Wetsuit",nil,2000]];
 		};
 		if(__GETC__(life_coplevel) > 2) then
 		{
-			_ret pushBack ["U_B_CombatUniform_mcam_worn",nil,550];
+			_ret set[count _ret,["U_PMC_CombatUniformRS_SSBPBB","Tenue BAC",1500]];
+			_ret set[count _ret,["U_PMC_BluPolo_GrnPants","Tenue BAC",1500]];
+			_ret set[count _ret,["U_PMC_WhtPolo_BluPants","Tenue BAC",1500]];
+			_ret set[count _ret,["U_PMC_GTShirt_SJeans","Tenue BAC",1500]];
+			_ret set[count _ret,["U_PMC_BlkTShirt_DJeans","Tenue BAC",1500]];
+			_ret set[count _ret,["U_PMC_BlackPoloShirt_BeigeCords","Tenue BAC",1500]];
+			_ret set[count _ret,["U_PMC_CombatUniformLS_SSGPBB","Tenue BAC",1500]];
+			_ret set[count _ret,["U_PMC_CombatUniformLS_ChckDBS_GPSB","Tenue BAC",1500]];
+			_ret set[count _ret,["U_PMC_CombatUniformLS_ChckP_BPBB","Tenue BAC",1500]];
+			_ret set[count _ret,["U_PMC_CombatUniformRS_BSGPSB","Tenue BAC",1500]];
+			_ret set[count _ret,["U_PMC_CombatUniformRS_GSSPBB","Tenue BAC",1500]];
 		};
 	};
 	
 	//Hats
 	case 1:
 	{
+		_ret set[count _ret,["H_MilCap_blue",nil,75]];
+
 		if(__GETC__(life_coplevel) > 1) then
 		{
-			_ret pushBack ["H_HelmetB_plain_mcamo",nil,75];
-			_ret pushBack ["H_Booniehat_mcamo",nil,120];
+			_ret set[count _ret,["H_Beret_blk",nil,100]];
 		};
-		
-		if(__GETC__(life_coplevel) > 2) then
+
+		if(__GETC__(life_coplevel) > 3) then
 		{
-			_ret pushBack ["H_MilCap_mcamo",nil,100];
+			_ret set[count _ret,["H_Beret_02",nil,150]];
+		};
+
+		if(__GETC__(life_coplevel) > 6) then
+		{
+			_ret set[count _ret,["H_Beret_Colonel",nil,200]];
 		};
 	};
 	
 	//Glasses
 	case 2:
 	{
-		_ret = 
+		_ret =
 		[
 			["G_Shades_Black",nil,25],
 			["G_Shades_Blue",nil,20],
@@ -60,18 +75,22 @@ switch (_filter) do
 			["G_Aviator",nil,75],
 			["G_Squares",nil,10],
 			["G_Lowprofile",nil,30],
-			["G_Combat",nil,55]
+			["G_Combat",nil,55],
+			["G_Diving",nil,500]
 		];
 	};
 	
 	//Vest
 	case 3:
 	{
-		_ret pushBack ["V_Rangemaster_belt",nil,800];
-		if(__GETC__(life_coplevel) > 1) then
-		{
-			_ret pushBack ["V_PlateCarrier2_rgr",nil,1500];
-		};
+		_ret =
+		[
+			["V_TacVest_blk_POLICE",nil,5000],
+			["V_TacVestIR_blk",nil,15000],
+			["V_PlateCarrier1_blk",nil,20000],
+			["V_PlateCarrierInd_PMC_blk",nil,19000],
+			["V_RebreatherB",nil,5000]
+		];
 	};
 	
 	//Backpacks
@@ -82,6 +101,7 @@ switch (_filter) do
 			["B_Kitbag_cbr",nil,800],
 			["B_FieldPack_cbr",nil,500],
 			["B_AssaultPack_cbr",nil,700],
+			["B_Kitbag_blk",nil,1700],
 			["B_Bergen_sgg",nil,2500],
 			["B_Carryall_cbr",nil,3500]
 		];
