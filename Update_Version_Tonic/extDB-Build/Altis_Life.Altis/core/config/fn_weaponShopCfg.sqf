@@ -200,6 +200,43 @@ switch(_shop) do
 		};
 	};
 	
+    
+    	case "donator":
+	{
+				["Donator Shop",
+					[
+						["hgun_Rook40_F",nil,4500],
+						["hgun_PDW2000_F",nil,6200],
+						["SMG_01_F",nil,20000],
+						["arifle_Mk20C_plain_F",nil,50000],
+						["LMG_Mk200_F",nil,200000],
+						["LMG_Zafir_F",nil,350000],
+						["srifle_GM6_F",nil,350000],
+						["Rangefinder",nil,50000],
+						["optic_LRPS",nil,50000],
+						["optic_SOS",nil,30000],
+						["optic_MRCO",nil,10000],
+						["optic_Arco",nil,10000],
+						["optic_Hamr",nil,10000],
+						["optic_ACO_grn_smg",nil,2000],
+		["acc_pointer_IR",nil,10000],
+		["ToolKit",nil,250],
+						["itemgps",nil,150],
+						["FirstAidKit",nil,150],
+		["16Rnd_9x21_Mag",nil,50],
+						["30Rnd_9x21_Mag",nil,60],
+						["30Rnd_45ACP_Mag_SMG_01_tracer_green",nil,60],
+						["30Rnd_556x45_Stanag",nil,70],
+						["200Rnd_65x39_cased_Box_Tracer",nil,200],
+						["150Rnd_762x51_Box_Tracer",nil,200],
+						["5Rnd_127x108_Mag",nil,200]
+						
+					]
+				];
+	};
+    
+    
+    
 	case "genstore":
 	{
 		["Altis General Store",

@@ -148,6 +148,24 @@ switch (_shop) do
 			["B_SDV_01_F",100000]
 		];
 	};
+    
+	case "donator":
+	{
+		_return =
+		[
+			["B_Quadbike_01_F",500],
+			["C_Offroad_01_F",2500],
+			["C_Van_01_Fuel_F",7500],
+			["C_SUV_01_F",20000],
+			["I_G_Offroad_01_F",45000],
+			["C_Hatchback_01_sport_F",50000],
+			["B_Heli_Light_01_F",200000],
+			["B_Truck_01_box_F",250000],
+			["O_Truck_03_device_F",450000],
+			["O_Heli_Light_02_unarmed_F",600000],
+			["I_Heli_Transport_02_F",1200000]
+		];
+	};
 };
 
 _return;
