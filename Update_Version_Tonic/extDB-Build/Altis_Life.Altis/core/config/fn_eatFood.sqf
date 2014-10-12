@@ -26,9 +26,11 @@ if([false,_food,1] call life_fnc_handleInv) then {
 		case "donuts": {_val = 30};
 		case "tbacon": {_val = 40};
 		case "peach": {_val = 10};
+        case "burger": {_val =65};
+        case "frite": {_val=30};
 	};
 
 	_sum = life_hunger + _val;
-	if(_sum > 100) then {_sum = 100; player setFatigue 1; hint "You have over eaten, you are now feeling fatigued.";};
+	if(_sum > 100) then {_sum = 100; player setFatigue 1; hint "Vous avez trop mangé, vous vous sentez fatigué.";};
 	life_hunger = _sum;
 };
