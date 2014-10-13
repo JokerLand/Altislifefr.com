@@ -50,10 +50,9 @@ if(!isNull _source) then {
 };
 
 if(vehicle _source isKindOf "LandVehicle") exitWith {
-
-					_unit setDamage 0.5;
-					_source setDamage 0.9;
+        _unit setDamage 0.2;
 };
+
 
 [] call life_fnc_hudUpdate;
 _damage;
