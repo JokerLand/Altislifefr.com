@@ -4295,7 +4295,39 @@
 			<Original>Send to jail</Original>
 			<English>Send to jail</English>
 			<German>Ins Gefängnis stecken</German>
-			<French>Envoyer en prison</French>
+			<French>Prison 5Min</French>
+			<Italian>Arresta</Italian>
+			<Portuguese>Enviar p/ Prisão</Portuguese>
+		</Key>
+		<Key ID="STR_pInAct_Arrest10">
+			<Original>Send to jail</Original>
+			<English>Send to jail</English>
+			<German>Ins Gefängnis stecken</German>
+			<French>Prison 10Min</French>
+			<Italian>Arresta</Italian>
+			<Portuguese>Enviar p/ Prisão</Portuguese>
+		</Key>
+		<Key ID="STR_pInAct_Arrest15">
+			<Original>Send to jail</Original>
+			<English>Send to jail</English>
+			<German>Ins Gefängnis stecken</German>
+			<French>Prison 15Min</French>
+			<Italian>Arresta</Italian>
+			<Portuguese>Enviar p/ Prisão</Portuguese>
+		</Key>
+		<Key ID="STR_pInAct_Arrest20">
+			<Original>Send to jail</Original>
+			<English>Send to jail</English>
+			<German>Ins Gefängnis stecken</German>
+			<French>Prison 20Min</French>
+			<Italian>Arresta</Italian>
+			<Portuguese>Enviar p/ Prisão</Portuguese>
+		</Key>
+		<Key ID="STR_pInAct_Arrest25">
+			<Original>Send to jail</Original>
+			<English>Send to jail</English>
+			<German>Ins Gefängnis stecken</German>
+			<French>Prison 25Min</French>
 			<Italian>Arresta</Italian>
 			<Portuguese>Enviar p/ Prisão</Portuguese>
 		</Key>
