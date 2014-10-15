@@ -49,10 +49,31 @@ if(!isNull _source) then {
 	};
 };
 
+
+_isStriderHMG = if(_isVehicle) then {if(typeOf (vehicle player) == "I_MRAP_03_hmg_F")};
+_isOffroadArmed = if(_isVehicle) then {if(typeOf (vehicle player) == "B_G_Offroad_01_armed_F")};
+_isIfritHMG = if(_isVehicle) then {if(typeOf (vehicle player) == "O_MRAP_02_hmg_F")};
+
+if(vehicle _source isKindOf "LandVehicle") then {
+    if( !_isStriderHMG && !_isOffroadArmed && !_isIfritHMG ) then {
+         _unit setDamage 0.2;
+    };    
+   
+};
+
+
+
+
+
+/*
 if(vehicle _source isKindOf "LandVehicle") exitWith {
         _unit setDamage 0.2;
 };
+*/
 
+/*if(vehicle _source isKindOf "LandVehicle" && _projectile != ["B_127x99_Ball_Tracer_Green","B_127x99_Ball_Tracer_Yellow"]) exitWith {
+        _unit setDamage 0.2;
+};*/
 
 [] call life_fnc_hudUpdate;
 _damage;
