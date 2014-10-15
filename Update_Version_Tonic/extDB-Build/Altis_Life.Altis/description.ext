@@ -1,6 +1,6 @@
 author = "Tonic";
 onLoadName = "Altis Life RPG v3.1.4.8";
-onLoadMission = "A RPG game mode developed by Tonic";
+onLoadMission = "A RPG game mode developed by Tonic and www.AltisLifeFr.com";
 joinUnassigned = 1;
 respawn = BASE;
 respawndelay = 5;
@@ -8,12 +8,13 @@ disabledAI = true;
 disableChannels[]={0,1,2};
 enableDebugConsole = 1;
 respawnDialog = 0;
+LoadScreen  = "images\test.jpg";
 
 class Header
 {
 	gameType = RPG;
 	minPlayers = 1;
-	maxPlayers = 75;
+	maxPlayers = 150;
 };
 
 wreckLimit = 3;
@@ -30,6 +31,7 @@ class RscTitles
 	#include "dialog\ui.hpp"
 	#include "dialog\progress.hpp"
 	#include "dialog\hud_nameTags.h"
+	#include "statusBar.hpp"
 };
 
 class CfgFunctions
@@ -40,10 +42,25 @@ class CfgFunctions
 class CfgSounds
 {
 	sounds[] = {};
+	
+	class MachineMinage
+	{
+		name = "MachineMinage";
+		sound[] = {"\sounds\minage_machine_altislifefr.ogg", 1.0, 1};
+		titles[] = {};
+	}
+	
 	class SirenLong
 	{
 		name = "SirenLong";
 		sound[] = {"\sounds\Siren_Long.ogg", 1.0, 1};
+		titles[] = {};
+	};
+	
+	class SirenMedic
+	{
+		name = "SirenMedic";
+		sound[] = {"\sounds\Siren_Medic.ogg", 1.0, 1};
 		titles[] = {};
 	};
 	
@@ -60,6 +77,92 @@ class CfgSounds
 		sound[] = {"\sounds\flashbang.ogg", 1.0, 1};
 		titles[] = {};
 	};
+        
+        class Patdown 
+        {
+		name = "Patdown";
+		sound[] = {"\sounds\patdown.ogg", .90, 1};
+		titles[] = {};
+        };
+	
+	class Intro
+	  {
+		name="Intro";
+		sound[]={"\sounds\intro.ogg",0.9,1};
+		titles[] = {};
+	  };
+  
+    class reverse_truck
+  {
+    name = "reverse_truck";
+    sound[] = {"\sounds\truck_reverse.ogg", 1.0, 1};
+    titles[] = {};
+  };
+  
+  class BeepBeep
+  {
+    name = "BeepBeep";
+    sound[] = {"\sounds\BeepBeep.ogg", 0.9, 1};
+    titles[] = {};
+  };
+  class Beep
+  {
+    name = "Beep";
+    sound[] = {"\sounds\Beep.ogg", 0.9, 1};
+    titles[] = {};
+  };
+  class Bag
+  {
+	name = "bag";
+	sound[] = {"\sounds\bag.ogg", 1, 1};
+	titles[] = {};
+  };
+  class Caching
+  {
+	name = "caching";
+	sound[] = {"\sounds\caching.ogg", 1, 1};
+	titles[] = {};
+  };
+  class Message
+  {
+   name = "message";
+   sound[] = {"\sounds\message.ogg", 0.95, 0.95};
+   titles[] = {};
+  };
+  class Mining
+  {
+	name = "mining";
+    sound[] = {"\sounds\mining.ogg", 0.95, 0.95};
+    titles[] = {};
+  };
+  class Cuff
+  {
+    name = "cuff";
+    sound[] = {"\sounds\cuff.ogg", 0.95, 0.95};
+    titles[] = {};
+  };
+  class Eat
+  {
+    name = "eat";
+    sound[] = {"\sounds\eat.ogg", 0.95, 0.95};
+    titles[] = {};
+  };
+  
+  class car_alarm
+	{
+		name="car_alarm";
+		sound[] = {"\sounds\alarmevoiture.ogg", 1, 1};
+		titles[] = {};
+	
+	};
+	
+	class bank_alarm
+  {
+    name = "bank_alarm";
+    sound[] = {"\sounds\bank.ogg", 1.0, 1};
+    titles[] = {};
+  };
+  
 };
 
 class CfgDebriefing
