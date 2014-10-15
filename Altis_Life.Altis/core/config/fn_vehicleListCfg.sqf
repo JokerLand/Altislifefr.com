@@ -140,7 +140,7 @@ switch (_shop) do
 			_return set[count _return,
 			["B_G_Offroad_01_armed_F",1500000]];
 			_return set[count _return,
-			["O_MRAP_02_hmg_F",5000000]];
+			["O_MRAP_02_hmg_F",2500000]];
 		};
 	};
 
@@ -182,7 +182,7 @@ switch (_shop) do
 				_return set[count _return,
 				["DAR_ExplorerPolice",150000]];
 				_return set[count _return,
-				["I_MRAP_03_hmg_F",3000000]];
+				["I_MRAP_03_hmg_F",1000000]];
 				};
 	};
 
