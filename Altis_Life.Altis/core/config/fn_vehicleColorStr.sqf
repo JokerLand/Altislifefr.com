@@ -788,6 +788,7 @@ switch (_vehicle) do
 			case 4: {_color = "Noir"};
 			case 5: {_color = "Blanc"};
 			case 6: {_color = "Rouge"};
+            case 7: {_color = "Hallowen"};
 		};
 	};
 
@@ -891,6 +892,7 @@ switch (_vehicle) do
 			case 2: {_color = "Vert"};
 			case 3: {_color = "Bleu Glacial"};
 			case 4: {_color = "Noir"};
+            case 5: {_color = "Hallowen"};
 		};
 	};
 
@@ -967,6 +969,7 @@ switch (_vehicle) do
 		{
 			case 0: {_color = "Ion"};
 			case 1: {_color = "Dahoman"};
+            case 2: {_color = "Hallowen"};
 		};
 	};
 
@@ -977,6 +980,16 @@ switch (_vehicle) do
 			case 0: {_color = "Black"};
 		};
 	};
+    
+   /* case "IVORY_T6A_1":
+    {
+      switch (_index) do 
+      {
+        case 0: {_color = "dogfight";};  
+      };
+
+    };*/
+        
 };
 
 _color;
