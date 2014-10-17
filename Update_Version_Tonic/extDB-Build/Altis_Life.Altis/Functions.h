@@ -89,6 +89,10 @@ class Life_Client_Core
 		class postBail {};
 		class processAction {};
 		class arrestAction {};
+		class arrestAction10 {};
+		class arrestAction15 {};
+		class arrestAction20 {};
+		class arrestAction25 {};
 		class escortAction {};
 		class impoundAction {};
 		class pulloutAction {};
@@ -106,6 +110,9 @@ class Life_Client_Core
 		class robAction {};
 		class captureHideout {};
 		class gather {};
+		class packupBarriere {};
+		class packupCone {};
+		class seizeObjects {};
 	};
 	
 	class Housing
@@ -152,6 +159,8 @@ class Life_Client_Core
 		class clothing_reb {};
 		class clothing_dive {};
 		class clothing_kart {};
+		class clothing_presse {};
+		class clothing_bl {};
 	};
 
 	class Player_Menu
@@ -241,6 +250,14 @@ class Life_Client_Core
 		file = "core\civilian";
 		class jailMe {};
 		class jail {};
+		class jailMe10 {};
+		class jail10 {};
+		class jailMe15 {};
+		class jail15 {};
+		class jailMe20 {};
+		class jail20 {};
+		class jailMe25 {};
+		class jail25 {};
 		class tazed {};
 		class knockedOut {};
 		class knockoutAction {};
@@ -270,6 +287,7 @@ class Life_Client_Core
 	class Cop
 	{
 		file = "core\cop";
+		class copEnter {};
 		class copMarkers {};
 		class copLights {};
 		class vehInvSearch {};
@@ -348,6 +366,15 @@ class Life_Client_Core
 		class blastingCharge {};
 		class defuseKit {};
 		class storageBox {};
+		class bankalarmsound {};
+		class CarAlarmSound {};
+		class barriere {};
+		class cone {};
+		class weed {};
+		class alcool {};
+		class heroine {};
+		class meth {};
+		class cocaine {};
 	};
 	
 	class Dialog_Controls
