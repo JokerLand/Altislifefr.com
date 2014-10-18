@@ -112,6 +112,7 @@ switch (_shop) do
 				["O_Truck_03_device_F",750000],
 				["O_Heli_Light_02_unarmed_F",300000],
 				["I_Heli_Transport_02_F",600000],
+				["RDS_Ikarus_Civ_02",150000],
 				["IVORY_T6A_1",3000000]
 			];
 		};
@@ -140,7 +141,7 @@ switch (_shop) do
 			_return set[count _return,
 			["B_G_Offroad_01_armed_F",1500000]];
 			_return set[count _return,
-			["O_MRAP_02_hmg_F",2500000]];
+			["O_MRAP_02_hmg_F",3350000]];
 		};
 	};
 
@@ -175,6 +176,8 @@ switch (_shop) do
 			["cl3_insignia_camo",50000]];
 			_return set[count _return,
 			["I_MRAP_03_F",1000000]];
+			_return set[count _return,
+			["RDS_Ikarus_Civ_01",100000]];
 			};
 
 				if(__GETC__(life_coplevel) > 3) then
