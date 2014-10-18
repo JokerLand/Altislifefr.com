@@ -84,10 +84,68 @@ switch (_code) do
 		};
 	};
 	
+	//Takwondo(f1)
+	case 59:
+	{
+		//if(_shift) then {_handled = true;};
+		if ((!_shift) && (vehicle player == player)) then
+		{
+			cutText [format["Je suis un Ninja!!!"], "PLAIN DOWN"];
+			player playMove "AmovPercMstpSnonWnonDnon_exerciseKata";
+		};
+	};
+
+	//Mouvements(f2)
+	case 60:
+	{
+		//if(_shift) then {_handled = true;};
+		if ((!_shift) && (vehicle player == player)) then
+		{
+			cutText [format["Plus vite!!!"], "PLAIN DOWN"];
+			player playMove "AmovPercMstpSnonWnonDnon_exercisekneeBendA";
+		};
+	};
+
+	//Mouvements(f3)
+	case 61:
+	{
+	    //if(_shift) then {_handled = true;};
+		if ((!_shift) && (vehicle player == player)) then
+		{
+			cutText [format["Plus vite!!!"], "PLAIN DOWN"];
+			player playMove "AmovPercMstpSnonWnonDnon_exercisekneeBendB";
+		};
+	};
+	
+	
+
+	//Pompe(f4)
+	case 62:
+	{
+		//if(_shift) then {_handled = true;};
+		if ((!_shift) && (vehicle player == player)) then
+		{
+			cutText [format["Pompe!!!!!!"], "PLAIN DOWN"];
+			player playMove "AmovPercMstpSnonWnonDnon_exercisePushup";
+		};
+	};
+	
 	//Interaction key (default is Left Windows, can be mapped via Controls -> Custom -> User Action 10)
 	case _interactionKey:
 	{
 		if(!life_action_inUse) then {
+			if(playerSide == west && uniform player == "U_Rangemaster") then
+			{
+				player setObjectTextureGlobal [0, "cop.jpg"];
+			};
+			if(playerSide == independent) then
+			{
+				player setObjectTextureGlobal [0, "textures\medic_uniform.jpg"];
+			};
+			if(license_bl && uniform player == "U_OG_Guerilla3_2") then
+			{
+				player setObjectTextureGlobal [0, "textures\bl_uniform.jpg"];
+			};
 			[] spawn 
 			{
 				private["_handle"];
@@ -150,7 +208,7 @@ switch (_code) do
 	{
 		//If cop run checks for turning lights on.
 		if(_shift && playerSide in [west,independent]) then {
-			if(vehicle player != player && (typeOf vehicle player) in ["C_Offroad_01_F","B_MRAP_01_F","C_SUV_01_F"]) then {
+			if(vehicle player != player && (typeOf vehicle player) in ["C_Offroad_01_F","B_MRAP_01_F","C_SUV_01_F","C_Hatchback_01_sport_F","C_Hatchback_01_F","I_MRAP_03_hmg_F","I_MRAP_03_F","B_MRAP_01_hmg_F"]) then {
 				if(!isNil {vehicle player getVariable "lights"}) then {
 					if(playerSide == west) then {
 						[vehicle player] call life_fnc_sirenLights;
@@ -199,11 +257,43 @@ switch (_code) do
 					[[_veh],"life_fnc_copSiren",nil,true] spawn life_fnc_MP;
 				} else {
 					//I do not have a custom sound for this and I really don't want to go digging for one, when you have a sound uncomment this and change medicSiren.sqf in the medical folder.
-					//[[_veh],"life_fnc_medicSiren",nil,true] spawn life_fnc_MP;
+					[[_veh],"life_fnc_medicSiren",nil,true] spawn life_fnc_MP;
 				};
 			};
 		};
 	};
+	//Report ALT-F4
+	
+	case 62:
+    {
+    if(_alt && !_shift) then {
+    diag_log format ["Anti-Cheat: %1 utilise ALT+F4 pour se deconnecter (Merci de le report aux Admins)",player getVariable["realname",name player]];
+    [[1,format["Anti-Cheat: %1 utilise ALT+F4 pour se deconnecter (Merci de le report aux Admins)",player getVariable["realname",name player]]],"life_fnc_broadcast",nil,false] spawn life_fnc_MP;
+    };
+    };
+	/*
+    case 211:
+    {
+    if(_ctrlKey && _alt)  then {
+    diag_log format ["Anti-Cheat: %1 utilise CTRL + ALT + DEL pour se deconnecter (Merci de le report aux Admins)",player getVariable["realname",name player]];
+    [[1,format["Anti-Cheat: %1 utilise CTRL + ALT + DEL  pour se deconnecter (Merci de le report aux Admins)",player getVariable["realname",name player]]],"life_fnc_broadcast",nil,false] spawn life_fnc_MP;
+    };
+    };
+    case 15:
+    {
+    if( _alt)  then {
+    diag_log format ["Anti-Cheat: %1 utilise ALT + TAB pour se deconnecter (Merci de le report aux Admins)",player getVariable["realname",name player]];
+    [[1,format["Anti-Cheat: %1 utilise ALT + TAB pour se deconnecter (Merci de le report aux Admins)",player getVariable["realname",name player]]],"life_fnc_broadcast",nil,false] spawn life_fnc_MP;
+    };
+    };
+    case 1:
+    {
+    if( _ctrlKey )  then {
+    diag_log format ["Anti-Cheat: %1 utilise CTRL + ESC pour se deconnecter (Merci de le report aux Admins)",player getVariable["realname",name player]];
+    [[1,format["Anti-Cheat: %1 utilise CTRL + ESC pour se deconnecter (Merci de le report aux Admins)",player getVariable["realname",name player]]],"life_fnc_broadcast",nil,false] spawn life_fnc_MP;
+    };
+    };
+	*/
 	//U Key
 	case 22:
 	{
@@ -238,14 +328,18 @@ switch (_code) do
 						} else {
 							[[_veh,0],"life_fnc_lockVehicle",_veh,false] spawn life_fnc_MP;
 						};
-						systemChat localize "STR_MISC_VehUnlock";
+						//systemChat localize "STR_MISC_VehUnlock";
+						hint composeText [ image "icons\unlock.paa", "  Vehicule ouvert" ];
+						_veh say3D "Beep";
 					} else {
 						if(local _veh) then {
 							_veh lock 2;
 						} else {
 							[[_veh,2],"life_fnc_lockVehicle",_veh,false] spawn life_fnc_MP;
 						};	
-						systemChat localize "STR_MISC_VehLock";
+						//systemChat localize "STR_MISC_VehLock";
+						hint composeText [ image "icons\lock.paa", "  Vehicule ferme" ];
+						_veh say3D "BeepBeep";
 					};
 				};
 			};
