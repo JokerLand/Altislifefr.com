@@ -21,6 +21,14 @@ switch (true) do
 		};
 	};
 	
+	    case (_item == "cola" or _item == "biere"):
+	{
+		if(([false,_item,1] call life_fnc_handleInv)) then
+		{
+			life_thirst =100;
+		};
+	};
+	
 	case (_item == "boltcutter"): {
 		[cursorTarget] spawn life_fnc_boltcutter;
 		closeDialog 0;
@@ -66,6 +74,72 @@ switch (true) do
 		};
 	};
 	
+	case (_item == "barriere"):
+	{
+		if(!isNull life_barriere) exitWith {hint "Vous deployez déjà une barrière"};
+		if(([false,_item,1] call life_fnc_handleInv)) then
+		{
+			[] spawn life_fnc_barriere;
+		};
+	};
+	
+	case (_item == "cone"):
+	{
+		if(!isNull life_cone) exitWith {hint "Vous deployez déjà un cône."};
+		if(([false,_item,1] call life_fnc_handleInv)) then
+		{
+			[] spawn life_fnc_cone;
+		};
+	};
+	
+	case (_item == "marijuana"):
+	{
+		 if(([false,_item,1] call life_fnc_handleInv)) then
+		 {
+        	[] spawn life_fnc_weed;
+		 };
+	};
+
+	case (_item == "heroinp"):
+	{
+		if(([false,_item,1] call life_fnc_handleInv)) then
+		{
+			[] spawn life_fnc_heroine;
+		};
+	};
+
+	case (_item == "cocainep"):
+	{
+		if(([false,_item,1] call life_fnc_handleInv)) then
+		{
+			[] spawn life_fnc_cocaine;
+		};
+	};
+
+	case (_item == "methp"):
+	{
+		if(([false,_item,1] call life_fnc_handleInv)) then
+		{
+			[] spawn life_fnc_meth;
+		};
+	};
+
+	case (_item == "moonshine"):
+	{
+		if(([false,_item,1] call life_fnc_handleInv)) then
+		{
+			[] spawn life_fnc_alcool;
+		};
+	};
+
+	case (_item == "vodka"):
+	{
+		if(([false,_item,1] call life_fnc_handleInv)) then
+		{
+			[] spawn life_fnc_alcool;
+		};
+	};
+	
 	case (_item == "fuelF"):
 	{
 		if(vehicle player != player) exitWith {hint localize "STR_ISTR_RefuelInVehicle"};
@@ -77,7 +151,7 @@ switch (true) do
 		[] spawn life_fnc_lockpick;
 	};
 	
-	case (_item in ["apple","rabbit","salema","ornate","mackerel","tuna","mullet","catshark","turtle","turtlesoup","donuts","tbacon","peach"]):
+	case (_item in ["apple","rabbit","salema","ornate","mackerel","tuna","mullet","catshark","turtle","turtlesoup","donuts","tbacon","peach","burger","frite"]):
 	{
 		[_item] call life_fnc_eatFood;
 	};
