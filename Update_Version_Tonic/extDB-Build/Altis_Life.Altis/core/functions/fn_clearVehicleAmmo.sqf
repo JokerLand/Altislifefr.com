@@ -26,13 +26,6 @@ if(_veh == "O_Heli_Attack_02_black_F") then
 	_vehicle removeMagazinesTurret ["38Rnd_80mm_rockets",[0]];
 };
 
-
-if(_veh == "B_Heli_Transport_01_F") then 
-{
-	_vehicle removeMagazinesTurret ["2000Rnd_65x39_Belt_Tracer_Red",[1]];
-	_vehicle removeMagazinesTurret ["2000Rnd_65x39_Belt_Tracer_Red",[2]];
-};
-
 clearWeaponCargoGlobal _vehicle;
 clearMagazineCargoGlobal _vehicle;
 clearItemCargoGlobal _vehicle;
