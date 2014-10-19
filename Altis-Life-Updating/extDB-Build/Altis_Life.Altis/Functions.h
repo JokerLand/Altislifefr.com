@@ -102,11 +102,14 @@ class Life_Client_Core
 		class pickupMoney {};
 		class ticketAction {};
 		class packupSpikes {};
+		class packupBarriere {};
+		class packupCone {};
 		class storeVehicle {};
 		class robAction {};
 		class captureHideout {};
 		class gather {};
 		class surrender {};
+		class seizeObjects {};
 	};
 	
 	class Housing
@@ -294,6 +297,7 @@ class Life_Client_Core
 		class fedCamDisplay {};
 		class copLoadout {};
 		class ticketPaid {};
+		class copEnter {};
 	};
 	
 	class Gangs
@@ -349,6 +353,8 @@ class Life_Client_Core
 		class blastingCharge {};
 		class defuseKit {};
 		class storageBox {};
+		class barriere {};
+		class cone {};
 	};
 	
 	class Dialog_Controls

@@ -1,7 +1,7 @@
 /*
 	File: fn_itemWeight.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Gets the items weight and returns it.
 */
@@ -56,5 +56,7 @@ switch (_item) do
 	case "defusekit": {2};
 	case "storagesmall": {5};
 	case "storagebig": {10};
+	case "barriere": {2};
+	case "cone": {1};
 	default {1};
 };
