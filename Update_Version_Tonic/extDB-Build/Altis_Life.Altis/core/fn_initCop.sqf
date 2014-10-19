@@ -35,4 +35,8 @@ if(playerSide == west) then {
     player setVariable["coplevel",_getRank,TRUE];
 };
 
+if(uniform player == "U_Rangemaster") then
+			{
+				player setObjectTextureGlobal [0, "cop.jpg"];
+			};
 [] execVM "statusBar.sqf";
