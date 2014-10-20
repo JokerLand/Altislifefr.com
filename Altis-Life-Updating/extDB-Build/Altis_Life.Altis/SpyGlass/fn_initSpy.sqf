@@ -1,10 +1,10 @@
 /*
 	File: fn_initSpy.sqf
-	
+
 	Description:
 	Does some things that I made over-complicated / un-needed but blah.
 	Will eventually include server-side checks but it's blah at this point.
-	
+
 	Will also become a standalone system which is why it's setup like this.
 */
 private["_binConfigPatches","_cfgPatches","_endM"];
@@ -28,10 +28,10 @@ __CONST__(JJJJ_MMMM___EEEEEEE_SPAWN_WEAPON,"No");
 
 /*
 	Compile our list of allowed addon patches, by default this DOES NOT ALLOW ANY ADDONS.
-	
+
 	If you want to white-list addons such as JSRS or Blastcore you need to start a test instance (Host locally and not the mission) and first fill the SPY_cfg_patchList array, once you executed it (Filled it)
 	Run the following code and it will copy the list of addons / patches not in the list to your clipboard (Ctrl + V) and then add it to the array.
-	
+
 	_cfgPatches = [];
 	_binConfigPatches = configFile >> "CfgPatches";
 	for "_i" from 0 to count (_binConfigPatches)-1 do {
@@ -44,7 +44,7 @@ __CONST__(JJJJ_MMMM___EEEEEEE_SPAWN_WEAPON,"No");
 	};
 
 	copyToClipboard str(_cfgPatches);
-	
+
 	i.e
 	["cba_xeh","Extended_EventHandlers","CBA_Extended_EventHandlers","JSRS_Environment","WarFXPE","cba_common","cba_events","cba_hashes","cba_network","cba_strings","cba_ui","cba_vectors","JSRS2_120mm_Cannon","JSRS2_127","JSRS2_155mm_AMOS",
 	"JSRS2_230mm_Titan","JSRS2_30mm_Cannon","JSRS2_35mm_Autocannon","JSRS2_4Five45","JSRS2_ACPC","JSRS2_Autocannon","JSRS2_Bullethits","JSRS2_DAGR","JSRS2_DAR","JSRS2_EBR","JSRS2_Explosions","JSRS2_Explosives","JSRS2_Filters","JSRS2_FS2000",
@@ -54,8 +54,8 @@ __CONST__(JJJJ_MMMM___EEEEEEE_SPAWN_WEAPON,"No");
 	"JSRS2_FighterPlane3","JSRS2_FV720_Mora","JSRS2_Hunter","JSRS2_Ifrit","JSRS2_IFV6a_Cheetah","JSRS2_IFV6c_Panther","JSRS2_M2A1_Slammer","JSRS2_M4_Scorcher","JSRS2_M5_Sandstorm","JSRS2_MBT52_Kuma","JSRS2_Mi48_Kajman","JSRS2_MSE3_Marid","JSRS2_Offroad",
 	"JSRS2_Po30_Orca","JSRS2_Strider","JSRS2_SUV","JSRS2_T100_Varsuk","JSRS2_Truck1","JSRS2_Truck2","JSRS2_UAV_1","JSRS2_UH80_GhostHawk","JSRS2_Van","JSRS2_WY55_Hellcat","JSRS2_ZSU39_Tigris","cba_xeh_a3"]
 */
-	
-_patchList = 
+
+_patchList =
 ["life_server","CAData","A3_BaseConfig_F","A3_Dubbing_Radio_F","A3_Functions_F","A3_Functions_F_EPA","A3_Functions_F_EPC","A3_Data_F","A3_Data_F_ParticleEffects","A3_Editor_F","A3_Functions_F_Curator",
 "A3_Language_F","A3_Language_F_Beta","A3_Language_F_Curator","A3_Language_F_EPA","A3_Language_F_EPB","A3_Language_F_EPC","A3_Language_F_Gamma","A3_LanguageMissions_F","A3_LanguageMissions_F_Beta",
 "A3_LanguageMissions_F_Gamma","A3_Misc_F","A3_Misc_F_Helpers","A3_Modules_F","A3_Modules_F_DynO","A3_Modules_F_Effects","A3_Modules_F_Events","A3_Modules_F_GroupModifiers","A3_Modules_F_HC",
@@ -112,8 +112,36 @@ _patchList =
 "A3_Soft_F_Bootcamp_Truck","A3_Soft_F_Bootcamp_Quadbike","A3_Soft_F_Bootcamp_Offroad_01","A3_Weapons_F_Bootcamp","A3_Modules_F_Bootcamp_Misc","A3_Modules_F_Bootcamp","A3_Characters_F_Bootcamp_Common","A3_Weapons_F_Bootcamp_Ammoboxes","A3_UI_F_Bootcamp",
 "A3_Characters_F_Bootcamp","A3_Weapons_F_Bootcamp_LongRangeRifles_M320","A3_Weapons_F_Bootcamp_LongRangeRifles_GM6","A3_Structures_F_Bootcamp_Items_Food","A3_Structures_F_Bootcamp_Items_Electronics","A3_Structures_F_Bootcamp_Civ_SportsGrounds",
 "A3_Structures_F_Bootcamp_Civ_Camping","A3_Language_F_Bootcamp","A3_Functions_F_Bootcamp","A3_Structures_F_Bootcamp_VR_Helpers","A3_Structures_F_Bootcamp_VR_CoverObjects","A3_Structures_F_Bootcamp_VR_Blocks","A3_Structures_F_Bootcamp_Training",
-"A3_Structures_F_Bootcamp_System","A3_Structures_F_Bootcamp_Items_Sport","A3_Structures_F_Bootcamp_Ind_Cargo","A3_Sounds_F_Bootcamp","A3_Data_F_Bootcamp","A3_Map_VR_Scenes","A3_Missions_F_Bootcamp","A3_Music_F_Bootcamp","Map_VR","A3Data",
-"A3_Data_F_Hook"
+"A3_Structures_F_Bootcamp_System","A3_Structures_F_Bootcamp_Items_Sport","A3_Structures_F_Bootcamp_Ind_Cargo","A3_Sounds_F_Bootcamp","A3_Data_F_Bootcamp","A3_Map_VR_Scenes","A3_Missions_F_Bootcamp","A3_Music_F_Bootcamp","Map_VR","A3Data","A3_Data_F_Hook",
+"BMW_M5","A3L_Charger","A3L_Dumptruck","A3L_Punto","A3L_VolksWagenGolfGTi","ALFR_GeK_Scania_420","asdg_jointrails",
+"c1987_mp7","c1987_mp7_c","Cha_PKP","cl3_sounds","cl3_vehiclefunctions","cl3_wheeled","cl3_dbs_volante",
+"cl3_r8_spyder","cl3_e60_m5","cl3_z4_2008","cl3_veyron","cl3_dodge_charger_2012","cl3_458","cl3_civic_vti",
+"cl3_lamborghini_gt1","cl3_murcielago","cl3_reventon","cl3_range_rover","cl3_e63_amg","cl3_carrera_gt",
+"cl3_dumper_truck","cl3_insignia","cl3_golf_mk2","cl3_golf_learner","cl3_polo_gti","DAR_Firebird_F",
+"DAR_Challenger_F","DAR_Charger_F","DAR_Explorer_F","DAR_Fusion_F","dar_ilpdn","DAR_Impala_F","DAR_MF1_A","DAR_Tahoe_A",
+"DAR_Tahoe_F","DAR_Impala_A","DAR_Taurus_F","DDOPP_taserPack","DG_ARMORY","FHQ_Accessories","FHQ_M4","GNT_C185",
+"HAFM_UK_WHEELED","HK430_M4benelli","hlcweapons_core","hlcweapons_aks","IVORY_T6A","Jonzie_Viper","M110_Arma3",
+"PG_Services_PMC_Ammoboxes","PG_Services_PMC_Bags","PG_Services_PMC_CLIENT","PG_Services_PMC_UNITS","PG_Services_PMC_Goggles",
+"PG_Services_PMC_Gear","PG_SERVICES_PMC_UNDERWEAR","PG_SERVICES_PMC_UNIFORMS","PG_Services_PMC_UNITS","rds_A2_Civilians",
+"SAL_77TRANSAM_A","SAL_Audi_A","SAL_IROC_A","gign_shield","CASounds","SpeedRadar","tmr_ai","tmr_autorest","tmr_blastfrag",
+"tmr_bodyarmor","tmr_core","tmr_disposable","tmr_hiteffects","tmr_language","tmr_nlaw","tmr_optics","tmr_particletweaks",
+"tmr_physxtweaks","tmr_reloadspeedtweaks","tmr_rpg42","tmr_smallarms","tmr_smallarms_ballistics","tmr_smallarms_recoil",
+"tmr_smallarms_suppressors","tmr_smallarms_suppressors_recoil","tmr_smallarms_ugl","tmr_u_loadouts","tmr_weather","CAWheeled3","CAWheeled2_MMT","cl3_sounds_env",
+"WarFXPE","cba_common","cba_events","cba_hashes","cba_keybinding","cba_network","cba_strings","cba_ui","cba_vectors",
+"JSRS2_120mm_Cannon","JSRS2_127","JSRS2_155mm_AMOS","JSRS2_230mm_Titan","JSRS2_30mm_Cannon","JSRS2_35mm_Autocannon",
+"JSRS2_4Five45","JSRS2_ACPC","JSRS2_Autocannon","JSRS2_Bullethits","JSRS2_DAGR","JSRS2_DAR","JSRS2_EBR",
+"JSRS2_Explosions","JSRS2_Explosives","JSRS2_Filters","JSRS2_FS2000","JSRS2_Gatling","JSRS2_GMG20","JSRS2_GMG40",
+"JSRS2_Khaybar","JSRS2_LMGRCWS","JSRS2_M134","JSRS2_M200","JSRS2_M320R","JSRS2_M6","JSRS2_Minigun","JSRS2_MX",
+"JSRS2_NLAW","JSRS2_P07","JSRS2_PDW","JSRS2_Rahim","JSRS2_Rook40","JSRS2_RPG32","JSRS2_Scorpian","JSRS2_SDAR",
+"JSRS2_Skalpel_ATGM","JSRS2_Skyfire","JSRS2_Sonic_Cracks","JSRS2_Titan","JSRS2_TRG20","JSRS2_Vector",
+"JSRS2_Veh_Titan","JSRS2_Zafir","JSRS2_Zubr45","Blastcore_VEP","cba_ai","cba_arrays","cba_diagnostic",
+"cba_help","cba_ui_helper","cba_versioning","JSRS2_Movement","JSRS2_Silencers","cba_main","cba_main_a3",
+"JSRS2_2S9_Sorcher","JSRS2_AFV4_Gorgon","JSRS2_AH99_Blackfoot","JSRS2_AH9_Pawnee","JSRS2_AMV7_Marshal",
+"JSRS2_BTRK_Kamysh","JSRS2_CH49_Mohawk","JSRS2_Distance","JSRS2_FighterPlane3","JSRS2_FV720_Mora","JSRS2_Hunter",
+"JSRS2_Ifrit","JSRS2_IFV6a_Cheetah","JSRS2_IFV6c_Panther","JSRS2_M2A1_Slammer","JSRS2_M4_Scorcher","JSRS2_M5_Sandstorm",
+"JSRS2_MBT52_Kuma","JSRS2_Mi48_Kajman","JSRS2_MSE3_Marid","JSRS2_Offroad","JSRS2_Po30_Orca","JSRS2_Strider","JSRS2_SUV",
+"JSRS2_T100_Varsuk","JSRS2_Truck1","JSRS2_Truck2","JSRS2_UAV_1","JSRS2_UH80_GhostHawk","JSRS2_Van","JSRS2_WY55_Hellcat",
+"JSRS2_ZSU39_Tigris","cba_xeh_a3","cba_xeh","Extended_EventHandlers","CBA_Extended_EventHandlers","DG_ACCESSORIES","Jonzie_A3L_Car_Base","FHQ_M4_M4A1"
 ];
 
 uiNamespace setVariable["RscDisplayRemoteMissions",displayNull]; //For Spy-Glass..
@@ -139,7 +167,7 @@ private["_children","_allowedChildren"];
 _children = [configFile >> "RscDisplayMPInterrupt" >> "controls",0] call BIS_fnc_returnChildren;
 _allowedChildren = [
 "Title","MissionTitle","DifficultyTitle","PlayersName","ButtonCancel","ButtonSAVE","ButtonSkip","ButtonRespawn","ButtonOptions",
-"ButtonVideo","ButtonAudio","ButtonControls","ButtonGame","ButtonTutorialHints","ButtonAbort","DebugConsole","Feedback","MessageBox"
+"ButtonVideo","ButtonAudio","ButtonControls","ButtonGame","ButtonTutorialHints","ButtonAbort","DebugConsole","Feedback","MessageBox","CBA_CREDITS_CONT_C","CBA_CREDITS_M_P"
 ];
 
 {
@@ -154,7 +182,7 @@ _allowedChildren = [
 /*
 	Display Validator
 	Loops through and makes sure none of the displays were modified..
-	
+
 	TODO: Run check every x minutes and validate all displays.
 */
 {
@@ -197,6 +225,7 @@ foreach [
 [] execVM "SpyGlass\fn_menuCheck.sqf";
 
 //Create a no-recoil hack check.
+/* Inutile car TMR
 [] spawn {
 	waitUntil {(!isNil "life_fnc_moveIn") && !isNull (findDisplay 46)};
 	_endM = compile PreProcessFileLineNumbers "\a3\functions_f\Misc\fn_endMission.sqf";
@@ -210,3 +239,4 @@ foreach [
 		sleep 1.5;
 	};
 };
+*/
