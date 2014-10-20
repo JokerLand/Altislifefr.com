@@ -142,7 +142,6 @@ switch (_shop) do
 			["B_G_Offroad_01_armed_F",1500000]];
 			_return set[count _return,
 			["O_MRAP_02_hmg_F",3350000]];
-			["O_MRAP_02_hmg_F",2500000]];
 		};
 	};
 
