@@ -33,6 +33,27 @@ switch (_vehicle) do
 		};
 	};
 
+	case "cl3_veyron_wht_blu" :
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Noir";};
+			case 1: {_color = "Gris Sombre";};
+			case 2: {_color = "Gris";};
+			case 3: {_color = "Gris Clair";};
+			case 4: {_color = "Blanc";};
+			case 5: {_color = "Sable";};
+			case 6: {_color = "Bordeau";};
+			case 7: {_color = "Bleu";};
+			case 8: {_color = "Bleu Nuit";};
+			case 9: {_color = "Mauve Nuit";};
+			case 10: {_color = "Vert";};
+			case 11: {_color = "Rouge";};
+			case 12: {_color = "Jaune";};
+			case 13: {_color = "Orange";};
+		};
+	};
+	
 	case "A3L_VolksWagenGolfGTiblack" :
 	{
 		switch (_index) do
@@ -618,6 +639,7 @@ switch (_vehicle) do
 			case 0: {_color = "Camo";};
 			case 1: {_color = "Camo Urbain";};
 			case 2: {_color = "Noir";};
+			case 3: {_color = "Noir";};
 		};
 	};
 
@@ -638,6 +660,7 @@ switch (_vehicle) do
 			case 0: {_color = "Camo";};
 			case 1: {_color = "Camo Urbain";};
 			case 2: {_color = "Noir";};
+			case 3: {_color = "Noir";};
 		};
 	};
 
@@ -765,6 +788,7 @@ switch (_vehicle) do
 			case 4: {_color = "Noir"};
 			case 5: {_color = "Blanc"};
 			case 6: {_color = "Rouge"};
+            case 7: {_color = "Halloween"};
 		};
 	};
 
@@ -868,6 +892,7 @@ switch (_vehicle) do
 			case 2: {_color = "Vert"};
 			case 3: {_color = "Bleu Glacial"};
 			case 4: {_color = "Noir"};
+            case 5: {_color = "Halloween"};
 		};
 	};
 
@@ -944,6 +969,7 @@ switch (_vehicle) do
 		{
 			case 0: {_color = "Ion"};
 			case 1: {_color = "Dahoman"};
+            case 2: {_color = "Halloween"};
 		};
 	};
 
@@ -954,6 +980,16 @@ switch (_vehicle) do
 			case 0: {_color = "Black"};
 		};
 	};
+    
+   /* case "IVORY_T6A_1":
+    {
+      switch (_index) do 
+      {
+        case 0: {_color = "dogfight";};  
+      };
+
+    };*/
+        
 };
 
 _color;

@@ -24,6 +24,20 @@ switch (_filter) do
 		{
 			_ret set[count _ret,["U_B_Wetsuit",nil,2000]];
 		};
+		if(__GETC__(life_coplevel) > 2) then
+		{
+			_ret set[count _ret,["U_PMC_CombatUniformRS_SSBPBB","Tenue BAC",1500]];
+			_ret set[count _ret,["U_PMC_BluPolo_GrnPants","Tenue BAC",1500]];
+			_ret set[count _ret,["U_PMC_WhtPolo_BluPants","Tenue BAC",1500]];
+			_ret set[count _ret,["U_PMC_GTShirt_SJeans","Tenue BAC",1500]];
+			_ret set[count _ret,["U_PMC_BlkTShirt_DJeans","Tenue BAC",1500]];
+			_ret set[count _ret,["U_PMC_BlackPoloShirt_BeigeCords","Tenue BAC",1500]];
+			_ret set[count _ret,["U_PMC_CombatUniformLS_SSGPBB","Tenue BAC",1500]];
+			_ret set[count _ret,["U_PMC_CombatUniformLS_ChckDBS_GPSB","Tenue BAC",1500]];
+			_ret set[count _ret,["U_PMC_CombatUniformLS_ChckP_BPBB","Tenue BAC",1500]];
+			_ret set[count _ret,["U_PMC_CombatUniformRS_BSGPSB","Tenue BAC",1500]];
+			_ret set[count _ret,["U_PMC_CombatUniformRS_GSSPBB","Tenue BAC",1500]];
+		};
 	};
 
 	//Hats
@@ -74,6 +88,7 @@ switch (_filter) do
 			["V_TacVest_blk_POLICE",nil,5000],
 			["V_TacVestIR_blk",nil,15000],
 			["V_PlateCarrier1_blk",nil,20000],
+			["V_PlateCarrierInd_PMC_blk",nil,19000],
 			["V_RebreatherB",nil,5000]
 		];
 	};
@@ -86,6 +101,7 @@ switch (_filter) do
 			["B_Kitbag_cbr",nil,800],
 			["B_FieldPack_cbr",nil,500],
 			["B_AssaultPack_cbr",nil,700],
+			["B_Kitbag_blk",nil,1700],
 			["B_Bergen_sgg",nil,2500],
 			["B_Carryall_cbr",nil,3500]
 		];

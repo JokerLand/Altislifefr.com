@@ -33,6 +33,27 @@ switch (_vehicle) do
  		];
  	};
 
+	case "cl3_veyron_wht_blu":
+	{
+ 		_ret =
+ 		[
+ 			["#(ai,64,64,1)Fresnel(0.3,3)","civ"],
+			["#(argb,8,8,3)color(0.1,0.1,0.1,0.7)","civ"],
+			["#(argb,8,8,3)color(0.5,0.5,0.5,0.1)","civ"],
+			["#(argb,8,8,3)color(0.3,0.3,0.3,0.8)","civ"],
+			["#(argb,8,8,3)color(1,1,1,1)","civ"],
+			["#(argb,8,8,3)color(1.5,1.6,0.9,0.2)","civ"],
+			["#(argb,8,8,3)color(1,0,0,0.1)","civ"],
+			["#(argb,8,8,3)color(0.01,0.6,1,0.1)","civ"],
+			["#(argb,8,8,3)color(0,0,0.5,0.1)","civ"],
+			["#(argb,8,8,3)color(0.6,0,1,0.01)","civ"],
+			["#(argb,8,8,3)color(0.5,1,0.5,0.05)","civ"],
+			["#(argb,8,8,3)color(1,0,0,1)","civ"],
+			["#(argb,8,8,3)color(0.6,0.3,0.01,1)","civ"],
+			["#(argb,8,8,3)color(1,0.3,0.01,0.6)","civ"]
+ 		];
+ 	};
+	
 	case "A3L_VolksWagenGolfGTiblack":
 	{
  		_ret =
@@ -618,7 +639,8 @@ switch (_vehicle) do
  		[
  			["cl3_vehiclefunctions\skins\skin_camo_co.paa","reb"],
 			["cl3_vehiclefunctions\skins\skin_camo_urban_co.paa","reb"],
-			["#(ai,64,64,1)Fresnel(0.3,3)","reb"]
+			["#(ai,64,64,1)Fresnel(0.3,3)","reb"],
+			["#(ai,64,64,1)Fresnel(0.3,3)","cop"]
  		];
  	};
 
@@ -638,7 +660,8 @@ switch (_vehicle) do
  		[
  			["cl3_vehiclefunctions\skins\skin_camo_co.paa","reb"],
 			["cl3_vehiclefunctions\skins\skin_camo_urban_co.paa","reb"],
-			["#(ai,64,64,1)Fresnel(0.3,3)","reb"]
+			["#(ai,64,64,1)Fresnel(0.3,3)","reb"],
+			["#(ai,64,64,1)Fresnel(0.3,3)","cop"]
  		];
  	};
 
@@ -679,7 +702,8 @@ switch (_vehicle) do
 		_ret =
 		[
 			[_path + "heli_transport_02_1_ion_co.paa","civ",_path + "heli_transport_02_2_ion_co.paa",_path + "heli_transport_02_3_ion_co.paa"],
-			[_path + "heli_transport_02_1_dahoman_co.paa","civ",_path + "heli_transport_02_2_dahoman_co.paa",_path + "heli_transport_02_3_dahoman_co.paa"]
+			[_path + "heli_transport_02_1_dahoman_co.paa","civ",_path + "heli_transport_02_2_dahoman_co.paa",_path + "heli_transport_02_3_dahoman_co.paa"],
+            ["textures\moh_heli1_hallowen.jpg", "civ", "textures\moh_heli2_hallowen.jpg", "textures\moh_heli3_hallowen.jpg"]
 		];
 	};
 
@@ -778,7 +802,9 @@ switch (_vehicle) do
 			["textures\van_green.jpg","civ"],
 			["#(argb,8,8,3)color(0.05,0.05,0.05,1)","civ"],
 			["\a3\soft_f_gamma\Van_01\Data\van_01_ext_co.paa","civ"],
-			["\a3\soft_f_gamma\Van_01\Data\van_01_ext_red_co.paa","civ"]
+			["\a3\soft_f_gamma\Van_01\Data\van_01_ext_red_co.paa","civ"],
+            ["textures\van_hallowen1.jpg","civ", "textures\van_hallowen2.jpg"]
+            
 		];
 	};
 
@@ -872,7 +898,8 @@ switch (_vehicle) do
 			["textures\ifrit_darkred_01.jpg","reb","textures\ifrit_darkred_02.jpg"],
 			["textures\ifrit_green_01.jpg","reb","textures\ifrit_green_02.jpg"],
 			["textures\ifrit_blue_01.jpg","reb","textures\ifrit_blue_02.jpg"],
-			["textures\ifrit_black_01.jpg","reb","textures\ifrit_black_02.jpg"]
+			["textures\ifrit_black_01.jpg","reb","textures\ifrit_black_02.jpg"],
+            ["textures\ifrit_hallowen1.jpg","reb","textures\ifrit_hallowen2.jpg"]
 		];
 	};
 
@@ -941,6 +968,17 @@ switch (_vehicle) do
 			["#(argb,8,8,3)color(0.05,0.05,0.05,1)","fed"]
 		];
 	};
+    
+/*    case "IVORY_T6A_1":
+	{
+        
+       
+		_ret =
+		[
+			["\ivory_t6a\data\texture.dogfight_usa\t6_1_t.paa","donate", "\ivory_t6a\data\texture.dogfight_usa\t6_2_t.paa",  "\ivory_t6a\data\texture.dogfight_usa\t6_3_t.paa", "\ivory_t6a\data\texture.dogfight_usa\t6_4_t.paa"]
+            
+		];
+	};*/
 };
 
 _ret;

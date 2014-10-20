@@ -109,6 +109,9 @@ switch (_var) do
 	case "license_he": {"H.E"};
 	case "license_lmc": {"L.M.C"};
 	case "license_bgf": {"BGF"};
+	case "license_bmg": {"BMG"};
+	case "license_olympia": {"Olympia"};
+	case "license_rosthein": {"Rosthein"};
 	case "license_fh": {"F.H"};
 	case "license_sal": {"Salamander"};
 	case "license_ms": {"MS-13"};

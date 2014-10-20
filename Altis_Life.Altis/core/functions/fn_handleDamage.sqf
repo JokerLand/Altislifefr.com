@@ -21,7 +21,7 @@ if(!isNil "TON_Debug") then {
 if(!isNull _source) then {
 	if(_source != _unit) then {
 		_curWep = currentWeapon _source;
-		if(_projectile in ["B_9x21_Ball","B_556x45_dual","DDOPP_B_Taser"] && _curWep in ["hgun_P07_snds_F","arifle_SDAR_F","DDOPP_X26","DDOPP_X26_b"]) then {
+		if(_projectile in ["B_9x19_Ball","B_556x45_dual","DDOPP_B_Taser"] && _curWep in ["hgun_P07_snds_F","arifle_SDAR_F","DDOPP_X26","DDOPP_X26_b"]) then {
 			if(side _source == west && playerSide != west) then {
 				private["_distance","_isVehicle","_isQuad"];
 				_distance = if(_projectile == "B_556x45_dual") then {100} else {35};
@@ -49,11 +49,31 @@ if(!isNull _source) then {
 	};
 };
 
-if(vehicle _source isKindOf "LandVehicle") exitWith {
 
-					_unit setDamage 0.5;
-					_source setDamage 0.9;
+_isStriderHMG = if(_isVehicle) then {if(typeOf (vehicle player) == "I_MRAP_03_hmg_F")};
+_isOffroadArmed = if(_isVehicle) then {if(typeOf (vehicle player) == "B_G_Offroad_01_armed_F")};
+_isIfritHMG = if(_isVehicle) then {if(typeOf (vehicle player) == "O_MRAP_02_hmg_F")};
+
+if(vehicle _source isKindOf "LandVehicle") then {
+    if( !_isStriderHMG && !_isOffroadArmed && !_isIfritHMG ) then {
+         _unit setDamage 0.2;
+    };    
+   
 };
+
+
+
+
+
+/*
+if(vehicle _source isKindOf "LandVehicle") exitWith {
+        _unit setDamage 0.2;
+};
+*/
+
+/*if(vehicle _source isKindOf "LandVehicle" && _projectile != ["B_127x99_Ball_Tracer_Green","B_127x99_Ball_Tracer_Yellow"]) exitWith {
+        _unit setDamage 0.2;
+};*/
 
 [] call life_fnc_hudUpdate;
 _damage;

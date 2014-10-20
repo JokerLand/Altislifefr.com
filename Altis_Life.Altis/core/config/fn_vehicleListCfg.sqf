@@ -108,6 +108,7 @@ switch (_shop) do
 				["B_Heli_Light_01_F",100000],
 				["B_Truck_01_box_F",250000],
 				["ALFR_GeK_Scania_420",250000],
+				["cl3_veyron_wht_blu",270000],
 				["O_Truck_03_device_F",750000],
 				["O_Heli_Light_02_unarmed_F",300000],
 				["I_Heli_Transport_02_F",600000],
@@ -139,7 +140,7 @@ switch (_shop) do
 			_return set[count _return,
 			["B_G_Offroad_01_armed_F",1500000]];
 			_return set[count _return,
-			["O_MRAP_02_hmg_F",5000000]];
+			["O_MRAP_02_hmg_F",2500000]];
 		};
 	};
 
@@ -169,6 +170,10 @@ switch (_shop) do
 			_return set[count _return,
 			["cl3_murcielago_black",400000]];
 			_return set[count _return,
+			["cl3_e63_amg_camo",55000]];
+			_return set[count _return,
+			["cl3_insignia_camo",50000]];
+			_return set[count _return,
 			["I_MRAP_03_F",1000000]];
 			};
 
@@ -177,7 +182,7 @@ switch (_shop) do
 				_return set[count _return,
 				["DAR_ExplorerPolice",150000]];
 				_return set[count _return,
-				["I_MRAP_03_hmg_F",3000000]];
+				["I_MRAP_03_hmg_F",1000000]];
 				};
 	};
 

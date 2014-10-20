@@ -517,7 +517,19 @@
 			<Original>Donner Amende</Original>
 		</Key>
 		<Key ID="STR_pInAct_Arrest">
-			<Original>Envoyer en Prison</Original>
+			<Original>Prison 5min</Original>
+		</Key>
+		<Key ID="STR_pInAct_Arrest10">
+			<Original>Prison 10min</Original>
+		</Key>
+		<Key ID="STR_pInAct_Arrest15">
+			<Original>Prison 15min</Original>
+		</Key>
+		<Key ID="STR_pInAct_Arrest20">
+			<Original>Prison 20min</Original>
+		</Key>
+		<Key ID="STR_pInAct_Arrest25">
+			<Original>Prison 25min</Original>
 		</Key>
 	</Package>
 	<Package name="Vehicle_Interaction">
