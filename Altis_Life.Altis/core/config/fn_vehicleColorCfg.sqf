@@ -979,16 +979,6 @@ switch (_vehicle) do
             
 		];
 	};*/
-    
-    
-    case "RDS_Ikarus_Civ_01":
-    {
-      _ret = 
-        [
-            ["textures\bus_exterior_cop.jpg","cop"],
-            ["textures\bus_exterior_donator.jpg","donator"]
-    };
-        
 };
 
 _ret;
