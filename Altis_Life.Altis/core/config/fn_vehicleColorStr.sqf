@@ -992,7 +992,8 @@ switch (_vehicle) do
     
     case "RDS_Ikarus_Civ_01":
     {
-        switch (_index) do {
+        switch (_index) do 
+        {
             
             case 0 : {_color = "Police"};
             case 1 : {_color = "Donateur"};
