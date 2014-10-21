@@ -987,8 +987,6 @@ switch (_vehicle) do
         [
             ["textures\bus_exterior_cop.jpg","cop"],
             ["textures\bus_exterior_donator.jpg","donator"]
-        ];
-
     };
         
 };
