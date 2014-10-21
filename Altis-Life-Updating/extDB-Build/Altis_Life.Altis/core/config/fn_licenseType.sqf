@@ -1,7 +1,7 @@
 /*
 	File: fn_licenseType.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Returns the short-var of the license name to a long var and display name.
 */
@@ -40,10 +40,29 @@ switch (_mode) do
 			case "cement": {_var = "license_civ_cement"};
 			case "mair": {_var = "license_med_air"};
 			case "home": {_var = "license_civ_home"};
+			case "meth": {_var = "license_civ_meth"};
+			case "grapes": {_var = "license_civ_grapes"};
+			case "moonshine": {_var = "license_civ_moonshine"};
+			case "presse": {_var = "license_civ_presse"};
+			case "bl": {_var = "license_bl"};
+			case "he": {_var = "license_he"};
+			case "lmc": {_var = "license_lmc"};
+			case "bgf": {_var = "license_bgf"};
+			case "bmg": {_var = "license_bmg"};
+			case "olympia": {_var = "license_olympia"};
+			case "rosthein": {_var = "license_rosthein"};
+			case "fh": {_var = "license_fh"};
+			case "sal": {_var = "license_sal"};
+			case "ms": {_var = "license_ms"};
+			case "ng": {_var = "license_ng"};
+			case "fonda": {_var = "license_fonda"};
+            case "fst": {_var = "license_fst"};
+            case "fmg": {_var = "license_fmg"};
+            case "sop": {_var = "license_sop"};
 			default {_var = ""};
 		};
 	};
-	
+
 	case 1:
 	{
 		switch (_type) do
@@ -72,6 +91,24 @@ switch (_mode) do
 			case "license_civ_cement": {_var = "cement"};
 			case "license_med_air": {_var = "mair"};
 			case "license_civ_home": {_var = "home"};
+			case "license_civ_meth": {_var = "meth"};
+			case "license_civ_grapes": {_var = "grapes"};
+			case "license_civ_moonshine": {_var = "moonshine"};
+			case "license_civ_presse": {_var = "presse"};
+			case "license_bl": {_var = "bl"};
+			case "license_he": {_var = "he"};
+			case "license_lmc": {_var = "lmc"};
+			case "license_bgf": {_var = "bgf"};
+			case "license_bmg": {_var = "bmg"};
+			case "license_olympia": {_var = "olympia"};
+			case "license_rosthein": {_var = "rosthein"};
+			case "license_fh": {_var = "fh"};
+			case "license_sal": {_var = "sal"};
+			case "license_ms": {_var = "ms"};
+			case "license_ng": {_var = "ng"};
+			case "license_fonda": {_var = "fonda"};
+            case "license_fst": {_var = "fst"};
+            case "license_fmg": {_var = "fmg"};
 			default {_var = ""};
 		};
 	};

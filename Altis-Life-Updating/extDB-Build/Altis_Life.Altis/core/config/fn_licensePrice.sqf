@@ -1,7 +1,7 @@
 /*
 	File: fn_licensePrice.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Returns the license price.
 */
@@ -24,7 +24,7 @@ switch (_type) do
 	case "marijuana": {19500}; //Marijuana processing license cost
 	case "medmarijuana": {1500}; //Medical Marijuana processing license cost
 	case "gang": {10000}; //Gang license cost
-	case "rebel": {75000}; //Rebel license cost
+	case "rebel": {500000}; //Rebel license cost
 	case "truck": {20000}; //Truck license cost
 	case "diamond": {35000};
 	case "salt": {12000};
@@ -35,4 +35,8 @@ switch (_type) do
 	case "cement": {6500};
 	case "mair": {15000};
 	case "home": {75000};
+	case "grapes": {5000};
+	case "moonshine": {15000};
+	case "meth": {175000};
+	case "presse": {250000};
 };

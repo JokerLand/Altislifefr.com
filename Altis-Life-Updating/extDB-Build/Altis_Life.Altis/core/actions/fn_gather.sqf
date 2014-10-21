@@ -7,7 +7,7 @@
 */
 if(isNil "life_action_gathering") then {life_action_gathering = false;};
 private["_gather","_itemWeight","_diff","_itemName","_val","_resourceZones","_zone","_minage"];
-_resourceZones = ["apple_1","apple_2","apple_3","apple_4","peaches_1","peaches_2","peaches_3","peaches_4","heroin_1","cocaine_1","weed_1","lead_1","iron_1","salt_1","sand_1","diamond_1","oil_1","oil_2","rock_1"];
+_resourceZones = ["apple_1","apple_2","apple_3","apple_4","peaches_1","peaches_2","peaches_3","peaches_4","heroin_1","cocaine_1","weed_1","lead_1","iron_1","salt_1","sand_1","diamond_1","oil_1","oil_2","rock_1","grape_area_1","meth_area_1","artefact_area_1"];
 _minage = ["lead_1","iron_1","salt_1","sand_1","diamond_1","oil_1","oil_2","rock_1"];
 _zone = "";
 
@@ -43,6 +43,9 @@ switch(true) do {
 	case (_zone in ["oil_1"]): {_gather = "oilu"; _val = 1;};
 	case (_zone in ["oil_2"]): {_gather = "oilu"; _val = 1;};
 	case (_zone in ["rock_1"]): {_gather = "rock"; _val = 1;};
+	case (_zone in ["meth_area_1"]): {_gather = "ephedrine"; _val = 1;};
+	case (_zone in ["grape_area_1"]): {_gather = "grapes"; _val = 1;};
+	case (_zone in ["artefact_area_1"]): {_gather = "artefact"; _val = 1;};
 	default {""};
 };
 //gather check??
@@ -52,12 +55,20 @@ if(vehicle player != player) exitWith {};
 _diff = [_gather,_val,life_carryWeight,life_maxWeight] call life_fnc_calWeightDiff;
 if(_diff == 0) exitWith {hint localize "STR_NOTF_InvFull"};
 life_action_inUse = true;
+
+if(_zone in _minage) then
+    {
+		playSound "mining";
+	};
+
 for "_i" from 0 to 2 do
 {
 	player playMove "AinvPercMstpSnonWnonDnon_Putdown_AmovPercMstpSnonWnonDnon";
 	waitUntil{animationState player != "AinvPercMstpSnonWnonDnon_Putdown_AmovPercMstpSnonWnonDnon";};
 	sleep 1.5;
 };
+
+playSound "bag";
 
 if(([true,_gather,_diff] call life_fnc_handleInv)) then
 {

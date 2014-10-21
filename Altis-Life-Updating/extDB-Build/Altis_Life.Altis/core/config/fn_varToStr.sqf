@@ -63,6 +63,18 @@ switch (_var) do
 	case "life_inv_storagebig": {(localize "STR_Item_StorageBL")};
 	case "life_inv_barriere": {"Barrière"};
 	case "life_inv_cone": {"Cône"};
+	case "life_inv_moonshine": {"MoonShine"};
+	case "life_inv_vodka": {"Vin"};
+	case "life_inv_grapes": {"Raisin"};
+	case "life_inv_artefact": {"Artefact"};
+	case "life_inv_ephedrine": {"Ephedrine"};
+	case "life_inv_phosphore": {"Phosphore"};
+	case "life_inv_methu": {"Meth Impure"};
+	case "life_inv_methp": {"Pure Methamphetamine"};
+    case "life_inv_burger": {"Hamburger"};
+    case "life_inv_cola": {"Coca Cola"};
+    case "life_inv_frite": {"Frite"};
+    case "life_inv_biere": {"Biere Pression"};
 
 	//License Block
 	case "license_civ_driver": {(localize "STR_License_Driver")};
@@ -87,4 +99,23 @@ switch (_var) do
 	case "license_civ_cement": {(localize "STR_License_Cement")};
 	case "license_med_air": {(localize "STR_License_Pilot")};
 	case "license_civ_home": {(localize "STR_License_Home")};
+	case "license_civ_meth": {"Traitement Methamphetamine"};
+	case "license_civ_grapes": {"Traitement Vin"};
+	case "license_civ_moonshine": {"Traitement Moonshine"};
+	case "license_civ_presse": {"Journaliste"};
+	case "license_bl": {"Bratstvo Ledjanoe"};
+	case "license_he": {"H.E"};
+	case "license_lmc": {"L.M.C"};
+	case "license_bgf": {"BGF"};
+	case "license_bmg": {"BMG"};
+	case "license_olympia": {"Olympia"};
+	case "license_rosthein": {"Rosthein"};
+	case "license_fh": {"F.H"};
+	case "license_sal": {"Salamander"};
+	case "license_ms": {"MS-13"};
+	case "license_ng": {"'Neghta"};
+	case "license_fonda": {"Admin"};
+    case "license_fst": {"F.S.T"};
+    case "license_fmg": {"F.M.G"};
+    case "license_sop": {"Soprano"};
 };
