@@ -2,7 +2,7 @@
 	File: fn_copLoadout.sqf
 	Author: Bryan "Tonic" Boardwine
 	Edited: Itsyuka
-	
+
 	Description:
 	Loads the cops out with the default gear.
 */
