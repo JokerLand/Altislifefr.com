@@ -355,6 +355,11 @@ class Life_Client_Core
 		class storageBox {};
 		class barriere {};
 		class cone {};
+		class weed {};
+		class alcool {};
+		class heroine {};
+		class meth {};
+		class cocaine {};
 	};
 	
 	class Dialog_Controls
