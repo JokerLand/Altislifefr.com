@@ -13,6 +13,9 @@
 #define Btn6 37455
 #define Btn7 37456
 #define Btn8 37457
+#define Btn9 37458
+#define Btn10 37459
+#define Btn11 37460
 #define Title 37401
 
 private["_display","_curTarget","_Btn1","_Btn2","_Btn3","_Btn4","_Btn5","_Btn6","_Btn7"];
@@ -59,6 +62,10 @@ _Btn4 = _display displayCtrl Btn4;
 _Btn5 = _display displayCtrl Btn5;
 _Btn6 = _display displayCtrl Btn6;
 _Btn7 = _display displayCtrl Btn7;
+_Btn8 = _display displayCtrl Btn8;
+_Btn9 = _display displayCtrl Btn9;
+_Btn10 = _display displayCtrl Btn10;
+_Btn11 = _display displayCtrl Btn11;
 life_pInact_curTarget = _curTarget;
 
 //Set Unrestrain Button
@@ -92,9 +99,25 @@ _Btn6 buttonSetAction "[life_pInact_curTarget] call life_fnc_arrestAction;";
 _Btn7 ctrlSetText localize "STR_pInAct_PutInCar";
 _Btn7 buttonSetAction "[life_pInact_curTarget] call life_fnc_putInCar;";
 
+_Btn8 ctrlSetText localize "STR_pInAct_Arrest10";
+_Btn8 buttonSetAction "[life_pInact_curTarget] call life_fnc_arrestAction10;";
+
+_Btn9 ctrlSetText localize "STR_pInAct_Arrest15";
+_Btn9 buttonSetAction "[life_pInact_curTarget] call life_fnc_arrestAction15;";
+
+_Btn10 ctrlSetText localize "STR_pInAct_Arrest20";
+_Btn10 buttonSetAction "[life_pInact_curTarget] call life_fnc_arrestAction20;";
+
+_Btn11 ctrlSetText localize "STR_pInAct_Arrest25";
+_Btn11 buttonSetAction "[life_pInact_curTarget] call life_fnc_arrestAction25;";
+
 //Check that you are near a place to jail them.
-if(!((player distance (getMarkerPos "police_hq_1") < 30) OR  (player distance (getMarkerPos "police_hq_2") < 30) OR (player distance (getMarkerPos "cop_spawn_3") < 30) OR (player distance (getMarkerPos "cop_spawn_5") < 30))) then 
+if(!((player distance (getMarkerPos "police_hq_1") < 30) OR  (player distance (getMarkerPos "police_hq_2") < 90) OR  (player distance (getMarkerPos "Police Air QG") < 50) OR   (player distance (getMarkerPos "cop_spawn_3") < 30) OR (player distance (getMarkerPos "cop_spawn_5") < 30))) then 
 {
 	_Btn6 ctrlEnable false;
+	_Btn8 ctrlEnable false;
+	_Btn9 ctrlEnable false;
+	_Btn10 ctrlEnable false;
+	_Btn11 ctrlEnable false;
 };
 		

@@ -112,8 +112,8 @@ switch (_shop) do
 				["O_Truck_03_device_F",750000],
 				["O_Heli_Light_02_unarmed_F",300000],
 				["I_Heli_Transport_02_F",600000],
-				["RDS_Ikarus_Civ_02",150000],
-				["IVORY_T6A_1",3000000]
+				["IVORY_T6A_1",3000000],
+                ["RDS_Ikarus_Civ_01",100000]
 			];
 		};
 	};
@@ -128,7 +128,6 @@ switch (_shop) do
 			["cl3_dodge_charger_s_camo",200000],
 			["cl3_e63_amg_camo",300000],
 			["cl3_range_rover_camo",400000],
-			["O_MRAP_02_F",1000000],
 			["O_Truck_03_transport_F",1000000],
 			["O_Truck_03_covered_F",1350000],
 			["O_Truck_03_ammo_F",1500000],
@@ -139,9 +138,7 @@ switch (_shop) do
 		if(license_civ_rebel) then
 		{
 			_return set[count _return,
-			["B_G_Offroad_01_armed_F",1500000]];
-			_return set[count _return,
-			["O_MRAP_02_hmg_F",3350000]];
+			["O_MRAP_02_F",2666666]];
 		};
 	};
 
@@ -184,8 +181,6 @@ switch (_shop) do
 				{
 				_return set[count _return,
 				["DAR_ExplorerPolice",150000]];
-				_return set[count _return,
-				["I_MRAP_03_hmg_F",1000000]];
 				};
 	};
 
