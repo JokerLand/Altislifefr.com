@@ -1,7 +1,7 @@
 /*
 	File: fn_respawned.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Sets the player up if he/she used the respawn option.
 */
@@ -12,6 +12,8 @@ life_hunger = 100;
 life_thirst = 100;
 life_carryWeight = 0;
 life_cash = 0; //Make sure we don't get our cash back.
+//_handle = [_unit] spawn life_fnc_dropItems;
+//waitUntil {scriptDone _handle};
 life_respawned = false;
 player playMove "amovpercmstpsnonwnondnon";
 

@@ -1,7 +1,7 @@
 /*
 	File: fn_handleDamage.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Handles damage, specifically for handling the 'tazer' pistol and nothing else.
 */
@@ -27,7 +27,7 @@ if(!isNull _source) then {
 				_distance = if(_projectile == "B_556x45_dual") then {100} else {35};
 				_isVehicle = if(vehicle player != player) then {true} else {false};
 				_isQuad = if(_isVehicle) then {if(typeOf (vehicle player) == "B_Quadbike_01_F") then {true} else {false}} else {false};
-				
+
 				_damage = false;
 				if(_unit distance _source < _distance) then {
 					if(!life_istazed && !(_unit getVariable["restrained",false])) then {
@@ -40,13 +40,18 @@ if(!isNull _source) then {
 					};
 				};
 			};
-			
+
 			//Temp fix for super tasers on cops.
 			if(playerSide == west && side _source == west) then {
 				_damage = false;
 			};
 		};
 	};
+};
+
+//No Carkill
+if(vehicle _source isKindOf "LandVehicle") exitWith {
+        _unit setDamage 0.2;
 };
 
 [] call life_fnc_hudUpdate;

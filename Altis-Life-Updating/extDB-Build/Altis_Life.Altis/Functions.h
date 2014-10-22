@@ -361,6 +361,7 @@ class Life_Client_Core
 		class heroine {};
 		class meth {};
 		class cocaine {};
+		class CarAlarmSound {};
 	};
 	
 	class Dialog_Controls

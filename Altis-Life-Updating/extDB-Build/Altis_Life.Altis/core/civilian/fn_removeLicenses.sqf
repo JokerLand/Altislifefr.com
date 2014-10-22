@@ -1,7 +1,7 @@
 /*
 	File: fn_removeLicenses.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Used for stripping certain licenses off of civilians as punishment.
 */
@@ -13,21 +13,17 @@ switch (_state) do
 	//Death while being wanted
 	case 0:
 	{
-		license_civ_rebel = false;
 		license_civ_driver = false;
-		license_civ_heroin = false;
-		license_civ_marijuana = false;
-		license_civ_coke = false;
+		license_civ_gun = false;
 	};
-	
+
 	//Jail licenses
 	case 1:
 	{
 		license_civ_gun = false;
-		license_civ_rebel = false;
 		license_civ_driver = false;
 	};
-	
+
 	//Remove motor vehicle licenses
 	case 2:
 	{
@@ -39,7 +35,7 @@ switch (_state) do
 			hint localize "STR_Civ_LicenseRemove_1";
 		};
 	};
-	
+
 	//Killing someone while owning a gun license
 	case 3:
 	{
