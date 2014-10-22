@@ -6,9 +6,10 @@
 	Main functionality for gathering.
 */
 if(isNil "life_action_gathering") then {life_action_gathering = false;};
-private["_gather","_itemWeight","_diff","_itemName","_val","_resourceZones","_zone","_minage"];
+private["_gather","_itemWeight","_diff","_itemName","_val","_resourceZones","_zone","_minage","_isWater","_sousmarin"];
 _resourceZones = ["apple_1","apple_2","apple_3","apple_4","peaches_1","peaches_2","peaches_3","peaches_4","heroin_1","cocaine_1","weed_1","lead_1","iron_1","salt_1","sand_1","diamond_1","oil_1","oil_2","rock_1","grape_area_1","meth_area_1","artefact_area_1"];
 _minage = ["lead_1","iron_1","salt_1","sand_1","diamond_1","oil_1","oil_2","rock_1"];
+_sousmarin = ["artefact_area_1"];
 _zone = "";
 
 if(life_action_gathering) exitWith {}; //Action is in use, exit to prevent spamming.
@@ -21,6 +22,13 @@ life_action_gathering = true;
 if(_zone == "") exitWith {
 	life_action_inUse = false;
 };
+
+_isWater = surfaceIsWater (getPosASL player);
+
+if((_zone in _sousmarin) && (!_isWater)) exitWith {
+		life_action_inUse = false;
+		hint "Vous devez être sous l'eau.";
+	};
 
 if((_zone in _minage) && (life_inv_pickaxe < 1)) exitWith {
 		life_action_inUse = false;
