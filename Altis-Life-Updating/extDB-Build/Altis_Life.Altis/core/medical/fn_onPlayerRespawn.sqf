@@ -2,7 +2,7 @@
 /*
 	File: fn_onPlayerRespawn.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Does something but I won't know till I write it...
 */
@@ -22,6 +22,11 @@ _unit setVariable["Escorting",FALSE,TRUE];
 _unit setVariable["transporting",FALSE,TRUE]; //Again why the fuck am I setting this? Can anyone tell me?
 _unit setVariable["steam64id",(getPlayerUID player),true]; //Reset the UID.
 _unit setVariable["realname",profileName,true]; //Reset the players name.
+
+//Reload du stuff si policier
+if(playerSide == west) then {
+	[] spawn life_fnc_loadGear;
+};
 
 _unit addRating 9999999999999999; //Set our rating to a high value, this is for a ARMA engine thing.
 player playMoveNow "amovppnemstpsraswrfldnon";

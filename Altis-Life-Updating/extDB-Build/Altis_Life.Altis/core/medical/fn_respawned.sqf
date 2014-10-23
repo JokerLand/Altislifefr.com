@@ -12,8 +12,6 @@ life_hunger = 100;
 life_thirst = 100;
 life_carryWeight = 0;
 life_cash = 0; //Make sure we don't get our cash back.
-//_handle = [_unit] spawn life_fnc_dropItems;
-//waitUntil {scriptDone _handle};
 life_respawned = false;
 player playMove "amovpercmstpsnonwnondnon";
 
@@ -28,7 +26,7 @@ player setVariable["Reviving",nil,TRUE];
 switch(playerSide) do
 {
 	case west: {
-		_handle = [] spawn life_fnc_copLoadout;
+		_handle = [] spawn life_fnc_loadGear;
 	};
 	case civilian: {
 		_handle = [] spawn life_fnc_civLoadout;
@@ -70,6 +68,13 @@ if(!isNil "life_copRecieve") then {
 if(life_removeWanted) then {
 	[[getPlayerUID player],"life_fnc_wantedRemove",false,false] spawn life_fnc_MP;
 };
+
+/* Ca marche pas comme ca putain...
+if(playerSide == west) then {
+	_handle = [_unit] spawn life_fnc_dropItems;
+	waitUntil {scriptDone _handle};
+};
+*/
 
 [] call SOCK_fnc_updateRequest;
 [] call life_fnc_hudUpdate; //Request update of hud.
