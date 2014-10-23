@@ -89,6 +89,10 @@ class Life_Client_Core
 		class postBail {};
 		class processAction {};
 		class arrestAction {};
+		class arrestAction10 {};
+		class arrestAction15 {};
+		class arrestAction20 {};
+		class arrestAction25 {};
 		class escortAction {};
 		class impoundAction {};
 		class pulloutAction {};
@@ -246,6 +250,14 @@ class Life_Client_Core
 		file = "core\civilian";
 		class jailMe {};
 		class jail {};
+		class jailMe10 {};
+		class jail10 {};
+		class jailMe15 {};
+		class jail15 {};
+		class jailMe20 {};
+		class jail20 {};
+		class jailMe25 {};
+		class jail25 {};
 		class tazed {};
 		class knockedOut {};
 		class knockoutAction {};

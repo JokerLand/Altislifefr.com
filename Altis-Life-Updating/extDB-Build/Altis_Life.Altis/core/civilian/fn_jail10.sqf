@@ -1,7 +1,7 @@
-/*
+﻿/*
 	File: fn_jail.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+	Traduction : Skydred
 	Description:
 	Starts the initial process of jailing.
 */
@@ -16,8 +16,8 @@ player setVariable["restrained",false,true];
 player setVariable["Escorting",false,true];
 player setVariable["transporting",false,true];
 
-titleText["You have been arrested, wait your time out. If you attempt to respawn or reconnect your time will increase!","PLAIN"];
-hint "For being arrested you have lost the following licenses if you own them\n\nFirearms License\nRebel License";
+titleText["Tu es en état d'arrestation, tu dois attendre d'avoir purgé ta peine. Si tu tentes de réapparaître ou de te reconnecter ta peine augmentera !","PLAIN"];
+hint "Étant donné que tu a été arrêté, les forces de l'ordre t'ont confisqué pendant la fouille :\n\nTon permis de port d'armes\nTa licence rebelle";
 player setPos (getMarkerPos "jail_marker");
 
 if(_bad) then
@@ -44,6 +44,7 @@ life_is_arrested = true;
 
 removeAllWeapons player;
 {player removeMagazine _x} foreach (magazines player);
+[] execVM "core\civilian\fn_jailMe10.sqf";
 
-[[player,_bad],"life_fnc_jailSys",false,false] spawn life_fnc_MP;
-[] call SOCK_fnc_updateRequest;
+[[player,_bad],"life_fnc_jailSys10",false,false] spawn life_fnc_MP;
+[1,false] call life_fnc_sessionHandle;

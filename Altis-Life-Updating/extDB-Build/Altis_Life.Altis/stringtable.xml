@@ -1085,10 +1085,10 @@
 			<Portuguese>Admin Menu</Portuguese>
 		</Key>
 		<Key ID="STR_PM_SyncData">
-			<Original>Sync Data</Original>
+			<Original>Sauvegarder</Original>
 			<English>Sync Data</English>
 			<German>Daten speichern</German>
-			<French>Sync Data</French>
+			<French>Sauvegarder</French>
 			<Italian>Salva Dati</Italian>
 			<Portuguese>Sincronizar Dados</Portuguese>
 		</Key>

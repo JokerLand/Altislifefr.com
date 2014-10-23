@@ -27,7 +27,7 @@ class pInteraction_Menu
 			x = BGX;
 			y = BGY + (11 / 250);
 			w = BGW;
-			h = 0.8 - (22 / 250);
+			h = 0.7 - (22 / 250);
 		};
 		
 		class Title : life_RscTitle
