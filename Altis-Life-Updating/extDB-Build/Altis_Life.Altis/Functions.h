@@ -227,6 +227,7 @@ class Life_Client_Core
 		class isUIDActive {};
 		class saveGear {};
 		class loadGear {};
+		class loadCopGear {};
 		class stripDownPlayer {};
 	};
 	
