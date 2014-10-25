@@ -44,7 +44,7 @@ __CONST__(life_revive_fee,10000); //Fee for players to pay when revived.
 
 //Gang related stuff?
 __CONST__(life_gangPrice,5000000); //Price for creating a gang (They're all persistent so keep it high to avoid 345345345 gangs).
-__CONST__(life_gangUpgradeBase,1000000); //MASDASDASD
+__CONST__(life_gangUpgradeBase,100000); //MASDASDASD
 __CONST__(life_gangUpgradeMultipler,2); //BLAH
 
 __CONST__(life_enableFatigue,TRUE); //Enable / Disable the ARMA 3 Fatigue System
