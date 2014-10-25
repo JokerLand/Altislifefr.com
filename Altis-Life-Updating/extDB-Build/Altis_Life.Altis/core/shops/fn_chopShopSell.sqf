@@ -1,7 +1,7 @@
 /*
 	File: fn_chopShopSell.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Sells the selected vehicle off.
 */
@@ -19,4 +19,5 @@ hint localize "STR_Shop_ChopShopSelling";
 life_action_inUse = true;
 _price2 = life_cash + _price;
 [[player,_vehicle,_price,_price2],"TON_fnc_chopShopSell",false,false] spawn life_fnc_MP;
+playSound "caching";
 closeDialog 0;

@@ -2,7 +2,7 @@
 /*
 	File: fn_weaponShopBuySell.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Master handling of the weapon shop for buying / selling an item.
 */
@@ -56,12 +56,14 @@ if((uiNamespace getVariable["Weapon_Shop_Filter",0]) == 1) then
 		} else {
 			if(_price > life_cash) exitWith {hint localize "STR_NOTF_NotEnoughMoney"};
 			hint parseText format[localize "STR_Shop_Weapon_BoughtItem",_itemInfo select 1,[_price] call life_fnc_numberText];
+			playSound "caching";
 			__SUB__(life_cash,_price);
 			[_item,true] spawn life_fnc_handleItem;
 		};
 	} else {
 		if(_price > life_cash) exitWith {hint localize "STR_NOTF_NotEnoughMoney"};
 		hint parseText format[localize "STR_Shop_Weapon_BoughtItem",_itemInfo select 1,[_price] call life_fnc_numberText];
+		playSound "caching";
 		life_cash = life_cash - _price;
 		[_item,true] spawn life_fnc_handleItem;
 	};

@@ -2,7 +2,7 @@
 /*
 	File: fn_virt_sell.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Sell a virtual item to the store / shop
 */
@@ -24,9 +24,10 @@ _name = [_var] call life_fnc_vartostr;
 if(([false,_type,_amount] call life_fnc_handleInv)) then
 {
 	hint format[localize "STR_Shop_Virt_SellItem",_amount,_name,[_price] call life_fnc_numberText];
+	playSound "caching";
 	life_cash = life_cash + _price;
 	[] call life_fnc_virt_update;
-	
+
 };
 
 if(life_shop_type == "heroin") then

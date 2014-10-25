@@ -1,7 +1,7 @@
 /*
 	File: fn_vehicleShopBuy.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Does something with vehicle purchasing.
 */
@@ -38,6 +38,7 @@ if((life_veh_shop select 0) == "med_air_hs") then {
 if(_spawnPoint == "") exitWith {hint localize "STR_Shop_Veh_Block";};
 life_cash = life_cash - _basePrice;
 hint format[localize "STR_Shop_Veh_Bought",getText(configFile >> "CfgVehicles" >> _className >> "displayName"),[_basePrice] call life_fnc_numberText];
+playSound "caching";
 
 //Spawn the vehicle and prep it.
 if((life_veh_shop select 0) == "med_air_hs") then {
@@ -72,13 +73,13 @@ switch(playerSide) do {
 	case west: {
 		[_vehicle,"cop_offroad",true] spawn life_fnc_vehicleAnimate;
 	};
-	
+
 	case civilian: {
 		if((life_veh_shop select 2) == "civ" && {_className == "B_Heli_Light_01_F"}) then {
 			[_vehicle,"civ_littlebird",true] spawn life_fnc_vehicleAnimate;
 		};
 	};
-	
+
 	case independent: {
 		[_vehicle,"med_offroad",true] spawn life_fnc_vehicleAnimate;
 	};
