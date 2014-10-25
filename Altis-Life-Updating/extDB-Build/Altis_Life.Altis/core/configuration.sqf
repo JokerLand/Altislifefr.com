@@ -24,7 +24,8 @@ life_bail_paid = false;
 life_impound_inuse = false;
 life_action_inUse = false;
 life_spikestrip = ObjNull;
-life_respawn_timer = 1; //Scaled in minutes
+// Faudra remettre 1 minute pour la release
+life_respawn_timer = 0.1; //Scaled in minutes
 life_knockout = false;
 life_interrupted = false;
 life_respawned = false;
@@ -47,7 +48,7 @@ __CONST__(life_gangPrice,75000); //Price for creating a gang (They're all persis
 __CONST__(life_gangUpgradeBase,10000); //MASDASDASD
 __CONST__(life_gangUpgradeMultipler,2.5); //BLAH
 
-__CONST__(life_enableFatigue,FALSE); //Enable / Disable the ARMA 3 Fatigue System
+__CONST__(life_enableFatigue,TRUE); //Enable / Disable the ARMA 3 Fatigue System
 
 //Uniform price (0),Hat Price (1),Glasses Price (2),Vest Price (3),Backpack Price (4)
 life_clothing_purchase = [-1,-1,-1,-1,-1];
