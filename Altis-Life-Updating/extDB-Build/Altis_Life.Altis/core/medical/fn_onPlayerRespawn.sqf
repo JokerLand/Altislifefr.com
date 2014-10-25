@@ -25,7 +25,7 @@ _unit setVariable["realname",profileName,true]; //Reset the players name.
 
 //Reload du stuff si policier
 if(playerSide == west) then {
-	[] spawn life_fnc_loadCopGear;
+	[] spawn life_fnc_loadGear;
 };
 
 _unit addRating 9999999999999999; //Set our rating to a high value, this is for a ARMA engine thing.
