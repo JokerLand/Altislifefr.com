@@ -902,14 +902,6 @@ switch (_vehicle) do
             ["textures\ifrit_hallowen1.jpg","reb","textures\ifrit_hallowen2.jpg"]
 		];
 	};
-	
-	case "B_MRAP_01_F":
-	{
-		_ret =
-		[
-			["#(argb,8,8,3)color(0.05,0.05,0.05,1)","civ","#(argb,8,8,3)color(0.05,0.05,0.05,1)"]
-		];
-	};
 
 	case "O_MRAP_02_hmg_F":
 	{

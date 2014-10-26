@@ -918,14 +918,6 @@ switch (_vehicle) do
 		};
 	};
 
-	case "B_MRAP_01_F":
-	{
-		switch (_index) do
-		{
-			case 0: {_color = "Noir"};
-		};
-	};
-	
 	case "I_Truck_02_covered_F":
 	{
 		switch (_index) do
