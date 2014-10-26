@@ -95,7 +95,7 @@ switch (_code) do
 			{
 				player setObjectTextureGlobal [0, "textures\medic_uniform.jpg"];
 			};
-			if(license_bl && uniform player == "U_OG_Guerilla3_2") then
+			if(license_fonda && uniform player == "U_OG_Guerilla3_2") then
 			{
 				player setObjectTextureGlobal [0, "textures\bl_uniform.jpg"];
 			};
