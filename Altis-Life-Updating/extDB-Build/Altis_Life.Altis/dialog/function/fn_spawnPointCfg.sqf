@@ -95,6 +95,10 @@ switch (_side) do
                  if(license_rosthein && playerSide == civilian) then {
 				_return set[count _return,["rosthein_spawn","Rosthein HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]];
 		};
+		
+				if(license_bl && playerSide == civilian) then {
+				_return set[count _return,["bl_spawn","Bratstvo Ledjanoe HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]];
+		};
 
 		if(count life_houses > 0) then {
 			{
