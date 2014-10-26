@@ -939,6 +939,14 @@ switch (_vehicle) do
 		];
 	};
 
+	case "B_MRAP_01_F":
+	{
+		_ret =
+		[
+			["#(argb,8,8,3)color(0.05,0.05,0.05,1)","civ","#(argb,8,8,3)color(0.05,0.05,0.05,1)"]
+		];
+	};
+	
 	case "I_Truck_02_transport_F":
 	{
 		_ret =

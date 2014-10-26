@@ -549,12 +549,12 @@ switch(_shop) do
 		};
 	};
 
-	case "bl":
+	case "tlt":
 	{
 		switch(true) do
 		{
 			case (playerSide != civilian): {"You are not a civilian!"};
-			case (!license_bl): {"Vous n'etes pas BL !"};
+			case (!license_tlt): {"Vous n'etes pas TLT !"};
 			default
 			{
 				["Armurerie BL",
