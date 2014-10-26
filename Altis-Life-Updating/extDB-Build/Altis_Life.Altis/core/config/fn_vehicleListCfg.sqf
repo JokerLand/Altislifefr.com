@@ -140,7 +140,7 @@ switch (_shop) do
 			_return set[count _return,
 			["O_MRAP_02_F",2666666]];
 		};
-		if(license_fonda) then
+		if(license_bl) then
 		{
 			_return set[count _return,
 			["B_MRAP_01_F",200000]];
