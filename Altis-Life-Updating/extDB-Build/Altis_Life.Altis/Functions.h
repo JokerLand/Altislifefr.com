@@ -161,7 +161,6 @@ class Life_Client_Core
 		class clothing_dive {};
 		class clothing_kart {};
 		class clothing_presse {};
-		class clothing_tlt {};
 	};
 
 	class Player_Menu

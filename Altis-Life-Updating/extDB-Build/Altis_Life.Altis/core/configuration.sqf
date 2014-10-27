@@ -208,7 +208,7 @@ life_licenses =
 	["license_civ_moonshine","civ"],
 	["license_civ_presse","civ"],
 	["license_civ_home","civ"],
-	["license_tlt","civ"],
+	["license_bl","civ"],
 	["license_he","civ"],
 	["license_lmc","civ"],
 	["license_bgf","civ"],
@@ -380,22 +380,22 @@ life_garage_prices =
 	["C_Van_01_transport_F",7890],
 	["C_Hatchback_01_sport_F",2350],
 	["C_Van_01_fuel_F",4500],
-	["I_Heli_Transport_02_F",20000],
+	["I_Heli_Transport_02_F",100000],
 	["C_Van_01_box_F",9000],
 	["I_Truck_02_transport_F",12000],
 	["I_Truck_02_covered_F",14500],
 	["B_Truck_01_transport_F",25650],
 	["B_Truck_01_box_F", 35000],
-	["O_MRAP_02_F",200000],
-	["B_Heli_Light_01_F",10000],
-	["O_Heli_Light_02_unarmed_F",15000],
+	["O_MRAP_02_F",45000],
+	["B_Heli_Light_01_F",45000],
+	["O_Heli_Light_02_unarmed_F",65000],
 	["C_Rubberboat",400],
 	["C_Boat_Civil_01_F",4500],
 	["B_Boat_Transport_01_F",450],
 	["C_Boat_Civil_01_police_F",3500],
 	["B_Boat_Armed_01_minigun_F",16500],
 	["B_SDV_01_F",25000],
-	["B_MRAP_01_F",200000]
+	["B_MRAP_01_F",7500]
 ];
 __CONST__(life_garage_prices,life_garage_prices);
 
