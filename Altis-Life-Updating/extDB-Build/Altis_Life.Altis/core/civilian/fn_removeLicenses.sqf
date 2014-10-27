@@ -15,6 +15,7 @@ switch (_state) do
 	{
 		license_civ_driver = false;
 		license_civ_gun = false;
+		license_civ_delta = false;
 	};
 
 	//Jail licenses
@@ -22,6 +23,7 @@ switch (_state) do
 	{
 		license_civ_gun = false;
 		license_civ_driver = false;
+		license_civ_delta = false;
 	};
 
 	//Remove motor vehicle licenses
@@ -32,6 +34,7 @@ switch (_state) do
 			license_civ_air = false;
 			license_civ_truck = false;
 			license_civ_boat = false;
+			license_civ_delta = false;
 			hint localize "STR_Civ_LicenseRemove_1";
 		};
 	};

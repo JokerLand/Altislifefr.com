@@ -5,7 +5,7 @@
 	Description:
 	Does something with vehicle purchasing.
 */
-private["_mode","_spawnPoints","_className","_basePrice","_colorIndex","_spawnPoint","_vehicle"];
+private["_mode","_spawnPoints","_className","_basePrice","_colorIndex","_spawnPoint","_vehicle","_veh"];
 _mode = _this select 0;
 if((lbCurSel 2302) == -1) exitWith {hint localize "STR_Shop_Veh_DidntPick"};
 _className = lbData[2302,(lbCurSel 2302)];
@@ -86,6 +86,18 @@ switch(playerSide) do {
 };
 
 _vehicle allowDamage true;
+
+_veh = typeOf _vehicle;
+
+if(_veh == "FLAY_HangGlider") then
+{
+	_vehicle allowDamage false;
+};
+
+if(_veh == "FLAY_HangGliderBlack") then
+{
+	_vehicle allowDamage false;
+};
 
 //life_vehicles set[count life_vehicles,_vehicle]; //Add err to the chain.
 life_vehicles pushBack _vehicle;

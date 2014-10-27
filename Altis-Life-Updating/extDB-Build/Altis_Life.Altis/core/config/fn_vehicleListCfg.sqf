@@ -12,6 +12,14 @@ if(_shop == "") exitWith {[]};
 _return = [];
 switch (_shop) do
 {
+	case "delta_shop":
+	{
+		_return = [
+			["FLAY_HangGlider",10000],
+			["FLAY_HangGliderBlack",50000]
+		];
+	};
+
 	case "kart_shop":
 	{
 		_return = [
@@ -21,6 +29,7 @@ switch (_shop) do
 			["C_Kart_01_Vrana_F",100000]
 		];
 	};
+
 	case "med_shop":
 	{
 		_return set[count _return,

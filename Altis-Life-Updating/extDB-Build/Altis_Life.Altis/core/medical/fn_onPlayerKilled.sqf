@@ -80,6 +80,8 @@ if(side _killer == west && playerSide != west) then {
 	life_copRecieve = _killer;
 	//Je perds mon entrainement rebelle
 	license_civ_rebel = false;
+	//Je perds ma licence deltaplane
+	license_civ_delta = false;
 	//Did I rob the federal reserve?
 	if(!life_use_atm && {life_cash > 0}) then {
 		[format[localize "STR_Cop_RobberDead",[life_cash] call life_fnc_numberText],"life_fnc_broadcast",true,false] spawn life_fnc_MP;
