@@ -200,6 +200,7 @@ switch(_shop) do
 						["optic_ACO_grn",nil,3200],
 						["optic_Aco",nil,3200],
 						["optic_MRCO",nil,10000],
+						["optic_LRPS",nil,50000],
 						["optic_Hamr",nil,10000],
 						["optic_Arco",nil,10000],
 						["SmokeShell",nil,100]
@@ -549,15 +550,15 @@ switch(_shop) do
 		};
 	};
 
-	case "bl":
+	case "tlt":
 	{
 		switch(true) do
 		{
 			case (playerSide != civilian): {"You are not a civilian!"};
-			case (!license_bl): {"Vous n'etes pas BL !"};
+			case (!license_tlt): {"Vous n'etes pas BL !"};
 			default
 			{
-				["Armurerie BL",
+				["Armurerie Armée",
 					[
 
 						["hlc_rifle_ak12",nil,200000],
@@ -566,6 +567,8 @@ switch(_shop) do
 						["hlc_rifle_akmgl",nil,350000],
 						["srifle_EBR_F",nil,400000],
 						["20Rnd_762x51_Mag",nil,90],
+						["LMG_Zafir_F",nil,300000],
+						["150Rnd_762x51_Box_Tracer",nil,800],
 						["optic_DMS",nil,1200],
 						["optic_ACO_grn",nil,3500],
 						["hlc_optic_kobra",nil,3500],
@@ -574,6 +577,7 @@ switch(_shop) do
 						["optic_Hamr",nil,7500],
 						["HLC_Optic_1p29",nil,7500],
 						["HLC_Optic_PSO1",nil,80000],
+						["optic_SOS",nil,30000],
 						["30Rnd_9x21_Mag",nil,200],
 						["20Rnd_556x45_UW_mag",nil,125],
 						["30Rnd_556x45_Stanag",nil,300],
