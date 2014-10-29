@@ -299,7 +299,7 @@ buy_array =
 	["mullet",300],
 	["catshark",350],
 	["water",10],
-	["turtle",4000],
+	["turtle",8000],
 	["turtlesoup",2500],
 	["donuts",120],
 	["coffee",10],
