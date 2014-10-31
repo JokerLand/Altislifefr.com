@@ -230,6 +230,7 @@ class Life_Client_Core
 		class loadGear {};
 		class loadCopGear {};
 		class stripDownPlayer {};
+		class emptyFuel{};
 	};
 	
 	class Network
