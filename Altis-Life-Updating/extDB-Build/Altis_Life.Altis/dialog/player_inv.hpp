@@ -279,16 +279,16 @@ class playerSettings {
 			h = (1 / 25);
 		};
 		
-		class ButtonCell : Life_RscButtonMenu {
-			idc = 2014;
-			text = "$STR_PM_CellPhone";
-			onButtonClick = "createDialog ""Life_cell_phone"";";
-			x = 0.42 + (6.25 / 19.8) + (1 / 250 / (safezoneW / safezoneH));
-			y = 0.8 - (1 / 25);
-			w = (6.25 / 40);
-			h = (1 / 25);
-		};
-		
+        class ButtonCell : Life_RscButtonMenu {
+            idc = 2014;
+            text = "$STR_PM_CellPhone";
+            onButtonClick = "[] call life_fnc_cellphone2;";
+            x = 0.42 + (6.25 / 19.8) + (1 / 250 / (safezoneW / safezoneH));
+            y = 0.8 - (1 / 25);
+            w = (6.25 / 40);
+            h = (1 / 25);
+        };
+        
 		class ButtonAdminMenu : Life_RscButtonMenu {
 			idc = 2021;
 			text = "$STR_PM_AdminMenu";

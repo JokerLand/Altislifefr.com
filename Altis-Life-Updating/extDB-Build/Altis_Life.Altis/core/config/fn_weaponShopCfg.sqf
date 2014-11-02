@@ -38,7 +38,8 @@ switch(_shop) do
 						["FirstAidKit",nil,150],
 						["Medikit",nil,2000],
 						["NVGoggles",nil,2500],
-						["Rangefinder",nil,3400]
+						["Rangefinder",nil,3400],
+                        ["ItemRadio","Telephone",500]
 					]
 				];
 			};
@@ -54,6 +55,7 @@ switch(_shop) do
 				["Hospital EMS Shop",
 					[
 						["ItemWatch",nil,50],
+						["ItemRadio","Telephone",500],
 						["ItemCompass",nil,50],
 						["Binocular",nil,150],
 						["ItemMap",nil,50],
@@ -789,6 +791,7 @@ switch(_shop) do
 		["Altis General Store",
 			[
 				["ItemWatch",nil,50],
+				["ItemRadio","Telephone",500],
 			    ["ItemCompass",nil,50],
 				["Binocular",nil,150],
 				["ItemGPS",nil,100],
@@ -802,4 +805,13 @@ switch(_shop) do
 			]
 		];
 	};
+    
+    case "cellphone":
+    {
+        ["Store phone",
+            [
+                ["ItemRadio","Cellphone",500]
+            ]
+        ];
+    };
 };

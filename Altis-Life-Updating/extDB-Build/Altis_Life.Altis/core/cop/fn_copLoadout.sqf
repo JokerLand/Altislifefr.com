@@ -31,5 +31,7 @@ player addItem "ItemWatch";
 player assignItem "ItemWatch";
 player addItem "ItemGPS";
 player assignItem "ItemGPS";
+player addItem "ItemRadio";
+player assignItem "ItemRadio";
 
 [] call life_fnc_saveGear;
