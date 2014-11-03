@@ -702,7 +702,8 @@ switch (_vehicle) do
 		_ret =
 		[
 			[_path + "heli_transport_02_1_ion_co.paa","civ",_path + "heli_transport_02_2_ion_co.paa",_path + "heli_transport_02_3_ion_co.paa"],
-			[_path + "heli_transport_02_1_dahoman_co.paa","civ",_path + "heli_transport_02_2_dahoman_co.paa",_path + "heli_transport_02_3_dahoman_co.paa"]
+			[_path + "heli_transport_02_1_dahoman_co.paa","civ",_path + "heli_transport_02_2_dahoman_co.paa",_path + "heli_transport_02_3_dahoman_co.paa"],
+             ["textures\moh_heli1_hallowen.jpg", "halloowen_end", "textures\moh_heli2_hallowen.jpg", "textures\moh_heli3_hallowen.jpg"]
 		];
 	};
 
@@ -801,7 +802,8 @@ switch (_vehicle) do
 			["textures\van_green.jpg","civ"],
 			["#(argb,8,8,3)color(0.05,0.05,0.05,1)","civ"],
 			["\a3\soft_f_gamma\Van_01\Data\van_01_ext_co.paa","civ"],
-			["\a3\soft_f_gamma\Van_01\Data\van_01_ext_red_co.paa","civ"]
+			["\a3\soft_f_gamma\Van_01\Data\van_01_ext_red_co.paa","civ"],
+            ["textures\van_hallowen1.jpg","hallowen_end", "textures\van_hallowen2.jpg"]
 
 		];
 	};
@@ -840,7 +842,7 @@ switch (_vehicle) do
 	{
 		_ret =
 		[
-			["textures\copheli.jpg","cop"],
+			["ALFR_Force\Air\data\alfr_police_heli_co.paa","cop"],
 			["\a3\air_f\Heli_Light_01\Data\heli_light_01_ext_ion_co.paa","donate"],
 			["\a3\air_f\Heli_Light_01\Data\heli_light_01_ext_blue_co.paa","civ"],
 			["\a3\air_f\Heli_Light_01\Data\heli_light_01_ext_co.paa","civ"],
@@ -857,6 +859,7 @@ switch (_vehicle) do
 			["\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_graywatcher_co.paa","civ"],
 			["\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_shadow_co.paa","civ"],
 			["\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_wasp_co.paa","civ"]
+            
 		];
 	};
 
@@ -896,7 +899,8 @@ switch (_vehicle) do
 			["textures\ifrit_darkred_01.jpg","reb","textures\ifrit_darkred_02.jpg"],
 			["textures\ifrit_green_01.jpg","reb","textures\ifrit_green_02.jpg"],
 			["textures\ifrit_blue_01.jpg","reb","textures\ifrit_blue_02.jpg"],
-			["textures\ifrit_black_01.jpg","reb","textures\ifrit_black_02.jpg"]
+			["textures\ifrit_black_01.jpg","reb","textures\ifrit_black_02.jpg"],
+            ["textures\ifrit_hallowen1.jpg","halloowen_end","textures\ifrit_hallowen2.jpg"]
 		];
 	};
 
@@ -940,7 +944,7 @@ switch (_vehicle) do
 	{
 		_ret =
 		[
-			["#(argb,8,8,3)color(0.05,0.05,0.05,1)","civ","#(argb,8,8,3)color(0.05,0.05,0.05,1)"]
+            ["ALFR_Force\Vehicules\data\hunter_alfr_ext_co.paa","reb", "ALFR_Force\Vehicules\data\hunter_alfr_back_co.paa"]
 		];
 	};
 	
@@ -993,6 +997,8 @@ switch (_vehicle) do
             ["textures\bus_exterior_donator.jpg","civ"]
         ];
     };
+        
+    
 };
 
 _ret;

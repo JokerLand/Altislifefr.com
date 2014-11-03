@@ -982,7 +982,7 @@ switch (_vehicle) do
 	{
 		switch (_index) do
 		{
-			case 0: {_color = "Noir"};
+			case 0: {_color = "Armée Altis"};
 		};
 	};
 	
@@ -994,6 +994,15 @@ switch (_vehicle) do
             case 1 : {_color = "Donateur"};
         };
     };
+    
+    
+    case "DAR_TaurusPolice":
+    {
+        switch (_index) do {
+            case 0 :{_color ="Police";};
+        };
+    };
+    
 
    /* case "IVORY_T6A_1":
     {

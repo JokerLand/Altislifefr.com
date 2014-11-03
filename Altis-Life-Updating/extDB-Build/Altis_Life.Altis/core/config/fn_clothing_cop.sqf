@@ -101,7 +101,8 @@ switch (_filter) do
 			["B_AssaultPack_cbr",nil,700],
 			["B_Kitbag_blk",nil,1700],
 			["B_Bergen_sgg",nil,2500],
-			["B_Carryall_cbr",nil,3500]
+			["B_Carryall_cbr",nil,3500],
+            ["ALFR_Police_Bags",nil,1100]
 		];
 	};
 };

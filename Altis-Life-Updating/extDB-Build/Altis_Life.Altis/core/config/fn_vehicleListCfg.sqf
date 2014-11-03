@@ -216,12 +216,6 @@ switch (_shop) do
 				["B_Heli_Light_01_F",75000]];
 			};
 
-			if(__GETC__(life_coplevel) > 2) then
-			{
-				_return set[count _return,
-				["I_Heli_light_03_unarmed_F",150000]];
-			};
-
 			if(__GETC__(life_coplevel) > 5) then
 			{
 			_return set[count _return,
@@ -261,6 +255,17 @@ switch (_shop) do
 			["B_SDV_01_F",100000]
 		];
 	};
+    
+    case "altis_armee":
+    {
+        _return = 
+        [
+            ["ALFR_armee_hunter",300],
+            ["ALFR_armee_rover_camo",300],
+            ["C_Van_01_box_F",60000],
+            ["ALFR_armee_Insignia_camo",300]
+        ];
+    };
 };
 
 _return;

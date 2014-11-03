@@ -396,7 +396,8 @@ life_garage_prices =
 	["C_Boat_Civil_01_police_F",3500],
 	["B_Boat_Armed_01_minigun_F",16500],
 	["B_SDV_01_F",25000],
-	["B_MRAP_01_F",200000]
+	["B_MRAP_01_F",200000],
+    ["ALFR_Armee_Hummingbird",10000]
 ];
 __CONST__(life_garage_prices,life_garage_prices);
 

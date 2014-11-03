@@ -17,7 +17,8 @@ if(_veh == "B_Quadbike_01_F") exitWith {true}; //ATV's don't need to require a l
 
 switch (life_veh_shop select 0) do
 {
-	case "med_shop": {_ret = true;};
+	case "altis_armee": {_ret = licence_tlt;};
+    case "med_shop": {_ret = true;};
 	case "donator": {_ret = true;};
 	case "delta_shop": {_ret = license_civ_delta;};
 	case "kart_shop": {_ret = license_civ_driver;};

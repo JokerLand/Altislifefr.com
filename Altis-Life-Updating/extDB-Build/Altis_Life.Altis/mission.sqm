@@ -5012,7 +5012,8 @@ class Mission
 					vehicle="B_G_Soldier_LAT_F";
 					leader=1;
 					skill=0.60000002;
-					init="removeallWeapons this;    this enableSimulation false;    this allowDamage false;    this addAction[""Vehicules"",life_fnc_vehicleShopMenu,[""reb_car"",civilian,[""bl_v_1"",""bl_v_1_1""],""reb"",""T.L.T - Achat de Véhicule""],0,false,false,"""",'license_tlt'];    this SetObjectTexture [0,""textures\tlt_uniform.jpg""];";
+					text="hahaha_1";
+					init="removeallWeapons this;    this enableSimulation false;    this allowDamage false;    this addAction[""Vehicules armee 2"",life_fnc_vehicleShopMenu,[""reb_car"",civilian,[""bl_v_1"",""bl_v_1_1""],""reb"",""T.L.T - Achat de Véhicule""],0,false,false,"""",'license_tlt'];    this SetObjectTexture [0,""textures\tlt_uniform.jpg""];";
 				};
 			};
 		};
