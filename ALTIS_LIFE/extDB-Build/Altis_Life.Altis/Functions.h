@@ -73,6 +73,15 @@ class Life_Client_Core
 		class medicSiren {};
 	};
 	
+	class economy
+	{
+		file = "core\economy";
+		class virt_updatePrice {};
+		class addsubstract {};
+		class openEconomy {};
+		class virt_updateEconomy {};
+	};
+
 	class Actions
 	{
 		file = "core\actions";
@@ -231,7 +240,7 @@ class Life_Client_Core
 		class loadGear {};
 		class loadCopGear {};
 		class stripDownPlayer {};
-		class emptyFuel{};
+        class emptyFuel{};
 	};
 	
 	class Network
