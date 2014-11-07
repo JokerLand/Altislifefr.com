@@ -20,4 +20,4 @@ if(hmd player != "") then {
 	player unlinkItem (hmd player);
 };
 
-player setObjectTextureGlobal [0,"ALFR_TexSnd\medic_uniform.jpg"];
+player setObjectTextureGlobal [0,"\ALFR_TexSnd\medic_uniform.jpg"];

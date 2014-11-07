@@ -94,11 +94,11 @@ switch (_code) do
 			};
 			if(playerSide == independent) then
 			{
-				player setObjectTextureGlobal [0, "ALFR_TexSnd\medic_uniform.jpg"];
+				player setObjectTextureGlobal [0, "\ALFR_TexSnd\medic_uniform.jpg"];
 			};
 			if(license_tlt && uniform player == "U_OG_Guerilla3_2") then
 			{
-				player setObjectTextureGlobal [0, "ALFR_TexSnd\tlt_uniform.jpg"];
+				player setObjectTextureGlobal [0, "\ALFR_TexSnd\tlt_uniform.jpg"];
 			};
 			[] spawn
 			{
