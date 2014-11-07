@@ -1,4 +1,4 @@
-ï»¿/*
+/*
 	File: fn_keyHandler.sqf
 	Author: Bryan "Tonic" Boardwine
 
@@ -94,11 +94,11 @@ switch (_code) do
 			};
 			if(playerSide == independent) then
 			{
-				player setObjectTextureGlobal [0, "textures\medic_uniform.jpg"];
+				player setObjectTextureGlobal [0, "ALFR_TexSnd\medic_uniform.jpg"];
 			};
 			if(license_tlt && uniform player == "U_OG_Guerilla3_2") then
 			{
-				player setObjectTextureGlobal [0, "textures\tlt_uniform.jpg"];
+				player setObjectTextureGlobal [0, "ALFR_TexSnd\tlt_uniform.jpg"];
 			};
 			[] spawn
 			{
@@ -177,9 +177,9 @@ switch (_code) do
                 [cursorTarget] spawn life_fnc_knockoutAction;
                 if("ItemRadio" in assignedItems cursorTarget) then {
                 cursorTarget removeweapon "ItemRadio";
-                hint "Le tÃ©lÃ©phone portable de la personne a Ã©tÃ© placÃ©e sur le sol.";
+                hint "Le téléphone portable de la personne a été placée sur le sol.";
                 _defenceplace1 = "Item_ItemRadio" createVehicle (player modelToWorld[0,0,0]);}
-                else { hint "La personne que vous n'a pas de tÃ©lÃ©phone!"};
+                else { hint "La personne que vous n'a pas de téléphone!"};
             };
         };
     };
