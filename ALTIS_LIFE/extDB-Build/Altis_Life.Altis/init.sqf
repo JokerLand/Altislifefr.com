@@ -13,6 +13,6 @@ life_versionInfo = "Altis Life RPG v3.1.4.8";
 [] execVM "KRON_Strings.sqf";
 [] execVM "admin\fn_loop.sqf";
 [] execVM "safezone.sqf";
-
+[] execVM "core\functions\fn_emptyFuel.sqf";
 
 StartProgress = true;
