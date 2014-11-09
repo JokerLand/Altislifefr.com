@@ -45,42 +45,42 @@ class CfgSounds
 	class MachineMinage
 	{
 		name = "MachineMinage";
-		sound[] = {"\ALFR_TexSnd\sounds\minage_machine_altislifefr.ogg", 1.0, 1};
+		sound[] = {"\sounds\minage_machine_altislifefr.ogg", 1.0, 1};
 		titles[] = {};
 	}
 	
 	class SirenLong
 	{
 		name = "SirenLong";
-		sound[] = {"\ALFR_TexSnd\sounds\Siren_Long.ogg", 1.0, 1};
+		sound[] = {"\sounds\Siren_Long.ogg", 1.0, 1};
 		titles[] = {};
 	};
 	
 	class SirenMedic
 	{
 		name = "SirenMedic";
-		sound[] = {"\ALFR_TexSnd\sounds\Siren_Medic.ogg", 1.0, 1};
+		sound[] = {"\sounds\Siren_Medic.ogg", 1.0, 1};
 		titles[] = {};
 	};
 	
 	class tazersound
 	{
 		name = "Tazersound";
-		sound[] = {"\ALFR_TexSnd\sounds\tazer.ogg", 0.25, 1};
+		sound[] = {"\sounds\tazer.ogg", 0.25, 1};
 		titles[] = {};
 	};
 	
 	class flashbang
 	{
 		name = "flashbang";
-		sound[] = {"\ALFR_TexSnd\sounds\flashbang.ogg", 1.0, 1};
+		sound[] = {"\sounds\flashbang.ogg", 1.0, 1};
 		titles[] = {};
 	};
         
         class Patdown 
         {
 		name = "Patdown";
-		sound[] = {"\ALFR_TexSnd\sounds\patdown.ogg", .90, 1};
+		sound[] = {"\sounds\patdown.ogg", .90, 1};
 		titles[] = {};
         };
 	
@@ -94,63 +94,63 @@ class CfgSounds
     class reverse_truck
   {
     name = "reverse_truck";
-    sound[] = {"\ALFR_TexSnd\sounds\truck_reverse.ogg", 1.0, 1};
+    sound[] = {"\sounds\truck_reverse.ogg", 1.0, 1};
     titles[] = {};
   };
   
   class BeepBeep
   {
     name = "BeepBeep";
-    sound[] = {"\ALFR_TexSnd\sounds\BeepBeep.ogg", 0.9, 1};
+    sound[] = {"\sounds\BeepBeep.ogg", 0.9, 1};
     titles[] = {};
   };
   class Beep
   {
     name = "Beep";
-    sound[] = {"\ALFR_TexSnd\sounds\Beep.ogg", 0.9, 1};
+    sound[] = {"\sounds\Beep.ogg", 0.9, 1};
     titles[] = {};
   };
   class Bag
   {
 	name = "bag";
-	sound[] = {"\ALFR_TexSnd\sounds\bag.ogg", 1, 1};
+	sound[] = {"\sounds\bag.ogg", 1, 1};
 	titles[] = {};
   };
   class Caching
   {
 	name = "caching";
-	sound[] = {"\ALFR_TexSnd\sounds\caching.ogg", 1, 1};
+	sound[] = {"\sounds\caching.ogg", 1, 1};
 	titles[] = {};
   };
   class Message
   {
    name = "message";
-   sound[] = {"\ALFR_TexSnd\sounds\message.ogg", 0.95, 0.95};
+   sound[] = {"\sounds\message.ogg", 0.95, 0.95};
    titles[] = {};
   };
   class Mining
   {
 	name = "mining";
-    sound[] = {"\ALFR_TexSnd\sounds\mining.ogg", 0.95, 0.95};
+    sound[] = {"\sounds\mining.ogg", 0.95, 0.95};
     titles[] = {};
   };
   class Cuff
   {
     name = "cuff";
-    sound[] = {"\ALFR_TexSnd\sounds\cuff.ogg", 0.95, 0.95};
+    sound[] = {"\sounds\cuff.ogg", 0.95, 0.95};
     titles[] = {};
   };
   class Eat
   {
     name = "eat";
-    sound[] = {"\ALFR_TexSnd\sounds\eat.ogg", 0.95, 0.95};
+    sound[] = {"\sounds\eat.ogg", 0.95, 0.95};
     titles[] = {};
   };
   
   class car_alarm
 	{
 		name="car_alarm";
-		sound[] = {"\ALFR_TexSnd\sounds\alarmevoiture.ogg", 1, 1};
+		sound[] = {"\sounds\alarmevoiture.ogg", 1, 1};
 		titles[] = {};
 	
 	};
@@ -158,7 +158,7 @@ class CfgSounds
 	class bank_alarm
   {
     name = "bank_alarm";
-    sound[] = {"\ALFR_TexSnd\sounds\bank.ogg", 1.0, 1};
+    sound[] = {"\sounds\bank.ogg", 1.0, 1};
     titles[] = {};
   };
 };
