@@ -147,7 +147,7 @@ switch (_shop) do
 		if(license_civ_rebel) then
 		{
 			_return set[count _return,
-			["O_MRAP_02_F",2666666]];
+			["O_MRAP_02_F",1666667]];
 		};
 		if(license_tlt) then
 		{
