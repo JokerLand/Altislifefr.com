@@ -150,7 +150,7 @@ _patchList =
 "JSRS2_MBT52_Kuma","JSRS2_Mi48_Kajman","JSRS2_MSE3_Marid","JSRS2_Offroad","JSRS2_Po30_Orca","JSRS2_Strider","JSRS2_SUV",
 "JSRS2_T100_Varsuk","JSRS2_Truck1","JSRS2_Truck2","JSRS2_UAV_1","JSRS2_UH80_GhostHawk","JSRS2_Van","JSRS2_WY55_Hellcat",
 "JSRS2_ZSU39_Tigris","cba_xeh_a3","cba_xeh","Extended_EventHandlers","CBA_Extended_EventHandlers","DG_ACCESSORIES","Jonzie_A3L_Car_Base","FHQ_M4_M4A1","cl3_anims_arrest",
-"FLAY_HangGlider_Core","FLAY_HangGlider","FLAY_Paraglider","FLAY_HangGlider_Thermals","FLAY_Variometer","FLAY_HangGlider_Weapons","FLAY_Wingsuit","FLAY_Variometer_Sounds","FLAY_Variometer_UI","FLAY_Thermals_Module","ALFR_Units","Item_ALFR","ALFR_armee_Bags","ALFR_Police_Bags","ALFR_armee_tenu","ALFR_armee_Uniform_body","example_vest_config","ALFR_armee_gilet"
+"FLAY_HangGlider_Core","FLAY_HangGlider","FLAY_Paraglider","FLAY_HangGlider_Thermals","FLAY_Variometer","FLAY_HangGlider_Weapons","FLAY_Wingsuit","FLAY_Variometer_Sounds","FLAY_Variometer_UI","FLAY_Thermals_Module","ALFR_Units","Item_ALFR","ALFR_armee_Bags","ALFR_Police_Bags","ALFR_armee_tenu","ALFR_armee_Uniform_body","example_vest_config","ALFR_armee_gilet","ALFR_FR_Armee_Base", "ALFR_FR_armee_tenu", "ALFR_armee_gilet", "ALFR_armee_casque", "ALFR_armee_Bags", "ALFR_Police_Bags", "ALFR_Armee_Hummingbird", "ALFR_Police_Hummingbird","ALFR_armee_hunter","ALFR_armee_casque","ALFR_FR_police_tenu2","ALFR_FR_police_tenu","ALFR_FR_Soldier_police2","ALFR_FR_Soldier_police","ALFR_FR_Soldier_ml","ALFR_FR_Soldier_Base"
 ];
 
 uiNamespace setVariable["RscDisplayRemoteMissions",displayNull]; //For Spy-Glass..
