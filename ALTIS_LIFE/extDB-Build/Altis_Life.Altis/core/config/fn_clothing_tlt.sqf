@@ -19,7 +19,7 @@ switch (_filter) do
 	{
 		[
 			["U_OG_Guerilla3_2","Hunter Green",500],
-            ["ALFR_armee_Uniform_body", "Uniforme Armee",500]
+            ["ALFR_FR_Armee_Base", "Uniforme Armee",500]
 
 		];
 	};
