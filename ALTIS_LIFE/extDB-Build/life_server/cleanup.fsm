@@ -1,4 +1,4 @@
-/*%FSM<COMPILE "D:\Bohemia Interactive\Tools\FSM Editor Personal Edition\scriptedFSM.cfg, Server-Side Cleanup">*/
+/*%FSM<COMPILE "C:\Program Files (x86)\Bohemia Interactive\Tools\FSM Editor Personal Edition\scriptedFSM.cfg, Server-Side Cleanup">*/
 /*%FSM<HEAD>*/
 /*
 item0[] = {"init",0,250,-65.004578,-391.651611,24.995417,-341.651672,0.000000,"init"};
@@ -17,8 +17,8 @@ link4[] = {4,5};
 link5[] = {5,3};
 link6[] = {6,7};
 link7[] = {7,2};
-globals[] = {0.000000,0,0,0,0,640,480,1,46,6316128,1,-629.444153,611.207214,293.309357,-434.050568,1243,911,1};
-window[] = {2,-1,-1,-1,-1,860,100,1743,100,3,1261};
+globals[] = {0.000000,0,0,0,0,640,480,1,46,6316128,1,-629.444153,611.207214,293.309357,-434.050568,1243,910,1};
+window[] = {2,-1,-1,-32000,-32000,916,156,1799,156,3,1261};
 *//*%FSM</HEAD>*/
 class FSM
 {
@@ -75,7 +75,8 @@ class FSM
     {
       name = "Delete_Dead_Cars";
       init = /*%FSM<STATEINIT""">*/"{" \n
-       "	if(!alive _x) then" \n
+       "	" \n
+       "if(!alive _x) then" \n
        "	{" \n
        "		_dbInfo = _x getVariable[""dbInfo"",[]];" \n
        "		if(count _dbInfo > 0) then" \n
@@ -123,7 +124,11 @@ class FSM
        "	if(count units _x == 0 && local _x) then {" \n
        "		deleteGroup _x;" \n
        "	};" \n
-       "} foreach allGroups;"/*%FSM</STATEINIT""">*/;
+       "} foreach allGroups;" \n
+       "" \n
+       "{ " \n
+       "	deleteVehicle _x; " \n
+       "} forEach allDead;"/*%FSM</STATEINIT""">*/;
       precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
       class Links
       {
