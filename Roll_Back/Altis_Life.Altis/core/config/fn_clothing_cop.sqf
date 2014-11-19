@@ -43,6 +43,8 @@ switch (_filter) do
 	//Hats
 	case 1:
 	{
+		_ret set[count _ret,["H_MilCap_blue",nil,75]];
+	
 		if(__GETC__(life_coplevel) > 1) then
 		{
 			_ret set[count _ret,["H_Beret_blk",nil,100]];

@@ -41,10 +41,13 @@ switch (_shop) do
 		};
 	};
 
-	case "med_air_hs": {
-		_return = [
-			["O_Heli_Light_02_unarmed_F",75000]
-		];
+	case "med_air_hs":
+	{
+			if(__GETC__(life_mediclevel) > 1) then
+			{
+				_return set[count _return,
+				["O_Heli_Light_02_unarmed_F",75000]];
+			};
 	};
 
 	case "civ_car":

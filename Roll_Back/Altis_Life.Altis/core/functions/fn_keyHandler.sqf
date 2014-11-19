@@ -5,7 +5,7 @@
 	Description:
 	Main key handler for event 'keyDown'
 */
-private ["_handled","_shift","_alt","_code","_ctrl","_alt","_ctrlKey","_veh","_locked","_interactionKey","_mapKey","_interruptionKeys"];
+private ["_handled","_shift","_alt","_code","_ctrl","_alt","_ctrlKey","_veh","_locked","_interactionKey","_mapKey","_interruptionKeys","_player"];
 _ctrl = _this select 0;
 _code = _this select 1;
 _shift = _this select 2;
@@ -13,6 +13,7 @@ _ctrlKey = _this select 3;
 _alt = _this select 4;
 _speed = speed cursorTarget;
 _handled = false;
+_player = player;
 
 _interactionKey = if(count (actionKeys "User10") == 0) then {219} else {(actionKeys "User10") select 0};
 _mapKey = actionKeys "ShowMap" select 0;
@@ -94,10 +95,6 @@ switch (_code) do
 			if(playerSide == independent) then
 			{
 				player setObjectTextureGlobal [0, "textures\medic_uniform.jpg"];
-			};
-			if(license_tlt && uniform player == "U_OG_Guerilla3_2") then
-			{
-				player setObjectTextureGlobal [0, "textures\tlt_uniform.jpg"];
 			};
 			[] spawn
 			{
