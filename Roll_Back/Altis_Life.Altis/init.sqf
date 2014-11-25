@@ -15,5 +15,3 @@ life_versionInfo = "Altis Life RPG v3.1.4.8";
 [] execVM "safezone.sqf";
 
 StartProgress = true;
-
-"BIS_fnc_MP_packet" addPublicVariableEventHandler {_this call life_fnc_MPexec};
