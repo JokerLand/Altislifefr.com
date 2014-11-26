@@ -105,7 +105,7 @@ switch (_var) do
 	case "license_civ_presse": {"Journaliste"};
 	case "license_civ_delta": {"Permis Deltaplane"};
 	case "license_tlt": {"T.L.T"};
-	case "license_he": {"H.E"};
+	case "license_he": {"A.C"};
 	case "license_lmc": {"L.M.C"};
 	case "license_bgf": {"BGF"};
 	case "license_bmg": {"BMG"};
@@ -119,4 +119,5 @@ switch (_var) do
     case "license_fst": {"F.S.T"};
     case "license_fmg": {"F.M.G"};
     case "license_sop": {"Soprano"};
+	case "license_top": {"Top6"};
 };

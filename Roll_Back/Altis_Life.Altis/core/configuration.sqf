@@ -223,7 +223,8 @@ life_licenses =
 	["license_fonda","civ"],
     ["license_fst","civ"],
     ["license_fmg","civ"],
-    ["license_sop","civ"]
+    ["license_sop","civ"],
+	["license_top","civ"]
 ];
 
 //Setup License Variables
