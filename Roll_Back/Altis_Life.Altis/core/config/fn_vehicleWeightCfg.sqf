@@ -95,5 +95,9 @@ switch (_className) do
 	case "Box_IND_Grenades_F": {350};
 	case "B_supplyCrate_F": {700};
     case "RDS_Ikarus_Civ_01": {80};
+	
+	case "cl3_q7_yellow": {20};
+	case "cl3_transit_violet": {140};
+	case "ivory_b206": {70};
 	default {-1};
 };
