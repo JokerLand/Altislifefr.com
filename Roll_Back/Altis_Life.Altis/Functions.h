@@ -114,6 +114,9 @@ class Life_Client_Core
 		class gather {};
 		class surrender {};
 		class seizeObjects {};
+        class gatherUranium {};
+        class processActionDual {};
+        class processActionLsd {};
 	};
 	
 	class Housing

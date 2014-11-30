@@ -75,6 +75,13 @@ switch (_var) do
     case "life_inv_cola": {"Coca Cola"};
     case "life_inv_frite": {"Frite"};
     case "life_inv_biere": {"Biere Pression"};
+    case "life_inv_puranium": {"Produit Uranium"};
+    case "life_inv_ipuranium": {"Produit Ill Uranium"};
+    case "life_inv_uranium1": {"Déchets d'Uranium"};
+    case "life_inv_uranium2": {"Uranium Brut"};
+    case "life_inv_uranium3": {"Uranium Purifié"};
+    case "life_inv_uranium4": {"Uranium Concentré"};
+    case "life_inv_uranium": {"Uranium"};
 
 	//License Block
 	case "license_civ_driver": {(localize "STR_License_Driver")};
@@ -120,4 +127,5 @@ switch (_var) do
     case "license_fmg": {"F.M.G"};
     case "license_sop": {"Soprano"};
 	case "license_top": {"Top6"};
+    case "license_civ_uranium": {"Formation Uranium"};
 };
