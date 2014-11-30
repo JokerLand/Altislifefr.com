@@ -40,5 +40,4 @@ switch (_type) do
 	case "meth": {175000};
 	case "presse": {250000};
 	case "delta": {500000};
-    case "uranium": {2000000};
 };
