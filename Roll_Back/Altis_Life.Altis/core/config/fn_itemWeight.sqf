@@ -70,7 +70,7 @@ switch (_item) do
     case "cola": {1};
     case "frite": {1};
     case "biere": {1};
-    case "puranium": {5};
+    case "puranium": {3};
     case "ipuranium": {3};
     case "uranium1": {2};
     case "uranium2": {1};
