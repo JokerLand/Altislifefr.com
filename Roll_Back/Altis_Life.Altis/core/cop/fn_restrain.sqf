@@ -17,7 +17,7 @@ if(isNull _cop) exitWith {};
 	while {true} do
 	{
 		_time = time;
-		waitUntil {(time - _time) > (5 * 60)};
+		waitUntil {(time - _time) > (8 * 60)};
 		
 		if(!(player getVariable["restrained",FALSE])) exitWith {};
 		if(!([west,getPos player,30] call life_fnc_nearUnits) && (player getVariable["restrained",FALSE]) && vehicle player == player) exitWith {
@@ -31,7 +31,8 @@ if(isNull _cop) exitWith {};
 };
 
 titleText[format[localize "STR_Cop_Retrained",_cop getVariable["realname",name _cop]],"PLAIN"];
-				
+		player say3D "cuff";
+		
 while {player getVariable "restrained"} do
 {
 	if(vehicle player == player) then {
@@ -66,6 +67,7 @@ while {player getVariable "restrained"} do
 if(alive player) then
 {
 	player switchMove "AmovPercMstpSlowWrflDnon_SaluteIn";
+	player say3D "cuff";
 	player setVariable ["Escorting",false,true];
 	player setVariable ["transporting",false,true];
 	detach player;

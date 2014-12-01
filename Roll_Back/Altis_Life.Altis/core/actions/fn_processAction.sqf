@@ -30,6 +30,8 @@ _itemInfo = switch (_type) do
 	case "grapes": {[["grapes"],"vodka",250,"Processing Grapes into Vin"]};
 	case "moonshine": {[["grapes"],"moonshine",450,"Processing Grapes into Moonshine"]};
 	case "methu" : {[["ephedrine","phosphore"],"methu",500,"Preparation"]};
+    case "uranium1": {[["uranium1"],"uranium2",5000,"Nettoyage de l'Uranium"]};
+    case "uranium4": {[["uranium4"],"uranium",15000,"Sécher l'Uranium"]};
 	default {[]};
 };
 

@@ -114,6 +114,9 @@ class Life_Client_Core
 		class gather {};
 		class surrender {};
 		class seizeObjects {};
+        class gatherUranium {};
+        class processActionDual {};
+        class processActionLsd {};
 	};
 	
 	class Housing
@@ -268,6 +271,7 @@ class Life_Client_Core
 		class removeLicenses {};
 		class demoChargeTimer {};
 		class civLoadout {};
+		class civInteractionMenu {};
 	};
 	
 	class Vehicle
