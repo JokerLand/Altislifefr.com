@@ -96,6 +96,10 @@ switch (_side) do
 				_return set[count _return,["rosthein_spawn","Rosthein HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]];
 		};
 		
+				if(license_top && playerSide == civilian) then {
+				_return set[count _return,["spawn_top","T.O.P6 HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]];
+		};
+		
 				if(license_tlt && playerSide == civilian) then {
 				_return set[count _return,["tlt_spawn","Armée HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]];
 		};

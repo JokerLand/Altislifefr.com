@@ -27,3 +27,4 @@ player addRating 9999999;
 
 [] execVM "msgbienvenueCiv.sqf";
 [] execVM "statusBar.sqf";
+[] execVM "Base\baseTOP6.sqf";
