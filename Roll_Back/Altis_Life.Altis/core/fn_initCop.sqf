@@ -34,4 +34,3 @@ if(uniform player == "U_Rangemaster") then
 				player setObjectTextureGlobal [0, "cop.jpg"];
 			};
 [] execVM "statusBar.sqf";
-[] execVM "Base\baseTOP6.sqf";

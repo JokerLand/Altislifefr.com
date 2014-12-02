@@ -23,4 +23,3 @@ waitUntil{isNull (findDisplay 38500)}; //Wait for the spawn selection to be done
 
 player setObjectTextureGlobal [0,"textures\medic_uniform.jpg"];
 [] execVM "statusBar.sqf";
-[] execVM "Base\baseTOP6.sqf";
