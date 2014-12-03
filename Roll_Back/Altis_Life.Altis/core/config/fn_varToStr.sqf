@@ -128,5 +128,7 @@ switch (_var) do
     case "license_fmg": {"F.M.G"};
     case "license_sop": {"Soprano"};
 	case "license_top": {"Top6"};
+	case "license_moa": {"M.O.A"};
+	case "license_tor": {"TOR"};
     case "license_civ_uranium": {"Formation Uranium"};
 };

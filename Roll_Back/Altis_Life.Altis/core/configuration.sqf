@@ -233,6 +233,8 @@ life_licenses =
     ["license_fmg","civ"],
     ["license_sop","civ"],
 	["license_top","civ"],
+	["license_moa","civ"],
+	["license_tor","civ"],
     ["license_civ_uranium","civ"]
 ];
 
@@ -338,7 +340,7 @@ buy_array =
     ["vodka",1000],
     ["frite",115],
     ["biere",90],
-    ["puranium",15000],
+    ["puranium",8000],
     ["ipuranium",9000],
 	["menotte",50000]
 ];
