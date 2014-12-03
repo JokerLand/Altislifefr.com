@@ -23,5 +23,7 @@ onMapSingleClick "if(_alt) then {vehicle player setPos _pos};";
 	detach _var;
 } foreach ["hospital_2","hospital_3"];
 [] execVM "Base\baseTOP6.sqf";
+[] execVM "Base\BaseMOA.sqf";
+[] execVM "Base\BaseTOR.sqf";
 
 [8,true,true,12] execFSM "core\fsm\timeModule.fsm";
