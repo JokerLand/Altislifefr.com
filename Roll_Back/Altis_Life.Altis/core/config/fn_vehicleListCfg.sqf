@@ -165,14 +165,16 @@ switch (_shop) do
 	case "cop_car":
 	{
 		_return set[count _return,
-		["C_Offroad_01_F",30000]];
+		["C_Offroad_01_F",50000]];
 		_return set[count _return,
-		["DAR_ImpalaPolice",50000]];
+		["DAR_ImpalaPolice",30000]];
 		_return set[count _return,
-		["DAR_TahoePolice",100000]];
+		["DAR_TahoePolice",50000]];
 
 		if(__GETC__(life_coplevel) > 1) then
 		{
+		_return set[count _return,
+		["insignia_police",100000]];
 		_return set[count _return,
 		["C_SUV_01_F",100000]];
 		_return set[count _return,
@@ -190,13 +192,11 @@ switch (_shop) do
 			_return set[count _return,
 			["cl3_murcielago_black",400000]];
 			_return set[count _return,
-			["cl3_e63_amg_camo",55000]];
-			_return set[count _return,
-			["cl3_insignia_camo",50000]];
-			_return set[count _return,
-			["I_MRAP_03_F",1000000]];
+			["insignia_police_st",250000]];
 			_return set[count _return,
 			["RDS_Ikarus_Civ_01",100000]];
+			_return set[count _return,
+			["I_MRAP_03_F",1000000]];
 			};
 
 				if(__GETC__(life_coplevel) > 3) then
