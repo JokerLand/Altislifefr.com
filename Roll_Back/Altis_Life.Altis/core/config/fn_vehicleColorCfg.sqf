@@ -885,7 +885,7 @@ switch (_vehicle) do
 	{
 		_ret =
 		[
-			"ALFR_Force\data\vehicule\air\alfr_police_heli_co.paa","cop"],
+			["ALFR_Force\data\vehicule\air\alfr_police_heli_co.paa","cop"],
 			["\a3\air_f\Heli_Light_01\Data\heli_light_01_ext_ion_co.paa","donate"],
 			["\a3\air_f\Heli_Light_01\Data\heli_light_01_ext_blue_co.paa","civ"],
 			["\a3\air_f\Heli_Light_01\Data\heli_light_01_ext_co.paa","civ"],
