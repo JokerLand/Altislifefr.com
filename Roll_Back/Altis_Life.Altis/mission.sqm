@@ -100,7 +100,8 @@ class Mission
 		"A3_Structures_F_EPB_Items_Military",
 		"A3_Structures_F_EPA_Items_Vessels",
 		"A3_Soft_F_Quadbike",
-		"A3_Structures_F_Items_Stationery"
+		"A3_Structures_F_Items_Stationery",
+		"A3_Air_F_Beta_Heli_Transport_01"
 	};
 	addOnsAuto[]=
 	{
@@ -206,16 +207,19 @@ class Mission
 		startWeather=0;
 		startWind=0.29999998;
 		startWindDir=20;
-		forecastWeather=0;
-		forecastWind=0;
-		forecastWaves=0;
+		startWaves=0.0099999998;
+		startGust=0.19;
+		forecastWeather=0.029999999;
+		forecastWind=0.88999999;
+		forecastWaves=0.94999999;
+		forecastGust=1;
 		forecastWindDir=360;
 		wavesForced=1;
 		windForced=1;
 		year=2035;
 		month=6;
 		day=21;
-		hour=9;
+		hour=5;
 		startFogDecay=0.0049333;
 		forecastFogDecay=0.0049333;
 	};
