@@ -79,6 +79,7 @@ switch (_shop) do
 			["cl3_dodge_charger_s_black",110000],
 			["DAR_ChallengerCivWhite",120000],
 			["cl3_z4_2008_black",120000],
+			["cl3_q7_yellow",133334],
 			["cl3_carrera_gt_black",150000],
 			["cl3_dbs_volante_black",150000],
 			["Jonzie_Viper",270000],
@@ -96,6 +97,7 @@ switch (_shop) do
 			_return =
 			[
 				["C_Van_01_transport_F",40000],
+				["cl3_transit_violet",50000],
 				["C_Van_01_box_F",60000],
 				["C_Offroad_01_repair_F",75000],
 				["I_Truck_02_transport_F",75000],
@@ -124,6 +126,7 @@ switch (_shop) do
 				["O_Truck_03_device_F",750000],
 				["O_Heli_Light_02_unarmed_F",300000],
 				["I_Heli_Transport_02_F",600000],
+				["ivory_b206",165000],
 				["IVORY_T6A_1",3000000],
                 ["RDS_Ikarus_Civ_01",100000]
 			];
@@ -162,18 +165,22 @@ switch (_shop) do
 	case "cop_car":
 	{
 		_return set[count _return,
-		["C_Offroad_01_F",30000]];
+		["C_Offroad_01_F",50000]];
 		_return set[count _return,
-		["DAR_ImpalaPolice",50000]];
+		["DAR_ImpalaPolice",30000]];
 		_return set[count _return,
-		["DAR_TahoePolice",100000]];
+		["DAR_TahoePolice",50000]];
 
 		if(__GETC__(life_coplevel) > 1) then
 		{
 		_return set[count _return,
+		["insignia_police",100000]];
+		_return set[count _return,
 		["C_SUV_01_F",100000]];
 		_return set[count _return,
 		["DAR_TaurusPolice",100000]];
+		_return set[count _return,
+		["cl3_q7_police",133334]];
 		};
 
 			if(__GETC__(life_coplevel) > 2) then
@@ -185,13 +192,11 @@ switch (_shop) do
 			_return set[count _return,
 			["cl3_murcielago_black",400000]];
 			_return set[count _return,
-			["cl3_e63_amg_camo",55000]];
-			_return set[count _return,
-			["cl3_insignia_camo",50000]];
-			_return set[count _return,
-			["I_MRAP_03_F",1000000]];
+			["insignia_police_st",250000]];
 			_return set[count _return,
 			["RDS_Ikarus_Civ_01",100000]];
+			_return set[count _return,
+			["I_MRAP_03_F",1000000]];
 			};
 
 				if(__GETC__(life_coplevel) > 3) then
@@ -206,6 +211,7 @@ switch (_shop) do
 		_return =
 		[
 			["B_Heli_Light_01_F",153000],
+			["ivory_b206",180000],
 			["O_Heli_Light_02_unarmed_F",550000],
 			["GNT_C185F",800000]
 		];
@@ -217,6 +223,8 @@ switch (_shop) do
 			{
 				_return set[count _return,
 				["B_Heli_Light_01_F",75000]];
+				_return set[count _return,
+				["ivory_b206_police",80000]];
 			};
 
 /*			if(__GETC__(life_coplevel) > 2) then

@@ -106,3 +106,44 @@
 		};
 	};
 };
+    
+    [] spawn
+{
+	while {true} do
+	{
+		sleep 1.5;
+		if(life_inv_uranium2 != 0) then {
+			player forceWalk true;
+			player setFatigue 1;
+			hint "Tu porte de l'uranium brut tu ne peux pas courir pour le moment!";
+		} else {
+			if(isForcedWalk player) then {
+				player forceWalk false;
+			};
+		};
+	};
+};
+    [] spawn
+{
+	while {true} do
+	{
+		private["_damage"];
+		sleep 1;
+		while {((player distance (getMarkerPos "Warm_Marker") < 50) && (player getVariable["Revive",TRUE]))} do
+		{
+			if(uniform player == "U_C_Scientist") then
+			{
+				hint "!!! Tu est dans une zone radioactive !!! Mais ta combinaison te protège";
+				sleep 5;
+			}else
+			{
+				hint "!!! ATTENTION TU ES DANS UNE ZONE RADIOACTIVE !!! Tu risque de mourir si tu n'es pas protégé";
+				_damage = damage player;
+				_damage = _damage + 0.1;
+				player setDamage (_damage);
+				[] call life_fnc_hudUpdate;
+				sleep 5;
+			};
+		};
+	};
+};

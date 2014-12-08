@@ -79,6 +79,14 @@ switch (_mode) do
             case "cola": {"life_inv_cola"};
             case "frite": {"life_inv_frite"};
             case "biere": {"life_inv_biere"};
+            case "puranium": {"life_inv_puranium"};
+            case "ipuranium": {"life_inv_ipuranium"};
+            case "uranium1": {"life_inv_uranium1"};
+            case "uranium2": {"life_inv_uranium2"};
+            case "uranium3": {"life_inv_uranium3"};
+            case "uranium4": {"life_inv_uranium4"};
+            case "uranium": {"life_inv_uranium"};
+			case "menotte": {"life_inv_menotte"};
 		};
 	};
 
@@ -149,6 +157,14 @@ switch (_mode) do
             case "life_inv_cola": {"cola"};
             case "life_inv_frite": {"frite"};
             case "life_inv_biere": {"biere"};
+            case "life_inv_puranium": {"puranium"};
+            case "life_inv_ipuranium": {"ipuranium"};
+            case "life_inv_uranium1": {"uranium1"};
+            case "life_inv_uranium2": {"uranium2"};
+            case "life_inv_uranium3": {"uranium3"};
+            case "life_inv_uranium4": {"uranium4"};
+            case "life_inv_uranium": {"uranium"}; 
+			case "life_inv_menotte": {"menotte"};
 		};
 	};
 };
