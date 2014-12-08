@@ -151,7 +151,7 @@ _patchList =
 "JSRS2_ZSU39_Tigris","cba_xeh_a3","cba_xeh","Extended_EventHandlers","CBA_Extended_EventHandlers","DG_ACCESSORIES","Jonzie_A3L_Car_Base","FHQ_M4_M4A1","cl3_anims_arrest",
 "FLAY_HangGlider_Core","FLAY_HangGlider","FLAY_Paraglider","FLAY_HangGlider_Thermals","FLAY_Variometer","FLAY_HangGlider_Weapons","FLAY_Wingsuit","FLAY_Variometer_Sounds",
 "FLAY_Variometer_UI","FLAY_Thermals_Module","ALFR_Units","Item_ALFR","ALFR_armee_Bags","ALFR_Police_Bags","ALFR_armee_tenu","ALFR_armee_Uniform_body","example_vest_config",
-"ALFR_armee_gilet","cl3_transit","ivory_b206","insignia_police","insignia_police_st_base"
+"ALFR_armee_gilet","cl3_transit","ivory_b206","insignia_police","insignia_police_st_base","murcielago_police"
 ];
 
 uiNamespace setVariable["RscDisplayRemoteMissions",displayNull]; //For Spy-Glass..
