@@ -190,7 +190,7 @@ switch (_shop) do
 			_return set[count _return,
 			["DAR_DAR_02FirebirdSSVPolice",250000]];
 			_return set[count _return,
-			["cl3_murcielago_black",400000]];
+			["murcielago_police",400000]];
 			_return set[count _return,
 			["insignia_police_st",250000]];
 			_return set[count _return,
