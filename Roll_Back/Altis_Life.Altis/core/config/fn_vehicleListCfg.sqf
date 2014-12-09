@@ -190,7 +190,7 @@ switch (_shop) do
 			_return set[count _return,
 			["DAR_DAR_02FirebirdSSVPolice",250000]];
 			_return set[count _return,
-			["cl3_murcielago_black",400000]];
+			["murcielago_police",400000]];
 			_return set[count _return,
 			["insignia_police_st",250000]];
 			_return set[count _return,
@@ -212,8 +212,7 @@ switch (_shop) do
 		[
 			["B_Heli_Light_01_F",153000],
 			["ivory_b206",180000],
-			["O_Heli_Light_02_unarmed_F",550000],
-			["GNT_C185F",800000]
+			["O_Heli_Light_02_unarmed_F",550000]
 		];
 	};
 
