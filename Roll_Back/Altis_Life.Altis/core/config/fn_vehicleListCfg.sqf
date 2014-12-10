@@ -173,8 +173,8 @@ switch (_shop) do
 
 		if(__GETC__(life_coplevel) > 1) then
 		{
-		_return set[count _return,
-		["insignia_police",100000]];
+		//_return set[count _return,
+		//["insignia_police",100000]];
 		_return set[count _return,
 		["C_SUV_01_F",100000]];
 		_return set[count _return,
@@ -189,10 +189,10 @@ switch (_shop) do
 			["DAR_ChargerPoliceState",200000]];
 			_return set[count _return,
 			["DAR_DAR_02FirebirdSSVPolice",250000]];
-			_return set[count _return,
-			["murcielago_police",400000]];
-			_return set[count _return,
-			["insignia_police_st",250000]];
+			//_return set[count _return,
+			//["murcielago_police",400000]];
+			//_return set[count _return,
+			//["insignia_police_st",250000]];
 			_return set[count _return,
 			["RDS_Ikarus_Civ_01",100000]];
 			_return set[count _return,
