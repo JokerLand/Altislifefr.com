@@ -27,21 +27,18 @@ switch(_shop) do
 			case (playerSide != west): {"You are not a cop!"};
 			default
 			{
-				["Altis Cop Shop",
+				["Quincaillerie Police",
 					[
-						["arifle_sdar_F","Taser Rifle",20000],
-						["hgun_P07_snds_F","Stun Pistol",2000],
-						["hgun_P07_F",nil,7500],
-						["HandGrenade_Stone","Flashbang",1700],
+						["ItemWatch",nil,50],
+						["ItemCompass",nil,50],
 						["Binocular",nil,150],
-						["ItemGPS",nil,100],
+						["ItemMap",nil,50],
+						["ItemGPS",nil,150],
 						["ToolKit",nil,250],
-						["muzzle_snds_L",nil,650],
 						["FirstAidKit",nil,150],
-						["Medikit",nil,1000],
-						["NVGoggles",nil,2000],
-						["16Rnd_9x21_Mag",nil,50],
-						["20Rnd_556x45_UW_mag","Taser Rifle Magazine",125]
+						["Medikit",nil,2000],
+						["NVGoggles",nil,2500],
+						["Rangefinder",nil,3400]
 					]
 				];
 			};
@@ -69,51 +66,409 @@ switch(_shop) do
 		};
 	};
 
-	case "cop_patrol":
+	case "cop_policier":  //Grade: Policier= CopLevel1
 	{
 		switch(true) do
 		{
-			case (playerSide != west): {"You are not a cop!"};
-			case (__GETC__(life_coplevel) < 2): {"You are not at a patrol officer rank!"};
+			case (playerSide != west): {"Interdit aux civils !"};
 			default
 			{
-				["Altis Patrol Officer Shop",
+				["Armurerie Policier",
 					[
-						["arifle_MX_F",nil,35000],
-						["SMG_02_ACO_F",nil,30000],
-						["HandGrenade_Stone","Flashbang",1700],
-						["MineDetector",nil,1000],
+						["hgun_P07_snds_F","Tazer",2000],
+						["16Rnd_9x21_Mag",nil,50],
+						["SMG_02_F",nil,4600],
+						["30Rnd_9x21_Mag",nil,60],
+						["M4_Benelli",nil,6500],
+						["8Rnd_B_Beneli_74Slug",nil,80],
+						["8Rnd_12Gauge_Pellets",nil,80],
 						["acc_flashlight",nil,750],
 						["optic_Holosight",nil,1200],
-						["optic_Arco",nil,2500],
-						["muzzle_snds_H",nil,2750],
-						["30Rnd_65x39_caseless_mag",nil,130],
-						["30Rnd_9x21_Mag",nil,250]
+						["optic_ACO_grn_smg",nil,2000],
+						["optic_Aco_smg",nil,2000],
+						["optic_ACO_grn",nil,3200],
+						["optic_Aco",nil,3200]
 					]
 				];
 			};
 		};
 	};
 
-	case "cop_sergeant":
+	case "cop_brigadier":  //Grade: Brigadier= CopLevel2
 	{
 		switch(true) do
 		{
-			case (playerSide != west): {"You are not a cop!"};
-			case (__GETC__(life_coplevel) < 3): {"You are not at a sergeant rank!"};
+			case (playerSide != west): {"Interdit aux civils !"};
 			default
 			{
-				["Altis Sergeant Officer Shop",
+				["Armurerie Brigadier",
 					[
-						["SMG_02_ACO_F",nil,15000],
-						["hgun_ACPC2_F",nil,17500],
-						["HandGrenade_Stone","Flashbang",1700],
-						["arifle_MXC_F",nil,30000],
-						["optic_Arco",nil,2500],
-						["muzzle_snds_H",nil,2750],
-						["30Rnd_65x39_caseless_mag",nil,100],
+						["arifle_sdar_F",nil,10000],
+						["20Rnd_556x45_UW_mag",nil,125],
+						["hgun_P07_snds_F","Tazer",2000],
+						["16Rnd_9x21_Mag",nil,50],
+						["hgun_ACPC2_F",nil,4500],
+						["9Rnd_45ACP_Mag",nil,70],
+						["SMG_02_F",nil,4600],
 						["30Rnd_9x21_Mag",nil,60],
-						["9Rnd_45ACP_Mag",nil,200]
+						["M4_Benelli",nil,6500],
+						["8Rnd_B_Beneli_74Slug",nil,80],
+						["8Rnd_12Gauge_Pellets",nil,80],
+						["HK430",nil,6500],
+						["HK430_30Rnd_556x45",nil,80],
+						["FHQ_M4A1_BLK",nil,6000],
+						["FHQ_M4A1_AFG_BLK",nil,6000],
+						["FHQ_M4A1_M203_BLK",nil,6000],
+						["30rnd_556x45_STANAG",nil,20],
+						["1Rnd_Smoke_Grenade_shell",nil,100],
+						["1Rnd_SmokeRed_Grenade_shell",nil,100],
+						["1Rnd_SmokeGreen_Grenade_shell",nil,100],
+						["1Rnd_SmokeYellow_Grenade_shell",nil,100],
+						["1Rnd_SmokePurple_Grenade_shell",nil,100],
+						["1Rnd_SmokeBlue_Grenade_shell",nil,100],
+						["1Rnd_SmokeOrange_Grenade_shell",nil,100],
+						["arifle_MX_Black_F",nil,6200],
+						["30Rnd_65x39_caseless_mag",nil,80],
+						["acc_flashlight",nil,750],
+						["optic_Holosight",nil,1200],
+						["optic_ACO_grn_smg",nil,2000],
+						["optic_Aco_smg",nil,2000],
+						["optic_ACO_grn",nil,3200],
+						["optic_Aco",nil,3200],
+						["optic_MRCO",nil,10000],
+						["optic_Hamr",nil,10000],
+						["optic_Arco",nil,10000],
+						["SmokeShell",nil,100]
+					]
+				];
+			};
+		};
+	};
+	
+	case "cop_adjudant":  //Grade: Adjudant= CopLevel3
+	{
+		switch(true) do
+		{
+			case (playerSide != west): {"Interdit aux civils !"};
+			default
+			{
+				["Armurerie Adjudant",
+					[
+						["arifle_sdar_F",nil,10000],
+						["20Rnd_556x45_UW_mag",nil,125],
+						["hgun_P07_snds_F","Tazer",2000],
+						["16Rnd_9x21_Mag",nil,50],
+						["hgun_ACPC2_F",nil,4500],
+						["9Rnd_45ACP_Mag",nil,70],
+						["SMG_02_F",nil,4600],
+						["30Rnd_9x21_Mag",nil,60],
+						["M4_Benelli",nil,6500],
+						["8Rnd_B_Beneli_74Slug",nil,80],
+						["8Rnd_12Gauge_Pellets",nil,80],
+						["HK430",nil,6500],
+						["HK430_30Rnd_556x45",nil,80],
+						["FHQ_M4A1_BLK",nil,6000],
+						["FHQ_M4A1_AFG_BLK",nil,6000],
+						["FHQ_M4A1_M203_BLK",nil,6000],
+						["30rnd_556x45_STANAG",nil,20],
+						["1Rnd_Smoke_Grenade_shell",nil,100],
+						["1Rnd_SmokeRed_Grenade_shell",nil,100],
+						["1Rnd_SmokeGreen_Grenade_shell",nil,100],
+						["1Rnd_SmokeYellow_Grenade_shell",nil,100],
+						["1Rnd_SmokePurple_Grenade_shell",nil,100],
+						["1Rnd_SmokeBlue_Grenade_shell",nil,100],
+						["1Rnd_SmokeOrange_Grenade_shell",nil,100],
+						["M110",nil,12000],
+						["20Rnd_762x51_Mag",nil,60],
+						["gign_shield",nil,1500],
+						["arifle_MX_Black_F",nil,6200],
+						["arifle_MXC_Black_F",nil,6500],
+						["arifle_MXM_Black_F",nil,7300],
+						["30Rnd_65x39_caseless_mag",nil,80],
+						["acc_flashlight",nil,750],
+						["optic_Holosight",nil,1200],
+						["optic_ACO_grn_smg",nil,2000],
+						["optic_Aco_smg",nil,2000],
+						["optic_ACO_grn",nil,3200],
+						["optic_Aco",nil,3200],
+						["optic_MRCO",nil,10000],
+						["optic_LRPS",nil,50000],
+						["optic_Hamr",nil,10000],
+						["optic_Arco",nil,10000],
+						["SmokeShell",nil,100]
+					]
+				];
+			};
+		};
+	};
+	
+	case "cop_major":  //Grade: Major= CopLevel4
+	{
+		switch(true) do
+		{
+			case (playerSide != west): {"Interdit aux civils !"};
+			default
+			{
+				["Armurerie Major",
+					[
+						["arifle_sdar_F",nil,10000],
+						["20Rnd_556x45_UW_mag",nil,125],
+						["hgun_P07_snds_F","Tazer",2000],
+						["16Rnd_9x21_Mag",nil,50],
+						["hgun_ACPC2_F",nil,4500],
+						["9Rnd_45ACP_Mag",nil,70],
+						["SMG_02_F",nil,4600],
+						["30Rnd_9x21_Mag",nil,60],
+						["arifle_MX_Black_F",nil,6200],
+						["arifle_MXC_Black_F",nil,6500],
+						["arifle_MXM_Black_F",nil,7300],
+						["30Rnd_65x39_caseless_mag",nil,80],
+						["HK430",nil,6500],
+						["HK430_30Rnd_556x45",nil,80],
+						["FHQ_M4A1_BLK",nil,6000],
+						["FHQ_M4A1_AFG_BLK",nil,6000],
+						["FHQ_M4A1_M203_BLK",nil,6000],
+						["30rnd_556x45_STANAG",nil,20],
+						["1Rnd_Smoke_Grenade_shell",nil,100],
+						["1Rnd_SmokeRed_Grenade_shell",nil,100],
+						["1Rnd_SmokeGreen_Grenade_shell",nil,100],
+						["1Rnd_SmokeYellow_Grenade_shell",nil,100],
+						["1Rnd_SmokePurple_Grenade_shell",nil,100],
+						["1Rnd_SmokeBlue_Grenade_shell",nil,100],
+						["1Rnd_SmokeOrange_Grenade_shell",nil,100],
+						["M110",nil,12000],
+						["20Rnd_762x51_Mag",nil,60],
+						["gign_shield",nil,1500],
+						["M4_Benelli",nil,6500],
+						["8Rnd_B_Beneli_74Slug",nil,80],
+						["8Rnd_12Gauge_Pellets",nil,80],
+						["srifle_EBR_F",nil,8200],
+						["20Rnd_762x51_Mag",nil,90],
+						["acc_flashlight",nil,750],
+						["optic_Holosight",nil,1200],
+						["optic_ACO_grn_smg",nil,2000],
+						["optic_Aco_smg",nil,2000],
+						["optic_ACO_grn",nil,3200],
+						["optic_Aco",nil,3200],
+						["optic_MRCO",nil,10000],
+						["optic_Hamr",nil,10000],
+						["optic_Arco",nil,10000],
+						["optic_DMS",nil,30000],
+						["optic_LRPS",nil,50000],
+						["optic_SOS",nil,30000],
+						["B_UavTerminal",nil,5200],
+						["acc_pointer_IR",nil,4200],
+						["SmokeShell",nil,100]
+					]
+				];
+			};
+		};
+	};
+	
+	case "cop_lieutenant":  //Grade: Lieutenant= CopLevel5
+	{
+		switch(true) do
+		{
+			case (playerSide != west): {"Interdit aux civils !"};
+			default
+			{
+				["Armurerie Lieutenant",
+					[
+						["arifle_sdar_F",nil,10000],
+						["20Rnd_556x45_UW_mag",nil,125],
+						["hgun_P07_snds_F","Tazer",2000],
+						["16Rnd_9x21_Mag",nil,50],
+						["hgun_ACPC2_F",nil,4500],
+						["9Rnd_45ACP_Mag",nil,70],
+						["SMG_02_F",nil,4600],
+						["30Rnd_9x21_Mag",nil,60],
+						["arifle_MX_Black_F",nil,6200],
+						["arifle_MXC_Black_F",nil,6500],
+						["arifle_MXM_Black_F",nil,7300],
+						["30Rnd_65x39_caseless_mag",nil,80],
+						["HK430",nil,6500],
+						["HK430_30Rnd_556x45",nil,80],
+						["FHQ_M4A1_BLK",nil,6000],
+						["FHQ_M4A1_AFG_BLK",nil,6000],
+						["FHQ_M4A1_M203_BLK",nil,6000],
+						["30rnd_556x45_STANAG",nil,20],
+						["1Rnd_Smoke_Grenade_shell",nil,100],
+						["1Rnd_SmokeRed_Grenade_shell",nil,100],
+						["1Rnd_SmokeGreen_Grenade_shell",nil,100],
+						["1Rnd_SmokeYellow_Grenade_shell",nil,100],
+						["1Rnd_SmokePurple_Grenade_shell",nil,100],
+						["1Rnd_SmokeBlue_Grenade_shell",nil,100],
+						["1Rnd_SmokeOrange_Grenade_shell",nil,100],
+						["M110",nil,12000],
+						["20Rnd_762x51_Mag",nil,60],
+						["gign_shield",nil,1500],
+						["M4_Benelli",nil,6500],
+						["8Rnd_B_Beneli_74Slug",nil,80],
+						["8Rnd_12Gauge_Pellets",nil,80],
+						["srifle_EBR_F",nil,8200],
+						["20Rnd_762x51_Mag",nil,90],
+						["LMG_Mk200_F",nil,15000],
+						["200Rnd_65x39_cased_Box",nil,500],
+						["LMG_Zafir_F",nil,200000],
+						["150Rnd_762x51_Box_Tracer",nil,800],
+						["acc_flashlight",nil,750],
+						["optic_Holosight",nil,1200],
+						["optic_ACO_grn_smg",nil,2000],
+						["optic_Aco_smg",nil,2000],
+						["optic_ACO_grn",nil,3200],
+						["optic_Aco",nil,3200],
+						["optic_MRCO",nil,10000],
+						["optic_Hamr",nil,10000],
+						["optic_Arco",nil,10000],
+						["optic_DMS",nil,30000],
+						["optic_LRPS",nil,50000],
+						["optic_SOS",nil,30000],
+						["B_UavTerminal",nil,5200],
+						["acc_pointer_IR",nil,4200],
+						["HandGrenade_Stone","Flashbang",1700],
+						["SmokeShell",nil,100]
+					]
+				];
+			};
+		};
+	};
+	
+	case "cop_capitaine":  //Grade: Capitaine= CopLevel6
+	{
+		switch(true) do
+		{
+			case (playerSide != west): {"Interdit aux civils !"};
+			default
+			{
+				["Armurerie Capitaine",
+					[
+						["arifle_sdar_F",nil,10000],
+						["20Rnd_556x45_UW_mag",nil,125],
+						["hgun_P07_snds_F","Tazer",2000],
+						["16Rnd_9x21_Mag",nil,50],
+						["hgun_ACPC2_F",nil,4500],
+						["9Rnd_45ACP_Mag",nil,70],
+						["SMG_02_F",nil,4600],
+						["30Rnd_9x21_Mag",nil,60],
+						["HK430",nil,6500],
+						["HK430_30Rnd_556x45",nil,80],
+						["FHQ_M4A1_BLK",nil,6000],
+						["FHQ_M4A1_AFG_BLK",nil,6000],
+						["FHQ_M4A1_M203_BLK",nil,6000],
+						["30rnd_556x45_STANAG",nil,20],
+						["1Rnd_Smoke_Grenade_shell",nil,100],
+						["1Rnd_SmokeRed_Grenade_shell",nil,100],
+						["1Rnd_SmokeGreen_Grenade_shell",nil,100],
+						["1Rnd_SmokeYellow_Grenade_shell",nil,100],
+						["1Rnd_SmokePurple_Grenade_shell",nil,100],
+						["1Rnd_SmokeBlue_Grenade_shell",nil,100],
+						["1Rnd_SmokeOrange_Grenade_shell",nil,100],
+						["M110",nil,12000],
+						["20Rnd_762x51_Mag",nil,60],
+						["gign_shield",nil,1500],
+						["M4_Benelli",nil,6500],
+						["8Rnd_B_Beneli_74Slug",nil,80],
+						["8Rnd_12Gauge_Pellets",nil,80],
+						["arifle_MX_Black_F",nil,6200],
+						["arifle_MXC_Black_F",nil,6500],
+						["arifle_MXM_Black_F",nil,7300],
+						["30Rnd_65x39_caseless_mag",nil,80],
+						["srifle_EBR_F",nil,8200],
+						["20Rnd_762x51_Mag",nil,90],
+						["LMG_Mk200_F",nil,15000],
+						["200Rnd_65x39_cased_Box",nil,500],
+						["LMG_Zafir_F",nil,400000],
+						["150Rnd_762x51_Box_Tracer",nil,800],
+						["srifle_LRR_F",nil,15000],
+						["7Rnd_408_Mag",nil,800],
+						["acc_flashlight",nil,750],
+						["optic_Holosight",nil,1200],
+						["optic_ACO_grn_smg",nil,2000],
+						["optic_Aco_smg",nil,2000],
+						["optic_ACO_grn",nil,3200],
+						["optic_Aco",nil,3200],
+						["optic_MRCO",nil,10000],
+						["optic_Hamr",nil,10000],
+						["optic_Arco",nil,10000],
+						["optic_DMS",nil,30000],
+						["optic_LRPS",nil,50000],
+						["optic_SOS",nil,30000],
+						["optic_tws",nil,40000],
+						["B_UavTerminal",nil,5200],
+						["acc_pointer_IR",nil,4200],
+						["HandGrenade_Stone","Flashbang",1700],
+						["SmokeShell",nil,100]
+					]
+				];
+			};
+		};
+	};
+	
+	case "cop_commandant":  //Grade: Commandant= CopLevel7
+	{
+		switch(true) do
+		{
+			case (playerSide != west): {"Interdit aux civils !"};
+			default
+			{
+				["Armurerie Commandant",
+					[
+						["arifle_sdar_F",nil,10000],
+						["20Rnd_556x45_UW_mag",nil,125],
+						["hgun_P07_snds_F","Tazer",2000],
+						["16Rnd_9x21_Mag",nil,50],
+						["hgun_ACPC2_F",nil,4500],
+						["9Rnd_45ACP_Mag",nil,70],
+						["SMG_02_F",nil,4600],
+						["30Rnd_9x21_Mag",nil,60],
+						["arifle_MX_Black_F",nil,6200],
+						["arifle_MXC_Black_F",nil,6500],
+						["arifle_MXM_Black_F",nil,7300],
+						["30Rnd_65x39_caseless_mag",nil,80],
+						["HK430",nil,6500],
+						["HK430_30Rnd_556x45",nil,80],
+						["FHQ_M4A1_BLK",nil,6000],
+						["FHQ_M4A1_AFG_BLK",nil,6000],
+						["FHQ_M4A1_M203_BLK",nil,6000],
+						["30rnd_556x45_STANAG",nil,20],
+						["1Rnd_Smoke_Grenade_shell",nil,100],
+						["1Rnd_SmokeRed_Grenade_shell",nil,100],
+						["1Rnd_SmokeGreen_Grenade_shell",nil,100],
+						["1Rnd_SmokeYellow_Grenade_shell",nil,100],
+						["1Rnd_SmokePurple_Grenade_shell",nil,100],
+						["1Rnd_SmokeBlue_Grenade_shell",nil,100],
+						["1Rnd_SmokeOrange_Grenade_shell",nil,100],
+						["M110",nil,12000],
+						["20Rnd_762x51_Mag",nil,60],
+						["gign_shield",nil,1500],
+						["M4_Benelli",nil,6500],
+						["8Rnd_B_Beneli_74Slug",nil,80],
+						["8Rnd_12Gauge_Pellets",nil,80],
+						["srifle_EBR_F",nil,8200],
+						["20Rnd_762x51_Mag",nil,90],
+						["LMG_Mk200_F",nil,15000],
+						["200Rnd_65x39_cased_Box",nil,500],
+						["LMG_Zafir_F",nil,200000],
+						["150Rnd_762x51_Box_Tracer",nil,800],
+						["srifle_LRR_F",nil,15000],
+						["7Rnd_408_Mag",nil,800],
+						["acc_flashlight",nil,750],
+						["optic_Holosight",nil,1200],
+						["optic_ACO_grn_smg",nil,2000],
+						["optic_Aco_smg",nil,2000],
+						["optic_ACO_grn",nil,3200],
+						["optic_Aco",nil,3200],
+						["optic_MRCO",nil,10000],
+						["optic_Hamr",nil,10000],
+						["optic_Arco",nil,10000],
+						["optic_LRPS",nil,50000],
+						["optic_SOS",nil,30000],
+						["optic_tws",nil,40000],
+						["B_UavTerminal",nil,5200],
+						["acc_pointer_IR",nil,4200],
+						["optic_DMS",nil,1200],
+						["HandGrenade_Stone","Flashbang",1700],
+						["SmokeShell",nil,100]
 					]
 				];
 			};
