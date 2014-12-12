@@ -63,6 +63,7 @@ switch (_mode) do
 			case "top": {_var = "license_top"};
 			case "moa": {_var = "license_moap"};
 			case "tor": {_var = "license_tor"};
+			case "grf": {_var = "license_grf"};
             case "uranium": {_var = "license_civ_uranium"};
             case "uranium1": {_var = "license_civ_uranium"};
             case "uranium2": {_var = "license_civ_uranium"};
@@ -123,6 +124,7 @@ switch (_mode) do
 			case "license_top": {_var = "top"};
 			case "license_moa": {_var = "moa"};
 			case "license_tor": {_var = "tor"};
+			case "license_grf": {_var = "grf"};
             case "license_civ_uranium": {_var = "uranium"};
             case "license_civ_uranium": {_var = "uranium1"};
             case "license_civ_uranium": {_var = "uranium2"};
