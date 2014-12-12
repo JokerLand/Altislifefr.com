@@ -2701,7 +2701,7 @@ class Mission
 				class Item50
 				{
 					position[]={3274.0876,2.1989954,12975.66};
-					azimut=182.0573;
+					azimut=182.05701;
 					offsetY=0.2;
 					special="NONE";
 					id=147;
@@ -2709,7 +2709,7 @@ class Mission
 					vehicle="B_RangeMaster_F";
 					skill=0.60000002;
 					text="h1_3";
-					init="this enableSimulation false; this addAction[""Cop Item Shop"",life_fnc_virt_menu,""cop""];  this allowDamage false;  this addAction[""Cop Clothing Shop"",life_fnc_clothingMenu,""cop""];  this addAction[""Cop Weapon Shop"",life_fnc_weaponShopMenu,""cop_basic""];  this addAction[""Patrol Officer Weapon Shop"",life_fnc_weaponShopMenu,""cop_patrol""];  this addAction[""Sergeant Weapon Shop"",life_fnc_weaponShopMenu,""cop_sergeant""]; this addAction[format[""%1 ($%2)"",[""license_cop_air""] call life_fnc_varToStr,[([""cair""] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,""cair"",0,false,false,"""",' !license_cop_air && playerSide == west ']; this addAction[format[""%1 ($%2)"",[""license_cop_cg""] call life_fnc_varToStr,[([""cg""] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,""cg"",0,false,false,"""",' !license_cop_cg && playerSide == west '];";
+					init="removeHeadgear this;   removeAllWeapons this; this enableSimulation false; this allowDamage false;   this addAction[""Superette de la Police"",life_fnc_virt_menu,""cop""]; this addAction[""Vestiaire de la Police"",life_fnc_clothingMenu,""cop""];this addAction[""Quincaillerie de la Police"",life_fnc_weaponShopMenu,""cop_basic""]; this addAction[""Boutique Policier"",life_fnc_weaponShopMenu,""cop_policier"",0,false,false,"""",' _target distance _this < 5 && !isNil ""life_coplevel"" &&  (call life_coplevel) == 1 && playerSide == west']; this addAction[""Boutique Brigadier"",life_fnc_weaponShopMenu,""cop_brigadier"",0,false,false,"""",' _target distance _this < 5 && !isNil ""life_coplevel"" &&  (call life_coplevel) == 2 && playerSide == west'];this addAction[""Boutique Adjudant"",life_fnc_weaponShopMenu,""cop_adjudant"",0,false,false,"""",' _target distance _this < 5 && !isNil ""life_coplevel"" &&  (call life_coplevel) == 3 && playerSide == west']; this addAction[""Boutique Major"",life_fnc_weaponShopMenu,""cop_major"",0,false,false,"""",' _target distance _this < 5 && !isNil ""life_coplevel"" &&  (call life_coplevel) == 4 && playerSide == west'];this addAction[""Boutique Lieutenant"",life_fnc_weaponShopMenu,""cop_lieutenant"",0,false,false,"""",' _target distance _this < 5 && !isNil ""life_coplevel"" &&  (call life_coplevel) == 5 && playerSide == west'];this addAction[""Boutique Capitaine"",life_fnc_weaponShopMenu,""cop_capitaine"",0,false,false,"""",' _target distance _this < 5 && !isNil ""life_coplevel"" &&  (call life_coplevel) == 6 && playerSide == west'];this addAction[""Boutique Commandant"",life_fnc_weaponShopMenu,""cop_commandant"",0,false,false,"""",' _target distance _this < 5 && !isNil ""life_coplevel"" &&  (call life_coplevel) == 7 && playerSide == west'];   this addAction[format[""%1 ($%2)"",[""license_cop_air""] call life_fnc_varToStr,[([""cair""] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,""cair"",0,false,false,"""",' !license_cop_air && playerSide == west ']; this addAction[format[""%1 ($%2)"",[""license_cop_cg""] call life_fnc_varToStr,[([""cg""] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,""cg"",0,false,false,"""",' !license_cop_cg && playerSide == west '];";
 				};
 				class Item51
 				{
@@ -3422,7 +3422,6 @@ class Mission
 					side="GUER";
 					vehicle="I_Story_Colonel_F";
 					player="PLAY CDG";
-					forceHeadlessClient=1;
 					leader=1;
 					skill=0.60000002;
 					text="hc_1";
