@@ -86,13 +86,33 @@ switch (_shop) do
 	case "cop_car":
 	{
 		_return pushBack
-		["C_Offroad_01_F",5000];
+		["C_Offroad_01_F",50000];
 		_return pushBack
-		["C_SUV_01_F",20000];
+		["DAR_ImpalaPolice",30000];
+		_return pushBack
+		["DAR_TahoePolice",50000];
+		if(__GETC__(life_coplevel) > 1) then
+		{
+			_return pushBack
+			["C_SUV_01_F",100000];
+			_return pushBack
+			["DAR_TaurusPolice",100000];
+		};
 		if(__GETC__(life_coplevel) > 2) then
 		{
 			_return pushBack
-			["B_MRAP_01_F",30000];
+			["DAR_ChargerPoliceState",200000];
+			_return pushBack
+			["DAR_DAR_02FirebirdSSVPolice",250000];
+			_return pushBack
+			["RDS_Ikarus_Civ_01",100000];
+			_return pushBack
+			["I_MRAP_03_F",1000000];
+		};
+		if(__GETC__(life_coplevel) > 2) then
+		{
+			_return pushBack
+			["DAR_ExplorerPolice",150000];
 		};
 	};
 	
@@ -107,25 +127,30 @@ switch (_shop) do
 	
 	case "cop_air":
 	{
-		_return pushBack
-		["B_Heli_Light_01_F",75000];
-		if(__GETC__(life_coplevel) > 2) then
+		if(__GETC__(life_coplevel) > 1) then
+		{
+			_return pushBack
+			["B_Heli_Light_01_F",75000];
+		};
+		if(__GETC__(life_coplevel) > 5) then
 		{
 			_return pushBack
 			["B_Heli_Transport_01_F",200000];
 		};
 	};
 	
+	
 	case "cop_airhq":
 	{
-		_return pushBack
-		["B_Heli_Light_01_F",75000];
-		if(__GETC__(life_coplevel) > 2) then
+		if(__GETC__(life_coplevel) > 1) then
+		{
+			_return pushBack
+			["B_Heli_Light_01_F",75000];
+		};
+		if(__GETC__(life_coplevel) > 5) then
 		{
 			_return pushBack
 			["B_Heli_Transport_01_F",200000];
-			_return pushBack
-			["B_MRAP_01_hmg_F",750000];
 		};
 	};
 	
