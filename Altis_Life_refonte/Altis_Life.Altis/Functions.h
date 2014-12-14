@@ -106,6 +106,8 @@ class Life_Client_Core
 		class robAction {};
 		class captureHideout {};
 		class gather {};
+		class packupBarriere {};
+		class packupCone {};
 	};
 	
 	class Housing
@@ -349,6 +351,8 @@ class Life_Client_Core
 		class blastingCharge {};
 		class defuseKit {};
 		class storageBox {};
+		class barriere {};
+		class cone {};
 	};
 	
 	class Dialog_Controls

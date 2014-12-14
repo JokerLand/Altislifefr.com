@@ -57,6 +57,24 @@ switch (true) do
 		};
 	};
 	
+	case (_item == "barriere"):
+	{
+		if(!isNull life_barriere) exitWith {hint "Vous deployez déjà une barrière"};
+		if(([false,_item,1] call life_fnc_handleInv)) then
+		{
+			[] spawn life_fnc_barriere;
+		};
+	};
+
+	case (_item == "cone"):
+	{
+		if(!isNull life_cone) exitWith {hint "Vous deployez déjà un cône."};
+		if(([false,_item,1] call life_fnc_handleInv)) then
+		{
+			[] spawn life_fnc_cone;
+		};
+	};
+	
 	case (_item == "spikeStrip"):
 	{
 		if(!isNull life_spikestrip) exitWith {hint localize "STR_ISTR_SpikesDeployment"};

@@ -56,5 +56,7 @@ switch (_item) do
 	case "defusekit": {2};
 	case "storagesmall": {5};
 	case "storagebig": {10};
+	case "barriere": {1};
+	case "cone": {1};
 	default {1};
 };

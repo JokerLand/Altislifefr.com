@@ -159,7 +159,9 @@ life_inv_items =
 	"life_inv_boltcutter",
 	"life_inv_defusekit",
 	"life_inv_storagesmall",
-	"life_inv_storagebig"
+	"life_inv_storagebig",
+	"life_inv_barriere",
+	"life_inv_cone"
 ];
 
 //Setup variable inv vars.
@@ -268,7 +270,9 @@ buy_array =
 	["boltcutter",7500],
 	["defusekit",2500],
 	["storagesmall",75000],
-	["storagebig",150000]
+	["storagebig",150000],
+	["barriere",1000],
+	["cone",100]
 ];
 __CONST__(buy_array,buy_array);
 
