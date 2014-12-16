@@ -3487,9 +3487,7 @@ class Mission
 				};
 				class Item85
 				{
-					position[]={3743.5244,18.86622,12977.835};
-					azimut=-183.314;
-					offsetY=18.700001;
+					position[]={3725.1143,18.889542,12986.258};
 					special="NONE";
 					id=205;
 					side="WEST";
@@ -7339,7 +7337,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=7289;
+		items=7290;
 		class Item0
 		{
 			position[]={8065.1616,35.674362,24985.314};
@@ -79516,6 +79514,19 @@ class Mission
 			vehicle="Land_Scaffolding_F";
 			skill=0.60000002;
 		};
+		class Item7289
+		{
+			position[]={3725.2749,18.780951,12992.668};
+			azimut=180;
+			special="NONE";
+			id=7699;
+			side="EMPTY";
+			vehicle="Land_HelipadRescue_F";
+			leader=1;
+			skill=0.60000002;
+			text="heliport_1_2_2_4_8";
+			init="this allowDamage false;  ";
+		};
 	};
 	class Markers
 	{
@@ -81390,7 +81401,7 @@ class Mission
 		};
 		class Item225
 		{
-			position[]={3730.47,18.871857,12976.391};
+			position[]={3725.5161,18.764994,12993.289};
 			name="med_air_1";
 			type="Empty";
 			angle=3.3986661;
@@ -81938,7 +81949,7 @@ class Mission
 		};
 		class Item290
 		{
-			position[]={3730.488,18.871771,12976.328};
+			position[]={3725.2065,18.718224,12994.785};
 			name="med_air_hs";
 			type="Empty";
 		};
