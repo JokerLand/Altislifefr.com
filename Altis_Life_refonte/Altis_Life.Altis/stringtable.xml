@@ -4295,41 +4295,9 @@
 			<Original>Send to jail</Original>
 			<English>Send to jail</English>
 			<German>Ins Gefängnis stecken</German>
-			<French>Prison 5min</French>
+			<French>Envoyer en prison</French>
 			<Italian>Arresta</Italian>
 			<Portuguese>Enviar p/ Prisão</Portuguese>
-		</Key>
-		<Key ID="STR_pInAct_Arrest10">
-			<Original>Prison 10min</Original>
-			<English>Send to jail 10min</English>
-			<German>Ins Gefängnis stecken 10min</German>
-			<French>Prison 10min</French>
-			<Italian>Arresta 10min</Italian>
-			<Portuguese>Enviar p/ Prisão 10min</Portuguese>
-		</Key>
-		<Key ID="STR_pInAct_Arrest15">
-			<Original>Prison 15min</Original>
-			<English>Send to jail 15min</English>
-			<German>Ins Gefängnis stecken 15min</German>
-			<French>Prison 15min</French>
-			<Italian>Arresta 15min</Italian>
-			<Portuguese>Enviar p/ Prisão 15min</Portuguese>
-		</Key>
-		<Key ID="STR_pInAct_Arrest20">
-			<Original>Prison 20min</Original>
-			<English>Send to jail 20min</English>
-			<German>Ins Gefängnis stecken 20min</German>
-			<French>Prison 20min</French>
-			<Italian>Arresta 20min</Italian>
-			<Portuguese>Enviar p/ Prisão 20min</Portuguese>
-		</Key>
-		<Key ID="STR_pInAct_Arrest25">
-			<Original>Prison 25min</Original>
-			<English>Send to jail 25min</English>
-			<German>Ins Gefängnis stecken 25min</German>
-			<French>Prison 25min</French>
-			<Italian>Arresta 25min</Italian>
-			<Portuguese>Enviar p/ Prisão 25min</Portuguese>
 		</Key>
 		<Key ID="STR_pInAct_Repair">
 			<Original>Repair Door</Original>

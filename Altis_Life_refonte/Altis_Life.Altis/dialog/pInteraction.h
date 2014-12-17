@@ -27,7 +27,7 @@ class pInteraction_Menu
 			x = BGX;
 			y = BGY + (11 / 250);
 			w = BGW;
-			h = 0.7 - (22 / 250);
+			h = 0.6 - (22 / 250);
 		};
 		
 		class Title : life_RscTitle
@@ -51,7 +51,7 @@ class pInteraction_Menu
 			text = "$STR_Global_Close";
 			onButtonClick = "closeDialog 0;";
 			x = BGX;
-			y = 0.9 - (1 / 25);
+			y = 0.8 - (1 / 25);
 			w = (6.25 / 40);
 			h = (1 / 25);
 		};
@@ -104,7 +104,7 @@ class pInteraction_Menu
 			h = 0.038;
 		};
 		
-				class ButtonFive : life_RscButtonMenu
+		class ButtonFive : life_RscButtonMenu
 		{
 			idc = 37454;
 			colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", 0.5};
@@ -136,53 +136,6 @@ class pInteraction_Menu
 			sizeEx = 0.025;
 			x = BGX + 0.03;
 			y = BGY + 0.37;
-			w = 0.24;
-			h = 0.038;
-		};
-		class ButtonEight : life_RscButtonMenu
-		{
-			idc = 37457;
-			colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", 0.5};
-			text = "";
-			sizeEx = 0.025;
-			x = BGX + 0.03;
-			y = BGY + 0.42;
-			w = 0.24;
-			h = 0.038;
-		};
-		
-		class ButtonNine : life_RscButtonMenu
-		{
-			idc = 37458;
-			colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", 0.5};
-			text = "";
-			sizeEx = 0.025;
-			x = BGX + 0.03;
-			y = BGY + 0.47;
-			w = 0.24;
-			h = 0.038;
-		};
-		
-		class ButtonEleven : life_RscButtonMenu
-		{
-			idc = 37459;
-			colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", 0.5};
-			text = "";
-			sizeEx = 0.025;
-			x = BGX + 0.03;
-			y = BGY + 0.52;
-			w = 0.24;
-			h = 0.038;
-		};
-		
-		class ButtonTwelve : life_RscButtonMenu
-		{
-			idc = 37460;
-			colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", 0.5};
-			text = "";
-			sizeEx = 0.025;
-			x = BGX + 0.03;
-			y = BGY + 0.57;
 			w = 0.24;
 			h = 0.038;
 		};
