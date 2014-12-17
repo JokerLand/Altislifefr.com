@@ -19,7 +19,7 @@ switch (_filter) do
 	//Uniforms
 	case 0:
 	{
-		_ret pushBack ["ALFR_FR_Soldier_police","Uniforme Police",25];
+		_ret pushBack ["ALFR_FR_police_tenu","Uniforme Police",25];
 		if(__GETC__(life_coplevel) > 1) then
 		{
 			_ret pushBack ["U_B_Wetsuit",nil,2000];
