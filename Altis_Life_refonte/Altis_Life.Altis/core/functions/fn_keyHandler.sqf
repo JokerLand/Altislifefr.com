@@ -5,7 +5,7 @@
 	Description:
 	Main key handler for event 'keyDown'
 */
-private ["_handled","_shift","_alt","_code","_ctrl","_alt","_ctrlKey","_veh","_locked","_interactionKey","_mapKey","_interruptionKeys"];
+private ["_handled","_shift","_alt","_code","_ctrl","_alt","_ctrlKey","_veh","_locked","_interactionKey","_mapKey","_interruptionKeys","_player"];
 _ctrl = _this select 0;
 _code = _this select 1;
 _shift = _this select 2;
@@ -13,6 +13,7 @@ _ctrlKey = _this select 3;
 _alt = _this select 4;
 _speed = speed cursorTarget;
 _handled = false;
+_player = player;
 
 _interactionKey = if(count (actionKeys "User10") == 0) then {219} else {(actionKeys "User10") select 0};
 _mapKey = actionKeys "ShowMap" select 0;
@@ -33,6 +34,10 @@ if(life_action_inUse) exitWith {
 if(count (actionKeys "User10") != 0 && {(inputAction "User10" > 0)}) exitWith {
 	//Interaction key (default is Left Windows, can be mapped via Controls -> Custom -> User Action 10)
 	if(!life_action_inUse) then {
+		if(playerSide == independent) then
+		{
+			player setObjectTextureGlobal [0, "textures\medic_uniform.jpg"];
+		};
 		[] spawn 
 		{
 			private["_handle"];
@@ -107,6 +112,38 @@ switch (_code) do
 			[] call life_fnc_restrainAction;
 		};
 	};
+	
+	//Report ALT-F4
+	case 62:
+    {
+    if(_alt && !_shift) then {
+    diag_log format ["Anti-Cheat: %1 utilise ALT+F4 pour se deconnecter (Merci de le report aux Admins)",_player getVariable["realname",name _player]];
+    [[1,format["Anti-Cheat: %1 utilise ALT+F4 pour se deconnecter (Merci de le report aux Admins)",_player getVariable["realname",name _player]]],"life_fnc_broadcast",nil,false] spawn life_fnc_MP;
+    };
+    };
+	/*
+    case 211:
+    {
+    if(_ctrlKey && _alt)  then {
+    diag_log format ["Anti-Cheat: %1 utilise CTRL + ALT + DEL pour se deconnecter (Merci de le report aux Admins)",player getVariable["realname",name player]];
+    [[1,format["Anti-Cheat: %1 utilise CTRL + ALT + DEL  pour se deconnecter (Merci de le report aux Admins)",player getVariable["realname",name player]]],"life_fnc_broadcast",nil,false] spawn life_fnc_MP;
+    };
+    };
+    case 15:
+    {
+    if( _alt)  then {
+    diag_log format ["Anti-Cheat: %1 utilise ALT + TAB pour se deconnecter (Merci de le report aux Admins)",player getVariable["realname",name player]];
+    [[1,format["Anti-Cheat: %1 utilise ALT + TAB pour se deconnecter (Merci de le report aux Admins)",player getVariable["realname",name player]]],"life_fnc_broadcast",nil,false] spawn life_fnc_MP;
+    };
+    };
+    case 1:
+    {
+    if( _ctrlKey )  then {
+    diag_log format ["Anti-Cheat: %1 utilise CTRL + ESC pour se deconnecter (Merci de le report aux Admins)",player getVariable["realname",name player]];
+    [[1,format["Anti-Cheat: %1 utilise CTRL + ESC pour se deconnecter (Merci de le report aux Admins)",player getVariable["realname",name player]]],"life_fnc_broadcast",nil,false] spawn life_fnc_MP;
+    };
+    };
+	*/
 	
 	//Knock out, this is experimental and yeah...
 	case 34:
