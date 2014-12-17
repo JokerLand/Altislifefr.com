@@ -271,7 +271,7 @@ buy_array =
 	["storagesmall",75000],
 	["storagebig",150000],
 	["barriere",1000],
-	["cone",100],
+	["cone",100]
 ];
 __CONST__(buy_array,buy_array);
 
