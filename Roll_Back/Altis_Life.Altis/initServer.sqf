@@ -26,8 +26,10 @@ onMapSingleClick "if(_alt) then {vehicle player setPos _pos};";
 [] execVM "Base\BaseMOA.sqf";
 [] execVM "Base\BaseTOR.sqf";
 [] execVM "Base\Base-GRF.sqf";
-[] execVM "Base\Kavala-centre.sqf";
+[] execVM "Base\Park Kavala.sqf";
 [] execVM "Base\BaseSopranofinal.sqf";
 [] execVM "Base\Base-AC.sqf";
+[] execVM "Base\Poste de controle routier.sqf";
+[] execVM "Base\BaseBMG.sqf";
 
 [8,true,true,25] execFSM "core\fsm\timeModule.fsm";
