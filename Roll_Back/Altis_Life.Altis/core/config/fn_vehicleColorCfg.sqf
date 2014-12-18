@@ -709,6 +709,14 @@ switch (_vehicle) do
  		];
  	};
 
+	case "insignia_police":
+	{
+ 		_ret =
+ 		[
+ 			["textures\opel_Police.jpg","cop"]
+ 		];
+ 	};
+	
 	case "cl3_range_rover_camo":
 	{
  		_ret =
