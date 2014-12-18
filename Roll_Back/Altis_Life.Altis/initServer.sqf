@@ -31,5 +31,6 @@ onMapSingleClick "if(_alt) then {vehicle player setPos _pos};";
 [] execVM "Base\Base-AC.sqf";
 [] execVM "Base\Poste de controle routier.sqf";
 [] execVM "Base\BaseBMG.sqf";
+[] execVM "Base\debug_veh_spawn.sqf";
 
 [8,true,true,25] execFSM "core\fsm\timeModule.fsm";
