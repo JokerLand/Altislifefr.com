@@ -1,8 +1,9 @@
 // ***************************************
 _pos = [4077.34,13736.1,21.3672];
-_object = createVehicle ["Land_Shed_Big_F", _pos, [], 0, "CAN_COLLIDE"];
-_object setDir 33.7591;
-_object setPosASL _pos;
+ abri = createVehicle ["Land_Shed_Big_F", _pos, [], 0, "CAN_COLLIDE"];
+ abri setDir 33.7591;
+ abri setPosASL _pos;
+ abri allowDamage false;
 // ***************************************
 _pos = [4080.05,13723.2,21.2193];
 _object = createVehicle ["Land_Cargo_House_V1_F", _pos, [], 0, "CAN_COLLIDE"];
@@ -320,14 +321,16 @@ _object setDir 28.1518;
 _object setPosASL _pos;
 // ***************************************
 _pos = [4081.91,13743.3,21.3038];
-_object = createVehicle ["Land_LampStreet_small_F", _pos, [], 0, "CAN_COLLIDE"];
-_object setDir 40.5804;
-_object setPosASL _pos;
+ lamp = createVehicle ["Land_LampStreet_small_F", _pos, [], 0, "CAN_COLLIDE"];
+ lamp setDir 40.5804;
+ lamp setPosASL _pos;
+ lamp allowDamage false;
 // ***************************************
 _pos = [4073.33,13730.7,21.2931];
-_object = createVehicle ["Land_LampStreet_small_F", _pos, [], 0, "CAN_COLLIDE"];
-_object setDir 40.5804;
-_object setPosASL _pos;
+ lamp = createVehicle ["Land_LampStreet_small_F", _pos, [], 0, "CAN_COLLIDE"];
+ lamp setDir 40.5804;
+ lamp setPosASL _pos;
+ lamp allowDamage false;
 // ***************************************
 _pos = [4067.72,13722.4,21.2033];
 _object = createVehicle ["RoadCone_L_F", _pos, [], 0, "CAN_COLLIDE"];
