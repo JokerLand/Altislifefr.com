@@ -333,41 +333,49 @@ _pos = [4073.33,13730.7,21.2931];
  lamp allowDamage false;
 // ***************************************
 _pos = [4067.72,13722.4,21.2033];
-_object = createVehicle ["RoadCone_L_F", _pos, [], 0, "CAN_COLLIDE"];
-_object setDir 36.9565;
-_object setPosASL _pos;
+ cone = createVehicle ["RoadCone_L_F", _pos, [], 0, "CAN_COLLIDE"];
+ cone setDir 36.9565;
+ cone setPosASL _pos;
+ cone allowDamage false;
 // ***************************************
 _pos = [4088.29,13752.9,21.342];
-_object = createVehicle ["RoadCone_L_F", _pos, [], 0, "CAN_COLLIDE"];
-_object setDir 36.5641;
-_object setPosASL _pos;
+ cone = createVehicle ["RoadCone_L_F", _pos, [], 0, "CAN_COLLIDE"];
+ cone setDir 36.5641;
+ cone setPosASL _pos;
+ cone allowDamage false;
 // ***************************************
 _pos = [4086.25,13758.5,21.2815];
-_object = createVehicle ["RoadCone_L_F", _pos, [], 0, "CAN_COLLIDE"];
-_object setDir 29.7323;
-_object setPosASL _pos;
+ cone = createVehicle ["RoadCone_L_F", _pos, [], 0, "CAN_COLLIDE"];
+ cone setDir 29.7323;
+ cone setPosASL _pos;
+ cone allowDamage false;
 // ***************************************
 _pos = [4082.53,13744.1,21.3002];
-_object = createVehicle ["RoadCone_L_F", _pos, [], 0, "CAN_COLLIDE"];
-_object setDir 37.3663;
-_object setPosASL _pos;
+ cone = createVehicle ["RoadCone_L_F", _pos, [], 0, "CAN_COLLIDE"];
+ cone setDir 37.3663;
+ cone setPosASL _pos;
+ cone allowDamage false;
 // ***************************************
 _pos = [4072.82,13729.9,21.2835];
-_object = createVehicle ["RoadCone_L_F", _pos, [], 0, "CAN_COLLIDE"];
-_object setDir 34.5536;
-_object setPosASL _pos;
+ cone = createVehicle ["RoadCone_L_F", _pos, [], 0, "CAN_COLLIDE"];
+ cone setDir 34.5536;
+ cone setPosASL _pos;
+ cone allowDamage false;
 // ***************************************
 _pos = [4093.56,13753.1,21.4086];
-_object = createVehicle ["RoadCone_L_F", _pos, [], 0, "CAN_COLLIDE"];
-_object setDir 29.7323;
-_object setPosASL _pos;
+ cone = createVehicle ["RoadCone_L_F", _pos, [], 0, "CAN_COLLIDE"];
+ cone setDir 29.7323;
+ cone setPosASL _pos;
+ cone allowDamage false;
 // ***************************************
 _pos = [4061.67,13721.4,21.1717];
-_object = createVehicle ["RoadCone_L_F", _pos, [], 0, "CAN_COLLIDE"];
-_object setDir 29.7323;
-_object setPosASL _pos;
+ cone = createVehicle ["RoadCone_L_F", _pos, [], 0, "CAN_COLLIDE"];
+ cone setDir 29.7323;
+ cone setPosASL _pos;
+ cone allowDamage false;
 // ***************************************
 _pos = [4069.15,13716.6,21.0887];
-_object = createVehicle ["RoadCone_L_F", _pos, [], 0, "CAN_COLLIDE"];
-_object setDir 29.7323;
-_object setPosASL _pos;
+ cone = createVehicle ["RoadCone_L_F", _pos, [], 0, "CAN_COLLIDE"];
+ cone setDir 29.7323;
+ cone setPosASL _pos;
+ cone allowDamage false;
