@@ -131,5 +131,7 @@ switch (_var) do
 	case "license_moa": {"M.O.A"};
 	case "license_tor": {"TOR"};
 	case "license_grf": {"G.R.F"};
+	case "license_mw": {"Moscow"};
+	case "license_poc": {"Panda of Cannabis"};
     case "license_civ_uranium": {"Formation Uranium"};
 };
