@@ -1,10 +1,4 @@
 // ***************************************
-_pos = [4077.34,13736.1,21.3672];
- abri = createVehicle ["Land_Shed_Big_F", _pos, [], 0, "CAN_COLLIDE"];
- abri setDir 33.7591;
- abri setPosASL _pos;
- abri allowDamage false;
-// ***************************************
 _pos = [4080.05,13723.2,21.2193];
 _object = createVehicle ["Land_Cargo_House_V1_F", _pos, [], 0, "CAN_COLLIDE"];
 _object setDir 125.571;
@@ -306,19 +300,22 @@ _object setDir 331.153;
 _object setPosASL _pos;
 // ***************************************
 _pos = [4060.77,13733.0,21.3483];
-_object = createVehicle ["Land_LampHalogen_F", _pos, [], 0, "CAN_COLLIDE"];
-_object setDir 244.286;
-_object setPosASL _pos;
+ halogen = createVehicle ["Land_LampHalogen_F", _pos, [], 0, "CAN_COLLIDE"];
+ halogen setDir 244.286;
+ halogen setPosASL _pos;
+ halogen allowDamage false;
 // ***************************************
-_pos = [4077.69,13751.2,21.1609];
-_object = createVehicle ["Land_LampHalogen_F", _pos, [], 0, "CAN_COLLIDE"];
-_object setDir 178.393;
-_object setPosASL _pos;
+_pos = [4081.74,13756.5,21.1993];
+ halogen = createVehicle ["Land_LampHalogen_F", _pos, [], 0, "CAN_COLLIDE"];
+ halogen setDir 178.393;
+ halogen setPosASL _pos;
+ halogen allowDamage false;
 // ***************************************
 _pos = [4095.64,13703.0,21.233];
-_object = createVehicle ["Land_LampHalogen_F", _pos, [], 0, "CAN_COLLIDE"];
-_object setDir 28.1518;
-_object setPosASL _pos;
+ halogen = createVehicle ["Land_LampHalogen_F", _pos, [], 0, "CAN_COLLIDE"];
+ halogen setDir 28.1518;
+ halogen setPosASL _pos;
+ halogen allowDamage false;
 // ***************************************
 _pos = [4081.91,13743.3,21.3038];
  lamp = createVehicle ["Land_LampStreet_small_F", _pos, [], 0, "CAN_COLLIDE"];
@@ -345,9 +342,9 @@ _pos = [4088.29,13752.9,21.342];
  cone allowDamage false;
 // ***************************************
 _pos = [4086.25,13758.5,21.2815];
- cone = createVehicle ["RoadCone_L_F", _pos, [], 0, "CAN_COLLIDE"];
- cone setDir 29.7323;
- cone setPosASL _pos;
+_object = createVehicle ["RoadCone_L_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 29.7323;
+_object setPosASL _pos;
  cone allowDamage false;
 // ***************************************
 _pos = [4082.53,13744.1,21.3002];
@@ -379,3 +376,9 @@ _pos = [4069.15,13716.6,21.0887];
  cone setDir 29.7323;
  cone setPosASL _pos;
  cone allowDamage false;
+// ***************************************
+_pos = [4080.12,13740.6,21.3182];
+ hangar = createVehicle ["Land_TentHangar_V1_F", _pos, [], 0, "CAN_COLLIDE"];
+ hangar setDir 35.0606;
+ hangar setPosASL _pos;
+ hangar allowDamage false;
