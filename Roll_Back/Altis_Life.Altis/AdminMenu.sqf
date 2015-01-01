@@ -33,21 +33,21 @@ AH_AdminCheck = {
 AH_AdminCheck = compileFinal ([AH_AdminCheck] call _toCompilableString);
 if(isNil "AH_fnc_MP") then {
 	AH_fnc_MP = compileFinal ([BIS_fnc_MP] call _toCompilableString);
-	if(!isDedicated) then {
-		[] spawn {
-			while{true} do {
-				waitUntil{!isNull (findDisplay 49)};
-				((findDisplay 49) displayCtrl 2) ctrlEnable false;
-				((findDisplay 49) displayCtrl 2) ctrlSetText "Server Protection By:";
-				((findDisplay 49) displayCtrl 103) ctrlEnable false;
-				((findDisplay 49) displayCtrl 103) ctrlSetText "Team-Atomic";
-				((findDisplay 49) displayCtrl 122) ctrlEnable false;
-				((findDisplay 49) displayCtrl 122) ctrlShow false;
-				((findDisplay 49) displayCtrl 523) ctrlSetText "Public v1.5";
-				waitUntil{isNull (findDisplay 49)}
-			};
-		};
-	};	
+//	if(!isDedicated) then {
+//		[] spawn {
+//			while{true} do {
+//				waitUntil{!isNull (findDisplay 49)};
+//				((findDisplay 49) displayCtrl 2) ctrlEnable false;
+//				((findDisplay 49) displayCtrl 2) ctrlSetText "Server Protection By:";
+//				((findDisplay 49) displayCtrl 103) ctrlEnable false;
+//				((findDisplay 49) displayCtrl 103) ctrlSetText "Team-Atomic";
+//				((findDisplay 49) displayCtrl 122) ctrlEnable false;
+//				((findDisplay 49) displayCtrl 122) ctrlShow false;
+//				((findDisplay 49) displayCtrl 523) ctrlSetText "Public v1.5";
+//				waitUntil{isNull (findDisplay 49)}
+//			};
+//		};
+//	};	
 };
 if(isServer) then {
 	AH_Menu_DoSpawn = {
