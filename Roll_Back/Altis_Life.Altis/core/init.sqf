@@ -67,6 +67,9 @@ switch (playerSide) do
 	};
 };
 
+setViewDistance 1000;
+setterrainGrid 50;
+
 player setVariable["restrained",false,true];
 player setVariable["Escorting",false,true];
 player setVariable["transporting",false,true];
