@@ -121,23 +121,23 @@ if(isDedicated) then {
 			};
 		} forEach (_this select 0);
 	};
-	[] spawn {
-		_name = name player;
-		_uid = getplayeruid player;
-		while{true} do {
-			if(unitRecoilCoefficient player < 1) exitWith {
-				[[_name,_uid,"Recoil Hack"],"Notify_Kick",false,false] call AH_fnc_MP;
-				call Kick;
-			};
-			_time = time + 5;
-			setTerrainGrid 25;
-			_nearObjects = vehicle player nearObjects 50;
-			{
-				vehicle player enableCollisionWith _x;
-			} forEach _nearObjects;
-			waitUntil{time >= _time};
-		};
-	};
+//	[] spawn {
+//		_name = name player;
+//		_uid = getplayeruid player;
+//		while{true} do {
+//			if(unitRecoilCoefficient player < 1) exitWith {
+//				[[_name,_uid,"Recoil Hack"],"Notify_Kick",false,false] call AH_fnc_MP;
+//				call Kick;
+//			};
+//			_time = time + 5;
+//			setTerrainGrid 25;
+//			_nearObjects = vehicle player nearObjects 50;
+//			{
+//				vehicle player enableCollisionWith _x;
+//			} forEach _nearObjects;
+//			waitUntil{time >= _time};
+//		};
+//	};
 	[] spawn {
 		while{true} do {
 			onMapSingleClick '';
