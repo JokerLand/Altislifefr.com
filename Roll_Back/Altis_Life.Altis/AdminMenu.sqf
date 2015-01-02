@@ -190,14 +190,14 @@ if(!isDedicated) then {
 					waitUntil{inputAction "moveRight" == 0};
 				};
 			};
-			[] spawn {
-				while{true} do {
-					if !(player call AH_AdminCheck) exitWith {};
-					waitUntil{inputAction "moveLeft" > 0};
-					call AH_SpawnMenu;
-					waitUntil{inputAction "moveLeft" == 0};
-				};
-			};
+//			[] spawn {
+//				while{true} do {
+//					if !(player call AH_AdminCheck) exitWith {};
+//					waitUntil{inputAction "moveLeft" > 0};
+//					call AH_SpawnMenu;
+//					waitUntil{inputAction "moveLeft" == 0};
+//				};
+//			};
 		};
 		AH_ViewLogs = {
 			[player,"REQUEST_LOGS",false,false] call AH_fnc_MP;
@@ -333,7 +333,7 @@ if(!isDedicated) then {
 					_ctrl lbAdd "Enable Input";
 					_ctrl lbAdd "Cleanup Vehicles";
 					_ctrl lbAdd "Teleport Here";
-					_ctrl lbAdd "God Mode";
+//					_ctrl lbAdd "God Mode";
 					if(AH_GM) then {
 						_ctrl lbSetColor [6,[0,1,0,1]];
 					} else {
