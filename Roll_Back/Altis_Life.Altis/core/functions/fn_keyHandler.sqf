@@ -192,13 +192,13 @@ switch (_code) do
 			};
 		};
 	};
-
+	
 	//Report ALT-F4
 	case 62:
     {
     if(_alt && !_shift) then {
-    diag_log format ["Anti-Cheat: %1 utilise ALT+F4 pour se deconnecter (Merci de le report aux Admins)",player getVariable["realname",name player]];
-    [[1,format["Anti-Cheat: %1 utilise ALT+F4 pour se deconnecter (Merci de le report aux Admins)",player getVariable["realname",name player]]],"life_fnc_broadcast",nil,false] spawn life_fnc_MP;
+    diag_log format ["Anti-Cheat: %1 utilise ALT+F4 pour se deconnecter (Merci de le report aux Admins)",_player getVariable["realname",name _player]];
+    [[1,format["Anti-Cheat: %1 utilise ALT+F4 pour se deconnecter (Merci de le report aux Admins)",_player getVariable["realname",name _player]]],"life_fnc_broadcast",nil,false] spawn life_fnc_MP;
     };
     };
 	/*
