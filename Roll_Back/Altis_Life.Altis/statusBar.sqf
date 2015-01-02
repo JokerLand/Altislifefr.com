@@ -15,6 +15,6 @@ systemChat format["[AltisLifeFr] HUD Chargement %1!", _rscLayer];
 		sleep 1;
 		_counter = _counter - 1;
 		_statusText = "AltisLifeFr.com";
-		((uiNamespace getVariable "altiStatusBar")displayCtrl 1000)ctrlSetText format["%3 | TS3 : ts3.altislifefr.com | Joueurs connectés: %2  ", round diag_fps, count playableUnits, _statusText, _counter];
+		((uiNamespace getVariable "altiStatusBar")displayCtrl 1000)ctrlSetText format["%3 | TS3 : ts3.altislifefr.com | Policiers: %4 | Position: %5  | Joueurs connectés: %2  ", round diag_fps, count playableUnits, _statusText, west countSide playableUnits, mapGridPosition player, _counter];
 	};
 };
