@@ -315,7 +315,7 @@ if(!isDedicated) then {
 					_ctrl = (findDisplay 163) displayctrl 1;
 					_ctrl buttonSetAction "createDialog 'RscDisplayDebugPublic'";
 					_ctrl ctrlSetFont "PuristaSemiBold";
-					_ctrl ctrlSetText "Debug Menu";
+//					_ctrl ctrlSetText "Debug Menu";
 					_ctrl ctrlCommit 0;
 
 					_ctrl = (findDisplay 163) displayCtrl 2;
@@ -329,9 +329,9 @@ if(!isDedicated) then {
 					_ctrl ctrlAddEventHandler ["LBDblClick",{(_this select 1) call AH_DBLClick}];
 					_ctrl lbAdd "Kick A Player";
 					_ctrl lbAdd "Spectate A Player";
-					_ctrl lbAdd "Disable Input";
-					_ctrl lbAdd "Enable Input";
-					_ctrl lbAdd "Cleanup Vehicles";
+//					_ctrl lbAdd "Disable Input";
+//					_ctrl lbAdd "Enable Input";
+//					_ctrl lbAdd "Cleanup Vehicles";
 					_ctrl lbAdd "Teleport Here";
 //					_ctrl lbAdd "God Mode";
 					if(AH_GM) then {
