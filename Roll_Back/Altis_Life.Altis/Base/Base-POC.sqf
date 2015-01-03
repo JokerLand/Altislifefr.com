@@ -74,19 +74,14 @@ _object = createVehicle ["Land_CncWall1_F", _pos, [], 0, "CAN_COLLIDE"];
 _object setDir 84.0936;
 _object setPosASL _pos;
 // ***************************************
-_pos = [14242.2,13003.3,5.9856];
-_object = createVehicle ["Land_BagBunker_Small_F", _pos, [], 0, "CAN_COLLIDE"];
-_object setDir 2.9582;
-_object setPosASL _pos;
-// ***************************************
-_pos = [14248.9,13001.0,5.7325];
+_pos = [14321.0,13003.6,2.7023];
 _object = createVehicle ["Land_BarGate_F", _pos, [], 0, "CAN_COLLIDE"];
-_object setDir 3.0377;
+_object setDir 352.038;
 _object setPosASL _pos;
 // ***************************************
-_pos = [14256.2,13002.5,5.6562];
+_pos = [14300.9,12998.3,3.2044];
 _object = createVehicle ["Land_BagBunker_Small_F", _pos, [], 0, "CAN_COLLIDE"];
-_object setDir 2.9582;
+_object setDir 79.6993;
 _object setPosASL _pos;
 // ***************************************
 _pos = [14238.8,13001.7,6.0775];
@@ -99,69 +94,14 @@ _object = createVehicle ["Land_CncWall1_F", _pos, [], 0, "CAN_COLLIDE"];
 _object setDir 358.84;
 _object setPosASL _pos;
 // ***************************************
-_pos = [14265.8,12999.9,5.1679];
+_pos = [14329.7,13002.9,2.4477];
 _object = createVehicle ["Land_CncWall4_F", _pos, [], 0, "CAN_COLLIDE"];
-_object setDir 5.708;
+_object setDir 257.609;
 _object setPosASL _pos;
 // ***************************************
-_pos = [14270.9,12999.7,4.788];
+_pos = [14329.0,12998.4,2.3427];
 _object = createVehicle ["Land_CncWall4_F", _pos, [], 0, "CAN_COLLIDE"];
-_object setDir 359.556;
-_object setPosASL _pos;
-// ***************************************
-_pos = [14276.1,12999.8,4.4986];
-_object = createVehicle ["Land_CncWall4_F", _pos, [], 0, "CAN_COLLIDE"];
-_object setDir 359.556;
-_object setPosASL _pos;
-// ***************************************
-_pos = [14281.2,12999.8,4.4711];
-_object = createVehicle ["Land_CncWall4_F", _pos, [], 0, "CAN_COLLIDE"];
-_object setDir 359.556;
-_object setPosASL _pos;
-// ***************************************
-_pos = [14286.3,12999.9,4.4643];
-_object = createVehicle ["Land_CncWall4_F", _pos, [], 0, "CAN_COLLIDE"];
-_object setDir 359.556;
-_object setPosASL _pos;
-// ***************************************
-_pos = [14291.4,13000.0,4.4365];
-_object = createVehicle ["Land_CncWall4_F", _pos, [], 0, "CAN_COLLIDE"];
-_object setDir 359.556;
-_object setPosASL _pos;
-// ***************************************
-_pos = [14296.6,13000.0,3.9853];
-_object = createVehicle ["Land_CncWall4_F", _pos, [], 0, "CAN_COLLIDE"];
-_object setDir 359.556;
-_object setPosASL _pos;
-// ***************************************
-_pos = [14301.6,13000.4,3.5353];
-_object = createVehicle ["Land_CncWall4_F", _pos, [], 0, "CAN_COLLIDE"];
-_object setDir 351.206;
-_object setPosASL _pos;
-// ***************************************
-_pos = [14306.7,13001.1,3.5836];
-_object = createVehicle ["Land_CncWall4_F", _pos, [], 0, "CAN_COLLIDE"];
-_object setDir 351.206;
-_object setPosASL _pos;
-// ***************************************
-_pos = [14311.8,13001.9,3.0731];
-_object = createVehicle ["Land_CncWall4_F", _pos, [], 0, "CAN_COLLIDE"];
-_object setDir 350.767;
-_object setPosASL _pos;
-// ***************************************
-_pos = [14316.8,13002.7,2.9999];
-_object = createVehicle ["Land_CncWall4_F", _pos, [], 0, "CAN_COLLIDE"];
-_object setDir 351.206;
-_object setPosASL _pos;
-// ***************************************
-_pos = [14321.8,13003.8,2.5627];
-_object = createVehicle ["Land_CncWall4_F", _pos, [], 0, "CAN_COLLIDE"];
-_object setDir 341.538;
-_object setPosASL _pos;
-// ***************************************
-_pos = [14326.8,13005.3,2.5392];
-_object = createVehicle ["Land_CncWall4_F", _pos, [], 0, "CAN_COLLIDE"];
-_object setDir 346.372;
+_object setDir 302.577;
 _object setPosASL _pos;
 // ***************************************
 _pos = [14331.8,13006.4,2.5706];
@@ -574,11 +514,6 @@ _object = createVehicle ["Land_Shoot_House_Tunnel_F", _pos, [], 0, "CAN_COLLIDE"
 _object setDir 355.186;
 _object setPosASL _pos;
 // ***************************************
-_pos = [14260.6,13000.5,5.1522];
-_object = createVehicle ["Land_CncWall4_F", _pos, [], 0, "CAN_COLLIDE"];
-_object setDir 5.708;
-_object setPosASL _pos;
-// ***************************************
 _pos = [14303.0,13011.7,4.6271];
 _object = createVehicle ["Land_PaperBox_open_empty_F", _pos, [], 0, "CAN_COLLIDE"];
 _object setDir 0.003;
@@ -592,11 +527,6 @@ _object setPosASL _pos;
 _pos = [14333.5,13026.8,3.116];
 _object = createVehicle ["Land_ScrapHeap_2_F", _pos, [], 0, "CAN_COLLIDE"];
 _object setDir 36.4621;
-_object setPosASL _pos;
-// ***************************************
-_pos = [14272.5,13007.9,4.8705];
-_object = createVehicle ["WaterPump_01_forest_F", _pos, [], 0, "CAN_COLLIDE"];
-_object setDir 307.713;
 _object setPosASL _pos;
 // ***************************************
 _pos = [14297.6,13006.4,4.6242];
@@ -774,34 +704,9 @@ _object = createVehicle ["Land_CncWall4_F", _pos, [], 0, "CAN_COLLIDE"];
 _object setDir 272.983;
 _object setPosASL _pos;
 // ***************************************
-_pos = [14257.7,12997.7,5.813];
+_pos = [14254.2,12981.8,6.6459];
 _object = createVehicle ["Land_CncWall4_F", _pos, [], 0, "CAN_COLLIDE"];
-_object setDir 272.983;
-_object setPosASL _pos;
-// ***************************************
-_pos = [14257.5,12992.4,6.0383];
-_object = createVehicle ["Land_CncWall4_F", _pos, [], 0, "CAN_COLLIDE"];
-_object setDir 272.983;
-_object setPosASL _pos;
-// ***************************************
-_pos = [14257.2,12987.2,6.3094];
-_object = createVehicle ["Land_CncWall4_F", _pos, [], 0, "CAN_COLLIDE"];
-_object setDir 276.983;
-_object setPosASL _pos;
-// ***************************************
-_pos = [14253.8,12982.8,6.6272];
-_object = createVehicle ["Land_CncWall4_F", _pos, [], 0, "CAN_COLLIDE"];
-_object setDir 334.456;
-_object setPosASL _pos;
-// ***************************************
-_pos = [14256.5,12984.3,6.4987];
-_object = createVehicle ["Land_CncWall1_F", _pos, [], 0, "CAN_COLLIDE"];
-_object setDir 313.549;
-_object setPosASL _pos;
-// ***************************************
-_pos = [14233.1,12996.5,6.6541];
-_object = createVehicle ["Land_Cargo_Tower_V3_F", _pos, [], 0, "CAN_COLLIDE"];
-_object setDir 179.598;
+_object setDir 2.581;
 _object setPosASL _pos;
 // ***************************************
 _pos = [14323.8,13073.9,2.3736];
@@ -809,7 +714,7 @@ _object = createVehicle ["Land_Cargo_Tower_V3_F", _pos, [], 0, "CAN_COLLIDE"];
 _object setDir 266.821;
 _object setPosASL _pos;
 // ***************************************
-_pos = [14312.8,13004.5,3.2593];
+_pos = [14310.7,13006.3,3.5187];
 _object = createVehicle ["Land_Cargo_Tower_V3_F", _pos, [], 0, "CAN_COLLIDE"];
 _object setDir 84.7768;
 _object setPosASL _pos;
@@ -822,4 +727,129 @@ _object setPosASL _pos;
 _pos = [14312.5,13071.7,2.592];
 _object = createVehicle ["Land_LampHalogen_F", _pos, [], 0, "CAN_COLLIDE"];
 _object setDir 332.101;
+_object setPosASL _pos;
+// ***************************************
+_pos = [14326.2,12994.0,2.3842];
+_object = createVehicle ["Land_CncWall4_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 302.577;
+_object setPosASL _pos;
+// ***************************************
+_pos = [14323.4,12989.6,2.6033];
+_object = createVehicle ["Land_CncWall4_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 302.577;
+_object setPosASL _pos;
+// ***************************************
+_pos = [14319.8,12987.4,2.7963];
+_object = createVehicle ["Land_CncWall4_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 353.015;
+_object setPosASL _pos;
+// ***************************************
+_pos = [14314.6,12986.8,2.8797];
+_object = createVehicle ["Land_CncWall4_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 353.015;
+_object setPosASL _pos;
+// ***************************************
+_pos = [14309.4,12986.2,2.5818];
+_object = createVehicle ["Land_CncWall4_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 353.015;
+_object setPosASL _pos;
+// ***************************************
+_pos = [14304.2,12985.6,3.03];
+_object = createVehicle ["Land_CncWall4_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 353.015;
+_object setPosASL _pos;
+// ***************************************
+_pos = [14299.1,12984.9,3.5671];
+_object = createVehicle ["Land_CncWall4_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 353.015;
+_object setPosASL _pos;
+// ***************************************
+_pos = [14293.9,12984.3,4.624];
+_object = createVehicle ["Land_CncWall4_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 353.015;
+_object setPosASL _pos;
+// ***************************************
+_pos = [14288.7,12983.7,4.918];
+_object = createVehicle ["Land_CncWall4_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 353.015;
+_object setPosASL _pos;
+// ***************************************
+_pos = [14283.5,12983.1,5.0981];
+_object = createVehicle ["Land_CncWall4_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 353.015;
+_object setPosASL _pos;
+// ***************************************
+_pos = [14278.3,12982.4,5.2791];
+_object = createVehicle ["Land_CncWall4_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 353.015;
+_object setPosASL _pos;
+// ***************************************
+_pos = [14273.1,12981.8,5.6879];
+_object = createVehicle ["Land_CncWall4_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 353.015;
+_object setPosASL _pos;
+// ***************************************
+_pos = [14242.9,13001.6,5.6563];
+_object = createVehicle ["Land_CncWall4_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 1.708;
+_object setPosASL _pos;
+// ***************************************
+_pos = [14248.1,13001.5,5.4422];
+_object = createVehicle ["Land_CncWall4_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 1.708;
+_object setPosASL _pos;
+// ***************************************
+_pos = [14253.3,13001.3,5.3467];
+_object = createVehicle ["Land_CncWall4_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 1.708;
+_object setPosASL _pos;
+// ***************************************
+_pos = [14258.6,13001.2,5.2439];
+_object = createVehicle ["Land_CncWall4_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 1.708;
+_object setPosASL _pos;
+// ***************************************
+_pos = [14263.8,13001.0,4.9784];
+_object = createVehicle ["Land_CncWall4_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 1.708;
+_object setPosASL _pos;
+// ***************************************
+_pos = [14259.4,12981.7,6.215];
+_object = createVehicle ["Land_CncWall4_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 1.708;
+_object setPosASL _pos;
+// ***************************************
+_pos = [14264.6,12981.5,6.176];
+_object = createVehicle ["Land_CncWall4_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 1.708;
+_object setPosASL _pos;
+// ***************************************
+_pos = [14267.0,13001.0,5.1491];
+_object = createVehicle ["Land_CncWall1_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 359.011;
+_object setPosASL _pos;
+// ***************************************
+_pos = [14269.2,12981.5,6.4459];
+_object = createVehicle ["Land_CncWall1_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 0.5233;
+_object setPosASL _pos;
+// ***************************************
+_pos = [14267.8,12981.5,6.4771];
+_object = createVehicle ["Land_CncWall1_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 0.7376;
+_object setPosASL _pos;
+// ***************************************
+_pos = [14270.3,12981.5,6.4182];
+_object = createVehicle ["Land_CncWall1_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 356.523;
+_object setPosASL _pos;
+// ***************************************
+_pos = [14238.1,13060.9,2.8621];
+_object = createVehicle ["Land_Cargo_Tower_V3_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 179.598;
+_object setPosASL _pos;
+// ***************************************
+_pos = [14237.4,13005.6,5.743];
+_object = createVehicle ["Land_Cargo_Tower_V3_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 147.455;
 _object setPosASL _pos;
