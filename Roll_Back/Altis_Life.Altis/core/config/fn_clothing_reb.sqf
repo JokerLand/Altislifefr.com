@@ -31,6 +31,8 @@ switch (_filter) do
 			["U_O_CombatUniform_oucamo",nil,17500],
 			["U_O_PilotCoveralls",nil,15610],
 			["U_IG_leader","Guerilla Leader",15340],
+			["U_I_OfficerUniform",nil,50000],
+			["U_I_CombatUniform",nil,50000],
 			["U_O_GhillieSuit",nil,80000],
 			["U_I_GhillieSuit",nil,80000]
 		];
@@ -90,7 +92,13 @@ switch (_filter) do
 			["G_Bandanna_blk",nil,1500],
 			["G_Bandanna_oli",nil,1500],
 			["G_Bandanna_shades",nil,1500],
-			["G_Combat",nil,55]
+			["G_Combat",nil,55],
+			["G_Bandanna_tan",nil,3500],
+			["G_Bandanna_khk",nil,3500],
+			["G_Bandanna_oli",nil,3500],
+			["G_Bandanna_blk",nil,3500],
+			["G_Bandanna_beast",nil,5000],
+			["G_Balaclava_oli",nil,8000]
 		];
 	};
 	

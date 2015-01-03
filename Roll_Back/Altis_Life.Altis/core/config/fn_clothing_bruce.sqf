@@ -36,7 +36,13 @@ switch (_filter) do
 			["U_IG_Guerilla2_3","Buttonup Navy",500],
 			["U_OrestesBody","Surfing On Land",1100],
 			["U_NikosAgedBody","Costard cravate",5000],
-			["U_C_WorkerCoveralls","Tenue de garagiste",5000]
+			["U_C_WorkerCoveralls","Tenue de garagiste",5000],
+			["U_PMC_BluePlaidShirt_BeigeCords","Chemise Courte Bleu",5500],
+			["U_PMC_RedPlaidShirt_DenimCords","Chemise Courte Rose",5500],
+			["U_PMC_CombatUniformRS_ChckDBS_GPSB","Tenue Chemise Bleu",6000],
+			["U_PMC_CombatUniformRS_ChckLB_GPBB","Tenue Chemise Bleu Claire",6000],
+			["U_PMC_CombatUniformRS_ChckLR_SPBB","Tenue Chemise Rose Claire",6000],
+			["U_PMC_CombatUniformRS_ChckP_BPBB","Tenue Chemise Violette",6000]
 		];
 	};
 	
