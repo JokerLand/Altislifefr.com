@@ -33,11 +33,16 @@ _cP = 0.01;
 //Lets reuse the same thing!
 while {true} do
 {
-	if(animationState player != "AinvPknlMstpSnonWnonDnon_medic_1") then {
-		[[player,"AinvPknlMstpSnonWnonDnon_medic_1"],"life_fnc_animSync",true,false] spawn life_fnc_MP;
-		player playMoveNow "AinvPknlMstpSnonWnonDnon_medic_1";
+	if(animationState player != "AinvPknlMstpsnonWnonDnon_medic_1" ) then {
+	player action ["SwitchWeapon", player, player, 100];   //EDIT
+	player playMove "AinvPknlMstpsnonWnonDnon_medic_1"; //Durée action 6.5 secondes
+	player playActionNow "stop";
+	player playMove "AinvPknlMstpsnonWnonDnon_medic_1";
+	player playActionNow "stop";
+	player playMove "AinvPknlMstpsnonWnonDnon_medic_1";
 	};
-	sleep 0.15;
+
+	sleep 0.195; // 3 fois 6.5 secondes = 19,5secondes
 	_cP = _cP + 0.01;
 	_progressBar progressSetPosition _cP;
 	_titleText ctrlSetText format["%3 (%1%2)...",round(_cP * 100),"%",_title];
