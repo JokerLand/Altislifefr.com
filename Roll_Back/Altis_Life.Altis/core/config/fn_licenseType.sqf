@@ -66,6 +66,7 @@ switch (_mode) do
 			case "grf": {_var = "license_grf"};
 			case "mw": {_var = "license_mw"};
 			case "poc": {_var = "license_poc"};
+			case "yk": {_var = "license_yk"};
             case "uranium": {_var = "license_civ_uranium"};
             case "uranium1": {_var = "license_civ_uranium"};
             case "uranium2": {_var = "license_civ_uranium"};
@@ -129,6 +130,7 @@ switch (_mode) do
 			case "license_grf": {_var = "grf"};
 			case "license_mw": {_var = "mw"};
 			case "license_poc": {_var = "poc"};
+			case "license_yk": {_var = "yk"};
             case "license_civ_uranium": {_var = "uranium"};
             case "license_civ_uranium": {_var = "uranium1"};
             case "license_civ_uranium": {_var = "uranium2"};

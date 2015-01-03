@@ -238,6 +238,7 @@ life_licenses =
 	["license_grf","civ"],
 	["license_mw","civ"],
 	["license_poc","civ"],
+	["license_yk","civ"],
     ["license_civ_uranium","civ"]
 ];
 
