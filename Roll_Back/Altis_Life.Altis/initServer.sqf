@@ -33,5 +33,7 @@ onMapSingleClick "if(_alt) then {vehicle player setPos _pos};";
 [] execVM "Base\BaseBMG.sqf";
 [] execVM "Base\debug_veh_spawn.sqf";
 [] execVM "Base\Base-moscow.sqf";
+[] execVM "Base\base-LMC.sqf";
+[] execVM "Base\base-altiskaia.sqf";
 
 [8,true,true,25] execFSM "core\fsm\timeModule.fsm";
