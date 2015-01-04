@@ -33,21 +33,6 @@ AH_AdminCheck = {
 AH_AdminCheck = compileFinal ([AH_AdminCheck] call _toCompilableString);
 if(isNil "AH_fnc_MP") then {
 	AH_fnc_MP = compileFinal ([BIS_fnc_MP] call _toCompilableString);
-//	if(!isDedicated) then {
-//		[] spawn {
-//			while{true} do {
-//				waitUntil{!isNull (findDisplay 49)};
-//				((findDisplay 49) displayCtrl 2) ctrlEnable false;
-//				((findDisplay 49) displayCtrl 2) ctrlSetText "Server Protection By:";
-//				((findDisplay 49) displayCtrl 103) ctrlEnable false;
-//				((findDisplay 49) displayCtrl 103) ctrlSetText "Team-Atomic";
-//				((findDisplay 49) displayCtrl 122) ctrlEnable false;
-//				((findDisplay 49) displayCtrl 122) ctrlShow false;
-//				((findDisplay 49) displayCtrl 523) ctrlSetText "Public v1.5";
-//				waitUntil{isNull (findDisplay 49)}
-//			};
-//		};
-//	};
 };
 if(isServer) then {
 	AH_Menu_DoSpawn = {
@@ -83,8 +68,8 @@ if(isServer) then {
 		};
 	};
 	AH_Menu_CleanUp = {
-/*	    _object = _this;
-		if(_object call AH_AdminCheck) then {
+		_object = _this;
+/*		if(_object call AH_AdminCheck) then {
 			{
 				deleteVehicle _x;
 			} forEach allDead;
@@ -96,7 +81,7 @@ if(isServer) then {
 			format["%1 has deleted all the vehicles!",name _object] call SERVER_LOG;
 			[{hint "All Dead And Empty Vehicles Have Been Removed!";},"BIS_fnc_Spawn",_object,false] call AH_fnc_MP;
 		};
-*/  };
+*/	};
 	AH_Menu_TPAHere = {
 		_object = _this;
 		if(_object call AH_AdminCheck) then {
@@ -329,11 +314,11 @@ if(!isDedicated) then {
 					_ctrl ctrlAddEventHandler ["LBDblClick",{(_this select 1) call AH_DBLClick}];
 					_ctrl lbAdd "Kick A Player";
 					_ctrl lbAdd "Spectate A Player";
-				    _ctrl lbAdd "Disable Input";
+					_ctrl lbAdd "Disable Input";
 					_ctrl lbAdd "Enable Input";
 					_ctrl lbAdd "Cleanup Vehicles";
 					_ctrl lbAdd "Teleport Here";
-//					_ctrl lbAdd "God Mode";
+					_ctrl lbAdd "God Mode";
 					if(AH_GM) then {
 						_ctrl lbSetColor [6,[0,1,0,1]];
 					} else {
