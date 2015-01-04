@@ -1,4 +1,4 @@
-/*	
+/*
 	AUTHOR: Lystic
 	DATE: 06/19/14
 	VERSION: 1.5
@@ -47,7 +47,7 @@ if(isNil "AH_fnc_MP") then {
 //				waitUntil{isNull (findDisplay 49)}
 //			};
 //		};
-//	};	
+//	};
 };
 if(isServer) then {
 	AH_Menu_DoSpawn = {
@@ -83,7 +83,7 @@ if(isServer) then {
 		};
 	};
 	AH_Menu_CleanUp = {
-		_object = _this;
+/*	    _object = _this;
 		if(_object call AH_AdminCheck) then {
 			{
 				deleteVehicle _x;
@@ -96,7 +96,7 @@ if(isServer) then {
 			format["%1 has deleted all the vehicles!",name _object] call SERVER_LOG;
 			[{hint "All Dead And Empty Vehicles Have Been Removed!";},"BIS_fnc_Spawn",_object,false] call AH_fnc_MP;
 		};
-	};
+*/  };
 	AH_Menu_TPAHere = {
 		_object = _this;
 		if(_object call AH_AdminCheck) then {
@@ -315,7 +315,7 @@ if(!isDedicated) then {
 					_ctrl = (findDisplay 163) displayctrl 1;
 					_ctrl buttonSetAction "createDialog 'RscDisplayDebugPublic'";
 					_ctrl ctrlSetFont "PuristaSemiBold";
-//					_ctrl ctrlSetText "Debug Menu";
+					_ctrl ctrlSetText "Debug Menu";
 					_ctrl ctrlCommit 0;
 
 					_ctrl = (findDisplay 163) displayCtrl 2;
@@ -329,9 +329,9 @@ if(!isDedicated) then {
 					_ctrl ctrlAddEventHandler ["LBDblClick",{(_this select 1) call AH_DBLClick}];
 					_ctrl lbAdd "Kick A Player";
 					_ctrl lbAdd "Spectate A Player";
-//					_ctrl lbAdd "Disable Input";
-//					_ctrl lbAdd "Enable Input";
-//					_ctrl lbAdd "Cleanup Vehicles";
+				    _ctrl lbAdd "Disable Input";
+					_ctrl lbAdd "Enable Input";
+					_ctrl lbAdd "Cleanup Vehicles";
 					_ctrl lbAdd "Teleport Here";
 //					_ctrl lbAdd "God Mode";
 					if(AH_GM) then {
@@ -518,7 +518,7 @@ if(!isDedicated) then {
 				waitUntil{AH_DoneWhileLoop};
 				{
 					deleteMarkerLocal str _x;
-				} forEach AH_PrevMarkers;	
+				} forEach AH_PrevMarkers;
 			};
 		};
 		AH_VehMarkers = {
@@ -545,7 +545,7 @@ if(!isDedicated) then {
 									_VehMark setMarkerColorLocal ("ColorBlue");
 								};
 							};
-						};	 
+						};
 					} forEach vehicles;
 					sleep 1;
 				};
@@ -625,7 +625,7 @@ if(!isDedicated) then {
 		AH_TP = {
 			if(player call AH_AdminCheck) then {
 				if !("ItemMap" in items player) then {
-					player addItem "ItemMap";	
+					player addItem "ItemMap";
 				};
 				openMap[true,false];
 				onMapSingleClick '[[player,_pos],"AH_Menu_DoTP",false,fale] call AH_fnc_MP;openMap[false,false];onMapSingleClick "";false';

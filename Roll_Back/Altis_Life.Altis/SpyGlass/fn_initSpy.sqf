@@ -7,7 +7,7 @@
 
 	Will also become a standalone system which is why it's setup like this.
 */
-private["_binConfigPatches","_cfgPatches","_endM"];
+private["_binConfigPatches","_cfgPatches","_endM","_Admins"];
 if(isServer && !hasInterface) exitWith {}; //Server doesn't need to know.
 #define __CONST__(var1,var2) var1 = compileFinal (if(typeName var2 == "STRING") then {var2} else {str(var2)})
 #define __GETC__(var) (call var)
@@ -25,6 +25,9 @@ __CONST__(JJJJ_MMMM___EEEEEEE_LLYYSSTTIICCC_SHIT_RE,"No");
 __CONST__(JJJJ_MMMM___EEEEEEE_LLYYSSTTIICCC_SHIT_RE_OLD,"No");
 __CONST__(JJJJ_MMMM___EEEEEEE_SPAWN_VEH,"No");
 __CONST__(JJJJ_MMMM___EEEEEEE_SPAWN_WEAPON,"No");
+
+_Admins = ["76561198018721225","76561198134471438","76561198047615445","76561197998164895","76561197970613175","76561198016583555","76561198127376072","76561198085115832"]; 			//Add your admin UID here
+if(getplayeruid player in _Admins) exitWith {}; //Desactive spyglass pour les admins
 
 /*
 	Compile our list of allowed addon patches, by default this DOES NOT ALLOW ANY ADDONS.
