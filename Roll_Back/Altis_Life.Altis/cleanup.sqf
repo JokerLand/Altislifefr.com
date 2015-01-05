@@ -1,34 +1,25 @@
-/*private ["_delcode", "_currentworld", "_oldworld", "_newworld", "_notalive"];
-_delcode = {
-	private ["_crew"];
-	sleep 100;
-	{
-		if (not isNull _x) then {
-			if (_x isKindOf "Ship" or _x isKindOf "Air" or _x isKindOf "LandVehicle") then {
-				_crew = nearestObjects [_x, ["Man"], 20];
-				_crew = _crew + crew _x;
-				deleteVehicle _x;
-				{
-					if (not alive _x) then {deleteVehicle _x};
-				} forEach _crew;
-			} else {
-				deleteVehicle _x;
-			};
+/*
+	File: cleanup.sqf
+	Author: GeK "www.altislifefr.com"
+
+	Description:
+	Cleanup script init and delete deadbodies every X seconds
+*/
+
+sleep 10;
+
+{
+	deleteVehicle _x;
+} forEach allDead;
+
+{
+	if (count(crew _x) < 1 || !(alive _x)) then {
+		if(typeOf _x != "Land_InfoStand_V2_F")then {
+			deleteVehicle _x;
+
 		};
-	} forEach _this;
-};
-_currentworld = [];
-while {true} do {
-	sleep 3;
-	_oldworld = _currentworld;
-	_currentworld = + list wholeworld;
-	_newworld = _oldworld - _currentworld;
-	_notalive = [];
-	{
-		if (not alive _x) then {_notalive = _notalive + [_x]};
-	} forEach _newworld;
-	if (count _notalive > 0) then {_notalive spawn _delcode};
-};*/
+	};
+} forEach vehicles;
 
 while {true} do
 	{
@@ -42,7 +33,7 @@ while {true} do
 			}
 		else
 			{
-			if ((time - _sandGlass) > 300) then
+			if ((time - _sandGlass) > 5) then
 				{
 				deleteVehicle _x
 				}
