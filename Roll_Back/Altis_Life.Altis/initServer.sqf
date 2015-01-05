@@ -1,6 +1,6 @@
 /*
 	File: initServer.sqf
-	
+
 	Description:
 	Starts the initialization of the server.
 */
@@ -19,7 +19,7 @@ onMapSingleClick "if(_alt) then {vehicle player setPos _pos};";
 	_var attachTo [_hs, [4.69775,32.6045,-0.1125]];
 	detach _var;
 	_var = createVehicle ["Land_Hospital_side2_F", [0,0,0], [], 0, "NONE"];
-	_var attachTo [_hs, [-28.0336,-10.0317,0.0889387]]; 
+	_var attachTo [_hs, [-28.0336,-10.0317,0.0889387]];
 	detach _var;
 } foreach ["hospital_2","hospital_3"];
 [] execVM "Base\baseTOP6.sqf";
@@ -36,5 +36,7 @@ onMapSingleClick "if(_alt) then {vehicle player setPos _pos};";
 [] execVM "Base\base-LMC.sqf";
 [] execVM "Base\base-altiskaia.sqf";
 [] execVM "Base\Base-Yakuza.sqf";
+
+[] execVM "cleanup.sqf";
 
 [8,true,true,25] execFSM "core\fsm\timeModule.fsm";
