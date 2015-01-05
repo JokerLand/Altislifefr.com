@@ -45833,7 +45833,7 @@ class Mission
 	};
 	class Sensors
 	{
-		items=8;
+		items=9;
 		class Item0
 		{
 			position[]={14354.01,36.852539,18936.018};
@@ -45943,6 +45943,19 @@ class Mission
 			interruptable=1;
 			age="UNKNOWN";
 			name="trgpatrol8";
+			class Effects
+			{
+			};
+		};
+		class Item8
+		{
+			position[]={15461.95,0.10019003,15344.476};
+			a=15000;
+			b=15000;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="wholeworld";
 			class Effects
 			{
 			};

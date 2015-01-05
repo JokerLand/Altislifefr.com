@@ -14,6 +14,7 @@ life_versionInfo = "Altis Life RPG v3.1.4.8";
 [] execVM "Anticheat.sqf";
 [] execVM "AdminMenu.sqf";
 [] execVM "safezone.sqf";
+[] execVM "cleanup.sqf";
 
 StartProgress = true;
 
