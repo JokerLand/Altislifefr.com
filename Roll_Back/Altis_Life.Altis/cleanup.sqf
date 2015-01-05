@@ -3,7 +3,7 @@
 	Author: GeK "www.altislifefr.com"
 
 	Description:
-	Cleanup script init and delete deadbodies every X seconds
+	Cleanup script init
 */
 
 sleep 10;
@@ -20,25 +20,3 @@ sleep 10;
 		};
 	};
 } forEach vehicles;
-
-while {true} do
-	{
-	sleep 10;
-
-		{
-		_sandGlass = _x getVariable "RYD_DeathTime";
-		if (isNil "_sandGlass") then
-			{
-			_x setVariable ["RYD_DeathTime",time]
-			}
-		else
-			{
-			if ((time - _sandGlass) > 5) then
-				{
-				deleteVehicle _x
-				}
-
-			}
-		}
-	foreach AllDead;
-	};

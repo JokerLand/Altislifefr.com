@@ -5,8 +5,8 @@ item0[] = {"init",0,250,-65.004578,-391.651611,24.995417,-341.651672,0.000000,"i
 item1[] = {"true",8,218,-62.976639,-315.185364,27.023363,-265.185364,0.000000,"true"};
 item2[] = {"Share__Work_load",2,250,-64.183350,-224.681931,25.816656,-174.681931,0.000000,"Share " \n "Work-load"};
 item3[] = {"true",8,218,-54.709698,75.189262,35.290302,125.189262,0.000000,"true"};
-item4[] = {"Time_Check",4,218,-219.425827,-133.310532,-129.425964,-83.310455,0.000000,"Time Check"};
-item5[] = {"Delete_Dead_Cars",2,4346,-220.186951,-29.248400,-130.187195,20.751413,0.000000,"Delete" \n "Dead" \n "Cars"};
+item4[] = {"Time_Check",4,4314,-219.425827,-133.310532,-129.425964,-83.310455,0.000000,"Time Check"};
+item5[] = {"Delete_Dead_Cars",2,250,-220.186951,-29.248400,-130.187195,20.751413,0.000000,"Delete" \n "Dead" \n "Cars"};
 item6[] = {"",7,210,-312.538239,95.295059,-304.538239,103.295059,0.000000,""};
 item7[] = {"",7,210,-311.750000,-203.033707,-303.750000,-195.033707,0.000000,""};
 link0[] = {0,1};
@@ -17,8 +17,8 @@ link4[] = {4,5};
 link5[] = {5,3};
 link6[] = {6,7};
 link7[] = {7,2};
-globals[] = {0.000000,0,0,0,0,640,480,1,46,6316128,1,-629.444153,611.207214,293.309357,-434.050568,1243,910,1};
-window[] = {2,-1,-1,-32000,-32000,916,156,1799,156,3,1261};
+globals[] = {0.000000,0,0,0,0,640,480,1,46,6316128,1,-317.884125,127.795464,148.169098,-399.867523,627,771,1};
+window[] = {2,-1,-1,-32000,-32000,1115,-1265,378,355,3,645};
 *//*%FSM</HEAD>*/
 class FSM
 {
@@ -63,7 +63,7 @@ class FSM
           priority = 0.000000;
           to="Delete_Dead_Cars";
           precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
-          condition=/*%FSM<CONDITION""">*/"((time - _cars) > (3 * 60))"/*%FSM</CONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"((time - _cars) > (5 * 60))"/*%FSM</CONDITION""">*/;
           action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
         };
         /*%FSM</LINK>*/
@@ -74,9 +74,13 @@ class FSM
     class Delete_Dead_Cars
     {
       name = "Delete_Dead_Cars";
-      init = /*%FSM<STATEINIT""">*/"{" \n
-       "	" \n
-       "if(!alive _x) then" \n
+      init = /*%FSM<STATEINIT""">*/"" \n
+       "{" \n
+       "	deleteVehicle _x;" \n
+       "} forEach allDead;" \n
+       "" \n
+       "{" \n
+       "	if(!alive _x) then" \n
        "	{" \n
        "		_dbInfo = _x getVariable[""dbInfo"",[]];" \n
        "		if(count _dbInfo > 0) then" \n
@@ -124,11 +128,7 @@ class FSM
        "	if(count units _x == 0 && local _x) then {" \n
        "		deleteGroup _x;" \n
        "	};" \n
-       "} foreach allGroups;" \n
-       "" \n
-       "{ " \n
-       "	deleteVehicle _x; " \n
-       "} forEach allDead;"/*%FSM</STATEINIT""">*/;
+       "} foreach allGroups;"/*%FSM</STATEINIT""">*/;
       precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
       class Links
       {
