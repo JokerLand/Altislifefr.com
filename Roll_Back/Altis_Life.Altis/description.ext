@@ -47,7 +47,14 @@ class CfgSounds
 		name = "MachineMinage";
 		sound[] = {"\sounds\minage_machine_altislifefr.ogg", 1.0, 1};
 		titles[] = {};
-	}
+	};
+	
+    class alarme_magasin
+    {
+        name = "alarme_magasin";
+        sound[] = {"\sounds\alarme_magasin.ogg", 1, 1};
+        titles[] = {};
+	};
 	
 	class SirenLong
 	{
