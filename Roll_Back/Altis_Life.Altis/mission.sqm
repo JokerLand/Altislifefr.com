@@ -4248,7 +4248,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=3546;
+		items=3551;
 		class Item0
 		{
 			position[]={8065.1616,35.674362,24985.314};
@@ -42842,10 +42842,71 @@ class Mission
 			skill=0.60000002;
 			init="this allowDamage false; this enableSimulation false;";
 		};
+		class Item3546
+		{
+			position[]={5051.3452,16.62924,14438.789};
+			azimut=159.58701;
+			offsetY=0.5;
+			id=3747;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V2_F";
+			leader=1;
+			skill=0.60000002;
+			text="RobGas_1";
+			init="this addAction[""Braquer la Station Service"",life_fnc_robShops]; this enableSimulation false; this allowDamage false; ";
+		};
+		class Item3547
+		{
+			position[]={5050.8647,16.660118,14440.151};
+			azimut=159.58701;
+			offsetY=0.5;
+			id=3748;
+			side="EMPTY";
+			vehicle="Land_CashDesk_F";
+			leader=1;
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item3548
+		{
+			position[]={5049.5518,16.650553,14439.729};
+			azimut=159.58701;
+			offsetY=0.5;
+			id=3749;
+			side="EMPTY";
+			vehicle="Land_Metal_wooden_rack_F";
+			leader=1;
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item3549
+		{
+			position[]={5049.52,16.648767,14439.65};
+			azimut=159.58701;
+			offsetY=0.5;
+			id=3750;
+			side="EMPTY";
+			vehicle="Land_CarBattery_01_F";
+			leader=1;
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item3550
+		{
+			position[]={5052.5493,16.668642,14440.705};
+			azimut=159.58701;
+			offsetY=0.5;
+			id=3751;
+			side="EMPTY";
+			vehicle="Land_Icebox_F";
+			leader=1;
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
 	};
 	class Markers
 	{
-		items=367;
+		items=368;
 		class Item0
 		{
 			position[]={8459.6777,104.56568,25131.203};
@@ -45829,6 +45890,14 @@ class Mission
 			name="olympia_ship";
 			type="Empty";
 			angle=468.569;
+		};
+		class Item367
+		{
+			position[]={5052.6665,16.734381,14444.534};
+			name="GasStation_2";
+			text=" Station Service";
+			type="loc_Fuelstation";
+			colorName="ColorGUER";
 		};
 	};
 	class Sensors

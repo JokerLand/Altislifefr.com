@@ -117,6 +117,7 @@ class Life_Client_Core
         class gatherUranium {};
         class processActionDual {};
         class processActionLsd {};
+        class robShops {};
 	};
 	
 	class Housing
