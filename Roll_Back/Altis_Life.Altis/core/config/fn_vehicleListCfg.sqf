@@ -105,7 +105,8 @@ switch (_shop) do
 				["B_Truck_01_transport_F",200000],
 				["A3L_Dumptruck",250000],
 				["B_Truck_01_covered_F",300000],
-				["ALFR_GeK_Scania_420",400000]
+				["ALFR_GeK_Scania_420",400000],
+				["ALFR_GeK_Volvo_FH16_2012",500000]
 			];
 	};
 
@@ -122,13 +123,14 @@ switch (_shop) do
 				["B_Heli_Light_01_F",100000],
 				["B_Truck_01_box_F",250000],
 				["ALFR_GeK_Scania_420",250000],
+				["ALFR_GeK_Volvo_FH16_2012",350000],
 				["cl3_veyron_wht_blu",270000],
 				["O_Truck_03_device_F",750000],
 				["O_Heli_Light_02_unarmed_F",300000],
 				["I_Heli_Transport_02_F",600000],
 				["ivory_b206",165000],
 				["IVORY_T6A_1",3000000],
-                ["RDS_Ikarus_Civ_01",100000]
+                                ["RDS_Ikarus_Civ_01",100000]
 			];
 		};
 	};
