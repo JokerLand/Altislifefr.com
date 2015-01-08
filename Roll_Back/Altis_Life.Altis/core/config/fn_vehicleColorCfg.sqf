@@ -31,7 +31,7 @@ switch (_vehicle) do
 			["#(argb,8,8,3)color(0.6,0.3,0.01,1)","civ"],
 			["#(argb,8,8,3)color(1,0.3,0.01,0.6)","civ"]
  		];
- 	}
+ 	};
  	
 	case "ALFR_GeK_Scania_420":
 	{
