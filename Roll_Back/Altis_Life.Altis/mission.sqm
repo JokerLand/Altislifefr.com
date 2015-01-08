@@ -14622,7 +14622,7 @@ class Mission
 			offsetY=0.30000001;
 			id=1185;
 			side="EMPTY";
-			vehicle="Land_InfoStand_V1_F";
+			vehicle="Land_InfoStand_V2_F";
 			skill=1;
 			init="removeallWeapons this;    this enableSimulation false;  this allowDamage false;    this addAction[""Marché"",life_fnc_virt_menu,""rebel"",0,false,false,"""",' license_mw && playerSide == civilian'];  this addAction[""Uniformes"",life_fnc_clothingMenu,""reb"",0,false,false,"""",' license_mw && playerSide == civilian'];    this addAction[""Armes"",life_fnc_weaponShopMenu,""rebel"",0,false,false,"""",' license_mw && playerSide == civilian'];    this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu,"""",0,FALSE,FALSE,"""",' vehicle player == player && license_mw && player distance _target < 4 '];this addAction[format[""%1 ($%2)"",[""license_civ_rebel""] call life_fnc_varToStr,[([""rebel""] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,""rebel"",0,false,false,"""",' !license_civ_rebel && playerSide == civilian '];";
 		};
@@ -14633,7 +14633,7 @@ class Mission
 			offsetY=0.30000001;
 			id=1186;
 			side="EMPTY";
-			vehicle="Land_InfoStand_V1_F";
+			vehicle="Land_InfoStand_V2_F";
 			skill=1;
 			init="removeallWeapons this;   this enableSimulation false;    this allowDamage false;   this addAction[""Quincaillerie"",life_fnc_weaponShopMenu,""genstore"",0,false,false,"""",' license_mw && playerSide == civilian']; ";
 		};
@@ -14643,7 +14643,7 @@ class Mission
 			azimut=212.60001;
 			id=1187;
 			side="EMPTY";
-			vehicle="Land_InfoStand_V1_F";
+			vehicle="Land_InfoStand_V2_F";
 			skill=1;
 			init="removeallWeapons this;    this enableSimulation false;    this allowDamage false;    this addAction[""Vehicules"",life_fnc_vehicleShopMenu,[""reb_car"",civilian,[""car_mw""],""reb"",""MW - Achat de Véhicule""],0,false,false,"""",'license_mw']; this addAction[""Vehicle Garage"",  {   [[getPlayerUID player,playerSide,""Car"",player],""TON_fnc_getVehicles"",false,false,"""",' license_mw && playerSide == civilian'] spawn life_fnc_MP; life_garage_type = ""Car"";  createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""car_mw"";  }]; this addAction[""Store vehicle in Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];";
 		};
@@ -14654,7 +14654,7 @@ class Mission
 			offsetY=0.30000001;
 			id=1188;
 			side="EMPTY";
-			vehicle="Land_InfoStand_V1_F";
+			vehicle="Land_InfoStand_V2_F";
 			skill=1;
 			init="removeallWeapons this;    this enableSimulation false;    this allowDamage false;    this enableSimulation false;   this addAction[""Vehicle Garage"",  {   [[getPlayerUID player,playerSide,""Air"",player],""TON_fnc_getVehicles"",false,false,"""",' license_mw && playerSide == civilian'] spawn life_fnc_MP; life_garage_type = ""Air"";  createDialog ""Life_impound_menu"";     disableSerialization;     ctrlSetText[2802,""Fetching Vehicles....""];     life_garage_sp = ""air_mw"";  }];   this addAction[""Store vehicle in Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store && license_mw'];";
 		};
