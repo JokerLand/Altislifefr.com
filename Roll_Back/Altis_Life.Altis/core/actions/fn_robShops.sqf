@@ -66,5 +66,5 @@ if(!alive _robber) exitWith
 	hint "Vous etes mort pendant le braquage! - La station est maintenant verrouillee."; 
 };
 titleText[format["Vous venez de voler $%1, partez vite avant que la police n'arrive!!",[_kassa] call life_fnc_numberText],"PLAIN"];
-[[getPlayerUID player,name player,"482"],"life_fnc_wantedAdd",false,false] spawn life_fnc_MP;
+[[getPlayerUID player,name player,"460"],"life_fnc_wantedAdd",false,false] spawn life_fnc_MP;
 life_thune = life_thune + _kassa;
