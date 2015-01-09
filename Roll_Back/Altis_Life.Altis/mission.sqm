@@ -4248,7 +4248,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=3551;
+		items=3631;
 		class Item0
 		{
 			position[]={8065.1616,35.674362,24985.314};
@@ -42853,7 +42853,7 @@ class Mission
 			leader=1;
 			skill=0.60000002;
 			text="RobGas_1";
-			init="this addAction[""Braquer la Station Service"",life_fnc_robShops]; this enableSimulation false; this allowDamage false; ";
+			init="this enableSimulation false; this allowDamage false; this addAction[""Quincaillerie"",life_fnc_weaponShopMenu,""genstore""]; this addAction[""Braquer la Station Service"",life_fnc_robShops];";
 		};
 		class Item3547
 		{
@@ -42903,10 +42903,986 @@ class Mission
 			skill=0.60000002;
 			init="this enableSimulation false; this allowDamage false; ";
 		};
+		class Item3551
+		{
+			position[]={6188.2676,27.195694,15094.128};
+			azimut=-34.581799;
+			offsetY=0.5;
+			id=3752;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V2_F";
+			leader=1;
+			skill=0.60000002;
+			text="RobGas_1_1";
+			init="this enableSimulation false; this allowDamage false; this addAction[""Quincaillerie"",life_fnc_weaponShopMenu,""genstore""]; this addAction[""Braquer la Station Service"",life_fnc_robShops];";
+		};
+		class Item3552
+		{
+			position[]={6187.6416,27.165459,15092.026};
+			azimut=324.22397;
+			offsetY=0.40000001;
+			id=3753;
+			side="EMPTY";
+			vehicle="Land_Icebox_F";
+			leader=1;
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item3553
+		{
+			position[]={6189.168,27.189667,15093.026};
+			azimut=324.983;
+			offsetY=0.40000001;
+			id=3754;
+			side="EMPTY";
+			vehicle="Land_CashDesk_F";
+			leader=1;
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item3554
+		{
+			position[]={6190.3247,27.207413,15093.733};
+			azimut=144.16;
+			offsetY=0.40000001;
+			id=3755;
+			side="EMPTY";
+			vehicle="Land_Metal_wooden_rack_F";
+			leader=1;
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item3555
+		{
+			position[]={6190.4194,27.208874,15093.792};
+			azimut=324.58984;
+			offsetY=0.5;
+			id=3756;
+			side="EMPTY";
+			vehicle="Land_CarBattery_01_F";
+			leader=1;
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item3556
+		{
+			position[]={6798.1074,41.173454,15580.259};
+			azimut=449.77802;
+			offsetY=0.5;
+			id=3757;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V2_F";
+			leader=1;
+			skill=0.60000002;
+			text="RobGas_1_1_1";
+			init="this enableSimulation false; this allowDamage false; this addAction[""Quincaillerie"",life_fnc_weaponShopMenu,""genstore""]; this addAction[""Braquer la Station Service"",life_fnc_robShops];";
+		};
+		class Item3557
+		{
+			position[]={6796.7271,41.236938,15581.953};
+			azimut=808.58356;
+			offsetY=0.40000001;
+			id=3758;
+			side="EMPTY";
+			vehicle="Land_Icebox_F";
+			leader=1;
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item3558
+		{
+			position[]={6796.6909,41.211315,15580.137};
+			azimut=809.34259;
+			offsetY=0.40000001;
+			id=3759;
+			side="EMPTY";
+			vehicle="Land_CashDesk_F";
+			leader=1;
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item3559
+		{
+			position[]={6796.627,41.193127,15578.773};
+			azimut=628.51898;
+			offsetY=0.5;
+			id=3760;
+			side="EMPTY";
+			vehicle="Land_Metal_wooden_rack_F";
+			leader=1;
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item3560
+		{
+			position[]={6796.6157,41.191971,15578.673};
+			azimut=808.9494;
+			offsetY=0.5;
+			id=3761;
+			side="EMPTY";
+			vehicle="Land_CarBattery_01_F";
+			leader=1;
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item3561
+		{
+			position[]={9029.9883,111.65852,15715.688};
+			azimut=168.972;
+			offsetY=0.2;
+			id=3762;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V2_F";
+			leader=1;
+			skill=0.60000002;
+			text="RobGas_1_1_2";
+			init="this enableSimulation false; this allowDamage false; this addAction[""Quincaillerie"",life_fnc_weaponShopMenu,""genstore""]; this addAction[""Braquer la Station Service"",life_fnc_robShops];";
+		};
+		class Item3562
+		{
+			position[]={9031.4023,111.67231,15717.36};
+			azimut=527.77698;
+			offsetY=0.2;
+			id=3763;
+			side="EMPTY";
+			vehicle="Land_Icebox_F";
+			leader=1;
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item3563
+		{
+			position[]={9029.5996,111.66266,15717.046};
+			azimut=528.53601;
+			offsetY=0.2;
+			id=3764;
+			side="EMPTY";
+			vehicle="Land_CashDesk_F";
+			leader=1;
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item3564
+		{
+			position[]={9028.2627,111.66398,15716.871};
+			azimut=347.71301;
+			offsetY=0.2;
+			id=3765;
+			side="EMPTY";
+			vehicle="Land_Metal_wooden_rack_F";
+			leader=1;
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item3565
+		{
+			position[]={9028.1523,111.66406,15716.85};
+			azimut=528.14301;
+			offsetY=0.30000001;
+			id=3766;
+			side="EMPTY";
+			vehicle="Land_CarBattery_01_F";
+			leader=1;
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item3566
+		{
+			position[]={12033.596,27.625206,15812.1};
+			azimut=182.041;
+			offsetY=0.2;
+			id=3767;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V2_F";
+			leader=1;
+			skill=0.60000002;
+			text="RobGas_1_1_3";
+			init="this enableSimulation false; this allowDamage false; this addAction[""Quincaillerie"",life_fnc_weaponShopMenu,""genstore""]; this addAction[""Braquer la Station Service"",life_fnc_robShops];";
+		};
+		class Item3567
+		{
+			position[]={12035.337,27.624523,15813.393};
+			azimut=540.84741;
+			offsetY=0.2;
+			id=3768;
+			side="EMPTY";
+			vehicle="Land_Icebox_F";
+			leader=1;
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item3568
+		{
+			position[]={12033.521,27.625305,15813.529};
+			azimut=541.60638;
+			offsetY=0.2;
+			id=3769;
+			side="EMPTY";
+			vehicle="Land_CashDesk_F";
+			leader=1;
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item3569
+		{
+			position[]={12032.165,27.627113,15813.628};
+			azimut=360.78293;
+			offsetY=0.2;
+			id=3770;
+			side="EMPTY";
+			vehicle="Land_Metal_wooden_rack_F";
+			leader=1;
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item3570
+		{
+			position[]={12032.055,27.627258,15813.644};
+			azimut=541.21338;
+			offsetY=0.30000001;
+			id=3771;
+			side="EMPTY";
+			vehicle="Land_CarBattery_01_F";
+			leader=1;
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item3571
+		{
+			position[]={14166.089,16.715576,16520.316};
+			azimut=-223.73599;
+			offsetY=0.30000001;
+			id=3772;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V2_F";
+			leader=1;
+			skill=0.60000002;
+			text="RobGas_1_1_4";
+			init="this enableSimulation false; this allowDamage false; this addAction[""Quincaillerie"",life_fnc_weaponShopMenu,""genstore""]; this addAction[""Braquer la Station Service"",life_fnc_robShops];";
+		};
+		class Item3572
+		{
+			position[]={14166.368,16.705032,16522.482};
+			azimut=135.07001;
+			offsetY=0.30000001;
+			id=3773;
+			side="EMPTY";
+			vehicle="Land_Icebox_F";
+			leader=1;
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item3573
+		{
+			position[]={14165.019,16.695101,16521.258};
+			azimut=135.82899;
+			offsetY=0.30000001;
+			id=3774;
+			side="EMPTY";
+			vehicle="Land_CashDesk_F";
+			leader=1;
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item3574
+		{
+			position[]={14163.996,16.687309,16520.373};
+			azimut=-44.993801;
+			offsetY=0.30000001;
+			id=3775;
+			side="EMPTY";
+			vehicle="Land_Metal_wooden_rack_F";
+			leader=1;
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item3575
+		{
+			position[]={14163.907,16.686594,16520.303};
+			azimut=135.436;
+			offsetY=0.40000001;
+			id=3776;
+			side="EMPTY";
+			vehicle="Land_CarBattery_01_F";
+			leader=1;
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item3576
+		{
+			position[]={15318.485,16.525785,17593.518};
+			azimut=2.5708001;
+			offsetY=0.2;
+			id=3777;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V2_F";
+			leader=1;
+			skill=0.60000002;
+			text="RobGas_1_1_5";
+			init="this enableSimulation false; this allowDamage false; this addAction[""Quincaillerie"",life_fnc_weaponShopMenu,""genstore""]; this addAction[""Braquer la Station Service"",life_fnc_robShops];";
+		};
+		class Item3577
+		{
+			position[]={15316.722,16.524858,17592.227};
+			azimut=361.37701;
+			offsetY=0.2;
+			id=3778;
+			side="EMPTY";
+			vehicle="Land_Icebox_F";
+			leader=1;
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item3578
+		{
+			position[]={15318.538,16.530191,17592.1};
+			azimut=362.13599;
+			offsetY=0.2;
+			id=3779;
+			side="EMPTY";
+			vehicle="Land_CashDesk_F";
+			leader=1;
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item3579
+		{
+			position[]={15319.888,16.546741,17591.971};
+			azimut=181.313;
+			offsetY=0.2;
+			id=3780;
+			side="EMPTY";
+			vehicle="Land_Metal_wooden_rack_F";
+			leader=1;
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item3580
+		{
+			position[]={15320,16.548126,17591.953};
+			azimut=361.742;
+			offsetY=0.30000001;
+			id=3781;
+			side="EMPTY";
+			vehicle="Land_CarBattery_01_F";
+			leader=1;
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item3581
+		{
+			position[]={14238.205,18.507881,18315.102};
+			azimut=51.3773;
+			offsetY=0.2;
+			id=3782;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V2_F";
+			leader=1;
+			skill=0.60000002;
+			text="RobGas_1_1_5_1";
+			init="this enableSimulation false; this allowDamage false; this addAction[""Quincaillerie"",life_fnc_weaponShopMenu,""genstore""];";
+		};
+		class Item3582
+		{
+			position[]={14236.073,18.457895,18315.578};
+			azimut=410.18399;
+			offsetY=0.2;
+			id=3783;
+			side="EMPTY";
+			vehicle="Land_Icebox_F";
+			leader=1;
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item3583
+		{
+			position[]={14237.17,18.500614,18314.117};
+			azimut=410.94299;
+			offsetY=0.1;
+			id=3784;
+			side="EMPTY";
+			vehicle="Land_CashDesk_F";
+			leader=1;
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item3584
+		{
+			position[]={14237.967,18.520645,18313.023};
+			azimut=230.12;
+			offsetY=0.1;
+			id=3785;
+			side="EMPTY";
+			vehicle="Land_Metal_wooden_rack_F";
+			leader=1;
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item3585
+		{
+			position[]={14238.026,18.522207,18312.932};
+			azimut=410.54855;
+			offsetY=0.30000001;
+			id=3786;
+			side="EMPTY";
+			vehicle="Land_CarBattery_01_F";
+			leader=1;
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item3586
+		{
+			position[]={15797.721,14.391866,17461.838};
+			azimut=123.171;
+			offsetY=0.1;
+			id=3787;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V2_F";
+			leader=1;
+			skill=0.60000002;
+			text="RobGas_1_1_5_1_1";
+			init="this enableSimulation false; this allowDamage false; this addAction[""Quincaillerie"",life_fnc_weaponShopMenu,""genstore""];";
+		};
+		class Item3587
+		{
+			position[]={15797.504,14.399311,17463.986};
+			azimut=481.978;
+			offsetY=0.1;
+			id=3788;
+			side="EMPTY";
+			vehicle="Land_Icebox_F";
+			leader=1;
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item3588
+		{
+			position[]={15796.466,14.387732,17462.477};
+			azimut=482.73654;
+			offsetY=0.1;
+			id=3789;
+			side="EMPTY";
+			vehicle="Land_CashDesk_F";
+			leader=1;
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item3589
+		{
+			position[]={15795.671,14.379187,17461.4};
+			azimut=301.91354;
+			offsetY=0.1;
+			id=3790;
+			side="EMPTY";
+			vehicle="Land_Metal_wooden_rack_F";
+			leader=1;
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item3590
+		{
+			position[]={15795.606,14.378435,17461.297};
+			azimut=482.3421;
+			offsetY=0.30000001;
+			id=3791;
+			side="EMPTY";
+			vehicle="Land_CarBattery_01_F";
+			leader=1;
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item3591
+		{
+			position[]={16831.516,11.24832,15471.733};
+			azimut=247.9649;
+			offsetY=0.80000001;
+			id=3792;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V2_F";
+			leader=1;
+			skill=0.60000002;
+			text="RobGas_1_1_5_1_1_1";
+			init="this enableSimulation false; this allowDamage false; this addAction[""Quincaillerie"",life_fnc_weaponShopMenu,""genstore""];";
+		};
+		class Item3592
+		{
+			position[]={16833.398,11.519375,15470.7};
+			azimut=606.77185;
+			offsetY=0.69999999;
+			id=3793;
+			side="EMPTY";
+			vehicle="Land_Icebox_F";
+			leader=1;
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item3593
+		{
+			position[]={16832.758,11.427353,15472.39};
+			azimut=607.52991;
+			offsetY=0.80000001;
+			id=3794;
+			side="EMPTY";
+			vehicle="Land_CashDesk_F";
+			leader=1;
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item3594
+		{
+			position[]={16832.324,11.41315,15473.668};
+			azimut=426.70691;
+			offsetY=0.80000001;
+			id=3795;
+			side="EMPTY";
+			vehicle="Land_Metal_wooden_rack_F";
+			leader=1;
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item3595
+		{
+			position[]={16832.283,11.411626,15473.776};
+			azimut=607.1355;
+			offsetY=0.30000001;
+			id=3796;
+			side="EMPTY";
+			vehicle="Land_CarBattery_01_F";
+			leader=1;
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item3596
+		{
+			position[]={17433.363,5.5405164,13939.522};
+			azimut=90.084694;
+			offsetY=0.1;
+			id=3797;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V2_F";
+			leader=1;
+			skill=0.60000002;
+			text="RobGas_1_1_5_1_1_2";
+			init="this enableSimulation false; this allowDamage false; this addAction[""Quincaillerie"",life_fnc_weaponShopMenu,""genstore""];";
+		};
+		class Item3597
+		{
+			position[]={17432.033,5.5409908,13941.208};
+			azimut=448.89166;
+			offsetY=0.1;
+			id=3798;
+			side="EMPTY";
+			vehicle="Land_Icebox_F";
+			leader=1;
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item3598
+		{
+			position[]={17431.992,5.54,13939.383};
+			azimut=449.65024;
+			offsetY=0.1;
+			id=3799;
+			side="EMPTY";
+			vehicle="Land_CashDesk_F";
+			leader=1;
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item3599
+		{
+			position[]={17431.908,5.54,13938.044};
+			azimut=268.827;
+			offsetY=0.2;
+			id=3800;
+			side="EMPTY";
+			vehicle="Land_Metal_wooden_rack_F";
+			leader=1;
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item3600
+		{
+			position[]={17431.93,5.54,13937.926};
+			azimut=449.25574;
+			offsetY=0.30000001;
+			id=3801;
+			side="EMPTY";
+			vehicle="Land_CarBattery_01_F";
+			leader=1;
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item3601
+		{
+			position[]={16758.088,12.476143,12500.481};
+			azimut=141.72301;
+			offsetY=0.30000001;
+			id=3802;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V2_F";
+			leader=1;
+			skill=0.60000002;
+			text="RobGas_1_1_5_1_1_3";
+			init="this enableSimulation false; this allowDamage false; this addAction[""Quincaillerie"",life_fnc_weaponShopMenu,""genstore""];";
+		};
+		class Item3602
+		{
+			position[]={16758.568,12.46,12502.59};
+			azimut=500.53;
+			offsetY=0.30000001;
+			id=3803;
+			side="EMPTY";
+			vehicle="Land_Icebox_F";
+			leader=1;
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item3603
+		{
+			position[]={16757.098,12.468086,12501.488};
+			azimut=501.289;
+			offsetY=0.30000001;
+			id=3804;
+			side="EMPTY";
+			vehicle="Land_CashDesk_F";
+			leader=1;
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item3604
+		{
+			position[]={16756.006,12.472138,12500.727};
+			azimut=320.466;
+			offsetY=0.30000001;
+			id=3805;
+			side="EMPTY";
+			vehicle="Land_Metal_wooden_rack_F";
+			leader=1;
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item3605
+		{
+			position[]={16755.906,12.472285,12500.649};
+			azimut=500.89447;
+			offsetY=0.30000001;
+			id=3806;
+			side="EMPTY";
+			vehicle="Land_CarBattery_01_F";
+			leader=1;
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item3606
+		{
+			position[]={20767.66,36.847149,16668.555};
+			azimut=-51.540257;
+			offsetY=0.1;
+			id=3807;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V2_F";
+			leader=1;
+			skill=0.60000002;
+			text="RobGas_1_1_5_1_1_4";
+			init="this enableSimulation false; this allowDamage false; this addAction[""Quincaillerie"",life_fnc_weaponShopMenu,""genstore""];";
+		};
+		class Item3607
+		{
+			position[]={20767.672,36.801262,16666.4};
+			azimut=307.267;
+			offsetY=0.2;
+			id=3808;
+			side="EMPTY";
+			vehicle="Land_Icebox_F";
+			leader=1;
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item3608
+		{
+			position[]={20768.863,36.840717,16667.803};
+			azimut=308.02499;
+			offsetY=0.2;
+			id=3809;
+			side="EMPTY";
+			vehicle="Land_CashDesk_F";
+			leader=1;
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item3609
+		{
+			position[]={20769.744,36.869366,16668.814};
+			azimut=127.20226;
+			offsetY=0.1;
+			id=3810;
+			side="EMPTY";
+			vehicle="Land_Metal_wooden_rack_F";
+			leader=1;
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item3610
+		{
+			position[]={20769.832,36.872177,16668.914};
+			azimut=307.63101;
+			offsetY=0.2;
+			id=3811;
+			side="EMPTY";
+			vehicle="Land_CarBattery_01_F";
+			leader=1;
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item3611
+		{
+			position[]={23361.961,12.920718,19811.115};
+			azimut=-38.176517;
+			offsetY=0.1;
+			id=3812;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V2_F";
+			leader=1;
+			skill=0.60000002;
+			text="RobGas_1_1_5_1_1_5";
+			init="this enableSimulation false; this allowDamage false; this addAction[""Quincaillerie"",life_fnc_weaponShopMenu,""genstore""];";
+		};
+		class Item3612
+		{
+			position[]={23361.469,12.921374,19809.023};
+			azimut=320.63052;
+			offsetY=0.1;
+			id=3813;
+			side="EMPTY";
+			vehicle="Land_Icebox_F";
+			leader=1;
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item3613
+		{
+			position[]={23362.928,12.91543,19810.115};
+			azimut=321.38907;
+			offsetY=0.1;
+			id=3814;
+			side="EMPTY";
+			vehicle="Land_CashDesk_F";
+			leader=1;
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item3614
+		{
+			position[]={23364.037,12.903594,19810.867};
+			azimut=140.56598;
+			offsetY=0.1;
+			id=3815;
+			side="EMPTY";
+			vehicle="Land_Metal_wooden_rack_F";
+			leader=1;
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item3615
+		{
+			position[]={23364.133,12.902578,19810.961};
+			azimut=320.995;
+			offsetY=0.2;
+			id=3816;
+			side="EMPTY";
+			vehicle="Land_CarBattery_01_F";
+			leader=1;
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item3616
+		{
+			position[]={25690.549,20.946852,21389.088};
+			azimut=-42.090302;
+			offsetY=0.30000001;
+			id=3817;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V2_F";
+			leader=1;
+			skill=0.60000002;
+			text="RobGas_1_1_5_1_1_6";
+			init="this enableSimulation false; this allowDamage false; this addAction[""Quincaillerie"",life_fnc_weaponShopMenu,""genstore""];";
+		};
+		class Item3617
+		{
+			position[]={25690.193,20.900021,21386.959};
+			azimut=316.71701;
+			offsetY=0.30000001;
+			id=3818;
+			side="EMPTY";
+			vehicle="Land_Icebox_F";
+			leader=1;
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item3618
+		{
+			position[]={25691.594,20.887407,21388.156};
+			azimut=317.47501;
+			offsetY=0.30000001;
+			id=3819;
+			side="EMPTY";
+			vehicle="Land_CashDesk_F";
+			leader=1;
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item3619
+		{
+			position[]={25692.643,20.877367,21388.998};
+			azimut=136.65199;
+			offsetY=0.30000001;
+			id=3820;
+			side="EMPTY";
+			vehicle="Land_Metal_wooden_rack_F";
+			leader=1;
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item3620
+		{
+			position[]={25692.736,20.876736,21389.082};
+			azimut=317.08099;
+			offsetY=0.30000001;
+			id=3821;
+			side="EMPTY";
+			vehicle="Land_CarBattery_01_F";
+			leader=1;
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item3621
+		{
+			position[]={3749.926,11.476283,13458.667};
+			azimut=183.03999;
+			offsetY=0.2;
+			id=3822;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V2_F";
+			leader=1;
+			skill=0.60000002;
+			text="RobGas_1_1_5_1_1_7";
+			init="this enableSimulation false; this allowDamage false; this addAction[""Quincaillerie"",life_fnc_weaponShopMenu,""genstore""];";
+		};
+		class Item3622
+		{
+			position[]={3751.6763,11.537795,13459.927};
+			azimut=541.84698;
+			offsetY=0.2;
+			id=3823;
+			side="EMPTY";
+			vehicle="Land_Icebox_F";
+			leader=1;
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item3623
+		{
+			position[]={3749.8489,11.520063,13460.07};
+			azimut=542.60602;
+			offsetY=0.2;
+			id=3824;
+			side="EMPTY";
+			vehicle="Land_CashDesk_F";
+			leader=1;
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item3624
+		{
+			position[]={3748.5203,11.505235,13460.216};
+			azimut=361.78299;
+			offsetY=0.2;
+			id=3825;
+			side="EMPTY";
+			vehicle="Land_Metal_wooden_rack_F";
+			leader=1;
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item3625
+		{
+			position[]={3748.3977,11.50367,13460.224};
+			azimut=542.21143;
+			offsetY=0.30000001;
+			id=3826;
+			side="EMPTY";
+			vehicle="Land_CarBattery_01_F";
+			leader=1;
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item3626
+		{
+			position[]={4024.5857,25.718616,12590.109};
+			azimut=39.211273;
+			offsetY=0.1;
+			id=3827;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V2_F";
+			leader=1;
+			skill=0.60000002;
+			text="RobGas_1_1_5_1_1_8";
+			init="this enableSimulation false; this allowDamage false; this addAction[""Quincaillerie"",life_fnc_weaponShopMenu,""genstore""];";
+		};
+		class Item3627
+		{
+			position[]={4022.4277,25.738613,12590.118};
+			azimut=398.01831;
+			offsetY=0.1;
+			id=3828;
+			side="EMPTY";
+			vehicle="Land_Icebox_F";
+			leader=1;
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item3628
+		{
+			position[]={4023.8186,25.746248,12588.929};
+			azimut=398.77686;
+			offsetY=0.1;
+			id=3829;
+			side="EMPTY";
+			vehicle="Land_CashDesk_F";
+			leader=1;
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item3629
+		{
+			position[]={4024.8049,25.752737,12588.023};
+			azimut=217.9538;
+			offsetY=0.1;
+			id=3830;
+			side="EMPTY";
+			vehicle="Land_Metal_wooden_rack_F";
+			leader=1;
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
+		class Item3630
+		{
+			position[]={4024.9016,25.753136,12587.948};
+			azimut=398.38242;
+			offsetY=0.30000001;
+			id=3831;
+			side="EMPTY";
+			vehicle="Land_CarBattery_01_F";
+			leader=1;
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; ";
+		};
 	};
 	class Markers
 	{
-		items=368;
+		items=384;
 		class Item0
 		{
 			position[]={8459.6777,104.56568,25131.203};
@@ -45895,7 +46871,137 @@ class Mission
 		{
 			position[]={5052.6665,16.734381,14444.534};
 			name="GasStation_2";
-			text=" Station Service";
+			text=" Station Service 2";
+			type="loc_Fuelstation";
+			colorName="ColorGUER";
+		};
+		class Item368
+		{
+			position[]={6188.3032,27.139408,15089.789};
+			name="GasStation_2_1";
+			text=" Station Service 3";
+			type="loc_Fuelstation";
+			colorName="ColorGUER";
+		};
+		class Item369
+		{
+			position[]={6793.6035,41.2938,15582.531};
+			name="GasStation_2_2";
+			text=" Station Service 4";
+			type="loc_Fuelstation";
+			colorName="ColorGUER";
+		};
+		class Item370
+		{
+			position[]={9032.2461,111.68327,15720.458};
+			name="GasStation_2_3";
+			text=" Station Service 5";
+			type="loc_Fuelstation";
+			colorName="ColorGUER";
+		};
+		class Item371
+		{
+			position[]={12036.8,27.629333,15817};
+			name="GasStation_2_4";
+			text=" Station Service 6";
+			type="loc_Fuelstation";
+			colorName="ColorGUER";
+		};
+		class Item372
+		{
+			position[]={14166.4,16.640722,16524.523};
+			name="GasStation_2_5";
+			text=" Station Service 7";
+			type="loc_Fuelstation";
+			colorName="ColorGUER";
+		};
+		class Item373
+		{
+			position[]={14233.501,18.451374,18314.385};
+			name="GasStation_2_6";
+			text=" Station Service 8";
+			type="loc_Fuelstation";
+			colorName="ColorGUER";
+		};
+		class Item374
+		{
+			position[]={15315.312,16.592331,17588.914};
+			name="GasStation_2_7";
+			text=" Station Service 9";
+			type="loc_Fuelstation";
+			colorName="ColorGUER";
+		};
+		class Item375
+		{
+			position[]={15794.477,14.38347,17463.715};
+			name="GasStation_2_8";
+			text=" Station Service 10";
+			type="loc_Fuelstation";
+			colorName="ColorGUER";
+		};
+		class Item376
+		{
+			position[]={16834.9,11.770286,15473.333};
+			name="GasStation_2_8_1";
+			text=" Station Service 11";
+			type="loc_Fuelstation";
+			colorName="ColorGUER";
+			angle=-0.39269301;
+		};
+		class Item377
+		{
+			position[]={17429.818,5.54,13940.728};
+			name="GasStation_2_8_2";
+			text=" Station Service 12";
+			type="loc_Fuelstation";
+			colorName="ColorGUER";
+		};
+		class Item378
+		{
+			position[]={16756.133,12.46,12506.81};
+			name="GasStation_2_8_3";
+			text=" Station Service 13";
+			type="loc_Fuelstation";
+			colorName="ColorGUER";
+		};
+		class Item379
+		{
+			position[]={20768.578,36.776508,16664.205};
+			name="GasStation_2_8_4";
+			text=" Station Service 14";
+			type="loc_Fuelstation";
+			colorName="ColorGUER";
+			angle=-359.42801;
+		};
+		class Item380
+		{
+			position[]={23363.229,12.909608,19805.145};
+			name="GasStation_2_8_5";
+			text=" Station Service 15";
+			type="loc_Fuelstation";
+			colorName="ColorGUER";
+		};
+		class Item381
+		{
+			position[]={25692.676,20.70611,21382.602};
+			name="GasStation_2_8_6";
+			text=" Station Service 16";
+			type="loc_Fuelstation";
+			colorName="ColorGUER";
+		};
+		class Item382
+		{
+			position[]={3752.988,11.61863,13463.468};
+			name="GasStation_2_8_7";
+			text=" Station Service 1";
+			type="loc_Fuelstation";
+			colorName="ColorGUER";
+		};
+		class Item383
+		{
+			position[]={4019.4697,25.742453,12587.593};
+			name="GasStation_2_8_8";
+			text=" Station Service 17";
 			type="loc_Fuelstation";
 			colorName="ColorGUER";
 		};
