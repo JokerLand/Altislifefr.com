@@ -46870,7 +46870,7 @@ class Mission
 		class Item367
 		{
 			position[]={5052.6665,16.734381,14444.534};
-			name="GasStation_2";
+			name=" Station Service 2";
 			text=" Station Service 2";
 			type="loc_Fuelstation";
 			colorName="ColorGUER";
@@ -46878,7 +46878,7 @@ class Mission
 		class Item368
 		{
 			position[]={6188.3032,27.139408,15089.789};
-			name="GasStation_2_1";
+			name=" Station Service 3";
 			text=" Station Service 3";
 			type="loc_Fuelstation";
 			colorName="ColorGUER";
@@ -46886,7 +46886,7 @@ class Mission
 		class Item369
 		{
 			position[]={6793.6035,41.2938,15582.531};
-			name="GasStation_2_2";
+			name=" Station Service 4";
 			text=" Station Service 4";
 			type="loc_Fuelstation";
 			colorName="ColorGUER";
@@ -46894,7 +46894,7 @@ class Mission
 		class Item370
 		{
 			position[]={9032.2461,111.68327,15720.458};
-			name="GasStation_2_3";
+			name=" Station Service 5";
 			text=" Station Service 5";
 			type="loc_Fuelstation";
 			colorName="ColorGUER";
@@ -46902,7 +46902,7 @@ class Mission
 		class Item371
 		{
 			position[]={12036.8,27.629333,15817};
-			name="GasStation_2_4";
+			name=" Station Service 6";
 			text=" Station Service 6";
 			type="loc_Fuelstation";
 			colorName="ColorGUER";
@@ -46910,7 +46910,7 @@ class Mission
 		class Item372
 		{
 			position[]={14166.4,16.640722,16524.523};
-			name="GasStation_2_5";
+			name=" Station Service 7";
 			text=" Station Service 7";
 			type="loc_Fuelstation";
 			colorName="ColorGUER";
@@ -46918,7 +46918,7 @@ class Mission
 		class Item373
 		{
 			position[]={14233.501,18.451374,18314.385};
-			name="GasStation_2_6";
+			name=" Station Service 8";
 			text=" Station Service 8";
 			type="loc_Fuelstation";
 			colorName="ColorGUER";
@@ -46926,7 +46926,7 @@ class Mission
 		class Item374
 		{
 			position[]={15315.312,16.592331,17588.914};
-			name="GasStation_2_7";
+			name=" Station Service 9";
 			text=" Station Service 9";
 			type="loc_Fuelstation";
 			colorName="ColorGUER";
@@ -46934,7 +46934,7 @@ class Mission
 		class Item375
 		{
 			position[]={15794.477,14.38347,17463.715};
-			name="GasStation_2_8";
+			name=" Station Service 10";
 			text=" Station Service 10";
 			type="loc_Fuelstation";
 			colorName="ColorGUER";
@@ -46942,7 +46942,7 @@ class Mission
 		class Item376
 		{
 			position[]={16834.9,11.770286,15473.333};
-			name="GasStation_2_8_1";
+			name=" Station Service 11";
 			text=" Station Service 11";
 			type="loc_Fuelstation";
 			colorName="ColorGUER";
@@ -46951,7 +46951,7 @@ class Mission
 		class Item377
 		{
 			position[]={17429.818,5.54,13940.728};
-			name="GasStation_2_8_2";
+			name=" Station Service 12";
 			text=" Station Service 12";
 			type="loc_Fuelstation";
 			colorName="ColorGUER";
@@ -46959,7 +46959,7 @@ class Mission
 		class Item378
 		{
 			position[]={16756.133,12.46,12506.81};
-			name="GasStation_2_8_3";
+			name=" Station Service 13";
 			text=" Station Service 13";
 			type="loc_Fuelstation";
 			colorName="ColorGUER";
@@ -46967,7 +46967,7 @@ class Mission
 		class Item379
 		{
 			position[]={20768.578,36.776508,16664.205};
-			name="GasStation_2_8_4";
+			name=" Station Service 14";
 			text=" Station Service 14";
 			type="loc_Fuelstation";
 			colorName="ColorGUER";
@@ -46976,7 +46976,7 @@ class Mission
 		class Item380
 		{
 			position[]={23363.229,12.909608,19805.145};
-			name="GasStation_2_8_5";
+			name=" Station Service 15";
 			text=" Station Service 15";
 			type="loc_Fuelstation";
 			colorName="ColorGUER";
@@ -46984,7 +46984,7 @@ class Mission
 		class Item381
 		{
 			position[]={25692.676,20.70611,21382.602};
-			name="GasStation_2_8_6";
+			name=" Station Service 16";
 			text=" Station Service 16";
 			type="loc_Fuelstation";
 			colorName="ColorGUER";
@@ -46992,7 +46992,7 @@ class Mission
 		class Item382
 		{
 			position[]={3752.988,11.61863,13463.468};
-			name="GasStation_2_8_7";
+			name=" Station Service 1";
 			text=" Station Service 1";
 			type="loc_Fuelstation";
 			colorName="ColorGUER";
@@ -47000,7 +47000,7 @@ class Mission
 		class Item383
 		{
 			position[]={4019.4697,25.742453,12587.593};
-			name="GasStation_2_8_8";
+			name=" Station Service 17";
 			text=" Station Service 17";
 			type="loc_Fuelstation";
 			colorName="ColorGUER";
