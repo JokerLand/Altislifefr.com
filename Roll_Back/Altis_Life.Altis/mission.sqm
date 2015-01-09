@@ -42852,7 +42852,7 @@ class Mission
 			vehicle="Land_InfoStand_V2_F";
 			leader=1;
 			skill=0.60000002;
-			text="RobGas_1";
+			text="Station_Service_2";
 			init="this enableSimulation false; this allowDamage false; this addAction[""Quincaillerie"",life_fnc_weaponShopMenu,""genstore""]; this addAction[""Braquer la Station Service"",life_fnc_robShops];";
 		};
 		class Item3547
@@ -42913,7 +42913,7 @@ class Mission
 			vehicle="Land_InfoStand_V2_F";
 			leader=1;
 			skill=0.60000002;
-			text="RobGas_1_1";
+			text="Station_Service_3";
 			init="this enableSimulation false; this allowDamage false; this addAction[""Quincaillerie"",life_fnc_weaponShopMenu,""genstore""]; this addAction[""Braquer la Station Service"",life_fnc_robShops];";
 		};
 		class Item3552
@@ -42974,7 +42974,7 @@ class Mission
 			vehicle="Land_InfoStand_V2_F";
 			leader=1;
 			skill=0.60000002;
-			text="RobGas_1_1_1";
+			text="Station_Service_4";
 			init="this enableSimulation false; this allowDamage false; this addAction[""Quincaillerie"",life_fnc_weaponShopMenu,""genstore""]; this addAction[""Braquer la Station Service"",life_fnc_robShops];";
 		};
 		class Item3557
@@ -43035,7 +43035,7 @@ class Mission
 			vehicle="Land_InfoStand_V2_F";
 			leader=1;
 			skill=0.60000002;
-			text="RobGas_1_1_2";
+			text="Station_Service_5";
 			init="this enableSimulation false; this allowDamage false; this addAction[""Quincaillerie"",life_fnc_weaponShopMenu,""genstore""]; this addAction[""Braquer la Station Service"",life_fnc_robShops];";
 		};
 		class Item3562
@@ -43096,7 +43096,7 @@ class Mission
 			vehicle="Land_InfoStand_V2_F";
 			leader=1;
 			skill=0.60000002;
-			text="RobGas_1_1_3";
+			text="Station_Service_6";
 			init="this enableSimulation false; this allowDamage false; this addAction[""Quincaillerie"",life_fnc_weaponShopMenu,""genstore""]; this addAction[""Braquer la Station Service"",life_fnc_robShops];";
 		};
 		class Item3567
@@ -43157,7 +43157,7 @@ class Mission
 			vehicle="Land_InfoStand_V2_F";
 			leader=1;
 			skill=0.60000002;
-			text="RobGas_1_1_4";
+			text="Station_Service_7";
 			init="this enableSimulation false; this allowDamage false; this addAction[""Quincaillerie"",life_fnc_weaponShopMenu,""genstore""]; this addAction[""Braquer la Station Service"",life_fnc_robShops];";
 		};
 		class Item3572
@@ -43218,7 +43218,7 @@ class Mission
 			vehicle="Land_InfoStand_V2_F";
 			leader=1;
 			skill=0.60000002;
-			text="RobGas_1_1_5";
+			text="Station_Service_9";
 			init="this enableSimulation false; this allowDamage false; this addAction[""Quincaillerie"",life_fnc_weaponShopMenu,""genstore""]; this addAction[""Braquer la Station Service"",life_fnc_robShops];";
 		};
 		class Item3577
@@ -43279,7 +43279,7 @@ class Mission
 			vehicle="Land_InfoStand_V2_F";
 			leader=1;
 			skill=0.60000002;
-			text="RobGas_1_1_5_1";
+			text="Station_Service_8";
 			init="this enableSimulation false; this allowDamage false; this addAction[""Quincaillerie"",life_fnc_weaponShopMenu,""genstore""];";
 		};
 		class Item3582
@@ -43340,7 +43340,7 @@ class Mission
 			vehicle="Land_InfoStand_V2_F";
 			leader=1;
 			skill=0.60000002;
-			text="RobGas_1_1_5_1_1";
+			text="Station_Service_10";
 			init="this enableSimulation false; this allowDamage false; this addAction[""Quincaillerie"",life_fnc_weaponShopMenu,""genstore""];";
 		};
 		class Item3587
@@ -43394,14 +43394,14 @@ class Mission
 		class Item3591
 		{
 			position[]={16831.516,11.24832,15471.733};
-			azimut=247.9649;
+			azimut=247.965;
 			offsetY=0.80000001;
 			id=3792;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V2_F";
 			leader=1;
 			skill=0.60000002;
-			text="RobGas_1_1_5_1_1_1";
+			text="Station_Service_11";
 			init="this enableSimulation false; this allowDamage false; this addAction[""Quincaillerie"",life_fnc_weaponShopMenu,""genstore""];";
 		};
 		class Item3592
@@ -43455,14 +43455,14 @@ class Mission
 		class Item3596
 		{
 			position[]={17433.363,5.5405164,13939.522};
-			azimut=90.084694;
+			azimut=90.084702;
 			offsetY=0.1;
 			id=3797;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V2_F";
 			leader=1;
 			skill=0.60000002;
-			text="RobGas_1_1_5_1_1_2";
+			text="Station_Service_12";
 			init="this enableSimulation false; this allowDamage false; this addAction[""Quincaillerie"",life_fnc_weaponShopMenu,""genstore""];";
 		};
 		class Item3597
@@ -43523,7 +43523,7 @@ class Mission
 			vehicle="Land_InfoStand_V2_F";
 			leader=1;
 			skill=0.60000002;
-			text="RobGas_1_1_5_1_1_3";
+			text="Station_Service_13";
 			init="this enableSimulation false; this allowDamage false; this addAction[""Quincaillerie"",life_fnc_weaponShopMenu,""genstore""];";
 		};
 		class Item3602
@@ -43577,14 +43577,14 @@ class Mission
 		class Item3606
 		{
 			position[]={20767.66,36.847149,16668.555};
-			azimut=-51.540257;
+			azimut=-51.540298;
 			offsetY=0.1;
 			id=3807;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V2_F";
 			leader=1;
 			skill=0.60000002;
-			text="RobGas_1_1_5_1_1_4";
+			text="Station_Service_14";
 			init="this enableSimulation false; this allowDamage false; this addAction[""Quincaillerie"",life_fnc_weaponShopMenu,""genstore""];";
 		};
 		class Item3607
@@ -43638,14 +43638,14 @@ class Mission
 		class Item3611
 		{
 			position[]={23361.961,12.920718,19811.115};
-			azimut=-38.176517;
+			azimut=-38.176498;
 			offsetY=0.1;
 			id=3812;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V2_F";
 			leader=1;
 			skill=0.60000002;
-			text="RobGas_1_1_5_1_1_5";
+			text="Station_Service_15";
 			init="this enableSimulation false; this allowDamage false; this addAction[""Quincaillerie"",life_fnc_weaponShopMenu,""genstore""];";
 		};
 		class Item3612
@@ -43706,7 +43706,7 @@ class Mission
 			vehicle="Land_InfoStand_V2_F";
 			leader=1;
 			skill=0.60000002;
-			text="RobGas_1_1_5_1_1_6";
+			text="Station_Service_16";
 			init="this enableSimulation false; this allowDamage false; this addAction[""Quincaillerie"",life_fnc_weaponShopMenu,""genstore""];";
 		};
 		class Item3617
@@ -43767,7 +43767,7 @@ class Mission
 			vehicle="Land_InfoStand_V2_F";
 			leader=1;
 			skill=0.60000002;
-			text="RobGas_1_1_5_1_1_7";
+			text="Station_Service_1";
 			init="this enableSimulation false; this allowDamage false; this addAction[""Quincaillerie"",life_fnc_weaponShopMenu,""genstore""];";
 		};
 		class Item3622
@@ -43821,14 +43821,14 @@ class Mission
 		class Item3626
 		{
 			position[]={4024.5857,25.718616,12590.109};
-			azimut=39.211273;
+			azimut=39.2113;
 			offsetY=0.1;
 			id=3827;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V2_F";
 			leader=1;
 			skill=0.60000002;
-			text="RobGas_1_1_5_1_1_8";
+			text="Station_Service_17";
 			init="this enableSimulation false; this allowDamage false; this addAction[""Quincaillerie"",life_fnc_weaponShopMenu,""genstore""];";
 		};
 		class Item3627
