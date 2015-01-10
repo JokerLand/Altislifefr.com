@@ -164,7 +164,7 @@ class CfgSounds
   class car_alarm
 	{
 		name="car_alarm";
-		sound[] = {"\sounds\alarmevoiture.ogg", 1, 1};
+		sound[] = {"\sounds\car_alarm.ogg", 1, 1};
 		titles[] = {};
 	
 	};
