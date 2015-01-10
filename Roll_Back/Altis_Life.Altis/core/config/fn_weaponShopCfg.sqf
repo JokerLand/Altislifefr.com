@@ -22,20 +22,19 @@ switch(_shop) do
 	{
 		switch(true) do
 		{
-			case (playerSide != west): {"You are not a cop!"};
+			case (playerSide != west): {"Vous n'êtes pas policier !"};
 			default
 			{
-				["Altis Cop Shop",
+				["Quincaillerie Police",
 					[
      					["ItemWatch",nil,50],
 						["ItemCompass",nil,50],
-						["Binocular",nil,150],
 						["ItemMap",nil,50],
 						["ItemGPS",nil,150],
 						["ToolKit",nil,250],
 						["FirstAidKit",nil,150],
 						["Medikit",nil,2000],
-						["NVGoggles",nil,2500],
+						["NVGoggles_OPFOR",nil,2500],
 						["Rangefinder",nil,3400]
 					]
 				];
@@ -47,9 +46,9 @@ switch(_shop) do
 	{
 		switch (true) do
 		{
-			case (playerSide != independent): {"You are not an EMS Medic"};
+			case (playerSide != independent): {"Vous n'êtes pas medecin !"};
 			default {
-				["Hospital EMS Shop",
+				["Quincaillerie Medecin",
 					[
 						["ItemWatch",nil,50],
 						["ItemCompass",nil,50],
@@ -505,7 +504,7 @@ switch(_shop) do
 			case (!license_civ_rebel): {"Vous n'avez pas de licence rebelle !"};
 			default
 			{
-				["Mohammed's Jihadi Shop",
+				["Armurerie Rebelle",
 					[
 						["arifle_SDAR_F",nil,50000],
 						["arifle_TRG20_F",nil,90000],
@@ -624,7 +623,7 @@ switch(_shop) do
 			case (!license_civ_gun): {"Vous n'avez pas de license d'arme à feu !"};
 			default
 			{
-				["Billy Joe's Firearms",
+				["Armurerie",
 					[
 						["hgun_Rook40_F",nil,10000],
 						["16Rnd_9x21_Mag",nil,25],
@@ -684,6 +683,7 @@ switch(_shop) do
 						["optic_Hamr",nil,10000],
 						["optic_ACO_grn_smg",nil,2000],
 						["acc_pointer_IR",nil,10000],
+						["NVGoggles",nil,2000],
 						["ToolKit",nil,250],
 						["itemgps",nil,150],
 						["FirstAidKit",nil,150],
@@ -796,7 +796,7 @@ switch(_shop) do
 
 	case "genstore":
 	{
-		["Altis General Store",
+		["Quincaillerie",
 			[
 				["ItemWatch",nil,50],
 			    ["ItemCompass",nil,50],
