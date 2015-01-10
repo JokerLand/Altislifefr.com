@@ -41,7 +41,7 @@ if ((getPlayerUID player) != _vehOwner) exitWith {hint "Ce vehicule n'est pas a 
 			};
 
 			sleep 0.195; // 3 fois 6.5 secondes = 19,5secondes
-			[player,"spraycan"] call life_fnc_globalSound; //
+			[[player, "spraycan",10],"life_fnc_playSound",true,false] spawn life_fnc_MP;
 
 			_cP = _cP + 0.01;
 			_progress progressSetPosition _cP;
