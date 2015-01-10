@@ -50,6 +50,7 @@ class CfgFunctions
 			class bool{};
 			class mresString {};
 			class updatePartial {};
+            class repaintVehicle {};
 		};
 	};
 	
@@ -105,6 +106,7 @@ class CfgFunctions
 			class cleanupRequest {};
 			class setObjVar {};
 			class keyManagement {};
+            class vehicleRepaint {};
 		};
 		
 		class Housing

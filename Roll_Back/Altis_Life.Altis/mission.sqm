@@ -4248,7 +4248,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=3631;
+		items=3635;
 		class Item0
 		{
 			position[]={8065.1616,35.674362,24985.314};
@@ -43879,10 +43879,57 @@ class Mission
 			skill=0.60000002;
 			init="this enableSimulation false; this allowDamage false; ";
 		};
+		class Item3631
+		{
+			position[]={3920.6099,16.29331,13582.943};
+			azimut=320.47601;
+			offsetY=0.30000001;
+			id=3832;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V2_F";
+			skill=0.60000002;
+			text="Paint_1";
+			init="this allowDamage false; this enableSimulation false; this addAction [""Altis Customs"", life_fnc_RepaintMenu];";
+		};
+		class Item3632
+		{
+			position[]={14033.625,25.59893,18751.805};
+			azimut=302.59299;
+			offsetY=0.1;
+			id=3833;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V2_F";
+			skill=0.60000002;
+			text="Paint_1_1";
+			init="this allowDamage false; this enableSimulation false; this addAction [""Altis Customs"", life_fnc_RepaintMenu];";
+		};
+		class Item3633
+		{
+			position[]={17231.695,15.584723,13163.881};
+			azimut=226.897;
+			offsetY=0.2;
+			id=3834;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V2_F";
+			skill=0.60000002;
+			text="Paint_1_2";
+			init="this allowDamage false; this enableSimulation false; this addAction [""Altis Customs"", life_fnc_RepaintMenu];";
+		};
+		class Item3634
+		{
+			position[]={25865.764,20.240498,21468.863};
+			azimut=492.79724;
+			id=3835;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V2_F";
+			skill=0.60000002;
+			text="Paint_1_3";
+			init="this allowDamage false; this enableSimulation false; this addAction [""Altis Customs"", life_fnc_RepaintMenu];";
+		};
 	};
 	class Markers
 	{
-		items=384;
+		items=388;
 		class Item0
 		{
 			position[]={8459.6777,104.56568,25131.203};
@@ -47004,6 +47051,38 @@ class Mission
 			text=" Station Service 17";
 			type="loc_Fuelstation";
 			colorName="ColorGUER";
+		};
+		class Item384
+		{
+			position[]={25865.025,20.368837,21474.066};
+			name="Altis_Customs_4";
+			text="Altis Customs";
+			type="c_car";
+			colorName="ColorCIV";
+		};
+		class Item385
+		{
+			position[]={17230.051,15.567208,13166.697};
+			name="Altis_Customs_3";
+			text="Altis Customs";
+			type="c_car";
+			colorName="ColorCIV";
+		};
+		class Item386
+		{
+			position[]={3924.7903,22.170912,13583.465};
+			name="Altis_Customs_1";
+			text="Altis Customs";
+			type="c_car";
+			colorName="ColorCIV";
+		};
+		class Item387
+		{
+			position[]={14032.911,25.569098,18753.898};
+			name="Altis_Customs_2";
+			text="Altis Customs";
+			type="c_car";
+			colorName="ColorCIV";
 		};
 	};
 	class Sensors
