@@ -21,7 +21,6 @@ if(!_isVehicle && !(_curTarget getVariable["restrained",false])) exitWith {};
 
 _title = format["Lock-picking %1",if(!_isVehicle) then {"Handcuffs"} else {getText(configFile >> "CfgVehicles" >> (typeOf _curTarget) >> "displayName")}];
 life_action_inUse = true; //Lock out other actions
-[[_curTarget],"life_fnc_CarAlarmSound",nil,true] spawn life_fnc_MP;
 
 //Setup the progress bar
 disableSerialization;
@@ -86,5 +85,6 @@ if(!_isVehicle) then {
 		[[getPlayerUID player,player getVariable["realname",name player],"215"],"life_fnc_wantedAdd",false,false] spawn life_fnc_MP;
 		[[0,format["%1 a été vu crochetant un vehicule.",player getVariable["realname",name player]]],"life_fnc_broadcast",west,false] spawn life_fnc_MP;
 		titleText["The lockpick a cassé.","PLAIN"];
+		[[_curTarget],"life_fnc_CarAlarmSound",nil,true] spawn life_fnc_MP;
 	};
 };
