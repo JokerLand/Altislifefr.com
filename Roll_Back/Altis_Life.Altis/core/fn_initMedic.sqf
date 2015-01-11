@@ -10,7 +10,6 @@ private["_end"];
 player addRating 99999999;
 waitUntil {!(isNull (findDisplay 46))};
 
-if(!(str(player) in [""])) then {
 	if((__GETC__(life_medicLevel) == 0) && (__GETC__(life_adminlevel) == 0)) then {
 		["Pas Whitlisted",false,true] call BIS_fnc_endMission;
 		sleep 35;
