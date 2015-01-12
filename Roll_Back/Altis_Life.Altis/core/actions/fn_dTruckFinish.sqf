@@ -1,5 +1,5 @@
 /*
-	File: fn_dpFinish.sqf
+	File: fn_dTruckFinish.sqf
 	Author: "GeK" - www.altislifefr.com
 
 	Description:
