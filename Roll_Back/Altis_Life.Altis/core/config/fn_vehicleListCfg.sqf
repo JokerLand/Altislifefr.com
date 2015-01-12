@@ -97,7 +97,7 @@ switch (_shop) do
 			_return =
 			[
 				["C_Van_01_transport_F",40000],
-				["cl3_transit_violet",50000],
+				["cl3_transit_black",50000],
 				["C_Van_01_box_F",60000],
 				["C_Offroad_01_repair_F",75000],
 				["I_Truck_02_transport_F",75000],

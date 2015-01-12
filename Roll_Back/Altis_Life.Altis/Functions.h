@@ -84,8 +84,10 @@ class Life_Client_Core
 		class catchFish {};
 		class catchTurtle {};
 		class dpFinish {};
+		class dTruckFinish {};
 		class dropFishingNet {};
 		class getDPMission {};
+		class getTruckMission {};
 		class postBail {};
 		class processAction {};
 		class arrestAction {};
