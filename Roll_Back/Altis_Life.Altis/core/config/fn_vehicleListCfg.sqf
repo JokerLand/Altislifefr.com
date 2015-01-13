@@ -63,13 +63,14 @@ switch (_shop) do
 			["A3L_PuntoBlue",6000],
 			["cl3_civic_vti_black",7500],
 			["DAR_FusionCiv",10000],
-			["DAR_TaurusCiv",12000],
+			["cl3_taurus_black",12000],
 			["cl3_polo_gti_black",12000],
-			["cl3_insignia_black",13000],
 			["C_Offroad_01_F",14000],
 			["DAR_TahoeCiv",16000],
 			["C_SUV_01_F",22000],
 			["SAL_AudiCiv",22000],
+			["cl3_insignia_black",25000],
+			["cl3_q7_black",45000],
 			["I_G_Offroad_01_F",55000],
 			["DAR_M3CivGrey",40000],
 			["cl3_e63_amg_black",50000],
@@ -79,7 +80,6 @@ switch (_shop) do
 			["cl3_dodge_charger_s_black",110000],
 			["DAR_ChallengerCivWhite",120000],
 			["cl3_z4_2008_black",120000],
-			["cl3_q7_yellow",133334],
 			["cl3_carrera_gt_black",150000],
 			["cl3_dbs_volante_black",150000],
 			["Jonzie_Viper",270000],
@@ -120,7 +120,9 @@ switch (_shop) do
 				["C_Van_01_Fuel_F",7500],
 				["C_SUV_01_F",20000],
 				["I_G_Offroad_01_F",45000],
+				["cl3_suv_taxi",50000],
 				["B_Heli_Light_01_F",100000],
+				["cl3_suv_black",200000],
 				["B_Truck_01_box_F",250000],
 				["ALFR_GeK_Scania_420",250000],
 				["ALFR_GeK_Volvo_FH16_2012",300000],
@@ -130,7 +132,7 @@ switch (_shop) do
 				["I_Heli_Transport_02_F",600000],
 				["ivory_b206",165000],
 				["IVORY_T6A_1",3000000],
-                                ["RDS_Ikarus_Civ_01",100000]
+                ["CL3_bus_cl_black",100000]
 			];
 		};
 	};
@@ -141,6 +143,8 @@ switch (_shop) do
 		[
 			["B_G_Offroad_01_F",15000],
 			["B_G_Van_01_transport_F",50000],
+			["BAF_Offroad_D",65000],
+			["BAF_Offroad_W",65000],
 			["cl3_insignia_camo",75000],
 			["cl3_dodge_charger_s_camo",200000],
 			["cl3_e63_amg_camo",300000],
@@ -181,8 +185,8 @@ switch (_shop) do
 		["C_SUV_01_F",100000]];
 		_return set[count _return,
 		["DAR_TaurusPolice",100000]];
-		_return set[count _return,
-		["cl3_q7_police",133334]];
+		//_return set[count _return,
+		//["cl3_q7_police",133334]];
 		};
 
 			if(__GETC__(life_coplevel) > 2) then

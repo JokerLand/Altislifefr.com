@@ -32,7 +32,7 @@ switch (_vehicle) do
 			["#(argb,8,8,3)color(1,0.3,0.01,0.6)","civ"]
  		];
  	};
- 	
+
 	case "ALFR_GeK_Scania_420":
 	{
  		_ret =
@@ -75,7 +75,7 @@ switch (_vehicle) do
  		];
  	};
 
-	case "cl3_q7_yellow":
+	case "cl3_q7_black":
 	{
  		_ret =
  		[
@@ -95,8 +95,8 @@ switch (_vehicle) do
 			["#(argb,8,8,3)color(1,0.3,0.01,0.6)","civ"]
  		];
  	};
-	
-	case "cl3_transit_violet":
+
+	case "cl3_transit_black":
 	{
  		_ret =
  		[
@@ -116,7 +116,7 @@ switch (_vehicle) do
 			["#(argb,8,8,3)color(1,0.3,0.01,0.6)","civ"]
  		];
  	};
-	
+
 	case "A3L_VolksWagenGolfGTiblack":
 	{
  		_ret =
@@ -244,7 +244,7 @@ switch (_vehicle) do
  		];
  	};
 
-	case "DAR_TaurusCiv":
+	case "cl3_taurus_black":
 	{
  		_ret =
  		[
@@ -705,7 +705,7 @@ switch (_vehicle) do
 			["#(ai,64,64,1)Fresnel(0.3,3)","reb"],
 			["textures\opel_Police.jpg","cop"],
 			["#(ai,64,64,1)Fresnel(0.3,3)","cop"]
-			
+
  		];
  	};
 
@@ -737,7 +737,7 @@ switch (_vehicle) do
  			["textures\opel_Police.jpg","cop"]
  		];
  	};
-	
+
 	case "cl3_range_rover_camo":
 	{
  		_ret =
@@ -1001,7 +1001,7 @@ switch (_vehicle) do
 	{
 		_ret =
 		[
-			
+
 			["ALFR_TexSnd\zamak_blue.jpg","civ","\a3\soft_f_beta\Truck_02\data\truck_02_kuz_co.paa"],
 			["ALFR_TexSnd\zamak_yellow.jpg","civ","\a3\soft_f_beta\Truck_02\data\truck_02_kuz_co.paa"],
 			["ALFR_TexSnd\zamak_red.jpg","civ","\a3\soft_f_beta\Truck_02\data\truck_02_kuz_co.paa"],
@@ -1019,7 +1019,7 @@ switch (_vehicle) do
 			["#(argb,8,8,3)color(0.05,0.05,0.05,1)","civ","#(argb,8,8,3)color(0.05,0.05,0.05,1)"]
 		];
 	};
-	
+
 	case "I_Truck_02_transport_F":
 	{
 		_ret =
@@ -1060,10 +1060,10 @@ switch (_vehicle) do
 
 		];
 	};*/
-	
-	case "RDS_Ikarus_Civ_01":
+
+	case "CL3_bus_cl_black":
     {
-      _ret = 
+      _ret =
         [
 			["ALFR_TexSnd\bus_exterior_cop.jpg","cop"],
 			["ALFR_TexSnd\bus_exterior_donator.jpg","civ"]

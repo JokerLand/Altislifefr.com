@@ -31,7 +31,7 @@ switch (_vehicle) do
 			case 13: {_color = "Orange";};
 		};
 	};
-	
+
 	case "ALFR_GeK_Scania_420" :
 	{
 		switch (_index) do
@@ -116,7 +116,7 @@ switch (_vehicle) do
 		};
 	};
 
-	case "cl3_q7_yellow" :
+	case "cl3_q7_black" :
 	{
 		switch (_index) do
 		{
@@ -136,8 +136,8 @@ switch (_vehicle) do
 			case 13: {_color = "Orange";};
 		};
 	};
-	
-	case "cl3_transit_violet" :
+
+	case "cl3_transit_black" :
 	{
 		switch (_index) do
 		{
@@ -157,7 +157,7 @@ switch (_vehicle) do
 			case 13: {_color = "Orange";};
 		};
 	};
-	
+
 	case "DAR_ImpalaCiv" :
 	{
 		switch (_index) do
@@ -242,7 +242,7 @@ switch (_vehicle) do
 		};
 	};
 
-	case "DAR_TaurusCiv" :
+	case "cl3_taurus_black" :
 	{
 		switch (_index) do
 		{
@@ -713,7 +713,7 @@ switch (_vehicle) do
 			case 0: {_color = "Police";};
 		};
 	};
-	
+
 	case "cl3_dodge_charger_s_camo" :
 	{
 		switch (_index) do
@@ -1048,7 +1048,7 @@ switch (_vehicle) do
 			case 0: {_color = "Black"};
 		};
 	};
-	
+
 	case "B_MRAP_01_F":
 	{
 		switch (_index) do
@@ -1056,11 +1056,11 @@ switch (_vehicle) do
 			case 0: {_color = "Noir"};
 		};
 	};
-	
-	case "RDS_Ikarus_Civ_01":
+
+	case "CL3_bus_cl_black":
     {
         switch (_index) do {
-            
+
             case 0 : {_color = "Police"};
             case 1 : {_color = "Donateur"};
         };
@@ -1073,12 +1073,12 @@ switch (_vehicle) do
         case 0: {_color = "dogfight";};
       };
     };*/
-    
+
    case "DAR_TaurusPolice":
    {
-        switch (_index) do 
+        switch (_index) do
         {
-            case 0 :{_color ="Police";};      
+            case 0 :{_color ="Police";};
         };
   };
 
