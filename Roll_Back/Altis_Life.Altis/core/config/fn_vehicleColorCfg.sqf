@@ -962,6 +962,14 @@ switch (_vehicle) do
 		];
 	};
 
+	case "cl3_suv_taxi":
+	{
+		_ret =
+		[
+			["","cop", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "","\cl3_wheeled\a2cars\suv\data\suv_body_taxi_co.paa"]
+		];
+	};
+
 	case "O_MRAP_02_F":
 	{
 		_ret =
