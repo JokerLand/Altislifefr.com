@@ -966,7 +966,7 @@ switch (_vehicle) do
 	{
 		_ret =
 		[
-			["","cop", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "","\cl3_wheeled\a2cars\suv\data\suv_body_taxi_co.paa"]
+			["","civ", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "","\cl3_wheeled\a2cars\suv\data\suv_body_taxi_co.paa"]
 		];
 	};
 
