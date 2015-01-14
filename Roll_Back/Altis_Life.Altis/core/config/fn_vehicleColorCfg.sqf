@@ -12,6 +12,14 @@ _ret = [];
 
 switch (_vehicle) do
 {
+	case "cl3_suv_taxi":
+	{
+		_ret =
+		[
+			["\cl3_wheeled\a2cars\suv\data\suv_body_taxi_co.paa","civ"]
+		];
+	};
+
 	case "ALFR_GeK_Volvo_FH16_2012":
 	{
  		_ret =
@@ -959,14 +967,6 @@ switch (_vehicle) do
 		_ret =
 		[
 			["ALFR_TexSnd\strider_police_altis.jpg","cop","#(argb,8,8,3)color(0.05,0.05,0.05,1)"]
-		];
-	};
-
-	case "cl3_suv_taxi":
-	{
-		_ret =
-		[
-			["","civ", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "","\cl3_wheeled\a2cars\suv\data\suv_body_taxi_co.paa"]
 		];
 	};
 

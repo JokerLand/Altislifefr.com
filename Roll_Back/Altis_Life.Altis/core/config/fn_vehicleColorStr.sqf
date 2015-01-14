@@ -11,6 +11,14 @@ _color = "";
 
 switch (_vehicle) do
 {
+	case "cl3_suv_taxi" :
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Taxi";};
+		};
+	};
+
 	case "ALFR_GeK_Volvo_FH16_2012" :
 	{
 		switch (_index) do

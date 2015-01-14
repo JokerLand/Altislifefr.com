@@ -1,7 +1,7 @@
 /*
 	File: fn_vehicleWeightCfg.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Master configuration for vehicle weight.
 */
@@ -95,10 +95,14 @@ switch (_className) do
 	case "Land_CargoBox_V1_F": {5000};
 	case "Box_IND_Grenades_F": {350};
 	case "B_supplyCrate_F": {700};
-    case "RDS_Ikarus_Civ_01": {80};
-	
-	case "cl3_q7_yellow": {20};
-	case "cl3_transit_violet": {140};
+    case "CL3_bus_cl_black": {80};
+    case "cl3_suv_taxi": {100};
+    case "cl3_suv_black": {100};
+    case "cl3_taurus_black": {55};
+    case "BAF_Offroad_D": {80};
+    case "BAF_Offroad_W": {80};
+	case "cl3_q7_black": {80};
+	case "cl3_transit_black": {140};
 	case "ivory_b206": {70};
 	default {-1};
 };
