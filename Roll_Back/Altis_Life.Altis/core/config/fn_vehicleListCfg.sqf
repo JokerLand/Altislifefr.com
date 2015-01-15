@@ -200,6 +200,8 @@ switch (_shop) do
 			_return set[count _return,
 			["insignia_police_st",250000]];
 			_return set[count _return,
+			["range_rover_police",300000]];
+			_return set[count _return,
 			["CL3_bus_cl_black",100000]];
 			_return set[count _return,
 			["I_MRAP_03_F",1000000]];

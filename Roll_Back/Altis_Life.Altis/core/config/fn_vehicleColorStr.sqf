@@ -722,6 +722,14 @@ switch (_vehicle) do
 		};
 	};
 
+	case "range_rover_police" :
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Police";};
+		};
+	};
+
 	case "cl3_dodge_charger_s_camo" :
 	{
 		switch (_index) do

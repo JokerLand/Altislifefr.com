@@ -746,6 +746,14 @@ switch (_vehicle) do
  		];
  	};
 
+ 	case "range_rover_police":
+	{
+ 		_ret =
+ 		[
+ 			["range_rover_police\data\range_rover_police.paa","cop"]
+ 		];
+ 	};
+
 	case "cl3_range_rover_camo":
 	{
  		_ret =
