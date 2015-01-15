@@ -27887,7 +27887,7 @@ class Mission
 		};
 		class Item2177
 		{
-			position[]={17052.182,22.800032,16105.99};
+			position[]={17052.416,22.820799,16105.973};
 			azimut=132.136;
 			id=2378;
 			side="EMPTY";
@@ -43926,7 +43926,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=392;
+		items=399;
 		class Item0
 		{
 			position[]={8459.6777,104.56568,25131.203};
@@ -47108,6 +47108,79 @@ class Mission
 			type="mil_box";
 			colorName="ColorYellow";
 			angle=-140.25597;
+		};
+		class Item392
+		{
+			position[]={17403.436,5.7980933,18139.979};
+			name="frontiere_marker";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorBlue";
+			a=250;
+			b=15;
+			angle=-59.933105;
+		};
+		class Item393
+		{
+			position[]={17207.791,30.878452,17051.535};
+			name="frontiere_marker_2";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorBlue";
+			a=880;
+			b=15;
+			angle=94.723;
+		};
+		class Item394
+		{
+			position[]={17025.006,20.447006,16060.753};
+			name="frontiere_marker_1";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorBlue";
+			a=170;
+			b=15;
+			angle=-227.498;
+		};
+		class Item395
+		{
+			position[]={16759.75,13.775352,15837.8};
+			name="frontiere_marker_3";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorBlue";
+			a=190;
+			b=15;
+			angle=326.40753;
+		};
+		class Item396
+		{
+			position[]={16593.139,3.0964625,15595.043};
+			name="frontiere_marker_3_1";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorBlue";
+			a=150;
+			b=15;
+			angle=456.04428;
+		};
+		class Item397
+		{
+			position[]={17279.301,14.596511,17911.736};
+			name="fnt_marker_1";
+			text="Douane Nord";
+			type="mil_join";
+			colorName="ColorWEST";
+			angle=169.853;
+		};
+		class Item398
+		{
+			position[]={16609.582,6.9153757,15742.513};
+			name="fnt_marker_1_1";
+			text="Douane Sud";
+			type="mil_join";
+			colorName="ColorWEST";
+			angle=217.355;
 		};
 	};
 	class Sensors
