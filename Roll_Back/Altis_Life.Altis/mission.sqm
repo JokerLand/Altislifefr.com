@@ -12595,7 +12595,7 @@ class Mission
 			special="NONE";
 			id=1010;
 			side="EMPTY";
-			vehicle="Land_InfoStand_V1_F";
+			vehicle="Land_InfoStand_V2_F";
 			skill=0.2;
 			init="this enableSimulation false; this allowDamage false; this addAction[""Go-kart  Shop"",life_fnc_vehicleShopMenu,[""kart_shop"",civilian,""kart_shop_1"",""civ"",""Bobby's Kart Shack""]]; this addAction[""Clothing Store"",life_fnc_clothingMenu,""kart""];";
 		};
