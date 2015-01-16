@@ -25,3 +25,4 @@
 #include "settings.h"
 #include "federalReserve.h"
 #include "veh_repaint.hpp"
+#include "altisslots.hpp"

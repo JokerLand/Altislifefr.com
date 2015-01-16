@@ -62,6 +62,27 @@ class CfgSounds
         sound[] = {"\sounds\spraycan.ogg", 1, 1};
         titles[] = {};
 	};
+    
+    class casMusic
+    {
+        name = "casMusic";	
+		sound[] = {"\sounds\casino.ogg", 1, 1};
+		titles[] = {};
+    };
+    
+    class slot_spin
+	{
+		name = "slot_spin";
+		sound[] = {"\sounds\slot_spin.ogg", 1, 1};
+		titles[] = {1, ""};
+	};
+    
+    class slot_payoff
+	{
+		name = "slot_payoff";
+		sound[] = {"\sounds\slot_payoff.ogg", 1, 1};
+		titles[] = {1, ""};
+	};
 	
 	class SirenLong
 	{

@@ -54,6 +54,18 @@ class Life_Client_Core
 		class adminMenu {};
 		class adminQuery {};
 	};
+    
+    class Casino
+	{
+		file = "core\casino";
+		class slotInit {};
+		class slotPlay {};
+		class slotRandom {};
+		class slotRewards {};
+		class casMusic {};
+		class casino777 {};
+		class casino {};
+	};
 	
 	class Medical_System
 	{
