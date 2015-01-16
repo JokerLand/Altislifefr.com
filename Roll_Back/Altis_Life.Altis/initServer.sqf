@@ -22,7 +22,6 @@ onMapSingleClick "if(_alt) then {vehicle player setPos _pos};";
 	_var attachTo [_hs, [-28.0336,-10.0317,0.0889387]];
 	detach _var;
 } foreach ["hospital_2","hospital_3"];
-[] execVM "Base\baseTOP6.sqf";
 [] execVM "Base\BaseMOA.sqf";
 [] execVM "Base\BaseTOR.sqf";
 [] execVM "Base\Base-GRF.sqf";
