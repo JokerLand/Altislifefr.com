@@ -35,6 +35,7 @@ onMapSingleClick "if(_alt) then {vehicle player setPos _pos};";
 [] execVM "Base\base-LMC.sqf";
 [] execVM "Base\base-altiskaia.sqf";
 [] execVM "Base\Base-Yakuza.sqf";
+[] execVM "Base\Casino.sqf";
 
 [] execVM "cleanup.sqf";
 

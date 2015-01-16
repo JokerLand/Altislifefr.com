@@ -4247,7 +4247,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=3633;
+		items=3651;
 		class Item0
 		{
 			position[]={8065.1616,35.674362,24985.314};
@@ -43923,10 +43923,241 @@ class Mission
 			text="Pyrgos_Fret";
 			init="this SetObjectTexture [0,""images\dTruck_billboard.jpg""]; this allowDamage false; this enableSimulation false; this addAction[""Livrer le Fret"",life_fnc_dTruckFinish,""Pyrgos_Fret"",0,false,false,"""",'!isNil ""life_dTruck_point"" && life_delivery_in_progress && life_dTruck_point == _target '];  this addAction[""Obtenir une Mission de Transport"",life_fnc_getTruckMission,""Pyrgos_Fret"",0,false,false,"""",' isNil ""life_dTruck_point"" && !life_delivery_in_progress '];";
 		};
+		class Item3633
+		{
+			position[]={3771.8413,22.513023,12684.913};
+			azimut=297.66101;
+			offsetY=3.5999999;
+			id=3834;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V2_F";
+			leader=1;
+			skill=0.60000002;
+			text="test_1";
+			init="this enableSimulation false; this allowDamage false; this setObjectTexture [0, ""textures\slot.jpg""]; this addAction [""Machine a sous - mise  de $2,000"",life_fnc_slotInit,0];";
+		};
+		class Item3634
+		{
+			position[]={3770.4451,22.623873,12682.509};
+			azimut=297.66101;
+			offsetY=3.5999999;
+			id=3835;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V2_F";
+			leader=1;
+			skill=0.60000002;
+			text="test_1_1";
+			init="this enableSimulation false; this allowDamage false; this setObjectTexture [0, ""textures\slot.jpg""]; this addAction [""Machine a sous - mise  de $2,000"",life_fnc_slotInit,0];";
+		};
+		class Item3635
+		{
+			position[]={3769.3579,22.854156,12680.973};
+			azimut=297.66101;
+			offsetY=3.3;
+			id=3836;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V2_F";
+			leader=1;
+			skill=0.60000002;
+			text="test_1_2";
+			init="this enableSimulation false; this allowDamage false; this setObjectTexture [0, ""textures\slot.jpg""]; this addAction [""Machine a sous - mise  de $5,000"",life_fnc_slotInit,1];";
+		};
+		class Item3636
+		{
+			position[]={3767.8291,23.08507,12678.655};
+			azimut=297.66101;
+			offsetY=3.0999999;
+			id=3837;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V2_F";
+			leader=1;
+			skill=0.60000002;
+			text="test_1_3";
+			init="this enableSimulation false; this allowDamage false; this setObjectTexture [0, ""textures\slot.jpg""]; this addAction [""Machine a sous - mise  de $5,000"",life_fnc_slotInit,1];";
+		};
+		class Item3637
+		{
+			position[]={3786.999,23.238586,12691.409};
+			azimut=343.905;
+			offsetY=3;
+			id=3838;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V2_F";
+			leader=1;
+			skill=0.60000002;
+			text="test_1_4";
+			init="this enableSimulation false; this allowDamage false; this setObjectTexture [0, ""textures\slot.jpg""]; this addAction [""Machine a sous - mise  de $5,000"",life_fnc_slotInit,1];";
+		};
+		class Item3638
+		{
+			position[]={3789.5588,23.205,12691.874};
+			azimut=345.401;
+			offsetY=3;
+			id=3839;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V2_F";
+			leader=1;
+			skill=0.60000002;
+			text="test_1_5";
+			init="this enableSimulation false; this allowDamage false; this setObjectTexture [0, ""textures\slot.jpg""]; this addAction [""Machine a sous - mise  de $5,000"",life_fnc_slotInit,1];";
+		};
+		class Item3639
+		{
+			position[]={3791.343,23.156464,12692.262};
+			azimut=343.905;
+			offsetY=3;
+			id=3840;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V2_F";
+			leader=1;
+			skill=0.60000002;
+			text="test_1_4_1";
+			init="this enableSimulation false; this allowDamage false; this setObjectTexture [0, ""textures\slot.jpg""]; this addAction [""Machine a sous - mise  de $10,000"",life_fnc_slotInit,2];";
+		};
+		class Item3640
+		{
+			position[]={3794.5627,23.224651,12692.999};
+			azimut=343.905;
+			offsetY=3;
+			id=3841;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V2_F";
+			leader=1;
+			skill=0.60000002;
+			text="test_1_4_2";
+			init="this enableSimulation false; this allowDamage false; this setObjectTexture [0, ""textures\slot.jpg""]; this addAction [""Machine a sous - mise  de $10,000"",life_fnc_slotInit,2];";
+		};
+		class Item3641
+		{
+			position[]={3816.7712,24.287683,12646.239};
+			azimut=490.57101;
+			offsetY=1.8;
+			id=3842;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V2_F";
+			leader=1;
+			skill=0.60000002;
+			text="test_1_4_3";
+			init="this enableSimulation false; this allowDamage false; this addAction[""Roulette 1000$"",life_fnc_casino, 1000];this addAction[""Roulette 10000$"",life_fnc_casino, 10000];this addAction[""Roulette 50000$"",life_fnc_casino, 50000];";
+		};
+		class Item3642
+		{
+			position[]={3814.939,24.448601,12644.063};
+			azimut=494.254;
+			offsetY=1.7;
+			id=3843;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V2_F";
+			leader=1;
+			skill=0.60000002;
+			text="test_1_4_4";
+			init="this enableSimulation false; this allowDamage false; this addAction[""Roulette 1000$"",life_fnc_casino, 1000];this addAction[""Roulette 10000$"",life_fnc_casino, 10000];this addAction[""Roulette 50000$"",life_fnc_casino, 50000];";
+		};
+		class Item3643
+		{
+			position[]={3813.8625,24.54044,12642.633};
+			azimut=490.57101;
+			offsetY=1.6;
+			id=3844;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V2_F";
+			leader=1;
+			skill=0.60000002;
+			text="test_1_4_3_1";
+			init="this enableSimulation false; this allowDamage false; this addAction[""Roulette 1000$"",life_fnc_casino, 1000];this addAction[""Roulette 10000$"",life_fnc_casino, 10000];this addAction[""Roulette 50000$"",life_fnc_casino, 50000];";
+		};
+		class Item3644
+		{
+			position[]={3811.884,24.731028,12640.264};
+			azimut=490.57101;
+			offsetY=1.5;
+			id=3845;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V2_F";
+			leader=1;
+			skill=0.60000002;
+			text="test_1_4_3_2";
+			init="this enableSimulation false; this allowDamage false; this addAction[""Roulette 1000$"",life_fnc_casino, 1000];this addAction[""Roulette 10000$"",life_fnc_casino, 10000];this addAction[""Roulette 50000$"",life_fnc_casino, 50000];";
+		};
+		class Item3645
+		{
+			position[]={3824.583,23.864605,12657.155};
+			azimut=490.57101;
+			offsetY=2.3;
+			id=3846;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V2_F";
+			leader=1;
+			skill=0.60000002;
+			text="test_1_4_3_3";
+			init="this enableSimulation false; this allowDamage false; this setObjectTexture [0, ""textures\slot.jpg""]; this addAction [""Machine a sous - mise  de $2,000"",life_fnc_slotInit,0];";
+		};
+		class Item3646
+		{
+			position[]={3822.9155,23.919928,12654.832};
+			azimut=490.57101;
+			offsetY=2.2;
+			id=3847;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V2_F";
+			leader=1;
+			skill=0.60000002;
+			text="test_1_4_3_4";
+			init="this enableSimulation false; this allowDamage false; this setObjectTexture [0, ""textures\slot.jpg""]; this addAction [""Machine a sous - mise  de $2,000"",life_fnc_slotInit,0];";
+		};
+		class Item3647
+		{
+			position[]={3821.907,23.953211,12653.706};
+			azimut=490.57101;
+			offsetY=2.2;
+			id=3848;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V2_F";
+			leader=1;
+			skill=0.60000002;
+			text="test_1_4_3_4_1";
+			init="this enableSimulation false; this allowDamage false; this addAction[""Roulette 1000$"",life_fnc_casino, 1000];this addAction[""Roulette 10000$"",life_fnc_casino, 10000];this addAction[""Roulette 50000$"",life_fnc_casino, 50000];";
+		};
+		class Item3648
+		{
+			position[]={3820.2393,24.007761,12651.459};
+			azimut=490.57101;
+			offsetY=2.2;
+			id=3849;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V2_F";
+			leader=1;
+			skill=0.60000002;
+			text="test_1_4_3_4_2";
+			init="this enableSimulation false; this allowDamage false; this addAction[""Roulette 1000$"",life_fnc_casino, 1000];this addAction[""Roulette 10000$"",life_fnc_casino, 10000];this addAction[""Roulette 50000$"",life_fnc_casino, 50000];";
+		};
+		class Item3649
+		{
+			position[]={3815.748,22.717884,12687.703};
+			azimut=215.82257;
+			offsetY=3.9000001;
+			id=3850;
+			side="EMPTY";
+			vehicle="Land_Billboard_F";
+			skill=0.60000002;
+			text="Casino_panneaux";
+			init="this enableSimulation false; this allowDamage false; this SetObjectTexture [0,""images\Casino.jpg""];";
+		};
+		class Item3650
+		{
+			position[]={3807.6978,22.774197,12692.711};
+			azimut=-146.44377;
+			id=3851;
+			side="EMPTY";
+			vehicle="Land_Atm_01_F";
+			skill=0.60000002;
+			text="atm1_1_3_1_6_4_3_1_4";
+			init="this enableSimulation false; this allowDamage false; this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu]; this addAction[""Banking Insurance ($1,000)"",{if(life_atmcash > 1000) then {life_has_insurance = true; life_atmcash = life_atmcash - 1000};},"""",0,false,false,"""",'!life_has_insurance'];";
+		};
 	};
 	class Markers
 	{
-		items=399;
+		items=401;
 		class Item0
 		{
 			position[]={8459.6777,104.56568,25131.203};
@@ -47182,10 +47413,25 @@ class Mission
 			colorName="ColorWEST";
 			angle=217.355;
 		};
+		class Item399
+		{
+			position[]={3798.5227,24.617723,12669.261};
+			name="mk_cas";
+			text="Casino de Kavala";
+			type="mil_circle";
+			colorName="ColorYellow";
+		};
+		class Item400
+		{
+			position[]={3807.4243,22.846603,12692.061};
+			name="atm_marker_6";
+			type="loc_Tourism";
+			colorName="ColorGreen";
+		};
 	};
 	class Sensors
 	{
-		items=1;
+		items=2;
 		class Item0
 		{
 			position[]={15461.95,0.10019003,15344.476};
@@ -47195,6 +47441,24 @@ class Mission
 			interruptable=1;
 			age="UNKNOWN";
 			name="wholeworld";
+			class Effects
+			{
+			};
+		};
+		class Item1
+		{
+			position[]={3823.0571,22.030731,12696.204};
+			a=15;
+			b=20;
+			angle=34.854851;
+			rectangular=1;
+			activationBy="ANY";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			expCond="this && (vehicle player in thisList)";
+			expActiv="life_casMusicTrig = true;call life_fnc_casMusic;";
+			expDesactiv="life_casMusicTrig = false;";
 			class Effects
 			{
 			};
