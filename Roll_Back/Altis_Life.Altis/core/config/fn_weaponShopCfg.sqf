@@ -652,6 +652,7 @@ switch(_shop) do
 				["Donator Shop",
 					[
 						["hgun_Rook40_F",nil,8000],
+						["hgun_Pistol_heavy_01_F",nil,10000],
 						["hgun_PDW2000_F",nil,15000],
 						["SMG_01_F",nil,20000],
 						["arifle_Mk20C_plain_F",nil,100000],
@@ -682,6 +683,7 @@ switch(_shop) do
 						["optic_Arco",nil,10000],
 						["optic_Hamr",nil,10000],
 						["optic_ACO_grn_smg",nil,2000],
+						["optic_MRD",nil,1500],
 						["acc_pointer_IR",nil,10000],
 						["NVGoggles",nil,2000],
 						["ToolKit",nil,250],
@@ -702,6 +704,7 @@ switch(_shop) do
 						["Cha_100Rnd_762x54_PK_T",nil,100],
 						["16Rnd_9x21_Mag",nil,50],
 						["30Rnd_9x21_Mag",nil,60],
+						["11Rnd_45ACP_Mag",nil,50],
 						["30Rnd_45ACP_Mag_SMG_01_tracer_green",nil,60],
 						["30Rnd_556x45_Stanag",nil,70],
 						["200Rnd_65x39_cased_Box_Tracer",nil,800],
@@ -825,6 +828,7 @@ switch(_shop) do
                     [
                         ["ToolKit",nil,200],
                         ["FirstAidKit",nil,100],
+						["Mask_M40","Masque à Gaz",85000],
                         ["U_C_Scientist","Combinaison Antiradiation",100000]
                     ]
                 ];
