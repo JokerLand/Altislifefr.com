@@ -342,9 +342,9 @@ _pos = [4088.29,13752.9,21.342];
  cone allowDamage false;
 // ***************************************
 _pos = [4086.25,13758.5,21.2815];
-_object = createVehicle ["RoadCone_L_F", _pos, [], 0, "CAN_COLLIDE"];
-_object setDir 29.7323;
-_object setPosASL _pos;
+ cone = createVehicle ["RoadCone_L_F", _pos, [], 0, "CAN_COLLIDE"];
+ cone setDir 29.7323;
+ cone setPosASL _pos;
  cone allowDamage false;
 // ***************************************
 _pos = [4082.53,13744.1,21.3002];
