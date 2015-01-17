@@ -249,6 +249,7 @@ class Life_Client_Core
 		class loadCopGear {};
 		class stripDownPlayer {};
 		class playSound {};
+        class fadeSound {};
 	};
 	
 	class Network
