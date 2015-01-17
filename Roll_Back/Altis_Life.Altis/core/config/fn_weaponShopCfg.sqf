@@ -828,7 +828,7 @@ switch(_shop) do
                     [
                         ["ToolKit",nil,200],
                         ["FirstAidKit",nil,100],
-						["Mask_M40","Masque à Gaz",85000],
+						["Mask_M40","Masque a Gaz",85000],
                         ["U_C_Scientist","Combinaison Antiradiation",100000]
                     ]
                 ];
