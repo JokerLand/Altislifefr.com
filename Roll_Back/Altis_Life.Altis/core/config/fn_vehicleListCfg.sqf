@@ -122,6 +122,7 @@ switch (_shop) do
 				["I_G_Offroad_01_F",45000],
 				["cl3_suv_taxi",50000],
 				["B_Heli_Light_01_F",100000],
+				["C_Heli_Light_01_civil_F",100000],
 				["cl3_suv_black",200000],
 				["B_Truck_01_box_F",250000],
 				["ALFR_GeK_Scania_420",250000],
@@ -132,6 +133,7 @@ switch (_shop) do
 				["I_Heli_Transport_02_F",600000],
 				["ivory_b206",165000],
 				["IVORY_T6A_1",3000000],
+				["B_Heli_Transport_03_unarmed_F",1333334],
                 ["CL3_bus_cl_black",100000]
 			];
 		};
@@ -153,7 +155,11 @@ switch (_shop) do
 			["O_Truck_03_covered_F",1350000],
 			["O_Truck_03_ammo_F",1500000],
 			["B_Heli_Light_01_F",225000],
-			["O_Heli_Light_02_unarmed_F",650000]
+			["O_Heli_Light_02_unarmed_F",650000],
+			["O_Heli_Transport_04_bench_F",533000],
+			["O_Heli_Transport_04_covered_F",1000000],
+			["O_Heli_Transport_04_ammo_F",1130000],
+			["O_Heli_Transport_04_F",1333334]
 		];
 
 		if(license_civ_rebel) then
@@ -219,6 +225,7 @@ switch (_shop) do
 		_return =
 		[
 			["B_Heli_Light_01_F",153000],
+			["C_Heli_Light_01_civil_F",153000],
 			["ivory_b206",180000],
 			["O_Heli_Light_02_unarmed_F",550000]
 		];
