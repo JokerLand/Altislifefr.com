@@ -702,6 +702,27 @@ switch (_vehicle) do
 		};
 	};
 
+	case "ALFR_GeK_Panamera" :
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Noir";};
+			case 1: {_color = "Gris Sombre";};
+			case 2: {_color = "Gris";};
+			case 3: {_color = "Gris Clair";};
+			case 4: {_color = "Blanc";};
+			case 5: {_color = "Sable";};
+			case 6: {_color = "Bordeau";};
+			case 7: {_color = "Bleu";};
+			case 8: {_color = "Bleu Nuit";};
+			case 9: {_color = "Mauve Nuit";};
+			case 10: {_color = "Vert";};
+			case 11: {_color = "Rouge";};
+			case 12: {_color = "Jaune";};
+			case 13: {_color = "Orange";};
+		};
+	};
+	
 	case "cl3_insignia_camo" :
 	{
 		switch (_index) do
@@ -723,6 +744,14 @@ switch (_vehicle) do
 	};
 
 	case "range_rover_police" :
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Police";};
+		};
+	};
+	
+	case "ALFR_GeK_Panamera_Police" :
 	{
 		switch (_index) do
 		{
