@@ -252,6 +252,12 @@ switch (_shop) do
 			_return set[count _return,
 			["B_Heli_Transport_01_F",200000]];
 			};
+			
+			if(__GETC__(life_coplevel) > 6) then
+			{
+			_return set[count _return,
+			["B_Heli_Transport_03_F",1000000]];
+			};
 	};
 
 	case "cop_airhq":
