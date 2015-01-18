@@ -31,9 +31,7 @@ switch (_side) do
 			["civ_spawn_1","Kavala","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
 			["civ_spawn_2","Pyrgos","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
 			["civ_spawn_3","Athira","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
-			["civ_spawn_4","Sofia","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
-			["pvp_spawn_1","ZonePvP (A)","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"],
-			["pvp_spawn_2","ZonePvP (B)","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]
+			["civ_spawn_4","Sofia","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
 		];
 
 				if(license_civ_rebel && playerSide == civilian) then {
