@@ -4246,7 +4246,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=3406;
+		items=3410;
 		class Item0
 		{
 			position[]={8065.1616,35.674362,24985.314};
@@ -41715,10 +41715,50 @@ class Mission
 			text="atm1_1_3_1_6_4_3_1_4";
 			init="this enableSimulation false; this allowDamage false; this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu]; this addAction[""Banking Insurance ($1,000)"",{if(life_atmcash > 1000) then {life_has_insurance = true; life_atmcash = life_atmcash - 1000};},"""",0,false,false,"""",'!life_has_insurance'];";
 		};
+		class Item3406
+		{
+			position[]={12455.246,74.25843,15204.144};
+			azimut=360.39401;
+			id=3607;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V2_F";
+			skill=1;
+			init="removeallWeapons this;    this enableSimulation false;  this allowDamage false;    this addAction[""Marché"",life_fnc_virt_menu,""rebel"",0,false,false,"""",' license_cn && playerSide == civilian'];  this addAction[""Uniformes"",life_fnc_clothingMenu,""reb"",0,false,false,"""",' license_cn && playerSide == civilian'];    this addAction[""Armes"",life_fnc_weaponShopMenu,""rebel"",0,false,false,"""",' license_cn && playerSide == civilian'];    this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu,"""",0,FALSE,FALSE,"""",' vehicle player == player && license_mw && player distance _target < 4 '];this addAction[format[""%1 ($%2)"",[""license_civ_rebel""] call life_fnc_varToStr,[([""rebel""] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,""rebel"",0,false,false,"""",' !license_civ_rebel && playerSide == civilian '];";
+		};
+		class Item3407
+		{
+			position[]={12453.424,74.238899,15204.151};
+			azimut=360.39401;
+			id=3608;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V2_F";
+			skill=1;
+			init="removeallWeapons this;   this enableSimulation false;    this allowDamage false;   this addAction[""Quincaillerie"",life_fnc_weaponShopMenu,""genstore"",0,false,false,"""",' license_cn && playerSide == civilian']; ";
+		};
+		class Item3408
+		{
+			position[]={12497.501,71.278748,15213.158};
+			azimut=1.9261075;
+			id=3609;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V2_F";
+			skill=1;
+			init="removeallWeapons this;    this enableSimulation false;    this allowDamage false;    this addAction[""Vehicules"",life_fnc_vehicleShopMenu,[""reb_car"",civilian,[""car_cn""],""reb"",""CN - Achat de Véhicule""],0,false,false,"""",'license_cn']; this addAction[""Vehicle Garage"",  {   [[getPlayerUID player,playerSide,""Car"",player],""TON_fnc_getVehicles"",false,false,"""",' license_cn && playerSide == civilian'] spawn life_fnc_MP; life_garage_type = ""Car"";  createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""car_cn"";  }]; this addAction[""Store vehicle in Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];";
+		};
+		class Item3409
+		{
+			position[]={12494.865,73.821472,15168.018};
+			azimut=-177.08781;
+			id=3610;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V2_F";
+			skill=1;
+			init="removeallWeapons this;    this enableSimulation false;    this allowDamage false;    this enableSimulation false;   this addAction[""Vehicle Garage"",  {   [[getPlayerUID player,playerSide,""Air"",player],""TON_fnc_getVehicles"",false,false,"""",' license_cn && playerSide == civilian'] spawn life_fnc_MP; life_garage_type = ""Air"";  createDialog ""Life_impound_menu"";     disableSerialization;     ctrlSetText[2802,""Fetching Vehicles....""];     life_garage_sp = ""air_cn"";  }];   this addAction[""Store vehicle in Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store && license_cn'];";
+		};
 	};
 	class Markers
 	{
-		items=401;
+		items=404;
 		class Item0
 		{
 			position[]={8459.6777,104.56568,25131.203};
@@ -44988,6 +45028,27 @@ class Mission
 			name="atm_marker_6";
 			type="loc_Tourism";
 			colorName="ColorGreen";
+		};
+		class Item401
+		{
+			position[]={12495.289,73.499825,15179.013};
+			name="air_cn";
+			type="Empty";
+			angle=-309.79077;
+		};
+		class Item402
+		{
+			position[]={12495.074,73.355782,15195.71};
+			name="car_cn";
+			type="Empty";
+			angle=1.7369316;
+		};
+		class Item403
+		{
+			position[]={12458.891,74.286873,15192.346};
+			name="spawn_cn";
+			type="Empty";
+			angle=0.49318844;
 		};
 	};
 	class Sensors
