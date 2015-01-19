@@ -32,7 +32,7 @@ _price = switch (_vehName) do {
 	case "A3L_Dumptruck": { "112500" };
 	case "B_Truck_01_covered_F": { "125000" };
 	case "B_Truck_01_box_F": { "137500" };
-    case "ALFR_GeK_Scania_420": { "175000" };
+    case "ALFR_GeK_Scania_420": { "137500" };
 	case "ALFR_GeK_Volvo_FH16_2012": { "150000" };
 };
 
