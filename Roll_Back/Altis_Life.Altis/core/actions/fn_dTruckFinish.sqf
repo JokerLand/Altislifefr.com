@@ -22,18 +22,18 @@ life_dTruck_point = nil;
 _vehName = typeOf vehicle player;
 
 _price = switch (_vehName) do {
-	case "C_Van_01_transport_F": { "50000" };
-	case "cl3_transit_black": { "75000" };
-	case "C_Van_01_box_F": { "100000" };
-	case "C_Van_01_Fuel_F": { "125000" };
-	case "I_Truck_02_transport_F": { "150000" };
-	case "I_Truck_02_covered_F": { "175000" };
-	case "B_Truck_01_transport_F": { "200000" };
-	case "A3L_Dumptruck": { "225000" };
-	case "B_Truck_01_covered_F": { "250000" };
-	case "B_Truck_01_box_F": { "275000" };
-    case "ALFR_GeK_Scania_420": { "275000" };
-	case "ALFR_GeK_Volvo_FH16_2012": { "300000" };
+	case "C_Van_01_transport_F": { "25000" };
+	case "cl3_transit_black": { "37500" };
+	case "C_Van_01_box_F": { "50000" };
+	case "C_Van_01_Fuel_F": { "62500" };
+	case "I_Truck_02_transport_F": { "75000" };
+	case "I_Truck_02_covered_F": { "87500" };
+	case "B_Truck_01_transport_F": { "100000" };
+	case "A3L_Dumptruck": { "112500" };
+	case "B_Truck_01_covered_F": { "125000" };
+	case "B_Truck_01_box_F": { "137500" };
+    case "ALFR_GeK_Scania_420": { "175000" };
+	case "ALFR_GeK_Volvo_FH16_2012": { "150000" };
 };
 
 _price = parseNumber _price;
