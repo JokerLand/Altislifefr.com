@@ -134,7 +134,7 @@ switch (_shop) do
 				["I_Heli_Transport_02_F",600000],
 				["ivory_b206",165000],
 				["IVORY_T6A_1",3000000],
-				["B_Heli_Transport_03_unarmed_F",1333334],
+				["B_Heli_Transport_03_unarmed_F",4500000],
                 ["CL3_bus_cl_black",100000]
 			];
 		};
@@ -157,10 +157,10 @@ switch (_shop) do
 			["O_Truck_03_ammo_F",1500000],
 			["B_Heli_Light_01_F",225000],
 			["O_Heli_Light_02_unarmed_F",650000],
-			["O_Heli_Transport_04_bench_F",533000],
-			["O_Heli_Transport_04_covered_F",1000000],
-			["O_Heli_Transport_04_ammo_F",1130000],
-			["O_Heli_Transport_04_F",1333334]
+			["O_Heli_Transport_04_bench_F",1000000],
+			["O_Heli_Transport_04_covered_F",1130000],
+			["O_Heli_Transport_04_ammo_F",1500000],
+			["O_Heli_Transport_04_F",3000000]
 		];
 
 		if(license_civ_rebel) then
