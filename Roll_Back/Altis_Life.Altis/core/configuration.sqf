@@ -78,7 +78,7 @@ life_thirst = 100;
 life_hunger = 100;
 __CONST__(life_paycheck_period,5); //Five minutes
 life_cash = 0;
-__CONST__(life_impound_car,2500);
+__CONST__(life_impound_car,5000);
 __CONST__(life_impound_boat,5000);
 __CONST__(life_impound_air,7500);
 life_istazed = false;
@@ -307,7 +307,7 @@ sell_array =
     ["cola",50],
     ["frite",75],
     ["biere",60],
-    ["uranium",35000],
+    ["uranium",15000],
     ["uranium2",3000],
     ["uranium3",3000],
     ["uranium4",3000],
