@@ -155,6 +155,7 @@ switch (_shop) do
 			["O_Truck_03_transport_F",1000000],
 			["O_Truck_03_covered_F",1350000],
 			["O_Truck_03_ammo_F",1500000],
+			["C_Heli_Light_01_civil_F",225000],
 			["B_Heli_Light_01_F",225000],
 			["O_Heli_Light_02_unarmed_F",650000],
 			["O_Heli_Transport_04_bench_F",1000000],
