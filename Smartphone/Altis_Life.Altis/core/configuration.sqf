@@ -83,6 +83,7 @@ __CONST__(life_impound_boat,5000);
 __CONST__(life_impound_air,7500);
 life_istazed = false;
 life_my_gang = ObjNull;
+life_smartphoneTarget = ObjNull;
 
 life_vehicles = [];
 bank_robber = [];
