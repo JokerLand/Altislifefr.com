@@ -127,7 +127,7 @@ switch (_var) do
     case "license_fst": {"F.S.T"};
     case "license_fmg": {"F.M.G"};
     case "license_sop": {"Soprano"};
-	case "license_top": {"Top6"};
+	case "license_top": {"TORRES"};
 	case "license_moa": {"M.O.A"};
 	case "license_tor": {"TOR"};
 	case "license_grf": {"G.R.F"};
@@ -136,7 +136,7 @@ switch (_var) do
 	case "license_yk": {"Yakusa"};
 	case "license_cro": {"Cronik"};
 	case "license_cn": {"C-N"};
-	case "license_cro": {"Torres"};
-	case "license_cro": {"Unity"};
+	case "license_torres": {"Torres"};
+	case "license_unity": {"Unity"};
     case "license_civ_uranium": {"Formation Uranium"};
 };
