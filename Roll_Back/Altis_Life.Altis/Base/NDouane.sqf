@@ -454,7 +454,7 @@ _object = createVehicle ["Land_Crash_barrier_F", _pos, [], 0, "CAN_COLLIDE"];
 _object setDir 11.2516;
 _object setPosASL _pos;
 // ***************************************
-_pos = [15673.8,17471.7,14.7262];
+_pos = [15673.7,17471.3,14.7222];
 _object = createVehicle ["Land_Crash_barrier_F", _pos, [], 0, "CAN_COLLIDE"];
 _object setDir 11.2517;
 _object setPosASL _pos;
@@ -469,9 +469,9 @@ _object = createVehicle ["Land_Crash_barrier_F", _pos, [], 0, "CAN_COLLIDE"];
 _object setDir 13.2516;
 _object setPosASL _pos;
 // ***************************************
-_pos = [15673.7,17471.1,14.7213];
+_pos = [15673.6,17470.8,14.7187];
 _object = createVehicle ["Land_Crash_barrier_F", _pos, [], 0, "CAN_COLLIDE"];
-_object setDir 191.654;
+_object setDir 192.654;
 _object setPosASL _pos;
 // ***************************************
 _pos = [15680.4,17469.3,14.6872];
