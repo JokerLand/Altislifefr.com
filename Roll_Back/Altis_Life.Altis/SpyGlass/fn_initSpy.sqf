@@ -10,7 +10,7 @@
 	
 	Will also become a standalone system which is why it's setup like this.
 */
-private["_binConfigPatches","_cfgPatches","_endM"];
+private["_binConfigPatches","_cfgPatches","_endM","_Admins"];
 if(isServer && !hasInterface) exitWith {}; //Server doesn't need to know.
 
 CONST(W_O_O_K_I_E_ANTI_ANTI_HAX,"false");
@@ -26,6 +26,10 @@ CONST(JJJJ_MMMM___EEEEEEE_LLYYSSTTIICCC_SHIT_RE,"false");
 CONST(JJJJ_MMMM___EEEEEEE_LLYYSSTTIICCC_SHIT_RE_OLD,"false");
 CONST(JJJJ_MMMM___EEEEEEE_SPAWN_VEH,"false");
 CONST(JJJJ_MMMM___EEEEEEE_SPAWN_WEAPON,"false");
+
+
+_Admins = ["76561198018721225","76561198134471438","76561198047615445","76561197970613175","76561198016583555","76561198127376072","76561198085115832"]; 			//Add your admin UID here
+if(getplayeruid player in _Admins) exitWith {}; //Desactive spyglass pour les admins
 
 /*
 	Compile our list of allowed addon patches, by default this DOES NOT ALLOW ANY ADDONS.
@@ -124,7 +128,7 @@ _patchList =
 "A3_Soft_F_Heli_MRAP_01","A3_Air_F_Heli_Heli_Transport_04","A3_Soft_F_Heli_MRAP_02","A3_Soft_F_Heli_MRAP_03","A3_Soft_F_Heli_Quadbike","A3_Soft_F_Heli_SUV",
 "A3_Soft_F_Heli_Truck","A3_UI_F_Heli","A3_Air_F_Heli","A3_Air_F_Heli_Heli_Attack_01","A3_Air_F_Heli_Heli_Attack_02","A3_Air_F_Heli_Heli_Light_01","A3_Air_F_Heli_Heli_Light_02","A3_Air_F_Heli_Heli_Light_03",
 "A3_Air_F_Heli_Heli_Transport_01","A3_Air_F_Heli_Heli_Transport_02","A3_Air_F_Heli_Heli_Transport_03","A3_Air_F_Heli_Heli_Transport_04",
-"A3_CargoPoses_F_Heli","A3_Soft_F_Heli_Crusher_UGV",
+"A3_CargoPoses_F_Heli","A3_Soft_F_Heli_Crusher_UGV","A3_Plants",
  "BMW_M5","A3L_Charger","A3L_Dumptruck","A3L_Punto","A3L_VolksWagenGolfGTi","ALFR_GeK_Scania_420","asdg_jointrails",
 "c1987_mp7","c1987_mp7_c","Cha_PKP","cl3_sounds","cl3_vehiclefunctions","cl3_wheeled","cl3_dbs_volante",
 "cl3_r8_spyder","cl3_e60_m5","cl3_z4_2008","cl3_veyron","cl3_dodge_charger_2012","cl3_458","cl3_civic_vti",
@@ -182,7 +186,7 @@ private["_children","_allowedChildren"];
 _children = [configFile >> "RscDisplayMPInterrupt" >> "controls",0] call BIS_fnc_returnChildren;
 _allowedChildren = [
 "Title","MissionTitle","DifficultyTitle","PlayersName","ButtonCancel","ButtonSAVE","ButtonSkip","ButtonRespawn","ButtonOptions",
-"ButtonVideo","ButtonAudio","ButtonControls","ButtonGame","ButtonTutorialHints","ButtonAbort","DebugConsole","Feedback","MessageBox"
+"ButtonVideo","ButtonAudio","ButtonControls","ButtonGame","ButtonTutorialHints","ButtonAbort","DebugConsole","Feedback","MessageBox","CBA_CREDITS_CONT_C","CBA_CREDITS_M_P"
 ];
 
 {
