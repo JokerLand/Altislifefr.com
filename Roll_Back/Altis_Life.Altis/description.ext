@@ -55,6 +55,13 @@ class CfgSounds
         sound[] = {"\sounds\alarme_magasin.ogg", 1, 1};
         titles[] = {};
 	};
+    
+    class alarme_douane
+    {
+        name = "alarme_douane";
+        sound[] = {"\sounds\alarme_douane.ogg", 1, 1};
+        titles[] = {};
+	};
 	
 	class spraycan
     {
