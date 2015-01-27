@@ -352,7 +352,7 @@ buy_array =
     ["biere",90],
     ["puranium",8000],
     ["ipuranium",9000],
-	["menotte",50000]
+	["menotte",15000]
 ];
 __CONST__(buy_array,buy_array);
 
