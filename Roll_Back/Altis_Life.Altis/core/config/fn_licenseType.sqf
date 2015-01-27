@@ -71,6 +71,7 @@ switch (_mode) do
 			case "cn": {_var = "license_cn"};
 			case "torres": {_var = "license_torres"};
 			case "unity": {_var = "license_unity"};
+			case "armer": {_var = "license_armer"};
             case "uranium": {_var = "license_civ_uranium"};
             case "uranium1": {_var = "license_civ_uranium"};
             case "uranium2": {_var = "license_civ_uranium"};
@@ -139,6 +140,7 @@ switch (_mode) do
 			case "license_cn": {_var = "cn"};
 			case "license_torres": {_var = "torres"};
 			case "license_unity": {_var = "unity"};
+			case "license_armer": {_var = "armer"};
             case "license_civ_uranium": {_var = "uranium"};
             case "license_civ_uranium": {_var = "uranium1"};
             case "license_civ_uranium": {_var = "uranium2"};

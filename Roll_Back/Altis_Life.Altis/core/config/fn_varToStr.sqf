@@ -138,5 +138,6 @@ switch (_var) do
 	case "license_cn": {"C-N"};
 	case "license_torres": {"Torres"};
 	case "license_unity": {"Unity"};
+	case "license_armer": {"Militaire"};
     case "license_civ_uranium": {"Formation Uranium"};
 };
