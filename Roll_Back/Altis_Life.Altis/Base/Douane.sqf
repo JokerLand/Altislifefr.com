@@ -3269,90 +3269,6 @@ _pos = [15542.3,15952.7,9.7868];
  Pier setPosASL _pos;
  Pier allowDamage false; this enableSimulation false;
 // ***************************************
-_pos = [15734.5,16270.8,15.6672];
- Ramp = createVehicle ["Land_RampConcrete_F", _pos, [], 0, "CAN_COLLIDE"];
- Ramp setDir 87.5858;
- Ramp setPosASL _pos;
- Ramp allowDamage false; this enableSimulation false;
-// ***************************************
-_pos = [15743.4,16271.2,14.1604];
- Ramp = createVehicle ["Land_RampConcrete_F", _pos, [], 0, "CAN_COLLIDE"];
- Ramp setDir 87.5858;
- Ramp setPosASL _pos;
- Ramp allowDamage false; this enableSimulation false;
-// ***************************************
-_pos = [15725.7,16270.4,17.1637];
- Ramp = createVehicle ["Land_RampConcrete_F", _pos, [], 0, "CAN_COLLIDE"];
- Ramp setDir 87.5858;
- Ramp setPosASL _pos;
- Ramp allowDamage false; this enableSimulation false;
-// ***************************************
-_pos = [15725.8,16275.2,17.2036];
- Ramp = createVehicle ["Land_RampConcrete_F", _pos, [], 0, "CAN_COLLIDE"];
- Ramp setDir 87.5858;
- Ramp setPosASL _pos;
- Ramp allowDamage false; this enableSimulation false;
-// ***************************************
-_pos = [15734.5,16275.5,15.6953];
- Ramp = createVehicle ["Land_RampConcrete_F", _pos, [], 0, "CAN_COLLIDE"];
- Ramp setDir 87.5858;
- Ramp setPosASL _pos;
- Ramp allowDamage false; this enableSimulation false;
-// ***************************************
-_pos = [15743.0,16275.9,14.2317];
- Ramp = createVehicle ["Land_RampConcrete_F", _pos, [], 0, "CAN_COLLIDE"];
- Ramp setDir 87.5858;
- Ramp setPosASL _pos;
- Ramp allowDamage false; this enableSimulation false;
-// ***************************************
-_pos = [15721.6,16268.1,14.3564];
- Mur = createVehicle ["Land_CncWall4_F", _pos, [], 0, "CAN_COLLIDE"];
- Mur setDir 358.959;
- Mur setPosASL _pos;
- Mur allowDamage false; this enableSimulation false;
-// ***************************************
-_pos = [15726.9,16268.2,14.5215];
- Mur = createVehicle ["Land_CncWall4_F", _pos, [], 0, "CAN_COLLIDE"];
- Mur setDir 358.959;
- Mur setPosASL _pos;
- Mur allowDamage false; this enableSimulation false;
-// ***************************************
-_pos = [15732.2,16268.3,14.4338];
- Mur = createVehicle ["Land_CncWall4_F", _pos, [], 0, "CAN_COLLIDE"];
- Mur setDir 358.959;
- Mur setPosASL _pos;
- Mur allowDamage false; this enableSimulation false;
-// ***************************************
-_pos = [15737.4,16268.4,14.4811];
- Mur = createVehicle ["Land_CncWall4_F", _pos, [], 0, "CAN_COLLIDE"];
- Mur setDir 358.959;
- Mur setPosASL _pos;
- Mur allowDamage false; this enableSimulation false;
-// ***************************************
-_pos = [15721.6,16277.7,14.3859];
- Mur = createVehicle ["Land_CncWall4_F", _pos, [], 0, "CAN_COLLIDE"];
- Mur setDir 178.758;
- Mur setPosASL _pos;
- Mur allowDamage false; this enableSimulation false;
-// ***************************************
-_pos = [15726.9,16277.8,14.3687];
- Mur = createVehicle ["Land_CncWall4_F", _pos, [], 0, "CAN_COLLIDE"];
- Mur setDir 178.758;
- Mur setPosASL _pos;
- Mur allowDamage false; this enableSimulation false;
-// ***************************************
-_pos = [15732.2,16278.0,14.4345];
- Mur = createVehicle ["Land_CncWall4_F", _pos, [], 0, "CAN_COLLIDE"];
- Mur setDir 178.758;
- Mur setPosASL _pos;
- Mur allowDamage false; this enableSimulation false;
-// ***************************************
-_pos = [15737.4,16278.2,14.2978];
- Mur = createVehicle ["Land_CncWall4_F", _pos, [], 0, "CAN_COLLIDE"];
- Mur setDir 178.758;
- Mur setPosASL _pos;
- Mur allowDamage false; this enableSimulation false;
-// ***************************************
 _pos = [16372.6,17826.1,22.7222];
  Cana = createVehicle ["Land_Canal_Wall_10m_F", _pos, [], 0, "CAN_COLLIDE"];
  Cana setDir 339.109;
@@ -3412,3 +3328,249 @@ _pos = [16377.7,17840.3,20.2156];
  Cana setDir 337.902;
  Cana setPosASL _pos;
  Cana allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15678.7,17449.7,14.7163];
+ barriere = createVehicle ["Land_BarGate_F", _pos, [], 0, "CAN_COLLIDE"];
+ barriere setDir 284.473;
+ barriere setPosASL _pos;
+ barriere allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15698.1,17485.7,15.0473];
+ barriere = createVehicle ["Land_BarGate_F", _pos, [], 0, "CAN_COLLIDE"];
+ barriere setDir 102.866;
+ barriere setPosASL _pos;
+ barriere allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15729.3,17449.6,20.4397];
+ lumibleu = createVehicle ["Land_runway_edgelight_blue_F", _pos, [], 0, "CAN_COLLIDE"];
+ lumibleu setDir 315.002;
+ lumibleu setPosASL _pos;
+ lumibleu allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15724.7,17430.7,20.4231];
+ lumibleu = createVehicle ["Land_runway_edgelight_blue_F", _pos, [], 0, "CAN_COLLIDE"];
+ lumibleu setDir 315.002;
+ lumibleu setPosASL _pos;
+ lumibleu allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15732.6,17463.8,20.6103];
+ lumibleu = createVehicle ["Land_runway_edgelight_blue_F", _pos, [], 0, "CAN_COLLIDE"];
+ lumibleu setDir 315.002;
+ lumibleu setPosASL _pos;
+ lumibleu allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15737.1,17482.6,20.6297];
+ lumibleu = createVehicle ["Land_runway_edgelight_blue_F", _pos, [], 0, "CAN_COLLIDE"];
+ lumibleu setDir 315.002;
+ lumibleu setPosASL _pos;
+ lumibleu allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15647.2,17469.1,20.795];
+ lumibleu = createVehicle ["Land_runway_edgelight_blue_F", _pos, [], 0, "CAN_COLLIDE"];
+ lumibleu setDir 315.002;
+ lumibleu setPosASL _pos;
+ lumibleu allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15643.8,17455.0,20.8186];
+ lumibleu = createVehicle ["Land_runway_edgelight_blue_F", _pos, [], 0, "CAN_COLLIDE"];
+ lumibleu setDir 315.002;
+ lumibleu setPosASL _pos;
+ lumibleu allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15651.1,17483.3,20.9563];
+ lumibleu = createVehicle ["Land_runway_edgelight_blue_F", _pos, [], 0, "CAN_COLLIDE"];
+ lumibleu setDir 315.002;
+ lumibleu setPosASL _pos;
+ lumibleu allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15654.3,17497.5,20.9328];
+ lumibleu = createVehicle ["Land_runway_edgelight_blue_F", _pos, [], 0, "CAN_COLLIDE"];
+ lumibleu setDir 315.002;
+ lumibleu setPosASL _pos;
+ lumibleu allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15656.0,17474.6,26.7128];
+ halo = createVehicle ["Land_LampHalogen_F", _pos, [], 0, "CAN_COLLIDE"];
+ halo setDir 13.8124;
+ halo setPosASL _pos;
+ halo allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15725.0,17458.3,26.2925];
+ halo = createVehicle ["Land_LampHalogen_F", _pos, [], 0, "CAN_COLLIDE"];
+ halo setDir 195.42;
+ halo setPosASL _pos;
+ halo allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15697.9,17499.7,17.6377];
+ lumirouge = createVehicle ["Land_Flush_Light_red_F", _pos, [], 0, "CAN_COLLIDE"];
+ lumirouge setDir 0.0022;
+ lumirouge setPosASL _pos;
+ lumirouge allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15697.6,17498.4,17.6497];
+ lumirouge = createVehicle ["Land_Flush_Light_red_F", _pos, [], 0, "CAN_COLLIDE"];
+ lumirouge setDir 0.0022;
+ lumirouge setPosASL _pos;
+ lumirouge allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15698.2,17500.9,17.6349];
+ lumirouge = createVehicle ["Land_Flush_Light_red_F", _pos, [], 0, "CAN_COLLIDE"];
+ lumirouge setDir 0.0022;
+ lumirouge setPosASL _pos;
+ lumirouge allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15697.3,17497.1,17.6316];
+ lumirouge = createVehicle ["Land_Flush_Light_red_F", _pos, [], 0, "CAN_COLLIDE"];
+ lumirouge setDir 0.0022;
+ lumirouge setPosASL _pos;
+ lumirouge allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15698.6,17502.3,17.6337];
+ lumirouge = createVehicle ["Land_Flush_Light_red_F", _pos, [], 0, "CAN_COLLIDE"];
+ lumirouge setDir 0.0022;
+ lumirouge setPosASL _pos;
+ lumirouge allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15698.7,17496.7,17.6223];
+ lumirouge = createVehicle ["Land_Flush_Light_red_F", _pos, [], 0, "CAN_COLLIDE"];
+ lumirouge setDir 0.0022;
+ lumirouge setPosASL _pos;
+ lumirouge allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15700.3,17496.4,17.6625];
+ lumirouge = createVehicle ["Land_Flush_Light_red_F", _pos, [], 0, "CAN_COLLIDE"];
+ lumirouge setDir 0.0022;
+ lumirouge setPosASL _pos;
+ lumirouge allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15701.6,17501.5,17.645];
+ lumirouge = createVehicle ["Land_Flush_Light_red_F", _pos, [], 0, "CAN_COLLIDE"];
+ lumirouge setDir 0.0022;
+ lumirouge setPosASL _pos;
+ lumirouge allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15700.0,17501.9,17.6347];
+ lumirouge = createVehicle ["Land_Flush_Light_red_F", _pos, [], 0, "CAN_COLLIDE"];
+ lumirouge setDir 0.0022;
+ lumirouge setPosASL _pos;
+ lumirouge allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15695.6,17497.5,17.6124];
+ lumirouge = createVehicle ["Land_Flush_Light_red_F", _pos, [], 0, "CAN_COLLIDE"];
+ lumirouge setDir 0.0022;
+ lumirouge setPosASL _pos;
+ lumirouge allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15694.0,17497.9,17.6112];
+ lumirouge = createVehicle ["Land_Flush_Light_red_F", _pos, [], 0, "CAN_COLLIDE"];
+ lumirouge setDir 0.0022;
+ lumirouge setPosASL _pos;
+ lumirouge allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15696.9,17502.7,17.6231];
+ lumirouge = createVehicle ["Land_Flush_Light_red_F", _pos, [], 0, "CAN_COLLIDE"];
+ lumirouge setDir 0.0022;
+ lumirouge setPosASL _pos;
+ lumirouge allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15695.2,17503.1,17.6115];
+ lumirouge = createVehicle ["Land_Flush_Light_red_F", _pos, [], 0, "CAN_COLLIDE"];
+ lumirouge setDir 0.0022;
+ lumirouge setPosASL _pos;
+ lumirouge allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15652.9,16262.8,14.8558];
+ rampe = createVehicle ["Land_RampConcrete_F", _pos, [], 0, "CAN_COLLIDE"];
+ rampe setDir 265.568;
+ rampe setPosASL _pos;
+ rampe allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15661.3,16263.4,16.1438];
+ rampe = createVehicle ["Land_RampConcrete_F", _pos, [], 0, "CAN_COLLIDE"];
+ rampe setDir 265.979;
+ rampe setPosASL _pos;
+ rampe allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15670.1,16264.1,17.7768];
+ rampe = createVehicle ["Land_RampConcrete_F", _pos, [], 0, "CAN_COLLIDE"];
+ rampe setDir 265.996;
+ rampe setPosASL _pos;
+ rampe allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15674.0,16272.0,14.8825];
+ mur = createVehicle ["Land_CncWall4_F", _pos, [], 0, "CAN_COLLIDE"];
+ mur setDir 355.959;
+ mur setPosASL _pos;
+ mur allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15675.0,16261.2,14.9671];
+ mur = createVehicle ["Land_CncWall4_F", _pos, [], 0, "CAN_COLLIDE"];
+ mur setDir 174.758;
+ mur setPosASL _pos;
+ mur allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15652.4,16267.6,14.771];
+ rampe = createVehicle ["Land_RampConcrete_F", _pos, [], 0, "CAN_COLLIDE"];
+ rampe setDir 265.568;
+ rampe setPosASL _pos;
+ rampe allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15669.5,16268.9,17.7227];
+ rampe = createVehicle ["Land_RampConcrete_F", _pos, [], 0, "CAN_COLLIDE"];
+ rampe setDir 265.996;
+ rampe setPosASL _pos;
+ rampe allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15660.8,16268.3,16.053];
+ rampe = createVehicle ["Land_RampConcrete_F", _pos, [], 0, "CAN_COLLIDE"];
+ rampe setDir 265.979;
+ rampe setPosASL _pos;
+ rampe allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15669.8,16260.7,15.0113];
+ mur = createVehicle ["Land_CncWall4_F", _pos, [], 0, "CAN_COLLIDE"];
+ mur setDir 175.758;
+ mur setPosASL _pos;
+ mur allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15659.4,16260.0,15.044];
+ mur = createVehicle ["Land_CncWall4_F", _pos, [], 0, "CAN_COLLIDE"];
+ mur setDir 176.758;
+ mur setPosASL _pos;
+ mur allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15664.6,16260.4,15.0307];
+ mur = createVehicle ["Land_CncWall4_F", _pos, [], 0, "CAN_COLLIDE"];
+ mur setDir 175.758;
+ mur setPosASL _pos;
+ mur allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15658.3,16270.8,14.8338];
+ mur = createVehicle ["Land_CncWall4_F", _pos, [], 0, "CAN_COLLIDE"];
+ mur setDir 355.959;
+ mur setPosASL _pos;
+ mur allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15668.8,16271.7,14.8894];
+ mur = createVehicle ["Land_CncWall4_F", _pos, [], 0, "CAN_COLLIDE"];
+ mur setDir 355.754;
+ mur setPosASL _pos;
+ mur allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15663.6,16271.4,14.8887];
+ mur = createVehicle ["Land_CncWall4_F", _pos, [], 0, "CAN_COLLIDE"];
+ mur setDir 354.959;
+ mur setPosASL _pos;
+ mur allowDamage false; this enableSimulation false; 
+// ***************************************
+_pos = [15677.6,16264.3,14.9051];
+ mur = createVehicle ["Land_CncWall4_F", _pos, [], 0, "CAN_COLLIDE"];
+ mur setDir 82.1287;
+ mur setPosASL _pos;
+ mur allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15677.0,16269.2,14.8961];
+ mur = createVehicle ["Land_CncWall4_F", _pos, [], 0, "CAN_COLLIDE"];
+ mur setDir 82.1287;
+ mur setPosASL _pos;
+ mur allowDamage false; this enableSimulation false;
