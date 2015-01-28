@@ -282,7 +282,7 @@ class playerSettings {
 			colorBackground[] = {0, 0, 0, 0};
 			idc = 2014;
 			text = "$STR_PM_CellPhone";
-			onButtonClick = "createDialog ""Life_cell_phone"";";
+			onButtonClick = "[] call life_fnc_cellphone2;";
 			x = 0.42 + (6.25 / 19.8) + (1 / 250 / (safezoneW / safezoneH));
 			y = 0.797 - (1 / 25);
 			w = (6.25 / 40);

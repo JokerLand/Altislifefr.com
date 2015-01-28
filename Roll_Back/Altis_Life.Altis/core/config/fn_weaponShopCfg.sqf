@@ -28,6 +28,7 @@ switch(_shop) do
 				["Quincaillerie Police",
 					[
      					["ItemWatch",nil,50],
+						["ItemRadio","Telephone",500],
 						["ItemCompass",nil,50],
 						["ItemMap",nil,50],
 						["ItemGPS",nil,150],
@@ -51,6 +52,7 @@ switch(_shop) do
 				["Quincaillerie Medecin",
 					[
 						["ItemWatch",nil,50],
+						["ItemRadio","Telephone",500],
 						["ItemCompass",nil,50],
 						["Binocular",nil,150],
 						["ItemMap",nil,50],
@@ -686,6 +688,7 @@ switch(_shop) do
 						["optic_MRD",nil,1500],
 						["acc_pointer_IR",nil,10000],
 						["NVGoggles",nil,2000],
+						["ItemRadio","Telephone",500],
 						["ToolKit",nil,250],
 						["itemgps",nil,150],
 						["FirstAidKit",nil,150],
@@ -802,6 +805,7 @@ switch(_shop) do
 		["Quincaillerie",
 			[
 				["ItemWatch",nil,50],
+				["ItemRadio","Telephone",500],
 			    ["ItemCompass",nil,50],
 				["Binocular",nil,150],
 				["ItemGPS",nil,100],

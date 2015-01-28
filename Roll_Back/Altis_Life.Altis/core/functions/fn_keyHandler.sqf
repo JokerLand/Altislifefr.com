@@ -181,17 +181,22 @@ switch (_code) do
 	};
 	
 	//Knock out, this is experimental and yeah...
-	case 34:
-	{
-		if(_shift) then {_handled = true;};
-		if(_shift && playerSide == civilian && !isNull cursorTarget && cursorTarget isKindOf "Man" && isPlayer cursorTarget && alive cursorTarget && cursorTarget distance player < 4 && speed cursorTarget < 1) then
-		{
-			if((animationState cursorTarget) != "Incapacitated" && (currentWeapon player == primaryWeapon player OR currentWeapon player == handgunWeapon player) && currentWeapon player != "" && !life_knockout && !(player getVariable["restrained",false]) && !life_istazed) then
-			{
-				[cursorTarget] spawn life_fnc_knockoutAction;
-			};
-		};
-	};
+    case 34:
+    {
+        if(_shift) then {_handled = true;};
+        if(_shift && playerSide == civilian && !isNull cursorTarget && cursorTarget isKindOf "Man" && isPlayer cursorTarget && alive cursorTarget && cursorTarget distance player < 4 && speed cursorTarget < 1) then
+        {
+        if((animationState cursorTarget) != "Incapacitated" && (currentWeapon player == primaryWeapon player OR currentWeapon player == handgunWeapon player) && currentWeapon player != "" && !life_knockout && !(player                       getVariable["restrained",false]) && !life_istazed) then
+            {
+                [cursorTarget] spawn life_fnc_knockoutAction;
+                if("ItemRadio" in assignedItems cursorTarget) then {
+                cursorTarget removeweapon "ItemRadio";
+                hint "Le téléphone portable de la personne a été placée sur le sol.";
+                _defenceplace1 = "Item_ItemRadio" createVehicle (player modelToWorld[0,0,0]);}
+                else { hint "La personne que vous n'a pas de téléphone!"};
+            };
+        };
+    };
 	
 	//Report ALT-F4
 	case 62:
