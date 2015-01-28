@@ -3329,18 +3329,6 @@ _pos = [16377.7,17840.3,20.2156];
  Cana setPosASL _pos;
  Cana allowDamage false; this enableSimulation false;
 // ***************************************
-_pos = [15678.7,17449.7,14.7163];
- barriere = createVehicle ["Land_BarGate_F", _pos, [], 0, "CAN_COLLIDE"];
- barriere setDir 284.473;
- barriere setPosASL _pos;
- barriere allowDamage false; this enableSimulation false;
-// ***************************************
-_pos = [15698.1,17485.7,15.0473];
- barriere = createVehicle ["Land_BarGate_F", _pos, [], 0, "CAN_COLLIDE"];
- barriere setDir 102.866;
- barriere setPosASL _pos;
- barriere allowDamage false; this enableSimulation false;
-// ***************************************
 _pos = [15729.3,17449.6,20.4397];
  lumibleu = createVehicle ["Land_runway_edgelight_blue_F", _pos, [], 0, "CAN_COLLIDE"];
  lumibleu setDir 315.002;
