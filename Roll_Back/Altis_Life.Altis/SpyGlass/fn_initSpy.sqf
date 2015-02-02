@@ -158,7 +158,11 @@ _patchList =
 "FLAY_HangGlider_Core","FLAY_HangGlider","FLAY_Paraglider","FLAY_HangGlider_Thermals","FLAY_Variometer","FLAY_HangGlider_Weapons","FLAY_Wingsuit","FLAY_Variometer_Sounds",
 "FLAY_Variometer_UI","FLAY_Thermals_Module","ALFR_Units","Item_ALFR","ALFR_armee_Bags","ALFR_Police_Bags","ALFR_armee_tenu","ALFR_armee_Uniform_body","example_vest_config",
 "ALFR_armee_gilet","cl3_transit","ivory_b206","insignia_police","insignia_police_st_base","murcielago_police","ALFR_GeK_Volvo_FH16_2012","cl3_suv","cl3_q7","cl3_taurus",
-"cl3_transit","CL3_bus_cl","Shemaghs","Extra_Objects","cl3_q7_clpd","range_rover_police","ALFR_GeK_Panamera","ALFR_GeK_Panamera_Police","ale_config"
+"cl3_transit","CL3_bus_cl","Shemaghs","Extra_Objects","cl3_q7_clpd","range_rover_police","ALFR_GeK_Panamera","ALFR_GeK_Panamera_Police",
+"ale_config","tracer_orange","optika_stinger","optique_eryx","optique_jim_lr","AC58","APAV40","at4CS","at4CS_vide","chargeur_F1","chargeur_FRF2","chargeur_G2","chargeur_HK416","chargeur_HK417","chargeur_M107","chargeur_Minimi","chargeur_Minimi_762",
+"chargeur_MP5","chargeur_Pamas","chargeur_PGM_Hecate_II","eryx","eryx_vide","famas_F1","famas_F1_HG","famas_F1_M203","famas_felin","famas_G2","famas_G2_HG","famas_G2_M203","famas_surb","famas_surb_HG","famas_surb_M203","frf2","frf2_DES","hk416M","hk416M_HG",
+"hk417L","hk417M","hk417M_HG","hk417S_HG","jim_LR","jim_LR_DES","M107","M2_mg","M4S90","minimi","minimi_762","minimi_762_HG","minimi_HG","missile_ERYX","MP5SD","pamas","pgm_Hecate_II","pgm_Hecate_II_DES","pgm_Hecate_II_POLY","roquette_AC58","roquette_APAV40",
+"roquette_AT4CS","SILENCIEUX_FAMAS","SILENCIEUX_FAMAS_DES","SILENCIEUX_FRF2","SILENCIEUX_FRF2_DES","SILENCIEUX_HK416","SILENCIEUX_HK416_DES","SILENCIEUX_HK417","SILENCIEUX_HK417_DES","stinger_launcher","stinger_launcher_loaded","Stinger_proxy","Stinger_rocket",
 ];
 
 uiNamespace setVariable["RscDisplayRemoteMissions",displayNull]; //For Spy-Glass..
