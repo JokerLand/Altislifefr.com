@@ -163,6 +163,9 @@ _patchList =
 "chargeur_MP5","chargeur_Pamas","chargeur_PGM_Hecate_II","eryx","eryx_vide","famas_F1","famas_F1_HG","famas_F1_M203","famas_felin","famas_G2","famas_G2_HG","famas_G2_M203","famas_surb","famas_surb_HG","famas_surb_M203","frf2","frf2_DES","hk416M","hk416M_HG",
 "hk417L","hk417M","hk417M_HG","hk417S_HG","jim_LR","jim_LR_DES","M107","M2_mg","M4S90","minimi","minimi_762","minimi_762_HG","minimi_HG","missile_ERYX","MP5SD","pamas","pgm_Hecate_II","pgm_Hecate_II_DES","pgm_Hecate_II_POLY","roquette_AC58","roquette_APAV40",
 "roquette_AT4CS","SILENCIEUX_FAMAS","SILENCIEUX_FAMAS_DES","SILENCIEUX_FRF2","SILENCIEUX_FRF2_DES","SILENCIEUX_HK416","SILENCIEUX_HK416_DES","SILENCIEUX_HK417","SILENCIEUX_HK417_DES","stinger_launcher","stinger_launcher_loaded","Stinger_proxy","Stinger_rocket",
+"AIMPOINT","AIMPOINT_DES","EOTECH","EOTECH_DES","FELIN","FELIN_DES","FELIN_FrF2","J10","J10_DES","J4","J4_DES","LAMPE_POINTEUR","LAMPE_POINTEUR_DES","NF","NF_DES","nf42","nf42_des","OB50","PIRAT","PIRAT_DES","SIT_COMDE","ZEISS","ZEISS_DES","optique_felin",
+"optique_J10","optique_J10_mildot","optique_J4","optique_J8","optique_J8_mildot","optique_NF","optique_NF_Z1","optique_NF_Z2","optique_NF42","optique_NF42_Z1","optique_NF42_Z2","optique_OB50","optique_ZEISS","optique_ZEISS_Z1","optique_ZEISS_Z2",
+"r3f_accbox","r3f_ammobox","r3f_stockammobox","r3f_beret","r3f_cagoule_noire","r3f_cagoule_olive","r3f_cagoule_punisher","r3f_cagoule_tan","r3f_casque_pilote","r3f_casque_spectra","r3f_casque_spectra_eod","r3f_casqueFS","r3f_casquette","r3f_lunettes_ESS","r3f_lunettes_X800",
 ];
 
 uiNamespace setVariable["RscDisplayRemoteMissions",displayNull]; //For Spy-Glass..
