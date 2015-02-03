@@ -159,14 +159,9 @@ _patchList =
 "FLAY_Variometer_UI","FLAY_Thermals_Module","ALFR_Units","Item_ALFR","ALFR_armee_Bags","ALFR_Police_Bags","ALFR_armee_tenu","ALFR_armee_Uniform_body","example_vest_config",
 "ALFR_armee_gilet","cl3_transit","ivory_b206","insignia_police","insignia_police_st_base","murcielago_police","ALFR_GeK_Volvo_FH16_2012","cl3_suv","cl3_q7","cl3_taurus",
 "cl3_transit","CL3_bus_cl","Shemaghs","Extra_Objects","cl3_q7_clpd","range_rover_police","ALFR_GeK_Panamera","ALFR_GeK_Panamera_Police",
-"ale_config","tracer_orange","optika_stinger","optique_eryx","optique_jim_lr","AC58","APAV40","at4CS","at4CS_vide","chargeur_F1","chargeur_FRF2","chargeur_G2","chargeur_HK416","chargeur_HK417","chargeur_M107","chargeur_Minimi","chargeur_Minimi_762",
-"chargeur_MP5","chargeur_Pamas","chargeur_PGM_Hecate_II","eryx","eryx_vide","famas_F1","famas_F1_HG","famas_F1_M203","famas_felin","famas_G2","famas_G2_HG","famas_G2_M203","famas_surb","famas_surb_HG","famas_surb_M203","frf2","frf2_DES","hk416M","hk416M_HG",
-"hk417L","hk417M","hk417M_HG","hk417S_HG","jim_LR","jim_LR_DES","M107","M2_mg","M4S90","minimi","minimi_762","minimi_762_HG","minimi_HG","missile_ERYX","MP5SD","pamas","pgm_Hecate_II","pgm_Hecate_II_DES","pgm_Hecate_II_POLY","roquette_AC58","roquette_APAV40",
-"roquette_AT4CS","SILENCIEUX_FAMAS","SILENCIEUX_FAMAS_DES","SILENCIEUX_FRF2","SILENCIEUX_FRF2_DES","SILENCIEUX_HK416","SILENCIEUX_HK416_DES","SILENCIEUX_HK417","SILENCIEUX_HK417_DES","stinger_launcher","stinger_launcher_loaded","Stinger_proxy","Stinger_rocket",
-"AIMPOINT","AIMPOINT_DES","EOTECH","EOTECH_DES","FELIN","FELIN_DES","FELIN_FrF2","J10","J10_DES","J4","J4_DES","LAMPE_POINTEUR","LAMPE_POINTEUR_DES","NF","NF_DES","nf42","nf42_des","OB50","PIRAT","PIRAT_DES","SIT_COMDE","ZEISS","ZEISS_DES","optique_felin",
-"optique_J10","optique_J10_mildot","optique_J4","optique_J8","optique_J8_mildot","optique_NF","optique_NF_Z1","optique_NF_Z2","optique_NF42","optique_NF42_Z1","optique_NF42_Z2","optique_OB50","optique_ZEISS","optique_ZEISS_Z1","optique_ZEISS_Z2",
-"r3f_accbox","r3f_ammobox","r3f_stockammobox","r3f_beret","r3f_cagoule_noire","r3f_cagoule_olive","r3f_cagoule_punisher","r3f_cagoule_tan","r3f_casque_pilote","r3f_casque_spectra","r3f_casque_spectra_eod","r3f_casqueFS","r3f_casquette","r3f_lunettes_ESS","r3f_lunettes_X800",
-"R3F_Acc","R3F_Armes","R3F_Armes_c","r3f_retex","r3f_uniformes","r3f_acc","r3f_armes","r3f_armes_c","R3F_retex","R3F_uniformes"
+"ale_config","r3f_acc","R3F_AIMPOINT","R3F_AIMPOINT_DES","R3F_EOTECH","R3F_EOTECH_DES","R3F_J4","J4","R3F_J4_DES","R3F_FELIN","R3F_FELIN_DES","R3F_FELIN_FRF2","R3F_J8","J8","R3F_J8_DES","R3F_J8_MILDOT","J8_MILDOT","R3F_J8_MILDOT_DES",
+"R3F_J10","J10","R3F_J10_DES","R3F_J10_MILDOT","J10_MILDOT","R3F_J10_MILDOT_DES","R3F_ZEISS","ZEISS_MILDOT","R3F_ZEISS_DES","R3F_NF","NF_MILDOT","R3F_NF_DES","R3F_NF42","NF42_MILDOT","R3F_NF42_DES","R3F_OB50","OB50","R3F_PIRAT","R3F_PIRAT_DES",
+"R3F_POINTEUR_SURB","R3F_POINTEUR_SURB_DES","R3F_LAMPE_SURB","R3F_LAMPE_SURB_DES","R3F_SIT_COMDE","R3F_AccBox"
 ];
 
 uiNamespace setVariable["RscDisplayRemoteMissions",displayNull]; //For Spy-Glass..
