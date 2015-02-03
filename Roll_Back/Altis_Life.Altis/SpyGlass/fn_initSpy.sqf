@@ -166,7 +166,7 @@ _patchList =
 "AIMPOINT","AIMPOINT_DES","EOTECH","EOTECH_DES","FELIN","FELIN_DES","FELIN_FrF2","J10","J10_DES","J4","J4_DES","LAMPE_POINTEUR","LAMPE_POINTEUR_DES","NF","NF_DES","nf42","nf42_des","OB50","PIRAT","PIRAT_DES","SIT_COMDE","ZEISS","ZEISS_DES","optique_felin",
 "optique_J10","optique_J10_mildot","optique_J4","optique_J8","optique_J8_mildot","optique_NF","optique_NF_Z1","optique_NF_Z2","optique_NF42","optique_NF42_Z1","optique_NF42_Z2","optique_OB50","optique_ZEISS","optique_ZEISS_Z1","optique_ZEISS_Z2",
 "r3f_accbox","r3f_ammobox","r3f_stockammobox","r3f_beret","r3f_cagoule_noire","r3f_cagoule_olive","r3f_cagoule_punisher","r3f_cagoule_tan","r3f_casque_pilote","r3f_casque_spectra","r3f_casque_spectra_eod","r3f_casqueFS","r3f_casquette","r3f_lunettes_ESS","r3f_lunettes_X800",
-"R3F_Acc","R3F_Armes","R3F_Armes_c","r3f_retex","r3f_uniformes"
+"R3F_Acc","R3F_Armes","R3F_Armes_c","r3f_retex","r3f_uniformes","r3f_acc","r3f_armes","r3f_armes_c","R3F_retex","R3F_uniformes"
 ];
 
 uiNamespace setVariable["RscDisplayRemoteMissions",displayNull]; //For Spy-Glass..
