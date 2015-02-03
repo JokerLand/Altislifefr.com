@@ -767,8 +767,7 @@ switch(_shop) do
 						["7Rnd_408_Mag",nil,800],
 						["5Rnd_127x108_Mag",nil,800],
 						["R3F_10Rnd_762x51_FRF2",nil,800],
-						["R3F_7Rnd_127x99_PGM",nil,800,]
-
+						["R3F_7Rnd_127x99_PGM",nil,800]
 					]
 				];
 	};
