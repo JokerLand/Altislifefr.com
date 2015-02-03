@@ -758,7 +758,7 @@ switch(_shop) do
 						["Cha_100Rnd_762x54_PK_T",nil,100],
 						["16Rnd_9x21_Mag",nil,50],
 						["30Rnd_9x21_Mag",nil,60],
-						[""R3F_15Rnd_9x19_PAMAS",nil,60],
+						["R3F_15Rnd_9x19_PAMAS",nil,60],
 						["11Rnd_45ACP_Mag",nil,50],
 						["30Rnd_45ACP_Mag_SMG_01_tracer_green",nil,60],
 						["30Rnd_556x45_Stanag",nil,70],
