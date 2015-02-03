@@ -144,6 +144,8 @@ switch (_shop) do
 		_return =
 		[
 			["B_G_Offroad_01_F",15000],
+            ["BAF_Offroad_D",65000],
+			["BAF_Offroad_W",65000],
 			["B_G_Van_01_transport_F",50000],
 			["cl3_insignia_camo",75000],
 			["cl3_dodge_charger_s_camo",200000],
