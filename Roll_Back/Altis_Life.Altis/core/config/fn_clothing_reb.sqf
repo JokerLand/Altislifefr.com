@@ -98,7 +98,8 @@ switch (_filter) do
 			["G_Bandanna_oli",nil,3500],
 			["G_Bandanna_blk",nil,3500],
 			["G_Bandanna_beast",nil,5000],
-			["G_Balaclava_oli",nil,8000]
+			["G_Balaclava_oli",nil,8000],
+			["R3F_cagoule_punisher",nil,10000]
 		];
 	};
 	
