@@ -810,7 +810,7 @@ switch(_shop) do
 						["srifle_GM6_F",nil,400000],
 						["srifle_GM6_camo_F",nil,400000],
 						["R3F_FRF2",nil,250000],
-						["R3F_PGM_Hecate_II",nil,300000],
+						["R3F_PGM_Hecate_II",nil,450000],
 						["Rangefinder",nil,50000],
 						["optic_LRPS",nil,50000],
 						["optic_SOS",nil,30000],
