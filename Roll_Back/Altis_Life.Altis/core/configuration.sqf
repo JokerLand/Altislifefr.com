@@ -245,6 +245,7 @@ life_licenses =
 	["license_torres","civ"],
 	["license_unity","civ"],
 	["license_armer","civ"],
+	["license_fla","civ"],
     ["license_civ_uranium","civ"]
 ];
 

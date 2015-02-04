@@ -141,6 +141,10 @@ switch (_side) do
 				if(license_armer && playerSide == civilian) then {
 				_return set[count _return,["spawn_armer","Armée HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]];
 		};
+				
+				if(license_fla && playerSide == civilian) then {
+				_return set[count _return,["spawn_fla","FLA HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]];
+		};
 		
 				if(license_tlt && playerSide == civilian) then {
 				_return set[count _return,["tlt_spawn","Armée HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]];

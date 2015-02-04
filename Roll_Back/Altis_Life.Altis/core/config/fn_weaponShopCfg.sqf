@@ -664,6 +664,52 @@ switch(_shop) do
 			};
 		};
 	};
+	
+	case "fla":
+	{
+		switch(true) do
+		{
+			case (playerSide != civilian): {"You are not a civilian!"};
+			case (!license_fla): {"Vous n'avez pas de license FLA !"};
+			default
+			{
+				["Armurerie",
+					[
+						["hgun_Rook40_F",nil,10000],
+						["16Rnd_9x21_Mag",nil,25],
+						["hgun_Pistol_heavy_02_F",nil,12000],
+						["6Rnd_45ACP_Cylinder",nil,50],
+						["hgun_ACPC2_F",nil,15000],
+						["9Rnd_45ACP_Mag",nil,45],
+						["hgun_PDW2000_F",nil,20000],
+						["30Rnd_9x21_Mag",nil,75],
+						["SMG_01_F",nil,28000],
+						["30Rnd_45ACP_Mag_SMG_01_tracer_green",nil,60],
+						["SIG_P226",nil,13000],
+						["C1987_MP7",nil,60000],
+						["C1987_20Rnd_46x30_mp7",nil,100],
+						["C1987_40Rnd_46x30_mp7",nil,200],
+						["optic_ACO_grn_smg",nil,2500],
+						["SG553",nil,160000],
+						["SG553_CQB",nil,160000],
+						["SG553_GL",nil,160000],
+						["30Rnd_556x45_Stanag",nil,100],
+						["1Rnd_Smoke_Grenade_shell",nil,100],
+						["1Rnd_SmokeRed_Grenade_shell",nil,100],
+						["1Rnd_SmokeGreen_Grenade_shell",nil,100],
+						["1Rnd_SmokeYellow_Grenade_shell",nil,100],
+						["1Rnd_SmokePurple_Grenade_shell",nil,100],
+						["1Rnd_SmokeBlue_Grenade_shell",nil,100],
+						["1Rnd_SmokeOrange_Grenade_shell",nil,100],
+						["1Rnd_SmokeOrange_Grenade_shell",nil,100],
+						["optic_MRCO",nil,10000],
+						["optic_Arco",nil,10000],
+						["V_Rangemaster_belt",nil,4900]
+					]
+				];
+			};
+		};
+	};
 
 	case "gun":
 	{
