@@ -180,6 +180,7 @@ class Life_Client_Core
 		class clothing_kart {};
 		class clothing_presse {};
 		class clothing_tlt {};
+		class clothing_armer {};
 	};
 
 	class Player_Menu
