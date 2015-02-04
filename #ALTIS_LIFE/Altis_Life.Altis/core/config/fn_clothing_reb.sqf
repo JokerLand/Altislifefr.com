@@ -61,7 +61,11 @@ switch (_filter) do
 			["H_HelmetO_ocamo",nil,2500],
 			["H_MilCap_oucamo",nil,1200],
 			["H_HelmetCrew_I",nil,500],
-			["H_Bandanna_camo",nil,650]
+			["H_Bandanna_camo",nil,650],
+			["rds_Woodlander_cap1",nil,800],
+			["rds_Woodlander_cap2",nil,800],
+			["rds_Woodlander_cap3",nil,800],
+			["rds_Woodlander_cap4",nil,800]
 		];
 	};
 	

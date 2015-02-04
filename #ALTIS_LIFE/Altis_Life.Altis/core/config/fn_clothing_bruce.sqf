@@ -99,7 +99,21 @@ switch (_filter) do
 			["H_Watchcap_khk",nil,50],
 			["H_Watchcap_sgg",nil,50],
 			["H_Watchcap_camo",nil,50],
-			["H_Hat_checker",nil,50]
+			["H_Hat_checker",nil,50],
+			["rds_Villager_cap1",nil,50],
+			["rds_Villager_cap2",nil,50],
+			["rds_Villager_cap3",nil,50],
+			["rds_Villager_cap4",nil,50],
+			["ALE_H_Cowboy_White",nil,150],
+			["ALE_H_Cowboy_Brown",nil,150],
+			["ALE_H_Cowboy_Black",nil,150],
+			["ALE_H_NewEra_Cyan",nil,500],
+			["ALE_H_NewEra_Monster",nil,500],
+			["ALE_H_NewEra_Black",nil,500],
+			["ALE_H_NewEra_Lakers",nil,500],
+			["ALE_H_NewEra_Rouge",nil,500],
+			["ALE_H_NewEra_Superman",nil,500],
+			["ALE_H_NewEra_Redsox",nil,500]
 		];
 	};
 	
