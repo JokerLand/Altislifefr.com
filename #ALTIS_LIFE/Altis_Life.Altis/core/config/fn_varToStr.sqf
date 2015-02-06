@@ -137,7 +137,7 @@ switch (_var) do
 	case "license_cro": {"Cronik"};
 	case "license_cn": {"C-N"};
 	case "license_torres": {"Torres"};
-	case "license_unity": {"Unity"};
+	case "license_lost": {"The Lost"};
 	case "license_armer": {"Militaire"};
 	case "license_fla": {"FLA"};
     case "license_civ_uranium": {"Formation Uranium"};

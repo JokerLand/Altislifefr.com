@@ -134,8 +134,8 @@ switch (_side) do
 				_return set[count _return,["spawn_torres","Torres HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]];
 		};
 		
-				if(license_unity && playerSide == civilian) then {
-				_return set[count _return,["spawn_unity","Unity HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]];
+				if(license_lost && playerSide == civilian) then {
+				_return set[count _return,["spawn_lost","The Lost HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]];
 		};
 		
 				if(license_armer && playerSide == civilian) then {
