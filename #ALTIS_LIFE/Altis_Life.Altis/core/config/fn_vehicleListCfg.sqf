@@ -109,6 +109,17 @@ switch (_shop) do
 				["ALFR_GeK_Volvo_FH16_2012",500000]
 			];
 	};
+	
+	case "civ_fla_car":
+	{
+			_return =
+			[
+				["cl3_q7_black",45000],
+				["cl3_insignia_camo",75000],
+				["cl3_e63_amg_camo",250000],
+				["cl3_suv_black",200000]
+			];
+	};
 
 	case "donator":
 	{
