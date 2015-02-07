@@ -239,29 +239,32 @@ switch (_code) do
 			{
 				if((cursorTarget isKindOf "Car" OR cursorTarget isKindOf "Air" OR cursorTarget isKindOf "Ship" OR cursorTarget isKindOf "House_F") && player distance cursorTarget < 10 && vehicle player == player && alive cursorTarget) then
 				{
-					if (!(cursorTarget getVariable ["vLoaded", false])) then
+					if(cursorTarget in life_vehicles OR {!(cursorTarget getVariable ["locked",true])}) then
 					{
 						
                         
                         _index = -1;
 						
                         if(cursorTarget isKindOf "House_F") then 
-                        {
+                        {   
+                            _myCurTarget = cursorTarget;
                             systemChat format["COUCOU "];
-                            _owners = cursorTarget getVariable["house_owner",[]];
-                            _test = count _owners;
+                            _ownersMaison = _myCurTarget getVariable "house_owner";
+                            //_owners = cursorTarget getVariable["house_owner",[]];
+                            _test = count _ownersMaison;
                             systemChat format["OWNERS: %1 ",_test];
-                             _test2 = _owners select 0;
+                            systemChat format["Moui ?"];
+                             _test2 = _ownersMaison select 0;
+                            _test3 = _test2 select 0;
+                            systemChat format["OWNERS 1 PID : %1 || i: %2",_test3, _i];
+                             _test2 = _ownersMaison select 1;
+                            _test3 = _test2 select 0;
+                            systemChat format["OWNERS 2PID : %1 || i: %2",_test3, _i];
+                        for "_i" from 0 to ((count _ownersMaison) - 1) do {
+                            _test2 = _ownersMaison select _i;
                             _test3 = _test2 select 0;
                             systemChat format["OWNERS PID : %1 || i: %2",_test3, _i];
-                             _test2 = _owners select 1;
-                            _test3 = _test2 select 0;
-                            systemChat format["OWNERS PID : %1 || i: %2",_test3, _i];
-                        for "_i" from 0 to ((count _owners) - 1) do {
-                            _test2 = _owners select _i;
-                            _test3 = _test2 select 0;
-                            systemChat format["OWNERS PID : %1 || i: %2",_test3, _i];
-							if((_owners select _i) select 0 == getPlayerUID player) then {_index = _i;};
+							if((_ownersMaison select _i) select 0 == getPlayerUID player) then {_index = _i;};
 						  };
 						   systemChat format["COUCOU2 "];
                             systemChat format["index : %1",_index];
