@@ -249,7 +249,6 @@ switch (_code) do
 						if(_index > -1) then
 						{
 							[cursorTarget] call life_fnc_openInventory;
-							[cursorTarget,"ASY_fnc_setIdleTime",false,false] spawn BIS_fnc_MP;
 						};
 					};
 				};
