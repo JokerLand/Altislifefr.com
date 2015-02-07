@@ -247,19 +247,32 @@ switch (_code) do
 						
                         if(cursorTarget isKindOf "House_F") then 
                         {
-                            _owners = cursorTarget getVariable["house_owner",[]];
+                          _owners = cursorTarget getVariable["house_owner",[]];
+                          for "_i" from 0 to ((count _owners) - 1) do {
+							if((_owners select _i) select 0 == getPlayerUID player) then {_index = _i;};
+						  };
+						  
+                          if(_index > -1) then
+						  {
+							[cursorTarget] call life_fnc_openInventory;
+						  };
+                        
                         }else {
                             
                             _owners = cursorTarget getVariable ["vehicle_info_owners",[]];
+                            
+                            for "_i" from 0 to ((count _owners) - 1) do {
+							
+                                if((_owners select _i) select 0 == getPlayerUID player) then {_index = _i;};
+						    };
+						
+                            if(_index > -1) then
+						  {
+							[cursorTarget] call life_fnc_openInventory;
+						  };
                         };
                         
-						for "_i" from 0 to ((count _owners) - 1) do {
-							if((_owners select _i) select 0 == getPlayerUID player) then {_index = _i;};
-						};
-						if(_index > -1) then
-						{
-							[cursorTarget] call life_fnc_openInventory;
-						};
+						
 					};
 				};
 			};
