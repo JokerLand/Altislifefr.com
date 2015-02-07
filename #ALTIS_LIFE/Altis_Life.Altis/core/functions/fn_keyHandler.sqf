@@ -241,8 +241,18 @@ switch (_code) do
 				{
 					if (!(cursorTarget getVariable ["vLoaded", false])) then
 					{
-						_index = -1;
-						_owners = cursorTarget getVariable ["vehicle_info_owners",[]];
+						
+                        
+                        _index = -1;
+						
+                        if(cursorTarget isKindOf "House_F") then 
+                        {
+                            _owners = cursorTarget getVariable["house_owner",[]];
+                        }else {
+                            
+                            _owners = cursorTarget getVariable ["vehicle_info_owners",[]];
+                        };
+                        
 						for "_i" from 0 to ((count _owners) - 1) do {
 							if((_owners select _i) select 0 == getPlayerUID player) then {_index = _i;};
 						};
