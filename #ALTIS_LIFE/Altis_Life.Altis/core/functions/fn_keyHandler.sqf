@@ -247,20 +247,34 @@ switch (_code) do
 						
                         if(cursorTarget isKindOf "House_F") then 
                         {
-                          _owners = cursorTarget getVariable["house_owner",[]];
-                          for "_i" from 0 to ((count _owners) - 1) do {
+                            systemChat format["COUCOU "];
+                            _owners = cursorTarget getVariable["house_owner",[]];
+                            _test = count _owners;
+                            systemChat format["OWNERS: %1 ",_test];
+                             _test2 = _owners select 0;
+                            _test3 = _test2 select 0;
+                            systemChat format["OWNERS PID : %1 || i: %2",_test3, _i];
+                             _test2 = _owners select 1;
+                            _test3 = _test2 select 0;
+                            systemChat format["OWNERS PID : %1 || i: %2",_test3, _i];
+                        for "_i" from 0 to ((count _owners) - 1) do {
+                            _test2 = _owners select _i;
+                            _test3 = _test2 select 0;
+                            systemChat format["OWNERS PID : %1 || i: %2",_test3, _i];
 							if((_owners select _i) select 0 == getPlayerUID player) then {_index = _i;};
 						  };
-						  
+						   systemChat format["COUCOU2 "];
+                            systemChat format["index : %1",_index];
                           if(_index > -1) then
 						  {
 							[cursorTarget] call life_fnc_openInventory;
 						  };
                         
                         }else {
-                            
+                             systemChat format["COUCOU3 "];
                             _owners = cursorTarget getVariable ["vehicle_info_owners",[]];
-                            
+                            _test = count _owners;
+                            systemChat format["OWNERS VEHICLES: %1 ",_test];
                             for "_i" from 0 to ((count _owners) - 1) do {
 							
                                 if((_owners select _i) select 0 == getPlayerUID player) then {_index = _i;};
