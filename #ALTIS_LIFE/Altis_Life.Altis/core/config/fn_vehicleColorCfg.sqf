@@ -854,7 +854,7 @@ switch (_vehicle) do
 			["\A3\soft_F\Offroad_01\Data\offroad_01_ext_BASE04_CO.paa","civ"],
 			["\A3\soft_F\Offroad_01\Data\offroad_01_ext_BASE05_CO.paa","civ"],
 			["#(ai,64,64,1)Fresnel(0.3,3)","fed"],
-			["ALFR_TexSnd\offroad_police.paa","cop"],
+			["ALFR_TexSnd\offroad_police.jpg","cop"],
 			["#(argb,8,8,3)color(0.6,0.3,0.01,1)","civ"],
 			["#(argb,8,8,3)color(1,0.1,0.01,0.1)","civ"],
 			["#(argb,8,8,3)color(0,1,0,0.1)","civ"],
