@@ -204,7 +204,6 @@ switch (_code) do
     [[1,format["Anti-Cheat: %1 utilise ALT+F4 pour se deconnecter (Merci de le report aux Admins)",_player getVariable["realname",name _player]]],"life_fnc_broadcast",nil,false] spawn life_fnc_MP;
     };
     };
-	/*
     case 211:
     {
     if(_ctrlKey && _alt)  then {
@@ -226,7 +225,6 @@ switch (_code) do
     [[1,format["Anti-Cheat: %1 utilise CTRL + ESC pour se deconnecter (Merci de le report aux Admins)",player getVariable["realname",name player]]],"life_fnc_broadcast",nil,false] spawn life_fnc_MP;
     };
     };
-	*/
 	
 	//T Key (Trunk)
 	case 20:
