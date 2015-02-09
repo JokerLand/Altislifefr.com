@@ -4242,7 +4242,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=2389;
+		items=2393;
 		class Item0
 		{
 			position[]={8065.1616,35.674362,24985.314};
@@ -6750,13 +6750,13 @@ class Mission
 		class Item252
 		{
 			position[]={16627.336,11.365401,12754.656};
-			azimut=-57.723766;
+			azimut=-59.026299;
 			offsetY=1.5;
 			id=453;
 			side="EMPTY";
 			vehicle="Land_Billboard_F";
 			skill=0.60000002;
-			init="this enableSimulation false; this allowDamage false; this SetObjectTexture [0,""images\pyrgos.jpg""];";
+			init="this enableSimulation false; this allowDamage false; this SetObjectTexture [0,""images\billboard_police.jpg""];";
 		};
 		class Item253
 		{
@@ -22082,12 +22082,12 @@ class Mission
 		class Item1658
 		{
 			position[]={13975.308,22.263054,18864.984};
-			azimut=41.656483;
+			azimut=41.656502;
 			id=1859;
 			side="EMPTY";
 			vehicle="Land_Billboard_F";
 			skill=0.60000002;
-			init="this enableSimulation false; this allowDamage false; this SetObjectTexture [0,""images\athira.jpg""];";
+			init="this enableSimulation false; this allowDamage false; this SetObjectTexture [0,""images\billboard_police.jpg""];";
 		};
 		class Item1659
 		{
@@ -29969,6 +29969,49 @@ class Mission
 			vehicle="Land_InfoStand_V2_F";
 			skill=0.2;
 			init="removeallWeapons this;   this enableSimulation false;    this allowDamage false;   this addAction[""Quincaillerie"",life_fnc_weaponShopMenu,""genstore"",0,false,false,"""",' license_fla && playerSide == civilian'];this allowDamage false; this enableSimulation false; this addAction[""Vendeur de Vêtements civl"",life_fnc_clothingMenu,""bruce""];";
+		};
+		class Item2389
+		{
+			position[]={3304.8889,2.0375268,12944.758};
+			azimut=269.67499;
+			id=2590;
+			side="EMPTY";
+			vehicle="Land_Billboard_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; this SetObjectTexture [0,""images\billboard_police.jpg""];";
+		};
+		class Item2390
+		{
+			position[]={15158.653,17.91,17230.637};
+			azimut=-44.743301;
+			offsetY=1;
+			id=2591;
+			side="EMPTY";
+			vehicle="Land_Billboard_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; this SetObjectTexture [0,""images\billboard_police.jpg""];";
+		};
+		class Item2391
+		{
+			position[]={7865.501,113.19279,16099.587};
+			azimut=-50.160793;
+			offsetY=1;
+			id=2592;
+			side="EMPTY";
+			vehicle="Land_Billboard_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; this SetObjectTexture [0,""images\billboard_fla.jpg""];";
+		};
+		class Item2392
+		{
+			position[]={7790.5234,112.82946,16144.579};
+			azimut=98.847031;
+			offsetY=1;
+			id=2593;
+			side="EMPTY";
+			vehicle="Land_Billboard_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; this SetObjectTexture [0,""images\billboard_fla.jpg""];";
 		};
 	};
 	class Markers

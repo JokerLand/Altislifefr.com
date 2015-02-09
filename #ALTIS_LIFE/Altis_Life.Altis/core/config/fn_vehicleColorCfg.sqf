@@ -889,7 +889,7 @@ switch (_vehicle) do
 			["\a3\soft_f_gamma\SUV_01\Data\suv_01_ext_02_co.paa","cop"],
 			["\a3\soft_f_gamma\SUV_01\Data\suv_01_ext_03_co.paa","civ"],
 			["\a3\soft_f_gamma\SUV_01\Data\suv_01_ext_04_co.paa","civ"],
-			["ALFR_TexSnd\suv_police.jpg","cop"],
+			["ALFR_TexSnd\suv_police.paa","cop"],
 			["\a3\soft_f_gamma\SUV_01\Data\suv_01_ext_02_co.paa","civ"],
 			["ALFR_TexSnd\suv_noir.jpg","civ"],
 			["ALFR_TexSnd\suv_blanc.jpg","civ"],

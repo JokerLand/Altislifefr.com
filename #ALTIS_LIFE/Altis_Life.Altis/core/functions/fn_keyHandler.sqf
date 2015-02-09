@@ -116,8 +116,8 @@ switch (_code) do
 		};
 	};
 
-	//Takwondo(f1)
-	case 59:
+	//Takwondo(f5)
+	case 63:
 	{
 		//if(_shift) then {_handled = true;};
 		if ((!_shift) && (vehicle player == player)) then
@@ -127,8 +127,8 @@ switch (_code) do
 		};
 	};
 
-	//Mouvements(f2)
-	case 60:
+	//Mouvements(f6)
+	case 64:
 	{
 		//if(_shift) then {_handled = true;};
 		if ((!_shift) && (vehicle player == player)) then
@@ -156,8 +156,8 @@ switch (_code) do
 		};
 	};	
 	
-	//Mouvements(f3)
-	case 61:
+	//Mouvements(f7)
+	case 65:
 	{
 	    //if(_shift) then {_handled = true;};
 		if ((!_shift) && (vehicle player == player)) then
@@ -166,11 +166,9 @@ switch (_code) do
 			player playMove "AmovPercMstpSnonWnonDnon_exercisekneeBendB";
 		};
 	};
-	
-	
 
-	//Pompe(f4)
-	case 62:
+	//Pompe(f8)
+	case 66:
 	{
 		//if(_shift) then {_handled = true;};
 		if ((!_shift) && (vehicle player == player)) then
@@ -206,7 +204,6 @@ switch (_code) do
     [[1,format["Anti-Cheat: %1 utilise ALT+F4 pour se deconnecter (Merci de le report aux Admins)",_player getVariable["realname",name _player]]],"life_fnc_broadcast",nil,false] spawn life_fnc_MP;
     };
     };
-	/*
     case 211:
     {
     if(_ctrlKey && _alt)  then {
@@ -228,7 +225,6 @@ switch (_code) do
     [[1,format["Anti-Cheat: %1 utilise CTRL + ESC pour se deconnecter (Merci de le report aux Admins)",player getVariable["realname",name player]]],"life_fnc_broadcast",nil,false] spawn life_fnc_MP;
     };
     };
-	*/
 	
 	//T Key (Trunk)
 	case 20:

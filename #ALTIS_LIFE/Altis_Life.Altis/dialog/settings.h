@@ -105,7 +105,7 @@ class SettingsMenu
 			text = "";
 			onSliderPosChanged = "[0,_this select 1] call life_fnc_s_onSliderChange;";
 			tooltip = "$STR_SM_ToolTip1";
-			x = 0.39
+			x = 0.39;
 			y = 0.30 - (1 / 25);
 			
 			w = "9 * 			(			((safezoneW / safezoneH) min 1.2) / 40)";

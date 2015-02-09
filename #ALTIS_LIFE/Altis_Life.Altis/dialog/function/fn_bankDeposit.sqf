@@ -20,5 +20,5 @@ life_atmcash = life_atmcash + _value;
 
 hint format[localize "STR_ATM_DepositMSG",[_value] call life_fnc_numberText];
 [] call life_fnc_atmMenu;
-[] call SOCK_fnc_updateRequestMoney; //Silent Sync
+[6] call SOCK_fnc_updatePartial;
 life_atm_last_withdraw = time;
