@@ -29395,12 +29395,12 @@ class Mission
 		class Item2335
 		{
 			position[]={9500.6982,10.181831,8918.498};
-			azimut=656.54614;
+			azimut=656.54602;
 			id=2536;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V2_F";
 			skill=1;
-			init="removeallWeapons this;    this enableSimulation false;  this allowDamage false;    this addAction[""Marché"",life_fnc_virt_menu,""rebel"",0,false,false,"""",' license_lost && playerSide == civilian'];  this addAction[""Uniformes"",life_fnc_clothingMenu,""reb"",0,false,false,"""",' license_lost && playerSide == civilian'];    this addAction[""Armes"",life_fnc_weaponShopMenu,""rebel"",0,false,false,"""",' license_lost && playerSide == civilian'];    this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu,"""",0,FALSE,FALSE,"""",' vehicle player == player && license_mw && player distance _target < 4 '];this addAction[format[""%1 ($%2)"",[""license_civ_rebel""] call life_fnc_varToStr,[([""rebel""] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,""rebel"",0,false,false,"""",' !license_civ_rebel && playerSide == civilian '];";
+			init="removeallWeapons this;    this enableSimulation false;  this allowDamage false;    this addAction[""Marché"",life_fnc_virt_menu,""rebel"",0,false,false,"""",' license_lost && playerSide == civilian'];  this addAction[""Uniformes"",life_fnc_clothingMenu,""reb"",0,false,false,"""",' license_lost && playerSide == civilian'];    this addAction[""Armes"",life_fnc_weaponShopMenu,""rebel"",0,false,false,"""",' license_lost && playerSide == civilian'];    this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu,"""",0,FALSE,FALSE,"""",' vehicle player == player && license_lost && player distance _target < 4 '];this addAction[format[""%1 ($%2)"",[""license_civ_rebel""] call life_fnc_varToStr,[([""rebel""] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,""rebel"",0,false,false,"""",' !license_civ_rebel && playerSide == civilian '];";
 		};
 		class Item2336
 		{
@@ -29950,8 +29950,8 @@ class Mission
 		};
 		class Item2387
 		{
-			position[]={7904.7344,115.16653,16169.292};
-			azimut=129.19701;
+			position[]={7905.3667,115.19035,16170.088};
+			azimut=-53.01778;
 			special="NONE";
 			id=2588;
 			side="EMPTY";
@@ -29961,8 +29961,8 @@ class Mission
 		};
 		class Item2388
 		{
-			position[]={7905.3799,115.18968,16170.075};
-			azimut=129.19701;
+			position[]={7904.7476,115.16642,16169.279};
+			azimut=-53.01778;
 			special="NONE";
 			id=2589;
 			side="EMPTY";
