@@ -246,38 +246,20 @@ switch (_code) do
                         _index = -1;
 						
                         if(cursorTarget isKindOf "House_F") then 
-                        {   
-                            _myCurTarget = cursorTarget;
-                            systemChat format["COUCOU "];
-                            _ownersMaison = _myCurTarget getVariable "house_owner";
-                            //_owners = cursorTarget getVariable["house_owner",[]];
-                            _test = count _ownersMaison;
-                            systemChat format["OWNERS: %1 ",_test];
-                            systemChat format["Moui ?"];
-                             _test2 = _ownersMaison select 0;
-                            _test3 = _test2 select 0;
-                            systemChat format["OWNERS 1 PID : %1 || i: %2",_test3, _i];
-                             _test2 = _ownersMaison select 1;
-                            _test3 = _test2 select 0;
-                            systemChat format["OWNERS 2PID : %1 || i: %2",_test3, _i];
+                        {     
+                            _ownersMaison = cursorTarget getVariable "house_owner";
+
                         for "_i" from 0 to ((count _ownersMaison) - 1) do {
-                            _test2 = _ownersMaison select _i;
-                            _test3 = _test2 select 0;
-                            systemChat format["OWNERS PID : %1 || i: %2",_test3, _i];
-							if((_ownersMaison select _i) select 0 == getPlayerUID player) then {_index = _i;};
+							if((_ownersMaison select _i) select [0] == getPlayerUID player) then {_index = _i;};
 						  };
-						   systemChat format["COUCOU2 "];
-                            systemChat format["index : %1",_index];
                           if(_index > -1) then
 						  {
 							[cursorTarget] call life_fnc_openInventory;
 						  };
                         
                         }else {
-                             systemChat format["COUCOU3 "];
+                           
                             _owners = cursorTarget getVariable ["vehicle_info_owners",[]];
-                            _test = count _owners;
-                            systemChat format["OWNERS VEHICLES: %1 ",_test];
                             for "_i" from 0 to ((count _owners) - 1) do {
 							
                                 if((_owners select _i) select 0 == getPlayerUID player) then {_index = _i;};
