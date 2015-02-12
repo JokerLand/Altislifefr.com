@@ -30,8 +30,7 @@ life_deathCamera camSetFOV .5;
 life_deathCamera camSetFocus [50,0];
 life_deathCamera camCommit 0;
 
-_handle = [] spawn life_fnc_stripDownPlayer;
-waitUntil {scriptDone _handle};
+
 
 (findDisplay 7300) displaySetEventHandler ["KeyDown","if((_this select 1) == 1) then {true}"]; //Block the ESC menu
 
@@ -76,6 +75,11 @@ if(!isNull _killer && {_killer != _unit} && {side _killer != west} && {alive _ki
 			[[3],"life_fnc_removeLicenses",_killer,FALSE] spawn life_fnc_MP;
 		};
 	};
+};
+
+if(playerSide != west) {
+    _handle = [] spawn life_fnc_stripDownPlayer;
+    waitUntil {scriptDone _handle};
 };
 
 //Killed by cop stuff...
