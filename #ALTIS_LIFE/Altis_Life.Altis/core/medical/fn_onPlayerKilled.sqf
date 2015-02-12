@@ -77,7 +77,7 @@ if(!isNull _killer && {_killer != _unit} && {side _killer != west} && {alive _ki
 	};
 };
 
-if(playerSide != west) {
+if(playerSide != west) then {
     _handle = [] spawn life_fnc_stripDownPlayer;
     waitUntil {scriptDone _handle};
 };
