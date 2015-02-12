@@ -10,7 +10,7 @@ _math = [_this,0,false,[false]] call BIS_fnc_param; //true = add; false = subtra
 _item = [_this,1,"",[""]] call BIS_fnc_param; //The item we are using to add or remove.
 _num = [_this,2,0,[0]] call BIS_fnc_param; //Number of items to add or remove.
 if(_item == "" OR _num == 0) exitWith {false};
-
+diag_log "############## HANDLE__INV #############";
 _var = [_item,0] call life_fnc_varHandle;
 if(_math) then
 {

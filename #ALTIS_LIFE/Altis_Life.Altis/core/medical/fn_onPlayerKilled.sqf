@@ -6,7 +6,7 @@
 	When the player dies collect various information about that player
 	and pull up the death dialog / camera functionality.
 */
-private["_unit","_killer"];
+private["_unit","_killer","_handle"];
 disableSerialization;
 _unit = [_this,0,ObjNull,[ObjNull]] call BIS_fnc_param;
 _killer = [_this,1,ObjNull,[ObjNull]] call BIS_fnc_param;
@@ -29,6 +29,9 @@ life_deathCamera camSetRelPos [0,3.5,4.5];
 life_deathCamera camSetFOV .5;
 life_deathCamera camSetFocus [50,0];
 life_deathCamera camCommit 0;
+
+_handle = [] spawn life_fnc_stripDownPlayer;
+waitUntil {scriptDone _handle};
 
 (findDisplay 7300) displaySetEventHandler ["KeyDown","if((_this select 1) == 1) then {true}"]; //Block the ESC menu
 
@@ -103,6 +106,7 @@ if(!isNull _killer && {_killer != _unit}) then {
 
 [] call life_fnc_hudUpdate; //Get our HUD updated.
 [[player,life_sidechat,playerSide],"TON_fnc_managesc",false,false] spawn life_fnc_MP;
+
 
 [0] call SOCK_fnc_updatePartial;
 [3] call SOCK_fnc_updatePartial;

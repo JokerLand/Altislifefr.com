@@ -27,3 +27,5 @@ diag_log "------------- Je passe par ici 4? ---------------";
 diag_log "------------- Je passe par ici 5? ---------------";
 	[[_house],"TON_fnc_updateHouseContainers",false,false] spawn life_fnc_MP;
 };
+
+[3] call SOCK_fnc_updatePartial;
