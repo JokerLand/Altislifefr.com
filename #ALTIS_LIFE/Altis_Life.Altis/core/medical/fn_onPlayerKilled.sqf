@@ -109,4 +109,5 @@ if(!isNull _killer && {_killer != _unit}) then {
 
 
 [0] call SOCK_fnc_updatePartial;
+[2] call SOCK_fnc_updatePartial;
 [3] call SOCK_fnc_updatePartial;
