@@ -12057,9 +12057,9 @@ class Mission
 		};
 		class Item752
 		{
-			position[]={25754.338,20.879477,21387.746};
-			azimut=134.10742;
-			offsetY=0.5;
+			position[]={25732.654,20.928713,21409.709};
+			azimut=-42.0453;
+			offsetY=0.30000001;
 			special="NONE";
 			id=953;
 			side="EMPTY";
@@ -12350,6 +12350,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_InfoStand_V2_F";
 			skill=0.2;
+			text="dp_24";
 			init="this allowDamage false; this enableSimulation false; this addAction[""Livrer le Colis"",life_fnc_dpFinish,""dp_1"",0,false,false,"""",'!isNil ""life_dp_point"" && life_delivery_in_progress && life_dp_point == _target '];  this addAction[""Obtenir une Mission de Livraison"",life_fnc_getDPMission,""dp_1"",0,false,false,"""",' isNil ""life_dp_point"" && !life_delivery_in_progress '];";
 		};
 		class Item777
@@ -30873,12 +30874,12 @@ class Mission
 		};
 		class Item106
 		{
-			position[]={25754.867,20.883001,21387.219};
+			position[]={25732.355,20.929317,21410.008};
 			name="Gen_2_1";
 			text="Quincaillerie";
 			type="c_unknown";
 			colorName="ColorGreen";
-			angle=-0.67126203;
+			angle=-176.82394;
 		};
 		class Item107
 		{
