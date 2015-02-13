@@ -94,6 +94,7 @@ if(side _killer == west && playerSide != west) then {
 		[format[localize "STR_Cop_RobberDead",[life_cash] call life_fnc_numberText],"life_fnc_broadcast",true,false] spawn life_fnc_MP;
 		life_cash = 0;
 	};
+    [2] call SOCK_fnc_updatePartial;
 };
 
 if(!isNull _killer && {_killer != _unit}) then {
@@ -113,5 +114,5 @@ if(!isNull _killer && {_killer != _unit}) then {
 
 
 [0] call SOCK_fnc_updatePartial;
-[2] call SOCK_fnc_updatePartial;
+
 [3] call SOCK_fnc_updatePartial;
