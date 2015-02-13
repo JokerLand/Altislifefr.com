@@ -204,7 +204,7 @@ switch (_shop) do
 		_return set[count _return,
 		["DAR_TaurusPolice",100000]];
 		_return set[count _return,
-		["range_rover_police",300000]];
+		["range_rover_police",150000]];
 		//_return set[count _return,
 		//["cl3_q7_police",133334]];
 		};
@@ -220,7 +220,7 @@ switch (_shop) do
 			_return set[count _return,
 			["insignia_police_st",250000]];
 			_return set[count _return,
-			["ALFR_GeK_Panamera_Police",350000]];
+			["ALFR_GeK_Panamera_Police",250000]];
 			_return set[count _return,
 			["CL3_bus_cl_black",100000]];
 			_return set[count _return,
