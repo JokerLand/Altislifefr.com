@@ -78,9 +78,9 @@ life_thirst = 100;
 life_hunger = 100;
 __CONST__(life_paycheck_period,5); //Five minutes
 life_cash = 0;
-__CONST__(life_impound_car,5000);
+__CONST__(life_impound_car,15000);
 __CONST__(life_impound_boat,5000);
-__CONST__(life_impound_air,7500);
+__CONST__(life_impound_air,17500);
 life_istazed = false;
 life_my_gang = ObjNull;
 
@@ -421,7 +421,7 @@ life_garage_prices =
 	["B_Truck_01_box_F", 35000],
 	["O_MRAP_02_F",200000],
 	["B_Heli_Light_01_F",10000],
-	["O_Heli_Light_02_unarmed_F",15000],
+	["O_Heli_Light_02_unarmed_F",250000],
 	["C_Rubberboat",400],
 	["C_Boat_Civil_01_F",4500],
 	["B_Boat_Transport_01_F",450],
@@ -429,7 +429,8 @@ life_garage_prices =
 	["B_Boat_Armed_01_minigun_F",16500],
 	["B_SDV_01_F",25000],
 	["B_MRAP_01_F",200000],
-    ["ALFR_Armee_Hummingbird",10000]
+    ["ALFR_Armee_Hummingbird",10000],
+	["B_Heli_Transport_03_unarmed_F",350000]
 ];
 __CONST__(life_garage_prices,life_garage_prices);
 
