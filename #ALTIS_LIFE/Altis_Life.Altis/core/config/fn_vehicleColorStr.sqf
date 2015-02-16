@@ -1150,6 +1150,29 @@ switch (_vehicle) do
             case 0 :{_color ="Police";};
         };
   };
+    
+    case "B_Heli_Transport_03_F" :
+    {
+        switch(_index) do 
+        {
+            case 0 : {_color = "Police";};
+        };
+    };
+    
+    case "B_Heli_Transport_03_unarmed_F" :
+    {
+        switch(_index) do 
+        {
+            case 0 : {_color ="Blanc";};    
+            case 1 : {_color ="Bleu";};
+            case 2 : {_color ="Cyan";};
+            case 3 : {_color ="Orange";};
+            case 4 : {_color ="Rouge";};
+            case 5 : {_color ="Vert";};
+            case 6 : {_color ="Camo digital vert";};
+            case 7 : {_color ="Camo digital gris ";};
+        };
+    };
 
 };
 

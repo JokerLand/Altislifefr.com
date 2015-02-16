@@ -1130,6 +1130,32 @@ switch (_vehicle) do
 			["ALFR_TexSnd\bus_exterior_donator.jpg","civ"]
         ];
     };
+    
+    
+    /* Huron pollice */
+    case "B_Heli_Transport_03_F":
+    {
+        _ret =
+        [
+            ["ALFR_TexSnd\huronpolice2.paa","civ","ALFR_TexSnd\huronpolice1.paa"]
+        ];
+    };
+    
+    /* Huron donator */
+    case "B_Heli_Transport_03_unarmed_F":
+    {
+        _ret = 
+        [
+            ["ALFR_TexSnd\huronuniblanc2.paa","civ","ALFR_TexSnd\huronuniblanc1.paa"],
+            ["ALFR_TexSnd\huronunibleu2.paa","civ","ALFR_TexSnd\huronunibleu1.paa"],
+            ["ALFR_TexSnd\huronunicyan2.paa","civ","ALFR_TexSnd\huronunicyan1.paa"],
+            ["ALFR_TexSnd\huronuniorange2.paa","civ","ALFR_TexSnd\huronuniorange1.paa"],
+            ["ALFR_TexSnd\huronunirouge2.paa","civ","ALFR_TexSnd\huronunirouge1.paa"],
+            ["ALFR_TexSnd\huronunivert2.paa","civ","ALFR_TexSnd\huronunivert1.paa"],
+            ["ALFR_TexSnd\huroncamovert2.paa","civ","ALFR_TexSnd\huroncamovert1.paa"],
+            ["ALFR_TexSnd\huroncamodigi2.paa","civ","ALFR_TexSnd\huroncamodigi1.paa"]      
+        ];
+    };
 };
 
 _ret;

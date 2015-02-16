@@ -81,7 +81,12 @@ switch (_filter) do
 			["U_PMC_CombatUniformRS_ChckDBS_GPSB","Tenue Chemise Bleu",6000],
 			["U_PMC_CombatUniformRS_ChckLB_GPBB","Tenue Chemise Bleu Claire",6000],
 			["U_PMC_CombatUniformRS_ChckLR_SPBB","Tenue Chemise Rose Claire",6000],
-			["U_PMC_CombatUniformRS_ChckP_BPBB","Tenue Chemise Violette",6000]
+			["U_PMC_CombatUniformRS_ChckP_BPBB","Tenue Chemise Violette",6000],
+            ["ALFR_FR_tenukenny","Tenue Monsieur Rat Super", 5000],
+            ["ALFR_FR_nitrado", "Tenue Nitrado", 5000],
+            ["ALFR_FR_armani_black", "Tenue armani noir", 7000],
+            ["ALFR_FR_armani_blue", "Tenue armani bleu", 7000],
+            ["ALFR_FR_armani_white", "Tenue armani blanche", 7000]
 		];
 	};
 	
@@ -197,7 +202,8 @@ switch (_filter) do
 			["B_Carryall_oli",nil,2500],
 			["B_Carryall_khk",nil,2500],
 			["B_Carryall_cbr",nil,2500],
-			["B_Parachute",nil,2500]
+			["B_Parachute",nil,2500],
+            ["ALFR_Civ_Bags_Nitrado",nil, 2500]
 		];
 	};
 };
