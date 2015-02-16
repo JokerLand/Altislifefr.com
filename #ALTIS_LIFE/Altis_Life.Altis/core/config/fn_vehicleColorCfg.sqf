@@ -1137,7 +1137,7 @@ switch (_vehicle) do
     {
         _ret =
         [
-            ["ALFR_TexSnd\huronpolice2.paa","civ","ALFR_TexSnd\huronpolice1.paa"]
+            
         ];
     };
     
