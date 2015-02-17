@@ -5,14 +5,19 @@
 	Description:
 	Answers the query request to create the vehicle in the database.
 */
-private["_uid","_side","_type","_classname","_color","_plate"];
+private["_uid","_side","_type","_classname","_color","_plate","_mode"];
 _uid = [_this,0,"",[""]] call BIS_fnc_param;
 _side = [_this,1,sideUnknown,[west]] call BIS_fnc_param;
 _vehicle = [_this,2,ObjNull,[ObjNull]] call BIS_fnc_param;
 _color = [_this,3,-1,[0]] call BIS_fnc_param;
+_mode = [_this,4, -1,[0]] call BIS_fnc_param;
+
+
+diag_log format["#################### VehicleCreate _mode : %1",(_mode)];
+
 
 //Error checks
-if(_uid == "" OR _side == sideUnknown OR isNull _vehicle) exitWith {};
+if(_uid == "" OR _side == sideUnknown OR isNull _vehicle OR _mode == -1) exitWith {};
 if(!alive _vehicle) exitWith {};
 _className = typeOf _vehicle;
 _type = switch(true) do
@@ -30,8 +35,10 @@ _side = switch(_side) do
 	default {"Error"};
 };
 
+
+
 _plate = round(random(1000000));
-[_uid,_side,_type,_classname,_color,_plate] call DB_fnc_insertVehicle;
+[_uid,_side,_type,_classname,_color,_plate,_mode] call DB_fnc_insertVehicle;
 
 _vehicle setVariable["dbInfo",[_uid,_plate]];
 _vehicle addEventHandler["Killed","_this spawn TON_fnc_vehicleDead"];
