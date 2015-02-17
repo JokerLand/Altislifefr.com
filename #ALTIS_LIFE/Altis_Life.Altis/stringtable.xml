@@ -18,10 +18,10 @@
 			<Portuguese>Vender</Portuguese>
 		</Key>
 		<Key ID="STR_Global_Buy">
-			<Original>Acheter assuré</Original>
-			<English>Acheter assuré</English>
+			<Original>Buy</Original>
+			<English>Buy</English>
 			<German>Kaufen</German>
-			<French>Acheter assuré</French>
+			<French>Acheter</French>
 			<Italian>Compra</Italian>
 			<Portuguese>Comprar</Portuguese>
 		</Key>
@@ -58,10 +58,10 @@
 			<Portuguese>Configurar</Portuguese>
 		</Key>
 		<Key ID="STR_Global_RentVeh">
-			<Original>Acheter</Original>
-			<English>Acheter</English>
+			<Original>Rent</Original>
+			<English>Rent</English>
 			<German>Mieten</German>
-			<French>Acheter</French>
+			<French>Louer</French>
 			<Italian>Affitta</Italian>
 			<Portuguese>Alugar</Portuguese>
 		</Key>
