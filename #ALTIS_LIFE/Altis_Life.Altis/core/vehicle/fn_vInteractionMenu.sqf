@@ -11,6 +11,8 @@
 #define Btn4 37453
 #define Btn5 37454
 #define Btn6 37455
+#define Btn12 37461
+
 #define Title 37401
 private["_display","_curTarget","_Btn1","_Btn2","_Btn3","_Btn4","_Btn5","_Btn6"];
 if(!dialog) then {
@@ -28,6 +30,7 @@ _Btn3 = _display displayCtrl Btn3;
 _Btn4 = _display displayCtrl Btn4;
 _Btn5 = _display displayCtrl Btn5;
 _Btn6 = _display displayCtrl Btn6;
+_Btn12 = _diplay displayCtrl Btn12;
 life_vInact_curTarget = _curTarget;
 
 //Set Repair Action
@@ -47,8 +50,11 @@ if(playerSide == west) then {
 	_Btn4 buttonSetAction "[life_vInact_curTarget] spawn life_fnc_pulloutAction;";
 	if(count crew _curTarget == 0) then {_Btn4 ctrlEnable false;};
 	
-	_Btn5 ctrlSetText localize "STR_vInAct_Impound";
+/*	_Btn5 ctrlSetText localize "STR_vInAct_Impound";
 	_Btn5 buttonSetAction "[life_vInact_curTarget] spawn life_fnc_impoundAction;";
+  */  
+    _Btn5 ctrlSetText localize "STR_pInAct_DestroyeCar";
+    _Btn5 buttonSetAction "[life_vInact_curTarget] spawn life_fnc_destroyeAction;";
 	
 	if(_curTarget isKindOf "Ship") then {
 		_Btn6 ctrlSetText localize "STR_vInAct_PushBoat";
@@ -65,7 +71,8 @@ if(playerSide == west) then {
 			if(count crew _curTarget == 0 && {canMove _curTarget}) then { _Btn6 ctrlEnable false;} else {_Btn6 ctrlEnable true;};
 		};
 	};
-	
+    
+
 } else {
 	
 	if(_curTarget isKindOf "Ship") then {

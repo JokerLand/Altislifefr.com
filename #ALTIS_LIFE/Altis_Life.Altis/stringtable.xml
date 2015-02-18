@@ -18,10 +18,10 @@
 			<Portuguese>Vender</Portuguese>
 		</Key>
 		<Key ID="STR_Global_Buy">
-			<Original>Acheter assuré</Original>
-			<English>Acheter assuré</English>
+			<Original>Buy</Original>
+			<English>Buy</English>
 			<German>Kaufen</German>
-			<French>Acheter assuré</French>
+			<French>Acheter</French>
 			<Italian>Compra</Italian>
 			<Portuguese>Comprar</Portuguese>
 		</Key>
@@ -58,10 +58,10 @@
 			<Portuguese>Configurar</Portuguese>
 		</Key>
 		<Key ID="STR_Global_RentVeh">
-			<Original>Acheter</Original>
-			<English>Acheter</English>
+			<Original>Rent</Original>
+			<English>Rent</English>
 			<German>Mieten</German>
-			<French>Acheter</French>
+			<French>Louer</French>
 			<Italian>Affitta</Italian>
 			<Portuguese>Alugar</Portuguese>
 		</Key>
@@ -2046,6 +2046,46 @@
 		<Key ID="STR_NOTF_NoLootingPerson">
 			<Original>You are not allowed to loot dead bodies</Original>
 			<English>You are not allowed to loot dead bodies</English>
+		</Key>
+       <Key ID="STR_NOTF_BeingDestroye">
+			<Original>%1 your %2 is being impounded by the police.</Original>
+			<English>%1 your %2 is being impounded by the police.</English>
+			<German>%1 dein %2 wird von der Polizei beschlagnahmt.</German>
+			<French>%1 votre %2 est envoyé a la fourrière par la police.</French>
+			<Italian>%1 il tuo %2 sta per essere sequestrato dalla Polizia.</Italian>
+			<Portuguese>%1 seu %2 está sendo apreendido pela Polícia</Portuguese>
+		</Key>
+		<Key ID="STR_NOTF_Destroying">
+			<Original>Impounding Vehicle</Original>
+			<English>Impounding Vehicle</English>
+			<German>Fahrzeug wird beschlagnahmt</German>
+			<French>Mise en fourrière</French>
+			<Italian>Sequestro Veicolo in corso</Italian>
+			<Portuguese>Apreendendo veículo</Portuguese>
+		</Key>
+		<Key ID="STR_NOTF_DestroyingCancelled">
+			<Original>Impounding has been cancelled.</Original>
+			<English>Impounding has been cancelled.</English>
+			<German>Beschlagnahmung abgebrochen.</German>
+			<French>Mise en fourrière annulée.</French>
+			<Italian>Il sequestro è stato annullato.</Italian>
+			<Portuguese>Ação de apreender foi cancelada</Portuguese>
+		</Key>
+		<Key ID="STR_NOTF_Destroyed">
+			<Original>You have detroyed a %1\n\n</Original>
+			<English>You have detroyed a %1\n\n</English>
+			<German>Du hast einen %1 beschlagnahmt\n\n</German>
+			<French>Vous avez détruit un(e) %1\n\n</French>
+			<Italian>Hai sequestrato un %1\n\n</Italian>
+			<Portuguese>Você apreendeu %1\n\n</Portuguese>
+		</Key>
+		<Key ID="STR_NOTF_HasDestroyed">
+			<Original>%1 has destoyed %2's %3</Original>
+			<English>%1 has detroyed %2's %3</English>
+			<German>%1 hat %2's %3 beschlagnahmt</German>
+			<French>%1 a détruit le %3 de %2.</French>
+			<Italian>%1 ha sequestrato il %2 di %3</Italian>
+			<Portuguese>%1 apreendeu %3 de %2</Portuguese>
 		</Key>
 	</Package>
 	<Package name="Jail_Strings">
@@ -4450,6 +4490,14 @@
 			<French>Déposer pour le gang</French>
 			<Italian>Deposita alla Gang</Italian>
 			<Portuguese>Depositar para a Gangue</Portuguese>
+		</Key>
+        <Key ID="STR_pInAct_DestroyeCar">
+			<Original>Détruire voiture</Original>
+			<English>Détruire voiture</English>
+			<German>Détruire voiture</German>
+			<French>Détruire voiture</French>
+			<Italian>Détruire voiture</Italian>
+			<Portuguese>Détruire voiture</Portuguese>
 		</Key>
 	</Package>
 		<Package name="Vehicle_Interaction">

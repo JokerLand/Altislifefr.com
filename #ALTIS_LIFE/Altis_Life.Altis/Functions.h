@@ -132,6 +132,7 @@ class Life_Client_Core
         class processActionDual {};
         class processActionLsd {};
         class robShops {};
+        class destroyeAction {};
 	};
 	
 	class Housing

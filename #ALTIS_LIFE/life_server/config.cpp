@@ -107,6 +107,7 @@ class CfgFunctions
 			class setObjVar {};
 			class keyManagement {};
             class vehicleRepaint {};
+            class vehicleDeleteAction {};
 		};
 		
 		class Housing
