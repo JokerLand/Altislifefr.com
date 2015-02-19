@@ -1174,6 +1174,16 @@ switch (_vehicle) do
             case 7 : {_color ="Camo digital gris ";};
         };
     };
+    
+    
+    
+    case "B_Heli_Transport_01_F" :
+    {
+        switch(_index) do 
+        {
+            case 0 : {_color = "Police";};
+        };
+    };
 
 };
 

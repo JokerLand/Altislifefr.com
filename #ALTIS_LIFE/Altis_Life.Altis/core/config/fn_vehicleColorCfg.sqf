@@ -1138,7 +1138,7 @@ switch (_vehicle) do
     {
         _ret =
         [
-            
+            ["alfr_police\huron\huronav1.jpg","cop","alfr_police\huron\huronar1.jpg"]
         ];
     };
     
@@ -1155,6 +1155,16 @@ switch (_vehicle) do
             ["ALFR_TexSnd\huronunivert2.paa","civ","ALFR_TexSnd\huronunivert1.paa"],
             ["ALFR_TexSnd\huroncamovert2.paa","civ","ALFR_TexSnd\huroncamovert1.paa"],
             ["ALFR_TexSnd\huroncamodigi2.paa","civ","ALFR_TexSnd\huroncamodigi1.paa"]      
+        ];
+    };
+    
+    
+    
+     case "B_Heli_Transport_01_F":
+    {
+        _ret =
+        [
+            ["alfr_police\hawk\hawkav1.jpg","cop","alfr_police\hawk\hawkar1.jpg"]
         ];
     };
 };
