@@ -51,7 +51,7 @@ if((_vehicle isKindOf "Car") || (_vehicle isKindOf "Air") || (_vehicle isKindOf 
 		
 		
 		life_destroye_inuse = true;
-        [[_vehicle,true,player],"TON_fn_vehicleDeleteAction",false,false] spawn life_fnc_MP;
+        [[_vehicle,true,player],"TON_fnc_vehicleDeleteAction",false,false] spawn life_fnc_MP;
 		waitUntil {!life_destroye_inuse};
 		hint format[localize "STR_NOTF_Destroyed",_type];
 		[[0,"STR_NOTF_HasDestroyed",true,[profileName,(_vehicleData select 0) select 1,_vehicleName]],"life_fnc_broadcast",true,false] spawn life_fnc_MP;

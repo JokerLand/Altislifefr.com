@@ -87,7 +87,7 @@ class Life_Vehicle_Shop_v2
 			onButtonClick = "[true] spawn life_fnc_vehicleShopBuy;";
 			x = 0.26 + (6.25 / 40) + (1 / 250 / (safezoneW / safezoneH));
 			y = 0.9 - (1 / 25);
-			w = (6.25 / 40);
+			w = (10.25 / 40);
 			h = (1 / 25);
 		};
 	};

@@ -9,6 +9,7 @@ private["_vehicle","_impound","_vInfo","_vInfo","_plate","_uid","_query","_sql",
 _vehicle = [_this,0,ObjNull,[ObjNull]] call BIS_fnc_param;
 _impound = [_this,1,false,[true]] call BIS_fnc_param;
 _unit = [_this,2,ObjNull,[ObjNull]] call BIS_fnc_param;
+diag_log "##################### Destroye vehicle #########################";
 
 if(isNull _vehicle OR isNull _unit) exitWith {life_destroye_inuse = false; (owner _unit) publicVariableClient "life_destroye_inuse";life_garage_store = false;(owner _unit) publicVariableClient "life_garage_store";}; //Bad data passed.
 
