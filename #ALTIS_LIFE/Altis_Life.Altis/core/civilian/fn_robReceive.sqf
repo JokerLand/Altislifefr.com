@@ -8,3 +8,4 @@ if(_cash == 0) exitWith {titleText[localize "STR_Civ_RobFail","PLAIN"]};
 
 life_cash = life_cash + _cash;
 titleText[format[localize "STR_Civ_Robbed",[_cash] call life_fnc_numberText],"PLAIN"];
+[0] call SOCK_fnc_updatePartial;//On met à jour juste le cash du joueur

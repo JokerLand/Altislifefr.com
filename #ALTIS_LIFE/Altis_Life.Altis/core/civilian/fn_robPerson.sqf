@@ -17,6 +17,7 @@ if(life_cash > 0) then
 	[[getPlayerUID _robber,_robber getVariable["realname",name _robber],"211"],"life_fnc_wantedAdd",false,false] spawn life_fnc_MP;
 	[[1,"STR_NOTF_Robbed",true,[_robber getVariable["realname",name _robber],profileName,[life_cash] call life_fnc_numberText]],"life_fnc_broadcast",nil,false] spawn life_fnc_MP;
 	life_cash = life_cash - _cashrob;
+    [0] call SOCK_fnc_updatePartial;//On met à jour la db
 }
 	else
 {

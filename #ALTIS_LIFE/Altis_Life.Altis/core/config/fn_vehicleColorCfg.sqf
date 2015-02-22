@@ -581,7 +581,8 @@ switch (_vehicle) do
 			["#(argb,8,8,3)color(0.5,1,0.5,0.05)","civ"],
 			["#(argb,8,8,3)color(1,0,0,1)","civ"],
 			["#(argb,8,8,3)color(0.6,0.3,0.01,1)","civ"],
-			["#(argb,8,8,3)color(1,0.3,0.01,0.6)","civ"]
+			["#(argb,8,8,3)color(1,0.3,0.01,0.6)","civ"],
+            ["ALFR_texsnd\panamera_nitrado.paa","civ"]
  		];
  	};
 
@@ -889,7 +890,7 @@ switch (_vehicle) do
 			["\a3\soft_f_gamma\SUV_01\Data\suv_01_ext_02_co.paa","cop"],
 			["\a3\soft_f_gamma\SUV_01\Data\suv_01_ext_03_co.paa","civ"],
 			["\a3\soft_f_gamma\SUV_01\Data\suv_01_ext_04_co.paa","civ"],
-			["ALFR_TexSnd\suv_police.jpg","cop"],
+			["ALFR_TexSnd\suv_police.paa","cop"],
 			["\a3\soft_f_gamma\SUV_01\Data\suv_01_ext_02_co.paa","civ"],
 			["ALFR_TexSnd\suv_noir.jpg","civ"],
 			["ALFR_TexSnd\suv_blanc.jpg","civ"],
@@ -1128,6 +1129,42 @@ switch (_vehicle) do
         [
 			["ALFR_TexSnd\bus_exterior_cop.jpg","cop"],
 			["ALFR_TexSnd\bus_exterior_donator.jpg","civ"]
+        ];
+    };
+    
+    
+    /* Huron pollice */
+    case "B_Heli_Transport_03_F":
+    {
+        _ret =
+        [
+            ["alfr_police\huron\huronav1.jpg","cop","alfr_police\huron\huronar1.jpg"]
+        ];
+    };
+    
+    /* Huron donator */
+    case "B_Heli_Transport_03_unarmed_F":
+    {
+        _ret = 
+        [
+            ["ALFR_TexSnd\huronuniblanc2.paa","civ","ALFR_TexSnd\huronuniblanc1.paa"],
+            ["ALFR_TexSnd\huronunibleu2.paa","civ","ALFR_TexSnd\huronunibleu1.paa"],
+            ["ALFR_TexSnd\huronunicyan2.paa","civ","ALFR_TexSnd\huronunicyan1.paa"],
+            ["ALFR_TexSnd\huronuniorange2.paa","civ","ALFR_TexSnd\huronuniorange1.paa"],
+            ["ALFR_TexSnd\huronunirouge2.paa","civ","ALFR_TexSnd\huronunirouge1.paa"],
+            ["ALFR_TexSnd\huronunivert2.paa","civ","ALFR_TexSnd\huronunivert1.paa"],
+            ["ALFR_TexSnd\huroncamovert2.paa","civ","ALFR_TexSnd\huroncamovert1.paa"],
+            ["ALFR_TexSnd\huroncamodigi2.paa","civ","ALFR_TexSnd\huroncamodigi1.paa"]      
+        ];
+    };
+    
+    
+    
+     case "B_Heli_Transport_01_F":
+    {
+        _ret =
+        [
+            ["alfr_police\hawk\hawkav1.jpg","cop","alfr_police\hawk\hawkar1.jpg"]
         ];
     };
 };

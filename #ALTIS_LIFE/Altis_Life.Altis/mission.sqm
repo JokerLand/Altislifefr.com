@@ -4242,7 +4242,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=2389;
+		items=2393;
 		class Item0
 		{
 			position[]={8065.1616,35.674362,24985.314};
@@ -6750,13 +6750,13 @@ class Mission
 		class Item252
 		{
 			position[]={16627.336,11.365401,12754.656};
-			azimut=-57.723766;
+			azimut=-59.026299;
 			offsetY=1.5;
 			id=453;
 			side="EMPTY";
 			vehicle="Land_Billboard_F";
 			skill=0.60000002;
-			init="this enableSimulation false; this allowDamage false; this SetObjectTexture [0,""images\pyrgos.jpg""];";
+			init="this enableSimulation false; this allowDamage false; this SetObjectTexture [0,""images\billboard_police.jpg""];";
 		};
 		class Item253
 		{
@@ -12057,9 +12057,9 @@ class Mission
 		};
 		class Item752
 		{
-			position[]={25754.338,20.879477,21387.746};
-			azimut=134.10742;
-			offsetY=0.5;
+			position[]={25732.654,20.928713,21409.709};
+			azimut=-42.0453;
+			offsetY=0.30000001;
 			special="NONE";
 			id=953;
 			side="EMPTY";
@@ -12350,6 +12350,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_InfoStand_V2_F";
 			skill=0.2;
+			text="dp_24";
 			init="this allowDamage false; this enableSimulation false; this addAction[""Livrer le Colis"",life_fnc_dpFinish,""dp_1"",0,false,false,"""",'!isNil ""life_dp_point"" && life_delivery_in_progress && life_dp_point == _target '];  this addAction[""Obtenir une Mission de Livraison"",life_fnc_getDPMission,""dp_1"",0,false,false,"""",' isNil ""life_dp_point"" && !life_delivery_in_progress '];";
 		};
 		class Item777
@@ -22082,12 +22083,12 @@ class Mission
 		class Item1658
 		{
 			position[]={13975.308,22.263054,18864.984};
-			azimut=41.656483;
+			azimut=41.656502;
 			id=1859;
 			side="EMPTY";
 			vehicle="Land_Billboard_F";
 			skill=0.60000002;
-			init="this enableSimulation false; this allowDamage false; this SetObjectTexture [0,""images\athira.jpg""];";
+			init="this enableSimulation false; this allowDamage false; this SetObjectTexture [0,""images\billboard_police.jpg""];";
 		};
 		class Item1659
 		{
@@ -29395,12 +29396,12 @@ class Mission
 		class Item2335
 		{
 			position[]={9500.6982,10.181831,8918.498};
-			azimut=656.54614;
+			azimut=656.54602;
 			id=2536;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V2_F";
 			skill=1;
-			init="removeallWeapons this;    this enableSimulation false;  this allowDamage false;    this addAction[""Marché"",life_fnc_virt_menu,""rebel"",0,false,false,"""",' license_lost && playerSide == civilian'];  this addAction[""Uniformes"",life_fnc_clothingMenu,""reb"",0,false,false,"""",' license_lost && playerSide == civilian'];    this addAction[""Armes"",life_fnc_weaponShopMenu,""rebel"",0,false,false,"""",' license_lost && playerSide == civilian'];    this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu,"""",0,FALSE,FALSE,"""",' vehicle player == player && license_mw && player distance _target < 4 '];this addAction[format[""%1 ($%2)"",[""license_civ_rebel""] call life_fnc_varToStr,[([""rebel""] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,""rebel"",0,false,false,"""",' !license_civ_rebel && playerSide == civilian '];";
+			init="removeallWeapons this;    this enableSimulation false;  this allowDamage false;    this addAction[""Marché"",life_fnc_virt_menu,""rebel"",0,false,false,"""",' license_lost && playerSide == civilian'];  this addAction[""Uniformes"",life_fnc_clothingMenu,""reb"",0,false,false,"""",' license_lost && playerSide == civilian'];    this addAction[""Armes"",life_fnc_weaponShopMenu,""rebel"",0,false,false,"""",' license_lost && playerSide == civilian'];    this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu,"""",0,FALSE,FALSE,"""",' vehicle player == player && license_lost && player distance _target < 4 '];this addAction[format[""%1 ($%2)"",[""license_civ_rebel""] call life_fnc_varToStr,[([""rebel""] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,""rebel"",0,false,false,"""",' !license_civ_rebel && playerSide == civilian '];";
 		};
 		class Item2336
 		{
@@ -29950,8 +29951,8 @@ class Mission
 		};
 		class Item2387
 		{
-			position[]={7904.7344,115.16653,16169.292};
-			azimut=129.19701;
+			position[]={7905.3667,115.19035,16170.088};
+			azimut=-53.01778;
 			special="NONE";
 			id=2588;
 			side="EMPTY";
@@ -29961,14 +29962,57 @@ class Mission
 		};
 		class Item2388
 		{
-			position[]={7905.3799,115.18968,16170.075};
-			azimut=129.19701;
+			position[]={7904.7476,115.16642,16169.279};
+			azimut=-53.01778;
 			special="NONE";
 			id=2589;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V2_F";
 			skill=0.2;
 			init="removeallWeapons this;   this enableSimulation false;    this allowDamage false;   this addAction[""Quincaillerie"",life_fnc_weaponShopMenu,""genstore"",0,false,false,"""",' license_fla && playerSide == civilian'];this allowDamage false; this enableSimulation false; this addAction[""Vendeur de Vêtements civl"",life_fnc_clothingMenu,""bruce""];";
+		};
+		class Item2389
+		{
+			position[]={3304.8889,2.0375268,12944.758};
+			azimut=269.67499;
+			id=2590;
+			side="EMPTY";
+			vehicle="Land_Billboard_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; this SetObjectTexture [0,""images\billboard_police.jpg""];";
+		};
+		class Item2390
+		{
+			position[]={15158.653,17.91,17230.637};
+			azimut=-44.743301;
+			offsetY=1;
+			id=2591;
+			side="EMPTY";
+			vehicle="Land_Billboard_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; this SetObjectTexture [0,""images\billboard_police.jpg""];";
+		};
+		class Item2391
+		{
+			position[]={7865.501,113.19279,16099.587};
+			azimut=-50.160793;
+			offsetY=1;
+			id=2592;
+			side="EMPTY";
+			vehicle="Land_Billboard_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; this SetObjectTexture [0,""images\billboard_fla.jpg""];";
+		};
+		class Item2392
+		{
+			position[]={7790.5234,112.82946,16144.579};
+			azimut=98.847031;
+			offsetY=1;
+			id=2593;
+			side="EMPTY";
+			vehicle="Land_Billboard_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; this SetObjectTexture [0,""images\billboard_fla.jpg""];";
 		};
 	};
 	class Markers
@@ -30830,12 +30874,12 @@ class Mission
 		};
 		class Item106
 		{
-			position[]={25754.867,20.883001,21387.219};
+			position[]={25732.355,20.929317,21410.008};
 			name="Gen_2_1";
 			text="Quincaillerie";
 			type="c_unknown";
 			colorName="ColorGreen";
-			angle=-0.67126203;
+			angle=-176.82394;
 		};
 		class Item107
 		{

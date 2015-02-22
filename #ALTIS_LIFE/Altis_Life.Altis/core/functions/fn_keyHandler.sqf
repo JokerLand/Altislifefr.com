@@ -204,7 +204,6 @@ switch (_code) do
     [[1,format["Anti-Cheat: %1 utilise ALT+F4 pour se deconnecter (Merci de le report aux Admins)",_player getVariable["realname",name _player]]],"life_fnc_broadcast",nil,false] spawn life_fnc_MP;
     };
     };
-	/*
     case 211:
     {
     if(_ctrlKey && _alt)  then {
@@ -214,10 +213,10 @@ switch (_code) do
     };
     case 15:
     {
-    if( _alt)  then {
+/*    if( _alt)  then {
     diag_log format ["Anti-Cheat: %1 utilise ALT + TAB pour se deconnecter (Merci de le report aux Admins)",player getVariable["realname",name player]];
     [[1,format["Anti-Cheat: %1 utilise ALT + TAB pour se deconnecter (Merci de le report aux Admins)",player getVariable["realname",name player]]],"life_fnc_broadcast",nil,false] spawn life_fnc_MP;
-    };
+    }; */
     };
     case 1:
     {
@@ -226,27 +225,49 @@ switch (_code) do
     [[1,format["Anti-Cheat: %1 utilise CTRL + ESC pour se deconnecter (Merci de le report aux Admins)",player getVariable["realname",name player]]],"life_fnc_broadcast",nil,false] spawn life_fnc_MP;
     };
     };
-	*/
 	
 	//T Key (Trunk)
 	case 20:
 	{
 		if(!_alt && !_ctrlKey) then
 		{
-			if(vehicle player != player && alive vehicle player) then
+			if(vehicle player == player) then
 			{
-				if((vehicle player) in life_vehicles) then
-				{
-					[vehicle player] call life_fnc_openInventory;
-				};
-			}
-				else
-			{
-				if((cursorTarget isKindOf "Car" OR cursorTarget isKindOf "Air" OR cursorTarget isKindOf "Ship" OR cursorTarget isKindOf "House_F") && player distance cursorTarget < 7 && vehicle player == player && alive cursorTarget) then
+				if((cursorTarget isKindOf "Car" OR cursorTarget isKindOf "Air" OR cursorTarget isKindOf "Ship" OR cursorTarget isKindOf "House_F") && player distance cursorTarget < 10 && vehicle player == player && alive cursorTarget) then
 				{
 					if(cursorTarget in life_vehicles OR {!(cursorTarget getVariable ["locked",true])}) then
 					{
-						[cursorTarget] call life_fnc_openInventory;
+						
+                        
+                        _index = -1;
+						
+                        if(cursorTarget isKindOf "House_F") then 
+                        {     
+                            _ownersMaison = cursorTarget getVariable "house_owner";
+
+                        for "_i" from 0 to ((count _ownersMaison) - 1) do {
+							if((_ownersMaison select _i) select [0] == getPlayerUID player) then {_index = _i;};
+						  };
+                          if(_index > -1) then
+						  {
+							[cursorTarget] call life_fnc_openInventory;
+						  };
+                        
+                        }else {
+                           
+                            _owners = cursorTarget getVariable ["vehicle_info_owners",[]];
+                            for "_i" from 0 to ((count _owners) - 1) do {
+							
+                                if((_owners select _i) select 0 == getPlayerUID player) then {_index = _i;};
+						    };
+						
+                            if(_index > -1) then
+						  {
+							[cursorTarget] call life_fnc_openInventory;
+						  };
+                        };
+                        
+						
 					};
 				};
 			};
