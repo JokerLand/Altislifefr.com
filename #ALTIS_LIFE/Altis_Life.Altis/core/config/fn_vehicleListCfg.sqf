@@ -99,7 +99,7 @@ switch (_shop) do
 		[
 			["B_Heli_Light_01_F",75000],
 			["B_MRAP_01_F",1000000],
-			["cl3_range_rover_camo",50000],
+			["range_rover_police",50000],
 			["B_Heli_Transport_03_unarmed_F",1000000]
 		];
 	};

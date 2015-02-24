@@ -772,7 +772,8 @@ switch (_vehicle) do
 	{
  		_ret =
  		[
- 			["range_rover_police\data\range_rover_police.paa","cop"]
+ 			["range_rover_police\data\range_rover_police.paa","cop"],
+			["alfr_Arm\data\ALFR_range_armee.jpg","armer"]
  		];
  	};
 
