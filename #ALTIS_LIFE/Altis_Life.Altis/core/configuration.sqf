@@ -231,7 +231,7 @@ life_licenses =
 	["license_ms","civ"],
 	["license_ng","civ"],
 	["license_fonda","civ"],
-    ["license_fst","civ"],
+    ["license_egp","civ"],
     ["license_fmg","civ"],
     ["license_sop","civ"],
 	["license_top","civ"],
@@ -244,7 +244,7 @@ life_licenses =
 	["license_cro","civ"],
 	["license_cn","civ"],
 	["license_torres","civ"],
-	["license_lost","civ"],
+	["license_rg","civ"],
 	["license_armer","civ"],
 	["license_fla","civ"],
     ["license_civ_uranium","civ"]

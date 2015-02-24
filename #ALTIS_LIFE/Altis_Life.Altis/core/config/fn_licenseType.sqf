@@ -57,7 +57,7 @@ switch (_mode) do
 			case "ms": {_var = "license_ms"};
 			case "ng": {_var = "license_ng"};
 			case "fonda": {_var = "license_fonda"};
-            case "fst": {_var = "license_fst"};
+            case "egp": {_var = "license_egp"};
             case "fmg": {_var = "license_fmg"};
             case "sop": {_var = "license_sop"};
 			case "top": {_var = "license_top"};
@@ -70,7 +70,7 @@ switch (_mode) do
 			case "cro": {_var = "license_cro"};
 			case "cn": {_var = "license_cn"};
 			case "torres": {_var = "license_torres"};
-			case "lost": {_var = "license_lost"};
+			case "gr": {_var = "license_gr"};
 			case "armer": {_var = "license_armer"};
 			case "fla": {_var = "license_fla"};
             case "uranium": {_var = "license_civ_uranium"};
@@ -128,7 +128,7 @@ switch (_mode) do
 			case "license_ms": {_var = "ms"};
 			case "license_ng": {_var = "ng"};
 			case "license_fonda": {_var = "fonda"};
-            case "license_fst": {_var = "fst"};
+            case "license_egp": {_var = "egp"};
             case "license_fmg": {_var = "fmg"};
 			case "license_top": {_var = "top"};
 			case "license_moa": {_var = "moa"};
@@ -140,7 +140,7 @@ switch (_mode) do
 			case "license_cro": {_var = "cro"};
 			case "license_cn": {_var = "cn"};
 			case "license_torres": {_var = "torres"};
-			case "license_lost": {_var = "lost"};
+			case "license_gr": {_var = "gr"};
 			case "license_armer": {_var = "armer"};
 			case "license_fla": {_var = "fla"};
             case "license_civ_uranium": {_var = "uranium"};

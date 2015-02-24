@@ -70,8 +70,8 @@ switch (_side) do
 				_return set[count _return,["spawn_fon","Fondateurs HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]];
 		};
 
-                 if(license_fst && playerSide == civilian) then {
-				_return set[count _return,["spawn_fst","FST HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]];
+                 if(license_egp && playerSide == civilian) then {
+				_return set[count _return,["spawn_egp","E.G.P HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]];
 		};
 
                 if(license_fmg && playerSide == civilian) then {
@@ -134,8 +134,8 @@ switch (_side) do
 				_return set[count _return,["spawn_torres","Torres HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]];
 		};
 		
-				if(license_lost && playerSide == civilian) then {
-				_return set[count _return,["spawn_lost","The Lost HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]];
+				if(license_gr && playerSide == civilian) then {
+				_return set[count _return,["spawn_gr","Grims Reapers HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]];
 		};
 		
 				if(license_armer && playerSide == civilian) then {
