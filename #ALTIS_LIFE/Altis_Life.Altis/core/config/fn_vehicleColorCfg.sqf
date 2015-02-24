@@ -782,7 +782,8 @@ switch (_vehicle) do
  		[
  			["cl3_vehiclefunctions\skins\skin_camo_co.paa","reb"],
 			["cl3_vehiclefunctions\skins\skin_camo_urban_co.paa","reb"],
-			["#(ai,64,64,1)Fresnel(0.3,3)","reb"]
+			["#(ai,64,64,1)Fresnel(0.3,3)","reb"],
+			["alfr_Arm\data\ALFR_range_armee","armer"]
  		];
  	};
 
@@ -968,7 +969,8 @@ switch (_vehicle) do
 			["\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_digital_co.paa","reb"],
 			["\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_graywatcher_co.paa","civ"],
 			["\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_shadow_co.paa","civ"],
-			["\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_wasp_co.paa","civ"]
+			["\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_wasp_co.paa","civ"],
+			["alfr_Arm\data\ALFR_lite_armee.jpg","armer"]
 		];
 	};
 
@@ -1078,7 +1080,7 @@ switch (_vehicle) do
 	{
 		_ret =
 		[
-			["#(argb,8,8,3)color(0.05,0.05,0.05,1)","civ","#(argb,8,8,3)color(0.05,0.05,0.05,1)"]
+			["alfr_Arm\data\ALFR_hunter_base_armee.jpg","armer","alfr_Arm\data\ALFR_hunter_back_armee.jpg"]
 		];
 	};
 
@@ -1154,7 +1156,8 @@ switch (_vehicle) do
             ["ALFR_TexSnd\huronunirouge2.paa","civ","ALFR_TexSnd\huronunirouge1.paa"],
             ["ALFR_TexSnd\huronunivert2.paa","civ","ALFR_TexSnd\huronunivert1.paa"],
             ["ALFR_TexSnd\huroncamovert2.paa","civ","ALFR_TexSnd\huroncamovert1.paa"],
-            ["ALFR_TexSnd\huroncamodigi2.paa","civ","ALFR_TexSnd\huroncamodigi1.paa"]      
+            ["ALFR_TexSnd\huroncamodigi2.paa","civ","ALFR_TexSnd\huroncamodigi1.paa"],
+			["alfr_Arm\data\ALFR_huronk_front_armee.jpg","armer","alfr_Arm\data\ALFR_huronk_back_armee.jpg"]
         ];
     };
     

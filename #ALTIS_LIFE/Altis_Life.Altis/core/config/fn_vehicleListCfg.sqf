@@ -91,6 +91,18 @@ switch (_shop) do
 			["cl3_lamborghini_gt1_black",1000000]
 		];
 	};
+	
+	
+	case "armer_car":
+	{
+		_return =
+		[
+			["B_Heli_Light_01_F",75000],
+			["B_MRAP_01_F",1000000]],
+			["cl3_range_rover_camo",50000],
+			["B_Heli_Transport_03_unarmed_F",1000000],
+		];
+	};
 
 	case "civ_truck":
 	{
