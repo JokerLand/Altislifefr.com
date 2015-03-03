@@ -53,6 +53,7 @@ life_action_inUse = false; //Unlock it since it's going to do it's own thing...
 while {true} do {
 	if(!alive _vehicle OR isNull _vehicle) exitWith {};
 	if(isEngineOn _vehicle) exitWith {titleText[localize "STR_NOTF_MiningStopped","PLAIN"];};
+    if(fuel _vehicle == 0) exitWith {titleText[localize "STR_NOTF_OutOfFuel","PLAIN"];};
 	titleText[localize "STR_NOTF_DeviceMining","PLAIN"];
 	_time = time + 27;
 
