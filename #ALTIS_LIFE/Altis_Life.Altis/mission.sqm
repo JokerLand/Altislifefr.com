@@ -4242,7 +4242,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=2397;
+		items=2398;
 		class Item0
 		{
 			position[]={8065.1616,35.674362,24985.314};
@@ -10590,7 +10590,7 @@ class Mission
 		};
 		class Item620
 		{
-			position[]={14590.793,17.91,16677.932};
+			position[]={14590.87,17.91,16678.279};
 			azimut=223.57201;
 			id=821;
 			side="EMPTY";
@@ -10600,7 +10600,7 @@ class Mission
 		};
 		class Item621
 		{
-			position[]={14592.161,17.91,16679.393};
+			position[]={14592.238,17.91,16679.74};
 			azimut=223.57201;
 			id=822;
 			side="EMPTY";
@@ -10610,7 +10610,7 @@ class Mission
 		};
 		class Item622
 		{
-			position[]={14586.338,17.91,16672.105};
+			position[]={14584.901,17.91,16671.719};
 			azimut=111.823;
 			id=823;
 			side="EMPTY";
@@ -10620,7 +10620,7 @@ class Mission
 		};
 		class Item623
 		{
-			position[]={14587.605,17.91,16673.574};
+			position[]={14586.169,17.91,16673.188};
 			azimut=34.330002;
 			id=824;
 			side="EMPTY";
@@ -11674,7 +11674,7 @@ class Mission
 		};
 		class Item719
 		{
-			position[]={14587.951,17.91,16675.994};
+			position[]={14588.029,17.91,16676.266};
 			azimut=309.94193;
 			special="NONE";
 			id=920;
@@ -30053,6 +30053,17 @@ class Mission
 			vehicle="Land_InfoStand_V2_F";
 			skill=1;
 			init="removeallWeapons this;    this enableSimulation false;    this allowDamage false;    this enableSimulation false;   this addAction[""Vehicle Garage"",  {   [[getPlayerUID player,playerSide,""Air"",player],""TON_fnc_getVehicles"",false,false,"""",' license_armer && playerSide == civilian'] spawn life_fnc_MP; life_garage_type = ""Air"";  createDialog ""Life_impound_menu"";     disableSerialization;     ctrlSetText[2802,""Fetching Vehicles....""];     life_garage_sp = ""air_armer"";  }];   this addAction[""Store vehicle in Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store && license_armer'];";
+		};
+		class Item2397
+		{
+			position[]={14586.916,17.91,16675.053};
+			azimut=314.05099;
+			special="NONE";
+			id=2598;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V2_F";
+			skill=0.2;
+			init="this enableSimulation false; this allowDamage false; this addAction[""Combinaison et Casques Motos"",life_fnc_clothingMenu,""kart""]; this addAction[""Vendeur de Vêtements"",life_fnc_clothingMenu,""bruce""];";
 		};
 	};
 	class Markers
