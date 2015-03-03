@@ -88,7 +88,8 @@ switch (_shop) do
 			["cl3_murcielago_black",300000],
 			["cl3_reventon_black",320000],
 			["DAR_MF1Civ",400000],
-			["cl3_lamborghini_gt1_black",1000000]
+			["cl3_lamborghini_gt1_black",1000000],
+            ["cl3_arielatom_black",250000]
 		];
 	};
 	
@@ -157,7 +158,10 @@ switch (_shop) do
 				["I_Heli_Transport_02_F",600000],
 				["IVORY_T6A_1",3000000],
 				["B_Heli_Transport_03_unarmed_F",4500000],
-                ["CL3_bus_cl_black",100000]
+                ["CL3_bus_cl_black",100000],
+                ["cl3_xr_1000_black",250000],
+                ["cl3_arielatom_black",125000],
+                ["cl3_arielatom_race_black", 250000]
 			];
 		};
 	};

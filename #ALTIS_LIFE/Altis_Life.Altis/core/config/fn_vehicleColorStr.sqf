@@ -1188,6 +1188,70 @@ switch (_vehicle) do
             case 0 : {_color = "Police";};
         };
     };
+    
+    
+    case "cl3_xr_1000_black" :
+	{
+		switch (_index) do
+		{
+
+			case 0: {_color = "Gris Sombre";};
+			case 1: {_color = "Gris";};
+			case 2: {_color = "Gris Clair";};
+			case 3: {_color = "Blanc";};
+			case 4: {_color = "Sable";};
+			case 5: {_color = "Bordeau";};
+			case 6: {_color = "Bleu";};
+			case 7: {_color = "Bleu Nuit";};
+			case 8: {_color = "Mauve Nuit";};
+			case 9: {_color = "Vert";};
+			case 10: {_color = "Rouge";};
+			case 11: {_color = "Jaune";};
+			case 12: {_color = "Orange";};
+		};
+	};
+    
+     case "cl3_arielatom_black" :
+	{
+		switch (_index) do
+		{
+
+			case 0: {_color = "Gris Sombre";};
+			case 1: {_color = "Gris";};
+			case 2: {_color = "Gris Clair";};
+			case 3: {_color = "Blanc";};
+			case 4: {_color = "Sable";};
+			case 5: {_color = "Bordeau";};
+			case 6: {_color = "Bleu";};
+			case 7: {_color = "Bleu Nuit";};
+			case 8: {_color = "Mauve Nuit";};
+			case 9: {_color = "Vert";};
+			case 10: {_color = "Rouge";};
+			case 11: {_color = "Jaune";};
+			case 12: {_color = "Orange";};
+		};
+	};
+    
+     case "cl3_arielatom_race_black" :
+	{
+		switch (_index) do
+		{
+
+			case 0: {_color = "Gris Sombre";};
+			case 1: {_color = "Gris";};
+			case 2: {_color = "Gris Clair";};
+			case 3: {_color = "Blanc";};
+			case 4: {_color = "Sable";};
+			case 5: {_color = "Bordeau";};
+			case 6: {_color = "Bleu";};
+			case 7: {_color = "Bleu Nuit";};
+			case 8: {_color = "Mauve Nuit";};
+			case 9: {_color = "Vert";};
+			case 10: {_color = "Rouge";};
+			case 11: {_color = "Jaune";};
+			case 12: {_color = "Orange";};
+		};
+	};
 
 };
 

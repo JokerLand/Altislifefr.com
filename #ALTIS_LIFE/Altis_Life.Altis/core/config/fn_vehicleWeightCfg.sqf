@@ -111,5 +111,8 @@ switch (_className) do
 	case "cl3_q7_black": {80};
 	case "cl3_transit_black": {140};
 	case "ivory_b206": {70};
+    case "cl3_arielatom_race_black": {0};
+    case "cl3_xr_1000_black": {5};
+    case "cl3_arielatom_race_black": {0};
 	default {-1};
 };

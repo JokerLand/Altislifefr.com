@@ -1171,6 +1171,67 @@ switch (_vehicle) do
             ["alfr_police\hawk\hawkav1.jpg","cop","alfr_police\hawk\hawkar1.jpg"]
         ];
     };
+    
+    //Moto
+    case "cl3_xr_1000_black";
+    {
+        _ret  =
+        [
+          			["#(argb,8,8,3)color(0.1,0.1,0.1,0.7)","civ"],
+			["#(argb,8,8,3)color(0.5,0.5,0.5,0.1)","civ"],
+			["#(argb,8,8,3)color(0.3,0.3,0.3,0.8)","civ"],
+			["#(argb,8,8,3)color(1,1,1,1)","civ"],
+			["#(argb,8,8,3)color(1.5,1.6,0.9,0.2)","civ"],
+			["#(argb,8,8,3)color(1,0,0,0.1)","civ"],
+			["#(argb,8,8,3)color(0.01,0.6,1,0.1)","civ"],
+			["#(argb,8,8,3)color(0,0,0.5,0.1)","civ"],
+			["#(argb,8,8,3)color(0.6,0,1,0.01)","civ"],
+			["#(argb,8,8,3)color(0.5,1,0.5,0.05)","civ"],
+			["#(argb,8,8,3)color(1,0,0,1)","civ"],
+			["#(argb,8,8,3)color(0.6,0.3,0.01,1)","civ"],
+			["#(argb,8,8,3)color(1,0.3,0.01,0.6)","civ"]
+        ];
+    };
+    
+    case "cl3_arielatom_black";
+    {
+        _ret = 
+        [
+          ["#(argb,8,8,3)color(0.1,0.1,0.1,0.7)","civ"],
+			["#(argb,8,8,3)color(0.5,0.5,0.5,0.1)","civ"],
+			["#(argb,8,8,3)color(0.3,0.3,0.3,0.8)","civ"],
+			["#(argb,8,8,3)color(1,1,1,1)","civ"],
+			["#(argb,8,8,3)color(1.5,1.6,0.9,0.2)","civ"],
+			["#(argb,8,8,3)color(1,0,0,0.1)","civ"],
+			["#(argb,8,8,3)color(0.01,0.6,1,0.1)","civ"],
+			["#(argb,8,8,3)color(0,0,0.5,0.1)","civ"],
+			["#(argb,8,8,3)color(0.6,0,1,0.01)","civ"],
+			["#(argb,8,8,3)color(0.5,1,0.5,0.05)","civ"],
+			["#(argb,8,8,3)color(1,0,0,1)","civ"],
+			["#(argb,8,8,3)color(0.6,0.3,0.01,1)","civ"],
+			["#(argb,8,8,3)color(1,0.3,0.01,0.6)","civ"]
+        ];
+    };
+    
+    case "cl3_arielatom_race_black";
+    {
+        _ret = 
+        ["#(argb,8,8,3)color(0.1,0.1,0.1,0.7)","civ"],
+			["#(argb,8,8,3)color(0.5,0.5,0.5,0.1)","civ"],
+			["#(argb,8,8,3)color(0.3,0.3,0.3,0.8)","civ"],
+			["#(argb,8,8,3)color(1,1,1,1)","civ"],
+			["#(argb,8,8,3)color(1.5,1.6,0.9,0.2)","civ"],
+			["#(argb,8,8,3)color(1,0,0,0.1)","civ"],
+			["#(argb,8,8,3)color(0.01,0.6,1,0.1)","civ"],
+			["#(argb,8,8,3)color(0,0,0.5,0.1)","civ"],
+			["#(argb,8,8,3)color(0.6,0,1,0.01)","civ"],
+			["#(argb,8,8,3)color(0.5,1,0.5,0.05)","civ"],
+			["#(argb,8,8,3)color(1,0,0,1)","civ"],
+			["#(argb,8,8,3)color(0.6,0.3,0.01,1)","civ"],
+			["#(argb,8,8,3)color(1,0.3,0.01,0.6)","civ"]
+        ];
+   
+    };
 };
 
 _ret;
