@@ -1204,7 +1204,7 @@ switch (_vehicle) do
 			case 6: {_color = "Bleu";};
 			case 7: {_color = "Bleu Nuit";};
 			case 8: {_color = "Mauve Nuit";};
-			case 9: {_color = "Vert";};
+			case 9: {_color = "Vert Fluo";};
 			case 10: {_color = "Rouge";};
 			case 11: {_color = "Jaune";};
 			case 12: {_color = "Orange";};
