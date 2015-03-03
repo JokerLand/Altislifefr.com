@@ -1254,3 +1254,5 @@ switch (_vehicle) do
 	};
 
 };
+
+_color;

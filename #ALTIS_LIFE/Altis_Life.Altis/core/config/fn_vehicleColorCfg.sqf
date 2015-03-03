@@ -1173,7 +1173,7 @@ switch (_vehicle) do
     };
     
     //Moto
-    case "cl3_xr_1000_black";
+    case "cl3_xr_1000_black":
     {
         _ret  =
         [
@@ -1193,7 +1193,7 @@ switch (_vehicle) do
         ];
     };
     
-    case "cl3_arielatom_black";
+    case "cl3_arielatom_black":
     {
         _ret = 
         [
@@ -1213,10 +1213,11 @@ switch (_vehicle) do
         ];
     };
     
-    case "cl3_arielatom_race_black";
+    case "cl3_arielatom_race_black":
     {
         _ret = 
-        ["#(argb,8,8,3)color(0.1,0.1,0.1,0.7)","civ"],
+        [    
+            ["#(argb,8,8,3)color(0.1,0.1,0.1,0.7)","civ"],
 			["#(argb,8,8,3)color(0.5,0.5,0.5,0.1)","civ"],
 			["#(argb,8,8,3)color(0.3,0.3,0.3,0.8)","civ"],
 			["#(argb,8,8,3)color(1,1,1,1)","civ"],
@@ -1232,3 +1233,5 @@ switch (_vehicle) do
         ];
    
     };
+};
+    _ret;
