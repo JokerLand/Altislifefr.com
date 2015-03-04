@@ -29929,8 +29929,8 @@ class Mission
 		};
 		class Item2385
 		{
-			position[]={7834.6904,113.31802,16137.869};
-			azimut=42.813499;
+			position[]={5559.8179,22.240196,14964.482};
+			azimut=-48.966885;
 			special="NONE";
 			id=2586;
 			side="EMPTY";
@@ -29940,8 +29940,8 @@ class Mission
 		};
 		class Item2386
 		{
-			position[]={7889.8999,114.74509,16162.727};
-			azimut=48.2309;
+			position[]={5599.3833,25.724907,14939.271};
+			azimut=51.05645;
 			special="NONE";
 			id=2587;
 			side="EMPTY";
@@ -29951,8 +29951,8 @@ class Mission
 		};
 		class Item2387
 		{
-			position[]={7905.3667,115.19035,16170.088};
-			azimut=-53.01778;
+			position[]={5626.2261,25.021635,14989.78};
+			azimut=-307.4942;
 			special="NONE";
 			id=2588;
 			side="EMPTY";
@@ -29962,8 +29962,8 @@ class Mission
 		};
 		class Item2388
 		{
-			position[]={7904.7476,115.16642,16169.279};
-			azimut=-53.01778;
+			position[]={5625.6118,25.020817,14990.608};
+			azimut=-307.4942;
 			special="NONE";
 			id=2589;
 			side="EMPTY";
@@ -29994,8 +29994,8 @@ class Mission
 		};
 		class Item2391
 		{
-			position[]={7865.501,113.19279,16099.587};
-			azimut=-50.160793;
+			position[]={5566.0962,22.315214,14978.321};
+			azimut=131.31006;
 			offsetY=1;
 			id=2592;
 			side="EMPTY";
@@ -33345,28 +33345,28 @@ class Mission
 		};
 		class Item401
 		{
-			position[]={7881.2925,114.60754,16156.622};
+			position[]={5589.3408,25.198841,14930.883};
 			name="car_fla";
 			type="Empty";
-			angle=137.26601;
+			angle=323.70071;
 		};
 		class Item402
 		{
-			position[]={7828.0537,112.9845,16130.144};
+			position[]={5571.8198,22.596663,14957.557};
 			name="air_fla";
 			type="Empty";
-			angle=140.431;
+			angle=393.1955;
 		};
 		class Item403
 		{
-			position[]={7902.0034,115.06055,16168.404};
+			position[]={5628.1372,24.998695,14995.065};
 			name="spawn_fla";
 			type="Empty";
-			angle=122.522;
+			angle=249.92285;
 		};
 		class Item404
 		{
-			position[]={7855.9707,113.96375,16137.524};
+			position[]={5594.6323,25.482588,14941.579};
 			name="fla_entreprise";
 			text="Entreprise FLA";
 			type="mil_box";
