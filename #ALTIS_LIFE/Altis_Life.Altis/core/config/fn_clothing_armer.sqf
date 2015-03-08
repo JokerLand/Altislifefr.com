@@ -18,7 +18,8 @@ switch (_filter) do
 	case 0:
 	{
 		[
-		["R3F_uniform_f1",nil,1500]
+		["R3F_uniform_f1",nil,1500],
+		["U_B_Wetsuit",nil,2000]
 		];
 	};
 	
@@ -36,7 +37,8 @@ switch (_filter) do
 	case 2:
 	{
 		[
-			["R3F_cagoule_olive",nil,1000]
+			["R3F_cagoule_olive",nil,1000],
+			["G_Diving",nil,500]
 		];
 	};
 	
@@ -44,7 +46,8 @@ switch (_filter) do
 	case 3:
 	{
 		[
-			["R3F_veste_ce600",nil,500]
+			["R3F_veste_ce600",nil,500],
+			["V_RebreatherB",nil,5000]
 		];
 	};
 	
@@ -52,7 +55,8 @@ switch (_filter) do
 	case 4:
 	{
 		[
-			["R3F_sac_lourd_APSO_CE_FLG",nil,500]
+			["R3F_sac_lourd_APSO_CE_FLG",nil,500],
+			["B_UAV_01_backpack_F",nil,5000]
 		];
 	};
 };

@@ -722,6 +722,10 @@ switch(_shop) do
 			{
 				["Armurerie",
 					[
+						["Rangefinder",nil,3400],
+						["B_UavTerminal",nil,5200],
+						["arifle_sdar_F",nil,10000],
+						["20Rnd_556x45_UW_mag",nil,125],
 						["R3F_PAMAS",nil,10000],
 						["R3F_15Rnd_9x19_PAMAS",nil,60],
 						["R3F_HK416M_HG",nil,30000],
@@ -729,19 +733,30 @@ switch(_shop) do
 						["R3F_Famas_G2_HG",nil,50000],
 						["R3F_Famas_F1_HG_DES",nil,50000],
 						["R3F_25Rnd_556x45_TRACER_FAMAS",nil,100],
+						["R3F_30Rnd_556x45_TRACER_FAMAS",nil,100],
 						["R3F_LAMPE_SURB_DES",nil,500],
 						["R3F_AIMPOINT_DES",nil,500],
 						["LMG_Mk200_F",nil,100000],
 						["200Rnd_65x39_cased_Box",nil,500],
+						["R3F_HK416M_HG",nil,15000],
+						["R3F_30Rnd_556x45_TRACER_HK416",nil,100],
+						["R3F_HK417L",nil,20000],
+						["R3F_20Rnd_762x51_TRACER_HK417",nil,100],
+						["HK430",nil,6500],
+						["HK430_30Rnd_556x45",nil,80],
 						["srifle_LRR_F",nil,200000],
 						["7Rnd_408_Mag",nil,500],
-						["acc_flashlight",nil,750],
+					    ["acc_flashlight",nil,750],
 						["optic_Holosight",nil,1200],
 						["optic_ACO_grn_smg",nil,2000],
 						["optic_Aco_smg",nil,2000],
 						["optic_ACO_grn",nil,3200],
-						["optic_SOS",nil,30000],
-						["optic_Aco",nil,3200]
+						["optic_Aco",nil,3200],
+						["optic_MRCO",nil,10000],
+						["optic_Hamr",nil,10000],
+						["optic_Arco",nil,10000],
+						["optic_LRPS",nil,50000],
+						["optic_SOS",nil,30000]
 					]
 				];
 			};

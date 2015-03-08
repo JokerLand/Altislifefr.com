@@ -77,6 +77,6 @@ switch (_item) do
     case "uranium3": {4};
     case "uranium4": {4};
     case "uranium": {4};
-	case "menotte": {15};
+	case "menotte": {10};
     default {1};
 };
