@@ -310,7 +310,7 @@ sell_array =
     ["cola",50],
     ["frite",75],
     ["biere",60],
-    ["uranium",15000],
+    ["uranium",25000],
     ["uranium2",3000],
     ["uranium3",3000],
     ["uranium4",3000],
@@ -353,7 +353,7 @@ buy_array =
     ["vodka",1000],
     ["frite",115],
     ["biere",90],
-    ["puranium",8000],
+    ["puranium",5000],
     ["ipuranium",9000],
 	["menotte",15000]
 ];
