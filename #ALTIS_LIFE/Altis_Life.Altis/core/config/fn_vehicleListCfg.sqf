@@ -152,7 +152,7 @@ switch (_shop) do
 				["ALFR_GeK_Scania_420",250000],
 				["ALFR_GeK_Volvo_FH16_2012",300000],
 				["cl3_veyron_wht_blu",270000],
-				["ALFR_GeK_Panamera",350000],
+				//["ALFR_GeK_Panamera",350000],
 				["O_Truck_03_device_F",750000],
 				["O_Heli_Light_02_unarmed_F",300000],
 				["I_Heli_Transport_02_F",600000],
@@ -186,8 +186,7 @@ switch (_shop) do
 			["O_Heli_Light_02_unarmed_F",650000],
 			["O_Heli_Transport_04_bench_F",1000000],
 			["O_Heli_Transport_04_covered_F",1130000],
-			["O_Heli_Transport_04_ammo_F",1500000],
-			["O_Heli_Transport_04_F",3000000]
+			["O_Heli_Transport_04_ammo_F",1500000]
 		];
 
 		if(license_civ_rebel) then
@@ -235,8 +234,8 @@ switch (_shop) do
 			//["murcielago_police",400000]];
 			_return set[count _return,
 			["insignia_police_st",250000]];
-			_return set[count _return,
-			["ALFR_GeK_Panamera_Police",250000]];
+			//_return set[count _return,
+			//["ALFR_GeK_Panamera_Police",250000]];
 			_return set[count _return,
 			["CL3_bus_cl_black",100000]];
 			_return set[count _return,
