@@ -1153,9 +1153,9 @@ switch (_vehicle) do
             ["ALFR_TexSnd\huronuniblanc2.paa","civ","ALFR_TexSnd\huronuniblanc1.paa"],
             ["ALFR_TexSnd\huronunibleu2.paa","civ","ALFR_TexSnd\huronunibleu1.paa"],
             ["ALFR_TexSnd\huronunicyan2.paa","civ","ALFR_TexSnd\huronunicyan1.paa"],
-            ["ALFR_TexSnd\huronuniorange2.paa","civ","ALFR_TexSnd\huronuniorange1.paa"],
+            ["ALFR_TexSnd\huronuniorange1.paa","civ","ALFR_TexSnd\huronuniorange2.paa"],
             ["ALFR_TexSnd\huronunirouge2.paa","civ","ALFR_TexSnd\huronunirouge1.paa"],
-            ["ALFR_TexSnd\huronunivert2.paa","civ","ALFR_TexSnd\huronunivert1.paa"],
+            ["ALFR_TexSnd\huronunivert1.paa","civ","ALFR_TexSnd\huronunivert2.paa"],
             ["ALFR_TexSnd\huroncamovert2.paa","civ","ALFR_TexSnd\huroncamovert1.paa"],
             ["ALFR_TexSnd\huroncamodigi2.paa","civ","ALFR_TexSnd\huroncamodigi1.paa"],
 			["alfr_Arm\data\ALFR_huronk_front_armee.jpg","armer","alfr_Arm\data\ALFR_huronk_back_armee.jpg"]
