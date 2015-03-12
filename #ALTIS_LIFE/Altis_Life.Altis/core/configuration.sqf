@@ -236,7 +236,7 @@ life_licenses =
     ["license_sop","civ"],
 	["license_top","civ"],
 	["license_moa","civ"],
-	["license_tor","civ"],
+	["license_ec","civ"],
 	["license_grf","civ"],
 	["license_mw","civ"],
 	["license_poc","civ"],

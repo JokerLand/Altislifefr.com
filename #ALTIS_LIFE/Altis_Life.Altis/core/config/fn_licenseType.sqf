@@ -132,7 +132,7 @@ switch (_mode) do
             case "license_fmg": {_var = "fmg"};
 			case "license_top": {_var = "top"};
 			case "license_moa": {_var = "moa"};
-			case "license_tor": {_var = "tor"};
+			case "license_ec": {_var = "ec"};
 			case "license_grf": {_var = "grf"};
 			case "license_mw": {_var = "mw"};
 			case "license_poc": {_var = "poc"};

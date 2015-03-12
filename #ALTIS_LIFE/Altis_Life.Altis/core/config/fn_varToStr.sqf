@@ -129,7 +129,7 @@ switch (_var) do
     case "license_sop": {"Soprano"};
 	case "license_top": {"TORRES"};
 	case "license_moa": {"M.O.A"};
-	case "license_tor": {"TOR"};
+	case "license_ec": {"Eagle Close"};
 	case "license_grf": {"G.R.F"};
 	case "license_mw": {"Moscow"};
 	case "license_poc": {"Panda of Cannabis"};

@@ -102,8 +102,8 @@ switch (_side) do
 				_return set[count _return,["spawn_moa","M.O.A HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]];
 		};
 		
-				if(license_tor && playerSide == civilian) then {
-				_return set[count _return,["spawn_tor","TOR HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]];
+				if(license_ec && playerSide == civilian) then {
+				_return set[count _return,["spawn_tor","EC HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]];
 		};
 		
 				if(license_grf && playerSide == civilian) then {
