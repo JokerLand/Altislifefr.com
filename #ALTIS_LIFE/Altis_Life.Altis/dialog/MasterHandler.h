@@ -26,3 +26,5 @@
 #include "federalReserve.h"
 #include "veh_repaint.hpp"
 #include "altisslots.hpp"
+#include "common_EditorWrapper.hpp"
+#include "market.hpp"

@@ -253,6 +253,7 @@ class Life_Client_Core
 		class stripDownPlayer {};
 		class playSound {};
         class fadeSound {};
+        class randomRound {};
 	};
 	
 	class Network
@@ -435,4 +436,27 @@ class Life_Client_Core
         class Repaintcolor;
         class RepaintVehicle;        
     };
+    
+    
+    class Market
+	{
+		file = "core\market";
+		
+		class openMarketView;
+		class refreshMarketView;
+		class marketShortView;
+		class marketBuy;
+		class marketSell;
+		class marketGetBuyPrice;
+		class marketGetSellPrice;
+		class marketconfiguration;
+		class marketReset;
+		class marketChange;
+		class marketGetRow;
+		class marketGetPriceRow;
+		class marketSetPriceRow;
+	};
+    
+
+    
 };
