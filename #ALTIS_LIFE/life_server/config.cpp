@@ -51,6 +51,8 @@ class CfgFunctions
 			class mresString {};
 			class updatePartial {};
             class repaintVehicle {};
+            class marketInsert {};
+            class marketInsertTimes {};
 		};
 	};
 	
@@ -131,6 +133,19 @@ class CfgFunctions
 			class updateGang {};
 		};
 	};
+    
+    
+    class AoD_System
+    {
+        tag = "AoD";
+        class Market
+        {
+            file = "\life_server\Functions\AoD\Market";
+            class marketconfiguration {};
+        };
+    };
+    
+    
 };
 
 class CfgVehicles
