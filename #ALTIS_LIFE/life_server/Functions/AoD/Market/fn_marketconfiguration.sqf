@@ -38,24 +38,15 @@ diag_log "------------------------------------------------";
 	if(_item == "marijuana") then {_marijuanaPrice = _itemprice}; // The right price should be assigned
 	if(_item == "cocainep") then {_cocainepPrice = _itemprice}; // The right price should be assigned
 	if(_item == "heroinp") then {_heroinpPrice = _itemprice}; // The right price should be assigned
-	if(_item == "goldbar") then {_goldbarPrice = _itemprice}; // The right price should be assigned
-	if(_item == "goldbarp") then {_goldbarpPrice = _itemprice}; // The right price should be assigned
-	if(_item == "lsd") then {_lsdPrice = _itemprice}; // The right price should be assigned
-	if(_item == "brot") then {_brotPrice = _itemprice}; // The right price should be assigned
-	if(_item == "cokes") then {_cokesPrice = _itemprice}; // The right price should be assigned
-	if(_item == "silberp") then {_silberpPrice = _itemprice}; // The right price should be assigned
-	if(_item == "uraniumpp") then {_uraniumppPrice = _itemprice}; // The right price should be assigned
-	if(_item == "uraniumppl") then {_uraniumpplPrice = _itemprice}; // The right price should be assigned
-	if(_item == "bottledshine") then {_bottledshinePrice = _itemprice}; // The right price should be assigned
-	if(_item == "bottledwhiskey") then {_bottledwhiskeyPrice = _itemprice}; // The right price should be assigned
-	if(_item == "bottledbeer") then {_bottledbeerPrice = _itemprice}; // The right price should be assigned
+    if(_item == "cokes") then {_cokesPrice = _itemprice}; // The right price should be assigned
+
 	
 } forEach _rows;
 
 
 life_market_resources = [
 
-	//Schema: SHORTNAME, DEFAULT-WERT, MIN-WERT, MAX-WERT, VERÄNDERUNG BEI AKTION [VERKAUF Multipliziert mit 1, Kauf multipliziert um -1
+	//Schema: SHORTNAME, DEFAULT-VALEUR, MIN-VALEUR, MAX-VALEUR,CHANGEMENTS EN ACTION [VENTE Multiplier par 1, Achat multiplié par -1
 	
 	["oilp", _oilpPrice, 1250, 2000, 3, 1, 
 		[ 
@@ -64,13 +55,6 @@ life_market_resources = [
 			["copper_r",1],
 			["salt_r",1],
 			["cement",1],
-			["goldbar",1],
-			["goldbarp",1],
-			["brot",1],
-			["silberp",1],
-			["uraniumpp",1],
-			["bottledwhiskey",1],
-			["bottledbeer",1],
 			["glass",1] 
 		] 
 	],
@@ -82,13 +66,6 @@ life_market_resources = [
 			["copper_r",1],
 			["salt_r",1],
 			["cement",1],
-			["goldbar",1],
-			["goldbarp",1],
-			["brot",1],
-			["silberp",1],
-			["uraniumpp",1],
-			["bottledwhiskey",1],
-			["bottledbeer",1],
 			["glass",1] 
 		] 
 	],
@@ -100,13 +77,6 @@ life_market_resources = [
 			["copper_r",1],
 			["salt_r",1],
 			["cement",1],
-			["goldbar",1],
-			["goldbarp",1],
-			["brot",1],
-			["silberp",1],
-			["uraniumpp",1],
-			["bottledwhiskey",1],
-			["bottledbeer",1],
 			["glass",1] 
 		] 
 	],
@@ -117,53 +87,11 @@ life_market_resources = [
 			["oilp",1],
 			["iron_r",1],
 			["salt_r",1],
-			["cement",1],
-			["goldbar",1],
-            ["goldbarp",1],
-            ["brot",1],
-            ["silberp",1],
-            ["uraniumpp",1],
-            ["bottledwhiskey",1],
-            ["bottledbeer",1],			
+			["cement",1],			
 			["glass",1] 
 		] 
 	],
 
-	["goldbar", _goldbarPrice, 45000, 70000, 2, 1, 
-		[ 
-			["diamondc",1], 
-			["iron_r",1],
-			["copper_r",1],
-			["salt_r",1],
-			["cement",1],
-			["oilp",1],
-			["goldbarp",1],
-			["brot",1],
-			["silberp",1],
-			["uraniumpp",1],
-			["bottledwhiskey",1],
-			["bottledbeer",1],
-			["glass",1] 
-		] 
-	],
-	
-	["goldbarp", _goldbarpPrice, 25000, 50000, 2, 1, 
-		[ 
-			["diamondc",1], 
-			["iron_r",1],
-			["copper_r",1],
-			["salt_r",1],
-			["cement",1],
-			["goldbar",1],
-			["oilp",1],
-			["brot",1],
-			["silberp",1],
-			["uraniumpp",1],
-			["bottledwhiskey",1],
-			["bottledbeer",1],
-			["glass",1] 
-		] 
-	],
 	
 	["salt_r", _salt_rPrice, 600, 1050, 2, 1, 
 		[ 
@@ -201,95 +129,6 @@ life_market_resources = [
 		] 
 	],
 	
-	["brot", _brotPrice, 600, 1100, 2, 1, 
-		[ 
-			["diamondc",1], 
-			["oilp",1],
-			["iron_r",1],
-			["copper_r",1],
-			["salt_r",1],
-			["goldbar",1],
-			["goldbarp",1],
-			["glass",1],
-			["silberp",1],
-			["uraniumpp",1],
-			["bottledwhiskey",1],
-			["bottledbeer",1],
-			["cement",1]
-		] 
-	],
-	
-	["silberp", _silberpPrice, 1500, 2900, 2, 1, 
-		[ 
-			["diamondc",1], 
-			["oilp",1],
-			["iron_r",1],
-			["copper_r",1],
-			["salt_r",1],
-			["goldbar",1],
-			["goldbarp",1],
-			["glass",1],
-			["brot",1],
-			["uraniumpp",1],
-			["bottledwhiskey",1],
-			["bottledbeer",1],
-			["cement",1]
-		] 
-	],
-	
-	["uraniumpp", _uraniumppPrice, 2500, 4000, 2, 1, 
-		[ 
-			["diamondc",1], 
-			["oilp",1],
-			["iron_r",1],
-			["copper_r",1],
-			["salt_r",1],
-			["goldbar",1],
-			["goldbarp",1],
-			["glass",1],
-			["brot",1],
-			["silberp",1],
-			["bottledwhiskey",1],
-			["bottledbeer",1],
-			["cement",1]
-		] 
-	],
-	
-	["bottledwhiskey", _bottledwhiskeyPrice, 2200, 3200, 2, 1, 
-		[ 
-			["diamondc",1], 
-			["oilp",1],
-			["iron_r",1],
-			["copper_r",1],
-			["salt_r",1],
-			["goldbar",1],
-			["goldbarp",1],
-			["glass",1],
-			["brot",1],
-			["silberp",1],
-			["uraniumpp",1],
-			["bottledbeer",1],
-			["cement",1]
-		] 
-	],
-	
-	["bottledbeer", _bottledbeerPrice, 1800, 3400, 2, 1, 
-		[ 
-			["diamondc",1], 
-			["oilp",1],
-			["iron_r",1],
-			["copper_r",1],
-			["salt_r",1],
-			["goldbar",1],
-			["goldbarp",1],
-			["glass",1],
-			["brot",1],
-			["silberp",1],
-			["uraniumpp",1],
-			["bottledwhiskey",1],
-			["cement",1]
-		] 
-	],
 
 	["cement", _cementPrice, 1000, 2000, 2, 1, 
 		[ 
@@ -323,17 +162,6 @@ life_market_resources = [
 		] 
 	],
 	
-	["bottledshine", _bottledshinePrice, 3000, 5000, 7, 5,  
-		[ 
-			["marijuana",1], 
-			["cocainep",1],
-			["lsd",1],
-			["cokes",1],
-			["uraniumppl",1],
-			["turtle",1],
-			["heroinp",1]
-		] 
-	],
 	
 	["marijuana", _marijuanaPrice, 1100, 2800, 7, 5,   
 		[ 
@@ -347,17 +175,6 @@ life_market_resources = [
 		] 
 	],
 
-	["lsd", _lsdPrice, 1000, 2800, 11, 8,   
-		[ 
-			["turtle",1], 
-			["cocainep",1],
-			["heroinp",1],
-			["cokes",1],
-			["uraniumppl",1],
-			["bottledshine",1],
-			["marijuana",1]
-		] 
-	],
 	
 	["cocainep", _cocainepPrice, 2000, 4300, 11, 8,   
 		[ 
@@ -378,18 +195,6 @@ life_market_resources = [
 			["cocainep",1],
 			["turtle",1],
 			["uraniumppl",1],
-			["bottledshine",1],
-			["lsd",1]
-		] 
-	],
-	
-	["uraniumppl", _uraniumpplPrice, 3500, 6300, 11, 8,   
-		[ 
-			["marijuana",1], 
-			["heroinp",1],
-			["cocainep",1],
-			["turtle",1],
-			["cokes",1],
 			["bottledshine",1],
 			["lsd",1]
 		] 
