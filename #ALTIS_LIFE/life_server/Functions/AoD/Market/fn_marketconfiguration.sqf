@@ -50,12 +50,12 @@ life_market_resources = [
 	
 	["oilp", _oilpPrice, 1250, 2000, 3, 1, 
 		[ 
-			["diamondc",1], 
-			["iron_r",1],
-			["copper_r",1],
-			["salt_r",1],
-			["cement",1],
-			["glass",1] 
+			["diamondc",20], 
+			["iron_r",30],
+			["copper_r",40],
+			["salt_r",50],
+			["cement",60],
+			["glass",70] 
 		] 
 	],
 	
