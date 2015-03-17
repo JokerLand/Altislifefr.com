@@ -303,7 +303,7 @@ sell_array =
 	["moonshine",3500],
 	["vodka",900],
 	["grapes",60],
-	["artefact",16000],
+	["artefact",19500],
 	["ephedrine",400],
 	["phosphore",400],
     ["burger",100],
