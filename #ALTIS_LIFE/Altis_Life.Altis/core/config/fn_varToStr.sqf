@@ -129,14 +129,14 @@ switch (_var) do
     case "license_sop": {"Soprano"};
 	case "license_top": {"TORRES"};
 	case "license_moa": {"M.O.A"};
-	case "license_ec": {"Eagle Close"};
+	case "license_raid": {"Raid"};
 	case "license_grf": {"G.R.F"};
 	case "license_mw": {"Moscow"};
 	case "license_poc": {"Panda of Cannabis"};
 	case "license_yk": {"Yakusa"};
 	case "license_cro": {"Cronik"};
 	case "license_cn": {"C-N"};
-	case "license_torres": {"Torres"};
+	case "license_ec": {"Eagle Close"};
 	case "license_gr": {"Grims Reapers"};
 	case "license_armer": {"Militaire"};
 	case "license_fla": {"FLA"};

@@ -102,7 +102,7 @@ switch (_side) do
 				_return set[count _return,["spawn_moa","M.O.A HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]];
 		};
 		
-				if(license_ec && playerSide == civilian) then {
+				if(license_raid && playerSide == civilian) then {
 				_return set[count _return,["spawn_tor","EC HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]];
 		};
 		
@@ -130,7 +130,7 @@ switch (_side) do
 				_return set[count _return,["spawn_cn","C-N HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]];
 		};
 		
-				if(license_torres && playerSide == civilian) then {
+				if(license_ec && playerSide == civilian) then {
 				_return set[count _return,["spawn_torres","Torres HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]];
 		};
 		
