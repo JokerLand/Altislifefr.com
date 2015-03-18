@@ -39,6 +39,7 @@ diag_log "------------------------------------------------";
 	if(_item == "cocainep") then {_cocainepPrice = _itemprice}; // The right price should be assigned
 	if(_item == "heroinp") then {_heroinpPrice = _itemprice}; // The right price should be assigned
     if(_item == "cokes") then {_cokesPrice = _itemprice}; // The right price should be assigned
+    if(_item == "artefact") then {_artefactPrice = _itemprice};
 
 	
 } forEach _rows;
@@ -47,18 +48,33 @@ diag_log "------------------------------------------------";
 life_market_resources = [
 
 	//Schema: SHORTNAME, DEFAULT-VALEUR, MIN-VALEUR, MAX-VALEUR,CHANGEMENTS EN ACTION [VENTE Multiplier par 1, Achat multiplié par -1
+	["artefact", _artefactPrice, 5000,  25000, 3, 1
+     [
+         ["turtle",1],
+         ["iron_r",1],
+         ["copper",1]
+     ]
+    ],
 	
-	["oilp", _oilpPrice, 1250, 2000, 3, 1, 
+    ["turtle", _turtlePrice, 4000, 8000, 20, 18,  
 		[ 
-			["diamondc",20], 
-			["iron_r",30],
-			["copper_r",40],
-			["salt_r",50],
-			["cement",60],
-			["glass",70] 
+            ["QRTEFQCT",1],
+            ["iron_r",1],
+            ["copper",1]
 		] 
 	],
-	
+    
+    
+    ["oilp", _oilpPrice, 1250, 2000, 3, 1, 
+		[ 
+			["diamondc",1], 
+			["iron_r",1],
+			["copper_r",1],
+			["salt_r",1],
+			["cement",1],
+			["glass",1] 
+		] 
+	],
 	["iron_r", _iron_rPrice, 1050, 2250, 3, 1,  
 		[ 
 			["diamondc",1], 
@@ -80,7 +96,6 @@ life_market_resources = [
 			["glass",1] 
 		] 
 	],
-	
 	["copper_r", _copper_rPrice, 600, 1500, 2, 1, 
 		[ 
 			["diamondc",1], 
@@ -91,9 +106,7 @@ life_market_resources = [
 			["glass",1] 
 		] 
 	],
-
-	
-	["salt_r", _salt_rPrice, 600, 1050, 2, 1, 
+    ["salt_r", _salt_rPrice, 600, 1050, 2, 1, 
 		[ 
 			["diamondc",1], 
 			["oilp",1],
@@ -128,8 +141,6 @@ life_market_resources = [
 			["cement",1]
 		] 
 	],
-	
-
 	["cement", _cementPrice, 1000, 2000, 2, 1, 
 		[ 
 			["diamondc",1], 
@@ -150,18 +161,6 @@ life_market_resources = [
 
 	///////////////////////////////////
 	
-	["turtle", _turtlePrice, 4000, 8000, 20, 18,  
-		[ 
-			["marijuana",1], 
-			["cocainep",1],
-			["lsd",1],
-			["cokes",1],
-			["uraniumppl",1],
-			["bottledshine",1],
-			["heroinp",1]
-		] 
-	],
-	
 	
 	["marijuana", _marijuanaPrice, 1100, 2800, 7, 5,   
 		[ 
@@ -174,8 +173,6 @@ life_market_resources = [
 			["lsd",1]
 		] 
 	],
-
-	
 	["cocainep", _cocainepPrice, 2000, 4300, 11, 8,   
 		[ 
 			["marijuana",1], 
@@ -187,19 +184,6 @@ life_market_resources = [
 			["lsd",1]
 		] 
 	],
-	
-	["cokes", _cokesPrice, 3000, 5300, 11, 8,   
-		[ 
-			["marijuana",1], 
-			["heroinp",1],
-			["cocainep",1],
-			["turtle",1],
-			["uraniumppl",1],
-			["bottledshine",1],
-			["lsd",1]
-		] 
-	],
-	
 	["heroinp", _heroinpPrice, 1600, 2400, 11, 8,   
 		[ 
 			["marijuana",1], 
