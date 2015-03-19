@@ -122,7 +122,7 @@ life_market_resources = [
 	],
   
     
-    ["mooshine", _moonshinePrice, 1000, 6000, 1, 2,
+    ["moonshine", _moonshinePrice, 1000, 6000, 1, 2,
         [
             ["turtle",1],
             ["iron_r",1],
