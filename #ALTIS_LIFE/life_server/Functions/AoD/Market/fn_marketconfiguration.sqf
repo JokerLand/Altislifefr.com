@@ -8,7 +8,7 @@
 
 ////////////MAIN CONFIG
 
-private["_queryResult","_query","_item","_itemprice","_oilpPrice","_iron_rPrice","_diamondcPrice","_copper_rPrice","_salt_rPrice","_glassPrice","_cementPrice","_turtlePrice","_marijuanaPrice","_methpPrice","_cocainepPrice","_heroinpPrice","_goldbarPrice","_goldbarpPrice","_lsdPrice","_brotPrice","_cokesPrice","_silberpPrice","_uraniumppPrice","_uraniumpplPrice","_bottledshinePrice","_bottledwhiskeyPrice","_bottledbeerPrice"];
+private["_queryResult","_query","_item","_itemprice","_oilpPrice","_iron_rPrice","_diamondcPrice","_copper_rPrice","_salt_rPrice","_glassPrice","_cementPrice","_turtlePrice","_marijuanaPrice","_methpPrice","_cocainepPrice","_heroinpPrice","_goldbarPrice","_goldbarpPrice","_lsdPrice","_brotPrice","_cokesPrice","_silberpPrice","_uraniumppPrice","_uraniumpplPrice","_bottledshinePrice","_bottledwhiskeyPrice","_bottledbeerPrice","_artefactPrice","_moonshinePrice","_vodkaPrice","_methpProce","_uraniumPrice","_fuelFPrice"];
 
 
 _query = format["SELECT resource, price FROM resources"];
@@ -42,8 +42,9 @@ diag_log "------------------------------------------------";
     if(_item == "artefact") then {_artefactPrice = _itemprice};
     if(_item == "moonshine") then {_moonshinePrice = _itemprice};
     if(_item == "vodka") then {_vodkaPrice = _itemprice};
-    if(_item == "methp") then {_methpProce = _itemprice};
+    if(_item == "methp") then {_methpPrice = _itemprice};
     if(_item == "uranium") then {_uraniumPrice = _itemprice};
+    if(_item == "fuelF") then { _fuelFPrice = _itemprice};
 
 	
 } forEach _rows;
