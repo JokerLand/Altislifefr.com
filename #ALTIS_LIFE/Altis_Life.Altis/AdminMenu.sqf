@@ -49,13 +49,9 @@ if(isServer) then {
 		};
 	};
 	AH_Menu_DoTP = {
-		_pos = _this select 1;
-		_object = _this select 0;
 
-		if(_object call AH_AdminCheck) then {
-			_object setpos _pos;
-			format["%1 has teleported to %2",name _object,_pos] call SERVER_LOG;
-		};
+
+
 	};
 	AH_TP_Here = {
 		_admin = _this select 0;
@@ -609,11 +605,8 @@ if(!isDedicated) then {
 		};
 		AH_TP = {
 			if(player call AH_AdminCheck) then {
-				if !("ItemMap" in items player) then {
-					player addItem "ItemMap";
-				};
-				openMap[true,false];
-				onMapSingleClick '[[player,_pos],"AH_Menu_DoTP",false,fale] call AH_fnc_MP;openMap[false,false];onMapSingleClick "";false';
+				cutText ["Clic sur la carte ou tu veux te TP", "PLAIN"];
+		        onMapSingleClick "vehicle player setPos _pos; onMapSingleClick '';true;";
 			};
 		};
 		AH_TP = compileFinal ([AH_TP] call _toCompilableString);
@@ -632,5 +625,3 @@ if(!isDedicated) then {
 		hint parseText format["Press '%1' to open the admin menu!<br/>Press '%2' to open the spawn menu!<br/>Press F1 F2 and F3 to delete and repair vehicles or open the log menu respectively",(actionKeysNames ["moveRight",1]),(actionKeysNames ["moveLeft",1])];
 	};
 };
-
-
