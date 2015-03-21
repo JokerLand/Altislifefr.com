@@ -69,7 +69,7 @@ switch (_mode) do
 			case "yk": {_var = "license_yk"};
 			case "cro": {_var = "license_cro"};
 			case "cn": {_var = "license_cn"};
-			case "torres": {_var = "license_torres"};
+			case "torres": {_var = "license_ec"};
 			case "gr": {_var = "license_gr"};
 			case "armer": {_var = "license_armer"};
 			case "fla": {_var = "license_fla"};
@@ -132,14 +132,14 @@ switch (_mode) do
             case "license_fmg": {_var = "fmg"};
 			case "license_top": {_var = "top"};
 			case "license_moa": {_var = "moa"};
-			case "license_ec": {_var = "ec"};
+			case "license_raid": {_var = "ec"};
 			case "license_grf": {_var = "grf"};
 			case "license_mw": {_var = "mw"};
 			case "license_poc": {_var = "poc"};
 			case "license_yk": {_var = "yk"};
 			case "license_cro": {_var = "cro"};
 			case "license_cn": {_var = "cn"};
-			case "license_torres": {_var = "torres"};
+			case "license_ec": {_var = "torres"};
 			case "license_gr": {_var = "gr"};
 			case "license_armer": {_var = "armer"};
 			case "license_fla": {_var = "fla"};
