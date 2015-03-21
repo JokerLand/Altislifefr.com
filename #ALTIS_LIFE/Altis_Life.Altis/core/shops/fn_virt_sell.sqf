@@ -31,7 +31,7 @@ _name = [_var] call life_fnc_vartostr;
 if(([false,_type,_amount] call life_fnc_handleInv)) then
 {
 	hint format[localize "STR_Shop_Virt_SellItem",_amount,_name,[_price] call life_fnc_numberText];
-	life_cash_qac = life_cash_qac + _price;
+	life_cash = life_cash + _price;
     if(_marketprice != -1) then 
     { 
         [_type, _amount] spawn
