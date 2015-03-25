@@ -53,6 +53,9 @@ diag_log "------------------------------------------------";
 life_market_resources = [
 
 	//Schema: SHORTNAME, DEFAULT-VALEUR, MIN-VALEUR, MAX-VALEUR,CHANGEMENTS EN ACTION [VENTE Multiplier par 1, Achat multiplié par -1
+    
+    //ressource basique
+    
 	
     //1
     

@@ -50,7 +50,13 @@ if(isServer) then {
 	};
 	AH_Menu_DoTP = {
 
+            _pos = _this select 1;
+		_object = _this select 0;
 
+		if(_object call AH_AdminCheck) then {
+			_object setpos _pos;
+			format["%1 has teleported to %2",name _object,_pos] call SERVER_LOG;
+		};
 
 	};
 	AH_TP_Here = {
