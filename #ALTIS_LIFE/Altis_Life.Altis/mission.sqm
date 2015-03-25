@@ -3954,7 +3954,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=2028;
+		items=2029;
 		class Item0
 		{
 			position[]={8065.1616,35.674362,24985.314};
@@ -12782,8 +12782,8 @@ class Mission
 		};
 		class Item835
 		{
-			position[]={3684.6748,10.781651,13121.212};
-			azimut=85.611801;
+			position[]={3696.907,10.412908,13151.064};
+			azimut=90.867249;
 			offsetY=0.69999999;
 			special="NONE";
 			id=1088;
@@ -25578,10 +25578,22 @@ class Mission
 			skill=0.2;
 			init="this allowDamage false; this enableSimulation false; this addAction[""Vendeur d'Archéologie"",life_fnc_virt_menu,""artefact""];";
 		};
+		class Item2028
+		{
+			position[]={25666.445,21.406675,21395.773};
+			azimut=266.68301;
+			offsetY=0.40000001;
+			special="NONE";
+			id=2281;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V2_F";
+			skill=0.2;
+			init="this allowDamage false; removeallWeapons this; this enableSimulation false; this addAction[""Boutique de Plongée"",life_fnc_clothingMenu,""dive""]; this addAction[format[""%1 (%2€)"",[""license_civ_dive""] call life_fnc_varToStr,[([""dive""] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,""dive"",0,false,false,"""",' !license_civ_dive && playerSide == civilian '];";
+		};
 	};
 	class Markers
 	{
-		items=404;
+		items=405;
 		class Item0
 		{
 			position[]={8459.6777,104.56568,25131.203};
@@ -25991,12 +26003,12 @@ class Mission
 		};
 		class Item52
 		{
-			position[]={3684.8616,10.787677,13121.027};
+			position[]={3697.0691,10.416924,13150.868};
 			name="license_shop";
 			text="Vendeur de Licences";
 			type="c_unknown";
 			colorName="ColorBlue";
-			angle=-45.2561;
+			angle=-40.000652;
 		};
 		class Item53
 		{
@@ -28888,6 +28900,15 @@ class Mission
 			type="b_unknown";
 			colorName="ColorCIV";
 			angle=221.36397;
+		};
+		class Item404
+		{
+			position[]={25666.504,21.432652,21396.814};
+			name="dive_shop_2";
+			text="Boutique de Plongée";
+			type="mil_box";
+			colorName="ColorOrange";
+			angle=-144.14102;
 		};
 	};
 	class Sensors
