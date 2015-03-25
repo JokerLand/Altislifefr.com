@@ -7,9 +7,9 @@
 */
 if(isNil "life_action_gathering") then {life_action_gathering = false;};
 private["_gather","_itemWeight","_diff","_itemName","_val","_resourceZones","_zone","_minage","_isWater","_sousmarin"];
-_resourceZones = ["apple_1","apple_2","apple_3","apple_4","peaches_1","peaches_2","peaches_3","peaches_4","heroin_1","cocaine_1","weed_1","lead_1","iron_1","salt_1","sand_1","diamond_1","oil_1","oil_2","rock_1","grape_area_1","meth_area_1","artefact_area_1"];
+_resourceZones = ["apple_1","apple_2","apple_3","apple_4","peaches_1","peaches_2","peaches_3","peaches_4","heroin_1","cocaine_1","weed_1","lead_1","iron_1","salt_1","sand_1","diamond_1","oil_1","oil_2","rock_1","grape_area_1","meth_area_1","artefact_area_1","artefact_area_2"];
 _minage = ["lead_1","iron_1","salt_1","sand_1","diamond_1","oil_1","oil_2","rock_1"];
-_sousmarin = ["artefact_area_1"];
+_sousmarin = ["artefact_area_1","artefact_area_2"];
 _zone = "";
 
 if(life_action_gathering) exitWith {}; //Action is in use, exit to prevent spamming.
@@ -53,7 +53,7 @@ switch(true) do {
 	case (_zone in ["rock_1"]): {_gather = "rock"; _val = 1;};
 	case (_zone in ["meth_area_1"]): {_gather = "ephedrine"; _val = 1;};
 	case (_zone in ["grape_area_1"]): {_gather = "grapes"; _val = 1;};
-	case (_zone in ["artefact_area_1"]): {_gather = "artefact"; _val = 1;};
+	case (_zone in ["artefact_area_1","artefact_area_2"]): {_gather = "artefact"; _val = 1;};
 	default {""};
 };
 //gather check??
