@@ -28895,7 +28895,6 @@ class Mission
 			colorName="ColorWhite";
 			a=30;
 			b=30;
-			angle=175.80803;
 		};
 		class Item402
 		{
