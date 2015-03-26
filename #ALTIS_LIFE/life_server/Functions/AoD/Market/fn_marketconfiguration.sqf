@@ -44,7 +44,7 @@ diag_log "------------------------------------------------";
     if(_item == "vodka") then {_vodkaPrice = _itemprice};
     if(_item == "methp") then {_methpPrice = _itemprice};
     if(_item == "uranium") then {_uraniumPrice = _itemprice};
-    if(_item == "fuelF") then { _fuelFPrice = _itemprice};
+   /* if(_item == "fuelF") then { _fuelFPrice = _itemprice};*/
 
 	
 } forEach _rows;
@@ -66,7 +66,7 @@ life_market_resources = [
             ["copper",1],
             ["moonshine",1],
             ["vodka",1],
-            ["fuelF",1],
+            /*["fuelF",1],*/
             ["marijuana",1],
             ["oilp",1]
      ]
@@ -80,7 +80,7 @@ life_market_resources = [
             ["artefact",1],
             ["vodka",1],
             ["marijuana",1],
-            ["fuelF",1],
+           /* ["fuelF",1],*/
             ["oilp",1]
 		] 
 	],
@@ -94,7 +94,7 @@ life_market_resources = [
             ["artefact",1],
             ["vodka",1],
             ["marijuana",1],
-            ["fuelF",1],
+           /* ["fuelF",1],*/
             ["moonshine",1] 
 		] 
 	],
@@ -106,7 +106,7 @@ life_market_resources = [
 			["salt_r",1],
 			["cement",1],
             ["marijuana",1],
-            ["fuelF",1],
+            /*["fuelF",1],*/
 			["glass",1] 
 		] 
 	],
@@ -120,7 +120,7 @@ life_market_resources = [
             ["artefact",1],
             ["vodka",1],
             ["marijuana",1],
-            ["fuelF",1],
+            /*["fuelF",1],*/
             ["oilp",1]
 		] 
 	],
@@ -134,7 +134,7 @@ life_market_resources = [
             ["artefact",1],
             ["vodka",1],
             ["marijuana",1],
-            ["fuelF",1],
+           /* ["fuelF",1],*/
             ["oilp",1]
         ]
     ],
@@ -153,7 +153,7 @@ life_market_resources = [
 		] 
 	],
     
-    ["fuelF", _fuelFPrice, 250, 1000,
+  /*  ["fuelF", _fuelFPrice, 250, 1000,
          [
             ["turtle",1],
             ["iron_r",1],
@@ -164,7 +164,7 @@ life_market_resources = [
             ["moonshine",1],
             ["marijuana",1]
         ]
-    ],
+    ],*/
     
     //2
 	
