@@ -57,6 +57,10 @@ if(_math) then
 		if((missionNamespace getVariable _var) < _value) then
 		{
 			life_carryWeight = life_carryWeight - _weight;
+            // Faut pas deconner non plus, c'est pas normal d'avoir un inventaire negatif mec ! 
+            if(life_carryWeight < 0) then { 
+                life_carryWeight = 0;
+            }
 			_return = true;
 		}
 			else
