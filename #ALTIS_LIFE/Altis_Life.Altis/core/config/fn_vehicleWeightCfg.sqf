@@ -114,5 +114,11 @@ switch (_className) do
     case "cl3_arielatom_race_black": {0};
     case "cl3_xr_1000_black": {5};
     case "cl3_arielatom_race_black": {0};
+	case "UAZ_Unarmed": {80};
+	case "DAR_4X4": {200};
+	case "DAR_MK27": {300};
+	case "DAR_MK27T": {400};
+	case "DAR_MK23": {500};
+	case "DAR_LHS_16": {600};
 	default {-1};
 };
