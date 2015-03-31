@@ -18,6 +18,31 @@ sleep 10;
 			deleteVehicle _x;
 
 		};
+	if (count(crew _x) < 1 || !(alive _x)) then {
+		if(typeOf _x != "Land_OfficeChair_01_F")then {
+			deleteVehicle _x;
+
+		};
+	if (count(crew _x) < 1 || !(alive _x)) then {
+		if(typeOf _x != "OfficeTable_01_old_F")then {
+			deleteVehicle _x;
+
+		};
+	if (count(crew _x) < 1 || !(alive _x)) then {
+		if(typeOf _x != "Land_WaterCooler_01_new_F")then {
+			deleteVehicle _x;
+
+		};
+	if (count(crew _x) < 1 || !(alive _x)) then {
+		if(typeOf _x != "Land_OfficeCabinet_01_F")then {
+			deleteVehicle _x;
+
+		};
+	if (count(crew _x) < 1 || !(alive _x)) then {
+		if(typeOf _x != "Fridge_01_closed_F")then {
+			deleteVehicle _x;
+
+		};
 	};
 } forEach vehicles;
 
