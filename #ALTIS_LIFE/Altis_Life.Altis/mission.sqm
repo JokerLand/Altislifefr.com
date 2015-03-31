@@ -25606,7 +25606,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=405;
+		items=404;
 		class Item0
 		{
 			position[]={8459.6777,104.56568,25131.203};
@@ -28898,14 +28898,6 @@ class Mission
 		};
 		class Item402
 		{
-			position[]={25370.85,-0.10058212,23573.094};
-			name="artefact_area_2";
-			text="Archéologie Sous-Marine";
-			type="mil_triangle";
-			colorName="ColorCIV";
-		};
-		class Item403
-		{
 			position[]={25646.439,20.761051,21357.424};
 			name="artefact_shop_1";
 			text="Revendeur Archéologie";
@@ -28913,7 +28905,7 @@ class Mission
 			colorName="ColorCIV";
 			angle=221.36397;
 		};
-		class Item404
+		class Item403
 		{
 			position[]={25666.504,21.432652,21396.814};
 			name="dive_shop_2";
