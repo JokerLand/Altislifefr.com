@@ -56,6 +56,7 @@ if(_math) then
 
 		if((missionNamespace getVariable _var) < _value) then
 		{
+			life_carryWeight = life_carryWeight - _weight;
 			_return = true;
 		}
 			else
