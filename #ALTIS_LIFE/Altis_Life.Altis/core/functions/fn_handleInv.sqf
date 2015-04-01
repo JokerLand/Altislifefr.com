@@ -1,7 +1,7 @@
 /*
 	File: fn_handleInv.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Do I really need one?
 */
@@ -27,7 +27,7 @@ if(_math) then
 	if((life_carryWeight + _weight) <= life_maxWeight) then
 	{
 		missionNamespace setVariable[_var,(_value + _num)];
-		
+
 		if((missionNamespace getVariable _var) > _value) then
 		{
 			life_carryWeight = life_carryWeight + _weight;
@@ -53,14 +53,9 @@ if(_math) then
 		else
 	{
 		missionNamespace setVariable[_var,(_value - _num)];
-		
+
 		if((missionNamespace getVariable _var) < _value) then
 		{
-			life_carryWeight = life_carryWeight - _weight;
-            // Faut pas deconner non plus, c'est pas normal d'avoir un inventaire negatif mec ! 
-            if(life_carryWeight < 0) then { 
-                life_carryWeight = 0;
-            }
 			_return = true;
 		}
 			else
