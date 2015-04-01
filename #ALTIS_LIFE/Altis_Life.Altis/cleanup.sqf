@@ -8,32 +8,6 @@
 
 sleep 10;
 
- (getPos this nearestObject 654789) setDamage 1;
- delh = [0,0,0] nearestObject 654766;
- delh hideObject true;
- delh = [0,0,0] nearestObject 654771;
- delh hideObject true;
- delh = [0,0,0] nearestObject 654772;
- delh hideObject true;
- delh = [0,0,0] nearestObject 654842;
- delh hideObject true;
- delh = [0,0,0] nearestObject 654843;
- delh hideObject true;
- delh = [0,0,0] nearestObject 654857;
- delh hideObject true;
- delh = [0,0,0] nearestObject 654836;
- delh hideObject true;
- (getPos this nearestObject 654788) setDamage 1;
- (getPos this nearestObject 654787) setDamage 1;
- (getPos this nearestObject 654726) setDamage 1;
- (getPos this nearestObject 654819) setDamage 1;
- (getPos this nearestObject 654825) setDamage 1;
- (getPos this nearestObject 654826) setDamage 1;
- (getPos this nearestObject 654827) setDamage 1;
- (getPos this nearestObject 654822) setDamage 1;
-
-sleep 10;
-
 {
 	deleteVehicle _x;
 } forEach allDead;
