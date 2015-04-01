@@ -53,7 +53,7 @@ switch(true) do {
 	case (_zone in ["rock_1"]): {_gather = "rock"; _val = 1;};
 	case (_zone in ["meth_area_1"]): {_gather = "ephedrine"; _val = 1;};
 	case (_zone in ["grape_area_1"]): {_gather = "grapes"; _val = 1;};
-	case (_zone in ["artefact_area_1","artefact_area_2"]): {_gather = "artefact"; _val = 1;};
+	case (_zone in ["artefact_area_1"]): {_gather = "artefact"; _val = 1;};
 	default {""};
 };
 //gather check??
