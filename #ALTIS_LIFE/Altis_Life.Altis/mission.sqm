@@ -26732,13 +26732,13 @@ class Mission
 		class Item2116
 		{
 			position[]={9416.6152,119.34524,15880.91};
-			azimut=341.38629;
+			azimut=341.38599;
 			offsetY=0.5;
 			id=2373;
 			side="EMPTY";
 			vehicle="GeK_Coffre";
 			skill=0.60000002;
-			init="this setVectorUp [0,0,1];";
+			init="this setVectorUp [0,0,1]; this addAction[""Braquer le Coffre"",life_fnc_robBank];";
 		};
 		class Item2117
 		{
@@ -26805,7 +26805,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=405;
+		items=406;
 		class Item0
 		{
 			position[]={8459.6777,104.56568,25131.203};
@@ -30122,6 +30122,14 @@ class Mission
 			type="mil_box";
 			colorName="ColorOrange";
 			angle=-144.14102;
+		};
+		class Item405
+		{
+			position[]={9412.4023,127.92162,15885.668};
+			name="Banque";
+			text="Banque";
+			type="loc_Ruin";
+			colorName="ColorRed";
 		};
 	};
 	class Sensors
