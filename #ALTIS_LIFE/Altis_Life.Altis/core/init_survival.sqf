@@ -42,6 +42,14 @@
 	};
 };
 
+_illegalmarkers = ["Tonic","Dealer_1_Athira","turtle_2","turtle_3","ura","turtle_1","meth_1","meth_area_1","marker_process","coke_area","cocaine_1","heroin_1","heroin_area","moonshine_vendeur","garage_reb_2","Avant - Poste Rebelle - SafeZone","Rebelop_1_1","garage_reb","garage_reb_1","safezone_reb_1","Dealer_1","turle_dealer","cocaine processing","Weed_p_1","heroin_p","Warm_Marker","Ura_area","etape","eta","etap","etap1","gang_area_1","gang_area_2","gang_area_3"];
+
+if (playerSide == west) then {
+
+{ deleteMarkerLocal _x; } forEach _illegalmarkers;
+
+};
+
 [] spawn
 {
 	private["_bp","_load","_cfg"];

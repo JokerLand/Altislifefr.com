@@ -3973,12 +3973,12 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={279.90985,-0.25625643,233.2948};
+					position[]={-149.8419,0.0019474283,-163.39771};
 					azimut=-141.772;
 					offsetY=0.050000001;
 					id=253;
 					side="LOGIC";
-					vehicle="Logic";
+					vehicle="SideBLUFOR_F";
 					leader=1;
 					skill=0.60000002;
 					init="(getPos this nearestObject 654789) setDamage 1; delh = [0,0,0] nearestObject 654766; delh hideObject true; delh = [0,0,0] nearestObject 654771; delh hideObject true; delh = [0,0,0] nearestObject 654772; delh hideObject true; delh = [0,0,0] nearestObject 654842; delh hideObject true; delh = [0,0,0] nearestObject 654843; delh hideObject true; delh = [0,0,0] nearestObject 654857; delh hideObject true; delh = [0,0,0] nearestObject 654836; delh hideObject true; (getPos this nearestObject 654788) setDamage 1;  (getPos this nearestObject 654787) setDamage 1;  (getPos this nearestObject 654726) setDamage 1;  (getPos this nearestObject 654819) setDamage 1;  (getPos this nearestObject 654825) setDamage 1;  (getPos this nearestObject 654826) setDamage 1;  (getPos this nearestObject 654827) setDamage 1;  (getPos this nearestObject 654822) setDamage 1;";
@@ -10619,7 +10619,7 @@ class Mission
 		class Item638
 		{
 			position[]={9368.501,47.615437,21137.285};
-			azimut=-354.76013;
+			azimut=-354.76001;
 			offsetY=-0.0107651;
 			id=895;
 			side="EMPTY";
@@ -26907,11 +26907,11 @@ class Mission
 		class Item79
 		{
 			position[]={5203.7539,38.972282,17334.572};
-			name="Dealer_1_4";
+			name="Dealer_1";
 			text="Dealer de Drogues";
 			type="mil_dot";
 			colorName="ColorOrange";
-			angle=290.01477;
+			angle=290.01501;
 		};
 		class Item80
 		{
@@ -26953,7 +26953,7 @@ class Mission
 			text="Traitement de Marijuana";
 			type="mil_dot";
 			colorName="Color1_FD_F";
-			angle=178.1875;
+			angle=178.188;
 		};
 		class Item85
 		{
@@ -27723,7 +27723,7 @@ class Mission
 		};
 		class Item175
 		{
-			position[]={20666.455,29.136209,8798.8018};
+			position[]={20667.52,29.335871,8797.1172};
 			name="meth_1";
 			text="Champ d'Ephedrine";
 			type="mil_dot";
@@ -27731,7 +27731,7 @@ class Mission
 		};
 		class Item176
 		{
-			position[]={16749.314,9.2931461,13639.186};
+			position[]={16749.768,9.2875729,13639.096};
 			name="marker_process";
 			text="Traitement de Methanphetamine (Ephedrine + Phosphore)";
 			type="mil_dot";
@@ -27748,7 +27748,7 @@ class Mission
 		};
 		class Item178
 		{
-			position[]={20064.266,11.457856,19545.068};
+			position[]={20064.84,11.42833,19545.189};
 			name="moonshine_vendeur";
 			text="Traitement Moonshine";
 			type="mil_dot";
@@ -28414,11 +28414,11 @@ class Mission
 		class Item258
 		{
 			position[]={15167.181,49.918533,18108.09};
-			name="Dealer_1_4_1";
+			name="Dealer_1_Athira";
 			text="Dealer de Drogues";
 			type="mil_dot";
 			colorName="ColorOrange";
-			angle=309.74594;
+			angle=309.746;
 		};
 		class Item259
 		{
