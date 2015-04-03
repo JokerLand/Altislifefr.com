@@ -150,6 +150,7 @@ switch (_filter) do
 			["rds_worker_cap2",nil,100],
 			["rds_worker_cap3",nil,100],
 			["rds_worker_cap4",nil,100],
+            ["H_Hat_HelmetConical",nil,120],
             ["H_Hat_Boonie_Cowboy",nil,120],
             ["H_Hat_Golf_Black",nil,120],
             ["H_Hat_Golf_Blue",nil,120],
