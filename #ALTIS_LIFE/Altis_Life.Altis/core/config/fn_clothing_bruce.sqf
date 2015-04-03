@@ -18,6 +18,9 @@ switch (_filter) do
 	case 0:
 	{
 		[
+			["ALFR_FR_tenualfr_2","Tenue AltisLifeFR",250],
+			["ALFR_FR_tenualfr_1","Tenue AltisLifeFR",250],
+			["ALFR_FR_tenualfr","Tenue AltisLifeFR",250],
 			["U_C_Poloshirt_blue","Poloshirt Blue",250],
 			["U_C_Poloshirt_burgundy","Poloshirt Burgundy",250],
 			["U_C_Poloshirt_stripped","Poloshirt Stripped",250],
