@@ -161,7 +161,7 @@ switch (_shop) do
 				["O_Truck_03_device_F",750000],
 				["O_Heli_Light_02_unarmed_F",300000],
 				["I_Heli_Transport_02_F",600000],
-				["IVORY_T6A_1",3000000],
+				["IVORY_T6A_1",2000000],
 				["B_Heli_Transport_03_unarmed_F",4500000],
                 ["CL3_bus_cl_black",100000],
                 ["cl3_xr_1000_black",250000],
