@@ -207,6 +207,7 @@ class Life_Client_Core
 		class settingsMenu {};
 		class settingsInit {};
         class cellphone2 {};
+		class revokeLicense {};
 	};
 	
 	class Functions

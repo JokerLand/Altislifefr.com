@@ -5141,5 +5141,29 @@
 			<Italian>Rob Person</Italian>		
 			<Portuguese>Roubar Jogador</Portuguese>
 		</Key>
+		<Key ID="STR_pInAct_RevokeLicense">
+            <Orignal>Saisie de Licences</Orignal>
+        </Key>
+        <Key ID="STR_Civ_RevokeLicense_Driver">
+            <Original>Votre permis de conduire a été saisie par la police!</Original>
+        </Key>
+        <Key ID="STR_Civ_RevokeLicense_Truck">
+            <Original>Votre permis de camions a été saisie par la police!</Original>
+        </Key>
+        <Key ID="STR_Civ_RevokeLicense_Pilot">
+            <Original>Votre Brevet de Pilote a été saisie par la police!</Original>
+        </Key>
+        <Key ID="STR_Civ_RevokeLicense_Boating">
+            <Original>Votre permis de bateau a été saisie par la police!</Original>
+        </Key>
+        <Key ID="STR_Civ_RevokeLicense_Diving">
+            <Original>Votre permis de plongée a été saisie par la police!</Original>
+        </Key>
+        <Key ID="STR_Civ_RevokeLicense_Taxi">
+            <Original>Votre licence de Taxi a été saisie par la police!</Original>
+        </Key>
+        <Key ID="STR_Civ_RevokeLicense_Firearm">
+            <Original>Votre permis de port d'armes a été saisie par la police!</Original>
+        </Key>
 	</Package>
 </Project>

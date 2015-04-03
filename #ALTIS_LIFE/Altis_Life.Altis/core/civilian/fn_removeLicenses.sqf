@@ -44,4 +44,48 @@ switch (_state) do
 			hint localize "STR_Civ_LicenseRemove_2";
 		};
 	};
+	
+	// Revoking Licenses
+    
+    // Permis de Conduire
+    case 10:
+    {
+        license_civ_driver = false;
+        hint localize "STR_Civ_RevokeLicense_Driver";
+    };
+	
+    // Permis de Camions
+    case 11:
+    {
+        license_civ_truck = false;
+        hint localize "STR_Civ_RevokeLicense_Truck";
+    };
+	
+    // Brevet de Pilote
+    case 12:
+    {
+        license_civ_air = false;
+        hint localize "STR_Civ_RevokeLicense_Pilot";
+    };
+	
+    // Permis de Bateau
+    case 13:
+    {
+        license_civ_boat = false;
+        hint localize "STR_Civ_RevokeLicense_Boating";
+    };
+	
+    // Permis de plongée
+    case 14:
+    {
+        license_civ_dive = false;
+        hint localize "STR_Civ_RevokeLicense_Diving";
+    };
+	
+    // Permis de port d'armes
+    case 17:
+    {
+        license_civ_gun = false;
+        hint localize "STR_Civ_RevokeLicense_Firearm";
+    };
 };
