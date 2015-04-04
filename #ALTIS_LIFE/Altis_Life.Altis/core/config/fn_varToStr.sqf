@@ -140,5 +140,6 @@ switch (_var) do
 	case "license_gr": {"Grims Reapers"};
 	case "license_armer": {"Militaire"};
 	case "license_fla": {"FLA"};
+	case "license_sutra": {"SUTRA"};
     case "license_civ_uranium": {"Formation Uranium"};
 };
