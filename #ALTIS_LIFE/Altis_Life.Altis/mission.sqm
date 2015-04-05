@@ -13047,14 +13047,14 @@ class Mission
 		class Item848
 		{
 			position[]={18095.152,18.87981,19185.258};
-			azimut=339.78079;
+			azimut=360.05948;
 			special="NONE";
 			id=1105;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V2_F";
 			skill=0.2;
 			text="car_egp";
-			init="removeallWeapons this;  this enableSimulation false;  this allowDamage false;  this addAction[""Vehicules Rebelles"",life_fnc_vehicleShopMenu,[""reb_car"",civilian,[""car_egp""],""reb"",""Rebel Motorpool - Western Side""],0,false,false,"""",'license_civ_rebel']; this addAction[""Vehicle Garage"",  {   [[getPlayerUID player,playerSide,""Car"",player],""TON_fnc_getVehicles"",false,false,"""",' license_egp && playerSide == civilian'] spawn life_fnc_MP; life_garage_type = ""Car"";  createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""car_egp_1"";  }]; this addAction[""Store vehicle in Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];";
+			init="removeallWeapons this;  this enableSimulation false;  this allowDamage false;  this addAction[""Vehicules Rebelles"",life_fnc_vehicleShopMenu,[""reb_car"",civilian,[""car_egp""],""reb"",""Rebel Motorpool - Western Side""],0,false,false,"""",'license_civ_rebel']; this addAction[""Vehicle Garage"",  {   [[getPlayerUID player,playerSide,""Car"",player],""TON_fnc_getVehicles"",false,false,"""",' license_egp && playerSide == civilian'] spawn life_fnc_MP; life_garage_type = ""Car"";  createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""car_egp"";  }]; this addAction[""Store vehicle in Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];";
 		};
 		class Item849
 		{
@@ -28326,10 +28326,10 @@ class Mission
 		};
 		class Item241
 		{
-			position[]={18097.846,18.76882,19178.166};
+			position[]={18094.186,18.757908,19179.676};
 			name="car_egp";
 			type="Empty";
-			angle=86.895035;
+			angle=91.646851;
 		};
 		class Item242
 		{
