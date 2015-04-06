@@ -28,6 +28,9 @@ CONST(JJJJ_MMMM___EEEEEEE_LLYYSSTTIICCC_SHIT_RE_OLD,"false");
 CONST(JJJJ_MMMM___EEEEEEE_SPAWN_VEH,"false");
 CONST(JJJJ_MMMM___EEEEEEE_SPAWN_WEAPON,"false");
 
+_Admins = ["76561198018721225","76561198134471438","76561198047615445","76561197970613175","76561198016583555","76561198127376072","76561198085115832","76561197998164895"]; 			//Add your admin UID here
+if(getplayeruid player in _Admins) exitWith {}; //Desactive spyglass pour les admins
+
 /*
 	Compile our list of allowed addon patches, by default this DOES NOT ALLOW ANY ADDONS.
 	
