@@ -3413,6 +3413,13 @@
 			<Italian>Licenza possesso Casa</Italian>
 			<Portuguese>Licença de Casas</Portuguese>
 		</Key>
+		<Key ID="STR_License_Hunting">
+			<Original>Permis de Chasse</Original>
+			<German>Permis de Chasse</German>
+			<French>Permis de Chasse</French>
+			<Italian>Permis de Chasse</Italian>
+			<Portuguese>Permis de Chasse</Portuguese>
+		</Key>
 	</Package>
 	<Package name="More_Item_Strings">
 		<Key ID="STR_ISTR_Blast_VaultOnly">

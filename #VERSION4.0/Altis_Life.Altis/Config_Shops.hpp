@@ -1,5 +1,16 @@
 class WeaponShops {
     //Armory Shops
+    class hunter {
+        name = "La Cabane du Chasseur";
+        side = "civ";
+        license = "";
+        level = -1;
+        msg = "";
+        items[] = {
+            { "Trixie_CZ550", "", 50000 },
+            { "Trixie_CZ550_Mag", "", 50 }
+        };
+    };
     class gun {
         name = "Billy Joe's Firearms";
         side = "civ";
