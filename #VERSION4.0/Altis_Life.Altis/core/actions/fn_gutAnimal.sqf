@@ -61,7 +61,7 @@ if(player != vehicle player) exitWith {titleText[localize "STR_NOTF_RepairingInV
 
 if(([true,_item,1] call life_fnc_handleInv)) then {
 	deleteVehicle _animalCorpse;
-	titleText [format["Vous avez rammasé %1",_displayName],"PLAIN"];
+	titleText [format["Vous ramassez %1",_displayName],"PLAIN"];
 } else {
 	titleText ["Votre inventaire est plein","PLAIN"];
 };

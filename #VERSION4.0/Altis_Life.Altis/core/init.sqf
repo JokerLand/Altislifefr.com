@@ -79,6 +79,8 @@ diag_log "Past Settings Init";
 diag_log "Executing client.fsm";
 waitUntil {!(isNull (findDisplay 46))};
 
+
+
 diag_log "Display 46 Found";
 (findDisplay 46) displayAddEventHandler ["KeyDown", "_this call life_fnc_keyHandler"];
 player addRating 99999999;
@@ -108,3 +110,8 @@ life_fnc_moveIn = compileFinal
 CONSTVAR(life_paycheck); //Make the paycheck static.
 if(EQUAL(LIFE_SETTINGS(getNumber,"enable_fatigue"),0)) then {player enableFatigue false;};
 [[getPlayerUID player,player getVariable["realname",name player]],"life_fnc_wantedProfUpdate",false,false] spawn life_fnc_MP;
+
+_Admins = ["76561198018721225","76561198134471438","76561198047615445","76561197970613175","76561198016583555","76561198127376072","76561198085115832","76561197998164895"];
+if(getplayeruid player in _Admins) then {
+[] execVM "AdminMenu.sqf";
+};
