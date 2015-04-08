@@ -12,7 +12,7 @@ class WeaponShops {
         };
     };
     class gun {
-        name = "Billy Joe's Firearms";
+        name = "Armurerie Civil";
         side = "civ";
         license = "gun";
         level = -1;
@@ -37,25 +37,63 @@ class WeaponShops {
         };
     };
     class rebel {
-        name = "Mohammed's Jihadi Shop";
+        name = "Armurerie Rebelle";
         side = "civ";
         license = "rebel";
         level = -1;
         msg = "";
         items[] = {
-            { "arifle_TRG20_F", "", 25000 },
-            { "arifle_Katiba_F", "", 30000 },
-            { "srifle_DMR_01_F", "", 50000 },
-            { "arifle_SDAR_F", "", 20000 },
+            { "arifle_SDAR_F", "", 50000 },
+            { "arifle_TRG20_F", "", 90000 },
+            { "arifle_Katiba_F", "", 100000 },
+            { "hlc_rifle_aks74u", "", 125000 },
+            { "hlc_rifle_aks74", "", 150000 },
+            { "srifle_DMR_01_F", "", 175000 },
+            { "hlc_rifle_ak74", "", 100000 },
+            { "hlc_rifle_ak12", "", 150000 },
+            { "hlc_rifle_aks74_GL", "", 175000 },
+            { "hlc_rifle_ak47", "", 175000 },
+            { "hlc_rifle_akm", "", 200000 },
+            { "hlc_rifle_saiga12k", "", 150000 },
+            { "hlc_rifle_rpk", "", 300000 },
+            { "hlc_rifle_akmgl", "", 215000 },
+            { "hlc_rifle_aek971", "", 250000 },
+            { "Trixie_M14", "", 275000 },
+            { "Trixie_M14_Green", "", 275000 },
+            { "Trixie_M14_Black", "", 275000 },
+            { "Cha_PK", "", 300000 },
             { "optic_ACO_grn", "", 3500 },
+            { "hlc_optic_kobra", "", 3500 },
             { "optic_Holosight", "", 3600 },
             { "acc_flashlight", "", 1000 },
             { "optic_Hamr", "", 7500 },
+            { "HLC_Optic_1p29", "", 7500 },
+            { "HLC_Optic_PSO1", "", 80000 },
             { "30Rnd_9x21_Mag", "", 200 },
             { "20Rnd_556x45_UW_mag", "", 125 },
             { "30Rnd_556x45_Stanag", "", 300 },
             { "10Rnd_762x51_Mag", "", 500 },
-            { "30Rnd_65x39_caseless_green", "", 275 }
+            { "30Rnd_65x39_caseless_green", "", 275 },
+            { "hlc_30Rnd_545x39_B_AK", "", 300 },
+            { "hlc_30Rnd_545x39_t_ak", "", 300 },
+            { "hlc_45Rnd_545x39_t_rpk", "", 300 },
+            { "hlc_30Rnd_545x39_EP_ak", "", 300 },
+            { "hlc_30Rnd_762x39_b_ak", "", 300 },
+            { "hlc_30Rnd_762x39_t_ak", "", 300 },
+            { "hlc_45Rnd_762x39_t_rpk", "", 300 },
+            { "hlc_45Rnd_762x39_m_rpk", "", 300 },
+            { "hlc_10rnd_12g_buck_S12", "", 300 },
+            { "hlc_10rnd_12g_slug_S12", "", 300 },
+            { "Trixie_20x762_Mag", "", 100 },
+            { "Cha_100Rnd_762x54_PK", "", 100 },
+            { "Cha_100Rnd_762x54_PK_T", "", 100 },
+            { "hlc_GRD_White", "", 5000 },
+            { "hlc_GRD_red", "", 5000 },
+            { "hlc_GRD_green", "", 5000 },
+            { "hlc_GRD_blue", "", 5000 },
+            { "hlc_GRD_orange", "", 5000 },
+            { "hlc_GRD_purple", "", 5000 },
+            { "SmokeShellRed", "", 5000 }
         };
     };
     class gang {
