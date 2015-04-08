@@ -3535,7 +3535,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=525;
+		items=528;
 		class Item0
 		{
 			position[]={8065.1616,35.674362,24985.314};
@@ -8959,10 +8959,45 @@ class Mission
 			skill=0.60000002;
 			init="this enableSimulation false;";
 		};
+		class Item525
+		{
+			position[]={14597.743,17.91,16686.385};
+			azimut=311.72632;
+			special="NONE";
+			id=740;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V2_F";
+			leader=1;
+			skill=0.2;
+			init="this allowDamage false; this enableSimulation false;  this addAction[""Armes Donateurs"",life_fnc_weaponShopMenu,""donator"",0,false,false,"""",' _target distance _this < 5 && !isNil ""life_donator"" &&  (call life_donator) > 0 && playerSide == civilian'];  this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu];  this addAction[""Banking Insurance ($1,000)"",{if(life_atmcash > 1000) then {life_has_insurance = true; life_atmcash = life_atmcash - 1000};},"""",0,false,false,"""",'!life_has_insurance'];";
+		};
+		class Item526
+		{
+			position[]={14596.619,17.91,16685.303};
+			azimut=309.94193;
+			special="NONE";
+			id=741;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V2_F";
+			leader=1;
+			skill=0.2;
+			init="this enableSimulation false;   this allowDamage false;   this addAction[""Vehicule Donateur"",life_fnc_vehicleShopMenu,[""donator"",civilian,[""donator_2"",""donator_2_1""],""civ"",""Donator Shop""],0,false,false,"""",'!isNil ""life_donator"" && {(call life_donator) > 0'];";
+		};
+		class Item527
+		{
+			position[]={14595.506,17.91,16684.09};
+			azimut=314.05099;
+			special="NONE";
+			id=742;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V2_F";
+			skill=0.2;
+			init="this enableSimulation false; this allowDamage false; this addAction[""Combinaison et Casques Motos"",life_fnc_clothingMenu,""kart""]; this addAction[""Vendeur de Vêtements"",life_fnc_clothingMenu,""bruce""];";
+		};
 	};
 	class Markers
 	{
-		items=219;
+		items=220;
 		class Item0
 		{
 			position[]={8459.6777,104.56568,25131.203};
@@ -10696,6 +10731,14 @@ class Mission
 			type="loc_Bunker";
 			colorName="ColorGreen";
 			angle=4.8621402;
+		};
+		class Item219
+		{
+			position[]={14598.345,17.91,16686.063};
+			name="donator_area_1_1_1";
+			text="Magasin des Donateurs";
+			type="loc_ViewTower";
+			colorName="ColorYellow";
 		};
 	};
 };
