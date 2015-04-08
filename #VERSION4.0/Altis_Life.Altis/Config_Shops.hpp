@@ -1,5 +1,5 @@
 class WeaponShops {
-    //Armory Shops
+    //Chasse Shop
     class hunter {
         name = "La Cabane du Chasseur";
         side = "civ";
@@ -11,6 +11,7 @@ class WeaponShops {
             { "Trixie_CZ550_Mag", "", 50 }
         };
     };
+    //Armurerie Shop
     class gun {
         name = "Armurerie Civil";
         side = "civ";
@@ -36,6 +37,7 @@ class WeaponShops {
             { "V_Rangemaster_belt", "", 4900 }
         };
     };
+    //Armurerie Rebel Shop
     class rebel {
         name = "Armurerie Rebelle";
         side = "civ";
@@ -96,6 +98,7 @@ class WeaponShops {
             { "SmokeShellRed", "", 5000 }
         };
     };
+    //Gang Hideout Shop
     class gang {
         name = "Hideout Armament";
         side = "civ";
