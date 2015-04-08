@@ -18,16 +18,22 @@ class WeaponShops {
         level = -1;
         msg = "";
         items[] = {
-            { "hgun_Rook40_F", "", 6500 },
-            { "hgun_Pistol_heavy_02_F", "", 9850 },
-            { "hgun_ACPC2_F", "", 11500 },
-            { "hgun_PDW2000_F", "", 20000 },
-            { "optic_ACO_grn_smg", "", 2500 },
-            { "V_Rangemaster_belt", "", 4900 },
+            { "hgun_Rook40_F", "", 10000 },
             { "16Rnd_9x21_Mag", "", 25 },
-            { "9Rnd_45ACP_Mag", "", 45 },
+            { "hgun_Pistol_heavy_02_F", "", 12000 },
             { "6Rnd_45ACP_Cylinder", "", 50 },
-            { "30Rnd_9x21_Mag", "", 75 }
+            { "hgun_ACPC2_F", "", 15000 },
+            { "9Rnd_45ACP_Mag", "", 45 },
+            { "hgun_PDW2000_F", "", 20000 },
+            { "30Rnd_9x21_Mag", "", 75 },
+            { "SMG_01_F", "", 28000 },
+            { "30Rnd_45ACP_Mag_SMG_01_tracer_green", "", 60 },
+            { "SIG_P226", "", 13000 },
+            { "C1987_MP7", "", 60000 },
+            { "C1987_20Rnd_46x30_mp7", "", 100 },
+            { "C1987_40Rnd_46x30_mp7", "", 200 },
+            { "optic_ACO_grn_smg", "", 2500 },
+            { "V_Rangemaster_belt", "", 4900 }
         };
     };
     class rebel {
