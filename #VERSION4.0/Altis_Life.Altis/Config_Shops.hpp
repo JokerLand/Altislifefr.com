@@ -118,7 +118,7 @@ class WeaponShops {
             { "30Rnd_9x21_Mag", "", 75 }
         };
     };
-    //Basic Shops
+    //Quincaillerie Shops
     class genstore {
         name = "Altis General Store";
         side = "civ";
@@ -126,15 +126,18 @@ class WeaponShops {
         level = -1;
         msg = "";
         items[] = {
-        	{ "Binocular", "", 150 },
-			{ "ItemGPS", "", 100 },
-			{ "ToolKit", "", 250 },
-			{ "FirstAidKit", "", 150 },
-			{ "NVGoggles", "", 2000 },
-			{ "Chemlight_red", "", 300 },
-			{ "Chemlight_yellow", "", 300 },
-			{ "Chemlight_green", "", 300 },
-			{ "Chemlight_blue", "", 300 }
+            { "ItemWatch", "", 50 },
+            {"ItemRadio", "", 500 },
+            { "ItemCompass", "", 50 },
+            { "Binocular", "", 150 },
+            { "ItemGPS", "", 100 },
+            { "ToolKit", "", 250 },
+            { "FirstAidKit", "", 150 },
+            { "NVGoggles", "", 2000 },
+            { "Chemlight_red", "", 300 },
+            { "Chemlight_yellow", "", 300 },
+            { "Chemlight_green", "", 300 },
+            { "Chemlight_blue", "", 300 }
         };
     };
     //Cop Shops
