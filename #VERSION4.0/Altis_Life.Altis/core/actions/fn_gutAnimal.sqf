@@ -1,7 +1,7 @@
 #include <macro.h>
 /*
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Guts the animal?
 */
@@ -51,7 +51,7 @@ while{true} do {
 	if(player != vehicle player) exitWith {};
 	if(life_interrupted) exitWith {};
 };
-		
+
 life_action_inUse = false;
 5 cutText ["","PLAIN"];
 player playActionNow "stop";
@@ -61,7 +61,7 @@ if(player != vehicle player) exitWith {titleText[localize "STR_NOTF_RepairingInV
 
 if(([true,_item,1] call life_fnc_handleInv)) then {
 	deleteVehicle _animalCorpse;
-	titleText [format["You have collected some raw %1 meat",_displayName],"PLAIN"];
+	titleText [format["Vous avez rammasé %1",_displayName],"PLAIN"];
 } else {
-	titleText ["Your inventory is full","PLAIN"];
+	titleText ["Votre inventaire est plein","PLAIN"];
 };
