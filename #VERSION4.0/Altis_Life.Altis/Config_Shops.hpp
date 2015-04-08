@@ -159,7 +159,7 @@ class WeaponShops {
     //Donateur Shops
     class donator
         name = "Donator Shop";
-        side = "donator";
+        side = "civ";
         license = "";
         level = 3;
         msg = "Vous devez etre donateur!";
@@ -237,7 +237,7 @@ class WeaponShops {
             { "Trixie_5x762_Mag", "", 800 },
             { "Trixie_10x762_Mag", "", 800 },
             { "Trixie_5x338_Mag", "", 800 },
-            { "R3F_7Rnd_127x99_PGM", "", 800 }   
+            { "R3F_7Rnd_127x99_PGM", "", 800 }
         };
     };
     //Medic Shops
