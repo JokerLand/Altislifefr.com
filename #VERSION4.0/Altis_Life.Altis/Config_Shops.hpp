@@ -264,7 +264,7 @@ class WeaponShops {
         };
     };
     //Donateur Shops
-    class donator
+    class donator {
         name = "Donator Shop";
         side = "civ";
         license = "";
