@@ -241,13 +241,17 @@ class WeaponShops {
         license = "";
         level = -1;
         items[] = {
-            { "ItemGPS", "", 100 },
-			{ "Binocular", "", 150 },
-			{ "ToolKit", "", 250 },
-			{ "FirstAidKit", "", 150 },
-			{ "Medikit", "", 500 },
-			{ "NVGoggles", "", 1200 },
-			{ "B_FieldPack_ocamo", "", 3000 }
+            { "ItemWatch", "", 50 },
+            { "ItemRadio", "", 500 },
+            { "ItemCompass", "", 50 },
+            { "Binocular", "", 150 },
+            { "ItemMap", "", 50 },
+            { "ItemGPS", "", 150 },
+            { "ToolKit", "", 250 },
+            { "FirstAidKit", "", 150 },
+            { "Medikit", "", 2000 },
+            { "NVGoggles", "", 2500 },
+            { "B_Carryall_khk", "", 5000 }
         };
     };
 };
