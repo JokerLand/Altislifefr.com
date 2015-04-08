@@ -36,7 +36,7 @@ if(!isServer && (!isNil "life_adminlevel" OR !isNil "life_coplevel" OR !isNil "l
 CASH = parseNumber (SEL(_this,2));
 BANK = parseNumber (SEL(_this,3));
 CONST(life_adminlevel,parseNumber (SEL(_this,4)));
-CONST(life_donator,parseNumber (SEL(_this,5)));
+CONST(life_donator,parseNumber (SEL(_this,5)))
 
 //Loop through licenses
 if(count (SEL(_this,6)) > 0) then {
@@ -80,7 +80,7 @@ switch(playerSide) do {
 if(count (SEL(_this,12)) > 0) then {
 	{life_vehicles pushBack _x;} foreach (SEL(_this,12));
 };
-/*
+
 switch(CONST(life_donator)) do
  {
 	case 0: {CONST(life_houseLimit,1);};
@@ -99,5 +99,5 @@ switch(CONST(life_donator)) do
 	case 4: {life_paycheck = life_paycheck + 2500;};
 	case 5: {life_paycheck = life_paycheck + 3000;};
  };
-*/
+
 life_session_completed = true;
