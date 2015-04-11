@@ -81,4 +81,17 @@ if(count (SEL(_this,12)) > 0) then {
 	{life_vehicles pushBack _x;} foreach (SEL(_this,12));
 };
 
+switch(FETCH_CONST(life_donator)) do
+ {
+ 	case 1: {life_paycheck = life_paycheck + 750;};
+ 	case 2: {life_paycheck = life_paycheck + 1500;};
+ 	case 3: {life_paycheck = life_paycheck + 2000;};
+	case 4: {life_paycheck = life_paycheck + 2500;};
+	case 5: {life_paycheck = life_paycheck + 3000;};
+ };
+
+if(FETCH_CONST(life_donator) < 2) then {
+	house_limit = house_limit + 1; //PAS TEST - Une maison supplémentaire pour le donateur
+};
+
 life_session_completed = true;
