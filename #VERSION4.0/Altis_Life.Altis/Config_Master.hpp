@@ -33,15 +33,15 @@ class Life_Settings {
 
 	/* Revive system settings */
 	revive_cops = false; //true to enable cops the ability to revive everyone or false for only medics/ems.
-	revive_fee = 1500; //Revive fee that players have to pay and medics / EMS are rewarded
+	revive_fee = 7500; //Revive fee that players have to pay and medics / EMS are rewarded
 
 	/* House related settings */
 	house_limit = 1; //Maximum amount of houses a player can own.
 
 	/* Gang related settings */
-	gang_price = 75000; //Price for creating a gang, remember they are persistent so keep it reasonable to avoid millions of gangs.
-	gang_upgradeBase = 10000; //The base cost for upgrading slots in a gang
-	gang_upgradeMultiplier = 2.5; //Not sure if in use?
+	gang_price = 5000000; //Price for creating a gang, remember they are persistent so keep it reasonable to avoid millions of gangs.
+	gang_upgradeBase = 100000; //The base cost for upgrading slots in a gang
+	gang_upgradeMultiplier = 2; //Not sure if in use?
 
 	/* Player-related systems */
 	enable_fatigue = true; //Set to false to disable the ARMA 3 false system.
@@ -50,9 +50,9 @@ class Life_Settings {
 	paycheck_period = 5; //Scaled in minutes
 
 	/* Impound Variables */
-	impound_car = 350; //Price for impounding cars
-	impound_boat = 250; //Price for impounding boats
-	impound_air = 850; //Price for impounding helicopters / planes
+	impound_car = 15000; //Price for impounding cars
+	impound_boat = 5000; //Price for impounding boats
+	impound_air = 17500; //Price for impounding helicopters / planes
 
 	/* Car-shop Settings */
 	vehicleShop_rentalOnly[] = { "B_MRAP_01_hmg_F", "B_G_Offroad_01_armed_F" };
