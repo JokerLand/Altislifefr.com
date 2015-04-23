@@ -323,7 +323,7 @@ _object setDir 1.0022;
 _object setPosASL _pos;
 this allowDamage false; this enableSimulation false;
 // ***************************************
-_pos = [12483.5,15197.4,73.8531];
+_pos = [12483.4,15197.4,73.8685];
 _object = createVehicle ["Land_CncWall4_F", _pos, [], 0, "CAN_COLLIDE"];
 _object setDir 359.9;
 _object setPosASL _pos;
@@ -614,5 +614,11 @@ this allowDamage false; this enableSimulation false;
 _pos = [12405.9,15197.5,72.0602];
 _object = createVehicle ["Land_Scrap_MRAP_01_F", _pos, [], 0, "CAN_COLLIDE"];
 _object setDir 26.966;
+_object setPosASL _pos;
+this allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [12480.2,15193.8,74.1345];
+_object = createVehicle ["Land_Cargo_Patrol_V1_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 182.0;
 _object setPosASL _pos;
 this allowDamage false; this enableSimulation false;
