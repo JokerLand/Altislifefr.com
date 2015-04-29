@@ -26,6 +26,14 @@ class CarShops {
 			{ "C_Kart_01_Vrana_F", 15000, "driver" }
 		};
 	};
+	
+	class delta_shop {
+		side = "civ";
+		vehicles[] = {
+			{ "FLAY_HangGlider", 10000 , "delta" },
+			{ "FLAY_HangGliderBlack", 50000, "delta" }
+		};
+	};
 
 	class med_shop {
 		side = "med";
@@ -48,25 +56,56 @@ class CarShops {
 	class civ_truck {
 		side = "civ";
 		vehicles[] = {
+			{ "C_Van_01_transport_F", 40000, "truck" },
+			{ "cl3_transit_black", 50000, "truck" },
 			{ "C_Van_01_box_F", 60000, "truck" },
+			{ "C_Offroad_01_repair_F", 75000, "truck" },
 			{ "I_Truck_02_transport_F", 75000, "truck" },
 			{ "I_Truck_02_covered_F", 100000, "truck" },
-			{ "B_Truck_01_transport_F", 275000, "truck" },
-			{ "O_Truck_03_transport_F", 200000, "truck" },
-			{ "O_Truck_03_covered_F", 250000, "truck" },
-			{ "B_Truck_01_box_F", 350000, "truck" },
-			{ "O_Truck_03_device_F", 450000, "truck" }
+			{ "DAR_4X4", 100000, "truck" },
+			{ "DAR_MK27", 150000, "truck" },
+			{ "DAR_MK27T", 200000, "truck" },
+			{ "DAR_MK23", 250000, "truck" },
+			{ "DAR_LHS_16", 450000, "truck" },
+			{ "B_Truck_01_transport_F", 200000, "truck" },
+			{ "A3L_Dumptruck", 250000, "truck" },
+			{ "B_Truck_01_covered_F", 300000, "truck" },
+			{ "ALFR_GeK_Scania_420", 400000, "truck" },
+			{ "ALFR_GeK_Volvo_FH16_2012", 500000, "truck" }
 		};
 	};
 
+	class civ_fla_car {
+		side = "civ";
+		vehicles[] = {
+			{ "cl3_q7_black", 45000, "" },
+			{ "cl3_insignia_camo", 75000, "" },
+			{ "cl3_e63_amg_camo", 250000, "" },
+			{ "cl3_suv_black", 200000, "" },
+		};
+	};
+	
 	class reb_car {
 		side = "civ";
 		vehicles[] = {
-			{ "B_Quadbike_01_F", 2500, "" },
 			{ "B_G_Offroad_01_F", 15000, "" },
-			{ "O_MRAP_02_F", 150000, "" },
-			{ "B_Heli_Light_01_F", 325000, "" },
-			{ "B_G_Offroad_01_armed_F", 750000, "rebel" }
+			{ "BAF_Offroad_D", 65000, "" },
+			{ "BAF_Offroad_W", 65000, "" },
+			{ "UAZ_Unarmed", 65000, "" },
+			{ "B_G_Van_01_transport_F", 50000, "" },
+			{ "cl3_insignia_camo", 75000, "" },
+			{ "cl3_dodge_charger_s_camo", 200000, "" },
+			{ "cl3_e63_amg_camo", 300000, "" },
+			{ "cl3_range_rover_camo", 400000, "" },
+			{ "O_Truck_03_transport_F", 1000000, "" },
+			{ "O_Truck_03_covered_F", 1350000, "" },
+			{ "O_Truck_03_ammo_F", 1500000, "" },
+			{ "B_Heli_Light_01_F", 225000, "" },
+			{ "O_Heli_Light_02_unarmed_F", 650000, "" },
+			{ "O_Heli_Transport_04_bench_F", 1000000, "" },
+			{ "O_Heli_Transport_04_covered_F", 1130000, "" },
+			{ "O_Heli_Transport_04_ammo_F", 1500000, "" },
+			{ "O_MRAP_02_F", 1666667, "rebel" }
 		};
 	};
 
@@ -82,8 +121,8 @@ class CarShops {
 	class civ_air {
 		side = "civ";
 		vehicles[] = {
-			{ "B_Heli_Light_01_F", 253000, "pilot" },
-			{ "O_Heli_Light_02_unarmed_F", 750000, "pilot" }
+			{ "C_Heli_Light_01_civil_F", 153000, "pilot" },
+			{ "O_Heli_Light_02_unarmed_F", 550000, "pilot" }
 		};
 	};
 
@@ -118,8 +157,7 @@ class CarShops {
 		side = "civ";
 		vehicles[] = {
 			{ "C_Rubberboat", 5000, "boat" },
-			{ "C_Boat_Civil_01_F", 22000, "boat" },
-			{ "B_SDV_01_F", 150000, "boat" }
+			{ "C_Boat_Civil_01_F", 22000, "boat" }
 		};
 	};
 };
