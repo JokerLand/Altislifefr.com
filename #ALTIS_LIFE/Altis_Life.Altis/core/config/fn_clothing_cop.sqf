@@ -22,7 +22,7 @@ switch (_filter) do
 		_ret set[count _ret,["U_Rangemaster","Cop Uniform",25]];
 		if(__GETC__(life_coplevel) > 1) then
 		{
-			_ret set[count _ret,["ALFR_FR_police_tenu",nil,2000]];
+			_ret set[count _ret,["U_B_Wetsuit",nil,2000]];
 		};
 		if(__GETC__(life_coplevel) > 2) then
 		{
