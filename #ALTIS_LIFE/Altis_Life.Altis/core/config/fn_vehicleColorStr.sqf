@@ -17,7 +17,7 @@ switch (_vehicle) do
 		{
 			case 0: {_color = "Police";};
 		};
-	}
+	};
 	
 	case "GeK_TLC100" :
 	{
