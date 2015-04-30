@@ -12,6 +12,15 @@ _ret = [];
 
 switch (_vehicle) do
 {
+	case "GeK_TLC100":
+	{
+		_ret =
+		[
+			["#(ai,64,64,1)Fresnel(0.3,3)","civ"],
+			["#(argb,8,8,3)color(1,1,1,1)","civ"]
+		];
+	};
+	
 	case "cl3_suv_taxi":
 	{
 		_ret =
