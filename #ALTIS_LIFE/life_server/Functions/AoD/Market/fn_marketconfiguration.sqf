@@ -126,7 +126,7 @@ life_market_resources = [
 	],
   
     
-    ["moonshine", _moonshinePrice, 1000, 6000, 1, 2,
+    ["moonshine", _moonshinePrice, 1000, 4000, 1, 1,
         [
             ["turtle",1],
             ["iron_r",1],
@@ -195,7 +195,7 @@ life_market_resources = [
 		] 
 	],
                     
-     ["cocainep", _cocainepPrice, 2000, 4300, 11, 8,   
+     ["cocainep", _cocainepPrice, 2000, 7000, 11, 8,   
 		[ 
 			["glass", 1],
             ["cement",1],
