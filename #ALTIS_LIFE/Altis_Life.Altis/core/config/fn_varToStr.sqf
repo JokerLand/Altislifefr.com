@@ -129,7 +129,7 @@ switch (_var) do
     case "license_sop": {"Soprano"};
 	case "license_top": {"TORRES"};
 	case "license_moa": {"M.O.A"};
-	case "license_raid": {"Raid"};
+	case "license_raid": {"1/G"};
 	case "license_grf": {"G.R.F"};
 	case "license_mw": {"Moscow"};
 	case "license_poc": {"Panda of Cannabis"};
@@ -140,6 +140,6 @@ switch (_var) do
 	case "license_gr": {"Grims Reapers"};
 	case "license_armer": {"Militaire"};
 	case "license_fla": {"FLA"};
-	case "license_sutra": {"SUTRA"};
+	case "license_reb1": {"SPQR"};
     case "license_civ_uranium": {"Formation Uranium"};
 };

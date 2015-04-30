@@ -133,7 +133,7 @@ switch (_mode) do
             case "license_fmg": {_var = "fmg"};
 			case "license_top": {_var = "top"};
 			case "license_moa": {_var = "moa"};
-			case "license_raid": {_var = "ec"};
+			case "license_raid": {_var = "1g"};
 			case "license_grf": {_var = "grf"};
 			case "license_mw": {_var = "mw"};
 			case "license_poc": {_var = "poc"};
@@ -144,7 +144,7 @@ switch (_mode) do
 			case "license_gr": {_var = "gr"};
 			case "license_armer": {_var = "armer"};
 			case "license_fla": {_var = "fla"};
-			case "license_sutra": {_var = "sutra"};
+			case "license_reb1": {_var = "sqpr"};
             case "license_civ_uranium": {_var = "uranium"};
             case "license_civ_uranium": {_var = "uranium1"};
             case "license_civ_uranium": {_var = "uranium2"};
