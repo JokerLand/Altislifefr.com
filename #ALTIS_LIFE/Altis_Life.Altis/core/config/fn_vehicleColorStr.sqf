@@ -11,6 +11,15 @@ _color = "";
 
 switch (_vehicle) do
 {
+	case "GeK_TLC100" :
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Noir";};
+			case 1: {_color = "Blanc";};
+		};
+	}
+
 	case "cl3_suv_taxi" :
 	{
 		switch (_index) do
