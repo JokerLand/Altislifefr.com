@@ -16,7 +16,7 @@ switch (_vehicle) do
 	{
 		_ret =
 		[
-			["ALFR_TexSnd\toyota_police.jpg","cop"]
+			["ALFR_TexSnd\toyota_police.paa","cop"]
 		];
 	};
 	
