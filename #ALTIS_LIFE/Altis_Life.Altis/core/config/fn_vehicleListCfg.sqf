@@ -80,6 +80,7 @@ switch (_shop) do
 			["cl3_dodge_charger_s_black",110000],
 			["DAR_ChallengerCivWhite",120000],
 			["cl3_z4_2008_black",120000],
+			["GeK_TLC100",150000],
 			["cl3_carrera_gt_black",150000],
 			["cl3_dbs_volante_black",150000],
             ["wirk_cayenne",270000],
