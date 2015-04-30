@@ -12,6 +12,14 @@ _ret = [];
 
 switch (_vehicle) do
 {
+	case "GeK_TLC100_Police":
+	{
+		_ret =
+		[
+			["ALFR_TexSnd\toyota_police.jpg","cop"]
+		];
+	};
+	
 	case "GeK_TLC100":
 	{
 		_ret =
