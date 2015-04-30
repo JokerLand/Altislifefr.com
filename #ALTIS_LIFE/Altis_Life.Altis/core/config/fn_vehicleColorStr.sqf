@@ -18,7 +18,7 @@ switch (_vehicle) do
 			case 0: {_color = "Noir";};
 			case 1: {_color = "Blanc";};
 		};
-	}
+	};
 
 	case "cl3_suv_taxi" :
 	{
