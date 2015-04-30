@@ -244,6 +244,8 @@ switch (_shop) do
 			_return set[count _return,
 			["ALFR_GeK_Panamera_Police",250000]];
 			_return set[count _return,
+			["GeK_TLC100_Police",250000]];
+			_return set[count _return,
 			["CL3_bus_cl_black",100000]];
 			_return set[count _return,
 			["I_MRAP_03_F",1000000]];
