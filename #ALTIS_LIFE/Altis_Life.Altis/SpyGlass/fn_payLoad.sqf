@@ -56,7 +56,7 @@ _allowedChildren = [
 {
 	if(!((configName _x) in _allowedChildren)) exitWith {
 		[[profileName,getPlayerUID player,"Modified_MPInterrupt"],"SPY_fnc_cookieJar",false,false] spawn life_fnc_MP;
-		[[profileName,"Devcon like executor detected"],"SPY_fnc_notifyAdmins",true,false] spawn life_fnc_MP;
+		[[profileName,"Debug Console detecter"],"SPY_fnc_notifyAdmins",true,false] spawn life_fnc_MP;
 		sleep 0.5;
 		["SpyGlass",false,false] call BIS_fnc_endMission;
 	};
