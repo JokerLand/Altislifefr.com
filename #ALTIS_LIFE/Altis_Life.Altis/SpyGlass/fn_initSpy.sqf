@@ -202,9 +202,45 @@ _patchList =
 "dfyre_w_s_pcml","dfyre_w_s_pdw2000 9 mm","dfyre_w_s_rahim 7.62 mm","dfyre_w_s_rook-40 9 mm","dfyre_w_s_rpg-42 alamut","dfyre_w_s_sting 9 mm","dfyre_w_s_titan mprl launcher","dfyre_w_s_trg-21 5.56 mm","dfyre_w_s_ugl_grenadelauncher",
 "dfyre_w_s_underwater gun","dfyre_w_s_vermin smg .45 acp","dfyre_w_s_zafir 7.62 mm","dfyre_w_s_zubr .45",
  "JSRS_Environment","DragonFyre_Bullethits","DragonFyre_Explosions","DragonFyre_Sonic_Cracks","DragonFyre_230mm_Titan","DragonFyre_Air_Weapons","DragonFyre_35mm_Autocannon","DragonFyre_120mm_Cannon","DragonFyre_Autocannon","DragonFyre_DAGR","DragonFyre_DAR","DragonFyre_Minigun","DragonFyre_30mm_Cannon","DragonFyre_Gau8","DragonFyre_155mm_AMOS","DragonFyre_M134" ,"DragonFyre_LMGRCWS","DragonFyre_GMG20","DragonFyre_GMG40","DragonFyre_127","DragonFyre_Skalpel_ATGM","DragonFyre_Skyfire","DragonFyre_Veh_Titan","DragonFyre_4Five45","DragonFyre_ACPC","DragonFyre_MX","DragonFyre_M6","DragonFyre_Khaybar","DragonFyre_M320R","DragonFyre_EBR","DragonFyre_FS2000","DragonFyre_M200","DragonFyre_P07","DragonFyre_NLAW","DragonFyre_PDW","DragonFyre_Rahim","DragonFyre_Rook40","DragonFyre_RPG32","DragonFyre_Scorpian","DragonFyre_Titan","DragonFyre_TRG20","DragonFyre_UGL","DragonFyre_SDAR","DragonFyre_Vector","DragonFyre_Zafir","DragonFyre_Zubr45","DragonFyre_Movement","DragonFyre_Distance","DragonFyre_FighterPlane3","DragonFyre_CAS_Plane1","DragonFyre_AH99_Blackfoot","DragonFyre_AH9_Pawnee","DragonFyre_UAV_1","DragonFyre_CH67_Huron","DragonFyre_CH49_Mohawk","DragonFyre_Mi290_Taru","DragonFyre_Mi48_Kajman","DragonFyre_UAV_2","DragonFyre_Po30_Orca","DragonFyre_CAS_Plane2","DragonFyre_UH80_GhostHawk","DragonFyre_WY55_Hellcat","DragonFyre_Boat_Armed_1","DragonFyre_2S9_Sorcher","DragonFyre_AFV4_Gorgon","DragonFyre_AMV7_Marshal","DragonFyre_BTRK_Kamysh","DragonFyre_FV720_Mora","DragonFyre_IFV6a_Cheetah","DragonFyre_IFV6c_Panther","DragonFyre_M2A1_Slammer","DragonFyre_M4_Scorcher","DragonFyre_M5_Sandstorm","DragonFyre_MBT52_Kuma","DragonFyre_MSE3_Marid","DragonFyre_T100_Varsuk","DragonFyre_ZSU39_Tigris","DragonFyre_Hatchback","DragonFyre_truck1","DragonFyre_Hunter","DragonFyre_Ifrit","DragonFyre_Offroad","DragonFyre_Quadbike","DragonFyre_Strider","DragonFyre_SUV","DragonFyre_truck2","DragonFyre_Van","DragonFyre_Truck3","rds_a2port_cman","rds_rus_civ","RDS_Civilian_Base","RDS_Citizen","RDS_Citizen1","RDS_Citizen2","RDS_Citizen3","RDS_Citizen4","RDS_Worker","RDS_Worker1","RDS_Worker2","RDS_Worker3","RDS_Worker4","RDS_Profiteer","RDS_Profiteer1","RDS_Profiteer2","RDS_Profiteer3","RDS_Profiteer4","RDS_Woodlander","RDS_Woodlander1","RDS_Woodlander2","RDS_Woodlander3","RDS_Woodlander4","RDS_Functionary","RDS_Functionary1","RDS_Functionary2","RDS_Villager","RDS_Villager1","RDS_Villager2","RDS_Villager3","RDS_Villager4","RDS_Priest","RDS_Policeman","RDS_Doctor_base","RDS_Doctor","RDS_SchoolTeacher","RDS_Assistant","rds_uniform_citizen1","rds_uniform_citizen2","rds_uniform_citizen3","rds_uniform_citizen4","rds_uniform_Worker1","rds_uniform_Worker2","rds_uniform_Worker3","rds_uniform_Worker4","rds_uniform_Profiteer1","rds_uniform_Profiteer2","rds_uniform_Profiteer3","rds_uniform_Profiteer4","rds_uniform_Woodlander1","rds_uniform_Woodlander2","rds_uniform_Woodlander3","rds_uniform_Woodlander4","rds_uniform_Villager1","rds_uniform_Villager2","rds_uniform_Villager3","rds_uniform_Villager4","rds_uniform_Functionary1","rds_uniform_Functionary2","rds_uniform_Policeman","rds_uniform_priest","rds_uniform_doctor","rds_uniform_schoolteacher","rds_uniform_assistant","rds_police_cap","rds_worker_cap1","rds_worker_cap2","rds_worker_cap3","rds_worker_cap4","rds_Villager_cap1","rds_Villager_cap2","rds_Profiteer_cap3","rds_Profiteer_cap4","rds_Woodlander_cap1","rds_Woodlander_cap2","rds_Woodlander_cap3","rds_Woodlander_cap4","ALE_H_Calot","ALE_H_GrosPD","ALE_H_NewEra_Black","ALE_H_NewEra_Superman","ALE_H_NewEra_Rouge","ALE_H_NewEra_Monster","ALE_H_Cowboy_Brown","ALE_H_Cowboy_Black","ALE_H_NewEra_Lakers","ALE_H_Cowboy_White","ALE_H_NewEra_Redsox",
- "ALFR_FR_tenukenny","ALFR_FR_nitrado","ALFR_FR_armani_black","ALFR_FR_armani_blue","ALFR_FR_armani_white","ALFR_Civ_Bags_Nitrado","ALFR_FR_tenukenny_Base","ALFR_FR_nitrado_Base","ALFR_FR_armani_black_Base","ALFR_FR_armani_blue_Base","ALFR_FR_armani_white_Base","CL3MOD_CustomFlare","cl3_anims","LHM_Glasses_Config","cl3_mod_client","cl3_functions","cl3mod_ChopperEffect","CL3_cargoposes","cl3_anims_fishingrod","cl3_anims_gathering","cl3_anims_HandsUp","cl3_anims_misc_laydown","cl3_anims_naturescall","cl3_anims_punch","cl3_anims_repair","cl3_anims_tools","cl3_mbikes","cl3_bikes","CL3_Animals_F","cl3_connectioniamge","dbo_crosser","cl3_tronbike","cl3_xr_1000","CL3_tweaks","cl3_arielatom","cl3_arielatom_race","DNA_MapTextures","LHM_Glasses_Config","GeK_Bank","GeK_Coffre","ARP_Objects2"
- 
- 
+ "ALFR_FR_tenukenny","ALFR_FR_nitrado","ALFR_FR_armani_black","ALFR_FR_armani_blue","ALFR_FR_armani_white","ALFR_Civ_Bags_Nitrado","ALFR_FR_tenukenny_Base","ALFR_FR_nitrado_Base","ALFR_FR_armani_black_Base","ALFR_FR_armani_blue_Base","ALFR_FR_armani_white_Base","CL3MOD_CustomFlare","cl3_anims","LHM_Glasses_Config","cl3_mod_client","cl3_functions","cl3mod_ChopperEffect","CL3_cargoposes","cl3_anims_fishingrod","cl3_anims_gathering","cl3_anims_HandsUp","cl3_anims_misc_laydown","cl3_anims_naturescall","cl3_anims_punch","cl3_anims_repair","cl3_anims_tools","cl3_mbikes","cl3_bikes","CL3_Animals_F","cl3_connectioniamge","dbo_crosser","cl3_tronbike","cl3_xr_1000","CL3_tweaks","cl3_arielatom","cl3_arielatom_race","DNA_MapTextures","LHM_Glasses_Config","GeK_Bank","GeK_Coffre","ARP_Objects2",
+"CfgVehicles","House","House_F","DestructionEffects","Ruins_F","GeK_Bank","Ruin","HitPoints","Hitzone_1_hitpoint",
+"Dust","Dust2","Walls","DamageAround","Hitzone_2_hitpoint","Damage","AnimationSources","Door_1_source",
+"Door_2_source","UserActions","OpenDoors","CloseDoors","OpenDoors2","CloseDoors2",
+"Strategic","ALFR_Strategic_Base",
+"CfgMovesBasic","ManActions","UAZ_Driver","UAZ_Gunner01","UAZ_Gunner02","UAZ_Cargo01","UAZ_Cargo02","SPG_Car_Gunner",
+,"CfgMovesMaleSdr","States","Stryker_Dead","Crew","KIA_UAZ_Driver","UAZ_Cargo01_V1","UAZ_Cargo01_V2",
+,"UAZ_Cargo01_V3","KIA_UAZ_Cargo02","DefaultEventhandlers","HAFM_UAZ","CfgPatches","CfgVehicleClasses",
+,"HAFM_UAZ_OPF","WeaponFireGun","WeaponCloudsGun","WeaponFireMGun","WeaponCloudsMGun","RCWSOptics",
+,"cfgWeapons","Default","MGunCore","MGun","LauncherCore","RocketPods","MissileLauncher","missiles_titan",
+,"DSHKM","manual","close","medium","far","SPG9","CfgMagazines","100Rnd_127x107_DSHKM","PG9_AT",
+,"OG9_HE","CfgAmmo","BulletBase","BulletCore","RocketCore","RocketBase","MissileBase","M_Titan_AT",
+,"M_Titan_AP","B_127x107_Ball","R_PG9_AT","R_OG9_HE","CfgVehicles","Car","Car_F","Turrets",
+,"MainTurret","LandVehicle","NewTurret","AnimationSources","NewTurret","HitPoints","HitLFWheel","HitLF2Wheel",
+"HitRFWheel","HitRF2Wheel","HitGlass1","HitGlass2","HitGlass3","HitGlass4","HitGlass5","HitGlass6",
+"UAZ_Base","SpeechVariants","Default","complexGearbox","Wheels","LF","LR","RF","RR","HitLFWheel",
+"HitLBWheel","HitRFWheel","HitRBWheel","Damage","Sounds","Idle_ext","Engine","Engine1_ext",
+"Engine2_ext","Engine3_ext","Engine4_ext","Engine5_ext","Engine6_ext","IdleThrust","EngineThrust",
+"Engine1_Thrust_ext","Engine2_Thrust_ext","Engine3_Thrust_ext","Engine4_Thrust_ext","Engine5_Thrust_ext",
+"Engine6_Thrust_ext","Idle_int","Engine_int","Engine1_int","Engine2_int","Engine3_int","Engine4_int",
+"Engine5_int","Engine6_int","IdleThrust_int","EngineThrust_int","Engine1_Thrust_int","Engine2_Thrust_int"
+,"Engine3_Thrust_int","Engine4_Thrust_int","Engine5_Thrust_int","Engine6_Thrust_int","TiresRockOut",
+"TiresSandOut","TiresGrassOut","TiresMudOut","TiresGravelOut","TiresAsphaltOut","NoiseOut","TiresRockIn"
+,"TiresSandIn","TiresGrassIn","TiresMudIn","TiresGravelIn","TiresAsphaltIn","NoiseIn","breaking_ext_road"
+,"acceleration_ext_road","turn_left_ext_road","turn_right_ext_road","breaking_ext_dirt","acceleration_ext_dirt",
+"turn_left_ext_dirt","turn_right_ext_dirt","breaking_int_road","acceleration_int_road","turn_left_int_road",
+"turn_right_int_road","turn_right_int_road","acceleration_int_dirt","turn_left_int_dirt","turn_right_int_dirt",
+"Library","Reflectors","Left","Attenuation","Right","Right2","Left2","Exhausts","Exhaust1","UAZ_MG",
+"AnimationSources","ReloadAnim","ReloadMagazine","Revolving","UAZ_AGS30","AnimationSources","belt_rotation"
+,"Turrets","MainTurret","GunFire","Damage","UAZ_Unarmed","HitPoints","HitGlass1","HitGlass2","HitGlass3",
+"HitGlass4","UAZ_SPG9","ReloadAnim",
+"Glass_##glassID##_hitpoint","BrokenGlass1","BrokenGlass2","BrokenGlass3","BrokenGlass4","BrokenGlass5",
+"BrokenGlass6","BrokenGlass7","BrokenGlass1S","BrokenGlass2S","BrokenGlass3S","BrokenGlass4S",
+"BrokenGlass5S","BrokenGlass6S","BrokenGlass7S", 
+"Trixie_Ghillie","Trixie_Recon","NATO_Box_Base","Trixie_Ghillie_Equipbox","TransportItems","_xx_Trixie_Ghillie_Uniform_01",
+"_xx_Trixie_Ghillie_Uniform_02","_xx_Trixie_Ghillie_Uniform_03","B_Sniper_F","Trixie_Ghillie_01","Trixie_Ghillie_02",
+"Trixie_Ghillie_03","ItemCore","ItemInfo","UniformItem","U_B_GhillieSuit","Trixie_Ghillie_Uniform_01","Trixie_Ghillie_Uniform_02",
+"Trixie_Ghillie_Uniform_03",
+"GeK_TLC100_Police","GeK_TLC100","wirk_cayenne"
  
  
 ];
