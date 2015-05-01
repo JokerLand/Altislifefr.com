@@ -37,7 +37,7 @@ if(__GETC__(SPY_cfg_runPatchCheck)) then {
 		if(isClass _patchEntry) then {
 			if(!((configName _patchEntry) in (call SPY_cfg_patchList))) exitWith {
 				[[profileName,getPlayerUID player,(configName _patchEntry)],"SPY_fnc_cookieJar",false,false] spawn life_fnc_MP;
-				[[profileName,format["Unknown Addon Patch: %1",(configName _patchEntry)]],"SPY_fnc_notifyAdmins",true,false] spawn life_fnc_MP;
+				[[profileName,format["Addon Inconnu: %1",(configName _patchEntry)]],"SPY_fnc_notifyAdmins",true,false] spawn life_fnc_MP;
 				sleep 0.5;
 				["SpyGlass",false,false] call BIS_fnc_endMission;
 			};
