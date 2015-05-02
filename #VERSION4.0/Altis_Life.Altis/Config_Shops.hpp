@@ -203,64 +203,231 @@ class WeaponShops {
             { "Chemlight_blue", "", 300 }
         };
     };
-    //Cop Shops
-    class cop_basic {
-        name = "Altis Cop Shop";
+    //Armurerie Policier
+    class cop_policier {
+        name = "Boutique Policier";
         side = "cop";
         license = "";
         level = -1;
         msg = "";
         items[] = {
-        	{ "arifle_sdar_F", "Taser Rifle", 20000 },
-			{ "hgun_P07_snds_F", "Stun Pistol", 2000 },
-			{ "hgun_P07_F", "", 7500 },
-			{ "HandGrenade_Stone", "Flashbang", 1700 },
-			{ "Binocular", "", 150 },
-			{ "ItemGPS", "", 100 },
-			{ "ToolKit", "", 250 },
-			{ "muzzle_snds_L", "", 650 },
-			{ "FirstAidKit", "", 150 },
-			{ "Medikit", "", 1000 },
-			{ "NVGoggles", "", 2000 },
-			{ "16Rnd_9x21_Mag", "", 50 },
-			{ "20Rnd_556x45_UW_mag", "Taser Rifle Magazine", 125 }
+        	{ "hgun_P07_snds_F", "Tazer", 2000 },
+            { "16Rnd_9x21_Mag", "", 50 },
+            { "SMG_02_F", "", 4600 },
+            { "30Rnd_9x21_Mag", "", 60 },
+            { "M4_Benelli", "", 6500 },
+            { "8Rnd_B_Beneli_74Slug", "", 80 },
+            { "8Rnd_12Gauge_Pellets", "", 80 },
+            { "R3F_Famas_G2_HG", "", 12500 },
+            { "R3F_30Rnd_556x45_TRACER_FAMAS", "", 100 },
+            { "acc_flashlight", "", 750 },
+            { "optic_Holosight", "", 1200 },
+            { "optic_ACO_grn_smg", "", 2000 },
+            { "optic_Aco_smg", "", 2000 },
+            { "optic_ACO_grn", "", 3200 },
+            { "optic_Aco", "", 3200 }
         };
     };
-    class cop_patrol {
-        name = "Altis Patrol Officer Shop";
+    //Armurerie Brigadier
+    class cop_brigadier {
+        name = "Boutique Brigadier";
         side = "cop";
         license = "";
         level = 2;
-        msg = "You must be a Patrol Officer Rank!";
+        msg = "Vous devez etre brigadier!";
         items[] = {
-        	{ "arifle_MX_F", "", 35000 },
-			{ "SMG_02_ACO_F", "", 30000 },
-			{ "HandGrenade_Stone", "Flashbang", 1700 },
-			{ "MineDetector", "", 1000 },
-			{ "acc_flashlight", "", 750 },
-			{ "optic_Holosight", "", 1200 },
-			{ "optic_Arco", "", 2500 },
-			{ "muzzle_snds_H", "", 2750 },
-			{ "30Rnd_65x39_caseless_mag", "", 130 },
-			{ "30Rnd_9x21_Mag", "", 250 }
+        	{ "arifle_MX_F", "", 10000 },
+            { "20Rnd_556x45_UW_mag", "", 125 },
+            { "hgun_P07_snds_F", "Tazer", 2000 },
+            { "16Rnd_9x21_Mag", "", 50 },
+            { "hgun_ACPC2_F", "", 4500 },
+            { "9Rnd_45ACP_Mag", "", 70 },
+            { "SMG_02_F", "", 4600 },
+            { "30Rnd_9x21_Mag", "", 60 },
+            { "M4_Benelli", "", 6500 },
+            { "8Rnd_B_Beneli_74Slug", "", 80 },
+            { "8Rnd_12Gauge_Pellets", "", 80 },
+            { "R3F_Famas_G2_HG", "", 12500 },
+            { "R3F_30Rnd_556x45_TRACER_FAMAS", "", 100 },
+            { "R3F_HK416M_HG", "", 15000 },
+            { "R3F_30Rnd_556x45_TRACER_HK416", "", 100 },
+            { "HK430", "", 6500 },
+            { "HK430_30Rnd_556x45", "", 80 },
+            { "FHQ_M4A1_BLK", "", 6000 },
+            { "FHQ_M4A1_AFG_BLK", "", 6000 },
+            { "FHQ_M4A1_M203_BLK", "", 6000 },
+            { "30rnd_556x45_STANAG", "", 20 },
+            { "1Rnd_Smoke_Grenade_shell", "", 100 },
+            { "1Rnd_SmokeRed_Grenade_shell", "", 100 },
+            { "1Rnd_SmokeGreen_Grenade_shell", "", 100 },
+            { "1Rnd_SmokeYellow_Grenade_shell", "", 100 },
+            { "1Rnd_SmokePurple_Grenade_shell", "", 100 },
+            { "1Rnd_SmokeBlue_Grenade_shell", "", 100 },
+            { "1Rnd_SmokeOrange_Grenade_shell", "", 100 },
+            { "arifle_MX_Black_F", "", 6200 },
+            { "30Rnd_65x39_caseless_mag", "", 80 },
+            { "acc_flashlight", "", 750 },
+            { "optic_Holosight", "", 1200 },
+            { "optic_ACO_grn_smg", "", 2000 },
+            { "optic_Aco_smg", "", 2000 },
+            { "optic_ACO_grn", "", 3200 },
+            { "optic_Aco", "", 3200 },
+            { "optic_MRCO", "", 10000 },
+            { "optic_Hamr", "", 10000 },
+            { "optic_Arco", "", 10000 },
+            { "SmokeShell", "", 100 }
         };
     };
-    class cop_sergeant {
-        name = "Altis Sergeant Officer Shop";
+    //Armurerie Adjudant
+    class cop_adjudant {
+        name = "Boutique Adjudant";
         side = "cop";
         license = "";
         level = 3;
-        msg = "You must be a Sergeant Rank!";
+        msg = "Vous devez etre Adjudant!";
         items[] = {
-            { "SMG_02_ACO_F", "", 15000 },
-			{ "hgun_ACPC2_F", "", 17500 },
-			{ "HandGrenade_Stone", "Flashbang", 1700 },
-			{ "arifle_MXC_F", "", 30000 },
-			{ "optic_Arco", "", 2500 },
-			{ "muzzle_snds_H", "", 2750 },
-			{ "30Rnd_65x39_caseless_mag", "", 100 },
-			{ "30Rnd_9x21_Mag", "", 60 },
-			{ "9Rnd_45ACP_Mag", "", 200 }
+            { "arifle_sdar_F", "", 10000 },
+            { "20Rnd_556x45_UW_mag", "", 125 },
+            { "hgun_P07_snds_F", "Tazer", 2000 },
+            { "16Rnd_9x21_Mag", "", 50 },
+            { "hgun_ACPC2_F", "", 4500 },
+            { "9Rnd_45ACP_Mag", "", 70 },
+            { "SMG_02_F", "", 4600 },
+            { "30Rnd_9x21_Mag", "", 60 },
+            { "M4_Benelli", "", 6500 },
+            { "8Rnd_B_Beneli_74Slug", "", 80 },
+            { "8Rnd_12Gauge_Pellets", "", 80 },
+            { "R3F_Famas_G2_HG", "", 12500 },
+            { "R3F_30Rnd_556x45_TRACER_FAMAS", "", 100 },
+            { "R3F_HK416M_HG", "", 15000 },
+            { "R3F_30Rnd_556x45_TRACER_HK416", "", 100 },
+            { "R3F_HK417L", "", 20000 },
+            { "R3F_20Rnd_762x51_TRACER_HK417", "", 100 },
+            { "HK430", "", 6500 },
+            { "HK430_30Rnd_556x45", "", 80 },
+            { "FHQ_M4A1_BLK", "", 6000 },
+            { "FHQ_M4A1_AFG_BLK", "", 6000 },
+            { "FHQ_M4A1_M203_BLK", "", 6000 },
+            { "30rnd_556x45_STANAG", "", 20 },
+            { "1Rnd_Smoke_Grenade_shell", "", 100 },
+            { "1Rnd_SmokeRed_Grenade_shell", "", 100 },
+            { "1Rnd_SmokeGreen_Grenade_shell", "", 100 },
+            { "1Rnd_SmokeYellow_Grenade_shell", "", 100 },
+            { "1Rnd_SmokePurple_Grenade_shell", "", 100 },
+            { "1Rnd_SmokeBlue_Grenade_shell", "", 100 },
+            { "1Rnd_SmokeOrange_Grenade_shell", "", 100 },
+            { "M110", "", 12000 },
+            { "20Rnd_762x51_Mag", "", 60 },
+            { "gign_shield", "", 1500 },
+            { "arifle_MX_Black_F", "", 6200 },
+            { "arifle_MXC_Black_F", "", 6500 },
+            { "arifle_MXM_Black_F", "", 7300 },
+            { "30Rnd_65x39_caseless_mag", "", 80 },
+            { "acc_flashlight", "", 750 },
+            { "optic_Holosight", "", 1200 },
+            { "optic_ACO_grn_smg", "", 2000 },
+            { "optic_Aco_smg", "", 2000 },
+            { "optic_ACO_grn", "", 3200 },
+            { "optic_Aco", "", 3200 },
+            { "optic_MRCO", "", 10000 },
+            { "optic_LRPS", "", 50000 },
+            { "optic_Hamr", "", 10000 },
+            { "optic_Arco", "", 10000 },
+            { "SmokeShell", "", 100 }
+        };
+    };
+    //Armurerie Major
+    class cop_major {
+        name = "Boutique Major";
+        side = "cop";
+        license = "";
+        level = 4;
+        msg = "Vous devez etre Major!";
+        items[] = {
+            { "arifle_sdar_F", "", 10000 },
+            { "20Rnd_556x45_UW_mag", "", 125 },
+            { "hgun_P07_snds_F", "Tazer", 2000 },
+            { "16Rnd_9x21_Mag", "", 50 },
+            { "hgun_ACPC2_F", "", 4500 },
+            { "9Rnd_45ACP_Mag", "", 70 },
+            { "SMG_02_F", "", 4600 },
+            { "30Rnd_9x21_Mag", "", 60 },
+            { "arifle_MX_Black_F", "", 6200 },
+            { "arifle_MXC_Black_F", "", 6500 },
+            { "arifle_MXM_Black_F", "", 7300 },
+            { "30Rnd_65x39_caseless_mag", "", 80 },
+            { "R3F_Famas_G2_HG", "", 12500 },
+            { "R3F_30Rnd_556x45_TRACER_FAMAS", "", 100 },
+            { "R3F_HK416M_HG", "", 15000 },
+            { "R3F_30Rnd_556x45_TRACER_HK416", "", 100 },
+            { "R3F_HK417L", "", 20000 },
+            { "R3F_20Rnd_762x51_TRACER_HK417", "", 100 },
+            { "HK430", "", 6500 },
+            { "HK430_30Rnd_556x45", "", 80 },
+            { "FHQ_M4A1_BLK", "", 6000 },
+            { "FHQ_M4A1_AFG_BLK", "", 6000 },
+            { "FHQ_M4A1_M203_BLK", "", 6000 },
+            { "30rnd_556x45_STANAG", "", 20 },
+            { "1Rnd_Smoke_Grenade_shell", "", 100 },
+            { "1Rnd_SmokeRed_Grenade_shell", "", 100 },
+            { "1Rnd_SmokeGreen_Grenade_shell", "", 100 },
+            { "1Rnd_SmokeYellow_Grenade_shell", "", 100 },
+            { "1Rnd_SmokePurple_Grenade_shell", "", 100 },
+            { "1Rnd_SmokeBlue_Grenade_shell", "", 100 },
+            { "1Rnd_SmokeOrange_Grenade_shell", "", 100 },
+            { "M110", "", 12000 },
+            { "20Rnd_762x51_Mag", "", 60 },
+            { "gign_shield", "", 1500 },
+            { "M4_Benelli", "", 6500 },
+            { "8Rnd_B_Beneli_74Slug", "", 80 },
+            { "8Rnd_12Gauge_Pellets", "", 80 },
+            { "srifle_EBR_F", "", 8200 },
+            { "20Rnd_762x51_Mag", "", 90 },
+            { "acc_flashlight", "", 750 },
+            { "optic_Holosight", "", 1200 },
+            { "optic_ACO_grn_smg", "", 2000 },
+            { "optic_Aco_smg", "", 2000 },
+            { "optic_ACO_grn", "", 3200 },
+            { "optic_Aco", "", 3200 },
+            { "optic_MRCO", "", 10000 },
+            { "optic_Hamr",  "", 10000 },
+            { "optic_Arco", "", 10000 },
+            { "optic_DMS", "", 30000 },
+            { "optic_LRPS", "", 50000 },
+            { "optic_SOS", "", 30000 },
+            { "B_UavTerminal", "", 5200 },
+            { "acc_pointer_IR", "", 4200 },
+            { "SmokeShell", "", 100 }
+        };
+    };
+    //Armurerie Lieutenant
+     class cop_lieutenant {
+        name = "Boutique Lieutenant";
+        side = "cop";
+        license = "";
+        level = 5;
+        msg = "Vous devez etre Lieutenant!";
+        items[] = {
+        };
+    };
+    //Armurerie Capitaine
+     class cop_capitaine {
+        name = "Boutique Capitaine";
+        side = "cop";
+        license = "";
+        level = 6;
+        msg = "Vous devez etre Capitaine!";
+        items[] = {
+        };
+    };
+    //Armurerie Commandant
+     class cop_commandant {
+        name = "Boutique Commandant";
+        side = "cop";
+        license = "";
+        level = 7;
+        msg = "Vous devez etre Commandant!";
+        items[] = {
         };
     };
     //Donateur Shops
