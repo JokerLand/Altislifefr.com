@@ -168,8 +168,9 @@ switch (_shop) do
                 ["CL3_bus_cl_black",100000],
                 ["cl3_xr_1000_black",250000],
                 ["cl3_arielatom_black",125000],
-                ["cl3_arielatom_race_black", 250000]
-			];
+                ["cl3_arielatom_race_black", 250000],
+                ["IVORY_ERJ135", 10000000]
+   			];
 		};
 	};
 
