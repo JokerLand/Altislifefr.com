@@ -43,6 +43,18 @@ class playerHUD
 			w = 0.032; h = 0.042;
 			colorBackground[] = COLOR_HALF_BLACK;
 		};
+		
+	
+		class alfrlogo : life_RscPicture
+         {
+            idc = -1;
+            text = "icons\logo_alfr.paa";
+            x = 0.86 * safezoneW + safezoneX;
+            y = 0.83 * safezoneH + safezoneY;
+            w = 0.12 * safezoneW;
+            h = 0.175 * safezoneH;
+ 			//w = 0.25; h = 0.31;    
+        };	
 	};
 	
 	class controls
