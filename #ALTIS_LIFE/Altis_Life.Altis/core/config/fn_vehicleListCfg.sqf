@@ -83,7 +83,8 @@ switch (_shop) do
 			["GeK_TLC100",150000],
 			["cl3_carrera_gt_black",150000],
 			["cl3_dbs_volante_black",150000],
-            ["wirk_cayenne",270000],
+                        ["wirk_cayenne",270000],
+            		["wirk_gtr",270000],
 			["Jonzie_Viper",270000],
 			["cl3_r8_spyder_black",270000],
 			["cl3_458_black",275000],
@@ -91,7 +92,7 @@ switch (_shop) do
 			["cl3_reventon_black",320000],
 			["DAR_MF1Civ",400000],
 			["cl3_lamborghini_gt1_black",1000000],
-            ["cl3_arielatom_black",250000]
+                        ["cl3_arielatom_black",250000]
 		];
 	};
 	
