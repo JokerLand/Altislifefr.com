@@ -48,11 +48,11 @@ class playerHUD
 		class alfrlogo : life_RscPicture
          {
             idc = -1;
-            text = "icons\logo_alfr.paa";
-            x = 0.86 * safezoneW + safezoneX;
+            text = "icons\AltisLifefr_1.paa";
+            x = 0.84 * safezoneW + safezoneX;
             y = 0.83 * safezoneH + safezoneY;
-            w = 0.12 * safezoneW;
-            h = 0.175 * safezoneH;
+            w = 0.14 * safezoneW;
+            h = 0.059 * safezoneH;
  			//w = 0.25; h = 0.31;    
         };	
 	};
