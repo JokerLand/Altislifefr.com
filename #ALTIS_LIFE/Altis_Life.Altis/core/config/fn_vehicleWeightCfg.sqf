@@ -15,6 +15,8 @@ switch (_className) do
 	case "RDS_S1203_Civ_01": {65};
 	case "A3L_VolksWagenGolfGTiblack": {35};
 	case "RDS_Golf4_Civ_01": {40};
+	case "wirk_gtr": {40};
+	case "wirk_cayenne": {65};
 	case "RDS_Octavia_Civ_01": {45};
 	case "DAR_ImpalaCiv": {55};
 	case "A3L_PuntoBlue": {35};
