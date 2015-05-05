@@ -84,7 +84,7 @@ switch (_shop) do
 			["cl3_carrera_gt_black",150000],
 			["cl3_dbs_volante_black",150000],
                         ["wirk_cayenne",270000],
-            		["wirk_gtr",270000],
+            		/*["wirk_gtr",270000],*/
 			["Jonzie_Viper",270000],
 			["cl3_r8_spyder_black",270000],
 			["cl3_458_black",275000],
