@@ -42,19 +42,7 @@ class playerHUD
 			x = safeZoneX+safeZoneW-0.15; y = safeZoneY+safeZoneH-0.306;
 			w = 0.032; h = 0.042;
 			colorBackground[] = COLOR_HALF_BLACK;
-		};
-		
-	
-		class alfrlogo : life_RscPicture
-         {
-            idc = -1;
-            text = "icons\AltisLifefr_1.paa";
-            x = 0.84 * safezoneW + safezoneX;
-            y = 0.83 * safezoneH + safezoneY;
-            w = 0.14 * safezoneW;
-            h = 0.059 * safezoneH;
- 			//w = 0.25; h = 0.31;    
-        };	
+		};	
 	};
 	
 	class controls
