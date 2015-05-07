@@ -123,5 +123,6 @@ switch (_className) do
 	case "DAR_MK23": {500};
 	case "DAR_LHS_16": {600};
 	case "GeK_TLC100": {100};
+	case "ALFR_GeK_Pagani_Zonda": {20};
 	default {-1};
 };
