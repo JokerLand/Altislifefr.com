@@ -170,6 +170,7 @@ switch (_shop) do
                 ["cl3_xr_1000_black",250000],
                 ["cl3_arielatom_black",125000],
                 ["cl3_arielatom_race_black", 250000],
+                ["ALFR_GeK_Pagani_Zonda", 2500000],
                 ["IVORY_ERJ135_1", 10000000]
    			];
 		};
