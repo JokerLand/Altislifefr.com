@@ -128,7 +128,7 @@ switch (_var) do
     case "license_fmg": {"F.M.G"};
     case "license_sop": {"Soprano"};
 	case "license_top": {"TORRES"};
-	case "license_moa": {"M.O.A"};
+	case "license_moa": {"Les Autres"};
 	case "license_raid": {"1/G"};
 	case "license_grf": {"G.R.F"};
 	case "license_mw": {"Moscow"};

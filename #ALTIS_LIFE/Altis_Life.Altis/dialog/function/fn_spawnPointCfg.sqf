@@ -99,7 +99,7 @@ switch (_side) do
 		};
 		
 				if(license_moa && playerSide == civilian) then {
-				_return set[count _return,["spawn_moa","M.O.A HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]];
+				_return set[count _return,["spawn_moa","Les Autres HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]];
 		};
 		
 				if(license_raid && playerSide == civilian) then {
