@@ -59,9 +59,9 @@ life_market_resources = [
 	
     //1
     
-    ["artefact", _artefactPrice, 5000,  25000, 3, 1,
+    ["artefact", _artefactPrice, 5000,  25000, 1, 1,
      [
-          ["turtle",1],
+            ["turtle",1],
             ["iron_r",1],
             ["copper",1],
             ["moonshine",1],
@@ -72,7 +72,7 @@ life_market_resources = [
      ]
     ],
 	
-    ["turtle", _turtlePrice, 4000, 8000, 20, 18,  
+    ["turtle", _turtlePrice, 4000, 8000, 1, 1,  
 		[ 
              ["moonshine",1],
             ["iron_r",1],
@@ -86,7 +86,7 @@ life_market_resources = [
 	],
     
     
-    ["oilp", _oilpPrice, 1250, 2000, 3, 1, 
+    ["oilp", _oilpPrice, 1250, 2000, 1, 1, 
 		[ 
             ["turtle",1],
             ["iron_r",1],
@@ -98,7 +98,7 @@ life_market_resources = [
             ["moonshine",1] 
 		] 
 	],
-	["iron_r", _iron_rPrice, 1050, 2250, 3, 1,  
+	["iron_r", _iron_rPrice, 1050, 2250, 1, 1,  
 		[ 
 			["diamondc",1], 
 			["oilp",1],
@@ -112,7 +112,7 @@ life_market_resources = [
 	],
 	
 	
-	["copper_r", _copper_rPrice, 600, 1500, 2, 1, 
+	["copper_r", _copper_rPrice, 600, 1500, 1, 1, 
 		[ 
             ["turtle",1],
             ["iron_r",1],
@@ -139,7 +139,7 @@ life_market_resources = [
         ]
     ],
     
-    ["marijuana", _marijuanaPrice, 1100, 2800, 7, 5,   
+    ["marijuana", _marijuanaPrice, 1100, 2800, 1, 1,   
 		[ 
 			 ["turtle",1],
             ["iron_r",1],
@@ -168,7 +168,7 @@ life_market_resources = [
     
     //2
 	
-	["glass", _glassPrice, 800, 1400, 2, 1, 
+	["glass", _glassPrice, 800, 1400, 1, 1, 
 		[ 
 			["salt_r", 1],
             ["cement",1],
@@ -176,7 +176,7 @@ life_market_resources = [
             ["cocainep",1]
 		] 
 	],
-	["cement", _cementPrice, 1000, 2000, 2, 1, 
+	["cement", _cementPrice, 1000, 2000, 1, 1, 
 		[ 
 			["salt_r", 1],
             ["cement",1],
@@ -186,7 +186,7 @@ life_market_resources = [
 	],
                     
                     
-      ["salt_r", _salt_rPrice, 600, 1050, 2, 1, 
+      ["salt_r", _salt_rPrice, 600, 1050, 1, 1, 
 		[ 
 			["glass", 1],
             ["cement",1],
@@ -195,7 +195,7 @@ life_market_resources = [
 		] 
 	],
                     
-     ["cocainep", _cocainepPrice, 2000, 7000, 11, 8,   
+     ["cocainep", _cocainepPrice, 2000, 7000, 1, 1,   
 		[ 
 			["glass", 1],
             ["cement",1],
@@ -203,7 +203,7 @@ life_market_resources = [
             ["salt_r",1]
 		] 
 	],
-	["heroinp", _heroinpPrice, 1600, 2400, 11, 8,   
+	["heroinp", _heroinpPrice, 1600, 2400, 1, 1,   
 		[ 
 			["glass", 1],
             ["cement",1],
@@ -222,14 +222,14 @@ life_market_resources = [
 	 //3
     
             
-	["methp", _methpPrice, 4000,  15000, 5,2,
+	["methp", _methpPrice, 4000,  15000, 1,1,
         [
             ["diamondc",1],
             ["uranium",1]
         ]
     ],
 
-    ["uranium",  _uraniumPrice, 18500, 32000, 5, 2, 
+    ["uranium",  _uraniumPrice, 18500, 32000, 1, 1, 
         [
             ["diamondc",1],
             ["methp",1]
@@ -238,7 +238,7 @@ life_market_resources = [
 	
     
     
-    ["diamondc", _diamondcPrice, 2000, 3000, 5, 2, 
+    ["diamondc", _diamondcPrice, 2000, 3000,1, 1, 
 		[ 
 			["uranium",1],
             ["methp",1] 
