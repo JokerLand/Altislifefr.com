@@ -27,7 +27,6 @@ switch(_shop) do
 			{
 				["Quincaillerie Police",
 					[
-     					["ItemWatch",nil,50],
 						["ItemRadio","Telephone",500],
 						["ItemCompass",nil,50],
 						["ItemMap",nil,50],
@@ -51,7 +50,6 @@ switch(_shop) do
 			default {
 				["Quincaillerie Medecin",
 					[
-						["ItemWatch",nil,50],
 						["ItemRadio","Telephone",500],
 						["ItemCompass",nil,50],
 						["Binocular",nil,150],
@@ -909,7 +907,6 @@ switch(_shop) do
 						["hlc_GRD_orange",nil,5000],
 						["hlc_GRD_purple",nil,5000],
 						["SmokeShellRed","Fumigene rouge",5000],
-						["ItemWatch",nil,50],
 					    ["ItemCompass",nil,50],
 						["Binocular",nil,150],
 						["ItemGPS",nil,100],
@@ -943,7 +940,6 @@ switch(_shop) do
 	{
 		["Quincaillerie",
 			[
-				["ItemWatch",nil,50],
 				["ItemRadio","Telephone",500],
 			    ["ItemCompass",nil,50],
 				["Binocular",nil,150],
