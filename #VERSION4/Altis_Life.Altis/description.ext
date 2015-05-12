@@ -92,9 +92,9 @@ class CfgDebriefing
 
 	class SpyGlass
 	{
-		title = "The SpyGlass sees you";
-		subTitle = "You were detected by the SpyGlass";
-		description = "You were detected for cheating and have been reported to the server. Enjoy your day.";
+		title = "Detection SpyGlass";
+		subTitle = "tu a ete detecté par SpyGlass";
+		description = "Vous ont été detectes pour tricherie et vous avez été rapporté au serveur . Profitez de votre journée .";
 		pictureBackground = "";
 		picture = "";
 		pictureColor[] = {0,0.3,0.6,1};
