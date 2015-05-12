@@ -1,1 +1,1 @@
-#include "Hi, it appears that your client crashed. Do not worry we will get back with you in six years."
+#include "Salut , il semble que votre client est Morte. Ne vous inquiétez pas , nous allons revenir avec vous dans six ans."
