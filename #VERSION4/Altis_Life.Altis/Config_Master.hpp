@@ -8,7 +8,7 @@
 		edible = EDIBLE; \
 		icon = ICON; \
 	};
-	
+
 #define LICENSEMACRO(NAME,DISPLAYNAME,VARNAME,PRICE,ILLEGAL,SIDE) class NAME { \
 		variable = VARNAME; \
 		displayName = DISPLAYNAME; \
@@ -24,35 +24,35 @@
 
 
 /*
-	Master settings for various features and functionality	
+	Master settings for various features and functionality
 */
 class Life_Settings {
 	/* Persistent Settings */
-	save_civ_weapons = false; //Allow civilians to save weapons on them?
+	save_civ_weapons = true; //Allow civilians to save weapons on them?
 	save_virtualItems = true; //Save Virtual items (all sides)?
 
 	/* Revive system settings */
-	revive_cops = true; //true to enable cops the ability to revive everyone or false for only medics/ems.
-	revive_fee = 1500; //Revive fee that players have to pay and medics / EMS are rewarded
-	
+	revive_cops = false; //true to enable cops the ability to revive everyone or false for only medics/ems.
+	revive_fee = 7500; //Revive fee that players have to pay and medics / EMS are rewarded
+
 	/* House related settings */
-	house_limit = 5; //Maximum amount of houses a player can own.
+	//house_limit = 5; //Maximum amount of houses a player can own.
 
 	/* Gang related settings */
-	gang_price = 75000; //Price for creating a gang, remember they are persistent so keep it reasonable to avoid millions of gangs.
-	gang_upgradeBase = 10000; //The base cost for upgrading slots in a gang
-	gang_upgradeMultiplier = 2.5; //Not sure if in use?
+	gang_price = 5000000; //Price for creating a gang, remember they are persistent so keep it reasonable to avoid millions of gangs.
+	gang_upgradeBase = 100000; //The base cost for upgrading slots in a gang
+	gang_upgradeMultiplier = 2; //Not sure if in use?
 
 	/* Player-related systems */
 	enable_fatigue = true; //Set to false to disable the ARMA 3 false system.
 	total_maxWeight = 24; //Identifies the max carrying weight (gets adjusted throughout game when wearing different types of clothing).
 	total_maxWeightT = 24;  //Static variable for the maximum weight allowed without having a backpack
 	paycheck_period = 5; //Scaled in minutes
-	
+
 	/* Impound Variables */
-	impound_car = 350; //Price for impounding cars
-	impound_boat = 250; //Price for impounding boats
-	impound_air = 850; //Price for impounding helicopters / planes
+	impound_car = 15000; //Price for impounding cars
+	impound_boat = 5000; //Price for impounding boats
+	impound_air = 17500; //Price for impounding helicopters / planes
 
 	/* Car-shop Settings */
 	vehicleShop_rentalOnly[] = { "B_MRAP_01_hmg_F", "B_G_Offroad_01_armed_F" };
@@ -60,16 +60,16 @@ class Life_Settings {
 	/* Job-related stuff */
 	delivery_points[] = { "dp_1", "dp_2", "dp_3", "dp_4", "dp_5", "dp_6", "dp_7", "dp_8", "dp_9", "dp_10", "dp_11", "dp_12", "dp_13", "dp_14", "dp_15", "dp_15", "dp_16", "dp_17", "dp_18", "dp_19", "dp_20", "dp_21", "dp_22", "dp_23", "dp_24", "dp_25" };
 
-	crimes[] = { 
-		{"STR_Crime_1","350","1"}, 
-		{"STR_Crime_2","1500","2"}, 
-		{"STR_Crime_3","2500","3"}, 
-		{"STR_Crime_4","3500","4"}, 
-		{"STR_Crime_5","10000","5"}, 
-		{"STR_Crime_6","5000","6"}, 
-		{"STR_Crime_7","10000","7"} 
+	crimes[] = {
+		{"STR_Crime_1","350","1"},
+		{"STR_Crime_2","1500","2"},
+		{"STR_Crime_3","2500","3"},
+		{"STR_Crime_4","3500","4"},
+		{"STR_Crime_5","10000","5"},
+		{"STR_Crime_6","5000","6"},
+		{"STR_Crime_7","10000","7"}
 	};
-	
+
 	sellArray[] = {
 		{"arifle_sdar_F", 7500},
 		{"hgun_P07_snds_F", 650},
@@ -181,20 +181,20 @@ class VirtualItems {
 	VITEMMACRO(catshark_fried, "STR_Item_CatSharkFried", "catsharkFried", 3, 750, 500, false, 100, "icons\ico_cookedMeat.paa")
 	VITEMMACRO(turtle_raw, "STR_Item_TurtleMeat", "turtleRaw", 6, 4000, 3000, true, -1, "icons\food.paa")
 	VITEMMACRO(turtle_soup, "STR_Item_TurtleSoup", "turtleSoup", 2, 2500, 1000, false, 100, "icons\ico_cookedMeat.paa")
-	VITEMMACRO(hen_raw, "STR_Item_HenRaw", "henRaw", 1, -1, 35, false, -1, "icons\food.paa")
+	VITEMMACRO(hen_raw, "STR_Item_HenRaw", "henRaw", 1, -1, 5000, false, -1, "icons\food.paa")
 	VITEMMACRO(hen_fried, "STR_Item_HenFried", "henFried", 1, 115, 85, false, 65, "icons\ico_cookedMeat.paa")
-	VITEMMACRO(rooster_raw, "STR_Item_RoosterRaw", "roosterRaw", 1, -1, 35, false, -1, "icons\food.paa")
+	VITEMMACRO(rooster_raw, "STR_Item_RoosterRaw", "roosterRaw", 1, -1, 6000, false, -1, "icons\food.paa")
 	VITEMMACRO(rooster_grilled, "STR_Item_RoosterGrilled", "roosterGrilled", 115, 85, false, 45, "icons\ico_cookedMeat.paa")
-	VITEMMACRO(sheep_raw, "STR_Item_SheepRaw", "sheepRaw", 2, -1, 50, false, -1, "icons\food.paa")
+	VITEMMACRO(sheep_raw, "STR_Item_SheepRaw", "sheepRaw", 2, -1, 8000, false, -1, "icons\food.paa")
 	VITEMMACRO(sheep_grilled, "STR_Item_SheepGrilled", "sheepGrilled", 2, 155, 115, false, 100, "icons\ico_cookedMeat.paa")
-	VITEMMACRO(goat_raw, "STR_Item_GoatRaw", "goatRaw", 2, -1, 75, false, -1, "icons\food.paa")
+	VITEMMACRO(goat_raw, "STR_Item_GoatRaw", "goatRaw", 2, -1, 10000, false, -1, "icons\food.paa")
 	VITEMMACRO(goat_grilled, "STR_Item_GoatGrilled", "goatGrilled", 2, 175, 135, false, 100, "icons\ico_cookedMeat.paa")
 };
 
 
 /*
 	Licenses
-	
+
 	Params:
 	CLASS ENTRY,DisplayName,VariableName,price,illegal,side indicator
 */
@@ -221,6 +221,7 @@ class Licenses {
 	LICENSEMACRO(cement,"STR_License_Cement","cement",6500,false,"civ")
 	LICENSEMACRO(mAir,"STR_License_Pilot","mAir",15000,false,"med")
 	LICENSEMACRO(home,"STR_License_Home","home",75000,false,"civ")
+	LICENSEMACRO(hunter,"Permis de Chasse","hunter",75000,false,"civ")
 };
 
 class VirtualShops {
@@ -248,7 +249,7 @@ class VirtualShops {
 		name = "STR_Shops_Coffee";
 		items[] = { "coffee", "donuts" };
 	};
-	
+
 	class drugdealer {
 		name = "STR_Shops_DrugDealer";
 		items[] = { "cocaine_processed", "heroin_processed", "marijuana" };
@@ -297,6 +298,10 @@ class VirtualShops {
 	class gold {
 		name = "STR_Shops_Gold";
 		items[] = { "goldbar" };
+	};
+	class hunting {
+		name = "Vendeur de Gibier";
+		items[] = { "hen_raw", "rooster_raw", "rabbit_raw", "goat_raw", "sheep_raw" };
 	};
 };
 
