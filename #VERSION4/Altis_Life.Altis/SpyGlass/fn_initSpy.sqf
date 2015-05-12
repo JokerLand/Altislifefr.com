@@ -30,35 +30,6 @@ CONST(JJJJ_MMMM___EEEEEEE_SPAWN_WEAPON,"false");
 
 _Admins = ["76561198018721225","76561198134471438","76561198047615445","76561197970613175","76561198016583555","76561198127376072","76561198085115832","76561197998164895"];
 if(getplayeruid player in _Admins) exitWith {}; //Desactive spyglass pour les admins
-
-/*
-	Compile our list of allowed addon patches, by default this DOES NOT ALLOW ANY ADDONS.
-	
-	If you want to white-list addons such as JSRS or Blastcore you need to start a test instance (Host locally and not the mission) and first fill the SPY_cfg_patchList array, once you executed it (Filled it)
-	Run the following code and it will copy the list of addons / patches not in the list to your clipboard (Ctrl + V) and then add it to the array.
-	
-	_cfgPatches = [];
-	_binConfigPatches = configFile >> "CfgPatches";
-	for "_i" from 0 to count (_binConfigPatches)-1 do {
-		_patchEntry = _binConfigPatches select _i;
-		if(isClass _patchEntry) then {
-			if(!((configName _patchEntry) in SPY_cfg_patchList)) then {
-				_cfgPatches set[count _cfgPatches,(configName _patchEntry)];
-			};
-		};
-	};
-
-	copyToClipboard str(_cfgPatches);
-	
-	i.e
-	["cba_xeh","Extended_EventHandlers","CBA_Extended_EventHandlers","JSRS_Environment","WarFXPE","cba_common","cba_events","cba_hashes","cba_network","cba_strings","cba_ui","cba_vectors","JSRS2_120mm_Cannon","JSRS2_127","JSRS2_155mm_AMOS",
-	"JSRS2_230mm_Titan","JSRS2_30mm_Cannon","JSRS2_35mm_Autocannon","JSRS2_4Five45","JSRS2_ACPC","JSRS2_Autocannon","JSRS2_Bullethits","JSRS2_DAGR","JSRS2_DAR","JSRS2_EBR","JSRS2_Explosions","JSRS2_Explosives","JSRS2_Filters","JSRS2_FS2000",
-	"JSRS2_Gatling","JSRS2_GMG20","JSRS2_GMG40","JSRS2_Khaybar","JSRS2_LMGRCWS","JSRS2_M134","JSRS2_M200","JSRS2_M320R","JSRS2_M6","JSRS2_Minigun","JSRS2_MX","JSRS2_NLAW","JSRS2_P07","JSRS2_PDW","JSRS2_Rahim","JSRS2_Rook40","JSRS2_RPG32",
-	"JSRS2_Scorpian","JSRS2_SDAR","JSRS2_Skalpel_ATGM","JSRS2_Skyfire","JSRS2_Sonic_Cracks","JSRS2_Titan","JSRS2_TRG20","JSRS2_Vector","JSRS2_Veh_Titan","JSRS2_Zafir","JSRS2_Zubr45","Blastcore_VEP","cba_ai","cba_arrays","cba_diagnostic","cba_help",
-	"cba_ui_helper","cba_versioning","JSRS2_Movement","JSRS2_Silencers","cba_main","cba_main_a3","JSRS2_2S9_Sorcher","JSRS2_AFV4_Gorgon","JSRS2_AH99_Blackfoot","JSRS2_AH9_Pawnee","JSRS2_AMV7_Marshal","JSRS2_BTRK_Kamysh","JSRS2_CH49_Mohawk","JSRS2_Distance",
-	"JSRS2_FighterPlane3","JSRS2_FV720_Mora","JSRS2_Hunter","JSRS2_Ifrit","JSRS2_IFV6a_Cheetah","JSRS2_IFV6c_Panther","JSRS2_M2A1_Slammer","JSRS2_M4_Scorcher","JSRS2_M5_Sandstorm","JSRS2_MBT52_Kuma","JSRS2_Mi48_Kajman","JSRS2_MSE3_Marid","JSRS2_Offroad",
-	"JSRS2_Po30_Orca","JSRS2_Strider","JSRS2_SUV","JSRS2_T100_Varsuk","JSRS2_Truck1","JSRS2_Truck2","JSRS2_UAV_1","JSRS2_UH80_GhostHawk","JSRS2_Van","JSRS2_WY55_Hellcat","JSRS2_ZSU39_Tigris","cba_xeh_a3"]
-*/
 	
 _patchList = 
 ["life_server","CAData","A3_BaseConfig_F","A3_Dubbing_Radio_F","A3_Functions_F","A3_Functions_F_EPA","A3_Functions_F_EPC","A3_Data_F","A3_Data_F_ParticleEffects","A3_Editor_F","A3_Functions_F_Curator",
@@ -141,7 +112,11 @@ _patchList =
 "A3_Static_F_Mark_Designator_02","A3_Supplies_F_Mark","A3_Weapons_F_Mark_Acc","A3_Missions_F_Mark","A3_Missions_F_MP_Mark",
 "A3_Weapons_F_Mark","A3_Weapons_F_Mark_LongRangeRifles_DMR_02","A3_Weapons_F_Mark_LongRangeRifles_DMR_03","A3_Weapons_F_Mark_LongRangeRifles_DMR_04",
 "A3_Weapons_F_Mark_LongRangeRifles_DMR_05","A3_Weapons_F_Mark_LongRangeRifles_DMR_06","A3_Weapons_F_Mark_Machineguns_MMG_01",
-"A3_Weapons_F_Mark_Machineguns_MMG_02","A3L_BMWM5","a3l_charger","A3L_Dumptruck","A3L_Punto","a3l_volkswagengolfgti","ale_config","ale_hats","alfr_Arm","alfr_force",
+"A3_Weapons_F_Mark_Machineguns_MMG_02",
+
+//Custom Addons
+
+"A3L_BMWM5","a3l_charger","A3L_Dumptruck","A3L_Punto","a3l_volkswagengolfgti","ale_config","ale_hats","alfr_Arm","alfr_force",
 "ALFR_GeK_Pagani_Zonda","ALFR_GeK_Panamera","ALFR_GeK_Panamera_Police","ALFR_GeK_Scania_420","ALFR_GeK_Volvo_FH16-2012","ALFR_ImgPnj","alfr_police","alfr_texsnd",
 "arp_objects2","asdg_jointrails","c1987_mp7","c1987_mp7_c","cba_ai","cba_arrays","cba_common","cba_diagnostic","cba_events","cba_extended_eventhandlers","cba_hashes",
 "cba_help","cba_keybinding","cba_main","cba_main_a3","cba_network","cba_strings","cba_ui","cba_ui_helper","cba_vectors","cba_versioning","cba_xeh","cba_xeh_a3","Cha_PKP",
@@ -151,7 +126,47 @@ _patchList =
 "GeK_TLC100_Police","gnt_c185","hafm_arma2_east_wheeled","hafm_arma2_uk_wheeled","hk430&m4benelli","hk430&m4benelli_noaddons","hlc_core","hlc_wp_ak","impala","insignia_police",
 "insignia_police_st","ivory_b206","ivory_erj135","IVORY_T6A","Jonzie_Carpack","jonzie_sounds","Jonzie_Viper","m50gasmask","m110_arma3","murcielago_police","pg_services_pmc",
 "pg_services_pmc_config","R3F_Acc","R3F_Armes","R3F_Armes_c","r3f_retex","r3f_uniformes","range_rover_police","rds_a2port_civ","rds_a2port_cman","sal_77transam","sal_a4",
-"sal_iroc","shield","sounds","Stars_editor_addon","trixie_ghillie","trixie_recon","wheeled","wheeled2","wheeled3","wirk_acwr","wirk_cayenne","wirk_gtr","wirk_p90"
+"sal_iroc","shield","sounds","Stars_editor_addon","trixie_ghillie","trixie_recon","wheeled","wheeled2","wheeled3","wirk_acwr","wirk_cayenne","wirk_gtr","wirk_p90",
+
+//JSRS 2
+
+"JSRS2_120mm_Cannon","JSRS2_127","JSRS2_155mm_AMOS","JSRS2_230mm_Titan","JSRS2_30mm_Cannon","JSRS2_35mm_Autocannon",
+"JSRS2_4Five45","JSRS2_ACPC","JSRS2_Autocannon","JSRS2_Bullethits","JSRS2_DAGR","JSRS2_DAR","JSRS2_EBR",
+"JSRS2_Explosions","JSRS2_Explosives","JSRS2_Filters","JSRS2_FS2000","JSRS2_Gatling","JSRS2_GMG20","JSRS2_GMG40",
+"JSRS2_Khaybar","JSRS2_LMGRCWS","JSRS2_M134","JSRS2_M200","JSRS2_M320R","JSRS2_M6","JSRS2_Minigun","JSRS2_MX",
+"JSRS2_NLAW","JSRS2_P07","JSRS2_PDW","JSRS2_Rahim","JSRS2_Rook40","JSRS2_RPG32","JSRS2_Scorpian","JSRS2_SDAR",
+"JSRS2_Skalpel_ATGM","JSRS2_Skyfire","JSRS2_Sonic_Cracks","JSRS2_Titan","JSRS2_TRG20","JSRS2_Vector",
+"JSRS2_Veh_Titan","JSRS2_Zafir","JSRS2_Zubr45","JSRS2_Movement","JSRS2_Silencers",
+"JSRS2_2S9_Sorcher","JSRS2_AFV4_Gorgon","JSRS2_AH99_Blackfoot","JSRS2_AH9_Pawnee","JSRS2_AMV7_Marshal",
+"JSRS2_BTRK_Kamysh","JSRS2_CH49_Mohawk","JSRS2_Distance","JSRS2_FighterPlane3","JSRS2_FV720_Mora","JSRS2_Hunter",
+"JSRS2_Ifrit","JSRS2_IFV6a_Cheetah","JSRS2_IFV6c_Panther","JSRS2_M2A1_Slammer","JSRS2_M4_Scorcher","JSRS2_M5_Sandstorm",
+"JSRS2_MBT52_Kuma","JSRS2_Mi48_Kajman","JSRS2_MSE3_Marid","JSRS2_Offroad","JSRS2_Po30_Orca","JSRS2_Strider","JSRS2_SUV",
+"JSRS2_T100_Varsuk","JSRS2_Truck1","JSRS2_Truck2","JSRS2_UAV_1","JSRS2_UH80_GhostHawk","JSRS2_Van","JSRS2_WY55_Hellcat",
+"JSRS2_ZSU39_Tigris",
+
+//JSRS 3 DragonFyre
+
+"JSRS_Environment","DragonFyre_Bullethits","DragonFyre_Explosions","DragonFyre_Sonic_Cracks","DragonFyre_230mm_Titan",
+"DragonFyre_Air_Weapons","DragonFyre_35mm_Autocannon","DragonFyre_120mm_Cannon","DragonFyre_Autocannon","DragonFyre_DAGR",
+"DragonFyre_DAR","DragonFyre_Minigun","DragonFyre_30mm_Cannon","DragonFyre_Gau8","DragonFyre_155mm_AMOS","DragonFyre_M134" ,
+"DragonFyre_LMGRCWS","DragonFyre_GMG20","DragonFyre_GMG40","DragonFyre_127","DragonFyre_Skalpel_ATGM","DragonFyre_Skyfire",
+"DragonFyre_Veh_Titan","DragonFyre_4Five45","DragonFyre_ACPC","DragonFyre_MX","DragonFyre_M6","DragonFyre_Khaybar",
+"DragonFyre_M320R","DragonFyre_EBR","DragonFyre_FS2000","DragonFyre_M200","DragonFyre_P07","DragonFyre_NLAW","DragonFyre_PDW",
+"DragonFyre_Rahim","DragonFyre_Rook40","DragonFyre_RPG32","DragonFyre_Scorpian","DragonFyre_Titan","DragonFyre_TRG20",
+"DragonFyre_UGL","DragonFyre_SDAR","DragonFyre_Vector","DragonFyre_Zafir","DragonFyre_Zubr45","DragonFyre_Movement",
+"DragonFyre_Distance","DragonFyre_FighterPlane3","DragonFyre_CAS_Plane1","DragonFyre_AH99_Blackfoot","DragonFyre_AH9_Pawnee",
+"DragonFyre_UAV_1","DragonFyre_CH67_Huron","DragonFyre_CH49_Mohawk","DragonFyre_Mi290_Taru","DragonFyre_Mi48_Kajman","DragonFyre_UAV_2",
+"DragonFyre_Po30_Orca","DragonFyre_CAS_Plane2","DragonFyre_UH80_GhostHawk","DragonFyre_WY55_Hellcat","DragonFyre_Boat_Armed_1",
+"DragonFyre_2S9_Sorcher","DragonFyre_AFV4_Gorgon","DragonFyre_AMV7_Marshal","DragonFyre_BTRK_Kamysh","DragonFyre_FV720_Mora",
+"DragonFyre_IFV6a_Cheetah","DragonFyre_IFV6c_Panther","DragonFyre_M2A1_Slammer","DragonFyre_M4_Scorcher","DragonFyre_M5_Sandstorm",
+"DragonFyre_MBT52_Kuma","DragonFyre_MSE3_Marid","DragonFyre_T100_Varsuk","DragonFyre_ZSU39_Tigris","DragonFyre_Hatchback",
+"DragonFyre_truck1","DragonFyre_Hunter","DragonFyre_Ifrit","DragonFyre_Offroad","DragonFyre_Quadbike","DragonFyre_Strider",
+"DragonFyre_SUV","DragonFyre_truck2","DragonFyre_Van","DragonFyre_Truck3",
+
+//BlasteCore/WarFXPE
+
+"WarFXPE"
+
 ];
 
 uiNamespace setVariable["RscDisplayRemoteMissions",displayNull]; //For Spy-Glass..
@@ -178,7 +193,8 @@ _children = [configFile >> "RscDisplayMPInterrupt" >> "controls",0] call BIS_fnc
 _allowedChildren = [
 "Title","MissionTitle","PlayersName","ButtonCancel","ButtonSAVE","ButtonSkip","ButtonRespawn","ButtonOptions",
 "ButtonVideo","ButtonAudio","ButtonControls","ButtonGame","ButtonTutorialHints","ButtonAbort","DebugConsole",
-"Version","TraffLight","Feedback","MessageBox"
+"Version","TraffLight","Feedback","MessageBox",
+"CBA_CREDITS_CONT_C","CBA_CREDITS_M_P"
 ];
 
 {
