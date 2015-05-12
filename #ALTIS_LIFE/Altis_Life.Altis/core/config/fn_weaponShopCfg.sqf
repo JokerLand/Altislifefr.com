@@ -753,11 +753,13 @@ switch(_shop) do
 						["R3F_30Rnd_556x45_TRACER_HK416",nil,100],
 						["R3F_HK417L",nil,20000],
 						["R3F_20Rnd_762x51_TRACER_HK417",nil,100],
+						["wirk_acwr",nil,300000],
+						["wirk_acwr_mag",nil,300000],
 						["HK430",nil,6500],
 						["HK430_30Rnd_556x45",nil,80],
 						["srifle_LRR_F",nil,200000],
 						["7Rnd_408_Mag",nil,500],
-					    ["acc_flashlight",nil,750],
+						["acc_flashlight",nil,750],
 						["optic_Holosight",nil,1200],
 						["optic_ACO_grn_smg",nil,2000],
 						["optic_Aco_smg",nil,2000],
@@ -935,7 +937,7 @@ switch(_shop) do
 						["hlc_GRD_orange",nil,5000],
 						["hlc_GRD_purple",nil,5000],
 						["SmokeShellRed","Fumigene rouge",5000],
-					    ["ItemCompass",nil,50],
+						["ItemCompass",nil,50],
 						["Binocular",nil,150],
 						["ItemGPS",nil,100],
 						["ToolKit",nil,250],
@@ -969,7 +971,7 @@ switch(_shop) do
 		["Quincaillerie",
 			[
 				["ItemRadio","Telephone",500],
-			    ["ItemCompass",nil,50],
+				["ItemCompass",nil,50],
 				["Binocular",nil,150],
 				["ItemGPS",nil,100],
 				["ToolKit",nil,250],
@@ -995,7 +997,7 @@ switch(_shop) do
                     [
                         ["ToolKit",nil,200],
                         ["FirstAidKit",nil,100],
-						["Mask_M40","Masque a Gaz",85000],
+			["Mask_M40","Masque a Gaz",85000],
                         ["U_C_Scientist","Combinaison Antiradiation",100000]
                     ]
                 ];
