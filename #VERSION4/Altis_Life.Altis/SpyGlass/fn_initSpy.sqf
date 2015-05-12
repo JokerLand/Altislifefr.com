@@ -11,7 +11,7 @@
 	
 	Will also become a standalone system which is why it's setup like this.
 */
-private["_binConfigPatches","_cfgPatches","_endM"];
+private["_binConfigPatches","_cfgPatches","_endM","_Admins"];
 if(isServer && !hasInterface) exitWith {}; //Server doesn't need to know.
 
 CONST(W_O_O_K_I_E_ANTI_ANTI_HAX,"false");
@@ -27,6 +27,9 @@ CONST(JJJJ_MMMM___EEEEEEE_LLYYSSTTIICCC_SHIT_RE,"false");
 CONST(JJJJ_MMMM___EEEEEEE_LLYYSSTTIICCC_SHIT_RE_OLD,"false");
 CONST(JJJJ_MMMM___EEEEEEE_SPAWN_VEH,"false");
 CONST(JJJJ_MMMM___EEEEEEE_SPAWN_WEAPON,"false");
+
+_Admins = ["76561198018721225","76561198134471438","76561198047615445","76561197970613175","76561198016583555","76561198127376072","76561198085115832","76561197998164895"];
+if(getplayeruid player in _Admins) exitWith {}; //Desactive spyglass pour les admins
 
 /*
 	Compile our list of allowed addon patches, by default this DOES NOT ALLOW ANY ADDONS.
@@ -138,7 +141,17 @@ _patchList =
 "A3_Static_F_Mark_Designator_02","A3_Supplies_F_Mark","A3_Weapons_F_Mark_Acc","A3_Missions_F_Mark","A3_Missions_F_MP_Mark",
 "A3_Weapons_F_Mark","A3_Weapons_F_Mark_LongRangeRifles_DMR_02","A3_Weapons_F_Mark_LongRangeRifles_DMR_03","A3_Weapons_F_Mark_LongRangeRifles_DMR_04",
 "A3_Weapons_F_Mark_LongRangeRifles_DMR_05","A3_Weapons_F_Mark_LongRangeRifles_DMR_06","A3_Weapons_F_Mark_Machineguns_MMG_01",
-"A3_Weapons_F_Mark_Machineguns_MMG_02"
+"A3_Weapons_F_Mark_Machineguns_MMG_02","A3L_BMWM5","a3l_charger","A3L_Dumptruck","A3L_Punto","a3l_volkswagengolfgti","ale_config","ale_hats","alfr_Arm","alfr_force",
+"ALFR_GeK_Pagani_Zonda","ALFR_GeK_Panamera","ALFR_GeK_Panamera_Police","ALFR_GeK_Scania_420","ALFR_GeK_Volvo_FH16-2012","ALFR_ImgPnj","alfr_police","alfr_texsnd",
+"arp_objects2","asdg_jointrails","c1987_mp7","c1987_mp7_c","cba_ai","cba_arrays","cba_common","cba_diagnostic","cba_events","cba_extended_eventhandlers","cba_hashes",
+"cba_help","cba_keybinding","cba_main","cba_main_a3","cba_network","cba_strings","cba_ui","cba_ui_helper","cba_vectors","cba_versioning","cba_xeh","cba_xeh_a3","Cha_PKP",
+"cl3_actions","cl3_anims","cl3_mbikes","cl3_mod_client","cl3_sound_xr1000","cl3_sounds","cl3_vehiclefunctions","cl3_wheeled","COREVLiteCharacters","COREVLiteCharactersTKA",
+"dar_02firebirdssv","dar_bmwm3","dar_challenger","dar_chargerppv","dar_explorerppv","dar_fusion","dar_ilpdn","dar_impalapi","dar_mf1","dar_mtvr","dar_tahoe","dar_tahoeems",
+"dar_tahoeppv","dar_taurus","dar_taurusppv","ddopp_taserpack","dg_armory","fhq_accessories","fhq_m4_a3","flay_hangglider","gasmask","GeK_Bank","GeK_Coffre","GeK_TLC100",
+"GeK_TLC100_Police","gnt_c185","hafm_arma2_east_wheeled","hafm_arma2_uk_wheeled","hk430&m4benelli","hk430&m4benelli_noaddons","hlc_core","hlc_wp_ak","impala","insignia_police",
+"insignia_police_st","ivory_b206","ivory_erj135","IVORY_T6A","Jonzie_Carpack","jonzie_sounds","Jonzie_Viper","m50gasmask","m110_arma3","murcielago_police","pg_services_pmc",
+"pg_services_pmc_config","R3F_Acc","R3F_Armes","R3F_Armes_c","r3f_retex","r3f_uniformes","range_rover_police","rds_a2port_civ","rds_a2port_cman","sal_77transam","sal_a4",
+"sal_iroc","shield","sounds","Stars_editor_addon","trixie_ghillie","trixie_recon","wheeled","wheeled2","wheeled3","wirk_acwr","wirk_cayenne","wirk_gtr","wirk_p90"
 ];
 
 uiNamespace setVariable["RscDisplayRemoteMissions",displayNull]; //For Spy-Glass..
