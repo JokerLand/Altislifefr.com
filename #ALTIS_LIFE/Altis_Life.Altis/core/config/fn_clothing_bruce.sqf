@@ -1,7 +1,7 @@
 /*
 	File: fn_clothing_bruce.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Master configuration file for Bruce's Outback Outfits.
 */
@@ -107,7 +107,7 @@ switch (_filter) do
             ["ALFR_FR_armani_white", "Tenue armani blanche", 7000]
 		];
 	};
-	
+
 	//Hats
 	case 1:
 	{
@@ -167,7 +167,7 @@ switch (_filter) do
 			["ALE_H_NewEra_Redsox",nil,500]
 		];
 	};
-	
+
 	//Glasses
 	case 2:
 	{
@@ -187,7 +187,7 @@ switch (_filter) do
 			["G_Combat",nil,55]
 		];
 	};
-	
+
 	//Vest
 	case 3:
 	{
@@ -198,7 +198,7 @@ switch (_filter) do
 			["V_BandollierB_blk",nil,4500]
 		];
 	};
-	
+
 	//Backpacks
 	case 4:
 	{
@@ -226,7 +226,11 @@ switch (_filter) do
 			["B_Carryall_khk",nil,2500],
 			["B_Carryall_cbr",nil,2500],
 			["B_Parachute",nil,2500],
-            ["ALFR_Civ_Bags_Nitrado",nil, 2500]
+            ["ALFR_Civ_Bags_Nitrado",nil, 2500],
+            ["ALFR_Civ_Bags_backpack_DC",nil, 5000],
+            ["ALFR_Civ_Bags_backpack_monster",nil, 5000],
+            ["ALFR_Civ_Bags_backpack_superman",nil, 5000],
+            ["ALFR_Civ_Bags_backpack_terminator",nil, 5000]
 		];
 	};
 };
