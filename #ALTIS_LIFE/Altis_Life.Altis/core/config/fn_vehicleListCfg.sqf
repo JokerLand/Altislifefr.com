@@ -54,12 +54,8 @@ switch (_shop) do
 	{
 		_return =
 		[
-			["RDS_Gaz24_Civ_02",2000],
-			["RDS_S1203_Civ_01",3300],
 			["A3L_VolksWagenGolfGTiblack",3300],
 			["DAR_ImpalaCiv",5500],
-			["RDS_Golf4_Civ_01",6000],
-			["RDS_Octavia_Civ_01",6000],
 			["A3L_PuntoBlue",6000],
 			["cl3_civic_vti_black",7500],
 			["DAR_FusionCiv",10000],
@@ -181,9 +177,6 @@ switch (_shop) do
 		_return =
 		[
 			["B_G_Offroad_01_F",15000],
-            ["BAF_Offroad_D",65000],
-			["BAF_Offroad_W",65000],
-			["UAZ_Unarmed",65000],
 			["B_G_Van_01_transport_F",50000],
 			["cl3_insignia_camo",75000],
 			["cl3_dodge_charger_s_camo",200000],
