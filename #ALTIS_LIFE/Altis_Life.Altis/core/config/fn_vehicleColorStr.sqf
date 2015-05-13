@@ -1216,6 +1216,7 @@ switch (_vehicle) do
             case 6 : {_color ="Camo digital vert";};
             case 7 : {_color ="Camo digital gris";};
 			case 8 : {_color ="Armer";};
+			case 9 : {_color ="Police";};
         };
     };
     

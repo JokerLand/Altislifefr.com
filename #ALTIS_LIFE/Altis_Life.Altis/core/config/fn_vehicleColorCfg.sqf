@@ -1198,7 +1198,8 @@ switch (_vehicle) do
             ["ALFR_TexSnd\huronunivert1.paa","civ","ALFR_TexSnd\huronunivert2.paa"],
             ["ALFR_TexSnd\huroncamovert2.paa","civ","ALFR_TexSnd\huroncamovert1.paa"],
             ["ALFR_TexSnd\huroncamodigi2.paa","civ","ALFR_TexSnd\huroncamodigi1.paa"],
-			["alfr_Arm\data\ALFR_huronk_front_armee.jpg","armer","alfr_Arm\data\ALFR_huronk_back_armee.jpg"]
+			["alfr_Arm\data\ALFR_huronk_front_armee.jpg","armer","alfr_Arm\data\ALFR_huronk_back_armee.jpg"],
+			["alfr_police\huron\huronav1.jpg","cop","alfr_police\huron\huronar1.jpg"]
         ];
     };
     

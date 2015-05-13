@@ -48,6 +48,7 @@ switch (_filter) do
 		if(__GETC__(life_coplevel) > 1) then
 		{
 			_ret set[count _ret,["H_Beret_blk",nil,100]];
+			_ret set[count _ret,["H_Beret_C",nil,100]];
 		};
 
 		if(__GETC__(life_coplevel) > 3) then
@@ -76,6 +77,8 @@ switch (_filter) do
 			["G_Squares",nil,10],
 			["G_Lowprofile",nil,30],
 			["G_Combat",nil,55],
+			["G_Goggles_VR",nil,500],
+			["G_Tactical_Clear",nil,500],
 			["G_Diving",nil,500]
 		];
 	};
@@ -86,6 +89,9 @@ switch (_filter) do
 		_ret =
 		[
 			["V_TacVest_blk_POLICE",nil,5000],
+			["V_Police_heavy",nil,5000],
+			["V_Police_light",nil,5000],
+			["V_Police_medium",nil,5000],
 			["V_TacVestIR_blk",nil,15000],
 			["V_PlateCarrier1_blk",nil,20000],
 			["V_PlateCarrierInd_PMC_blk",nil,19000],
