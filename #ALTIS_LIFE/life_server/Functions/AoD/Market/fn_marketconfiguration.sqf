@@ -78,11 +78,10 @@ life_market_resources = [
         ]
     ],*/
 
-    /*
-
+    //1
     ["copper_r", _copper_rPrice, 2500, 5000, 1, 1,
         [
-            //["fuelF",1],
+            /*["fuelF",1],*/
             ["copper_r",1],
             ["vodka",1],
             ["iron_r",1],
@@ -104,7 +103,7 @@ life_market_resources = [
 
     ["vodka", _vodkaPrice, 2500, 5000, 1, 1,
         [
-            //["fuelF",1],
+            /*["fuelF",1],*/
             ["copper_r",1],
             ["vodka",1],
             ["iron_r",1],
@@ -126,7 +125,7 @@ life_market_resources = [
 
     ["iron_r", _iron_rPrice, 2500, 5000, 1, 1,
         [
-            //["fuelF",1],
+            /*["fuelF",1],*/
             ["copper_r",1],
             ["vodka",1],
             ["iron_r",1],
@@ -148,7 +147,7 @@ life_market_resources = [
 
     ["artefact", _artefactPrice, 4500,  7000, 1, 1,
      [
-            //["fuelF",1],
+            /*["fuelF",1],*/
             ["copper_r",1],
             ["vodka",1],
             ["iron_r",1],
@@ -170,7 +169,7 @@ life_market_resources = [
 
     ["salt_r", _salt_rPrice, 4500, 7000, 1, 1,
         [
-            //["fuelF",1],
+            /*["fuelF",1],*/
             ["copper_r",1],
             ["vodka",1],
             ["iron_r",1],
@@ -192,7 +191,7 @@ life_market_resources = [
 
     ["cement", _cementPrice, 4500, 7000, 1, 1,
         [
-            //["fuelF",1],
+            /*["fuelF",1],*/
             ["copper_r",1],
             ["vodka",1],
             ["iron_r",1],
@@ -214,7 +213,7 @@ life_market_resources = [
 
     ["glass", _glassPrice, 6500, 9000, 1, 1,
         [
-            //["fuelF",1],
+            /*["fuelF",1],*/
             ["copper_r",1],
             ["vodka",1],
             ["iron_r",1],
@@ -236,7 +235,7 @@ life_market_resources = [
 
    ["oilp", _oilpPrice, 6500, 9000, 1, 1,
         [
-            //["fuelF",1],
+            /*["fuelF",1],*/
             ["copper_r",1],
             ["vodka",1],
             ["iron_r",1],
@@ -258,7 +257,7 @@ life_market_resources = [
 
     ["turtle", _turtlePrice, 6500, 9000, 1, 1,
 		[
-            //["fuelF",1],
+            /*["fuelF",1],*/
             ["copper_r",1],
             ["vodka",1],
             ["iron_r",1],
@@ -280,7 +279,7 @@ life_market_resources = [
 
     ["diamondc", _diamondcPrice, 8500, 11000,1, 1,
         [
-            //["fuelF",1],
+            /*["fuelF",1],*/
             ["copper_r",1],
             ["vodka",1],
             ["iron_r",1],
@@ -302,7 +301,7 @@ life_market_resources = [
 
     ["marijuana", _marijuanaPrice, 10500, 13000, 1, 1,
         [
-            //["fuelF",1],
+            /*["fuelF",1],*/
             ["copper_r",1],
             ["vodka",1],
             ["iron_r",1],
@@ -325,7 +324,7 @@ life_market_resources = [
 
    ["moonshine", _moonshinePrice, 10500, 13000, 1, 1,
         [
-            //["fuelF",1],
+            /*["fuelF",1],*/
             ["copper_r",1],
             ["vodka",1],
             ["iron_r",1],
@@ -347,7 +346,7 @@ life_market_resources = [
 
     ["cocainep", _cocainepPrice, 12500, 15000, 1, 1,
         [
-            //["fuelF",1],
+            /*["fuelF",1],*/
             ["copper_r",1],
             ["vodka",1],
             ["iron_r",1],
@@ -369,7 +368,7 @@ life_market_resources = [
 
     ["heroinp", _heroinpPrice, 12500, 15000, 1, 1,
         [
-            //["fuelF",1],
+            /*["fuelF",1],*/
             ["copper_r",1],
             ["vodka",1],
             ["iron_r",1],
@@ -391,7 +390,7 @@ life_market_resources = [
 
     ["methp", _methpPrice, 15000,  25000, 1,1,
         [
-            //["fuelF",1],
+            /*["fuelF",1],*/
             ["copper_r",1],
             ["vodka",1],
             ["iron_r",1],
@@ -413,7 +412,7 @@ life_market_resources = [
 
     ["uranium",  _uraniumPrice, 25000, 45000, 1, 1,
         [
-            //["fuelF",1],//
+            /*["fuelF",1],*/
             ["copper_r",1],
             ["vodka",1],
             ["iron_r",1],
@@ -431,7 +430,7 @@ life_market_resources = [
             ["methp",1],
             ["uranium",1]
         ]
-    ]*/
+    ]
 ];
 
 publicVariable "life_market_resources";
