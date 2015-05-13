@@ -5,9 +5,9 @@ class playerSettings {
 	idd = playersys_DIALOG;
 	movingEnable = true;
 	enableSimulation = true;
-	
+
 	class controlsBackground {
-	
+
 		class fondtablet: Life_RscPicture
 		{
 			idc = 9090909;
@@ -17,7 +17,7 @@ class playerSettings {
 			w = 1;
 			h = 1.28;
 		};
-		
+
 		class MainBackground:life_RscText {
 			idc = -1;
 			x = 0.1;
@@ -25,7 +25,7 @@ class playerSettings {
 			w = 0.8;
 			h = 0.6 - (22 / 250);
 		};
-		
+
 		class Title : life_RscTitle {
 			colorBackground[] = {0, 0, 0, 0};
 			idc = -1;
@@ -35,7 +35,7 @@ class playerSettings {
 			w = 0.8;
 			h = (1 / 25);
 		};
-		
+
 		class moneyStatusInfo : Life_RscStructuredText
 		{
 			idc = 2015;
@@ -45,73 +45,73 @@ class playerSettings {
 			y = 0.30;
 			w = 0.3; h = 0.6;
 		};
-		
+
 		class PlayersName : Title {
 			idc = carry_weight;
 			style = 1;
 			text = "";
 		};
 	};
-	
+
 	class controls {
-		
+
 		class itemHeader : Life_RscText
 		{
 			idc = -1;
 			text = "$STR_PM_cItems";
 			sizeEx = 0.04;
-			
+
 			x = 0.62; y = 0.26;
 			w = 0.275; h = 0.04;
 		};
-		
+
 		class licenseHeader : Life_RscText
 		{
 			idc = -1;
 			text = "$STR_PM_Licenses";
 			sizeEx = 0.04;
-			
+
 			x = 0.336; y = 0.26;
 			w = 0.275; h = 0.04;
 		};
-		
+
 		class moneySHeader : Life_RscText
 		{
 			idc = -1;
 			text = "$STR_PM_MoneyStats";
 			sizeEx = 0.04;
-			
+
 			x = 0.11; y = 0.26;
 			w = 0.219; h = 0.04;
 		};
-	
-		class itemList : life_RscListBox 
+
+		class itemList : life_RscListBox
 		{
 			idc = item_list;
 			sizeEx = 0.030;
-			
+
 			x = 0.62; y = 0.30;
 			w = 0.275; h = 0.3;
 		};
-		
-		class moneyEdit : Life_RscEdit 
+
+		class moneyEdit : Life_RscEdit
 		{
 			idc = 2018;
-			
+
 			text = "1";
 			sizeEx = 0.030;
 			x = 0.12; y = 0.42;
 			w = 0.18; h = 0.03;
 		};
-		
-		class NearPlayers : Life_RscCombo 
+
+		class NearPlayers : Life_RscCombo
 		{
 			idc = 2022;
-		
+
 			x = 0.12; y = 0.46;
 			w = 0.18; h = 0.03;
 		};
-		
+
 		class moneyDrop : Life_RscButtonMenu
 		{
 			colorBackground[] = {0, 0, 0, 0};
@@ -122,37 +122,37 @@ class playerSettings {
 			x = 0.135; y = 0.50;
 			w = 0.13; h = 0.036;
 		};
-		
+
 		class itemEdit : Life_RscEdit {
-		
+
 		idc = item_edit;
-		
+
 		text = "1";
 		sizeEx = 0.030;
 		x = 0.62; y = 0.61;
 		w = 0.275; h = 0.03;
-		
+
 		};
 		class iNearPlayers : Life_RscCombo
 		{
 			idc = 2023;
-			
+
 			x = 0.62; y = 0.65;
 			w = 0.275; h = 0.03;
 		};
 		/*
 		Disabled till it can be redone
 		class moneyInput: life_RscCombo {
-			
+
 			idc = money_value;
-			
+
 			x  = 0.02; y = 0.402;
 			w = .1; h = .030;
 		};
 		*/
-		
+
 		class DropButton : life_RscButtonMenu {
-		
+
 			colorBackground[] = {0, 0, 0, 0};
 			idc = 2002;
 			text = "$STR_Global_Give";
@@ -161,11 +161,11 @@ class playerSettings {
 			y = 0.70;
 			w = (5.25 / 40);
 			h = (1 / 25);
-			
+
 		};
-		
+
 		class UseButton : life_RscButtonMenu {
-		
+
 			colorBackground[] = {0, 0, 0, 0};
 			text = "$STR_Global_Use";
 			onButtonClick = "[] call life_fnc_useItem;";
@@ -173,11 +173,11 @@ class playerSettings {
 			y = 0.70;
 			w = (5.25 / 40);
 			h = (1 / 25);
-			
+
 		};
-		
+
 		class RemoveButton : life_RscButtonMenu {
-		
+
 			colorBackground[] = {0, 0, 0, 0};
 			text = "$STR_Global_Remove";
 			onButtonClick = "[] call life_fnc_removeItem;";
@@ -185,7 +185,7 @@ class playerSettings {
 			y = 0.70;
 			w = (5.25 / 40);
 			h = (1 / 25);
-			
+
 		};
 		/*
 		Disabled till it can be redone
@@ -193,13 +193,13 @@ class playerSettings {
 
 			text = "Drop Money";
 			onButtonClick = "[] execVM 'player_system\money_fnc.sqf'";
-			
+
 			x = 0.13; y = 0.4;
 			w = 0.135; h = 0.05;
-			
+
 		};
 		*/
-		
+
 		class ButtonClose : life_RscButtonMenu {
 			colorBackground[] = {0, 0, 0, 0};
 			idc = -1;
@@ -211,7 +211,7 @@ class playerSettings {
 			w = (6.25 / 40);
 			h = (1 / 25);
 		};
-		
+
 		class ButtonSettings : life_RscButtonMenu {
 			colorBackground[] = {0, 0, 0, 0};
 			idc = -1;
@@ -222,7 +222,7 @@ class playerSettings {
 			w = (6.25 / 40);
 			h = (1 / 25);
 		};
-		
+
 		class ButtonMyGang : Life_RscButtonMenu {
 			colorBackground[] = {0, 0, 0, 0};
 			idc = 2011;
@@ -233,7 +233,7 @@ class playerSettings {
 			w = (6.25 / 40);
 			h = (1 / 25);
 		};
-		
+
 		class Licenses_Menu : Life_RscControlsGroup
 		{
 			idc = -1;
@@ -241,7 +241,7 @@ class playerSettings {
 			h = 0.38;
 			x = 0.34;
 			y = 0.30;
-			
+
 			class Controls
 			{
 				class Life_Licenses : Life_RscStructuredText
@@ -255,7 +255,7 @@ class playerSettings {
 				};
 			};
 		};
-		
+
 		class ButtonGangList : Life_RscButtonMenu {
 			colorBackground[] = {0, 0, 0, 0};
 			idc = 2012;
@@ -266,7 +266,7 @@ class playerSettings {
 			w = (6.25 / 40);
 			h = (1 / 25);
 		};
-	
+
 		class ButtonKeys : Life_RscButtonMenu {
 			colorBackground[] = {0, 0, 0, 0};
 			idc = 2013;
@@ -277,7 +277,7 @@ class playerSettings {
 			w = (6.25 / 40);
 			h = (1 / 25);
 		};
-		
+
 		class ButtonCell : Life_RscButtonMenu {
 			colorBackground[] = {0, 0, 0, 0};
 			idc = 2014;
@@ -288,7 +288,7 @@ class playerSettings {
 			w = (6.25 / 40);
 			h = (1 / 25);
 		};
-		
+
 		class ButtonAdminMenu : Life_RscButtonMenu {
 			colorBackground[] = {0, 0, 0, 0};
 			idc = 2021;
@@ -299,7 +299,7 @@ class playerSettings {
 			w = (6.25 / 40);
 			h = (1 / 25);
 		};
-		
+
 		class ButtonSyncData : life_RscButtonMenu {
 		    colorBackground[] = {0, 0, 0, 0};
 			idc = -1;
@@ -311,7 +311,7 @@ class playerSettings {
 			w = (6.25 / 40);
 			h = (1 / 25);
 		};
-        
+        /*
         class ButtonMarket : Life_RscButtonMenu {
 			idc = -1;
 			text = "Market";
@@ -322,5 +322,6 @@ class playerSettings {
 			w = (6.25 / 40);
 			h = (1 / 25);
 		};
+		*/
 	};
 };
