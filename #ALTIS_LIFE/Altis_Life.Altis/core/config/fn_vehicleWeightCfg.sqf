@@ -10,14 +10,10 @@ _className = [_this,0,"",[""]] call BIS_fnc_param;
 
 switch (_className) do
 {
-	case "RDS_Gaz24_Civ_02": {45};
 	case "GNT_C185F": {150};
-	case "RDS_S1203_Civ_01": {65};
 	case "A3L_VolksWagenGolfGTiblack": {35};
-	case "RDS_Golf4_Civ_01": {40};
 	case "wirk_gtr": {40};
 	case "wirk_cayenne": {65};
-	case "RDS_Octavia_Civ_01": {45};
 	case "DAR_ImpalaCiv": {55};
 	case "A3L_PuntoBlue": {35};
 	case "DAR_FusionCiv": {50};
@@ -104,19 +100,16 @@ switch (_className) do
 	case "Land_CargoBox_V1_F": {5000};
 	case "Box_IND_Grenades_F": {350};
 	case "B_supplyCrate_F": {700};
-    case "CL3_bus_cl_black": {80};
-    case "cl3_suv_taxi": {100};
-    case "cl3_suv_black": {100};
-    case "cl3_taurus_black": {55};
-    case "BAF_Offroad_D": {80};
-    case "BAF_Offroad_W": {80};
+    	case "CL3_bus_cl_black": {80};
+	case "cl3_suv_taxi": {100};
+    	case "cl3_suv_black": {100};
+	 case "cl3_taurus_black": {55};
 	case "cl3_q7_black": {80};
 	case "cl3_transit_black": {140};
 	case "ivory_b206": {70};
-    case "cl3_arielatom_race_black": {0};
-    case "cl3_xr_1000_black": {5};
-    case "cl3_arielatom_race_black": {0};
-	case "UAZ_Unarmed": {80};
+    	case "cl3_arielatom_race_black": {0};
+    	case "cl3_xr_1000_black": {5};
+	case "cl3_arielatom_race_black": {0};
 	case "DAR_4X4": {200};
 	case "DAR_MK27": {300};
 	case "DAR_MK27T": {400};
