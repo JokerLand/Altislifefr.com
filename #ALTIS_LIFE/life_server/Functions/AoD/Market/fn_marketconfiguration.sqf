@@ -24,9 +24,9 @@ diag_log "------------------------------------------------";
 
 {
 	_item = (_x select 0); //on the first run = "oilp", second run = "diamond")
-	_itemprice = (_x select 1); //on the first run = "1000", second run = "2000") //* Note: _price is a STRING now! 
-	
-	//diag_log format["%1-price %2 generated",_item,_itemprice];	
+	_itemprice = (_x select 1); //on the first run = "1000", second run = "2000") //* Note: _price is a STRING now!
+
+	//diag_log format["%1-price %2 generated",_item,_itemprice];
 	if(_item == "oilp") then {_oilpPrice = _itemprice}; // The right price should be assigned
 	if(_item == "iron_r") then {_iron_rPrice = _itemprice}; // The right price should be assigned
 	if(_item == "diamondc") then {_diamondcPrice = _itemprice}; // The right price should be assigned
@@ -46,204 +46,391 @@ diag_log "------------------------------------------------";
     if(_item == "uranium") then {_uraniumPrice = _itemprice};
    /* if(_item == "fuelF") then { _fuelFPrice = _itemprice};*/
 
-	
+
 } forEach _rows;
 
 
 life_market_resources = [
 
 	//Schema: SHORTNAME, DEFAULT-VALEUR, MIN-VALEUR, MAX-VALEUR,CHANGEMENTS EN ACTION [VENTE Multiplier par 1, Achat multiplié par -1
-    
+
     //ressource basique
-    
-	
-    //1
-    
-    ["artefact", _artefactPrice, 5000,  25000, 1, 1,
-     [
-            ["turtle",1],
-            ["iron_r",1],
-            ["copper",1],
-            ["moonshine",1],
-            ["vodka",1],
-            /*["fuelF",1],*/
-            ["marijuana",1],
-            ["oilp",1]
-     ]
-    ],
-	
-    ["turtle", _turtlePrice, 4000, 8000, 1, 1,  
-		[ 
-             ["moonshine",1],
-            ["iron_r",1],
-            ["copper",1],
-            ["artefact",1],
-            ["vodka",1],
-            ["marijuana",1],
-           /* ["fuelF",1],*/
-            ["oilp",1]
-		] 
-	],
-    
-    
-    ["oilp", _oilpPrice, 1250, 2000, 1, 1, 
-		[ 
-            ["turtle",1],
-            ["iron_r",1],
-            ["copper",1],
-            ["artefact",1],
-            ["vodka",1],
-            ["marijuana",1],
-           /* ["fuelF",1],*/
-            ["moonshine",1] 
-		] 
-	],
-	["iron_r", _iron_rPrice, 1050, 2250, 1, 1,  
-		[ 
-			["diamondc",1], 
-			["oilp",1],
-			["copper_r",1],
-			["salt_r",1],
-			["cement",1],
-            ["marijuana",1],
-            /*["fuelF",1],*/
-			["glass",1] 
-		] 
-	],
-	
-	
-	["copper_r", _copper_rPrice, 600, 1500, 1, 1, 
-		[ 
-            ["turtle",1],
-            ["iron_r",1],
-            ["moonshine",1],
-            ["artefact",1],
-            ["vodka",1],
-            ["marijuana",1],
-            /*["fuelF",1],*/
-            ["oilp",1]
-		] 
-	],
-  
-    
-    ["moonshine", _moonshinePrice, 1000, 4000, 1, 1,
-        [
-            ["turtle",1],
-            ["iron_r",1],
-            ["copper",1],
-            ["artefact",1],
-            ["vodka",1],
-            ["marijuana",1],
-           /* ["fuelF",1],*/
-            ["oilp",1]
-        ]
-    ],
-    
-    ["marijuana", _marijuanaPrice, 1100, 2800, 1, 1,   
-		[ 
-			 ["turtle",1],
-            ["iron_r",1],
-            ["copper",1],
-            ["artefact",1],
-            ["vodka",1],
-            ["oilp",1],
-            ["marijuana",1],
-            ["moonshine",1]
-            
-		] 
-	],
-    
-  /*  ["fuelF", _fuelFPrice, 250, 1000,
+
+    /*  ["fuelF", _fuelFPrice, 250, 1000,
          [
-            ["turtle",1],
-            ["iron_r",1],
-            ["copper",1],
-            ["artefact",1],
+            ["fuelF",1],
+            ["copper_r",1],
             ["vodka",1],
+            ["iron_r",1],
+            ["artefact",1],
+            ["salt_r",1],
+            ["cement",1],
+            ["glass",1],
             ["oilp",1],
+            ["turtle",1],
+            ["diamondc", 1],
+            ["marijuana",1],
             ["moonshine",1],
-            ["marijuana",1]
+            ["heroinp",1],
+            ["cocainep",1],
+            ["methp",1],
+            ["uranium",1]
         ]
     ],*/
-    
-    //2
-	
-	["glass", _glassPrice, 800, 1400, 1, 1, 
-		[ 
-			["salt_r", 1],
-            ["cement",1],
-            ["heroinp",1],
-            ["cocainep",1]
-		] 
-	],
-	["cement", _cementPrice, 1000, 2000, 1, 1, 
-		[ 
-			["salt_r", 1],
-            ["cement",1],
-            ["heroinp",1],
-            ["cocainep",1]
-		] 
-	],
-                    
-                    
-      ["salt_r", _salt_rPrice, 600, 1050, 1, 1, 
-		[ 
-			["glass", 1],
-            ["cement",1],
-            ["heroinp",1],
-            ["cocainep",1]
-		] 
-	],
-                    
-     ["cocainep", _cocainepPrice, 2000, 7000, 1, 1,   
-		[ 
-			["glass", 1],
-            ["cement",1],
-            ["heroinp",1],
-            ["salt_r",1]
-		] 
-	],
-	["heroinp", _heroinpPrice, 1600, 2400, 1, 1,   
-		[ 
-			["glass", 1],
-            ["cement",1],
-            ["salt_r",1],
-            ["cocainep",1]
-		] 
-	],
-    
-    
-                    
-                    
-                    
 
-	///////////////////////////////////
-	
-	 //3
-    
-            
-	["methp", _methpPrice, 4000,  15000, 1,1,
+    //1
+    ["copper_r", _copper_rPrice, 2500, 5000, 1, 1,
         [
-            ["diamondc",1],
+            /*["fuelF",1],*/
+            ["copper_r",1],
+            ["vodka",1],
+            ["iron_r",1],
+            ["artefact",1],
+            ["salt_r",1],
+            ["cement",1],
+            ["glass",1],
+            ["oilp",1],
+            ["turtle",1],
+            ["diamondc", 1],
+            ["marijuana",1],
+            ["moonshine",1],
+            ["heroinp",1],
+            ["cocainep",1],
+            ["methp",1],
             ["uranium",1]
         ]
     ],
 
-    ["uranium",  _uraniumPrice, 18500, 32000, 1, 1, 
+    ["vodka", _vodkaPrice, 2500, 5000, 1, 1,
         [
-            ["diamondc",1],
-            ["methp",1]
+            /*["fuelF",1],*/
+            ["copper_r",1],
+            ["vodka",1],
+            ["iron_r",1],
+            ["artefact",1],
+            ["salt_r",1],
+            ["cement",1],
+            ["glass",1],
+            ["oilp",1],
+            ["turtle",1],
+            ["diamondc", 1],
+            ["marijuana",1],
+            ["moonshine",1],
+            ["heroinp",1],
+            ["cocainep",1],
+            ["methp",1],
+            ["uranium",1]
         ]
     ],
-	
-    
-    
-    ["diamondc", _diamondcPrice, 2000, 3000,1, 1, 
-		[ 
-			["uranium",1],
-            ["methp",1] 
-		] 
-	]
+
+    ["iron_r", _iron_rPrice, 2500, 5000, 1, 1,
+        [
+            /*["fuelF",1],*/
+            ["copper_r",1],
+            ["vodka",1],
+            ["iron_r",1],
+            ["artefact",1],
+            ["salt_r",1],
+            ["cement",1],
+            ["glass",1],
+            ["oilp",1],
+            ["turtle",1],
+            ["diamondc", 1],
+            ["marijuana",1],
+            ["moonshine",1],
+            ["heroinp",1],
+            ["cocainep",1],
+            ["methp",1],
+            ["uranium",1]
+        ]
+    ],
+
+    ["artefact", _artefactPrice, 4500,  7000, 1, 1,
+     [
+            /*["fuelF",1],*/
+            ["copper_r",1],
+            ["vodka",1],
+            ["iron_r",1],
+            ["artefact",1],
+            ["salt_r",1],
+            ["cement",1],
+            ["glass",1],
+            ["oilp",1],
+            ["turtle",1],
+            ["diamondc", 1],
+            ["marijuana",1],
+            ["moonshine",1],
+            ["heroinp",1],
+            ["cocainep",1],
+            ["methp",1],
+            ["uranium",1]
+     ]
+    ],
+
+    ["salt_r", _salt_rPrice, 4500, 7000, 1, 1,
+        [
+            /*["fuelF",1],*/
+            ["copper_r",1],
+            ["vodka",1],
+            ["iron_r",1],
+            ["artefact",1],
+            ["salt_r",1],
+            ["cement",1],
+            ["glass",1],
+            ["oilp",1],
+            ["turtle",1],
+            ["diamondc", 1],
+            ["marijuana",1],
+            ["moonshine",1],
+            ["heroinp",1],
+            ["cocainep",1],
+            ["methp",1],
+            ["uranium",1]
+        ]
+    ],
+
+    ["cement", _cementPrice, 4500, 7000, 1, 1,
+        [
+            /*["fuelF",1],*/
+            ["copper_r",1],
+            ["vodka",1],
+            ["iron_r",1],
+            ["artefact",1],
+            ["salt_r",1],
+            ["cement",1],
+            ["glass",1],
+            ["oilp",1],
+            ["turtle",1],
+            ["diamondc", 1],
+            ["marijuana",1],
+            ["moonshine",1],
+            ["heroinp",1],
+            ["cocainep",1],
+            ["methp",1],
+            ["uranium",1]
+        ]
+    ],
+
+    ["glass", _glassPrice, 6500, 9000, 1, 1,
+        [
+            /*["fuelF",1],*/
+            ["copper_r",1],
+            ["vodka",1],
+            ["iron_r",1],
+            ["artefact",1],
+            ["salt_r",1],
+            ["cement",1],
+            ["glass",1],
+            ["oilp",1],
+            ["turtle",1],
+            ["diamondc", 1],
+            ["marijuana",1],
+            ["moonshine",1],
+            ["heroinp",1],
+            ["cocainep",1],
+            ["methp",1],
+            ["uranium",1]
+        ]
+    ],
+
+   ["oilp", _oilpPrice, 6500, 9000, 1, 1,
+        [
+            /*["fuelF",1],*/
+            ["copper_r",1],
+            ["vodka",1],
+            ["iron_r",1],
+            ["artefact",1],
+            ["salt_r",1],
+            ["cement",1],
+            ["glass",1],
+            ["oilp",1],
+            ["turtle",1],
+            ["diamondc", 1],
+            ["marijuana",1],
+            ["moonshine",1],
+            ["heroinp",1],
+            ["cocainep",1],
+            ["methp",1],
+            ["uranium",1]
+        ]
+    ],
+
+    ["turtle", _turtlePrice, 6500, 9000, 1, 1,
+		[
+            /*["fuelF",1],*/
+            ["copper_r",1],
+            ["vodka",1],
+            ["iron_r",1],
+            ["artefact",1],
+            ["salt_r",1],
+            ["cement",1],
+            ["glass",1],
+            ["oilp",1],
+            ["turtle",1],
+            ["diamondc", 1],
+            ["marijuana",1],
+            ["moonshine",1],
+            ["heroinp",1],
+            ["cocainep",1],
+            ["methp",1],
+            ["uranium",1]
+		]
+	],
+
+    ["diamondc", _diamondcPrice, 8500, 11000,1, 1,
+        [
+            /*["fuelF",1],*/
+            ["copper_r",1],
+            ["vodka",1],
+            ["iron_r",1],
+            ["artefact",1],
+            ["salt_r",1],
+            ["cement",1],
+            ["glass",1],
+            ["oilp",1],
+            ["turtle",1],
+            ["diamondc", 1],
+            ["marijuana",1],
+            ["moonshine",1],
+            ["heroinp",1],
+            ["cocainep",1],
+            ["methp",1],
+            ["uranium",1]
+        ]
+    ],
+
+    ["marijuana", _marijuanaPrice, 10500, 13000, 1, 1,
+        [
+            /*["fuelF",1],*/
+            ["copper_r",1],
+            ["vodka",1],
+            ["iron_r",1],
+            ["artefact",1],
+            ["salt_r",1],
+            ["cement",1],
+            ["glass",1],
+            ["oilp",1],
+            ["turtle",1],
+            ["diamondc", 1],
+            ["marijuana",1],
+            ["moonshine",1],
+            ["heroinp",1],
+            ["cocainep",1],
+            ["methp",1],
+            ["uranium",1]
+
+        ]
+    ],
+
+   ["moonshine", _moonshinePrice, 10500, 13000, 1, 1,
+        [
+            /*["fuelF",1],*/
+            ["copper_r",1],
+            ["vodka",1],
+            ["iron_r",1],
+            ["artefact",1],
+            ["salt_r",1],
+            ["cement",1],
+            ["glass",1],
+            ["oilp",1],
+            ["turtle",1],
+            ["diamondc", 1],
+            ["marijuana",1],
+            ["moonshine",1],
+            ["heroinp",1],
+            ["cocainep",1],
+            ["methp",1],
+            ["uranium",1]
+        ]
+    ],
+
+    ["cocainep", _cocainepPrice, 12500, 15000, 1, 1,
+        [
+            /*["fuelF",1],*/
+            ["copper_r",1],
+            ["vodka",1],
+            ["iron_r",1],
+            ["artefact",1],
+            ["salt_r",1],
+            ["cement",1],
+            ["glass",1],
+            ["oilp",1],
+            ["turtle",1],
+            ["diamondc", 1],
+            ["marijuana",1],
+            ["moonshine",1],
+            ["heroinp",1],
+            ["cocainep",1],
+            ["methp",1],
+            ["uranium",1]
+        ]
+    ],
+
+    ["heroinp", _heroinpPrice, 12500, 15000, 1, 1,
+        [
+            /*["fuelF",1],*/
+            ["copper_r",1],
+            ["vodka",1],
+            ["iron_r",1],
+            ["artefact",1],
+            ["salt_r",1],
+            ["cement",1],
+            ["glass",1],
+            ["oilp",1],
+            ["turtle",1],
+            ["diamondc", 1],
+            ["marijuana",1],
+            ["moonshine",1],
+            ["heroinp",1],
+            ["cocainep",1],
+            ["methp",1],
+            ["uranium",1]
+        ]
+    ],
+
+    ["methp", _methpPrice, 15000,  25000, 1,1,
+        [
+            /*["fuelF",1],*/
+            ["copper_r",1],
+            ["vodka",1],
+            ["iron_r",1],
+            ["artefact",1],
+            ["salt_r",1],
+            ["cement",1],
+            ["glass",1],
+            ["oilp",1],
+            ["turtle",1],
+            ["diamondc", 1],
+            ["marijuana",1],
+            ["moonshine",1],
+            ["heroinp",1],
+            ["cocainep",1],
+            ["methp",1],
+            ["uranium",1]
+        ]
+    ],
+
+    ["uranium",  _uraniumPrice, 25000, 45000, 1, 1,
+        [
+            /*["fuelF",1],*/
+            ["copper_r",1],
+            ["vodka",1],
+            ["iron_r",1],
+            ["artefact",1],
+            ["salt_r",1],
+            ["cement",1],
+            ["glass",1],
+            ["oilp",1],
+            ["turtle",1],
+            ["diamondc", 1],
+            ["marijuana",1],
+            ["moonshine",1],
+            ["heroinp",1],
+            ["cocainep",1],
+            ["methp",1],
+            ["uranium",1]
+        ]
+    ]
 ];
 
 publicVariable "life_market_resources";
@@ -266,7 +453,7 @@ life_market_prices = [];
 	life_market_prices set [count life_market_prices, [_x select 0, _x select 1, 0, 0] ];
 }
 foreach life_market_resources;
-	
+
 publicVariable "life_market_prices";
 
 systemChat "Market Prices Generated!";
