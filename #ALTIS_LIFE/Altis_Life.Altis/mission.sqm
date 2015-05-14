@@ -25717,9 +25717,9 @@ class Mission
 		};
 		class Item2021
 		{
-			position[]={18849.607,141.7128,11650.326};
+			position[]={18849.486,142.52617,11654.512};
 			azimut=897.47998;
-			offsetY=0.69999999;
+			offsetY=0.1;
 			id=2278;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V2_F";
@@ -25728,9 +25728,9 @@ class Mission
 		};
 		class Item2022
 		{
-			position[]={18851.424,141.64223,11650.416};
+			position[]={18851.303,142.49628,11654.602};
 			azimut=897.47998;
-			offsetY=0.69999999;
+			offsetY=0.1;
 			id=2279;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V2_F";
@@ -29042,7 +29042,7 @@ class Mission
 		};
 		class Item394
 		{
-			position[]={18875.215,146.77855,11690.555};
+			position[]={18872.797,146.94383,11690.339};
 			name="air_reb1";
 			type="Empty";
 			angle=-242.823;
@@ -29056,10 +29056,10 @@ class Mission
 		};
 		class Item396
 		{
-			position[]={18867.83,143.02345,11657.353};
+			position[]={18853.527,142.41368,11654.488};
 			name="spawn_reb1";
 			type="Empty";
-			angle=-100.561;
+			angle=-1.5601721;
 		};
 	};
 	class Sensors
