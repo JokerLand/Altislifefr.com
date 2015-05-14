@@ -352,7 +352,7 @@ buy_array =
 	["phosphore",500],
     ["burger",150],
     ["cola",75],
-    ["vodka",1000],
+    ["vodka",10000],
     ["frite",115],
     ["biere",90],
     ["puranium",5000],
