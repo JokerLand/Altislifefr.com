@@ -27,17 +27,7 @@ if(isDedicated && isNil("life_market_prices")) then
     
 };
 
+
 StartProgress = true;
 
 "BIS_fnc_MP_packet" addPublicVariableEventHandler {_this call life_fnc_MPexec};
-
-player addEventHandler["Fired",{
-	_unit = _this select 0;
-	_ammo = _this select 4;
-
-	if(_ammo isKindOf "Melee") exitWith {
-		_cfg = (configFile>>"CfgAmmo">>_ammo>>"Melee");
-		_anim = getText(_cfg>>"anim");
-		_unit playActionNow _anim;
-	};
-}];
