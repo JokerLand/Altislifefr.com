@@ -86,8 +86,9 @@ switch (_shop) do
 			["cl3_458_black",275000],
 			["cl3_murcielago_black",300000],
 			["cl3_reventon_black",320000],
-			["DAR_MF1Civ",400000],
+			["wirk_ferrari_california",400000],
 			["cl3_lamborghini_gt1_black",1000000],
+			["ALFR_GeK_MF1",1500000],
             ["cl3_arielatom_black",250000]
 		];
 	};
@@ -234,8 +235,8 @@ switch (_shop) do
 			["DAR_ChargerPoliceState",200000]];
 			_return set[count _return,
 			["DAR_DAR_02FirebirdSSVPolice",250000]];
-			//_return set[count _return,
-			//["murcielago_police",400000]];
+			_return set[count _return,
+			["ALFR_GeK_MF1_Police",1500000]];
 			_return set[count _return,
 			["insignia_police_st",250000]];
 			_return set[count _return,
