@@ -3,11 +3,11 @@
 #define steamid getPlayerUID player
 /*
 	File: fn_initSpy.sqf
-	
+
 	Description:
 	Does some things that I made over-complicated / un-needed but blah.
 	Will eventually include server-side checks but it's blah at this point.
-	
+
 	Will also become a standalone system which is why it's setup like this.
 */
 private["_binConfigPatches","_cfgPatches","_endM","_Admins"];
@@ -33,10 +33,10 @@ if(getplayeruid player in _Admins) exitWith {}; //Desactive spyglass pour les ad
 
 /*
 	Compile our list of allowed addon patches, by default this DOES NOT ALLOW ANY ADDONS.
-	
+
 	If you want to white-list addons such as JSRS or Blastcore you need to start a test instance (Host locally and not the mission) and first fill the SPY_cfg_patchList array, once you executed it (Filled it)
 	Run the following code and it will copy the list of addons / patches not in the list to your clipboard (Ctrl + V) and then add it to the array.
-	
+
 	_cfgPatches = [];
 	_binConfigPatches = configFile >> "CfgPatches";
 	for "_i" from 0 to count (_binConfigPatches)-1 do {
@@ -49,7 +49,7 @@ if(getplayeruid player in _Admins) exitWith {}; //Desactive spyglass pour les ad
 	};
 
 	copyToClipboard str(_cfgPatches);
-	
+
 	i.e
 	["cba_xeh","Extended_EventHandlers","CBA_Extended_EventHandlers","JSRS_Environment","WarFXPE","cba_common","cba_events","cba_hashes","cba_network","cba_strings","cba_ui","cba_vectors","JSRS2_120mm_Cannon","JSRS2_127","JSRS2_155mm_AMOS",
 	"JSRS2_230mm_Titan","JSRS2_30mm_Cannon","JSRS2_35mm_Autocannon","JSRS2_4Five45","JSRS2_ACPC","JSRS2_Autocannon","JSRS2_Bullethits","JSRS2_DAGR","JSRS2_DAR","JSRS2_EBR","JSRS2_Explosions","JSRS2_Explosives","JSRS2_Filters","JSRS2_FS2000",
@@ -59,8 +59,8 @@ if(getplayeruid player in _Admins) exitWith {}; //Desactive spyglass pour les ad
 	"JSRS2_FighterPlane3","JSRS2_FV720_Mora","JSRS2_Hunter","JSRS2_Ifrit","JSRS2_IFV6a_Cheetah","JSRS2_IFV6c_Panther","JSRS2_M2A1_Slammer","JSRS2_M4_Scorcher","JSRS2_M5_Sandstorm","JSRS2_MBT52_Kuma","JSRS2_Mi48_Kajman","JSRS2_MSE3_Marid","JSRS2_Offroad",
 	"JSRS2_Po30_Orca","JSRS2_Strider","JSRS2_SUV","JSRS2_T100_Varsuk","JSRS2_Truck1","JSRS2_Truck2","JSRS2_UAV_1","JSRS2_UH80_GhostHawk","JSRS2_Van","JSRS2_WY55_Hellcat","JSRS2_ZSU39_Tigris","cba_xeh_a3"]
 */
-	
-_patchList = 
+
+_patchList =
 ["life_server","CAData","A3_BaseConfig_F","A3_Dubbing_Radio_F","A3_Functions_F","A3_Functions_F_EPA","A3_Functions_F_EPC","A3_Data_F","A3_Data_F_ParticleEffects","A3_Editor_F","A3_Functions_F_Curator",
 "A3_Language_F","A3_Language_F_Beta","A3_Language_F_Curator","A3_Language_F_EPA","A3_Language_F_EPB","A3_Language_F_EPC","A3_Language_F_Gamma","A3_LanguageMissions_F","A3_LanguageMissions_F_Beta",
 "A3_LanguageMissions_F_Gamma","A3_Misc_F","A3_Misc_F_Helpers","A3_Modules_F","A3_Modules_F_DynO","A3_Modules_F_Effects","A3_Modules_F_Events","A3_Modules_F_GroupModifiers","A3_Modules_F_HC",
@@ -166,13 +166,13 @@ _patchList =
 "ale_config","r3f_acc","R3F_AIMPOINT","R3F_AIMPOINT_DES","R3F_EOTECH","R3F_EOTECH_DES","R3F_J4","J4","R3F_J4_DES","R3F_FELIN","R3F_FELIN_DES","R3F_FELIN_FRF2","R3F_J8","J8","R3F_J8_DES","R3F_J8_MILDOT","J8_MILDOT","R3F_J8_MILDOT_DES",
 "R3F_J10","J10","R3F_J10_DES","R3F_J10_MILDOT","J10_MILDOT","R3F_J10_MILDOT_DES","R3F_ZEISS","ZEISS_MILDOT","R3F_ZEISS_DES","R3F_NF","NF_MILDOT","R3F_NF_DES","R3F_NF42","NF42_MILDOT","R3F_NF42_DES","R3F_OB50","OB50","R3F_PIRAT","R3F_PIRAT_DES",
 "R3F_POINTEUR_SURB","R3F_POINTEUR_SURB_DES","R3F_LAMPE_SURB","R3F_LAMPE_SURB_DES","R3F_SIT_COMDE","R3F_AccBox","r3f_armes",
- 
- 
+
+
  "r3f_armes_c","R3F_securite_Ball","R3F_CARTOUCHES","R3F_9x19_Ball","R3F_556x45_Ball","R3F_762x51_Ball","R3F_762x51_Ball2","R3F_762x51_Minimi_Ball","R3F_556x45_Minimi_Ball","R3F_127x99_Ball","R3F_127x99_PEI",
 "R3F_127x99_Ball2","R3F_127x99_PEI2","R3F_AT4CS_AT","R3F_ERYX_Missile","R3F_STINGER_Missile","R3F_APAV40_grenade","R3F_AC58_grenade","R3F_securite_mag","R3F_7Rnd_M4S90","R3F_15Rnd_9x19_PAMAS","R3F_30Rnd_9x19_MP5",
 "R3F_25Rnd_556x45_FAMAS","R3F_25Rnd_556x45_TRACER_FAMAS","R3F_30Rnd_556x45_FAMAS","R3F_30Rnd_556x45_TRACER_FAMAS","R3F_30Rnd_556x45_HK416","R3F_30Rnd_556x45_TRACER_HK416","R3F_10Rnd_762x51_FRF2","R3F_200Rnd_556x45_MINIMI",
 "R3F_100Rnd_762x51_MINIMI","R3F_20Rnd_762x51_HK417","R3F_20Rnd_762x51_TRACER_HK417","R3F_7Rnd_127x99_PGM","R3F_7Rnd_127x99_PEI_PGM","R3F_10Rnd_127x99_M107","R3F_10Rnd_127x99_PEI_M107","R3F_AT4CS_Mag","R3F_ERYX_Mag",
-"R3F_STINGER_mag","R3F_APAV40_Mag","R3F_AC58_Mag","R3F_famas_grenade_fired","R3F_JIM_LR","R3F_JIM_LR_DES","R3F_APAV40","R3F_AC58", 
+"R3F_STINGER_mag","R3F_APAV40_Mag","R3F_AC58_Mag","R3F_famas_grenade_fired","R3F_JIM_LR","R3F_JIM_LR_DES","R3F_APAV40","R3F_AC58",
  "R3F_WeaponStock","R3F_WeaponBox","R3F_M2","R3F_SILENCIEUX_FRF2_DES","R3F_SILENCIEUX_FRF2","R3F_SILENCIEUX_HK417_DES","R3F_SILENCIEUX_HK417","R3F_SILENCIEUX_HK416_DES","R3F_SILENCIEUX_HK416","R3F_SILENCIEUX_FAMAS_DES","R3F_SILENCIEUX_FAMAS","R3F_STINGER","R3F_ERYX","R3F_AT4CS",
  "R3F_PAMAS","R3F_M4S90","R3F_MP5SD","R3F_HK416M_HG_DES","R3F_HK416M_DES","R3F_HK416M_HG","R3F_HK416M","R3F_HK417L_DES","R3F_HK417M_HG_DES",
  "R3F_HK417M_DES","R3F_HK417S_HG_DES","R3F_HK417L","R3F_HK417M_HG","R3F_HK417S_HG","R3F_HK417M","R3F_Minimi_762_HG","R3F_Minimi_762","R3F_Minimi_HG","R3F_Minimi","R3F_M107_DES","R3F_M107","R3F_PGM_Hecate_II_POLY","R3F_PGM_Hecate_II_DES","R3F_PGM_Hecate_II","R3F_FRF2_DES","R3F_FRF2","R3F_Famas_felin_DES","R3F_Famas_felin","R3F_Famas_G2_M203_DES","R3F_Famas_G2_HG_DES","R3F_Famas_G2_DES","R3F_Famas_G2_M203","R3F_Famas_G2_HG","R3F_Famas_G2","R3F_Famas_surb_M203_DES","R3F_Famas_surb_HG_DES","R3F_Famas_surb_DES","R3F_Famas_surb_M203","R3F_Famas_surb_HG","R3F_Famas_surb","R3F_Famas_F1_M203_DES","R3F_Famas_F1_HG_DES","R3F_Famas_F1_DES","R3F_Famas_F1_M203","R3F_Famas_F1_HG","R3F_Famas_F1",
@@ -239,7 +239,7 @@ _patchList =
 "HitGlass4","UAZ_SPG9","ReloadAnim",
 "Glass_##glassID##_hitpoint","BrokenGlass1","BrokenGlass2","BrokenGlass3","BrokenGlass4","BrokenGlass5",
 "BrokenGlass6","BrokenGlass7","BrokenGlass1S","BrokenGlass2S","BrokenGlass3S","BrokenGlass4S",
-"BrokenGlass5S","BrokenGlass6S","BrokenGlass7S", 
+"BrokenGlass5S","BrokenGlass6S","BrokenGlass7S",
 "Trixie_Ghillie","Trixie_Recon","NATO_Box_Base","Trixie_Ghillie_Equipbox","TransportItems","_xx_Trixie_Ghillie_Uniform_01",
 "_xx_Trixie_Ghillie_Uniform_02","_xx_Trixie_Ghillie_Uniform_03","B_Sniper_F","Trixie_Ghillie_01","Trixie_Ghillie_02",
 "Trixie_Ghillie_03","ItemCore","ItemInfo","UniformItem","U_B_GhillieSuit","Trixie_Ghillie_Uniform_01","Trixie_Ghillie_Uniform_02",
@@ -247,12 +247,11 @@ _patchList =
 "GeK_TLC100_Police","GeK_TLC100","wirk_cayenne","COREVLiteCharactersTKA",
 "U_CombatUniLong_B","U_CDGCombatUni_A","U_CDGCombatUni_B","U_CDGCombatUni_C","U_TKSoldierUni_A", "U_TKSoldierUni_B","U_TKOfficerUni_A","U_TKOfficerUni_B","U_TKSpecialUni_A","U_TKSpecialUni_B", "U_CDFSoldierUni_A","U_CDFOfficerUni_A","U_TKLocalUni_A","U_TKLocalUni_B","U_TKLocalUni_C", "U_TKLocalUni_D","U_TKLocalUni_E","U_TKLocalUni_F","U_DressTKLocalUni_A_A","U_DressTKLocalUni_A_B", "U_DressTKLocalUni_A_C","U_DressTKLocalUni_A_D","U_DressTKLocalUni_A_E","U_DressTKLocalUni_B_A", "U_DressTKLocalUni_B_B","U_DressTKLocalUni_B_C","U_DressTKLocalUni_B_D","U_DressTKLocalUni_B_E", "U_DressTKLocalUni_C_A","U_DressTKLocalUni_C_B","U_DressTKLocalUni_C_C","U_DressTKLocalUni_C_D", "U_DressTKLocalUni_C_E","U_DressTKLocalUni_D_A","U_DressTKLocalUni_D_B","U_DressTKLocalUni_D_C", "U_DressTKLocalUni_D_D","U_DressTKLocalUni_D_E","U_DressTKLocalUni_E_A","U_DressTKLocalUni_E_B", "U_DressTKLocalUni_E_C","U_DressTKLocalUni_E_D","U_DressTKLocalUni_E_E","V_TacVest_TK", "H_Hat_Taqiyah_A","H_Hat_Taqiyah_B","H_Hat_Taqiyah_C","H_Hat_Taqiyah_D","H_Hat_Taqiyah_E", "H_Hat_Pakol","H_Hat_Kufiya","H_Hat_Kufiya_G","H_Hat_Kufiya_R","H_Hat_Pagri","H_Hat_Pagri_B", "H_Hat_Pagri_C","H_Hat_Turban_A","H_Hat_Turban_B","H_Hat_Turban_C","H_Hat_Turban_D","H_Hat_Turban_E", "H_Hat_Face_Cover","H_Hat_Face_Cover_Black","H_Hat_Face_Cover_Gold","H_Hat_Face_Cover_Green", "H_Hat_Face_Wrap","H_Hat_Face_Wrap_Desert","H_Hat_Face_Wrap_Olive","H_Hat_Face_Wrap_Red", "H_Hat_Face_Wrap_Black","H_Hat_Face_Wrap_Gold","H_Hat_Face_Wrap_White","H_Hat_Face_Balaclava_T", "U_TKLocalCombat_A","U_TKLocalCombat_B","U_TKLocalCombat_C","U_TKLocalCombat_D","U_TKLocalCombat_E", "U_TKLocalTactic_A","U_TKLocalTactic_B","U_TKLocalTactic_C","U_TKLocalTactic_D","U_TKLocalTactic_E", "U_TKLocalUniLong_A","U_TKLocalUniLong_B","U_TKLocalUniLong_C","U_TKLocalUniLong_D", "U_TKLocalUniLong_E","U_TerrorCombat_Black","U_TerrorCombat_A","U_CDGCombatUni_D","U_TerrorCombat_B", "H_Hat_Face_Wrap_Dark","H_Hat_Kufiya_B","H_Hat_Kufiya_F","H_Hat_Kufiya_D","H_Hat_Kufiya_C", "H_Hat_Face_Wrap_Sand","H_Hat_Face_Wrap_Flecktarn","H_Hat_Face_Wrap_DPM",
 "Trixie_Recon","Trixie_Sniper_equipbox","Trixie_LSMARK4_Net","Trixie_LSMARK4","Trixie_LSMARK4_Delta", "Trixie_LSMARK4_Delta_Camo","trixie_sb31250","trixie_sb31250_net","Trixie_ANPVS10", "Trixie_ANPVS10_Green","trixie_anpasl","trixie_anpasm","Trixie_ANPVS4","Trixie_Cyclone", "Trixie_Cyclone_Camo","Trixie_Cyclone_Net","trixie_m110","trixie_m110_ng","trixie_m110_ng_black", "trixie_m40a3","trixie_m40a3_ng","trixie_m40a3_clean","trixie_cz750","trixie_cz750_black", "trixie_cz750_ghillie","trixie_awm338","trixie_awm338_black","trixie_awm338_ghillie","trixie_m14dmr", "trixie_m14dmr_ng","trixie_m14dmr_clean","Trixie_M14DMR_Clean_Black","Trixie_M14DMR_NG_Black", "Trixie_M14DMR_NG_Short","Trixie_M14DMR_NG_Black_Short","Trixie_M14DMR_Clean_Pink","trixie_m14", "trixie_m14_black","trixie_m14_green","trixie_m107","trixie_m107_green","trixie_m107_black", "Trixie_AS50","Trixie_M24","Trixie_M24_Clean","Trixie_M24_Black", "Trixie_M24_Black_Clean", "Trixie_MK12","Trixie_MK12_Camo","Trixie_LM308MWS","Trixie_Rangefinder","Trixie_Rangefinder_Tripod", "Trixie_Soflam","Trixie_Soflam_Tripod","Trixie_soflam_tripod_anpvs4","Trixie_M24_Ghillie", "Trixie_ANPVS10_Net","Trixie_ANPVS10_Green_Net","Trixie_ANPASM_Net","Trixie_ANPASL_Net", "Trixie_ANPVS4_Net","Trixie_M68CCO","Trixie_M68CCO_Net","Zasleh2","Trixie_Ranger3", "Trixie_Ranger3_Camo","Trixie_Ranger3_Net","Disable_XEH_Logging"
-,"DAR_MTVR","A3_Bush","A3_Stones","A3_Trees","Project_WetPaint_Mask","Project_WetPaint_Uniform","Project_WetPaint_Weapons","Project_WetPaint_Module","101_editor","HEJ_3D","IVORY_ERJ135","wirk_gtr","ALFR_GeK_Pagani_Zonda","wirk_p90","wirk_acwr"
-,"ALFR_GeK_MF1","ALFR_GeK_MF1_Police","wirk_ferrari_california"
- 
- 
- 
- 
+,"DAR_MTVR","A3_Bush","A3_Stones","A3_Trees","Project_WetPaint_Mask","Project_WetPaint_Uniform","Project_WetPaint_Weapons","Project_WetPaint_Module","101_editor","HEJ_3D","IVORY_ERJ135","wirk_gtr","ALFR_GeK_Pagani_Zonda","wirk_p90","wirk_acwr","ALFR_GeK_MF1","ALFR_GEK_MF1_Police","wirk_ferrari_california"
+
+
+
+
 ];
 
 uiNamespace setVariable["RscDisplayRemoteMissions",displayNull]; //For Spy-Glass..
@@ -293,7 +292,7 @@ _allowedChildren = [
 /*
 	Display Validator
 	Loops through and makes sure none of the displays were modified..
-	
+
 	TODO: Run check every x minutes and validate all displays.
 */
 {
