@@ -819,6 +819,10 @@ switch(_shop) do
 					[
 						["hgun_Rook40_F",nil,8000],
 						["hgun_Pistol_heavy_01_F",nil,10000],
+						["hgun_SA_nambu_type14_F",nil,10000],
+						["8Rnd_8x22_Mag",nil,100],
+						["hgun_SA_makarov_pm_F",nil,12000],
+						["8Rnd_9x18_Mag",nil,100],
 						["hgun_PDW2000_F",nil,15000],
 						["SMG_01_F",nil,20000],
 						["arifle_Mk20C_plain_F",nil,100000],
@@ -836,6 +840,7 @@ switch(_shop) do
 						["C1987_40Rnd_46x30_mp7",nil,200],
 						["wirk_p90",nil,80000],
 						["wirk_p90_mag",nil,100],
+						["arifle_sa80_Sam_F",nil,150000],
 						["SG553",nil,150000],
 						["SG553_CQB",nil,150000],
 						["SG553_GL",nil,150000],
