@@ -278,10 +278,10 @@ sell_array =
 	["artefact",12000],
 	["marijuana",10000],
 	["moonshine",10000],
-	["heroinp",12000],
 	["cocainep",12000],
-	["methp",15000],
-	["uranium",40000],
+	["heroinp",15000],
+	["methp",20000],
+	["uranium",60000],
 
 	["heroinu",1850],
 	["salema",45],
