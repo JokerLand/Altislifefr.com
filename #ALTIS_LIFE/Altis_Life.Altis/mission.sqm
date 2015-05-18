@@ -180,15 +180,15 @@ class Mission
 	{
 		briefingName="Altis Life RPG";
 		overviewText="Altis Life RPG 3.1.3";
-		startWind=0.29999998;
+		startWeather=0;
+		startWind=0;
 		startWindDir=20;
-		startWaves=0.0099999998;
-		startGust=0.19;
-		forecastWind=0.88999999;
-		forecastWaves=0.94999999;
-		forecastGust=1;
+		forecastWeather=0;
+		forecastWind=0;
+		forecastWaves=0;
 		forecastWindDir=360;
 		rainForced=1;
+		lightningsForced=1;
 		wavesForced=1;
 		windForced=1;
 		year=2035;
