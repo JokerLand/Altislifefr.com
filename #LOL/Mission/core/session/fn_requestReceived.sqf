@@ -25,6 +25,7 @@ _mlvl = 0;
 if(playerSide == west) then {_clvl = parseNumber(_this select 7);};
 if(playerSide == independent) then {_mlvl = parseNumber(_this select 7);};
 
+0 cutText [format["Données reçues, traitement en cours...\nNom : %1\nNiveau Admin : %2\nRang Police : %3\nRang SAMU : %4\nNiveau Donateur : %5\n\nID JOUEUR : %6",profileName,parseNumber(_this select 4),_clvl,_mlvl,parseNumber(_this select 5),getPlayerUID player],"BLACK FADED"];
 0 cutFadeOut 9999999;
 
 //Parse basic player information.
