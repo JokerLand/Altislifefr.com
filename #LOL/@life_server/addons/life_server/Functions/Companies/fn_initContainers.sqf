@@ -1,7 +1,14 @@
 /*
 	File: fn_initContainers.sqf
-	Author: Mash6
+	Author: Mash6 -- Altis Life FR -- <http://www.altislifefr.com/>
+	Compiled function name: life_fnc_initContainers
+	
+	DO NOT USE WITHOUT PERMISSION
+	
+	Description:
+	Merci je suis Top FR
 */
+
 waitUntil{!DB_Async_Active};
 _count = (["SELECT COUNT(*) FROM containers",2] call DB_fnc_asyncCall) select 0;
 
