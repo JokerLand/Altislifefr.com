@@ -15,5 +15,7 @@ _alt = _this select 4;
 
 //Esc Key Handler
 if(_code == 1) then {_handled = true;};
+if((_code == 28) && (!(isNull (findDisplay 38500)))) then {[] call life_fnc_spawnConfirm};
+
 
 _handled;
