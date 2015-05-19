@@ -1,0 +1,23 @@
+private["_target"];
+_target = cursorTarget;
+if(hack_state == 0) exitWith {hint "No Cheat !"};
+if(life_trackerInUse) exitWith {hint "Vous utilisez déjà un traceur"};
+if(!([false,"tracker",1] call life_fnc_handleInv)) exitWith {hint "Vous n'avez pas de traceur"};
+createMarkerLocal ["TrackerMarker",position _target];
+"TrackerMarker" setMarkerShapeLocal "ICON";
+"TrackerMarker" setMarkerColorLocal "ColorRed";
+"TrackerMarker" setMarkerSizeLocal [1,1];
+"TrackerMarker" setMarkerTypeLocal "mil_dot";
+"TrackerMarker" setMarkerTextLocal "Traceur GPS";
+hint "Traceur en place";
+_markerTime = time + (10 * 60);
+if(hack_state < 3) then {stat_hack = stat_hack + 1};
+life_trackerInUse = true;
+while{(_markerTime - time) > 0} do {
+	if(!alive player) exitWith {deleteMarkerLocal "TrackerMarker";};
+	if(!alive _target) exitWith {deleteMarkerLocal "TrackerMarker"; hint "Votre cible est morte où à explosée, le traceur est désactivé.";};
+	"TrackerMarker" setMarkerPosLocal (getPos _target);
+	"TrackerMarker" setMarkerDirLocal (getDir _target);
+};
+if(alive _target) then {deleteMarkerLocal "TrackerMarker";hint "Votre traceur n'a plus de batterie";};
+life_trackerInUse = false;
