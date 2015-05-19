@@ -24,4 +24,3 @@ switch (playerSide) do {
 };
 _packet pushBack life_acceptedRules;
 [_packet,"DB_fnc_updateRequest",false,false] spawn life_fnc_MP;
-[] call SOCK_fnc_updateStats;

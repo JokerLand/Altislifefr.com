@@ -9,7 +9,6 @@ class Socket_Reciever
 		class insertPlayerInfo {};
 		class updateRequest {};
 		class syncData {};
-		class updateStats {};
 		class updatePartial {};
 	};
 };
