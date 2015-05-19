@@ -39,10 +39,6 @@ diag_log format["Time to complete: %1 (in seconds)",(diag_tickTime - _tickTime)]
 diag_log format["Result: %1",_queryResult];
 diag_log "-------------------------------------------------------";
 
-waitUntil{sleep (random 0.3); !DB_Async_Active};
-_tickTime2 = diag_tickTime;
-_queryResult2 = [_query2,2] call DB_fnc_asyncCall;
-
 if(typeName _queryResult == "STRING") exitWith {
 	[[],"SOCK_fnc_insertPlayerInfo",_ownerID,false,true] spawn life_fnc_MP;
 };
@@ -96,4 +92,4 @@ switch (_side) do {
 	};
 };
 
-[[_queryResult,_queryResult2],"SOCK_fnc_requestReceived",_ownerID,false] spawn life_fnc_MP;
+[_queryResult,"SOCK_fnc_requestReceived",_ownerID,false] spawn life_fnc_MP;

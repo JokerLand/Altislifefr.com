@@ -4,7 +4,7 @@
 	
 	Description:
 	Ain't got time to describe it, READ THE FILE NAME!
-*/
+
 private["_uid","_chem","_hack","_hunt","_drive","_endu","_meca","_query","_thread"];
 _uid = [_this,0,"",[""]] call BIS_fnc_param;
 _chem = [_this,1,0,[0]] call BIS_fnc_param;
@@ -91,3 +91,4 @@ diag_log format["QUERY: %1",_query];
 diag_log format["Time to complete: %1 (in seconds)",(diag_tickTime - _tickTime)];
 diag_log format["Result: %1",_queryResult];
 diag_log "------------------------------------------------";
+*/

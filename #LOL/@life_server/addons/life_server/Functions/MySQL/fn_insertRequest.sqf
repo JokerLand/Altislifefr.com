@@ -34,13 +34,13 @@ if(typeName _queryResult == "STRING") exitWith {[[],"SOCK_fnc_dataQuery",(owner 
 if(count _queryResult != 0) exitWith {[[],"SOCK_fnc_dataQuery",(owner _returnToSender),false] spawn life_fnc_MP;};
 
 //Clense and prepare some information.
-_name = [_name] call DB_fnc_mresString; //Clense the name of bad chars.
+_name = [_name] call DB_fnc_mresString;
 _alias = [[_name]] call DB_fnc_mresArray;
 _money = [_money] call DB_fnc_numberSafe;
 _bank = [_bank] call DB_fnc_numberSafe;
 
 //Prepare the query statement..
-_query = format["INSERT INTO players (playerid, name, cash, bankacc, aliases, cop_licenses, med_licenses, civ_licenses, civ_gear, cop_gear, rules, bounties,stic_com,stic_notes,stic_want) VALUES('%1', '%2', '%3', '%4', '%5','""[]""','""[]""','""[]""','""[]""','""[]""','0','""[]""','""[]""','""[]""','')",
+_query = format["INSERT INTO players (playerid, name, cash, bankacc, aliases, cop_licenses, med_licenses, civ_licenses, civ_gear, cop_gear, rules, bounties, stic_com, stic_notes, stic_want) VALUES('%1', '%2', '%3', '%4', '%5','""[]""','""[]""','""[]""','""[]""','""[]""','0','""[]""','""[]""','""[]""','')",
 	_uid,
 	_name,
 	_money,
@@ -48,16 +48,6 @@ _query = format["INSERT INTO players (playerid, name, cash, bankacc, aliases, co
 	_alias
 ];
 
-_query2 = format["INSERT INTO stats (uid, chem, hack, hunt, drive, endu, meca, medic, lockpick, boom, holdup, surv, coppoints, civpoints, mine, runned, drived, chem_state, hack_state, hunt_state, drive_state, endu_state, meca_state, medic_state, lockpick_state, boom_state, holdup_state, surv_state, civ_state, cop_state, mine_state, rebpoints, reb_state, drivePoints, hack_quest) VALUES('%1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0','0','0','0','0','0','0','0','0','0','0','0','0','0','0','0','12','0')",_uid];
-
 waitUntil {!DB_Async_Active};
 [_query,1] call DB_fnc_asyncCall;
-waitUntil {!DB_Async_Active};
-_tickTime = diag_tickTime;
-_queryResult2 = [_query2,1] call DB_fnc_asyncCall;
-diag_log "------------- Insert Query Request -------------";
-diag_log format["QUERY: %1",_query2];
-diag_log format["Time to complete: %1 (in seconds)",(diag_tickTime - _tickTime)];
-diag_log format["Result: %1",_queryResult2];
-diag_log "------------------------------------------------";
 [[],"SOCK_fnc_dataQuery",(owner _returnToSender),false] spawn life_fnc_MP;

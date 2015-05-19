@@ -1,6 +1,6 @@
-author = "Tonic Modified by Sam & Mash6";
-onLoadName = "Altis Life: Evolution";
-onLoadMission = "www.altislife-evolution.fr";
+author = "Tonic Modified by Mash6";
+onLoadName = "AltisLifeFr.com";
+onLoadMission = "http://altislifefr.com/";
 joinUnassigned = 1;
 respawn = BASE;
 respawndelay = 1;
@@ -11,8 +11,6 @@ respawnDialog = 0;
 LoadScreen  = "textures\lod_screen.jpg";
 briefing = 0;
 debriefing = 0;
-
-#include "VAS\menu.hpp"
 
 class Header
 {

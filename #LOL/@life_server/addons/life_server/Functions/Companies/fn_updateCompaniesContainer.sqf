@@ -1,7 +1,14 @@
 /*
 	File: fn_updateCompaniesContainer.sqf
-	Author: Mash6
+	Author: Mash6 -- Altis Life FR -- <http://www.altislifefr.com/>
+	Compiled function name: life_fnc_updateCompaniesContainer
+	
+	DO NOT USE WITHOUT PERMISSION
+	
+	Description:
+	Merci je suis Top FR
 */
+
 private["_house"];
 _house = [_this,0,ObjNull,[ObjNull]] call BIS_fnc_param;
 if(isNull _house) exitWith {};
