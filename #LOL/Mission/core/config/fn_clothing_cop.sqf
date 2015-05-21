@@ -10,10 +10,8 @@ private["_filter","_ret"];
 _filter = [_this,0,0,[0]] call BIS_fnc_param;
 //Classname, Custom Display name (use nil for Cfg->DisplayName, price
 
-if(__GETC__(life_coplevel) < 2) exitWith {hint "Vous n'avez pas le grade nécessaire";closeDialog 0;};
-
 //Shop Title Name
-ctrlSetText[3103,"Intendance de la Gendarmerie Nationale"];
+ctrlSetText[3103,"Intendance de la Police Nationale"];
 
 _ret = [];
 switch (_filter) do
@@ -21,25 +19,46 @@ switch (_filter) do
 	//Uniforms
 	case 0:
 	{
-		_ret pushBack ["ALE_GendUniform","Uniforme de Gendarme",0];
-		if(__GETC__(life_coplevel) > 5) then
+		_ret pushBack ["U_Rangemaster","Uniforme de Policier",0];
+		if(__GETC__(life_coplevel) > 1) then
 		{
-			_ret pushBack ["gign_uniform","Uniforme GIGN",0];
+			_ret set[count _ret,["ALFR_FR_police_tenu",nil,2000]];
+		};
+		if(__GETC__(life_coplevel) > 2) then
+		{
+			_ret set[count _ret,["U_PMC_CombatUniformRS_SSBPBB","Tenue BAC",1500]];
+			_ret set[count _ret,["U_PMC_BluPolo_GrnPants","Tenue BAC",1500]];
+			_ret set[count _ret,["U_PMC_WhtPolo_BluPants","Tenue BAC",1500]];
+			_ret set[count _ret,["U_PMC_GTShirt_SJeans","Tenue BAC",1500]];
+			_ret set[count _ret,["U_PMC_BlkTShirt_DJeans","Tenue BAC",1500]];
+			_ret set[count _ret,["U_PMC_BlackPoloShirt_BeigeCords","Tenue BAC",1500]];
+			_ret set[count _ret,["U_PMC_CombatUniformLS_SSGPBB","Tenue BAC",1500]];
+			_ret set[count _ret,["U_PMC_CombatUniformLS_ChckDBS_GPSB","Tenue BAC",1500]];
+			_ret set[count _ret,["U_PMC_CombatUniformLS_ChckP_BPBB","Tenue BAC",1500]];
+			_ret set[count _ret,["U_PMC_CombatUniformRS_BSGPSB","Tenue BAC",1500]];
+			_ret set[count _ret,["U_PMC_CombatUniformRS_GSSPBB","Tenue BAC",1500]];
 		};
 	};
 	
 	//Hats
 	case 1:
 	{
-		_ret pushBack ["H_Cap_blu",nil,0];
-		_ret pushBack ["ALE_H_Calot",nil,0];
-		if(__GETC__(life_coplevel) > 5) then
+		_ret set[count _ret,["H_MilCap_blue",nil,75]];
+	
+		if(__GETC__(life_coplevel) > 1) then
 		{
-			_ret pushBack ["gign_helmet","Casque GIGN",0];
+			_ret set[count _ret,["H_Beret_blk",nil,100]];
+			_ret set[count _ret,["H_Beret_C",nil,100]];
 		};
+
+		if(__GETC__(life_coplevel) > 3) then
+		{
+			_ret set[count _ret,["H_Beret_02",nil,150]];
+		};
+
 		if(__GETC__(life_coplevel) > 6) then
 		{
-			_ret pushBack ["H_Beret_Colonel",nil,0];
+			_ret set[count _ret,["H_Beret_Colonel",nil,200]];
 		};
 	};
 	
@@ -48,35 +67,36 @@ switch (_filter) do
 	{
 		_ret = 
 		[
-			["G_Shades_Black",nil,0],
-			["G_Shades_Blue",nil,0],
-			["G_Sport_Blackred",nil,0],
-			["G_Sport_Checkered",nil,0],
-			["G_Sport_Blackyellow",nil,0],
-			["G_Sport_BlackWhite",nil,0],
-			["G_Aviator",nil,0],
-			["G_Squares",nil,0],
-			["G_Lowprofile",nil,0],
-			["G_Combat",nil,0]
+			["G_Shades_Black",nil,25],
+			["G_Shades_Blue",nil,20],
+			["G_Sport_Blackred",nil,20],
+			["G_Sport_Checkered",nil,20],
+			["G_Sport_Blackyellow",nil,20],
+			["G_Sport_BlackWhite",nil,20],
+			["G_Aviator",nil,75],
+			["G_Squares",nil,10],
+			["G_Lowprofile",nil,30],
+			["G_Combat",nil,55],
+			["G_Goggles_VR",nil,500],
+			["G_Tactical_Clear",nil,500],
+			["G_Diving",nil,500]
 		];
-		if(__GETC__(life_coplevel) > 5) then
-		{
-			_ret pushBack ["G_Balaclava_blk","Cagoule du GIGN",0];
-		};
 	};
 	
 	//Vest
 	case 3:
 	{
-		_ret pushBack ["bulletproof_gend_vest",nil,0];
-		if(__GETC__(life_coplevel) > 2) then
-		{
-			_ret pushBack ["bulletproof_pj_vest",nil,0];
-		};
-		if(__GETC__(life_coplevel) > 5) then
-		{
-			_ret pushBack ["gign_tacVest","Gilet Pare-Balle GIGN",0];
-		};
+		_ret =
+		[
+			["V_TacVest_blk_POLICE",nil,5000],
+			["V_Police_heavy",nil,5000],
+			["V_Police_light",nil,5000],
+			["V_Police_medium",nil,5000],
+			["V_TacVestIR_blk",nil,15000],
+			["V_PlateCarrier1_blk",nil,20000],
+			["V_PlateCarrierInd_PMC_blk",nil,19000],
+			["V_RebreatherB",nil,5000]
+		];
 	};
 	
 	//Backpacks
@@ -84,12 +104,15 @@ switch (_filter) do
 	{
 		_ret =
 		[
-			["cl3_police_tacticalbelt",nil,0]
+			["B_Kitbag_cbr",nil,800],
+			["B_FieldPack_cbr",nil,500],
+			["B_AssaultPack_cbr",nil,700],
+			["B_Kitbag_blk",nil,1700],
+			["B_Bergen_sgg",nil,2500],
+			["B_Carryall_cbr",nil,3500],
+			["ALFR_Police_Bags",nil,1100],
+			["B_UAV_01_backpack_F",nil,5000]
 		];
-		if(__GETC__(life_coplevel) > 5) then
-		{
-			_ret pushBack ["ALE_GIGNBackpack","Sac à Dos GIGN",0];
-		};
 	};
 };
 

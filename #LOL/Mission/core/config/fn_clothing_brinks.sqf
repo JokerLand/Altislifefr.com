@@ -16,7 +16,6 @@ switch (_filter) do
 	case 0:
 	{
 		[
-			["U_Marshal",nil,1000]
 		];
 	};
 	
@@ -24,7 +23,6 @@ switch (_filter) do
 	case 1:
 	{
 		[
-			["H_Cap_blu",nil,150]
 		];
 	};
 	
@@ -32,11 +30,6 @@ switch (_filter) do
 	case 2:
 	{
 		[
-			["G_Sport_Blackred",nil,20],
-			["G_Shades_Blue",nil,20],
-			["G_Sport_Blackyellow",nil,20],
-			["G_Squares",nil,10],
-			["G_Aviator",nil,100]
 		];
 	};
 	
@@ -44,8 +37,6 @@ switch (_filter) do
 	case 3:
 	{
 		[
-			["V_TacVestIR_blk",nil,500],
-			["cl3_gangcut_regular",nil,500]
 		];
 	};
 	
@@ -53,7 +44,6 @@ switch (_filter) do
 	case 4:
 	{
 		[
-			["cl3_police_tacticalbelt",nil,2500]
 		];
 	};
 };

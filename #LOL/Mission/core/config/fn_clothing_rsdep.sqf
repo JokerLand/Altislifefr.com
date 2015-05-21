@@ -16,7 +16,6 @@ switch (_filter) do
 	case 0:
 	{
 		[
-			["ALE_RsDep","Uniforme R.S Dépannage",1500]
 		];
 	};
 	
@@ -24,10 +23,6 @@ switch (_filter) do
 	case 1:
 	{
 		[
-			["H_Cap_blu",nil,150],
-			["H_Cap_grn",nil,150],
-			["H_Cap_red",nil,150],
-			["H_Cap_blk",nil,150]
 		];
 	};
 	
@@ -35,10 +30,6 @@ switch (_filter) do
 	case 2:
 	{
 		[
-			["G_Sport_Blackred",nil,20],
-			["G_Sport_Blackyellow",nil,20],
-			["G_Squares",nil,10],
-			["G_Aviator",nil,100]
 		];
 	};
 	
@@ -53,7 +44,6 @@ switch (_filter) do
 	case 4:
 	{
 		[
-			["B_Bergen_rgr",nil,4500]
 		];
 	};
 };

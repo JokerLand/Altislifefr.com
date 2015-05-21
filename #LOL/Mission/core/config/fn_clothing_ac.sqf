@@ -18,9 +18,6 @@ switch (_filter) do
 	case 0:
 	{
 		[
-			["rds_uniform_Functionary1",nil,1300],
-			["rds_uniform_Functionary2",nil,1300],
-			["U_I_G_resistanceLeader_F",nil,850]
 		];
 	};
 	
@@ -28,7 +25,6 @@ switch (_filter) do
 	case 1:
 	{
 		[
-			["H_Watchcap_blk",nil,900]
 		];
 	};
 	
@@ -36,7 +32,6 @@ switch (_filter) do
 	case 2:
 	{
 		[
-			["Shemagh_FaceGry",nil,20]
 		];
 	};
 	
@@ -44,7 +39,6 @@ switch (_filter) do
 	case 3:
 	{
 		[
-			["V_PlateCarrier1_blk",nil,4500]
 		];
 	};
 	
@@ -52,7 +46,6 @@ switch (_filter) do
 	case 4:
 	{
 		[
-			["B_AssaultPack_blk",nil,1500]
 		];
 	};
 };
