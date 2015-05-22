@@ -23,10 +23,20 @@ if(isDedicated && isNil("life_market_prices")) then
     "life_market_prices" addPublicVariableEventHandler
     {
         diag_log format["Market prices updated! %1", _this select 1];
-    }; 
-    
+    };
+
 };
 
+player addEventHandler["Fired",{
+        _unit = _this select 0;
+        _ammo = _this select 4;
+
+        if(_ammo isKindOf "Melee") exitWith {
+                _cfg = (configFile>>"CfgAmmo">>_ammo>>"Melee");
+                _anim = getText(_cfg>>"anim");
+                _unit playActionNow _anim;
+        };
+}];
 
 StartProgress = true;
 
