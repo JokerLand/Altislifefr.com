@@ -126,6 +126,8 @@ switch(_shop) do
 						["8Rnd_12Gauge_Pellets",nil,80],
 						["wirk_p90",nil,10000],
 						["wirk_p90_mag",nil,100],
+						["alfr_sam_stg58",nil,20000],
+						["20Rnd_762x51_Mag",nil,90],
 						["arifle_sa80_Sam_F",nil,10000],
 						["30Rnd_556x45_Stanag",nil,100],
 						["wirk_acwr",nil,20000],
@@ -191,6 +193,8 @@ switch(_shop) do
 						["R3F_Famas_G2_HG",nil,12500],
 						["wirk_p90",nil,10000],
 						["wirk_p90_mag",nil,100],
+						["alfr_sam_stg58",nil,20000],
+						["20Rnd_762x51_Mag",nil,90],
 						["arifle_sa80_Sam_F",nil,10000],
 						["30Rnd_556x45_Stanag",nil,100],
 						["wirk_acwr",nil,20000],
@@ -264,6 +268,8 @@ switch(_shop) do
 						["R3F_Famas_G2_HG",nil,12500],
 						["wirk_p90",nil,10000],
 						["wirk_p90_mag",nil,100],
+						["alfr_sam_stg58",nil,20000],
+						["20Rnd_762x51_Mag",nil,90],
 						["arifle_sa80_Sam_F",nil,10000],
 						["30Rnd_556x45_Stanag",nil,100],
 						["wirk_acwr",nil,20000],
@@ -345,6 +351,8 @@ switch(_shop) do
 						["R3F_Famas_G2_HG",nil,12500],
 						["wirk_p90",nil,10000],
 						["wirk_p90_mag",nil,100],
+						["alfr_sam_stg58",nil,20000],
+						["20Rnd_762x51_Mag",nil,90],
 						["arifle_sa80_Sam_F",nil,10000],
 						["30Rnd_556x45_Stanag",nil,100],
 						["wirk_acwr",nil,20000],
@@ -427,6 +435,8 @@ switch(_shop) do
 						["30Rnd_556x45_Stanag",nil,100],
 						["wirk_acwr",nil,20000],
 						["wirk_acwr_mag",nil,100],
+						["alfr_sam_stg58",nil,20000],
+						["20Rnd_762x51_Mag",nil,90],
 						["R3F_Famas_G2_HG",nil,12500],
 						["R3F_30Rnd_556x45_TRACER_FAMAS",nil,100],
 						["R3F_HK416M_HG",nil,15000],
@@ -521,6 +531,8 @@ switch(_shop) do
 						["30Rnd_556x45_Stanag",nil,100],
 						["wirk_acwr",nil,20000],
 						["wirk_acwr_mag",nil,100],
+						["alfr_sam_stg58",nil,20000],
+						["20Rnd_762x51_Mag",nil,90],
 						["R3F_Famas_G2_HG",nil,12500],
 						["R3F_30Rnd_556x45_TRACER_FAMAS",nil,100],
 						["R3F_HK416M_HG",nil,15000],
@@ -605,9 +617,14 @@ switch(_shop) do
 						["hlc_rifle_saiga12k",nil,150000],
 						["hlc_rifle_akmgl",nil,215000],
 						["hlc_rifle_aek971",nil,250000],
+						["SG553",nil,250000],
+						["SG553_CQB",nil,250000],
+						["SG553_GL",nil,250000],
 						["Trixie_M14",nil,275000],
 						["Trixie_M14_Green",nil,275000],
 						["Trixie_M14_Black",nil,275000],
+						["alfr_sam_stg58",nil,275000],
+						["20Rnd_762x51_Mag",nil,90],
 						["wirk_acwr",nil,300000],
 						["optic_ACO_grn",nil,3500],
 						["hlc_optic_kobra",nil,3500],
@@ -621,6 +638,8 @@ switch(_shop) do
 						["30Rnd_556x45_Stanag",nil,300],
 						["10Rnd_762x54_Mag",nil,500],
 						["30Rnd_65x39_caseless_green",nil,275],
+						["30Rnd_56x45_GP90",nil,100],
+						["30Rnd_56x45_GP90_Armour_Piercing",nil,500],
 						["hlc_30Rnd_545x39_B_AK",nil,300],
 						["hlc_30Rnd_545x39_t_ak",nil,300],
 						["hlc_30Rnd_545x39_EP_ak",nil,300],
@@ -694,7 +713,7 @@ switch(_shop) do
 			};
 		};
 	};
-	
+
 	case "fla":
 	{
 		switch(true) do
@@ -741,7 +760,7 @@ switch(_shop) do
 			};
 		};
 	};
-	
+
 	case "armer":
 	{
 		switch(true) do
@@ -772,7 +791,7 @@ switch(_shop) do
 						["R3F_20Rnd_762x51_TRACER_HK417",nil,100],
 						["arifle_sa80_Sam_F",nil,10000],
 						["30Rnd_556x45_Stanag",nil,100],
-						["wirk_acwr",nil,300000],
+						["wirk_acwr",nil,150000],
 						["wirk_acwr_mag",nil,300],
 						["HK430",nil,6500],
 						["HK430_30Rnd_556x45",nil,80],
@@ -807,6 +826,10 @@ switch(_shop) do
 					[
 						["hgun_Rook40_F",nil,10000],
 						["16Rnd_9x21_Mag",nil,25],
+						["hgun_SA_makarov_pm_F",nil,12000],
+						["8Rnd_9x18_Mag",nil,100],
+						["alfr_sam_browning_hp",nil,12000],
+						["8Rnd_9x18_Mag",nil,100],
 						["hgun_Pistol_heavy_02_F",nil,12000],
 						["6Rnd_45ACP_Cylinder",nil,50],
 						["hgun_ACPC2_F",nil,15000],
@@ -831,16 +854,20 @@ switch(_shop) do
 	{
 				["Donator Shop",
 					[
+					    ["BaseballBat_Swing",nil,1],
+						["ALFR_BaseballBat",nil,500],
+						["hgun_SA_nambu_type14_F",nil,500],
+						["8Rnd_8x22_Mag",nil,5],
+						["ALFR_BaseballBat_Grey",nil,800],
+						["ALFR_Machete",nil,1200],
 						["hgun_Rook40_F",nil,8000],
 						["hgun_Pistol_heavy_01_F",nil,10000],
-						["hgun_SA_nambu_type14_F",nil,10000],
-						["8Rnd_8x22_Mag",nil,100],
-						["hgun_SA_makarov_pm_F",nil,12000],
-						["8Rnd_9x18_Mag",nil,100],
 						["hgun_PDW2000_F",nil,15000],
 						["SMG_01_F",nil,20000],
 						["arifle_Mk20C_plain_F",nil,100000],
 						["SIG_P226",nil,8000],
+						["alfr_sam_mr96",nil,15000],
+						["6Rnd_45ACP_Cylinder",nil,50],
 						["C1987_MP7",nil,50000],
 						["C1987_MP7_ucp",nil,50000],
 						["C1987_MP7_urb",nil,50000],
@@ -855,9 +882,9 @@ switch(_shop) do
 						["wirk_p90",nil,80000],
 						["wirk_p90_mag",nil,100],
 						["arifle_sa80_Sam_F",nil,150000],
-						["SG553",nil,150000],
-						["SG553_CQB",nil,150000],
-						["SG553_GL",nil,150000],
+						["alfr_sam_g36c",nil,150000],
+						["alfr_sam_stg58",nil,200000],
+						["20Rnd_762x51_Mag",nil,90],
 						["LMG_Mk200_F",nil,200000],
 						["LMG_Zafir_F",nil,350000],
 						["srifle_LRR_camo_F",nil,400000],
@@ -883,8 +910,6 @@ switch(_shop) do
 						["ToolKit",nil,250],
 						["itemgps",nil,150],
 						["FirstAidKit",nil,150],
-						["30Rnd_56x45_GP90",nil,100],
-						["30Rnd_56x45_GP90_Armour_Piercing",nil,500],
 						["1Rnd_Smoke_Grenade_shell",nil,100],
 						["1Rnd_SmokeRed_Grenade_shell",nil,100],
 						["1Rnd_SmokeGreen_Grenade_shell",nil,100],
@@ -1008,7 +1033,7 @@ switch(_shop) do
 			]
 		];
 	};
-    
+
     case "uranium":
     {
         switch(true) do
