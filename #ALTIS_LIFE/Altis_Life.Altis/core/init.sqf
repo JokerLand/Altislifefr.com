@@ -108,5 +108,16 @@ life_fnc_garageRefund = compileFinal
 
 [] execVM "core\init_survival.sqf";
 
+// MELEE MAGS HOTFIX
+[] spawn {
+	_mweapons = ["ALFR_BaseballBat","ALFR_BaseballBat_Grey","ALFR_Machete"];
+	while{true} do {
+		if(((secondaryWeapon player) IN _mweapons) && !("BaseballBat_Swing" IN (magazines player))) then {
+			player addMagazine "BaseballBat_Swing";
+		};
+		sleep 3;
+	};
+};
+
 __CONST__(life_paycheck,life_paycheck); //Make the paycheck static.
 player enableFatigue (__GETC__(life_enableFatigue));
