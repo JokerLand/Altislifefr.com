@@ -108,6 +108,18 @@ life_fnc_garageRefund = compileFinal
 
 [] execVM "core\init_survival.sqf";
 
+// MELEE ANIMS HOTFIX
+player addEventHandler["Fired",{
+        _unit = _this select 0;
+        _ammo = _this select 4;
+
+        if(_ammo isKindOf "Melee") exitWith {
+                _cfg = (configFile>>"CfgAmmo">>_ammo>>"Melee");
+                _anim = getText(_cfg>>"anim");
+                _unit playActionNow _anim;
+        };
+}];
+
 // MELEE MAGS HOTFIX
 [] spawn {
 	_mweapons = ["ALFR_BaseballBat","ALFR_BaseballBat_Grey","ALFR_Machete"];
