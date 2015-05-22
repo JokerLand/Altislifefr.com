@@ -854,7 +854,6 @@ switch(_shop) do
 	{
 				["Donator Shop",
 					[
-					    ["BaseballBat_Swing",nil,1],
 						["ALFR_BaseballBat",nil,500],
 						["hgun_SA_nambu_type14_F",nil,500],
 						["8Rnd_8x22_Mag",nil,5],
