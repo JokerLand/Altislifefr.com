@@ -1,10 +1,10 @@
 #define ST_RIGHT 0x01
 
-class osefStatusBar {
+class altiStatusBar {
 	idd = -1;
-	onLoad = "uiNamespace setVariable ['osefStatusBar', _this select 0]";
-	onUnload = "uiNamespace setVariable ['osefStatusBar', objNull]";
-	onDestroy = "uiNamespace setVariable ['osefStatusBar', objNull]";
+	onLoad = "uiNamespace setVariable ['altiStatusBar', _this select 0]";
+	onUnload = "uiNamespace setVariable ['altiStatusBar', objNull]";
+	onDestroy = "uiNamespace setVariable ['altiStatusBar', objNull]";
 	fadein = 0;
 	fadeout = 0;
 	duration = 10e10;
@@ -24,10 +24,10 @@ class osefStatusBar {
 			size = 0.03;
 			type = 13;
 			style = 1;
-			text="Loading server info...";
+			text="Chargement...";
 			class Attributes {
 				align="right";
-				color = "#FF8700";
+				color = "#007e00";
 			};
 		};
 	};
