@@ -25,7 +25,7 @@ if(_zone == "") exitWith {
 
 _isWater = surfaceIsWater (getPosASL player);
 
-if((_zone in _sousmarin) && ((!_isWater) OR (animationState player != "Swimming"))) exitWith {
+if((_zone in _sousmarin) && (!_isWater)) exitWith {
 		life_action_inUse = false;
 		hint "Vous devez être sous l'eau.";
 	};
