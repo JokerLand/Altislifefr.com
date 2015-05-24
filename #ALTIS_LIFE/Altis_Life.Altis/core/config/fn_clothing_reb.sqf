@@ -1,7 +1,7 @@
 /*
 	File: fn_clothing_reb.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Master configuration file for Reb shop.
 */
@@ -27,7 +27,7 @@ switch (_filter) do
 			["rds_uniform_Woodlander1","Tenue Gangster 1",10000],
 			["rds_uniform_Woodlander2","Tenue Gangster 2",10000],
 			["rds_uniform_Woodlander3","Tenue Gangster 3",10000],
-            ["rds_uniform_Woodlander4","Tenue Gangster 4",10000],			
+            ["rds_uniform_Woodlander4","Tenue Gangster 4",10000],
 			["U_IG_Guerilla1_1",nil,5000],
 			["U_I_G_Story_Protagonist_F",nil,7500],
 			["U_I_G_resistanceLeader_F",nil,11500],
@@ -132,7 +132,7 @@ switch (_filter) do
             ["U_TerrorCombat_Black","Tenue terroriste 3",75000]
 		];
 	};
-	
+
 	//Hats
 	case 1:
 	{
@@ -202,10 +202,21 @@ switch (_filter) do
             ["H_Hat_Pagri_C","Turban 6",1000],
             ["H_Hat_Pagri_B","Turban 7",1000],
             ["H_Hat_Turban_E","Turban 8",1000],
-            ["H_Hat_Ushanka","Chapka noire 1",1000]
+            ["H_Hat_Ushanka","Chapka noire 1",1000],
+            ["H_ALFR_Heist_Mask_1",nil,5000],
+            ["H_ALFR_Heist_Mask_2",nil,5000],
+            ["H_ALFR_Heist_Mask_3",nil,5000],
+            ["H_ALFR_Heist_Mask_4",nil,5000],
+            ["H_ALFR_Heist_Mask_5",nil,5000],
+            ["H_ALFR_Heist_Mask_6",nil,5000],
+            ["H_ALFR_Heist_Mask_7",nil,5000],
+            ["H_ALFR_Samurai_Mask",nil,7000],
+            ["H_ALFR_Sheep_Mask",nil,7000],
+            ["H_ALFR_Gasmask",nil,7000],
+            ["H_ALFR_Dallas_Mask",nil,10000]
 		];
 	};
-	
+
 	//Glasses
 	case 2:
 	{
@@ -243,7 +254,7 @@ switch (_filter) do
 			["R3F_cagoule_punisher",nil,10000]
 		];
 	};
-	
+
 	//Vest
 	case 3:
 	{
@@ -257,7 +268,7 @@ switch (_filter) do
 			["V_BandollierB_cbr",nil,4500]
 		];
 	};
-	
+
 	//Backpacks
 	case 4:
 	{
