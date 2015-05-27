@@ -23067,11 +23067,11 @@ class Mission
 		};
 		class Item1762
 		{
-			position[]={124.64265,-0.0065960684,109.6604};
+			position[]={9453.1367,121.80209,15851.349};
 			azimut=-37.520302;
 			id=2018;
 			side="EMPTY";
-			vehicle="Land_BuoyBig_F";
+			vehicle="Land_HelipadEmpty_F";
 			skill=0.60000002;
 			init="this allowDamage false; this enableSimulation false; (getPos this nearestObject 654789) setDamage 1; delh = [0,0,0] nearestObject 654766; delh hideObject true; delh = [0,0,0] nearestObject 654771; delh hideObject true; delh = [0,0,0] nearestObject 654772; delh hideObject true; delh = [0,0,0] nearestObject 654842; delh hideObject true; delh = [0,0,0] nearestObject 654843; delh hideObject true; delh = [0,0,0] nearestObject 654857; delh hideObject true; delh = [0,0,0] nearestObject 654836; delh hideObject true; (getPos this nearestObject 654788) setDamage 1;  (getPos this nearestObject 654787) setDamage 1;  (getPos this nearestObject 654726) setDamage 1;  (getPos this nearestObject 654819) setDamage 1;  (getPos this nearestObject 654825) setDamage 1;  (getPos this nearestObject 654826) setDamage 1;  (getPos this nearestObject 654827) setDamage 1;  (getPos this nearestObject 654822) setDamage 1;";
 		};

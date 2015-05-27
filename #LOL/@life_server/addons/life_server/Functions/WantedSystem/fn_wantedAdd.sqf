@@ -32,7 +32,6 @@ switch(_type) do
 	case "482": {_type = ["Intention de Trafiquer de la Drogue",5000]};
 	case "483": {_type = ["Trafic de Drogue",9500]};
 	case "459": {_type = ["Cambriolage",6500]};
-	case "919": {_type = ["Vol d'Organes",20000]};
 	case "920": {_type = ["Braconnage",5000]};
 	case "9024": {_type = ["Conduite sans permis",5000]};
 	case "9023": {_type = ["Excès de Vitesse",3000]};

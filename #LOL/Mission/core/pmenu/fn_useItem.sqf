@@ -31,16 +31,6 @@ switch (true) do
 		(group player) reveal fed_bank;
 		[cursorTarget] spawn life_fnc_blastingCharge;
 	};
-	case (_item == "kidney"):
-	{
-		if(([false,_item,1] call life_fnc_handleInv)) then
-		{
-			player setVariable["missingOrgan",false,true];
-			life_thirst = 100;
-			life_hunger = 100;
-			player setFatigue .5;
-		};
-	};
 	case (_item == "defusekit"): {
 		[cursorTarget] spawn life_fnc_defuseKit;
 	};

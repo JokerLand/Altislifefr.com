@@ -14,8 +14,6 @@ switch (playerSide) do
 		//Rob person
 		life_actions = life_actions + [player addAction[localize "STR_pAct_RobPerson",life_fnc_robAction,"",0,false,false,"",'
 		!isNull cursorTarget && player distance cursorTarget < 3.5 && isPlayer cursorTarget && animationState cursorTarget == "Incapacitated" && !(cursorTarget getVariable["robbed",FALSE]) ']];
-		life_actions = life_actions + [player addAction["Crocheter Menottes",life_fnc_lockPickMen,"",0,false,false,"",'
-		(player getVariable "restrained") && (lockpick_state == 4) && ((vehicle player) == player)']];
 		life_actions = life_actions + [player addAction["Dépecer",life_fnc_gatherRabbit,"",0,false,false,"",'
 		!isNull cursorTarget && ((typeOf cursorTarget) == "Rabbit_F") && (!alive cursorTarget) && !life_gathering && life_inv_huntingKnife > 0']];
 		life_actions = life_actions + [player addAction["Voler l'Argent",life_fnc_holdupVehicle,"",0,false,false,"",'
@@ -47,14 +45,6 @@ switch (playerSide) do
 };
 life_actions = life_actions + [player addAction["Faire le Plein",life_fnc_refuel,"",0,false,false,"",'(count(nearestObjects [player,["Land_fs_feed_F"],5])>0) && ((vehicle player) != player) && ((driver (vehicle player)) == player) && ((fuel (vehicle player)) < 0.98) && ((speed (vehicle player)) < 3)']];
 // Tracker sur Véhicule
-life_actions = life_actions + [player addAction["Poser un Traceur",life_fnc_track,"",0,false,false,"",'
-!isNull cursorTarget && (cursorTarget isKindOf "Man") && (isPlayer cursorTarget) && ((vehicle player) == player) && !life_trackerInUse && !life_action_inUse && hack_state > 2 && life_inv_tracker > 0']];
-life_actions = life_actions + [player addAction["Poser un Traceur",life_fnc_track,"",0,false,false,"",'
-!isNull cursorTarget && (cursorTarget isKindOf "Car") && ((vehicle player) == player) && !life_trackerInUse && !life_action_inUse && hack_state > 0 && life_inv_tracker > 0']];
-life_actions = life_actions + [player addAction["Poser un Traceur",life_fnc_track,"",0,false,false,"",'
-!isNull cursorTarget && (cursorTarget isKindOf "Air") && ((vehicle player) == player) && !life_trackerInUse && !life_action_inUse && hack_state > 1 && life_inv_tracker > 0']];
-life_actions = life_actions + [player addAction["Voler un Organe",life_fnc_takeOrgans,"",0,false,false,"",'
-(medic_state > 0) && !isNull cursorTarget && cursorTarget isKindOf "Man" && (isPlayer cursorTarget) && alive cursorTarget && cursorTarget distance player < 3.5 && !(cursorTarget getVariable ["missingOrgan",FALSE]) && !(player getVariable "Escorting") && !(player getVariable "hasOrgan") && !(player getVariable "transporting") && animationState cursorTarget == "Incapacitated"']];
 life_actions = life_actions + [player addAction["S'assoir",mash6_fnc_sitDown,"",0,false,false,"",'
 !isNull cursorTarget && ((typeOf cursorTarget) == "Land_CampingChair_V2_F") && ((vehicle player) == player) && !life_action_inUse && !onChair']];
 life_actions = life_actions + [player addAction["Se lever",mash6_fnc_standUp,"",0,false,false,"",'

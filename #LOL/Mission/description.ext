@@ -3,12 +3,12 @@ onLoadName = "AltisLifeFr.com";
 onLoadMission = "http://altislifefr.com/";
 joinUnassigned = 1;
 respawn = BASE;
-respawndelay = 1;
+respawndelay = 5;
 disabledAI = true;
-disableChannels[]={0,1,2,6};
+disableChannels[]={0,1,2};
 enableDebugConsole = 0;
 respawnDialog = 0;
-LoadScreen  = "textures\lod_screen.jpg";
+LoadScreen  = "images\test.jpg";
 briefing = 0;
 debriefing = 0;
 
@@ -16,7 +16,7 @@ class Header
 {
 	gameType = RPG;
 	minPlayers = 1;
-	maxPlayers = 98;
+	maxPlayers = 248;
 };
 
 wreckLimit = 3;
@@ -44,19 +44,182 @@ class CfgFunctions
 
 class CfgSounds
 {
-	class welcome
+	sounds[] = {};
+	class MachineMinage
 	{
-		name = "welcome";
-		sound[] = {"\sounds\welcome.ogg", 1.0, 1};
+		name = "MachineMinage";
+		sound[] = {"\sounds\minage_machine_altislifefr.ogg", 1.0, 1};
 		titles[] = {};
 	};
+	
+    class alarme_magasin
+    {
+        name = "alarme_magasin";
+        sound[] = {"\sounds\alarme_magasin.ogg", 1, 1};
+        titles[] = {};
+	};
+    
+    class alarme_douane
+    {
+        name = "alarme_douane";
+        sound[] = {"\sounds\alarme_douane.ogg", 1, 1};
+        titles[] = {};
+	};
+	
+	class spraycan
+    {
+        name = "spraycan";
+        sound[] = {"\sounds\spraycan.ogg", 1, 1};
+        titles[] = {};
+	};
+    
+    class casMusic
+    {
+        name = "casMusic";	
+		sound[] = {"\sounds\casino.ogg", 1, 1};
+		titles[] = {};
+    };
+    
+    class slot_spin
+	{
+		name = "slot_spin";
+		sound[] = {"\sounds\slot_spin.ogg", 1, 1};
+		titles[] = {1, ""};
+	};
+    
+    class slot_payoff
+	{
+		name = "slot_payoff";
+		sound[] = {"\sounds\slot_payoff.ogg", 1, 1};
+		titles[] = {1, ""};
+	};
+	
+	class SirenLong
+	{
+		name = "SirenLong";
+		sound[] = {"\sounds\Siren_Long.ogg", 1.0, 1};
+		titles[] = {};
+	};
+	
+	class SirenMedic
+	{
+		name = "SirenMedic";
+		sound[] = {"\sounds\Siren_Medic.ogg", 1.0, 1};
+		titles[] = {};
+	};
+	
+	class tazersound
+	{
+		name = "Tazersound";
+		sound[] = {"\sounds\tazer.ogg", 0.25, 1};
+		titles[] = {};
+	};
+	
+	class flashbang
+	{
+		name = "flashbang";
+		sound[] = {"\sounds\flashbang.ogg", 1.0, 1};
+		titles[] = {};
+	};
+        
+        class Patdown 
+        {
+		name = "Patdown";
+		sound[] = {"\sounds\patdown.ogg", .90, 1};
+		titles[] = {};
+        };
+	
+	class Intro
+	  {
+		name="Intro";
+		sound[]={"\sounds\intro.ogg",0.9,1};
+		titles[] = {};
+	  };
+  
+    class reverse_truck
+  {
+    name = "reverse_truck";
+    sound[] = {"\sounds\truck_reverse.ogg", 1.0, 1};
+    titles[] = {};
+  };
+  
+  class BeepBeep
+  {
+    name = "BeepBeep";
+    sound[] = {"\sounds\BeepBeep.ogg", 0.9, 1};
+    titles[] = {};
+  };
+  class Beep
+  {
+    name = "Beep";
+    sound[] = {"\sounds\Beep.ogg", 0.9, 1};
+    titles[] = {};
+  };
+  class Bag
+  {
+	name = "bag";
+	sound[] = {"\sounds\bag.ogg", 1, 1};
+	titles[] = {};
+  };
+  class Caching
+  {
+	name = "caching";
+	sound[] = {"\sounds\caching.ogg", 1, 1};
+	titles[] = {};
+  };
+  class Message
+  {
+   name = "message";
+   sound[] = {"\sounds\message.ogg", 0.95, 0.95};
+   titles[] = {};
+  };
+  class Mining
+  {
+	name = "mining";
+    sound[] = {"\sounds\mining.ogg", 0.95, 0.95};
+    titles[] = {};
+  };
+  class Cuff
+  {
+    name = "cuff";
+    sound[] = {"\sounds\cuff.ogg", 0.95, 0.95};
+    titles[] = {};
+  };
+  class Eat
+  {
+    name = "eat";
+    sound[] = {"\sounds\eat.ogg", 0.95, 0.95};
+    titles[] = {};
+  };
+  class alert
+  {
+    name = "alert";
+    sound[] = {"\sounds\alert.ogg", 1.0, 1};
+    titles[] = {};
+
+  };
+  
+  class car_alarm
+	{
+		name="car_alarm";
+		sound[] = {"\sounds\car_alarm.ogg", 1, 1};
+		titles[] = {};
+	
+	};
+	
+	class bank_alarm
+  {
+    name = "bank_alarm";
+    sound[] = {"\sounds\bank.ogg", 1.0, 1};
+    titles[] = {};
+  };
 };
 
 class CfgDebriefing
 {
 	class NotWhitelisted
 	{
-		title = "Mission échouée";
+		title = "DÉCONNECTÉ";
 		subtitle = "Vous n'êtes pas whitelisté pour utiliser ce slot.";
 		description = "Vous n'êtes pas autorisé à utiliser ce slot car vous n'avez les permissions requises, essayez en un autre.";
 		pictureBackground = "";
@@ -66,7 +229,7 @@ class CfgDebriefing
 	
 	class RefuseRules
 	{
-		title = "DECONNECTE";
+		title = "DÉCONNECTÉ";
 		subtitle = "Vous avez refusé les règles";
 		description = "Vous avez été déconnecté car vous avez refusé les règles !";
 		pictureBackground = "";
@@ -76,9 +239,9 @@ class CfgDebriefing
 	
 	class Blacklisted
 	{
-		title = "Mission Failed";
-		subtitle = "You are blacklisted from cops";
-		description = "You are not allowed to be a cop due to previous actions and the admins have removed you from being a cop.";
+		title = "DÉCONNECTÉ";
+		subtitle = "Vous êtes blacklisté des policiers.";
+		description = "Vous n'êtes pas autorisé à jouer policier dû à un blacklist de la part d'un admin.";
 		pictureBackground = "";
 		picture = "";
 		pictureColor[] = {0,0.3,0.6,1};
@@ -108,7 +271,7 @@ class CfgNotifications
 	
 	class DeliveryAssigned
 	{
-		title = "Delivery Job Accepted";
+		title = "Boulot de livraison accepté";
 		iconPicture = "\A3\ui_f\data\map\mapcontrol\taskIcon_ca.paa";
 		description = "%1";
 		duration = 10;
@@ -126,7 +289,7 @@ class CfgNotifications
 	
 	class DeliveryFailed
 	{
-		title = "Delivery Job Failed";
+		title = "Boulot de livraison échoué";
 		iconPicture = "\A3\ui_f\data\map\mapcontrol\taskiconfailed_ca.paa";
 		description = "%1";
 		duration = 7;
@@ -135,7 +298,7 @@ class CfgNotifications
 	
 	class DeliverySucceeded
 	{
-		title = "Delivery Job Completed";
+		title = "Boult de livraison terminé";
 		iconPicture = "\A3\ui_f\data\map\mapcontrol\taskIcondone_ca.paa";
 		description = "%1";
 		duration = 6;
@@ -144,7 +307,7 @@ class CfgNotifications
 	
 	class TextMessage
 	{
-		title = "Received A Text Message";
+		title = "Nouveau message";
 		iconPicture = "icons\messagenew.paa";
 		description = "%1";
 		duration = 10;
@@ -153,7 +316,7 @@ class CfgNotifications
 	
 	class PoliceDispatch
 	{
-		title = "911 Dispatch Center";
+		title = "17 - POLICE SECOURS";
 		iconPicture = "icons\messagepolice.paa";
 		description = "%1";
 		duration = 10;

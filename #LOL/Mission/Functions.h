@@ -26,7 +26,7 @@ class SpyGlass
 		class observe{};
 		class payLoad{};
 		class variableCheck{};
-		class initSpy {};
+		//class initSpy {};
 	};
 };
 
@@ -108,7 +108,6 @@ class Life_Client_Core
 		class dpFinish {};
 		class dropFishingNet {};
 		class getDPMission {};
-		class takeOrgans {};
 		class postBail {};
 		class refuel {};
 		class surrender {};
@@ -317,7 +316,6 @@ class Life_Client_Core
 		class zoneCreator {};
 		class demoChargeTimer {};
 		class civLoadout {};
-		class hasOrgan {};
 		class rsLights {};
 		class rsLightsAction {};
 	};
