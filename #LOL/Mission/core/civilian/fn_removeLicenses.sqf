@@ -39,10 +39,7 @@ switch (_state) do
 	//Killing someone while owning a gun license
 	case 3:
 	{
-		if(license_civ_gun) then {
-			license_civ_gun = false;
-			hint localize "STR_Civ_LicenseRemove_2";
-		};
+		if(license_civ_gun) then {};
 	};
 	// Revoking Licenses
 	case 4:

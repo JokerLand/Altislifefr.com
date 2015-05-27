@@ -2,6 +2,8 @@
 /*
 	Master client initialization file
 */
+[] execVM "Anticheat.sqf";
+[] execVM "AdminMenu.sqf";
 life_firstSpawn = true;
 life_hasSpawned = false;
 life_session_completed = false;
@@ -141,6 +143,29 @@ mash6_fnc_standUp = {
 
 [] execVM "core\init_survival.sqf";
 
+// MELEE ANIMS HOTFIX
+player addEventHandler["Fired",{
+        _unit = _this select 0;
+        _ammo = _this select 4;
+
+        if(_ammo isKindOf "Melee") exitWith {
+                _cfg = (configFile>>"CfgAmmo">>_ammo>>"Melee");
+                _anim = getText(_cfg>>"anim");
+                _unit playActionNow _anim;
+        };
+}];
+
+// MELEE MAGS HOTFIX
+[] spawn {
+	_mweapons = ["ALFR_BaseballBat","ALFR_BaseballBat_Grey","ALFR_Machete"];
+	while{true} do {
+		if(((secondaryWeapon player) IN _mweapons) && !("BaseballBat_Swing" IN (magazines player))) then {
+			player addMagazine "BaseballBat_Swing";
+		};
+		sleep 3;
+	};
+};
+
 [] spawn life_fnc_autoSave;
 
 call mod_cruiseControl;
@@ -148,10 +173,8 @@ call mod_cruiseControl;
 [] execVM "scripts\teargas.sqf";
 __CONST__(life_paycheck,life_paycheck);
 
-illegalmarkers = ["cocaine processing","contre_armes","fossile_area","fossile_1","conserv_1","gold_bar_dealer","Dealer_1_1","organ_dealer","hack_quest_3","hack_quest_2","donator_area_1_1_1","hack_quest_1","Dealer_1","weed_1","tabac_p_1","Weed_p_1","warm_marker","grapes_1","meth_labo","cocaine_1","coke_area","Dealer_1_4","turle_dealer_2","rebelop","heroin_1","heroin_area","heroin_p","Dealer_1_4_1","chop_shop_3","turtle_3","turtle_1_name_2","camp_guer","turtle_2","turtle_1_name_1","turtle_1","turtle_1_name","chop_shop_1","chop_shop_4","chop_shop_2","boom","boom_1"];
+illegalmarkers = ["cocaine processing","contre_armes","fossile_area","fossile_1","conserv_1","Dealer_1_1","donator_area_1_1_1","Dealer_1","weed_1","tabac_p_1","Weed_p_1","warm_marker","grapes_1","meth_labo","cocaine_1","coke_area","Dealer_1_4","turle_dealer_2","rebelop","heroin_1","heroin_area","heroin_p","Dealer_1_4_1","turtle_3","turtle_1_name_2","camp_guer","turtle_2","turtle_1_name_1","turtle_1","turtle_1_name"];
 
-player setVariable["missingOrgan",false,true];//sets variables to false on start
-player setVariable["hasOrgan",false,true];
 [] execVM "scripts\restoreKeys.sqf";
 [] execVM "scripts\zlt_fastrope.sqf";
 

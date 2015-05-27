@@ -115,5 +115,5 @@ if(_hasLicense) then
 	life_cash = life_cash - _cost;
 	life_is_processing = false;
 };	
-_ui = "osefStatusBar" call BIS_fnc_rscLayer;
-_ui cutRsc["osefStatusBar","PLAIN"];
+_ui = "altiStatusBar" call BIS_fnc_rscLayer;
+_ui cutRsc["altiStatusBar","PLAIN"];

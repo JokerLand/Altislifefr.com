@@ -88,5 +88,5 @@ if((_building getVariable["locked",false])) then {
 	_building setVariable["locked",false,true];
 };
 //[[getPlayerUID player,profileName,"459"],"life_fnc_wantedAdd",false,false] spawn life_fnc_MP;
-_ui = "osefStatusBar" call BIS_fnc_rscLayer;
-_ui cutRsc["osefStatusBar","PLAIN"];
+_ui = "altiStatusBar" call BIS_fnc_rscLayer;
+_ui cutRsc["altiStatusBar","PLAIN"];

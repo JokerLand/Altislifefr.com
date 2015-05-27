@@ -55,5 +55,5 @@ if(_type == 2) then {
 };
 life_action_inUse = false;
 5 cutText ["","PLAIN"];
-_ui = "osefStatusBar" call BIS_fnc_rscLayer;
-_ui cutRsc["osefStatusBar","PLAIN"];
+_ui = "altiStatusBar" call BIS_fnc_rscLayer;
+_ui cutRsc["altiStatusBar","PLAIN"];

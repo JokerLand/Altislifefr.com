@@ -24,8 +24,8 @@ while{true} do
 
 if(life_interrupted) exitWith {
 	5 cutText ["","PLAIN"];
-	_ui = "osefStatusBar" call BIS_fnc_rscLayer;
-	_ui cutRsc["osefStatusBar","PLAIN"];
+	_ui = "altiStatusBar" call BIS_fnc_rscLayer;
+	_ui cutRsc["altiStatusBar","PLAIN"];
 };
 
 _type = actualProofs select 0;

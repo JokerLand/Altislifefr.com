@@ -31,8 +31,8 @@ if(isNull _cop) exitWith {};
 };
 
 titleText[format[localize "STR_Cop_Retrained",_cop getVariable["realname",name _cop]],"PLAIN"];
-player say3D "cuff"; 
-[] call life_fnc_reinitSurvTime;
+	player say3D "cuff"; 
+
 while {player getVariable "restrained"} do
 {
 	if(vehicle player == player) then {

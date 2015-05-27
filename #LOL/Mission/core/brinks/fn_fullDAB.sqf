@@ -62,5 +62,5 @@ if(_money > _moneySup) then {
 titleText["\n\n\n\n\n\n\n\n\n\n\n\nVous avez rempli le DAB, vous gagnez 4000€ pour votre travail !","PLAIN"];
 life_atmcash = life_atmcash + 4000;
 _dab setVariable["lastFulled",(time + 1200)];
-_ui = "osefStatusBar" call BIS_fnc_rscLayer;
-_ui cutRsc["osefStatusBar","PLAIN"];
+_ui = "altiStatusBar" call BIS_fnc_rscLayer;
+_ui cutRsc["altiStatusBar","PLAIN"];

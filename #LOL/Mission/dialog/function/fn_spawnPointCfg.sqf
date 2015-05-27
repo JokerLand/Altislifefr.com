@@ -1,10 +1,10 @@
 /*
 	File: fn_spawnPointCfg.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Master configuration for available spawn points depending on the units side.
-	
+
 	Return:
 	[Spawn Marker,Spawn Name,Image Path]
 */
@@ -17,69 +17,159 @@ switch (_side) do
 	case west:
 	{
 		_return = [
-			["cop_spawn_3","Kavala","icons\gendarme.paa"],
-			["cop_spawn_2","Pyrgos","icons\gendarme.paa"],
-			["cop_spawn_athira","Athira","icons\gendarme.paa"],
-			["cop_spawn_1","Neochori","icons\gendarme.paa"],
-			["cop_spawn_4","Aéroport","icons\gendarme.paa"],
-			["cop_spawn_gign","GIGN","icons\gign_base.paa"]
+			["cop_spawn_1","Kavala HQ","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+			["cop_spawn_2","Pyrgos HQ","\a3\ui_f\data\map\MapControl\fuelstation_ca.paa"],
+			["cop_spawn_3","Athira HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"],
+			["cop_spawn_4","Air HQ","\a3\ui_f\data\map\Markers\NATO\b_air.paa"],
+			["cop_spawn_5","HW Patrol","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]
 		];
 	};
-	
+
 	case civilian:
 	{
 		_return = [
-					["civ_spawn_1","Kavala","icons\town.paa"],
-					["civ_spawn_5","Pyrgos","icons\town.paa"],
-					["civ_spawn_athira","Athira","icons\town.paa"],
-					["civ_spawn_4","Neochori","icons\town.paa"],
-					["civ_spawn_panagia","Panagia","icons\town.paa"]
-				];
-			if(license_civ_rebel) then {
-					_return pushBack ["terror_spawn","Guérilla","icons\rebel.paa"];
-			};
-			
-			if(license_civ_gis) then {
-					_return pushBack ["spawn_gis","GIS","icons\gis.paa"];
-			};
-			
-			if(license_civ_scarface) then {
-					_return pushBack ["scarface_spawn","Scarface","icons\scarface.paa"];
-					_return pushBack ["bar_spawn","Bar Scar.","icons\scarface.paa"];
-			};
-			
-			if(license_civ_pn) then {
-					_return pushBack ["pn_spawn","PN","icons\petitnavire.paa"];
-			};
-			
-			if(license_civ_transevo) then {
-					_return pushBack ["transevo_spawn","TransEvo","icons\transevo.paa"];
-			};
-			
-			if(license_civ_ac) then {
-					_return pushBack ["ac_spawn","AC","icons\ac.paa"];
-			};
+			["civ_spawn_1","Kavala","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+			["civ_spawn_2","Pyrgos","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+			["civ_spawn_3","Athira","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+			["civ_spawn_4","Sofia","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
+		];
+
+				if(license_civ_rebel && playerSide == civilian) then {
+				_return set[count _return,["reb_spawn_1","Camp Rebelle","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]];
+		};
+
+                if(license_he && playerSide == civilian) then {
+				_return set[count _return,["spawn_he","Hawk Eye HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]];
+		};
+
+                if(license_lmc && playerSide == civilian) then {
+				_return set[count _return,["lmc_spawn","Legion of Murdeous Chaos HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]];
+		};
+
+                 if(license_bgf && playerSide == civilian) then {
+				_return set[count _return,["spawn_bgf","Black Guerrilla Family HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]];
+		};
+
+                 if(license_fh && playerSide == civilian) then {
+				_return set[count _return,["spawn_fh","Force et Honneur HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]];
+		};
+
+                  if(license_sal && playerSide == civilian) then {
+				_return set[count _return,["spawn_sal","Salamander HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]];
+		};
+
+                if(license_ms && playerSide == civilian) then {
+				_return set[count _return,["spawn_ms","Mara Salvatrucha HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]];
+		};
+
+                 if(license_ng && playerSide == civilian) then {
+				_return set[count _return,["spawn_ng","Ngheta HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]];
+		};
+
+                 if(license_fonda && playerSide == civilian) then {
+				_return set[count _return,["spawn_fon","Fondateurs HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]];
+		};
+
+                 if(license_egp && playerSide == civilian) then {
+				_return set[count _return,["spawn_egp","E.G.P HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]];
+		};
+
+                if(license_fmg && playerSide == civilian) then {
+				_return set[count _return,["fmg_spawn","For My Games HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]];
+		};
+
+                 if(license_sop && playerSide == civilian) then {
+				_return set[count _return,["spawn_sop","Soprano HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]];
+		};
+
+                 if(license_bmg && playerSide == civilian) then {
+				_return set[count _return,["bmg_spawn","BMG HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]];
+		};
+
+                 if(license_olympia && playerSide == civilian) then {
+				_return set[count _return,["olympia_spawn","Olympia HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]];
+		};
+
+                 if(license_rosthein && playerSide == civilian) then {
+				_return set[count _return,["rosthein_spawn","Rosthein HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]];
+		};
+		
+				if(license_top && playerSide == civilian) then {
+				_return set[count _return,["spawn_top","T.O.P6 HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]];
+		};
+		
+				if(license_moa && playerSide == civilian) then {
+				_return set[count _return,["spawn_moa","Les Autres HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]];
+		};
+		
+				if(license_raid && playerSide == civilian) then {
+				_return set[count _return,["spawn_tor","EC HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]];
+		};
+		
+				if(license_grf && playerSide == civilian) then {
+				_return set[count _return,["spawn_grf","G.R.F HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]];
+		};
+		
+				if(license_mw && playerSide == civilian) then {
+				_return set[count _return,["spawn_mw","Moscow HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]];
+		};
+		
+				if(license_poc && playerSide == civilian) then {
+				_return set[count _return,["spawn_poc","P.O.C HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]];
+		};
+		
+				if(license_yk && playerSide == civilian) then {
+				_return set[count _return,["spawn_yk","Yakusa HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]];
+		};
+		
+				if(license_cro && playerSide == civilian) then {
+				_return set[count _return,["spawn_cro","Cronik HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]];
+		};
+		
+				if(license_cn && playerSide == civilian) then {
+				_return set[count _return,["spawn_cn","C-N HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]];
+		};
+		
+				if(license_ec && playerSide == civilian) then {
+				_return set[count _return,["spawn_torres","Torres HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]];
+		};
+		
+				if(license_gr && playerSide == civilian) then {
+				_return set[count _return,["spawn_gr","Grims Reapers HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]];
+		};
+		
+				if(license_armer && playerSide == civilian) then {
+				_return set[count _return,["spawn_armer","Armée HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]];
+		};
+				
+				if(license_fla && playerSide == civilian) then {
+				_return set[count _return,["spawn_fla","FLA HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]];
+		};
+		
+				if(license_reb1 && playerSide == civilian) then {
+				_return set[count _return,["spawn_reb1","SPQR HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]];
+		};
+		
+				if(license_tlt && playerSide == civilian) then {
+				_return set[count _return,["tlt_spawn","Armée HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]];
+		};
 
 		if(count life_houses > 0) then {
 			{
 				_pos = call compile format["%1",_x select 0];
 				_house = nearestBuilding _pos;
-				if((typeOf _house) in ["Land_i_Garage_V1_F","Land_i_Garage_V2_F"]) then {
-					_houseName = "Garage";
-					_return pushBack [format["house_%1",_house getVariable "uid"],_houseName,"icons\garage.paa"];
-				} else {
-					_houseName = "Maison";
-					_return pushBack [format["house_%1",_house getVariable "uid"],_houseName,"icons\house.paa"];
-				};
+				_houseName = getText(configFile >> "CfgVehicles" >> (typeOf _house) >> "displayName");
+
+				_return pushBack [format["house_%1",_house getVariable "uid"],_houseName,"\a3\ui_f\data\map\MapControl\lighthouse_ca.paa"];
 			} foreach life_houses;
-		};	
+		};
 	};
-	
+
 	case independent: {
 		_return = [
-			["medic_spawn_1","Kavala","\a3\ui_f\data\map\MapControl\hospital_ca.paa"],
-			["medic_spawn_3","Pyrgos","\a3\ui_f\data\map\MapControl\hospital_ca.paa"],
-			["medic_spawn_2","Neochori","\a3\ui_f\data\map\MapControl\hospital_ca.paa"]
+			["medic_spawn_1","Hopital Kavala","\a3\ui_f\data\map\MapControl\hospital_ca.paa"],
+			["medic_spawn_2","Hopital Athira","\a3\ui_f\data\map\MapControl\hospital_ca.paa"],
+			["medic_spawn_3","Hopital Pyrgos","\a3\ui_f\data\map\MapControl\hospital_ca.paa"]
 		];
 	};
 };

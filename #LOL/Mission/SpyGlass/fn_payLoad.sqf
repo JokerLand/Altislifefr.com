@@ -24,6 +24,7 @@ __CONST__(JJJJ_MMMM___EEEEEEE_LLYYSSTTIICCC_SHIT_RE,"No");
 __CONST__(JJJJ_MMMM___EEEEEEE_LLYYSSTTIICCC_SHIT_RE_OLD,"No");
 __CONST__(JJJJ_MMMM___EEEEEEE_SPAWN_VEH,"No");
 __CONST__(JJJJ_MMMM___EEEEEEE_SPAWN_WEAPON,"No");
+
 //Make sure all functions were offloaded to the client..
 waitUntil {!isNil "SPY_fnc_menuCheck" && !isNil "SPY_fnc_variablecheck" && !isNil "SPY_fnc_cmdMenuCheck"};
 
@@ -36,7 +37,7 @@ if(__GETC__(SPY_cfg_runPatchCheck)) then {
 		if(isClass _patchEntry) then {
 			if(!((configName _patchEntry) in (call SPY_cfg_patchList))) exitWith {
 				[[profileName,getPlayerUID player,(configName _patchEntry)],"SPY_fnc_cookieJar",false,false] spawn life_fnc_MP;
-				[[profileName,format["Unknown Addon Patch: %1",(configName _patchEntry)]],"SPY_fnc_notifyAdmins",true,false] spawn life_fnc_MP;
+				[[profileName,format["Addon Inconnu: %1",(configName _patchEntry)]],"SPY_fnc_notifyAdmins",true,false] spawn life_fnc_MP;
 				sleep 0.5;
 				["SpyGlass",false,false] call BIS_fnc_endMission;
 			};
@@ -55,7 +56,7 @@ _allowedChildren = [
 {
 	if(!((configName _x) in _allowedChildren)) exitWith {
 		[[profileName,getPlayerUID player,"Modified_MPInterrupt"],"SPY_fnc_cookieJar",false,false] spawn life_fnc_MP;
-		[[profileName,"Devcon like executor detected"],"SPY_fnc_notifyAdmins",true,false] spawn life_fnc_MP;
+		[[profileName,"Debug Console detecter"],"SPY_fnc_notifyAdmins",true,false] spawn life_fnc_MP;
 		sleep 0.5;
 		["SpyGlass",false,false] call BIS_fnc_endMission;
 	};
@@ -86,9 +87,8 @@ if(_onUnload != "[""onUnload"",_this,""RscDisplayInventory"",'IGUI'] call compil
 [] spawn SPY_fnc_variableCheck;
 
 //Create a no-recoil hack check.
-//Reminder to Tonic, dafuq?
-/*
 [] spawn {
+	waitUntil {(!isNil "life_fnc_moveIn")};
 	while {true} do {
 		if((unitRecoilCoefficient player) < 1) then {
 			[[profileName,getPlayerUID player,"No_recoil_hack"],"SPY_fnc_cookieJar",false,false] spawn life_fnc_MP;
@@ -99,4 +99,3 @@ if(_onUnload != "[""onUnload"",_this,""RscDisplayInventory"",'IGUI'] call compil
 		sleep 1.5;
 	};
 };
-*/

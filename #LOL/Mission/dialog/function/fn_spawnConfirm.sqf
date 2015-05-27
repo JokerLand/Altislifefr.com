@@ -69,8 +69,5 @@ if(life_firstSpawn) then {
 };
 [] call life_fnc_hudSetup;
 
-if(license_civ_transevo) then {life_paycheck = life_paycheck + 1000;};
-if(license_civ_pn) then {life_companyID pushBack 1};
-
 player say2d "welcome";
 life_hasSpawned = true;

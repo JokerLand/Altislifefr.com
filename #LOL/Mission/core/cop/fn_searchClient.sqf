@@ -10,7 +10,6 @@ _cop = [_this,0,Objnull,[objNull]] call BIS_fnc_param;
 if(isNull _cop) exitWith {};
 _inv = [];
 _robber = false;
-diag_log "OKTAMERE3";
 //Illegal items
 {
 	_var = [_x select 0,0] call life_fnc_varHandle;
@@ -21,11 +20,9 @@ diag_log "OKTAMERE3";
 		[false,(_x select 0),_val] call life_fnc_handleInv;
 	};
 } foreach life_illegal_items;
-diag_log "OKTAMERE2";
 if(!life_use_atm) then 
 {
 	life_cash = 0;
 	_robber = true;
 };
-diag_log "OKTAMERE";
 [[player,_inv,_robber],"life_fnc_copSearch",_cop,false] spawn life_fnc_MP;

@@ -2,7 +2,7 @@
 /*
 	File:
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Master configuration list / array for buyable vehicles & prices and their shop.
 */
@@ -12,519 +12,311 @@ if(_shop == "") exitWith {[]};
 _return = [];
 switch (_shop) do
 {
+	case "delta_shop":
+	{
+		_return = [
+			["FLAY_HangGlider",10000],
+			["FLAY_HangGliderBlack",50000]
+		];
+	};
+
 	case "kart_shop":
 	{
 		_return = [
-			["C_Kart_01_Blu_F",3000],
-			["C_Kart_01_Fuel_F",3000],
-			["C_Kart_01_Red_F",3000],
-			["C_Kart_01_Vrana_F",3000]
+			["C_Kart_01_Blu_F",100000],
+			["C_Kart_01_Fuel_F",100000],
+			["C_Kart_01_Red_F",100000],
+			["C_Kart_01_Vrana_F",100000]
 		];
 	};
-	
-	case "bike":
-	{
-		if(__GETC__(life_donator) == 1) then
-		{
-			_return set[count _return,
-			["cl3_xr_1000_black",33000]];
-		};
-	};
-	
-	case "aratv":
-	{
-		_return = [
-			["cl3_transitNews",25000]
-		];
-	};
-	
-	case "aratv_air":
-	{
-		_return = [
-			["dezkit_b206_news",666750]
-		];
-	};
-	
-	case "skate":
-	{
-		_return = [
-			["cl_skatea",200],
-			["cl_skateb",200],
-			["cl_skatec",200],
-			["cl_skated",200],
-			["cl_skatee",200],
-			["cl_skatef",200],
-			["cl_skateg",200],
-			["cl_skateh",200],
-			["cl_skatei",200],
-			["cl_skatej",200],
-			["cl_skatek",200],
-			["cl_skatel",200],
-			["cl_skatem",200],
-			["cl_skaten",200],
-			["cl_skatep",200],
-			["cl_skateq",200],
-			["cl_skater",200],
-			["cl_skates",200],
-			["cl_skatet",200],
-			["cl_skateu",200],
-			["cl_skatev",200],
-			["cl_skatew",200],
-			["cl_skatex",200],
-			["cl_skatey",200]
-		];
-	};
-	
-	case "civ_used_cars":
-	{
-		if(__GETC__(life_donator) == 1) then
-		{
-			_return set[count _return,
-			["B_Quadbike_01_F",840]];
-			_return set[count _return,
-			["RDS_Gaz24_Civ_01",1650]];
-			_return set[count _return,
-			["RDS_Gaz24_Civ_02",1650]];
-			_return set[count _return,
-			["RDS_Gaz24_Civ_03",1650]];
-			_return set[count _return,
-			["cl3_volha_black",1400]];
-			_return set[count _return,
-			["RDS_Golf4_Civ_01",2250]];
-			_return set[count _return,
-			["cl3_golf_mk2_black",1862]];
-			_return set[count _return,
-			["RDS_Octavia_Civ_01",2100]];
-			_return set[count _return,
-			["C_Hatchback_01_F",2282]];
-			_return set[count _return,
-			["cl3_lada_red",2331]];
-			_return set[count _return,
-			["cl3_civic_vti_black",5600]];
-			_return set[count _return,
-			["C_Offroad_01_F",6062]];
-			_return set[count _return,
-			["cl3_polo_gti_black",6762]];
-			_return set[count _return,
-			["civ_mondeo_Black",11200]];
-			_return set[count _return,
-			["C_SUV_01_F",23268]];
-			_return set[count _return,
-			["cl3_suv_black",24500]];
-			_return set[count _return,
-			["cl3_range_rover_black",25900]];
-			_return set[count _return,
-			["C_Van_01_transport_F",28000]];
-			_return set[count _return,
-			["cl3_transit_black",35000]];
-		} else {
-			_return set[count _return,
-			["B_Quadbike_01_F",1200]];
-			_return set[count _return,
-			["cl3_volha_black",2000]];
-			_return set[count _return,
-			["cl3_golf_mk2_black",2660]];
-			_return set[count _return,
-			["RDS_Octavia_Civ_01",3000]];
-			_return set[count _return,
-			["C_Hatchback_01_F",3260]];
-			_return set[count _return,
-			["cl3_lada_red",3330]];
-			_return set[count _return,
-			["cl3_civic_vti_black",8000]];
-			_return set[count _return,
-			["C_Offroad_01_F",8660]];
-			_return set[count _return,
-			["cl3_polo_gti_black",9660]];
-			_return set[count _return,
-			["civ_mondeo_Black",16000]];
-			_return set[count _return,
-			["C_SUV_01_F",33240]];
-			_return set[count _return,
-			["cl3_suv_black",35000]];
-			_return set[count _return,
-			["cl3_range_rover_black",37000]];
-			_return set[count _return,
-			["C_Van_01_transport_F",40000]];
-			_return set[count _return,
-			["cl3_transit_black",50000]];
-		};
-	};
-	
-	case "civ_luxury_cars":
-	{
-		if(__GETC__(life_donator) == 1) then
-		{
-			_return set[count _return,
-			["cl3_taurus_black",74662]];
-			_return set[count _return,
-			["cl3_q7_black",84000]];
-			_return set[count _return,
-			["cl3_e60_m5_black",98000]];
-			_return set[count _return,
-			["cl3_dbs_volante_black",146660]];
-			_return set[count _return,
-			["cl3_defender_110_yellow",107331]];
-			_return set[count _return,
-			["cl3_e63_amg_black",160000]];
-			_return set[count _return,
-			["cl3_insignia_black",119000]];
-		} else {
-			_return set[count _return,
-			["cl3_taurus_black",106660]];
-			_return set[count _return,
-			["cl3_q7_black",120000]];
-			_return set[count _return,
-			["cl3_e60_m5_black",140000]];
-			_return set[count _return,
-			["cl3_defender_110_yellow",153330]];
-			_return set[count _return,
-			["cl3_insignia_black",170000]];
-		};
-	};
-	
-	case "civ_sport_cars":
-	{
-		if(__GETC__(life_donator) == 1) then
-		{
-			_return set[count _return,
-			["C_Hatchback_01_sport_F",88662]];
-			_return set[count _return,
-			["cl3_z4_2008_black",107331]];
-			_return set[count _return,
-			["cl3_440cuda_black",133000]];
-			_return set[count _return,
-			["cl3_lamborghini_gt1_black",163331]];
-			_return set[count _return,
-			["cl3_carrera_gt_black",250000]];
-			_return set[count _return,
-			["cl3_murcielago_black",182000]];
-			_return set[count _return,
-			["cl3_reventon_black",316660]];
-			_return set[count _return,
-			["cl3_458_black",333330]];
-			_return set[count _return,
-			["cl3_r8_spyder_black",261331]];
-			_return set[count _return,
-			["cl3_dodge_charger_s_black",364000]];
-			_return set[count _return,
-			["cl3_aventador_lp7004_black",406000]];
-			_return set[count _return,
-			["cl3_arielatom_black",400000]];
-			_return set[count _return,
-			["cl3_arielatom_race_black",430000]];
-			_return set[count _return,
-			["cl3_veyron_blk_wht",1166660]];
-		} else {
-			_return set[count _return,
-			["C_Hatchback_01_sport_F",126660]];
-			_return set[count _return,
-			["cl3_z4_2008_black",153330]];
-			_return set[count _return,
-			["cl3_440cuda_black",190000]];
-			_return set[count _return,
-			["cl3_lamborghini_gt1_black",233330]];
-			_return set[count _return,
-			["cl3_murcielago_black",260000]];
-			_return set[count _return,
-			["cl3_r8_spyder_black",373330]];
-			_return set[count _return,
-			["cl3_dodge_charger_s_black",520000]];
-			_return set[count _return,
-			["cl3_aventador_lp7004_black",580000]];
-		};
-	};
-	
+
 	case "med_shop":
 	{
-		_return = [
-			["ALE_MedSUV",0],
-			["ALE_MedHayonSport",0]
-		];
+		_return set[count _return,
+		["C_Offroad_01_F",5000]];
+		if(__GETC__(life_mediclevel) > 2) then
+		{
+			_return set[count _return,
+			["C_SUV_01_F",20000]];
+		};
 	};
-	
+
 	case "med_air_hs":
 	{
-		_return = [
-			["ALE_MedOrca",0]
-		];
+			if(__GETC__(life_mediclevel) > 1) then
+			{
+				_return set[count _return,
+				["O_Heli_Light_02_unarmed_F",75000]];
+			};
 	};
-	
-	case "med_air_bell":
+
+	case "civ_car":
 	{
-		_return = [
-			["dezkit_b206_ems",0]
+		_return =
+		[
+			["A3L_VolksWagenGolfGTiblack",3300],
+			["DAR_ImpalaCiv",5500],
+			["A3L_PuntoBlue",6000],
+			["cl3_civic_vti_black",7500],
+			["DAR_FusionCiv",10000],
+			["cl3_taurus_black",12000],
+			["cl3_polo_gti_black",12000],
+			["C_Offroad_01_F",14000],
+			["DAR_TahoeCiv",16000],
+			["C_SUV_01_F",22000],
+			["SAL_AudiCiv",22000],
+			["cl3_insignia_black",25000],
+			["cl3_q7_black",45000],
+			["I_G_Offroad_01_F",55000],
+			["DAR_M3CivGrey",40000],
+			["cl3_e63_amg_black",50000],
+			["cl3_range_rover_black",50000],
+			["SAL_IROCCiv",95000],
+			["SAL_77TRANSAMCiv",100000],
+			["cl3_dodge_charger_s_black",110000],
+			["DAR_ChallengerCivWhite",120000],
+			["cl3_z4_2008_black",120000],
+			["GeK_TLC100",150000],
+			["cl3_carrera_gt_black",150000],
+			["cl3_dbs_volante_black",150000],
+            ["wirk_cayenne",270000],
+          /*["wirk_gtr",270000],*/
+			["Jonzie_Viper",270000],
+			["cl3_r8_spyder_black",270000],
+			["cl3_458_black",275000],
+			["cl3_murcielago_black",300000],
+			["cl3_reventon_black",320000],
+			["wirk_ferrari_california",400000],
+			["cl3_lamborghini_gt1_black",1000000],
+			["ALFR_GeK_MF1",1500000],
+            ["cl3_arielatom_black",250000]
 		];
 	};
 	
+	
+	case "armer_car":
+	{
+		_return =
+		[
+			["B_Heli_Light_01_F",75000],
+			["B_MRAP_01_F",1000000],
+			["GeK_TLC100",100000],
+			["GeK_TLC100_Police",150000],
+			["B_Heli_Transport_03_unarmed_F",1000000]
+		];
+	};
+
+	case "civ_truck":
+	{
+			_return =
+			[
+				["C_Van_01_transport_F",40000],
+				["cl3_transit_black",50000],
+				["C_Van_01_box_F",60000],
+				["C_Offroad_01_repair_F",75000],
+				["I_Truck_02_transport_F",75000],
+				["I_Truck_02_covered_F",100000],
+				["DAR_4X4",100000],
+				["DAR_MK27",150000],
+				["DAR_MK27T",200000],
+				["DAR_MK23",250000],
+				["DAR_LHS_16",450000],
+				["B_Truck_01_transport_F",200000],
+				["A3L_Dumptruck",250000],
+				["B_Truck_01_covered_F",300000],
+				["ALFR_GeK_Scania_420",400000],
+				["ALFR_GeK_Volvo_FH16_2012",500000]
+			];
+	};
+	
+	case "civ_fla_car":
+	{
+			_return =
+			[
+				["cl3_q7_black",45000],
+				["cl3_insignia_camo",75000],
+				["cl3_e63_amg_camo",250000],
+				["cl3_suv_black",200000]
+			];
+	};
+
 	case "donator":
 	{
 		if(__GETC__(life_donator) > 0) then
 		{
-			_return set[count _return,
-			["C_Offroad_01_F",5625]];
-			_return set[count _return,
-			["C_SUV_01_F",10500]];
-			_return set[count _return,
-			["C_Hatchback_01_sport_F",50100]];
-			_return set[count _return,
-			["I_Heli_Transport_02_F",495000]];
-			_return set[count _return,
-			["O_Truck_03_device_F",750000]];
-			_return set[count _return,
-			["O_Truck_03_transport_F",910000]];
-			_return set[count _return,
-			["O_Truck_03_covered_F",1300000]];
-			_return set[count _return,
-			["B_Truck_01_box_F",294000]];
-			_return set[count _return,
-			["B_Truck_01_covered_F",161000]];
+			_return =
+			[
+				["C_Offroad_01_F",2500],
+				["C_Van_01_Fuel_F",7500],
+				["C_SUV_01_F",20000],
+				["I_G_Offroad_01_F",45000],
+				["cl3_suv_taxi",50000],
+				/*["B_Heli_Light_01_F",100000],*/
+				["C_Heli_Light_01_civil_F",100000],
+				["cl3_suv_black",200000],
+				["B_Truck_01_box_F",250000],
+				["ALFR_GeK_Scania_420",250000],
+				["ALFR_GeK_Volvo_FH16_2012",300000],
+				["cl3_veyron_wht_blu",270000],
+				["ALFR_GeK_Panamera",350000],
+				["O_Truck_03_device_F",750000],
+				["O_Heli_Light_02_unarmed_F",300000],
+				["I_Heli_Transport_02_F",600000],
+				["B_Heli_Transport_03_unarmed_F",4500000],
+                ["CL3_bus_cl_black",100000],
+                ["cl3_xr_1000_black",250000],
+                ["cl3_arielatom_black",125000],
+                ["cl3_arielatom_race_black", 250000],
+                ["ALFR_GeK_Pagani_Zonda", 2500000],
+                ["IVORY_ERJ135_1", 10000000]
+   			];
 		};
 	};
-			
-	case "civ_truck":
-	{
-		if(__GETC__(life_donator) == 1) then
-		{
-			_return set[count _return,
-			["C_Van_01_box_F",42000]];
-			_return set[count _return,
-			["I_Truck_02_transport_F",71862]];
-			_return set[count _return,
-			["I_Truck_02_covered_F",101962]];
-			_return set[count _return,
-			["B_Truck_01_transport_F",133231]];
-			_return set[count _return,
-			["B_Truck_01_covered_F",161000]];
-			_return set[count _return,
-			["B_Truck_01_box_F",231000]];
-		} else {
-			_return set[count _return,
-			["C_Van_01_box_F",60000]];
-			_return set[count _return,
-			["I_Truck_02_transport_F",102660]];
-			_return set[count _return,
-			["I_Truck_02_covered_F",145660]];
-			_return set[count _return,
-			["B_Truck_01_transport_F",190330]];
-			_return set[count _return,
-			["B_Truck_01_covered_F",230000]];
-			_return set[count _return,
-			["B_Truck_01_box_F",330000]];
-		};			
-	};
-		
-		
+
 	case "reb_car":
 	{
-		if(__GETC__(life_donator) == 1) then
-		{
-			_return set[count _return,
-			["cl3_volha_black",1400]];
-			_return set[count _return,
-			["B_Quadbike_01_F",1750]];
-			_return set[count _return,
-			["cl3_lada_red",2331]];
-			_return set[count _return,
-			["B_G_Offroad_01_F",10500]];
-			_return set[count _return,
-			["cl3_range_rover_black",25900]];
-			_return set[count _return,
-			["cl3_dodge_charger_s_black",364000]];
-			_return set[count _return,
-			["B_G_Offroad_01_armed_F",455000]];
-		} else {
-			_return set[count _return,
-			["cl3_volha_black",2000]];
-			_return set[count _return,
-			["B_Quadbike_01_F",2500]];
-			_return set[count _return,
-			["cl3_lada_red",3330]];
-			_return set[count _return,
-			["B_G_Offroad_01_F",15000]];
-			_return set[count _return,
-			["cl3_range_rover_black",37000]];
-			_return set[count _return,
-			["cl3_dodge_charger_s_black",520000]];
-			_return set[count _return,
-			["B_G_Offroad_01_armed_F",650000]];
-		};
-	};
-	
-	case "reb_air":
-	{
+		_return =
+		[
+			["B_G_Offroad_01_F",15000],
+			["B_G_Van_01_transport_F",50000],
+			["cl3_insignia_camo",75000],
+			["cl3_dodge_charger_s_camo",200000],
+			["cl3_e63_amg_camo",300000],
+			["cl3_range_rover_camo",400000],
+			["O_Truck_03_transport_F",1000000],
+			["O_Truck_03_covered_F",1350000],
+			["O_Truck_03_ammo_F",1500000],
+			/*["C_Heli_Light_01_civil_F",225000],*/
+			["B_Heli_Light_01_F",225000],
+			["O_Heli_Light_02_unarmed_F",650000],
+			["O_Heli_Transport_04_bench_F",1000000],
+			["O_Heli_Transport_04_covered_F",1130000],
+			["O_Heli_Transport_04_ammo_F",1500000]
+		];
+
 		if(license_civ_rebel) then
 		{
 			_return set[count _return,
-			["B_Heli_Light_01_F",553000]];
-			_return set[count _return,
-			["O_Heli_Light_02_unarmed_F",1200000]];
-			_return set[count _return,
-			["I_Heli_Transport_02_F",1800000]];
+			["O_MRAP_02_F",1666667]];
 		};
-	};
-	
-	case "ac_air":
-	{
-		if(license_civ_ac) then
+		if(license_tlt) then
 		{
 			_return set[count _return,
-			["B_Heli_Light_01_F",553000]];
+			["B_MRAP_01_F",200000]];
 		};
 	};
-	
-	case "gis_car":
-	{
-		if(license_civ_gis) then
-		{
-			_return set[count _return,
-			["cl3_suv_black",35000]];
-			_return set[count _return,
-			["cl3_range_rover_black",37000]];
-			_return set[count _return,
-			["cl3_insignia_black",170000]];
-		};
-	};
-	
-	case "ac_car":
-	{
-		if(license_civ_ac) then
-		{
-			_return set[count _return,
-			["cl3_suv_black",35000]];
-			_return set[count _return,
-			["cl3_insignia_black",170000]];
-			_return set[count _return,
-			["cl3_e60_m5_black",140000]];
-		};
-	};
-	
-	case "pn_cars":
-	{
-		if(license_civ_pn) then
-		{
-			_return set[count _return,
-			["C_Offroad_PN",0]];
-			_return set[count _return,
-			["ALE_Fourgon_Caisse",0]];
-			_return set[count _return,
-			["ALE_HEMTT_Box",0]];
-			_return set[count _return,
-			["ALE_Zamak_Couvert",0]];
-		};
-	};
-	
-	case "transevo_car":
-	{
-		if(license_civ_transevo) then
-		{
-			_return set[count _return,
-			["Orel_Agora",0]];
-		};
-	};
-	
-	case "pn_ship":
-	{
-		if(license_civ_pn) then
-		{
-			_return set[count _return,
-			["C_Boat_PN",0]];
-		};
-	};
-	
+
 	case "cop_car":
 	{
 		_return set[count _return,
-		["ALE_GendOffroad",0]];
+		["C_Offroad_01_F",50000]];
 		_return set[count _return,
-		["ALE_GendSUV",0]];
+		["DAR_ImpalaPolice",30000]];
 		_return set[count _return,
-		["ALE_Gend_Bus",0]];
-		_return set[count _return,
-		["ford_mondeo_gend",0]];
-		_return set[count _return,
-		["ALE_GendQ7",0]];
-		if(__GETC__(life_coplevel) >= 7) then
+		["DAR_TahoePolice",50000]];
+
+		if(__GETC__(life_coplevel) > 1) then
 		{
-			_return set[count _return,
-			["cl3_suv_black",0]];
-			_return set[count _return,
-			["DAR_SWATPolice",0]];
+		_return set[count _return,
+		["insignia_police",100000]];
+		_return set[count _return,
+		["C_SUV_01_F",100000]];
+		_return set[count _return,
+		["DAR_TaurusPolice",100000]];
+		_return set[count _return,
+		["range_rover_police",150000]];
+		//_return set[count _return,
+		//["cl3_q7_police",133334]];
 		};
+
+			if(__GETC__(life_coplevel) > 2) then
+			{
+			_return set[count _return,
+			["DAR_ChargerPoliceState",200000]];
+			_return set[count _return,
+			["DAR_DAR_02FirebirdSSVPolice",250000]];
+			_return set[count _return,
+			["ALFR_GeK_MF1_Police",1500000]];
+			_return set[count _return,
+			["insignia_police_st",250000]];
+			_return set[count _return,
+			["ALFR_GeK_Panamera_Police",250000]];
+			_return set[count _return,
+			["GeK_TLC100_Police",250000]];
+			_return set[count _return,
+			["CL3_bus_cl_black",100000]];
+			_return set[count _return,
+			["I_MRAP_03_F",1000000]];
+			};
+
+				if(__GETC__(life_coplevel) > 3) then
+				{
+				_return set[count _return,
+				["DAR_ExplorerPolice",150000]];
+				};
 	};
-	
+
 	case "civ_air":
 	{
-		if(__GETC__(life_donator) == 1) then
-		{
-			_return set[count _return,
-			["B_Heli_Light_01_F",466725]];
-			_return set[count _return,
-			["C_Heli_Light_01_civil_F",466725]];
-			_return set[count _return,
-			["GNT_C185",650000]];
-			_return set[count _return,
-			["dezkit_b206_ls",665000]];
-			_return set[count _return,
-			["dezkit_b206_hs",711666]];
-			_return set[count _return,
-			["O_Heli_Light_02_unarmed_F",816676]];
-			_return set[count _return,
-			["I_Heli_Transport_02_F",1155000]];
-			_return set[count _return,
-			["NH90",1400000]];
-		} else {
-			_return set[count _return,
-			["B_Heli_Light_01_F",666750]];
-			_return set[count _return,
-			["C_Heli_Light_01_civil_F",666750]];
-			_return set[count _return,
-			["dezkit_b206_ls",950000]];
-			_return set[count _return,
-			["dezkit_b206_hs",1016666]];
-			_return set[count _return,
-			["O_Heli_Light_02_unarmed_F",1166680]];
-			_return set[count _return,
-			["I_Heli_Transport_02_F",1650000]];
-			_return set[count _return,
-			["NH90",2000000]];
-		};
+		_return =
+		[
+			/*["B_Heli_Light_01_F",153000],*/
+			["C_Heli_Light_01_civil_F",153000],
+			["GNT_C185",500000],
+			["O_Heli_Light_02_unarmed_F",550000]
+		];
 	};
-	
+
 	case "cop_air":
 	{
-		_return set[count _return,
-		["dezkit_b206_gend",0]];
-		if(__GETC__(life_coplevel) > 4) then
-		{
+			if(__GETC__(life_coplevel) > 1) then
+			{
+				_return set[count _return,
+				["B_Heli_Light_01_F",75000]];
+				_return set[count _return,
+				["C_Heli_Light_01_civil_F",75000]];
+			};
+
+/*			if(__GETC__(life_coplevel) > 2) then
+			{
+				_return set[count _return,
+				["I_Heli_light_03_unarmed_F",150000]];
+			};*/
+
+			if(__GETC__(life_coplevel) > 3) then
+			{
 			_return set[count _return,
-			["ALE_GignHellcat",0]];
-		};
-		if(__GETC__(life_coplevel) >= 10) then
-		{
+			["B_Heli_Transport_03_unarmed_F",150000]];
+			};
+			
+			if(__GETC__(life_coplevel) > 5) then
+			{
 			_return set[count _return,
-			["B_Heli_Transport_03_F",0]];
+			["B_Heli_Transport_01_F",200000]];
+			};
+			
+			if(__GETC__(life_coplevel) > 6) then
+			{
 			_return set[count _return,
-			["C130J",0]];
-		};
+			["B_Heli_Transport_03_F",1000000]];
+			};
 	};
-	
+
 	case "cop_airhq":
 	{
 		_return set[count _return,
-		["ALE_GendLB",0]];
-		if(__GETC__(life_coplevel) > 4) then
+		["B_Heli_Light_01_F",75000]];
+		_return set[count _return,
+		["C_Heli_Light_01_civil_F",75000]];
+		if(__GETC__(life_coplevel) > 2) then
 		{
 			_return set[count _return,
-			["ALE_GignHellcat",0]];
-		};
-		if(__GETC__(life_coplevel) >= 10) then
-		{
+			["B_Heli_Transport_01_F",200000]];
 			_return set[count _return,
-			["B_Heli_Transport_03_F",0]];
+			["B_MRAP_01_hmg_F",750000]];
 		};
 	};
-	
+
 	case "civ_ship":
 	{
 		_return =
@@ -538,17 +330,10 @@ switch (_shop) do
 	{
 		_return =
 		[
-			["B_Boat_Transport_01_F",0],
-			["C_Boat_Civil_01_police_F",0],
-			["B_SDV_01_F",0]
-		];
-	};
-	case "rs_car":
-	{
-		_return =
-		[
-			["B_Truck_01_mover_F",10000],
-			["C_Offroad_01_repair_F",5000]
+			["B_Boat_Transport_01_F",3000],
+			["C_Boat_Civil_01_police_F",20000],
+			["B_Boat_Armed_01_minigun_F",75000],
+			["B_SDV_01_F",100000]
 		];
 	};
 };

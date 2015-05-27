@@ -1,15 +1,20 @@
 waitUntil {!(isNull (findDisplay 46))};
 disableSerialization;
 
-_rscLayer = "osefStatusBar" call BIS_fnc_rscLayer;
-_rscLayer cutRsc["osefStatusBar","PLAIN"];
+_rscLayer = "altiStatusBar" call BIS_fnc_rscLayer;
+_rscLayer cutRsc["altiStatusBar","PLAIN"];
+systemChat format["[AltisLifeFr] HUD Chargement %1!", _rscLayer];
 
 [] spawn {
 	sleep 5;
-	_statusText = "";
+	_statusText = "Bienvenue sur le serveur";
 	_counter = 180;
+	_timeSinceLastUpdate = 0;
 	while {true} do
-	{		
-		((uiNamespace getVariable "osefStatusBar")displayCtrl 1000)ctrlSetText format["%1 FPS | Population : %2 | CASH: %3 | BANQUE: %4 | AltisLife: Evolution   ", round diag_fps, count playableUnits,[life_cash] call life_fnc_numberText,[life_atmcash] call life_fnc_numberText, _statusText, _counter];
+	{
+		sleep 1;
+		_counter = _counter - 1;
+		_statusText = "AltisLifeFr.com";
+		((uiNamespace getVariable "altiStatusBar")displayCtrl 1000)ctrlSetText format["%3 | TS3 : ts3.altislifefr.com | Policiers: %4 | Position: %5  | Joueurs connectés: %2  ", round diag_fps, count playableUnits, _statusText, west countSide playableUnits, mapGridPosition player, _counter];
 	};
 };

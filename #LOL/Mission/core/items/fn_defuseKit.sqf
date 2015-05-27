@@ -51,5 +51,5 @@ if(life_interrupted) exitWith {life_interrupted = false; titleText[localize "STR
 life_action_inUse = false;
 _vault setVariable["chargeplaced",false,true];
 [[2,localize "STR_ISTR_Defuse_Success"],"life_fnc_broadcast",west,false] spawn life_fnc_MP;
-_ui = "osefStatusBar" call BIS_fnc_rscLayer;
-_ui cutRsc["osefStatusBar","PLAIN"];
+_ui = "altiStatusBar" call BIS_fnc_rscLayer;
+_ui cutRsc["altiStatusBar","PLAIN"];

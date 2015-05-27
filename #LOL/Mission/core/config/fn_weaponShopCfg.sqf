@@ -2,13 +2,11 @@
 /*
 	File: fn_weaponShopCfg.sqf
 	Author: Bryan "Tonic" Boardwine
-	
 	Description:
 	Master configuration file for the weapon shops.
-	
 	Return:
 	String: Close the menu
-	Array: 
+	Array:
 	[Shop Name,
 	[ //Array of items to add to the store
 		[classname,Custom Name (set nil for default),price]
@@ -24,10 +22,10 @@ switch(_shop) do
 	{
 		switch(true) do
 		{
-			case (playerSide != west): {"Interdit aux civils !};
-			case (__GETC__(life_coplevel) == 1):
+			case (playerSide != west): {"Vous n'êtes pas policier !"};
+			default
 			{
-				["Matériel Policier",
+				["Quincaillerie Police",
 					[
 						["ItemRadio","Telephone",500],
 						["ItemCompass",nil,50],
@@ -37,7 +35,49 @@ switch(_shop) do
 						["FirstAidKit",nil,150],
 						["Medikit",nil,2000],
 						["NVGoggles_OPFOR",nil,2500],
-						["Rangefinder",nil,3400],
+						["Rangefinder",nil,3400]
+					]
+				];
+			};
+		};
+	};
+
+	case "med_basic":
+	{
+		switch (true) do
+		{
+			case (playerSide != independent): {"Vous n'êtes pas medecin !"};
+			default {
+				["Quincaillerie Medecin",
+					[
+						["ItemRadio","Telephone",500],
+						["ItemCompass",nil,50],
+						["Binocular",nil,150],
+						["ItemMap",nil,50],
+						["ItemGPS",nil,150],
+						["ToolKit",nil,250],
+						["FirstAidKit",nil,150],
+						["Medikit",nil,2000],
+						["NVGoggles",nil,2500],
+						["B_Carryall_khk",nil,5000]
+					]
+				];
+			};
+		};
+	};
+
+	case "cop_recrue": //nouvelle reforme: coplvl 1 policier
+	{
+		switch(true) do
+		{
+			case (playerSide != west): {"Interdit aux civils !"};
+			default
+			{
+				["Armurerie",
+					[
+						//["DDOPP_X26","Tazer",2000],
+						//["DDOPP_X26_b","Tazer",2000],
+						//["DDOPP_1Rnd_X26",nil,50],
 						["hgun_P07_snds_F","Tazer",2000],
 						["16Rnd_9x21_Mag",nil,50],
 						["SMG_02_F",nil,4600],
@@ -58,20 +98,21 @@ switch(_shop) do
 					]
 				];
 			};
-			
-			case (__GETC__(life_coplevel) == 2):
+		};
+	};
+
+	case "cop_policier": //nouvelle reforme: coplvl 2 Brigadier
+	{
+		switch(true) do
+		{
+			case (playerSide != west): {"Interdit aux civils !"};
+			default
 			{
-				["Matériel Brigadier/Brigadier-Chef",
+				["Armurerie",
 					[
-						["ItemRadio","Telephone",500],
-						["ItemCompass",nil,50],
-						["ItemMap",nil,50],
-						["ItemGPS",nil,150],
-						["ToolKit",nil,250],
-						["FirstAidKit",nil,150],
-						["Medikit",nil,2000],
-						["NVGoggles_OPFOR",nil,2500],
-						["Rangefinder",nil,3400],
+						//["DDOPP_X26","Tazer",2000],
+						//["DDOPP_X26_b","Tazer",2000],
+						//["DDOPP_1Rnd_X26",nil,50],
 						["arifle_sdar_F",nil,10000],
 						["20Rnd_556x45_UW_mag",nil,125],
 						["hgun_P07_snds_F","Tazer",2000],
@@ -87,7 +128,7 @@ switch(_shop) do
 						["wirk_p90_mag",nil,100],
 						["arifle_sa80_Sam_F",nil,10000],
 						["30Rnd_556x45_Stanag",nil,100],
-						["wirk_acwr","ACW-R (Brigadier-Chef)",20000],
+						["wirk_acwr",nil,20000],
 						["wirk_acwr_mag",nil,100],
 						["R3F_Famas_G2_HG",nil,12500],
 						["R3F_30Rnd_556x45_TRACER_FAMAS",nil,100],
@@ -121,20 +162,21 @@ switch(_shop) do
 					]
 				];
 			};
-			
-			case (__GETC__(life_coplevel) == 3):
+		};
+	};
+
+	case "cop_brigadier":  //nouvelle reforme: coplvl 3 Adjudant
+	{
+		switch(true) do
+		{
+			case (playerSide != west): {"Interdit aux civils !"};
+			default
 			{
-				["Matériel Adjudant/Adjudant-Chef",
+				["Armurerie",
 					[
-						["ItemRadio","Telephone",500],
-						["ItemCompass",nil,50],
-						["ItemMap",nil,50],
-						["ItemGPS",nil,150],
-						["ToolKit",nil,250],
-						["FirstAidKit",nil,150],
-						["Medikit",nil,2000],
-						["NVGoggles_OPFOR",nil,2500],
-						["Rangefinder",nil,3400],
+						//["DDOPP_X26","Tazer",2000],
+						//["DDOPP_X26_b","Tazer",2000],
+						//["DDOPP_1Rnd_X26",nil,50],
 						["arifle_sdar_F",nil,10000],
 						["20Rnd_556x45_UW_mag",nil,125],
 						["hgun_P07_snds_F","Tazer",2000],
@@ -149,6 +191,8 @@ switch(_shop) do
 						["R3F_Famas_G2_HG",nil,12500],
 						["wirk_p90",nil,10000],
 						["wirk_p90_mag",nil,100],
+						["arifle_sam_stg58_F",nil,20000],
+						["20Rnd_762x51_STG58_Mag",nil,90],
 						["arifle_sa80_Sam_F",nil,10000],
 						["30Rnd_556x45_Stanag",nil,100],
 						["wirk_acwr",nil,20000],
@@ -192,20 +236,21 @@ switch(_shop) do
 					]
 				];
 			};
-			
-			case (__GETC__(life_coplevel) == 4):
+		};
+	};
+
+	case "cop_major":  //nouvelle reforme: coplvl 4 Major
+	{
+		switch(true) do
+		{
+			case (playerSide != west): {"Interdit aux civils !"};
+			default
 			{
-				["Matériel Major",
+				["Armurerie",
 					[
-						["ItemRadio","Telephone",500],
-						["ItemCompass",nil,50],
-						["ItemMap",nil,50],
-						["ItemGPS",nil,150],
-						["ToolKit",nil,250],
-						["FirstAidKit",nil,150],
-						["Medikit",nil,2000],
-						["NVGoggles_OPFOR",nil,2500],
-						["Rangefinder",nil,3400],
+						//["DDOPP_X26","Tazer",2000],
+						//["DDOPP_X26_b","Tazer",2000],
+						//["DDOPP_1Rnd_X26",nil,50],
 						["arifle_sdar_F",nil,10000],
 						["20Rnd_556x45_UW_mag",nil,125],
 						["hgun_P07_snds_F","Tazer",2000],
@@ -221,6 +266,8 @@ switch(_shop) do
 						["R3F_Famas_G2_HG",nil,12500],
 						["wirk_p90",nil,10000],
 						["wirk_p90_mag",nil,100],
+						["arifle_sam_stg58_F",nil,20000],
+						["20Rnd_762x51_STG58_Mag",nil,90],
 						["arifle_sa80_Sam_F",nil,10000],
 						["30Rnd_556x45_Stanag",nil,100],
 						["wirk_acwr",nil,20000],
@@ -243,6 +290,8 @@ switch(_shop) do
 						["1Rnd_SmokePurple_Grenade_shell",nil,100],
 						["1Rnd_SmokeBlue_Grenade_shell",nil,100],
 						["1Rnd_SmokeOrange_Grenade_shell",nil,100],
+						["arifle_Sam_scarh_F",nil,10000],
+						["20Rnd_762x51_ScarH_Mag",nil,90],
 						["M110",nil,12000],
 						["20Rnd_762x51_Mag",nil,60],
 						["gign_shield",nil,1500],
@@ -272,20 +321,21 @@ switch(_shop) do
 					]
 				];
 			};
-			
-			case (__GETC__(life_coplevel) == 5):
+		};
+	};
+
+	case "cop_lieutenant":  //nouvelle reforme: coplvl 5 Lieutenant
+	{
+		switch(true) do
+		{
+			case (playerSide != west): {"Interdit aux civils !"};
+			default
 			{
-				["Matériel Lieutenant",
+				["Armurerie",
 					[
-						["ItemRadio","Telephone",500],
-						["ItemCompass",nil,50],
-						["ItemMap",nil,50],
-						["ItemGPS",nil,150],
-						["ToolKit",nil,250],
-						["FirstAidKit",nil,150],
-						["Medikit",nil,2000],
-						["NVGoggles_OPFOR",nil,2500],
-						["Rangefinder",nil,3400],
+						//["DDOPP_X26","Tazer",2000],
+						//["DDOPP_X26_b","Tazer",2000],
+						//["DDOPP_1Rnd_X26",nil,50],
 						["arifle_sdar_F",nil,10000],
 						["20Rnd_556x45_UW_mag",nil,125],
 						["hgun_P07_snds_F","Tazer",2000],
@@ -301,6 +351,8 @@ switch(_shop) do
 						["R3F_Famas_G2_HG",nil,12500],
 						["wirk_p90",nil,10000],
 						["wirk_p90_mag",nil,100],
+						["arifle_sam_stg58_F",nil,20000],
+						["20Rnd_762x51_STG58_Mag",nil,90],
 						["arifle_sa80_Sam_F",nil,10000],
 						["30Rnd_556x45_Stanag",nil,100],
 						["wirk_acwr",nil,20000],
@@ -323,6 +375,8 @@ switch(_shop) do
 						["1Rnd_SmokePurple_Grenade_shell",nil,100],
 						["1Rnd_SmokeBlue_Grenade_shell",nil,100],
 						["1Rnd_SmokeOrange_Grenade_shell",nil,100],
+						["arifle_Sam_scarh_F",nil,10000],
+						["20Rnd_762x51_ScarH_Mag",nil,90],
 						["M110",nil,12000],
 						["20Rnd_762x51_Mag",nil,60],
 						["gign_shield",nil,1500],
@@ -354,20 +408,21 @@ switch(_shop) do
 					]
 				];
 			};
-			
-			case (__GETC__(life_coplevel) == 6):
+		};
+	};
+
+	case "cop_capitaine":  //nouvelle reforme: coplvl 6 capitaine
+	{
+		switch(true) do
+		{
+			case (playerSide != west): {"Interdit aux civils !"};
+			default
 			{
-				["Matériel Capitaine",
+				["Armurerie",
 					[
-						["ItemRadio","Telephone",500],
-						["ItemCompass",nil,50],
-						["ItemMap",nil,50],
-						["ItemGPS",nil,150],
-						["ToolKit",nil,250],
-						["FirstAidKit",nil,150],
-						["Medikit",nil,2000],
-						["NVGoggles_OPFOR",nil,2500],
-						["Rangefinder",nil,3400],
+						//["DDOPP_X26","Tazer",2000],
+						//["DDOPP_X26_b","Tazer",2000],
+						//["DDOPP_1Rnd_X26",nil,50],
 						["arifle_sdar_F",nil,10000],
 						["20Rnd_556x45_UW_mag",nil,125],
 						["hgun_P07_snds_F","Tazer",2000],
@@ -382,6 +437,8 @@ switch(_shop) do
 						["30Rnd_556x45_Stanag",nil,100],
 						["wirk_acwr",nil,20000],
 						["wirk_acwr_mag",nil,100],
+						["arifle_sam_stg58_F",nil,20000],
+						["20Rnd_762x51_STG58_Mag",nil,90],
 						["R3F_Famas_G2_HG",nil,12500],
 						["R3F_30Rnd_556x45_TRACER_FAMAS",nil,100],
 						["R3F_HK416M_HG",nil,15000],
@@ -401,6 +458,8 @@ switch(_shop) do
 						["1Rnd_SmokePurple_Grenade_shell",nil,100],
 						["1Rnd_SmokeBlue_Grenade_shell",nil,100],
 						["1Rnd_SmokeOrange_Grenade_shell",nil,100],
+						["arifle_Sam_scarh_F",nil,10000],
+						["20Rnd_762x51_ScarH_Mag",nil,90],
 						["M110",nil,12000],
 						["20Rnd_762x51_Mag",nil,60],
 						["gign_shield",nil,1500],
@@ -443,20 +502,21 @@ switch(_shop) do
 					]
 				];
 			};
-			
-			case (__GETC__(life_coplevel) == 7):
+		};
+	};
+
+	case "cop_admin":
+	{
+		switch(true) do
+		{
+			case (playerSide != west): {"Interdit aux civils !"};
+			default
 			{
-				["Matériel Commandant",
+				["Armurerie",
 					[
-						["ItemRadio","Telephone",500],
-						["ItemCompass",nil,50],
-						["ItemMap",nil,50],
-						["ItemGPS",nil,150],
-						["ToolKit",nil,250],
-						["FirstAidKit",nil,150],
-						["Medikit",nil,2000],
-						["NVGoggles_OPFOR",nil,2500],
-						["Rangefinder",nil,3400],
+						//["DDOPP_X26","Tazer",2000],
+						//["DDOPP_X26_b","Tazer",2000],
+						//["DDOPP_1Rnd_X26",nil,50],
 						["arifle_sdar_F",nil,10000],
 						["20Rnd_556x45_UW_mag",nil,125],
 						["hgun_P07_snds_F","Tazer",2000],
@@ -475,6 +535,8 @@ switch(_shop) do
 						["30Rnd_556x45_Stanag",nil,100],
 						["wirk_acwr",nil,20000],
 						["wirk_acwr_mag",nil,100],
+						["arifle_sam_stg58_F",nil,20000],
+						["20Rnd_762x51_STG58_Mag",nil,90],
 						["R3F_Famas_G2_HG",nil,12500],
 						["R3F_30Rnd_556x45_TRACER_FAMAS",nil,100],
 						["R3F_HK416M_HG",nil,15000],
@@ -494,6 +556,8 @@ switch(_shop) do
 						["1Rnd_SmokePurple_Grenade_shell",nil,100],
 						["1Rnd_SmokeBlue_Grenade_shell",nil,100],
 						["1Rnd_SmokeOrange_Grenade_shell",nil,100],
+						["arifle_Sam_scarh_F",nil,10000],
+						["20Rnd_762x51_ScarH_Mag",nil,90],
 						["M110",nil,12000],
 						["20Rnd_762x51_Mag",nil,60],
 						["gign_shield",nil,1500],
@@ -534,14 +598,139 @@ switch(_shop) do
 			};
 		};
 	};
-	
-	case "gun":
+
+	case "rebel":
 	{
 		switch(true) do
 		{
-			case (playerSide != civilian): {"Vous n'êtes pas un civil !"};
-			case (!license_civ_gun): {"Vous n'avez pas de permis de port d'arme !"};
-			case (license_civ_gun):
+			case (playerSide != civilian): {"You are not a civilian!"};
+			case (!license_civ_rebel): {"Vous n'avez pas de licence rebelle !"};
+			default
+			{
+				["Armurerie Rebelle",
+					[
+						["arifle_SDAR_F",nil,50000],
+						["arifle_TRG20_F",nil,90000],
+						["arifle_Katiba_F",nil,100000],
+						["hlc_rifle_aks74u",nil,125000],
+						["hlc_rifle_aks74",nil,150000],
+						["srifle_DMR_01_F",nil,175000],
+						["hlc_rifle_ak74",nil,100000],
+						["hlc_rifle_ak12",nil,150000],
+						["hlc_rifle_aks74_GL",nil,175000],
+						["hlc_rifle_ak47",nil,175000],
+						["hlc_rifle_akm",nil,200000],
+						["hlc_rifle_saiga12k",nil,150000],
+						["hlc_rifle_akmgl",nil,215000],
+						["hlc_rifle_aek971",nil,250000],
+						["SG553",nil,250000],
+						["SG553_CQB",nil,250000],
+						["SG553_GL",nil,250000],
+						["Trixie_M14",nil,275000],
+						["Trixie_M14_Green",nil,275000],
+						["Trixie_M14_Black",nil,275000],
+						["arifle_sam_stg58_F",nil,275000],
+						["20Rnd_762x51_STG58_Mag",nil,90],
+						["wirk_acwr",nil,300000],
+						["wirk_acwr_mag",nil,300],
+						["LMG_Mk200_F",nil,450000],
+						["200Rnd_65x39_cased_Box_Tracer",nil,800],
+						["LMG_Zafir_F",nil,650000],
+						["150Rnd_762x54_Box_Tracer",nil,800],
+						["optic_ACO_grn",nil,3500],
+						["hlc_optic_kobra",nil,3500],
+						["optic_Holosight",nil,3600],
+						["acc_flashlight",nil,1000],
+						["optic_Hamr",nil,7500],
+						["HLC_Optic_1p29",nil,7500],
+						["HLC_Optic_PSO1",nil,80000],
+						["30Rnd_9x21_Mag",nil,200],
+						["20Rnd_556x45_UW_mag",nil,125],
+						["30Rnd_556x45_Stanag",nil,300],
+						["10Rnd_762x54_Mag",nil,500],
+						["30Rnd_65x39_caseless_green",nil,275],
+						["30Rnd_56x45_GP90",nil,100],
+						["30Rnd_56x45_GP90_Armour_Piercing",nil,500],
+						["hlc_30Rnd_545x39_B_AK",nil,300],
+						["hlc_30Rnd_545x39_t_ak",nil,300],
+						["hlc_30Rnd_545x39_EP_ak",nil,300],
+						["hlc_30Rnd_762x39_b_ak",nil,300],
+						["hlc_30Rnd_762x39_t_ak",nil,300],
+						["hlc_10rnd_12g_buck_S12",nil,300],
+						["hlc_10rnd_12g_slug_S12",nil,300],
+						["Trixie_20x762_Mag",nil,100],
+						["hlc_GRD_White",nil,5000],
+						["hlc_GRD_red",nil,5000],
+						["hlc_GRD_green",nil,5000],
+						["hlc_GRD_blue",nil,5000],
+						["hlc_GRD_orange",nil,5000],
+						["hlc_GRD_purple",nil,5000],
+						["SmokeShellRed","Fumigene rouge",5000]
+					]
+				];
+			};
+		};
+	};
+
+	case "tlt":
+	{
+		switch(true) do
+		{
+			case (playerSide != civilian): {"You are not a civilian!"};
+			case (!license_tlt): {"Vous n'etes pas BL !"};
+			default
+			{
+				["Armurerie Armée",
+					[
+
+						["hlc_rifle_ak12",nil,200000],
+						["hlc_rifle_akm",nil,250000],
+						["hlc_rifle_akmgl",nil,350000],
+						["srifle_EBR_F",nil,400000],
+						["20Rnd_762x51_Mag",nil,90],
+						["LMG_Zafir_F",nil,300000],
+						["150Rnd_762x54_Box_Tracer",nil,800],
+						["optic_DMS",nil,1200],
+						["optic_ACO_grn",nil,3500],
+						["hlc_optic_kobra",nil,3500],
+						["optic_Holosight",nil,3600],
+						["acc_flashlight",nil,1000],
+						["optic_Hamr",nil,7500],
+						["HLC_Optic_1p29",nil,7500],
+						["HLC_Optic_PSO1",nil,80000],
+						["optic_SOS",nil,30000],
+						["30Rnd_9x21_Mag",nil,200],
+						["20Rnd_556x45_UW_mag",nil,125],
+						["30Rnd_556x45_Stanag",nil,300],
+						["10Rnd_762x51_Mag",nil,500],
+						["30Rnd_65x39_caseless_green",nil,275],
+						["hlc_30Rnd_545x39_B_AK",nil,300],
+						["hlc_30Rnd_545x39_t_ak",nil,300],
+						["hlc_30Rnd_545x39_EP_ak",nil,300],
+						["hlc_30Rnd_762x39_b_ak",nil,300],
+						["hlc_30Rnd_762x39_t_ak",nil,300],
+						["hlc_10rnd_12g_buck_S12",nil,300],
+						["hlc_10rnd_12g_slug_S12",nil,300],
+						["hlc_GRD_White",nil,5000],
+						["hlc_GRD_red",nil,5000],
+						["hlc_GRD_green",nil,5000],
+						["hlc_GRD_blue",nil,5000],
+						["hlc_GRD_orange",nil,5000],
+						["hlc_GRD_purple",nil,5000],
+						["SmokeShellRed","Fumigene rouge",5000]
+					]
+				];
+			};
+		};
+	};
+
+	case "fla":
+	{
+		switch(true) do
+		{
+			case (playerSide != civilian): {"You are not a civilian!"};
+			case (!license_fla): {"Vous n'avez pas de license FLA !"};
+			default
 			{
 				["Armurerie",
 					[
@@ -560,33 +749,145 @@ switch(_shop) do
 						["C1987_20Rnd_46x30_mp7",nil,100],
 						["C1987_40Rnd_46x30_mp7",nil,200],
 						["optic_ACO_grn_smg",nil,2500],
+						["SG553",nil,160000],
+						["SG553_CQB",nil,160000],
+						["SG553_GL",nil,160000],
+						["30Rnd_56x45_GP90",nil,100],
+						["30Rnd_56x45_GP90_Armour_Piercing",nil,500],
+						["1Rnd_Smoke_Grenade_shell",nil,100],
+						["1Rnd_SmokeRed_Grenade_shell",nil,100],
+						["1Rnd_SmokeGreen_Grenade_shell",nil,100],
+						["1Rnd_SmokeYellow_Grenade_shell",nil,100],
+						["1Rnd_SmokePurple_Grenade_shell",nil,100],
+						["1Rnd_SmokeBlue_Grenade_shell",nil,100],
+						["1Rnd_SmokeOrange_Grenade_shell",nil,100],
+						["1Rnd_SmokeOrange_Grenade_shell",nil,100],
+						["optic_MRCO",nil,10000],
+						["optic_Arco",nil,10000],
 						["V_Rangemaster_belt",nil,4900]
 					]
 				];
-			};			
+			};
 		};
 	};
-	
-	case "donator":
+
+	case "armer":
 	{
 		switch(true) do
 		{
-			case (playerSide != civilian): {"Vous n'êtes pas un civil !"};
-			case (__GETC__(life_donator) < 1): {"Vous n'êtes pas donateur !"};
-			case (__GETC__(life_donator) == 1):
+			case (playerSide != civilian): {"You are not a civilian!"};
+			case (!license_armer): {"Vous n'avez pas de license militaire !"};
+			default
 			{
-				["Magasin Donateur",
+				["Armurerie",
 					[
-						["hgun_Rook40_F",nil,8000],
-						["hgun_Pistol_heavy_01_F",nil,10000],
-						["hgun_SA_nambu_type14_F",nil,10000],
-						["8Rnd_8x22_Mag",nil,100],
+						["Rangefinder",nil,3400],
+						["B_UavTerminal",nil,5200],
+						["arifle_sdar_F",nil,10000],
+						["20Rnd_556x45_UW_mag",nil,125],
+						["R3F_HK416M_HG",nil,30000],
+						["R3F_30Rnd_556x45_TRACER_HK416",nil,100],
+						["R3F_Famas_G2_HG",nil,50000],
+						["R3F_Famas_F1_HG_DES",nil,50000],
+						["R3F_25Rnd_556x45_TRACER_FAMAS",nil,100],
+						["R3F_30Rnd_556x45_TRACER_FAMAS",nil,100],
+						["R3F_LAMPE_SURB_DES",nil,500],
+						["R3F_AIMPOINT_DES",nil,500],
+						["LMG_Mk200_F",nil,100000],
+						["200Rnd_65x39_cased_Box",nil,500],
+						["R3F_HK416M_HG",nil,15000],
+						["R3F_30Rnd_556x45_TRACER_HK416",nil,100],
+						["R3F_HK417L",nil,20000],
+						["R3F_20Rnd_762x51_TRACER_HK417",nil,100],
+						["arifle_sa80_Sam_F",nil,10000],
+						["30Rnd_556x45_Stanag",nil,100],
+						["wirk_acwr",nil,150000],
+						["wirk_acwr_mag",nil,300],
+						["arifle_Sam_scarh_F",nil,30000],
+						["20Rnd_762x51_ScarH_Mag",nil,90],
+						["HK430",nil,6500],
+						["HK430_30Rnd_556x45",nil,80],
+						["srifle_LRR_F",nil,200000],
+						["7Rnd_408_Mag",nil,500],
+						["acc_flashlight",nil,750],
+						["optic_Holosight",nil,1200],
+						["optic_ACO_grn_smg",nil,2000],
+						["optic_Aco_smg",nil,2000],
+						["optic_ACO_grn",nil,3200],
+						["optic_Aco",nil,3200],
+						["optic_MRCO",nil,10000],
+						["optic_Hamr",nil,10000],
+						["optic_Arco",nil,10000],
+						["optic_LRPS",nil,50000],
+						["optic_SOS",nil,30000]
+					]
+				];
+			};
+		};
+	};
+
+	case "gun":
+	{
+		switch(true) do
+		{
+			case (playerSide != civilian): {"You are not a civilian!"};
+			case (!license_civ_gun): {"Vous n'avez pas de license d'arme à feu !"};
+			default
+			{
+				["Armurerie",
+					[
+						["hgun_Rook40_F",nil,10000],
+						["16Rnd_9x21_Mag",nil,25],
 						["hgun_SA_makarov_pm_F",nil,12000],
 						["8Rnd_9x18_Mag",nil,100],
+						["hgun_sam_browning_hp_F",nil,12000],
+						["8Rnd_9x18_Mag",nil,100],
+						["hgun_Pistol_heavy_02_F",nil,12000],
+						["6Rnd_45ACP_Cylinder",nil,50],
+						["hgun_ACPC2_F",nil,15000],
+						["9Rnd_45ACP_Mag",nil,45],
+						["hgun_PDW2000_F",nil,20000],
+						["30Rnd_9x21_Mag",nil,75],
+						["SMG_01_F",nil,28000],
+						["30Rnd_45ACP_Mag_SMG_01_tracer_green",nil,60],
+						["SIG_P226",nil,13000],
+						["smg_SA_9a91",nil,50000],
+						["20Rnd_SA_9x39",nil,100],
+						["C1987_MP7",nil,60000],
+						["C1987_20Rnd_46x30_mp7",nil,100],
+						["C1987_40Rnd_46x30_mp7",nil,200],
+						["optic_ACO_grn_smg",nil,2500],
+						["V_Rangemaster_belt",nil,4900]
+					]
+				];
+			};
+		};
+	};
+
+	case "donator":
+	{
+				["Donator Shop",
+					[
+						["ALFR_BaseballBat",nil,500],
+						["hgun_SA_nambu_type14_F",nil,500],
+						["8Rnd_8x22_Mag",nil,5],
+						["ALFR_BaseballBat_Grey",nil,800],
+						["ALFR_Machete",nil,1200],
+						["hgun_Rook40_F",nil,8000],
+						["hgun_Pistol_heavy_01_F",nil,10000],
+						["hgun_Sam_deagle_F",nil,11000],
+						["7Rnd_50AE_Mag",nil,100],
+						["hgun_Sam_tec9_F",nil,12000],
+						["32Rnd_9x21_Tec9_Mag",nil,100],
 						["hgun_PDW2000_F",nil,15000],
 						["SMG_01_F",nil,20000],
 						["arifle_Mk20C_plain_F",nil,100000],
 						["SIG_P226",nil,8000],
+						["hgun_sam_mr96_F",nil,15000],
+						["ALFR_6Rnd_357_Mag",nil,50],
+						["6Rnd_45ACP_Cylinder",nil,50],
+						["smg_SA_9a91_tac",nil,50000],
+						["20Rnd_SA_9x39",nil,100],
 						["C1987_MP7",nil,50000],
 						["C1987_MP7_ucp",nil,50000],
 						["C1987_MP7_urb",nil,50000],
@@ -600,15 +901,16 @@ switch(_shop) do
 						["C1987_40Rnd_46x30_mp7",nil,200],
 						["wirk_p90",nil,80000],
 						["wirk_p90_mag",nil,100],
+						["arifle_Sam_auga3_F",nil,80000],
+						["30Rnd_556x45_Aug_Mag",nil,100],
+						["arifle_Sam_galilar_F",nil,90000],
+						["30Rnd_556x45_Galil_Mag",nil,100],
 						["arifle_sa80_Sam_F",nil,150000],
-						["SG553",nil,150000],
-						["SG553_CQB",nil,150000],
-						["SG553_GL",nil,150000],
-						["LMG_Mk200_F",nil,200000],
-						["LMG_Zafir_F",nil,350000],
-						["srifle_LRR_camo_F",nil,400000],
-						["srifle_GM6_F",nil,400000],
-						["srifle_GM6_camo_F",nil,400000],
+						["arifle_Sam_g36c_F",nil,150000],
+						["arifle_Sam_stg58_F",nil,200000],
+						["20Rnd_762x51_STG58_Mag",nil,90],
+						["arifle_Sam_scarh_F",nil,200000],
+						["20Rnd_762x51_ScarH_Mag",nil,90],
 						["R3F_FRF2",nil,250000],
 						["Trixie_M24_Clean",nil,300000],
 						["Trixie_M40A3_Clean",nil,300000],
@@ -629,8 +931,6 @@ switch(_shop) do
 						["ToolKit",nil,250],
 						["itemgps",nil,150],
 						["FirstAidKit",nil,150],
-						["30Rnd_56x45_GP90",nil,100],
-						["30Rnd_56x45_GP90_Armour_Piercing",nil,500],
 						["1Rnd_Smoke_Grenade_shell",nil,100],
 						["1Rnd_SmokeRed_Grenade_shell",nil,100],
 						["1Rnd_SmokeGreen_Grenade_shell",nil,100],
@@ -647,8 +947,6 @@ switch(_shop) do
 						["11Rnd_45ACP_Mag",nil,50],
 						["30Rnd_45ACP_Mag_SMG_01_tracer_green",nil,60],
 						["30Rnd_556x45_Stanag",nil,70],
-						["200Rnd_65x39_cased_Box_Tracer",nil,800],
-						["150Rnd_762x54_Box_Tracer",nil,800],
 						["7Rnd_408_Mag",nil,800],
 						["5Rnd_127x108_Mag",nil,800],
 						["R3F_10Rnd_762x51_FRF2",nil,800],
@@ -658,323 +956,27 @@ switch(_shop) do
 						["R3F_7Rnd_127x99_PGM",nil,800]
 					]
 				];
-			};
-			
-			case ((__GETC__(life_donator) == 1) && (license_civ_rebel)):
-			{
-				["Magasin Donateur",
-					[
-						["cl3_crossbow",nil,12250],
-						["SA_CZ452_Scoped",nil,14000],
-						["hgun_PDW2000_F",nil,23100],
-						["Trixie_Enfield_Rail",nil,25900],
-						["hlc_smg_mp5k_PDW",nil,29400],
-						["hlc_rifle_aks74u",nil,31500],
-						["hlc_rifle_aks74",nil,38500],
-						["hlc_rifle_ak12",nil,45500],
-						["hlc_rifle_ak74",nil,52500],
-						["hlc_rifle_ak47",nil,66500],
-						["hlc_rifle_STG58F",nil,70000],
-						["hlc_rifle_rpk",nil,77000],
-						["hlc_rifle_falosw",nil,84000],
-						["Trixie_M14",nil,112000],
-						["RH_cz75",nil,4900],
-						["RH_sw659",nil,6300],
-						["RH_vp70",nil,7000],
-						["RH_vz61",nil,11900],
-						["RH_g19",nil,9100],
-						["RH_g18",nil,13650],
-						["RH_p226s",nil,15400],
-						["RH_bull",nil,18200],
-						["RH_ttracker",nil,17500],
-						["RH_tec9",nil,18900],
-						["RH_muzi",nil,20300],
-						["hlc_optic_kobra",nil,1750],
-						["FHQ_optic_AC11704",nil,2450],
-						["FHQ_optic_AC12136",nil,2590],
-						["FHQ_optic_HWS",nil,2800],
-						["FHQ_optic_ACOG",nil,3010],
-						["FHQ_optic_MARS",nil,3220],
-						["FHQ_optic_HWS_G33",nil,3570],
-						["FHQ_optic_VCOG",nil,3780],
-						["Trixie_LSMARK4",nil,3920],
-						["RH_m6x",nil,875],
-						["4Rnd_crossbow_mag",nil,31],
-						["4Rnd_crossbow_PrecisionArrow_mag",nil,66],
-						["SA_5Rnd_22_Mag",nil,140],
-						["hgun_Pistol_heavy_02_F","Flash-Ball",84000],
-						["6Rnd_45ACP_Cylinder","Munitions Flash-Ball",35000],
-						["cl3_gangcut_regular",nil,3500],
-						["hlc_30Rnd_545x39_B_AK",nil,5950],
-						["hlc_30Rnd_762x39_b_ak",nil,11900],
-						["hlc_20rnd_762x51_b_fal",nil,13300],
-						["hlc_75Rnd_762x39_b_rpk",nil,16100],
-						["Trixie_20x762_Mag",nil,18200],
-						["hlc_30Rnd_9x19_B_MP5",nil,1050],
-						["30Rnd_9x21_Mag",nil,350],
-						["Trixie_Enfield_Mag",nil,367],
-						["RH_16Rnd_9x19_cz",nil,59],
-						["RH_20Rnd_32cal_vz61",nil,80],
-						["RH_33Rnd_9x19_g18",nil,87],
-						["RH_15Rnd_9x19_SIG",nil,98],
-						["RH_6Rnd_45ACP_Mag",nil,112],
-						["RH_6Rnd_454_Mag",nil,119],
-						["RH_32Rnd_9x19_tec",nil,129],
-						["RH_30Rnd_9x19_UZI",nil,136],
-						["RH_16Rnd_9x19_cz",nil,52],
-						["RH_18Rnd_9x19_VP",nil,52],
-						["RH_14Rnd_9x19_sw",nil,59],
-						["RH_17Rnd_9x19_g17",nil,80],
-						["SmokeShellGreen","Grenade Lacrymogène",28000],
-						["DemoCharge_Remote_Mag",nil,210000],
-						["Rangefinder",nil,24500],
-						["Binocular",nil,105],
-						["ItemGPS",nil,70],
-						["ToolKit",nil,1750],
-						["FirstAidKit",nil,105],
-						["NVGoggles",nil,1400],
-						["ItemWatch",nil,100],
-						["ItemRadio","Téléphone",100],
-						["Chemlight_red",nil,210],
-						["Chemlight_yellow",nil,210],
-						["Chemlight_green",nil,210],
-						["Chemlight_blue",nil,210]
-					]
-				];
-			};
-			
-			case ((__GETC__(life_donator) == 1) && (!license_civ_crim)):
-			{
-				["Magasin Donateur",
-					[
-						["arifle_SDAR_F","Harpon",7700],
-						["cl3_crossbow",nil,12250],
-						["SA_CZ452_Scoped",nil,14000],
-						["RH_cz75",nil,4900],
-						["RH_sw659",nil,6300],
-						["RH_vp70",nil,7000],
-						["RH_g19",nil,9100],
-						["Trixie_LSMARK4",nil,2450],
-						["FHQ_optic_LeupoldERT",nil,5250],
-						["hgun_Pistol_heavy_02_F","Flash-Ball",84000],
-						["6Rnd_45ACP_Cylinder","Munitions Flash-Ball",35000],
-						["cl3_gangcut_regular",nil,3500],
-						["20Rnd_556x45_UW_mag","Chargeurs harpon",35],
-						["4Rnd_crossbow_mag",nil,31],
-						["4Rnd_crossbow_PrecisionArrow_mag",nil,66],
-						["SA_5Rnd_22_Mag",nil,140],
-						["RH_16Rnd_9x19_cz",nil,52],
-						["RH_18Rnd_9x19_VP",nil,52],
-						["RH_14Rnd_9x19_sw",nil,59],
-						["RH_17Rnd_9x19_g17",nil,80]
-					]
-				];
-			};
-		};
-	};
-	
-	case "aratv_equip":
-	{
-		switch(true) do
-		{
-			case (playerSide != civilian): {"Vous n'êtes pas un civil !"};
-			case (!license_civ_aratv): {"Vous n'êtes pas un employé d'ARA TV !"};
-			default
-			{
-				["Matériel vidéo",
-					[
-					]
-				];
-			};
-		};
-	};
-	
-	case "brinks":
-	{
-		switch(true) do
-		{
-			case (playerSide != civilian): {"Vous n'êtes pas un civil !"};
-			case (!license_civ_brinks): {"Vous n'êtes pas un employé de la Brinks !"};
-			default
-			{
-				["Armurerie",
-					[
-					]
-				];
-			};
-		};
-	};
-	
-	case "acog":
-	{
-		switch(true) do
-		{
-			case (playerSide != civilian): {"Vous n'êtes pas un civil !"};
-			case (!license_civ_acog): {"Vous ne faites pas parti des A.C.O.G !"};
-			default
-			{
-				["Armurerie",
-					[
-					]
-				];
-			};
-		};
-	};
-						
-	
-	case "ac":
-	{
-		switch(true) do
-		{
-			case (playerSide != civilian): {"Vous n'êtes pas un civil !"};
-			case (!license_civ_ac): {"Vous n'êtes pas un membre de la Assassin's Corp !"};
-			default
-			{
-				["Armurerie",
-					[
-					]
-				];
-			};
-		};
 	};
 
-	case "crim":
+	case "gang":
 	{
-		switch(true) do
-		{
-			case (playerSide != civilian): {"Vous n'êtes pas un civil !"};
-			case (!license_civ_crim): {"Désolé, je ne vous connais pas."};
-			case (__GETC__(life_donator) == 1):
-			{
-				["Revendeur d'armes illégales Donateur",
-					[
-					]
-				];
-			};
-			
-			case (__GETC__(life_donator) < 1):
-			{
-				["Revendeur d'armes illégales",
-					[
-					]
-				];
-			};
-		};
-	};
-	
-	case "genstore":
-	{
-		["Quincaillerie",
+		["Altis Hideout Store",
 			[
-				["Binocular",nil,150],
-				["ItemGPS",nil,100],
-				["ToolKit",nil,2500],
-				["FirstAidKit",nil,150],
-				["NVGoggles",nil,2000],
-				["ItemWatch",nil,100],
-				["ItemRadio","Téléphone",100],
-				["Chemlight_red",nil,300],
-				["Chemlight_yellow",nil,300],
-				["Chemlight_green",nil,300],
-				["Chemlight_blue",nil,300]
-			]
-		];
-	};
-	
-	case "rsstore":
-	{
-		["Quincaillerie",
-			[
-				["Binocular",nil,150],
-				["ItemGPS",nil,100],
-				["ToolKit",nil,150],
-				["FirstAidKit",nil,150],
-				["NVGoggles",nil,2000],
-				["ItemWatch",nil,100],
-				["ItemRadio","Téléphone",100],
-				["Chemlight_red",nil,300],
-				["Chemlight_yellow",nil,300],
-				["Chemlight_green",nil,300],
-				["Chemlight_blue",nil,300]
-			]
-		];
-	};
-	
-	case "pompist":
-	{
-		["Pompiste",
-			[
-				["ToolKit",nil,2500],
-				["ItemWatch",nil,100],
-				["ItemRadio","Téléphone",100],
-				["Chemlight_yellow",nil,300]
-			]
-		];
-	};
-	
-    case "uranium":
-    {
-        switch(true) do
-        {
-            case (playerSide != civilian): {"Tu n'es pas civil!"};
-            case (!license_civ_uranium): {"Tu n'as pas la formation Uranium!"};
-            default
-            {
-                ["Objet Traitement Uranium",
-                    [
-                        ["ToolKit",nil,2500],
-                        ["FirstAidKit",nil,100],
-                        ["U_C_Scientist","Combinaison Antiradiation",100000]
-                    ]
-                ];
-            };
-        };
-    }; 
-	
-    case "gis":
-    {
-        switch(true) do
-        {
-            case (playerSide != civilian): {"Tu n'es pas civil !"};
-            case (!license_civ_gis): {"Vous n'êtes pas de la GIS !"};
-            default
-            {
-                ["Armurerie des G.I.S",
-                    [
-                    ]
-                ];
-            };
-        };
-    }; 
-	
-	case "terror":
-	{
-		switch (true) do 
-		{
-		    case (playerSide != civilian): {"Tu n'es pas civil !"};
-            case (!license_civ_rebel): {"Tu n'es pas terroriste !"};
-			case (license_civ_rebel):
-			{
-				["Armement Rebelle",
-					[
-						["arifle_SDAR_F",nil,50000],
-						["arifle_TRG20_F",nil,90000],
-						["arifle_Katiba_F",nil,100000],
-						["hlc_rifle_aks74u",nil,125000],
-						["hlc_rifle_aks74",nil,150000],
-						["srifle_DMR_01_F",nil,175000],
-						["hlc_rifle_ak74",nil,100000],
-						["hlc_rifle_ak12",nil,150000],
-						["hlc_rifle_aks74_GL",nil,175000],
-						["hlc_rifle_ak47",nil,175000],
-						["hlc_rifle_akm",nil,200000],
-						["hlc_rifle_saiga12k",nil,150000],
-						["hlc_rifle_akmgl",nil,215000],
-						["hlc_rifle_aek971",nil,250000],
-						["Trixie_M14",nil,275000],
-						["Trixie_M14_Green",nil,275000],
-						["Trixie_M14_Black",nil,275000],
-						["wirk_acwr",nil,300000],
+						["arifle_SDAR_F",nil,150000],
+						["arifle_TRG20_F",nil,200000],
+						["arifle_Katiba_F",nil,250000],
+						["hlc_rifle_aks74u",nil,250000],
+						["hlc_rifle_aks74",nil,300000],
+						["srifle_DMR_01_F",nil,350000],
+						["hlc_rifle_ak74",nil,200000],
+						["hlc_rifle_ak12",nil,300000],
+						["hlc_rifle_aks74_GL",nil,300000],
+						["hlc_rifle_ak47",nil,350000],
+						["hlc_rifle_akm",nil,400000],
+						["hlc_rifle_saiga12k",nil,300000],
+						["hlc_rifle_akmgl",nil,400000],
+						["hlc_rifle_aek971",nil,500000],
+						["Cha_PK",nil,600000],
 						["optic_ACO_grn",nil,3500],
 						["hlc_optic_kobra",nil,3500],
 						["optic_Holosight",nil,3600],
@@ -985,7 +987,7 @@ switch(_shop) do
 						["30Rnd_9x21_Mag",nil,200],
 						["20Rnd_556x45_UW_mag",nil,125],
 						["30Rnd_556x45_Stanag",nil,300],
-						["10Rnd_762x54_Mag",nil,500],
+						["10Rnd_762x51_Mag",nil,500],
 						["30Rnd_65x39_caseless_green",nil,275],
 						["hlc_30Rnd_545x39_B_AK",nil,300],
 						["hlc_30Rnd_545x39_t_ak",nil,300],
@@ -994,32 +996,80 @@ switch(_shop) do
 						["hlc_30Rnd_762x39_t_ak",nil,300],
 						["hlc_10rnd_12g_buck_S12",nil,300],
 						["hlc_10rnd_12g_slug_S12",nil,300],
-						["Trixie_20x762_Mag",nil,100],
-						["wirk_acwr_mag",nil,300],
+						["Cha_100Rnd_762x54_PK",nil,100],
+						["Cha_100Rnd_762x54_PK_T",nil,100],
 						["hlc_GRD_White",nil,5000],
 						["hlc_GRD_red",nil,5000],
 						["hlc_GRD_green",nil,5000],
 						["hlc_GRD_blue",nil,5000],
 						["hlc_GRD_orange",nil,5000],
 						["hlc_GRD_purple",nil,5000],
-						["SmokeShellRed","Fumigene rouge",5000]
-					]
-				];
-			};
-		};
+						["SmokeShellRed","Fumigene rouge",5000],
+						["ItemCompass",nil,50],
+						["Binocular",nil,150],
+						["ItemGPS",nil,100],
+						["ToolKit",nil,250],
+						["FirstAidKit",nil,150],
+						["NVGoggles",nil,2000],
+						["Chemlight_red",nil,300],
+						["Chemlight_yellow",nil,300],
+						["Chemlight_green",nil,300],
+						["hgun_Rook40_F",nil,10000],
+						["16Rnd_9x21_Mag",nil,25],
+						["hgun_Pistol_heavy_02_F",nil,12000],
+						["6Rnd_45ACP_Cylinder",nil,50],
+						["hgun_ACPC2_F",nil,15000],
+						["9Rnd_45ACP_Mag",nil,45],
+						["hgun_PDW2000_F",nil,20000],
+						["30Rnd_9x21_Mag",nil,75],
+						["SMG_01_F",nil,28000],
+						["30Rnd_45ACP_Mag_SMG_01_tracer_green",nil,60],
+						["SIG_P226",nil,13000],
+						["C1987_MP7",nil,30000],
+						["C1987_20Rnd_46x30_mp7",nil,100],
+						["C1987_40Rnd_46x30_mp7",nil,200],
+						["optic_ACO_grn_smg",nil,2500],
+						["Chemlight_blue",nil,300]
+			]
+		];
 	};
-	
-	case "med_basic":
+
+	case "genstore":
 	{
-		switch (true) do 
-		{
-			case (playerSide != independent): {"Vous n'êtes pas du SAMU"};
-			default {
-				["Magasin SAMU",
-					[
-					]
-				];
-			};
-		};
+		["Quincaillerie",
+			[
+				["ItemRadio","Telephone",500],
+				["ItemCompass",nil,50],
+				["Binocular",nil,150],
+				["ItemGPS",nil,100],
+				["ToolKit",nil,250],
+				["FirstAidKit",nil,150],
+				["NVGoggles",nil,2000],
+				["Chemlight_red",nil,300],
+				["Chemlight_yellow",nil,300],
+				["Chemlight_green",nil,300],
+				["Chemlight_blue",nil,300]
+			]
+		];
 	};
+
+    case "uranium":
+    {
+        switch(true) do
+        {
+            case (playerSide != civilian): {"Tu n'es pas civil!"};
+            case (!license_civ_uranium): {"Tu n'as pas la formation Uranium!"};
+            default
+            {
+                ["Objet Traitement Uranium",
+                    [
+                        ["ToolKit",nil,200],
+                        ["FirstAidKit",nil,100],
+			["Mask_M40","Masque a Gaz",85000],
+                        ["U_C_Scientist","Combinaison Antiradiation",100000]
+                    ]
+                ];
+            };
+        };
+    };
 };

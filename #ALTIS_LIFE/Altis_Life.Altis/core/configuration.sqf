@@ -282,7 +282,6 @@ sell_array =
 	["heroinp",12000],
 	["methp",20000],
 	["uranium",48000],
-
 	["heroinu",1850],
 	["salema",45],
 	["ornate",40],

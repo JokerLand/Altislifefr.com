@@ -111,6 +111,10 @@ switch (_mode) do
 			case "flour": {"life_inv_flour"};
 			case "olive": {"life_inv_olive"};
 			case "oliveoil": {"life_inv_oliveoil"};
+			case "burger": {"life_inv_burger"};
+            case "cola": {"life_inv_cola"};
+            case "frite": {"life_inv_frite"};
+            case "biere": {"life_inv_biere"};
 		};
 	};
 	
@@ -213,6 +217,10 @@ switch (_mode) do
 			case "life_inv_cuff": {"cuff"};
 			case "life_inv_olive": {"olive"};
 			case "life_inv_oliveoil": {"oliveoil"};
+			case "life_inv_burger": {"burger"};
+            case "life_inv_cola": {"cola"};
+            case "life_inv_frite": {"frite"};
+            case "life_inv_biere": {"biere"};
 		};
 	};
 };

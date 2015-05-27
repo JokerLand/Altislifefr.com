@@ -36,16 +36,7 @@ if(_shooter isKindOf "Man" && alive player) then
 		_obj = "Land_ClutterCutter_small_F" createVehicle (getPosATL _unit);
 		_obj setPosATL (getPosATL _unit);
 		[[player,"AinjPfalMstpSnonWnonDf_carried_fallwc"],"life_fnc_animSync",true,false] spawn life_fnc_MP;
-		//[[_unit,"AinjPfalMstpSnonWnonDf_carried_fallwc"],"fnc_animsync",true,false] spawn life_fnc_MP;
-		_maskH = ["H_Shemag_khk","H_Shemag_tan","H_Shemag_olive","H_Shemag_olive_hs","H_ShemagOpen_khk","H_ShemagOpen_tan"];
-		_maskG = ["G_Balaclava_lowprofile","G_Balaclava_blk","G_Balaclava_olive"];
-		_masked = false;
-		if (((goggles _unit) in _maskG) OR ((headgear _unit) in _maskH)) then {_masked = true} else {_masked = false};
-		if(!_masked) then {
-			[[0,format[localize "STR_NOTF_Tazed", _unit getVariable["realname",name _unit], _shooter getVariable["realname",name _shooter]]],"life_fnc_broadcast",true,false] spawn life_fnc_MP;
-		} else {
-			[[0,format[localize "STR_NOTF_Tazed", "Homme Cagoulé", _shooter getVariable["realname",name _shooter]]],"life_fnc_broadcast",true,false] spawn life_fnc_MP;
-		};
+		[[0,"STR_NOTF_Tazed",true,[profileName, _shooter getVariable["realname",name _shooter]]],"life_fnc_broadcast",true,false] spawn life_fnc_MP;
 		_unit attachTo [_obj,[0,0,0]];
 		disableUserInput true;
 		sleep 15;

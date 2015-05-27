@@ -1,16 +1,12 @@
 /*
 	READ THE FILE NAME!
 */
-private["_uiDisp","_time","_timer","_state"];
+private["_uiDisp","_time","_timer"];
 disableSerialization;
-_state = _this select 0;
 6 cutRsc ["life_timer","PLAIN"];
 _uiDisp = uiNamespace getVariable "life_timer";
 _timer = _uiDisp displayCtrl 38301;
-if(_state == 0) then {_time = time + (5 * 60);};
-if(_state == 1) then {_time = time + (4.5 * 60);};
-if(_state == 2) then {_time = time + (4 * 60);};
-if(_state == 3) then {_time = time + (3.5 * 60);};
+_time = time + (5 * 60);
 while {true} do {
 	if(isNull _uiDisp) then {
 		6 cutRsc ["life_timer","PLAIN"];

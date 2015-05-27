@@ -102,5 +102,9 @@ switch (_item) do
 	case "wheat": {4};
 	case "olive": {4};
 	case "oliveoil": {3};
+	case "burger": {1};
+    case "cola": {1};
+    case "frite": {1};
+    case "biere": {1};
 	default {1};
 };

@@ -11,7 +11,7 @@ _filter = [_this,0,0,[0]] call BIS_fnc_param;
 //Classname, Custom Display name (use nil for Cfg->DisplayName, price
 
 //Shop Title Name
-ctrlSetText[3103,"Intendance de la Police Nationale"];
+ctrlSetText[3103,"Altis Police Department Shop"];
 
 _ret = [];
 switch (_filter) do
@@ -19,7 +19,7 @@ switch (_filter) do
 	//Uniforms
 	case 0:
 	{
-		_ret pushBack ["U_Rangemaster","Uniforme de Policier",0];
+		_ret set[count _ret,["U_Rangemaster","Cop Uniform",25]];
 		if(__GETC__(life_coplevel) > 1) then
 		{
 			_ret set[count _ret,["ALFR_FR_police_tenu",nil,2000]];

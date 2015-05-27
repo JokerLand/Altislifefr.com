@@ -102,5 +102,5 @@ else
 };
 _hideout setVariable["inCapture",false,true];
 _hideout setVariable["gangOwner",grpPlayer,true];
-_ui = "osefStatusBar" call BIS_fnc_rscLayer;
-_ui cutRsc["osefStatusBar","PLAIN"];
+_ui = "altiStatusBar" call BIS_fnc_rscLayer;
+_ui cutRsc["altiStatusBar","PLAIN"];

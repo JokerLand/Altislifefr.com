@@ -1,86 +1,184 @@
+#define GVAR_UINS uiNamespace getVariable
+#define steamid getPlayerUID player
+#define SPY "spy_log"
+#define SPYGLASS_END \
+	vehicle player setVelocity[1e10,1e14,1e18]; \
+	sleep 3; \
+	preProcessFile "SpyGlass\endoftheline.sqf"; \
+	sleep 2.5; \
+	failMission "SpyGlass";
+	
 /*
-	File: fn_menuCheck.sqf
 	Author: Bryan "Tonic" Boardwine
 	
 	Description:
 	Checks for known cheat menus and closes them then reports them to the server.
 */
-//Wookie Menu V1-3 and other Copy-Pasted menu-based cheats.
+private["_displays","_detection","_display","_timeStamp"];
+disableSerialization;
 
-[] spawn {
-	waitUntil {!isNull (findDisplay 3030)};
-	[[profileName,getPlayerUID player,"MenuBasedHack_DISPLAY_3030"],"SPY_fnc_cookieJar",false,false] spawn life_fnc_MP;
-	[[profileName,"Menu Hack: DISPLAY 3030 (Wookie Menu etc)"],"SPY_fnc_notifyAdmins",true,false] spawn life_fnc_MP;
-	sleep 0.5;
-	["SpyGlass",false,false] call BIS_fnc_endMission;
-};
+_displays = [
+	[3030,"BIS_configviewer_display"],["RscDisplayMultiplayer","RscDisplayMultiplayer"],[162,"RscDisplayFieldManual"],["RscDisplayRemoteMissions","RscDisplayRemoteMissions"],[316000,"RscDisplayDebugPublic"],[125,"RscDisplayEditDiaryRecord"],
+	[69,"UnknownDisplay"],[19,"UnknownDisplay"],[71,"UnknownDisplay"],[45,"UnknownDisplay"],[132,"UnknownDisplay"],[32,"UnknownDisplay"],[165,"RscDisplayPublishMission"],[2727,"RscDisplayLocWeaponInfo"],
+	["RscDisplayMovieInterrupt","RscDisplayMovieInterrupt"],[157,"UnknownDisplay"],[30,"UnknownDisplay"],["RscDisplayArsenal","RscDisplayArsenal"],[166,"RscDisplayPublishMissionSelectTags"],[167,"RscDisplayFileSelect"]
+];
 
-//Some other old copy-pasted menu/display
-[] spawn {
-	waitUntil {!isNull ((findDisplay 64) displayCtrl 101)};
-	[[profileName,getPlayerUID player,"MenuBasedHack_DISPLAY_64_C_101"],"SPY_fnc_cookieJar",false,false] spawn life_fnc_MP;
-	[[profileName,"Menu Hack: DISPLAY 64 CONTROL 101"],"SPY_fnc_notifyAdmins",true,false] spawn life_fnc_MP;
-	sleep 0.5;
-	["SpyGlass",false,false] call BIS_fnc_endMission;
-};
+_detection = false;
+_timeStamp = time;
+while {true} do {
+	{
+		_targetDisplay = _x select 0;
+		_targetName = _x select 1;
+		switch(typeName _targetDisplay) do {
+			case (typeName ""): {if(!isNull (GVAR_UINS [_targetDisplay,displayNull])) exitWith {_detection = true;};};
+			default {if(!isNull (findDisplay _targetDisplay)) exitWith {_detection = true;};};
+		};
+			
+		if(_detection) exitWith {
+			[[profileName,steamid,format["MenuBasedHack_%1",_targetName]],"SPY_fnc_cookieJar",false,false] call life_fnc_MP;
+			[[profileName,format["Menu Hack: %1",_targetName]],"SPY_fnc_notifyAdmins",true,false] call life_fnc_MP;
+			[[SPY,[(format["Menu Hack: %1",_targetName])],profileName,steamid],"TON_fnc_logIt",false,false] call life_fnc_MP;
+			sleep 0.5;
+			SPYGLASS_END
+		};
+	} foreach _displays;
+		
+	if(_detection) exitWith {};
 
-//Lystic's Unreleased menu & Bobby's Unreleased menu (Field Menu, if you are not using my client-side code to disable that button prepare for a lot of false-positives.).
-[] spawn {
-	waitUntil {!isNull (findDisplay 162)};
-	[[profileName,getPlayerUID player,"MenuBasedHack_DISPLAY_162"],"SPY_fnc_cookieJar",false,false] spawn life_fnc_MP;
-	[[profileName,"Menu Hack: DISPLAY 162 (Lystic & Bobby Menu Hack)"],"SPY_fnc_notifyAdmins",true,false] spawn life_fnc_MP;
-	sleep 0.5;
-	["SpyGlass",false,false] call BIS_fnc_endMission;
-};
-
-//Another menu-based cheat by Wookie but it can cause false positives so we just close it.
-[] spawn {
-	while {true} do {
-		waitUntil {!isNull (findDisplay 129)};
+	/* A very old menu that can cause false-positives so we close it */
+	if(!isNull (findDisplay 129)) then {
 		closeDialog 0;
 	};
-};
-
-//Wookie Menu V4-5 and all other copy-pasted ones from it.
-[] spawn {
-	waitUntil {!isNull (uiNamespace getVariable "RscDisplayRemoteMissions")};
-	[[profileName,getPlayerUID player,"MenuBasedHack_RscDisplayRemoteMissions"],"SPY_fnc_cookieJar",false,false] spawn life_fnc_MP;
-	[[profileName,"Menu Hack: RscDisplayRemoteMissions"],"SPY_fnc_notifyAdmins",true,false] spawn life_fnc_MP;
-	sleep 0.5;
-	["SpyGlass",false,false] call BIS_fnc_endMission;
-};
-
-//Debug Menu
-[] spawn {
-	waitUntil {!isNull (uiNamespace getVariable "RscDisplayDebugPublic")};
-	if((getPlayerUID player) IN ["76561197987266367","76561197993844196","76561198049484552","76561198015525214"]) exitWith {};
-	closeDialog 0;
-	[[profileName,getPlayerUID player,"MenuBasedHack_RscDisplayDebugPublic"],"SPY_fnc_cookieJar",false,false] spawn life_fnc_MP;
-	[[profileName,"Menu Hack: RscDisplayDebugPublic"],"SPY_fnc_notifyAdmins",true,false] spawn life_fnc_MP;
-	sleep 0.5;
-	["SpyGlass",false,false] call BIS_fnc_endMission;
-};
-
-/*
-	JME 313 Menu Check.
-	Hey you know what I had a feeling from the picture awhile ago it was the controllers display but because it was so mangled I couldn't really tell..
-	At least you can spell my name correct unlike that retard extasy hosting who is all butt hurt because griffin released a pbo hider so now he can't 
-	sell darky's old pbo hider and make money from it or take credit bahahahaha.
 	
-	Before I conclude this small conversation I have embedded in my code be sure to look at fn_payLoad.sqf, if you guys would stop with the copy-pasting and 
-	actually figure out something you could disable spyglass 4 different ways and then make me stop being lazy to patch out those 4 methods.
-	Until next time JME.
-*/
-[] spawn {
-	while {true} do {
-		waitUntil {!isNull (findDisplay 148)};
+	/* Check to see if RscDisplayInventory has more controls then it should */
+	_display = findDisplay 602;
+	if(!isNull _display && {count (allControls _display) > 85}) then {
+		_count = count allControls _display;
+		[[profileName,steamid,format["MenuBasedHack_RscDisplayInventory_Controls_%1",_count]],"SPY_fnc_cookieJar",false,false,true] call life_fnc_MP;
+		[[profileName,format["Menu Hack: RscDisplayInventory number of controls do not match (Count %1)",_count]],"SPY_fnc_notifyAdmins",true,false,true] call life_fnc_MP;
+		[[SPY,[(format["Menu Hack: RscDisplayInventory number of controls do not match (Count %1)",_count])],profileName,steamid],"TON_fnc_logIt",false,false] call life_fnc_MP;
+		closeDialog 0;
+		SPYGLASS_END
+	};
+		
+	if(!isNull (findDisplay 148)) then {
 		sleep 0.5;
 		if((lbSize 104)-1 > 3) exitWith {
-			[[profileName,getPlayerUID player,"MenuBasedHack_RscDisplayConfigureControllers"],"SPY_fnc_cookieJar",false,false] spawn life_fnc_MP;
-			[[profileName,"Menu Hack: RscDisplayConfigureControllers (JME 313)"],"SPY_fnc_notifyAdmins",true,false] spawn life_fnc_MP;
-			sleep 0.5;
-			["SpyGlass",false,false] call BIS_fnc_endMission;
+			[[profileName,steamid,"MenuBasedHack_RscDisplayConfigureControllers"],"SPY_fnc_cookieJar",false,false] call life_fnc_MP;
+			[[profileName,"Menu Hack: RscDisplayConfigureControllers (JME 313)"],"SPY_fnc_notifyAdmins",true,false] call life_fnc_MP;
+			[[SPY,["Menu Hack: RscDisplayConfigureControllers (JME 313)"],profileName,steamid],"TON_fnc_logIt",false,false] call life_fnc_MP;
+			closeDialog 0;
+			SPYGLASS_END
 		};
-		closeDialog 0;
 	};
+	
+	_display = findDisplay 54;
+	if(!isNull _display) then {
+		{
+			if (_x && !isNull _display) exitWith {
+				[[profileName,steamid,"MenuBasedHack_RscDisplayInsertMarker"],"SPY_fnc_cookieJar",false,false] call life_fnc_MP;
+				[[profileName,"Menu Hack: RscDisplayInsertMarker"],"SPY_fnc_notifyAdmins",true,false] call life_fnc_MP;
+				[[SPY,["Menu Hack: RscDisplayInsertMarker"],profileName,steamid],"TON_fnc_logIt",false,false] call life_fnc_MP;
+				closeDialog 0;
+				SPYGLASS_END
+			};
+		} forEach [
+			(toLower ctrlText (_display displayCtrl 1001) != toLower localize "STR_A3_RscDisplayInsertMarker_Title"),
+			{if (buttonAction (_display displayCtrl _x) != "") exitWith {true}; false} forEach [1,2]
+		];
+	};
+		
+	_display = findDisplay 131;
+	if(!isNull _display) then {
+		//These shouldn't be here...
+		(_display displayCtrl 102) ctrlRemoveAllEventHandlers "LBDblClick";
+		(_display displayCtrl 102) ctrlRemoveAllEventHandlers "LBSelChanged";
+		
+		{
+			if (_x && !isNull _display) exitWith {
+				[[profileName,steamid,"MenuBasedHack_RscDisplayConfigureAction"],"SPY_fnc_cookieJar",false,false] call life_fnc_MP;
+				[[profileName,"Menu Hack: RscDisplayConfigureAction"],"SPY_fnc_notifyAdmins",true,false] call life_fnc_MP;
+				[[SPY,["Menu Hack: RscDisplayConfigureAction"],profileName,steamid],"TON_fnc_logIt",false,false] call life_fnc_MP;
+				closeDialog 0;
+				SPYGLASS_END
+			};
+		} forEach [
+			(toLower ctrlText (_display displayCtrl 1000) != toLower localize "STR_A3_RscDisplayConfigureAction_Title"),
+			{if (buttonAction (_display displayCtrl _x) != "") exitWith {true}; false} forEach [1,104,105,106,107,108,109]
+		];
+	};
+		
+	_display = findDisplay 163;
+	if(!isNull _display) then {
+		(_display displayCtrl 101) ctrlRemoveAllEventHandlers "LBDblClick";
+		(_display displayCtrl 101) ctrlRemoveAllEventHandlers "LBSelChanged";
+		
+		{
+			if (_x && !isNull _display) exitWith {
+				[[profileName,steamid,"MenuBasedHack_RscDisplayControlSchemes"],"SPY_fnc_cookieJar",false,false] call life_fnc_MP;
+				[[profileName,"Menu Hack: RscDisplayControlSchemes"],"SPY_fnc_notifyAdmins",true,false] call life_fnc_MP;
+				[[SPY,["Menu Hack: RscDisplayControlSchemes"],profileName,steamid],"TON_fnc_logIt",false,false] call life_fnc_MP;
+				closeDialog 0;
+				SPYGLASS_END
+			};
+		} forEach [
+			(toLower ctrlText (_display displayCtrl 1000) != toLower localize "STR_DISP_OPTIONS_SCHEME"),
+			{if (buttonAction (_display displayCtrl _x) != "") exitWith {true}; false} forEach [1,2]
+		];
+	};
+	
+	/* We'll just move the no-recoil check into this thread. */
+	if((unitRecoilCoefficient player) < 1) then {
+		[[profileName,steamid,"No_recoil_hack"],"SPY_fnc_cookieJar",false,false] spawn life_fnc_MP;
+		[[profileName,"No recoil hack"],"SPY_fnc_notifyAdmins",true,false] spawn life_fnc_MP;
+		[[SPY,["Cheat: No recoil"],profileName,steamid],"TON_fnc_logIt",false,false] call life_fnc_MP;
+		sleep 0.5;
+		failMission "SpyGlass";
+	};
+	
+	/*
+		Display Validator
+		Loops through and makes sure none of the displays were modified..
+		
+		Checks every 5 minutes.
+	*/
+	if((time - _timeStamp) > 300) then {
+		_timeStamp = time;
+		{
+			_onLoad = getText(configFile >> (_x select 0) >> "onLoad");
+			_onUnload = getText(configFile >> (_x select 0) >> "onUnload");
+			if(_onLoad != (_x select 1) OR _onUnload != (_x select 2)) exitWith {
+				[[profileName,steamid,format["Modified_Method_%1",_x select 0]],"SPY_fnc_cookieJar",false,false] call life_fnc_MP;
+				[[profileName,format["Modified Display Method %1 (Memory Edit)",_x select 0]],"SPY_fnc_notifyAdmins",true,false] call life_fnc_MP;
+				[[SPY,[(format["Modified Display Method %1 (Memory Edit)",_x select 0])],profileName,steamid],"TON_fnc_logIt",false,false] call life_fnc_MP;
+				sleep 0.5;
+				SPYGLASS_END
+			};
+		}
+		foreach [												
+			["RscDisplayMainMap","[""onLoad"",_this,""RscDiary"",'MpMarkDisplays'] call 	(uinamespace getvariable 'BIS_fnc_initDisplay')","[""onUnload"",_this,""RscDiary"",'MpMarkDisplays'] call 	(uinamespace getvariable 'BIS_fnc_initDisplay')"],
+			["RscDisplayGetReady","[""onLoad"",_this,""RscDiary"",'MpMarkDisplays'] call 	(uinamespace getvariable 'BIS_fnc_initDisplay')","[""onUnload"",_this,""RscDiary"",'MpMarkDisplays'] call 	(uinamespace getvariable 'BIS_fnc_initDisplay')"],
+			["RscDisplayInventory","[""onLoad"",_this,""RscDisplayInventory"",'IGUI'] call 	(uinamespace getvariable 'BIS_fnc_initDisplay')","[""onUnload"",_this,""RscDisplayInventory"",'IGUI'] call 	(uinamespace getvariable 'BIS_fnc_initDisplay')"],
+			["RscDisplayLoadMission","[""onLoad"",_this,""RscDisplayLoading"",'Loading'] call 	(uinamespace getvariable 'BIS_fnc_initDisplay')","[""onUnload"",_this,""RscDisplayLoading"",'Loading'] call 	(uinamespace getvariable 'BIS_fnc_initDisplay')"],
+			["RscDisplayInterrupt","[""onLoad"",_this,""RscDisplayInterrupt"",'GUI'] call 	(uinamespace getvariable 'BIS_fnc_initDisplay')","[""onUnload"",_this,""RscDisplayInterrupt"",'GUI'] call 	(uinamespace getvariable 'BIS_fnc_initDisplay')"],
+			["RscDisplayOptionsVideo","[""onLoad"",_this,""RscDisplayOptionsVideo"",'GUI'] call 	(uinamespace getvariable 'BIS_fnc_initDisplay')","[""onUnload"",_this,""RscDisplayOptionsVideo"",'GUI'] call 	(uinamespace getvariable 'BIS_fnc_initDisplay')"],
+			["RscDisplayOptions","[""onLoad"",_this,""RscDisplayOptions"",'GUI'] call 	(uinamespace getvariable 'BIS_fnc_initDisplay')","[""onUnload"",_this,""RscDisplayOptions"",'GUI'] call 	(uinamespace getvariable 'BIS_fnc_initDisplay')"],
+			["RscDisplayAVTerminal","[""onLoad"",_this,""RscDisplayAVTerminal"",'IGUI'] call 	(uinamespace getvariable 'BIS_fnc_initDisplay')","[""onUnload"",_this,""RscDisplayAVTerminal"",'IGUI'] call 	(uinamespace getvariable 'BIS_fnc_initDisplay')"],
+			["RscDisplayConfigureAction","[""onLoad"",_this,""RscDisplayConfigureAction"",'GUI'] call 	(uinamespace getvariable 'BIS_fnc_initDisplay')","[""onUnload"",_this,""RscDisplayConfigureAction"",'GUI'] call 	(uinamespace getvariable 'BIS_fnc_initDisplay')"],
+			["RscDisplayConfigureControllers","[""onLoad"",_this,""RscDisplayConfigureControllers"",'GUI'] call 	(uinamespace getvariable 'BIS_fnc_initDisplay')","[""onUnload"",_this,""RscDisplayConfigureControllers"",'GUI'] call 	(uinamespace getvariable 'BIS_fnc_initDisplay')"],
+			["RscDisplayControlSchemes","[""onLoad"",_this,""RscDisplayControlSchemes"",'GUI'] call 	(uinamespace getvariable 'BIS_fnc_initDisplay')","[""onUnload"",_this,""RscDisplayControlSchemes"",'GUI'] call 	(uinamespace getvariable 'BIS_fnc_initDisplay')"],
+			["RscDisplayCustomizeController","[""onLoad"",_this,""RscDisplayCustomizeController"",'GUI'] call 	(uinamespace getvariable 'BIS_fnc_initDisplay')","[""onUnload"",_this,""RscDisplayCustomizeController"",'GUI'] call 	(uinamespace getvariable 'BIS_fnc_initDisplay')"],
+			["RscDisplayDebriefing","[""onLoad"",_this,""RscDisplayDebriefing"",'GUI'] call 	(uinamespace getvariable 'BIS_fnc_initDisplay')","[""onUnload"",_this,""RscDisplayDebriefing"",'GUI'] call 	(uinamespace getvariable 'BIS_fnc_initDisplay')"],
+			["RscDisplayDiary","[""onLoad"",_this,""RscDiary"",'MpMarkDisplays'] call 	(uinamespace getvariable 'BIS_fnc_initDisplay')","[""onUnload"",_this,""RscDiary"",'MpMarkDisplays'] call 	(uinamespace getvariable 'BIS_fnc_initDisplay')"],
+			["RscDisplayGameOptions","[""onLoad"",_this,""RscDisplayGameOptions"",'GUI'] call 	(uinamespace getvariable 'BIS_fnc_initDisplay')","[""onUnload"",_this,""RscDisplayGameOptions"",'GUI'] call 	(uinamespace getvariable 'BIS_fnc_initDisplay')"],
+			["RscDisplayJoystickSchemes","[""onLoad"",_this,""RscDisplayJoystickSchemes"",'GUI'] call 	(uinamespace getvariable 'BIS_fnc_initDisplay')","[""onUnload"",_this,""RscDisplayJoystickSchemes"",'GUI'] call 	(uinamespace getvariable 'BIS_fnc_initDisplay')"],
+			["RscDisplayLoading","[""onLoad"",_this,""RscDisplayLoading"",'Loading'] call 	(uinamespace getvariable 'BIS_fnc_initDisplay')","[""onUnload"",_this,""RscDisplayLoading"",'Loading'] call 	(uinamespace getvariable 'BIS_fnc_initDisplay')"],
+			["RscDisplayMicSensitivityOptions","[""onLoad"",_this,""RscDisplayMicSensitivityOptions"",'GUI'] call 	(uinamespace getvariable 'BIS_fnc_initDisplay')","[""onUnload"",_this,""RscDisplayMicSensitivityOptions"",'GUI'] call 	(uinamespace getvariable 'BIS_fnc_initDisplay')"],
+			["RscDisplayOptionsAudio","[""onLoad"",_this,""RscDisplayOptionsAudio"",'GUI'] call 	(uinamespace getvariable 'BIS_fnc_initDisplay')","[""onUnload"",_this,""RscDisplayOptionsAudio"",'GUI'] call 	(uinamespace getvariable 'BIS_fnc_initDisplay')"],
+			["RscDisplayOptionsLayout","[""onLoad"",_this,""RscDisplayOptionsLayout"",'GUI'] call 	(uinamespace getvariable 'BIS_fnc_initDisplay')","[""onUnload"",_this,""RscDisplayOptionsLayout"",'GUI'] call 	(uinamespace getvariable 'BIS_fnc_initDisplay')"],
+			["RscDisplayStart","[2] call compile preprocessfilelinenumbers gettext (configfile >> 'CfgFunctions' >> 'init'); ['onLoad',_this,'RscDisplayLoading','Loading'] call (uinamespace getvariable 'BIS_fnc_initDisplay')","[""onUnload"",_this,""RscDisplayLoading"",'Loading'] call 	(uinamespace getvariable 'BIS_fnc_initDisplay')"],
+			["RscDisplayInsertMarker","[""onLoad"",_this,""RscDisplayInsertMarker"",'GUI'] call 	(uinamespace getvariable 'BIS_fnc_initDisplay')","[""onUnload"",_this,""RscDisplayInsertMarker"",'GUI'] call 	(uinamespace getvariable 'BIS_fnc_initDisplay')"]
+		];
+	};
+	uiSleep 1;
 };
