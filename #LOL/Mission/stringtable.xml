@@ -2002,21 +2002,6 @@
 			<English>You're not part of R.S Dépannage company.</English>
 			<French>Vous n'êtes pas salarié chez R.S Dépannage.</French>
 		</Key>
-		<Key ID="STR_Shop_NotaGIS">
-			<Original>You're not part of GIS company.</Original>
-			<English>You're not part of GIS company.</English>
-			<French>Vous n'êtes pas un employé de la GIS.</French>
-		</Key>
-		<Key ID="STR_Shop_NotaPN">
-			<Original>You're not part of Petit Navire company.</Original>
-			<English>You're not part of Petit Navire company.</English>
-			<French>Vous n'êtes pas un employé de Petit Navire.</French>
-		</Key>
-		<Key ID="STR_Shop_NotaACOG">
-			<Original>You're not part of ACOG.</Original>
-			<English>You're not part of ACOG.</English>
-			<French>Vous n'êtes pas un membre des ACOG.</French>
-		</Key>
 		<Key ID="STR_NOTF_NoRoom">
 			<Original>You don't have enough room for that item.</Original>
 			<English>You don't have enough room for that item.</English>
@@ -4803,8 +4788,8 @@
 		<Key ID="STR_Shop_NotaRS">
 			<French>Vous devez être un employé d'R.S Dépannange pour utiliser ce magasin!</French>
 		</Key>
-		<Key ID="STR_Shop_NotaARATV">
-			<French>Vous devez être un employé d'ARA TV pour utiliser ce magasin!</French>
+		<Key ID="STR_Shop_NotaPresse">
+			<French>Vous devez être journaliste pour utiliser ce magasin!</French>
 		</Key>
 		<Key ID="STR_Shop_YouNeed">
 			<Original>You need a %1 to buy from this shop!</Original>

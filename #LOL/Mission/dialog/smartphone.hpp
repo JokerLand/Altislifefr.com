@@ -450,12 +450,12 @@ class Life_smartphone_comp {
 			h = (1 / 25);
 		};
 		
-		class TxtConaButton : life_RscButtonMenu 
+		class Reserved_2 : life_RscButtonMenu 
 		{
 			idc = 156444;
-			text = "G.I.S";
+			text = "Reservé";
 			colorBackground[] = {0.584, 0.086, 0.086,1.0};
-			onButtonClick = "[9,-1,(ctrlText 156442)] call life_fnc_newMsg;";
+			onButtonClick = "";
 			
 			x = 0.11;
 			y = 0.30;

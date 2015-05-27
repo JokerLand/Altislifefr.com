@@ -26,7 +26,7 @@ class SpyGlass
 		class observe{};
 		class payLoad{};
 		class variableCheck{};
-		//class initSpy {preInit=1;};
+		class initSpy {};
 	};
 };
 
@@ -42,24 +42,28 @@ class Life_Client_Core
 		class initCiv {};
 		class initCop {};
 		class initMedic {};
-		class initZeus {};
+		class welcomeNotification {};
 	};
 	class Admin
 	{
 		file = "core\admin";
-		class adminCompensate {};
-		class adminDebugCon {};
-		class adminFreeze {};
-		class admingetID {};
-		class adminGodMode {};
-		class adminid {};
 		class admininfo {};
-		class adminMarkers {};
+		class adminid {};
+		class admingetID {};
 		class adminMenu {};
 		class adminQuery {};
-		class adminSpectate {};
-		class adminTeleport {};
-		class adminTpHere {};
+	};
+	
+	class Casino
+	{
+		file = "core\casino";
+		class slotInit {};
+		class slotPlay {};
+		class slotRandom {};
+		class slotRewards {};
+		class casMusic {};
+		class casino777 {};
+		class casino {};
 	};
 	
 	class RsDep
@@ -98,7 +102,6 @@ class Life_Client_Core
 		class processActionDual {};
 		class repairTruck {};
 		class serviceChopper {};
-		class serviceChopperCona {};
 		class processActionMulti {};
 		class catchFish {};
 		class catchTurtle {};
@@ -129,10 +132,13 @@ class Life_Client_Core
 		class storeVehicle {};
 		class storeVehicleMedic {};
 		class robAction {};
+		class robShops {};
+		class robBank {};
 		class captureHideout {};
 		class gather {};
 		class processAction {};
 		class interactionMenu {};
+		class destroyeAction {};
 	};
 	
 	class Housing
@@ -188,16 +194,11 @@ class Life_Client_Core
 		class clothing_reb {};
 		class clothing_dive {};
 		class clothing_kart {};
-		class clothing_bl {};
+		class clothing_presse {};
 		class clothing_rsdep {};
-		class clothing_con {};
-		class clothing_aratv {};
-		class clothing_gis {};
-		class clothing_pn {};
-		class clothing_transevo {};
-		class clothing_ac {};
 		class clothing_brinks {};
-		class clothing_acog {};
+		class clothing_tlt {};
+		class clothing_armer {};
 	};
 
 	class Player_Menu

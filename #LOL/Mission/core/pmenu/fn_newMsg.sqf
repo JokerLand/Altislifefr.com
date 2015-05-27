@@ -112,12 +112,4 @@ switch(_type) do
 		hint format["Message envoyé a RS Depanage",_msg];
 		closeDialog 156441;
 	};
-	//CONA
-	case 9:
-	{
-		if(_msg == "") exitWith {hint "Vous devez entrer un message !";};
-		[[ObjNull,_msg,player,7],"GHB_fnc_handleMessages",false] spawn life_fnc_MP;
-		hint format["Message envoyé a la Conatus",_msg];
-		closeDialog 156441;
-	};
 };

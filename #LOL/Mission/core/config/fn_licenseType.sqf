@@ -52,7 +52,6 @@ switch (_mode) do
 			case "uranium4": {_var = "license_civ_uranium"};
 			case "uranium4b": {_var = "license_civ_uranium"};			
 			case "uraniumb": {_var = "license_civ_uranium"};
-			case "gis": {_var = "license_civ_gis"};
 			case "grapes": {_var = "license_civ_grapes"};
 			case "moonshine": {_var = "license_civ_moonshine"};
 			case "meth55": {_var = "license_civ_meth55"};
@@ -133,7 +132,6 @@ switch (_mode) do
 			case "license_med_air": {_var = "mair"};
 			case "license_civ_home": {_var = "home"};
 			case "license_civ_grapes": {_var = "grapes"};
-			case "license_civ_gis": {_var = "gis"};
 			case "license_civ_moonshine": {_var = "moonshine"};
 			case "license_civ_whiskey": {_var = "whiskey"};
 			case "license_civ_meth55": {_var = "meth55"};
