@@ -18,7 +18,7 @@ switch (_filter) do
 	case 0:
 	{
 		[
-			["U_OG_Guerilla3_2","Hunter Green",500]
+			["U_PMC_CombatUniformLS_BSGPBB","Tenue FLA",500]
 		];
 	};
 
