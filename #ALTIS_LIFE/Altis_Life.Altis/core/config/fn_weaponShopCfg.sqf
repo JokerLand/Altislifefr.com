@@ -629,6 +629,7 @@ switch(_shop) do
 						["Trixie_M14",nil,275000],
 						["Trixie_M14_Green",nil,275000],
 						["Trixie_M14_Black",nil,275000],
+						["Trixie_20x762_Mag",nil,100],
 						["arifle_sam_stg58_F",nil,275000],
 						["20Rnd_762x51_STG58_Mag",nil,90],
 						["wirk_acwr",nil,300000],
@@ -658,7 +659,6 @@ switch(_shop) do
 						["hlc_30Rnd_762x39_t_ak",nil,300],
 						["hlc_10rnd_12g_buck_S12",nil,300],
 						["hlc_10rnd_12g_slug_S12",nil,300],
-						["Trixie_20x762_Mag",nil,100],
 						["hlc_GRD_White",nil,5000],
 						["hlc_GRD_red",nil,5000],
 						["hlc_GRD_green",nil,5000],
@@ -729,42 +729,28 @@ switch(_shop) do
 		switch(true) do
 		{
 			case (playerSide != civilian): {"You are not a civilian!"};
-			case (!license_fla): {"Vous n'avez pas de license FLA !"};
+			case (!license_fla): {"Vous n'êtes pas FLA !"};
 			default
 			{
 				["Armurerie",
 					[
-						["hgun_Rook40_F",nil,10000],
-						["16Rnd_9x21_Mag",nil,25],
-						["hgun_Pistol_heavy_02_F",nil,12000],
-						["6Rnd_45ACP_Cylinder",nil,50],
-						["hgun_ACPC2_F",nil,15000],
-						["9Rnd_45ACP_Mag",nil,45],
-						["hgun_PDW2000_F",nil,20000],
-						["30Rnd_9x21_Mag",nil,75],
-						["SMG_01_F",nil,28000],
-						["30Rnd_45ACP_Mag_SMG_01_tracer_green",nil,60],
-						["SIG_P226",nil,13000],
-						["C1987_MP7",nil,60000],
-						["C1987_20Rnd_46x30_mp7",nil,100],
-						["C1987_40Rnd_46x30_mp7",nil,200],
-						["optic_ACO_grn_smg",nil,2500],
-						["SG553",nil,160000],
-						["SG553_CQB",nil,160000],
-						["SG553_GL",nil,160000],
-						["30Rnd_56x45_GP90",nil,100],
-						["30Rnd_56x45_GP90_Armour_Piercing",nil,500],
-						["1Rnd_Smoke_Grenade_shell",nil,100],
-						["1Rnd_SmokeRed_Grenade_shell",nil,100],
-						["1Rnd_SmokeGreen_Grenade_shell",nil,100],
-						["1Rnd_SmokeYellow_Grenade_shell",nil,100],
-						["1Rnd_SmokePurple_Grenade_shell",nil,100],
-						["1Rnd_SmokeBlue_Grenade_shell",nil,100],
-						["1Rnd_SmokeOrange_Grenade_shell",nil,100],
-						["1Rnd_SmokeOrange_Grenade_shell",nil,100],
+						["wirk_p90",nil,50000],
+						["wirk_p90_mag",nil,50],
+						["arifle_Sam_auga3_F",nil,100000],
+						["30Rnd_556x45_Aug_Mag",nil,75],
+						["Trixie_M14_Black",nil,150000],
+						["Trixie_20x762_Mag",nil,100],
+						["acc_flashlight",nil,50],
+						["optic_Holosight",nil,1200],
+						["optic_ACO_grn_smg",nil,2000],
+						["optic_Aco_smg",nil,2000],
+						["optic_ACO_grn",nil,3200],
+						["optic_Aco",nil,3200],
 						["optic_MRCO",nil,10000],
+						["optic_Hamr",nil,10000],
 						["optic_Arco",nil,10000],
-						["V_Rangemaster_belt",nil,4900]
+						["optic_LRPS",nil,50000],
+						["optic_SOS",nil,30000]
 					]
 				];
 			};

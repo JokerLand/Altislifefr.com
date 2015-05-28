@@ -182,6 +182,7 @@ class Life_Client_Core
 		class clothing_kart {};
 		class clothing_presse {};
 		class clothing_tlt {};
+		class clothing_fla {};
 		class clothing_armer {};
 	};
 
