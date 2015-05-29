@@ -45,8 +45,7 @@ switch (_filter) do
 			["G_Lady_Mirror",nil,150],
 			["G_Lady_Dark",nil,150],
 			["G_Lady_Blue",nil,150],
-			["G_Lowprofile",nil,30],
-			["G_Combat",nil,55]
+			["G_Lowprofile",nil,30]
 		];
 	};
 
