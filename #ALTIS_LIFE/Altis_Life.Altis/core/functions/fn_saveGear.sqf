@@ -19,6 +19,7 @@ _return pushBack assignedITems player;
 if(playerSide == west || playerSide == civilian && {(call life_save_civ)}) then {
     _return pushBack primaryWeapon player;
     _return pushBack handgunWeapon player;
+	_return pushBack secondaryWeapon player;
 } else {
     _return pushBack [];
     _return pushBack [];
