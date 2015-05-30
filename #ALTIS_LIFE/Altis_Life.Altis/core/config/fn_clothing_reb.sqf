@@ -230,10 +230,10 @@ switch (_filter) do
 			["H_ALFR_HorseMask_2",nil,10500],
 			["H_ALFR_HorseMask_blk",nil,10500],
 			["H_ALFR_HorseMask_pnk",nil,10500],
-            ["H_ALFR_OVERKILL_I",nil,20000],
-            ["H_ALFR_OVERKILL_II",nil,20000],
-            ["H_ALFR_OVERKILL_III",nil,20000],
-            ["H_ALFR_OVERKILL_IV",nil,20000]
+            ["H_ALFR_OVERKILL_I",nil,50000],
+            ["H_ALFR_OVERKILL_II",nil,75000],
+            ["H_ALFR_OVERKILL_III",nil,200000],
+            ["H_ALFR_OVERKILL_IV",nil,500000]
 		];
 	};
 
