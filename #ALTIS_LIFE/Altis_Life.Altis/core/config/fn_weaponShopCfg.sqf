@@ -87,16 +87,16 @@ switch(_shop) do
                         ["optic_Arco",nil,10000],
                         ["acc_pointer_IR",nil,4200],
                         ["SmokeShell",nil,100],
-						//Policier
-						["hgun_P07_snds_F","Tazer",1000],
-						["16Rnd_9x21_Mag",nil,50],
-						["SMG_02_F",nil,5000],
-						["30Rnd_9x21_Mag",nil,60],
-						["M4_Benelli",nil,6500],
-						["8Rnd_B_Beneli_74Slug",nil,80],
-						["8Rnd_12Gauge_Pellets",nil,80],
-						["wirk_p90",nil,10000],
-						["wirk_p90_mag",nil,100]
+                        //Policier
+                        ["hgun_P07_snds_F","Tazer",1000],
+                        ["16Rnd_9x21_Mag",nil,50],
+                        ["SMG_02_F",nil,5000],
+                        ["30Rnd_9x21_Mag",nil,60],
+                        ["M4_Benelli",nil,6500],
+                        ["8Rnd_B_Beneli_74Slug",nil,80],
+                        ["8Rnd_12Gauge_Pellets",nil,80],
+                        ["wirk_p90",nil,10000],
+                        ["wirk_p90_mag",nil,100]
 					]
 				];
 			};
@@ -124,26 +124,26 @@ switch(_shop) do
                         ["optic_Arco",nil,10000],
                         ["acc_pointer_IR",nil,4200],
                         ["SmokeShell",nil,100],
-						//Policier
-						["hgun_P07_snds_F","Tazer",1000],
-						["16Rnd_9x21_Mag",nil,50],
-						["SMG_02_F",nil,5000],
-						["30Rnd_9x21_Mag",nil,60],
-						["M4_Benelli",nil,6500],
-						["8Rnd_B_Beneli_74Slug",nil,80],
-						["8Rnd_12Gauge_Pellets",nil,80],
-						["wirk_p90",nil,10000],
-						["wirk_p90_mag",nil,100],
-						//Brigadier
-						["arifle_sdar_F",nil,1000],
-						["20Rnd_556x45_UW_mag",nil,25],
-						["FHQ_M4A1_BLK",nil,10000],
-						["FHQ_M4A1_AFG_BLK",nil,10000],
-						["FHQ_M4A1_M203_BLK",nil,10000],
-						["arifle_Sam_g36c_F",nil,10000],
-						["30Rnd_556x45_Stanag",nil,70],
-						["wirk_acwr","Brigadier Chef",10000],
-						["wirk_acwr_mag",nil,100]
+                        //Policier
+                        ["hgun_P07_snds_F","Tazer",1000],
+                        ["16Rnd_9x21_Mag",nil,50],
+                        ["SMG_02_F",nil,5000],
+                        ["30Rnd_9x21_Mag",nil,60],
+                        ["M4_Benelli",nil,6500],
+                        ["8Rnd_B_Beneli_74Slug",nil,80],
+                        ["8Rnd_12Gauge_Pellets",nil,80],
+                        ["wirk_p90",nil,10000],
+                        ["wirk_p90_mag",nil,100],
+                        //Brigadier
+                        ["arifle_sdar_F",nil,1000],
+                        ["20Rnd_556x45_UW_mag",nil,25],
+                        ["FHQ_M4A1_BLK",nil,10000],
+                        ["FHQ_M4A1_AFG_BLK",nil,10000],
+                        ["FHQ_M4A1_M203_BLK",nil,10000],
+                        ["arifle_Sam_g36c_F",nil,10000],
+                        ["30Rnd_556x45_Stanag",nil,70],
+                        ["wirk_acwr","Brigadier Chef",10000],
+                        ["wirk_acwr_mag",nil,100]
 					]
 				];
 			};
@@ -171,32 +171,33 @@ switch(_shop) do
                         ["optic_Arco",nil,10000],
                         ["acc_pointer_IR",nil,4200],
                         ["SmokeShell",nil,100],
-						//Policier
-						["hgun_P07_snds_F","Tazer",1000],
-						["16Rnd_9x21_Mag",nil,50],
-						["SMG_02_F",nil,5000],
-						["30Rnd_9x21_Mag",nil,60],
-						["M4_Benelli",nil,6500],
-						["8Rnd_B_Beneli_74Slug",nil,80],
-						["8Rnd_12Gauge_Pellets",nil,80],
-						["wirk_p90",nil,10000],
-						["wirk_p90_mag",nil,100],
-						//Brigadier
-						["arifle_sdar_F",nil,1000],
-						["20Rnd_556x45_UW_mag",nil,25],
-						["FHQ_M4A1_BLK",nil,10000],
-						["FHQ_M4A1_AFG_BLK",nil,10000],
-						["FHQ_M4A1_M203_BLK",nil,10000],
-						["arifle_Sam_g36c_F",nil,10000],
-						["30Rnd_556x45_Stanag",nil,70],
-						["wirk_acwr","Brigadier Chef",10000],
-						["wirk_acwr_mag",nil,100],
-						//Adj
-						["R3F_HK417L",nil,10000],
-						["R3F_20Rnd_762x51_TRACER_HK417",nil,100],
-						["arifle_Sam_scarh_F",nil,20000],
-						["20Rnd_762x51_ScarH_Mag",nil,90],
-						["gign_shield",nil,1000]
+                        //Policier
+                        ["hgun_P07_snds_F","Tazer",1000],
+                        ["16Rnd_9x21_Mag",nil,50],
+                        ["SMG_02_F",nil,5000],
+                        ["30Rnd_9x21_Mag",nil,60],
+                        ["M4_Benelli",nil,6500],
+                        ["8Rnd_B_Beneli_74Slug",nil,80],
+                        ["8Rnd_12Gauge_Pellets",nil,80],
+                        ["wirk_p90",nil,10000],
+                        ["wirk_p90_mag",nil,100],
+                        //Brigadier
+                        ["arifle_sdar_F",nil,1000],
+                        ["20Rnd_556x45_UW_mag",nil,25],
+                        ["FHQ_M4A1_BLK",nil,10000],
+                        ["FHQ_M4A1_AFG_BLK",nil,10000],
+                        ["FHQ_M4A1_M203_BLK",nil,10000],
+                        ["arifle_Sam_g36c_F",nil,10000],
+                        ["30Rnd_556x45_Stanag",nil,70],
+                        ["wirk_acwr","Brigadier Chef",10000],
+                        ["wirk_acwr_mag",nil,100],
+                        //Adj
+                        ["R3F_HK417L",nil,10000],
+                        ["R3F_20Rnd_762x51_TRACER_HK417",nil,100],
+                        ["arifle_Sam_scarh_F",nil,20000],
+                        ["20Rnd_762x51_ScarH_Mag",nil,90],
+                        ["gign_shield",nil,1000],
+                        ["optic_DMS","Adjudant Chef",30000]
 					]
 				];
 			};
