@@ -19,10 +19,11 @@ switch (_filter) do
 	//Uniforms
 	case 0:
 	{
-		_ret set[count _ret,["U_Rangemaster","Cop Uniform",25]];
+		_ret set[count _ret,["U_Rangemaster","Tenue Police",25]];
 		if(__GETC__(life_coplevel) > 1) then
 		{
-			_ret set[count _ret,["ALFR_FR_police_tenu",nil,2000]];
+			_ret set[count _ret,["Tenue Police",nil,2000]];
+			_ret set[count _ret,["U_B_Wetsuit",nil,2000]];
 		};
 		if(__GETC__(life_coplevel) > 2) then
 		{
@@ -75,10 +76,7 @@ switch (_filter) do
 			["G_Sport_BlackWhite",nil,20],
 			["G_Squares",nil,10],
 			["G_Aviator",nil,100],
-			["G_Lady_Mirror",nil,150],
-			["G_Lady_Dark",nil,150],
-			["G_Lady_Blue",nil,150],
-			["G_Lowprofile",nil,30]
+			["G_Diving",nil,500]
 		];
 	};
 
@@ -87,6 +85,7 @@ switch (_filter) do
 	{
 		_ret =
 		[
+			["V_TacVest_blk_POLICE",nil,500],
 			["V_Police_light","Gilet Police",1000],
 			["V_RebreatherB",nil,5000]
 		];
