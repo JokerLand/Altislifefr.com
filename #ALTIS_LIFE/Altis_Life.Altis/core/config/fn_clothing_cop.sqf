@@ -87,7 +87,8 @@ switch (_filter) do
 	{
 		_ret =
 		[
-			["V_Police_light","Gilet Police",1000]
+			["V_Police_light","Gilet Police",1000],
+			["V_RebreatherB",nil,5000]
 		];
 	};
 
@@ -96,7 +97,7 @@ switch (_filter) do
 	{
 		_ret =
 		[
-			["ALFR_Police_Backpack","Sac Police Insible",1000]
+			["ALFR_Police_Backpack","Sac Police Invisible",1000]
 		];
 	};
 };

@@ -18,7 +18,7 @@ switch (_filter) do
 	case 0:
 	{
 		[
-			["U_PMC_CombatUniformLS_BSGPBB","Tenue FLA",500]
+			["U_PMC_CombatUniformLS_BSGPBB","Tenue FLA",50]
 		];
 	};
 
@@ -26,7 +26,7 @@ switch (_filter) do
 	case 1:
 	{
 		[
-			["H_Cap_usblack",nil,650]
+			["H_Cap_usblack",nil,100]
 		];
 	};
 
@@ -53,8 +53,8 @@ switch (_filter) do
 	case 3:
 	{
 		[
-			["V_BandollierB_blk",nil,500],
-			["V_PlateCarrierGL_blk",nil,10000]
+			["V_BandollierB_blk",nil,100],
+			["V_PlateCarrierGL_blk",nil,1000]
 		];
 	};
 
@@ -62,7 +62,7 @@ switch (_filter) do
 	case 4:
 	{
 		[
-			["ALFR_Civ_Bags_Nitrado",nil, 2500],
+			["ALFR_Police_Backpack","Sac FLA Invisible",1000],
 			["B_Parachute",nil,2500]
 		];
 	};
