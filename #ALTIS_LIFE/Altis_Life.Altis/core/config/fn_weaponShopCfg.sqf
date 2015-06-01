@@ -95,8 +95,7 @@ switch(_shop) do
                         ["M4_Benelli",nil,6500],
                         ["8Rnd_B_Beneli_74Slug",nil,80],
                         ["8Rnd_12Gauge_Pellets",nil,80],
-                        ["wirk_p90",nil,10000],
-                        ["wirk_p90_mag",nil,100]
+						["gign_shield",nil,1000]
 					]
 				];
 			};
@@ -132,8 +131,7 @@ switch(_shop) do
                         ["M4_Benelli",nil,6500],
                         ["8Rnd_B_Beneli_74Slug",nil,80],
                         ["8Rnd_12Gauge_Pellets",nil,80],
-                        ["wirk_p90",nil,10000],
-                        ["wirk_p90_mag",nil,100],
+						["gign_shield",nil,1000],
                         //Brigadier
                         ["arifle_sdar_F",nil,1000],
                         ["20Rnd_556x45_UW_mag",nil,25],
@@ -142,8 +140,11 @@ switch(_shop) do
                         ["FHQ_M4A1_M203_BLK",nil,10000],
                         ["arifle_Sam_g36c_F",nil,10000],
                         ["30Rnd_556x45_Stanag",nil,70],
-                        ["wirk_acwr","Brigadier Chef",10000],
-                        ["wirk_acwr_mag",nil,100]
+						//Brigadier-Chef
+                        ["wirk_acwr","ACW-R (Brigadier-Chef)",10000],
+                        ["wirk_acwr_mag",nil,100],
+						["wirk_p90","FN-P90 (Brigadier-Chef)",10000],
+                        ["wirk_p90_mag",nil,100],
 					]
 				];
 			};
@@ -179,8 +180,7 @@ switch(_shop) do
                         ["M4_Benelli",nil,6500],
                         ["8Rnd_B_Beneli_74Slug",nil,80],
                         ["8Rnd_12Gauge_Pellets",nil,80],
-                        ["wirk_p90",nil,10000],
-                        ["wirk_p90_mag",nil,100],
+						["gign_shield",nil,1000],
                         //Brigadier
                         ["arifle_sdar_F",nil,1000],
                         ["20Rnd_556x45_UW_mag",nil,25],
@@ -189,8 +189,11 @@ switch(_shop) do
                         ["FHQ_M4A1_M203_BLK",nil,10000],
                         ["arifle_Sam_g36c_F",nil,10000],
                         ["30Rnd_556x45_Stanag",nil,70],
-                        ["wirk_acwr","Brigadier Chef",10000],
+						//Brigadier-Chef
+                        ["wirk_acwr",nil,10000],
                         ["wirk_acwr_mag",nil,100],
+						["wirk_p90",nil,10000],
+                        ["wirk_p90_mag",nil,100],
                         //Adj
                         ["R3F_HK417L",nil,10000],
                         ["R3F_20Rnd_762x51_TRACER_HK417",nil,100],
@@ -233,8 +236,7 @@ switch(_shop) do
                         ["M4_Benelli",nil,6500],
                         ["8Rnd_B_Beneli_74Slug",nil,80],
                         ["8Rnd_12Gauge_Pellets",nil,80],
-                        ["wirk_p90",nil,10000],
-                        ["wirk_p90_mag",nil,100],
+						["gign_shield",nil,1000],
                         //Brigadier
                         ["arifle_sdar_F",nil,1000],
                         ["20Rnd_556x45_UW_mag",nil,25],
@@ -243,14 +245,16 @@ switch(_shop) do
                         ["FHQ_M4A1_M203_BLK",nil,10000],
                         ["arifle_Sam_g36c_F",nil,10000],
                         ["30Rnd_556x45_Stanag",nil,70],
-                        ["wirk_acwr","Brigadier Chef",10000],
+						//Brigadier-Chef
+                        ["wirk_acwr",nil,10000],
                         ["wirk_acwr_mag",nil,100],
+						["wirk_p90",nil,10000],
+                        ["wirk_p90_mag",nil,100],
                         //Adj
                         ["R3F_HK417L",nil,10000],
                         ["R3F_20Rnd_762x51_TRACER_HK417",nil,100],
                         ["arifle_Sam_scarh_F",nil,20000],
                         ["20Rnd_762x51_ScarH_Mag",nil,90],
-                        ["gign_shield",nil,1000],
                         ["optic_DMS",nil,30000],
                         //Mjr
                         ["optic_SOS",nil,30000],
@@ -296,8 +300,7 @@ switch(_shop) do
                         ["M4_Benelli",nil,6500],
                         ["8Rnd_B_Beneli_74Slug",nil,80],
                         ["8Rnd_12Gauge_Pellets",nil,80],
-                        ["wirk_p90",nil,10000],
-                        ["wirk_p90_mag",nil,100],
+                        ["gign_shield",nil,1000],
                         //Brigadier
                         ["arifle_sdar_F",nil,1000],
                         ["20Rnd_556x45_UW_mag",nil,25],
@@ -306,14 +309,16 @@ switch(_shop) do
                         ["FHQ_M4A1_M203_BLK",nil,10000],
                         ["arifle_Sam_g36c_F",nil,10000],
                         ["30Rnd_556x45_Stanag",nil,70],
-                        ["wirk_acwr","Brigadier Chef",10000],
+						//Brigadier-Chef
+                        ["wirk_acwr",nil,10000],
                         ["wirk_acwr_mag",nil,100],
+						["wirk_p90",nil,10000],
+                        ["wirk_p90_mag",nil,100],
                         //Adj
                         ["R3F_HK417L",nil,10000],
                         ["R3F_20Rnd_762x51_TRACER_HK417",nil,100],
                         ["arifle_Sam_scarh_F",nil,20000],
                         ["20Rnd_762x51_ScarH_Mag",nil,90],
-                        ["gign_shield",nil,1000],
                         ["optic_DMS",nil,30000],
                         //Mjr
                         ["optic_SOS",nil,30000],
@@ -362,8 +367,7 @@ switch(_shop) do
                         ["M4_Benelli",nil,6500],
                         ["8Rnd_B_Beneli_74Slug",nil,80],
                         ["8Rnd_12Gauge_Pellets",nil,80],
-                        ["wirk_p90",nil,10000],
-                        ["wirk_p90_mag",nil,100],
+						["gign_shield",nil,1000],
                         //Brigadier
                         ["arifle_sdar_F",nil,1000],
                         ["20Rnd_556x45_UW_mag",nil,25],
@@ -372,14 +376,16 @@ switch(_shop) do
                         ["FHQ_M4A1_M203_BLK",nil,10000],
                         ["arifle_Sam_g36c_F",nil,10000],
                         ["30Rnd_556x45_Stanag",nil,70],
-                        ["wirk_acwr","Brigadier Chef",10000],
+						//Brigadier-Chef
+                        ["wirk_acwr",nil,10000],
                         ["wirk_acwr_mag",nil,100],
+						["wirk_p90",nil,10000],
+                        ["wirk_p90_mag",nil,100],
                         //Adj
                         ["R3F_HK417L",nil,10000],
                         ["R3F_20Rnd_762x51_TRACER_HK417",nil,100],
                         ["arifle_Sam_scarh_F",nil,20000],
                         ["20Rnd_762x51_ScarH_Mag",nil,90],
-                        ["gign_shield",nil,1000],
                         ["optic_DMS",nil,30000],
                         //Mjr
                         ["optic_SOS",nil,30000],
@@ -431,8 +437,7 @@ switch(_shop) do
                         ["M4_Benelli",nil,6500],
                         ["8Rnd_B_Beneli_74Slug",nil,80],
                         ["8Rnd_12Gauge_Pellets",nil,80],
-                        ["wirk_p90",nil,10000],
-                        ["wirk_p90_mag",nil,100],
+						["gign_shield",nil,1000],
                         //Brigadier
                         ["arifle_sdar_F",nil,1000],
                         ["20Rnd_556x45_UW_mag",nil,25],
@@ -441,14 +446,16 @@ switch(_shop) do
                         ["FHQ_M4A1_M203_BLK",nil,10000],
                         ["arifle_Sam_g36c_F",nil,10000],
                         ["30Rnd_556x45_Stanag",nil,70],
+						//Brigadier-Chef
                         ["wirk_acwr","Brigadier Chef",10000],
                         ["wirk_acwr_mag",nil,100],
+						["wirk_p90",nil,10000],
+                        ["wirk_p90_mag",nil,100],
                         //Adj
                         ["R3F_HK417L",nil,10000],
                         ["R3F_20Rnd_762x51_TRACER_HK417",nil,100],
                         ["arifle_Sam_scarh_F",nil,20000],
                         ["20Rnd_762x51_ScarH_Mag",nil,90],
-                        ["gign_shield",nil,1000],
                         ["optic_DMS",nil,30000],
                         //Mjr
                         ["optic_SOS",nil,30000],
