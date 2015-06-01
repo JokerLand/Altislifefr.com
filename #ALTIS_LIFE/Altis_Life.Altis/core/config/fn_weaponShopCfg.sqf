@@ -144,7 +144,9 @@ switch(_shop) do
                         ["wirk_acwr","ACW-R (Brigadier-Chef)",10000],
                         ["wirk_acwr_mag",nil,100],
 						["wirk_p90","FN-P90 (Brigadier-Chef)",10000],
-                        ["wirk_p90_mag",nil,100]
+                        ["wirk_p90_mag",nil,100],
+                        ["arifle_MXM_Black_F","MXM (Brigadier-Chef)",100],
+                        ["30Rnd_65x39_caseless_mag_Tracer",nil,100]
 					]
 				];
 			};
@@ -194,6 +196,13 @@ switch(_shop) do
                         ["wirk_acwr_mag",nil,100],
 						["wirk_p90",nil,10000],
                         ["wirk_p90_mag",nil,100],
+                        ["arifle_MXM_Black_F",nil,100],
+                        ["arifle_MXC_Black_F",nil,100],
+                        ["arifle_MX_Black_F",nil,100],
+                        ["arifle_MX_GL_Black_F",nil,100],
+                        ["arifle_MX_SW_Black_F",nil,100],
+                        ["30Rnd_65x39_caseless_mag_Tracer",nil,100],						
+                        ["100Rnd_65x39_caseless_mag_Tracer",nil,100],						
                         //Adj
                         ["R3F_HK417L",nil,10000],
                         ["R3F_20Rnd_762x51_TRACER_HK417",nil,100],
@@ -250,6 +259,13 @@ switch(_shop) do
                         ["wirk_acwr_mag",nil,100],
 						["wirk_p90",nil,10000],
                         ["wirk_p90_mag",nil,100],
+						["arifle_MXM_Black_F",nil,100],
+                        ["arifle_MXC_Black_F",nil,100],
+                        ["arifle_MX_Black_F",nil,100],
+                        ["arifle_MX_GL_Black_F",nil,100],
+                        ["arifle_MX_SW_Black_F",nil,100],
+                        ["30Rnd_65x39_caseless_mag_Tracer",nil,100],						
+                        ["100Rnd_65x39_caseless_mag_Tracer",nil,100],
                         //Adj
                         ["R3F_HK417L",nil,10000],
                         ["R3F_20Rnd_762x51_TRACER_HK417",nil,100],
@@ -314,6 +330,13 @@ switch(_shop) do
                         ["wirk_acwr_mag",nil,100],
 						["wirk_p90",nil,10000],
                         ["wirk_p90_mag",nil,100],
+						["arifle_MXM_Black_F",nil,100],
+                        ["arifle_MXC_Black_F",nil,100],
+                        ["arifle_MX_Black_F",nil,100],
+                        ["arifle_MX_GL_Black_F",nil,100],
+                        ["arifle_MX_SW_Black_F",nil,100],
+                        ["30Rnd_65x39_caseless_mag_Tracer",nil,100],						
+                        ["100Rnd_65x39_caseless_mag_Tracer",nil,100],
                         //Adj
                         ["R3F_HK417L",nil,10000],
                         ["R3F_20Rnd_762x51_TRACER_HK417",nil,100],
@@ -381,6 +404,13 @@ switch(_shop) do
                         ["wirk_acwr_mag",nil,100],
 						["wirk_p90",nil,10000],
                         ["wirk_p90_mag",nil,100],
+						["arifle_MXM_Black_F",nil,100],
+                        ["arifle_MXC_Black_F",nil,100],
+                        ["arifle_MX_Black_F",nil,100],
+                        ["arifle_MX_GL_Black_F",nil,100],
+                        ["arifle_MX_SW_Black_F",nil,100],
+                        ["30Rnd_65x39_caseless_mag_Tracer",nil,100],						
+                        ["100Rnd_65x39_caseless_mag_Tracer",nil,100],
                         //Adj
                         ["R3F_HK417L",nil,10000],
                         ["R3F_20Rnd_762x51_TRACER_HK417",nil,100],
@@ -451,6 +481,13 @@ switch(_shop) do
                         ["wirk_acwr_mag",nil,100],
 						["wirk_p90",nil,10000],
                         ["wirk_p90_mag",nil,100],
+						["arifle_MXM_Black_F",nil,100],
+                        ["arifle_MXC_Black_F",nil,100],
+                        ["arifle_MX_Black_F",nil,100],
+                        ["arifle_MX_GL_Black_F",nil,100],
+                        ["arifle_MX_SW_Black_F",nil,100],
+                        ["30Rnd_65x39_caseless_mag_Tracer",nil,100],						
+                        ["100Rnd_65x39_caseless_mag_Tracer",nil,100],
                         //Adj
                         ["R3F_HK417L",nil,10000],
                         ["R3F_20Rnd_762x51_TRACER_HK417",nil,100],
