@@ -14,6 +14,16 @@ class playerHUD
 	
 	class controlsBackground 
 	{
+		class alfr_watermark : life_RscPicture
+		{
+			idc = -1;
+			text= "icons\alfr_watermark.paa";
+			x = 0.90* safezoneW + safezoneX;
+            y = 0.85 * safezoneH + safezoneY;
+            w = 0.0945 * safezoneW;
+            h = 0.128 * safezoneH;
+		};
+		
 		class foodHIcon : life_RscPicture 
 		{
 		
