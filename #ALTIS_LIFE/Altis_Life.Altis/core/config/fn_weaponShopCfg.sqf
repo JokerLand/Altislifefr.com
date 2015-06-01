@@ -144,7 +144,7 @@ switch(_shop) do
                         ["wirk_acwr","ACW-R (Brigadier-Chef)",10000],
                         ["wirk_acwr_mag",nil,100],
 						["wirk_p90","FN-P90 (Brigadier-Chef)",10000],
-                        ["wirk_p90_mag",nil,100],
+                        ["wirk_p90_mag",nil,100]
 					]
 				];
 			};
