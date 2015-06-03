@@ -2,7 +2,7 @@
 /*
 	File: fn_clothing_cop.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Master config file for Cop clothing store.
 */
@@ -19,10 +19,11 @@ switch (_filter) do
 	//Uniforms
 	case 0:
 	{
-		_ret set[count _ret,["U_Rangemaster","Cop Uniform",25]];
+		_ret set[count _ret,["U_Rangemaster","Tenue Police",25]];
 		if(__GETC__(life_coplevel) > 1) then
 		{
-			_ret set[count _ret,["ALFR_FR_police_tenu",nil,2000]];
+			_ret set[count _ret,["ALFR_FR_police_tenu","Tenue Police",2000]];
+			_ret set[count _ret,["U_B_Wetsuit",nil,2000]];
 		};
 		if(__GETC__(life_coplevel) > 2) then
 		{
@@ -39,12 +40,12 @@ switch (_filter) do
 			_ret set[count _ret,["U_PMC_CombatUniformRS_GSSPBB","Tenue BAC",1500]];
 		};
 	};
-	
+
 	//Hats
 	case 1:
 	{
 		_ret set[count _ret,["H_MilCap_blue",nil,75]];
-	
+
 		if(__GETC__(life_coplevel) > 1) then
 		{
 			_ret set[count _ret,["H_Beret_blk",nil,100]];
@@ -61,11 +62,11 @@ switch (_filter) do
 			_ret set[count _ret,["H_Beret_Colonel",nil,200]];
 		};
 	};
-	
+
 	//Glasses
 	case 2:
 	{
-		_ret = 
+		_ret =
 		[
 			["G_Shades_Black",nil,25],
 			["G_Shades_Blue",nil,20],
@@ -73,45 +74,29 @@ switch (_filter) do
 			["G_Sport_Checkered",nil,20],
 			["G_Sport_Blackyellow",nil,20],
 			["G_Sport_BlackWhite",nil,20],
-			["G_Aviator",nil,75],
 			["G_Squares",nil,10],
-			["G_Lowprofile",nil,30],
-			["G_Combat",nil,55],
-			["G_Goggles_VR",nil,500],
-			["G_Tactical_Clear",nil,500],
+			["G_Aviator",nil,100],
 			["G_Diving",nil,500]
 		];
 	};
-	
+
 	//Vest
 	case 3:
 	{
 		_ret =
 		[
-			["V_TacVest_blk_POLICE",nil,5000],
-			["V_Police_heavy",nil,5000],
-			["V_Police_light",nil,5000],
-			["V_Police_medium",nil,5000],
-			["V_TacVestIR_blk",nil,15000],
-			["V_PlateCarrier1_blk",nil,20000],
-			["V_PlateCarrierInd_PMC_blk",nil,19000],
+			["V_TacVest_blk_POLICE",nil,500],
+			["V_Police_light","Gilet Police",1000],
 			["V_RebreatherB",nil,5000]
 		];
 	};
-	
+
 	//Backpacks
 	case 4:
 	{
 		_ret =
 		[
-			["B_Kitbag_cbr",nil,800],
-			["B_FieldPack_cbr",nil,500],
-			["B_AssaultPack_cbr",nil,700],
-			["B_Kitbag_blk",nil,1700],
-			["B_Bergen_sgg",nil,2500],
-			["B_Carryall_cbr",nil,3500],
-			["ALFR_Police_Bags",nil,1100],
-			["B_UAV_01_backpack_F",nil,5000]
+			["ALFR_Police_Backpack","Sac Police Invisible",1000]
 		];
 	};
 };

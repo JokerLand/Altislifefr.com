@@ -8,27 +8,49 @@ publicVariable "life_server_isReady";
 [] execVM "\life_server\eventhandlers.sqf";
 
 //I am aiming to confuse people including myself, ignore the ui checks it's because I test locally.
+
+_extDB = false;
+
+//Only need to setup extDB once.
 if(isNil {uiNamespace getVariable "life_sql_id"}) then {
 	life_sql_id = round(random(9999));
 	__CONST__(life_sql_id,life_sql_id);
 	uiNamespace setVariable ["life_sql_id",life_sql_id];
+
+	//extDB Version
+	_result = "extDB" callExtension "9:VERSION";
+	diag_log format ["extDB: Version: %1", _result];
+	if(_result == "") exitWith {};
+	if ((parseNumber _result) < 14) exitWith {diag_log "Error: extDB version 14 or Higher Required";};
+
+	//Initialize the database
+	_result = "extDB" callExtension "9:DATABASE:Database2";
+	if(_result != "[1]") exitWith {diag_log "extDB: Error with Database Connection";};
+	_result = "extDB" callExtension format["9:ADD:DB_RAW_V2:%1",(call life_sql_id)];
+	if(_result != "[1]") exitWith {diag_log "extDB: Error with Database Connection";};
+	"extDB" callExtension "9:LOCK";
+	_extDB = true;
+	diag_log "extDB: Connected to Database";
 } else {
 	life_sql_id = uiNamespace getVariable "life_sql_id";
 	__CONST__(life_sql_id,life_sql_id);
+	_extDB = true;
+	diag_log "extDB: Still Connected to Database";
 };
 
-_version = "extDB" callExtension "9:VERSION";
-if(_version == "") exitWith {life_server_extDB_notLoaded = true; publicVariable "life_server_extDB_notLoaded";};
-
-//Initialize the database
-"extDB" callExtension "9:DATABASE:Database2";
-"extDB" callExtension format["9:ADD:DB_RAW:%1",(call life_sql_id)];
-"extDB" callExtension "9:LOCK";
+//Broadbase PV to Clients, to warn about extDB Error.
+//	exitWith to stop trying to run rest of Server Code
+if (!_extDB) exitWith {
+	life_server_extDB_notLoaded = true;
+	publicVariable "life_server_extDB_notLoaded";
+	diag_log "extDB: Error checked extDB/logs for more info";
+};
 
 //Run procedures for SQL cleanup on mission start.
-["UPDATE vehicles SET active='0' WHERE active='1'",1] spawn DB_fnc_asyncCall;
+["CALL resetLifeVehicles",1] spawn DB_fnc_asyncCall;
 ["CALL deleteDeadVehicles",1] spawn DB_fnc_asyncCall;
 ["CALL deleteOldHouses",1] spawn DB_fnc_asyncCall;
+["CALL deleteOldGangs",1] spawn DB_fnc_asyncCall; //Maybe delete old gangs
 
 life_adminlevel = 0;
 life_medicLevel = 0;
@@ -39,7 +61,9 @@ __CONST__(JxMxE_PublishVehicle,"No");
 
 //[] execVM "\life_server\fn_initHC.sqf";
 
+life_radio_west = radioChannelCreate [[0, 0.95, 1, 0.8], "Canal Police", "%UNIT_NAME", []];
 life_radio_civ = radioChannelCreate [[0, 0.95, 1, 0.8], "Canal Civil", "%UNIT_NAME", []];
+life_radio_indep = radioChannelCreate [[0, 0.95, 1, 0.8], "Canal Médecins", "%UNIT_NAME", []];
 
 serv_sv_use = [];
 
@@ -70,7 +94,7 @@ client_session_list = [];
 
 [] spawn TON_fnc_federalUpdate;
 
-/*[] spawn
+[] spawn
 {
 	while {true} do
 	{
@@ -79,7 +103,7 @@ client_session_list = [];
 			_x setVariable["sellers",[],true];
 		} foreach [Dealer_1,Dealer_2,Dealer_3];
 	};
-};*/
+};
 
 //Strip NPC's of weapons
 {

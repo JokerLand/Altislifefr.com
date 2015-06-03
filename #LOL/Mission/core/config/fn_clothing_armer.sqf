@@ -1,7 +1,7 @@
 /*
 	File: fn_clothing_armer.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Master configuration file for Bobby's Kart Racing Outfits
 */
@@ -22,7 +22,7 @@ switch (_filter) do
 		["U_B_Wetsuit",nil,2000]
 		];
 	};
-	
+
 	//Hats
 	case 1:
 	{
@@ -32,7 +32,7 @@ switch (_filter) do
 			["R3F_beret_para",nil,1000]
 		];
 	};
-	
+
 	//Glasses
 	case 2:
 	{
@@ -41,7 +41,7 @@ switch (_filter) do
 			["G_Diving",nil,500]
 		];
 	};
-	
+
 	//Vest
 	case 3:
 	{
@@ -50,13 +50,12 @@ switch (_filter) do
 			["V_RebreatherB",nil,5000]
 		];
 	};
-	
+
 	//Backpacks
 	case 4:
 	{
 		[
-			["R3F_sac_lourd_APSO_CE_FLG",nil,500],
-			["B_UAV_01_backpack_F",nil,5000]
+			["ALFR_Police_Backpack","Sac Invisible",1000]
 		];
 	};
 };

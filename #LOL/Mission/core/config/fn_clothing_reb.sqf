@@ -10,7 +10,7 @@ _filter = [_this,0,0,[0]] call BIS_fnc_param;
 //Classname, Custom Display name (use nil for Cfg->DisplayName, price
 
 //Shop Title Name
-ctrlSetText[3103,"Equipement Rebelle"];
+ctrlSetText[3103,"Mohammed's Jihadi Shop"];
 
 switch (_filter) do
 {
@@ -18,27 +18,27 @@ switch (_filter) do
 	case 0:
 	{
 		[
-			["U_C_HunterBody_grn","Hunter Cream",500],
-			["U_OG_Guerilla3_1","Hunter Tan",500],
-			["U_OG_Guerilla3_2","Hunter Green",500],
-			["U_IG_Guerilla2_1","Buttonup Black",500],
-			["U_IG_Guerilla2_2","Buttonup Checked",500],
-			["U_IG_Guerilla2_3","Buttonup Navy",500],
-			["rds_uniform_Woodlander1","Tenue Gangster 1",10000],
-			["rds_uniform_Woodlander2","Tenue Gangster 2",10000],
-			["rds_uniform_Woodlander3","Tenue Gangster 3",10000],
-            ["rds_uniform_Woodlander4","Tenue Gangster 4",10000],
-			["U_IG_Guerilla1_1",nil,5000],
-			["U_I_G_Story_Protagonist_F",nil,7500],
-			["U_I_G_resistanceLeader_F",nil,11500],
-			["U_O_SpecopsUniform_ocamo",nil,17500],
-			["U_O_CombatUniform_oucamo",nil,17500],
-			["U_O_PilotCoveralls",nil,15610],
-			["U_IG_leader","Guerilla Leader",15340],
-			["U_I_OfficerUniform",nil,50000],
-			["U_I_CombatUniform",nil,50000],
-			["U_O_GhillieSuit",nil,80000],
-			["U_I_GhillieSuit",nil,80000],
+		["U_C_HunterBody_grn","Hunter Cream",500],
+            ["U_OG_Guerilla3_1","Hunter Tan",500],
+                  ["U_OG_Guerilla3_2","Hunter Green",500],
+                  ["U_IG_Guerilla2_1","Buttonup Black",500],
+                  ["U_IG_Guerilla2_2","Buttonup Checked",500],
+                  ["U_IG_Guerilla2_3","Buttonup Navy",500],
+                  ["rds_uniform_Woodlander1","Tenue Gangster 1",10000],
+                  ["rds_uniform_Woodlander2","Tenue Gangster 2",10000],
+                  ["rds_uniform_Woodlander3","Tenue Gangster 3",10000],
+                  ["rds_uniform_Woodlander4","Tenue Gangster 4",10000],
+                  ["U_IG_Guerilla1_1",nil,5000],
+                  ["U_I_G_Story_Protagonist_F",nil,7500],
+                  ["U_I_G_resistanceLeader_F",nil,11500],
+                  ["U_O_SpecopsUniform_ocamo",nil,17500],
+                  ["U_O_CombatUniform_oucamo",nil,17500],
+                  ["U_O_PilotCoveralls",nil,15610],
+                  ["U_IG_leader","Guerilla Leader",15340],
+                  ["U_I_OfficerUniform",nil,50000],
+                  ["U_I_CombatUniform",nil,50000],
+                  ["U_O_GhillieSuit",nil,80000],
+                  ["U_I_GhillieSuit",nil,80000],
             ["U_CivilianTShirt_C","TeeShirt grey et pantalon vert",10000],
             ["U_CombatUniFatigue_A","Tenue digital black",10000],
             ["U_GhillieSuit_A","Ghillie Suit 1",80000],
@@ -203,6 +203,18 @@ switch (_filter) do
             ["H_Hat_Pagri_B","Turban 7",1000],
             ["H_Hat_Turban_E","Turban 8",1000],
             ["H_Hat_Ushanka","Chapka noire 1",1000],
+            ["H_ALFR_Headset",nil,1200],
+            ["H_ALFR_PaintballMsk",nil,2000],
+            ["H_ALFR_Metal_Gasmask_RU_blk",nil,3000],
+            ["H_ALFR_Metal_Gasmask_RU_oli",nil,3000],
+            ["H_ALFR_Metal_Gasmask_RU_grey",nil,3000],
+            ["H_ALFR_Metal_Gasmask_RU_khk",nil,3000],
+            ["H_ALFR_Metal_Gasmask_RU_fuckyou",nil,3000],
+            ["H_ALFR_Gasmask",nil,3500],
+            ["H_ALFR_Metal_Facemask_blk",nil,4000],
+            ["H_ALFR_Metal_Facemask_oli",nil,4000],
+            ["H_ALFR_Metal_Facemask_sand",nil,4000],
+            ["H_ALFR_Metal_Facemask_gry",nil,4000],
             ["H_ALFR_Heist_Mask_1",nil,5000],
             ["H_ALFR_Heist_Mask_2",nil,5000],
             ["H_ALFR_Heist_Mask_3",nil,5000],
@@ -212,8 +224,16 @@ switch (_filter) do
             ["H_ALFR_Heist_Mask_7",nil,5000],
             ["H_ALFR_Samurai_Mask",nil,7000],
             ["H_ALFR_Sheep_Mask",nil,7000],
-            ["H_ALFR_Gasmask",nil,7000],
-            ["H_ALFR_Dallas_Mask",nil,10000]
+            ["H_ALFR_Dallas_Mask",nil,9000],
+            ["H_ALFR_DinoMask",nil,10000],
+			["H_ALFR_HorseMask",nil,10500],
+			["H_ALFR_HorseMask_2",nil,10500],
+			["H_ALFR_HorseMask_blk",nil,10500],
+			["H_ALFR_HorseMask_pnk",nil,10500],
+            ["H_ALFR_OVERKILL_I",nil,50000],
+            ["H_ALFR_OVERKILL_II",nil,75000],
+            ["H_ALFR_OVERKILL_III",nil,200000],
+            ["H_ALFR_OVERKILL_IV",nil,500000]
 		];
 	};
 
@@ -251,6 +271,24 @@ switch (_filter) do
 			["G_Bandanna_blk",nil,3500],
 			["G_Bandanna_beast",nil,5000],
 			["G_Balaclava_oli",nil,8000],
+            ["H_ALFR_SkiMask_1",nil,9000],
+            ["H_ALFR_SkiMask_2",nil,9000],
+            ["H_ALFR_SkiMask_3",nil,9000],
+            ["H_ALFR_SkiMask_4",nil,9000],
+            ["H_ALFR_SkiMask_5",nil,9000],
+            ["H_ALFR_SkiMask_6",nil,9000],
+            ["H_ALFR_SkiMask_7",nil,9000],
+            ["H_ALFR_SkiMask_8",nil,9000],
+            ["H_ALFR_SkiMask_9",nil,9000],
+            ["H_ALFR_SkiMask_10",nil,9000],
+            ["H_ALFR_SkiMask_Glasses_1",nil,10000],
+            ["H_ALFR_SkiMask_Glasses_2",nil,10000],
+            ["H_ALFR_SkiMask_Glasses_3",nil,10000],
+            ["H_ALFR_SkiMask_Glasses_4",nil,10000],
+            ["H_ALFR_SkiMask_Glasses_5",nil,10000],
+            ["H_ALFR_SkiMask_Glasses_6",nil,10000],
+            ["H_ALFR_SkiMask_Glasses_7",nil,10000],
+            ["H_ALFR_SkiMask_Glasses_8",nil,10000],
 			["R3F_cagoule_punisher",nil,10000]
 		];
 	};
@@ -259,8 +297,11 @@ switch (_filter) do
 	case 3:
 	{
 		[
-			["V_PlateCarrierGL_rgr",nil,17500],
-			["V_PlateCarrierIAGL_dgtl",nil,15000],
+                  ["V_PlateCarrierGL_rgr",nil,50000],
+                  ["V_PlateCarrierInd_PMC_blk",nil,40000],
+			["V_PlateCarrier1_blk",nil,30000],
+			["V_PlateCarrierIAGL_dgtl",nil,30000],
+                  ["V_TacVestIR_blk",nil,15000],
 			["V_TacVest_camo",nil,12500],
 			["V_TacVest_khk",nil,12500],
 			["V_I_G_resistanceLeader_F",nil,7500],

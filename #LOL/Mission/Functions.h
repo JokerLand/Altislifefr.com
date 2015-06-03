@@ -197,6 +197,7 @@ class Life_Client_Core
 		class clothing_rsdep {};
 		class clothing_brinks {};
 		class clothing_tlt {};
+		class clothing_fla {};
 		class clothing_armer {};
 	};
 

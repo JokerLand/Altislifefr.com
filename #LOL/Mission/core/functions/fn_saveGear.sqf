@@ -10,20 +10,19 @@
 private["_return","_uItems","_bItems","_vItems","_pItems","_hItems","_yItems","_uMags","_vMags","_bMags","_pMag","_hMag","_uni","_ves","_bag","_handled"];
 _return = [];
 
-_return set[count _return,uniform player];
-_return set[count _return,vest player];
-_return set[count _return,backpack player];
-_return set[count _return,goggles player];
-_return set[count _return,headgear player];
-_return set[count _return,assignedITems player];
+_return pushBack uniform player;
+_return pushBack vest player;
+_return pushBack backpack player;
+_return pushBack goggles player;
+_return pushBack headgear player;
+_return pushBack assignedITems player;
 if(playerSide == west || playerSide == civilian && {(call life_save_civ)}) then {
-    _return set[count _return,primaryWeapon player];
-	_return set[count _return,secondaryWeapon player];
-    _return set[count _return,handgunWeapon player];
+    _return pushBack primaryWeapon player;
+    _return pushBack handgunWeapon player;
+	_return pushBack secondaryWeapon player;
 } else {
-    _return set[count _return,[]];
-    _return set[count _return,[]];
-	_return set[count _return,[]];
+    _return pushBack [];
+    _return pushBack [];
 };
 
 _uItems = [];
@@ -172,30 +171,23 @@ if(count (handGunItems player) > 0) then
     ["life_inv_spikeStrip", life_inv_spikeStrip],
     ["life_inv_defusekit", life_inv_defusekit],
     ["life_inv_storagesmall", life_inv_storagesmall],
-	["life_inv_huntingKnife", life_inv_huntingKnife],
-	["life_inv_adre", life_inv_adre],
-	["life_inv_tracker", life_inv_tracker],
-	["life_inv_speedbomb", life_inv_speedbomb],
-	["life_inv_roadCone", life_inv_roadCone],
-	["life_inv_triangleSignal", life_inv_triangleSignal],
-	["life_inv_roadBarrier", life_inv_roadBarrier],
-	["life_inv_cuff", life_inv_cuff],
     ["life_inv_storagebig", life_inv_storagebig],
-	["life_inv_debitcard", life_inv_debitcard]
+	["life_inv_barriere", life_inv_barriere],
+	["life_inv_cone", life_inv_cone]
 ];
 
-_return set[count _return,_uItems];
-_return set[count _return,_uMags];
-_return set[count _return,_bItems];
-_return set[count _return,_bMags];
-_return set[count _return,_vItems];
-_return set[count _return,_vMags];
-_return set[count _return,_pItems];
-_return set[count _return,_hItems];
-if((call life_save_yinv) && !life_deadMen) then {
-    _return set[count _return,_yItems];
+_return pushBack _uItems;
+_return pushBack _uMags;
+_return pushBack _bItems;
+_return pushBack _bMags;
+_return pushBack _vItems;
+_return pushBack _vMags;
+_return pushBack _pItems;
+_return pushBack _hItems;
+if(call life_save_yinv) then {
+    _return pushBack _yItems;
 } else {
-    _return set[count _return,[]];
+    _return pushBack [];
 };
 
 life_gear = _return;
