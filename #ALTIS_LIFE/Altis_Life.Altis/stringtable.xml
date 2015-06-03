@@ -4745,6 +4745,14 @@
 			<Italian>Ti serve la licenza di pesca per usare questo negozio!</Italian>
 			<Portuguese>Você precisa de uma Licença de Mergulho para usar essa loja!</Portuguese>
 		</Key>
+		<Key ID="STR_Shop_NotaArmer">
+			<Original>Vous n'êtes pas militaire !</Original>
+			<French>Vous n'êtes pas militaire !</French>
+		</Key>
+		<Key ID="STR_Shop_NotaFLA">
+			<Original>Vous n'êtes pas membre de la FLA !</Original>
+			<French>Vous n'êtes pas membre de la FLA !</French>
+		</Key>
 		<Key ID="STR_Shop_YouNeed">
 			<Original>You need a %1 to buy from this shop!</Original>
 			<English>You need a %1 to buy from this shop!</English>
