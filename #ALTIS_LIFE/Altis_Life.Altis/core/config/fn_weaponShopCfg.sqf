@@ -209,7 +209,7 @@ switch(_shop) do
                         ["arifle_Sam_scarh_F",nil,20000],
                         ["20Rnd_762x51_ScarH_Mag",nil,90],
                         ["gign_shield",nil,1000],
-                        ["optic_DMS","Adjudant Chef",30000],
+                        ["optic_LRPS","Adjudant Chef",30000],
 						//Adj-Chef
 						["R3F_HK417L","HK-417 (Adj-Chef)",10000],
                         ["R3F_20Rnd_762x51_TRACER_HK417",nil,100],
@@ -276,7 +276,7 @@ switch(_shop) do
                         ["20Rnd_762x51_Mag",nil,100],
                         ["arifle_Sam_scarh_F",nil,20000],
                         ["20Rnd_762x51_ScarH_Mag",nil,90],
-                        ["optic_DMS",nil,30000],
+                        ["optic_LRPS",nil,30000],
 						//Adj-Chef
 						["R3F_HK417L",nil,10000],
                         ["R3F_20Rnd_762x51_TRACER_HK417",nil,100],
@@ -352,7 +352,7 @@ switch(_shop) do
                         ["20Rnd_762x51_Mag",nil,100],
                         ["arifle_Sam_scarh_F",nil,20000],
                         ["20Rnd_762x51_ScarH_Mag",nil,90],
-                        ["optic_DMS",nil,30000],
+                        ["optic_LRPS",nil,30000],
 						//Adj-Chef
 						["R3F_HK417L",nil,10000],
                         ["R3F_20Rnd_762x51_TRACER_HK417",nil,100],
@@ -431,7 +431,7 @@ switch(_shop) do
                         ["20Rnd_762x51_Mag",nil,100],
                         ["arifle_Sam_scarh_F",nil,20000],
                         ["20Rnd_762x51_ScarH_Mag",nil,90],
-                        ["optic_DMS",nil,30000],
+                        ["optic_LRPS",nil,30000],
 						//Adj-Chef
 						["R3F_HK417L",nil,10000],
                         ["R3F_20Rnd_762x51_TRACER_HK417",nil,100],
@@ -513,7 +513,7 @@ switch(_shop) do
                         ["20Rnd_762x51_Mag",nil,100],
                         ["arifle_Sam_scarh_F",nil,20000],
                         ["20Rnd_762x51_ScarH_Mag",nil,90],
-                        ["optic_DMS",nil,30000],
+                        ["optic_LRPS",nil,30000],
 						//Adj-Chef
                         ["R3F_HK417L",nil,30000],
                         ["R3F_20Rnd_762x51_TRACER_HK417",nil,30000],
