@@ -341,6 +341,7 @@ class Life_Client_Core
 		class copLoadout {};
 		class ticketPaid {};
 		class copEnter {};
+		class breathalyzer {};
 	};
 	
 	class Gangs
@@ -404,6 +405,10 @@ class Life_Client_Core
 		class meth {};
 		class cocaine {};
 		class CarAlarmSound {};
+		class drinkbeer {};
+		class drinkwhiskey {};
+		class drinkvodka {};
+		class drinkrhum {};
 	};
 	
 	class Dialog_Controls

@@ -32,6 +32,7 @@ life_removeWanted = false;
 life_action_gathering = false;
 life_fadeSound = false;
 life_destroye_inuse = false;
+life_drink = 0;
 
 //Persistent Saving
 __CONST__(life_save_civ,TRUE); //Save weapons for civs?
@@ -183,7 +184,10 @@ life_inv_items =
     "life_inv_uranium3",
     "life_inv_uranium4",
     "life_inv_uranium",
-	"life_inv_menotte"
+	"life_inv_menotte",
+	"life_inv_beer",
+	"life_inv_whiskey",
+	"life_inv_rhum"
 ];
 
 //Setup variable inv vars.
@@ -315,7 +319,10 @@ sell_array =
     ["uranium2",3000],
     ["uranium3",3000],
     ["uranium4",3000],
-	["menotte",800]
+	["menotte",800],
+	["beer",650],
+	["whiskey",1050],
+	["rhum",750]
 ];
 __CONST__(sell_array,sell_array);
 
@@ -356,7 +363,10 @@ buy_array =
     ["biere",90],
     ["puranium",5000],
     ["ipuranium",9000],
-	["menotte",15000]
+	["menotte",15000],
+	["beer",850],
+	["whiskey",1250],
+	["rhum",950]
 ];
 __CONST__(buy_array,buy_array);
 

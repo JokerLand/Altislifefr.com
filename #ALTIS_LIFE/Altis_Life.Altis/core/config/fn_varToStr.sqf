@@ -83,6 +83,9 @@ switch (_var) do
     case "life_inv_uranium4": {"Uranium Concentré"};
     case "life_inv_uranium": {"Uranium"};
 	case "life_inv_menotte": {"Paire de Menottes"};
+	case "life_inv_beer": {"Bière"};
+	case "life_inv_whiskey": {"Whisky"};
+	case "life_inv_rhum": {"Rhum"};
 
 	//License Block
 	case "license_civ_driver": {(localize "STR_License_Driver")};

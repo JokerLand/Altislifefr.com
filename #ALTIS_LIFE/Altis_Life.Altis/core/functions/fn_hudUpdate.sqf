@@ -13,6 +13,7 @@ if(isNull _ui) then {[] call life_fnc_hudSetup;};
 _food = _ui displayCtrl 23500;
 _water = _ui displayCtrl 23510;
 _health = _ui displayCtrl 23515;
+_alcool = _ui displayCtrl 23520;
 
 
 //Update food
@@ -43,5 +44,14 @@ if(damage player > 0.5) then {
 	_health ctrlSetBackgroundColor [255, 0, 0, 0.5]; 	
 };
 _health ctrlCommit 0; 
+
+//Update Alcool
+_alcool ctrlSetPosition [safeZoneX+safeZoneW-0.10,safeZoneY+safeZoneH-0.259];
+_alcool ctrlSetText format["%1", life_drink];
+_alcool ctrlSetBackgroundColor [0, 0, 0, 0.5]; 
+if(life_drink > 0.12) then { 
+	_alcool ctrlSetBackgroundColor [255, 0, 0, 0.5]; 	
+};
+_alcool ctrlCommit 0;
 
 

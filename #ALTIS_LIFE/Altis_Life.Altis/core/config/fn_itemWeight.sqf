@@ -81,6 +81,9 @@ switch (_item) do
     case "cola": {1};
     case "frite": {1};
     case "biere": {1};
+	case "beer": {1};
+	case "whiskey": {1};
+	case "rhum": {1};
 	case "menotte": {10};
     default {1};
 };

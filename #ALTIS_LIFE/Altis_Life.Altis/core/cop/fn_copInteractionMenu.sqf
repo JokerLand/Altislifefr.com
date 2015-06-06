@@ -18,8 +18,9 @@
 #define Btn11 37460
 #define Btn12 37461
 #define Title 37401
+#define Btn13 37462
 
-private["_display","_curTarget","_Btn1","_Btn2","_Btn3","_Btn4","_Btn5","_Btn6","_Btn7","_Btn8","_Btn9","_Btn10","_Btn11","Btn12"];
+private["_display","_curTarget","_Btn1","_Btn2","_Btn3","_Btn4","_Btn5","_Btn6","_Btn7","_Btn8","_Btn9","_Btn10","_Btn11","Btn12","Btn13"];
 if(!dialog) then {
 	createDialog "pInteraction_Menu";
 };
@@ -51,7 +52,7 @@ if(_curTarget isKindOf "House_F") exitWith {
 		_Btn7 ctrlShow false;
 	} else {
 		closeDialog 0;
-	};
+	}; 
 };
 		
 if(!isPlayer _curTarget && side _curTarget == civilian) exitWith {closeDialog 0;}; //Bad side check?
@@ -68,6 +69,7 @@ _Btn9 = _display displayCtrl Btn9;
 _Btn10 = _display displayCtrl Btn10;
 _Btn11 = _display displayCtrl Btn11;
 _Btn12 = _display displayCtrl Btn12;
+_Btn13 = _display displayCtrl Btn13;
 life_pInact_curTarget = _curTarget;
 
 //Set Unrestrain Button
@@ -115,6 +117,10 @@ _Btn11 buttonSetAction "[life_pInact_curTarget] call life_fnc_arrestAction25;";
 
 _Btn12 ctrlSetText localize "STR_pInAct_RevokeLicense";
 _Btn12 buttonSetAction "[life_pInact_curTarget] call life_fnc_revokeLicense;";
+
+//Set the Breathalyzer buttonAction
+_Btn13 ctrlSetText localize "STR_pInAct_Breathalyzer";
+_Btn13 buttonSetAction "[[player],""life_fnc_breathalyzer"",life_pInact_curTarget,FALSE] spawn life_fnc_MP;closeDialog 0";
 
 //Check that you are near a place to jail them.
 	if(!((player distance (getMarkerPos "police_hq_1") < 30) OR  (player distance (getMarkerPos "police_hq_2") < 90) OR  (player distance (getMarkerPos "police_hq_4") < 100) OR   (player distance (getMarkerPos "cop_spawn_3") < 30) OR (player distance (getMarkerPos "cop_spawn_5") < 30))) then 

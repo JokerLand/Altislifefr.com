@@ -87,6 +87,9 @@ switch (_mode) do
             case "uranium4": {"life_inv_uranium4"};
             case "uranium": {"life_inv_uranium"};
 			case "menotte": {"life_inv_menotte"};
+			case "beer": {"life_inv_beer"};
+			case "whiskey": {"life_inv_whiskey"};
+			case "rhum": {"life_inv_rhum"};
 		};
 	};
 
@@ -165,6 +168,9 @@ switch (_mode) do
             case "life_inv_uranium4": {"uranium4"};
             case "life_inv_uranium": {"uranium"}; 
 			case "life_inv_menotte": {"menotte"};
+			case "life_inv_beer": {"beer"};
+			case "life_inv_whiskey": {"whiskey"};
+			case "life_inv_rhum": {"rhum"};
 		};
 	};
 };
