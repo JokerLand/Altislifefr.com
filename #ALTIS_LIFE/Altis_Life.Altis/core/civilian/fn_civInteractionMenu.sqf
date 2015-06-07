@@ -16,12 +16,15 @@
 #define Btn9 37458
 #define Title 37401
 
+
 private["_display","_curTarget","_Btn1","_Btn2","_Btn3","_Btn4","_Btn5","_Btn6","_Btn7","_Btn8"];
+
+disableSerialization;
+_curTarget = [_this,0,ObjNull,[ObjNull]] call BIS_fnc_param;
 if(!dialog) then {
 	createDialog "pInteraction_Menu";
 };
-disableSerialization;
-_curTarget = [_this,0,ObjNull,[ObjNull]] call BIS_fnc_param;
+
 if(isNull _curTarget) exitWith {closeDialog 0;}; //Bad target
 		
 if(!isPlayer _curTarget && side _curTarget == civilian) exitWith {closeDialog 0;}; //Bad side check?

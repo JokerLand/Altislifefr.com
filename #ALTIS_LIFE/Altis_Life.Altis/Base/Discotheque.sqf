@@ -105,10 +105,10 @@ _obj setPosASL _pos;
     _obj allowDamage false;
 // ***************************************
 _pos = [3219.91,12760.8,0.9221];
-_obj = createVehicle ["Land_A3L_Nightclub", _pos, [], 0, "CAN_COLLIDE"];
-_obj setDir 100.661;
-_obj setPosASL _pos;
-	_obj allowDamage false;
+enceintes_disco = createVehicle ["Land_A3L_Nightclub", _pos, [], 0, "CAN_COLLIDE"];
+enceintes_disco setDir 100.661;
+enceintes_disco setPosASL _pos;
+enceintes_disco allowDamage false;
 // ***************************************
 _pos = [3251.5,12754.1,-3.1259];
 _obj = createVehicle ["Land_GH_Stairs_F", _pos, [], 0, "CAN_COLLIDE"];

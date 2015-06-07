@@ -434,6 +434,7 @@ class Life_Client_Core
 		class safeFix {};
 		class vehicleGarage {};
 		class gangDeposit {};
+		class playDiscoMusic {};
 	};
     
     class anstrich

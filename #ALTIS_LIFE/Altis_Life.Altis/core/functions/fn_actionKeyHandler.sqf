@@ -32,6 +32,10 @@ if(_curTarget isKindOf "House_F" && {player distance _curTarget < 12} OR ((neare
 	[_curTarget] call life_fnc_houseMenu;
 };
 
+if(((typeOf _curTarget) isEqualTo "Land_A3L_Nightclub") && (!dialog)) exitWith {
+	createDialog "alfr_dj_menu";
+};
+
 if(dialog) exitWith {}; //Don't bother when a dialog is open.
 if(vehicle player != player) exitWith {}; //He's in a vehicle, cancel!
 life_action_inUse = true;
