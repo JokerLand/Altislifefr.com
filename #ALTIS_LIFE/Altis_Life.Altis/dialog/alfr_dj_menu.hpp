@@ -1,5 +1,5 @@
 class alfr_dj_menu {	
-	idd = 2052;
+	idd = 28656;
 	name = "alfr_dj_menu";
 	movingEnable = true;
 	enableSimulation = true;
@@ -92,7 +92,6 @@ class alfr_dj_menu {
 			{
 				idc = -1;
 				text = "Disclosure - Bang That"; 
-				onButtonClick = "enceintes_disco say3D 'disclosure'";
 				x = 0.0125;
 				y = 0.38;
 				w = 0.25;
@@ -102,7 +101,6 @@ class alfr_dj_menu {
 			{
 				idc = -1;
 				text = "Joe Stone - The Party ft. Montell Jordan"; 
-				onButtonClick = "enceintes_disco say3D 'joestone'";
 				x = 0.0125;
 				y = 0.44;
 				w = 0.425;
@@ -187,7 +185,7 @@ class alfr_dj_menu {
 		{
 			idc=8010;
 			text = "";
-			onButtonClick = "enceintes_disco say3D 'snoopdogg'";
+			onButtonClick = "[0] spawn life_fnc_playDiscoMusic; closeDialog 0;";
 			colorText[] = {-1,-1,-1,0};
 			colorDisabled[] = {-1,-1,-1,0};
 			colorBackground[] = {-1,-1,-1,0};
@@ -206,7 +204,7 @@ class alfr_dj_menu {
 		{
 			idc = 8055;
 			text = "";
-			onButtonClick = "enceintes_disco say3D 'losecontrol'";
+			onButtonClick = "[1] spawn life_fnc_playDiscoMusic; closeDialog 0;";
 			colorText[] = {-1,-1,-1,0};
 			colorDisabled[] = {-1,-1,-1,0};
 			colorBackground[] = {-1,-1,-1,0};
@@ -225,7 +223,7 @@ class alfr_dj_menu {
 		{
 			idc = 8105;
 			text = "";
-			onButtonClick = "enceintes_disco say3D 'lessardines'";
+			onButtonClick = "[2] spawn life_fnc_playDiscoMusic; closeDialog 0;";
 			colorText[] = {-1,-1,-1,0};
 			colorDisabled[] = {-1,-1,-1,0};
 			colorBackground[] = {-1,-1,-1,0};
@@ -244,7 +242,7 @@ class alfr_dj_menu {
 		{
 			idc = 8155;
 			text = ""; 
-			onButtonClick = "enceintes_disco say3D 'kendji'";
+			onButtonClick = "[3] spawn life_fnc_playDiscoMusic; closeDialog 0;";
 			colorText[] = {-1,-1,-1,0};
 			colorDisabled[] = {-1,-1,-1,0};
 			colorBackground[] = {-1,-1,-1,0};
@@ -263,7 +261,7 @@ class alfr_dj_menu {
 		{
 			idc = 8205;
 			text = ""; 
-			onButtonClick = "enceintes_disco say3D 'disclosure'";
+			onButtonClick = "[4] spawn life_fnc_playDiscoMusic; closeDialog 0;";
 			colorText[] = {-1,-1,-1,0};
 			colorDisabled[] = {-1,-1,-1,0};
 			colorBackground[] = {-1,-1,-1,0};
@@ -282,7 +280,7 @@ class alfr_dj_menu {
 		{
 			idc = 8255;
 			text = ""; 
-			onButtonClick = "enceintes_disco say3D 'joestone'";
+			onButtonClick = "[5] spawn life_fnc_playDiscoMusic; closeDialog 0;";
 			colorText[] = {-1,-1,-1,0};
 			colorDisabled[] = {-1,-1,-1,0};
 			colorBackground[] = {-1,-1,-1,0};
@@ -301,7 +299,7 @@ class alfr_dj_menu {
 		{
 			idc = 8305;
 			text = ""; 
-			onButtonClick = "enceintes_disco say3D 'davidguetta'";
+			onButtonClick = "[6] spawn life_fnc_playDiscoMusic; closeDialog 0;";
 			colorText[] = {-1,-1,-1,0};
 			colorDisabled[] = {-1,-1,-1,0};
 			colorBackground[] = {-1,-1,-1,0};
@@ -320,7 +318,7 @@ class alfr_dj_menu {
 		{
 			idc = 8355;
 			text = ""; 
-			onButtonClick = "enceintes_disco say3D 'firefly'";
+			onButtonClick = "[7] spawn life_fnc_playDiscoMusic; closeDialog 0;";
 			colorText[] = {-1,-1,-1,0};
 			colorDisabled[] = {-1,-1,-1,0};
 			colorBackground[] = {-1,-1,-1,0};
@@ -339,7 +337,7 @@ class alfr_dj_menu {
 		{
 			idc = 8405;
 			text = ""; 
-			onButtonClick = "enceintes_disco say3D 'capitaineflam'";
+			onButtonClick = "[8] spawn life_fnc_playDiscoMusic; closeDialog 0;";
 			colorText[] = {-1,-1,-1,0};
 			colorDisabled[] = {-1,-1,-1,0};
 			colorBackground[] = {-1,-1,-1,0};
@@ -358,7 +356,7 @@ class alfr_dj_menu {
 		{
 			idc = 8455;
 			text = ""; 
-			onButtonClick = "enceintes_disco say3D 'avicii'";
+			onButtonClick = "[9] spawn life_fnc_playDiscoMusic; closeDialog 0;";
 			colorText[] = {-1,-1,-1,0};
 			colorDisabled[] = {-1,-1,-1,0};
 			colorBackground[] = {-1,-1,-1,0};
@@ -377,7 +375,7 @@ class alfr_dj_menu {
 		{
 			idc = 8505;
 			text = ""; 
-			onButtonClick = "enceintes_disco say3D 'alesso'";
+			onButtonClick = "[10] spawn life_fnc_playDiscoMusic; closeDialog 0;";
 			colorText[] = {-1,-1,-1,0};
 			colorDisabled[] = {-1,-1,-1,0};
 			colorBackground[] = {-1,-1,-1,0};
@@ -396,7 +394,7 @@ class alfr_dj_menu {
 		{
 			idc = 8555;
 			text = ""; 
-			onButtonClick = "enceintes_disco say3D 'queuleuleu'";
+			onButtonClick = "[11] spawn life_fnc_playDiscoMusic; closeDialog 0;";
 			colorText[] = {-1,-1,-1,0};
 			colorDisabled[] = {-1,-1,-1,0};
 			colorBackground[] = {-1,-1,-1,0};
@@ -415,7 +413,7 @@ class alfr_dj_menu {
 		{
 			idc = 8605;
 			text = "";
-			onButtonClick = "enceintes_disco say3D 'martinsolveig'";
+			onButtonClick = "[12] spawn life_fnc_playDiscoMusic; closeDialog 0;";
 			colorText[] = {-1,-1,-1,0};
 			colorDisabled[] = {-1,-1,-1,0};
 			colorBackground[] = {-1,-1,-1,0};
