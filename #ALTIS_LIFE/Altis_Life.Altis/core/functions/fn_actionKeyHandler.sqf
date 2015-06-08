@@ -32,7 +32,7 @@ if(_curTarget isKindOf "House_F" && {player distance _curTarget < 12} OR ((neare
 	[_curTarget] call life_fnc_houseMenu;
 };
 
-if(((typeOf _curTarget) isEqualTo "Land_A3L_Nightclub") && (!dialog)) exitWith {
+if(((typeOf _curTarget) isEqualTo "Land_A3L_Nightclub") && (!dialog) && {player distance _curTarget < 12}) exitWith {
 	createDialog "alfr_dj_menu";
 };
 

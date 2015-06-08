@@ -33,6 +33,10 @@
 			<Italian>Dai</Italian>
 			<Portuguese>Dar</Portuguese>
 		</Key>
+		<Key ID="STR_pInAct_Breathalyzer">
+			<Original>Alcoolémie</Original>
+			<French>Alcoolémie</French>
+		</Key>
 		<Key ID="STR_Global_Use">
 			<Original>Use</Original>
 			<English>Use</English>

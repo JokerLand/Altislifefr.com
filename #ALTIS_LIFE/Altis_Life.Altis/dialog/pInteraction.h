@@ -51,7 +51,7 @@ class pInteraction_Menu
 			text = "$STR_Global_Close";
 			onButtonClick = "closeDialog 0;";
 			x = BGX;
-			y = 0.9 - (1 / 25);
+			y = BGY + 0.8;
 			w = (6.25 / 40);
 			h = (1 / 25);
 		};
@@ -206,7 +206,7 @@ class pInteraction_Menu
 			text = "";
 			sizeEx = 0.025;
 			x = BGX + 0.03;
-			y = BGY + 0.47;
+			y = BGY + 0.67;
 			w = 0.24;
 			h = 0.038;
 		};
