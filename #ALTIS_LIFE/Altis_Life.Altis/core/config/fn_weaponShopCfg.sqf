@@ -283,6 +283,7 @@ switch(_shop) do
 						["Trixie_M40A3_Clean",nil,10000],
                         ["Trixie_5x762_Mag",nil,100],
                         //Mjr
+						["B_UavTerminal",nil,500],
                         ["optic_SOS",nil,30000],
                         ["optic_LRPS",nil,50000],
                         ["HandGrenade_Stone","Flashbang",1000],
@@ -359,6 +360,7 @@ switch(_shop) do
 						["Trixie_M40A3_Clean",nil,10000],
                         ["Trixie_5x762_Mag",nil,100],
                         //Mjr
+						["B_UavTerminal",nil,500],
                         ["optic_SOS",nil,30000],
                         ["optic_LRPS",nil,50000],
                         ["HandGrenade_Stone","Flashbang",1000],
@@ -438,6 +440,7 @@ switch(_shop) do
 						["Trixie_M40A3_Clean",nil,10000],
                         ["Trixie_5x762_Mag",nil,100],
                         //Mjr
+						["B_UavTerminal",nil,500],
                         ["optic_SOS",nil,30000],
                         ["optic_LRPS",nil,50000],
                         ["HandGrenade_Stone","Flashbang",1000],
@@ -520,6 +523,7 @@ switch(_shop) do
 						["Trixie_M40A3_Clean",nil,10000],
                         ["Trixie_5x762_Mag",nil,100],
                         //Mjr
+						["B_UavTerminal",nil,500],
                         ["optic_SOS",nil,30000],
                         ["optic_LRPS",nil,50000],
                         ["HandGrenade_Stone","Flashbang",1000],
