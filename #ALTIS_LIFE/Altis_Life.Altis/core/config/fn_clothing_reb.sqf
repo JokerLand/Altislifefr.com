@@ -269,7 +269,7 @@ switch (_filter) do
 			["ALFR_V_Tactical_Vest_Heavy_oli",nil,36500],
 			["ALFR_V_Tactical_Vest_Heavy_AAF",nil,36500],
 			["ALFR_V_Tactical_Vest_Heavy_OPFOR",nil,36500],
-			["ALFR_V_Tactical_Vest_Heavy_MTP",nil,36500]
+			["ALFR_V_Tactical_Vest_Heavy_MTP",nil,36500] 
 		];
 	};
 
