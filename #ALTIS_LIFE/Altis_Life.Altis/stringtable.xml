@@ -34,8 +34,8 @@
 			<Portuguese>Dar</Portuguese>
 		</Key>
 		<Key ID="STR_pInAct_Breathalyzer">
-			<Original>Alcoolémie</Original>
-			<French>Alcoolémie</French>
+			<Original>Taux d'Alcool</Original>
+			<French>Taux d'Alcool</French>
 		</Key>
 		<Key ID="STR_Global_Use">
 			<Original>Use</Original>
