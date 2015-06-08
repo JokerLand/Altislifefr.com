@@ -177,6 +177,7 @@ class Life_Client_Core
 		//Clothing Store Configs
 		class clothing_cop {};
 		class clothing_bruce {};
+		class clothing_mask {};
 		class clothing_reb {};
 		class clothing_dive {};
 		class clothing_kart {};

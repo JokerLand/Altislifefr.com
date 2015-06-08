@@ -24,5 +24,5 @@ _timer = _music select 1;
 _enceintes_disco = (nearestObject [[3219.91,12760.8,0.9221],"Land_A3L_Nightclub"]);
  
 _enceintes_disco say3D _music;
-discoTime = _timer;
+discoTime = _timer + time;
 publicVariable "discoTime";

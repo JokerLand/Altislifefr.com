@@ -202,38 +202,7 @@ switch (_filter) do
             ["H_Hat_Pagri_C","Turban 6",1000],
             ["H_Hat_Pagri_B","Turban 7",1000],
             ["H_Hat_Turban_E","Turban 8",1000],
-            ["H_Hat_Ushanka","Chapka noire 1",1000],
-            ["H_ALFR_Headset",nil,1200],
-            ["H_ALFR_PaintballMsk",nil,2000],
-            ["H_ALFR_Metal_Gasmask_RU_blk",nil,3000],
-            ["H_ALFR_Metal_Gasmask_RU_oli",nil,3000],
-            ["H_ALFR_Metal_Gasmask_RU_grey",nil,3000],
-            ["H_ALFR_Metal_Gasmask_RU_khk",nil,3000],
-            ["H_ALFR_Metal_Gasmask_RU_fuckyou",nil,3000],
-            ["H_ALFR_Gasmask",nil,3500],
-            ["H_ALFR_Metal_Facemask_blk",nil,4000],
-            ["H_ALFR_Metal_Facemask_oli",nil,4000],
-            ["H_ALFR_Metal_Facemask_sand",nil,4000],
-            ["H_ALFR_Metal_Facemask_gry",nil,4000],
-            ["H_ALFR_Heist_Mask_1",nil,5000],
-            ["H_ALFR_Heist_Mask_2",nil,5000],
-            ["H_ALFR_Heist_Mask_3",nil,5000],
-            ["H_ALFR_Heist_Mask_4",nil,5000],
-            ["H_ALFR_Heist_Mask_5",nil,5000],
-            ["H_ALFR_Heist_Mask_6",nil,5000],
-            ["H_ALFR_Heist_Mask_7",nil,5000],
-            ["H_ALFR_Samurai_Mask",nil,7000],
-            ["H_ALFR_Sheep_Mask",nil,7000],
-            ["H_ALFR_Dallas_Mask",nil,9000],
-            ["H_ALFR_DinoMask",nil,10000],
-			["H_ALFR_HorseMask",nil,10500],
-			["H_ALFR_HorseMask_2",nil,10500],
-			["H_ALFR_HorseMask_blk",nil,10500],
-			["H_ALFR_HorseMask_pnk",nil,10500],
-            ["H_ALFR_OVERKILL_I",nil,50000],
-            ["H_ALFR_OVERKILL_II",nil,75000],
-            ["H_ALFR_OVERKILL_III",nil,200000],
-            ["H_ALFR_OVERKILL_IV",nil,500000]
+            ["H_Hat_Ushanka","Chapka noire 1",1000]
 		];
 	};
 
@@ -271,24 +240,6 @@ switch (_filter) do
 			["G_Bandanna_blk",nil,3500],
 			["G_Bandanna_beast",nil,5000],
 			["G_Balaclava_oli",nil,8000],
-            ["H_ALFR_SkiMask_1",nil,9000],
-            ["H_ALFR_SkiMask_2",nil,9000],
-            ["H_ALFR_SkiMask_3",nil,9000],
-            ["H_ALFR_SkiMask_4",nil,9000],
-            ["H_ALFR_SkiMask_5",nil,9000],
-            ["H_ALFR_SkiMask_6",nil,9000],
-            ["H_ALFR_SkiMask_7",nil,9000],
-            ["H_ALFR_SkiMask_8",nil,9000],
-            ["H_ALFR_SkiMask_9",nil,9000],
-            ["H_ALFR_SkiMask_10",nil,9000],
-            ["H_ALFR_SkiMask_Glasses_1",nil,10000],
-            ["H_ALFR_SkiMask_Glasses_2",nil,10000],
-            ["H_ALFR_SkiMask_Glasses_3",nil,10000],
-            ["H_ALFR_SkiMask_Glasses_4",nil,10000],
-            ["H_ALFR_SkiMask_Glasses_5",nil,10000],
-            ["H_ALFR_SkiMask_Glasses_6",nil,10000],
-            ["H_ALFR_SkiMask_Glasses_7",nil,10000],
-            ["H_ALFR_SkiMask_Glasses_8",nil,10000],
 			["R3F_cagoule_punisher",nil,10000]
 		];
 	};
@@ -297,16 +248,28 @@ switch (_filter) do
 	case 3:
 	{
 		[
-                  ["V_PlateCarrierGL_rgr",nil,50000],
-                  ["V_PlateCarrierInd_PMC_blk",nil,40000],
+            ["V_PlateCarrierGL_rgr",nil,50000],
+            ["V_PlateCarrierInd_PMC_blk",nil,40000],
 			["V_PlateCarrier1_blk",nil,30000],
 			["V_PlateCarrierIAGL_dgtl",nil,30000],
-                  ["V_TacVestIR_blk",nil,15000],
+            ["V_TacVestIR_blk",nil,15000],
 			["V_TacVest_camo",nil,12500],
 			["V_TacVest_khk",nil,12500],
 			["V_I_G_resistanceLeader_F",nil,7500],
 			["V_HarnessO_brn",nil,5500],
-			["V_BandollierB_cbr",nil,4500]
+			["V_BandollierB_cbr",nil,4500],
+			["ALFR_V_Tactical_Vest_Light",nil,18000],
+			["ALFR_V_Tactical_Vest_Light_oli",nil,18000],
+			["ALFR_V_Tactical_Vest_Light_blk",nil,18000],
+			["ALFR_V_Tactical_Vest_Light_AAF",nil,18000],
+			["ALFR_V_Tactical_Vest_Light_OPFOR",nil,18000],
+			["ALFR_V_Tactical_Vest_Light_MTP",nil,18000],
+			["ALFR_V_Tactical_Vest_Heavy_khk",nil,36500],
+			["ALFR_V_Tactical_Vest_Heavy_blk",nil,36500],
+			["ALFR_V_Tactical_Vest_Heavy_oli",nil,36500],
+			["ALFR_V_Tactical_Vest_Heavy_AAF",nil,36500],
+			["ALFR_V_Tactical_Vest_Heavy_OPFOR",nil,36500],
+			["ALFR_V_Tactical_Vest_Heavy_MTP",nil,36500]
 		];
 	};
 

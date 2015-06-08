@@ -4029,7 +4029,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=2036;
+		items=2040;
 		class Item0
 		{
 			position[]={8065.1616,35.674362,24985.314};
@@ -25847,10 +25847,54 @@ class Mission
 			skill=0.60000002;
 			init="this allowDamage false; this enableSimulation false; (getPos this nearestObject 654789) setDamage 1; delh = [0,0,0] nearestObject 654766; delh hideObject true; delh = [0,0,0] nearestObject 654771; delh hideObject true; delh = [0,0,0] nearestObject 654772; delh hideObject true; delh = [0,0,0] nearestObject 654842; delh hideObject true; delh = [0,0,0] nearestObject 654843; delh hideObject true; delh = [0,0,0] nearestObject 654857; delh hideObject true; delh = [0,0,0] nearestObject 654836; delh hideObject true; (getPos this nearestObject 654788) setDamage 1;  (getPos this nearestObject 654787) setDamage 1;  (getPos this nearestObject 654726) setDamage 1;  (getPos this nearestObject 654819) setDamage 1;  (getPos this nearestObject 654825) setDamage 1;  (getPos this nearestObject 654826) setDamage 1;  (getPos this nearestObject 654827) setDamage 1;  (getPos this nearestObject 654822) setDamage 1;";
 		};
+		class Item2036
+		{
+			position[]={3211.8069,0,12757.269};
+			azimut=180;
+			offsetY=1.1;
+			id=2292;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V1_F";
+			skill=0.60000002;
+			init="this allowDamage false; this enableSimulation false; this addAction[""Bar"",life_fnc_virt_menu,""bar""];";
+		};
+		class Item2037
+		{
+			position[]={3501.0476,19.588329,14137.28};
+			azimut=51.96159;
+			special="NONE";
+			id=2293;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V2_F";
+			skill=0.2;
+			init="this allowDamage false; this enableSimulation false; this addAction[""Vendeur de Masques"",life_fnc_clothingMenu,""mask""];";
+		};
+		class Item2038
+		{
+			position[]={14540.5,24.83559,17565.154};
+			azimut=27.082949;
+			special="NONE";
+			id=2294;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V2_F";
+			skill=0.2;
+			init="this allowDamage false; this enableSimulation false; this addAction[""Vendeur de Masques"",life_fnc_clothingMenu,""mask""];";
+		};
+		class Item2039
+		{
+			position[]={16855.881,17.744362,12946.718};
+			azimut=-10.085216;
+			special="NONE";
+			id=2295;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V2_F";
+			skill=0.2;
+			init="this allowDamage false; this enableSimulation false; this addAction[""Vendeur de Masques"",life_fnc_clothingMenu,""mask""];";
+		};
 	};
 	class Markers
 	{
-		items=397;
+		items=401;
 		class Item0
 		{
 			position[]={8459.6777,104.56568,25131.203};
@@ -29103,6 +29147,38 @@ class Mission
 			name="spawn_reb1";
 			type="Empty";
 			angle=-1.5601721;
+		};
+		class Item397
+		{
+			position[]={3227.0894,0,12757.526};
+			name="disco_marker";
+			text="Discothèque";
+			type="loc_Lighthouse";
+			colorName="ColorCIV";
+		};
+		class Item398
+		{
+			position[]={16855.879,17.746626,12946.614};
+			name="mask_vendor";
+			text="Vendeur de Masques";
+			type="c_unknown";
+			colorName="ColorGreen";
+		};
+		class Item399
+		{
+			position[]={14540.338,24.833834,17565.086};
+			name="mask_vendor_1";
+			text="Vendeur de Masques";
+			type="c_unknown";
+			colorName="ColorGreen";
+		};
+		class Item400
+		{
+			position[]={3500.6028,19.573845,14136.814};
+			name="mask_vendor_2";
+			text="Vendeur de Masques";
+			type="c_unknown";
+			colorName="ColorGreen";
 		};
 	};
 	class Sensors
