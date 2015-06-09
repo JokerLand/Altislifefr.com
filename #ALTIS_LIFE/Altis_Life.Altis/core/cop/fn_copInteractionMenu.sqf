@@ -20,7 +20,7 @@
 #define Title 37401
 #define Btn13 37462
 
-private["_display","_curTarget","_Btn1","_Btn2","_Btn3","_Btn4","_Btn5","_Btn6","_Btn7","_Btn8","_Btn9","_Btn10","_Btn11","Btn12","Btn13"];
+private["_display","_curTarget","_Btn1","_Btn2","_Btn3","_Btn4","_Btn5","_Btn6","_Btn7","_Btn8","_Btn9","_Btn10","_Btn11","_Btn12","_Btn13"];
 if(!dialog) then {
 	createDialog "pInteraction_Menu";
 };
