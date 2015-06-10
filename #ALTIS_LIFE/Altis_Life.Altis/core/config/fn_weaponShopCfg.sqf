@@ -206,7 +206,7 @@ switch(_shop) do
                         ["arifle_Sam_scarh_F",nil,20000],
                         ["20Rnd_762x51_ScarH_Mag",nil,90],
                         ["ALFR_Shield_F",nil,1000],
-                        ["optic_LRPS","Adjudant Chef",30000],
+                        ["optic_LRPS",nil,30000],
 						//Adj-Chef
 						["R3F_HK417L","HK-417 (Adj-Chef)",10000],
                         ["R3F_20Rnd_762x51_TRACER_HK417",nil,100],
