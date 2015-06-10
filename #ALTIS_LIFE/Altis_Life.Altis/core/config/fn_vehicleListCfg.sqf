@@ -166,6 +166,7 @@ switch (_shop) do
                 ["CL3_bus_cl_black",100000],
                 ["cl3_xr_1000_black",250000],
                 ["cl3_arielatom_black",125000],
+				["GeK_Civilian_H1",200000],
                 ["cl3_arielatom_race_black", 250000],
                 ["ALFR_GeK_Pagani_Zonda", 2500000],
                 ["IVORY_ERJ135_1", 10000000]

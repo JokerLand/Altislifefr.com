@@ -92,10 +92,9 @@ switch(_shop) do
                         ["16Rnd_9x21_Mag",nil,50],
                         ["SMG_02_F",nil,5000],
                         ["30Rnd_9x21_Mag",nil,60],
-                        ["M4_Benelli",nil,6500],
-                        ["8Rnd_B_Beneli_74Slug",nil,80],
-                        ["8Rnd_12Gauge_Pellets",nil,80],
-						["gign_shield",nil,1000]
+                        ["prifle_alfr_Sam_870cms_F",nil,6500],
+                        ["8Rnd_ALFR_12Gauge_Pellets",nil,80],
+						["ALFR_Shield_F",nil,1000]
 					]
 				];
 			};
@@ -128,10 +127,9 @@ switch(_shop) do
                         ["16Rnd_9x21_Mag",nil,50],
                         ["SMG_02_F",nil,5000],
                         ["30Rnd_9x21_Mag",nil,60],
-                        ["M4_Benelli",nil,6500],
-                        ["8Rnd_B_Beneli_74Slug",nil,80],
-                        ["8Rnd_12Gauge_Pellets",nil,80],
-						["gign_shield",nil,1000],
+                        ["prifle_alfr_Sam_870cms_F",nil,6500],
+                        ["8Rnd_ALFR_12Gauge_Pellets",nil,80],
+						["ALFR_Shield_F",nil,1000],
                         //Brigadier
                         ["arifle_sdar_F",nil,1000],
                         ["20Rnd_556x45_UW_mag",nil,25],
@@ -179,10 +177,9 @@ switch(_shop) do
                         ["16Rnd_9x21_Mag",nil,50],
                         ["SMG_02_F",nil,5000],
                         ["30Rnd_9x21_Mag",nil,60],
-                        ["M4_Benelli",nil,6500],
-                        ["8Rnd_B_Beneli_74Slug",nil,80],
-                        ["8Rnd_12Gauge_Pellets",nil,80],
-						["gign_shield",nil,1000],
+                        ["prifle_alfr_Sam_870cms_F",nil,6500],
+                        ["8Rnd_ALFR_12Gauge_Pellets",nil,80],
+						["ALFR_Shield_F",nil,1000],
                         //Brigadier
                         ["arifle_sdar_F",nil,1000],
                         ["20Rnd_556x45_UW_mag",nil,25],
@@ -208,7 +205,7 @@ switch(_shop) do
                         ["20Rnd_762x51_Mag",nil,100],
                         ["arifle_Sam_scarh_F",nil,20000],
                         ["20Rnd_762x51_ScarH_Mag",nil,90],
-                        ["gign_shield",nil,1000],
+                        ["ALFR_Shield_F",nil,1000],
                         ["optic_LRPS","Adjudant Chef",30000],
 						//Adj-Chef
 						["R3F_HK417L","HK-417 (Adj-Chef)",10000],
@@ -247,10 +244,9 @@ switch(_shop) do
                         ["16Rnd_9x21_Mag",nil,50],
                         ["SMG_02_F",nil,5000],
                         ["30Rnd_9x21_Mag",nil,60],
-                        ["M4_Benelli",nil,6500],
-                        ["8Rnd_B_Beneli_74Slug",nil,80],
-                        ["8Rnd_12Gauge_Pellets",nil,80],
-						["gign_shield",nil,1000],
+                        ["prifle_alfr_Sam_870cms_F",nil,6500],
+                        ["8Rnd_ALFR_12Gauge_Pellets",nil,80],
+						["ALFR_Shield_F",nil,1000],
                         //Brigadier
                         ["arifle_sdar_F",nil,1000],
                         ["20Rnd_556x45_UW_mag",nil,25],
@@ -324,10 +320,9 @@ switch(_shop) do
                         ["16Rnd_9x21_Mag",nil,50],
                         ["SMG_02_F",nil,5000],
                         ["30Rnd_9x21_Mag",nil,60],
-                        ["M4_Benelli",nil,6500],
-                        ["8Rnd_B_Beneli_74Slug",nil,80],
-                        ["8Rnd_12Gauge_Pellets",nil,80],
-                        ["gign_shield",nil,1000],
+                        ["prifle_alfr_Sam_870cms_F",nil,6500],
+                        ["8Rnd_ALFR_12Gauge_Pellets",nil,80],
+                        ["ALFR_Shield_F",nil,1000],
                         //Brigadier
                         ["arifle_sdar_F",nil,1000],
                         ["20Rnd_556x45_UW_mag",nil,25],
@@ -404,10 +399,9 @@ switch(_shop) do
                         ["16Rnd_9x21_Mag",nil,50],
                         ["SMG_02_F",nil,5000],
                         ["30Rnd_9x21_Mag",nil,60],
-                        ["M4_Benelli",nil,6500],
-                        ["8Rnd_B_Beneli_74Slug",nil,80],
-                        ["8Rnd_12Gauge_Pellets",nil,80],
-						["gign_shield",nil,1000],
+                        ["prifle_alfr_Sam_870cms_F",nil,6500],
+                        ["8Rnd_ALFR_12Gauge_Pellets",nil,80],
+						["ALFR_Shield_F",nil,1000],
                         //Brigadier
                         ["arifle_sdar_F",nil,1000],
                         ["20Rnd_556x45_UW_mag",nil,25],
@@ -487,10 +481,9 @@ switch(_shop) do
                         ["16Rnd_9x21_Mag",nil,50],
                         ["SMG_02_F",nil,5000],
                         ["30Rnd_9x21_Mag",nil,60],
-                        ["M4_Benelli",nil,6500],
-                        ["8Rnd_B_Beneli_74Slug",nil,80],
-                        ["8Rnd_12Gauge_Pellets",nil,80],
-						["gign_shield",nil,1000],
+                        ["prifle_alfr_Sam_870cms_F",nil,6500],
+                        ["8Rnd_ALFR_12Gauge_Pellets",nil,80],
+						["ALFR_Shield_F",nil,1000],
                         //Brigadier
                         ["arifle_sdar_F",nil,1000],
                         ["20Rnd_556x45_UW_mag",nil,25],
@@ -838,6 +831,8 @@ switch(_shop) do
 						["30Rnd_556x45_Galil_Mag",nil,100],
 						["arifle_sa80_Sam_F",nil,150000],
 						["arifle_Sam_g36c_F",nil,150000],
+						["prifle_alfr_Sam_870cms_F",nil,150000],
+						["8Rnd_ALFR_12Gauge_Pellets",nil,95],
 						["arifle_Sam_stg58_F",nil,200000],
 						["20Rnd_762x51_STG58_Mag",nil,90],
 						["arifle_Sam_scarh_F",nil,200000],
@@ -996,7 +991,7 @@ switch(_shop) do
                     [
                         ["ToolKit",nil,200],
                         ["FirstAidKit",nil,100],
-			["Mask_M40","Masque a Gaz",85000],
+						["Mask_M40","Masque a Gaz",85000],
                         ["U_C_Scientist","Combinaison Antiradiation",100000]
                     ]
                 ];
