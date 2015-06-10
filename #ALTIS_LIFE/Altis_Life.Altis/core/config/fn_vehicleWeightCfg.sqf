@@ -119,5 +119,6 @@ switch (_className) do
 	case "ALFR_GeK_Pagani_Zonda": {20};
 	case "wirk_ferrari_california": {20};
 	case "ALFR_GeK_MF1": {20};
+	case "GeK_Civilian_H1": {150};
 	default {-1};
 };
