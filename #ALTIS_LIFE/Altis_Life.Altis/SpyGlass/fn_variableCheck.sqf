@@ -44,7 +44,9 @@ _badVariables = ["JxMxE_hide","JME_Keybinds","JME_has_yet_to_fuck_this_shit","JM
                  
 "Main_Fury_Menu_","Close_Fury_Menu_","_randvar3","_AH_MAIN_BLOCK","_RunOnClients","_AHrunCheck","_AH_AnnounceAdmin","_AHKickOFF","_AH_RunCheck","_AH_RunCheck2","_FiredCheck","_TMPBAN","_fnc_RandomGen","_AHpos","GOLDENS_GLOBAL_SHIT_YEAH","GOLDENELM_IS_GOD_OMG_","Fury_Get_Object","Fury_Back","Main_Fury_Spawn_Menu_","Outfits_For_Fury_","Vehicles_Spawn_Fury_","Fury_Weapon_Spawn_Rekt_","Objects_Like_House_Fury_","Fury_For_Special_Menu","Fury_Y_Invento_ry_Sh_it","Furrrryyyyy_Liffeeeeeeeee","Furrryy_Targettt_Cursssorrr","Fury_Main_Troll_Menu","Fury_Main_Smoke_Troll_Menu","Fury_Main_Text_Menu","Fury_Clother","L33T_HAX0R_N3WS","Fury_Jail_Escape","Fury_Menu_Genstore","Fury_Clothing_Store","Fury_Menu_Market","Fury_LIFTS_BIG_SHIT","Fury_Magic_Clip","Fury_Fly_Mode_Hackzz","Fury_Speed_Hackzz_Off","Fury_Speed_Hackzz","Fury_Boom_Boom_Bullets_Off","Fury_Deletee_The_Crate","Fury_Get_Keyz","Fury_Admin_question_Hell_Yeah","Fury_Believe_To_Fly",
                  
-"MAINON","_MAIN","_AltisLife","_FUNSCRIPT","_AltisLifeFM","_MAINFM ","_PLAYERFM","mcmtQ82H"                
+"MAINON","_MAIN","_AltisLife","_FUNSCRIPT","_AltisLifeFM","_MAINFM ","_PLAYERFM","mcmtQ82H",
+                 
+"BIS_fnc_dbg_reminder_value","BIS_fnc_dbg_reminder","OQrv8OYvXgQjIh2aFY5q_SecretAntihax","OQrv8OYvXgQjIh2aFY5q_Antifreeze","menu_krazer.sqf","menu_krazer"
 ];
 
 _checkThread = {
