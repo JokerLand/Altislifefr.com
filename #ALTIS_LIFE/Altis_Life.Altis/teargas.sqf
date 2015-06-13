@@ -1,4 +1,4 @@
-_gasmask = ["Mask_M40", "Mask_M40_OD", "Mask_M50"];
+_gasmask = ["Mask_M40", "Mask_M40_OD", "Mask_M50", "H_ALFR_Metal_Gasmask_RU_blk", "H_ALFR_Metal_Gasmask_RU_oli", "H_ALFR_Metal_Gasmask_RU_grey", "H_ALFR_Metal_Gasmask_RU_khk", "H_ALFR_Metal_Gasmask_RU_fuckyou", "H_ALFR_Gasmask"];
 
 waitUntil{alive player};
 
@@ -31,4 +31,4 @@ while{alive player} do {
 };
 
 waitUntil {alive player};
-[player] execVM "scripts\teargas.sqf";
+[player] execVM "teargas.sqf";

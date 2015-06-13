@@ -85,5 +85,6 @@ switch (_item) do
 	case "whiskey": {1};
 	case "rhum": {1};
 	case "menotte": {10};
+	case "crowbar": {1};
     default {1};
 };

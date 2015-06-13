@@ -391,6 +391,7 @@ class Life_Client_Core
 		file = "core\items";
 		class pickaxeUse {};
 		class lockpick {};
+		class crowbar {};
 		class spikeStrip {};
 		class jerryRefuel {};
 		class flashbang {};

@@ -1,9 +1,9 @@
 /*
-	File: fn_lockpick.sqf
-	Author: Bryan "Tonic" Boardwine
+	File: fn_crowbar.sqf
+	Author: Sam_
 
 	Description:
-	Main functionality for lock-picking.
+	Main core file for Cops Crowbar.
 */
 private["_curTarget","_distance","_isVehicle","_title","_progressBar","_cP","_titleText","_dice","_badDistance"];
 _curTarget = cursorTarget;
@@ -12,6 +12,7 @@ if(life_action_inUse) exitWith {};
 if(isNull _curTarget) exitWith {}; //Bad type
 _distance = ((boundingBox _curTarget select 1) select 0) + 2;
 if(player distance _curTarget > _distance) exitWith {}; //Too far
+if(player playerSide != west) exitWith {}; // Si le joueur n'est pas policier
 _isVehicle = if((_curTarget isKindOf "LandVehicle") OR (_curTarget isKindOf "Ship") OR (_curTarget isKindOf "Air")) then {true} else {false};
 if(_isVehicle && _curTarget in life_vehicles) exitWith {hint "Vous avez deja la clé de ce véhicule."};
 
@@ -19,7 +20,7 @@ if(_isVehicle && _curTarget in life_vehicles) exitWith {hint "Vous avez deja la 
 if(!_isVehicle && !isPlayer _curTarget) exitWith {};
 if(!_isVehicle && !(_curTarget getVariable["restrained",false])) exitWith {};
 
-_title = format["Lock-picking %1",if(!_isVehicle) then {"Handcuffs"} else {getText(configFile >> "CfgVehicles" >> (typeOf _curTarget) >> "displayName")}];
+_title = format["Ouverture de %1",if(!_isVehicle) then {"Handcuffs"} else {getText(configFile >> "CfgVehicles" >> (typeOf _curTarget) >> "displayName")}];
 life_action_inUse = true; //Lock out other actions
 
 //Setup the progress bar
@@ -70,21 +71,5 @@ if(life_interrupted) exitWith {life_interrupted = false; titleText["Action Annul
 if(!([false,"lockpick",1] call life_fnc_handleInv)) exitWith {life_action_inUse = false;};
 
 life_action_inUse = false;
-
-if(!_isVehicle) then {
-	_curTarget setVariable["restrained",false,true];
-	_curTarget setVariable["Escorting",false,true];
-	_curTarget setVariable["transporting",false,true];
-} else {
-	_dice = random(100);
-	if(_dice < 30) then {
-		titleText["Vous avez réussi le crochetage.","PLAIN"];
-		life_vehicles set[count life_vehicles,_curTarget];
-		[[getPlayerUID player,player getVariable["realname",name player],"487"],"life_fnc_wantedAdd",false,false] spawn life_fnc_MP;
-	} else {
-		[[getPlayerUID player,player getVariable["realname",name player],"215"],"life_fnc_wantedAdd",false,false] spawn life_fnc_MP;
-		[[0,format["%1 a été vu crochetant un vehicule.",player getVariable["realname",name player]]],"life_fnc_broadcast",west,false] spawn life_fnc_MP;
-		titleText["Le lockpick a cassé.","PLAIN"];
-		[[_curTarget],"life_fnc_CarAlarmSound",nil,true] spawn life_fnc_MP;
-	};
-};
+titleText["Vous avez forcé les portes du véhicule.","PLAIN"];
+life_vehicles set[count life_vehicles,_curTarget];

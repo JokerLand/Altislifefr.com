@@ -107,6 +107,7 @@ life_fnc_garageRefund = compileFinal
 ";
 
 [] execVM "core\init_survival.sqf";
+[] execVM "teargas.sqf";
 
 // MELEE ANIMS HOTFIX
 player addEventHandler["Fired",{

@@ -207,11 +207,13 @@ switch(_shop) do
                         ["20Rnd_762x51_ScarH_Mag",nil,90],
                         ["ALFR_Shield_F",nil,1000],
                         ["optic_LRPS",nil,30000],
+						["optic_DMS",nil,25000],
 						//Adj-Chef
 						["R3F_HK417L","HK-417 (Adj-Chef)",10000],
                         ["R3F_20Rnd_762x51_TRACER_HK417",nil,100],
                         ["Trixie_M40A3_Clean","M40A3 (Adj-Chef)",10000],
-                        ["Trixie_5x762_Mag",nil,100]
+                        ["Trixie_5x762_Mag",nil,100],
+						["SmokeShellGreen","Grenade Lacrymogène (Adj-Chef)",1000]
 					]
 				];
 			};
@@ -273,15 +275,16 @@ switch(_shop) do
                         ["arifle_Sam_scarh_F",nil,20000],
                         ["20Rnd_762x51_ScarH_Mag",nil,90],
                         ["optic_LRPS",nil,30000],
+						["optic_DMS",nil,25000],
 						//Adj-Chef
 						["R3F_HK417L",nil,10000],
                         ["R3F_20Rnd_762x51_TRACER_HK417",nil,100],
 						["Trixie_M40A3_Clean",nil,10000],
                         ["Trixie_5x762_Mag",nil,100],
+						["SmokeShellGreen","Grenade Lacrymogène",1000],
                         //Mjr
 						["B_UavTerminal",nil,500],
                         ["optic_SOS",nil,30000],
-                        ["optic_LRPS",nil,50000],
                         ["HandGrenade_Stone","Flashbang",1000],
                         ["B_UavTerminal",nil,5200],
                         ["srifle_EBR_F",nil,20000],
@@ -349,15 +352,16 @@ switch(_shop) do
                         ["arifle_Sam_scarh_F",nil,20000],
                         ["20Rnd_762x51_ScarH_Mag",nil,90],
                         ["optic_LRPS",nil,30000],
+						["optic_DMS",nil,25000],
 						//Adj-Chef
 						["R3F_HK417L",nil,10000],
                         ["R3F_20Rnd_762x51_TRACER_HK417",nil,100],
 						["Trixie_M40A3_Clean",nil,10000],
                         ["Trixie_5x762_Mag",nil,100],
+						["SmokeShellGreen","Grenade Lacrymogène",1000],
                         //Mjr
 						["B_UavTerminal",nil,500],
                         ["optic_SOS",nil,30000],
-                        ["optic_LRPS",nil,50000],
                         ["HandGrenade_Stone","Flashbang",1000],
                         ["B_UavTerminal",nil,5200],
                         ["srifle_EBR_F",nil,20000],
@@ -428,15 +432,16 @@ switch(_shop) do
                         ["arifle_Sam_scarh_F",nil,20000],
                         ["20Rnd_762x51_ScarH_Mag",nil,90],
                         ["optic_LRPS",nil,30000],
+						["optic_DMS",nil,25000],
 						//Adj-Chef
 						["R3F_HK417L",nil,10000],
                         ["R3F_20Rnd_762x51_TRACER_HK417",nil,100],
 						["Trixie_M40A3_Clean",nil,10000],
                         ["Trixie_5x762_Mag",nil,100],
+						["SmokeShellGreen","Grenade Lacrymogène",1000],
                         //Mjr
 						["B_UavTerminal",nil,500],
                         ["optic_SOS",nil,30000],
-                        ["optic_LRPS",nil,50000],
                         ["HandGrenade_Stone","Flashbang",1000],
                         ["B_UavTerminal",nil,5200],
                         ["srifle_EBR_F",nil,20000],
@@ -510,15 +515,16 @@ switch(_shop) do
                         ["arifle_Sam_scarh_F",nil,20000],
                         ["20Rnd_762x51_ScarH_Mag",nil,90],
                         ["optic_LRPS",nil,30000],
+						["optic_DMS",nil,25000],
 						//Adj-Chef
                         ["R3F_HK417L",nil,30000],
                         ["R3F_20Rnd_762x51_TRACER_HK417",nil,30000],
 						["Trixie_M40A3_Clean",nil,10000],
                         ["Trixie_5x762_Mag",nil,100],
+						["SmokeShellGreen","Grenade Lacrymogène",1000],
                         //Mjr
 						["B_UavTerminal",nil,500],
                         ["optic_SOS",nil,30000],
-                        ["optic_LRPS",nil,50000],
                         ["HandGrenade_Stone","Flashbang",1000],
                         ["B_UavTerminal",nil,5200],
                         ["srifle_EBR_F",nil,20000],

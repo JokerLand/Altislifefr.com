@@ -45,6 +45,7 @@ switch (_filter) do
 	case 1:
 	{
 		_ret set[count _ret,["H_MilCap_blue",nil,75]];
+		_ret set[count _ret,["H_ALFR_Gasmask",nil,75]];
 
 		if(__GETC__(life_coplevel) > 1) then
 		{
