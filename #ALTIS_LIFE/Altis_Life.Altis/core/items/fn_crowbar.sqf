@@ -72,4 +72,4 @@ if(!([false,"lockpick",1] call life_fnc_handleInv)) exitWith {life_action_inUse 
 
 life_action_inUse = false;
 titleText["Vous avez forcé les portes du véhicule.","PLAIN"];
-life_vehicles set[count life_vehicles,_curTarget];
+life_vehicles pushBack _curTarget;
