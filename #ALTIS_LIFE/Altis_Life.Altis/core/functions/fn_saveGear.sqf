@@ -173,7 +173,8 @@ if(count (handGunItems player) > 0) then
     ["life_inv_storagesmall", life_inv_storagesmall],
     ["life_inv_storagebig", life_inv_storagebig],
 	["life_inv_barriere", life_inv_barriere],
-	["life_inv_cone", life_inv_cone]
+	["life_inv_cone", life_inv_cone],
+	["life_inv_crowbar", life_inv_crowbar]
 ];
 
 _return pushBack _uItems;
