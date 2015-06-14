@@ -68,8 +68,17 @@ if(!alive player OR life_istazed) exitWith {life_action_inUse = false;};
 if((player getVariable["restrained",false])) exitWith {life_action_inUse = false;};
 if(!isNil "_badDistance") exitWith {titleText["Vous êtes trop loin de la cible.","PLAIN"]; life_action_inUse = false;};
 if(life_interrupted) exitWith {life_interrupted = false; titleText["Action Annulée","PLAIN"]; life_action_inUse = false;};
-if(!([false,"lockpick",1] call life_fnc_handleInv)) exitWith {life_action_inUse = false;};
+if(!([false,"crowbar",1] call life_fnc_handleInv)) exitWith {life_action_inUse = false;};
 
 life_action_inUse = false;
-titleText["Vous avez forcé les portes du véhicule.","PLAIN"];
-life_vehicles pushBack _curTarget;
+if(!_isVehicle) then {
+	_curTarget setVariable["restrained",false,true];
+	_curTarget setVariable["Escorting",false,true];
+	_curTarget setVariable["transporting",false,true];
+} else {
+	_dice = random(100);
+	if(_dice < 100) then {
+		titleText["Vous avez forcé les portes du véhicule.","PLAIN"];
+		life_vehicles pushBack _curTarget;
+	} else {};
+};
