@@ -5,7 +5,7 @@
 	Description:
 	Main key handler for event 'keyDown'
 */
-private ["_handled","_shift","_alt","_code","_ctrl","_alt","_ctrlKey","_veh","_locked","_interactionKey","_mapKey","_interruptionKeys","_player"];
+private ["_handled","_shift","_alt","_code","_ctrl","_alt","_ctrlKey","_veh","_locked","_interactionKey","_mapKey","_interruptionKeys","_player","_curTarget"];
 _ctrl = _this select 0;
 _code = _this select 1;
 _shift = _this select 2;
@@ -14,6 +14,7 @@ _alt = _this select 4;
 _speed = speed cursorTarget;
 _handled = false;
 _player = player;
+_curTarget = cursorTarget;
 
 _interactionKey = if(count (actionKeys "User10") == 0) then {219} else {(actionKeys "User10") select 0};
 _mapKey = actionKeys "ShowMap" select 0;
@@ -83,6 +84,20 @@ switch (_code) do
 			_handled = true;
 		};
 	};
+	
+	//Touche pour supprimer cones, barrières et herses lorsqu'un policier vise cet objet ( O )
+	case 24:
+	{
+		if (playerSide != west) then {} else
+		{
+			if((_curTarget isKindOf "RoadBarrier_F" && {player distance _curTarget < 10}) || (_curTarget isKindOf "RoadCone_F" && {player distance _curTarget < 10}) || (_curTarget isKindOf "ALE_Herse_F" && {player distance _curTarget < 10})) then
+			{
+				deleteVehicle _curTaret;
+				cutText [format["Vous avez supprimé cet objet."], "PLAIN DOWN"];
+				playSound "bag";
+			};
+		};
+	};
 
 	//Interaction key (default is Left Windows, can be mapped via Controls -> Custom -> User Action 10)
 	case _interactionKey:
@@ -115,6 +130,17 @@ switch (_code) do
 			[] call life_fnc_restrainAction;
 		};
 	};
+	
+	//Bloquage d'ouverture d'inventaire lorsque le joueur est proche de panneaux
+	case 23:
+	{
+		if (((player distance "Land_InfoStand_V2_F") < 10) || ((player distance "Land_InfoStand_V1_F") < 10)) then
+		{
+			closeDialog 0;
+			cutText [format["Vous ne pouvez pas ouvrir votre inventaire à moins de 10 mètres d'un panneau !"], "PLAIN DOWN"];
+		};
+	};
+			
 
 	//Takwondo(f5)
 	case 63:
