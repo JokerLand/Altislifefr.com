@@ -49,6 +49,32 @@ if(!isNull _source) then {
 	};
 };
 
+//Flashball
+if(!isNull _source) then {
+	if(_source != _unit) then {
+		_curMag = currentMagazine _source;
+		if (_curMag in ["ALFR_1Rnd_Flashball"] && _projectile in ["ALFR_flashball"]) then {
+			private["_isVehicle","_isQuad"];
+			_isVehicle = if(vehicle player != player) then {true} else {false};
+			_isQuad = if(_isVehicle) then {if(typeOf(vehicle player) == "cl3_xr_1000_black") then {true} else {false}} else {false};
+			_damage = false;	
+			
+			if(_isVehicle || _isQuad) then {
+				player action ["Eject",vehicle player];
+				[_unit,_source] spawn life_fnc_handleDowned;
+			} else {
+				if(!_isVehicle) then {
+					[_unit,_source] spawn life_fnc_handleDowned;
+				};
+			};
+		};
+			
+		if(side _source == west && playerSide == west) then {
+			_damage = false;
+		};
+	};
+};
+
 //No Carkill
 if(vehicle _source isKindOf "LandVehicle") exitWith {
         _unit setDamage 0.2;
