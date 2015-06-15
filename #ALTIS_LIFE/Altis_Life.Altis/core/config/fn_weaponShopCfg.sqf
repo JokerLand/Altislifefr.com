@@ -559,6 +559,8 @@ switch(_shop) do
 						["6Rnd_45ACP_Cylinder",nil,50],
 						["SMG_01_F",nil,28000],
 						["30Rnd_45ACP_Mag_SMG_01_tracer_green",nil,60],
+						["hgun_Sam_hk45_F",nil,16500],
+						["10Rnd_45acp_hk45_Mag",nil,50],
 						["arifle_SDAR_F",nil,50000],
 						["arifle_TRG20_F",nil,90000],
 						["arifle_Katiba_F",nil,100000],
