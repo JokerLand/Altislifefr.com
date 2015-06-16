@@ -13,9 +13,7 @@ _source = _this select 3;
 _projectile = _this select 4;
 
 //Internal Debugging.
-if(!isNil "TON_Debug") then {
-	systemChat format["PART: %1 || DAMAGE: %2 || SOURCE: %3 || PROJECTILE: %4 || FRAME: %5",_part,_damage,_source,_projectile,diag_frameno];
-};
+systemChat format["PART: %1 || DAMAGE: %2 || SOURCE: %3 || PROJECTILE: %4 || FRAME: %5",_part,_damage,_source,_projectile,diag_frameno];
 
 //Handle the tazer first (Top-Priority).
 if(!isNull _source) then {
@@ -52,19 +50,23 @@ if(!isNull _source) then {
 //Flashball
 if(!isNull _source) then {
 	if(_source != _unit) then {
-		_curMag = currentMagazine _source;
-		if (_curMag in ["ALFR_1Rnd_Flashball"] && _projectile in ["ALFR_flashball"]) then {
-			private["_isVehicle","_isQuad"];
-			_isVehicle = if(vehicle player != player) then {true} else {false};
-			_isQuad = if(_isVehicle) then {if(typeOf(vehicle player) == "cl3_xr_1000_black") then {true} else {false}} else {false};
-			_damage = false;	
-			
-			if(_isVehicle || _isQuad) then {
-				player action ["Eject",vehicle player];
-				[_unit,_source] spawn life_fnc_handleDowned;
-			} else {
-				if(!_isVehicle) then {
-					[_unit,_source] spawn life_fnc_handleDowned;
+		_curWep = currentWeapon _source;
+		if (_projectile in ["ALFR_flashball"] && _curWep in ["hgun_Sam_flashball_F"]) then {
+			if(side _source == west && playerSide != west) then {
+				private["_distance","_isVehicle","_isQuad"];
+				_distance = if(_projectile == "ALFR_flashball") then {80};
+				_isVehicle = if(vehicle player != player) then {true} else {false};
+				_isQuad = if(_isVehicle) then {if(typeOf(vehicle player) == "cl3_xr_1000_black") then {true} else {false}} else {false};
+				_damage = false;
+				if(_unit distance _source < _distance) then {
+					if(!life_istazed && !(_unit getVariable["restrained",false])) then {
+						if(_isVehicle && _isQuad) then {
+							player action ["Eject",vehicle player];
+							[_unit,_source] spawn life_fnc_flashball;
+						} else {
+							[_unit,_source] spawn life_fnc_flashball;
+						};
+					};
 				};
 			};
 		};

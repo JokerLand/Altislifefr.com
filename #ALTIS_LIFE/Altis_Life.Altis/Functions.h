@@ -289,7 +289,7 @@ class Life_Client_Core
 		class jailMe25 {};
 		class jail25 {};
 		class tazed {};
-		class handleDowned {};
+		class flashball {};
 		class knockedOut {};
 		class knockoutAction {};
 		class robReceive {};

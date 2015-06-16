@@ -92,7 +92,7 @@ switch (_code) do
 		{
 			if((_curTarget isKindOf "RoadBarrier_F" && {player distance _curTarget < 10}) || (_curTarget isKindOf "RoadCone_F" && {player distance _curTarget < 10}) || (_curTarget isKindOf "ALE_Herse_F" && {player distance _curTarget < 10})) then
 			{
-				deleteVehicle _curTaret;
+				deleteVehicle _curTarget;
 				cutText [format["Vous avez supprimé cet objet."], "PLAIN DOWN"];
 				playSound "bag";
 			};
@@ -134,7 +134,7 @@ switch (_code) do
 	//Bloquage d'ouverture d'inventaire lorsque le joueur est proche de panneaux
 	case 23:
 	{
-		if (((player distance "Land_InfoStand_V2_F") < 10) || ((player distance "Land_InfoStand_V1_F") < 10)) then
+		if ({player distance "Land_InfoStand_V2_F"} < 10 OR {player distance "Land_InfoStand_V1_F"} < 10) then
 		{
 			closeDialog 0;
 			cutText [format["Vous ne pouvez pas ouvrir votre inventaire à moins de 10 mètres d'un panneau !"], "PLAIN DOWN"];
