@@ -13,8 +13,9 @@ _source = _this select 3;
 _projectile = _this select 4;
 
 //Internal Debugging.
-systemChat format["PART: %1 || DAMAGE: %2 || SOURCE: %3 || PROJECTILE: %4 || FRAME: %5",_part,_damage,_source,_projectile,diag_frameno];
-
+if(!isNil "TON_Debug") then {
+	systemChat format["PART: %1 || DAMAGE: %2 || SOURCE: %3 || PROJECTILE: %4 || FRAME: %5",_part,_damage,_source,_projectile,diag_frameno];
+};
 //Handle the tazer first (Top-Priority).
 if(!isNull _source) then {
 	if(_source != _unit) then {
