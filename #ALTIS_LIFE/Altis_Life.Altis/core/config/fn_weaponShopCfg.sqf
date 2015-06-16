@@ -90,6 +90,8 @@ switch(_shop) do
                         //Policier
                         ["hgun_P07_snds_F","Tazer",1000],
                         ["16Rnd_9x21_Mag",nil,50],
+						["hgun_Sam_flashball_F",nil,2500],
+						["ALFR_1Rnd_Flashball",nil,50],
                         ["SMG_02_F",nil,5000],
                         ["30Rnd_9x21_Mag",nil,60],
                         ["prifle_alfr_Sam_870cms_F",nil,6500],
@@ -125,6 +127,8 @@ switch(_shop) do
                         //Policier
                         ["hgun_P07_snds_F","Tazer",1000],
                         ["16Rnd_9x21_Mag",nil,50],
+						["hgun_Sam_flashball_F",nil,2500],
+						["ALFR_1Rnd_Flashball",nil,50],
                         ["SMG_02_F",nil,5000],
                         ["30Rnd_9x21_Mag",nil,60],
                         ["prifle_alfr_Sam_870cms_F",nil,6500],
@@ -175,6 +179,8 @@ switch(_shop) do
                         //Policier
                         ["hgun_P07_snds_F","Tazer",1000],
                         ["16Rnd_9x21_Mag",nil,50],
+						["hgun_Sam_flashball_F",nil,2500],
+						["ALFR_1Rnd_Flashball",nil,50],
                         ["SMG_02_F",nil,5000],
                         ["30Rnd_9x21_Mag",nil,60],
                         ["prifle_alfr_Sam_870cms_F",nil,6500],
@@ -244,6 +250,8 @@ switch(_shop) do
                         //Policier
                         ["hgun_P07_snds_F","Tazer",1000],
                         ["16Rnd_9x21_Mag",nil,50],
+						["hgun_Sam_flashball_F",nil,2500],
+						["ALFR_1Rnd_Flashball",nil,50],
                         ["SMG_02_F",nil,5000],
                         ["30Rnd_9x21_Mag",nil,60],
                         ["prifle_alfr_Sam_870cms_F",nil,6500],
@@ -321,6 +329,8 @@ switch(_shop) do
                         //Policier
                         ["hgun_P07_snds_F","Tazer",1000],
                         ["16Rnd_9x21_Mag",nil,50],
+						["hgun_Sam_flashball_F",nil,2500],
+						["ALFR_1Rnd_Flashball",nil,50],
                         ["SMG_02_F",nil,5000],
                         ["30Rnd_9x21_Mag",nil,60],
                         ["prifle_alfr_Sam_870cms_F",nil,6500],
@@ -401,6 +411,8 @@ switch(_shop) do
                         //Policier
                         ["hgun_P07_snds_F","Tazer",1000],
                         ["16Rnd_9x21_Mag",nil,50],
+						["hgun_Sam_flashball_F",nil,2500],
+						["ALFR_1Rnd_Flashball",nil,50],
                         ["SMG_02_F",nil,5000],
                         ["30Rnd_9x21_Mag",nil,60],
                         ["prifle_alfr_Sam_870cms_F",nil,6500],
@@ -484,6 +496,8 @@ switch(_shop) do
                         //Policier
                         ["hgun_P07_snds_F","Tazer",1000],
                         ["16Rnd_9x21_Mag",nil,50],
+						["hgun_Sam_flashball_F",nil,2500],
+						["ALFR_1Rnd_Flashball",nil,50],
                         ["SMG_02_F",nil,5000],
                         ["30Rnd_9x21_Mag",nil,60],
                         ["prifle_alfr_Sam_870cms_F",nil,6500],
@@ -562,6 +576,8 @@ switch(_shop) do
 						["hgun_Sam_hk45_F",nil,16500],
 						["10Rnd_45acp_hk45_Mag",nil,50],
 						["arifle_SDAR_F",nil,50000],
+						["hgun_Sam_flashball_F",nil,75000],
+						["ALFR_1Rnd_Flashball",nil,110],
 						["arifle_TRG20_F",nil,90000],
 						["arifle_Katiba_F",nil,100000],
 						["hlc_rifle_aks74u",nil,125000],

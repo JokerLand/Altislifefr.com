@@ -134,10 +134,13 @@ switch (_code) do
 	//Bloquage d'ouverture d'inventaire lorsque le joueur est proche de panneaux
 	case 23:
 	{
-		if ({player distance "Land_InfoStand_V2_F"} < 10 OR {player distance "Land_InfoStand_V1_F"} < 10) then
+		if ({player distance "Land_InfoStand_V2_F" < 10}) || ({player distance "Land_InfoStand_V1_F" < 10}) then
 		{
-			closeDialog 0;
-			cutText [format["Vous ne pouvez pas ouvrir votre inventaire à moins de 10 mètres d'un panneau !"], "PLAIN DOWN"];
+			hint "Vous ne pouvez pas ouvrir votre inventaire à moins de 10 mètres d'un panneau !";
+			[] spawn {
+				waitUntil {!isNull (findDisplay 602)};
+				closeDialog 0;
+			};
 		};
 	};
 			

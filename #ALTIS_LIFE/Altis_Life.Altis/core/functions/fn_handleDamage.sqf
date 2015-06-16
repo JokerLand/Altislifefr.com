@@ -67,7 +67,7 @@ if(!isNull _source) then {
 							[_unit,_source] spawn life_fnc_flashball;
 						};
 					};
-				};
+				} else {};
 			};
 		};
 			
