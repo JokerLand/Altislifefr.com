@@ -5,7 +5,7 @@
 	Description:
 	Main key handler for event 'keyDown'
 */
-private ["_handled","_shift","_alt","_code","_ctrl","_alt","_ctrlKey","_veh","_locked","_interactionKey","_mapKey","_interruptionKeys","_player","_curTarget"];
+private ["_handled","_shift","_alt","_code","_ctrl","_alt","_ctrlKey","_veh","_locked","_interactionKey","_mapKey","_interruptionKeys","_player","_curTarget","_panneau1","_panneau2"];
 _ctrl = _this select 0;
 _code = _this select 1;
 _shift = _this select 2;
@@ -15,6 +15,8 @@ _speed = speed cursorTarget;
 _handled = false;
 _player = player;
 _curTarget = cursorTarget;
+_panneau1 = nearestObject [player, "Land_InfoStand_V2_F"];
+_panneau2 = nearestObject [player, "Land_InfoStand_V1_F"];
 
 _interactionKey = if(count (actionKeys "User10") == 0) then {219} else {(actionKeys "User10") select 0};
 _mapKey = actionKeys "ShowMap" select 0;
@@ -134,7 +136,7 @@ switch (_code) do
 	//Bloquage d'ouverture d'inventaire lorsque le joueur est proche de panneaux
 	case 23:
 	{
-		if ((player distance "Land_InfoStand_V2_F" < 10) || (player distance "Land_InfoStand_V1_F" < 10)) then
+		if ((_player distance _panneau1 < 10) || (_player distance _panneau2 < 10)) then
 		{
 			hint "Vous ne pouvez pas ouvrir votre inventaire à moins de 10 mètres d'un panneau !";
 			[] spawn {
