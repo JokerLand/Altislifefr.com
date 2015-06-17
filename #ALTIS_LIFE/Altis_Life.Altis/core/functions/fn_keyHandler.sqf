@@ -17,6 +17,9 @@ _player = player;
 _curTarget = cursorTarget;
 _panneau1 = nearestObject [player, "Land_InfoStand_V2_F"];
 _panneau2 = nearestObject [player, "Land_InfoStand_V1_F"];
+_barriere = nearestObject [player, "RoadBarrier_F"];
+_cone = nearestObject [player, "RoadCone_F"];
+_herse = nearestOBject [player, "ALFR_Herse_F"];
 
 _interactionKey = if(count (actionKeys "User10") == 0) then {219} else {(actionKeys "User10") select 0};
 _mapKey = actionKeys "ShowMap" select 0;
@@ -92,11 +95,14 @@ switch (_code) do
 	{
 		if (playerSide != west) then {} else
 		{
-			if((_curTarget isKindOf "RoadBarrier_F" && {player distance _curTarget < 10}) || (_curTarget isKindOf "RoadCone_F" && {player distance _curTarget < 10}) || (_curTarget isKindOf "ALE_Herse_F" && {player distance _curTarget < 10})) then
+			if((_player distance _barriere < 8) || (_player distance _cone < 8) || (_player distance _herse < 8)) then
 			{
-				deleteVehicle _curTarget;
-				cutText [format["Vous avez supprimé cet objet."], "PLAIN DOWN"];
+				deleteVehicle _cone;
+				deleteVehicle _barriere;
+				deleteVehicle _herse;
+				cutText [format["Vous avez supprimé cet/ces objet(s)."], "PLAIN DOWN"];
 				playSound "bag";
+				sleep 1;
 			};
 		};
 	};
