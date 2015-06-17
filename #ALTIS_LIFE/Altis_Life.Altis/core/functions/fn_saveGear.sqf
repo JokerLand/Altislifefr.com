@@ -174,7 +174,11 @@ if(count (handGunItems player) > 0) then
     ["life_inv_storagebig", life_inv_storagebig],
 	["life_inv_barriere", life_inv_barriere],
 	["life_inv_cone", life_inv_cone],
-	["life_inv_crowbar", life_inv_crowbar]
+	["life_inv_crowbar", life_inv_crowbar],
+	["life_inv_menotte", life_inv_menotte],
+	["life_inv_beer", life_inv_beer],
+	["life_inv_whiskey", life_inv_whiskey],
+	["life_inv_rhum", life_inv_rhum]
 ];
 
 _return pushBack _uItems;
