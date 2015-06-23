@@ -111,6 +111,7 @@ switch (_shop) do
 			_return =
 			[
 				["C_Van_01_transport_F",40000],
+				["GeK_Renault_Trafic",45000],
 				["cl3_transit_black",50000],
 				["C_Van_01_box_F",60000],
 				["C_Offroad_01_repair_F",75000],
@@ -214,7 +215,9 @@ switch (_shop) do
 		_return pushBack 
 		["DAR_ImpalaPolice",30000];
 		_return pushBack 
-		["DAR_TahoePolice",50000];
+		["GeK_Renault_Trafic_Police",45000];
+		_return pushBack 
+		["C_Offroad_01_F",50000];
 
 		if(__GETC__(life_coplevel) > 1) then
 		{
