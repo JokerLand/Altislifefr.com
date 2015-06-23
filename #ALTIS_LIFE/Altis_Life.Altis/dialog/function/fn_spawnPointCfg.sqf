@@ -43,15 +43,11 @@ switch (_side) do
 		};
 
                 if(license_lmc && playerSide == civilian) then {
-				_return pushBack ["lmc_spawn","Legion of Murdeous Chaos HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"];
+				_return pushBack ["lmc_spawn","NIA","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"];
 		};
 
                  if(license_bgf && playerSide == civilian) then {
 				_return pushBack ["spawn_bgf","Black Guerrilla Family HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"];
-		};
-
-                 if(license_fh && playerSide == civilian) then {
-				_return pushBack ["spawn_fh","Force et Honneur HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"];
 		};
 
                   if(license_sal && playerSide == civilian) then {
@@ -66,10 +62,6 @@ switch (_side) do
 				_return pushBack ["spawn_ng","Ngheta HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"];
 		};
 
-                 if(license_fonda && playerSide == civilian) then {
-				_return pushBack ["spawn_fon","Fondateurs HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"];
-		};
-
                  if(license_egp && playerSide == civilian) then {
 				_return pushBack ["spawn_egp","E.G.P HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"];
 		};
@@ -79,7 +71,7 @@ switch (_side) do
 		};
 
                  if(license_sop && playerSide == civilian) then {
-				_return pushBack ["spawn_sop","Soprano HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"];
+				_return pushBack ["spawn_sop","H.N","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"];
 		};
 
                  if(license_bmg && playerSide == civilian) then {
@@ -94,10 +86,7 @@ switch (_side) do
 				_return pushBack ["rosthein_spawn","Rosthein HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"];
 		};
 		
-				if(license_top && playerSide == civilian) then {
-				_return pushBack ["spawn_top","T.O.P6 HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"];
-		};
-		
+
 				if(license_moa && playerSide == civilian) then {
 				_return pushBack ["spawn_moa","Les Autres HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"];
 		};
@@ -127,7 +116,7 @@ switch (_side) do
 		};
 		
 				if(license_cn && playerSide == civilian) then {
-				_return pushBack ["spawn_cn","C-N HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"];
+				_return pushBack ["spawn_cn","Newgate","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"];
 		};
 		
 				if(license_ec && playerSide == civilian) then {
@@ -135,7 +124,7 @@ switch (_side) do
 		};
 		
 				if(license_gr && playerSide == civilian) then {
-				_return pushBack ["spawn_gr","Grims Reapers HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"];
+				_return pushBack ["spawn_gr","Salamander","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"];
 		};
 		
 				if(license_armer && playerSide == civilian) then {
