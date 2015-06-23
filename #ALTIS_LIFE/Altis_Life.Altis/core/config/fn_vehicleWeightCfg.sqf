@@ -61,6 +61,7 @@ switch (_className) do
 	case "C_Hatchback_01_sport_F": {45};
 	case "C_SUV_01_F": {50};
 	case "C_Van_01_transport_F": {130};
+	case "GeK_Renault_Trafic": {130};
 	case "I_G_Van_01_transport_F": {150};
 	case "B_G_Van_01_transport_F": {180};
 	case "C_Van_01_box_F": {150};
