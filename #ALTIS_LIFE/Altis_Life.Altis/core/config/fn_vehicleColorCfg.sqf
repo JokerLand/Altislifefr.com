@@ -59,7 +59,15 @@ switch (_vehicle) do
 			["#(argb,8,8,3)color(1,0.3,0.01,0.6)","civ"]
  		];
  	};
-	
+        
+        
+		case "GeK_Renault_Trafic_Police":
+	{
+ 		_ret =
+ 		[
+            ["ALFR_TexSnd\Gek_renault_trafic_police.paa","cop"]
+ 		];
+ 	};
 	case "GeK_Civilian_H1":
 	{
  		_ret =

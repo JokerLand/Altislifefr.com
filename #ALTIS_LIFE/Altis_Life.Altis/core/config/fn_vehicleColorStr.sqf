@@ -58,6 +58,17 @@ switch (_vehicle) do
 			case 13: {_color = "Orange";};
 		};
 	};
+    
+    case "GeK_Renault_Trafic_Police" :
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Police";};
+
+		};
+	};
+    
+    
 	
 	case "GeK_Civilian_H1" :
 	{
