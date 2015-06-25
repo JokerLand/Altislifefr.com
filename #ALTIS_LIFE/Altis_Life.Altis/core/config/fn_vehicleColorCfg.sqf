@@ -39,6 +39,27 @@ switch (_vehicle) do
 		];
 	};
 	
+	case "GeK_Mercedes_ML63":
+	{
+ 		_ret =
+ 		[
+ 			["#(rgb,8,8,3)color(0.1,0.1,0.1,0.6)","civ"],
+			["#(argb,8,8,3)color(0.1,0.1,0.1,0.7)","civ"],
+			["#(argb,8,8,3)color(0.5,0.5,0.5,0.1)","civ"],
+			["#(argb,8,8,3)color(0.3,0.3,0.3,0.8)","civ"],
+			["#(argb,8,8,3)color(1,1,1,1)","civ"],
+			["#(argb,8,8,3)color(1.5,1.6,0.9,0.2)","civ"],
+			["#(argb,8,8,3)color(1,0,0,0.1)","civ"],
+			["#(argb,8,8,3)color(0.01,0.6,1,0.1)","civ"],
+			["#(argb,8,8,3)color(0,0,0.5,0.1)","civ"],
+			["#(argb,8,8,3)color(0.6,0,1,0.01)","civ"],
+			["#(argb,8,8,3)color(0.5,1,0.5,0.05)","civ"],
+			["#(argb,8,8,3)color(1,0,0,1)","civ"],
+			["#(argb,8,8,3)color(0.6,0.3,0.01,1)","civ"],
+			["#(argb,8,8,3)color(1,0.3,0.01,0.6)","civ"]
+ 		];
+ 	};
+	
 	case "GeK_Renault_Trafic":
 	{
  		_ret =
@@ -866,7 +887,16 @@ switch (_vehicle) do
 			["alfr_Arm\data\ALFR_range_armee.jpg","armer"]
  		];
  	};
-
+	
+	case "GeK_Mercedes_ML63_Rebelle":
+	{
+ 		_ret =
+ 		[
+ 			["GeK_Mercedes_ML63_Rebelle\data\woodland_camo.paa","reb"],
+			["cl3_vehiclefunctions\skins\skin_camo_urban_co.paa","reb"]
+ 		];
+ 	};
+	
 	case "cl3_range_rover_camo":
 	{
  		_ret =
