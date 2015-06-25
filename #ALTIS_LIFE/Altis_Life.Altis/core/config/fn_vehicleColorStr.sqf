@@ -27,6 +27,8 @@ switch (_vehicle) do
 			case 0: {_color = "Noir";};
 			case 1: {_color = "Blanc";};
 			case 2: {_color = "Militaire";};
+			case 3: {_color = "Noir";};
+			case 4: {_color = "Blanc";};
 		};
 	};
 

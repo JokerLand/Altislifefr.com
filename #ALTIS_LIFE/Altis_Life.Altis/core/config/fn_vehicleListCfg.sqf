@@ -250,16 +250,18 @@ switch (_shop) do
 			_return pushBack 
 			["GeK_TLC100_Police",250000];
 			_return pushBack 
+			["GeK_TLC100",250000];
+			_return pushBack 
 			["CL3_bus_cl_black",100000];
 			_return pushBack 
 			["I_MRAP_03_F",1000000];
 			};
 
-				if(__GETC__(life_coplevel) > 3) then
-				{
-				_return pushBack 
-				["DAR_ExplorerPolice",150000];
-				};
+			if(__GETC__(life_coplevel) > 3) then
+			{
+			_return pushBack 
+			["DAR_ExplorerPolice",150000];
+			};
 	};
 
 	case "civ_air":

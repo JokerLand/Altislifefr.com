@@ -27,7 +27,9 @@ switch (_vehicle) do
 		[
 			["#(ai,64,64,1)Fresnel(0.3,3)","civ"],
 			["#(argb,8,8,3)color(1,1,1,1)","civ"],
-			["alfr_Arm\data\ALFR_range_armee.jpg","armer"]
+			["alfr_Arm\data\ALFR_range_armee.jpg","armer"],
+			["#(ai,64,64,1)Fresnel(0.3,3)","cop"],
+			["#(argb,8,8,3)color(1,1,1,1)","cop"]
 		];
 	};
 	

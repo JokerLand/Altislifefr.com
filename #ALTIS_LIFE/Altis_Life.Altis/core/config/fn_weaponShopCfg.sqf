@@ -465,7 +465,9 @@ switch(_shop) do
                         ["150Rnd_762x54_Box_Tracer",nil,500],
                         //CPT
                         ["R3F_M107",nil,350000],
-                        ["R3F_10Rnd_127x99_M107",nil,800]
+                        ["R3F_10Rnd_127x99_M107",nil,800],
+                        ["srifle_LRR_F",nil,350000],
+                        ["7Rnd_408_Mag",nil,800]
 					]
 				];
 			};
