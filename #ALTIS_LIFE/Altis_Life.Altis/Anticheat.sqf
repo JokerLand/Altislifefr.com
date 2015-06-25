@@ -154,7 +154,7 @@ if(isDedicated) then {
 			((findDisplay 49) displayCtrl 103) ctrlSetText "Team-Atomic";
 			((findDisplay 49) displayCtrl 122) ctrlEnable false;
 			((findDisplay 49) displayCtrl 122) ctrlShow false;
-			((findDisplay 49) displayCtrl 523) ctrlSetText "Public v1.5";
+			((findDisplay 49) displayCtrl 523) ctrlSetText "AltisLifeFr.com";
 			waitUntil{isNull (findDisplay 49)}
 		};
 	};
