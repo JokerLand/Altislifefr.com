@@ -14,6 +14,8 @@ switch (_className) do
 	case "A3L_VolksWagenGolfGTiblack": {35};
 	case "wirk_gtr": {40};
 	case "wirk_cayenne": {65};
+	case "GeK_Mercedes_ML63": {70};
+	case "GeK_Mercedes_ML63_Rebelle": {50};
 	case "DAR_ImpalaCiv": {55};
 	case "A3L_PuntoBlue": {35};
 	case "DAR_FusionCiv": {50};
