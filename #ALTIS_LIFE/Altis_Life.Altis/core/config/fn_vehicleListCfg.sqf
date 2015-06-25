@@ -79,8 +79,9 @@ switch (_shop) do
 			["GeK_TLC100",150000],
 			["cl3_carrera_gt_black",150000],
 			["cl3_dbs_volante_black",150000],
-            ["wirk_cayenne",270000],
-          /*["wirk_gtr",270000],*/
+			["GeK_Mercedes_ML63",220000],
+            		["wirk_cayenne",270000],
+          		/*["wirk_gtr",270000],*/
 			["Jonzie_Viper",270000],
 			["cl3_r8_spyder_black",270000],
 			["cl3_458_black",275000],
@@ -185,6 +186,7 @@ switch (_shop) do
 			["cl3_dodge_charger_s_camo",200000],
 			["cl3_e63_amg_camo",300000],
 			["cl3_range_rover_camo",400000],
+			["GeK_Mercedes_ML63_Rebelle",1250000],
 			["O_Truck_03_transport_F",1000000],
 			["O_Truck_03_covered_F",1350000],
 			["O_Truck_03_ammo_F",1500000],
