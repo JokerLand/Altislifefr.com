@@ -563,7 +563,7 @@ switch(_shop) do
 	{
 		switch(true) do
 		{
-			case (playerSide != civilian): {"You are not a civilian!"};
+			case (playerSide != civilian): {"Vous n'êtes pas civil!"};
 			case (!license_civ_rebel): {"Vous n'avez pas de licence rebelle !"};
 			default
 			{
@@ -646,7 +646,7 @@ switch(_shop) do
 	{
 		switch(true) do
 		{
-			case (playerSide != civilian): {"You are not a civilian!"};
+			case (playerSide != civilian): {"Vous n'êtes pas civil!"};
 			case (!license_tlt): {"Vous n'etes pas BL !"};
 			default
 			{
@@ -698,7 +698,7 @@ switch(_shop) do
 	{
 		switch(true) do
 		{
-			case (playerSide != civilian): {"You are not a civilian!"};
+			case (playerSide != civilian): {"Vous n'êtes pas civil!"};
 			case (!license_fla): {"Vous n'êtes pas FLA !"};
 			default
 			{
@@ -731,7 +731,7 @@ switch(_shop) do
 	{
 		switch(true) do
 		{
-			case (playerSide != civilian): {"You are not a civilian!"};
+			case (playerSide != civilian): {"Vous n'êtes pas civil!"};
 			case (!license_armer): {"Vous n'avez pas de license militaire !"};
 			default
 			{
@@ -745,34 +745,59 @@ switch(_shop) do
 						["R3F_30Rnd_556x45_TRACER_HK416",nil,100],
 						["R3F_Famas_G2_HG",nil,50000],
 						["R3F_Famas_F1_HG_DES",nil,50000],
+						["R3F_PGM_Hecate_II_DES",nil,165000],
+						["R3F_7Rnd_127x99_PGM",nil,1300],
 						["R3F_25Rnd_556x45_TRACER_FAMAS",nil,100],
 						["R3F_30Rnd_556x45_TRACER_FAMAS",nil,100],
 						["R3F_LAMPE_SURB_DES",nil,500],
 						["R3F_AIMPOINT_DES",nil,500],
+						["R3F_J10_MILDOT_DES",nil,700],
 						["LMG_Mk200_F",nil,100000],
 						["200Rnd_65x39_cased_Box",nil,500],
 						["R3F_HK416M_HG",nil,15000],
 						["R3F_30Rnd_556x45_TRACER_HK416",nil,100],
 						["R3F_HK417L",nil,20000],
 						["R3F_20Rnd_762x51_TRACER_HK417",nil,100],
+						["srifle_DMR_06_camo_F",nil,65000],
+						["20Rnd_762x51_Mag",nil,1150],
+						["LMG_Mk200_F",nil,75000],
+						["200Rnd_65x39_cased_Box",nil,2000],
+						["200Rnd_65x39_cased_Box_Tracer",nil,2100],
 						["arifle_sa80_Sam_F",nil,10000],
 						["30Rnd_556x45_Stanag",nil,100],
 						["wirk_acwr",nil,150000],
 						["wirk_acwr_mag",nil,300],
 						["arifle_Sam_scarh_F",nil,30000],
 						["20Rnd_762x51_ScarH_Mag",nil,90],
+						["srifle_EBR_F",nil,55000],
+						["20Rnd_762x51_Mag",nil,150],
+						["Cha_Pecheneg",nil,165000],
+						["Cha_100Rnd_762x54_PK",nil,1000],
+						["Cha_100Rnd_762x54_PK_T",nil,1050],
 						["HK430",nil,6500],
 						["HK430_30Rnd_556x45",nil,80],
 						["srifle_LRR_F",nil,200000],
 						["7Rnd_408_Mag",nil,500],
+						["hgun_Pistol_heavy_01_F",nil,8500],
+						["11Rnd_45ACP_Mag",nil,100],
+						["hgun_Sam_deagle_F",nil,11000],
+						["7Rnd_50AE_Mag",nil,250],
+						["SmokeShell",nil,1500],
+						["SmokeShellRed",nil,1500],
+						["SmokeShellBlue",nil,1500],
+						["SmokeShellOrange",nil,1500],
+						["SmokeShellPurple",nil,1500],
+						["SmokeShellYellow",nil,1500],
 						["acc_flashlight",nil,750],
 						["optic_Holosight",nil,1200],
 						["optic_ACO_grn_smg",nil,2000],
 						["optic_Aco_smg",nil,2000],
 						["optic_ACO_grn",nil,3200],
 						["optic_Aco",nil,3200],
+						["FHQ_optic_AC11704",nil,3200],
 						["optic_MRCO",nil,10000],
 						["optic_Hamr",nil,10000],
+						["FHQ_optic_ACOG",nil,10000],
 						["optic_Arco",nil,10000],
 						["optic_LRPS",nil,50000],
 						["optic_SOS",nil,30000]
@@ -786,7 +811,7 @@ switch(_shop) do
 	{
 		switch(true) do
 		{
-			case (playerSide != civilian): {"You are not a civilian!"};
+			case (playerSide != civilian): {"Vous n'êtes pas civil!"};
 			case (!license_civ_gun): {"Vous n'avez pas de license d'arme à feu !"};
 			default
 			{

@@ -29,7 +29,8 @@ switch (_filter) do
 		[
 			["R3F_casque_spectra",nil,1000],
 			["R3F_casquette_off",nil,1000],
-			["R3F_beret_para",nil,1000]
+			["R3F_beret_para",nil,1000],
+			["H_ALFR_Gasmask",nil,1000]
 		];
 	};
 
@@ -38,6 +39,14 @@ switch (_filter) do
 	{
 		[
 			["R3F_cagoule_olive",nil,1000],
+			["R3F_cagoule_punisher",nil,1500],
+			["G_Aviator",nil,100],
+			["G_Balaclava_blk",nil,100],
+			["R3F_lunettes_X800",nil,100],
+			["H_ALFR_SkiMask_1",nil,100],
+			["H_ALFR_SkiMask_9",nil,100],
+			["H_ALFR_SkiMask_10",nil,100],
+			["H_ALFR_SkiMask_Glasses_1",nil,100],
 			["G_Diving",nil,500]
 		];
 	};
