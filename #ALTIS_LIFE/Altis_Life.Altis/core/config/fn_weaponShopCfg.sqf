@@ -216,7 +216,7 @@ switch(_shop) do
 						["optic_DMS",nil,25000],
 						//Adj-Chef
 						["R3F_HK417L","HK-417 [Adj-Chef]",10000,]
-                        ["R3F_20Rnd_762x51_TRACER_HK417",nil,100,
+                        ["R3F_20Rnd_762x51_TRACER_HK417"],nil,100,
                         ["Trixie_M40A3_Clean","M40A3 [Adj-Chef]",10000,
                         ["Trixie_5x762_Mag",nil,100],
 						["SmokeShellGreen","Grenade Lacrymogène [Adj-Chef]",1000]
