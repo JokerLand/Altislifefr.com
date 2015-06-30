@@ -215,11 +215,11 @@ switch(_shop) do
                         ["optic_LRPS",nil,30000],
 						["optic_DMS",nil,25000],
 						//Adj-Chef
-						["R3F_HK417L","HK-417 (Adj-Chef)",10000],
-                        ["R3F_20Rnd_762x51_TRACER_HK417",nil,100],
-                        ["Trixie_M40A3_Clean","M40A3 (Adj-Chef)",10000],
+						["R3F_HK417L","HK-417 [Adj-Chef]",10000,]
+                        ["R3F_20Rnd_762x51_TRACER_HK417",nil,100,
+                        ["Trixie_M40A3_Clean","M40A3 [Adj-Chef]",10000,
                         ["Trixie_5x762_Mag",nil,100],
-						["SmokeShellGreen","Grenade Lacrymogène (Adj-Chef)",1000]
+						["SmokeShellGreen","Grenade Lacrymogène [Adj-Chef]",1000]
 					]
 				];
 			};
@@ -380,7 +380,9 @@ switch(_shop) do
                         ["Trixie_5x338_Mag",nil,100],
                         //Lnt
                         ["LMG_Zafir_F",nil,250000],
-                        ["150Rnd_762x54_Box_Tracer",nil,500]
+                        ["150Rnd_762x54_Box_Tracer",nil,500],
+						["srifle_LRR_F",nil,350000],
+                        ["7Rnd_408_Mag",nil,800]
 					]
 				];
 			};
@@ -463,11 +465,11 @@ switch(_shop) do
                         //Lnt
                         ["LMG_Zafir_F",nil,250000],
                         ["150Rnd_762x54_Box_Tracer",nil,500],
+						["srifle_LRR_F",nil,350000],
+                        ["7Rnd_408_Mag",nil,800],
                         //CPT
                         ["R3F_M107",nil,350000],
-                        ["R3F_10Rnd_127x99_M107",nil,800],
-                        ["srifle_LRR_F",nil,350000],
-                        ["7Rnd_408_Mag",nil,800]
+                        ["R3F_10Rnd_127x99_M107",nil,800]
 					]
 				];
 			};
@@ -550,6 +552,8 @@ switch(_shop) do
                         //Lnt
                         ["LMG_Zafir_F",nil,250000],
                         ["150Rnd_762x54_Box_Tracer",nil,500],
+						["srifle_LRR_F",nil,350000],
+                        ["7Rnd_408_Mag",nil,800],
                         //CPT
                         ["R3F_M107",nil,350000],
                         ["R3F_10Rnd_127x99_M107",nil,800]
