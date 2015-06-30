@@ -53,7 +53,7 @@ class SettingsMenu
 		{
 			idc = -1;
 			colorBackground[] = {0,0,0,0.8};
-			text = "Reveal Nearest Objects";
+			text = "Masquer l'herbe";
 			x = 0.26;
 			y = 0.53;
 		};
@@ -185,10 +185,14 @@ class SettingsMenu
 			y = 0.48;
 		};
 		
-		class RevealONOFF : PlayerTagsONOFF
+		class RevealONOFF : life_RscButtonMenu
 		{
-			tooltip = "$STR_GUI_PlayerReveal";
-			idc = 2972;
+			idc = -1
+			//shortcuts[] = {0x00050000 + 2};
+			colorBackground[] = {0, 0, 0, 0.4};	
+			text = "Activer";
+			onButtonClick = "setTerrainGrid 50; closeDialog 0;";
+			w = (4.5 / 40);
 			x = 0.65;
 			y = 0.53;
 		};
