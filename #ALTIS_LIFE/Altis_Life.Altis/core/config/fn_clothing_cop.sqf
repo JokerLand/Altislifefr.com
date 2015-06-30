@@ -96,7 +96,7 @@ switch (_filter) do
 	case 4:
 	{
 		_ret pushBack ["ALFR_Police_Backpack","Sac Police Invisible",1000];
-		if(__GETC__(life_coplevel) > 4) then
+		if(__GETC__(life_coplevel) > 3) then
 		{
 			_ret pushBack ["B_UAV_01_backpack_F",nil,200];
 		};
