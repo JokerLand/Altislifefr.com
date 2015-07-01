@@ -300,9 +300,9 @@ class VirtualShops {
 		items[] = { "goldbar" };
 	};
 	class hunting {
-+		name = "Vendeur de Gibier";
-+		items[] = { "hen_raw", "rooster_raw", "rabbit_raw", "goat_raw", "sheep_raw" };
-+	};
+		name = "Vendeur de Gibier";
+		items[] = { "hen_raw", "rooster_raw", "rabbit_raw", "goat_raw", "sheep_raw" };
+	};
 };
 
 #include "Config_Vehicles.hpp"
