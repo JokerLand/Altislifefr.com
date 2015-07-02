@@ -118,10 +118,10 @@ switch (_className) do
 	case "DAR_MK27T": {400};
 	case "DAR_MK23": {500};
 	case "DAR_LHS_16": {600};
-	case "GeK_TLC100": {100};
+	case "GeK_TLC100": {75};
 	case "ALFR_GeK_Pagani_Zonda": {20};
 	case "wirk_ferrari_california": {20};
 	case "ALFR_GeK_MF1": {20};
-	case "GeK_Civilian_H1": {150};
+	case "GeK_Civilian_H1": {85};
 	default {-1};
 };
