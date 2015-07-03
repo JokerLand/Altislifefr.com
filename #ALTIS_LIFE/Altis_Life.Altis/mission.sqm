@@ -25656,7 +25656,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=400;
+		items=401;
 		class Item0
 		{
 			position[]={8459.6777,104.56568,25131.203};
@@ -28938,6 +28938,13 @@ class Mission
 			type="b_unknown";
 			colorName="ColorOrange";
 			angle=0.26148701;
+		};
+		class Item400
+		{
+			position[]={13150.491,76.235535,21357.199};
+			name="spawn_grf";
+			type="Empty";
+			angle=100.50906;
 		};
 	};
 	class Sensors

@@ -96,7 +96,7 @@ switch (_side) do
 		};
 		
 				if(license_grf && playerSide == civilian) then {
-				_return pushBack ["spawn_grf","G.R.F HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"];
+				_return pushBack ["spawn_grf","Vétéran HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"];
 		};
 		
 				if(license_mw && playerSide == civilian) then {
