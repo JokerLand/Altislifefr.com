@@ -804,6 +804,7 @@ switch(_shop) do
 						["FHQ_optic_ACOG",nil,10000],
 						["optic_Arco",nil,10000],
 						["optic_LRPS",nil,50000],
+						["optic_DMS",nil,30000],
 						["optic_SOS",nil,30000]
 					]
 				];
