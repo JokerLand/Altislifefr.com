@@ -3491,7 +3491,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=536;
+		items=535;
 		class Item0
 		{
 			position[]={8065.1616,35.674362,24985.314};
@@ -9003,30 +9003,20 @@ class Mission
 		};
 		class Item533
 		{
-			position[]={14588.524,17.91,16677.303};
-			azimut=314.509;
-			id=746;
-			side="EMPTY";
-			vehicle="Land_Billboard_F";
-			skill=0.60000002;
-			init="this enableSimulation false; this allowDamage false; this SetObjectTexture [0,""images\billboard_donator.jpg""];";
-		};
-		class Item534
-		{
 			position[]={14587.865,17.91,16674.658};
 			azimut=314.05099;
 			special="NONE";
-			id=747;
+			id=746;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V2_F";
 			skill=0.2;
 			init="this enableSimulation false; this allowDamage false; this addAction[""Combinaison et Casques Motos"",life_fnc_clothingMenu,""kart""]; this addAction[""Vendeur de Vêtements"",life_fnc_clothingMenu,""bruce""];";
 		};
-		class Item535
+		class Item534
 		{
 			position[]={14611.598,17.91,16699.715};
 			azimut=-460.90799;
-			id=748;
+			id=747;
 			side="EMPTY";
 			vehicle="Land_LampHalogen_F";
 			skill=0.60000002;
