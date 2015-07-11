@@ -287,7 +287,7 @@ switch (_code) do
 						  };
                           if(_index > -1) then
 						  {
-							[cursorTarget] call life_fnc_openInventory;
+							[cursorTarget] spawn life_fnc_openInventory;
 						  };
                         
                         }else {
@@ -300,7 +300,7 @@ switch (_code) do
 						
                             if(_index > -1) then
 						  {
-							[cursorTarget] call life_fnc_openInventory;
+							[cursorTarget] spawn life_fnc_openInventory;
 						  };
                         };
                         
