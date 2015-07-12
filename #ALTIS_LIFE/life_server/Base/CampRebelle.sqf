@@ -10,6 +10,7 @@ _pos = [21977.6,21054.2,28.5352];
  Tenta setDir 49.3606;
  Tenta setPosASL _pos;
  Tenta allowDamage false; this enableSimulation false;
+// ***************************************
 _pos = [21986.0,21058.6,28.3208];
  Tenta = createVehicle ["Land_TentA_F", _pos, [], 0, "CAN_COLLIDE"];
  Tenta setDir 34.0927;
@@ -153,4 +154,3 @@ _pos = [22007.9,21095.9,31.0591];
  Halo setDir 262.366;
  Halo setPosASL _pos;
  Halo allowDamage false; this enableSimulation false;
-
