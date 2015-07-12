@@ -12,6 +12,8 @@ disableSerialization;
 if(isNull life_trunk_vehicle OR !alive life_trunk_vehicle) exitWith {hint localize "STR_MISC_VehDoesntExist"};
 if(!alive player) exitwith {closeDialog 0;};
 
+if((_vehicle getVariable ["trunk_in_use",0]) != (parseNumber(getPlayerUID player))) exitWith {hint localize "STR_MISC_VehInvUse";closeDialog 0;};
+
 if((lbCurSel 3502) == -1) exitWith {hint localize "STR_Global_NoSelection";};
 _ctrl = ctrlSelData(3502);
 _num = ctrlText 3505;
