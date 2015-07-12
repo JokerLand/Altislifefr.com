@@ -50,7 +50,7 @@ if((life_veh_shop select 0) == "med_air_hs") then {
 	_vehicle lock 2;
 	[[_vehicle,_colorIndex],"life_fnc_colorVehicle",true,false] spawn life_fnc_MP;
 	[_vehicle] call life_fnc_clearVehicleAmmo;
-	[[_vehicle,"trunk_in_use",false,true],"TON_fnc_setObjVar",false,false] spawn life_fnc_MP;
+	[[_vehicle,"trunk_in_use",0,true],"TON_fnc_setObjVar",false,false] spawn life_fnc_MP;
 	[[_vehicle,"vehicle_info_owners",[[getPlayerUID player,profileName]],true],"TON_fnc_setObjVar",false,false] spawn life_fnc_MP;
 	_vehicle disableTIEquipment true; //No Thermals.. They're cheap but addictive.
 } else {
@@ -63,7 +63,7 @@ if((life_veh_shop select 0) == "med_air_hs") then {
 	_vehicle setPos (getMarkerPos _spawnPoint);
 	[[_vehicle,_colorIndex],"life_fnc_colorVehicle",true,false] spawn life_fnc_MP;
 	[_vehicle] call life_fnc_clearVehicleAmmo;
-	[[_vehicle,"trunk_in_use",false,true],"TON_fnc_setObjVar",false,false] spawn life_fnc_MP;
+	[[_vehicle,"trunk_in_use",0,true],"TON_fnc_setObjVar",false,false] spawn life_fnc_MP;
 	[[_vehicle,"vehicle_info_owners",[[getPlayerUID player,profileName]],true],"TON_fnc_setObjVar",false,false] spawn life_fnc_MP;
 	_vehicle disableTIEquipment true; //No Thermals.. They're cheap but addictive.
 };
