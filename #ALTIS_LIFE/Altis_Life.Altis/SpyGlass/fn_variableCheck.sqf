@@ -6,7 +6,7 @@
 	Description:
 	Checks against harmful variables, disable this if client-performance is 
 	to bad in the fn_initSpy.sqf, the menuCheck should be good enough!
-*/
+	
 private["_badVariables","_checkThread"];
 _badVariables = ["JxMxE_hide","JME_Keybinds","JME_has_yet_to_fuck_this_shit","JME_deleteC","JME_Tele","JME_ANAL_PLOW","JME_M_E_N_U_initMenu","JME_M_E_N_U_hax_toggled","W_O_O_K_I_E_FUD_Pro_RE","W_O_O_K_I_E_FUD_Car_RE","W_O_O_K_I_E_FUD_Car_RE",
 	"JxMxE_Veh_M","JxMxE_LifeCash500k","W_O_O_K_I_E_FUD_FuckUp_GunStore","W_O_O_K_I_E_FUD_M_E_N_U_initMenu","W_O_O_K_I_E_FuckUp_GunStore_a","JME_KillCursor","JME_OPTIONS","JME_M_E_N_U_fill_TROLLmenu","ASSPLUNGE","FOXBYPASS","POLICE_IN_HELICOPTA",
@@ -73,3 +73,4 @@ while {true} do {
 	waitUntil {scriptDone _thread};
 	sleep 120; //Goto sleep for 2 minutes.
 };
+*/
