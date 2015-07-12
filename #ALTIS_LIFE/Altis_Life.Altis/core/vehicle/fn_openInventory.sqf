@@ -10,9 +10,13 @@ if(dialog) exitWith {};
 _vehicle = [_this,0,Objnull,[Objnull]] call BIS_fnc_param;
 if(isNull _vehicle OR !(_vehicle isKindOf "Car" OR _vehicle isKindOf "Air" OR _vehicle isKindOf "Ship" OR _vehicle isKindOf "House_F")) exitWith {}; //Either a null or invalid vehicle type.
 
-sleep (0.1 + (random 0.2) + (random 0.2) + (random 0.2) + (random 0.2) + (random 0.2));
-if((_vehicle getVariable ["trunk_in_use",false])) exitWith {hint localize "STR_MISC_VehInvUse"};
-_vehicle setVariable["trunk_in_use",true,true];
+if((_vehicle getVariable ["trunk_in_use",0]) != 0) exitWith {hint localize "STR_MISC_VehInvUse"};
+_vehicle setVariable["trunk_in_use",parseNumber(getPlayerUID player),true];
+
+sleep 0.5;
+
+if((_vehicle getVariable ["trunk_in_use",0]) != (parseNumber(getPlayerUID player))) exitWith {hint localize "STR_MISC_VehInvUse"};
+
 if(!createDialog "TrunkMenu") exitWith {hint localize "STR_MISC_DialogError";}; //Couldn't create the menu?
 disableSerialization;
 
@@ -31,8 +35,8 @@ if(_vehicle isKindOf "House_F") then {
 	_veh_data = [_vehicle] call life_fnc_vehicleWeight;
 };
 
-if(_vehicle isKindOf "House_F" && {count (_vehicle getVariable ["containers",[]]) == 0}) exitWith {hint localize "STR_MISC_NoStorageWarn"; closeDialog 0; _vehicle setVariable["trunk_in_use",false,true];};
-if(_veh_data select 0 == -1 && {!(_vehicle isKindOf "House_F")}) exitWith {closeDialog 0; _vehicle setVariable["trunk_in_use",false,true]; hint localize "STR_MISC_NoStorageVeh";};
+if(_vehicle isKindOf "House_F" && {count (_vehicle getVariable ["containers",[]]) == 0}) exitWith {hint localize "STR_MISC_NoStorageWarn"; closeDialog 0; _vehicle setVariable["trunk_in_use",0,true];};
+if(_veh_data select 0 == -1 && {!(_vehicle isKindOf "House_F")}) exitWith {closeDialog 0; _vehicle setVariable["trunk_in_use",0,true]; hint localize "STR_MISC_NoStorageVeh";};
 
 ctrlSetText[3504,format[(localize "STR_MISC_Weight")+ " %1/%2",_veh_data select 1,_veh_data select 0]];
 [_vehicle] call life_fnc_vehInventory;
@@ -41,7 +45,7 @@ life_trunk_vehicle = _vehicle;
 _vehicle spawn
 {
 	waitUntil {isNull (findDisplay 3500)};
-	_this setVariable["trunk_in_use",false,true];
+	_this setVariable["trunk_in_use",0,true];
 	if(_this isKindOf "House_F") then {
 		[[_this],"TON_fnc_updateHouseTrunk",false,false] spawn life_fnc_MP;
 	};
