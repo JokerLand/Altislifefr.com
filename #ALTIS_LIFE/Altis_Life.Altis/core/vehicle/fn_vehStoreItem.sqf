@@ -16,7 +16,7 @@ if(!([_num] call TON_fnc_isnumber)) exitWith {hint "Invalid Number format";};
 _num = parseNumber(_num);
 if(_num < 1) exitWith {hint "You can't enter anything below 1!";};
 
-if((_vehicle getVariable ["trunk_in_use",0]) != (parseNumber(getPlayerUID player))) exitWith {hint localize "STR_MISC_VehInvUse";closeDialog 0;};
+if((life_trunk_vehicle getVariable ["trunk_in_use",0]) != (parseNumber(getPlayerUID player))) exitWith {hint localize "STR_MISC_VehInvUse";closeDialog 0;};
 
 if(life_trunk_vehicle isKindOf "House_F") then {
 	_mWeight = 0;
