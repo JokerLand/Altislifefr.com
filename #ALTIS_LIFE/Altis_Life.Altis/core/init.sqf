@@ -127,7 +127,7 @@ if(playerSide != west) then {
 			_weapon = _this select 1;
 			_bullet = _this select 6;
 			_civWpList = ["hgun_Rook40_F","hgun_SA_makarov_pm_F","hgun_sam_browning_hp_F","SIG_P226","smg_SA_9a91","hgun_PDW2000_F","C1987_MP7","ALFR_BaseballBat","hgun_SA_nambu_type14_F","ALFR_BaseballBat_Grey","ALFR_Machete","hgun_Pistol_heavy_01_F","SMG_01_F","C1987_MP7_ucp","C1987_MP7_urb","C1987_MP7_dmarpat","C1987_MP7_marpat","C1987_MP7_wcam","C1987_MP7_sand","C1987_MP7_nwu","C1987_MP7_folded_p"];
-			if((_weapon NOT IN _civWpList) && !license_civ_rebel) then {
+			if(!(_weapon IN _civWpList) && !license_civ_rebel) then {
 				deleteVehicle _bullet;
 			};
 	}];

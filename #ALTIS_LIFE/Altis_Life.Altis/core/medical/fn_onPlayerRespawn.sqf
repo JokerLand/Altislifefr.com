@@ -37,7 +37,6 @@ player enableFatigue (__GETC__(life_enableFatigue));
 
 if(playerSide != west) then {
 	_handle = [_unit] spawn life_fnc_dropItems;
-	waitUntil {scriptDone _handle};
 };
 
 if((backpack player) != "") then {
