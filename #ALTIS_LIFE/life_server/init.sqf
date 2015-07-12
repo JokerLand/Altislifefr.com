@@ -128,5 +128,31 @@ for "_i" from 1 to 3 do {_dome setVariable[format["bis_disabled_Door_%1",_i],1,t
 _rsb setVariable["bis_disabled_Door_1",1,true];
 _rsb allowDamage false;
 _dome allowDamage false;
+
+[] execVM "\life_server\Base\BaseMOA.sqf";
+[] execVM "\life_server\Base\BaseTOR.sqf";
+[] execVM "\life_server\Base\Base-GRF.sqf";
+[] execVM "\life_server\Base\Park_Kavala.sqf";
+[] execVM "\life_server\Base\BaseSopranofinal.sqf";
+[] execVM "\life_server\Base\Base-POC.sqf";
+[] execVM "\life_server\Base\Poste_de_controle_routier.sqf";
+[] execVM "\life_server\Base\BaseBMG.sqf";
+[] execVM "\life_server\Base\debug_veh_spawn.sqf";
+[] execVM "\life_server\Base\Base-moscow.sqf";
+[] execVM "\life_server\Base\base-LMC.sqf";
+[] execVM "\life_server\Base\base-altiskaia.sqf";
+[] execVM "\life_server\Base\Base-Yakuza.sqf";
+[] execVM "\life_server\Base\BaseCN.sqf";
+[] execVM "\life_server\Base\BaseUnity.sqf";
+[] execVM "\life_server\Base\CampRebelle.sqf";
+[] execVM "\life_server\Base\Douane.sqf";
+[] execVM "\life_server\Base\FLA.sqf";
+[] execVM "\life_server\Base\baseTOP6.sqf";
+[] execVM "\life_server\Base\BaseArmee.sqf";
+[] execVM "\life_server\Base\AeroportParking.sqf";
+[] execVM "\life_server\Base\Ncasino09.sqf";
+[] execVM "\life_server\Base\base SPQR.sqf";
+[] execVM "\life_server\Base\Discotheque.sqf";
+
 life_server_isReady = true;
 publicVariable "life_server_isReady";
