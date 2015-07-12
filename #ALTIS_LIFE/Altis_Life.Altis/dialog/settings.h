@@ -187,7 +187,7 @@ class SettingsMenu
 		
 		class RevealONOFF : life_RscButtonMenu
 		{
-			idc = -1
+			idc = -1;
 			//shortcuts[] = {0x00050000 + 2};
 			colorBackground[] = {0, 0, 0, 0.4};	
 			text = "Activer";

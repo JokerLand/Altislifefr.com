@@ -10,7 +10,7 @@
 private["_vehicle","_vid","_pid","_unit","_price"];
 disableSerialization;
 
-exitWith {} ;
+if(true) exitWith {};
 
 if(lbCurSel 2802 == -1) exitWith {hint localize "STR_Global_NoSelection"};
 _vehicle = lbData[2802,(lbCurSel 2802)];

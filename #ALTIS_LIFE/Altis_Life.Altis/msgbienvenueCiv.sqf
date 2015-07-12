@@ -18,7 +18,6 @@ _camera cameraEffect ["internal","back"];
 _camera camSetFOV 2.000;
 _camera camCommit 0;
 waitUntil {camCommitted _camera};
-["Bienvenue sur AltisLifeFr.com","CENTER_UP",2] call arjay_dynamicText;
  
 _camera camSetTarget vehicle player;
 _camera camSetRelPos [0,0,2];
