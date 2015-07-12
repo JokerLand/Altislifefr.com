@@ -74,5 +74,15 @@ if(playerSide != west) then {
 	waitUntil {scriptDone _handle};
 };
 
+if((backpack player) != "") then {
+	_bp = backpack player;
+	_cfg = getNumber(configFile >> "CfgVehicles" >> (backpack player) >> "maximumload");
+	_load = round(_cfg / 8);
+	if (backpack player == "B_Kitbag_blk") then { _load = 46; };
+	life_maxWeight = life_maxWeightT + _load;
+} else {
+	life_maxWeight = life_maxWeightT;
+};
+
 [] call SOCK_fnc_updateRequest;
 [] call life_fnc_hudUpdate; //Request update of hud.
