@@ -16,21 +16,21 @@ if(_uid == "" OR _type == "" OR _name == "") exitWith {}; //Bad data passed.
 switch(_type) do
 {
 	case "187V": {_type = ["Car Kill",90000]};
-	case "187": {_type = ["Meurtre",40000]};
+	case "187": {_type = ["Meurtre",70000]};
 	case "901": {_type = ["Evasion de Prison",90000]};
 	case "261": {_type = ["Viol",5000]}; //What type of sick bastard would add this?
 	case "261A": {_type = ["Tentative de Viol",3000]};
-	case "215": {_type = ["Tentative vol vehicule",2000]};
+	case "215": {_type = ["Tentative vol vehicule",5000]};
 	case "213": {_type = ["Use of illegal explosives",10000]};
-	case "211": {_type = ["Vol avec arme",10000]};
+	case "211": {_type = ["Vol avec arme",20000]};
 	case "207": {_type = ["Kidnapping",3500]};
 	case "207A": {_type = ["Attempted Kidnapping",2000]};
-	case "487": {_type = ["Vol de vehicule",3750]};
+	case "487": {_type = ["Vol de vehicule",15000]};
 	case "488": {_type = ["Petty Theft",700]};
 	case "480": {_type = ["Hit and run",1300]};
-	case "481": {_type = ["Possesion de drogue",30000]};
-	case "482": {_type = ["Intention de drogue",30000]};
-	case "483": {_type = ["Traffic de drogue",30000]};
+	case "481": {_type = ["Possesion de drogue",60000]};
+	case "482": {_type = ["Intention de drogue",60000]};
+	case "483": {_type = ["Traffic de drogue",60000]};
 	case "459": {_type = ["Cambriolage",50000]};
 	case "460": {_type = ["Braquage Station Service",50000]};
 	case "390": {_type = ["Ivresse sur la voie publique",1500]};

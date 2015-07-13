@@ -13,7 +13,7 @@ if(isNull _vehicle OR !(_vehicle isKindOf "Car" OR _vehicle isKindOf "Air" OR _v
 if((_vehicle getVariable ["trunk_in_use",0]) != 0) exitWith {hint localize "STR_MISC_VehInvUse"};
 _vehicle setVariable["trunk_in_use",parseNumber(getPlayerUID player),true];
 
-sleep 0.5;
+sleep 1;
 
 if((_vehicle getVariable ["trunk_in_use",0]) != (parseNumber(getPlayerUID player))) exitWith {hint localize "STR_MISC_VehInvUse"};
 
