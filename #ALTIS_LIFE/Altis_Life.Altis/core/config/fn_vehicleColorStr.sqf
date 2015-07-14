@@ -1399,6 +1399,22 @@ switch (_vehicle) do
 			case 12: {_color = "Orange";};
 		};
 	};
+    
+    case "B_Quadbike_01_F" :
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Marron"};
+			case 1: {_color = "Digi Desert"};
+			case 2: {_color = "Noir"};
+			case 3: {_color = "Bleue"};
+			case 4: {_color = "Rouge"};
+			case 5: {_color = "Blanc"};
+			case 6: {_color = "Digi Vert"};
+			case 7: {_color = "Hunter Camo"};
+			case 8: {_color = "Rebel Camo"};
+		};
+	};
 
 };
 

@@ -1377,5 +1377,21 @@ switch (_vehicle) do
         ];
    
     };
+    
+    case "B_Quadbike_01_F":
+	{
+		_ret = 
+		[
+			["\A3\Soft_F\Quadbike_01\Data\Quadbike_01_co.paa","civ"],
+			["\A3\Soft_F\Quadbike_01\Data\quadbike_01_opfor_co.paa","civ"],
+			["\A3\Soft_F_beta\Quadbike_01\Data\quadbike_01_civ_black_co.paa","civ"],
+			["\A3\Soft_F_beta\Quadbike_01\Data\quadbike_01_civ_blue_co.paa","civ"],
+			["\A3\Soft_F_beta\Quadbike_01\Data\quadbike_01_civ_red_co.paa","civ"],
+			["\A3\Soft_F_beta\Quadbike_01\Data\quadbike_01_civ_white_co.paa","civ"],
+			["\A3\Soft_F_beta\Quadbike_01\Data\quadbike_01_indp_co.paa","civ"],
+			["\a3\soft_f_gamma\Quadbike_01\data\quadbike_01_indp_hunter_co.paa","civ"],
+			["\a3\soft_f_gamma\Quadbike_01\data\quadbike_01_indp_hunter_co.paa","civ"]
+		];
+	};
 };
     _ret;

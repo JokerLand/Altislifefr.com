@@ -59,6 +59,7 @@ switch (_shop) do
 			["A3L_PuntoBlue",6000],
 			["cl3_civic_vti_black",7500],
 			["DAR_FusionCiv",10000],
+            ["B_Quadbike_01_F",10000],
 			["cl3_taurus_black",12000],
 			["cl3_polo_gti_black",12000],
 			["C_Offroad_01_F",14000],
