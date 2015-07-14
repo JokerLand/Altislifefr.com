@@ -1407,7 +1407,7 @@ switch (_vehicle) do
 			case 0: {_color = "Marron"};
 			case 1: {_color = "Digi Desert"};
 			case 2: {_color = "Noir"};
-			case 3: {_color = "Bleue"};
+			case 3: {_color = "Bleu"};
 			case 4: {_color = "Rouge"};
 			case 5: {_color = "Blanc"};
 			case 6: {_color = "Digi Vert"};
