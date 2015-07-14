@@ -366,7 +366,7 @@ buy_array =
     ["biere",90],
     ["puranium",5000],
     ["ipuranium",9000],
-	["menotte",15000],
+	["menotte",7500],
 	["beer",850],
 	["whiskey",1250],
 	["rhum",950],
