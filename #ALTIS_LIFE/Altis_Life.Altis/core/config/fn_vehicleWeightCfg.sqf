@@ -30,6 +30,7 @@ switch (_className) do
 	case "cl3_civic_vti_black": {35};
 	case "cl3_polo_gti_black": {30};
 	case "cl3_insignia_black": {50};
+	case "GeK_S60": {50};
 	case "cl3_e63_amg_black": {50};
 	case "cl3_range_rover_black": {85};
 	case "cl3_dodge_charger_s_black": {65};
