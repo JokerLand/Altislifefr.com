@@ -1,1 +1,0 @@
-#include "Salut , il semble que votre client est Morte. Ne vous inquiétez pas , nous allons revenir avec vous dans six ans."
