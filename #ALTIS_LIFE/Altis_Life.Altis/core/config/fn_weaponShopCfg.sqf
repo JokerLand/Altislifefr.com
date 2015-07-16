@@ -958,7 +958,6 @@ switch(_shop) do
 						["hlc_rifle_saiga12k",nil,300000],
 						["hlc_rifle_akmgl",nil,400000],
 						["hlc_rifle_aek971",nil,500000],
-						["Cha_PK",nil,600000],
 						["optic_ACO_grn",nil,3500],
 						["hlc_optic_kobra",nil,3500],
 						["optic_Holosight",nil,3600],
