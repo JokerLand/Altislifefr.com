@@ -4027,7 +4027,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=2009;
+		items=2016;
 		class Item0
 		{
 			position[]={8065.1616,35.674362,24985.314};
@@ -8950,8 +8950,8 @@ class Mission
 		};
 		class Item482
 		{
-			position[]={16802.197,14.001748,9983.3418};
-			azimut=154.67641;
+			position[]={20266.631,39.256367,8776.4609};
+			azimut=524.53748;
 			id=738;
 			side="EMPTY";
 			vehicle="Land_Tank_rust_F";
@@ -8959,8 +8959,8 @@ class Mission
 		};
 		class Item483
 		{
-			position[]={16802.564,13.858148,9986.7207};
-			azimut=230.58987;
+			position[]={20267.445,39.309139,8779.749};
+			azimut=598.53308;
 			id=739;
 			side="EMPTY";
 			vehicle="Land_CratesWooden_F";
@@ -8969,8 +8969,8 @@ class Mission
 		};
 		class Item484
 		{
-			position[]={16800.072,13.900132,9986.3486};
-			azimut=40.12487;
+			position[]={20264.93,39.364758,8779.7314};
+			azimut=408.06796;
 			id=740;
 			side="EMPTY";
 			vehicle="Land_Can_V3_F";
@@ -8978,8 +8978,8 @@ class Mission
 		};
 		class Item485
 		{
-			position[]={16801.307,13.896428,9986.1191};
-			azimut=40.12487;
+			position[]={20266.127,39.328278,8779.3281};
+			azimut=408.06796;
 			id=741;
 			side="EMPTY";
 			vehicle="Land_Can_V1_F";
@@ -8987,8 +8987,8 @@ class Mission
 		};
 		class Item486
 		{
-			position[]={16802.205,13.842299,9987.1973};
-			azimut=40.12487;
+			position[]={20267.146,39.326656,8780.2725};
+			azimut=408.06796;
 			offsetY=0.5;
 			id=742;
 			side="EMPTY";
@@ -8997,8 +8997,8 @@ class Mission
 		};
 		class Item487
 		{
-			position[]={16802.879,13.872348,9986.2959};
-			azimut=40.12487;
+			position[]={20267.709,39.29377,8779.292};
+			azimut=408.06796;
 			offsetY=1.5;
 			id=743;
 			side="EMPTY";
@@ -9038,8 +9038,8 @@ class Mission
 		};
 		class Item491
 		{
-			position[]={17818.217,15.959353,13309.535};
-			azimut=1036.48;
+			position[]={18250.039,21.708208,13597.589};
+			azimut=1236.6331;
 			special="NONE";
 			id=747;
 			side="EMPTY";
@@ -9051,8 +9051,8 @@ class Mission
 		};
 		class Item492
 		{
-			position[]={17822.363,15.904258,13306.9};
-			azimut=1036.48;
+			position[]={18247.059,21.762661,13601.489};
+			azimut=1236.6331;
 			special="NONE";
 			id=748;
 			side="EMPTY";
@@ -9064,8 +9064,8 @@ class Mission
 		};
 		class Item493
 		{
-			position[]={17819.844,15.783272,13305.5};
-			azimut=1036.48;
+			position[]={18249.91,21.777475,13601.939};
+			azimut=1236.6331;
 			special="NONE";
 			id=749;
 			side="EMPTY";
@@ -9077,8 +9077,8 @@ class Mission
 		};
 		class Item494
 		{
-			position[]={17819.133,15.889351,13307.783};
-			azimut=-411.93301;
+			position[]={18249.795,21.738995,13599.554};
+			azimut=-211.77998;
 			special="NONE";
 			id=750;
 			side="EMPTY";
@@ -10781,8 +10781,8 @@ class Mission
 		};
 		class Item650
 		{
-			position[]={16800.422,13.93587,9985.3936};
-			azimut=157.78957;
+			position[]={20265.154,39.336212,8778.7275};
+			azimut=525.73273;
 			special="NONE";
 			id=906;
 			side="EMPTY";
@@ -11383,8 +11383,8 @@ class Mission
 		};
 		class Item701
 		{
-			position[]={17818.453,16.106768,13312.038};
-			azimut=46.228298;
+			position[]={18248.963,21.690403,13595.319};
+			azimut=246.38141;
 			offsetY=0.2;
 			special="NONE";
 			id=957;
@@ -25588,10 +25588,101 @@ class Mission
 			skill=0.60000002;
 			init="this allowDamage false; this enableSimulation false; this addAction[""Revendeur de Diamants"",life_fnc_virt_menu,""diamond""];";
 		};
+		class Item2009
+		{
+			position[]={18245.506,21.817703,13605.251};
+			azimut=1236.6331;
+			special="NONE";
+			id=2265;
+			side="EMPTY";
+			vehicle="Land_ConcretePipe_F";
+			leader=1;
+			skill=0.60000002;
+			init="this allowDamage false; this enableSimulation false;";
+			description="Civ 100";
+		};
+		class Item2010
+		{
+			position[]={18248.066,21.831982,13606.376};
+			azimut=1236.6331;
+			special="NONE";
+			id=2266;
+			side="EMPTY";
+			vehicle="Land_ConcretePipe_F";
+			leader=1;
+			skill=0.60000002;
+			init="this allowDamage false; this enableSimulation false;";
+			description="Civ 100";
+		};
+		class Item2011
+		{
+			position[]={18246.322,21.877131,13610.021};
+			azimut=1236.6331;
+			special="NONE";
+			id=2267;
+			side="EMPTY";
+			vehicle="Land_ConcretePipe_F";
+			leader=1;
+			skill=0.60000002;
+			init="this allowDamage false; this enableSimulation false;";
+			description="Civ 100";
+		};
+		class Item2012
+		{
+			position[]={18243.764,21.855412,13608.78};
+			azimut=1236.6331;
+			special="NONE";
+			id=2268;
+			side="EMPTY";
+			vehicle="Land_ConcretePipe_F";
+			leader=1;
+			skill=0.60000002;
+			init="this allowDamage false; this enableSimulation false;";
+			description="Civ 100";
+		};
+		class Item2013
+		{
+			position[]={18250.746,21.824032,13607.5};
+			azimut=1236.6331;
+			special="NONE";
+			id=2269;
+			side="EMPTY";
+			vehicle="Land_ConcretePipe_F";
+			leader=1;
+			skill=0.60000002;
+			init="this allowDamage false; this enableSimulation false;";
+			description="Civ 100";
+		};
+		class Item2014
+		{
+			position[]={18249.041,21.881691,13611.147};
+			azimut=1236.6331;
+			special="NONE";
+			id=2270;
+			side="EMPTY";
+			vehicle="Land_ConcretePipe_F";
+			leader=1;
+			skill=0.60000002;
+			init="this allowDamage false; this enableSimulation false;";
+			description="Civ 100";
+		};
+		class Item2015
+		{
+			position[]={18251.443,21.682125,13592.372};
+			azimut=1236.6331;
+			special="NONE";
+			id=2271;
+			side="EMPTY";
+			vehicle="Land_ConcretePipe_F";
+			leader=1;
+			skill=0.60000002;
+			init="this allowDamage false; this enableSimulation false;";
+			description="Civ 100";
+		};
 	};
 	class Markers
 	{
-		items=401;
+		items=402;
 		class Item0
 		{
 			position[]={8459.6777,104.56568,25131.203};
@@ -26715,21 +26806,21 @@ class Mission
 		};
 		class Item138
 		{
-			position[]={16800.707,13.937062,9985.291};
+			position[]={20259.158,40.777653,8815.0371};
 			name="rock_proc";
 			text="Taillage de Roche";
 			type="mil_dot";
 			colorName="ColorBrown";
-			angle=-196.15997;
+			angle=171.78311;
 		};
 		class Item139
 		{
-			position[]={17817.25,16.036396,13311.44};
+			position[]={18255.73,21.747087,13602.761};
 			name="oil_trader_3_1";
 			text="Vendeur de Ciment";
 			type="b_unknown";
 			colorName="ColorOrange";
-			angle=-180.95892;
+			angle=1.886373;
 		};
 		class Item140
 		{
@@ -28885,6 +28976,16 @@ class Mission
 			name="spawn_grf";
 			type="Empty";
 			angle=100.50906;
+		};
+		class Item401
+		{
+			position[]={19781.477,31.068945,17124.91};
+			name="marijuana";
+			markerType="ELLIPSE";
+			type="Empty";
+			colorName="ColorWhite";
+			a=30;
+			b=30;
 		};
 	};
 	class Sensors

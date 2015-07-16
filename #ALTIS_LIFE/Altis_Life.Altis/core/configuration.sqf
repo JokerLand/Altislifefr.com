@@ -80,9 +80,9 @@ life_thirst = 100;
 life_hunger = 100;
 __CONST__(life_paycheck_period,5); //Five minutes
 life_cash = 0;
-__CONST__(life_impound_car,2500);
+__CONST__(life_impound_car,5000);
 __CONST__(life_impound_boat,5000);
-__CONST__(life_impound_air,5000);
+__CONST__(life_impound_air,7000);
 life_istazed = false;
 life_isdowned = false;
 life_my_gang = ObjNull;
@@ -94,7 +94,7 @@ switch (playerSide) do
 	case west:
 	{
 		life_atmcash = 7000; //Starting Bank Money
-		life_paycheck = 1500; //Paycheck Amount
+		life_paycheck = 3000; //Paycheck Amount
 	};
 	case civilian:
 	{
