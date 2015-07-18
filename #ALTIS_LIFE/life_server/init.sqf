@@ -151,7 +151,7 @@ _dome allowDamage false;
 [] execVM "\life_server\Base\BaseArmee.sqf";
 [] execVM "\life_server\Base\AeroportParking.sqf";
 [] execVM "\life_server\Base\Ncasino09.sqf";
-[] execVM "\life_server\Base\baseSPQR.sqf";
+[] execVM "\life_server\Base\base SPQR.sqf";
 [] execVM "\life_server\Base\Discotheque.sqf";
 
 life_server_isReady = true;
