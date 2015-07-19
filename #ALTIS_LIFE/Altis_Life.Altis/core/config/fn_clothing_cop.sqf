@@ -56,9 +56,10 @@ switch (_filter) do
 		if(__GETC__(life_coplevel) > 3) then
 		{
 			_ret pushBack ["H_Beret_02",nil,150];
+			_ret pushBack ["R3F_beret",nil,150];
 		};
 		
-		if(__GETC__(life_coplevel) > 5) then
+		if(__GETC__(life_coplevel) > 4) then
 		{
 			_ret pushBack ["R3F_beret_commando",nil,200];
 		};

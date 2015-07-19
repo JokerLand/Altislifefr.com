@@ -82,9 +82,6 @@ switch(_shop) do
                         ["optic_Aco_smg",nil,2000],
                         ["optic_ACO_grn",nil,3200],
                         ["optic_Aco",nil,3200],
-                        ["optic_MRCO",nil,10000],
-                        ["optic_Hamr",nil,10000],
-                        ["optic_Arco",nil,10000],
                         ["acc_pointer_IR",nil,4200],
                         ["SmokeShell",nil,100],
                         //Policier
