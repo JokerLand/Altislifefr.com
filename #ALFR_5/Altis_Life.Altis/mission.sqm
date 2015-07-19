@@ -3422,7 +3422,6 @@ class Mission
 					side="GUER";
 					vehicle="I_Story_Colonel_F";
 					player="PLAY CDG";
-					forceHeadlessClient=1;
 					leader=1;
 					skill=0.60000002;
 					text="hc_1";
@@ -8921,7 +8920,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=215;
+		items=217;
 		class Item0
 		{
 			position[]={8459.6777,104.56568,25131.203};
@@ -10619,6 +10618,24 @@ class Mission
 			name="turle_dealer_2";
 			text="Turtle Dealer";
 			type="mil_dot";
+			colorName="ColorRed";
+		};
+		class Item215
+		{
+			position[]={7615.1958,115.40382,20161.123};
+			name="hunting_zone";
+			markerType="ELLIPSE";
+			type="Empty";
+			colorName="ColorWhite";
+			a=1000;
+			b=1000;
+		};
+		class Item216
+		{
+			position[]={7462.2212,151.36786,20194.053};
+			name="hunting_marker";
+			text="Hunting Grounds";
+			type="mil_join";
 			colorName="ColorRed";
 		};
 	};

@@ -87,17 +87,17 @@ life_vehicles = [];
 bank_robber = [];
 switch (playerSide) do
 {
-	case west: 
+	case west:
 	{
 		life_atmcash = 7000; //Starting Bank Money
 		life_paycheck = 500; //Paycheck Amount
 	};
-	case civilian: 
+	case civilian:
 	{
 		life_atmcash = 3000; //Starting Bank Money
 		life_paycheck = 350; //Paycheck Amount
 	};
-	
+
 	case independent: {
 		life_atmcash = 6500;
 		life_paycheck = 450;
@@ -110,7 +110,7 @@ switch (playerSide) do
 life_vShop_rentalOnly = ["B_MRAP_01_hmg_F","B_G_Offroad_01_armed_F"];
 __CONST__(life_vShop_rentalOnly,life_vShop_rentalOnly); //These vehicles can never be bought and only 'rented'. Used as a balancer & money sink. If you want your server to be chaotic then fine.. Remove it..
 
-life_inv_items = 
+life_inv_items =
 [
 	"life_inv_oilu",
 	"life_inv_oilp",
@@ -159,7 +159,12 @@ life_inv_items =
 	"life_inv_boltcutter",
 	"life_inv_defusekit",
 	"life_inv_storagesmall",
-	"life_inv_storagebig"
+	"life_inv_storagebig",
+	"hen_raw",
+	"rooster_raw",
+	"rabbit_raw",
+	"goat_raw",
+	"sheep_raw"
 ];
 
 //Setup variable inv vars.
@@ -203,7 +208,7 @@ life_illegal_items = [["heroinu",1200],["heroinp",2500],["cocaine",1500],["cocai
 /*
 	Sell / buy arrays
 */
-sell_array = 
+sell_array =
 [
 	["apple",50],
 	["heroinu",1850],
@@ -238,11 +243,16 @@ sell_array =
 	["fuelF",500],
 	["spikeStrip",1200],
 	["cement",1950],
-	["goldbar",95000]
+	["goldbar",95000],
+	["hen_raw",2000],
+	["rooster_raw",2500],
+	["rabbit_raw",3000],
+	["goat_raw",3500],
+	["sheep_raw",4000]
 ];
 __CONST__(sell_array,sell_array);
 
-buy_array = 
+buy_array =
 [
 	["apple",65],
 	["rabbit",75],

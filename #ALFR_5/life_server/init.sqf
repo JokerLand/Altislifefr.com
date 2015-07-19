@@ -130,3 +130,6 @@ _rsb allowDamage false;
 _dome allowDamage false;
 life_server_isReady = true;
 publicVariable "life_server_isReady";
+
+/* Initialize hunting zone(s) */
+["hunting_zone",30] spawn TON_fnc_huntingZone;
