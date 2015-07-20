@@ -2,10 +2,10 @@
 /*
 	File: fn_requestReceived.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
-	Called by the server saying that we have a response so let's 
-	sort through the information, validate it and if all valid 
+	Called by the server saying that we have a response so let's
+	sort through the information, validate it and if all valid
 	set the client up.
 */
 life_session_tries = life_session_tries + 1;
@@ -35,6 +35,7 @@ life_cash = parseNumber (_this select 2);
 life_atmcash = parseNumber (_this select 3);
 __CONST__(life_adminlevel,parseNumber(_this select 4));
 __CONST__(life_donator,0);
+__CONST__(life_donator,parseNumber(_this select 5));
 
 //Loop through licenses
 if(count (_this select 6) > 0) then {
@@ -51,7 +52,7 @@ switch(playerSide) do {
 		__CONST__(life_medicLevel,0);
 		life_blacklisted = _this select 9;
 	};
-	
+
 	case civilian: {
 		life_is_arrested = _this select 7;
 		__CONST__(life_coplevel, 0);
@@ -61,14 +62,14 @@ switch(playerSide) do {
 			_house = nearestBuilding (call compile format["%1", _x select 0]);
 			life_vehicles pushBack _house;
 		} foreach life_houses;
-		
+		[player] joinSilent (createGroup civilian);
 		life_gangData = _This select 10;
 		if(count life_gangData != 0) then {
 			[] spawn life_fnc_initGang;
 		};
 		[] spawn life_fnc_initHouses;
 	};
-	
+
 	case independent: {
 		__CONST__(life_medicLevel, parseNumber(_this select 7));
 		__CONST__(life_coplevel,0);
@@ -78,5 +79,24 @@ switch(playerSide) do {
 if(count (_this select 12) > 0) then {
 	{life_vehicles pushBack _x;} foreach (_this select 12);
 };
+
+switch(__GETC__(life_donator)) do
+ {
+	case 0: {__CONST__(life_houseLimit,1);};
+ 	case 1: {__CONST__(life_houseLimit,2);};
+ 	case 2: {__CONST__(life_houseLimit,3);};
+ 	case 3: {__CONST__(life_houseLimit,4);};
+	case 4: {__CONST__(life_houseLimit,5);};
+	case 5: {__CONST__(life_houseLimit,6);};
+ };
+
+switch(__GETC__(life_donator)) do
+ {
+ 	case 1: {life_paycheck = life_paycheck + 750;};
+ 	case 2: {life_paycheck = life_paycheck + 1500;};
+ 	case 3: {life_paycheck = life_paycheck + 2000;};
+	case 4: {life_paycheck = life_paycheck + 2500;};
+	case 5: {life_paycheck = life_paycheck + 3000;};
+ };
 
 life_session_completed = true;

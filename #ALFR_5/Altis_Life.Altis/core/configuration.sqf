@@ -32,15 +32,15 @@ life_removeWanted = false;
 life_action_gathering = false;
 
 //Persistent Saving
-__CONST__(life_save_civ,FALSE); //Save weapons for civs?
-__CONST__(life_save_yinv,FALSE); //Save Y-Inventory for players?
+__CONST__(life_save_civ,TRUE); //Save weapons for civs?
+__CONST__(life_save_yinv,TRUE); //Save Y-Inventory for players?
 
 //Revive constant variables.
-__CONST__(life_revive_cops,TRUE); //Set to false if you don't want cops to be able to revive downed players.
+__CONST__(life_revive_cops,FALSE); //Set to false if you don't want cops to be able to revive downed players.
 __CONST__(life_revive_fee,250); //Fee for players to pay when revived.
 
 //House Limit
-__CONST__(life_houseLimit,5); //Maximum amount of houses a player can buy (TODO: Make Tiered licenses).
+//__CONST__(life_houseLimit,5); //Maximum amount of houses a player can buy (TODO: Make Tiered licenses).
 
 //Gang related stuff?
 __CONST__(life_gangPrice,75000); //Price for creating a gang (They're all persistent so keep it high to avoid 345345345 gangs).

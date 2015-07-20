@@ -3493,7 +3493,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=525;
+		items=535;
 		class Item0
 		{
 			position[]={8065.1616,35.674362,24985.314};
@@ -8917,10 +8917,117 @@ class Mission
 			skill=0.60000002;
 			init="this enableSimulation false;";
 		};
+		class Item525
+		{
+			position[]={14563.84,17.91,16650.166};
+			azimut=-531.75787;
+			id=738;
+			side="EMPTY";
+			vehicle="Land_LampHalogen_F";
+			skill=0.60000002;
+			init=" this allowDamage false; this allowDamage false; this setVectorUp [0,0,1];";
+		};
+		class Item526
+		{
+			position[]={14595.324,17.91,16678.887};
+			azimut=223.57201;
+			id=739;
+			side="EMPTY";
+			vehicle="Land_Pallet_MilBoxes_F";
+			skill=0.60000002;
+			init="this allowDamage false;";
+		};
+		class Item527
+		{
+			position[]={14596.693,17.91,16680.348};
+			azimut=223.57201;
+			id=740;
+			side="EMPTY";
+			vehicle="Land_PaperBox_closed_F";
+			skill=0.60000002;
+			init="this allowDamage false;";
+		};
+		class Item528
+		{
+			position[]={14589.355,17.91,16672.326};
+			azimut=111.823;
+			id=741;
+			side="EMPTY";
+			vehicle="Land_PaperBox_open_full_F";
+			skill=0.60000002;
+			init="this allowDamage false;";
+		};
+		class Item529
+		{
+			position[]={14590.623,17.91,16673.795};
+			azimut=34.330002;
+			id=742;
+			side="EMPTY";
+			vehicle="Land_PaperBox_open_empty_F";
+			skill=0.60000002;
+			init="this allowDamage false;";
+		};
+		class Item530
+		{
+			position[]={14593.607,17.91,16677.955};
+			azimut=311.72632;
+			special="NONE";
+			id=743;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V2_F";
+			leader=1;
+			skill=0.2;
+			init="this allowDamage false; this enableSimulation false; this addAction[""Armes Donateurs"",life_fnc_weaponShopMenu,""donator"",0,false,false,"""",' _target distance _this < 5 && !isNil ""life_donator"" &&  (call life_donator) > 0 && playerSide == civilian'];  this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu];  this addAction[""Banking Insurance ($1,000)"",{if(life_atmcash > 1000) then {life_has_insurance = true; life_atmcash = life_atmcash - 1000};},"""",0,false,false,"""",'!life_has_insurance'];";
+		};
+		class Item531
+		{
+			position[]={14592.483,17.91,16676.873};
+			azimut=309.94193;
+			special="NONE";
+			id=744;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V2_F";
+			leader=1;
+			skill=0.2;
+			init="this enableSimulation false;   this allowDamage false;   this addAction[""Vehicule Donateur"",life_fnc_vehicleShopMenu,[""donator"",civilian,[""donator_2"",""donator_2_1""],""civ"",""Donator Shop""],0,false,false,"""",'!isNil ""life_donator"" && {(call life_donator) > 0'];";
+		};
+		class Item532
+		{
+			position[]={14575.352,17.91,16659.576};
+			azimut=314.8912;
+			special="NONE";
+			id=745;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V2_F";
+			leader=1;
+			skill=0.2;
+			init="this enableSimulation false; this allowDamage false; this addAction[""Vehicle Garage"",  {   [[getPlayerUID player,playerSide,""Car"",player],""TON_fnc_getVehicles"",false,false] spawn life_fnc_MP; life_garage_type = ""Car"";   createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""car_g_9_1"";  }]; this addAction[""Store vehicle in Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];";
+		};
+		class Item533
+		{
+			position[]={14591.37,17.91,16675.66};
+			azimut=314.05099;
+			special="NONE";
+			id=746;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V2_F";
+			skill=0.2;
+			init="this enableSimulation false; this allowDamage false; this addAction[""Combinaison et Casques Motos"",life_fnc_clothingMenu,""kart""]; this addAction[""Vendeur de Vêtements"",life_fnc_clothingMenu,""bruce""];";
+		};
+		class Item534
+		{
+			position[]={14615.103,17.91,16700.717};
+			azimut=-460.90799;
+			id=747;
+			side="EMPTY";
+			vehicle="Land_LampHalogen_F";
+			skill=0.60000002;
+			init=" this allowDamage false; this allowDamage false; this setVectorUp [0,0,1];";
+		};
 	};
 	class Markers
 	{
-		items=217;
+		items=222;
 		class Item0
 		{
 			position[]={8459.6777,104.56568,25131.203};
@@ -10637,6 +10744,43 @@ class Mission
 			text="Hunting Grounds";
 			type="mil_join";
 			colorName="ColorRed";
+		};
+		class Item217
+		{
+			position[]={14610.822,17.91,16653.258};
+			name="donator_2";
+			type="Empty";
+			angle=-51.608273;
+		};
+		class Item218
+		{
+			position[]={14619.709,17.91,16662.316};
+			name="donator_2_1";
+			type="Empty";
+			angle=-52.748619;
+		};
+		class Item219
+		{
+			position[]={14594.209,17.91,16677.633};
+			name="donator_area_1_1_1";
+			text="Magasin des Donateurs";
+			type="loc_ViewTower";
+			colorName="ColorYellow";
+		};
+		class Item220
+		{
+			position[]={14586.476,17.91,16649.703};
+			name="car_g_9_1";
+			type="Empty";
+			angle=488.64743;
+		};
+		class Item221
+		{
+			position[]={14575.73,17.91,16659.107};
+			name="civ_gar_1_3_2";
+			text="Garage";
+			type="o_service";
+			angle=130.10077;
 		};
 	};
 };
