@@ -216,7 +216,7 @@ switch(_shop) do
 			["R3F_20Rnd_762x51_TRACER_HK417",nil,90],
                         ["Trixie_M40A3_Clean","M40A3 (Adjudant-Chef)",10000],
                         ["Trixie_5x762_Mag",nil,100],
-                        ["SmokeShellGreen","Grenade Lacrymogène (Adjudant-Chef)",10000]
+                        ["SmokeShellGreen","Grenade Lacrymogène (Adjudant-Chef)",1000]
 					]
 				];
 			};
