@@ -68,7 +68,23 @@ switch (_code) do
 		};
 	};
 
-	//Holster / recall weapon.
+	//TAB Holster
+	case 15:
+	{
+		if(!_ctrlKey && currentWeapon player != "") then {
+			life_curWep_h = currentWeapon player;
+			player action ["SwitchWeapon", player, player, 100];
+			player switchcamera cameraView;
+		};
+
+		if(_ctrlKey && !isNil "life_curWep_h" && {(life_curWep_h != "")}) then {
+			if(life_curWep_h in [primaryWeapon player,secondaryWeapon player,handgunWeapon player]) then {
+				player selectWeapon life_curWep_h;
+			};
+		};
+	};
+
+	//H
 	case 35:
 	{
 		if(!_alt && !_ctrlKey) then
@@ -81,17 +97,6 @@ switch (_code) do
 				};
 			};
 			_handled = true;
-		};
-		if(_shift && !_ctrlKey && currentWeapon player != "") then {
-			life_curWep_h = currentWeapon player;
-			player action ["SwitchWeapon", player, player, 100];
-			player switchcamera cameraView;
-		};
-
-		if(!_shift && _ctrlKey && !isNil "life_curWep_h" && {(life_curWep_h != "")}) then {
-			if(life_curWep_h in [primaryWeapon player,secondaryWeapon player,handgunWeapon player]) then {
-				player selectWeapon life_curWep_h;
-			};
 		};
 	};
 
