@@ -1,7 +1,7 @@
 /*
 	File: fn_itemWeight.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Gets the items weight and returns it.
 */
@@ -56,5 +56,10 @@ switch (_item) do
 	case "defusekit": {2};
 	case "storagesmall": {5};
 	case "storagebig": {10};
+	case "hen_raw": {2};
+	case "rooster_raw": {2};
+	case "rabbit_raw": {2};
+	case "goat_raw": {2};
+	case "sheep_raw": {2};
 	default {1};
 };

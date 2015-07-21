@@ -160,11 +160,11 @@ life_inv_items =
 	"life_inv_defusekit",
 	"life_inv_storagesmall",
 	"life_inv_storagebig",
-	"hen_raw",
-	"rooster_raw",
-	"rabbit_raw",
-	"goat_raw",
-	"sheep_raw"
+	"life_inv_hen_raw",
+	"life_inv_rooster_raw",
+	"life_inv_rabbit_raw",
+	"life_inv_goat_raw",
+	"life_inv_sheep_raw"
 ];
 
 //Setup variable inv vars.

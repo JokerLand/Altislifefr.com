@@ -2,7 +2,6 @@
 /*
 	File: fn_actionKeyHandler.sqf
 	Author: Bryan "Tonic" Boardwine
-
 	Description:
 	Master action key handler, handles requests for picking up various items and
 	interacting with other players (Cops = Cop Menu for unrestrain,escort,stop escort, arrest (if near cop hq), etc).
@@ -10,10 +9,11 @@
 private["_curTarget","_isWater"];
 _curTarget = cursorTarget;
 if(life_action_inUse) exitWith {}; //Action is in use, exit to prevent spamming.
+if(life_action_gathering) exitWith {}; //AntiSpam test.
 if(life_interrupted) exitWith {life_interrupted = false;};
 _isWater = surfaceIsWater (getPosASL player);
 if(isNull _curTarget) exitWith {
-	if(_isWater) then {
+	if((_isWater) && (player distance (getMarkerPos "artefact_area_1") > 30) OR  (player distance (getMarkerPos "artefact_area_2") < 30)) then {
 		private["_fish"];
 		_fish = (nearestObjects[getPos player,["Fish_Base_F"],3]) select 0;
 		if(!isNil "_fish") then {
@@ -28,12 +28,16 @@ if(isNull _curTarget) exitWith {
 	};
 };
 
-if(!alive _curTarget && _curTarget isKindOf "Animal" && !(EQUAL((typeOf _curTarget),"Turtle_F"))) exitWith {
+if(!alive _curTarget && _curTarget isKindOf "Animal" && !(_isWater)) exitWith {
 	[_curTarget] call life_fnc_gutAnimal;
 };
 
 if(_curTarget isKindOf "House_F" && {player distance _curTarget < 12} OR ((nearestObject [[16019.5,16952.9,0],"Land_Dome_Big_F"]) == _curTarget OR (nearestObject [[16019.5,16952.9,0],"Land_Research_house_V1_F"]) == _curTarget)) exitWith {
 	[_curTarget] call life_fnc_houseMenu;
+};
+
+if(((typeOf _curTarget) isEqualTo "Land_A3L_Nightclub") && (!dialog) && {player distance _curTarget < 12}) exitWith {
+	createDialog "alfr_dj_menu";
 };
 
 if(dialog) exitWith {}; //Don't bother when a dialog is open.
@@ -55,11 +59,15 @@ if(_curTarget isKindOf "Man" && {!alive _curTarget} && {playerSide in [west,inde
 };
 
 
-//If target is a player then check if we can use the cop menu.
+///If target is a player then check if we can use the cop menu.
 if(isPlayer _curTarget && _curTarget isKindOf "Man") then {
 	if((_curTarget getVariable["restrained",false]) && !dialog && playerSide == west) then {
 		[_curTarget] call life_fnc_copInteractionMenu;
 	};
+	if((_curTarget getVariable["restrained",false]) && !dialog && playerSide == civilian) then {
+	[_curTarget] call life_fnc_civInteractionMenu;
+	};
+
 } else {
 	//OK, it wasn't a player so what is it?
 	private["_isVehicle","_miscItems","_money"];

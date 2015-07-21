@@ -1,7 +1,7 @@
 /*
 	File: fn_varHandle.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Master handler for getting a variables name, short name, etc.
 */
@@ -65,9 +65,14 @@ switch (_mode) do
 			case "defusekit": {"life_inv_defusekit"};
 			case "storagesmall": {"life_inv_storagesmall"};
 			case "storagebig": {"life_inv_storagebig"};
+			case "hen_raw": {"life_inv_hen_raw"};
+			case "rooster_raw": {"life_inv_rooster_raw"};
+			case "rabbit_raw": {"life_inv_rabbit_raw"};
+			case "goat_raw": {"life_inv_goat_raw"};
+			case "sheep_raw": {"life_inv_sheep_raw"};
 		};
 	};
-	
+
 	case 1:
 	{
 		switch (_var) do
@@ -121,6 +126,11 @@ switch (_mode) do
 			case "life_inv_defusekit": {"defusekit"};
 			case "life_inv_storagesmall": {"storagesmall"};
 			case "life_inv_storagebig": {"storagebig"};
+			case "life_inv_hen_raw": {"hen_raw"};
+			case "life_inv_rooster_raw": {"rooster_raw"};
+			case "life_inv_rabbit_raw": {"rabbit_raw"};
+			case "life_inv_goat_raw": {"goat_raw"};
+			case "life_inv_sheep_raw": {"sheep_raw"};
 		};
 	};
 };
