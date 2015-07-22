@@ -13,5 +13,6 @@ life_versionInfo = "Altis Life RPG v3.1.4.8";
 [] execVM "KRON_Strings.sqf";
 [] execVM "Anticheat.sqf";
 [] execVM "AdminMenu.sqf";
+[] execVM "dialog\statusBar.sqf";
 
 StartProgress = true;
