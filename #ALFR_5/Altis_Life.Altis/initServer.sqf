@@ -1,6 +1,6 @@
 /*
 	File: initServer.sqf
-	
+
 	Description:
 	Starts the initialization of the server.
 */
@@ -20,8 +20,35 @@ onMapSingleClick "if(_alt) then {vehicle player setPos _pos};";
 	_var attachTo [_hs, [4.69775,32.6045,-0.1125]];
 	detach _var;
 	_var = createVehicle ["Land_Hospital_side2_F", [0,0,0], [], 0, "NONE"];
-	_var attachTo [_hs, [-28.0336,-10.0317,0.0889387]]; 
+	_var attachTo [_hs, [-28.0336,-10.0317,0.0889387]];
 	detach _var;
 } foreach ["hospital_2","hospital_3"];
+
+[] execVM "Base\BaseMOA.sqf";
+[] execVM "Base\BaseTOR.sqf";
+[] execVM "Base\Base-GRF.sqf";
+[] execVM "Base\Park_Kavala.sqf";
+[] execVM "Base\BaseSopranofinal.sqf";
+[] execVM "Base\Base-POC.sqf";
+[] execVM "Base\Poste_de_controle_routier.sqf";
+[] execVM "Base\BaseBMG.sqf";
+[] execVM "Base\debug_veh_spawn.sqf";
+[] execVM "Base\Base-moscow.sqf";
+[] execVM "Base\base-LMC.sqf";
+[] execVM "Base\base-altiskaia.sqf";
+[] execVM "Base\Base-Yakuza.sqf";
+[] execVM "Base\BaseCN.sqf";
+[] execVM "Base\BaseUnity.sqf";
+[] execVM "Base\CampRebelle.sqf";
+[] execVM "Base\Douane.sqf";
+[] execVM "Base\FLA.sqf";
+[] execVM "Base\baseTOP6.sqf";
+[] execVM "Base\BaseArmee.sqf";
+[] execVM "Base\AeroportParking.sqf";
+[] execVM "Base\Ncasino09.sqf";
+[] execVM "Base\baseSPQR.sqf";
+[] execVM "Base\Discotheque.sqf";
+
+[] execVM "cleanup.sqf";
 
 [8,true,12] execFSM "core\fsm\timeModule.fsm";
