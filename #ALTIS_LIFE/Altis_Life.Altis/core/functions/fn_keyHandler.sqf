@@ -263,7 +263,6 @@ switch (_code) do
     [[1,format["Anti-Cheat: %1 utilise CTRL + ALT + DEL  pour se deconnecter (Merci de le report aux Admins)",player getVariable["realname",name player]]],"life_fnc_broadcast",nil,false] spawn life_fnc_MP;
     };
     };
-    };
     case 1:
     {
     if( _ctrlKey )  then {
