@@ -1,7 +1,7 @@
 /*
 	File: fn_licenseType.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Returns the short-var of the license name to a long var and display name.
 */
@@ -40,10 +40,38 @@ switch (_mode) do
 			case "cement": {_var = "license_civ_cement"};
 			case "mair": {_var = "license_med_air"};
 			case "home": {_var = "license_civ_home"};
+			case "presse": {_var = "license_civ_presse"};
+			case "delta": {_var = "license_civ_delta"};
+			case "tlt": {_var = "license_tlt"};
+			case "he": {_var = "license_he"};
+			case "lmc": {_var = "license_lmc"};
+			case "bgf": {_var = "license_bgf"};
+			case "bmg": {_var = "license_bmg"};
+			case "olympia": {_var = "license_olympia"};
+			case "rosthein": {_var = "license_rosthein"};
+			case "sal": {_var = "license_sal"};
+			case "ms": {_var = "license_ms"};
+			case "ng": {_var = "license_ng"};
+            case "egp": {_var = "license_egp"};
+            case "fmg": {_var = "license_fmg"};
+            case "sop": {_var = "license_sop"};
+			case "Les autres": {_var = "license_moa"};
+			case "tor": {_var = "license_tor"};
+			case "grf": {_var = "license_grf"};
+			case "mw": {_var = "license_mw"};
+			case "poc": {_var = "license_poc"};
+			case "yk": {_var = "license_yk"};
+			case "cro": {_var = "license_cro"};
+			case "cn": {_var = "license_cn"};
+			case "torres": {_var = "license_ec"};
+			case "gr": {_var = "license_gr"};
+			case "armer": {_var = "license_armer"};
+			case "fla": {_var = "license_fla"};
+			case "sqpr": {_var = "license_reb1"};
 			default {_var = ""};
 		};
 	};
-	
+
 	case 1:
 	{
 		switch (_type) do
@@ -72,6 +100,33 @@ switch (_mode) do
 			case "license_civ_cement": {_var = "cement"};
 			case "license_med_air": {_var = "mair"};
 			case "license_civ_home": {_var = "home"};
+			case "license_civ_presse": {_var = "presse"};
+			case "license_civ_delta": {_var = "delta"};
+			case "license_tlt": {_var = "tlt"};
+			case "license_he": {_var = "he"};
+			case "license_lmc": {_var = "lmc"};
+			case "license_bgf": {_var = "bgf"};
+			case "license_bmg": {_var = "bmg"};
+			case "license_olympia": {_var = "olympia"};
+			case "license_rosthein": {_var = "rosthein"};
+			case "license_sal": {_var = "sal"};
+			case "license_ms": {_var = "ms"};
+			case "license_ng": {_var = "ng"};
+            case "license_egp": {_var = "egp"};
+            case "license_fmg": {_var = "fmg"};
+			case "license_moa": {_var = "Les autres"};
+			case "license_raid": {_var = "1g"};
+			case "license_grf": {_var = "grf"};
+			case "license_mw": {_var = "mw"};
+			case "license_poc": {_var = "poc"};
+			case "license_yk": {_var = "yk"};
+			case "license_cro": {_var = "cro"};
+			case "license_cn": {_var = "cn"};
+			case "license_ec": {_var = "torres"};
+			case "license_gr": {_var = "gr"};
+			case "license_armer": {_var = "armer"};
+			case "license_fla": {_var = "fla"};
+			case "license_reb1": {_var = "sqpr"};
 			default {_var = ""};
 		};
 	};
