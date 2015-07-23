@@ -342,6 +342,8 @@ switch (_code) do
 	{
 		if(!_alt && !_ctrlKey && !dialog) then
 		{
+			life_action_gathering = false;
+			life_action_inUse = false;
 			[] call life_fnc_p_openMenu;
 		};
 	};
