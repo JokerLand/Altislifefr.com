@@ -46,6 +46,15 @@ if(count (actionKeys "User10") != 0 && {(inputAction "User10" > 0)}) exitWith {
 
 switch (_code) do
 {
+	//Shift+P = Faded Sound
+    case 25:
+    {
+        if(_shift) then
+        {
+            [] call life_fnc_fadeSound;
+            _handled = true;
+        };
+    };
 	//Space key for Jumping
 	case 57:
 	{
