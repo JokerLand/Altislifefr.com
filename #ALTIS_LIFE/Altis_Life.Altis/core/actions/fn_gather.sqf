@@ -5,7 +5,7 @@
 	Description:
 	Main functionality for gathering.
 */
-life_action_inUse = true;
+life_action_gathering = true;
 sleep 3;
 if(isNil "life_action_gathering") then {life_action_gathering = false;};
 private["_gather","_itemWeight","_diff","_itemName","_val","_resourceZones","_zone","_minage","_isWater","_sousmarin"];
@@ -22,18 +22,18 @@ life_action_gathering = true;
 } foreach _resourceZones;
 
 if(_zone == "") exitWith {
-	life_action_inUse = false;
+	life_action_gathering = false;
 };
 
 _isWater = surfaceIsWater (getPosASL player);
 
 if((_zone in _sousmarin) && (!_isWater)) exitWith {
-		life_action_inUse = false;
+		life_action_gathering = false;
 		hint "Vous devez être sous l'eau.";
 	};
 
 if((_zone in _minage) && (life_inv_pickaxe < 1)) exitWith {
-		life_action_inUse = false;
+		life_action_gathering = false;
 		hint "Vous avez besoin d'une pioche pour effectuer cette action.";
 	};
 
@@ -84,4 +84,4 @@ if(([true,_gather,_diff] call life_fnc_handleInv)) then
 	titleText[format[localize "STR_NOTF_Gather_Success",_itemName,_diff],"PLAIN"];
 };
 
-life_action_inUse = false;
+life_action_gathering = false;
