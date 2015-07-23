@@ -50,7 +50,13 @@ switch (_filter) do
 		if(__GETC__(life_coplevel) > 1) then
 		{
 			_ret pushBack ["H_Beret_blk",nil,100];
-			_ret pushBack ["H_Beret_C",nil,100];
+			_ret pushBack ["H_PilotHelmetHeli_B",nil,100];
+		};
+		
+		if(__GETC__(life_coplevel) > 2) then
+		{
+			_ret pushBack ["Wirk_beret",nil,100];
+			_ret pushBack ["H_PilotHelmetHeli_O","Caseque Heli BAC",100];
 		};
 
 		if(__GETC__(life_coplevel) > 3) then

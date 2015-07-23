@@ -164,7 +164,8 @@ switch (_filter) do
 			["ALE_H_NewEra_Lakers",nil,500],
 			["ALE_H_NewEra_Rouge",nil,500],
 			["ALE_H_NewEra_Superman",nil,500],
-			["ALE_H_NewEra_Redsox",nil,500]
+			["ALE_H_NewEra_Redsox",nil,500],
+			["H_PilotHelmetHeli_O",nil,500]
 		];
 	};
 

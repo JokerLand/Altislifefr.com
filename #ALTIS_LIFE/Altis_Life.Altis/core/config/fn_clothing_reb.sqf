@@ -202,7 +202,8 @@ switch (_filter) do
             ["H_Hat_Pagri_C","Turban 6",1000],
             ["H_Hat_Pagri_B","Turban 7",1000],
             ["H_Hat_Turban_E","Turban 8",1000],
-            ["H_Hat_Ushanka","Chapka noire 1",1000]
+            ["H_Hat_Ushanka",nil,1000],
+            ["H_PilotHelmetHeli_I",nil,1000]
 		];
 	};
 

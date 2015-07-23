@@ -30,6 +30,8 @@ switch (_filter) do
 			["R3F_casque_spectra",nil,1000],
 			["R3F_casquette_off",nil,1000],
 			["R3F_beret_para",nil,1000],
+			["H_PilotHelmetHeli_B",nil,1000],
+			["H_PilotHelmetHeli_O",nil,1000],
 			["H_ALFR_Gasmask",nil,1000]
 		];
 	};
