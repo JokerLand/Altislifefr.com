@@ -110,3 +110,5 @@ if(isPlayer _curTarget && _curTarget isKindOf "Man") then {
 		};
 	};
 };
+
+life_action_inUse = false;
