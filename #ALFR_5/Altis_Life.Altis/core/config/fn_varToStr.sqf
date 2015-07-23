@@ -66,6 +66,7 @@ switch (_var) do
 	case "life_inv_rabbit_raw": {"Viande de Lapin"};
 	case "life_inv_goat_raw": {"Viande de Chevre"};
 	case "life_inv_sheep_raw": {"Viande de Mouton"};
+	case "life_inv_artefact": {"Artefact"};
 
 	//License Block
 	case "license_civ_driver": {(localize "STR_License_Driver")};
@@ -90,4 +91,32 @@ switch (_var) do
 	case "license_civ_cement": {(localize "STR_License_Cement")};
 	case "license_med_air": {(localize "STR_License_Pilot")};
 	case "license_civ_home": {(localize "STR_License_Home")};
+	case "license_civ_presse": {"Journaliste"};
+	case "license_civ_delta": {"Permis Deltaplane"};
+	case "license_tlt": {"T.L.T"};
+	case "license_he": {"A.C"};
+	case "license_lmc": {"NIA"};
+	case "license_bgf": {"BGF"};
+	case "license_bmg": {"BMG"};
+	case "license_olympia": {"Olympia"};
+	case "license_rosthein": {"Rosthein"};
+	case "license_sal": {"Salamander"};
+	case "license_ms": {"MS-13"};
+	case "license_ng": {"'Neghta"};
+    case "license_egp": {"E.G.P"};
+    case "license_fmg": {"F.M.G"};
+    case "license_sop": {"H.N"};
+	case "license_moa": {"Les Autres"};
+	case "license_raid": {"1/G"};
+	case "license_grf": {"G.R.F"};
+	case "license_mw": {"Moscow"};
+	case "license_poc": {"Panda of Cannabis"};
+	case "license_yk": {"Yakusa"};
+	case "license_cro": {"Cronik"};
+	case "license_cn": {"Newgate"};
+	case "license_ec": {"Eagle Close"};
+	case "license_gr": {"Salamander"};
+	case "license_armer": {"Militaire"};
+	case "license_fla": {"FLA"};
+	case "license_reb1": {"SPQR"};
 };

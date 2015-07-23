@@ -164,7 +164,8 @@ life_inv_items =
 	"life_inv_rooster_raw",
 	"life_inv_rabbit_raw",
 	"life_inv_goat_raw",
-	"life_inv_sheep_raw"
+	"life_inv_sheep_raw",
+	"life_inv_artefact"
 ];
 
 //Setup variable inv vars.
@@ -194,7 +195,39 @@ life_licenses =
 	["license_civ_salt","civ"],
 	["license_civ_cement","civ"],
 	["license_med_air","med"],
-	["license_civ_home","civ"]
+	["license_civ_home","civ"],
+	["license_civ_presse","civ"],
+	["license_civ_home","civ"],
+	["license_civ_delta","civ"],
+	["license_tlt","civ"],
+	["license_he","civ"],
+	["license_lmc","civ"],
+	["license_bgf","civ"],
+	["license_bmg","civ"],
+	["license_olympia","civ"],
+	["license_rosthein","civ"],
+	["license_fh","civ"],
+	["license_sal","civ"],
+	["license_ms","civ"],
+	["license_ng","civ"],
+	["license_fonda","civ"],
+    ["license_egp","civ"],
+    ["license_fmg","civ"],
+    ["license_sop","civ"],
+	["license_top","civ"],
+	["license_moa","civ"],
+	["license_raid","civ"],
+	["license_grf","civ"],
+	["license_mw","civ"],
+	["license_poc","civ"],
+	["license_yk","civ"],
+	["license_cro","civ"],
+	["license_cn","civ"],
+	["license_ec","civ"],
+	["license_gr","civ"],
+	["license_armer","civ"],
+	["license_fla","civ"],
+	["license_reb1","civ"],
 ];
 
 //Setup License Variables
@@ -248,7 +281,8 @@ sell_array =
 	["rooster_raw",2500],
 	["rabbit_raw",3000],
 	["goat_raw",3500],
-	["sheep_raw",4000]
+	["sheep_raw",4000],
+	["artefact",1500]
 ];
 __CONST__(sell_array,sell_array);
 

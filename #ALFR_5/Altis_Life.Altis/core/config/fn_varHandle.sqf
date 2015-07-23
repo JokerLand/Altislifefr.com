@@ -70,6 +70,7 @@ switch (_mode) do
 			case "rabbit_raw": {"life_inv_rabbit_raw"};
 			case "goat_raw": {"life_inv_goat_raw"};
 			case "sheep_raw": {"life_inv_sheep_raw"};
+			case "artefact": {"life_inv_artefact"};
 		};
 	};
 
@@ -131,6 +132,7 @@ switch (_mode) do
 			case "life_inv_rabbit_raw": {"rabbit_raw"};
 			case "life_inv_goat_raw": {"goat_raw"};
 			case "life_inv_sheep_raw": {"sheep_raw"};
+			case "life_inv_artefact": {"artefact"};
 		};
 	};
 };
