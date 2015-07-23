@@ -82,3 +82,4 @@ if(([true,_gather,_diff] call life_fnc_handleInv)) then
 };
 
 life_action_gathering = false;
+life_action_inUse = false;
