@@ -5,33 +5,34 @@
 	Description:
 	Main functionality for gathering.
 */
+if(life_action_gathering) exitWith {}; //Action is in use, exit to prevent spamming.
+
 if(isNil "life_action_gathering") then {life_action_gathering = false;};
 private["_gather","_itemWeight","_diff","_itemName","_val","_resourceZones","_zone","_minage","_isWater","_sousmarin"];
 _resourceZones = ["apple_1","apple_2","apple_3","apple_4","peaches_1","peaches_2","peaches_3","peaches_4","heroin_1","cocaine_1","weed_1","lead_1","iron_1","salt_1","sand_1","diamond_1","oil_1","oil_2","rock_1","artefact_area_1","artefact_area_2"];
 _minage = ["lead_1","iron_1","salt_1","sand_1","diamond_1","oil_1","oil_2","rock_1"];
 _sousmarin = ["artefact_area_1","artefact_area_2"];
 _zone = "";
-
-if(life_action_gathering) exitWith {}; //Action is in use, exit to prevent spamming.
 life_action_gathering = true;
+sleep 3;
 //Find out what zone we're near
 {
 	if(player distance (getMarkerPos _x) < 30) exitWith {_zone = _x;};
 } foreach _resourceZones;
 
 if(_zone == "") exitWith {
-	life_action_inUse = false;
+	life_action_gathering = false;
 };
 
 _isWater = surfaceIsWater (getPosASL player);
 
 if((_zone in _sousmarin) && (!_isWater)) exitWith {
-		life_action_inUse = false;
+		life_action_gathering = false;
 		hint "Vous devez être sous l'eau.";
 	};
 
 if((_zone in _minage) && (life_inv_pickaxe < 1)) exitWith {
-		life_action_inUse = false;
+		life_action_gathering = false;
 		hint "Vous avez besoin d'une pioche pour effectuer cette action.";
 	};
 
@@ -60,8 +61,6 @@ if(vehicle player != player) exitWith {};
 
 _diff = [_gather,_val,life_carryWeight,life_maxWeight] call life_fnc_calWeightDiff;
 if(_diff == 0) exitWith {hint localize "STR_NOTF_InvFull"};
-life_action_inUse = true;
-sleep 1.5;
 
 if(_zone in _minage) then
     {
@@ -82,4 +81,4 @@ if(([true,_gather,_diff] call life_fnc_handleInv)) then
 	titleText[format[localize "STR_NOTF_Gather_Success",_itemName,_diff],"PLAIN"];
 };
 
-life_action_inUse = false;
+life_action_gathering = false;

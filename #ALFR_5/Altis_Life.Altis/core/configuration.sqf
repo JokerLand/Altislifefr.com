@@ -72,14 +72,15 @@ life_bank_fail = false;
 life_use_atm = true;
 life_is_arrested = false;
 life_delivery_in_progress = false;
+life_action_gather = false; // add this to your variables
 life_action_in_use = false;
 life_thirst = 100;
 life_hunger = 100;
 __CONST__(life_paycheck_period,5); //Five minutes
 life_cash = 0;
-__CONST__(life_impound_car,350);
-__CONST__(life_impound_boat,250);
-__CONST__(life_impound_air,850);
+__CONST__(life_impound_car,5000);
+__CONST__(life_impound_boat,5000);
+__CONST__(life_impound_air,7000);
 life_istazed = false;
 life_my_gang = ObjNull;
 
@@ -90,25 +91,27 @@ switch (playerSide) do
 	case west:
 	{
 		life_atmcash = 7000; //Starting Bank Money
-		life_paycheck = 500; //Paycheck Amount
+		life_paycheck = 3000; //Paycheck Amount
 	};
 	case civilian:
 	{
-		life_atmcash = 3000; //Starting Bank Money
-		life_paycheck = 350; //Paycheck Amount
+		life_atmcash = 10000; //Starting Bank Money
+		life_paycheck = 2500; //Paycheck Amount
 	};
 
 	case independent: {
-		life_atmcash = 6500;
-		life_paycheck = 450;
+		life_atmcash = 7000;
+		life_paycheck = 5000;
 	};
 };
 
 /*
 	Master Array of items?
 */
-life_vShop_rentalOnly = ["B_MRAP_01_hmg_F","B_G_Offroad_01_armed_F"];
-__CONST__(life_vShop_rentalOnly,life_vShop_rentalOnly); //These vehicles can never be bought and only 'rented'. Used as a balancer & money sink. If you want your server to be chaotic then fine.. Remove it..
+
+life_vShop_rentalOnly = ["I_MRAP_03_hmg_F","B_G_Offroad_01_armed_F","O_MRAP_02_hmg_F","FLAY_HangGlider","FLAY_HangGliderBlack","O_MRAP_02_F","O_Truck_03_device_F","O_Truck_03_transport_F","O_Truck_03_covered_F","O_Truck_03_ammo_F"];
+__CONST__(life_vShop_rentalOnly,life_vShop_rentalOnly);
+
 
 life_inv_items =
 [
@@ -227,7 +230,7 @@ life_licenses =
 	["license_gr","civ"],
 	["license_armer","civ"],
 	["license_fla","civ"],
-	["license_reb1","civ"],
+	["license_reb1","civ"]
 ];
 
 //Setup License Variables
