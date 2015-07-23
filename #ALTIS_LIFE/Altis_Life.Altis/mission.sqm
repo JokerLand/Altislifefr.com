@@ -4027,7 +4027,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=2016;
+		items=2052;
 		class Item0
 		{
 			position[]={8065.1616,35.674362,24985.314};
@@ -8767,7 +8767,7 @@ class Mission
 		};
 		class Item465
 		{
-			position[]={14559.386,17.91,16649.559};
+			position[]={14560.803,17.91,16649.229};
 			azimut=-531.75787;
 			id=721;
 			side="EMPTY";
@@ -24213,7 +24213,7 @@ class Mission
 		};
 		class Item1890
 		{
-			position[]={14610.648,17.91,16700.109};
+			position[]={14611.413,17.91,16699.074};
 			azimut=-460.90799;
 			id=2146;
 			side="EMPTY";
@@ -25678,6 +25678,366 @@ class Mission
 			skill=0.60000002;
 			init="this allowDamage false; this enableSimulation false;";
 			description="Civ 100";
+		};
+		class Item2016
+		{
+			position[]={14600.108,17.91,16694.637};
+			azimut=314.04572;
+			id=2272;
+			side="EMPTY";
+			vehicle="Land_Obstacle_Saddle_F";
+			skill=0.60000002;
+			init="this allowDamage false; this enableSimulation false;";
+		};
+		class Item2017
+		{
+			position[]={14598.063,17.91,16696.641};
+			azimut=314.04572;
+			id=2273;
+			side="EMPTY";
+			vehicle="Land_Obstacle_Saddle_F";
+			skill=0.60000002;
+			init="this allowDamage false; this enableSimulation false;";
+		};
+		class Item2018
+		{
+			position[]={14597.341,17.91,16691.83};
+			azimut=314.0137;
+			id=2274;
+			side="EMPTY";
+			vehicle="Land_Obstacle_Saddle_F";
+			skill=0.60000002;
+			init="this allowDamage false; this enableSimulation false;";
+		};
+		class Item2019
+		{
+			position[]={14595.298,17.91,16693.855};
+			azimut=314.0137;
+			id=2275;
+			side="EMPTY";
+			vehicle="Land_Obstacle_Saddle_F";
+			skill=0.60000002;
+			init="this allowDamage false; this enableSimulation false;";
+		};
+		class Item2020
+		{
+			position[]={14594.584,17.91,16688.99};
+			azimut=314.94571;
+			id=2276;
+			side="EMPTY";
+			vehicle="Land_Obstacle_Saddle_F";
+			skill=0.60000002;
+			init="this allowDamage false; this enableSimulation false;";
+		};
+		class Item2021
+		{
+			position[]={14592.55,17.91,16691.029};
+			azimut=314.94571;
+			id=2277;
+			side="EMPTY";
+			vehicle="Land_Obstacle_Saddle_F";
+			skill=0.60000002;
+			init="this allowDamage false; this enableSimulation false;";
+		};
+		class Item2022
+		{
+			position[]={14591.615,17.91,16686.029};
+			azimut=314.08871;
+			id=2278;
+			side="EMPTY";
+			vehicle="Land_Obstacle_Saddle_F";
+			skill=0.60000002;
+			init="this allowDamage false; this enableSimulation false;";
+		};
+		class Item2023
+		{
+			position[]={14589.567,17.91,16688.027};
+			azimut=314.08871;
+			id=2279;
+			side="EMPTY";
+			vehicle="Land_Obstacle_Saddle_F";
+			skill=0.60000002;
+			init="this allowDamage false; this enableSimulation false;";
+		};
+		class Item2024
+		{
+			position[]={14588.734,17.91,16682.844};
+			azimut=314.08871;
+			id=2280;
+			side="EMPTY";
+			vehicle="Land_Obstacle_Saddle_F";
+			skill=0.60000002;
+			init="this allowDamage false; this enableSimulation false;";
+		};
+		class Item2025
+		{
+			position[]={14586.688,17.91,16684.846};
+			azimut=314.08871;
+			id=2281;
+			side="EMPTY";
+			vehicle="Land_Obstacle_Saddle_F";
+			skill=0.60000002;
+			init="this allowDamage false; this enableSimulation false;";
+		};
+		class Item2026
+		{
+			position[]={14608.478,17.91,16703.277};
+			azimut=314.0137;
+			id=2282;
+			side="EMPTY";
+			vehicle="Land_Obstacle_Saddle_F";
+			skill=0.60000002;
+			init="this allowDamage false; this enableSimulation false;";
+		};
+		class Item2027
+		{
+			position[]={14606.438,17.91,16705.27};
+			azimut=314.0137;
+			id=2283;
+			side="EMPTY";
+			vehicle="Land_Obstacle_Saddle_F";
+			skill=0.60000002;
+			init="this allowDamage false; this enableSimulation false;";
+		};
+		class Item2028
+		{
+			position[]={14605.713,17.91,16700.418};
+			azimut=314.94571;
+			id=2284;
+			side="EMPTY";
+			vehicle="Land_Obstacle_Saddle_F";
+			skill=0.60000002;
+			init="this allowDamage false; this enableSimulation false;";
+		};
+		class Item2029
+		{
+			position[]={14603.688,17.91,16702.459};
+			azimut=314.94571;
+			id=2285;
+			side="EMPTY";
+			vehicle="Land_Obstacle_Saddle_F";
+			skill=0.60000002;
+			init="this allowDamage false; this enableSimulation false;";
+		};
+		class Item2030
+		{
+			position[]={14602.758,17.91,16697.447};
+			azimut=314.08871;
+			id=2286;
+			side="EMPTY";
+			vehicle="Land_Obstacle_Saddle_F";
+			skill=0.60000002;
+			init="this allowDamage false; this enableSimulation false;";
+		};
+		class Item2031
+		{
+			position[]={14600.707,17.91,16699.463};
+			azimut=314.08871;
+			id=2287;
+			side="EMPTY";
+			vehicle="Land_Obstacle_Saddle_F";
+			skill=0.60000002;
+			init="this allowDamage false; this enableSimulation false;";
+		};
+		class Item2032
+		{
+			position[]={14577.278,17.91,16671.125};
+			azimut=314.04572;
+			id=2288;
+			side="EMPTY";
+			vehicle="Land_Obstacle_Saddle_F";
+			skill=0.60000002;
+			init="this allowDamage false; this enableSimulation false;";
+		};
+		class Item2033
+		{
+			position[]={14575.232,17.91,16673.129};
+			azimut=314.04572;
+			id=2289;
+			side="EMPTY";
+			vehicle="Land_Obstacle_Saddle_F";
+			skill=0.60000002;
+			init="this allowDamage false; this enableSimulation false;";
+		};
+		class Item2034
+		{
+			position[]={14574.511,17.91,16668.318};
+			azimut=314.0137;
+			id=2290;
+			side="EMPTY";
+			vehicle="Land_Obstacle_Saddle_F";
+			skill=0.60000002;
+			init="this allowDamage false; this enableSimulation false;";
+		};
+		class Item2035
+		{
+			position[]={14572.468,17.91,16670.344};
+			azimut=314.0137;
+			id=2291;
+			side="EMPTY";
+			vehicle="Land_Obstacle_Saddle_F";
+			skill=0.60000002;
+			init="this allowDamage false; this enableSimulation false;";
+		};
+		class Item2036
+		{
+			position[]={14571.754,17.91,16665.479};
+			azimut=314.94571;
+			id=2292;
+			side="EMPTY";
+			vehicle="Land_Obstacle_Saddle_F";
+			skill=0.60000002;
+			init="this allowDamage false; this enableSimulation false;";
+		};
+		class Item2037
+		{
+			position[]={14569.72,17.91,16667.518};
+			azimut=314.94571;
+			id=2293;
+			side="EMPTY";
+			vehicle="Land_Obstacle_Saddle_F";
+			skill=0.60000002;
+			init="this allowDamage false; this enableSimulation false;";
+		};
+		class Item2038
+		{
+			position[]={14568.785,17.91,16662.518};
+			azimut=314.08871;
+			id=2294;
+			side="EMPTY";
+			vehicle="Land_Obstacle_Saddle_F";
+			skill=0.60000002;
+			init="this allowDamage false; this enableSimulation false;";
+		};
+		class Item2039
+		{
+			position[]={14566.737,17.91,16664.516};
+			azimut=314.08871;
+			id=2295;
+			side="EMPTY";
+			vehicle="Land_Obstacle_Saddle_F";
+			skill=0.60000002;
+			init="this allowDamage false; this enableSimulation false;";
+		};
+		class Item2040
+		{
+			position[]={14565.904,17.91,16659.332};
+			azimut=314.08871;
+			id=2296;
+			side="EMPTY";
+			vehicle="Land_Obstacle_Saddle_F";
+			skill=0.60000002;
+			init="this allowDamage false; this enableSimulation false;";
+		};
+		class Item2041
+		{
+			position[]={14563.858,17.91,16661.334};
+			azimut=314.08871;
+			id=2297;
+			side="EMPTY";
+			vehicle="Land_Obstacle_Saddle_F";
+			skill=0.60000002;
+			init="this allowDamage false; this enableSimulation false;";
+		};
+		class Item2042
+		{
+			position[]={14585.647,17.91,16679.766};
+			azimut=314.0137;
+			id=2298;
+			side="EMPTY";
+			vehicle="Land_Obstacle_Saddle_F";
+			skill=0.60000002;
+			init="this allowDamage false; this enableSimulation false;";
+		};
+		class Item2043
+		{
+			position[]={14583.607,17.91,16681.758};
+			azimut=314.0137;
+			id=2299;
+			side="EMPTY";
+			vehicle="Land_Obstacle_Saddle_F";
+			skill=0.60000002;
+			init="this allowDamage false; this enableSimulation false;";
+		};
+		class Item2044
+		{
+			position[]={14582.883,17.91,16676.906};
+			azimut=314.94571;
+			id=2300;
+			side="EMPTY";
+			vehicle="Land_Obstacle_Saddle_F";
+			skill=0.60000002;
+			init="this allowDamage false; this enableSimulation false;";
+		};
+		class Item2045
+		{
+			position[]={14580.857,17.91,16678.947};
+			azimut=314.94571;
+			id=2301;
+			side="EMPTY";
+			vehicle="Land_Obstacle_Saddle_F";
+			skill=0.60000002;
+			init="this allowDamage false; this enableSimulation false;";
+		};
+		class Item2046
+		{
+			position[]={14579.928,17.91,16673.936};
+			azimut=314.08871;
+			id=2302;
+			side="EMPTY";
+			vehicle="Land_Obstacle_Saddle_F";
+			skill=0.60000002;
+			init="this allowDamage false; this enableSimulation false;";
+		};
+		class Item2047
+		{
+			position[]={14577.877,17.91,16675.951};
+			azimut=314.08871;
+			id=2303;
+			side="EMPTY";
+			vehicle="Land_Obstacle_Saddle_F";
+			skill=0.60000002;
+			init="this allowDamage false; this enableSimulation false;";
+		};
+		class Item2048
+		{
+			position[]={14560.224,17.91,16654.5};
+			azimut=314.08871;
+			id=2304;
+			side="EMPTY";
+			vehicle="Land_Obstacle_Saddle_F";
+			skill=0.60000002;
+			init="this allowDamage false; this enableSimulation false;";
+		};
+		class Item2049
+		{
+			position[]={14558.176,17.91,16656.498};
+			azimut=314.08871;
+			id=2305;
+			side="EMPTY";
+			vehicle="Land_Obstacle_Saddle_F";
+			skill=0.60000002;
+			init="this allowDamage false; this enableSimulation false;";
+		};
+		class Item2050
+		{
+			position[]={14557.343,17.91,16651.314};
+			azimut=314.08871;
+			id=2306;
+			side="EMPTY";
+			vehicle="Land_Obstacle_Saddle_F";
+			skill=0.60000002;
+			init="this allowDamage false; this enableSimulation false;";
+		};
+		class Item2051
+		{
+			position[]={14555.297,17.91,16653.316};
+			azimut=314.08871;
+			id=2307;
+			side="EMPTY";
+			vehicle="Land_Obstacle_Saddle_F";
+			skill=0.60000002;
+			init="this allowDamage false; this enableSimulation false;";
 		};
 	};
 	class Markers
