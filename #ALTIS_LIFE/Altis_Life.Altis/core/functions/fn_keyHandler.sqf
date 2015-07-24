@@ -308,6 +308,8 @@ switch (_code) do
 						
                             if(_index > -1) then
 						  {
+							life_action_gathering = false;
+							life_action_inUse = false;
 							[cursorTarget] spawn life_fnc_openInventory;
 						  };
                         };
