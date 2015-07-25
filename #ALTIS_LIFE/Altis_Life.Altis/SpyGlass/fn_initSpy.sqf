@@ -250,7 +250,7 @@ _patchList =
 ,"DAR_MTVR","A3_Bush","A3_Stones","A3_Trees","Project_WetPaint_Mask","Project_WetPaint_Uniform","Project_WetPaint_Weapons","Project_WetPaint_Module","101_editor","HEJ_3D","IVORY_ERJ135","wirk_gtr","ALFR_GeK_Pagani_Zonda","wirk_p90","wirk_acwr","ALFR_GeK_MF1","ALFR_GEK_MF1_Police","wirk_ferrari_california",
 "sam_weapons","sam_weapons_cfg","hgun_SA_makarov_pm_F","hgun_SA_nambu_type14_F","arifle_sa80_Sam_F","alfr_sam_stg58","alfr_sam_g36c","alfr_sam_mr96","alfr_sam_browning_hp","sam_melee","sam_melee_cfg","alfr_sam_tec9","alfr_sam_galilar","alfr_sam_deagle","alfr_sam_scarh","alfr_heist_masks","alfr_sam_auga3","alfr_sam_9a91","alfr_heist_masks_2","alfr_config","alfr_payday2_overkill_mask","alfr_dino_mask","alfr_horse_mask","alfr_vests","alfr_sounds","A3L_Nightclub","A3_Bush","A3_Plants","A3_Stones","A3_Trees","alfr_shield","alfr_sam_870cms","GeK_Civilian_H1","alfr_sam_hk45","alfr_objects","alfr_sam_flashball",
 "GeK_Renault_Trafic_Police","GeK_Renault_Trafic","GeK_Mercedes_ML63","GeK_Mercedes_ML63_Rebelle",
-"Blastcore_VEP","WarFXPE","Blastcore_SmokeCS","Blastcore_Sun","ALFR_GeK_Panamera_Police_ST","GeK_S60","GeK_S60_Police_ST","GeK_S60_Police","wirk_ktm"
+"Blastcore_VEP","WarFXPE","Blastcore_SmokeCS","Blastcore_Sun","ALFR_GeK_Panamera_Police_ST","GeK_S60","GeK_S60_Police_ST","GeK_S60_Police","wirk_ktm","wirk_R3F_beret_retexture"
 
 
 
