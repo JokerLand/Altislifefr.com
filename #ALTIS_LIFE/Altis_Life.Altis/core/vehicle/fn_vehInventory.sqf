@@ -18,7 +18,7 @@ lbClear _pInv;
 
 if(_veh isKindOf "House_F") then {
 	private["_mWeight"];
-	_mWeight = 0;
+	_mWeight = 1500;
 	{_mWeight = _mWeight + ([(typeOf _x)] call life_fnc_vehicleWeightCfg);} foreach (_veh getVariable["containers",[]]);
 	_veh_data = [_mWeight,(_veh getVariable["Trunk",[[],0]]) select 1];
 } else {
