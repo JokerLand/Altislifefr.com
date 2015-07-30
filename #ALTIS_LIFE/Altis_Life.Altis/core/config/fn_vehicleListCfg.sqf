@@ -32,11 +32,11 @@ switch (_shop) do
 
 	case "med_shop":
 	{
-		_return pushBack 
+		_return pushBack
 		["C_Offroad_01_F",5000];
 		if(__GETC__(life_mediclevel) > 2) then
 		{
-			_return pushBack 
+			_return pushBack
 			["C_SUV_01_F",20000];
 		};
 	};
@@ -45,7 +45,7 @@ switch (_shop) do
 	{
 			if(__GETC__(life_mediclevel) > 1) then
 			{
-				_return pushBack 
+				_return pushBack
 				["O_Heli_Light_02_unarmed_F",75000];
 			};
 	};
@@ -59,7 +59,7 @@ switch (_shop) do
 			["A3L_PuntoBlue",6000],
 			["cl3_civic_vti_black",7500],
 			["DAR_FusionCiv",10000],
-            		["B_Quadbike_01_F",10000],
+            ["B_Quadbike_01_F",10000],
 			["cl3_taurus_black",12000],
 			["cl3_polo_gti_black",12000],
 			["C_Offroad_01_F",14000],
@@ -82,8 +82,8 @@ switch (_shop) do
 			["cl3_carrera_gt_black",150000],
 			["cl3_dbs_volante_black",150000],
 			["GeK_Mercedes_ML63",220000],
-            		["wirk_cayenne",270000],
-          		/*["wirk_gtr",270000],*/
+            ["wirk_cayenne",270000],
+          	["wirk_gtr",270000],
 			["Jonzie_Viper",270000],
 			["cl3_r8_spyder_black",270000],
 			["cl3_458_black",275000],
@@ -92,11 +92,11 @@ switch (_shop) do
 			["wirk_ferrari_california",400000],
 			["cl3_lamborghini_gt1_black",1000000],
 			["ALFR_GeK_MF1",1500000],
-            		["cl3_arielatom_black",250000]
+            ["cl3_arielatom_black",250000]
 		];
 	};
-	
-	
+
+
 	case "armer_car":
 	{
 		_return =
@@ -132,7 +132,7 @@ switch (_shop) do
 				["ALFR_GeK_Volvo_FH16_2012",500000]
 			];
 	};
-	
+
 	case "civ_fla_car":
 	{
 			_return =
@@ -204,61 +204,61 @@ switch (_shop) do
 
 		if(license_civ_rebel) then
 		{
-			_return pushBack 
+			_return pushBack
 			["O_MRAP_02_F",1666667];
 		};
 		if(license_tlt) then
 		{
-			_return pushBack 
+			_return pushBack
 			["B_MRAP_01_F",200000];
 		};
 	};
 
 	case "cop_car":
 	{
-			_return pushBack 
+			_return pushBack
 			["DAR_ImpalaPolice",30000];
-			_return pushBack 
+			_return pushBack
 			["C_Offroad_01_F",40000];
-			_return pushBack 
+			_return pushBack
 			["C_SUV_01_F",40000];
-		   	_return pushBack 
+		   	_return pushBack
 			["GeK_Renault_Trafic_Police",40000];
-			_return pushBack 
+			_return pushBack
 			["insignia_police",100000];
-			_return pushBack 
+			_return pushBack
 			["GeK_S60_Police",100000];
-			_return pushBack 
+			_return pushBack
 			["DAR_TaurusPolice",100000];
 			_return pushBack
 			["DAR_ChargerPoliceState",100000];
-			_return pushBack 
+			_return pushBack
 			["range_rover_police",150000];
-			_return pushBack 
+			_return pushBack
 			["DAR_ExplorerPolice",150000];
 			_return pushBack
-			["DAR_DAR_02FirebirdSSVPolice",250000];		
-			_return pushBack 
+			["DAR_DAR_02FirebirdSSVPolice",250000];
+			_return pushBack
 			["insignia_police_st",250000];
-			_return pushBack 
+			_return pushBack
 			["GeK_S60_Police_ST",250000];
-			_return pushBack 
+			_return pushBack
 			["ALFR_GeK_Panamera_Police",250000];
-			_return pushBack 
+			_return pushBack
 			["GeK_TLC100_Police",250000];
-			_return pushBack 
+			_return pushBack
 			["GeK_TLC100",250000];
-			_return pushBack 
+			_return pushBack
 			["ALFR_GeK_Panamera_Police_ST",350000];
-			_return pushBack 
+			_return pushBack
 			["CL3_bus_cl_black",400000];
-			_return pushBack 
+			_return pushBack
 			["ALFR_GeK_MF1_Police",1500000];
 			if(__GETC__(life_coplevel) > 2) then
 			{
-			_return pushBack 
+			_return pushBack
 			["I_MRAP_03_F",1000000];
-			};			
+			};
 	};
 
 	case "civ_air":
@@ -276,48 +276,48 @@ switch (_shop) do
 	{
 			if(__GETC__(life_coplevel) > 1) then
 			{
-				_return pushBack 
+				_return pushBack
 				["B_Heli_Light_01_F",75000];
-				_return pushBack 
+				_return pushBack
 				["C_Heli_Light_01_civil_F",75000];
 			};
 
 /*			if(__GETC__(life_coplevel) > 2) then
 			{
-				_return pushBack 
+				_return pushBack
 				["I_Heli_light_03_unarmed_F",150000]];
 			};*/
 
 			if(__GETC__(life_coplevel) > 3) then
 			{
-			_return pushBack 
+			_return pushBack
 			["B_Heli_Transport_03_unarmed_F",150000];
 			};
-			
+
 			if(__GETC__(life_coplevel) > 5) then
 			{
-			_return pushBack 
+			_return pushBack
 			["B_Heli_Transport_01_F",200000];
 			};
-			
+
 			if(__GETC__(life_coplevel) > 6) then
 			{
-			_return pushBack 
+			_return pushBack
 			["B_Heli_Transport_03_F",1000000];
 			};
 	};
 
 	case "cop_airhq":
 	{
-		_return pushBack 
+		_return pushBack
 		["B_Heli_Light_01_F",75000];
-		_return pushBack 
+		_return pushBack
 		["C_Heli_Light_01_civil_F",75000];
 		if(__GETC__(life_coplevel) > 2) then
 		{
-			_return pushBack 
+			_return pushBack
 			["B_Heli_Transport_01_F",200000];
-			_return pushBack 
+			_return pushBack
 			["B_MRAP_01_hmg_F",750000];
 		};
 	};
