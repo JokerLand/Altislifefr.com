@@ -140,7 +140,7 @@ switch (_var) do
 	case "license_ec": {"Eagle Close"};
 	case "license_gr": {"Salamander"};
 	case "license_armer": {"Militaire"};
-	case "license_fla": {"FLA"};
+	case "license_fla": {"PE1"};
 	case "license_reb1": {"SPQR"};
     case "license_civ_uranium": {"Formation Uranium"};
 };
