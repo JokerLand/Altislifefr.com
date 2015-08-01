@@ -29338,14 +29338,14 @@ class Mission
 			position[]={16936.41,9.2774067,21859.199};
 			name="air_PE1_1";
 			type="Empty";
-			angle=70.022202;
+			angle=330.02219;
 		};
 		class Item399
 		{
 			position[]={16921.156,10.019807,21847.68};
 			name="car_PE1_1";
 			type="Empty";
-			angle=-252.008;
+			angle=-145.008;
 		};
 		class Item400
 		{
