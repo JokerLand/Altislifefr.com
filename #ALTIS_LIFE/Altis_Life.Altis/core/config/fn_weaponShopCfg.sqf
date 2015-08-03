@@ -748,6 +748,8 @@ switch(_shop) do
 						["R3F_Famas_F1_HG_DES",nil,50000],
 						["R3F_PGM_Hecate_II_DES",nil,165000],
 						["R3F_7Rnd_127x99_PGM",nil,1300],
+						["arifle_MX_SW_Black_F",nil,100],						
+                        ["100Rnd_65x39_caseless_mag_Tracer",nil,1],		
 						["R3F_25Rnd_556x45_TRACER_FAMAS",nil,100],
 						["R3F_30Rnd_556x45_TRACER_FAMAS",nil,100],
 						["R3F_LAMPE_SURB_DES",nil,500],

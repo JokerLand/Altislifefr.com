@@ -74,25 +74,10 @@ switch (_code) do
 			case independent: {if(!visibleMap) then {[] spawn life_fnc_medicMarkers;}};
 		};
 	};
-	//TAB Holster
-	case 15:
-	{
-		if(!_ctrlKey && currentWeapon player != "") then {
-			life_curWep_h = currentWeapon player;
-			player action ["SwitchWeapon", player, player, 100];
-			player switchcamera cameraView;
-		};
-
-		if(_ctrlKey && !isNil "life_curWep_h" && {(life_curWep_h != "")}) then {
-			if(life_curWep_h in [primaryWeapon player,secondaryWeapon player,handgunWeapon player]) then {
-				player selectWeapon life_curWep_h;
-			};
-		};
-	};
 	//H Key
 	case 35:
 	{
-		if(!_alt && !_ctrlKey) then
+		if(!_alt && !_ctrlKey && !_shift) then
 		{
 			if (vehicle player == player && !(player getVariable ["restrained", false]) && !(player getVariable ["Escorting", false]) ) then {
 				if (player getVariable ["playerSurrender", false]) then {
@@ -102,6 +87,18 @@ switch (_code) do
 				};
 			};
 			_handled = true;
+		};
+		
+		if(!_ctrlKey && _shift && currentWeapon player != "") then {
+			life_curWep_h = currentWeapon player;
+			player action ["SwitchWeapon", player, player, 100];
+			player switchcamera cameraView;
+		};
+
+		if(_ctrlKey && !_shift && !isNil "life_curWep_h" && {(life_curWep_h != "")}) then {
+			if(life_curWep_h in [primaryWeapon player,secondaryWeapon player,handgunWeapon player]) then {
+				player selectWeapon life_curWep_h;
+			};
 		};
 	};
 	
