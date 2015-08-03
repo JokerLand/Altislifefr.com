@@ -217,47 +217,49 @@ switch (_shop) do
 	case "cop_car":
 	{
 			_return pushBack
-			["DAR_ImpalaPolice",30000];
+			["DAR_ImpalaPolice",10000];
 			_return pushBack
-			["C_Offroad_01_F",40000];
+			["C_Offroad_01_F",15000];
 			_return pushBack
-			["C_SUV_01_F",40000];
+			["C_SUV_01_F",10000];
 		   	_return pushBack
-			["GeK_Renault_Trafic_Police",40000];
+			["GeK_Renault_Trafic_Police",15000];
 			_return pushBack
-			["insignia_police",100000];
+			["insignia_police",30000];
 			_return pushBack
-			["GeK_S60_Police",100000];
+			["GeK_S60_Police",30000];
 			_return pushBack
-			["DAR_TaurusPolice",100000];
+			["DAR_TaurusPolice",20000];
 			_return pushBack
-			["DAR_ChargerPoliceState",100000];
+			["DAR_ChargerPoliceState",15000];
 			_return pushBack
-			["range_rover_police",150000];
+			["range_rover_police",15000];
 			_return pushBack
-			["DAR_ExplorerPolice",150000];
+			["DAR_ExplorerPolice",20000];
 			_return pushBack
-			["DAR_DAR_02FirebirdSSVPolice",250000];
+			["DAR_DAR_02FirebirdSSVPolice",20000];
 			_return pushBack
-			["insignia_police_st",250000];
+			["insignia_police_st",30000];
 			_return pushBack
-			["GeK_S60_Police_ST",250000];
+			["GeK_S60_Police_ST",30000];
 			_return pushBack
-			["ALFR_GeK_Panamera_Police",250000];
+			["ALFR_GeK_Panamera_Police",20000];
 			_return pushBack
-			["GeK_TLC100_Police",250000];
+			["GeK_TLC100_Police",25000];
 			_return pushBack
-			["GeK_TLC100",250000];
+			["GeK_TLC100",35000];
 			_return pushBack
-			["ALFR_GeK_Panamera_Police_ST",350000];
+			["ALFR_GeK_Panamera_Police_ST",30000];
 			_return pushBack
 			["CL3_bus_cl_black",400000];
-			_return pushBack
-			["ALFR_GeK_MF1_Police",1500000];
 			if(__GETC__(life_coplevel) > 2) then
 			{
 			_return pushBack
 			["I_MRAP_03_F",1000000];
+			_return pushBack
+			["ALFR_GeK_MF1_Police",1500000];
+			_return pushBack
+			["CL3_bus_cl_black",1000000];
 			};
 	};
 

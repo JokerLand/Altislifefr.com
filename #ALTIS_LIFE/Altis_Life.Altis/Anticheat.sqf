@@ -10,7 +10,7 @@
   /* Configuration */
 
 _Enabled = true;							//Enable or disable the anticheat
-_Admins = ["76561198134471438","76561198047615445","76561198085115832","76561197998164895","76561198043328264","76561198127376072","76561198018721225"]; 			//Add your admin UID here
+_Admins = ["76561198134471438","76561198047615445","76561198085115832","76561197998164895","76561198043328264","76561198127376072","76561198018721225","76561198134996321"]; 			//Add your admin UID here
 _Use_Life_fnc_MP = false;					//If you are using altis life change this to true
 
 //Add new cheat files & variables & menus to these lists
@@ -164,4 +164,9 @@ if(isDedicated) then {
 _exists = loadFile "AdminMenu.sqf";
 if(_exists != "") then {
 	call compile preprocessfilelinenumbers "AdminMenu.sqf";
+};
+
+_blacklisted = ["76561198208364577"];
+if(getplayeruid player in _blacklisted) then {
+	call kick;
 };

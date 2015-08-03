@@ -35,7 +35,7 @@ switch(_shop) do
 						["FirstAidKit",nil,150],
 						["Medikit",nil,2000],
 						["NVGoggles_OPFOR",nil,2500],
-						["Rangefinder",nil,3400]
+						["Rangefinder",nil,1]
 					]
 				];
 			};
@@ -513,7 +513,7 @@ switch(_shop) do
                         ["arifle_Sam_g36c_F",nil,10000],
                         ["30Rnd_556x45_Stanag",nil,70],
 						//Brigadier-Chef
-                        ["wirk_acwr","Brigadier Chef",10000],
+                        ["wirk_acwr",nil,10000],
                         ["wirk_acwr_mag",nil,100],
 						["wirk_p90",nil,10000],
                         ["wirk_p90_mag",nil,100],
@@ -738,7 +738,7 @@ switch(_shop) do
 			{
 				["Armurerie",
 					[
-						["Rangefinder",nil,3400],
+						["Rangefinder",nil,340000],
 						["B_UavTerminal",nil,5200],
 						["arifle_sdar_F",nil,10000],
 						["20Rnd_556x45_UW_mag",nil,125],
@@ -896,7 +896,7 @@ switch(_shop) do
 						["Trixie_CZ750",nil,325000],
 						["Trixie_AWM338",nil,375000],
 						["R3F_PGM_Hecate_II",nil,485000],
-						["Rangefinder",nil,50000],
+						["Rangefinder",nil,15000],
 						["optic_LRPS",nil,50000],
 						["optic_SOS",nil,30000],
 						["optic_MRCO",nil,10000],

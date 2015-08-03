@@ -330,7 +330,49 @@ sell_array =
 ];
 __CONST__(sell_array,sell_array);
 
-buy_array =
+buy_array = if(playerSide == west) then {
+[
+	["apple",0],
+	["rabbit",0],
+	["salema",0],
+	["ornate",0],
+	["mackerel",0],
+	["tuna",0],
+	["mullet",0],
+	["catshark",0],
+	["water",0],
+	["turtle",80],
+	["turtlesoup",0],
+	["donuts",0],
+	["coffee",0],
+	["tbacon",5],
+	["lockpick",0],
+	["pickaxe",0],
+	["redgull",0],
+	["fuelF",0],
+	["peach",0],
+	["spikeStrip",0],
+	["blastingcharge",0],
+	["boltcutter",0],
+	["defusekit",0],
+	["storagesmall",0],
+	["storagebig",0],
+	["barriere",0],
+	["cone",0],
+	["phosphore",0],
+    ["burger",0],
+    ["cola",0],
+    ["vodka",0],
+    ["frite",0],
+    ["biere",0],
+    ["puranium",0],
+    ["ipuranium",0],
+	["menotte",0],
+	["beer",0],
+	["whiskey",0],
+	["rhum",0],
+	["crowbar",0]
+]} else {
 [
 	["apple",65],
 	["rabbit",75],
@@ -372,7 +414,8 @@ buy_array =
 	["whiskey",1250],
 	["rhum",950],
 	["crowbar",2500]
-];
+]
+};
 __CONST__(buy_array,buy_array);
 
 life_weapon_shop_array =
