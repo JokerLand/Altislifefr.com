@@ -738,7 +738,7 @@ switch(_shop) do
 			{
 				["Armurerie",
 					[
-						["Rangefinder",nil,340000],
+						["Rangefinder",nil,3400],
 						["B_UavTerminal",nil,5200],
 						["arifle_sdar_F",nil,10000],
 						["20Rnd_556x45_UW_mag",nil,125],
