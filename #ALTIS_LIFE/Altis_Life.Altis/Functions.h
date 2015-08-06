@@ -185,6 +185,7 @@ class Life_Client_Core
 		class clothing_tlt {};
 		class clothing_fla {};
 		class clothing_armer {};
+        class clothing_air_altis {};
 	};
 
 	class Player_Menu

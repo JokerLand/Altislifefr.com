@@ -77,6 +77,7 @@ switch (_mode) do
             case "uranium2b": {_var = "license_civ_uranium"};
             case "uranium3": {_var = "license_civ_uranium"};
             case "uranium4": {_var = "license_civ_uranium"};
+            case "airaltis": {_var = "license_air_altis"};
 			default {_var = ""};
 		};
 	};
@@ -145,6 +146,7 @@ switch (_mode) do
             case "license_civ_uranium": {_var = "uranium3"};
             case "license_civ_uranium": {_var = "uranium4"};
             case "license_civ_uranium": {_var = "uranium5"};
+            case "license_air_altis": {_var = "airaltis"};
 			default {_var = ""};
 		};
 	};

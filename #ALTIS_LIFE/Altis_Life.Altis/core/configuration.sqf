@@ -255,7 +255,8 @@ life_licenses =
 	["license_armer","civ"],
 	["license_fla","civ"],
 	["license_reb1","civ"],
-    ["license_civ_uranium","civ"]
+    ["license_civ_uranium","civ"],
+    ["license_air_altis","civ"]
 ];
 
 //Setup License Variables

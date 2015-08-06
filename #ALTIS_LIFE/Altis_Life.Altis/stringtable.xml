@@ -4769,6 +4769,11 @@
 			<Original>Vous n'êtes pas membre de la FLA !</Original>
 			<French>Vous n'êtes pas membre de la FLA !</French>
 		</Key>
+        <Key ID="STR_Shop_NotaAirAltis">
+			<Original>Vous n'êtes pas membre de Air Altis !</Original>
+			<French>Vous n'êtes pas membre de Air Altis !</French>
+		</Key>
+        
 		<Key ID="STR_Shop_YouNeed">
 			<Original>You need a %1 to buy from this shop!</Original>
 			<English>You need a %1 to buy from this shop!</English>
