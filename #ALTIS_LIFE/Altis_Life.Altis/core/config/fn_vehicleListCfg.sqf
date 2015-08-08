@@ -270,39 +270,8 @@ switch (_shop) do
 			/*["B_Heli_Light_01_F",153000],*/
 			["C_Heli_Light_01_civil_F",153000],
 			["GNT_C185",500000],
-			["O_Heli_Light_02_unarmed_F",550000],
-            ["JS_JC_FA18",100],
-            ["JS_JC_FA18_SQUADS",100],
-            ["sab_An2",100],
-            ["EricJ_BA_fa18",100],
-            ["JS_JC_FA18E",101],
-            ["JS_JC_FA18F",102],
-            ["JS_JC_Pilot",103],
-            ["EricJ_BA_fa18_E",104],
-            ["EricJ_BA_fa18_F",105],
-            ["Sab_ana_An2",1000],
-            ["sab_BI_An2",1000],
-            ["sab_AH_An2",1000],
-            ["sab_ca_An2",1000],
-            ["sab_cz_An2",1000],
-            ["Sab_yel_An2",1000],
-            ["Sab_fd_An2",1000],
-            ["Sab_ee_An2",1000],
- ["Sab_ru_An2",1000],
- ["Sab_af_An2",1000],
- ["Sab_tk_An2",1000],
- ["Sab_A2_An2",1000],
- ["Sab_An2_b",1000],
- ["Sab_An2_i",1000],
- ["Sab_An2_o",1000],
- ["Sab_Snow2_An2",1000],
- ["Sab_Snow3_An2",1000],
- ["Sab_Snow_An2",1000],
- ["Sab_sea_An2",1000],
- ["Sab_sea2_An2",1000],
- ["Sab_sea3_An2",1000],
- ["Sab_sea4_An2",1000],
- ["Sab_Amphi_An2",1000]
+			["O_Heli_Light_02_unarmed_F",550000]
+
             
 		];
 	};
