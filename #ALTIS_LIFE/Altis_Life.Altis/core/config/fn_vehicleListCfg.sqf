@@ -168,14 +168,14 @@ switch (_shop) do
 				["O_Heli_Light_02_unarmed_F",300000],
 				["I_Heli_Transport_02_F",600000],
 				["B_Heli_Transport_03_unarmed_F",4500000],
-		                ["CL3_bus_cl_black",100000],
-		                ["cl3_xr_1000_black",250000],
-		                ["wirk_ktm",125000],
-		                ["cl3_arielatom_black",125000],
+		        ["CL3_bus_cl_black",100000],
+		        ["cl3_xr_1000_black",250000],
+		        ["wirk_ktm",125000],
+		        ["cl3_arielatom_black",125000],
 				["GeK_Civilian_H1",200000],
-		                ["cl3_arielatom_race_black", 250000],
-		                ["ALFR_GeK_Pagani_Zonda", 2500000],
-		                ["IVORY_ERJ135_1", 10000000]
+		        ["cl3_arielatom_race_black", 250000],
+		        ["ALFR_GeK_Pagani_Zonda", 2500000],
+		        ["IVORY_ERJ135_1", 10000000]
    			];
 		};
 	};
@@ -288,21 +288,21 @@ switch (_shop) do
             ["Sab_yel_An2",1000],
             ["Sab_fd_An2",1000],
             ["Sab_ee_An2",1000],
- ["Sab_ru_An2",1000],
- ["Sab_af_An2",1000],
- ["Sab_tk_An2",1000],
- ["Sab_A2_An2",1000],
- ["Sab_An2_b",1000],
- ["Sab_An2_i",1000],
- ["Sab_An2_o",1000],
- ["Sab_Snow2_An2",1000],
- ["Sab_Snow3_An2",1000],
- ["Sab_Snow_An2",1000],
- ["Sab_sea_An2",1000],
- ["Sab_sea2_An2",1000],
- ["Sab_sea3_An2",1000],
- ["Sab_sea4_An2",1000],
- ["Sab_Amphi_An2",1000]
+            ["Sab_ru_An2",1000],
+            ["Sab_af_An2",1000],
+            ["Sab_tk_An2",1000],
+            ["Sab_A2_An2",1000],
+            ["Sab_An2_b",1000],
+            ["Sab_An2_i",1000],
+            ["Sab_An2_o",1000],
+            ["Sab_Snow2_An2",1000],
+            ["Sab_Snow3_An2",1000],
+            ["Sab_Snow_An2",1000],
+            ["Sab_sea_An2",1000],
+            ["Sab_sea2_An2",1000],
+            ["Sab_sea3_An2",1000],
+            ["Sab_sea4_An2",1000],
+            ["Sab_Amphi_An2",1000]
             
 		];
 	};
