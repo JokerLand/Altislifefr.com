@@ -1221,7 +1221,7 @@ switch (_vehicle) do
 			["ALFR_TexSnd\ifrit_green_01.jpg","reb","ALFR_TexSnd\ifrit_green_02.jpg"],
 			["ALFR_TexSnd\ifrit_blue_01.jpg","reb","ALFR_TexSnd\ifrit_blue_02.jpg"],
 			["ALFR_TexSnd\ifrit_black_01.jpg","reb","ALFR_TexSnd\ifrit_black_02.jpg"],
-			["ALFR_TexSnd\Ifrit_Spetsnaz.jpg","reb","ALFR_TexSnd\Ifrit_Spetsnaz_Back.jpg"],
+			["ALFR_TexSnd\Ifrit_Spetsnaz.paa","reb","ALFR_TexSnd\Ifrit_Spetsnaz_Back.paa"],
 			["ALFR_TexSnd\ifrit_hallowen1.jpg","halloowen_end","ALFR_TexSnd\ifrit_hallowen2.jpg"]
 		];
 	};
