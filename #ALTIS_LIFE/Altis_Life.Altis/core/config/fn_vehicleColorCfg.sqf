@@ -20,19 +20,31 @@ switch (_vehicle) do
 			["alfr_Arm\data\ALFR_range_armee.jpg","armer"]
 		];
 	};
-	
+
 	case "GeK_TLC100":
 	{
 		_ret =
 		[
-			["#(ai,64,64,1)Fresnel(0.3,3)","civ"],
-			["#(argb,8,8,3)color(1,1,1,1)","civ"],
+			["ALFR_TexSnd\TLC100_Blanc.paa","civ"],
+			["ALFR_TexSnd\TLC100_Bleu.paa","civ"],
+			["ALFR_TexSnd\TLC100_Cyan.paa","civ"],
+			["ALFR_TexSnd\TLC100_Gris.paa","civ"],
+			["ALFR_TexSnd\TLC100_Gris_Clair.paa","civ"],
+			["ALFR_TexSnd\TLC100_Jaune.paa","civ"],
+			["ALFR_TexSnd\TLC100_Marron.paa","civ"],
+			["ALFR_TexSnd\TLC100_Noir.paa","civ"],
+			["ALFR_TexSnd\TLC100_Orange.paa","civ"],
+			["ALFR_TexSnd\TLC100_Rouge.paa","civ"],
+			["ALFR_TexSnd\TLC100_Vert.paa","civ"],
+			["ALFR_TexSnd\TLC100_Violet.paa","civ"],
 			["alfr_Arm\data\ALFR_range_armee.jpg","armer"],
 			["#(ai,64,64,1)Fresnel(0.3,3)","cop"],
-			["#(argb,8,8,3)color(1,1,1,1)","cop"]
+			["#(argb,8,8,3)color(1,1,1,1)","cop"],
+			["ALFR_TexSnd\Racing_TLC100_Monster.paa","civ"],
+			["ALFR_TexSnd\Racing_TLC100_RedBull.paa","civ"]
 		];
 	};
-	
+
 	case "cl3_suv_taxi":
 	{
 		_ret =
@@ -40,7 +52,7 @@ switch (_vehicle) do
 			["\cl3_wheeled\a2cars\suv\data\suv_body_taxi_co.paa","civ"]
 		];
 	};
-	
+
 	case "GeK_S60":
 	{
  		_ret =
@@ -61,7 +73,7 @@ switch (_vehicle) do
 			["#(argb,8,8,3)color(1,0.3,0.01,0.6)","civ"]
  		];
  	};
-	
+
 	case "wirk_ktm":
 	{
  		_ret =
@@ -82,7 +94,7 @@ switch (_vehicle) do
 			["#(argb,8,8,3)color(1,0.3,0.01,0.6)","civ"]
  		];
  	};
-	
+
 	case "GeK_Mercedes_ML63":
 	{
  		_ret =
@@ -103,7 +115,7 @@ switch (_vehicle) do
 			["#(argb,8,8,3)color(1,0.3,0.01,0.6)","civ"]
  		];
  	};
-	
+
 	case "GeK_Renault_Trafic":
 	{
  		_ret =
@@ -124,8 +136,8 @@ switch (_vehicle) do
 			["#(argb,8,8,3)color(1,0.3,0.01,0.6)","civ"]
  		];
  	};
-        
-        
+
+
 		case "GeK_Renault_Trafic_Police":
 	{
  		_ret =
@@ -150,10 +162,12 @@ switch (_vehicle) do
 			["#(argb,8,8,3)color(0.5,1,0.5,0.05)","civ"],
 			["#(argb,8,8,3)color(1,0,0,1)","civ"],
 			["#(argb,8,8,3)color(0.6,0.3,0.01,1)","civ"],
-			["#(argb,8,8,3)color(1,0.3,0.01,0.6)","civ"]
+			["#(argb,8,8,3)color(1,0.3,0.01,0.6)","civ"],
+			["ALFR_TexSnd\Hummer_h1_redbull_blue","civ"],
+			["ALFR_TexSnd\Hummer_h1_redbull_noirvolcanic.paa","civ"]
  		];
  	};
-	
+
 	case "wirk_ferrari_california":
 	{
  		_ret =
@@ -174,7 +188,7 @@ switch (_vehicle) do
 			["#(argb,8,8,3)color(1,0.3,0.01,0.6)","civ"]
  		];
  	};
-	
+
 	case "ALFR_GeK_Pagani_Zonda":
 	{
  		_ret =
@@ -718,7 +732,7 @@ switch (_vehicle) do
 			["#(argb,8,8,3)color(1,0.3,0.01,0.6)","civ"]
  		];
  	};
-	
+
 	case "ALFR_GeK_Panamera":
 	{
  		_ret =
@@ -931,7 +945,7 @@ switch (_vehicle) do
 			["alfr_Arm\data\ALFR_range_armee.jpg","armer"]
  		];
  	};
-	
+
 	case "GeK_Mercedes_ML63_Rebelle":
 	{
  		_ret =
@@ -940,7 +954,7 @@ switch (_vehicle) do
 			["cl3_vehiclefunctions\skins\skin_camo_urban_co.paa","reb"]
  		];
  	};
-	
+
 	case "cl3_range_rover_camo":
 	{
  		_ret =
@@ -1135,7 +1149,9 @@ switch (_vehicle) do
 			["\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_graywatcher_co.paa","civ"],
 			["\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_shadow_co.paa","civ"],
 			["\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_wasp_co.paa","civ"],
-			["alfr_Arm\data\ALFR_lite_armee.jpg","armer"]
+			["alfr_Arm\data\ALFR_lite_armee.jpg","armer"],
+			["ALFR_TexSnd\M900_Monster.paa","civ"],
+			["ALFR_TexSnd\Hummingbird_Metallique_Urbain.paa","reb"]
 		];
 	};
 
@@ -1159,10 +1175,14 @@ switch (_vehicle) do
 			["\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_digital_co.paa","reb"],
 			["\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_graywatcher_co.paa","civ"],
 			["\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_shadow_co.paa","civ"],
-			["\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_wasp_co.paa","civ"]
+			["\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_wasp_co.paa","civ"],
+			["alfr_Arm\data\ALFR_lite_armee.jpg","armer"],
+			["ALFR_TexSnd\M900_Monster.paa","civ"],
+			["ALFR_TexSnd\Hummingbird_Metallique_Urbain.paa","reb"]
+
 		];
 	};
-	
+
 	case "O_Heli_Light_02_unarmed_F":
 	{
 		_ret =
@@ -1171,6 +1191,7 @@ switch (_vehicle) do
 			["\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_civilian_co.paa","civ"],
 			["\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_indp_co.paa","reb"],
 			["\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_opfor_co.paa","reb"],
+			["ALFR_TexSnd\Orca_Monster.paa","civ"],
 			["ALFR_TexSnd\med_orca.jpg","med"]
 		];
 	};
@@ -1200,6 +1221,7 @@ switch (_vehicle) do
 			["ALFR_TexSnd\ifrit_green_01.jpg","reb","ALFR_TexSnd\ifrit_green_02.jpg"],
 			["ALFR_TexSnd\ifrit_blue_01.jpg","reb","ALFR_TexSnd\ifrit_blue_02.jpg"],
 			["ALFR_TexSnd\ifrit_black_01.jpg","reb","ALFR_TexSnd\ifrit_black_02.jpg"],
+			["ALFR_TexSnd\Ifrit_Spetsnaz.jpg","reb","ALFR_TexSnd\Ifrit_Spetsnaz_Back.jpg"],
 			["ALFR_TexSnd\ifrit_hallowen1.jpg","halloowen_end","ALFR_TexSnd\ifrit_hallowen2.jpg"]
 		];
 	};
@@ -1298,8 +1320,8 @@ switch (_vehicle) do
 			["ALFR_TexSnd\bus_exterior_donator.jpg","civ"]
         ];
     };
-    
-    
+
+
     /* Huron pollice */
     case "B_Heli_Transport_03_F":
     {
@@ -1308,11 +1330,11 @@ switch (_vehicle) do
             ["alfr_police\huron\huronav1.jpg","cop","alfr_police\huron\huronar1.jpg"]
         ];
     };
-    
+
     /* Huron donator */
     case "B_Heli_Transport_03_unarmed_F":
     {
-        _ret = 
+        _ret =
         [
             ["ALFR_TexSnd\huronuniblanc2.paa","civ","ALFR_TexSnd\huronuniblanc1.paa"],
             ["ALFR_TexSnd\huronunibleu2.paa","civ","ALFR_TexSnd\huronunibleu1.paa"],
@@ -1326,9 +1348,9 @@ switch (_vehicle) do
 			["alfr_police\huron\huronav1.jpg","cop","alfr_police\huron\huronar1.jpg"]
         ];
     };
-    
-    
-    
+
+
+
      case "B_Heli_Transport_01_F":
     {
         _ret =
@@ -1336,7 +1358,7 @@ switch (_vehicle) do
             ["alfr_police\hawk\hawkav1.jpg","cop","alfr_police\hawk\hawkar1.jpg"]
         ];
     };
-    
+
     //Moto
     case "cl3_xr_1000_black":
     {
@@ -1357,10 +1379,10 @@ switch (_vehicle) do
 			["#(argb,8,8,3)color(1,0.3,0.01,0.6)","civ"]
         ];
     };
-    
+
     case "cl3_arielatom_black":
     {
-        _ret = 
+        _ret =
         [
           ["#(argb,8,8,3)color(0.1,0.1,0.1,0.7)","civ"],
 			["#(argb,8,8,3)color(0.5,0.5,0.5,0.1)","civ"],
@@ -1377,11 +1399,11 @@ switch (_vehicle) do
 			["#(argb,8,8,3)color(1,0.3,0.01,0.6)","civ"]
         ];
     };
-    
+
     case "cl3_arielatom_race_black":
     {
-        _ret = 
-        [    
+        _ret =
+        [
             ["#(argb,8,8,3)color(0.1,0.1,0.1,0.7)","civ"],
 			["#(argb,8,8,3)color(0.5,0.5,0.5,0.1)","civ"],
 			["#(argb,8,8,3)color(0.3,0.3,0.3,0.8)","civ"],
@@ -1396,13 +1418,13 @@ switch (_vehicle) do
 			["#(argb,8,8,3)color(0.6,0.3,0.01,1)","civ"],
 			["#(argb,8,8,3)color(1,0.3,0.01,0.6)","civ"]
         ];
-   
+
     };
-    
+
     case "wirk_gtr":
     {
-        _ret = 
-        [    
+        _ret =
+        [
         		["#(argb,8,8,3)color(0.1,0.1,0.1,0.7)","civ"],
 			["#(argb,8,8,3)color(0.5,0.5,0.5,0.1)","civ"],
 			["#(argb,8,8,3)color(0.3,0.3,0.3,0.8)","civ"],
@@ -1417,12 +1439,12 @@ switch (_vehicle) do
 			["#(argb,8,8,3)color(0.6,0.3,0.01,1)","civ"],
 			["#(argb,8,8,3)color(1,0.3,0.01,0.6)","civ"]
         ];
-   
+
     };
-    
+
     case "B_Quadbike_01_F":
 	{
-		_ret = 
+		_ret =
 		[
 			["\A3\Soft_F\Quadbike_01\Data\Quadbike_01_co.paa","civ"],
 			["\A3\Soft_F\Quadbike_01\Data\quadbike_01_opfor_co.paa","civ"],

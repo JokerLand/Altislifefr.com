@@ -19,16 +19,28 @@ switch (_vehicle) do
 			case 1: {_color = "Militaire";};
 		};
 	};
-	
+
 	case "GeK_TLC100" :
 	{
 		switch (_index) do
 		{
-			case 0: {_color = "Noir";};
-			case 1: {_color = "Blanc";};
-			case 2: {_color = "Militaire";};
-			case 3: {_color = "Noir";};
-			case 4: {_color = "Blanc";};
+			case 0: {_color = "Blanc";};
+			case 1: {_color = "Bleu";};
+			case 2: {_color = "Cyan";};
+			case 3: {_color = "Gris";};
+			case 4: {_color = "Gris clair";};
+			case 5: {_color = "Jaune";};
+			case 6: {_color = "Marron";};
+			case 7: {_color = "Noir";};
+			case 8: {_color = "Orange";};
+			case 9: {_color = "Rouge";};
+			case 10: {_color = "Vert";};
+			case 11: {_color = "Violet";};
+			case 12: {_color = "Militaire";};
+			case 13: {_color = "Noir";};
+			case 14: {_color = "Blanc";};
+			case 15: {_color = "Monster";};
+			case 16: {_color = "Redbull";};
 		};
 	};
 
@@ -39,7 +51,7 @@ switch (_vehicle) do
 			case 0: {_color = "Taxi";};
 		};
 	};
-	
+
 	case "GeK_Mercedes_ML63_Rebelle" :
 	{
 		switch (_index) do
@@ -48,7 +60,7 @@ switch (_vehicle) do
 			case 1: {_color = "Camo Urbain";};
 		};
 	};
-	
+
 	case "GeK_S60" :
 	{
 		switch (_index) do
@@ -69,7 +81,7 @@ switch (_vehicle) do
 			case 13: {_color = "Orange";};
 		};
 	};
-	
+
 	case "wirk_ktm" :
 	{
 		switch (_index) do
@@ -90,7 +102,7 @@ switch (_vehicle) do
 			case 13: {_color = "Orange";};
 		};
 	};
-	
+
 	case "GeK_Mercedes_ML63" :
 	{
 		switch (_index) do
@@ -111,7 +123,7 @@ switch (_vehicle) do
 			case 13: {_color = "Orange";};
 		};
 	};
-	
+
 	case "GeK_Renault_Trafic" :
 	{
 		switch (_index) do
@@ -132,7 +144,7 @@ switch (_vehicle) do
 			case 13: {_color = "Orange";};
 		};
 	};
-    
+
     case "GeK_Renault_Trafic_Police" :
 	{
 		switch (_index) do
@@ -141,9 +153,9 @@ switch (_vehicle) do
 
 		};
 	};
-    
-    
-	
+
+
+
 	case "GeK_Civilian_H1" :
 	{
 		switch (_index) do
@@ -162,9 +174,11 @@ switch (_vehicle) do
 			case 11: {_color = "Rouge";};
 			case 12: {_color = "Jaune";};
 			case 13: {_color = "Orange";};
+			case 14: {_color = "Redbull Bleu";};
+			case 15: {_color = "Redbull Noir";};
 		};
 	};
-	
+
 	case "wirk_ferrari_california" :
 	{
 		switch (_index) do
@@ -185,7 +199,7 @@ switch (_vehicle) do
 			case 13: {_color = "Orange";};
 		};
 	};
-	
+
 	case "ALFR_GeK_Pagani_Zonda" :
 	{
 		switch (_index) do
@@ -206,7 +220,7 @@ switch (_vehicle) do
 			case 13: {_color = "Orange";};
 		};
 	};
-	
+
 	case "ALFR_GeK_Volvo_FH16_2012" :
 	{
 		switch (_index) do
@@ -890,7 +904,7 @@ switch (_vehicle) do
             case 14: {_color = "Nitrado";};
 		};
 	};
-	
+
 	case "cl3_insignia_camo" :
 	{
 		switch (_index) do
@@ -919,7 +933,7 @@ switch (_vehicle) do
 			case 1: {_color = "Armer";};
 		};
 	};
-	
+
 	case "ALFR_GeK_Panamera_Police" :
 	{
 		switch (_index) do
@@ -1138,9 +1152,11 @@ switch (_vehicle) do
 			case 15: {_color = "Shadow"};
 			case 16: {_color = "Wasp"};
 			case 17: {_color = "Armer"};
+			case 18: {_color = "Monster"};
+			case 19: {_color = "Metallique Urbain"};
 		};
 	};
-	
+
 	case "C_Heli_Light_01_civil_F":
 	{
 		switch (_index) do
@@ -1162,6 +1178,9 @@ switch (_vehicle) do
 			case 14: {_color = "Gray"};
 			case 15: {_color = "Shadow"};
 			case 16: {_color = "Wasp"};
+			case 17: {_color = "Armer"};
+			case 18: {_color = "Monster"};
+			case 19: {_color = "Metallique Urbain"};
 		};
 	};
 
@@ -1173,7 +1192,8 @@ switch (_vehicle) do
 			case 1: {_color = "Blanc / Bleu"};
 			case 2: {_color = "Foret Digital"};
 			case 3: {_color = "Desert Digital"};
-			case 4: {_color = "Medecin"};
+			case 4: {_color = "Monster"};
+			case 5: {_color = "Medecin"};
 		};
 	};
 
@@ -1202,6 +1222,7 @@ switch (_vehicle) do
 			case 2: {_color = "Vert"};
 			case 3: {_color = "Bleu Glacial"};
 			case 4: {_color = "Noir"};
+			case 5: {_color = "Spetsnaz"};
 		};
 	};
 
@@ -1214,6 +1235,7 @@ switch (_vehicle) do
 			case 2: {_color = "Vert"};
 			case 3: {_color = "Bleu Glacial"};
 			case 4: {_color = "Noir"};
+			case 5: {_color = "Spetsnaz"};
 		};
 	};
 
@@ -1321,20 +1343,20 @@ switch (_vehicle) do
             case 0 :{_color ="Police";};
         };
   };
-    
+
     case "B_Heli_Transport_03_F" :
     {
-        switch(_index) do 
+        switch(_index) do
         {
             case 0 : {_color = "Police";};
         };
     };
-    
+
     case "B_Heli_Transport_03_unarmed_F" :
     {
-        switch(_index) do 
+        switch(_index) do
         {
-            case 0 : {_color ="Blanc";};    
+            case 0 : {_color ="Blanc";};
             case 1 : {_color ="Bleu";};
             case 2 : {_color ="Cyan";};
             case 3 : {_color ="Orange";};
@@ -1346,18 +1368,18 @@ switch (_vehicle) do
 			case 9 : {_color ="Police";};
         };
     };
-    
-    
-    
+
+
+
     case "B_Heli_Transport_01_F" :
     {
-        switch(_index) do 
+        switch(_index) do
         {
             case 0 : {_color = "Police";};
         };
     };
-    
-    
+
+
     case "cl3_xr_1000_black" :
 	{
 		switch (_index) do
@@ -1378,7 +1400,7 @@ switch (_vehicle) do
 			case 12: {_color = "Orange";};
 		};
 	};
-    
+
      case "cl3_arielatom_black" :
 	{
 		switch (_index) do
@@ -1399,7 +1421,7 @@ switch (_vehicle) do
 			case 12: {_color = "Orange";};
 		};
 	};
-    
+
      case "cl3_arielatom_race_black" :
 	{
 		switch (_index) do
@@ -1420,7 +1442,7 @@ switch (_vehicle) do
 			case 12: {_color = "Orange";};
 		};
 	};
-	
+
 	case "wirk_gtr" :
 	{
 		switch (_index) do
@@ -1441,7 +1463,7 @@ switch (_vehicle) do
 			case 12: {_color = "Orange";};
 		};
 	};
-    
+
     case "B_Quadbike_01_F" :
 	{
 		switch (_index) do
