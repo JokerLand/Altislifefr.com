@@ -280,7 +280,7 @@ switch (_shop) do
     {
         _return =
         [
-        	["GNT_C185",500000],
+            ["GNT_C185",50000],
             ["Sab_ana_An2",100000],
             ["sab_BI_An2",100000],
             ["IVORY_T6A_1",500000],
