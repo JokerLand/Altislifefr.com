@@ -168,14 +168,14 @@ switch (_shop) do
 				["O_Heli_Light_02_unarmed_F",300000],
 				["I_Heli_Transport_02_F",600000],
 				["B_Heli_Transport_03_unarmed_F",4500000],
-		                ["CL3_bus_cl_black",100000],
-		                ["cl3_xr_1000_black",250000],
-		                ["wirk_ktm",125000],
-		                ["cl3_arielatom_black",125000],
+		        ["CL3_bus_cl_black",100000],
+		        ["cl3_xr_1000_black",250000],
+		        ["wirk_ktm",125000],
+		        ["cl3_arielatom_black",125000],
 				["GeK_Civilian_H1",200000],
-		                ["cl3_arielatom_race_black", 250000],
-		                ["ALFR_GeK_Pagani_Zonda", 2500000],
-		                ["IVORY_ERJ135_1", 10000000]
+		        ["cl3_arielatom_race_black", 250000],
+		        ["ALFR_GeK_Pagani_Zonda", 2500000],
+		        ["IVORY_ERJ135_1", 10000000]
    			];
 		};
 	};
@@ -272,20 +272,23 @@ switch (_shop) do
 			["GNT_C185",500000],
 			["O_Heli_Light_02_unarmed_F",550000]
 
-            
+
 		];
 	};
-    
+
     case "air_altis":
     {
         _return =
         [
+        	["GNT_C185",500000],
             ["Sab_ana_An2",100000],
-            ["sab_BI_An2",100000]  
+            ["sab_BI_An2",100000],
+            ["IVORY_T6A_1",500000],
+            ["IVORY_ERJ135_1", 5000000]
         ];
     };
-    
-    case "air_acrobat": 
+
+    case "air_acrobat":
     {
            _return =
         [

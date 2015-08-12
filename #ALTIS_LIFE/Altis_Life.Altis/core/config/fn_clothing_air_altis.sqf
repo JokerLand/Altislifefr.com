@@ -18,6 +18,7 @@ switch (_filter) do
 	case 0:
 	{
 		[
+			["U_CivilianPilot_A","Tenue de vieux pilote",100],
 			["U_B_PilotBAUniform","Blue Angels",500]
 		];
 	};
@@ -26,7 +27,10 @@ switch (_filter) do
 	case 1:
 	{
 		[
-			["H_PilotHelmetBA",nil,100]
+			["H_Cap_headphones",nil,25],
+			["H_Cap_marshal",nil,50],
+			["H_PilotHelmetHeli_B",nil,500],
+			["H_PilotHelmetBA",nil,1000]
 		];
 	};
 
@@ -60,7 +64,8 @@ switch (_filter) do
 	case 4:
 	{
 		[
-			["B_Parachute",nil,500]
+			["B_Parachute",nil,500],
+			["ALFR_Civ_Bags_Nitrado",nil, 2500]
 		];
 	};
 };
