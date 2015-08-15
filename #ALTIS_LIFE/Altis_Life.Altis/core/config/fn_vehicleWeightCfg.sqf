@@ -124,5 +124,6 @@ switch (_className) do
 	case "wirk_ferrari_california": {20};
 	case "ALFR_GeK_MF1": {20};
 	case "GeK_Civilian_H1": {85};
+    case "cg_rv_camper": {250};
 	default {-1};
 };

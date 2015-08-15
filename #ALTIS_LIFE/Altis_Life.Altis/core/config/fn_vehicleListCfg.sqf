@@ -120,6 +120,7 @@ switch (_shop) do
 				["C_Offroad_01_repair_F",75000],
 				["I_Truck_02_transport_F",75000],
 				["I_Truck_02_covered_F",100000],
+                ["cg_rv_camper",130000],
 				["DAR_4X4",100000],
 				["DAR_MK27",150000],
 				["DAR_MK27T",200000],
