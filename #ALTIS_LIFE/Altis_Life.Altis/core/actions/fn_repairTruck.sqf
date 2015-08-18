@@ -28,13 +28,13 @@ if((_veh isKindOf "Car") OR (_veh isKindOf "Ship") OR (_veh isKindOf "Air")) the
 		
 		while{true} do
 		{
-			if(animationState player != "AinvPknlMstpsnonWnonDnon_medic_1" ) then {
+			if(animationState player != "InBaseMoves_repairVehiclePne" ) then {
 			player action ["SwitchWeapon", player, player, 100];   //EDIT
-			player playMove "AinvPknlMstpsnonWnonDnon_medic_1"; //Durée action 6.5 secondes
+			player playMove "InBaseMoves_repairVehiclePne"; //Durée action 6.5 secondes
 			player playActionNow "stop";
-			player playMove "AinvPknlMstpsnonWnonDnon_medic_1";
+			player playMove "InBaseMoves_repairVehiclePne";
 			player playActionNow "stop";
-			player playMove "AinvPknlMstpsnonWnonDnon_medic_1";
+			player playMove "InBaseMoves_repairVehiclePne";
 			};
 
 			sleep 0.195; // 3 fois 6.5 secondes = 19,5secondes
