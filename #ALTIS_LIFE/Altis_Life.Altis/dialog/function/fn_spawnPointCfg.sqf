@@ -92,7 +92,7 @@ switch (_side) do
 		};
 		
 				if(license_raid && playerSide == civilian) then {
-				_return pushBack ["spawn_tor","EC HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"];
+				_return pushBack ["spawn_tor","Les cartel","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"];
 		};
 		
 				if(license_grf && playerSide == civilian) then {
@@ -100,11 +100,11 @@ switch (_side) do
 		};
 		
 				if(license_mw && playerSide == civilian) then {
-				_return pushBack ["spawn_mw","Moscow HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"];
+				_return pushBack ["spawn_mw","Salamander HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"];
 		};
 		
 				if(license_poc && playerSide == civilian) then {
-				_return pushBack ["spawn_poc","P.O.C HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"];
+				_return pushBack ["spawn_poc","Leninskaïa","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"];
 		};
 		
 				if(license_yk && playerSide == civilian) then {
@@ -124,7 +124,7 @@ switch (_side) do
 		};
 		
 				if(license_gr && playerSide == civilian) then {
-				_return pushBack ["spawn_gr","Salamander","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"];
+				_return pushBack ["spawn_gr","Strauss","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"];
 		};
 		
 				if(license_armer && playerSide == civilian) then {
