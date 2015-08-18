@@ -41,7 +41,7 @@ switch (_item) do
 	case "methu": {4};
 	case "methp": {4};
 	//Uranium
-	case "puranium": {12};
+	case "puranium": {4};
     case "ipuranium": {3};
     case "uranium1": {2};
     case "uranium2": {1};

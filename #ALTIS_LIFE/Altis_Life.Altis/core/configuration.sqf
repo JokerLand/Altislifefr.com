@@ -408,7 +408,7 @@ buy_array = if(playerSide == west) then {
     ["vodka",10000],
     ["frite",115],
     ["biere",90],
-    ["puranium",5000],
+    ["puranium",2500],
     ["ipuranium",9000],
 	["menotte",7500],
 	["beer",850],
@@ -519,7 +519,7 @@ life_garage_prices = if(playerSide == west) then {
 	["B_SDV_01_F",25000],
 	["B_MRAP_01_F",200000],
     ["ALFR_Armee_Hummingbird",10000],
-	["B_Heli_Transport_03_unarmed_F",350000]
+	["B_Heli_Transport_03_unarmed_F",150000]
 ]
 };
 __CONST__(life_garage_prices,life_garage_prices);
