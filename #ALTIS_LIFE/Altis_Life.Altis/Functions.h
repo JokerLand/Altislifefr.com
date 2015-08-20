@@ -133,6 +133,7 @@ class Life_Client_Core
         class processActionLsd {};
         class robShops {};
 		class robBank {};
+        class robBijouterie {};
         class destroyeAction {};
 	};
 	
