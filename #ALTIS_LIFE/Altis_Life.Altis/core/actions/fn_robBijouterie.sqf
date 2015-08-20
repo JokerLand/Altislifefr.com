@@ -20,7 +20,7 @@ if(_shop getVariable ["robbed", false]) exitWith {hint "La Bijouterie a deja ét
 _shop setVariable["robbed",true,true];
 [[_shop],"TON_fnc_robBank",false,false] spawn life_fnc_MP;
 
-_cash = 3000000 + round(random 2000000);
+_cash = 2000000 + round(random 2000000);
 _timer = time + (15 * 60); //Default timer is 15 minutes to rob.
 titleText["Braquage commencé","PLAIN"];
 [[2,"LA BIJOUTERIE D'ALTIS SE FAIT BRAQUER !!!"],"life_fnc_broadcast",nil,false] spawn life_fnc_MP;
