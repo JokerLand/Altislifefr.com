@@ -10,7 +10,7 @@ _toFar = false;
 
 if(side _robber != civilian) exitWith { hint "Vous ne pouvez pas braquer la Bijouterie !" };
 _cops = (west countSide playableUnits);
-if(_cops < 10) exitWith{hint "Il n'y a pas assez de policier pour braquer la Bijouterie!(10)";};
+if(_cops < 8) exitWith{hint "Il n'y a pas assez de policier pour braquer la Bijouterie!(8)";};
 if(_robber distance _shop > 15) exitWith { hint "Vous devez rester a moins de 15m du coffre!" };
 if (vehicle player != _robber) exitWith { hint "Impossible de braquer depuis le vehicule" };
 if !(alive _robber) exitWith {};
