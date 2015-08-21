@@ -4037,7 +4037,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=2409;
+		items=2411;
 		class Item0
 		{
 			position[]={8065.1616,35.674362,24985.314};
@@ -29618,6 +29618,28 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_runway_edgelight_blue_F";
 			skill=0.60000002;
+		};
+		class Item2409
+		{
+			position[]={5991.4663,23.096716,14825.249};
+			azimut=45;
+			offsetY=7;
+			id=2665;
+			side="EMPTY";
+			vehicle="Land_CargoBox_V1_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; this addAction[""Braquer la Bijouterie"",life_fnc_robBijouterie];";
+		};
+		class Item2410
+		{
+			position[]={5978.2207,22.91258,14833.481};
+			azimut=494.30701;
+			offsetY=1;
+			id=2666;
+			side="EMPTY";
+			vehicle="Land_Billboard_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; this SetObjectTexture [0,""images\billboard_bijouterie.jpg""];";
 		};
 	};
 	class Markers

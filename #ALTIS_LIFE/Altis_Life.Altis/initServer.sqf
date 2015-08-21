@@ -47,6 +47,7 @@ onMapSingleClick "if(_alt) then {vehicle player setPos _pos};";
 [] execVM "Base\baseSPQR.sqf";
 [] execVM "Base\Discotheque.sqf";
 [] execVM "Base\BasePE1.sqf";
+[] execVM "Base\Bijouterie.sqf";
 
 [] execVM "cleanup.sqf";
 
