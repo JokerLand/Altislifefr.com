@@ -29644,7 +29644,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=405;
+		items=406;
 		class Item0
 		{
 			position[]={8459.6777,104.56568,25131.203};
@@ -30591,14 +30591,14 @@ class Mission
 		};
 		class Item116
 		{
-			position[]={14610.949,17.91,16647.451};
+			position[]={14613.44,17.91,16645.08};
 			name="donator_2";
 			type="Empty";
 			angle=-51.608273;
 		};
 		class Item117
 		{
-			position[]={14619.836,17.91,16656.51};
+			position[]={14624.776,17.91,16656.611};
 			name="donator_2_1";
 			type="Empty";
 			angle=-52.748619;
@@ -31530,7 +31530,7 @@ class Mission
 		};
 		class Item223
 		{
-			position[]={14594.024,17.91,16632.902};
+			position[]={14598.005,17.91,16629.623};
 			name="car_g_9_1";
 			type="Empty";
 			angle=310.57993;
@@ -32970,6 +32970,14 @@ class Mission
 			text="Entreprise Air Altis";
 			type="c_plane";
 			colorName="ColorPink";
+		};
+		class Item405
+		{
+			position[]={5984.228,22.963825,14829.5};
+			name="Bijouterie d'Altis";
+			text="Bijouterie d'Altis";
+			type="loc_Ruin";
+			colorName="ColorWEST";
 		};
 	};
 	class Sensors
