@@ -56,6 +56,12 @@ class CfgSounds
         titles[] = {};
 	};
     
+	class alarme_bijouterie
+    {
+        name = "alarme_bijouterie";
+        sound[] = {"\sounds\alarme_bijouterie.ogg", 1, 1};
+        titles[] = {};
+	};
     class alarme_douane
     {
         name = "alarme_douane";
