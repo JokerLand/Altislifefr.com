@@ -169,8 +169,6 @@ switch (_shop) do
 				["O_Heli_Light_02_unarmed_F",300000],
 				["I_Heli_Transport_02_F",600000],
 				["B_Heli_Transport_03_unarmed_F",4500000],
-                ["GR_UH1H_1",400000],
-                ["ARMSCor_A109_Civ",500000],
 		        ["CL3_bus_cl_black",100000],
 		        ["cl3_xr_1000_black",250000],
 		        ["wirk_ktm",125000],
@@ -202,12 +200,7 @@ switch (_shop) do
 			["O_Heli_Light_02_unarmed_F",650000],
 			["O_Heli_Transport_04_bench_F",1000000],
 			["O_Heli_Transport_04_covered_F",1130000],
-			["O_Heli_Transport_04_ammo_F",1500000],
-            ["Cha_Mi17_medevac_CDF",1000000],
-            ["Cha_Mi17_medevac_Ins",1000000],
-            ["Cha_Mi17_medevac_RU",1000000],
-            ["Cha_Mi8_Cia",1000000]
-            
+			["O_Heli_Transport_04_ammo_F",1500000]
 		];
 
 		if(license_civ_rebel) then
