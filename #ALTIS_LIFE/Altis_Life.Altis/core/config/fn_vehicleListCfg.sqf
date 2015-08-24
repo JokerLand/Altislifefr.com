@@ -326,6 +326,12 @@ switch (_shop) do
 			_return pushBack
 			["B_Heli_Transport_03_unarmed_F",150000];
 			};
+            
+            if(__GETC__(life_coplevel) > 4) then
+			{
+			_return pushBack
+			["EC635_Unarmed",180000];
+			};
 
 			if(__GETC__(life_coplevel) > 5) then
 			{
