@@ -1368,8 +1368,16 @@ switch (_vehicle) do
 			case 9 : {_color ="Police";};
         };
     };
-
-
+    
+    case "ARMSCor_A109_Civ" :
+    {
+        switch(_index) do
+        {
+            case 0 : {_color ="Basic";};
+            case 1 : {_color ="Emirate";};
+            
+        };
+    };
 
     case "B_Heli_Transport_01_F" :
     {
@@ -1378,7 +1386,14 @@ switch (_vehicle) do
             case 0 : {_color = "Police";};
         };
     };
-
+    
+    case "EC635_Unarmed" :
+    {
+        switch(_index) do
+        {
+            case 0 : {_color = "Police";};
+        };
+    };
 
     case "cl3_xr_1000_black" :
 	{

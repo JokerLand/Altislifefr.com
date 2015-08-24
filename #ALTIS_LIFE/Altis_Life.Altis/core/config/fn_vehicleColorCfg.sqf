@@ -1348,8 +1348,16 @@ switch (_vehicle) do
 			["alfr_police\huron\huronav1.jpg","cop","alfr_police\huron\huronar1.jpg"]
         ];
     };
-
-
+    
+    /* A109 donator */
+    case "ARMSCor_A109_Civ":
+    {
+        _ret =
+        [
+            ["ARMSCor_A109\data\"a109_body_co.paa","civ"],
+            ["Antoine_ALFR_Textures\"a109_luxury.paa","civ"]
+        ];
+    };
 
      case "B_Heli_Transport_01_F":
     {
