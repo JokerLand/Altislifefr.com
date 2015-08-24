@@ -167,6 +167,8 @@ switch (_shop) do
 				["ALFR_GeK_Panamera",350000],
 				["O_Truck_03_device_F",750000],
 				["O_Heli_Light_02_unarmed_F",300000],
+                ["GR_UH1H_1",400000],
+                ["ARMSCor_A109_Civ",500000],
 				["I_Heli_Transport_02_F",600000],
 				["B_Heli_Transport_03_unarmed_F",4500000],
 		        ["CL3_bus_cl_black",100000],
@@ -200,7 +202,11 @@ switch (_shop) do
 			["O_Heli_Light_02_unarmed_F",650000],
 			["O_Heli_Transport_04_bench_F",1000000],
 			["O_Heli_Transport_04_covered_F",1130000],
-			["O_Heli_Transport_04_ammo_F",1500000]
+			["O_Heli_Transport_04_ammo_F",1500000],
+            ["Cha_Mi17_medevac_CDF",1000000],
+            ["Cha_Mi17_medevac_Ins",1000000],
+            ["Cha_Mi17_medevac_RU",1000000],
+            ["Cha_Mi8_Cia",1000000]
 		];
 
 		if(license_civ_rebel) then
