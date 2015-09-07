@@ -38,6 +38,41 @@ sleep 10;
 			deleteVehicle _x;
 
 		};
+    if (count(crew _x) < 1 || !(alive _x)) then {
+		if(typeOf _x != "SignAd_Sponsor_F")then {
+			deleteVehicle _x;
+
+		};
+    if (count(crew _x) < 1 || !(alive _x)) then {
+		if(typeOf _x != "C_Driver_4_F")then {
+			deleteVehicle _x;
+
+		};
+    if (count(crew _x) < 1 || !(alive _x)) then {
+		if(typeOf _x != "C_man_p_beggar_F")then {
+			deleteVehicle _x;
+
+		};
+    if (count(crew _x) < 1 || !(alive _x)) then {
+		if(typeOf _x != "I_Soldier_GL_F")then {
+			deleteVehicle _x;
+
+		};
+    if (count(crew _x) < 1 || !(alive _x)) then {
+		if(typeOf _x != "I_engineer_F")then {
+			deleteVehicle _x;
+
+		};
+    if (count(crew _x) < 1 || !(alive _x)) then {
+		if(typeOf _x != "I_officer_F")then {
+			deleteVehicle _x;
+
+		};
+    if (count(crew _x) < 1 || !(alive _x)) then {
+		if(typeOf _x != "I_pilot_F")then {
+			deleteVehicle _x;
+
+		};  
 	if (count(crew _x) < 1 || !(alive _x)) then {
 		if(typeOf _x != "Fridge_01_closed_F")then {
 			deleteVehicle _x;

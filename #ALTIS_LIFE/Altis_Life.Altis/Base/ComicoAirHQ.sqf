@@ -1,93 +1,474 @@
-private ["_obj","_dat","_cString","_adString"];
-
-_obj = objNull;_dat = [];_adString = "CAN_COLLIDE";
-_cString = {_obj = createVehicle [(_dat select 0), call compile (_dat select 1), [], 0, _adString];if((_dat select 4) == 0) then {_obj enableSimulation false};_obj setdir (_dat select 2);if((_dat select 3) == -100) then {_obj setposATL (call compile (_dat select 1))} else {_obj setposASL [((call compile (_dat select 1)) select 0),((call compile (_dat select 1)) select 1),(_dat select 3)]};if((_dat select 5) == 0) then {_obj setVectorUp [0,0,1]} else {_obj setVectorUp (surfacenormal (getPosATL _obj))};if(count (_dat select 6) > 0) then {{call _x} foreach (_dat select 6)}};
-
-_dat = ["Land_dar_ilpdn","[15146.412109,17247.212891,0]",314.811,-100,0,0,[]];call _cString;
-_dat = ["Land_City2_8m_F","[15090.985352,17205.113281,0]",41.5783,-100,0,0,[]];call _cString;
-_dat = ["Land_City2_8m_F","[15096.237305,17200.455078,0]",41.5783,-100,0,0,[]];call _cString;
-_dat = ["Land_City2_8m_F","[15101.489258,17195.796875,0]",41.5783,-100,0,0,[]];call _cString;
-_dat = ["Land_City2_8m_F","[15106.741211,17191.138672,0]",41.5783,-100,0,0,[]];call _cString;
-_dat = ["Land_City2_8m_F","[15111.993164,17186.480469,0]",41.5783,-100,0,0,[]];call _cString;
-_dat = ["Land_City2_8m_F","[15117.0566406,17186.357422,0]",-45.4545,-100,0,0,[]];call _cString;
-_dat = ["Land_City2_8m_F","[15121.981445,17191.361328,0]",-45.4545,-100,0,0,[]];call _cString;
-_dat = ["Land_City2_8m_F","[15126.90625,17196.365234,0]",-45.4545,-100,0,0,[]];call _cString;
-_dat = ["Land_City2_8m_F","[15131.831055,17201.369141,0]",-45.4545,-100,0,0,[]];call _cString;
-_dat = ["Land_City2_8m_F","[15136.755859,17206.373047,0]",-45.4545,-100,0,0,[]];call _cString;
-_dat = ["Land_City2_8m_F","[15138.0966797,17211.890625,0]",247.336,-100,0,0,[]];call _cString;
-_dat = ["Land_City2_8m_F","[15176.839844,17258.693359,-0.0244122]",224.811,-100,0,0,[]];call _cString;
-_dat = ["Land_City2_8m_F","[15173.373047,17262.123047,0]",-135.189,-100,0,0,[]];call _cString;
-_dat = ["Land_City2_8m_F","[15168.392578,17267.0703125,0]",-135.189,-100,0,0,[]];call _cString;
-_dat = ["Land_City2_8m_F","[15163.412109,17272.0175781,0]",-135.189,-100,0,0,[]];call _cString;
-_dat = ["Land_City2_8m_F","[15158.431641,17276.964844,0]",-135.189,-100,0,0,[]];call _cString;
-_dat = ["Land_City2_8m_F","[15153.451172,17281.912109,0]",-135.189,-100,0,0,[]];call _cString;
-_dat = ["Land_City2_8m_F","[15148.470703,17286.859375,0]",-135.189,-100,0,0,[]];call _cString;
-_dat = ["Land_City2_8m_F","[15143.490234,17291.806641,0]",-135.189,-100,0,0,[]];call _cString;
-_dat = ["Land_City2_8m_F","[15138.509766,17296.753906,0]",-135.189,-100,0,0,[]];call _cString;
-_dat = ["Land_City2_8m_F","[15133.529297,17301.701172,0]",-135.189,-100,0,0,[]];call _cString;
-_dat = ["Land_City2_8m_F","[15128.548828,17306.648438,0]",-135.189,-100,0,0,[]];call _cString;
-_dat = ["Land_City2_8m_F","[15123.568359,17311.595703,0]",-135.189,-100,0,0,[]];call _cString;
-_dat = ["Land_City2_8m_F","[15118.609375,17311.914063,0]",-225.189,-100,0,0,[]];call _cString;
-_dat = ["Land_City2_8m_F","[15113.661133,17306.933594,0]",-225.189,-100,0,0,[]];call _cString;
-_dat = ["Land_City2_8m_F","[15108.712891,17301.953125,0]",-225.189,-100,0,0,[]];call _cString;
-_dat = ["Land_City2_8m_F","[15103.764648,17296.972656,0]",134.811,-100,0,0,[]];call _cString;
-_dat = ["Land_City2_8m_F","[15098.816406,17291.992188,0]",134.811,-100,0,0,[]];call _cString;
-_dat = ["Land_City2_8m_F","[15093.868164,17287.0117188,0]",-225.189,-100,0,0,[]];call _cString;
-_dat = ["Land_City2_8m_F","[15091.681641,17281.1875,0]",-273.989,-100,0,0,[]];call _cString;
-_dat = ["cl3_jail_tarmac","[15145.104492,17286.664063,0]",-313.926,-100,0,0,[]];call _cString;
-_dat = ["cl3_jail_tarmac","[15130.942383,17300.791016,0]",45.6952,-100,0,0,[]];call _cString;
-_dat = ["cl3_jail_tarmac","[15126.239258,17305.392578,0]",-314.684,-100,0,0,[]];call _cString;
-_dat = ["cl3_jail_tarmac","[15114.199219,17293.0214844,0]",-314.684,-100,0,0,[]];call _cString;
-_dat = ["cl3_jail_tarmac","[15128.262695,17278.800781,0]",-314.368,-100,0,0,[]];call _cString;
-_dat = ["cl3_jail_tarmac","[15142.248047,17264.503906,0]",45.632,-100,0,0,[]];call _cString;
-_dat = ["cl3_jail_tarmac","[15107.652344,17213.837891,0]",42.16,-100,0,0,[]];call _cString;
-_dat = ["cl3_jail_tarmac","[15120.936523,17228.509766,0]",42.16,-100,0,0,[]];call _cString;
-_dat = ["cl3_jail_tarmac","[15119.462891,17203.40625,0]",43.2962,-100,0,0,[]];call _cString;
-_dat = ["cl3_jail_tarmac","[15130.366211,17214.3125,0]",-315.63,-100,0,0,[]];call _cString;
-_dat = ["cl3_jail_tarmac","[15144.24707,17228.296875,0]",44.37,-100,0,0,[]];call _cString;
-_dat = ["cl3_jail_tarmac","[15157.994141,17242.294922,0]",44.559,-100,0,0,[]];call _cString;
-_dat = ["cl3_jail_tarmac","[15173.792969,17258.339844,0]",-315.441,-100,0,0,[]];call _cString;
-_dat = ["cl3_jail_tarmac","[15160.946289,17245.292969,0]",-315.441,-100,0,0,[]];call _cString;
-_dat = ["cl_raisedhelipad","[15151.0390625,17290.712891,0]",225.216,-100,0,0,[]];call _cString;
-_dat = ["Land_WheelieBin_01_F","[15159.635742,17236.369141,0.0882359]",314.976,-100,0,0,[]];call _cString;
-_dat = ["Land_Cargo_Patrol_V3_F","[15114.56543,17191.400391,0]",-5.0239,-100,0,0,[]];call _cString;
-_dat = ["Land_Loudspeakers_F","[15138.185547,17209.0664063,0]",43.2962,-100,0,0,[]];call _cString;
-_dat = ["Land_Flush_Light_green_F","[15115.780273,17292.375,0]",135,-100,0,0,[]];call _cString;
-_dat = ["Land_Flush_Light_green_F","[15111.819336,17288.414063,0]",135,-100,0,0,[]];call _cString;
-_dat = ["Land_Flush_Light_green_F","[15119.638672,17296.234375,0]",135,-100,0,0,[]];call _cString;
-_dat = ["Land_Flush_Light_green_F","[15119.592773,17288.5625,0]",135,-100,0,0,[]];call _cString;
-_dat = ["Land_Flush_Light_green_F","[15111.927734,17296.226563,0]",135,-100,0,0,[]];call _cString;
-_dat = ["Land_LampHalogen_F","[15089.967773,17207.361328,0]",160,-100,1,0,[]];call _cString;
-_dat = ["Land_LampHalogen_F","[15121.0839844,17313.138672,0]",264.76,-100,1,0,[]];call _cString;
-_dat = ["Land_LampHalogen_F","[15156.0595703,17246.978516,0]",46.78,-100,1,0,[]];call _cString;
-_dat = ["Land_LampHalogen_F","[15153.503906,17191.0957031,0]",44.6974,-100,1,0,[]];call _cString;
-_dat = ["Land_LampHalogen_F","[15186.0439453,17223.867188,0]",45.96,-100,1,0,[]];call _cString;
-_dat = ["Land_LampHalogen_F","[15169.661133,17208.269531,0]",45.96,-100,1,0,[]];call _cString;
-_dat = ["Land_LampDecor_F","[15106.988281,17255.904297,0]",314.811,-100,1,0,[]];call _cString;
-_dat = ["Land_LampDecor_F","[15083.251953,17234.445313,0]",314.811,-100,1,0,[]];call _cString;
-_dat = ["Land_LampHalogen_F","[15092.964844,17280.957031,0]",-184.04,-100,1,0,[]];call _cString;
-_dat = ["Land_LampHalogen_F","[15135.0185547,17173.175781,0]",46.78,-100,1,0,[]];call _cString;
-_dat = ["Land_Flush_Light_green_F","[15118.0498047,17294.644531,0]",135,-100,0,0,[]];call _cString;
-_dat = ["Land_Flush_Light_green_F","[15113.856445,17290.451172,0]",135,-100,0,0,[]];call _cString;
-_dat = ["Land_Flush_Light_green_F","[15117.700195,17290.455078,0]",135,-100,0,0,[]];call _cString;
-_dat = ["Land_Flush_Light_green_F","[15113.912109,17294.242188,0]",135,-100,0,0,[]];call _cString;
-_dat = ["A3L_Fence_Curve","[15092.595703,17212.0488281,0]",313.991,-100,0,0,[]];call _cString;
-_dat = ["A3L_Fence_Large","[15093.615234,17212.957031,0]",223.991,-100,0,0,[]];call _cString;
-_dat = ["A3L_Fence_Large","[15095.0341797,17214.429688,0]",223.991,-100,0,0,[]];call _cString;
-_dat = ["A3L_Fence_Large","[15096.454102,17215.900391,0]",223.991,-100,0,0,[]];call _cString;
-_dat = ["A3L_Fence_Large","[15097.873047,17217.371094,0]",223.991,-100,0,0,[]];call _cString;
-_dat = ["A3L_Fence_Large","[15102.131836,17221.785156,0]",223.991,-100,0,0,[]];call _cString;
-_dat = ["A3L_Fence_Large","[15103.549805,17223.255859,0]",223.991,-100,0,0,[]];call _cString;
-_dat = ["A3L_Fence_Large","[15104.969727,17224.726563,0]",223.991,-100,0,0,[]];call _cString;
-_dat = ["A3L_Fence_Curve","[15105.84375,17225.791016,0]",223.991,-100,0,0,[]];call _cString;
-_dat = ["A3L_Fence_Open","[15102.350586,17221.789063,0]",224.243,-100,0,0,[]];call _cString;
-_dat = ["A3L_Fence_Curve","[15114.0976563,17234.416016,0]",313.991,-100,0,0,[]];call _cString;
-_dat = ["A3L_Fence_Large","[15115.117188,17235.324219,0]",223.991,-100,0,0,[]];call _cString;
-_dat = ["A3L_Fence_Large","[15116.536133,17236.796875,0]",223.991,-100,0,0,[]];call _cString;
-_dat = ["A3L_Fence_Large","[15117.956055,17238.267578,0]",223.991,-100,0,0,[]];call _cString;
-_dat = ["A3L_Fence_Large","[15119.375,17239.738281,0]",223.991,-100,0,0,[]];call _cString;
-_dat = ["A3L_Fence_Large","[15123.633789,17244.152344,0]",223.991,-100,0,0,[]];call _cString;
-_dat = ["A3L_Fence_Open","[15123.852539,17244.15625,0]",224.243,-100,0,0,[]];call _cString;
-_dat = ["A3L_Fence_Large","[15125.0517578,17245.623047,0]",223.991,-100,0,0,[]];call _cString;
-_dat = ["A3L_Fence_Large","[15126.47168,17247.09375,0]",223.991,-100,0,0,[]];call _cString;
-_dat = ["A3L_Fence_Curve","[15127.345703,17248.158203,0]",223.991,-100,0,0,[]];call _cString;
+// ***************************************
+_pos = [15168.8,17264.0,17.2482];
+_object = createVehicle ["Land_Offices_01_V1_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 44.1875;
+_object setPosASL _pos;
+this allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15185.6,17258.4,17.91];
+_object = createVehicle ["Land_City_8m_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 315.176;
+_object setPosASL _pos;
+this allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15180.7,17253.5,17.91];
+_object = createVehicle ["Land_City_8m_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 315.615;
+_object setPosASL _pos;
+this allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15171.4,17244.2,17.91];
+_object = createVehicle ["Land_City_8m_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 315.615;
+_object setPosASL _pos;
+this allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15176.3,17249.2,17.91];
+_object = createVehicle ["Land_City_8m_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 313.857;
+_object setPosASL _pos;
+this allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15185.7,17263.2,17.91];
+_object = createVehicle ["Land_City_8m_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 224.648;
+_object setPosASL _pos;
+this allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15166.6,17239.3,17.91];
+_object = createVehicle ["Land_City_8m_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 314.615;
+_object setPosASL _pos;
+this allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15161.0,17233.5,17.91];
+_object = createVehicle ["Land_BarGate_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 133.957;
+_object setPosASL _pos;
+this allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15181.1,17267.8,17.91];
+_object = createVehicle ["Land_City_8m_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 224.648;
+_object setPosASL _pos;
+this allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15176.2,17272.6,17.91];
+_object = createVehicle ["Land_City_8m_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 224.736;
+_object setPosASL _pos;
+this allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15171.1,17277.6,17.91];
+_object = createVehicle ["Land_City_8m_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 223.418;
+_object setPosASL _pos;
+this allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15166.3,17282.4,17.9069];
+_object = createVehicle ["Land_City_8m_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 225.418;
+_object setPosASL _pos;
+this allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15161.4,17287.3,17.8955];
+_object = createVehicle ["Land_City_8m_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 225.418;
+_object setPosASL _pos;
+this allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15156.5,17292.1,17.8962];
+_object = createVehicle ["Land_City_8m_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 223.342;
+_object setPosASL _pos;
+this allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15151.5,17296.8,17.8977];
+_object = createVehicle ["Land_City_8m_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 223.342;
+_object setPosASL _pos;
+this allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15146.5,17301.6,17.926];
+_object = createVehicle ["Land_City_8m_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 224.342;
+_object setPosASL _pos;
+this allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15141.6,17306.2,17.9119];
+_object = createVehicle ["Land_City_8m_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 223.342;
+_object setPosASL _pos;
+this allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15136.6,17311.0,17.8944];
+_object = createVehicle ["Land_City_8m_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 224.342;
+_object setPosASL _pos;
+this allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15131.9,17315.6,17.8343];
+_object = createVehicle ["Land_City_8m_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 224.342;
+_object setPosASL _pos;
+this allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15127.2,17315.7,17.79];
+_object = createVehicle ["Land_City_8m_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 134.375;
+_object setPosASL _pos;
+this allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15122.4,17310.7,17.7936];
+_object = createVehicle ["Land_City_8m_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 133.936;
+_object setPosASL _pos;
+this allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15117.5,17305.7,17.7758];
+_object = createVehicle ["Land_City_8m_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 134.375;
+_object setPosASL _pos;
+this allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15112.8,17300.9,17.8231];
+_object = createVehicle ["Land_City_8m_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 134.815;
+_object setPosASL _pos;
+this allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15108.0,17296.0,17.7845];
+_object = createVehicle ["Land_City_8m_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 134.133;
+_object setPosASL _pos;
+this allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15103.2,17290.9,17.7886];
+_object = createVehicle ["Land_City_8m_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 132.617;
+_object setPosASL _pos;
+this allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15098.6,17286.0,17.7821];
+_object = createVehicle ["Land_City_8m_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 133.496;
+_object setPosASL _pos;
+this allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15091.0,17205.4,17.9542];
+_object = createVehicle ["Land_City_8m_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 43.9688;
+_object setPosASL _pos;
+this allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15095.9,17200.7,17.9542];
+_object = createVehicle ["Land_City_8m_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 43.9688;
+_object setPosASL _pos;
+this allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15098.7,17197.9,17.9542];
+_object = createVehicle ["Land_City_8m_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 224.672;
+_object setPosASL _pos;
+this allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15104.8,17192.1,17.91];
+_object = createVehicle ["Land_BarGate_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 223.77;
+_object setPosASL _pos;
+this allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15110.6,17186.4,17.9542];
+_object = createVehicle ["Land_City_8m_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 43.9688;
+_object setPosASL _pos;
+this allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15115.3,17186.4,17.9542];
+_object = createVehicle ["Land_City_8m_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 313.881;
+_object setPosASL _pos;
+this allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15120.1,17191.4,17.9542];
+_object = createVehicle ["Land_City_8m_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 313.881;
+_object setPosASL _pos;
+this allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15124.7,17196.1,17.9542];
+_object = createVehicle ["Land_City_8m_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 313.881;
+_object setPosASL _pos;
+this allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15129.3,17200.9,17.9542];
+_object = createVehicle ["Land_City_8m_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 313.881;
+_object setPosASL _pos;
+this allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15133.9,17205.6,17.9542];
+_object = createVehicle ["Land_City_8m_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 313.881;
+_object setPosASL _pos;
+this allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15138.4,17210.3,17.9542];
+_object = createVehicle ["Land_City_8m_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 313.881;
+_object setPosASL _pos;
+this allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15143.1,17215.1,17.9542];
+_object = createVehicle ["Land_City_8m_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 313.881;
+_object setPosASL _pos;
+this allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15147.6,17219.7,17.9542];
+_object = createVehicle ["Land_City_8m_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 314.881;
+_object setPosASL _pos;
+this allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15155.0,17227.4,17.9542];
+_object = createVehicle ["Land_City_8m_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 134.617;
+_object setPosASL _pos;
+this allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15150.5,17222.7,17.9542];
+_object = createVehicle ["Land_City_8m_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 133.617;
+_object setPosASL _pos;
+this allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15129.4,17316.2,17.7582];
+_object = createVehicle ["Land_LampHalogen_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 263.672;
+_object setPosASL _pos;
+this allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15131.9,17251.1,17.91];
+_object = createVehicle ["Land_LampHalogen_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 176.66;
+_object setPosASL _pos;
+this allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15112.9,17185.6,17.91];
+_object = createVehicle ["Land_LampHalogen_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 90.0879;
+_object setPosASL _pos;
+this allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15163.2,17236.0,17.91];
+_object = createVehicle ["Land_Flush_Light_red_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 46.9999;
+_object setPosASL _pos;
+this allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15162.6,17235.4,17.91];
+_object = createVehicle ["Land_Flush_Light_red_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 46.9999;
+_object setPosASL _pos;
+this allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15161.9,17234.7,17.91];
+_object = createVehicle ["Land_Flush_Light_red_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 46.9999;
+_object setPosASL _pos;
+this allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15161.2,17233.9,17.91];
+_object = createVehicle ["Land_Flush_Light_red_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 46.9999;
+_object setPosASL _pos;
+this allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15160.4,17233.2,17.91];
+_object = createVehicle ["Land_Flush_Light_red_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 46.9999;
+_object setPosASL _pos;
+this allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15158.9,17231.6,17.91];
+_object = createVehicle ["Land_Flush_Light_red_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 46.9999;
+_object setPosASL _pos;
+this allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15159.7,17232.4,17.91];
+_object = createVehicle ["Land_Flush_Light_red_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 46.9999;
+_object setPosASL _pos;
+this allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15128.5,17300.1,17.8382];
+_object = createVehicle ["Land_HelipadSquare_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 315.979;
+_object setPosASL _pos;
+this allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15114.6,17284.0,17.8662];
+_object = createVehicle ["Land_Flush_Light_red_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 315.0;
+_object setPosASL _pos;
+this allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15114.4,17286.0,17.8536];
+_object = createVehicle ["Land_Flush_Light_red_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 315.0;
+_object setPosASL _pos;
+this allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15127.8,17295.7,17.857];
+_object = createVehicle ["Land_Flush_Light_red_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 315.0;
+_object setPosASL _pos;
+this allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15133.0,17300.7,17.8546];
+_object = createVehicle ["Land_Flush_Light_red_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 315.0;
+_object setPosASL _pos;
+this allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15126.0,17302.7,17.8138];
+_object = createVehicle ["Land_Flush_Light_red_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 315.0;
+_object setPosASL _pos;
+this allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15128.4,17292.2,17.8362];
+_object = createVehicle ["Land_Flush_Light_red_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 315.0;
+_object setPosASL _pos;
+this allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15136.5,17299.9,17.8651];
+_object = createVehicle ["Land_Flush_Light_red_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 315.0;
+_object setPosASL _pos;
+this allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15128.7,17308.0,17.8145];
+_object = createVehicle ["Land_Flush_Light_red_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 315.0;
+_object setPosASL _pos;
+this allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15138.6,17319.7,17.8301];
+_object = createVehicle ["Land_Flush_Light_red_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 315.0;
+_object setPosASL _pos;
+this allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15113.2,17300.7,17.7812];
+_object = createVehicle ["Land_Atm_01_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 314.342;
+_object setPosASL _pos;
+this allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15164.7,17256.4,17.91];
+_object = createVehicle ["Land_Atm_01_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 44.4296;
+_object setPosASL _pos;
+this allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15166.2,17237.5,17.91];
+_object = createVehicle ["Land_Sign_WarningMilitaryArea_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 314.736;
+_object setPosASL _pos;
+this allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15156.7,17228.3,17.91];
+_object = createVehicle ["Land_Sign_WarningMilitaryArea_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 314.736;
+_object setPosASL _pos;
+this allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15166.2,17237.6,17.9079];
+_object = createVehicle ["RoadCone_L_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 318.0;
+_object setPosASL _pos;
+this allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15156.6,17228.4,17.9079];
+_object = createVehicle ["RoadCone_L_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 318.0;
+_object setPosASL _pos;
+this allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15108.9,17186.7,17.91];
+_object = createVehicle ["Land_Sign_WarningMilitaryArea_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 41.3086;
+_object setPosASL _pos;
+this allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15099.1,17195.8,17.91];
+_object = createVehicle ["Land_Sign_WarningMilitaryArea_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 41.3086;
+_object setPosASL _pos;
+this allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15108.9,17186.7,17.9079];
+_object = createVehicle ["RoadCone_L_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 37.0;
+_object setPosASL _pos;
+this allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15099.1,17195.9,17.9079];
+_object = createVehicle ["RoadCone_L_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 37.0;
+_object setPosASL _pos;
+this allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15162.2,17258.3,17.91];
+_object = createVehicle ["Land_PhoneBooth_01_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 7.0;
+_object setPosASL _pos;
+this allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15158.1,17230.7,17.91];
+_object = createVehicle ["Land_Flush_Light_red_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 46.9999;
+_object setPosASL _pos;
+this allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15114.6,17284.9,17.8599];
+_object = createVehicle ["Land_HelipadCircle_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 318.0;
+_object setPosASL _pos;
+this allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15113.5,17285.2,17.857];
+_object = createVehicle ["Land_Flush_Light_red_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 315.0;
+_object setPosASL _pos;
+this allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15114.0,17284.6,17.8612];
+_object = createVehicle ["Land_Flush_Light_red_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 315.0;
+_object setPosASL _pos;
+this allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15114.9,17285.4,17.8581];
+_object = createVehicle ["Land_Flush_Light_red_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 315.0;
+_object setPosASL _pos;
+this allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15115.5,17284.8,17.8628];
+_object = createVehicle ["Land_Flush_Light_red_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 315.0;
+_object setPosASL _pos;
+this allowDamage false; this enableSimulation false;
+// ***************************************
+_pos = [15114.5,17285.0,17.8593];
+_object = createVehicle ["Land_Flush_Light_red_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 315.0;
+_object setPosASL _pos;
+this allowDamage false; this enableSimulation false;

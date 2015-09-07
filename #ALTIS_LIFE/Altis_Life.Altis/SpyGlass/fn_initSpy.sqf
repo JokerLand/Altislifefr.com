@@ -287,7 +287,20 @@ _patchList =
 "cl_RoadBarrier_D_Single","CL3_Land_Rope_F","CL3_Land_Rope_F_10cm_fill","CL3_Land_Rope_F_1m_fil","CL3_Land_Rope_F_1m","CL3_Land_Rope_F_2m","CL3_Land_Rope_F_3m","CL3_Land_Rope_F_4m","CL3_Land_Rope_F_5m","CL3_Land_Rope_F_10m",
 "CL3_Land_Rope_F_15m","CL3_Land_Rope_F_20m","CL3_Land_Rope_F_25m","cl_Roulette","cl_Rouletteball","cl_RouletteChipRed","cl_RouletteChipgreen","cl_RouletteChipyellow","cl_RouletteChipblue","CL3_Spikestrip","cl_Spikestrip",
 "tirepop","cl_trap1","cl_speedcamclick1","CL3_Radar_Flash_White","CL3_Radar_Flash_WhiteLight","cl_trapsign","cl_trap_marking","cl3_vending_machine","CL3_AirDropTarget","CL3_VehicleSpawnTarget","CL3_Empty","CL3_SpawnShop",
-"CL3_House_Action","CL3_Light_white","CL3_Light_Blue","CL3_Light_Green","CL3_Light_Orange","CL3_Light_Yellow","A3L_Fence_Large","A3L_Fence_Small","A3L_Fence_Curve","A3L_Fence_Open","A3L_Gates"
+"CL3_House_Action","CL3_Light_white","CL3_Light_Blue","CL3_Light_Green","CL3_Light_Orange","CL3_Light_Yellow","Cha_Mi8_Cia","Cha_Mi8_DDR","Cha_Mi8_rkt_DDR","Cha_Mi8_Cuba","Cha_Mi8_SLA","O_Helipilot_F","Cha_Mi17_Civilian","Cha_Mi17_TK_EP1","Cha_Mi17_rockets_RU","Cha_Mi17_TK_EP1","Cha_Mi17_TK_EP1","R_80mm_HE","M_Titan_AT","GR_MUH_Hydra_HE",
+"VehicleMagazine","GR_MUH_4000Rnd_762x51_Tracer_Red","GR_MUH_4000Rnd_127x99_mag","GR_MUH_14Rnd_Hydra","GR_MUH_19Rnd_Hydra","GR_MUH_38Rnd_Hydra","GR_MUH_48Rnd_Hydra","Cha_Ru","Cha_Tka","Cha_Ddr","Cha_Cuba","Cha_ChDKZ","Cha_Sla",
+"Cha_CDF","Cha_UNO","24Rnd_missiles","Cha_Mi8_192Rnd_57mm","Cha_Mi8_128Rnd_57mm","Cha_Mi8_64Rnd_57mm","Cha_Mi8_100Rnd_762x54_PK","Cha_Mi8_1500Rnd_762x54_PKT","Cha_Mi8_2000Rnd_762x54_PKT","Cha_Mi8_200Rnd_762x54_PKT",
+"ARMSCor_A109_Civ","ARMSCor_A109LUH_B","ARMSCor_A109LUH_O","ARMSCor_A109LUH_I","ARMSCor_A109LAH_B","ARMSCor_A109LAH_O","ARMSCor_A109LAH_I","ARMSCor_A109","Heli_Light_02_base_F","ARMSCor_Helicopter_base","HitPoints",
+"ARMSCor_A109_base","Cha_Mi8_PKT","MGun","Cha_Mi8_PKT_2","Cha_Mi8_PKT_3","CannonCore","MissileLauncher","RocketPods","Safe","GR_MUH_Minigun1","GR_MUH_4000Rnd_762x51_Tracer_Red","2000Rnd_65x39_Belt_Tracer_Red",
+"2000Rnd_65x39_Belt_Tracer_Green","2000Rnd_65x39_Belt_Tracer_Yellow","GR_MUH_Minigun2","GR_MUH_M60_1","1000Rnd_762x51_Belt","1000Rnd_762x51_Belt_T_Red","1000Rnd_762x51_Belt_T_Green","1000Rnd_762x51_Belt_T_Yellow",
+"GR_MUH_M60_2","GR_MUH_HydraLauncher","GR_MUH_48Rnd_Hydra","GR_MUH_38Rnd_Hydra","GR_MUH_19Rnd_Hydra","GR_MUH_14Rnd_Hydra","Far_AI","Medium_AI","Burst","Burst2","Burst4","C_Nikos","Civ_Pilot1","SpeechVariants",
+"Civ_Pilot2","Civ_Medic","DefaultDie","ManActions","CfgMovesMaleSdr","CfgMovesWomen","GR_Bell412_base","GR_Bell412_1_base","SoundsExt","GR_Bell412_1","GR_Bell412_2","GR_UH1H_base","GR_UH1H_1_base","GR_UH1H_1",
+"GR_UH1H_2","GR_UH1H_3","GR_UH1H_4","GR_UH1H_5","GR_UH1N_base","GR_UH1N_1","GR_UH1N_2","GR_UH1N_3","cfgMods","HAFM_EC635","GR_Medium_Utility_Helicopters","HAFM_EC635_Config","cfgAmmo","CfgAnimationSourceSounds",
+"CfgFactionClasses","EC635","EC635_AT","EC635_Unarmed","EC635_CSAT","EC635_AT_CSAT","EC635_Unarmed_CSAT","EC635_SAR","HAFM_EC635Wreck","400Rnd_127x99_mag_Tracer_Red","4Rnd_GAT_missiles","HAFM_50cal_red","HAFM_Helis",
+"ec635_missiles_titan","HAFM_HMG_M2","HAFM_missiles_DAR","RangeText","RscInGameUI","GR_UH1N_1","GR_UH1N_2","GR_Bell412_1","GR_Bell412_2","GR_UH1H_1","Civ_Pilot1","Civ_Pilot2","Civ_Medic","GR_UH1N_3","GR_UH1H_2",
+"GR_UH1H_3","GR_UH1H_4","GR_UH1H_5","GR_MUH_Minigun1","GR_MUH_Minigun2","GR_MUH_M60_1","GR_MUH_M60_2","GR_MUH_4000Rnd_762x51_Tracer_Red","GR_MUH_4000Rnd_127x99_mag","GR_MUH_14Rnd_Hydra","GR_MUH_19Rnd_Hydra",
+"GR_MUH_38Rnd_Hydra","GR_MUH_48Rnd_Hydra","GR_MUH_Hydra_HE","Mi17_Pilot","Mi17_Gunner","Mi8_Pilot","Mi8_Gunner","Mi8_Cargo","Mi17_Cargo01","Mi17_Cargo02","Mi171_Gunner_EP1","Antoine_ALFR_Textures","CA_Modules_clatc",
+"cl_buildings","cl3_RangeTarget","cl_RoadBarriers","cl3_miscobjpack","a2_epoch_weapons","3DEN","hlcweapons_FHAWCovert","Cha_Mi8"
 
 
 
