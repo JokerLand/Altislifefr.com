@@ -287,7 +287,7 @@ _patchList =
 "cl_RoadBarrier_D_Single","CL3_Land_Rope_F","CL3_Land_Rope_F_10cm_fill","CL3_Land_Rope_F_1m_fil","CL3_Land_Rope_F_1m","CL3_Land_Rope_F_2m","CL3_Land_Rope_F_3m","CL3_Land_Rope_F_4m","CL3_Land_Rope_F_5m","CL3_Land_Rope_F_10m",
 "CL3_Land_Rope_F_15m","CL3_Land_Rope_F_20m","CL3_Land_Rope_F_25m","cl_Roulette","cl_Rouletteball","cl_RouletteChipRed","cl_RouletteChipgreen","cl_RouletteChipyellow","cl_RouletteChipblue","CL3_Spikestrip","cl_Spikestrip",
 "tirepop","cl_trap1","cl_speedcamclick1","CL3_Radar_Flash_White","CL3_Radar_Flash_WhiteLight","cl_trapsign","cl_trap_marking","cl3_vending_machine","CL3_AirDropTarget","CL3_VehicleSpawnTarget","CL3_Empty","CL3_SpawnShop",
-"CL3_House_Action","CL3_Light_white","CL3_Light_Blue","CL3_Light_Green","CL3_Light_Orange","CL3_Light_Yellow"
+"CL3_House_Action","CL3_Light_white","CL3_Light_Blue","CL3_Light_Green","CL3_Light_Orange","CL3_Light_Yellow","A3L_Fence_Large","A3L_Fence_Small","A3L_Fence_Curve","A3L_Fence_Open","A3L_Gates"
 
 
 
