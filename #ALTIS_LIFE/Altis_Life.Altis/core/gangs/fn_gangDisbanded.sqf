@@ -1,9 +1,4 @@
-/*
-	Author: Bryan "Tonic" Boardwine
-	
-	Description:
-	Notifies members that the gang has been disbanded.
-*/
+#include <macro.h>
 private["_group"];
 _group = [_this,0,grpNull,[grpNull]] call BIS_fnc_param;
 if(isNull _group) exitWith {}; //Fail horn please.
@@ -13,3 +8,5 @@ hint localize "STR_GNOTF_DisbandWarn_2";
 if(count units _group == 0) then {
 	deleteGroup _group;
 };
+ 
+closedialog 0;
