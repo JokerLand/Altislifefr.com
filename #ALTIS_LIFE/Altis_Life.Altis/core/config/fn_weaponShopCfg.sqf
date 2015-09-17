@@ -703,22 +703,30 @@ switch(_shop) do
 		};
 	};
 
-	case "fla":
+	case "EasyC":
 	{
 		switch(true) do
 		{
 			case (playerSide != civilian): {"Vous n'êtes pas civil!"};
-			case (!license_fla): {"Vous n'êtes pas FLA !"};
+			case (!license_moa): {"Vous n'êtes pas EasyC !"};
 			default
 			{
 				["Armurerie",
 					[
+                        ["C1987_MP7",nil,45000],
+                        ["C1987_20Rnd_46x30_mp7",nil,100],
+                        ["C1987_40Rnd_46x30_mp7",nil,200],
 						["wirk_p90",nil,50000],
 						["wirk_p90_mag",nil,50],
 						["arifle_Sam_auga3_F",nil,100000],
 						["30Rnd_556x45_Aug_Mag",nil,75],
+                        ["arifle_Sam_g36c_F",nil,135000],
+                        ["30Rnd_556x45_Aug_Mag",nil,75],
 						["Trixie_M14_Black",nil,150000],
 						["Trixie_20x762_Mag",nil,100],
+                        ["Wirk_beret",nil,1000],
+                        ["R3F_vestetactique_noire",nil,7500],
+                        ["V_PlateCarrier2_blk",nil,15000],
 						["acc_flashlight",nil,50],
 						["optic_Holosight",nil,1200],
 						["optic_ACO_grn_smg",nil,2000],
@@ -727,9 +735,7 @@ switch(_shop) do
 						["optic_Aco",nil,3200],
 						["optic_MRCO",nil,10000],
 						["optic_Hamr",nil,10000],
-						["optic_Arco",nil,10000],
-						["optic_LRPS",nil,50000],
-						["optic_SOS",nil,30000]
+						["optic_Arco",nil,10000]
 					]
 				];
 			};
