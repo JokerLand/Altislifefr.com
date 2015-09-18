@@ -4170,7 +4170,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=1809;
+		items=1810;
 		class Item0
 		{
 			position[]={8065.1616,35.674362,24985.314};
@@ -23727,6 +23727,17 @@ class Mission
 			skill=0.2;
 			init="removeallWeapons this; this enableSimulation false; this allowDamage false; this addAction[""Armes"",life_fnc_weaponShopMenu,""EasyC"",0,false,false,"""",' license_moa && playerSide == civilian'];";
 		};
+		class Item1809
+		{
+			position[]={16041.089,13.595366,16995.57};
+			azimut=88.911636;
+			id=2072;
+			side="EMPTY";
+			vehicle="Land_HelipadRescue_F";
+			skill=0.60000002;
+			text="heliport_1_2_2_2_1_2_1";
+			init="this allowDamage false; ";
+		};
 	};
 	class Markers
 	{
@@ -26827,7 +26838,7 @@ class Mission
 		};
 		class Item375
 		{
-			position[]={16032.589,13.482626,16989.82};
+			position[]={16040.928,13.592612,16995.365};
 			name="car_armer";
 			type="Empty";
 			angle=361.07434;
