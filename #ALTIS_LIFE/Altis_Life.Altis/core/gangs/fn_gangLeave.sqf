@@ -8,7 +8,9 @@
 private["_grp","_grpMembers"];
 if(steamid == (grpPlayer getVariable "gang_owner")) exitWith {hint localize "STR_GNOTF_LeaderLeave"};
 
+/* Debug */
 _grp = grpPlayer;
+
 _grpMembers = grpPlayer getVariable "gang_members";
 _grpMembers = _grpMembers - [steamid];
 _grp setVariable["gang_members",_grpMembers,true];

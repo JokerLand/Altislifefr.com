@@ -73,7 +73,7 @@ if(!isNull _source) then {
 		};
 			
 		if(side _source == west && playerSide == west) then {
-			_damage = false;
+			_damage = trues;
 		};
 	};
 };
