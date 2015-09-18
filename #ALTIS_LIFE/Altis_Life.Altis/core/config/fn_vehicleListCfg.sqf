@@ -164,6 +164,7 @@ switch (_shop) do
 				["ALFR_GeK_Scania_420",250000],
 				["ALFR_GeK_Volvo_FH16_2012",300000],
 				["cl3_veyron_wht_blu",270000],
+                ["ivory_lfa",300000],
 				["ALFR_GeK_Panamera",350000],
 				["O_Truck_03_device_F",750000],
 				["O_Heli_Light_02_unarmed_F",300000],
