@@ -19,7 +19,9 @@ switch (_filter) do
 	{
 		[
 		["R3F_uniform_f1",nil,1500],
-		["U_B_Wetsuit",nil,2000]
+		["U_B_Wetsuit",nil,2000],
+        ["R3F_uniform_Ghillie",5000],
+        ["U_O_Wetsuit",5000]
 		];
 	};
 
@@ -58,7 +60,8 @@ switch (_filter) do
 	{
 		[
 			["R3F_veste_ce600",nil,500],
-			["V_RebreatherB",nil,5000]
+			["V_RebreatherB",nil,5000],
+            ["V_RebreatherIA",nil,2500]
 		];
 	};
 
