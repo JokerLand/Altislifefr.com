@@ -1342,6 +1342,14 @@ switch (_vehicle) do
 		};
 	};
 
+    case "Gurkha_f5":
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Armer"};
+		};
+	};
+    
 	case "CL3_bus_cl_black":
     {
         switch (_index) do {

@@ -79,7 +79,7 @@ switch (_className) do
 	case "B_Truck_01_transport_F": {425};
 	case "B_MRAP_01_F": {65};
 	case "O_MRAP_02_F": {60};
-	case "I_MRAP_03_F": {58};
+	case "I_MRAP_03_F": {60};
 	case "B_Heli_Light_01_F": {5};
 	case "C_Heli_Light_01_civil_F": {5};
 	case "O_Heli_Transport_04_bench_F": {5};
@@ -128,5 +128,6 @@ switch (_className) do
     case "ivory_lfa": {10};
     case "ALFR_suv_armee": {100};
     case "Cha_UH60L_Unarmed_FFV_AUS": {5};
+    case "Gurkha_f5": {60};
 	default {-1};
 };
