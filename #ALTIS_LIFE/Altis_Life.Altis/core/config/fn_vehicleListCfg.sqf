@@ -106,6 +106,7 @@ switch (_shop) do
             ["ALFR_suv_armee",100000],
 			["GeK_TLC100",100000],
 			["GeK_TLC100_Police",150000],
+            ["Cha_UH60L_Unarmed_FFV_AUS",500000],
 			["B_Heli_Transport_03_unarmed_F",1000000]
 		];
 	};

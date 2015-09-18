@@ -127,5 +127,6 @@ switch (_className) do
     case "cg_rv_camper": {250};
     case "ivory_lfa": {10};
     case "ALFR_suv_armee": {100};
+    case "Cha_UH60L_Unarmed_FFV_AUS": {5};
 	default {-1};
 };

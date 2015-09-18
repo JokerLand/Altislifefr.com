@@ -1333,6 +1333,14 @@ switch (_vehicle) do
 			case 0: {_color = "Armer"};
 		};
 	};
+    
+    case "Cha_UH60L_Unarmed_FFV_AUS":
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Armer"};
+		};
+	};
 
 	case "CL3_bus_cl_black":
     {
