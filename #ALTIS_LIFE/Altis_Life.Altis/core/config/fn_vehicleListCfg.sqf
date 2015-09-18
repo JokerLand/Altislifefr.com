@@ -263,6 +263,8 @@ switch (_shop) do
 			{
 			_return pushBack
 			["I_MRAP_03_F",1000000];
+            _return pushBack
+			["cg_h2_sert",50000];
 			_return pushBack
 			["ALFR_GeK_MF1_Police",1500000];
 			_return pushBack
