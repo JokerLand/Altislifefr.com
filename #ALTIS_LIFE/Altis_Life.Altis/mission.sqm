@@ -26054,10 +26054,10 @@ class Mission
 		};
 		class Item280
 		{
-			position[]={3243.4868,0,12855.387};
+			position[]={3239.6147,0,12837.007};
 			name="cop_ship_1";
 			type="Empty";
-			angle=513.82397;
+			angle=179.09599;
 		};
 		class Item281
 		{
@@ -26075,10 +26075,10 @@ class Mission
 		};
 		class Item283
 		{
-			position[]={3252.7798,-0.092751287,12891.254};
+			position[]={3237.4875,0,12870.032};
 			name="cop_ship_1_1";
 			type="Empty";
-			angle=145.688;
+			angle=179.09599;
 		};
 		class Item284
 		{
