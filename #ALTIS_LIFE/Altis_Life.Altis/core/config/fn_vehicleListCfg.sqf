@@ -103,6 +103,7 @@ switch (_shop) do
 		[
 			["B_Heli_Light_01_F",75000],
 			["B_MRAP_01_F",1000000],
+            ["ALFR_suv_armee",100000],
 			["GeK_TLC100",100000],
 			["GeK_TLC100_Police",150000],
 			["B_Heli_Transport_03_unarmed_F",1000000]

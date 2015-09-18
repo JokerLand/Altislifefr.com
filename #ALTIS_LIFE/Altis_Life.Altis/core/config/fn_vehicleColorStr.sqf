@@ -1325,6 +1325,14 @@ switch (_vehicle) do
 			case 0: {_color = "Armer"};
 		};
 	};
+    
+    case "ALFR_suv_armee":
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Armer"};
+		};
+	};
 
 	case "CL3_bus_cl_black":
     {
