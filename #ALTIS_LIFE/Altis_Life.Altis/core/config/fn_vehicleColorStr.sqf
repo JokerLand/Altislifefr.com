@@ -631,6 +631,14 @@ switch (_vehicle) do
 			case 5: {_color = "Blanc";};
 		};
 	};
+    
+    case "AudiA8_Limo":
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Noir"};
+		};
+	};
 
 	case "cl3_dodge_charger_s_black" :
 	{

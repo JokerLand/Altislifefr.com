@@ -129,5 +129,6 @@ switch (_className) do
     case "ALFR_suv_armee": {100};
     case "Cha_UH60L_Unarmed_FFV_AUS": {5};
     case "Gurkha_f5": {60};
+    case "AudiA8_Limo": {50};
 	default {-1};
 };

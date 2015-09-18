@@ -92,6 +92,7 @@ switch (_shop) do
 			["wirk_ferrari_california",400000],
 			["cl3_lamborghini_gt1_black",1000000],
 			["ALFR_GeK_MF1",1500000],
+            ["AudiA8_Limo",300000],
             ["cl3_arielatom_black",250000]
 		];
 	};
