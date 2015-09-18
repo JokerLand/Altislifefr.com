@@ -4170,7 +4170,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=1808;
+		items=1809;
 		class Item0
 		{
 			position[]={8065.1616,35.674362,24985.314};
@@ -23715,6 +23715,17 @@ class Mission
 			vehicle="Land_BarGate_F";
 			skill=0.60000002;
 			init="this allowDamage false;";
+		};
+		class Item1808
+		{
+			position[]={12300.052,123.94431,8882.1035};
+			azimut=147.54601;
+			special="NONE";
+			id=2071;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V2_F";
+			skill=0.2;
+			init="removeallWeapons this; this enableSimulation false; this allowDamage false; this addAction[""Armes"",life_fnc_weaponShopMenu,""EasyC"",0,false,false,"""",' license_moa && playerSide == civilian'];";
 		};
 	};
 	class Markers
