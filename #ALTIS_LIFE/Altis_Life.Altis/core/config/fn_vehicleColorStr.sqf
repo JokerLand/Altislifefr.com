@@ -154,14 +154,7 @@ switch (_vehicle) do
 		};
 	};
 
-    case "cg_h2_sert" :
-	{
-		switch (_index) do
-		{
-			case 0: {_color = "Police";};
 
-		};
-	};
 
 	case "GeK_Civilian_H1" :
 	{
