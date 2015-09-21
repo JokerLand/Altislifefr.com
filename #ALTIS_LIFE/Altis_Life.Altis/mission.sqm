@@ -22457,7 +22457,7 @@ class Mission
 		};
 		class Item287
 		{
-			position[]={15702.075,15.485771,17527.607};
+			position[]={14370.006,16.740025,18097.82};
 			name="Correctional Facility";
 			text="Penitencier d'Altis";
 			type="mil_dot";
@@ -22466,14 +22466,14 @@ class Mission
 		};
 		class Item288
 		{
-			position[]={15708.926,16.145327,17566.941};
+			position[]={14370.236,16.676573,18062.463};
 			name="jail_release";
 			type="Empty";
-			angle=373.81055;
+			angle=208.89777;
 		};
 		class Item289
 		{
-			position[]={15704.199,15.593357,17533.977};
+			position[]={14414.416,16.992002,18092.25};
 			name="jail_marker";
 			type="Empty";
 			angle=-163.93401;
