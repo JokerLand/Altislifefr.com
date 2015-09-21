@@ -1,5 +1,5 @@
 private ["_obj","_dat","_cString","_adString"];
- 
+
 _obj = objNull;_dat = [];_adString = "CAN_COLLIDE";
 _cString = {_obj = createVehicle [(_dat select 0), call compile (_dat select 1), [], 0, _adString];if((_dat select 4) == 0) then {_obj enableSimulation false};_obj setdir (_dat select 2);if((_dat select 3) == -100) then {_obj setposATL (call compile (_dat select 1))} else {_obj setposASL [((call compile (_dat select 1)) select 0),((call compile (_dat select 1)) select 1),(_dat select 3)]};if((_dat select 5) == 0) then {_obj setVectorUp [0,0,1]} else {_obj setVectorUp (surfacenormal (getPosATL _obj))};if(count (_dat select 6) > 0) then {{call _x} foreach (_dat select 6)};if(count _dat > 7) then {if (_dat select 7 == 1) then {_obj allowDamage false;} else {_obj allowDamage true;};};};
  
@@ -65,7 +65,7 @@ _dat = ["Land_Concrete_SmallWall_8m_F","[15118.37207,17246.316406,-0.464647]",-4
 _dat = ["Land_Concrete_SmallWall_8m_F","[15123.923828,17252.0800781,-0.464647]",-406.2,-100,0,1,[],1];call _cString;
 _dat = ["Land_Concrete_SmallWall_8m_F","[15129.458984,17257.857422,-0.464647]",-406.2,-100,0,1,[],1];call _cString;
 _dat = ["Land_Concrete_SmallWall_4m_F","[15133.600586,17262.183594,-0.464647]",-406.2,-100,0,0,[],1];call _cString;
-_dat = ["cl_raisedhelipad","[15114.576172,17207.365234,0]",-406.2,-100,0,0,[],1];call _cString;
+_dat = ["cl_raisedhelipad","[15114.576172,17207.365234,0]",313.8,-100,0,0,[],1];call _cString;
 _dat = ["A3L_Fence_Large","[15074.135742,17233.378906,0]",-496.2,-100,0,0,[],1];call _cString;
 _dat = ["A3L_Fence_Large","[15075.549805,17234.853516,0]",-496.263,-100,0,1,[],1];call _cString;
 _dat = ["A3L_Fence_Large","[15076.962891,17236.330078,0]",-496.263,-100,0,1,[],1];call _cString;
@@ -147,7 +147,6 @@ _dat = ["Land_Obstacle_Saddle_F","[15173.958984,17226.957031,0]",-766.137,-100,0
 _dat = ["Land_Obstacle_Saddle_F","[15176.860352,17229.972656,0]",-766.137,-100,0,0,[],1];call _cString;
 _dat = ["Land_Obstacle_Saddle_F","[15179.798828,17233.03125,0]",-766.137,-100,0,0,[],1];call _cString;
 _dat = ["policesub_tarmac_part2","[15154.28418,17224.439453,0]",43.9263,-100,0,0,[],1];call _cString;
-_dat = ["Land_City2_8m_F","[15171.374023,17249.433594,0]",224.053,-100,0,0,[],1];call _cString;
 _dat = ["Land_Sign_WarningMilitaryArea_F","[15153.00683594,17229.691406,0.290943]",313.737,-100,0,0,[],1];call _cString;
 _dat = ["Land_Flush_Light_green_F","[15094.811523,17227.939453,0]",313.737,-100,0,0,[],1];call _cString;
 _dat = ["Land_Flush_Light_green_F","[15095.433594,17228.589844,0]",313.737,-100,0,0,[],1];call _cString;
@@ -177,13 +176,9 @@ _dat = ["Land_Flush_Light_green_F","[15108.148438,17241.402344,0]",43.737,-100,0
 _dat = ["Land_Flush_Light_green_F","[15104.246094,17245.140625,0]",43.737,-100,0,0,[],1];call _cString;
 _dat = ["Land_Cargo_Tower_V3_F","[15114.914063,17303.443359,0]",223.737,-100,0,0,[],1];call _cString;
 _dat = ["Land_Cargo_Tower_V3_F","[15059.614258,17243.484375,0]",133.737,-100,0,0,[],1];call _cString;
-_dat = ["A3L_Fence_Large","[15088.267578,17248.142578,0]",-496.263,-100,0,1,[],1];call _cString;
+_dat = ["A3L_Fence_Large","[15088.267578,17248.142578,0]",223.737,-100,0,1,[],1];call _cString;
 _dat = ["A3L_Fence_Large","[15089.680664,17249.619141,0]",223.737,-100,0,1,[],1];call _cString;
-_dat = ["cl3_trainingroom","[15157.863281,17248.105469,0.103916]",-586.263,-100,0,0,[],1];call _cString;
 _dat = ["Land_Loudspeakers_F","[15149.350586,17239.435547,0]",133.737,-100,0,0,[],1];call _cString;
-_dat = ["Land_GymRack_01_F","[15148.53418,17253.646484,0.0782833]",313.737,-100,0,0,[],1];call _cString;
-_dat = ["Land_GymBench_01_F","[15150.457031,17256.371094,0.101185]",313.737,-100,0,0,[],1];call _cString;
-_dat = ["Land_GymRack_02_F","[15151.662109,17257.599609,0.101185]",43.74,-100,0,0,[],1];call _cString;
 _dat = ["Land_LampHalogen_F","[15128.358398,17305.128906,0]",308.055,-100,0,0,[],1];call _cString;
 _dat = ["Land_LampHalogen_F","[15059.451172,17232.970703,0]",139.293,-100,0,0,[],1];call _cString;
 _dat = ["Land_LampHalogen_F","[15084.232422,17210.322266,0]",142.386,-100,0,0,[],1];call _cString;
@@ -269,4 +264,7 @@ _dat = ["Land_Shoot_House_Wall_Prone_F","[15095.43457,17270.892578,0.171717]",13
 _dat = ["Land_Shoot_House_Wall_Prone_F","[15094.0537109,17269.451172,0.171717]",133.737,-100,0,0,[],1];call _cString;
 _dat = ["Land_Shoot_House_Corner_Prone_F","[15093.297852,17268.00976563,0.171717]",-316.263,-100,0,0,[],1];call _cString;
 _dat = ["TargetP_Inf_Acc1_F","[15118.899414,17282.806641,3.45165]",-74.205,-100,0,1,[],1];call _cString;
-_dat = ["A3L_Fence_Large","[15083.743164,17257.400391,-0.00126648]",-946.074,-100,0,1,[],1];call _cString;
+_dat = ["A3L_Fence_Large","[15083.743164,17257.400391,-0.00128365]",133.926,-100,0,1,[],1];call _cString;
+_dat = ["Land_BarGate_F","[15149.981445,17224.224609,0]",-946.074,-100,0,0,[],1];call _cString;
+_dat = ["Land_BarGate_F","[15169.462891,17244.779297,0]",132.727,-100,0,0,[],1];call _cString;
+_dat = ["Land_City2_8m_F","[15171.28125,17249.523438,0]",224.053,-100,0,0,[],1];call _cString;
