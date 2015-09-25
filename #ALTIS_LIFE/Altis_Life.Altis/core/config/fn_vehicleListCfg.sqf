@@ -244,35 +244,34 @@ switch (_shop) do
 			["DAR_TaurusPolice",20000];
 			_return pushBack
 			["DAR_ChargerPoliceState",15000];
+            if(__GETC__(life_coplevel) > 1) then
+            {
 			_return pushBack
 			["range_rover_police",15000];
 			_return pushBack
 			["DAR_ExplorerPolice",20000];
 			_return pushBack
-			["DAR_DAR_02FirebirdSSVPolice",20000];
-			_return pushBack
-			["insignia_police_st",30000];
-			_return pushBack
-			["GeK_S60_Police_ST",30000];
-			_return pushBack
 			["ALFR_GeK_Panamera_Police",20000];
 			_return pushBack
 			["GeK_TLC100_Police",25000];
-			_return pushBack
-			["GeK_TLC100",35000];
-			_return pushBack
-			["ALFR_GeK_Panamera_Police_ST",30000];
-			_return pushBack
-			["CL3_bus_cl_black",400000];
+            };
 			if(__GETC__(life_coplevel) > 2) then
 			{
 			_return pushBack
 			["I_MRAP_03_F",1000000];
 			_return pushBack
 			["ALFR_GeK_MF1_Police",1500000];
+            _return pushBack
+			["insignia_police_st",30000];
 			_return pushBack
-			["CL3_bus_cl_black",1000000];
-			};
+			["GeK_S60_Police_ST",30000];
+            _return pushBack
+			["GeK_TLC100",35000];
+			_return pushBack
+			["ALFR_GeK_Panamera_Police_ST",30000];
+            _return pushBack
+			["CL3_bus_cl_black",400000];    
+            };
 	};
 
 	case "civ_air":
