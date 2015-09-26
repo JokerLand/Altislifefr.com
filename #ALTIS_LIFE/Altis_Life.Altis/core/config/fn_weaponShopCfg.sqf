@@ -376,6 +376,8 @@ switch(_shop) do
                         ["Trixie_AWM338",nil,20000],
                         ["Trixie_5x338_Mag",nil,100],
                         //Lnt
+                        ["LMG_Mk200_F",nil,75000],
+						["200Rnd_65x39_cased_Box_Tracer",nil,500],
                         ["LMG_Zafir_F",nil,250000],
                         ["150Rnd_762x54_Box_Tracer",nil,500],
 						["srifle_LRR_F",nil,350000],
@@ -460,6 +462,8 @@ switch(_shop) do
                         ["Trixie_AWM338",nil,20000],
                         ["Trixie_5x338_Mag",nil,100],
                         //Lnt
+                        ["LMG_Mk200_F",nil,75000],
+						["200Rnd_65x39_cased_Box_Tracer",nil,500],
                         ["LMG_Zafir_F",nil,250000],
                         ["150Rnd_762x54_Box_Tracer",nil,500],
 						["srifle_LRR_F",nil,350000],
