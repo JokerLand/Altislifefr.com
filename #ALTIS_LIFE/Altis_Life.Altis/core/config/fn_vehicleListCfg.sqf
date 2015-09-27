@@ -270,7 +270,7 @@ switch (_shop) do
 			_return pushBack
 			["ALFR_GeK_Panamera_Police_ST",30000];
             _return pushBack
-			["CL3_bus_cl_black",400000];    
+			["CL3_bus_cl_black",400000];
             };
 	};
 
@@ -295,7 +295,8 @@ switch (_shop) do
             ["Sab_ana_An2",100000],
             ["sab_BI_An2",100000],
             ["IVORY_T6A_1",500000],
-            ["IVORY_ERJ135_1", 5000000]
+            ["IVORY_ERJ135_1", 5000000],
+            ["b737", 10000000]
         ];
     };
 
@@ -329,7 +330,7 @@ switch (_shop) do
 			_return pushBack
 			["B_Heli_Transport_03_unarmed_F",150000];
             _return pushBack
-			["EC635_Unarmed",180000];    
+			["EC635_Unarmed",180000];
 			};
 
 			if(__GETC__(life_coplevel) > 5) then
@@ -351,7 +352,7 @@ switch (_shop) do
 		["B_Heli_Light_01_F",75000];
 		_return pushBack
 		["C_Heli_Light_01_civil_F",75000];
-        
+
 		if(__GETC__(life_coplevel) > 2) then
 		{
         _return pushBack
@@ -359,13 +360,13 @@ switch (_shop) do
         _return pushBack
         ["B_MRAP_01_hmg_F",750000];
 		};
-        
+
         if(__GETC__(life_coplevel) > 3) then
         {
         _return pushBack
         ["B_Heli_Transport_03_unarmed_F",150000];
         _return pushBack
-        ["EC635_Unarmed",180000];    
+        ["EC635_Unarmed",180000];
         };
 	};
 
