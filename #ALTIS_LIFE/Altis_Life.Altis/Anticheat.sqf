@@ -1,4 +1,4 @@
-/*	
+/*
 	AUTHOR: Lystic
 	DATE: 06/19/14
 	VERSION: 1.5
@@ -10,11 +10,11 @@
   /* Configuration */
 
 _Enabled = true;							//Enable or disable the anticheat
-_Admins = ["76561198134471438","76561198047615445","76561198085115832","76561198127376072","76561198047992077","76561197961947580"]; 			//Add your admin UID here
+_Admins = ["76561198018721225","76561198134471438","76561198047615445","76561198085115832","76561198127376072","76561198047992077","76561197961947580"]; 			//Add your admin UID here
 _Use_Life_fnc_MP = false;					//If you are using altis life change this to true
 
 //Add new cheat files & variables & menus to these lists
-_DetectedFiles = ["JM3.sqf","JM3.png","wookie.sqf","wookie_wuat\start.sqf","lystoarma3\start.sqf","help.sqf","hack.sqf","cheat.sqf","JxMxE.sqf","JME.sqf","wookiev5.sqf","menu.sqf"];			
+_DetectedFiles = ["JM3.sqf","JM3.png","wookie.sqf","wookie_wuat\start.sqf","lystoarma3\start.sqf","help.sqf","hack.sqf","cheat.sqf","JxMxE.sqf","JME.sqf","wookiev5.sqf","menu.sqf"];
 _DetectedVariables = ["ESP","Wookie","Extasy","GOD","GodMode","JxMxE_Exec","Lystic","Hack","Script","Wookie_Exec","Bypass"];
 _DetectedMenus = [3030];
 /* End Configuration */
@@ -66,7 +66,7 @@ if(isDedicated) then {
 			_time = time + 2;
 			waitUntil{time >= _time};
 		};
-	};	
+	};
 
 } else {
 	waitUntil{!isnull player};
@@ -77,8 +77,8 @@ if(isDedicated) then {
 
 	if(getplayeruid player in _Admins) exitWith {
 		hint "WELCOME ADMIN";
-		[[format["The Admin %1 has Joined",name player]],"Notify_Load",false,false] call AH_fnc_MP; 
-	};		
+		[[format["The Admin %1 has Joined",name player]],"Notify_Load",false,false] call AH_fnc_MP;
+	};
 
 	Kick = compileFinal "
 		endMission 'FAIL';
@@ -158,7 +158,7 @@ if(isDedicated) then {
 			waitUntil{isNull (findDisplay 49)}
 		};
 	};
-	[[format["The Player %1 Has Initialized",name player]],"Notify_Load",false,false] call AH_fnc_MP; 
+	[[format["The Player %1 Has Initialized",name player]],"Notify_Load",false,false] call AH_fnc_MP;
 };
 
 _exists = loadFile "AdminMenu.sqf";
