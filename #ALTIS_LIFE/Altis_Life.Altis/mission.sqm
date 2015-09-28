@@ -4443,7 +4443,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=1441;
+		items=1442;
 		class Item0
 		{
 			position[]={8065.1616,35.674362,24985.314};
@@ -20321,6 +20321,16 @@ class Mission
 			vehicle="Land_InfoStand_V2_F";
 			skill=0.2;
 			init="removeallWeapons this; this enableSimulation false; this allowDamage false; this addAction[""Armes"",life_fnc_weaponShopMenu,""EasyC"",0,false,false,"""",' license_moa && playerSide == civilian'];";
+		};
+		class Item1441
+		{
+			position[]={15926.301,14.268298,17007.346};
+			azimut=68.081482;
+			id=1717;
+			side="EMPTY";
+			vehicle="Land_Billboard_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; this SetObjectTexture [0,""images\billboard_armee.jpg""];";
 		};
 	};
 	class Markers
