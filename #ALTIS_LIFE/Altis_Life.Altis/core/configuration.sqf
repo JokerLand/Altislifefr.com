@@ -107,6 +107,12 @@ switch (playerSide) do
 		life_atmcash = 7000;
 		life_paycheck = 5000;
 	};
+
+	case east:
+	{
+		life_atmcash = 50000; //Starting Bank Money
+		life_paycheck = 3500; //Paycheck Amount
+	};
 };
 
 /*
@@ -252,7 +258,6 @@ life_licenses =
 	["license_cn","civ"],
 	["license_ec","civ"],
 	["license_gr","civ"],
-	["license_armer","civ"],
 	["license_fla","civ"],
 	["license_reb1","civ"],
     ["license_civ_uranium","civ"],

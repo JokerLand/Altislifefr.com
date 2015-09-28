@@ -42,6 +42,7 @@ class Life_Client_Core
 		class initCiv {};
 		class initCop {};
 		class initMedic {};
+		class initAdac {};
 		class welcomeNotification {};
 	};
 	
@@ -66,6 +67,7 @@ class Life_Client_Core
 		class casino777 {};
 		class casino {};
 	};
+
 	
 	class Medical_System
 	{
@@ -316,6 +318,7 @@ class Life_Client_Core
 		class vehicleWeight {};
 		class deviceMine {};
 		class addVehicle2Chain {};
+		class adacVInteractionMenu {};
 	};
 	
 	class Cop
@@ -346,6 +349,12 @@ class Life_Client_Core
 		class ticketPaid {};
 		class copEnter {};
 		class breathalyzer {};
+	};
+
+	 class Adac
+	{
+		file = "core\adac";
+		class adacLoadout {};
 	};
 	
 	class Gangs

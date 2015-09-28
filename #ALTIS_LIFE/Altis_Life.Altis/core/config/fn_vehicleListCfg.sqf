@@ -100,17 +100,44 @@ switch (_shop) do
 
 	case "armer_car":
 	{
-		_return =
-		[
-			["B_Heli_Light_01_F",75000],
-			["B_MRAP_01_F",1000000],
-            ["Gurkha_f5",1000000],
-            ["ALFR_suv_armee",100000],
-			["GeK_TLC100",100000],
-			["GeK_TLC100_Police",150000],
-            ["Cha_UH60L_Unarmed_FFV_AUS",500000],
-			["B_Heli_Transport_03_unarmed_F",1000000]
-		];
+			_return pushBack
+			["B_Heli_Light_01_F",75000];
+			_return pushBack
+			["GeK_TLC100",100000];
+			_return pushBack
+			["GeK_TLC100_Police",150000];
+            
+	
+
+		if(__GETC__(life_adaclevel) > 1) then
+		{
+
+		_return pushBack
+		["Gurkha_f5",1000000];
+		_return pushBack
+		["ALFR_suv_armee",100000];
+		_return pushBack
+		["Cha_UH60L_Unarmed_FFV_AUS",500000];
+
+		};
+
+		if(__GETC__(life_adaclevel) > 2) then
+		{
+
+		_return pushBack
+		["B_Heli_Transport_03_unarmed_F",1000000];
+
+		};
+
+		if(__GETC__(life_adaclevel) > 4) then
+		{
+
+		_return pushBack
+		["B_MRAP_01_F",1000000];
+		
+		};
+
+
 	};
 
 	case "civ_truck":

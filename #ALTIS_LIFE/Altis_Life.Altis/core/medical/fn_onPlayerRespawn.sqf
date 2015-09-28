@@ -28,6 +28,10 @@ if(playerSide == west) then {
 	[] spawn life_fnc_loadCopGear;
 };
 
+if(playerSide == east) then {
+	[] spawn life_fnc_adacLoadout;
+};
+
 _unit addRating 9999999999999999; //Set our rating to a high value, this is for a ARMA engine thing.
 player playMoveNow "amovppnemstpsraswrfldnon";
 

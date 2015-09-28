@@ -746,8 +746,7 @@ switch(_shop) do
 	{
 		switch(true) do
 		{
-			case (playerSide != civilian): {"Vous n'êtes pas civil!"};
-			case (!license_armer): {"Vous n'avez pas de license militaire !"};
+			case (playerSide != east): {"Vous n'êtes pas de l'armée!"};
 			default
 			{
 				["Armurerie",

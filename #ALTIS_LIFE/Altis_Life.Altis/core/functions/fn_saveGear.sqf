@@ -16,7 +16,7 @@ _return pushBack backpack player;
 _return pushBack goggles player;
 _return pushBack headgear player;
 _return pushBack assignedITems player;
-if(playerSide == west || playerSide == civilian && {(call life_save_civ)}) then {
+if(playerSide == west || playerSide == east || playerSide == civilian && {(call life_save_civ)}) then {
     _return pushBack primaryWeapon player;
     _return pushBack handgunWeapon player;
 	_return pushBack secondaryWeapon player;

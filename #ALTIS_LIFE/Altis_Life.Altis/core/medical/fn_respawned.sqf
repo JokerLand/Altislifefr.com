@@ -31,6 +31,9 @@ switch(playerSide) do
 	case civilian: {
 		_handle = [] spawn life_fnc_civLoadout;
 	};
+	case east: {
+		_handle = [] spawn life_fnc_adacLoadout;
+	};
 	case independent: {
 		_handle = [] spawn life_fnc_medicLoadout;
 	};

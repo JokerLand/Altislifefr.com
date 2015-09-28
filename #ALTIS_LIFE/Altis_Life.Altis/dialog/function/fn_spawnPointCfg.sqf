@@ -161,6 +161,14 @@ switch (_side) do
 			["medic_spawn_3","Hopital Pyrgos","\a3\ui_f\data\map\MapControl\hospital_ca.paa"]
 		];
 	};
+
+	case east: 
+	{
+		_return = [
+				
+			["spawn_armer","Armée HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]
+		];
+	};
 };
 
 _return;

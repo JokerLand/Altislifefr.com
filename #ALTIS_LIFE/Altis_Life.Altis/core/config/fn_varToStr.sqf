@@ -139,7 +139,6 @@ switch (_var) do
 	case "license_cn": {"Newgate"};
 	case "license_ec": {"Eagle Close"};
 	case "license_gr": {"Strauss"};
-	case "license_armer": {"Militaire"};
 	case "license_fla": {"PE1"};
 	case "license_reb1": {"SPQR"};
     case "license_civ_uranium": {"Formation Uranium"};

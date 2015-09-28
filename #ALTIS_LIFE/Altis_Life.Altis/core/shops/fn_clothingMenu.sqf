@@ -11,11 +11,11 @@ createDialog "Life_Clothing";
 disableSerialization;
 
 //Cop / Civ Pre Check
-if((_this select 3) in ["bruce","dive","reb","kart","armer","fla","mask"] && playerSide != civilian) exitWith {hint localize "STR_Shop_NotaCiv"; closeDialog 0;};
+if((_this select 3) in ["bruce","dive","reb","kart","fla","mask"] && playerSide != civilian) exitWith {hint localize "STR_Shop_NotaCiv"; closeDialog 0;};
 if((_this select 3) == "reb" && !license_civ_rebel) exitWith {hint localize "STR_Shop_NotaReb"; closeDialog 0;};
 if((_this select 3) in ["cop"] && playerSide != west) exitWith {hint localize "STR_Shop_NotaCop"; closeDialog 0;};
 if((_this select 3) in ["dive"] && !license_civ_dive) exitWith { hint localize "STR_Shop_NotaDive"; closeDialog 0;};
-if((_this select 3) in ["armer"] && !license_armer) exitWith { hint localize "STR_Shop_NotaArmer"; closeDialog 0;};
+if((_this select 3) in ["armer"] && playerSide != east) exitWith { hint localize "STR_Shop_NotaArmer"; closeDialog 0;};
 if((_this select 3) in ["fla"] && !license_fla) exitWith { hint localize "STR_Shop_NotaFLA"; closeDialog 0;};
 if((_this select 3) in ["airaltis"] && !license_air_altis) exitWith { hint localize "STR_Shop_NotaAirAltis"; closeDialog 0;};
 

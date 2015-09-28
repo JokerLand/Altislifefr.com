@@ -23,6 +23,10 @@ if(count _itemArray == 0) exitWith
             [] call life_fnc_civLoadout;
         };
 
+        case east: {
+            [] call life_fnc_adacLoadout;
+        };
+
         case independent: {
             [] call life_fnc_medicLoadout;
         };

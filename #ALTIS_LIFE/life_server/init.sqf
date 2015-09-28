@@ -55,6 +55,7 @@ if (!_extDB) exitWith {
 life_adminlevel = 0;
 life_medicLevel = 0;
 life_coplevel = 0;
+life_adaclevel = 0;
 
 //Null out harmful things for the server.
 __CONST__(JxMxE_PublishVehicle,"No");
@@ -64,6 +65,7 @@ __CONST__(JxMxE_PublishVehicle,"No");
 life_radio_west = radioChannelCreate [[0, 0.95, 1, 0.8], "Side Channel", "%UNIT_NAME", []];
 life_radio_civ = radioChannelCreate [[0, 0.95, 1, 0.8], "Side Channel", "%UNIT_NAME", []];
 life_radio_indep = radioChannelCreate [[0, 0.95, 1, 0.8], "Side Channel", "%UNIT_NAME", []];
+life_radio_east = radioChannelCreate [[0, 0.95, 1, 0.8], "Side Channel", "%UNIT_NAME", []];
 
 serv_sv_use = [];
 

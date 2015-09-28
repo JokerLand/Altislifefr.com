@@ -61,6 +61,13 @@ switch (playerSide) do
 		waitUntil {scriptDone _handle};
 	};
 
+	 case east:
+	{
+		//Initialize ADAC
+		_handle = [] spawn life_fnc_initAdac;
+		waitUntil {scriptDone _handle};
+	};
+
 	case independent:
 	{
 		//Initialize Medics and blah
@@ -122,7 +129,7 @@ player addEventHandler["Fired",{
 }];
 
 // REBEL WEAPONS HOTFIX
-if(playerSide != west) then {
+if(playerSide != west && playerSide != east) then {
 	player addEventHandler["Fired",{
 			_weapon = _this select 1;
 			_bullet = _this select 6;
