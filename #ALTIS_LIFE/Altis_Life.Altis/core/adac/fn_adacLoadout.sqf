@@ -11,7 +11,7 @@ _handle = [] spawn life_fnc_stripDownPlayer;
 waitUntil {scriptDone _handle};
  
 //Load player with default adac gear.
-player addUniform "R3F_uniform_f1";
+player forceAddUniform "R3F_uniform_f1";
  
 /* ITEMS */
 player addItem "ItemMap";
