@@ -196,7 +196,7 @@ class Mission
 	};
 	class Groups
 	{
-		items=72;
+		items=63;
 		class Item0
 		{
 			side="WEST";
@@ -4205,10 +4205,10 @@ class Mission
 			side="EAST";
 			class Vehicles
 			{
-				items=1;
+				items=10;
 				class Item0
 				{
-					position[]={8486.0459,107.43808,25138.473};
+					position[]={8491.9766,107.47235,25136.496};
 					special="NONE";
 					id=265;
 					side="EAST";
@@ -4216,7 +4216,124 @@ class Mission
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
+					text="adac_2";
+					init="removeBackpack this; removeAllWeapons this;";
+					description="WhiteListed - Armee";
+				};
+				class Item1
+				{
+					position[]={8486.8359,107.55827,25135.309};
+					special="NONE";
+					id=266;
+					side="EAST";
+					vehicle="O_medic_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+					text="adac_11";
+					init="removeBackpack this; removeAllWeapons this;";
+					description="WhiteListed - Armee";
+				};
+				class Item2
+				{
+					position[]={8486.0459,107.43808,25138.473};
+					special="NONE";
+					id=267;
+					side="EAST";
+					vehicle="O_medic_F";
+					player="PLAY CDG";
+					skill=0.60000002;
 					text="adac_1";
+					init="removeBackpack this; removeAllWeapons this;";
+					description="WhiteListed - Armee";
+				};
+				class Item3
+				{
+					position[]={8487.626,107.53894,25129.775};
+					special="NONE";
+					id=268;
+					side="EAST";
+					vehicle="O_medic_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+					text="adac_8";
+					init="removeBackpack this; removeAllWeapons this;";
+					description="WhiteListed - Armee";
+				};
+				class Item4
+				{
+					position[]={8481.3008,108.1758,25128.986};
+					special="NONE";
+					id=269;
+					side="EAST";
+					vehicle="O_medic_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+					text="adac_9";
+					init="removeBackpack this; removeAllWeapons this;";
+					description="WhiteListed - Armee";
+				};
+				class Item5
+				{
+					position[]={8494.3477,106.89893,25130.17};
+					special="NONE";
+					id=270;
+					side="EAST";
+					vehicle="O_medic_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+					text="adac_10";
+					init="removeBackpack this; removeAllWeapons this;";
+					description="WhiteListed - Armee";
+				};
+				class Item6
+				{
+					position[]={8497.5117,106.31446,25130.17};
+					special="NONE";
+					id=271;
+					side="EAST";
+					vehicle="O_medic_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+					text="adac_4";
+					init="removeBackpack this; removeAllWeapons this;";
+					description="WhiteListed - Armee";
+				};
+				class Item7
+				{
+					position[]={8497.5127,106.84089,25136.494};
+					special="NONE";
+					id=272;
+					side="EAST";
+					vehicle="O_medic_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+					text="adac_3";
+					init="removeBackpack this; removeAllWeapons this;";
+					description="WhiteListed - Armee";
+				};
+				class Item8
+				{
+					position[]={8500.5166,106.2524,25135.252};
+					special="NONE";
+					id=273;
+					side="EAST";
+					vehicle="O_medic_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+					text="adac_6";
+					init="removeBackpack this; removeAllWeapons this;";
+					description="WhiteListed - Armee";
+				};
+				class Item9
+				{
+					position[]={8501.8613,106.00481,25127.004};
+					special="NONE";
+					id=274;
+					side="EAST";
+					vehicle="O_medic_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+					text="adac_7";
 					init="removeBackpack this; removeAllWeapons this;";
 					description="WhiteListed - Armee";
 				};
@@ -4230,203 +4347,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={8491.9766,107.47235,25136.496};
-					special="NONE";
-					id=266;
-					side="EAST";
-					vehicle="O_medic_F";
-					player="PLAY CDG";
-					leader=1;
-					skill=0.60000002;
-					text="adac_2";
-					init="removeBackpack this; removeAllWeapons this;";
-					description="WhiteListed - Armee";
-				};
-			};
-		};
-		class Item63
-		{
-			side="EAST";
-			class Vehicles
-			{
-				items=1;
-				class Item0
-				{
-					position[]={8497.5127,106.84089,25136.494};
-					special="NONE";
-					id=267;
-					side="EAST";
-					vehicle="O_medic_F";
-					player="PLAY CDG";
-					leader=1;
-					skill=0.60000002;
-					text="adac_3";
-					init="removeBackpack this; removeAllWeapons this;";
-					description="WhiteListed - Armee";
-				};
-			};
-		};
-		class Item64
-		{
-			side="EAST";
-			class Vehicles
-			{
-				items=1;
-				class Item0
-				{
-					position[]={8497.5117,106.31446,25130.17};
-					special="NONE";
-					id=268;
-					side="EAST";
-					vehicle="O_medic_F";
-					player="PLAY CDG";
-					leader=1;
-					skill=0.60000002;
-					text="adac_4";
-					init="removeBackpack this; removeAllWeapons this;";
-					description="WhiteListed - Armee";
-				};
-			};
-		};
-		class Item65
-		{
-			side="EAST";
-			class Vehicles
-			{
-				items=1;
-				class Item0
-				{
 					position[]={8494.3486,106.89876,25130.17};
-					special="NONE";
-					id=269;
-					side="EAST";
-					vehicle="O_medic_F";
-					player="PLAY CDG";
-					leader=1;
-					skill=0.60000002;
-					text="adac_5";
-				};
-			};
-		};
-		class Item66
-		{
-			side="EAST";
-			class Vehicles
-			{
-				items=1;
-				class Item0
-				{
-					position[]={8500.5166,106.2524,25135.252};
-					special="NONE";
-					id=270;
-					side="EAST";
-					vehicle="O_medic_F";
-					player="PLAY CDG";
-					leader=1;
-					skill=0.60000002;
-					text="adac_6";
-					init="removeBackpack this; removeAllWeapons this;";
-					description="WhiteListed - Armee";
-				};
-			};
-		};
-		class Item67
-		{
-			side="EAST";
-			class Vehicles
-			{
-				items=1;
-				class Item0
-				{
-					position[]={8501.8613,106.00481,25127.004};
-					special="NONE";
-					id=271;
-					side="EAST";
-					vehicle="O_medic_F";
-					player="PLAY CDG";
-					leader=1;
-					skill=0.60000002;
-					text="adac_7";
-					init="removeBackpack this; removeAllWeapons this;";
-					description="WhiteListed - Armee";
-				};
-			};
-		};
-		class Item68
-		{
-			side="EAST";
-			class Vehicles
-			{
-				items=1;
-				class Item0
-				{
-					position[]={8487.626,107.53894,25129.775};
-					special="NONE";
-					id=272;
-					side="EAST";
-					vehicle="O_medic_F";
-					player="PLAY CDG";
-					leader=1;
-					skill=0.60000002;
-					text="adac_8";
-					init="removeBackpack this; removeAllWeapons this;";
-					description="WhiteListed - Armee";
-				};
-			};
-		};
-		class Item69
-		{
-			side="EAST";
-			class Vehicles
-			{
-				items=1;
-				class Item0
-				{
-					position[]={8481.3008,108.1758,25128.986};
-					special="NONE";
-					id=273;
-					side="EAST";
-					vehicle="O_medic_F";
-					player="PLAY CDG";
-					leader=1;
-					skill=0.60000002;
-					text="adac_9";
-					init="removeBackpack this; removeAllWeapons this;";
-					description="WhiteListed - Armee";
-				};
-			};
-		};
-		class Item70
-		{
-			side="EAST";
-			class Vehicles
-			{
-				items=1;
-				class Item0
-				{
-					position[]={8494.3477,106.89893,25130.17};
-					special="NONE";
-					id=274;
-					side="EAST";
-					vehicle="O_medic_F";
-					player="PLAY CDG";
-					leader=1;
-					skill=0.60000002;
-					text="adac_10";
-					init="removeBackpack this; removeAllWeapons this;";
-					description="WhiteListed - Armee";
-				};
-			};
-		};
-		class Item71
-		{
-			side="EAST";
-			class Vehicles
-			{
-				items=1;
-				class Item0
-				{
-					position[]={8486.8359,107.55827,25135.309};
 					special="NONE";
 					id=275;
 					side="EAST";
@@ -4434,9 +4355,7 @@ class Mission
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
-					text="adac_11";
-					init="removeBackpack this; removeAllWeapons this;";
-					description="WhiteListed - Armee";
+					text="adac_5";
 				};
 			};
 		};
