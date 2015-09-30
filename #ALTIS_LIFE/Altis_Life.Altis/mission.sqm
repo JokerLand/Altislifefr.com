@@ -11934,9 +11934,8 @@ class Mission
 		};
 		class Item718
 		{
-			position[]={3816.8015,4.6590686,11117.819};
-			azimut=221.2061;
-			offsetY=0.30000001;
+			position[]={2715.1599,11.381552,9885.6836};
+			azimut=363.63571;
 			special="NONE";
 			id=994;
 			side="EMPTY";
@@ -21716,7 +21715,7 @@ class Mission
 		};
 		class Item175
 		{
-			position[]={3817.5862,4.6594248,11118.132};
+			position[]={2715.6594,11.385699,9887.2949};
 			name="process_vin";
 			text="Traitement de Vin";
 			type="mil_dot";
