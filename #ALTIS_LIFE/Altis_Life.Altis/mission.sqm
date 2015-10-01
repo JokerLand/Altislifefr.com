@@ -19353,7 +19353,7 @@ class Mission
 		};
 		class Item1361
 		{
-			position[]={14259.544,19.340883,16318.646};
+			position[]={14268.128,19.297714,16327.442};
 			azimut=271.54233;
 			special="NONE";
 			id=1638;
@@ -19365,7 +19365,7 @@ class Mission
 		};
 		class Item1362
 		{
-			position[]={14262.65,19.349844,16312.617};
+			position[]={14270.069,19.311014,16322.049};
 			azimut=963.74384;
 			special="NONE";
 			id=1639;
@@ -19542,7 +19542,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=407;
+		items=406;
 		class Item0
 		{
 			position[]={8459.6777,104.56568,25131.203};
@@ -22834,28 +22834,28 @@ class Mission
 		};
 		class Item400
 		{
-			position[]={14289.551,19.261972,16335.127};
+			position[]={14293.805,19.331446,16335.279};
 			name="air_altis_1";
 			type="Empty";
 			angle=170.86227;
 		};
 		class Item401
 		{
-			position[]={14289.563,19.265749,16334.991};
+			position[]={14293.817,19.33131,16335.293};
 			name="air_altis_1_2";
 			type="Empty";
 			angle=169.937;
 		};
 		class Item402
 		{
-			position[]={14289.365,19.261724,16335.021};
+			position[]={14294.075,19.334862,16335.325};
 			name="air_altis_2_1";
 			type="Empty";
 			angle=169.46718;
 		};
 		class Item403
 		{
-			position[]={14227.547,19.351286,16318.988};
+			position[]={14243.659,19.372051,16300.48};
 			name="air_altis";
 			text="Entreprise Air Altis";
 			type="c_plane";
@@ -22877,12 +22877,6 @@ class Mission
 			type="c_unknown";
 			colorName="ColorGreen";
 			angle=720.64984;
-		};
-		class Item406
-		{
-			position[]={14267.726,19.371965,16292.673};
-			name="Spawn_AA_1";
-			type="Empty";
 		};
 	};
 	class Sensors
