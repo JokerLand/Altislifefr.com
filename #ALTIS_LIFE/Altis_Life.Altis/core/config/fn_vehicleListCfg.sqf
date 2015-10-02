@@ -106,8 +106,8 @@ switch (_shop) do
 			["GeK_TLC100",100000];
 			_return pushBack
 			["GeK_TLC100_Police",150000];
-            
-	
+
+
 
 		if(__GETC__(life_adaclevel) > 1) then
 		{
@@ -134,7 +134,7 @@ switch (_shop) do
 
 		_return pushBack
 		["B_MRAP_01_F",1000000];
-		
+
 		};
 
 
@@ -161,7 +161,8 @@ switch (_shop) do
 				["A3L_Dumptruck",250000],
 				["B_Truck_01_covered_F",300000],
 				["ALFR_GeK_Scania_420",400000],
-				["ALFR_GeK_Volvo_FH16_2012",500000]
+				["ALFR_GeK_Volvo_FH16_2012",500000],
+				["GeK_Renault_Magnum",600000]
 			];
 	};
 
@@ -194,6 +195,7 @@ switch (_shop) do
 				["B_Truck_01_box_F",250000],
 				["ALFR_GeK_Scania_420",250000],
 				["ALFR_GeK_Volvo_FH16_2012",300000],
+				["GeK_Renault_Magnum",400000],
 				["cl3_veyron_wht_blu",270000],
                 ["ivory_lfa",300000],
 				["ALFR_GeK_Panamera",350000],
