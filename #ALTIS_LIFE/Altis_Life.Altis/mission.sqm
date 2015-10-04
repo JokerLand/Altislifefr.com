@@ -19805,7 +19805,7 @@ class Mission
 		};
 		class Item1417
 		{
-			position[]={14574.804,17.91,16707.566};
+			position[]={14566.52,17.91,16700.418};
 			azimut=44.785698;
 			id=1687;
 			side="EMPTY";
@@ -19814,7 +19814,7 @@ class Mission
 		};
 		class Item1418
 		{
-			position[]={14563.213,17.91,16696.98};
+			position[]={14554.929,17.91,16689.832};
 			azimut=44.785698;
 			id=1688;
 			side="EMPTY";
@@ -19823,7 +19823,7 @@ class Mission
 		};
 		class Item1419
 		{
-			position[]={14550.121,17.91,16685.555};
+			position[]={14541.837,17.911764,16678.406};
 			azimut=44.785698;
 			id=1689;
 			side="EMPTY";
@@ -20034,7 +20034,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=401;
+		items=402;
 		class Item0
 		{
 			position[]={8459.6777,104.56568,25131.203};
@@ -23326,6 +23326,13 @@ class Mission
 			text="Garage";
 			type="o_service";
 			angle=-311.08746;
+		};
+		class Item401
+		{
+			position[]={14617.484,17.91,16692.42};
+			name="air_g_1";
+			type="Empty";
+			angle=410.46701;
 		};
 	};
 	class Sensors
