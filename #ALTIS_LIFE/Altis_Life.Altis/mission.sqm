@@ -17623,7 +17623,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_InfoStand_V2_F";
 			skill=1;
-			init="removeallWeapons this;   this enableSimulation false;    this allowDamage false;   this addAction[""Quincaillerie"",life_fnc_weaponShopMenu,""genstore"",0,false,false,"""",'playerSide == east']; ";
+			init="removeallWeapons this;   this enableSimulation false;    this allowDamage false;   this addAction[""Quincaillerie"",life_fnc_weaponShopMenu,""arm"",0,false,false,"""",'playerSide == east']; ";
 		};
 		class Item1213
 		{

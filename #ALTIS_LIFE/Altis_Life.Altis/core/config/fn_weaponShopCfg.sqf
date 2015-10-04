@@ -66,6 +66,29 @@ switch(_shop) do
 		};
 	};
 
+        case "arm":
+        {
+                switch(true) do
+                {
+                        case (playerSide != east): {"Vous n'êtes pas de l'armée !"};
+                        default
+                        {
+                                ["Quincaillerie Armée",
+                                        [
+                                                ["ItemRadio","Telephone",500],
+                                                ["ItemCompass",nil,50],
+                                                ["ItemMap",nil,50],
+                                                ["ItemGPS",nil,150],
+                                                ["ToolKit",nil,250],
+                                                ["FirstAidKit",nil,150],
+                                                ["Medikit",nil,2000],
+                                                ["NVGoggles_OPFOR",nil,2500]
+                                        ]
+                                ];
+                        };
+                };
+        };
+
 	case "cop_recrue": //nouvelle reforme: coplvl 1 policier
 	{
 		switch(true) do
@@ -765,8 +788,8 @@ switch(_shop) do
 						["R3F_Famas_F1_HG_DES",nil,50000],
 						["R3F_PGM_Hecate_II_DES",nil,165000],
 						["R3F_7Rnd_127x99_PGM",nil,1300],
-						["arifle_MX_SW_Black_F",nil,100],						
-                        ["100Rnd_65x39_caseless_mag_Tracer",nil,1],		
+						["arifle_MX_SW_Black_F",nil,100],				
+                                                ["100Rnd_65x39_caseless_mag_Tracer",nil,1],		
 						["R3F_25Rnd_556x45_TRACER_FAMAS",nil,100],
 						["R3F_30Rnd_556x45_TRACER_FAMAS",nil,100],
 						["R3F_LAMPE_SURB_DES",nil,500],
