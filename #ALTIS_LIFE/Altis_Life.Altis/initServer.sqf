@@ -54,6 +54,6 @@ onMapSingleClick "if(_alt) then {vehicle player setPos _pos};";
 [] execVM "Base\AltisAirways.sqf";
 [] execVM "Base\Prison-ALFR.sqf";
 
-[] execVM "cleanup.sqf";
+//[] execVM "cleanup.sqf";
 
 [8,true,true,25] execFSM "core\fsm\timeModule.fsm";
