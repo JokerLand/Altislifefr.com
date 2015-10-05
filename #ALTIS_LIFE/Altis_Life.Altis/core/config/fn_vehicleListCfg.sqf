@@ -305,11 +305,7 @@ switch (_shop) do
 			["GNT_C185",500000],
 			["O_Heli_Light_02_unarmed_F",550000],
 			["I_Heli_Transport_02_F",1000000],
-			["B_Heli_Transport_03_unarmed_F",4500000],
-			["C_Heli_Light_01_civil_F",100000],
-			["O_Heli_Light_02_unarmed_F",300000]
-
-
+			["B_Heli_Transport_03_unarmed_F",4500000]
 		];
 	};
 
