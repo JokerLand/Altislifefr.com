@@ -145,6 +145,7 @@ switch (_shop) do
 			_return =
 			[
 				["C_Van_01_transport_F",40000],
+				["C_Van_01_Fuel_F",440000],
 				["GeK_Renault_Trafic",45000],
 				["cl3_transit_black",50000],
 				["C_Van_01_box_F",60000],
@@ -160,6 +161,7 @@ switch (_shop) do
 				["B_Truck_01_transport_F",200000],
 				["A3L_Dumptruck",250000],
 				["B_Truck_01_covered_F",300000],
+				["B_Truck_01_box_F",400000],
 				["ALFR_GeK_Scania_420",400000],
 				["ALFR_GeK_Volvo_FH16_2012",500000],
 				["GeK_Renault_Magnum",600000]
@@ -183,28 +185,18 @@ switch (_shop) do
 		{
 			_return =
 			[
-				["C_Offroad_01_F",2500],
-				["C_Van_01_Fuel_F",7500],
-				["C_SUV_01_F",15000],
 				["GeK_S60",15000],
-				["I_G_Offroad_01_F",45000],
 				["cl3_suv_taxi",50000],
 				/*["B_Heli_Light_01_F",100000],*/
-				["C_Heli_Light_01_civil_F",100000],
 				["cl3_suv_black",200000],
-				["B_Truck_01_box_F",250000],
 				["ALFR_GeK_Scania_420",250000],
 				["ALFR_GeK_Volvo_FH16_2012",300000],
 				["GeK_Renault_Magnum",400000],
 				["cl3_veyron_wht_blu",270000],
                 ["ivory_lfa",300000],
 				["ALFR_GeK_Panamera",350000],
-				["O_Truck_03_device_F",750000],
-				["O_Heli_Light_02_unarmed_F",300000],
                 ["GR_UH1H_1",400000],
                 ["ARMSCor_A109_Civ",500000],
-				["I_Heli_Transport_02_F",600000],
-				["B_Heli_Transport_03_unarmed_F",4500000],
 		        ["CL3_bus_cl_black",100000],
 		        ["cl3_xr_1000_black",250000],
 		        ["wirk_ktm",125000],
@@ -228,6 +220,7 @@ switch (_shop) do
 			["cl3_e63_amg_camo",300000],
 			["cl3_range_rover_camo",400000],
 			["GeK_Mercedes_ML63_Rebelle",1250000],
+			["O_Truck_03_device_F",1000000],
 			["O_Truck_03_transport_F",1000000],
 			["O_Truck_03_covered_F",1350000],
 			["O_Truck_03_ammo_F",1500000],
@@ -310,7 +303,11 @@ switch (_shop) do
 			/*["B_Heli_Light_01_F",153000],*/
 			["C_Heli_Light_01_civil_F",153000],
 			["GNT_C185",500000],
-			["O_Heli_Light_02_unarmed_F",550000]
+			["O_Heli_Light_02_unarmed_F",550000],
+			["I_Heli_Transport_02_F",1000000],
+			["B_Heli_Transport_03_unarmed_F",4500000],
+			["C_Heli_Light_01_civil_F",100000],
+			["O_Heli_Light_02_unarmed_F",300000]
 
 
 		];
