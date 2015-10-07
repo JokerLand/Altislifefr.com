@@ -356,6 +356,8 @@ class Life_Client_Core
 		file = "core\adac";
 		class adacLoadout {};
 		class adacMarkers {};
+		class adacInteractionMenu {};
+		class adacEnter {};
 	};
 	
 	class Gangs
