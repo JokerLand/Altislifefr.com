@@ -17,16 +17,16 @@ _veh2 = createVehicle ["ALFR_GeK_MF1",[14628.479,16640.098,0],[],0,"CAN_COLLIDE"
 	_veh2 setPosATL [14628.479,16640.098,0.2];
 	_veh2 setVehicleLock "LOCKED";
 	_veh2 enableSimulation false; _veh2 allowDamage false;
-_veh3 = createVehicle ["ALFR_GeK_Pagani_Zonda",[14606.367,16621.18,0],[],0,"CAN_COLLIDE"];
+_veh3 = createVehicle ["ALFR_GeK_Pagani_Zonda",[14604.119,16622.918,0],[],0,"CAN_COLLIDE"];
 		_veh3 setFormDir 357.214365;
 		_veh3 setDir 357.214365;
-	_veh3 setPosATL [14606.367,16621.18,0.1];
+	_veh3 setPosATL [14604.119,16622.918,0.1];
 	_veh3 setVehicleLock "LOCKED";
 	_veh3 enableSimulation false; _veh3 allowDamage false;
-_veh4 = createVehicle ["ALFR_GeK_Panamera_Police_ST",[14609.684,16622.852,0],[],0,"CAN_COLLIDE"];
+_veh4 = createVehicle ["ALFR_GeK_Panamera_Police_ST",[14607.436,16624.59,0],[],0,"CAN_COLLIDE"];
 		_veh4 setFormDir 356.3283577;
 		_veh4 setDir 356.3283577;
-	_veh4 setPosATL [14609.684,16622.852,0.1];
+	_veh4 setPosATL [14607.436,16624.59,0.1];
 	_veh4 setVehicleLock "LOCKED";
 	_veh4 enableSimulation false; _veh4 allowDamage false;
 _veh5 = createVehicle ["GeK_Mercedes_ML63",[14592.026,16634.898,0],[],0,"CAN_COLLIDE"];
@@ -41,10 +41,10 @@ _veh6 = createVehicle ["ALFR_GeK_Volvo_FH16_2012",[14592.784,16623.516,0],[],0,"
 	_veh6 setPosATL [14592.784,16623.516,0.2];
 	_veh6 setVehicleLock "LOCKED";
 	_veh6 enableSimulation false; _veh6 allowDamage false;
-_veh7 = createVehicle ["wirk_ferrari_california",[14602.792,16619.867,0],[],0,"CAN_COLLIDE"];
+_veh7 = createVehicle ["wirk_ferrari_california",[14600.544,16621.605,0],[],0,"CAN_COLLIDE"];
 		_veh7 setFormDir 357.0611982;
 		_veh7 setDir 357.0611982;
-	_veh7 setPosATL [14602.792,16619.867,0.1];
+	_veh7 setPosATL [14600.544,16621.605,0.1];
 	_veh7 setVehicleLock "LOCKED";
 	_veh7 enableSimulation false; _veh7 allowDamage false;
 
