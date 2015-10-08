@@ -1,22 +1,7 @@
 // Created by SMC v2.1.3 (for Arma 3)
 // 10/08/15 12:25:36
 
-// --Markers--
-createMarker ["safezone_reb_1",[23561.039,21120.795,90.542999]];
-	"safezone_reb_1" setMarkerShape "ELLIPSE";
-	"safezone_reb_1" setMarkerSize [300,300];
-	"safezone_reb_1" setMarkerColor "ColorGreen";
-	"safezone_reb_1" setMarkerText "Avant - Poste Rebelle - SafeZone";
 // --Vehicles/Objects--
-_veh0 = createVehicle ["Land_InfoStand_V2_F",[23449.078,21153.004,0],[],0,"NONE"];
-		_veh0 setFormDir 288.49802;
-		_veh0 setDir 288.49802;
-	_veh0 enableSimulation false; _veh0 allowDamage false; _veh0 addAction["Vehicle Garage",  {   [[getPlayerUID player,playerSide,"Car",player],"TON_fnc_getVehicles",false,false] spawn life_fnc_MP; life_garage_type = "Car";  createDialog "Life_impound_menu";   disableSerialization;   ctrlSetText[2802,"Fetching Vehicles...."];   life_garage_sp = "car_g_6";  }]; _veh0 addAction["Store vehicle in Garage",life_fnc_storeVehicle,"",0,false,false,"",'!life_garage_store'];
-pub_1_1 = createVehicle ["Land_Noticeboard_F",[23449.227,21154.172,0],[],0,"CAN_COLLIDE"];
-	pub_1_1 setVehicleVarName "pub_1_1";
-		pub_1_1 setFormDir 287.38745;
-		pub_1_1 setDir 287.38745;
-	pub_1_1 enableSimulation false;  pub_1_1 allowDamage false; pub_1_1 setObjectTexture [0, "ALFR_ImgPnj\GarageRebelle.jpg"];
 _veh2 = createVehicle ["Land_Cargo_House_V1_F",[23549.973,21161.586,0],[],0,"NONE"];
 		_veh2 setFormDir 55.87396;
 		_veh2 setDir 55.87396;
