@@ -47,6 +47,18 @@ _veh7 = createVehicle ["wirk_ferrari_california",[14600.544,16621.605,0],[],0,"C
 	_veh7 setPosATL [14600.544,16621.605,0.1];
 	_veh7 setVehicleLock "LOCKED";
 	_veh7 enableSimulation false; _veh7 allowDamage false;
+_veh8 = createVehicle ["ARP_Objects_rack",[14606.033,16653.375,0],[],0,"NONE"];
+		_veh8 setFormDir 315.495;
+		_veh8 setDir 315.495;
+_veh9 = createVehicle ["ARP_Objects_rack",[14605.443,16652.813,0],[],0,"NONE"];
+		_veh9 setFormDir 315.495;
+		_veh9 setDir 315.495;
+_veh10 = createVehicle ["ARP_Objects_rack",[14604.237,16651.691,0],[],0,"NONE"];
+		_veh10 setFormDir 315.495;
+		_veh10 setDir 315.495;
+_veh11 = createVehicle ["ARP_Objects_rack",[14603.539,16651.016,0],[],0,"NONE"];
+		_veh11 setFormDir 315.495;
+		_veh11 setDir 315.495;
 
 _obj = objNull;_dat = [];_adString = "CAN_COLLIDE";
 _cString = {_obj = createVehicle [(_dat select 0), call compile (_dat select 1), [], 0, _adString];if((_dat select 4) == 0) then {_obj enableSimulation false};_obj setdir (_dat select 2);if((_dat select 3) == -100) then {_obj setposATL (call compile (_dat select 1))} else {_obj setposASL [((call compile (_dat select 1)) select 0),((call compile (_dat select 1)) select 1),(_dat select 3)]};if((_dat select 5) == 0) then {_obj setVectorUp [0,0,1]} else {_obj setVectorUp (surfacenormal (getPosATL _obj))};if(count (_dat select 6) > 0) then {{call _x} foreach (_dat select 6)};if(count _dat > 7) then {if (_dat select 7 == 1) then {_obj allowDamage false;} else {_obj allowDamage true;};};};
