@@ -4,7 +4,7 @@
 	
 	Description:
 	Replaces the mass addactions for various vehicle actions
-*/
+
 #define Btn1 37450
 #define Btn2 37451
 #define Btn3 37452
@@ -73,3 +73,5 @@ if(playerSide == east) then {
 		};
 	};
 };
+
+*/
