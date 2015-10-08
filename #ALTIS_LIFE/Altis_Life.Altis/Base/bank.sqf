@@ -512,11 +512,6 @@ _veh85 = createVehicle ["ARP_Objects_servermain2",[9417.6074,15877.386,0],[],0,"
 	_veh85 setPosATL [9417.6074,15877.386,0.5];
 	_veh85 setVehicleLock "LOCKEDPLAYER";
 	_veh85 enableSimulation False; _veh85 allowDamage false;
-_veh86 = createVehicle ["GeK_Coffre",[9416.6855,15880.908,0],[],0,"CAN_COLLIDE"];
-		_veh86 setFormDir 341.38599;
-		_veh86 setDir 341.38599;
-	_veh86 setPosATL [9416.6855,15880.908,0.5];
-	_veh86 setVectorUp [0,0,1];_veh86 addAction["Braquer le Coffre",life_fnc_robBank];
 _veh87 = createVehicle ["Land_LampStreet_F",[9397.791,15891.548,0],[],0,"CAN_COLLIDE"];
 		_veh87 setFormDir 341.615107;
 		_veh87 setDir 341.615107;
@@ -538,11 +533,6 @@ _veh91 = createVehicle ["ARP_Objects_printer",[9413.7813,15880.519,0],[],0,"CAN_
 		_veh91 setDir 74.80499;
 	_veh91 setPosATL [9413.7813,15880.519,0.5];
 	_veh91 setVehicleLock "LOCKEDPLAYER";
-_veh92 = createVehicle ["Land_HelipadEmpty_F",[9415.7793,15867.071,0],[],0,"CAN_COLLIDE"];
-		_veh92 setFormDir 341.221951;
-		_veh92 setDir 341.221951;
-	_veh92 setVehicleLock "LOCKEDPLAYER";
-	_veh92 allowDamage false; _veh92 enableSimulation false; (getPos _veh92 nearestObject 654789) setDamage 1; delh = [0,0,0] nearestObject 654766; delh hideObject true; delh = [0,0,0] nearestObject 654771; delh hideObject true; delh = [0,0,0] nearestObject 654772; delh hideObject true; delh = [0,0,0] nearestObject 654842; delh hideObject true; delh = [0,0,0] nearestObject 654843; delh hideObject true; delh = [0,0,0] nearestObject 654857; delh hideObject true; delh = [0,0,0] nearestObject 654836; delh hideObject true; (getPos _veh92 nearestObject 654788) setDamage 1;  (getPos _veh92 nearestObject 654787) setDamage 1;  (getPos _veh92 nearestObject 654726) setDamage 1;  (getPos _veh92 nearestObject 654819) setDamage 1;  (getPos _veh92 nearestObject 654825) setDamage 1;  (getPos _veh92 nearestObject 654826) setDamage 1;  (getPos _veh92 nearestObject 654827) setDamage 1;  (getPos _veh92 nearestObject 654822) setDamage 1;
 // --Units--
 _group0 = createGroup civilian;
 	banquier_001 = _group0 createUnit ["RDS_Functionary2",[9406.8018,15882.527,0],[],0,"FORM"];
