@@ -11905,8 +11905,7 @@ class Mission
 		class Item810
 		{
 			position[]={23478.574,92.187782,21111.807};
-			azimut=179.84735;
-			offsetY=1.3;
+			azimut=179.847;
 			special="NONE";
 			id=1010;
 			side="EMPTY";
@@ -11918,8 +11917,7 @@ class Mission
 		class Item811
 		{
 			position[]={23485,92.441772,21112.256};
-			azimut=540.67841;
-			offsetY=1;
+			azimut=540.67798;
 			special="NONE";
 			id=1011;
 			side="EMPTY";
@@ -16075,8 +16073,7 @@ class Mission
 		class Item1169
 		{
 			position[]={23479.635,92.270508,21111.596};
-			azimut=-180.83234;
-			offsetY=1.5;
+			azimut=-180.832;
 			id=1369;
 			side="EMPTY";
 			vehicle="Land_Noticeboard_F";
@@ -16098,8 +16095,7 @@ class Mission
 		class Item1171
 		{
 			position[]={23486.061,92.472816,21112.051};
-			azimut=178.33318;
-			offsetY=0.89999998;
+			azimut=178.33299;
 			id=1371;
 			side="EMPTY";
 			vehicle="Land_Noticeboard_F";
