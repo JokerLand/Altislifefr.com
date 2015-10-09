@@ -116,9 +116,12 @@ if(playerSide == west) then {
 	_Btn6 ctrlShow false;
 };
 
-if (playerSide == east) {
-	
+if(playerSide == east) then {
+
+
+	_Btn4 ctrlShow true;
 	_Btn4 ctrlSetText localize "STR_vInAct_PullOut";
 	_Btn4 buttonSetAction "[life_vInact_curTarget] spawn life_fnc_pulloutAction;";
 	if(count crew _curTarget == 0) then {_Btn4 ctrlEnable false;};
-}
+};
+
