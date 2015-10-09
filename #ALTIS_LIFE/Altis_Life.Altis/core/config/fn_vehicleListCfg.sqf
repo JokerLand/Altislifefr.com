@@ -93,7 +93,13 @@ switch (_shop) do
 			["cl3_lamborghini_gt1_black",1000000],
 			["ALFR_GeK_MF1",1500000],
             ["AudiA8_Limo",300000],
-            ["cl3_arielatom_black",250000]
+            ["cl3_arielatom_black",250000],
+            ["cl3_veyron_wht_blu",270000],
+            ["CL3_bus_cl_black",100000],
+		    ["cl3_xr_1000_black",250000],
+		    ["ALFR_GeK_Panamera",350000],
+		    ["GeK_Civilian_H1",200000],
+		    ["ALFR_GeK_Pagani_Zonda", 2500000]
 		];
 	};
 
