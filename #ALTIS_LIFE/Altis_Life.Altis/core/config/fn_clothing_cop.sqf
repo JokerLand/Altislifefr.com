@@ -100,6 +100,7 @@ switch (_filter) do
 		[
 			["V_TacVest_blk_POLICE",nil,500],
 			["V_Police_light","Gilet Police",1000],
+            ["V_Police_heavy","Gilet Police2",1000],
 			["V_RebreatherB",nil,5000]
 		];
 	};

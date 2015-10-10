@@ -162,6 +162,8 @@ switch(_shop) do
                         ["FHQ_M4A1_M203_BLK",nil,10000],
                         ["arifle_Sam_g36c_F",nil,10000],
                         ["30Rnd_556x45_Stanag",nil,70],
+                        ["R3F_HK416M_HG",nil,12500],
+                        ["R3F_30Rnd_556x45_TRACER_HK416",nil,70],
 						//Brigadier-Chef
                         ["wirk_acwr","ACW-R (Brigadier-Chef)",10000],
                         ["wirk_acwr_mag",nil,100],
@@ -214,6 +216,8 @@ switch(_shop) do
                         ["FHQ_M4A1_M203_BLK",nil,10000],
                         ["arifle_Sam_g36c_F",nil,10000],
                         ["30Rnd_556x45_Stanag",nil,70],
+                        ["R3F_HK416M_HG",nil,12500],
+                        ["R3F_30Rnd_556x45_TRACER_HK416",nil,70],
 						//Brigadier-Chef
                         ["wirk_acwr",nil,10000],
                         ["wirk_acwr_mag",nil,100],
@@ -235,7 +239,7 @@ switch(_shop) do
                         ["optic_LRPS",nil,30000],
 			            ["optic_DMS",nil,25000],
 			            //Adj-Chef
-			            ["R3F_HK417L","HK-417 (Adjudant-Chef)",10000],
+			            ["R3F_HK417L",nil,10000],
 			            ["R3F_20Rnd_762x51_TRACER_HK417",nil,90],
                         ["Trixie_M40A3_Clean","M40A3 (Adjudant-Chef)",10000],
                         ["Trixie_5x762_Mag",nil,100],
@@ -285,6 +289,8 @@ switch(_shop) do
                         ["FHQ_M4A1_M203_BLK",nil,10000],
                         ["arifle_Sam_g36c_F",nil,10000],
                         ["30Rnd_556x45_Stanag",nil,70],
+                        ["R3F_HK416M_HG",nil,12500],
+                        ["R3F_30Rnd_556x45_TRACER_HK416",nil,70],
 						//Brigadier-Chef
                         ["wirk_acwr",nil,10000],
                         ["wirk_acwr_mag",nil,100],
@@ -364,6 +370,8 @@ switch(_shop) do
                         ["FHQ_M4A1_M203_BLK",nil,10000],
                         ["arifle_Sam_g36c_F",nil,10000],
                         ["30Rnd_556x45_Stanag",nil,70],
+                        ["R3F_HK416M_HG",nil,12500],
+                        ["R3F_30Rnd_556x45_TRACER_HK416",nil,70],
 						//Brigadier-Chef
                         ["wirk_acwr",nil,10000],
                         ["wirk_acwr_mag",nil,100],
@@ -450,6 +458,8 @@ switch(_shop) do
                         ["FHQ_M4A1_M203_BLK",nil,10000],
                         ["arifle_Sam_g36c_F",nil,10000],
                         ["30Rnd_556x45_Stanag",nil,70],
+                        ["R3F_HK416M_HG",nil,12500],
+                        ["R3F_30Rnd_556x45_TRACER_HK416",nil,70],
 						//Brigadier-Chef
                         ["wirk_acwr",nil,10000],
                         ["wirk_acwr_mag",nil,100],
@@ -539,6 +549,8 @@ switch(_shop) do
                         ["FHQ_M4A1_M203_BLK",nil,10000],
                         ["arifle_Sam_g36c_F",nil,10000],
                         ["30Rnd_556x45_Stanag",nil,70],
+                        ["R3F_HK416M_HG",nil,12500],
+                        ["R3F_30Rnd_556x45_TRACER_HK416",nil,70],
 						//Brigadier-Chef
                         ["wirk_acwr",nil,10000],
                         ["wirk_acwr_mag",nil,100],
