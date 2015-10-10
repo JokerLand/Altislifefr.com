@@ -68,6 +68,7 @@ switch (_mode) do
 			case "storagebig": {"life_inv_storagebig"};
 			case "barriere": {"life_inv_barriere"};
 			case "cone": {"life_inv_cone"};
+            case "glissiere": {"life_inv_glissiere"};
 			case "methu": {"life_inv_methu"};
 			case "methp": {"life_inv_methp"};
 			case "moonshine": {"life_inv_moonshine"};
@@ -150,6 +151,7 @@ switch (_mode) do
 			case "life_inv_storagebig": {"storagebig"};
 			case "life_inv_barriere": {"barriere"};
 			case "life_inv_cone": {"cone"};
+            case "life_inv_glissiere": {"glissiere"};
 			case "life_inv_methu": {"methu"};
 			case "life_inv_methp": {"methp"};
 			case "life_inv_moonshine": {"moonshine"};

@@ -124,6 +124,7 @@ class Life_Client_Core
 		class packupSpikes {};
 		class packupBarriere {};
 		class packupCone {};
+        class glissiere {};
 		class storeVehicle {};
 		class robAction {};
 		class captureHideout {};
@@ -415,6 +416,7 @@ class Life_Client_Core
 		class storageBox {};
 		class barriere {};
 		class cone {};
+        class glissiere {};
 		class weed {};
 		class alcool {};
 		class heroine {};

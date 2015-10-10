@@ -64,6 +64,7 @@ switch (_var) do
 	case "life_inv_storagebig": {(localize "STR_Item_StorageBL")};
 	case "life_inv_barriere": {"Barrière"};
 	case "life_inv_cone": {"Cône"};
+    case "life_inv_glissiere": {"Glissière"};
 	case "life_inv_moonshine": {"MoonShine"};
 	case "life_inv_vodka": {"Vin"};
 	case "life_inv_grapes": {"Raisin"};

@@ -117,6 +117,15 @@ switch (true) do
 			[] spawn life_fnc_cone;
 		};
 	};
+    
+    case (_item == "glissiere"):
+	{
+		if(!isNull life_glissiere) exitWith {hint "Vous deployez déjà une glissière."};
+		if(([false,_item,1] call life_fnc_handleInv)) then
+		{
+			[] spawn life_fnc_glissiere;
+		};
+	};
 	
 	case (_item == "marijuana"):
 	{

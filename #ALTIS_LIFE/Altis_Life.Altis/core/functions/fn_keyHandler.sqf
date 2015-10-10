@@ -108,9 +108,10 @@ switch (_code) do
 	{
 		if (playerSide != west) then {} else
 		{
-			if((_player distance _barriere < 8) || (_player distance _cone < 8) || (_player distance _herse < 8)) then
+			if((_player distance _barriere < 8) || (_player distance _cone < 8) || (_player distance _glissiere < 8) || (_player distance _herse < 8)) then
 			{
 				deleteVehicle _cone;
+                deleteVehicle _glissiere;
 				deleteVehicle _barriere;
 				deleteVehicle _herse;
 				cutText [format["Vous avez supprimé cet/ces objet(s)."], "PLAIN DOWN"];
