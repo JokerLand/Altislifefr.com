@@ -124,7 +124,7 @@ class Life_Client_Core
 		class packupSpikes {};
 		class packupBarriere {};
 		class packupCone {};
-        class glissiere {};
+        class packupGlissiere {};
 		class storeVehicle {};
 		class robAction {};
 		class captureHideout {};
