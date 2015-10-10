@@ -36,9 +36,9 @@ switch (playerSide) do
 
 		//Reprendre des glissieres
 		life_actions = life_actions + [player addAction["Reprendre la glissière",life_fnc_packupGlissiere,"",0,false,false,"",
-		' _barriere = nearestObjects[getPos player,["Land_Mil_ConcreteWall_F"],8] select 0; !isNil "_glissiere" && !isNil {(_glissiere getVariable "item")}']];
+		' _glissiere = nearestObjects[getPos player,["Land_Mil_ConcreteWall_F"],8] select 0; !isNil "_glissiere" && !isNil {(_glissiere getVariable "item")}']];
 		life_actions = life_actions + [player addAction["Reprendre la glissière",life_fnc_pickupItem,"",0,false,false,"",
-		' !isNull cursorTarget && (typeOf cursorTarget) == "Land_Suitcase_F" && ((cursorTarget getVariable "item") select 0) == "barriere" && (player distance cursorTarget) < 3 ']];
+		' !isNull cursorTarget && (typeOf cursorTarget) == "Land_Suitcase_F" && ((cursorTarget getVariable "item") select 0) == "glissiere" && (player distance cursorTarget) < 3 ']];
 
 		//Saisir Objets
 		life_actions = life_actions + [player addAction["Saisir objets",life_fnc_seizeObjects,cursorTarget,0,false,false,"",'((count(nearestObjects [player,["WeaponHolder"],3])>0) || (count(nearestObjects [player,["GroundWeaponHolder"],3])>0) || (count(nearestObjects [player,["WeaponHolderSimulated"],3])>0))']];
