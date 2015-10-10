@@ -108,10 +108,9 @@ switch (_code) do
 	{
 		if (playerSide != west) then {} else
 		{
-			if((_player distance _barriere < 8) || (_player distance _cone < 8) || (_player distance _glissiere < 8) || (_player distance _herse < 8)) then
+			if((_player distance _barriere < 8) || (_player distance _cone < 8) || (_player distance _herse < 8)) then
 			{
 				deleteVehicle _cone;
-                deleteVehicle _glissiere;
 				deleteVehicle _barriere;
 				deleteVehicle _herse;
 				cutText [format["Vous avez supprimé cet/ces objet(s)."], "PLAIN DOWN"];
@@ -246,7 +245,7 @@ switch (_code) do
             };
         };
     };
-	
+/*	
 	//Report ALT-F4
 	case 62:
     {
@@ -269,7 +268,7 @@ switch (_code) do
     [[1,format["Anti-Cheat: %1 utilise CTRL + ESC pour se deconnecter (Merci de le report aux Admins)",player getVariable["realname",name player]]],"life_fnc_broadcast",nil,false] spawn life_fnc_MP;
     };
     };
-	
+*/	
 	//T Key (Trunk)
 	case 20:
 	{
