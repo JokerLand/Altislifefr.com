@@ -17,5 +17,4 @@ waitUntil {isNull life_glissiere};
 
 if(isNull _glissiere) exitWith {life_glissiere = ObjNull;};
 _glissiere setPos [(getPos _glissiere select 0),(getPos _glissiere select 1),0];
-_glissiere enableSimulation false;
 _glissiere allowDamage false;
