@@ -56,4 +56,4 @@ onMapSingleClick "if(_alt) then {vehicle player setPos _pos};";
 
 //[] execVM "cleanup.sqf";
 
-[8,true,true,25] execFSM "core\fsm\timeModule.fsm";
+[16,true,true,16] execFSM "core\fsm\timeModule.fsm";
