@@ -14,7 +14,7 @@ if (vehicle player == player) exitWith {
 
 DtruckPlayerVeh = vehicle player;
 
-if(!(typeOf DtruckPlayerVeh in ["C_Van_01_transport_F","cl3_transit_black","C_Van_01_box_F","C_Van_01_Fuel_F","I_Truck_02_transport_F","I_Truck_02_covered_F","B_Truck_01_transport_F","A3L_Dumptruck","B_Truck_01_covered_F","B_Truck_01_box_F","ALFR_GeK_Scania_420","ALFR_GeK_Volvo_FH16_2012"])) exitWith {
+if(!(typeOf DtruckPlayerVeh in ["C_Van_01_transport_F","cl3_transit_black","GeK_Renault_Trafic","C_Van_01_box_F","C_Van_01_Fuel_F","I_Truck_02_transport_F","I_Truck_02_covered_F","B_Truck_01_transport_F","A3L_Dumptruck","B_Truck_01_covered_F","B_Truck_01_box_F","ALFR_GeK_Scania_420","ALFR_GeK_Volvo_FH16_2012","GeK_Renault_Magnum"])) exitWith {
   hint format["Vous devez avoir un vehicule de transport (Camionnette ou Camion) pour ce type de livraison"];
 };
 
