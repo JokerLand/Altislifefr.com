@@ -39,6 +39,15 @@ switch (playerSide) do
 		' _glissiere = nearestObjects[getPos player,["Land_Mil_ConcreteWall_F"],8] select 0; !isNil "_glissiere" && !isNil {(_glissiere getVariable "item")}']];
 		life_actions = life_actions + [player addAction["Reprendre la glissière",life_fnc_pickupItem,"",0,false,false,"",
 		' !isNull cursorTarget && (typeOf cursorTarget) == "Land_Suitcase_F" && ((cursorTarget getVariable "item") select 0) == "glissiere" && (player distance cursorTarget) < 3 ']];
+        
+        //Place barstop
+		life_actions = life_actions + [player addAction["Placer la barstop",{if(!isNull life_barstop) then {detach life_barstop; life_barstop = ObjNull;};},"",999,false,false,"",'!isNull life_barstop']];
+
+		//Reprendre des barstops
+		life_actions = life_actions + [player addAction["Reprendre la barstop",life_fnc_packupBarstop,"",0,false,false,"",
+		' _barstop = nearestObjects[getPos player,["Land_BarGate_F"],8] select 0; !isNil "_barstop" && !isNil {(_barstop getVariable "item")}']];
+		life_actions = life_actions + [player addAction["Reprendre la barstop",life_fnc_pickupItem,"",0,false,false,"",
+		' !isNull cursorTarget && (typeOf cursorTarget) == "Land_Suitcase_F" && ((cursorTarget getVariable "item") select 0) == "barstop" && (player distance cursorTarget) < 3 ']];
 
 		//Saisir Objets
 		life_actions = life_actions + [player addAction["Saisir objets",life_fnc_seizeObjects,cursorTarget,0,false,false,"",'((count(nearestObjects [player,["WeaponHolder"],3])>0) || (count(nearestObjects [player,["GroundWeaponHolder"],3])>0) || (count(nearestObjects [player,["WeaponHolderSimulated"],3])>0))']];

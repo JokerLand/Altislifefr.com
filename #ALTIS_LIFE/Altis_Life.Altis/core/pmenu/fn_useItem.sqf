@@ -126,6 +126,15 @@ switch (true) do
 			[] spawn life_fnc_glissiere;
 		};
 	};
+    
+    case (_item == "barstop"):
+	{
+		if(!isNull life_barstop) exitWith {hint "Vous deployez déjà une barstop."};
+		if(([false,_item,1] call life_fnc_handleInv)) then
+		{
+			[] spawn life_fnc_barstop;
+		};
+	};
 	
 	case (_item == "marijuana"):
 	{

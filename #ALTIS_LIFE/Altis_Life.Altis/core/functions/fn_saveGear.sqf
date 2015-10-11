@@ -175,6 +175,7 @@ if(count (handGunItems player) > 0) then
 	["life_inv_barriere", life_inv_barriere],
 	["life_inv_cone", life_inv_cone],
     ["life_inv_glissiere", life_inv_glissiere],
+    ["life_inv_barstop", life_inv_barstop],
 	["life_inv_crowbar", life_inv_crowbar],
 	["life_inv_menotte", life_inv_menotte],
 	["life_inv_beer", life_inv_beer],
