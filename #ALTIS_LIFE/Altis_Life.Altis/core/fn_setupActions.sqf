@@ -48,6 +48,16 @@ switch (playerSide) do
 		' _barstop = nearestObjects[getPos player,["Land_BarGate_F"],8] select 0; !isNil "_barstop" && !isNil {(_barstop getVariable "item")}']];
 		life_actions = life_actions + [player addAction["Reprendre la barstop",life_fnc_pickupItem,"",0,false,false,"",
 		' !isNull cursorTarget && (typeOf cursorTarget) == "Land_Suitcase_F" && ((cursorTarget getVariable "item") select 0) == "barstop" && (player distance cursorTarget) < 3 ']];
+        
+        //Place lightd
+		life_actions = life_actions + [player addAction["Placer la lightd",{if(!isNull life_lightd) then {detach life_lightd; life_lightd = ObjNull;};},"",999,false,false,"",'!isNull life_lightd']];
+
+		//Reprendre des lightd
+		life_actions = life_actions + [player addAction["Reprendre la lightd",life_fnc_packupLightd,"",0,false,false,"",
+		' _lightd = nearestObjects[getPos player,["Land_PortableLight_double_F"],8] select 0; !isNil "_lightd" && !isNil {(_lightd getVariable "item")}']];
+		life_actions = life_actions + [player addAction["Reprendre la lightd",life_fnc_pickupItem,"",0,false,false,"",
+		' !isNull cursorTarget && (typeOf cursorTarget) == "Land_Suitcase_F" && ((cursorTarget getVariable "item") select 0) == "lightd" && (player distance cursorTarget) < 3 ']];
+
 
 		//Saisir Objets
 		life_actions = life_actions + [player addAction["Saisir objets",life_fnc_seizeObjects,cursorTarget,0,false,false,"",'((count(nearestObjects [player,["WeaponHolder"],3])>0) || (count(nearestObjects [player,["GroundWeaponHolder"],3])>0) || (count(nearestObjects [player,["WeaponHolderSimulated"],3])>0))']];

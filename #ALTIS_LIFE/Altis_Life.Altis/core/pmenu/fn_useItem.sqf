@@ -135,6 +135,15 @@ switch (true) do
 			[] spawn life_fnc_barstop;
 		};
 	};
+    
+    case (_item == "lightd"):
+	{
+		if(!isNull life_lightd) exitWith {hint "Vous deployez déjà une lightd."};
+		if(([false,_item,1] call life_fnc_handleInv)) then
+		{
+			[] spawn life_fnc_lightd;
+		};
+	};
 	
 	case (_item == "marijuana"):
 	{

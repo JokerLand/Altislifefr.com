@@ -73,6 +73,7 @@ switch (_item) do
 	case "cone": {1};
     case "glissiere": {1};
     case "barstop": {1};
+    case "lightd"; {1};
 	case "goldbar": {12};
 	case "blastingcharge": {15};
 	case "boltcutter": {5};
