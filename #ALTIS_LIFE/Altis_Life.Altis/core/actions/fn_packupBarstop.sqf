@@ -14,5 +14,5 @@ if(([true,"barstop",1] call life_fnc_handleInv)) then
 {
 	titleText["Vous avez ramassé votre barstop.","PLAIN"];
 	playSound "bag";
-	deleteVehicle _glissiere;
+	deleteVehicle _barstop;
 };
