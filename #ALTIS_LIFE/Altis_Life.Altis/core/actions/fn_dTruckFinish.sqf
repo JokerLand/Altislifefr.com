@@ -26,14 +26,16 @@ _price = switch (_vehName) do {
 	case "cl3_transit_black": { "18750" };
 	case "C_Van_01_box_F": { "25000" };
 	case "C_Van_01_Fuel_F": { "31250" };
+	case "GeK_Renault_Trafic": { "35000" };
 	case "I_Truck_02_transport_F": { "37500" };
 	case "I_Truck_02_covered_F": { "43750" };
 	case "B_Truck_01_transport_F": { "50000" };
 	case "A3L_Dumptruck": { "56250" };
 	case "B_Truck_01_covered_F": { "62500" };
 	case "B_Truck_01_box_F": { "68750" };
-    case "ALFR_GeK_Scania_420": { "68750" };
+        case "ALFR_GeK_Scania_420": { "68750" };
 	case "ALFR_GeK_Volvo_FH16_2012": { "75000" };
+	case "GeK_Renault_Magnum": { "100000" };
 };
 
 _price = parseNumber _price;
