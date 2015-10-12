@@ -50,6 +50,7 @@ onMapSingleClick "if(_alt) then {vehicle player setPos _pos};";
 [] execVM "Base\Discotheque.sqf";
 [] execVM "Base\LaboMeth.sqf";
 [] execVM "Base\Ncasino09.sqf";
+[] execVM "Base\PecheKavala.sqf";
 [] execVM "Base\Poste_de_controle_routier.sqf";
 [] execVM "Base\Park_Kavala.sqf";
 [] execVM "Base\Prison-ALFR.sqf";
