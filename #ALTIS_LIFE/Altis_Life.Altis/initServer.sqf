@@ -40,6 +40,7 @@ onMapSingleClick "if(_alt) then {vehicle player setPos _pos};";
 [] execVM "Base\Base-16.sqf";
 [] execVM "Base\AirportDonateur.sqf";
 [] execVM "Base\AltisAirways.sqf";
+[] execVM "Base\Banque.sqf"
 [] execVM "Base\BaseArmee.sqf";
 [] execVM "Base\Bijouterie.sqf";
 [] execVM "Base\campRebelle.sqf";
