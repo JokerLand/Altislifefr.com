@@ -3,6 +3,8 @@ private ["_obj","_dat","_cString","_adString"];
 _obj = objNull;_dat = [];_adString = "CAN_COLLIDE";
 _cString = {_obj = createVehicle [(_dat select 0), call compile (_dat select 1), [], 0, _adString];if((_dat select 4) == 0) then {_obj enableSimulation false};_obj setdir (_dat select 2);if((_dat select 3) == -100) then {_obj setposATL (call compile (_dat select 1))} else {_obj setposASL [((call compile (_dat select 1)) select 0),((call compile (_dat select 1)) select 1),(_dat select 3)]};if((_dat select 5) == 0) then {_obj setVectorUp [0,0,1]} else {_obj setVectorUp (surfacenormal (getPosATL _obj))};if(count (_dat select 6) > 0) then {{call _x} foreach (_dat select 6)};if(count _dat > 7) then {if (_dat select 7 == 1) then {_obj allowDamage false;} else {_obj allowDamage true;};};};
 
+//Garage1
+
 _dat = ["Land_HelipadSquare_F","[3466.290527,12855.473633,0]",202.083,-100,0,0,[],1];call _cString;
 _dat = ["Land_HelipadSquare_F","[3489.482666,12862.200195,0]",19.811,-100,0,0,[],1];call _cString;
 _dat = ["Land_Pipe_fence_4m_F","[3488.88623,12847.574219,0]",19.811,-100,0,1,[],1];call _cString;
@@ -31,7 +33,7 @@ _dat = ["Land_RattanChair_01_F","[3469.927979,12869.862305,0]",514.906,-100,0,1,
 _dat = ["Land_RattanChair_01_F","[3473.789551,12868.34082,0]",514.906,-100,0,1,[],1];call _cString;
 _dat = ["Land_LampStreet_small_F","[3475.481201,12831.743164,0.233165]",514.906,-100,0,0,[],1];call _cString;
 
-
+//Superette
 
 _dat = ["Land_Obstacle_Saddle_F","[3409.145996,13124.320313,-0.0782967]",231.689,-100,0,1,[],1];call _cString;
 _dat = ["Land_Obstacle_Saddle_F","[3406.807373,13127.28125,-0.0782829]",-128.308,-100,0,1,[],1];call _cString;
@@ -51,7 +53,7 @@ _dat = ["Land_Sack_F","[3414.361328,13128.466797,0.424243]",-173.308,-100,0,0,[]
 _dat = ["Land_LampDecor_F","[3383.938477,13105.647461,0.228956]",-173.308,-100,0,0,[],1];call _cString;
 _dat = ["Land_LampDecor_F","[3417.121338,13119.484375,0.183502]",-173.308,-100,0,0,[],1];call _cString;
 
-
+//Hopital
 
 _dat = ["Land_HelipadRescue_F","[3727.958008,12995.919922,0]",90,-100,0,0,[],1];call _cString;
 _dat = ["Land_PipeWall_concretel_8m_F","[3731.852295,13035.711914,0]",-65,-100,0,1,[],1];call _cString;
@@ -71,7 +73,7 @@ _dat = ["Land_Obstacle_Saddle_F","[3753.709229,13014.841797,-0.0639731]",-91.515
 _dat = ["Land_LampDecor_F","[3708.235596,13009.708984,0.23064]",-91.5152,-100,0,0,[],1];call _cString;
 _dat = ["Land_LampDecor_F","[3742.966797,13028.768555,0.23064]",-94.1036,-100,0,0,[],1];call _cString;
 
-
+//Quaincallerie
 
 _dat = ["Land_Obstacle_Saddle_F","[3685.834473,13269.201172,-0.0596333]",23.0992,-100,0,1,[],1];call _cString;
 _dat = ["Land_Obstacle_Saddle_F","[3682.591064,13270.407227,-0.0804844]",23.1038,-100,0,1,[],1];call _cString;
@@ -85,3 +87,31 @@ _dat = ["Land_Obstacle_Saddle_F","[3674.909424,13275.745117,0.0395623]",-66.8939
 _dat = ["Land_LampDecor_F","[3684.790039,13261.119141,0.218855]",-66.8939,-100,0,0,[],1];call _cString;
 _dat = ["Land_LampStreet_F","[3654.59082,13280.287109,0.0917509]",-237.045,-100,0,0,[],1];call _cString;
 _dat = ["Land_Obstacle_Saddle_F","[3685.280518,13263.209961,-0.067359]",-66.897,-100,0,1,[],1];call _cString;
+
+//Garage2
+
+_dat = ["Land_TouristShelter_01_F","[3739.303223,13268.104492,-0.0992289]",231.446,-100,0,1,[],1];call _cString;
+_dat = ["Land_TouristShelter_01_F","[3801.358887,13262.901367,0]",140.025,-100,0,0,[],1];call _cString;
+_dat = ["Land_Pipe_fence_4m_F","[3793.13623,13253.634766,0.00366116]",49.6548,-100,0,1,[],1];call _cString;
+_dat = ["Land_Pipe_fence_4m_F","[3790.467041,13256.818359,0.0073204]",49.2836,-100,0,1,[],1];call _cString;
+_dat = ["Land_Pipe_fence_4m_F","[3787.777588,13259.984375,0.0169315]",48.8784,-100,0,1,[],1];call _cString;
+_dat = ["Land_Pipe_fence_4m_F","[3785.0871582,13263.151367,0.00489998]",49.5439,-100,0,1,[],1];call _cString;
+_dat = ["Land_Pipe_fence_4m_F","[3782.395508,13266.320313,0.00613976]",49.4328,-100,0,1,[],1];call _cString;
+_dat = ["Land_HelipadSquare_F","[3793.370605,13272.527344,0]",316.435,-100,0,0,[],1];call _cString;
+_dat = ["Land_HelipadSquare_F","[3748.964355,13275.918945,0]",51.3595,-100,0,0,[],1];call _cString;
+_dat = ["Land_Bench_F","[3741.447266,13266.75,0.000119209]",51.367,-100,0,1,[],1];call _cString;
+_dat = ["Land_Bench_F","[3802.626465,13265.0527344,0.000101089]",319.578,-100,0,1,[],1];call _cString;
+_dat = ["Land_Tyres_F","[3736.270264,13271.452148,0]",319.592,-100,0,0,[],1];call _cString;
+_dat = ["cl3_garage","[3733.254639,13275.353516,0.0867004]",139.276,-100,0,0,[],1];call _cString;
+_dat = ["cl3_garage","[3737.80249,13279.193359,0.0867004]",139.276,-100,0,0,[],1];call _cString;
+_dat = ["cl3_garage","[3746.193115,13261.641602,0.0867004]",321.801,-100,0,0,[],1];call _cString;
+_dat = ["cl3_garage","[3750.83667,13265.262695,0.0867004]",321.801,-100,0,0,[],1];call _cString;
+_dat = ["Land_Cargo10_grey_F","[3809.120117,13268.453125,0.00414848]",321.956,-100,0,1,[],1];call _cString;
+_dat = ["Land_Cargo10_grey_F","[3807.615479,13270.375977,0.00414848]",321.956,-100,0,1,[],1];call _cString;
+_dat = ["Land_TablePlastic_01_F","[3797.0812988,13259.910156,-0.166202]",186.833,-100,0,1,[],1];call _cString;
+_dat = ["Land_Sunshade_01_F","[3797.0634766,13259.907227,9.53674e-007]",186.801,-100,0,0,[],1];call _cString;
+_dat = ["Land_ChairPlastic_F","[3798.560303,13259.708008,0.000253677]",186.817,-100,0,1,[],1];call _cString;
+_dat = ["Land_ChairPlastic_F","[3795.621094,13260.0185547,0.000167847]",6.78989,-100,0,1,[],1];call _cString;
+_dat = ["Land_LampDecor_F","[3804.969727,13265.49707,-9.53674e-007]",217.58,-100,0,0,[],1];call _cString;
+_dat = ["Land_LampDecor_F","[3737.558594,13266.701172,0]",226.48,-100,0,0,[],1];call _cString;
+_dat = ["Land_LampDecor_F","[3740.539795,13305.896484,0.221381]",226.48,-100,0,0,[],1];call _cString;
