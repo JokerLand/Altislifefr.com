@@ -449,54 +449,6 @@ _obj setDir 40.5804;
 _obj setPosASL _pos;
     _obj allowDamage false;
 // ***************************************
-_pos = [4067.72,13722.4,21.2033];
-_obj = createVehicle ["RoadCone_L_F", _pos, [], 0, "CAN_COLLIDE"];
-_obj setDir 36.9565;
-_obj setPosASL _pos;
-    _obj allowDamage false;
-// ***************************************
-_pos = [4088.29,13752.9,21.342];
-_obj = createVehicle ["RoadCone_L_F", _pos, [], 0, "CAN_COLLIDE"];
-_obj setDir 36.5641;
-_obj setPosASL _pos;
-    _obj allowDamage false;
-// ***************************************
-_pos = [4086.25,13758.5,21.2815];
-_obj = createVehicle ["RoadCone_L_F", _pos, [], 0, "CAN_COLLIDE"];
-_obj setDir 29.7323;
-_obj setPosASL _pos;
-    _obj allowDamage false;
-// ***************************************
-_pos = [4082.53,13744.1,21.3002];
-_obj = createVehicle ["RoadCone_L_F", _pos, [], 0, "CAN_COLLIDE"];
-_obj setDir 37.3663;
-_obj setPosASL _pos;
-    _obj allowDamage false;
-// ***************************************
-_pos = [4072.82,13729.9,21.2835];
-_obj = createVehicle ["RoadCone_L_F", _pos, [], 0, "CAN_COLLIDE"];
-_obj setDir 34.5536;
-_obj setPosASL _pos;
-    _obj allowDamage false;
-// ***************************************
-_pos = [4093.56,13753.1,21.4086];
-_obj = createVehicle ["RoadCone_L_F", _pos, [], 0, "CAN_COLLIDE"];
-_obj setDir 29.7323;
-_obj setPosASL _pos;
-    _obj allowDamage false;
-// ***************************************
-_pos = [4061.67,13721.4,21.1717];
-_obj = createVehicle ["RoadCone_L_F", _pos, [], 0, "CAN_COLLIDE"];
-_obj setDir 29.7323;
-_obj setPosASL _pos;
-    _obj allowDamage false;
-// ***************************************
-_pos = [4069.15,13716.6,21.0887];
-_obj = createVehicle ["RoadCone_L_F", _pos, [], 0, "CAN_COLLIDE"];
-_obj setDir 29.7323;
-_obj setPosASL _pos;
-    _obj allowDamage false;
-// ***************************************
 _pos = [4080.12,13740.6,21.3182];
 _obj = createVehicle ["Land_TentHangar_V1_F", _pos, [], 0, "CAN_COLLIDE"];
 _obj setDir 35.0606;
