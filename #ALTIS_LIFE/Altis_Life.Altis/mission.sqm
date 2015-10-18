@@ -93,7 +93,8 @@ class Mission
 		"ALFR_GeK_Panamera_Police_ST",
 		"alfr_gek_scania_420",
 		"ALFR_GeK_Volvo_FH16_2012",
-		"wirk_ferrari_california"
+		"wirk_ferrari_california",
+		"GeK_Garages"
 	};
 	addOnsAuto[]=
 	{
@@ -163,6 +164,7 @@ class Mission
 		"A3_Structures_F_Heli_Items_Airport",
 		"A3_Signs_F_AD",
 		"gek_coffre",
+		"GeK_Garages",
 		"a3_map_altis"
 	};
 	randomSeed=2004553;
@@ -3260,7 +3262,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=940;
+		items=941;
 		class Item0
 		{
 			position[]={16022.874,34.577976,16364.023};
@@ -13834,6 +13836,19 @@ class Mission
 			skill=0.60000002;
 			text="atm1_1_3_1_6_4_7_6_1_2";
 			init="this enableSimulation false; this allowDamage false; this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu]; this addAction[""Banking Insurance ($1,000)"",{if(life_atmcash > 1000) then {life_has_insurance = true; life_atmcash = life_atmcash - 1000};},"""",0,false,false,"""",'!life_has_insurance'];";
+		};
+		class Item940
+		{
+			position[]={13778.953,20.358223,18945.428};
+			azimut=770.086;
+			special="NONE";
+			id=1140;
+			side="EMPTY";
+			vehicle="GeK_Garages";
+			leader=1;
+			skill=0.60000002;
+			init="this setPos [ getPos this select 0, getPos this select 1, -0.35]; this setVectorUp [0,0,1]; this enableSimulation false; this allowDamage false;";
+			description="Civ 100";
 		};
 	};
 	class Markers
