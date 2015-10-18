@@ -210,6 +210,7 @@ switch (_shop) do
 				["GeK_Civilian_H1",200000],
 		        ["cl3_arielatom_race_black", 250000],
 		        ["ALFR_GeK_Pagani_Zonda", 2500000],
+		        ["mv22",4500000],
 		        ["IVORY_ERJ135_1", 10000000]
    			];
 		};
@@ -304,7 +305,7 @@ switch (_shop) do
             if(__GETC__(life_coplevel) > 4) then
 			{
             _return pushBack
-			["cg_h2_sert",800000];    
+			["cg_h2_sert",800000];
             };
 	};
 
@@ -317,7 +318,8 @@ switch (_shop) do
 			["GNT_C185",500000],
 			["O_Heli_Light_02_unarmed_F",550000],
 			["I_Heli_Transport_02_F",1000000],
-			["B_Heli_Transport_03_unarmed_F",4500000]
+			["B_Heli_Transport_03_unarmed_F",4500000],
+			["mv22",7500000]
 		];
 	};
 
@@ -325,10 +327,11 @@ switch (_shop) do
     {
         _return =
         [
-            ["GNT_C185",50000],
+            ["GNT_C185",10000],
             ["Sab_ana_An2",100000],
             ["sab_BI_An2",100000],
-            ["IVORY_T6A_1",500000],
+            ["IVORY_T6A_1",100000],
+            ["mv22",100000],
             ["IVORY_ERJ135_1", 200000],
             ["b737", 350000]
         ];
