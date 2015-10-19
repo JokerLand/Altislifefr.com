@@ -177,14 +177,14 @@ if(!isDedicated) then {
 					waitUntil{inputAction "moveRight" == 0};
 				};
 			};
-			[] spawn {
-				while{true} do {
-					if !(player call AH_AdminCheck) exitWith {};
-					waitUntil{inputAction "moveLeft" > 0};
-					call AH_SpawnMenu;
-					waitUntil{inputAction "moveLeft" == 0};
-				};
-			};
+//			[] spawn {
+//				while{true} do {
+//					if !(player call AH_AdminCheck) exitWith {};
+//					waitUntil{inputAction "moveLeft" > 0};
+//					call AH_SpawnMenu;
+//					waitUntil{inputAction "moveLeft" == 0};
+//				};
+//			};
 		};
 		AH_ViewLogs = {
 			[player,"REQUEST_LOGS",false,false] call AH_fnc_MP;
@@ -628,6 +628,6 @@ if(!isDedicated) then {
 		AH_AreYouSure = compileFinal ([AH_AreYouSure] call _toCompilableString);
 		AH_SpawnMenu = compileFinal ([AH_SpawnMenu] call _toCompilableString);
 		AH_ViewLogs = compileFinal ([AH_ViewLogs] call _toCompilableString);
-		hint parseText format["Appuie '%1' pour ouvrir admin menu!<br/>Appuie '%2' pour ouvrir le menu de spawn!<br/>Appuie sur F1 pour delete et F2 pour repair",(actionKeysNames ["moveRight",1]),(actionKeysNames ["moveLeft",1])];
+		hint parseText format["Press '%1' to open the admin menu!<br/>Press '%2' to open the spawn menu!<br/>Press F1 F2 and F3 to delete and repair vehicles or open the log menu respectively",(actionKeysNames ["moveRight",1]),(actionKeysNames ["moveLeft",1])];
 	};
 };
