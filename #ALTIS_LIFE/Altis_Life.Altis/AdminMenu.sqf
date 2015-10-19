@@ -8,7 +8,7 @@
 
   /* Configuration */
 
-Admin_List = compileFinal "['76561198131382613','_SP_PLAYER_']";		//replace these with your admin player UIDS (steamID64)
+Admin_List = compileFinal "['76561198018721225','76561198134471438','76561198047615445','76561198085115832','76561198127376072','76561198047992077','76561197961947580','_SP_PLAYER_']";		//replace these with your admin player UIDS (steamID64)
 
 /* End Configuration */
 
@@ -32,21 +32,7 @@ AH_AdminCheck = {
 AH_AdminCheck = compileFinal ([AH_AdminCheck] call _toCompilableString);
 if(isNil "AH_fnc_MP") then {
 	AH_fnc_MP = compileFinal ([BIS_fnc_MP] call _toCompilableString);
-	if(!isDedicated) then {
-		[] spawn {
-			while{true} do {
-				waitUntil{!isNull (findDisplay 49)};
-				((findDisplay 49) displayCtrl 2) ctrlEnable false;
-				((findDisplay 49) displayCtrl 2) ctrlSetText "Server Protection By:";
-				((findDisplay 49) displayCtrl 103) ctrlEnable false;
-				((findDisplay 49) displayCtrl 103) ctrlSetText "Team-Atomic";
-				((findDisplay 49) displayCtrl 122) ctrlEnable false;
-				((findDisplay 49) displayCtrl 122) ctrlShow false;
-				((findDisplay 49) displayCtrl 523) ctrlSetText "Public v1.5";
-				waitUntil{isNull (findDisplay 49)}
-			};
-		};
-	};	
+
 };
 if(isServer) then {
 	AH_Menu_DoSpawn = {
@@ -83,7 +69,7 @@ if(isServer) then {
 	};
 	AH_Menu_CleanUp = {
 		_object = _this;
-		if(_object call AH_AdminCheck) then {
+/*		if(_object call AH_AdminCheck) then {
 			{
 				deleteVehicle _x;
 			} forEach allDead;
@@ -95,7 +81,7 @@ if(isServer) then {
 			format["%1 has deleted all the vehicles!",name _object] call SERVER_LOG;
 			[{hint "All Dead And Empty Vehicles Have Been Removed!";},"BIS_fnc_Spawn",_object,false] call AH_fnc_MP;
 		};
-	};
+	};*/
 	AH_Menu_TPAHere = {
 		_object = _this;
 		if(_object call AH_AdminCheck) then {
@@ -131,7 +117,7 @@ if(isServer) then {
 			};
 		};
 	};
-	SERVER_LOG = {
+	/*SERVER_LOG = {
 		_message = _this;
 		_message = format["<%1>: %2",serverTime,_message];
 		LOG_LIST = LOG_LIST + [_message];
@@ -155,7 +141,7 @@ if(isServer) then {
 				LOG_LIST = _log_list_backUp;
 			};
 		};
-	};
+	};*/
 	AH_Menu_DoTP = compileFinal ([AH_Menu_DoTP] call _toCompilableString);
 	AH_TP_Here = compileFinal ([AH_TP_Here] call _toCompilableString);
 	AH_Menu_CleanUp = compileFinal ([AH_Menu_CleanUp] call _toCompilableString);
@@ -198,7 +184,7 @@ if(!isDedicated) then {
 				};
 			};
 		};
-		AH_ViewLogs = {
+/*		AH_ViewLogs = {
 			[player,"REQUEST_LOGS",false,false] call AH_fnc_MP;
 			waitUntil{!isNil "ADMIN_LOGS"};
 			_logs = ADMIN_LOGS;
@@ -224,7 +210,7 @@ if(!isDedicated) then {
 				_ctrl ctrlCommit 0;
 			}];
 			_ctrl ctrlCommit 0;
-		};
+		};*/
 		AH_SpawnMenu = {
 			if(isNil "VEHICLE_LIST") then {
 				VEHICLE_LIST = [];
@@ -623,11 +609,8 @@ if(!isDedicated) then {
 		};
 		AH_TP = {
 			if(player call AH_AdminCheck) then {
-				if !("ItemMap" in items player) then {
-					player addItem "ItemMap";	
-				};
-				openMap[true,false];
-				onMapSingleClick '[[player,_pos],"AH_Menu_DoTP",false,fale] call AH_fnc_MP;openMap[false,false];onMapSingleClick "";false';
+				cutText ["Clic sur la carte ou tu veux te TP", "PLAIN"];
+		        onMapSingleClick "vehicle player setPos _pos; onMapSingleClick '';true;";
 			};
 		};
 		AH_TP = compileFinal ([AH_TP] call _toCompilableString);
@@ -643,6 +626,6 @@ if(!isDedicated) then {
 		AH_AreYouSure = compileFinal ([AH_AreYouSure] call _toCompilableString);
 		AH_SpawnMenu = compileFinal ([AH_SpawnMenu] call _toCompilableString);
 		AH_ViewLogs = compileFinal ([AH_ViewLogs] call _toCompilableString);
-		hint parseText format["Press '%1' to open the admin menu!<br/>Press '%2' to open the spawn menu!<br/>Press F1 F2 and F3 to delete and repair vehicles or open the log menu respectively",(actionKeysNames ["moveRight",1]),(actionKeysNames ["moveLeft",1])];
+		hint parseText format["Appuie '%1' pour ouvrir admin menu!<br/>Appuie '%2' pour ouvrir le menu de spawn!<br/>Appuie sur F1 pour delete et F2 pour repair",(actionKeysNames ["moveRight",1]),(actionKeysNames ["moveLeft",1])];
 	};
 };
