@@ -226,7 +226,6 @@ switch (_shop) do
 			["cl3_dodge_charger_s_camo",200000],
 			["cl3_e63_amg_camo",300000],
 			["cl3_range_rover_camo",400000],
-            ["Skyline_Mercedes_C63_01_F",400000],
 			["GeK_Mercedes_ML63_Rebelle",1250000],
 			["O_Truck_03_device_F",1000000],
 			["O_Truck_03_transport_F",1000000],
