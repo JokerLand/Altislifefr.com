@@ -266,8 +266,6 @@ switch (_shop) do
 		   	_return pushBack
 			["GeK_Renault_Trafic_Police",15000];
 			_return pushBack
-			["insignia_police",30000];
-			_return pushBack
 			["GeK_S60_Police",30000];
 			_return pushBack
 			["DAR_TaurusPolice",20000];
@@ -284,26 +282,24 @@ switch (_shop) do
 			_return pushBack
 			["GeK_TLC100_Police",25000];
             };
-			if(__GETC__(life_coplevel) > 2) then
+	    if(__GETC__(life_coplevel) > 2) then
 			{
 			_return pushBack
 			["I_MRAP_03_F",1000000];
 			_return pushBack
 			["ALFR_GeK_MF1_Police",1500000];
-            _return pushBack
-			["insignia_police_st",30000];
 			_return pushBack
 			["GeK_S60_Police_ST",30000];
-            _return pushBack
+        		 _return pushBack
 			["GeK_TLC100",35000];
 			_return pushBack
 			["ALFR_GeK_Panamera_Police_ST",30000];
-            _return pushBack
+        		 _return pushBack
 			["CL3_bus_cl_black",400000];
             };
             if(__GETC__(life_coplevel) > 4) then
 			{
-            _return pushBack
+            		_return pushBack
 			["cg_h2_sert",800000];
             };
 	};
