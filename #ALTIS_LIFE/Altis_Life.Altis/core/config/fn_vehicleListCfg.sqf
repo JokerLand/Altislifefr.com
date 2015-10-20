@@ -38,7 +38,9 @@ switch (_shop) do
 		{
 			_return pushBack
 			["C_SUV_01_F",20000];
-		};
+			_return pushBack
+			["GeK_Renault_Trafic_Ambulance",50000];
+					};"
 	};
 
 	case "med_air_hs":
