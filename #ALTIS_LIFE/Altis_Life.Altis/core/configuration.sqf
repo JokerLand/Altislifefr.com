@@ -16,6 +16,7 @@ life_session_tries = 0;
 life_net_dropped = false;
 life_hit_explosive = false;
 life_siren_active = false;
+life_siren2_active = false;
 life_clothing_filter = 0;
 life_clothing_uniform = -1;
 life_redgull_effect = time;
@@ -33,6 +34,7 @@ life_action_gathering = false;
 life_fadeSound = false;
 life_destroye_inuse = false;
 life_drink = 0;
+life_request_timer = false;
 
 //Persistent Saving
 __CONST__(life_save_civ,TRUE); //Save weapons for civs?
