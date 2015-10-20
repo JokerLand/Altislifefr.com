@@ -33,6 +33,7 @@ life_action_gathering = false;
 life_fadeSound = false;
 life_destroye_inuse = false;
 life_drink = 0;
+life_request_timer = false;
 
 //Persistent Saving
 __CONST__(life_save_civ,TRUE); //Save weapons for civs?
