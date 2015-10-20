@@ -300,7 +300,7 @@ _patchList =
 "ec635_missiles_titan","HAFM_HMG_M2","HAFM_missiles_DAR","RangeText","RscInGameUI","GR_UH1N_1","GR_UH1N_2","GR_Bell412_1","GR_Bell412_2","GR_UH1H_1","Civ_Pilot1","Civ_Pilot2","Civ_Medic","GR_UH1N_3","GR_UH1H_2",
 "GR_UH1H_3","GR_UH1H_4","GR_UH1H_5","GR_MUH_Minigun1","GR_MUH_Minigun2","GR_MUH_M60_1","GR_MUH_M60_2","GR_MUH_4000Rnd_762x51_Tracer_Red","GR_MUH_4000Rnd_127x99_mag","GR_MUH_14Rnd_Hydra","GR_MUH_19Rnd_Hydra",
 "GR_MUH_38Rnd_Hydra","GR_MUH_48Rnd_Hydra","GR_MUH_Hydra_HE","Mi17_Pilot","Mi17_Gunner","Mi8_Pilot","Mi8_Gunner","Mi8_Cargo","Mi17_Cargo01","Mi17_Cargo02","Mi171_Gunner_EP1","Antoine_ALFR_Textures","CA_Modules_clatc",
-"cl_buildings","cl3_RangeTarget","cl_RoadBarriers","cl3_miscobjpack","a2_epoch_weapons","3DEN","hlcweapons_FHAWCovert","Cha_Mi8","A3L_Gates","A3L_Fence_Large","A3L_Fence_Small","A3L_Fence_Curve","A3L_Fence_Open","A3L_Prison_Gates","a3l_prison_fence","ALFR_A8Sounds","ALFR_SUV_Armee","cha_uh60","iam_gurkha","ivory_lfa","nhz_audi8limo","plp_markers","b737","GeK_Renault_Magnum","GeK_Building_002","lsd_nvg","cg_h2_sert","mv22","GeK_Garages","GeK_CarShop"
+"cl_buildings","cl3_RangeTarget","cl_RoadBarriers","cl3_miscobjpack","a2_epoch_weapons","3DEN","hlcweapons_FHAWCovert","Cha_Mi8","A3L_Gates","A3L_Fence_Large","A3L_Fence_Small","A3L_Fence_Curve","A3L_Fence_Open","A3L_Prison_Gates","a3l_prison_fence","ALFR_A8Sounds","ALFR_SUV_Armee","cha_uh60","iam_gurkha","ivory_lfa","nhz_audi8limo","plp_markers","b737","GeK_Renault_Magnum","GeK_Building_002","lsd_nvg","cg_h2_sert","mv22","GeK_Garages","GeK_CarShop","GeK_Renault_Trafic_Ambulance"
 
 
 
