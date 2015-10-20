@@ -16,6 +16,7 @@ life_session_tries = 0;
 life_net_dropped = false;
 life_hit_explosive = false;
 life_siren_active = false;
+life_siren2_active = false;
 life_clothing_filter = 0;
 life_clothing_uniform = -1;
 life_redgull_effect = time;
