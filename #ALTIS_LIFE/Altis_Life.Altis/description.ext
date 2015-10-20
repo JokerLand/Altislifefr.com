@@ -138,6 +138,13 @@ class CfgSounds
 		sound[]={"\sounds\intro.ogg",0.9,1};
 		titles[] = {};
 	  };
+
+	class Yelp
+	{
+	name = "Yelp";
+	sound[] = {"\sounds\Yelp.ogg", 1.0, 1};
+	titles[] = {};
+	};
   
     class reverse_truck
   {
