@@ -34,7 +34,7 @@ switch(_shop) do
 						["ToolKit",nil,250],
 						["FirstAidKit",nil,150],
 						["Medikit",nil,2000],
-						["NVGoggles_OPFOR",nil,2500],
+						["pmc_earpiece"",nil,2500],
 						["Rangefinder",nil,1]
 					]
 				];
@@ -58,8 +58,9 @@ switch(_shop) do
 						["ToolKit",nil,250],
 						["FirstAidKit",nil,150],
 						["Medikit",nil,2000],
-						["NVGoggles",nil,2500],
-						["B_Carryall_khk",nil,5000]
+						["pmc_earpiece",nil,2500],
+                        ["H_PilotHelmetHeli_B",nil,500],
+						["ALFR_Police_Backpack",nil,5000]
 					]
 				];
 			};
