@@ -378,7 +378,7 @@ switch (_code) do
 
         if (!_shift) then
         {
-            if(playerSide == west or playerSide == independent or playerSide == east && vehicle player != player && !life_siren_active && ((driver vehicle player) == player)) then
+            if((playerSide == west or playerSide == independent or playerSide == east) && vehicle player != player && !life_siren_active && ((driver vehicle player) == player)) then
             {
                 [] spawn
                 {
