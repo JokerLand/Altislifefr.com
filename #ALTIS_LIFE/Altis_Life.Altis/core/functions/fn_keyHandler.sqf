@@ -89,7 +89,7 @@ switch (_code) do
 			};
 			_handled = true;
 		};
-		
+
 		if(!_ctrlKey && _shift && currentWeapon player != "") then {
 			life_curWep_h = currentWeapon player;
 			player action ["SwitchWeapon", player, player, 100];
@@ -102,7 +102,7 @@ switch (_code) do
 			};
 		};
 	};
-	
+
 	//Touche pour supprimer cones, barrières et herses lorsqu'un policier vise cet objet ( O )
 	case 24:
 	{
@@ -151,7 +151,7 @@ switch (_code) do
 			[] call life_fnc_restrainAction;
 		};
 	};
-	
+
 	//Bloquage d'ouverture d'inventaire lorsque le joueur est proche de panneaux
 	case 23:
 	{
@@ -164,7 +164,7 @@ switch (_code) do
 			};
 		};
 	};
-			
+
 
 	//Takwondo(f5)
 	case 63:
@@ -204,8 +204,8 @@ switch (_code) do
 				hint "Tu n'as pas de menotte!";
 				};
 		};
-	};	
-	
+	};
+
 	//Mouvements(f7)
 	case 65:
 	{
@@ -227,7 +227,7 @@ switch (_code) do
 			player playMove "AmovPercMstpSnonWnonDnon_exercisePushup";
 		};
 	};
-	
+
 	//Knock out, this is experimental and yeah...
     case 34:
     {
@@ -245,7 +245,7 @@ switch (_code) do
             };
         };
     };
-/*	
+/*
 	//Report ALT-F4
 	case 62:
     {
@@ -268,7 +268,7 @@ switch (_code) do
     [[1,format["Anti-Cheat: %1 utilise CTRL + ESC pour se deconnecter (Merci de le report aux Admins)",player getVariable["realname",name player]]],"life_fnc_broadcast",nil,false] spawn life_fnc_MP;
     };
     };
-*/	
+*/
 	//T Key (Trunk)
 	case 20:
 	{
@@ -280,12 +280,12 @@ switch (_code) do
 				{
 					if(cursorTarget in life_vehicles OR {!(cursorTarget getVariable ["locked",true])}) then
 					{
-						
-                        
+
+
                         _index = -1;
-						
-                        if(cursorTarget isKindOf "House_F") then 
-                        {     
+
+                        if(cursorTarget isKindOf "House_F") then
+                        {
                             _ownersMaison = cursorTarget getVariable "house_owner";
 
                         for "_i" from 0 to ((count _ownersMaison) - 1) do {
@@ -295,15 +295,15 @@ switch (_code) do
 						  {
 							[cursorTarget] spawn life_fnc_openInventory;
 						  };
-                        
+
                         }else {
-                           
+
                             _owners = cursorTarget getVariable ["vehicle_info_owners",[]];
                             for "_i" from 0 to ((count _owners) - 1) do {
-							
+
                                 if((_owners select _i) select 0 == getPlayerUID player) then {_index = _i;};
 						    };
-						
+
                             if(_index > -1) then
 						  {
 							life_action_gathering = false;
@@ -311,8 +311,8 @@ switch (_code) do
 							[cursorTarget] spawn life_fnc_openInventory;
 						  };
                         };
-                        
-						
+
+
 					};
 				};
 			};
@@ -378,7 +378,7 @@ switch (_code) do
 
         if (!_shift) then
         {
-            if(playerSide == west && vehicle player != player && !life_siren_active && ((driver vehicle player) == player)) then
+            if(playerSide == west or playerSide == independent or playerSide == east && vehicle player != player && !life_siren_active && ((driver vehicle player) == player)) then
             {
                 [] spawn
                 {
@@ -399,7 +399,7 @@ switch (_code) do
                     _veh setVariable["siren",true,true];
                     [[_veh],"life_fnc_copSiren",nil,true] spawn life_fnc_MP;
                 };
-            };                                            
+            };
         };
     };
 	//U Key
