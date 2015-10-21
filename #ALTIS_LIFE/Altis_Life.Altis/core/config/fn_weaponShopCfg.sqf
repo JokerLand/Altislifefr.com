@@ -34,7 +34,7 @@ switch(_shop) do
 						["ToolKit",nil,250],
 						["FirstAidKit",nil,150],
 						["Medikit",nil,2000],
-						["pmc_earpiece"",nil,2500],
+						["pmc_earpiece",nil,2500],
 						["Rangefinder",nil,1]
 					]
 				];
