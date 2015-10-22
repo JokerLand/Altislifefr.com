@@ -59,7 +59,7 @@ _shop switchMove "";
 deleteMarker "Marker200";
 if(_robber distance _shop > 10.5) exitWith
 {
-	hint "Vous devez rester a moins de 3m pour braquer la station! - La station est maintenant verrouillee.";
+	hint "Vous devez rester a moins de 3m pour braquer la station! - Vous devez maintenant attendre 30 minutes.";
 };
 if(!alive _robber) exitWith
 {
@@ -68,3 +68,5 @@ if(!alive _robber) exitWith
 titleText[format["Vous venez de voler $%1, partez vite avant que la police n'arrive!!",[_cash] call life_fnc_numberText],"PLAIN"];
 [[getPlayerUID player,name player,"460"],"life_fnc_wantedAdd",false,false] spawn life_fnc_MP;
 life_cash = life_cash + _cash;
+sleep 1800;
+_shop setVariable["robbed",false,false];
