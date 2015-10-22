@@ -64,7 +64,7 @@ onMapSingleClick "if(_alt) then {vehicle player setPos _pos};";
 [] execVM "Base\archeo.sqf";
 [] execVM "Base\planques.sqf";
 [] execVM "Base\hero_weed.sqf";
-
+[] execVM "Base\athira_hopital.sqf";
 
 //[] execVM "cleanup.sqf";
 
