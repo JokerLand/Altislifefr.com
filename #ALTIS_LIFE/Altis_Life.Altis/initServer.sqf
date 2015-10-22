@@ -60,6 +60,8 @@ onMapSingleClick "if(_alt) then {vehicle player setPos _pos};";
 [] execVM "Base\Park_Kavala.sqf";
 [] execVM "Base\Prison-ALFR.sqf";
 [] execVM "Base\Traitement.sqf";
+[] execVM "Base\stations_service.sqf";
+
 
 //[] execVM "cleanup.sqf";
 
