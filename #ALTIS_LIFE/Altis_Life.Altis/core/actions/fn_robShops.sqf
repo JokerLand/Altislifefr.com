@@ -13,8 +13,8 @@ _robber = [_this,1,ObjNull,[ObjNull]] call BIS_fnc_param; //Can you guess? Alrig
 
 if(side _robber != civilian) exitWith { hint "Vous ne pouvez pas braquer cette station!" };
 _cops = (west countSide playableUnits);
-if(_cops < 4) exitWith{hint "Il n'y a pas assez de policiers pour braquer la station! (4)";};
-if(_robber distance _shop > 2) exitWith { hint "Vous devez rester a moins de 2m du caissier!" };
+if(_cops < 6) exitWith{hint "Il n'y a pas assez de policiers pour braquer la station! (5)";};
+if(_robber distance _shop > 3) exitWith { hint "Vous devez rester a moins de 3m du caissier!" };
 if (vehicle player != _robber) exitWith { hint "Impossible de braquer depuis le vehicule" };
 if !(alive _robber) exitWith {};
 if (currentWeapon _robber == "") exitWith { hint "Haha tu crois que tu me fais peur sans armes? Va jouer ailleurs!!" };
@@ -25,7 +25,7 @@ _shop setVariable["robbed",true,true];
 
 _cash = 15000 + round(random 15000);
 _shop switchMove "AmovPercMstpSsurWnonDnon";
-hint "Le caissier a activer l'alarme, la police ne va pas tarder a arriver!"; 
+hint "Le caissier a activer l'alarme, la police ne va pas tarder a arriver!";
 [[1,format["ALERTE! - La station: %1 est en train d'etre braquee!", _shop], false],"life_fnc_broadcast",west,false] spawn life_fnc_MP;
 [[player, "alarme_magasin",10],"life_fnc_playSound",true,false] spawn life_fnc_MP;
 
@@ -34,22 +34,22 @@ disableSerialization;
 _ui = uiNameSpace getVariable "life_progress";
 _progress = _ui displayCtrl 38201;
 _pgText = _ui displayCtrl 38202;
-_pgText ctrlSetText format["Braquage en cours, n'allez pas trop loin! (10m) (1%1)...","%"];
+_pgText ctrlSetText format["Braquage en cours, n'allez pas trop loin! (3m) (1%1)...","%"];
 _progress progressSetPosition 0.01;
 _cP = 0.01;
- 
+
 
 while{true} do
 {
 	sleep 1.2;
 	_cP = _cP + 0.01;
 	_progress progressSetPosition _cP;
-	_pgText ctrlSetText format["Braquage en cours, n'allez pas trop loin! (10m) (%1%2)...",round(_cP * 100),"%"];
+	_pgText ctrlSetText format["Braquage en cours, n'allez pas trop loin! (3m) (%1%2)...",round(_cP * 100),"%"];
 	_Pos = position player; // by ehno: get player pos
 									_marker = createMarker ["Marker200", _Pos]; //by ehno: Place a Maker on the map
 									"Marker200" setMarkerColor "ColorRed";
 									"Marker200" setMarkerText "!ATTENTION! BRAQUAGE EN COURS !ATTENTION!";
-									"Marker200" setMarkerType "mil_warning";			
+									"Marker200" setMarkerType "mil_warning";
 	if(_cP >= 1) exitWith {};
 	if(_robber distance _shop > 10.5) exitWith {};
 	if!(alive _robber) exitWith {};
@@ -57,13 +57,13 @@ while{true} do
 _shop switchMove "";
 5 cutText ["","PLAIN"];
 deleteMarker "Marker200";
-if(_robber distance _shop > 10.5) exitWith 
-{ 
-	hint "Vous devez rester a moins de 10m pour braquer la station! - La station est maintenant verrouillee."; 
+if(_robber distance _shop > 10.5) exitWith
+{
+	hint "Vous devez rester a moins de 3m pour braquer la station! - La station est maintenant verrouillee.";
 };
 if(!alive _robber) exitWith
 {
-	hint "Vous etes mort pendant le braquage! - La station est maintenant verrouillee."; 
+	hint "Vous etes mort pendant le braquage! - La station est maintenant verrouillee.";
 };
 titleText[format["Vous venez de voler $%1, partez vite avant que la police n'arrive!!",[_cash] call life_fnc_numberText],"PLAIN"];
 [[getPlayerUID player,name player,"460"],"life_fnc_wantedAdd",false,false] spawn life_fnc_MP;
