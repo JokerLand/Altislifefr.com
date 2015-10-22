@@ -60,6 +60,8 @@ deleteMarker "Marker200";
 if(_robber distance _shop > 10.5) exitWith
 {
 	hint "Vous devez rester a moins de 3m pour braquer la station! - Vous devez maintenant attendre 30 minutes.";
+	sleep 1800;
+  	_shop setVariable["robbed",false,false];
 };
 if(!alive _robber) exitWith
 {
