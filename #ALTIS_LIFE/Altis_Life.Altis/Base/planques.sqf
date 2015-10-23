@@ -1,5 +1,5 @@
 // Created by SMC v2.1.3 (for Arma 3)
-// 10/22/15 10:43:00
+// 10/23/15 15:01:30
 
 // --Vehicles/Objects--
 _veh0 = createVehicle ["Land_Atm_01_F",[11692.764,15919.188,0],[],0,"CAN_COLLIDE"];
