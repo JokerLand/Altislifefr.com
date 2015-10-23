@@ -83,11 +83,6 @@ if(!isNull _killer && {_killer != _unit} && {side _killer != west || side _kille
 	};
 };
 
-if(playerSide != west) then {
-    _handle = [] spawn life_fnc_stripDownPlayer;
-    waitUntil {scriptDone _handle};
-};
-
 //Killed by cop stuff...
 if(side _killer == west && playerSide != west) then {
 	life_copRecieve = _killer;
@@ -117,5 +112,3 @@ life_cash = 0;
 
 
 [0] call SOCK_fnc_updatePartial;
-
-[3] call SOCK_fnc_updatePartial;
