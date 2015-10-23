@@ -229,9 +229,9 @@ class CfgDebriefing
 {
 	class NotWhitelisted
 	{
-		title = "Mission Failed";
-		subtitle = "You are not white-listed to use this slot";
-		description = "You are not allowed to use this slot because you do not have the appropriate permissions, try another slot.";
+		title = "Echec Mission";
+		subtitle = "Vous n êtes pas whitelisted";
+		description = "Vous n avez pas la permission d'utiliser ce slot.";
 		pictureBackground = "";
 		picture = "";
 		pictureColor[] = {0,0.3,0.6,1};
@@ -239,9 +239,9 @@ class CfgDebriefing
 	
 	class Blacklisted
 	{
-		title = "Mission Failed";
-		subtitle = "You are blacklisted from cops";
-		description = "You are not allowed to be a cop due to previous actions and the admins have removed you from being a cop.";
+		title = "Echec Mission";
+		subtitle = "Vous êtes Blackliste de la Police";
+		description = "Vous n'avez pas la permission due a une action d'un admin qui vous a remove de la police.";
 		pictureBackground = "";
 		picture = "";
 		pictureColor[] = {0,0.3,0.6,1};
@@ -250,8 +250,8 @@ class CfgDebriefing
 	class SpyGlass
 	{
 		title = "The SpyGlass sees you";
-		subTitle = "You were detected by the SpyGlass";
-		description = "You were detected for cheating and have been reported to the server. Enjoy your day.";
+		subTitle = "Vous avez été détecter par le SpyGlass";
+		description = "Vous avez été détecter avec un fichier non autorisé.";
 		pictureBackground = "";
 		picture = "";
 		pictureColor[] = {0,0.3,0.6,1};
@@ -289,7 +289,7 @@ class CfgNotifications
 
 	class AdacMessage
 	{
-		title = "ADAC Message";
+		title = "Alerte Armée";
 		iconPicture = "icons\messagenew.paa";
 		description = "%1";
 		duration = 10;
@@ -334,7 +334,7 @@ class CfgNotifications
 	
 	class AdminMessage
 	{
-		title = "Message Admin";
+		title = "Message Des Admins";
 		iconPicture = "icons\messageadmin.paa";
 		description = "%1";
 		duration = 10;
