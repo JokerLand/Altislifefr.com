@@ -34,18 +34,18 @@ switch (_shop) do
 	{
 		_return pushBack
 		["C_Offroad_01_F",5000];
+		_return pushBack
+		["GeK_Renault_Trafic_Ambulance",50000];
 		if(__GETC__(life_mediclevel) > 2) then
 		{
 			_return pushBack
 			["C_SUV_01_F",20000];
-			_return pushBack
-			["GeK_Renault_Trafic_Ambulance",50000];
 					};
 	};
 
 	case "med_air_hs":
 	{
-			if(__GETC__(life_mediclevel) > 1) then
+			if(__GETC__(life_mediclevel) > 0) then
 			{
 				_return pushBack
 				["O_Heli_Light_02_unarmed_F",75000];
