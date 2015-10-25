@@ -3118,7 +3118,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=411;
+		items=412;
 		class Item0
 		{
 			position[]={16022.874,34.577976,16364.023};
@@ -7806,10 +7806,21 @@ class Mission
 			text="atm1_1_3_1_6_4_7_6_1_1_1";
 			init="this enableSimulation false; this allowDamage false; this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu]; this addAction[""Banking Insurance ($1,000)"",{if(life_atmcash > 1000) then {life_has_insurance = true; life_atmcash = life_atmcash - 1000};},"""",0,false,false,"""",'!life_has_insurance'];";
 		};
+		class Item411
+		{
+			position[]={14033.192,25.620043,18750.135};
+			azimut=1025.3438;
+			id=611;
+			side="EMPTY";
+			vehicle="Land_Atm_01_F";
+			skill=0.60000002;
+			text="atm1_1_3_1_6_4_7_7_1_2";
+			init="this enableSimulation false; this allowDamage false; this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu]; this addAction[""Banking Insurance ($1,000)"",{if(life_atmcash > 1000) then {life_has_insurance = true; life_atmcash = life_atmcash - 1000};},"""",0,false,false,"""",'!life_has_insurance'];";
+		};
 	};
 	class Markers
 	{
-		items=387;
+		items=388;
 		class Item0
 		{
 			position[]={8459.6777,104.56568,25131.203};
@@ -10975,6 +10986,15 @@ class Mission
 			colorName="ColorGreen";
 			a=40;
 			b=40;
+		};
+		class Item387
+		{
+			position[]={14032.551,25.617697,18750.182};
+			name="atm_1_3_11_5_4_4_2";
+			text="ATM";
+			type="loc_Tourism";
+			colorName="ColorGreen";
+			angle=361.2709;
 		};
 	};
 	class Sensors
