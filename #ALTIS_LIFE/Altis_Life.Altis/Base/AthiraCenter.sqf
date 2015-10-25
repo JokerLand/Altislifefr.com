@@ -3,6 +3,10 @@ private ["_obj","_dat","_cString","_adString"];
 _obj = objNull;_dat = [];_adString = "CAN_COLLIDE";
 _cString = {_obj = createVehicle [(_dat select 0), call compile (_dat select 1), [], 0, _adString];if((_dat select 4) == 0) then {_obj enableSimulation false};_obj setdir (_dat select 2);if((_dat select 3) == -100) then {_obj setposATL (call compile (_dat select 1))} else {_obj setposASL [((call compile (_dat select 1)) select 0),((call compile (_dat select 1)) select 1),(_dat select 3)]};if((_dat select 5) == 0) then {_obj setVectorUp [0,0,1]} else {_obj setVectorUp (surfacenormal (getPosATL _obj))};if(count (_dat select 6) > 0) then {{call _x} foreach (_dat select 6)};if(count _dat > 7) then {if (_dat select 7 == 1) then {_obj allowDamage false;} else {_obj allowDamage true;};};};
 
+
+//Concessionaire et Garage d'Athira
+
+
 _dat = ["GeK_Carshop","[13754.594727,18901.609375,0.0791245]",224.418,-100,0,0,[],1];call _cString;
 _dat = ["Land_Pipe_fence_4mNoLC_F","[13769.776367,18900.572266,0]",-1035.58,-100,0,1,[],1];call _cString;
 _dat = ["Land_Pipe_fence_4mNoLC_F","[13769.923828,18897.632813,0]",-1125.58,-100,0,1,[],1];call _cString;

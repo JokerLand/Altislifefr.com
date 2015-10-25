@@ -95,10 +95,6 @@ _veh23 = createVehicle ["Land_Pallets_F",[17871.027,18198.533,0],[],0,"CAN_COLLI
 		_veh23 setFormDir 44.16611;
 		_veh23 setDir 44.16611;
 	_veh23 allowDamage false; _veh23 enableSimulation false;
-_veh24 = createVehicle ["Land_InfoStand_V2_F",[20265.066,8778.7666,0],[],0,"NONE"];
-		_veh24 setFormDir 165.73273;
-		_veh24 setDir 165.73273;
-	_veh24 enableSimulation false; _veh24 allowDamage false; _veh24 addAction["Tailler la Roche",life_fnc_processAction,"cement",0,false,false,"",' life_inv_rock > 0 && !life_is_processing']; _veh24 addAction[format["%1 (%2€)",["license_civ_cement"] call life_fnc_varToStr,[(["cement"] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,"cement",0,false,false,"",' !license_civ_cement && playerSide == civilian '];
 _veh25 = createVehicle ["Land_CratesShabby_F",[12582.689,16396.912,0],[],0,"CAN_COLLIDE"];
 		_veh25 setFormDir 291.883476;
 		_veh25 setDir 291.883476;
