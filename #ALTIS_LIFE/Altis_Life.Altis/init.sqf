@@ -15,18 +15,6 @@ life_versionInfo = "Altis Life RPG v3.1.4.8";
 [] execVM "AdminMenu.sqf";
 [] execVM "safezone.sqf";
 
-if(isDedicated && isNil("life_market_prices")) then
-{
-
- [] call AoD_fnc_marketconfiguration;
-    diag_log "Market prices generated!";
-    "life_market_prices" addPublicVariableEventHandler
-    {
-        diag_log format["Market prices updated! %1", _this select 1];
-    };
-
-};
-
 [] spawn {
 	while {true} do {
 		0 setOvercast 0;
