@@ -4296,20 +4296,20 @@ class Mission
 		};
 		class Item107
 		{
-			position[]={20602.963,47.046528,20064.305};
-			azimut=150;
+			position[]={19580.285,24.239855,19133.189};
+			azimut=46.933613;
 			special="NONE";
 			id=307;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V2_F";
 			leader=1;
 			skill=0.2;
-			init="removeallWeapons this;    this enableSimulation false;    this allowDamage false;    this addAction[""Vehicules"",life_fnc_vehicleShopMenu,[""reb_car"",civilian,[""car_tor""],""reb"",""TOR - Achat de Véhicule""],0,false,false,"""",'license_raid']; this addAction[""Vehicle Garage"",  {   [[getPlayerUID player,playerSide,""Car"",player],""TON_fnc_getVehicles"",false,false,"""",' license_raid && playerSide == civilian'] spawn life_fnc_MP; life_garage_type = ""Car"";  createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""car_tor"";  }]; this addAction[""Store vehicle in Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];";
+			init="removeallWeapons this;    this enableSimulation false;    this allowDamage false;    this addAction[""Vehicules"",life_fnc_vehicleShopMenu,[""reb_car"",civilian,[""car_10""],""reb"",""TOR - Achat de Véhicule""],0,false,false,"""",'license_raid']; this addAction[""Vehicle Garage"",  {   [[getPlayerUID player,playerSide,""Car"",player],""TON_fnc_getVehicles"",false,false,"""",' license_raid && playerSide == civilian'] spawn life_fnc_MP; life_garage_type = ""Car"";  createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""car_10"";  }]; this addAction[""Store vehicle in Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];";
 		};
 		class Item108
 		{
-			position[]={20618.867,47.898479,20082.236};
-			azimut=47.594101;
+			position[]={19546.434,22.649652,19119.66};
+			azimut=329.15945;
 			special="NONE";
 			id=308;
 			side="EMPTY";
@@ -4321,8 +4321,8 @@ class Mission
 		};
 		class Item109
 		{
-			position[]={20621.4,47.688053,20079.805};
-			azimut=47.014702;
+			position[]={19546.004,22.46961,19114.766};
+			azimut=-109.70167;
 			special="NONE";
 			id=309;
 			side="EMPTY";
@@ -4333,15 +4333,14 @@ class Mission
 		};
 		class Item110
 		{
-			position[]={20586.15,51.239513,20120.023};
-			azimut=40.514;
+			position[]={19608.977,25.81332,19123.725};
+			azimut=47.786278;
 			special="NONE";
 			id=310;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V2_F";
 			leader=1;
 			skill=0.2;
-			text="moa_garra_aerien_1";
 			init="removeallWeapons this;    this enableSimulation false;    this allowDamage false;    this enableSimulation false;   this addAction[""Vehicle Garage"",  {   [[getPlayerUID player,playerSide,""Air"",player],""TON_fnc_getVehicles"",false,false,"""",' license_raid && playerSide == civilian'] spawn life_fnc_MP; life_garage_type = ""Air"";  createDialog ""Life_impound_menu"";     disableSerialization;     ctrlSetText[2802,""Fetching Vehicles....""];     life_garage_sp = ""air_tor"";  }];   this addAction[""Store vehicle in Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store && license_raid'];";
 		};
 		class Item111
@@ -9791,21 +9790,21 @@ class Mission
 		};
 		class Item237
 		{
-			position[]={20589.002,51.268063,20110.094};
+			position[]={19599.379,25.670227,19113.137};
 			name="air_tor";
 			type="Empty";
 			angle=-139.27045;
 		};
 		class Item238
 		{
-			position[]={20597.607,47.228451,20075.096};
-			name="car_tor";
+			position[]={19573.068,24.023159,19125.658};
+			name="car_10";
 			type="Empty";
-			angle=-60.085609;
+			angle=-132.72882;
 		};
 		class Item239
 		{
-			position[]={20606.666,51.350689,20121.543};
+			position[]={19586.168,24.83209,19120.619};
 			name="spawn_tor";
 			type="Empty";
 			angle=-143.19926;
