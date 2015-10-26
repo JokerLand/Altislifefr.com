@@ -14,11 +14,8 @@ class Mission
 		"A3_Structures_F_Furniture",
 		"A3_Structures_F_Civ_Constructions",
 		"A3_Structures_F_Civ_InfoBoards",
-		"A3_Structures_F_Training",
 		"A3_Structures_F_Mil_Helipads",
-		"A3_Structures_F_Mil_Cargo",
 		"A3_Structures_F_Civ_Lamps",
-		"A3_Structures_F_Mil_BagBunker",
 		"A3_Structures_F_Ind_ConcreteMixingPlant",
 		"A3_Structures_F_Naval_Buoys",
 		"A3_Weapons_F_Explosives",
@@ -27,7 +24,6 @@ class Mission
 		"A3_Structures_F_EPC_Civ_Accessories",
 		"A3_Characters_F_INDEP",
 		"a3_characters_f",
-		"A3_Structures_F_Civ_Camping",
 		"A3_Structures_F_Bootcamp_Items_Sport",
 		"A3_Structures_F_Kart_Civ_SportsGrounds",
 		"A3_Structures_F_Bootcamp_Civ_SportsGrounds",
@@ -40,14 +36,8 @@ class Mission
 		"A3_Structures_F_Items_Stationery",
 		"A3_Air_F_Beta_Heli_Transport_01",
 		"A3_Structures_F_Mil_Offices",
-		"A3_Data_F",
-		"a3_roads_f",
 		"A3_Characters_F_Bootcamp",
 		"A3_Animals_F_Rabbit",
-		"A3_Structures_F_Mil_Shelters",
-		"A3_Structures_F_Naval_Piers",
-		"A3_Structures_F_EPA_Items_Medical",
-		"A3_Structures_F_EPB_Items_Luggage",
 		"A3_Structures_F_Bootcamp_Items_Electronics",
 		"A3_Misc_F_Helpers",
 		"rds_a2port_cman",
@@ -3118,7 +3108,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=412;
+		items=413;
 		class Item0
 		{
 			position[]={16022.874,34.577976,16364.023};
@@ -7814,6 +7804,19 @@ class Mission
 			vehicle="Land_InfoStand_V2_F";
 			skill=0.2;
 			init="this enableSimulation false;   this allowDamage false; this addAction [""Tailler la Roche"",life_fnc_processAction,""cement"",0,false,false,"""",' life_inv_rock > 0 && !life_is_processing'];  this addAction[format[""%1 (%2€)"",[""license_civ_cement""] call life_fnc_varToStr,[([""cement""] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,""cement"",0,false,false,"""",' !license_civ_cement && playerSide == civilian '];";
+		};
+		class Item412
+		{
+			position[]={11673.695,3.9957044,11441.874};
+			azimut=299.49887;
+			offsetY=0.40000001;
+			special="NONE";
+			id=612;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V2_F";
+			skill=0.2;
+			text="Carshop1_3_1";
+			init="this enableSimulation false; this allowDamage false; this addAction[""Quincaillerie"",life_fnc_weaponShopMenu,""genstore""];";
 		};
 	};
 	class Markers
