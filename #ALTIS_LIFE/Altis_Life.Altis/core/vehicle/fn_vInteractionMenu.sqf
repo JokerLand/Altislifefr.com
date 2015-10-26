@@ -116,7 +116,7 @@ if(playerSide == west) then {
 	_Btn6 ctrlShow false;
 };
 
-if(playerSide == east) then {
+if(playerSide == east || playserSide == independent) then {
 
 
 	_Btn4 ctrlShow true;
