@@ -7725,7 +7725,7 @@ class Mission
 			side="EMPTY";
 			vehicle="GeK_Coffre";
 			skill=0.60000002;
-			init="this enableSimulation false; this allowDamage false; this setVectorUp [0,0,1];this addAction[""Braquer le Coffre"",life_fnc_robBank]; (getPos this nearestObject 654825) setDamage 1; (getPos this nearestObject 654826) setDamage 1; ";
+			init="this enableSimulation false; this allowDamage false; this setVectorUp [0,0,1];this addAction[""Braquer le Coffre"",life_fnc_robBank]; (getPos this nearestObject 654788) setDamage 1;    (getPos this nearestObject 654787) setDamage 1;    (getPos this nearestObject 654726) setDamage 1;    (getPos this nearestObject 654819) setDamage 1;    (getPos this nearestObject 654825) setDamage 1;    (getPos this nearestObject 654826) setDamage 1;    (getPos this nearestObject 654827) setDamage 1;    (getPos this nearestObject 654822) setDamage 1;";
 		};
 		class Item404
 		{
