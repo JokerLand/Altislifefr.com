@@ -109,11 +109,11 @@ switch (_shop) do
 	case "armer_car":
 	{
 			_return pushBack
-			["B_Heli_Light_01_F",75000];
+			["B_Heli_Light_01_F",10];
 			_return pushBack
-			["GeK_TLC100",100000];
+			["GeK_TLC100",10];
 			_return pushBack
-			["GeK_TLC100_Police",150000];
+			["GeK_TLC100_Police",10];
 
 
 
@@ -121,11 +121,11 @@ switch (_shop) do
 		{
 
 		_return pushBack
-		["Gurkha_f5",1000000];
+		["Gurkha_f5",10];
 		_return pushBack
-		["ALFR_suv_armee",100000];
+		["ALFR_suv_armee",10];
 		_return pushBack
-		["Cha_UH60L_Unarmed_FFV_AUS",500000];
+		["Cha_UH60L_Unarmed_FFV_AUS",10];
 
 		};
 
@@ -133,7 +133,7 @@ switch (_shop) do
 		{
 
 		_return pushBack
-		["B_Heli_Transport_03_unarmed_F",1000000];
+		["B_Heli_Transport_03_unarmed_F",10];
 
 		};
 
@@ -141,7 +141,7 @@ switch (_shop) do
 		{
 
 		_return pushBack
-		["B_MRAP_01_F",1000000];
+		["B_MRAP_01_F",10];
 
 		};
 
