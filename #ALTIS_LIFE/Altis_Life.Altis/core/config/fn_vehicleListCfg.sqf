@@ -330,6 +330,7 @@ switch (_shop) do
             ["IVORY_T6A_1",100000],
             ["mv22",100000],
             ["IVORY_ERJ135_1", 200000],
+            ["globemaster_c17_NATO", 300000],
             ["b737", 350000]
         ];
     };
