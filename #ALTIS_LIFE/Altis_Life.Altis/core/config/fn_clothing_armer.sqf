@@ -18,10 +18,10 @@ switch (_filter) do
 	case 0:
 	{
 		[
-		["R3F_uniform_f1",nil,1500],
-		["U_B_Wetsuit",nil,2000],
-        ["R3F_uniform_Ghillie",nil,5000],
-        ["U_O_Wetsuit",nil,5000]
+		["R3F_uniform_f1",nil,10],
+		["U_B_Wetsuit",nil,10],
+        ["R3F_uniform_Ghillie",nil,10],
+        ["U_O_Wetsuit",nil,10]
 		];
 	};
 
@@ -29,12 +29,12 @@ switch (_filter) do
 	case 1:
 	{
 		[
-			["R3F_casque_spectra",nil,1000],
-			["R3F_casquette_off",nil,1000],
-			["R3F_beret_para",nil,1000],
-			["H_PilotHelmetHeli_B",nil,1000],
-			["H_PilotHelmetHeli_O",nil,1000],
-			["H_ALFR_Gasmask",nil,1000]
+			["R3F_casque_spectra",nil,10],
+			["R3F_casquette_off",nil,10],
+			["R3F_beret_para",nil,10],
+			["H_PilotHelmetHeli_B",nil,10],
+			["H_PilotHelmetHeli_O",nil,10],
+			["H_ALFR_Gasmask",nil,10]
 		];
 	};
 
@@ -42,16 +42,16 @@ switch (_filter) do
 	case 2:
 	{
 		[
-			["R3F_cagoule_olive",nil,1000],
-			["R3F_cagoule_punisher",nil,1500],
-			["G_Aviator",nil,100],
-			["G_Balaclava_blk",nil,100],
-			["R3F_lunettes_X800",nil,100],
-			["H_ALFR_SkiMask_1",nil,100],
-			["H_ALFR_SkiMask_9",nil,100],
-			["H_ALFR_SkiMask_10",nil,100],
-			["H_ALFR_SkiMask_Glasses_1",nil,100],
-			["G_Diving",nil,500]
+			["R3F_cagoule_olive",nil,10],
+			["R3F_cagoule_punisher",nil,10],
+			["G_Aviator",nil,10],
+			["G_Balaclava_blk",nil,10],
+			["R3F_lunettes_X800",nil,10],
+			["H_ALFR_SkiMask_1",nil,10],
+			["H_ALFR_SkiMask_9",nil,10],
+			["H_ALFR_SkiMask_10",nil,10],
+			["H_ALFR_SkiMask_Glasses_1",nil,10],
+			["G_Diving",nil,10]
 		];
 	};
 
@@ -59,9 +59,9 @@ switch (_filter) do
 	case 3:
 	{
 		[
-			["R3F_veste_ce600",nil,500],
-			["V_RebreatherB",nil,5000],
-            ["V_RebreatherIA",nil,2500]
+			["R3F_veste_ce600",nil,10],
+			["V_RebreatherB",nil,10],
+            ["V_RebreatherIA",nil,10]
 		];
 	};
 
@@ -69,7 +69,8 @@ switch (_filter) do
 	case 4:
 	{
 		[
-			["ALFR_Police_Backpack","Sac Invisible",1000]
+			["ALFR_Police_Backpack","Sac Invisible",10],
+			["B_UAV_01_backpack_F",nil,10]
 		];
 	};
 };
