@@ -3118,7 +3118,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=413;
+		items=412;
 		class Item0
 		{
 			position[]={16022.874,34.577976,16364.023};
@@ -7725,7 +7725,7 @@ class Mission
 			side="EMPTY";
 			vehicle="GeK_Coffre";
 			skill=0.60000002;
-			init="this setVectorUp [0,0,1];this addAction[""Braquer le Coffre"",life_fnc_robBank];";
+			init="this enableSimulation false; this allowDamage false; this setVectorUp [0,0,1];this addAction[""Braquer le Coffre"",life_fnc_robBank];";
 		};
 		class Item404
 		{
@@ -7740,88 +7740,76 @@ class Mission
 		};
 		class Item405
 		{
-			position[]={9415.9297,119.41425,15867.145};
-			azimut=-18.778049;
-			id=605;
-			side="EMPTY";
-			vehicle="Land_HelipadEmpty_F";
-			leader=1;
-			lock="LOCKEDPLAYER";
-			skill=0.60000002;
-			init="this allowDamage false; this enableSimulation false; (getPos this nearestObject 654789) setDamage 1; delh = [0,0,0] nearestObject 654766; delh hideObject true; delh = [0,0,0] nearestObject 654771; delh hideObject true; delh = [0,0,0] nearestObject 654772; delh hideObject true; delh = [0,0,0] nearestObject 654842; delh hideObject true; delh = [0,0,0] nearestObject 654843; delh hideObject true; delh = [0,0,0] nearestObject 654857; delh hideObject true; delh = [0,0,0] nearestObject 654836; delh hideObject true; (getPos this nearestObject 654788) setDamage 1;  (getPos this nearestObject 654787) setDamage 1;  (getPos this nearestObject 654726) setDamage 1;  (getPos this nearestObject 654819) setDamage 1;  (getPos this nearestObject 654825) setDamage 1;  (getPos this nearestObject 654826) setDamage 1;  (getPos this nearestObject 654827) setDamage 1;  (getPos this nearestObject 654822) setDamage 1;";
-		};
-		class Item406
-		{
 			position[]={14603.281,17.91,16659.709};
 			azimut=-134.62;
-			id=606;
+			id=605;
 			side="EMPTY";
 			vehicle="SignAd_Sponsor_F";
 			skill=0.60000002;
 			init="this enableSimulation false; this allowDamage false; this SetObjectTexture [0,""images\billboard_donator7.jpg""];";
 		};
-		class Item407
+		class Item406
 		{
 			position[]={14613.139,17.91,16660.838};
 			azimut=-405.41226;
-			id=607;
+			id=606;
 			side="EMPTY";
 			vehicle="SignAd_Sponsor_F";
 			skill=0.60000002;
 			init="this enableSimulation false; this allowDamage false; this SetObjectTexture [0,""images\billboard_donator8.jpg""];";
 		};
-		class Item408
+		class Item407
 		{
 			position[]={3295.1238,0,12892.176};
 			azimut=358.45151;
 			offsetY=2.0999999;
 			special="NONE";
-			id=608;
+			id=607;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V2_F";
 			skill=0.2;
 			text="atm1_1_3_1_6_4_7_16_1";
 			init="this enableSimulation false; this allowDamage false; this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu]; this addAction[""Banking Insurance ($1,000)"",{if(life_atmcash > 1000) then {life_has_insurance = true; life_atmcash = life_atmcash - 1000};},"""",0,false,false,"""",'!life_has_insurance'];";
 		};
-		class Item409
+		class Item408
 		{
 			position[]={14129.471,17.187487,16450.422};
 			azimut=793.25372;
 			offsetY=0.1;
 			special="NONE";
-			id=609;
+			id=608;
 			side="EMPTY";
 			vehicle="Land_FinishGate_01_wide_F";
 			skill=0.60000002;
 		};
-		class Item410
+		class Item409
 		{
 			position[]={14105.951,17.076717,16437.365};
 			azimut=975.74945;
-			id=610;
+			id=609;
 			side="EMPTY";
 			vehicle="Land_Atm_01_F";
 			skill=0.60000002;
 			text="atm1_1_3_1_6_4_7_6_1_1_1";
 			init="this enableSimulation false; this allowDamage false; this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu]; this addAction[""Banking Insurance ($1,000)"",{if(life_atmcash > 1000) then {life_has_insurance = true; life_atmcash = life_atmcash - 1000};},"""",0,false,false,"""",'!life_has_insurance'];";
 		};
-		class Item411
+		class Item410
 		{
 			position[]={14033.192,25.620043,18750.135};
 			azimut=1025.3438;
-			id=611;
+			id=610;
 			side="EMPTY";
 			vehicle="Land_Atm_01_F";
 			skill=0.60000002;
 			text="atm1_1_3_1_6_4_7_7_1_2";
 			init="this enableSimulation false; this allowDamage false; this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu]; this addAction[""Banking Insurance ($1,000)"",{if(life_atmcash > 1000) then {life_has_insurance = true; life_atmcash = life_atmcash - 1000};},"""",0,false,false,"""",'!life_has_insurance'];";
 		};
-		class Item412
+		class Item411
 		{
 			position[]={20258.725,40.778526,8814.2471};
 			azimut=52.447899;
 			special="NONE";
-			id=612;
+			id=611;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V2_F";
 			skill=0.2;
