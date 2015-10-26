@@ -19,3 +19,5 @@ waitUntil {
 	sleep 1;
 	(isNull (findDisplay 7300))
 };
+
+if (([independent,getPosATL player,300] call life_fnc_nearUnits)) then {_RespawnBtn ctrlEnable false;}
