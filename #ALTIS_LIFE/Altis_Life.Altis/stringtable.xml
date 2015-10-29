@@ -2072,7 +2072,7 @@
 			<Original>%1 your %2 is being impounded by the police.</Original>
 			<English>%1 your %2 is being impounded by the police.</English>
 			<German>%1 dein %2 wird von der Polizei beschlagnahmt.</German>
-			<French>%1 votre %2 est envoyé a la fourrière par la police.</French>
+			<French>%1 votre %2 est entrain d'être detruit par la police.</French>
 			<Italian>%1 il tuo %2 sta per essere sequestrato dalla Polizia.</Italian>
 			<Portuguese>%1 seu %2 está sendo apreendido pela Polícia</Portuguese>
 		</Key>
@@ -2080,7 +2080,7 @@
 			<Original>Impounding Vehicle</Original>
 			<English>Impounding Vehicle</English>
 			<German>Fahrzeug wird beschlagnahmt</German>
-			<French>Mise en fourrière</French>
+			<French>Destruction</French>
 			<Italian>Sequestro Veicolo in corso</Italian>
 			<Portuguese>Apreendendo veículo</Portuguese>
 		</Key>
@@ -2088,7 +2088,7 @@
 			<Original>Impounding has been cancelled.</Original>
 			<English>Impounding has been cancelled.</English>
 			<German>Beschlagnahmung abgebrochen.</German>
-			<French>Mise en fourrière annulée.</French>
+			<French>Destruction annulée.</French>
 			<Italian>Il sequestro è stato annullato.</Italian>
 			<Portuguese>Ação de apreender foi cancelada</Portuguese>
 		</Key>
