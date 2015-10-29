@@ -265,6 +265,8 @@ class Life_Client_Core
 		class playSound {};
         class fadeSound {};
         class randomRound {};
+        class callbackup {};
+        class backupCall {};
 	};
 
 	class Network

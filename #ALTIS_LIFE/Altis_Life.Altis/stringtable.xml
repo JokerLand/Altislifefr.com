@@ -3080,6 +3080,10 @@
 			<Italian>Cannabis</Italian>
 			<Portuguese>Maconha não Processada</Portuguese>
 		</Key>
+		<Key ID="STR_Item_backup">
+		<Original>Un collègue a besoin de renforts !</Original>
+		<French>Un collègue a besoin de renforts !</French>
+		</Key>
 		<Key ID="STR_Item_Apple">
 			<Original>Apple</Original>
 			<English>Apple</English>

@@ -156,6 +156,7 @@ if (playerSide == west) then {
 	};
 };
 
+
 [] spawn
 {
 	while {true} do
@@ -184,4 +185,12 @@ if (playerSide == west) then {
 		life_drink = 0;
 		
 	};
+};
+
+_copmarkers = ["_backupmsg"];
+
+if (playerSide == civilian) then {
+
+{ deleteMarkerLocal _x; } forEach _copmarkers;
+
 };

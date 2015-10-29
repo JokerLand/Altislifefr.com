@@ -62,6 +62,8 @@ switch (playerSide) do
 		//Saisir Objets
 		life_actions = life_actions + [player addAction["Saisir objets",life_fnc_seizeObjects,cursorTarget,0,false,false,"",'((count(nearestObjects [player,["WeaponHolder"],3])>0) || (count(nearestObjects [player,["GroundWeaponHolder"],3])>0) || (count(nearestObjects [player,["WeaponHolderSimulated"],3])>0))']];
 
+		//Call backup
+		life_actions pushBack (player addAction["<t color='#ADFF2F'>Demande de renforts</t>",life_fnc_callbackup,"",0,FALSE,FALSE,""]);
 	};
 	case civilian:
 	{

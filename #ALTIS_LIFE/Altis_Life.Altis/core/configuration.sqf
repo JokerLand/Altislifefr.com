@@ -72,6 +72,7 @@ life_carryWeight = 0; //Represents the players current inventory weight (MUST ST
 */
 life_net_dropped = false;
 life_hit_explosive = false;
+life_callBackup = true; 
 life_siren_active = false;
 life_bank_fail = false;
 life_use_atm = true;
