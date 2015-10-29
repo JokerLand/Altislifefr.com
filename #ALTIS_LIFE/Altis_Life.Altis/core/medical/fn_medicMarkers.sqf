@@ -22,7 +22,7 @@ if(visibleMap) then {
 	//Loop through and create markers.
 	{
 		_marker = createMarkerLocal [format["%1_dead_marker",_x],visiblePosition _x];
-		_marker setMarkerColorLocal "ColorRed";
+		_marker setMarkerColorLocal "ColorGreen";
 		_marker setMarkerTypeLocal "loc_Hospital";
 		_marker setMarkerTextLocal format["%1",(_x getVariable["name","Unknown Player"])];
 		_markers pushBack _marker;
