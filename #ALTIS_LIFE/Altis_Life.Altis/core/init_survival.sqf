@@ -186,11 +186,3 @@ if (playerSide == west) then {
 		
 	};
 };
-
-_copmarkers = ["_backupmsg"];
-
-if (playerSide == civilian) then {
-
-{ deleteMarkerLocal _x; } forEach _copmarkers;
-
-};
