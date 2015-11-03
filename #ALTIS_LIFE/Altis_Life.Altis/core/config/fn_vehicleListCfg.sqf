@@ -33,14 +33,24 @@ switch (_shop) do
 	case "med_shop":
 	{
 		_return pushBack
-		["C_Offroad_01_F",5000];
+		["C_Offroad_01_F",0];
 		_return pushBack
-		["GeK_Renault_Trafic_Ambulance",50000];
+		["GeK_Renault_Trafic_Ambulance",0];
+		if(__GETC__(life_mediclevel) > 1) then
+		{
+			_return pushBack
+			["C_SUV_01_F",0];
+			_return pushBack
+			["GeK_TLC100_Medic",0];
+
+					};
+
 		if(__GETC__(life_mediclevel) > 2) then
 		{
 			_return pushBack
-			["C_SUV_01_F",20000];
-					};
+			["GeK_S60_Medic",0];
+
+				};
 	};
 
 	case "med_air_hs":
