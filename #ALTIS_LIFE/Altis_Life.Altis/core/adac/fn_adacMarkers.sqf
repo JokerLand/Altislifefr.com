@@ -16,7 +16,7 @@ if(visibleMap) then {
 	//Create markers
 	{
 		_marker = createMarkerLocal [format["%1_marker",_x],visiblePosition _x];
-		_marker setMarkerColorLocal "ColorGreen";//u can find other colours here https://community.bistudio.com/wiki/setMarkerColor
+		_marker setMarkerColorLocal "ColorRed";//u can find other colours here https://community.bistudio.com/wiki/setMarkerColor
 		_marker setMarkerTypeLocal "Mil_dot";
 		_marker setMarkerTextLocal format["%1", _x getVariable["realname",name _x]];
 	
