@@ -5,7 +5,7 @@
 	Description:
 	Allows Cops to enter locked Vehicles
 */
-if(playerSide == civilian) exitWith {};
+if(playerSide != west) exitWith {};
 private ["_position","_veh"];
 _position = _this select 3;
 
