@@ -197,7 +197,6 @@ switch (_shop) do
 				["ALFR_GeK_Volvo_FH16_2012",300000],
 				["GeK_Renault_Magnum",400000],
 				["cl3_veyron_wht_blu",270000],
-                ["ivory_lfa",300000],
 				["ALFR_GeK_Panamera",350000],
                 ["GR_UH1H_1",400000],
                 ["ARMSCor_A109_Civ",500000],
