@@ -80,6 +80,7 @@ switch (_shop) do
 			["SAL_AudiCiv",22000],
 			["cl3_insignia_black",25000],
 			["GeK_S60",25000],
+			["GeK_CTSV",25000],
 			["cl3_q7_black",45000],
 			["I_G_Offroad_01_F",55000],
 			["DAR_M3CivGrey",40000],
@@ -204,6 +205,7 @@ switch (_shop) do
 			_return =
 			[
 				["GeK_S60",15000],
+				["GeK_CTSV",15000],
 				["cl3_suv_taxi",50000],
 				/*["B_Heli_Light_01_F",100000],*/
 				["cl3_suv_black",200000],
