@@ -527,7 +527,7 @@ life_garage_prices = if(playerSide == west) then {
 	["B_Truck_01_box_F", 35000],
 	["O_MRAP_02_F",75000],
 	["B_Heli_Light_01_F",10000],
-	["O_Heli_Light_02_unarmed_F",75000],
+	["O_Heli_Light_02_unarmed_F",35000],
 	["C_Rubberboat",400],
 	["C_Boat_Civil_01_F",4500],
 	["B_Boat_Transport_01_F",450],
