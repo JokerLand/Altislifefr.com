@@ -122,9 +122,7 @@ switch (_shop) do
 
 		if(__GETC__(life_adaclevel) > 1) then
 		{
-
-		_return pushBack
-		["Gurkha_f5",10];
+		
 		_return pushBack
 		["ALFR_suv_armee",10];
 		_return pushBack
