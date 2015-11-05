@@ -14,13 +14,10 @@
 private["_markers2","_units"];
 _markers2 = [];
 _units = [];
-{deleteMarkerLocal _x;} foreach _markers2;
-
 sleep 0.25;
-if(visibleMap) 
-	then 
-	
-{
+
+if(visibleMap) then {
+
 	{
 		_name = _x getVariable "name";
 		_down = _x getVariable ["Revive",false];
@@ -37,7 +34,11 @@ if(visibleMap)
 		_marker setMarkerTextLocal format["%1",(_x getVariable["name","Unknown Player"])];
 		_markers2 set[count _markers2,_marker];
 	} foreach _units;
-};		
+
+	waitUntil {!visibleMap};
+	{deleteMarkerLocal _x;} foreach _markers2;
+};	
+
 private["_markers","_medics"];
 _markers = [];
 _medics = [];
