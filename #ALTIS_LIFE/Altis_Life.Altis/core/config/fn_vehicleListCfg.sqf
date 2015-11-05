@@ -81,7 +81,6 @@ switch (_shop) do
 			["cl3_q7_black",45000],
 			["I_G_Offroad_01_F",55000],
 			["cl3_e63_amg_black",50000],
-			["cl3_range_rover_black",50000],
 			["SAL_IROCCiv",95000],
 			["SAL_77TRANSAMCiv",100000],
 			["cl3_dodge_charger_s_black",110000],
@@ -228,7 +227,6 @@ switch (_shop) do
 			["cl3_insignia_camo",75000],
 			["cl3_dodge_charger_s_camo",200000],
 			["cl3_e63_amg_camo",300000],
-			["cl3_range_rover_camo",400000],
 			["GeK_Mercedes_ML63_Rebelle",1250000],
 			["O_Truck_03_device_F",1000000],
 			["O_Truck_03_transport_F",1000000],
@@ -271,8 +269,6 @@ switch (_shop) do
 			["GeK_S60_Police",30000];
             if(__GETC__(life_coplevel) > 1) then
             {
-			_return pushBack
-			["range_rover_police",15000];
 			_return pushBack
 			["ALFR_GeK_Panamera_Police",20000];
 			_return pushBack
