@@ -75,7 +75,6 @@ switch (_shop) do
 			["C_Offroad_01_F",14000],
 			["C_SUV_01_F",22000],
 			["SAL_AudiCiv",22000],
-			["cl3_insignia_black",25000],
 			["GeK_S60",25000],
 			["GeK_CTSV",25000],
 			["cl3_q7_black",45000],
@@ -180,7 +179,6 @@ switch (_shop) do
 			_return =
 			[
 				["cl3_q7_black",45000],
-				["cl3_insignia_camo",75000],
 				["cl3_e63_amg_camo",250000],
 				["cl3_suv_black",200000]
 			];
@@ -224,7 +222,6 @@ switch (_shop) do
 		[
 			["B_G_Offroad_01_F",15000],
 			["B_G_Van_01_transport_F",50000],
-			["cl3_insignia_camo",75000],
 			["cl3_dodge_charger_s_camo",200000],
 			["cl3_e63_amg_camo",300000],
 			["GeK_Mercedes_ML63_Rebelle",1250000],
