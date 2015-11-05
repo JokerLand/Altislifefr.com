@@ -67,15 +67,12 @@ switch (_shop) do
 		_return =
 		[
 			["A3L_VolksWagenGolfGTiblack",3300],
-			["DAR_ImpalaCiv",5500],
 			["A3L_PuntoBlue",6000],
 			["cl3_civic_vti_black",7500],
-			["DAR_FusionCiv",10000],
             ["B_Quadbike_01_F",10000],
 			["cl3_taurus_black",12000],
 			["cl3_polo_gti_black",12000],
 			["C_Offroad_01_F",14000],
-			["DAR_TahoeCiv",16000],
 			["C_SUV_01_F",22000],
 			["SAL_AudiCiv",22000],
 			["cl3_insignia_black",25000],
@@ -83,13 +80,11 @@ switch (_shop) do
 			["GeK_CTSV",25000],
 			["cl3_q7_black",45000],
 			["I_G_Offroad_01_F",55000],
-			["DAR_M3CivGrey",40000],
 			["cl3_e63_amg_black",50000],
 			["cl3_range_rover_black",50000],
 			["SAL_IROCCiv",95000],
 			["SAL_77TRANSAMCiv",100000],
 			["cl3_dodge_charger_s_black",110000],
-			["DAR_ChallengerCivWhite",120000],
 			["cl3_z4_2008_black",120000],
 			["GeK_TLC100",150000],
 			["cl3_carrera_gt_black",150000],
@@ -171,11 +166,6 @@ switch (_shop) do
 				["I_Truck_02_transport_F",75000],
 				["I_Truck_02_covered_F",100000],
                 ["cg_rv_camper",130000],
-				["DAR_4X4",100000],
-				["DAR_MK27",150000],
-				["DAR_MK27T",200000],
-				["DAR_MK23",250000],
-				["DAR_LHS_16",450000],
 				["B_Truck_01_transport_F",200000],
 				["A3L_Dumptruck",250000],
 				["B_Truck_01_covered_F",300000],
@@ -270,8 +260,7 @@ switch (_shop) do
 
 	case "cop_car":
 	{
-			_return pushBack
-			["DAR_ImpalaPolice",10000];
+			
 			_return pushBack
 			["C_Offroad_01_F",15000];
 			_return pushBack
@@ -280,16 +269,10 @@ switch (_shop) do
 			["GeK_Renault_Trafic_Police",15000];
 			_return pushBack
 			["GeK_S60_Police",30000];
-			_return pushBack
-			["DAR_TaurusPolice",20000];
-			_return pushBack
-			["DAR_ChargerPoliceState",15000];
             if(__GETC__(life_coplevel) > 1) then
             {
 			_return pushBack
 			["range_rover_police",15000];
-			_return pushBack
-			["DAR_ExplorerPolice",20000];
 			_return pushBack
 			["ALFR_GeK_Panamera_Police",20000];
 			_return pushBack
