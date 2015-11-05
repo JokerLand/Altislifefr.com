@@ -95,5 +95,5 @@ switch (playerSide) do
 		life_actions = life_actions + [player addAction["Monter en passager",life_fnc_medicEnter,"passenger",100,false,false,"",'!isNull cursorTarget && ((cursorTarget isKindOf "Car")||(cursorTarget isKindOf "Air")||(cursorTarget isKindOf "Ship")) && (locked cursorTarget) != 0 && cursorTarget distance player < 5']];
 		life_actions = life_actions + [player addAction["Descendre",life_fnc_medicEnter,"exit",100,false,false,"",'(vehicle player != player) && (locked(vehicle player)==2)']];
 
-	};
+	}
 };
