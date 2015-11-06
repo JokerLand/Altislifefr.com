@@ -122,7 +122,7 @@ switch (_shop) do
 
 		if(__GETC__(life_adaclevel) > 1) then
 		{
-		
+
 		_return pushBack
 		["ALFR_suv_armee",10];
 		_return pushBack
@@ -191,6 +191,7 @@ switch (_shop) do
 				["GeK_S60",15000],
 				["GeK_CTSV",15000],
 				["cl3_suv_taxi",50000],
+				["GeK_ElCamino",100000],
 				/*["B_Heli_Light_01_F",100000],*/
 				["cl3_suv_black",200000],
 				["ALFR_GeK_Scania_420",250000],
@@ -252,7 +253,7 @@ switch (_shop) do
 
 	case "cop_car":
 	{
-			
+
 			_return pushBack
 			["C_Offroad_01_F",15000];
 			_return pushBack
