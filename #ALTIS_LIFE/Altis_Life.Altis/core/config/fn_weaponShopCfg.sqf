@@ -859,8 +859,6 @@ switch(_shop) do
 						["20Rnd_762x51_ScarH_Mag",nil,10],
 						["srifle_EBR_F",nil,10],
 						["20Rnd_762x51_Mag",nil,10],
-						["HK430",nil,10],
-						["HK430_30Rnd_556x45",nil,10],
 						["srifle_LRR_F",nil,10],
 						["7Rnd_408_Mag",nil,10],
 						["hgun_Pistol_heavy_01_F",nil,10],
