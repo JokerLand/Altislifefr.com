@@ -3718,8 +3718,8 @@ class Mission
 		};
 		class Item58
 		{
-			position[]={9538.2207,127.11763,15096.273};
-			azimut=-7.5471253;
+			position[]={6090.2446,43,16276.973};
+			azimut=-149.12244;
 			offsetY=0.1;
 			id=258;
 			side="EMPTY";
@@ -3729,8 +3729,8 @@ class Mission
 		};
 		class Item59
 		{
-			position[]={9538.2949,127.11943,15099.632};
-			azimut=223.93314;
+			position[]={6088.0986,43,16274.378};
+			azimut=82.357803;
 			id=259;
 			side="EMPTY";
 			vehicle="Land_GarbageContainer_open_F";
@@ -3739,8 +3739,8 @@ class Mission
 		};
 		class Item60
 		{
-			position[]={9536.6113,127.11549,15094.689};
-			azimut=-83.454193;
+			position[]={6092.4927,43,16277.206};
+			azimut=-225.0295;
 			id=260;
 			side="EMPTY";
 			vehicle="Land_WoodenCart_F";
@@ -3749,8 +3749,8 @@ class Mission
 		};
 		class Item61
 		{
-			position[]={9532.9492,127.1106,15093.572};
-			azimut=-17.830135;
+			position[]={6096.0596,43,16275.803};
+			azimut=-159.40544;
 			id=261;
 			side="EMPTY";
 			vehicle="Land_Pallets_F";
@@ -3839,8 +3839,8 @@ class Mission
 		};
 		class Item69
 		{
-			position[]={14306.344,18.878582,17405.305};
-			azimut=-124.46432;
+			position[]={12654.13,34.21085,16380.979};
+			azimut=-61.771057;
 			id=269;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V2_F";
@@ -3849,8 +3849,8 @@ class Mission
 		};
 		class Item70
 		{
-			position[]={17866.98,2.4037013,18200.137};
-			azimut=577.11774;
+			position[]={14500.155,20.571758,17756.877};
+			azimut=697.09753;
 			id=270;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V2_F";
@@ -4025,8 +4025,8 @@ class Mission
 		};
 		class Item85
 		{
-			position[]={10358.851,125.36267,18029.539};
-			azimut=356.79984;
+			position[]={14353.456,36.956303,18960.674};
+			azimut=320.75012;
 			special="NONE";
 			id=285;
 			side="EMPTY";
@@ -4048,8 +4048,8 @@ class Mission
 		};
 		class Item87
 		{
-			position[]={12583.651,34.019722,16398.439};
-			azimut=117.5185;
+			position[]={10306.956,129.45439,17972.063};
+			azimut=338.47287;
 			special="NONE";
 			id=287;
 			side="EMPTY";
@@ -4914,8 +4914,8 @@ class Mission
 		};
 		class Item161
 		{
-			position[]={6250.2627,43,16250.448};
-			azimut=-360.84277;
+			position[]={9537.2139,127.11629,15092.937};
+			azimut=-222.61583;
 			special="NONE";
 			id=361;
 			side="EMPTY";
@@ -5188,8 +5188,8 @@ class Mission
 		};
 		class Item184
 		{
-			position[]={5378.979,76.881599,17907.113};
-			azimut=-183.881;
+			position[]={6245.1782,43,16301.215};
+			azimut=0.76633126;
 			special="NONE";
 			id=384;
 			side="EMPTY";
@@ -5199,8 +5199,8 @@ class Mission
 		};
 		class Item185
 		{
-			position[]={9535.6191,127.11416,15096.935};
-			azimut=142.44789;
+			position[]={6091.877,43,16274.831};
+			azimut=0.8725369;
 			special="NONE";
 			id=385;
 			side="EMPTY";
@@ -5210,7 +5210,7 @@ class Mission
 		};
 		class Item186
 		{
-			position[]={3978.8997,23.406242,17528.58};
+			position[]={9783.6172,74.408501,16326.032};
 			azimut=33.395302;
 			special="NONE";
 			id=386;
@@ -7310,8 +7310,8 @@ class Mission
 		};
 		class Item367
 		{
-			position[]={11391.245,21.123455,14219.692};
-			azimut=309.70499;
+			position[]={17870.623,2.4303198,18202.174};
+			azimut=304.06845;
 			id=567;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
@@ -7925,7 +7925,7 @@ class Mission
 		};
 		class Item14
 		{
-			position[]={5411.207,76.68222,17906.361};
+			position[]={6244.6348,43,16294.382};
 			name="OilP";
 			text="Raffinage de Pétrole";
 			type="mil_box";
@@ -7934,7 +7934,7 @@ class Mission
 		};
 		class Item15
 		{
-			position[]={6250.48,43,16250.229};
+			position[]={9536.5391,127.11539,15093.412};
 			name="iron_processing";
 			text="Fonderie de Fer";
 			type="mil_box";
@@ -8423,7 +8423,7 @@ class Mission
 		};
 		class Item74
 		{
-			position[]={3979.2336,23.409256,17528.725};
+			position[]={9783.9512,74.396797,16326.177};
 			name="Dealer_1";
 			text="Dealer de Drogues";
 			type="mil_dot";
@@ -8591,12 +8591,12 @@ class Mission
 		};
 		class Item95
 		{
-			position[]={9535.3896,127.11385,15097.36};
+			position[]={6091.9067,43,16273.317};
 			name="copper_mine_1";
 			text="Fonderie de Cuivre";
 			type="mil_box";
 			colorName="ColorBrown";
-			angle=136.76439;
+			angle=0.20935217;
 		};
 		class Item96
 		{
@@ -8635,7 +8635,7 @@ class Mission
 		};
 		class Item100
 		{
-			position[]={5209.7964,239.94553,20988.254};
+			position[]={20730.098,38.332954,13423.399};
 			name="cocaine_1";
 			text="Champ de Cocaine";
 			type="mil_dot";
@@ -8643,7 +8643,7 @@ class Mission
 		};
 		class Item101
 		{
-			position[]={5211.0859,239.86697,20988.293};
+			position[]={20731.387,38.316647,13423.438};
 			name="coke_area";
 			markerType="ELLIPSE";
 			type="Empty";
@@ -8653,12 +8653,12 @@ class Mission
 		};
 		class Item102
 		{
-			position[]={14306.254,18.874533,17404.934};
+			position[]={12649.391,34.087093,16383.384};
 			name="oil_trader";
 			text="Revente Essence";
 			type="b_unknown";
 			colorName="ColorOrange";
-			angle=-151.21239;
+			angle=-179.8988;
 		};
 		class Item103
 		{
@@ -8671,7 +8671,7 @@ class Mission
 		};
 		class Item104
 		{
-			position[]={17867.283,2.4097707,18201.094};
+			position[]={14499.993,20.58432,17757.635};
 			name="oil_trader_3";
 			text="Vendeur de Verre";
 			type="b_unknown";
@@ -8689,12 +8689,12 @@ class Mission
 		};
 		class Item106
 		{
-			position[]={12583.442,34.023994,16398.26};
+			position[]={10306.668,129.42049,17973.314};
 			name="dimond_1_1";
 			text="Traitement de Sable en Verre";
 			type="mil_triangle";
 			colorName="ColorBrown";
-			angle=-29.02833;
+			angle=1.673261;
 		};
 		class Item107
 		{
@@ -10601,7 +10601,7 @@ class Mission
 		};
 		class Item338
 		{
-			position[]={10359.108,125.36592,18029.473};
+			position[]={14353.248,36.966347,18959.602};
 			name="dimond_1";
 			text="Traitement de diamants";
 			type="mil_triangle";
@@ -10761,7 +10761,7 @@ class Mission
 		};
 		class Item358
 		{
-			position[]={11391.048,21.129726,14220.005};
+			position[]={17871.086,2.4415185,18202.912};
 			name="oil_trader_2";
 			text="Revendeur de Diamants";
 			type="b_unknown";
