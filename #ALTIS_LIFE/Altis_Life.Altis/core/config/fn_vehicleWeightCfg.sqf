@@ -83,7 +83,7 @@ switch (_className) do
 	case "B_MRAP_01_F": {65};
 	case "O_MRAP_02_F": {60};
 	case "I_MRAP_03_F": {60};
-	case "mv22": {60};
+	case "mv22": {5};
 	case "B_Heli_Light_01_F": {5};
 	case "C_Heli_Light_01_civil_F": {5};
 	case "O_Heli_Transport_04_bench_F": {5};
