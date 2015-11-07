@@ -11,7 +11,7 @@ private["_vehicle","_vid","_pid","_unit","_price"];
 disableSerialization;
 
 if(true) exitWith {};
-
+if(life_vehicle_sell_garage + 5 > time) exitWith {hint "Pas si vite! Tu dois attendre 5 secondes avant de vendre à nouveau.";};
 if(lbCurSel 2802 == -1) exitWith {hint localize "STR_Global_NoSelection"};
 _vehicle = lbData[2802,(lbCurSel 2802)];
 _vehicle = (call compile format["%1",_vehicle]) select 0;
@@ -27,5 +27,5 @@ if(_price == -1) then {_price = 1000;} else {_price = (__GETC__(life_garage_sell
 [[_vid,_pid,_price,player,life_garage_type],"TON_fnc_vehicleDelete",false,false] spawn life_fnc_MP;
 hint format[localize "STR_Garage_SoldCar",[_price] call life_fnc_numberText];
 life_atmcash = life_atmcash + _price;
-
+life_vehicle_sell_garage = time;
 closeDialog 0;
