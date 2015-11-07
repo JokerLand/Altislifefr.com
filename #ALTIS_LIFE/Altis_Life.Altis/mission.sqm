@@ -5210,8 +5210,9 @@ class Mission
 		};
 		class Item186
 		{
-			position[]={9783.6172,74.408501,16326.032};
-			azimut=33.395302;
+			position[]={9795.0596,74.386429,16324.676};
+			azimut=33.836399;
+			offsetY=0.69999999;
 			special="NONE";
 			id=386;
 			side="EMPTY";
@@ -8423,7 +8424,7 @@ class Mission
 		};
 		class Item74
 		{
-			position[]={9783.9512,74.396797,16326.177};
+			position[]={9793.4912,74.470894,16321.795};
 			name="Dealer_1";
 			text="Dealer de Drogues";
 			type="mil_dot";
