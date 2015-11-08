@@ -5721,7 +5721,7 @@ class Mission
 		};
 		class Item230
 		{
-			position[]={3281.7537,0,12890.334};
+			position[]={3281.4438,0,12895.959};
 			azimut=169.386;
 			offsetY=2.4000001;
 			special="NONE";
@@ -5745,7 +5745,7 @@ class Mission
 		};
 		class Item232
 		{
-			position[]={15135.653,17.91,17237.389};
+			position[]={15138.679,17.91,17233.779};
 			azimut=-46.215885;
 			offsetY=0.40000001;
 			special="NONE";
@@ -7750,7 +7750,7 @@ class Mission
 		};
 		class Item407
 		{
-			position[]={3282.906,0,12890.588};
+			position[]={3282.5962,0,12896.213};
 			azimut=528.85303;
 			offsetY=2.4000001;
 			special="NONE";
@@ -9958,7 +9958,7 @@ class Mission
 		};
 		class Item259
 		{
-			position[]={3282.7065,-0.10475269,12890.621};
+			position[]={3282.3967,0,12896.246};
 			name="atm_1_3_11_5_4_5_13_2";
 			text="ATM";
 			type="loc_Tourism";
