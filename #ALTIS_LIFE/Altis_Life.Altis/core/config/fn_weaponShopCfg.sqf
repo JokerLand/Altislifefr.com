@@ -944,6 +944,8 @@ switch(_shop) do
 						["C1987_MP7",nil,60000],
 						["C1987_20Rnd_46x30_mp7",nil,100],
 						["C1987_40Rnd_46x30_mp7",nil,200],
+                        ["R3F_MP5A5",nil,60000],
+                        ["R3F_30Rnd_9x19_MP5",nil,150],
 						["optic_ACO_grn_smg",nil,2500],
 						["V_Rangemaster_belt",nil,4900]
 					]
