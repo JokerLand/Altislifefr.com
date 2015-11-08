@@ -559,7 +559,7 @@ life_garage_sell =
 	["B_Truck_01_box_F", 150000],
 	["O_MRAP_02_F",65000],
 	["B_Heli_Light_01_F",57000],
-	["O_Heli_Light_02_unarmed_F",72500],
+	["O_Heli_Light_02_unarmed_F",1000],
 	["C_Rubberboat",950],
 	["C_Boat_Civil_01_F",6800],
 	["B_Boat_Transport_01_F",850],
