@@ -378,7 +378,7 @@ switch (_code) do
 
         if (!_shift) then
         {
-            if((playerSide == west or playerSide == independent or playerSide == east) && vehicle player != player && !life_siren_active && ((driver vehicle player) == player)) then
+            if((playerSide in [west,independent,east]) && vehicle player != player && !life_siren_active && ((driver vehicle player) == player)) then
             {
                 [] spawn
                 {
@@ -397,7 +397,13 @@ switch (_code) do
                 {
                     titleText ["Sirens On","PLAIN"];
                     _veh setVariable["siren",true,true];
+                    if(playerSide == west or playerSide == east) then {
                     [[_veh],"life_fnc_copSiren",nil,true] spawn life_fnc_MP;
+                    } else {
+
+                    [[_veh],"life_fnc_medicSiren",nil,true] spawn life_fnc_MP;
+
+                    };
                 };
             };
         };
