@@ -5721,9 +5721,9 @@ class Mission
 		};
 		class Item230
 		{
-			position[]={3293.5457,0,12891.151};
-			azimut=321.03299;
-			offsetY=2.0999999;
+			position[]={3281.7537,0,12890.334};
+			azimut=169.386;
+			offsetY=2.4000001;
 			special="NONE";
 			id=430;
 			side="EMPTY";
@@ -5734,8 +5734,8 @@ class Mission
 		};
 		class Item231
 		{
-			position[]={15129.468,17.91,17226.555};
-			azimut=224.39091;
+			position[]={15135.673,17.91,17223.838};
+			azimut=309.08691;
 			id=431;
 			side="EMPTY";
 			vehicle="Land_Atm_01_F";
@@ -5745,9 +5745,9 @@ class Mission
 		};
 		class Item232
 		{
-			position[]={15137.904,17.91,17227.613};
-			azimut=107.409;
-			offsetY=0.1;
+			position[]={15135.653,17.91,17237.389};
+			azimut=-46.215885;
+			offsetY=0.40000001;
 			special="NONE";
 			id=432;
 			side="EMPTY";
@@ -5768,7 +5768,7 @@ class Mission
 		};
 		class Item234
 		{
-			position[]={15125.118,17.91,17227.918};
+			position[]={15114.955,17.91,17238.039};
 			azimut=135;
 			offsetY=0.050000001;
 			special="NONE";
@@ -7042,7 +7042,7 @@ class Mission
 		};
 		class Item342
 		{
-			position[]={3265.3132,0,12896.539};
+			position[]={3272.4722,0,12908.122};
 			azimut=172.04701;
 			offsetY=2.2;
 			id=542;
@@ -7053,7 +7053,7 @@ class Mission
 		};
 		class Item343
 		{
-			position[]={15163.999,17.91,17240.668};
+			position[]={15154.069,17.91,17230.156};
 			azimut=-46.293301;
 			offsetY=0.5;
 			id=543;
@@ -7750,9 +7750,9 @@ class Mission
 		};
 		class Item407
 		{
-			position[]={3295.1238,0,12892.176};
-			azimut=358.45151;
-			offsetY=2.0999999;
+			position[]={3282.906,0,12890.588};
+			azimut=528.85303;
+			offsetY=2.4000001;
 			special="NONE";
 			id=607;
 			side="EMPTY";
@@ -9958,7 +9958,7 @@ class Mission
 		};
 		class Item259
 		{
-			position[]={3295.002,0,12892.135};
+			position[]={3282.7065,-0.10475269,12890.621};
 			name="atm_1_3_11_5_4_5_13_2";
 			text="ATM";
 			type="loc_Tourism";
@@ -10015,7 +10015,7 @@ class Mission
 		};
 		class Item266
 		{
-			position[]={15129.989,17.91,17226.701};
+			position[]={15135.65,17.91,17223.908};
 			name="atm_1_3_11_5_4_1_1";
 			type="loc_Tourism";
 			colorName="ColorBlue";
