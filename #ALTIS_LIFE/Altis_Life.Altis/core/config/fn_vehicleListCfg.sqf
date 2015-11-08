@@ -58,7 +58,7 @@ switch (_shop) do
 			if(__GETC__(life_mediclevel) > 0) then
 			{
 				_return pushBack
-				["O_Heli_Light_02_unarmed_F",0];
+				["O_Heli_Light_02_unarmed_F",5000];
 			};
 	};
 
