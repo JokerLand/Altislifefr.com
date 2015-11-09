@@ -49,7 +49,7 @@ if(([true,_type,_amount] call life_fnc_handleInv)) then
 		hint format[localize "STR_Shop_Virt_BoughtItem",_amount,_name,[(_price * _amount)] call life_fnc_numberText];
 		__SUB__(life_cash,(_price * _amount));
 	};
-	[] call life_fnc_virt_update;
+	[0] call life_fnc_virt_update;
 };
 
 [0] call SOCK_fnc_updatePartial;

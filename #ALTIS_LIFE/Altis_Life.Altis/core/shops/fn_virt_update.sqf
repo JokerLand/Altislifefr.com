@@ -7,21 +7,25 @@
 	Update and fill the virtual shop menu.
 */
 private["_display","_item_list","_gear_list","_shop_data","_name","_price"];
+_type = [_this,0,1,[0]] call BIS_fnc_param;
 disableSerialization;
 
 //Setup control vars.
+
 _display = findDisplay 2400;
 _item_list = _display displayCtrl 2401;
 _gear_list = _display displayCtrl 2402;
 
 //Purge list
-lbClear _item_list;
+
 lbClear _gear_list;
 
 _shop_data = [life_shop_type] call life_fnc_virt_shops;
 ctrlSetText[2403,format["%1", _shop_data select 0]];
-
+if(_type == 1) then {
+        lbClear _item_list;
 {
+
 	_name = [([_x,0] call life_fnc_varHandle)] call life_fnc_vartostr;
 	_index = [_x,__GETC__(buy_array)] call TON_fnc_index;
 	if(_index != -1) then
@@ -32,6 +36,7 @@ ctrlSetText[2403,format["%1", _shop_data select 0]];
 		_item_list lbSetValue [(lbSize _item_list)-1,_price];
 	};
 } foreach (_shop_data select 1);
+};
 
 {
 	_var = [_x,0] call life_fnc_varHandle;
