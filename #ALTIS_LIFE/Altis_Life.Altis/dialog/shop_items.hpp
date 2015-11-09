@@ -185,7 +185,7 @@ class shops_menu {
 			idc = -1;
 			//shortcuts[] = {0x00050000 + 2};
 			text = "$STR_Global_Close";
-			onButtonClick = "closeDialog 0;";
+			onButtonClick = "closeDialog 0; [3] call SOCK_fnc_updatePartial;";
 			x = 0.1;
 			y = 0.8 - (1 / 25);
 			w = (6.25 / 40);
