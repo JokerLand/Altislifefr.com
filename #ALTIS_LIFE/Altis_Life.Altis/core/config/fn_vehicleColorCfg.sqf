@@ -21,6 +21,21 @@ switch (_vehicle) do
 		];
 	};
 
+	case "GeK_Avalanche":
+	{
+		_ret =
+		[
+			["GeK_Avalanche\data\AVL_Blanc.paa","civ"],
+			["GeK_Avalanche\data\AVL_Bleu.paa","civ"],
+			["GeK_Avalanche\data\AVL_Gris.paa","civ"],
+			["GeK_Avalanche\data\AVL_Gris_Clair.paa","civ"],
+			["GeK_Avalanche\data\AVL_Jaune.paa","civ"],
+			["GeK_Avalanche\data\AVL_Noir.paa","civ"],
+			["GeK_Avalanche\data\AVL_Orange.paa","civ"],
+			["GeK_Avalanche\data\AVL_Rouge.paa","civ"]
+		];
+	};
+
 	case "GeK_TLC100":
 	{
 		_ret =

@@ -188,25 +188,26 @@ switch (_shop) do
 		{
 			_return =
 			[
+				["cl3_xr_1000_black",7500],
 				["GeK_S60",15000],
 				["GeK_CTSV",15000],
 				["cl3_suv_taxi",50000],
 				["GeK_ElCamino",100000],
+				["wirk_ktm",125000],
+		        ["cl3_arielatom_black",125000],
+				["GeK_Avalanche",150000],
 				/*["B_Heli_Light_01_F",100000],*/
 				["cl3_suv_black",200000],
+				["GeK_Civilian_H1",200000],
+		        ["cl3_arielatom_race_black", 250000],
 				["ALFR_GeK_Scania_420",250000],
-				["ALFR_GeK_Volvo_FH16_2012",300000],
-				["GeK_Renault_Magnum",400000],
 				["cl3_veyron_wht_blu",270000],
+				["ALFR_GeK_Volvo_FH16_2012",300000],
 				["ALFR_GeK_Panamera",350000],
+				["GeK_Renault_Magnum",400000],
                 ["GR_UH1H_1",400000],
                 ["ARMSCor_A109_Civ",500000],
 		        ["CL3_bus_cl_black",100000],
-		        ["cl3_xr_1000_black",250000],
-		        ["wirk_ktm",125000],
-		        ["cl3_arielatom_black",125000],
-				["GeK_Civilian_H1",200000],
-		        ["cl3_arielatom_race_black", 250000],
 		        ["ALFR_GeK_Pagani_Zonda", 2500000],
 		        ["mv22",4500000],
 		        ["IVORY_ERJ135_1", 10000000]
