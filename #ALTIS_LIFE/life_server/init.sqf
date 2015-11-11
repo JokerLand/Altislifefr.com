@@ -69,7 +69,7 @@ life_radio_east = radioChannelCreate [[0, 0.95, 1, 0.8], "Side Channel", "%UNIT_
 
 serv_sv_use = [];
 
-fed_bank setVariable["safe",(count playableUnits),true];
+/*fed_bank setVariable["safe",(count playableUnits),true];*/
 
 //General cleanup for clients disconnecting.
 addMissionEventHandler ["HandleDisconnect",{_this call TON_fnc_clientDisconnect; false;}]; //Do not second guess this, this can be stacked this way.
@@ -94,7 +94,7 @@ client_session_list = [];
 	};
 };
 
-[] spawn TON_fnc_federalUpdate;
+/*[] spawn TON_fnc_federalUpdate;*/
 
 [] spawn
 {
