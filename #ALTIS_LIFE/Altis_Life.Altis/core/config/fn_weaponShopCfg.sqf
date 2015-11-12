@@ -846,7 +846,7 @@ switch(_shop) do
                         [
 
 
-
+                                                ["Rangefinder",nil,10],
                                                 ["R3F_Famas_G2_HG",nil,10],
                                                 ["R3F_Famas_G2_HG",nil,10],
                                                 ["R3F_Famas_F1_HG_DES",nil,10],
