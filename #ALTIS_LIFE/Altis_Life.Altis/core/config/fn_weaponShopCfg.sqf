@@ -848,6 +848,8 @@ switch(_shop) do
 
 
                                                 ["R3F_Famas_G2_HG",nil,10],
+                                                ["R3F_Famas_G2_HG",nil,10],
+                                                ["R3F_Famas_F1_HG_DES",nil,10],
                                                 ["R3F_25Rnd_556x45_TRACER_FAMAS",nil,10],
                                                 ["R3F_30Rnd_556x45_TRACER_FAMAS",nil,10],
                                                 ["LMG_Mk200_F",nil,10],
