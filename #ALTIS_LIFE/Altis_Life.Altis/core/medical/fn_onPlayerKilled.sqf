@@ -68,7 +68,7 @@ _unit spawn
 };
 
 //Make the killer wanted
-if(!isNull _killer && {_killer != _unit} && {side _killer != west || side _killer != east} && {alive _killer}) then {
+if(!isNull _killer && {_killer != _unit} && {side _killer != west && side _killer != east} && {alive _killer}) then {
 	if(vehicle _killer isKindOf "LandVehicle") then {
 		[[getPlayerUID _killer,_killer getVariable["realname",name _killer],"187V"],"life_fnc_wantedAdd",false,false] spawn life_fnc_MP;
 		//Get rid of this if you don't want automatic vehicle license removal.
