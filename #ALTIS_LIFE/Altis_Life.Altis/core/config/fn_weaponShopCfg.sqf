@@ -831,15 +831,64 @@ switch(_shop) do
 		};
 	};
 
+        case "armer-recrue": {
+
+                switch(true) do
+                {
+
+                case (playerSide != east): {"Vous n'êtes pas de l'armée!"};
+                default
+
+                {
+
+                        ["Armurerie-recrue",
+
+                        [
+
+
+
+                                                ["R3F_Famas_G2_HG",nil,10],
+                                                ["R3F_25Rnd_556x45_TRACER_FAMAS",nil,10],
+                                                ["R3F_30Rnd_556x45_TRACER_FAMAS",nil,10],
+                                                ["LMG_Mk200_F",nil,10],
+                                                ["200Rnd_65x39_cased_Box",nil,10],
+                                                ["optic_Holosight",nil,10],
+                                                ["optic_ACO_grn_smg",nil,10],
+                                                ["optic_Aco_smg",nil,10],
+                                                ["optic_ACO_grn",nil,10],
+                                                ["optic_Aco",nil,10],
+                                                ["FHQ_optic_AC11704",nil,10],
+                                                ["optic_MRCO",nil,10],
+                                                ["optic_Hamr",nil,10],
+                                                ["FHQ_optic_ACOG",nil,10],
+                                                ["optic_Arco",nil,10],
+                                                ["optic_LRPS",nil,10],
+                                                ["optic_DMS",nil,10],
+                                                ["optic_SOS",nil,10],
+                                                ["optic_Yorris",nil,10],
+                                                ["optic_MRD",nil,10],
+                                                ["bipod_01_F_blk",nil,10]
+
+
+
+                        ]
+                        ];
+                };
+
+         };
+ };
+
 	case "armer":
 	{
 		switch(true) do
 		{
 			case (playerSide != east): {"Vous n'êtes pas de l'armée!"};
-			default
+			case (__GETC__(life_adaclevel) < 2): {"Vous n'êtes pas à un grade de supérieur"};
+                        default
 			{
 				["Armurerie",
 					[
+
 						["Rangefinder",nil,10],
 						["B_UavTerminal",nil,10],
 						["arifle_sdar_F",nil,10],
@@ -850,7 +899,7 @@ switch(_shop) do
 						["R3F_Famas_F1_HG_DES",nil,10],
 						["R3F_PGM_Hecate_II_DES",nil,10],
 						["R3F_7Rnd_127x99_PGM",nil,10],
-						["arifle_MX_SW_Black_F",nil,10],				
+						["arifle_MX_SW_Black_F",nil,10],	
                                                 ["100Rnd_65x39_caseless_mag_Tracer",nil,1],		
 						["R3F_25Rnd_556x45_TRACER_FAMAS",nil,10],
 						["R3F_30Rnd_556x45_TRACER_FAMAS",nil,10],
@@ -912,6 +961,7 @@ switch(_shop) do
 						["optic_MRD",nil,10],
 						["bipod_01_F_blk",nil,10],
 						["HandGrenade_Stone","Flashbang",10]
+
 					]
 				];
 			};

@@ -62,7 +62,8 @@ class Mission
 		"alfr_gek_scania_420",
 		"ALFR_GeK_Volvo_FH16_2012",
 		"wirk_ferrari_california",
-		"GeK_Garages"
+		"GeK_Garages",
+		"rds_a2port_cman"
 	};
 	addOnsAuto[]=
 	{
@@ -73,6 +74,7 @@ class Mission
 		"A3_Characters_F_Bootcamp",
 		"A3_Modules_F",
 		"A3_Characters_F_OPFOR",
+		"rds_a2port_cman",
 		"A3_Structures_F_Ind_ConcreteMixingPlant",
 		"A3_Structures_F_Mil_Helipads",
 		"A3_Structures_F_Civ_Lamps",
@@ -7068,7 +7070,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_InfoStand_V2_F";
 			skill=1;
-			init="removeallWeapons this;    this enableSimulation false;  this allowDamage false;    this addAction[""Marché"",life_fnc_virt_menu,""rebel"",0,false,false,"""",'playerSide == east'];  this addAction[""Uniformes"",life_fnc_clothingMenu,""armer"",0,false,false,"""",'playerSide == east'];    this addAction[""Armes"",life_fnc_weaponShopMenu,""armer"",0,false,false,"""",'playerSide == east'];    this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu,"""",0,FALSE,FALSE,"""",' vehicle player == player && playerSide == east && player distance _target < 4 '];this addAction[format[""%1 ($%2)"",[""license_civ_rebel""] call life_fnc_varToStr,[([""rebel""] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,""rebel"",0,false,false,"""",' !license_civ_rebel && playerSide == civilian '];";
+			init="removeallWeapons this;    this enableSimulation false;  this allowDamage false;    this addAction[""Marché"",life_fnc_virt_menu,""rebel"",0,false,false,"""",'playerSide == east'];  this addAction[""Uniformes"",life_fnc_clothingMenu,""armer"",0,false,false,"""",'playerSide == east']; this addAction[""Armes Recrue"",life_fnc_weaponShopMenu,""armer-recrue"",0,false,false,"""",'playerSide == east'];   this addAction[""Armes"",life_fnc_weaponShopMenu,""armer"",0,false,false,"""",'playerSide == east'];    this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu,"""",0,FALSE,FALSE,"""",' vehicle player == player && playerSide == east && player distance _target < 4 '];this addAction[format[""%1 ($%2)"",[""license_civ_rebel""] call life_fnc_varToStr,[([""rebel""] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,""rebel"",0,false,false,"""",' !license_civ_rebel && playerSide == civilian '];";
 		};
 		class Item345
 		{
