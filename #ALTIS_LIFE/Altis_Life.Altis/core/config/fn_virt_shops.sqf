@@ -30,4 +30,5 @@ switch (_shop) do
     case "artefact": {["Archeologue",["artefact"]]};
     case "uranium": {["Marchand Uranium",["uranium","puranium"]]};
 	case "bar": {["Bar",["beer","whiskey","vodka","rhum"]]};
+	case "medic": {["Superette Medic",["water","rabbit","apple","grapes","peach","redgull","tbacon","pickaxe","fuelF","storagesmall","cone"]]};
 };

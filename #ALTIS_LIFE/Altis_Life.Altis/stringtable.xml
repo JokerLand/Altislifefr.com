@@ -1905,6 +1905,14 @@
 			<Italian>Non sei un poliziotto.</Italian>
 			<Portuguese>Você não é Policial.</Portuguese>
 		</Key>
+		<Key ID="STR_NOTF_NotAMedic">
+			<Original>You are not a medic.</Original>
+			<English>You are not a medic.</English>
+			<German>Du bist kein medic.</German>
+			<French>Vous n'êtes pas Medic.</French>
+			<Italian>Non sei un medic.</Italian>
+			<Portuguese>Você não é medic.</Portuguese>
+		</Key>
 		<Key ID="STR_NOTF_NoRoom">
 			<Original>You don't have enough room for that item.</Original>
 			<English>You don't have enough room for that item.</English>

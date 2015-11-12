@@ -4010,7 +4010,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_InfoStand_V2_F";
 			skill=0.2;
-			init="this allowDamage false; this enableSimulation false; this addAction[""Superette"",life_fnc_virt_menu,""market""];";
+			init="this allowDamage false; this enableSimulation false; this addAction[""Superette"",life_fnc_virt_menu,""medic""];";
 		};
 		class Item84
 		{
@@ -5364,7 +5364,7 @@ class Mission
 		class Item199
 		{
 			position[]={3742.9873,18.870001,12970.584};
-			azimut=179.27431;
+			azimut=179.274;
 			offsetY=0.2;
 			special="NONE";
 			id=399;
@@ -5372,7 +5372,7 @@ class Mission
 			vehicle="Land_InfoStand_V2_F";
 			skill=0.2;
 			text="h1_3_4_1";
-			init="removeHeadgear this;     removeAllWeapons this;  removeVest this;  this enableSimulation false;   this allowDamage false;  this addAction[""Superette"",life_fnc_virt_menu,""market""]; this setObjectTexture [0,""textures\medic_uniform.jpg""];   ";
+			init="removeHeadgear this;     removeAllWeapons this;  removeVest this;  this enableSimulation false;   this allowDamage false;  this addAction[""Superette "",life_fnc_virt_menu,""medic""]; this setObjectTexture [0,""textures\medic_uniform.jpg""];   ";
 		};
 		class Item200
 		{
@@ -6404,7 +6404,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_InfoStand_V2_F";
 			skill=0.2;
-			init="this allowDamage false; this enableSimulation false; this addAction[""Superette"",life_fnc_virt_menu,""market""];";
+			init="this allowDamage false; this enableSimulation false; this addAction[""Superette"",life_fnc_virt_menu,""medic""];";
 		};
 		class Item286
 		{
