@@ -63,7 +63,7 @@ switch (_side) do
 		};
 
                  if(license_egp && playerSide == civilian) then {
-				_return pushBack ["spawn_egp","E.G.P HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"];
+				_return pushBack ["spawn_egp","Castelli HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"];
 		};
 
                 if(license_fmg && playerSide == civilian) then {
