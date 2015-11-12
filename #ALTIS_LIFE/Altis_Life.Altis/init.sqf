@@ -18,14 +18,6 @@ life_versionInfo = "Altis Life RPG v3.1.4.8";
 [] execVM "AdminMenu.sqf";
 [] execVM "safezone.sqf";
 
-[] spawn {
-	while {true} do {
-		0 setOvercast 0;
-		0 setRain 0;
-		0 setFog 0;
-	};
-};
-
 StartProgress = true;
 
 "BIS_fnc_MP_packet" addPublicVariableEventHandler {_this call life_fnc_MPexec};
