@@ -1,3 +1,5 @@
+#include "infiSTAR_AdminMenu.hpp"
+#include "CfgRemoteExec.hpp"
 author = "Tonic";
 onLoadName = "Altis Life RPG v3.1.4.8";
 onLoadMission = "Un mod roleplay développé par Tonic et www.AltisLifeFr.com";
@@ -9,6 +11,7 @@ disableChannels[]={0,1,2};
 enableDebugConsole = 1;
 respawnDialog = 0;
 LoadScreen  = "images\test.jpg";
+
 
 class Header
 {
