@@ -91,7 +91,7 @@ _announce_adminstate_changed = false;	/* true or false */
 
 
 /* "_passwordAdmin": Taken from the servers config.cfg, needed for servercommands */
-_passwordAdmin = 'EnterAdminPasswordFromYourConfigHere';
+_passwordAdmin = '4rn8a4';
 _adminLevel1_UIDs =
 [
 	'0','0','0'
