@@ -7,7 +7,7 @@
 //------------------------------------------//
 
 // Seconds until unconscious unit bleeds out and dies. Set to 0 to disable.
-FAR_BleedOut = 600;	
+FAR_BleedOut = 240;	
 
 // Enable teamkill notifications
 FAR_EnableDeathMessages = true;
