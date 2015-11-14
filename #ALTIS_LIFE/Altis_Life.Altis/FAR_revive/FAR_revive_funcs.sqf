@@ -389,7 +389,7 @@ FAR_Check_Suicide =
 	
 	if (alive player && _isPlayerUnconscious == 1) then 
 	{
-		_return = true;
+		_return = false;
 	};
 	
 	_return
