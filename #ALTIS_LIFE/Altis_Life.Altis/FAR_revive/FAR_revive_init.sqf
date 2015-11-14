@@ -78,22 +78,6 @@ FAR_Player_Init =
 	player removeAllEventHandlers "HandleDamage";
 
 	player addEventHandler ["HandleDamage", FAR_HandleDamage_EH];
-	player addEventHandler 
-	[
-		"Killed",
-		{
-			// Remove dead body of player (for missions with respawn enabled)
-			_body = _this select 0;
-			
-			[_body] spawn 
-			{
-			
-				waitUntil { alive player };
-				_body = _this select 0;
-				deleteVehicle _body;
-			}
-		}
-	];
 	
 	player setVariable ["FAR_isUnconscious", 0, true];
 	player setVariable ["FAR_isStabilized", 0, true];
