@@ -303,7 +303,7 @@ FAR_public_EH =
 
 		if (isPlayer _killed && isPlayer _killer) then
 		{
-			systemChat format["%1 was injured by %2", name _killed, name _killer];
+			systemChat format["%1 a été blessé by %2", name _killed, name _killer];
 		};
 	};
 };
