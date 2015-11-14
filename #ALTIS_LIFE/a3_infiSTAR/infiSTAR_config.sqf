@@ -308,8 +308,8 @@ _badDialogsClose =
 
 
 
-/*  Use Memoryhack check */ _UMH = true;	/* true or false */
-/*  Use on(Un)Load check */ _UOL = true;	/* true or false */
+/*  Use Memoryhack check */ _UMH = false;	/* true or false */
+/*  Use on(Un)Load check */ _UOL = false;	/* true or false */
 /* _onLoadUnload1: The AntiHack will test if the client has the same entry as the server. (only if _UOL = true;) */
 _onLoadUnload1 = [
 	'RscDisplayCustomArcade','RscDisplayArcadeMap','RscDisplayArcadeModules','RscDisplayArcadeGroup',
@@ -358,13 +358,13 @@ _blacklistedFileArray =
 	'Dta\Screens.bin','ArmA2OA_Extras\ben_ex.sqf','RyanV1\Keybindiezz.sqf','ArmaX.sqf','insanity.sqf'
 ];
 
-/*  Use BadVar #1 */ _UBV = true;	/* true or false */	/* recommended to use */
+/*  Use BadVar #1 */ _UBV = false;	/* true or false */	/* recommended to use */
 /*  Use BadVar #2 */ _UBV2 = false;	/* true or false */	/* recommended to use */
-/*  Use BadVar #2 CONTENT */ _UBV2C = false;	/* true or false */	/* NEEDS _UBV2 = true;  -  recommended to use */
+/*  Use BadVar #2 CONTENT */ _UBV2C = true;	/* true or false */	/* NEEDS _UBV2 = true;  -  recommended to use */
 /* _badVarWhitelist: These variables are not getting checked by the "BadVar#2" check. */
 _badVarWhitelist =
 [
-	'cba_diagnostic_fnc_initextendeddebug','ace_interact_menu_fnc_renderselector'
+	'cba_diagnostic_fnc_initextendeddebug','ace_interact_menu_fnc_renderselector','cl3_mod_fnc_fireworks11','cl3_mod_fnc_fireworksetrocketpitch','cl3mod_fnc_fitemuse_fireworks11','cl3mod_fnc_fireworksetrocketpitch','spy_fnc_menucheck','cl3mod_fnc_fireworklaunchnew'
 ];
 /* _blacklistedVariables: The AntiHack will check if one of these variables is existing for the client (only if _UBV = true;) */
 _blacklistedVariables =
