@@ -8,6 +8,7 @@ FAR_Player_Actions =
 		// addAction args: title, filename, (arguments, priority, showWindow, hideOnUse, shortcut, condition, positionInModel, radius, radiusView, showIn3D, available, textDefault, textToolTip)
 		player addAction ["<t color=""#C90000"">" + "Revive" + "</t>", "FAR_revive\FAR_handleAction.sqf", ["action_revive"], 10, true, true, "", "call FAR_Check_Revive"];
 		player addAction ["<t color=""#C90000"">" + "Stabilize" + "</t>", "FAR_revive\FAR_handleAction.sqf", ["action_stabilize"], 10, true, true, "", "call FAR_Check_Stabilize"];
+		player addAction ["<t color=""#C90000"">" + "Suicide" + "</t>", "FAR_revive\FAR_handleAction.sqf", ["action_suicide"], 9, false, true, "", "call FAR_Check_Suicide"];
 		player addAction ["<t color=""#C90000"">" + "Drag" + "</t>", "FAR_revive\FAR_handleAction.sqf", ["action_drag"], 9, false, true, "", "call FAR_Check_Dragging"];
 	};
 };
@@ -302,7 +303,7 @@ FAR_public_EH =
 
 		if (isPlayer _killed && isPlayer _killer) then
 		{
-			systemChat format["%1 a été blessé by %2", name _killed, name _killer];
+			systemChat format["%1 à été blessé par %2", name _killed, name _killer];
 		};
 	};
 };
@@ -405,7 +406,7 @@ FAR_Check_Dragging =
 	_target = cursorTarget;
 	_isPlayerUnconscious = player getVariable "FAR_isUnconscious";
 
-	if(playerSide !=independent || !alive player || _isPlayerUnconscious == 1 || FAR_isDragging || isNil "_target" || !alive _target || (!isPlayer _target && !FAR_Debugging) || (_target distance player) > 2 ) exitWith
+	if( !alive player || _isPlayerUnconscious == 1 || FAR_isDragging || isNil "_target" || !alive _target || (!isPlayer _target && !FAR_Debugging) || (_target distance player) > 2 ) exitWith
 	{
 		_return;
 	};
