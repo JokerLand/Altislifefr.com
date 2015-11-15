@@ -6,3 +6,46 @@
 */
 if(!(_this select 0)) exitWith {}; //Not server
 [] call compile PreprocessFileLineNumbers "\life_server\init.sqf";
+
+[] execVM "Base\Base-1.sqf";
+[] execVM "Base\Base-2.sqf";
+[] execVM "Base\Base-3.sqf";
+[] execVM "Base\Base-4.sqf";
+[] execVM "Base\Base-5.sqf";
+[] execVM "Base\Base-6.sqf";
+[] execVM "Base\Base-7.sqf";
+[] execVM "Base\Base-8.sqf";
+[] execVM "Base\Base-9.sqf";
+[] execVM "Base\Base-10.sqf";
+[] execVM "Base\Base-11.sqf";
+[] execVM "Base\Base-12.sqf";
+[] execVM "Base\Base-13.sqf";
+[] execVM "Base\base-14.sqf";
+[] execVM "Base\Base-15.sqf";
+[] execVM "Base\Base-16.sqf";
+[] execVM "Base\Base-17.sqf";
+[] execVM "Base\AirportDonateur.sqf";
+[] execVM "Base\AltisAirways.sqf";
+[] execVM "Base\AthiraCenter.sqf";
+[] execVM "Base\Banque.sqf";
+[] execVM "Base\BaseArmee.sqf";
+[] execVM "Base\Bijouterie.sqf";
+[] execVM "Base\campRebelle.sqf";
+[] execVM "Base\ComicoCentral.sqf";
+[] execVM "Base\debug_veh_spawn";
+[] execVM "Base\Douane.sqf";
+[] execVM "Base\Discotheque.sqf";
+[] execVM "Base\KavalaCenter.sqf";
+[] execVM "Base\LaboMeth.sqf";
+[] execVM "Base\Ncasino09.sqf";
+[] execVM "Base\PecheKavala.sqf";
+[] execVM "Base\Poste_de_controle_routier.sqf";
+[] execVM "Base\Park_Kavala.sqf";
+[] execVM "Base\Prison-ALFR.sqf";
+[] execVM "Base\Traitement.sqf";
+[] execVM "Base\stations_service.sqf";
+[] execVM "Base\archeo.sqf";
+[] execVM "Base\planques.sqf";
+[] execVM "Base\hero_weed.sqf";
+[] execVM "Base\athira_hopital.sqf";
+[] execVM "Base\process.sqf";
