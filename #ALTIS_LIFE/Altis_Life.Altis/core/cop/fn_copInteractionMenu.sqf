@@ -117,9 +117,9 @@ _Btn11 buttonSetAction "[life_pInact_curTarget] call life_fnc_arrestAction25;";
 
 _Btn12 ctrlSetText localize "STR_pInAct_RevokeLicense";
 _Btn12 buttonSetAction "[life_pInact_curTarget] call life_fnc_revokeLicense;";
-//Set Bank Button
+
 _Btn13 ctrlSetText localize "STR_pInAct_bank";
-_Btn13 buttonSetAction "[[player],""life_fnc_bankCheck"",life_pInact_curTarget,FALSE] spawn life_fnc_MP";
+_Btn13 buttonSetAction "[[player],""life_fnc_bankcheck"",life_pInact_curTarget,FALSE] spawn life_fnc_MP";
 
 //Check that you are near a place to jail them.
 	if(!((player distance (getMarkerPos "police_hq_1") < 30) OR  (player distance (getMarkerPos "police_hq_2") < 90) OR  (player distance (getMarkerPos "police_hq_4") < 100) OR   (player distance (getMarkerPos "cop_spawn_3") < 30) OR (player distance (getMarkerPos "cop_spawn_5") < 30))) then 
