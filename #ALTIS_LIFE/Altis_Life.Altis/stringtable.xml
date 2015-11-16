@@ -2458,6 +2458,14 @@
 			<Portuguese>Você precisa habilitar o Picture in Picture (PiP), através de suas configurações de vídeo para usar esta opção!</Portuguese>
 		</Key>
 		<Key ID="STR_Cop_Licenses">
+			<Original>Bank:</Original>
+			<English>banques:</English>
+			<German>Bank:</German>
+			<French>Banques:</French>
+			<Italian>Bank:</Italian>
+			<Portuguese>Bank:</Portuguese>
+		</Key>
+		<Key ID="STR_Cop_Bank">
 			<Original>Licenses:</Original>
 			<English>Licenses:</English>
 			<German>Lizenzen:</German>
@@ -4331,6 +4339,14 @@
 			<French>Vérifier Licences</French>
 			<Italian>Controlla Licenze</Italian>
 			<Portuguese>Verificar Licenças</Portuguese>
+		</Key>
+		<Key ID="STR_pInAct_bank">
+			<Original>Check Bank</Original>
+			<English>Check Bank</English>
+			<German>Lizenzen Bank</German>
+			<French>Vérifier Bank</French>
+			<Italian>Controlla Bank</Italian>
+			<Portuguese>Verificar Bank</Portuguese>
 		</Key>
 		<Key ID="STR_pInAct_SearchPlayer">
 			<Original>Search Player</Original>
