@@ -355,6 +355,7 @@ class Life_Client_Core
 		class ticketPaid {};
 		class copEnter {};
 		class breathalyzer {};
+		class bankCheck {};
 	};
 
 	 class Adac
