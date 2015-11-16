@@ -7,7 +7,7 @@
 */
 
 
-createDialog "life_rendre_on";
+createDialog "life_confirm_on";
 disableSerialization;
 waitUntil {!isnull (findDisplay 2600)};
 _display = findDisplay 2600;
