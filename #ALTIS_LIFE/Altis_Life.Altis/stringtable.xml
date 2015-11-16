@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project name="Altis Life RPG">
 	<Package name="Global">
 		<Key ID="STR_Global_Close">
@@ -2337,6 +2337,14 @@
 			<Italian>%1 ha dato una multa di €%2 a %3</Italian>
 			<Portuguese>%1 deu uma multa de R$%2 para %3</Portuguese>
 		</Key>	
+		<Key ID="STR_Cop_Stop">
+			<Original>%1 se rend et met les mains sur la tête</Original>
+			<English>%1 se rend et met les mains sur la tête</English>
+			<German>%1 se rend et met les mains sur la tête</German>
+			<French>%1 se rend et met les mains sur la tête</French>
+			<Italian>%1 se rend et met les mains sur la tête</Italian>
+			<Portuguese>%1 se rend et met les mains sur la tête</Portuguese>
+		</Key>	
 		<Key ID="STR_Cop_Ticket_NotEnough">
 			<Original>You don't have enough money in your bank account or on you to pay the ticket.</Original>
 			<English>You don't have enough money in your bank account or on you to pay the ticket.</English>
@@ -2376,6 +2384,14 @@
 			<French>%1 payé la contravention.</French>
 			<Italian>%1 ha pagato la multa.</Italian>
 			<Portuguese>%1 pagou a multa.</Portuguese>
+		</Key>
+		<Key ID="STR_Cop_Ticket_GUI_Given">
+			<Original>%1 has given you a ticket for $%2</Original>
+			<English>%1 has given you a ticket for $%2</English>
+			<German>%1 hat dir einen Strafzettel von $%2 gegeben</German>
+			<French>%1 vous a donné une amende de $%2</French>
+			<Italian>%1 ti ha dato una multa di €%2</Italian>
+			<Portuguese>%1 lhe aplicou uma multa de R$%2</Portuguese>
 		</Key>
 		<Key ID="STR_Cop_Ticket_GUI_Given">
 			<Original>%1 has given you a ticket for $%2</Original>

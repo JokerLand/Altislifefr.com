@@ -73,6 +73,8 @@ switch (playerSide) do
 		//Rob person
 		life_actions = life_actions + [player addAction[localize "STR_pAct_RobPerson",life_fnc_robAction,"",0,false,false,"",'
 		!isNull cursorTarget && player distance cursorTarget < 3.5 && isPlayer cursorTarget && animationState cursorTarget == "Incapacitated" && !(cursorTarget getVariable["robbed",FALSE]) ']];
+		//Se rendre
+		life_actions pushBack (player addAction["<t color='#006400'>Se rendre</t>",life_fnc_Stop,"",0,FALSE,FALSE,""]);
 	};
 
 	case east: 
