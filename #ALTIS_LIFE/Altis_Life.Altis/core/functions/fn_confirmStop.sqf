@@ -6,7 +6,6 @@
 	Confirm Se rendre
 */
 
-
 createDialog "life_confirm_on";
 disableSerialization;
 waitUntil {!isnull (findDisplay 2600)};
