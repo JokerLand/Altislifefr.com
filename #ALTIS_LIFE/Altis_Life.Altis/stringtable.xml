@@ -1314,6 +1314,23 @@
 			<Portuguese>Recusar Multa</Portuguese>
 		</Key>
 	</Package>
+	<Package name="Confirm_Rendre">
+		<Key ID="STR_Confirm_On">
+			<Original>Confirmer</Original>
+			<English>Confirmer</English>
+			<German>Confirmer</German>
+			<French>Confirmer</French>
+			<Italian>Confirmer</Italian>
+			<Portuguese>Confirmer</Portuguese>
+		</Key>
+		<Key ID="STR_Confirm_Off">
+			<Original>Annuler</Original>
+			<English>Annuler</German>
+			<French>Annuler</French>
+			<Italian>Annuler</Italian>
+			<Portuguese>Annuler</Portuguese>
+		</Key>
+	</Package>
 	<Package name="Trunk_Menu">
 		<Key ID="STR_Trunk_TInventory">
 			<Original>Trunk Inventory</Original>
