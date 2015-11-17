@@ -1331,6 +1331,23 @@
 			<Portuguese>Annuler</Portuguese>
 		</Key>
 	</Package>
+	<Package name="Confirm_Renfort">
+		<Key ID="STR_Renfort_On">
+			<Original>Confirmer</Original>
+			<English>Confirmer</English>
+			<German>Confirmer</German>
+			<French>Confirmer</French>
+			<Italian>Confirmer</Italian>
+			<Portuguese>Confirmer</Portuguese>
+		</Key>
+		<Key ID="STR_Renfort_Off">
+			<Original>Annuler</Original>
+			<English>Annuler</German>
+			<French>Annuler</French>
+			<Italian>Annuler</Italian>
+			<Portuguese>Annuler</Portuguese>
+		</Key>
+	</Package>
 	<Package name="Trunk_Menu">
 		<Key ID="STR_Trunk_TInventory">
 			<Original>Trunk Inventory</Original>
@@ -2417,6 +2434,14 @@
 			<French>Voulez-vous vraiment vous rendre</French>
 			<Italian>Voulez-vous vraiment vous rendre</Italian>
 			<Portuguese>Voulez-vous vraiment vous rendre</Portuguese>
+		</Key>
+		<Key ID="STR_Cop_Renfort">
+			<Original>Voulez-vous vraiment appeller des renforts</Original>
+			<English>Voulez-vous vraiment appeller des renforts</English>
+			<German>Voulez-vous vraiment appeller des renforts</German>
+			<French>Voulez-vous vraiment appeller des renforts</French>
+			<Italian>Voulez-vous vraiment appeller des renforts</Italian>
+			<Portuguese>Voulez-vous vraiment appeller des renforts</Portuguese>
 		</Key>
 		<Key ID="STR_Cop_Ticket_Refuse">
 			<Original>%1 refused to pay the ticket.</Original>
