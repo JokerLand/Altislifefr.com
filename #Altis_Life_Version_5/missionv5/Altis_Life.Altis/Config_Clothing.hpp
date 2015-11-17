@@ -23,7 +23,7 @@ class Clothing {
             { "U_C_Poloshirt_burgundy", "Poloshirt Burgundy", 250, { "", "", -1 } },
             { "U_C_Poloshirt_stripped", "Poloshirt Stripped", 250, { "", "", -1 } },
             { "U_C_Poloshirt_tricolour", "Poloshirt Tricolour", 250, { "", "", -1 } },
-            { "U_C_Poloshirt_salmon", "Poloshirt Salmon , 250, { "", "", -1 } },
+            { "U_C_Poloshirt_salmon", "Poloshirt Salmon", 250, { "", "", -1 } },
             { "U_C_Poloshirt_redwhite", "Poloshirt Red and White", 250, { "", "", -1 } },
             { "U_C_Poor_1", "Shirt Blue", 250, { "", "", -1 } },
             { "U_I_G_Story_Protagonist_F" , "Buttonup Black Camo", 500, { "", "", -1 } },
