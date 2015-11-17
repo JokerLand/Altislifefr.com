@@ -269,6 +269,7 @@ class Life_Client_Core
         class callbackup {};
         class backupCall {};
         class Stop {};
+        class confirmStop {};
 	};
 
 	class Network
