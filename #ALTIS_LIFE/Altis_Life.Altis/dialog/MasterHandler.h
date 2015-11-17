@@ -29,3 +29,5 @@
 #include "common_EditorWrapper.hpp"
 #include "revoke_license.h"
 #include "alfr_dj_menu.hpp"
+#include "confirm.hpp"
+#include "renfort.hpp"

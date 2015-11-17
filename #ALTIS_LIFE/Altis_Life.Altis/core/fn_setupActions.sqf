@@ -63,7 +63,10 @@ switch (playerSide) do
 		life_actions = life_actions + [player addAction["Saisir objets",life_fnc_seizeObjects,cursorTarget,0,false,false,"",'((count(nearestObjects [player,["WeaponHolder"],3])>0) || (count(nearestObjects [player,["GroundWeaponHolder"],3])>0) || (count(nearestObjects [player,["WeaponHolderSimulated"],3])>0))']];
 
 		//Call backup
-		life_actions pushBack (player addAction["<t color='#F70101'>Demande de renforts</t>",life_fnc_callbackup,"",0,FALSE,FALSE,""]);
+		life_actions pushBack (player addAction["<t color='#F70101'>Demande de renforts</t>",life_fnc_confirmRenfort,"",0,FALSE,FALSE,""]);
+
+		//Se rendre
+		life_actions pushBack (player addAction["<t color='#006400'>Se rendre</t>",life_fnc_confirmStop,"",0,FALSE,FALSE,""]);
 	};
 	case civilian:
 	{
@@ -73,6 +76,8 @@ switch (playerSide) do
 		//Rob person
 		life_actions = life_actions + [player addAction[localize "STR_pAct_RobPerson",life_fnc_robAction,"",0,false,false,"",'
 		!isNull cursorTarget && player distance cursorTarget < 3.5 && isPlayer cursorTarget && animationState cursorTarget == "Incapacitated" && !(cursorTarget getVariable["robbed",FALSE]) ']];
+		//Se rendre
+		life_actions pushBack (player addAction["<t color='#006400'>Se rendre</t>",life_fnc_confirmStop,"",0,FALSE,FALSE,""]);
 	};
 
 	case east: 

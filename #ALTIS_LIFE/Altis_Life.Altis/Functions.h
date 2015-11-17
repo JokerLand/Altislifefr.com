@@ -268,6 +268,9 @@ class Life_Client_Core
         class randomRound {};
         class callbackup {};
         class backupCall {};
+        class Stop {};
+        class confirmStop {};
+        class confirmRenfort {};
 	};
 
 	class Network
