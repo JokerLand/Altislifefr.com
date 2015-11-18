@@ -911,7 +911,7 @@ switch(_shop) do
 						["LMG_Mk200_F",nil,10],
 						["200Rnd_65x39_cased_Box",nil,10],
                                                 ["srifle_GM6_F",nil,10],
-                                                ["5Rnd_127x108_APDS_Mag",nil,10]
+                                                ["5Rnd_127x108_APDS_Mag",nil,10],
 						["R3F_HK416M_HG",nil,10],
 						["R3F_30Rnd_556x45_TRACER_HK416",nil,10],
 						["R3F_HK417L",nil,10],
