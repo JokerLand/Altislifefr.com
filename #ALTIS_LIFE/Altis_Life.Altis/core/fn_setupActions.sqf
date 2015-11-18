@@ -89,6 +89,9 @@ switch (playerSide) do
 		life_actions = life_actions + [player addAction["Monter en passager",life_fnc_adacEnter,"passenger",100,false,false,"",'!isNull cursorTarget && ((cursorTarget isKindOf "Car")||(cursorTarget isKindOf "Air")||(cursorTarget isKindOf "Ship")) && (locked cursorTarget) != 0 && cursorTarget distance player < 5']];
 		life_actions = life_actions + [player addAction["Descendre",life_fnc_adacEnter,"exit",100,false,false,"",'(vehicle player != player) && (locked(vehicle player)==2)']];
 
+		//Se rendre
+		life_actions pushBack (player addAction["<t color='#006400'>Se rendre</t>",life_fnc_confirmStop,"",0,FALSE,FALSE,""]);
+
 	};
 
 	case independent: 
@@ -108,6 +111,9 @@ switch (playerSide) do
 		' _cone = nearestObjects[getPos player,["RoadCone_F"],8] select 0; !isNil "_cone" && !isNil {(_cone getVariable "item")}']];
 		life_actions = life_actions + [player addAction["Reprendre le cone",life_fnc_pickupItem,"",0,false,false,"",
 		' !isNull cursorTarget && (typeOf cursorTarget) == "Land_Suitcase_F" && ((cursorTarget getVariable "item") select 0) == "cone" && (player distance cursorTarget) < 3 ']];
+
+		//Se rendre
+		life_actions pushBack (player addAction["<t color='#006400'>Se rendre</t>",life_fnc_confirmStop,"",0,FALSE,FALSE,""]);
 
 	}
 };
