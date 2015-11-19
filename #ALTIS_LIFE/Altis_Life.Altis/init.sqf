@@ -17,7 +17,6 @@ life_versionInfo = "Altis Life RPG v5.0.0.1";
 [] execVM "Anticheat.sqf";
 [] execVM "AdminMenu.sqf";
 [] execVM "safezone.sqf";
-[] execVM "D41_Wetter.sqf";
 
 StartProgress = true;
 
