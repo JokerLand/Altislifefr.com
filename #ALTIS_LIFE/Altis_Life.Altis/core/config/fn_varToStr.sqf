@@ -90,6 +90,7 @@ switch (_var) do
 	case "life_inv_beer": {"Bière"};
 	case "life_inv_whiskey": {"Whisky"};
 	case "life_inv_rhum": {"Rhum"};
+	case "life_inv_cb": {"Carte bleue"};
 
 	//License Block
 	case "license_civ_driver": {(localize "STR_License_Driver")};

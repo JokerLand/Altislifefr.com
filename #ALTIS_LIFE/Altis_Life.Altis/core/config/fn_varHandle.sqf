@@ -94,6 +94,7 @@ switch (_mode) do
 			case "beer": {"life_inv_beer"};
 			case "whiskey": {"life_inv_whiskey"};
 			case "rhum": {"life_inv_rhum"};
+			case "cb": {"life_inv_cb"};
 		};
 	};
 
@@ -179,6 +180,7 @@ switch (_mode) do
 			case "life_inv_beer": {"beer"};
 			case "life_inv_whiskey": {"whiskey"};
 			case "life_inv_rhum": {"rhum"};
+			case "life_inv_cb": {"cb"};
 		};
 	};
 };
