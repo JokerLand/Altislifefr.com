@@ -340,7 +340,7 @@ sell_array =
 	["whiskey",1050],
 	["rhum",750],
 	["crowbar",0],
-	["cb",0]
+	["cb",4500]
 ];
 __CONST__(sell_array,sell_array);
 
