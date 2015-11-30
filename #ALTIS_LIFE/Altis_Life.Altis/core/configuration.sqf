@@ -202,7 +202,8 @@ life_inv_items =
 	"life_inv_beer",
 	"life_inv_whiskey",
 	"life_inv_rhum",
-	"life_inv_crowbar"
+	"life_inv_crowbar",
+	"life_inv_cb"
 ];
 
 //Setup variable inv vars.
@@ -338,7 +339,8 @@ sell_array =
 	["beer",650],
 	["whiskey",1050],
 	["rhum",750],
-	["crowbar",0]
+	["crowbar",0],
+	["cb",0]
 ];
 __CONST__(sell_array,sell_array);
 
@@ -386,7 +388,8 @@ buy_array = if(playerSide == west) then {
 	["beer",0],
 	["whiskey",0],
 	["rhum",0],
-	["crowbar",0]
+	["crowbar",0],
+	["cb",0]
 ]} else {
 [
 	["apple",65],
@@ -431,7 +434,8 @@ buy_array = if(playerSide == west) then {
 	["beer",850],
 	["whiskey",1250],
 	["rhum",950],
-	["crowbar",2500]
+	["crowbar",2500],
+	["cb",5000]
 ]
 };
 __CONST__(buy_array,buy_array);
