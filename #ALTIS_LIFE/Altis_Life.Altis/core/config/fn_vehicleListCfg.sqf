@@ -56,9 +56,12 @@ switch (_shop) do
 	case "med_air_hs":
 	{
 			if(__GETC__(life_mediclevel) > 0) then
-			{
+
+			{	
 				_return pushBack
-				["O_Heli_Light_02_unarmed_F",5000];
+				["B_Heli_Light_01_F",20000];
+				_return pushBack
+				["O_Heli_Light_02_unarmed_F",25000];
 			};
 	};
 

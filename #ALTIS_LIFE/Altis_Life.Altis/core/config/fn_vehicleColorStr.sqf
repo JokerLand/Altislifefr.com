@@ -1240,6 +1240,7 @@ switch (_vehicle) do
 			case 17: {_color = "Armer"};
 			case 18: {_color = "Monster"};
 			case 19: {_color = "Metallique Urbain"};
+			case 20: {_color = "Medical"};
 		};
 	};
 

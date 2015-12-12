@@ -1230,7 +1230,8 @@ switch (_vehicle) do
 			["\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_wasp_co.paa","civ"],
 			["alfr_Arm\data\ALFR_lite_armee.jpg","armer"],
 			["ALFR_TexSnd\M900_Monster.paa","civ"],
-			["ALFR_TexSnd\Hummingbird_Metallique_Urbain.paa","reb"]
+			["ALFR_TexSnd\Hummingbird_Metallique_Urbain.paa","reb"],
+			["ALFR_TexSnd\Heli_medic.jpg","med"]
 		];
 	};
 
