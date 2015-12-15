@@ -327,7 +327,8 @@ switch (_shop) do
     {
         _return =
         [
-            ["GeK_Volvo_FH16_2012_Depannage",0]
+            ["GeK_Volvo_FH16_2012_Depannage",0],
+            ["C_Offroad_01_repair_F",0]
         ];
     };
 
