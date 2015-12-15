@@ -57,7 +57,7 @@ switch (_shop) do
 	{
 			if(__GETC__(life_mediclevel) > 0) then
 
-			{	
+			{
 				_return pushBack
 				["B_Heli_Light_01_F",20000];
 				_return pushBack
@@ -320,6 +320,14 @@ switch (_shop) do
             ["mv22",100000],
             ["IVORY_ERJ135_1", 200000],
             ["b737", 350000]
+        ];
+    };
+
+    case "depanneur":
+    {
+        _return =
+        [
+            ["GeK_Volvo_FH16_2012_Depannage",0]
         ];
     };
 

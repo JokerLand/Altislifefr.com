@@ -85,62 +85,66 @@ switch (_side) do
                  if(license_rosthein && playerSide == civilian) then {
 				_return pushBack ["rosthein_spawn","Rosthein HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"];
 		};
-		
+
 
 				if(license_moa && playerSide == civilian) then {
 				_return pushBack ["spawn_moa","Les Autres HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"];
 		};
-		
+
 				if(license_raid && playerSide == civilian) then {
 				_return pushBack ["spawn_tor","Les cartel","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"];
 		};
-		
+
 				if(license_grf && playerSide == civilian) then {
 				_return pushBack ["spawn_grf","Vétéran HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"];
 		};
-		
+
 				if(license_mw && playerSide == civilian) then {
 				_return pushBack ["spawn_mw","Salamander HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"];
 		};
-		
+
 				if(license_poc && playerSide == civilian) then {
 				_return pushBack ["spawn_poc","Leninskaïa","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"];
 		};
-		
+
 				if(license_yk && playerSide == civilian) then {
 				_return pushBack ["spawn_yk","Yakusa HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"];
 		};
-		
+
 				if(license_cro && playerSide == civilian) then {
 				_return pushBack ["spawn_cro","Cronik HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"];
 		};
-		
+
 				if(license_cn && playerSide == civilian) then {
 				_return pushBack ["spawn_cn","Newgate","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"];
 		};
-		
+
 				if(license_ec && playerSide == civilian) then {
 				_return pushBack ["spawn_torres","Torres HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"];
 		};
-		
+
 				if(license_gr && playerSide == civilian) then {
 				_return pushBack ["spawn_gr","Strauss","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"];
 		};
-		
+
 				if(license_armer && playerSide == civilian) then {
 				_return pushBack ["spawn_armer","Armée HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"];
 		};
-				
+
 				if(license_fla && playerSide == civilian) then {
 				_return pushBack ["spawn_PE1_1","PE1 HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"];
 		};
-		
+
 				if(license_reb1 && playerSide == civilian) then {
 				_return pushBack ["spawn_reb1","SPQR HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"];
 		};
-		
+
 				if(license_tlt && playerSide == civilian) then {
 				_return pushBack ["tlt_spawn","Armée HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"];
+		};
+
+				if(license_depannage && playerSide == civilian) then {
+				_return pushBack ["depanneur","Depanneurs HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"];
 		};
 
 		if(count life_houses > 0) then {
@@ -162,10 +166,10 @@ switch (_side) do
 		];
 	};
 
-	case east: 
+	case east:
 	{
 		_return = [
-				
+
 			["spawn_armer","Armée HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]
 		];
 	};
