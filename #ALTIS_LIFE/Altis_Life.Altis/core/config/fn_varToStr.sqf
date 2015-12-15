@@ -147,4 +147,5 @@ switch (_var) do
 	case "license_reb1": {"SPQR"};
     case "license_civ_uranium": {"Formation Uranium"};
     case "license_air_altis":  {"Air Altis"};
+    case "license_depannage":  {"Depanneur"};
 };

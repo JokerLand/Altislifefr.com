@@ -72,7 +72,7 @@ life_carryWeight = 0; //Represents the players current inventory weight (MUST ST
 */
 life_net_dropped = false;
 life_hit_explosive = false;
-life_callBackup = true; 
+life_callBackup = true;
 life_siren_active = false;
 life_bank_fail = false;
 life_use_atm = true;
@@ -268,7 +268,8 @@ life_licenses =
 	["license_fla","civ"],
 	["license_reb1","civ"],
     ["license_civ_uranium","civ"],
-    ["license_air_altis","civ"]
+    ["license_air_altis","civ"],
+    ["license_depannage","civ"]
 ];
 
 //Setup License Variables
