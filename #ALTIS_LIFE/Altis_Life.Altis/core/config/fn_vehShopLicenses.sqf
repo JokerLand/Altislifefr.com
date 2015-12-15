@@ -33,6 +33,7 @@ switch (life_veh_shop select 0) do
 	case "armer_car": {_ret = true;};
     case "air_acrobat":{_ret = license_air_altis;};
     case "air_altis":{_ret = license_air_altis;};
+    case "depanneur":{_ret = license_depannage;};
 	case "cop_car": {_ret = true;};
 	case "cop_ship":
 	{
