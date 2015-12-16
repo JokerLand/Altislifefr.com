@@ -5,7 +5,7 @@
 life_firstSpawn = true;
 life_session_completed = false;
 private["_handle","_timeStamp"];
-0 cutText["Setting up client, please wait...","BLACK FADED"];
+0 cutText["Mise en place du client... !!!! NE CLIQUEZ PAS SUR REAPPARITION !!!!","BLACK FADED"];
 0 cutFadeOut 9999999;
 _timeStamp = diag_tickTime;
 diag_log "------------------------------------------------------------------------------------------------------";
@@ -86,7 +86,7 @@ diag_log "----------------------------------------------------------------------
 diag_log format["                End of Altis Life Client Init :: Total Execution Time %1 seconds ",(diag_tickTime) - _timeStamp];
 diag_log "------------------------------------------------------------------------------------------------------";
 
-life_sidechat = true;
+life_sidechat = false;
 [player,life_sidechat,playerSide] remoteExecCall ["TON_fnc_managesc",RSERV];
 0 cutText ["","BLACK IN"];
 [] call life_fnc_hudSetup;
