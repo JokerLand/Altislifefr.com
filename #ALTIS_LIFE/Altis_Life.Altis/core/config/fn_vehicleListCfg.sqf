@@ -63,7 +63,7 @@ switch (_shop) do
 				_return pushBack
 				["O_Heli_Light_02_unarmed_F",25000];
 				_return pushBack
-				["EC635_SAR",50000];
+				["EC635_Med",50000];
 			};
 	};
 
