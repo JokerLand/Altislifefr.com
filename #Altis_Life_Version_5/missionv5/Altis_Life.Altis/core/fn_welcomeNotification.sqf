@@ -4,17 +4,27 @@
 	Description:
 	Called upon first spawn selection and welcomes our player.
 */
-format["Welcome %1, Please read the following as it is important!",profileName] hintC
-[
-	"Welcome to the server! A few things have changed with Altis Life RPG that you need to be aware of!",
-	"An interaction key has been introduced which replaces the large majority of scroll wheel actions, this was for performance issues. By default this key is [Left Windows], you can change this key by pressing ESC and going to Configure->Controls->Custom
-	and bind 'Use Action 10' to a single key like H. This key is used for the following actions",
-	"Picking up items and money.",
-	"Fishing and gathering",
-	"Interacting with players (as a cop)",
-	"Interacting with vehicles (repairing and cop actions)",
-	"",
-	"If you are having issues with interacting / picking up items just wait. A quick way to know when you can interact with that item if the server allows it is by pressing your tilde key (~) and using the circle to highlight the object, when it says for example 'Pile of Money' then
-	that means you can pick it up!."
-];
-	
+_txt = parseText format
+
+	["
+		www.AltisLifeFr.com<br/><br/>
+
+		Si vous voyez des objets invisibles ou autres bugs.
+		Verifiez que vous lancez bien le jeu via notre <t color='#00aa00'>#Launcher</t>
+		disponible sur www.altislifefr.com
+
+		<br/><br/>------------------------<br/><br/>
+
+		Vous êtes sur un serveur RP (Jeu de Rôle).
+		Il est donc important de consulter les règles disponibles sur le forum.
+		Le Fairplay et le RP sont de rigueur en Jeu !
+
+		<br/><br/>------------------------<br/><br/>
+
+		Pour tout problèmes nous vous invitons à demander de l'aide sur le Forum ou Teamspeak.
+		Le Staff ne peut rien faire Ingame et se doit de rester RP.<br/><br/>
+
+		Bienvenue et Bon Jeu !
+	"];
+
+format["Bonjour %1, Lis c'est important!",name player] hintC _txt;
