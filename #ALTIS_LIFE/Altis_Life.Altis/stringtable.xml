@@ -4848,6 +4848,10 @@
 			<Original>Vous n'êtes pas membre de Air Altis !</Original>
 			<French>Vous n'êtes pas membre de Air Altis !</French>
 		</Key>
+		<Key ID="STR_Shop_NotaDepanneur">
+			<Original>Vous n'êtes pas membre des dépanneurs !</Original>
+			<French>Vous n'êtes pas membre des dépanneurs !</French>
+		</Key>
 
 		<Key ID="STR_Shop_YouNeed">
 			<Original>You need a %1 to buy from this shop!</Original>

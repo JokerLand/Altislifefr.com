@@ -3108,7 +3108,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=414;
+		items=415;
 		class Item0
 		{
 			position[]={16022.874,34.577976,16364.023};
@@ -7829,6 +7829,18 @@ class Mission
 			leader=1;
 			skill=0.2;
 			init="this enableSimulation false;   this allowDamage false;   this addAction[""Depanneurs Shop"",life_fnc_vehicleShopMenu,[""depanneur"",civilian,[""depannage_1_1""],""civ"",""Depanneurs Shop""],0,false,false,"""",'license_depannage'];   this addAction[""Vehicle Garage"",  {   [[getPlayerUID player,playerSide,""Car"",player],""TON_fnc_getVehicles"",false,false,"""",' license_depannage && playerSide == civilian'] spawn life_fnc_MP; life_garage_type = ""Car"";  createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""depannage_1_1"";  }];    this addAction[""Store vehicle in Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];";
+		};
+		class Item414
+		{
+			position[]={3862.6973,34.542427,12441.688};
+			azimut=316.37201;
+			offsetY=0.1;
+			special="NONE";
+			id=614;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V2_F";
+			skill=0.2;
+			init="this enableSimulation false; this allowDamage false; this addAction[""Quincaillerie"",life_fnc_weaponShopMenu,""genstore""]; this addAction[""Vendeur de Vêtements"",life_fnc_clothingMenu,""depanneur""];";
 		};
 	};
 	class Markers
