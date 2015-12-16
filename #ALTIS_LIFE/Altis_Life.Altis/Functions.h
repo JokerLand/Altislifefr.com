@@ -193,7 +193,7 @@ class Life_Client_Core
 		class clothing_fla {};
 		class clothing_armer {};
         class clothing_air_altis {};
-        class fn_clothing_depanneur {};
+        class clothing_depanneur {};
 	};
 
 	class Player_Menu
