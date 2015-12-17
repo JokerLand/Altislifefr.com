@@ -8,7 +8,7 @@
 		edible = EDIBLE; \
 		icon = ICON; \
 	};
-	
+
 #define LICENSEMACRO(NAME,DISPLAYNAME,VARNAME,PRICE,ILLEGAL,SIDE) class NAME { \
 		variable = VARNAME; \
 		displayName = DISPLAYNAME; \
@@ -22,7 +22,7 @@
 #include "Config_Clothing.hpp"
 
 /*
-	Master settings for various features and functionality	
+	Master settings for various features and functionality
 */
 class Life_Settings {
 	/* Persistent Settings */
@@ -32,7 +32,7 @@ class Life_Settings {
 	/* Revive system settings */
 	revive_cops = true; //true to enable cops the ability to revive everyone or false for only medics/ems.
 	revive_fee = 1500; //Revive fee that players have to pay and medics / EMS are rewarded
-	
+
 	/* House related settings */
 	house_limit = 5; //Maximum amount of houses a player can own.
 
@@ -45,7 +45,7 @@ class Life_Settings {
 	enable_fatigue = true; //Set to false to disable the ARMA 3 false system.
 	total_maxWeight = 24; //Static variable for the maximum weight allowed without having a backpack
 	paycheck_period = 5; //Scaled in minutes
-	
+
 	/* Impound Variables */
 	impound_car = 350; //Price for impounding cars
 	impound_boat = 250; //Price for impounding boats
@@ -179,7 +179,7 @@ class VirtualItems {
 
 /*
 	Licenses
-	
+
 	Params:
 	CLASS ENTRY,DisplayName,VariableName,price,illegal,side indicator
 */
@@ -206,6 +206,7 @@ class Licenses {
 	LICENSEMACRO(cement,"STR_License_Cement","cement",6500,false,"civ")
 	LICENSEMACRO(mAir,"STR_License_Pilot","mAir",15000,false,"med")
 	LICENSEMACRO(home,"STR_License_Home","home",75000,false,"civ")
+	LICENSEMACRO(depanneur,"STR_license_depannage","depanneur",75000,false,"civ")
 };
 
 class VirtualShops {
@@ -233,7 +234,7 @@ class VirtualShops {
 		name = "STR_Shops_Coffee";
 		items[] = { "coffee", "donuts" };
 	};
-	
+
 	class drugdealer {
 		name = "STR_Shops_DrugDealer";
 		items[] = { "cocaine_processed", "heroin_processed", "marijuana" };

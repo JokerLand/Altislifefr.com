@@ -399,7 +399,7 @@
 			<Original>Text Police</Original>
 			<German>An die Polizei</German>
 			<French>Text Police</French>
-			<Italian>Msg Polizia</Italian>		
+			<Italian>Msg Polizia</Italian>
 			<Portuguese>Polícia</Portuguese>
 		</Key>
 		<Key ID="STR_CELL_TextAdmins">
@@ -420,7 +420,7 @@
 			<Original>Admin Msg All</Original>
 			<German>Admin-Nachricht an alle</German>
 			<French>Admin Msg ALL</French>
-			<Italian>Admin Msg</Italian>			
+			<Italian>Admin Msg</Italian>
 			<Portuguese>Admin Msg ALL</Portuguese>
 		</Key>
 		<Key ID="STR_CELL_EMSRequest">
@@ -536,26 +536,26 @@
 			<Original>Disband Gang</Original>
 			<German>Gang auflösen</German>
 			<French>Dissoudre Gang</French>
-			<Italian>Sciogli Gang</Italian>		
+			<Italian>Sciogli Gang</Italian>
 			<Portuguese>Desfazer Gangue</Portuguese>
 		</Key>
 		<Key ID="STR_Gang_Invitation">
 			<Original>Gang Invitation</Original>
-			<German>Gang Einladung</German>	
+			<German>Gang Einladung</German>
 			<French>Invitation de Gang</French>
 			<Italian>Invito Gang</Italian>
 			<Portuguese>Convite para Gangue</Portuguese>
 		</Key>
 		<Key ID="STR_Gang_Transfer">
 			<Original>Transfer Gang Leadership</Original>
-			<German>Gangleitung übertragen</German>	
+			<German>Gangleitung übertragen</German>
 			<French>Transfert du commandement du Gang</French>
 			<Italian>Trasferisci Comando</Italian>
 			<Portuguese>Transferir Liderança</Portuguese>
 		</Key>
 		<Key ID="STR_Gang_UpgradeMax">
 			<Original>Upgrade Maximum Allowed Gang Members</Original>
-			<German>Maximale Anzahl an Gang Mitgliedern erhöhen</German>	
+			<German>Maximale Anzahl an Gang Mitgliedern erhöhen</German>
 			<French>Augmentation du nombre de membre acceptés</French>
 			<Italian>Aumenta numero massimo membri della Gang</Italian>
 			<Portuguese>Atualizar limite máximo de membros</Portuguese>
@@ -564,21 +564,21 @@
 	<Package name="Gang_Notification">
 		<Key ID="STR_GNOTF_CreateGang">
 			<Original>You must create a gang first before capturing it!</Original>
-			<German>Du musst erst in einer Gang sein, um einzunehmen zu können!</German>	
+			<German>Du musst erst in einer Gang sein, um einzunehmen zu können!</German>
 			<French>Vous devez créer un gang avant de le capturer!</French>
 			<Italian>Devi creare una gang prima di catturarla!</Italian>
 			<Portuguese>Você precisa criar uma gangue antes de tentar capturar esse esconderijo!</Portuguese>
 		</Key>
 		<Key ID="STR_GNOTF_Controlled">
 			<Original>Your gang already has control over this hideout!</Original>
-			<German>Deine Gang hat bereits die Kontrolle über dieses Versteck!</German>	
+			<German>Deine Gang hat bereits die Kontrolle über dieses Versteck!</German>
 			<French>Votre bande a déjà le contrôle de cette cachette!</French>
 			<Italian>La tua Gang ha già il controllo di questo Covo</Italian>
 			<Portuguese>Sua gangue já tem controle sobre esse esconderijo!</Portuguese>
 		</Key>
 		<Key ID="STR_GNOTF_Captured">
 			<Original>Only one person shall capture at once!</Original>
-			<German>Nur eine Person kann das Versteck einnehmen!</German>	
+			<German>Nur eine Person kann das Versteck einnehmen!</German>
 			<French>Une seule personne doit capturer à la fois!</French>
 			<Italian>Può conquistare solo una persona alla volta!</Italian>
 			<Portuguese>Somente uma pessoa pode capturar!</Portuguese>
@@ -627,7 +627,7 @@
 		</Key>
 		<Key ID="STR_GNOTF_IncorrectChar">
 			<Original>You have invalid characters in your gang name. It can only consist of Numbers and letters with an underscore</Original>
-			<German>Du hast ein ungültiges Zeichen in deinem Gang Namen. Der Name darf nur aus Zahlen und Buchstaben sowie einem Unterstrich bestehen</German>	
+			<German>Du hast ein ungültiges Zeichen in deinem Gang Namen. Der Name darf nur aus Zahlen und Buchstaben sowie einem Unterstrich bestehen</German>
 			<French>Vous avez des caractères non valides dans le nom de votre gang. Il ne peut être constitué de chiffres amd lettres avec un trait de soulignement</French>
 			<Italian>Hai inserito caratteri non validi nel nome della Gang. Puoi inserire solo numeri e lettere con un underscore</Italian>
 			<Portuguese>O nome da sua gangue tem caracteres inválidos. O nome so pode conter caracteres e números separados por sublinhado</Portuguese>
@@ -848,12 +848,12 @@
 			<Original>Vehicle Garage</Original>
 			<German>Fahrzeug Garage</German>
 			<French>Garage Vehicule</French>
-			<Italian>Garage Veicoli</Italian>			
+			<Italian>Garage Veicoli</Italian>
 			<Portuguese>Garagem de Veículos</Portuguese>
 		</Key>
 		<Key ID="STR_Garage_GetVehicle">
 			<Original>Get Vehicle</Original>
-			<German>Ausparken</German>	
+			<German>Ausparken</German>
 			<French>Récupérer</French>
 			<Italian>Ritira Veicolo</Italian>
 			<Portuguese>Pegar Veiculo</Portuguese>
@@ -882,8 +882,8 @@
 		<Key ID="STR_Garage_NoVehicles">
 			<Original>No vehicles found in garage.</Original>
 			<German>Keine Fahrzeuge in der Garage gefunden.</German>
-			<French>Aucuns Vehicules.</French>	
-			<Italian>Non hai veicoli nel Garage.</Italian>			
+			<French>Aucuns Vehicules.</French>
+			<Italian>Non hai veicoli nel Garage.</Italian>
 			<Portuguese>Nenhum veiculo encontrado na garagem.</Portuguese>
 		</Key>
 		<Key ID="STR_Garage_CashError">
@@ -951,14 +951,14 @@
 		</Key>
 		<Key ID="STR_Garage_Store_Server">
 			<Original>The server is trying to store the vehicle...</Original>
-			<German>Der Server versucht, das Fahrzeug zu speichern...</German>	
+			<German>Der Server versucht, das Fahrzeug zu speichern...</German>
 			<French>Le serveur tente de stocker le véhicule ...</French>
 			<Italian>Il server cercando di depositare il veicolo...</Italian>
 			<Portuguese>O servidor está guardando o veiculo...</Portuguese>
 		</Key>
 		<Key ID="STR_Garage_Selection_Error">
 			<Original>The selection had a error...</Original>
-			<German>Die Auswahl hat einen Fehler...</German>	
+			<German>Die Auswahl hat einen Fehler...</German>
 			<French>La selection à une erreur...</French>
 			<Italian>La selezione ha avuto un errore...</Italian>
 			<Portuguese>Erro ao selecionar....</Portuguese>
@@ -1120,7 +1120,7 @@
 			<Original>Player Tags</Original>
 			<German>Spielernamen</German>
 			<French>Tags Joueurs</French>
-			<Italian>Tag Giocatore</Italian>			
+			<Italian>Tag Giocatore</Italian>
 			<Portuguese>Tags de Jogadores</Portuguese>
 		</Key>
 		<Key ID="STR_SM_TagsON">
@@ -1154,8 +1154,8 @@
 		<Key ID="STR_SM_SCON">
 			<Original>Sidechat ON</Original>
 			<German>Sidechat AN</German>
-			<French>Sidechat ON</French>	
-			<Italian>Chat fazione ON</Italian>			
+			<French>Sidechat ON</French>
+			<Italian>Chat fazione ON</Italian>
 			<Portuguese>Sidechat ON</Portuguese>
 		</Key>
 	</Package>
@@ -1171,7 +1171,7 @@
 			<Original>Your Inventory</Original>
 			<German>Eigenes Inventar</German>
 			<French>Ton Inventaire</French>
-			<Italian>Inventario Personale</Italian>	
+			<Italian>Inventario Personale</Italian>
 			<Portuguese>Seu Inventário</Portuguese>
 		</Key>
 		<Key ID="STR_VS_BuyItem">
@@ -1261,7 +1261,7 @@
 			<Original>Take</Original>
 			<German>Nehmen</German>
 			<French>Récupérer</French>
-			<Italian>Prendi</Italian>		
+			<Italian>Prendi</Italian>
 			<Portuguese>Pegar</Portuguese>
 		</Key>
 		<Key ID="STR_Trunk_Store">
@@ -1300,7 +1300,7 @@
 			<Original>Ornate</Original>
 			<German>Ornate</German>
 			<French>Ornate</French>
-			<Italian>Orata</Italian>			
+			<Italian>Orata</Italian>
 			<Portuguese>Ornamentado</Portuguese>
 		</Key>
 		<Key ID="STR_ANIM_Mackerel">
@@ -1351,7 +1351,7 @@
 			<Original>You bought a %1 for $%2</Original>
 			<German>Du hast einen %1 für $%2 gekauft</German>
 			<French>Tu as acheté cet élément : %1 pour %2$</French>
-			<Italian>Hai comprato un %1 per €%2</Italian>		
+			<Italian>Hai comprato un %1 per €%2</Italian>
 			<Portuguese>Você comprou %1 por R$%2</Portuguese>
 		</Key>
 		<Key ID="STR_NOTF_Arrested_1">
@@ -1456,7 +1456,7 @@
 			<Original>You failed to deliver the package because you died.</Original>
 			<German>Du hast es nicht geschafft, das Paket abzuliefern, da du gestorben bist.</German>
 			<French>Vous avez omis de livrer le colis car vous êtes morts.</French>
-			<Italian>Compra Oggetto</Italian>			
+			<Italian>Compra Oggetto</Italian>
 			<Portuguese>Você falhou na tarefa de entrega pois você morreu.</Portuguese>
 		</Key>
 		<Key ID="STR_NOTF_HS_NoCash">
@@ -2094,7 +2094,7 @@
 			<French>%1 a mis une contravention de $%2 à %3</French>
 			<Italian>%1 ha dato una multa di €%2 a %3</Italian>
 			<Portuguese>%1 deu uma multa de R$%2 para %3</Portuguese>
-		</Key>	
+		</Key>
 		<Key ID="STR_Cop_Ticket_NotEnough">
 			<Original>You don't have enough money in your bank account or on you to pay the ticket.</Original>
 			<German>Du hast nicht genug Geld auf deinem Bankkonto, um den Strafzettel bezahlen zu können.</German>
@@ -2611,7 +2611,7 @@
 			<Portuguese>O dono da casa não está online, você não pode vasculhar a casa!</Portuguese>
 		</Key>
 		<Key ID="STR_House_Raid_DoorUnlocked">
-			<Original>The door is already unlocked!</Original>			
+			<Original>The door is already unlocked!</Original>
 			<German>Die Tür ist bereits offen!</German>
 			<French>La porte est déjà débloqué!</French>
 			<Italian>La porta è già sbloccata!</Italian>
@@ -2916,7 +2916,7 @@
 			<French>Filet de Mulet</French>
 			<Italian>Carne di Triglia</Italian>
 			<Portuguese>Peixe Mullet</Portuguese>
-		</Key> 
+		</Key>
 		<Key ID="STR_Item_MulletFried">
 			<Original>Fried Mullet</Original>
 			<German>Frittierte Meeräsche</German>
@@ -3367,6 +3367,10 @@
 			<Italian>Licenza possesso Casa</Italian>
 			<Portuguese>Licença de Casas</Portuguese>
 		</Key>
+		<Key ID="STR_license_depannage">
+			<Original>Depanneur</Original>
+			<French>Depanneur</French>
+		</Key>
 	</Package>
 	<Package name="More_Item_Strings">
 		<Key ID="STR_ISTR_Blast_VaultOnly">
@@ -3547,8 +3551,8 @@
 		<Key ID="STR_ISTR_Pick_MineVeh">
 			<Original>You can't mine from inside a car!</Original>
 			<German>Du kannst nicht in deinem Auto abbauen!</German>
-			<French>Vous ne pouvez pas miner à l'intérieur d'une voiture!</French>	
-			<Italian>Non puoi piazzare mine da dentro un veicolo!</Italian>			
+			<French>Vous ne pouvez pas miner à l'intérieur d'une voiture!</French>
+			<Italian>Non puoi piazzare mine da dentro un veicolo!</Italian>
 			<Portuguese>Você não pode minerar de dentro do carro!</Portuguese>
 		</Key>
 		<Key ID="STR_ISTR_Pick_Success">
@@ -4114,8 +4118,8 @@
 		<Key ID="STR_vInAct_PushBoat">
 			<Original>Push Boat</Original>
 			<German>Boot schieben</German>
-			<French>Pousser bateau</French>	
-			<Italian>Spingi Barca</Italian>			
+			<French>Pousser bateau</French>
+			<Italian>Spingi Barca</Italian>
 			<Portuguese>Empurar Barco</Portuguese>
 		</Key>
 		<Key ID="STR_vInAct_Repair">
@@ -4304,6 +4308,11 @@
 			<Italian>Ti serve la licenza di pesca per usare questo negozio!</Italian>
 			<Portuguese>Você precisa de uma Licença de Mergulho para usar essa loja!</Portuguese>
 		</Key>
+		<Key ID="STR_Shop_NotaDepanneur">
+			<Original>Vous n'êtes pas membre des dépanneurs !</Original>
+			<French>Vous n'êtes pas membre des dépanneurs !</French>
+		</Key>
+
 		<Key ID="STR_Shop_YouNeed">
 			<Original>You need a %1 to buy from this shop!</Original>
 			<German>Du benötigst eine %1, um diesen Shop nutzen zu können!</German>
@@ -4618,7 +4627,7 @@
 			<Original>You will receive your next paycheck in %1 minutes</Original>
 			<German>Du erhältst deinen nächsten Gehaltsscheck in %1 Minuten</German>
 			<French>Vous recevrez votre prochain chèque de paie dans %1 minutes</French>
-			<Italian>Riceverai il tuo prossimo stipendio in %1 minuti</Italian>		
+			<Italian>Riceverai il tuo prossimo stipendio in %1 minuti</Italian>
 			<Portuguese>Você vai receber seu próximo pagamento em %1 minutos</Portuguese>
 		</Key>
 		<Key ID="STR_FSM_MissedPay">
@@ -4641,14 +4650,14 @@
 			<Original>Drop Fishing Net</Original>
 			<German>Fischernetz auswerfen</German>
 			<French>Drop Fishing Net</French>
-			<Italian>Drop Fishing Net</Italian>		
+			<Italian>Drop Fishing Net</Italian>
 			<Portuguese>Jogar Rede de Pesca</Portuguese>
 		</Key>
 		<Key ID="STR_pAct_RobPerson">
 			<Original>Rob Person</Original>
 			<German>Person ausrauben</German>
 			<French>Rob Person</French>
-			<Italian>Rob Person</Italian>		
+			<Italian>Rob Person</Italian>
 			<Portuguese>Roubar Jogador</Portuguese>
 		</Key>
 	</Package>

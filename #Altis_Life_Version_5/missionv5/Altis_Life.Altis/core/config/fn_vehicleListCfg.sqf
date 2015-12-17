@@ -2,7 +2,7 @@
 /*
 	File:
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Master configuration list / array for buyable vehicles & prices and their shop.
 */
@@ -30,17 +30,17 @@ switch (_shop) do
 			["B_Truck_01_medical_F",60000]
 		];
 	};
-	
+
 	case "med_air_hs": {
 		_return = [
 			["B_Heli_Light_01_F",50000],
 			["O_Heli_Light_02_unarmed_F",75000]
 		];
 	};
-	
+
 	case "civ_car":
 	{
-		_return = 
+		_return =
 		[
 			["B_Quadbike_01_F",2500],
 			["C_Hatchback_01_F",9500],
@@ -49,7 +49,7 @@ switch (_shop) do
 			["C_Van_01_transport_F",40000]
 		];
 	};
-	
+
 	case "civ_truck":
 	{
 		_return =
@@ -62,10 +62,10 @@ switch (_shop) do
 			["O_Truck_03_covered_F",250000],
 			["B_Truck_01_box_F",350000],
 			["O_Truck_03_device_F",450000]
-		];	
+		];
 	};
-	
-	
+
+
 	case "reb_car":
 	{
 		_return =
@@ -75,14 +75,14 @@ switch (_shop) do
 			["O_MRAP_02_F",150000],
 			["B_Heli_Light_01_F",325000]
 		];
-		
+
 		if(license_civ_rebel) then
 		{
 			_return pushBack
 			["B_G_Offroad_01_armed_F",750000];
 		};
 	};
-	
+
 	case "cop_car":
 	{
 		_return pushBack
@@ -95,7 +95,7 @@ switch (_shop) do
 			["B_MRAP_01_F",30000];
 		};
 	};
-	
+
 	case "civ_air":
 	{
 		_return =
@@ -104,7 +104,7 @@ switch (_shop) do
 			["O_Heli_Light_02_unarmed_F",750000]
 		];
 	};
-	
+
 	case "cop_air":
 	{
 		_return pushBack
@@ -115,7 +115,7 @@ switch (_shop) do
 			["B_Heli_Transport_01_F",200000];
 		};
 	};
-	
+
 	case "cop_airhq":
 	{
 		_return pushBack
@@ -128,7 +128,7 @@ switch (_shop) do
 			["B_MRAP_01_hmg_F",750000];
 		};
 	};
-	
+
 	case "civ_ship":
 	{
 		_return =
@@ -148,6 +148,16 @@ switch (_shop) do
 			["B_SDV_01_F",100000]
 		];
 	};
+
+	 case "depanneur":
+    {
+        _return =
+        [
+            ["GeK_Volvo_FH16_2012_Depannage",0],
+            ["C_Offroad_01_repair_F",0],
+            ["EC635_ADAC",0]
+        ];
+    };
 };
 
 _return;
