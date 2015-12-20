@@ -70,7 +70,7 @@ switch (_shop) do
 			{
 		
 				_return pushBack
-				["EC635_Med",50000];
+				["EC635_Med",1000];
 			};
 	};
 
