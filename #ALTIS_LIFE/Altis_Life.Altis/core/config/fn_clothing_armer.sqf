@@ -61,7 +61,8 @@ switch (_filter) do
 		[
 			["R3F_veste_ce600",nil,10],
 			["V_RebreatherB",nil,10],
-            ["V_RebreatherIA",nil,10]
+            ["V_RebreatherIA",nil,10],
+            ["V_PlateCarrierL_CTRG",nil,10]
 		];
 	};
 
