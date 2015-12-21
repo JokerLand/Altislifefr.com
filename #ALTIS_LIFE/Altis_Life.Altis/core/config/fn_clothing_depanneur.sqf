@@ -18,8 +18,7 @@ switch (_filter) do
 	case 0:
 	{
 		[
-			["U_C_WorkerCoveralls","Tenue de dépanneur 1",0],
-			["ALE_Worker","Tenue de dépanneur 2",0]
+			["ALE_RsDep","Tenue de dépanneur 1",0]
 		];
 	};
 
