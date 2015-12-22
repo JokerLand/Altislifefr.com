@@ -3,7 +3,7 @@
 	
 	Creates an intro on the bottom-right hand corner of the screen and add camera effect to spawn.
 */
-
+//test
 private [ "_camera", "_welcomeMessage", "_camDistance" ];
 _welcomeMessage = format["Bienvenue sur AltisLifeFr.com %1",format["%1", name player]];
 _camDistance = 40;
