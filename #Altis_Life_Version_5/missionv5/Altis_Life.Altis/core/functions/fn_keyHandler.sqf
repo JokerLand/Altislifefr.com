@@ -208,25 +208,38 @@ switch (_code) do {
 			} else {
 				_locked = locked _veh;
 				if(_veh in life_vehicles && player distance _veh < 8) then {
-					if(EQUAL(_locked,2)) then {
+					if(_locked == 2) then {
 						if(local _veh) then {
 							_veh lock 0;
 						} else {
-							[_veh,0] remoteExecCall ["life_fnc_lockVehicle",_veh];
+							[[_veh,0],"life_fnc_lockVehicle",_veh,false] spawn life_fnc_MP;
 						};
-						systemChat localize "STR_MISC_VehUnlock";
+						//systemChat localize "STR_MISC_VehUnlock";
+						hint composeText [ image "icons\unlock.paa", "  Vehicule ouvert" ];
+						_veh say3D "Beep";
 					} else {
 						if(local _veh) then {
 							_veh lock 2;
 						} else {
-							[_veh,2] remoteExecCall ["life_fnc_lockVehicle",_veh];
-						};	
-						systemChat localize "STR_MISC_VehLock";
+							[[_veh,2],"life_fnc_lockVehicle",_veh,false] spawn life_fnc_MP;
+						};
+						//systemChat localize "STR_MISC_VehLock";
+						hint composeText [ image "icons\lock.paa", "  Vehicule ferme" ];
+						_veh say3D "BeepBeep";
 					};
 				};
 			};
 		};
 	};
+	//Shift+P = Faded Sound
+    case 25:
+    {
+        if(_shift) then
+        {
+            [] call life_fnc_fadeSound;
+            _handled = true;
+        };
+    };
 };
 
 _handled;
