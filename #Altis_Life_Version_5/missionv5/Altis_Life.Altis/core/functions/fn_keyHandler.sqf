@@ -36,6 +36,8 @@ if(life_action_inUse) exitWith {
 	if(!life_interrupted && _code in _interruptionKeys) then {life_interrupted = true;};
 	_handled;
 };
+//Anti ² Par Sakzy
+if((_code in (actionKeys "SelectAll") || _code in (actionKeys "ForceCommandingMode"))) then {true;};
 
 //Hotfix for Interaction key not being able to be bound on some operation systems.
 if(!(EQUAL(count (actionKeys "User10"),0)) && {(inputAction "User10" > 0)}) exitWith {
