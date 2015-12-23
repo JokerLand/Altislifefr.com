@@ -36,11 +36,18 @@ _diff = [SEL(_gather,0),SEL(_gather,1),life_carryWeight,life_maxWeight] call lif
 if(EQUAL(_diff,0)) exitWith {hint localize "STR_NOTF_InvFull"};
 life_action_inUse = true;
 
+if(_zone in _minage) then
+    {
+		playSound "mining";
+	};
+
 for "_i" from 0 to 2 do {
 	player playMove "AinvPercMstpSnonWnonDnon_Putdown_AmovPercMstpSnonWnonDnon";
 	waitUntil{animationState player != "AinvPercMstpSnonWnonDnon_Putdown_AmovPercMstpSnonWnonDnon";};
 	sleep 2.5;
 };
+
+playSound "bag";
 
 if(([true,SEL(_gather,0),_diff] call life_fnc_handleInv)) then {
 	_itemName = M_CONFIG(getText,"VirtualItems",SEL(_gather,0),"displayName");

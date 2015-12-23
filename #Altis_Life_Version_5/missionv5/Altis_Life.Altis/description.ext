@@ -95,6 +95,20 @@ class CfgSounds
 	    titles[] = {};
     };
 	
+	class Bag
+    {
+	    name = "bag";
+	    sound[] = {"\sounds\bag.ogg", 1, 1};
+	    titles[] = {};
+    };
+	
+	class Mining
+    {
+	    name = "mining";
+        sound[] = {"\sounds\mining.ogg", 0.95, 0.95};
+        titles[] = {};
+    };
+	
 	class alert
     {
         name = "alert";
