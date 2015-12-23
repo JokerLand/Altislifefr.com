@@ -7,7 +7,7 @@
 	Setup the settings menu.
 */
 if(isNull (findDisplay 2900)) then {
-	if(!createDialog "SettingsMenu") exitWith {hint "Something went wrong, the menu won't open?"};
+	if(!createDialog "SettingsMenu") exitWith {hint "Quelque chose a mal tourné , le menu ne sera pas ouvert"};
 };
 
 disableSerialization;

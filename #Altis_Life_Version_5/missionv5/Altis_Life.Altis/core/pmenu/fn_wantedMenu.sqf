@@ -16,7 +16,7 @@ _list = _display displayCtrl 2401;
 lbClear _list;
 _units = [];
 
-ctrlSetText[2404,"Establishing connection..."];
+ctrlSetText[2404,"Chargement..."];
 
 if(FETCH_CONST(life_coplevel) < 3 && FETCH_CONST(life_adminlevel) == 0) then {
 	ctrlShow[2405,false];
