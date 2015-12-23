@@ -66,6 +66,27 @@ class CfgSounds
 		sound[] = {"\sounds\flashbang.ogg", 1.0, 1};
 		titles[] = {};
 	};
+	
+	class BeepBeep
+    {
+        name = "BeepBeep";
+        sound[] = {"\sounds\BeepBeep.ogg", 0.9, 1};
+        titles[] = {};
+    };
+	
+    class Beep
+    {
+        name = "Beep";
+        sound[] = {"\sounds\Beep.ogg", 0.9, 1};
+        titles[] = {};
+    };
+	
+	class Cuff
+    {
+        name = "cuff";
+        sound[] = {"\sounds\cuff.ogg", 0.95, 0.95};
+        titles[] = {};
+    };
 };
 
 class CfgDebriefing
