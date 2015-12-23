@@ -88,6 +88,13 @@ class CfgSounds
         titles[] = {};
     };
 	
+	class Caching
+    {
+	    name = "caching";
+	    sound[] = {"\sounds\caching.ogg", 1, 1};
+	    titles[] = {};
+    };
+	
 	class alert
     {
         name = "alert";

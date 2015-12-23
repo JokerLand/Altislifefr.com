@@ -50,6 +50,7 @@ if(([true,_type,_amount] call life_fnc_handleInv)) then
 		SUB(CASH,(_price * _amount));
 	};
 	[0] call life_fnc_virt_update;
+    playSound "caching";
 };
 
 [0] call SOCK_fnc_updatePartial;
