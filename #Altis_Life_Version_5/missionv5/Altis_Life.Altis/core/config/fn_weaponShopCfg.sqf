@@ -315,7 +315,9 @@ switch(_shop) do {
 				["Chemlight_red",nil,300],
 				["Chemlight_yellow",nil,300],
 				["Chemlight_green",nil,300],
-				["Chemlight_blue",nil,300]
+				["Chemlight_blue",nil,300],
+				["tf_anprc148jem_1","Radio Courte",0],
+				["tf_anprc155_coyote","Radio Longue",0]
 			]
 		];
 	};
