@@ -31,5 +31,5 @@ if(EQUAL(_index,-1)) then  {
 	_vehicle SVAR ["vehicle_info_owners",_owners,true];
 };
 
-hint format["You have given %1 keys to your %2",_unit GVAR ["realname",name _unit],typeOf _vehicle];
+hint format["Vous avez donner %1 cles de votre %2",_unit GVAR ["realname",name _unit],typeOf _vehicle];
 [_vehicle,_unit,profileName] remoteExecCAll ["TON_fnc_clientGetKey",_unit];
