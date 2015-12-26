@@ -55,17 +55,17 @@ switch (_shop) do
 
 	case "med_air_hs":
 	{
-			
+
 				_return pushBack
 				["B_Heli_Light_01_F",20000];
 				_return pushBack
 				["O_Heli_Light_02_unarmed_F",25000];
-				
+
 
 			if(__GETC__(life_mediclevel) > 2) then
 
 			{
-		
+
 				_return pushBack
 				["EC635_Med",1000];
 			};
@@ -278,6 +278,8 @@ switch (_shop) do
 			["ALFR_GeK_Panamera_Police",20000];
 			_return pushBack
 			["GeK_TLC100_Police",25000];
+			_return pushBack
+			["GeK_ML63_Police",30000];
             };
 	    if(__GETC__(life_coplevel) > 2) then
 			{
