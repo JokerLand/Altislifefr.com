@@ -22,4 +22,5 @@ if(life_is_arrested) then {
 };
 player addRating 9999999;
 
+[] execVM "msgbienvenueCiv.sqf";
 [] execVM "statusBar.sqf";
