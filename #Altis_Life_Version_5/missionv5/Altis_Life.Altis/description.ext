@@ -102,6 +102,13 @@ class CfgSounds
 	    titles[] = {};
     };
 	
+	class Intro
+    {
+	    name = "Intro";
+	    sound[] = {"\sounds\Intro.ogg", 1, 1};
+	    titles[] = {};
+    };
+	
 	class Mining
     {
 	    name = "mining";
