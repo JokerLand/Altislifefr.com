@@ -9,6 +9,7 @@ if(isNull _unit OR !(_unit GVAR ["restrained",FALSE])) exitWith {}; //Error chec
 _unit SVAR ["restrained",FALSE,TRUE];
 _unit SVAR ["Escorting",FALSE,TRUE];
 _unit SVAR ["transporting",FALSE,TRUE];
+player say3D "cuff";
 detach _unit;
 
 [0,"STR_NOTF_Unrestrain",true,[_unit GVAR ["realname",name _unit], profileName]] remoteExecCall ["life_fnc_broadcast",west];
