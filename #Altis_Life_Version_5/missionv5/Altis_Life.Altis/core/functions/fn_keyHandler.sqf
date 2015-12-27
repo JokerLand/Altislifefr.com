@@ -57,12 +57,12 @@ if(!(EQUAL(count (actionKeys "User10"),0)) && {(inputAction "User10" > 0)}) exit
 switch (_code) do
 {
 	//Space key for Jumping
-	case 57:
-	{
+	case 57: {
+		if(isNil "jumpActionTime") then {jumpActionTime = 0;};
 		if(_shift && {!(EQUAL(animationState player,"AovrPercMrunSrasWrflDf"))} && {isTouchingGround player} && {EQUAL(stance player,"STAND")} && {speed player > 2} && {!life_is_arrested} && {SEL((velocity player),2) < 2.5} && {time - jumpActionTime > 1.5}) then {
 			jumpActionTime = time; //Update the time.
 			[player,true] spawn life_fnc_jumpFnc; //Local execution
-			[player,false] remoteExec ["life_fnc_jumpFnc",RANY]; //Global execution
+			[player,false] remoteExec ["life_fnc_jumpFnc",RANY]; //Global execution 
 			_handled = true;
 		};
 	};
