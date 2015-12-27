@@ -22,7 +22,7 @@ class attache
 			w = 0.05;
 			h = 0.05;
 			ColorText[]={154,199,49,0.8};
-			text = "Aiekillu_Textures\Icones\UI\avecCeinture.paa";
+			text = "textures\UI\avecCeinture.paa";
 			sizeEx = 0.01;
 			style=48;
 		};
@@ -44,7 +44,7 @@ class pasattache
 			w = 0.05;
 			h = 0.05;
 			ColorText[]={154,199,49,0.8};
-			text = "Aiekillu_Textures\Icones\UI\pasAttacher.paa";
+			text = "textures\UI\pasAttacher.paa";
 			sizeEx = 0.01;
 			style=48;
 		};
