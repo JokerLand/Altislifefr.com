@@ -5,7 +5,7 @@ joinUnassigned = 1;
 respawn = BASE;
 respawndelay = 5;
 disabledAI = true;
-disableChannels[]={0,2,6};
+disableChannels[]={0,1,2,3,4,5,6};
 enableDebugConsole = 1;
 respawnDialog = 0;
 LoadScreen  = "images\welcome.jpg";
@@ -37,7 +37,6 @@ class RscTitles {
 	#include "dialog\progress.hpp"
 	#include "dialog\hud_nameTags.h"
 	#include "statusBar.hpp"
-	#include "dialog\ui_ceinture.hpp"
 };
 
 class CfgFunctions {
