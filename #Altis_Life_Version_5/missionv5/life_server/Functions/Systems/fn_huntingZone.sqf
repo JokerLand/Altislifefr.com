@@ -1,16 +1,16 @@
 /*
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Spawns animals around the marker when a player
 	is near. Very basic WIP
-	
+
 	TODO:
 	Change it up so animals repopulate over time.
 */
 private["_animalList","_dist","_radius","_animals","_zoneName","_unitsNear","_animalsActive"];
 _zoneName = [_this,0,"",[""]] call BIS_fnc_param;
-_maxAnimals = [_this,1,10,[0]] call BIS_fnc_param;
+_maxAnimals = [_this,1,30,[0]] call BIS_fnc_param;
 if(_zoneName == "") exitWith {};
 _animalList = ["Sheep_random_F","Goat_random_F","Hen_random_F","Cock_random_F"];
 _radius = (getMarkerSize _zoneName) select 0;

@@ -1,7 +1,7 @@
 #include "..\..\script_macros.hpp"
 /*
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Guts the animal?
 */
@@ -15,11 +15,11 @@ if(player distance _animalCorpse > 3.5) exitWith {};
 life_action_inUse = true;
 
 switch(typeOf _animalCorpse) do {
-	case "Hen_random_F": {_displayName = "Chicken"; _item = "hen_raw";};
-	case "Cock_random_F": {_displayName = "Rooster"; _item = "rooster_raw";};
-	case "Goat_random_F": {_displayName = "Goat"; _item = "goat_raw";};
-	case "Sheep_random_F": {_displayName = "Sheep"; _item = "sheep_raw";};
-	case "Rabbit_F": {_displayName = "Rabbit"; _item = "rabbit_raw";};
+	case "Hen_random_F": {_displayName = "Poule"; _item = "hen_raw";};
+	case "Cock_random_F": {_displayName = "Poulet"; _item = "rooster_raw";};
+	case "Goat_random_F": {_displayName = "Chevre"; _item = "goat_raw";};
+	case "Sheep_random_F": {_displayName = "Mouton"; _item = "sheep_raw";};
+	case "Rabbit_F": {_displayName = "Lapin"; _item = "rabbit_raw";};
 	default {_displayName = ""; _item = "";};
 };
 
@@ -52,7 +52,7 @@ while{true} do {
 	if(player != vehicle player) exitWith {};
 	if(life_interrupted) exitWith {};
 };
-		
+
 life_action_inUse = false;
 5 cutText ["","PLAIN"];
 player playActionNow "stop";
@@ -62,7 +62,7 @@ if(player != vehicle player) exitWith {titleText[localize "STR_NOTF_RepairingInV
 
 if(([true,_item,1] call life_fnc_handleInv)) then {
 	deleteVehicle _animalCorpse;
-	titleText [format["You have collected some raw %1 meat",_displayName],"PLAIN"];
+	titleText [format["Vous recoltez de la viande de %1",_displayName],"PLAIN"];
 } else {
-	titleText ["Your inventory is full","PLAIN"];
+	titleText ["Votre inventaire est plein","PLAIN"];
 };
