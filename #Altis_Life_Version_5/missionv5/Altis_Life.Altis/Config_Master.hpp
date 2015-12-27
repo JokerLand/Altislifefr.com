@@ -26,7 +26,7 @@
 */
 class Life_Settings {
 	/* Persistent Settings */
-	save_civ_weapons = false; //Allow civilians to save weapons on them?
+	save_civ_weapons = true; //Allow civilians to save weapons on them?
 	save_virtualItems = true; //Save Virtual items (all sides)?
 
 	/* Revive system settings */
@@ -234,7 +234,7 @@ class VirtualShops {
 		name = "STR_Shops_Coffee";
 		items[] = { "coffee", "donuts" };
 	};
-	
+
 	class drugdealer {
 		name = "STR_Shops_DrugDealer";
 		items[] = { "cocaine_processed", "heroin_processed", "marijuana" };
