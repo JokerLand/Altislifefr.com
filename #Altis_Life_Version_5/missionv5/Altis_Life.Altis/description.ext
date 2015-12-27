@@ -37,6 +37,7 @@ class RscTitles {
 	#include "dialog\progress.hpp"
 	#include "dialog\hud_nameTags.h"
 	#include "statusBar.hpp"
+	#include "dialog\ui_ceinture.hpp"
 };
 
 class CfgFunctions {
@@ -127,6 +128,22 @@ class CfgSounds
 	{
 		name="car_alarm";
 		sound[] = {"\sounds\car_alarm.ogg", 1, 1};
+		titles[] = {};
+	
+	};
+	
+	class ceinture_attache
+	{
+		name="ceinture_attache";
+		sound[] = {"\sounds\Vehicules\ceinture_attache.ogg", 1, 1};
+		titles[] = {};
+	
+	};
+	
+	class ceinture_dettache
+	{
+		name="ceinture_dettache";
+		sound[] = {"\sounds\Vehicules\ceinture_dettache.ogg", 1, 1};
 		titles[] = {};
 	
 	};

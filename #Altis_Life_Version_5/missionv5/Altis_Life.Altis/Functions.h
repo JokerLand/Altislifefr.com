@@ -16,6 +16,22 @@ class Socket_Reciever
 class Life_Client_Core
 {
 	tag = "life";
+    
+    class Root_Altislifefr {
+
+		file = "Altislifefr";
+
+		class Erreur {};
+		class Informations {};
+	};
+    
+    class Functions_Altislifefr {
+
+		file = "Altislifefr\Functions";
+
+		class ceinture {};
+
+	};
 	
 	class Master_Directory
 	{
