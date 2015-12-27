@@ -1,12 +1,8 @@
 /*
 	Author: Bryan "Tonic" Boardwine
-	
 	Description:
 	Spawns animals around the marker when a player
-	is near. Very basic WIP
-	
-	TODO:
-	Change it up so animals repopulate over time.
+	is near.
 */
 private["_animalList","_dist","_radius","_animals","_zoneName","_unitsNear","_animalsActive"];
 _zoneName = [_this,0,"",[""]] call BIS_fnc_param;
@@ -25,6 +21,30 @@ while {true} do {
 	if(_unitsNear && !_animalsActive) then {
 		_animalsActive = true;
 		for "_i" from 1 to _maxAnimals do {
+			_animalClass = _animalList select floor random count _animalList;
+			_position = [((_zone select 0) - _radius + random (_radius * 2)), ((_zone select 1) - _radius + random (_radius * 2)),0];
+			_animal = createAgent [_animalClass,_position,[],0,"FORM"];
+			_animal setDir (random 360);
+			_animals pushBack _animal;
+			sleep 0.1;
+			_animalClass = _animalList select floor random count _animalList;
+			_position = [((_zone select 0) - _radius + random (_radius * 2)), ((_zone select 1) - _radius + random (_radius * 2)),0];
+			_animal = createAgent [_animalClass,_position,[],0,"FORM"];
+			_animal setDir (random 360);
+			_animals pushBack _animal;
+			sleep 0.1;
+			_animalClass = _animalList select floor random count _animalList;
+			_position = [((_zone select 0) - _radius + random (_radius * 2)), ((_zone select 1) - _radius + random (_radius * 2)),0];
+			_animal = createAgent [_animalClass,_position,[],0,"FORM"];
+			_animal setDir (random 360);
+			_animals pushBack _animal;
+			sleep 0.1;
+			_animalClass = _animalList select floor random count _animalList;
+			_position = [((_zone select 0) - _radius + random (_radius * 2)), ((_zone select 1) - _radius + random (_radius * 2)),0];
+			_animal = createAgent [_animalClass,_position,[],0,"FORM"];
+			_animal setDir (random 360);
+			_animals pushBack _animal;
+			sleep 0.1;
 			_animalClass = _animalList select floor random count _animalList;
 			_position = [((_zone select 0) - _radius + random (_radius * 2)), ((_zone select 1) - _radius + random (_radius * 2)),0];
 			_animal = createAgent [_animalClass,_position,[],0,"FORM"];

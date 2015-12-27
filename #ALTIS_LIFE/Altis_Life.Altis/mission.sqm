@@ -7845,7 +7845,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=390;
+		items=392;
 		class Item0
 		{
 			position[]={8459.6777,104.56568,25131.203};
@@ -11034,6 +11034,24 @@ class Mission
 			name="depanneur";
 			type="Empty";
 			angle=322.76575;
+		};
+		class Item390
+		{
+			position[]={7740.0015,110.95338,19950.236};
+			name="hunting_zone";
+			markerType="ELLIPSE";
+			type="Empty";
+			colorName="ColorWhite";
+			a=1000;
+			b=1000;
+		};
+		class Item391
+		{
+			position[]={7587.0259,126.86919,19983.166};
+			name="hunting_marker";
+			text="Zone de Chasse";
+			type="mil_join";
+			colorName="ColorBrown";
 		};
 	};
 	class Sensors

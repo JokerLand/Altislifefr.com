@@ -16,7 +16,7 @@ class Socket_Reciever
 class Life_Client_Core
 {
 	tag = "life";
-	
+
 	class Master_Directory
 	{
 		file = "core";
@@ -28,7 +28,7 @@ class Life_Client_Core
 		class welcomeNotification {};
 		class survival {};
 	};
-	
+
 	class Admin
 	{
 		file = "core\admin";
@@ -38,7 +38,7 @@ class Life_Client_Core
 		class adminMenu {};
 		class adminQuery {};
 	};
-	
+
 	class Medical_System
 	{
 		file = "core\medical";
@@ -56,7 +56,7 @@ class Life_Client_Core
 		class medicLights {};
 		class medicSiren {};
 	};
-	
+
 	class Actions
 	{
 		file = "core\actions";
@@ -92,7 +92,7 @@ class Life_Client_Core
 		class gather {};
 		class gutAnimal {};
 	};
-	
+
 	class Housing
 	{
 		file = "core\housing";
@@ -110,7 +110,7 @@ class Life_Client_Core
 		class lockHouse {};
 		class garageRefund {};
 	};
-	
+
 	class Config
 	{
 		file = "core\config";
@@ -146,7 +146,7 @@ class Life_Client_Core
 		class s_onCheckedChange {};
         class cellphone2 {};
 	};
-	
+
 	class Functions
 	{
 		file = "core\functions";
@@ -192,7 +192,7 @@ class Life_Client_Core
 		class nearATM {};
         class fadeSound {};
 	};
-	
+
 	class Network
 	{
 		file = "core\functions\network";
@@ -206,7 +206,7 @@ class Life_Client_Core
 		class setTexture {};
 		class say3D {};
 	};
-	
+
 	class Civilian
 	{
 		file = "core\civilian";
@@ -221,7 +221,7 @@ class Life_Client_Core
 		class demoChargeTimer {};
 		class civLoadout {};
 	};
-	
+
 	class Vehicle
 	{
 		file = "core\vehicle";
@@ -237,7 +237,7 @@ class Life_Client_Core
 		class deviceMine {};
 		class addVehicle2Chain {};
 	};
-	
+
 	class Cop
 	{
 		file = "core\cop";
@@ -266,7 +266,7 @@ class Life_Client_Core
 		class ticketPaid {};
         class copEnter {};
 	};
-	
+
 	class Gangs
 	{
 		file = "core\gangs";
@@ -283,7 +283,7 @@ class Life_Client_Core
 		class gangDisband {};
 		class gangDisbanded {};
 	};
-	
+
 	class Shops
 	{
 		file = "core\shops";
@@ -308,7 +308,7 @@ class Life_Client_Core
 		class chopShopSell {};
         class addsubstract {};
 	};
-	
+
 	class Items
 	{
 		file = "core\items";
@@ -323,7 +323,7 @@ class Life_Client_Core
 		class storageBox {};
         class CarAlarmSound {};
 	};
-	
+
 	class Dialog_Controls
 	{
 		file = "dialog\function";

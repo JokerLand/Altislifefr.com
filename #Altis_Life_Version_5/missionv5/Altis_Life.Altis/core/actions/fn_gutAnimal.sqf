@@ -1,20 +1,18 @@
 #include "..\..\script_macros.hpp"
 /*
-	Author: Bryan "Tonic" Boardwine
-	
+	Author: GeK
 	Description:
-	Guts the animal?
+	Gut the dead animal
 */
 private["_animalCorpse","_upp","_ui","_progress","_pgText","_cP","_displayName","_item"];
-_animalCorpse = param [0,ObjNull,[ObjNull]];
+_animalCorpse = [_this,0,ObjNull,[ObjNull]] call BIS_fnc_param;
 if(isNull _animalCorpse) exitWith {}; //Object passed is null?
 
 life_interrupted = false;
 if(!((typeOf _animalCorpse) in ["Hen_random_F","Cock_random_F","Goat_random_F","Sheep_random_F","Rabbit_F"])) exitWith {};
 if(player distance _animalCorpse > 3.5) exitWith {};
 life_action_inUse = true;
-
-switch(typeOf _animalCorpse) do {
+ switch(typeOf _animalCorpse) do {
 	case "Hen_random_F": {_displayName = "Chicken"; _item = "hen_raw";};
 	case "Cock_random_F": {_displayName = "Rooster"; _item = "rooster_raw";};
 	case "Goat_random_F": {_displayName = "Goat"; _item = "goat_raw";};
@@ -38,7 +36,7 @@ _cP = 0.01;
 
 while{true} do {
 	if(animationState player != "AinvPknlMstpSnonWnonDnon_medic_1") then {
-		[player,"AinvPknlMstpSnonWnonDnon_medic_1",true] remoteExecCall ["life_fnc_animSync",RCLIENT];
+		[[player,"AinvPknlMstpSnonWnonDnon_medic_1",true],"life_fnc_animSync",true,false] call life_fnc_MP;
 		player switchMove "AinvPknlMstpSnonWnonDnon_medic_1";
 		player playMoveNow "AinvPknlMstpSnonWnonDnon_medic_1";
 	};
@@ -52,7 +50,7 @@ while{true} do {
 	if(player != vehicle player) exitWith {};
 	if(life_interrupted) exitWith {};
 };
-		
+
 life_action_inUse = false;
 5 cutText ["","PLAIN"];
 player playActionNow "stop";
@@ -62,7 +60,7 @@ if(player != vehicle player) exitWith {titleText[localize "STR_NOTF_RepairingInV
 
 if(([true,_item,1] call life_fnc_handleInv)) then {
 	deleteVehicle _animalCorpse;
-	titleText [format["You have collected some raw %1 meat",_displayName],"PLAIN"];
+	titleText [format["Vous ramassez %1",_displayName],"PLAIN"];
 } else {
-	titleText ["Your inventory is full","PLAIN"];
+	titleText ["Votre inventaire est plein","PLAIN"];
 };
