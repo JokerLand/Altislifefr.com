@@ -20,7 +20,8 @@ if(isNull _cop) exitWith {};
 		
 		if(!(player GVAR ["restrained",FALSE])) exitWith {};
 		if(!([west,getPos player,30] call life_fnc_nearUnits) && (player GVAR ["restrained",FALSE]) && vehicle player == player) exitWith {
-			player SVAR ["restrained",FALSE,TRUE];
+			player say3D "cuff";
+            player SVAR ["restrained",FALSE,TRUE];
 			player SVAR ["Escorting",FALSE,TRUE];
 			player SVAR ["transporting",false,true];
 			detach player;
@@ -30,7 +31,6 @@ if(isNull _cop) exitWith {};
 };
 
 titleText[format[localize "STR_Cop_Retrained",_cop GVAR ["realname",name _cop]],"PLAIN"];
-        player say3D "cuff";
 				
 while {player GVAR  "restrained"} do {
 	if(vehicle player == player) then {
