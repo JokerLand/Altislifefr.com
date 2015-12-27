@@ -30,8 +30,7 @@ if(isNull _cop) exitWith {};
 };
 
 titleText[format[localize "STR_Cop_Retrained",_cop GVAR ["realname",name _cop]],"PLAIN"];
-
-player say3D "cuff";
+        player say3D "cuff";
 				
 while {player GVAR  "restrained"} do {
 	if(vehicle player == player) then {
@@ -63,6 +62,7 @@ while {player GVAR  "restrained"} do {
 		
 if(alive player) then {
 	player switchMove "AmovPercMstpSlowWrflDnon_SaluteIn";
+    player say3D "cuff";
 	player SVAR ["Escorting",false,true];
 	player SVAR ["transporting",false,true];
 	detach player;
