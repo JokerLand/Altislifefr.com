@@ -38,7 +38,7 @@ life_action_inUse = true;
 
 if(_zone in _minage) then
     {
-		playSound "mining";
+		player say3D "mining";
 	};
 
 for "_i" from 0 to 2 do {
