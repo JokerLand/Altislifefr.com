@@ -81,6 +81,8 @@ switch (playerSide) do
 		!isNull cursorTarget && player distance cursorTarget < 3.5 && isPlayer cursorTarget && animationState cursorTarget == "Incapacitated" && !(cursorTarget getVariable["robbed",FALSE]) ']];
 		//Se rendre
 		life_actions pushBack (player addAction["<t color='#006400'>Se rendre</t>",life_fnc_confirmStop,"",0,FALSE,FALSE,""]);
+        //Montrer sa carte d'identité
+        life_actions = life_actions + [player addAction["<t color='#FFA500'>Montrer son Passeport</t>",life_fnc_PasseportAction,"",1,false,true,"",' playerSide == civilian && !isNull cursorTarget && cursorTarget isKindOf "Man"']];                                                
 	};
 
 	case east: 
