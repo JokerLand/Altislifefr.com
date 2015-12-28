@@ -23,6 +23,6 @@ if( !(_target isKindOf "Man") ) then {_target = player;};
 if( !(alive _target) ) then {_target = player;};
 
 
-_message = format["<img size='10' color='#FFFFFF' image='\Aiekillu_Textures\Missions\Insigne\Passeport.paa'/><br/><br/><t size='2.5'>%1</t><br/><t size='1.8'>%2</t><br/><t size='2.5'>Citoyen d'Altis</t>", name player];
+_message = format["<img size='10' color='#FFFFFF' image='textures\Passeport.paa'/><br/><br/><t size='2.5'>%1</t><br/><t size='1.8'>%2</t><br/><t size='2.5'>Citoyen d'Altis</t>", name player];
 
 [[player, _message],"life_fnc_Passeport",_target,false] spawn life_fnc_MP;
