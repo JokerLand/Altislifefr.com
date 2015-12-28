@@ -44,3 +44,5 @@ if(!(_this select 0)) exitWith {}; //Not server
 [] execVM "Base\hero_weed.sqf";
 [] execVM "Base\athira_hopital.sqf";
 [] execVM "Base\process.sqf";
+[] execVM "Base\Douane.sqf";
+[] execVM "Base\Murdouane.sqf";
