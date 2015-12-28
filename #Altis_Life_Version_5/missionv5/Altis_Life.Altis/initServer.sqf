@@ -29,15 +29,10 @@ if(!(_this select 0)) exitWith {}; //Not server
 [] execVM "Base\AthiraCenter.sqf";
 [] execVM "Base\Banque.sqf";
 [] execVM "Base\BaseArmee.sqf";
-[] execVM "Base\Bijouterie.sqf";
 [] execVM "Base\campRebelle.sqf";
 [] execVM "Base\ComicoCentral.sqf";
-[] execVM "Base\debug_veh_spawn";
-[] execVM "Base\Douane.sqf";
-[] execVM "Base\Discotheque.sqf";
 [] execVM "Base\KavalaCenter.sqf";
 [] execVM "Base\LaboMeth.sqf";
-[] execVM "Base\Ncasino09.sqf";
 [] execVM "Base\PecheKavala.sqf";
 [] execVM "Base\Poste_de_controle_routier.sqf";
 [] execVM "Base\Park_Kavala.sqf";
