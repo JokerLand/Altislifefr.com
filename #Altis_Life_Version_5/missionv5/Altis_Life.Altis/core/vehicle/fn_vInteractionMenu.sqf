@@ -1,3 +1,4 @@
+#include <macro.h>
 /*
 	File: fn_vInteractionMenu.sqf
 	Author: Bryan "Tonic" Boardwine
@@ -12,7 +13,6 @@
 #define Btn5 37454
 #define Btn6 37455
 #define Btn7 37456
-
 #define Title 37401
 private["_display","_curTarget","_Btn1","_Btn2","_Btn3","_Btn4","_Btn5","_Btn6"];
 if(!dialog) then {
