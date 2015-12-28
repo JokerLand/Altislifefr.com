@@ -36,8 +36,6 @@ if(life_action_inUse) exitWith {
 	if(!life_interrupted && _code in _interruptionKeys) then {life_interrupted = true;};
 	_handled;
 };
-//Anti ² Par Sakzy
-if((_code in (actionKeys "SelectAll") || _code in (actionKeys "ForceCommandingMode"))) then {true;};
 
 //Hotfix for Interaction key not being able to be bound on some operation systems.
 if(!(EQUAL(count (actionKeys "User10"),0)) && {(inputAction "User10" > 0)}) exitWith {
@@ -428,6 +426,25 @@ switch (_code) do
 			};
 		};
 	};
+    
+    //Anti petit ²
+	case 41	: {
+
+		if((_code in (actionKeys "SelectAll") || _code in (actionKeys "ForceCommandingMode"))) then {true;};
+	};
+    
+    //Radio VerMAj
+	case 58:
+		{
+		    if (player GVAR ["restrained" , true]) exitWith {hint "Vous ne pouvez pas parler à la radio en étant menotté !"};
+		};
+
+	//Radio T
+	case 20:
+		{
+		    if (player GVAR ["restrained" , true]) exitWith {hint "Vous ne pouvez pas parler à la radio en étant menotté !"};
+		};
+
 	//Shift+P = Faded Sound
     case 25:
     {
