@@ -2,10 +2,10 @@
 /*
 	File: fn_requestReceived.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
-	Called by the server saying that we have a response so let's 
-	sort through the information, validate it and if all valid 
+	Called by the server saying that we have a response so let's
+	sort through the information, validate it and if all valid
 	set the client up.
 */
 life_session_tries = life_session_tries + 1;
@@ -51,7 +51,7 @@ switch(playerSide) do {
 		CONST(life_medicLevel,0);
 		life_blacklisted = SEL(_this,9);
 	};
-	
+
 	case civilian: {
 		life_is_arrested = SEL(_this,7);
 		CONST(life_coplevel, 0);
@@ -61,14 +61,14 @@ switch(playerSide) do {
 			_house = nearestBuilding (call compile format["%1", SEL(_x,0)]);
 			life_vehicles pushBack _house;
 		} foreach life_houses;
-		
+		[player] joinSilent (createGroup civilian); // debug groupes
 		life_gangData = SEL(_this,10);
 		if(!(EQUAL(count life_gangData,0))) then {
 			[] spawn life_fnc_initGang;
 		};
 		[] spawn life_fnc_initHouses;
 	};
-	
+
 	case independent: {
 		CONST(life_medicLevel, parseNumber(SEL(_this,7)));
 		CONST(life_coplevel,0);
