@@ -109,8 +109,6 @@ class Life_Client_Core
 		class copHouseOwner {};
 		class lockHouse {};
 		class garageRefund {};
-        class copShowLicense {};
-        class copLicenseShown {};
 	};
 	
 	class Config
@@ -267,6 +265,8 @@ class Life_Client_Core
 		class copLoadout {};
 		class ticketPaid {};
         class copEnter {};
+        class copShowLicense {};
+        class copLicenseShown {};
 	};
 	
 	class Gangs
