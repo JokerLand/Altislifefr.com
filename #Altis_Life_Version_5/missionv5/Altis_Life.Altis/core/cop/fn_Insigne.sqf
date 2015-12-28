@@ -1,7 +1,6 @@
 /*
-File : fn_copShowLicense.sqf
+File : copLicenseShown .sqf
 Create : Black Lagoon
-Edit : Deathblade
 */
 
 private["_msg"];

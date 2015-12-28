@@ -265,8 +265,8 @@ class Life_Client_Core
 		class copLoadout {};
 		class ticketPaid {};
         class copEnter {};
-        class copShowLicense {};
-        class copLicenseShown {};
+        class InsigneAction {};
+		class Insigne {};
 	};
 	
 	class Gangs
