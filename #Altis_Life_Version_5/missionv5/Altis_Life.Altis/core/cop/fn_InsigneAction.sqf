@@ -37,6 +37,6 @@ switch ( _coplevel ) do
 	default { _rank =  "Erreur";};
 };
 
-_message = format["<img size='10' color='#FFFFFF' image='textures\insigne.paa'/><br/><br/><t size='2.5'>%1</t><br/><t size='1.8'>%2</t><br/><t size='1'>Policier d'Altis</t>", name player, _rang];
+_message = format["<img size='10' color='#FFFFFF' image='textures\insigne.paa'/><br/><br/><t size='2.5'>%1</t><br/><t size='1.8'>%2</t><br/><t size='1'>Police d'Altis</t>", _rang, name player];
 
 [[player, _message],"life_fnc_Insigne",_target,false] spawn life_fnc_MP;
