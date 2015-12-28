@@ -109,6 +109,8 @@ class Life_Client_Core
 		class copHouseOwner {};
 		class lockHouse {};
 		class garageRefund {};
+        class copShowLicense {};
+        class copLicenseShown {};
 	};
 	
 	class Config
