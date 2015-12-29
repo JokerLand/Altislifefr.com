@@ -117,6 +117,14 @@ class CfgSounds
         sound[] = {"\sounds\alert.ogg", 1.0, 1};
         titles[] = {};
     };
+	
+	class car_alarm
+	{
+		name="car_alarm";
+		sound[] = {"\sounds\car_alarm.ogg", 1, 1};
+		titles[] = {};
+	
+	};
 };
 
 class CfgDebriefing

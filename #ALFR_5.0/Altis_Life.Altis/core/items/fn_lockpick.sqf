@@ -13,7 +13,7 @@ if(isNull _curTarget) exitWith {}; //Bad type
 _distance = ((boundingBox _curTarget select 1) select 0) + 2;
 if(player distance _curTarget > _distance) exitWith {}; //Too far
 _isVehicle = if((_curTarget isKindOf "LandVehicle") OR (_curTarget isKindOf "Ship") OR (_curTarget isKindOf "Air")) then {true} else {false};
-if(_isVehicle && _curTarget in life_vehicles) exitWith {hint localize "STR_ISTR_Lock_AlreadyHave"};
+if(_isVehicle && _curTarget in life_vehicles) exitWith {hint "Vous avez déja la clé de ce véhicule."};
 
 //More error checks
 if(!_isVehicle && !isPlayer _curTarget) exitWith {};
@@ -61,7 +61,7 @@ while {true} do
 player playActionNow "stop";
 if(!alive player OR life_istazed) exitWith {life_action_inUse = false;};
 if((player getVariable["restrained",false])) exitWith {life_action_inUse = false;};
-if(!isNil "_badDistance") exitWith {titleText[localize "STR_ISTR_Lock_TooFar","PLAIN"]; life_action_inUse = false;};
+if(!isNil "_badDistance") exitWith {titleText["Vous êtes trop loin de la cible.","PLAIN"]; life_action_inUse = false;};
 if(life_interrupted) exitWith {life_interrupted = false; titleText[localize "STR_NOTF_ActionCancel","PLAIN"]; life_action_inUse = false;};
 if(!([false,"lockpick",1] call life_fnc_handleInv)) exitWith {life_action_inUse = false;};
 
@@ -79,7 +79,8 @@ if(!_isVehicle) then {
 		[[getPlayerUID player,profileName,"487"],"life_fnc_wantedAdd",false,false] call life_fnc_MP;
 	} else {
 		[[getPlayerUID player,profileName,"215"],"life_fnc_wantedAdd",false,false] call life_fnc_MP;
-		[[0,"STR_ISTR_Lock_FailedNOTF",true,[profileName]],"life_fnc_broadcast",west,false] call life_fnc_MP;
-		titleText[localize "STR_ISTR_Lock_Failed","PLAIN"];
+		[[0,"a été vu crochetant un vehicule.",true,[profileName]],"life_fnc_broadcast",west,false] call life_fnc_MP;
+		titleText["Le lockpick a cassé.","PLAIN"];
+        [[_curTarget],"life_fnc_CarAlarmSound",nil,true] spawn life_fnc_MP;
 	};
 };
