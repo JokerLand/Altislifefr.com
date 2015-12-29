@@ -5,124 +5,138 @@ class Life_atm_management {
 	enableSimulation = true;
 	
 	class controlsBackground {
-		class Life_RscTitleBackground:Life_RscText {
-			colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", "(profilenamespace getvariable ['GUI_BCG_RGB_A',0.7])"};
+		class Life_RscTitleBackground: Life_RscText
+		{
 			idc = -1;
-			x = 0.35;
-			y = 0.2;
-			w = 0.3;
-			h = (1 / 25);
+
+			x = 0.35504 * safezoneW + safezoneX;
+			y = 0.289953 * safezoneH + safezoneY;
+			w = 0.263564 * safezoneW;
+			h = 0.0280062 * safezoneH;
+			colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])","(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])","(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])","(profilenamespace getvariable ['GUI_BCG_RGB_A',0.7])"};
 		};
-		
-		class MainBackground:Life_RscText {
-			colorBackground[] = {0, 0, 0, 0.7};
+		class MainBackground: Life_RscText
+		{
 			idc = -1;
-			x = 0.35;
-			y = 0.2 + (11 / 250);
-			w = 0.3;
-			h = 0.6 - (22 / 250);
+
+			x = 0.35504 * safezoneW + safezoneX;
+			y = 0.317959 * safezoneH + safezoneY;
+			w = 0.263564 * safezoneW;
+			h = 0.406091 * safezoneH;
+			colorBackground[] = {0,0,0,0.7};
 		};
 	};
 	
 	class controls {
 
-		class CashTitle : Life_RscStructuredText
+		class CashTitle: Life_RscStructuredText
 		{
 			idc = 2701;
-			text = "";
-			
-			x = 0.39;
-			y = 0.26;
-			w = 0.3;
-			h = .14;
+
+			x = 0.414342 * safezoneW + safezoneX;
+			y = 0.331963 * safezoneH + safezoneY;
+			w = 0.158139 * safezoneW;
+			h = 0.0980219 * safezoneH;
 		};
-		
-		class Title : Life_RscTitle {
-			colorBackground[] = {0, 0, 0, 0};
+		class Title: Life_RscTitle
+		{
 			idc = -1;
+
 			text = "$STR_ATM_Title";
-			x = 0.35;
-			y = 0.2;
-			w = 0.6;
-			h = (1 / 25);
+			x = 0.35504 * safezoneW + safezoneX;
+			y = 0.289953 * safezoneH + safezoneY;
+			w = 0.316277 * safezoneW;
+			h = 0.0280062 * safezoneH;
+			colorText[] = {0.95,0.95,0.95,1};
 		};
-		
-		class WithdrawButton : life_RscButtonMenu 
+		class WithdrawButton: Life_RscButtonMenu
 		{
-			idc = -1;
-			text = "$STR_ATM_Withdraw";
-			colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", 0.5};
 			onButtonClick = "[] call life_fnc_bankWithdraw";
-			
-			x = 0.432;
-			y = 0.46;
-			w = (6 / 40);
-			h = (1 / 25);
+
+			idc = 1004;
+			text = "$STR_ATM_Withdraw";
+			x = 0.440698 * safezoneW + safezoneX;
+			y = 0.471994 * safezoneH + safezoneY;
+			w = 0.0922475 * safezoneW;
+			h = 0.0280062 * safezoneH;
+			colorText[] = {1,1,1,1};
+			colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])","(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])","(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])",0.5};
 		};
-		
-		class DepositButton : life_RscButtonMenu 
+		class DepositButton: Life_RscButtonMenu
 		{
-			idc = -1;
-			text = "$STR_ATM_Deposit";
-			colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", 0.5};
 			onButtonClick = "[] call life_fnc_bankDeposit";
-			
-			x = 0.432;
-			y = 0.512;
-			w = (6 / 40);
-			h = (1 / 25);
+
+			idc = 1005;
+			text = "$STR_ATM_Deposit";
+			x = 0.440698 * safezoneW + safezoneX;
+			y = 0.514003 * safezoneH + safezoneY;
+			w = 0.0922475 * safezoneW;
+			h = 0.0280062 * safezoneH;
+			colorText[] = {1,1,1,1};
+			colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])","(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])","(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])",0.5};
 		};
-		
-		class moneyEdit : Life_RscEdit {
-		
-		idc = 2702;
-		
-		text = "1";
-		sizeEx = 0.030;
-		x = 0.4; y = 0.41;
-		w = 0.2; h = 0.03;
-		
+		class moneyEdit: Life_RscEdit
+		{
+			idc = 2702;
+
+			text = "100";
+			x = 0.420931 * safezoneW + safezoneX;
+			y = 0.429984 * safezoneH + safezoneY;
+			w = 0.131782 * safezoneW;
+			h = 0.0280062 * safezoneH;
 		};
-		
-		class PlayerList : Life_RscCombo 
+		class PlayerList: Life_RscCombo
 		{
 			idc = 2703;
-			
-			x = 0.4; y = 0.58;
-			w = 0.2; h = 0.03;
+
+			x = 0.381396 * safezoneW + safezoneX;
+			y = 0.570016 * safezoneH + safezoneY;
+			w = 0.210851 * safezoneW;
+			h = 0.0280062 * safezoneH;
 		};
-		
-		class TransferButton : life_RscButtonMenu 
+		class TransferButton: Life_RscButtonMenu
 		{
-			idc = -1;
-			text = "$STR_ATM_Transfer";
-			colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", 0.5};
 			onButtonClick = "[] call life_fnc_bankTransfer";
-			
-			x = 0.432;
-			y = 0.63;
-			w = (5.30 / 40);
-			h = (1 / 25);
+
+			idc = 1008;
+			text = "$STR_ATM_Transfer";
+			x = 0.407753 * safezoneW + safezoneX;
+			y = 0.612025 * safezoneH + safezoneY;
+			w = 0.158139 * safezoneW;
+			h = 0.0280062 * safezoneH;
+			colorText[] = {1,1,1,1};
+			colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])","(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])","(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])",0.5};
 		};
-		
-		class GangDeposit : TransferButton
+		class GangDeposit: TransferButton
 		{
 			idc = 2705;
-			text = "$STR_pInAct_DepositToGang";
-			colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", 0.5};
 			onButtonClick = "[] call life_fnc_gangDeposit";
-			y = .7; x = 0.365;
-			w = 0.275;
+			lineSpacing = 2;
+			text = "$STR_pInAct_DepositToGang";
+			x = 0.381396 * safezoneW + safezoneX;
+			y = 0.668037 * safezoneH + safezoneY;
+			w = 0.210851 * safezoneW;
+			h = 0.0280062 * safezoneH;
+			colorText[] = {1,1,1,1};
+			colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])","(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])","(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])",0.5};
 		};
-		
-		class CloseButtonKey : Life_RscButtonMenu {
-			idc = -1;
-			text = "$STR_Global_Close";
+		class CloseButtonKey: Life_RscButtonMenu
+		{
 			onButtonClick = "closeDialog 0;";
-			x = 0.35;
-			y = 0.8 - (1 / 25);
-			w = (6.25 / 40);
-			h = (1 / 25);
+			idc = 1010;
+
+			text = "$STR_Global_Close";
+			x = 0.35504 * safezoneW + safezoneX;
+			y = 0.729371 * safezoneH + safezoneY;
+			w = 0.0823638 * safezoneW;
+			h = 0.0280062 * safezoneH;
+			colorText[] = {1,1,1,1};
+			colorBackground[] = {0,0,0,0.8};
+			
+			class Attributes {
+				align = "center";
+			};
 		};
+
 	};
 };
