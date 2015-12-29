@@ -11,6 +11,9 @@ CONST(BIS_fnc_endMission,BIS_fnc_endMission);
 [] execVM "SpyGlass\fn_initSpy.sqf";
 [] execVM "core\init.sqf";
 
+//Desactivation vue satellite
+if (isNil "tm4_handler_disableGroupView") then {tm4_handler_disableGroupView = [] spawn {while {alive player} do {waitUntil {sleep .5; cameraView == "group"}; player switchCamera "Internal"; sleep .5; }; terminate tm4_handler_disableGroupView; tm4_handler_disableGroupView = nil; }; };
+
 //Execute JIP code.
 if((_this select 1)) then {
 	[] execVM "core\jip.sqf";
