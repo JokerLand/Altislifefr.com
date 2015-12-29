@@ -42,6 +42,8 @@ for "_i" from 0 to 2 do {
 	sleep 2.5;
 };
 
+playSound "bag";
+
 if(([true,SEL(_gather,0),_diff] call life_fnc_handleInv)) then {
 	_itemName = M_CONFIG(getText,"VirtualItems",SEL(_gather,0),"displayName");
 	titleText[format[localize "STR_NOTF_Gather_Success",(localize _itemName),_diff],"PLAIN"];
