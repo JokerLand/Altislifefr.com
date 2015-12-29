@@ -125,6 +125,29 @@ class CfgSounds
 		titles[] = {};
 	
 	};
+	
+	class boire
+	{
+		name="boire";
+		sound[] = {"\sounds\boire.ogg", 1, 1};
+		titles[] = {};
+	
+	};
+	
+	class mange
+	{
+		name="mange";
+		sound[] = {"\sounds\mange.ogg", 1, 1};
+		titles[] = {};
+	
+	};
+	
+	class Mining
+    {
+	    name = "mining";
+        sound[] = {"\sounds\mining.ogg", 0.95, 0.95};
+        titles[] = {};
+    };
 };
 
 class CfgDebriefing
