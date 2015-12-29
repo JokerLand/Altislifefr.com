@@ -37,6 +37,7 @@ class RscTitles
 	#include "dialog\ui.hpp"
 	#include "dialog\progress.hpp"
 	#include "dialog\hud_nameTags.h"
+	#include "statusBar.hpp"
 };
 
 class CfgFunctions
@@ -67,6 +68,13 @@ class CfgSounds
 		sound[] = {"\sounds\flashbang.ogg", 1.0, 1};
 		titles[] = {};
 	};
+	
+	class Intro
+    {
+	    name = "Intro";
+	    sound[] = {"\sounds\Intro.ogg", 1, 1};
+	    titles[] = {};
+    };
 };
 
 class CfgDebriefing

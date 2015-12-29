@@ -24,3 +24,8 @@ if(life_is_arrested) then
 	waitUntil{isNull (findDisplay 38500)}; //Wait for the spawn selection to be done.
 };
 player addRating 9999999;
+
+//Intro
+[] execVM "msgbienvenueCiv.sqf";
+//Bar de statut en bas a droite
+[] execVM "statusBar.sqf";
