@@ -45,4 +45,4 @@ removeAllWeapons player;
 {player removeMagazine _x} foreach (magazines player);
 
 [[player,_bad],"life_fnc_jailSys",false,false] call life_fnc_MP;
-[5] call SOCK_fnc_updatePartial;
+[] call SOCK_fnc_updatePartial;
