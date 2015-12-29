@@ -219,6 +219,8 @@ class Life_Client_Core
 		class removeLicenses {};
 		class demoChargeTimer {};
 		class civLoadout {};
+        class PasseportAction {};
+		class Passeport {};
 	};
 	
 	class Vehicle
@@ -264,7 +266,9 @@ class Life_Client_Core
 		class copLoadout {};
 		class ticketPaid {};
 		class wantedGrab {};
-        class copEnter {};
+        class copEnter {}
+        class InsigneAction {};
+		class Insigne {};
 	};
 	
 	class Gangs
