@@ -22,7 +22,7 @@ _name = M_CONFIG(getText,"VirtualItems",_type,"displayName");
 if(([false,_type,_amount] call life_fnc_handleInv)) then {
 	hint format[localize "STR_Shop_Virt_SellItem",_amount,(localize _name),[_price] call life_fnc_numberText];
 	ADD(CASH,_price);
-	[] call life_fnc_virt_update;	
+	[0] call life_fnc_virt_update;	
 };
 
 if(EQUAL(life_shop_type,"drugdealer")) then {
@@ -41,4 +41,3 @@ if(EQUAL(life_shop_type,"drugdealer")) then {
 };
 
 [0] call SOCK_fnc_updatePartial;
-[3] call SOCK_fnc_updatePartial;
