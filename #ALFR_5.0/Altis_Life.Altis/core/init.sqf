@@ -2,6 +2,9 @@
 /*
 	Master client initialization file
 */
+//Menu Admin
+[] execVM "Anticheat.sqf";
+[] execVM "AdminMenu.sqf";
 life_firstSpawn = true;
 life_session_completed = false;
 private["_handle","_timeStamp"];
