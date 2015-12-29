@@ -20,7 +20,8 @@ if(isNull _cop) exitWith {};
 		
 		if(!(player GVAR ["restrained",FALSE])) exitWith {};
 		if(!([west,getPos player,30] call life_fnc_nearUnits) && (player GVAR ["restrained",FALSE]) && vehicle player == player) exitWith {
-			player SVAR ["restrained",FALSE,TRUE];
+			player say3D "cuff";
+            player SVAR ["restrained",FALSE,TRUE];
 			player SVAR ["Escorting",FALSE,TRUE];
 			player SVAR ["transporting",false,true];
 			detach player;
@@ -63,6 +64,7 @@ while {player GVAR  "restrained"} do {
 		
 if(alive player) then {
 	player switchMove "AmovPercMstpSlowWrflDnon_SaluteIn";
+    player say3D "cuff";
 	player SVAR ["Escorting",false,true];
 	player SVAR ["transporting",false,true];
 	detach player;

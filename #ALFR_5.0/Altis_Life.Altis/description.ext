@@ -83,11 +83,39 @@ class CfgSounds
         titles[] = {};
     };
 	
+	class Cuff
+    {
+        name = "cuff";
+        sound[] = {"\sounds\cuff.ogg", 0.95, 0.95};
+        titles[] = {};
+    };
+	
+	class Caching
+    {
+	    name = "caching";
+	    sound[] = {"\sounds\caching.ogg", 1, 1};
+	    titles[] = {};
+    };
+	
+	class Bag
+    {
+	    name = "bag";
+	    sound[] = {"\sounds\bag.ogg", 1, 1};
+	    titles[] = {};
+    };
+	
 	class Intro
     {
 	    name = "Intro";
 	    sound[] = {"\sounds\Intro.ogg", 1, 1};
 	    titles[] = {};
+    };
+	
+	class alert
+    {
+        name = "alert";
+        sound[] = {"\sounds\alert.ogg", 1.0, 1};
+        titles[] = {};
     };
 };
 

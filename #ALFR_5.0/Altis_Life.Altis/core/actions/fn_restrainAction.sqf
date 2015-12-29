@@ -14,6 +14,7 @@ if(side _unit == west) exitWith {};
 if(player == _unit) exitWith {};
 if(!isPlayer _unit) exitWith {};
 //Broadcast!
+player say3D "cuff";
 
 _unit setVariable["restrained",true,true];
 [[player], "life_fnc_restrain", _unit, false] call life_fnc_MP;
