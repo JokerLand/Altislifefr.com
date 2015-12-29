@@ -76,7 +76,9 @@ class WeaponShops {
 			{ "Chemlight_red", "", 300 },
 			{ "Chemlight_yellow", "", 300 },
 			{ "Chemlight_green", "", 300 },
-			{ "Chemlight_blue", "", 300 }
+			{ "Chemlight_blue", "", 300 },
+			{ "tf_anprc148jem_1", "Radio Courte", 0},
+			{ "tf_anprc155_coyote", "Radio Longue", 0}
         };
     };
     //Cop Shops
