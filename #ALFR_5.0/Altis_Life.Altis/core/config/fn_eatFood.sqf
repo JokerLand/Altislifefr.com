@@ -29,6 +29,6 @@ if([false,_food,1] call life_fnc_handleInv) then {
 	};
 
 	_sum = life_hunger + _val;
-	if(_sum > 100) then {_sum = 100; player setFatigue 1; hint "You have over eaten, you are now feeling fatigued.";};
+	if(_sum > 100) then {_sum = 100; player setFatigue 1; hint "Vous avez trop manger, vous allez vous sentir fatiguer.";};
 	life_hunger = _sum;
 };
