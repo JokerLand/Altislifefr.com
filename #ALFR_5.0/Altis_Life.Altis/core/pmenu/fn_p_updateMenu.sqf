@@ -61,7 +61,7 @@ ctrlSetText[2009,format["Weight: %1 / %2", life_carryWeight, life_maxWeight]];
 } foreach (format["getText(_x >> 'side') isEqualTo '%1'",_side] configClasses (missionConfigFile >> "Licenses"));
 
 if(EQUAL(_struct,"")) then {
-	_struct = "No Licenses";
+	_struct = "Aucune licence";
 };
 
 _lic ctrlSetStructuredText parseText format["

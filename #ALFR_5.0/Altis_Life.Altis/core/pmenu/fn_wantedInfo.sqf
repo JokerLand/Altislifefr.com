@@ -13,9 +13,9 @@ _display = findDisplay 2400;
 _list = _display displayCtrl 2402;
 _mylist = [];
 _data = call compile format["%1", _data];
-if(isNil "_data") exitWith {hint "Failed to fetch crimes";};
-if(typeName _data != "ARRAY") exitWith {hint "Failed to fetch crimes";};
-if(count _data == 0) exitWith {hint "Failed to fetch crimes";};
+if(isNil "_data") exitWith {hint "Impossible de récupérer les infos";};
+if(typeName _data != "ARRAY") exitWith {hint "Impossible de récupérer les infos";};
+if(count _data == 0) exitWith {hint "Impossible de récupérer les infos";};
 lbClear _list;
 
 _crimes = _data select 0;
@@ -26,8 +26,8 @@ _bounty = _data select 1;
 	if(!(_crime in _mylist)) then
 	{
 		_mylist pushBack _crime;
-		_list lbAdd format[localize "STR_Wanted_Count",{_x == _crime} count _crimes,localize _crime];
+		_list lbAdd format["%1 accompte de %2",{_x == _crime} count _crimes,localize _crime];
 	};
 } foreach _crimes;
 
-ctrlSetText[2403,format[localize "STR_Wanted_Bounty",[_bounty] call life_fnc_numberText]]; 
+ctrlSetText[2403,format["Tarif de l'amende: $%1",[_bounty] call life_fnc_numberText]]; 
