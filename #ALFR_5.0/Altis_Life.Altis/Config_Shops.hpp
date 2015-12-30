@@ -594,7 +594,7 @@ class WeaponShops {
             { "LMG_Zafir_F", "", 250000 },
             { "150Rnd_762x54_Box_Tracer", "", 500 },
             { "srifle_LRR_F", "", 350000 },
-            { "7Rnd_408_Mag", "", 800 }
+            { "7Rnd_408_Mag", "", 800 },
             //Capitaine
             { "R3F_M107", "", 350000 },
             { "R3F_10Rnd_127x99_M107", "", 800 }
@@ -684,7 +684,7 @@ class WeaponShops {
             { "LMG_Zafir_F", "", 250000 },
             { "150Rnd_762x54_Box_Tracer", "", 500 },
             { "srifle_LRR_F", "", 350000 },
-            { "7Rnd_408_Mag", "", 800 }
+            { "7Rnd_408_Mag", "", 800 },
             //Capitaine
             { "R3F_M107", "", 350000 },
             { "R3F_10Rnd_127x99_M107", "", 800 }
