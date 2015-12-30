@@ -66,7 +66,7 @@ if(isServer) then {
 		if(_admin call AH_AdminCheck) then {
 			_target setpos (getpos _admin);
 			format["%1 has teleported to %2",name _target,name _admin] call SERVER_LOG;
-			[{hint "The target has been teleported!";},"BIS_fnc_Spawn",_admin,false] call AH_fnc_MP;
+			[{hint "La personne a ete teleporter!";},"BIS_fnc_Spawn",_admin,false] call AH_fnc_MP;
 		};
 	};
 	AH_Menu_CleanUp = {
@@ -99,7 +99,7 @@ if(isServer) then {
 		_sender = _this select 0;
 		_receiver = _this select 1;
 		if(_sender call AH_AdminCheck) then {
-			format["%1 has kicked %2",name _sender,name _receiver] call SERVER_LOG;
+			format["%1 est kick %2",name _sender,name _receiver] call SERVER_LOG;
 			[{endMission "FAIL";},"BIS_fnc_Spawn",_receiver,false] call AH_fnc_MP;
 			[{hint "The Target Has Been Kicked!";},"BIS_fnc_Spawn",_sender,false] call AH_fnc_MP;
 		};
@@ -363,7 +363,7 @@ if(!isDedicated) then {
 			_target = _this;
 			_target switchCamera "INTERNAL";
 			[format["The admin '%1' has started spectating '%2'!",name player,name _target],"SERVER_LOG",false,false] call AH_fnc_MP;
-			hint "PRESS F10 TO EXIT SPECTATOR MODE";
+			hint "Appuis sur F10 pour quitter le spectateur";
 			AH_TEMPBIND = (findDisplay 46) displayAddEventHandler ["KeyDown","if((_this select 1) == 68) then {(findDisplay 46) displayRemoveEventHandler ['KeyDown',AH_TEMPBIND];player switchCamera 'INTERNAL';hint 'YOU HAVE EXITED SPECTOR MODE!';};false"];
 		};
 		AH_Target = {
@@ -628,6 +628,6 @@ if(!isDedicated) then {
 		AH_AreYouSure = compileFinal ([AH_AreYouSure] call _toCompilableString);
 		AH_SpawnMenu = compileFinal ([AH_SpawnMenu] call _toCompilableString);
 		AH_ViewLogs = compileFinal ([AH_ViewLogs] call _toCompilableString);
-		hint parseText format["Press '%1' to open the admin menu!<br/>Press '%2' to open the spawn menu!<br/>Press F1 F2 and F3 to delete and repair vehicles or open the log menu respectively",(actionKeysNames ["moveRight",1]),(actionKeysNames ["moveLeft",1])];
+		hint parseText format["Appuis '%1' pour ouvrir l'admin menu!<br/>Press '%2' pour ouvrir le menu de spawn!<br/>Appuis sur F1 ou F2 pour supprimer ou reparer",(actionKeysNames ["moveRight",1]),(actionKeysNames ["moveLeft",1])];
 	};
 };
