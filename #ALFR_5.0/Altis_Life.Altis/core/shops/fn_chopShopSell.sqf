@@ -20,4 +20,5 @@ hint localize "STR_Shop_ChopShopSelling";
 life_action_inUse = true;
 _price2 = CASH + _price;
 [[player,_vehicle,_price,_price2],"TON_fnc_chopShopSell",false,false] call life_fnc_MP;
+playSound "caching";
 closeDialog 0;

@@ -18,6 +18,7 @@ _varName = LICENSE_VARNAME(_varName,_sideFlag);
 
 if(CASH < _price) exitWith {hint format[localize "STR_NOTF_NE_1",[_price] call life_fnc_numberText,localize _displayName];};
 SUB(CASH,_price);
-
+[0] call SOCK_fnc_updatePartial;//On met à jour juste le cash du joueur
+playSound "caching";
 titleText[format[localize "STR_NOTF_B_1", localize _displayName,[_price] call life_fnc_numberText],"PLAIN"];
 SVAR_MNS [_varName,true];
