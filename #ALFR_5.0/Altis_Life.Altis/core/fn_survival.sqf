@@ -14,10 +14,23 @@ _fnc_food =  {
 		[] call life_fnc_hudUpdate;
 		if(life_hunger < 2) then {player setDamage 1; hint localize "STR_NOTF_EatMSG_Death";};
 		switch(life_hunger) do {
-			case 30: {hint localize "STR_NOTF_EatMSG_1";};
-			case 20: {hint localize "STR_NOTF_EatMSG_2";};
+			case 30: {
+                
+                {hint localize "STR_NOTF_EatMSG_1";};
+                player say3D "faim";
+                
+        };
+            
+			case 20: {
+                
+                {hint localize "STR_NOTF_EatMSG_2";};
+                player say3D "faim";
+                
+        };
+            
 			case 10: {
-				hint localize "STR_NOTF_EatMSG_3";
+                {hint localize "STR_NOTF_EatMSG_3";};
+                player say3D "faim";
 				if(EQUAL(LIFE_SETTINGS(getNumber,"enable_fatigue"),1)) then {player setFatigue 1;};
 			};
 		};
@@ -32,14 +45,21 @@ _fnc_water = {
 		[] call life_fnc_hudUpdate;
 		if(life_thirst < 2) then {player setDamage 1; hint localize "STR_NOTF_DrinkMSG_Death";};
 		switch(life_thirst) do  {
-			case 30: {hint localize "STR_NOTF_DrinkMSG_1";};
+			case 30: {
+                
+                {hint localize "STR_NOTF_DrinkMSG_1";};
+                player say3D "soif";
+        };
+            
 			case 20: {
-				hint localize "STR_NOTF_DrinkMSG_2";
+                {hint localize "STR_NOTF_DrinkMSG_2";};
 				if(EQUAL(LIFE_SETTINGS(getNumber,"enable_fatigue"),1)) then {player setFatigue 1;};
+                player say3D "soif";
 			};
 			case 10: {
-				hint localize "STR_NOTF_DrinkMSG_3";
+                {hint localize "STR_NOTF_DrinkMSG_3";};
 				if(EQUAL(LIFE_SETTINGS(getNumber,"enable_fatigue"),1)) then {player setFatigue 1;};
+                player say3D "soif";
 			};
 		};
 	};
