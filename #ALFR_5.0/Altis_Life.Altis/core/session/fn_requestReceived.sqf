@@ -63,7 +63,7 @@ switch(playerSide) do {
 			_house = nearestBuilding (call compile format["%1", SEL(_x,0)]);
 			life_vehicles pushBack _house;
 		} foreach life_houses;
-
+		[player] joinSilent (createGroup civilian); // debug groupes
 		life_gangData = SEL(_this,10);
 		if(!(EQUAL(count life_gangData,0))) then {
 			[] spawn life_fnc_initGang;
