@@ -129,7 +129,7 @@ class CfgSounds
 	class boire
 	{
 		name="boire";
-		sound[] = {"\sounds\boire.ogg", 5, 5};
+		sound[] = {"\sounds\boire.ogg", 7, 7};
 		titles[] = {};
 	
 	};
