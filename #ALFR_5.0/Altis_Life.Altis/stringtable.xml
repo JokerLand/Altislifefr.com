@@ -430,6 +430,11 @@
 			<Italian>Msg medici</Italian>
 			<Portuguese>Chamar SAMU</Portuguese>
 		</Key>
+		<Key ID="STR_CELL_AdacRequest">
+			<Original>Request Adac</Original>
+			<French>Requête Armee</French>
+
+		</Key>
 	</Package>
 	<Package name="Chop_Shop">
 		<Key ID="STR_ChopShop_Title">
