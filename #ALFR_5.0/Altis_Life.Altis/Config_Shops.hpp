@@ -500,7 +500,7 @@ class WeaponShops {
             { "srifle_EBR_F", "", 20000 } ,
             { "20Rnd_762x51_Mag", "", 90 },
             { "Trixie_AWM338", "", 20000 },
-            { "Trixie_5x338_Mag", "", 100 }
+            { "Trixie_5x338_Mag", "", 100 },
             //Lnt
             { "LMG_Mk200_F", "", 75000 },
             { "200Rnd_65x39_cased_Box_Tracer", "", 500 },
@@ -587,7 +587,7 @@ class WeaponShops {
             { "srifle_EBR_F", "", 20000 } ,
             { "20Rnd_762x51_Mag", "", 90 },
             { "Trixie_AWM338", "", 20000 },
-            { "Trixie_5x338_Mag", "", 100 }
+            { "Trixie_5x338_Mag", "", 100 },
             //Lnt
             { "LMG_Mk200_F", "", 75000 },
             { "200Rnd_65x39_cased_Box_Tracer", "", 500 },
@@ -677,7 +677,7 @@ class WeaponShops {
             { "srifle_EBR_F", "", 20000 } ,
             { "20Rnd_762x51_Mag", "", 90 },
             { "Trixie_AWM338", "", 20000 },
-            { "Trixie_5x338_Mag", "", 100 }
+            { "Trixie_5x338_Mag", "", 100 },
             //Lnt
             { "LMG_Mk200_F", "", 75000 },
             { "200Rnd_65x39_cased_Box_Tracer", "", 500 },
