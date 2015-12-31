@@ -75,30 +75,20 @@ switch (_code) do
 			case east:{if(!visibleMap) then {[] spawn life_fnc_adacMarkers;}};
 		};
 	};
-	//H Key
+	//H Key (Mettre les mains sur la tete)
 	case 35:
 	{
-		if(!_alt && !_ctrlKey && !_shift) then
+        if(!_alt && !_ctrlKey && !_shift) then
 		{
-			if (vehicle player == player && !(player getVariable ["restrained", false]) && !(player getVariable ["Escorting", false]) ) then {
-				if (player getVariable ["playerSurrender", false]) then {
-					player setVariable ["playerSurrender", false, true];
-				} else {
+			if (vehicle player == player && !(player GVAR ["restrained", false]) && (animationState player) != "Incapacitated" && !life_istazed) then
+			{
+				if (player GVAR ["surrender", false]) then
+				{
+					player SVAR ["surrender", false, true];
+				} else
+				{
 					[] spawn life_fnc_surrender;
 				};
-			};
-			_handled = true;
-		};
-
-		if(!_ctrlKey && _shift && currentWeapon player != "") then {
-			life_curWep_h = currentWeapon player;
-			player action ["SwitchWeapon", player, player, 100];
-			player switchCamera cameraView;
-		};
-
-		if(!_shift && _ctrlKey && !isNil "life_curWep_h" && {!(EQUAL(life_curWep_h,""))}) then {
-			if(life_curWep_h in [RIFLE,LAUNCHER,PISTOL]) then {
-				player selectWeapon life_curWep_h;
 			};
 		};
 	};
