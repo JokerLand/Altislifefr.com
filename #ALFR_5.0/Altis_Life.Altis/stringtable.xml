@@ -1942,13 +1942,13 @@
 			<Portuguese>You have repaired that vehicle.</Portuguese>
  		</Key>
  		<Key ID="STR_NOTF_Gather_Success">
-			<Original>You have gathered %2 %1(s)</Original>
+			<Original>Vous avez récolté %2 %1(s)</Original>
 		</Key>
 		<Key ID="STR_NOTF_GatherVeh">
-			<Original>You can't gather from inside a car!</Original>
+			<Original>Vous ne pouvez pas collecter de l'intérieur d'une voiture!</Original>
 		</Key>
 		<Key ID="STR_NOTF_NoLootingPerson">
-			<Original>You are not allowed to loot dead bodies</Original>
+			<Original>Vous n'êtes pas autorisé à piller les cadavres</Original>
 		</Key>
 	</Package>
 	<Package name="Jail_Strings">
