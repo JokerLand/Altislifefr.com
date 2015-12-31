@@ -124,7 +124,7 @@ class VirtualItems {
 	VITEMMACRO(pickaxe, "STR_Item_Pickaxe", "pickaxe", 2, 55, 27, false, -1, "icons\ico_pickaxe.paa")
 	VITEMMACRO(fuelEmpty, "STR_Item_FuelE", "fuelEmpty", 2, -1, -1, false, -1, "icons\ico_fuelempty.paa")
 	VITEMMACRO(fuelFull, "STR_Item_FuelF", "fuelFull", 5, 20, 10, false, -1, "icons\ico_fuel.paa")
-	VITEMMACRO(spikeStrip, "STR_Item_SpikeStrip", "spikeStrip", 15, 100, 50, false, -1, "icons\spikestrip.paa")
+	VITEMMACRO(spikeStrip, "STR_Item_SpikeStrip", "spikeStrip", 15, 100, 50, false, -1, "icons\ico_spikestrip.paa")
 	VITEMMACRO(lockpick, "STR_Item_Lockpick", "lockpick", 1, 100, 75, false, -1, "icons\ico_lockpick.paa")
 	VITEMMACRO(goldbar, "STR_Item_GoldBar", "goldBar", 12, -1, 5000, false, -1, "icons\ico_goldbar.paa")
 	VITEMMACRO(blastingcharge, "STR_Item_BCharge", "blastingCharge", 15, 3000, -1, true, -1, "icons\ico_blastingCharge.paa")
