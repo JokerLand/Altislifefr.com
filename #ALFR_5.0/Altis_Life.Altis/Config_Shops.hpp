@@ -184,7 +184,7 @@ class WeaponShops {
 			{ "Chemlight_yellow", "", 5 },
 			{ "Chemlight_green", "", 5 },
 			{ "Chemlight_blue", "", 5 },
-			{ "tf_anprc148jem_1", "Radio Courte", 0 },
+			{ "tf_anprc148jem_1", "Radio Courte", 50 },
 			{ "tf_anprc155_coyote", "Radio Longue", 0 }
         };
     };
@@ -203,7 +203,7 @@ class WeaponShops {
 			{ "Medikit", "", 2000 },
 			{ "pmc_earpiece", "", 300 },
 			{ "Rangefinder", "", 15 },
-			{ "tf_fadak", "Radio Courte", 0 }
+			{ "tf_fadak", "Radio Courte", 50 }
         };
     };
     //Armurerie policier
