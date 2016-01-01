@@ -25,7 +25,6 @@ if(!(_this select 0)) exitWith {}; //Not server
 [] execVM "Base\Base-16.sqf";
 [] execVM "Base\Base-17.sqf";
 [] execVM "Base\AirportDonateur.sqf";
-[] execVM "Base\AltisAirways.sqf";
 [] execVM "Base\AthiraCenter.sqf";
 [] execVM "Base\Banque.sqf";
 [] execVM "Base\campRebelle.sqf";
@@ -38,7 +37,6 @@ if(!(_this select 0)) exitWith {}; //Not server
 [] execVM "Base\Prison-ALFR.sqf";
 [] execVM "Base\Traitement.sqf";
 [] execVM "Base\stations_service.sqf";
-[] execVM "Base\archeo.sqf";
 [] execVM "Base\hero_weed.sqf";
 [] execVM "Base\athira_hopital.sqf";
 [] execVM "Base\process.sqf";
