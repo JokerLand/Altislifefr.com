@@ -193,7 +193,7 @@ class WeaponShops {
         name = "Armurerie policier";
         side = "cop";
         license = "";
-        level = -1;
+        level = 1;
         msg = "";
         items[] = {
             //Accesories
