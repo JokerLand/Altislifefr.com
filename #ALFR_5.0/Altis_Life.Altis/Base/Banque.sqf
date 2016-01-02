@@ -2,12 +2,7 @@
 // 01/02/16 19:05:09
 
 // --Markers--
-createMarker ["Bank",[16039.555,16957.67,13.468991]];
-	"Bank" setMarkerShape "ICON";
-	"Bank" setMarkerType "loc_Ruin";
-	"Bank" setMarkerDir 73.165176;
-	"Bank" setMarkerColor "ColorGreen";
-	"Bank" setMarkerText "Banque d'Altis";
+
 // --Vehicles/Objects--
 _veh0 = createVehicle ["GeK_Bank",[16041.437,16955.359,0],[],0,"CAN_COLLIDE"];
 		_veh0 setFormDir 233.82819;
