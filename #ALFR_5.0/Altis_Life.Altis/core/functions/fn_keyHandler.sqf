@@ -75,23 +75,35 @@ switch (_code) do
 			case east:{if(!visibleMap) then {[] spawn life_fnc_adacMarkers;}};
 		};
 	};
-	//H Key (Mettre les mains sur la tete)
-	case 35:
-	{
+	//H Key mettre les mains sur la tete + Hostler
+    case 35:
+    {
         if(!_alt && !_ctrlKey && !_shift) then
-		{
-			if (vehicle player == player && !(player GVAR ["restrained", false]) && (animationState player) != "Incapacitated" && !life_istazed) then
-			{
-				if (player GVAR ["surrender", false]) then
-				{
-					player SVAR ["surrender", false, true];
-				} else
-				{
-					[] spawn life_fnc_surrender;
-				};
-			};
-		};
-	};
+        {
+            if (vehicle player == player && !(player GVAR ["restrained", false]) && (animationState player) != "Incapacitated" && !life_istazed) then
+            {
+                if (player GVAR ["surrender", false]) then
+                {
+                    player SVAR ["surrender", false, true];
+                } else
+                {
+                    [] spawn life_fnc_surrender;
+                };
+            };
+        };
+           
+        if(!_ctrlKey && _shift && currentWeapon player != "") then {
+            life_curWep_h = currentWeapon player;
+            player action ["SwitchWeapon", player, player, 100];
+            player switchcamera cameraView;
+        };
+ 
+        if(_ctrlKey && !_shift && !isNil "life_curWep_h" && {(life_curWep_h != "")}) then {
+            if(life_curWep_h in [primaryWeapon player,secondaryWeapon player,handgunWeapon player]) then {
+                player selectWeapon life_curWep_h;
+            };
+        };
+    };
 
 	//Touche pour supprimer cones, barrières et herses lorsqu'un policier vise cet objet ( O )
 	case 24:
