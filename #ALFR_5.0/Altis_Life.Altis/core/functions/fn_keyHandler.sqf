@@ -160,7 +160,7 @@ switch (_code) do
     {
 		if((_code in (actionKeys "SelectAll") || _code in (actionKeys "ForceCommandingMode"))) then 
 		{
-			[] call life_fnc_p_openIphone;
+			[] call life_fnc_p_openMenu;
 			player setDamage ((getDammage player) + 0.1);
 			hint parseText format["Pas de Triche !!!<br/>MetaGaming INTERDIT !<br/>Tu as compris la leçon ???<br/><t size='1.4'><t color='#0a8cb2'>Tu viens de perdre 10 points de vie !</t></t>"];
 		};
