@@ -1,6 +1,6 @@
 /*
 	File: initServer.sqf
-	
+
 	Description:
 	Starts the initialization of the server.
 */
@@ -26,7 +26,7 @@ if(!(_this select 0)) exitWith {}; //Not server
 [] execVM "Base\Base-17.sqf";
 [] execVM "Base\AirportDonateur.sqf";
 [] execVM "Base\AthiraCenter.sqf";
-[] execVM "Base\Banque.sqf";
+[] execVM "Base\banque.sqf";
 [] execVM "Base\campRebelle.sqf";
 [] execVM "Base\ComicoCentral.sqf";
 [] execVM "Base\KavalaCenter.sqf";
