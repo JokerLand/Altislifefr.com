@@ -3761,7 +3761,7 @@
 		<Key ID="STR_Process_License">
 			<Original>You need $%1 to process without a license!</Original>
 			<German>Du brauchst $%1, um ohne eine Lizenz verarbeiten zu können!</German>
-			<French>Vous devez $1% pour traiter sans permis!</French>
+			<French>Vous devez $%1 pour traiter sans permis!</French>
 			<Italian>Hai bisogno di €%1 per processare senza la dovuta licenza!</Italian>
 			<Portuguese>Você precisa de R$%1 para processar sem licença!</Portuguese>
 		</Key>
@@ -3775,7 +3775,7 @@
 		<Key ID="STR_Process_Processed2">
 			<Original>You have processed %1 into %2 for $%3</Original>
 			<German>Du hast %1 für $%3 in %2 verarbeitet</German>
-			<French>Vous avez traité %1 en %2 pour $3%</French>
+			<French>Vous avez traité %1 en %2 pour $%3</French>
 			<Italian>Hai processato %1 in %2 al costo di €%3</Italian>
 			<Portuguese>Você trasformou %1 em %2 por R$%3</Portuguese>
 		</Key>
