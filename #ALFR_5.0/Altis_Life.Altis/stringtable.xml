@@ -943,14 +943,14 @@
 			<Portuguese>Você não é o propietário desse veiculo, então você nao poderá guarda-lo na garagem.</Portuguese>
 		</Key>
 		<Key ID="STR_Garage_Store_Success">
-			<Original>The vehicle has been stored in your garage.</Original>
+			<Original>Le véhicule a été entreposé dans votre garage.</Original>
 			<German>Das Fahrzeug wurde in der Garage geparkt.</German>
 			<French>Le véhicule a été entreposé dans le garage.</French>
 			<Italian>Il veicolo è stato depositato nel tuo garage.</Italian>
 			<Portuguese>O veíclo foi guardado na garagem</Portuguese>
 		</Key>
 		<Key ID="STR_Garage_Store_Server">
-			<Original>The server is trying to store the vehicle...</Original>
+			<Original>Le serveur essaie de stocker le véhicule...</Original>
 			<German>Der Server versucht, das Fahrzeug zu speichern...</German>	
 			<French>Le serveur tente de stocker le véhicule ...</French>
 			<Italian>Il server cercando di depositare il veicolo...</Italian>
@@ -964,7 +964,7 @@
 			<Portuguese>Erro ao selecionar....</Portuguese>
 		</Key>
 		<Key ID="STR_Garage_NoNPC">
-			<Original>There isn't a vehicle near the NPC.</Original>
+			<Original>Il n'y a pas un véhicule à proximité du panneau.</Original>
 			<German>Es befindet sich kein Fahrzeug in der Nähe des NPC.</German>
 			<French>Il n'y a pas de véhicule près du PNJ</French>
 			<Italian>Non c'è alcun veicolo vicino all'NPC.</Italian>
@@ -1024,14 +1024,14 @@
 			<Portuguese>Dinheiro</Portuguese>
 		</Key>
 		<Key ID="STR_PM_MyGang">
-			<Original>My Gang</Original>
+			<Original>Mon Gang</Original>
 			<German>Meine Gang</German>
 			<French>Mon Gang</French>
 			<Italian>Mia Gang</Italian>
 			<Portuguese>Gangue</Portuguese>
 		</Key>
 		<Key ID="STR_PM_WantedList">
-			<Original>Wanted List</Original>
+			<Original>InterPol</Original>
 			<German>Fahndungsliste</German>
 			<French>Interpol</French>
 			<Italian>Lista Ricercati</Italian>
@@ -1059,9 +1059,9 @@
 			<Portuguese>Admin Menu</Portuguese>
 		</Key>
 		<Key ID="STR_PM_SyncData">
-			<Original>Sync Data</Original>
+			<Original>Sauvegarder</Original>
 			<German>Daten speichern</German>
-			<French>Sync Data</French>
+			<French>Sauvegarder</French>
 			<Italian>Salva Dati</Italian>
 			<Portuguese>Sincronizar Dados</Portuguese>
 		</Key>
@@ -2518,7 +2518,7 @@
 			<Portuguese>Esse veículo não pode armazenar items virtuais.</Portuguese>
 		</Key>
 		<Key ID="STR_MISC_Weight">
-			<Original>Weight:</Original>
+			<Original>Poids:</Original>
 			<German>Gewicht:</German>
 			<French>Poids:</French>
 			<Italian>Peso:</Italian>
