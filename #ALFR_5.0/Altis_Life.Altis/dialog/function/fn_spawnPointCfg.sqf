@@ -56,7 +56,7 @@ switch (_side) do
 	case east: 
 	{
 		_return = [
-			["adac_spawn1","Base Armee","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
+			["spawn_armer","Base Armee","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
 		];
 	};
 };
