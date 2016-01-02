@@ -311,7 +311,60 @@ class Clothing {
 		};
 	};
 
-	class reb {
+	class armer {
+		title = "STR_Shops_C_Diving";
+		license = "";
+		side = "east";
+
+		uniforms[] = {
+			{ "NONE", "Remove Uniform", 0, { "", "", -1 } },
+			{ "R3F_uniform_f1", "", 30, { "", "", -1 } },
+            { "R3F_uniform_Ghillie", "", 30, { "", "", -1 } },
+            { "U_B_Wetsuit", "", 30, { "", "", -1 } },
+            { "U_O_Wetsuit", "", 30, { "", "", -1 } }
+		};
+
+		headgear[] = {
+			{ "NONE", "Remove Hat", 0, { "", "", -1 } },
+            { "R3F_casque_spectra", "", 10, { "", "", -1 } },
+            { "R3F_casquette_off", "", 10, { "", "", -1 } },
+            { "R3F_beret_para", "", 10, { "", "", -1 } },
+            { "H_PilotHelmetHeli_B", "", 10, { "", "", -1 } },
+            { "H_PilotHelmetHeli_O", "", 10, { "", "", -1 } },
+            { "H_ALFR_Gasmask", "", 10, { "", "", -1 } }
+		};
+
+		goggles[] = {
+			{ "NONE", "Remove Glasses", 0, { "", "", -1 } },
+			{ "R3F_cagoule_olive", "", 10, { "", "", -1 } },
+            { "R3F_cagoule_punisher", "", 10, { "", "", -1 } },
+            { "G_Aviator", "", 10, { "", "", -1 } },
+            { "G_Balaclava_blk", "", 10, { "", "", -1 } },
+            { "R3F_lunettes_X800", "", 10, { "", "", -1 } },
+            { "H_ALFR_SkiMask_1", "", 10, { "", "", -1 } },
+            { "H_ALFR_SkiMask_9", "", 10, { "", "", -1 } },
+            { "H_ALFR_SkiMask_10", "", 10, { "", "", -1 } },
+            { "H_ALFR_SkiMask_Glasses_1", "", 10, { "", "", -1 } },
+            { "G_Diving", "", 10, { "", "", -1 } }
+		};
+
+		vests[] = {
+			{ "NONE", "Remove Vest", 0, { "", "", -1 } },
+			{ "R3F_veste_ce600", "", 30, { "", "", -1 } },
+            { "V_RebreatherB", "", 30, { "", "", -1 } },
+            { "V_RebreatherIA", "", 30, { "", "", -1 } },
+            { "V_PlateCarrierL_CTRG", "", 30, { "", "", -1 } }
+		};
+
+		backpacks[] = {
+			{ "NONE", "Remove Backpack", 0, { "", "", -1 } },
+            { "ALFR_Police_Backpack", "Sac Invisible", 50, { "", "", -1 } },
+            { "B_UAV_01_backpack_F", "", 500, { "", "", -1 } }    
+		};
+	};
+
+    
+    class reb {
 		title = "STR_Shops_C_Rebel";
 		license = "rebel";
 		side = "civ";
