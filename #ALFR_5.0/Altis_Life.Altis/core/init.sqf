@@ -70,6 +70,11 @@ switch (playerSide) do {
 		_handle = [] spawn life_fnc_initMedic;
 		waitUntil {scriptDone _handle};
 	};
+	case east: {
+		//Initialize ADAC
+		_handle = [] spawn life_fnc_initAdac;
+		waitUntil {scriptDone _handle};
+	};
 };
 
 player SVAR ["restrained",false,true];
