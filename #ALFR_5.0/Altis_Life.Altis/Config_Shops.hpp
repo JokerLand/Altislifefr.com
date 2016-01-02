@@ -5,7 +5,7 @@ class WeaponShops {
         side = "civ";
         license = "gun";
         level = -1;
-        msg = "";
+        msg = "Vous n'avez pas le permis de port d'arme";
         items[] = {
             { "hgun_Rook40_F", "", 750 },
             { "hgun_Pistol_heavy_02_F", "", 760 },
@@ -34,7 +34,7 @@ class WeaponShops {
         side = "civ";
         license = "rebel";
         level = -1;
-        msg = "";
+        msg = "Vous n'avez pas la licence rebelle";
         items[] = {
             { "Rangefinder", "", 15 },
             { "hgun_ACPC2_F", "", 15000 },
