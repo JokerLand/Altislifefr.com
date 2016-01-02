@@ -7,25 +7,25 @@ class WeaponShops {
         level = -1;
         msg = "";
         items[] = {
-            { "hgun_Rook40_F", "", 5000 },
-            { "hgun_Pistol_heavy_02_F", "", 6500 },
-            { "hgun_SA_makarov_pm_F", "", 7500 },
-            { "8Rnd_9x18_Mag", "", 100 },
-            { "hgun_sam_browning_hp_F","", 7500 },
-            { "8Rnd_9x18_Mag", "", 100 },
-            { "SIG_P226", "", 13000 },
-            { "smg_SA_9a91", "", 50000 },
-            { "hgun_PDW2000_F", "", 20000 },
+            { "hgun_Rook40_F", "", 750 },
+            { "hgun_Pistol_heavy_02_F", "", 760 },
+            { "hgun_SA_makarov_pm_F", "", 800 },
+            { "8Rnd_9x18_Mag", "", 50 },
+            { "hgun_sam_browning_hp_F","", 800 },
+            { "8Rnd_9x18_Mag", "", 10 },
+            { "SIG_P226", "", 1000 },
+            { "smg_SA_9a91", "", 2000 },
+            { "hgun_PDW2000_F", "", 2500 },
             { "11Rnd_45ACP_Mag", "", 50 },
-            { "30Rnd_9x21_Mag", "", 75 },
-            { "20Rnd_SA_9x39", "", 100 },
-            { "C1987_MP7", "", 60000 },
-            { "C1987_20Rnd_46x30_mp7", "", 100 },
-            { "C1987_40Rnd_46x30_mp7", "", 200 },
-            { "R3F_MP5A5", "", 60000 },
-            { "R3F_30Rnd_9x19_MP5", "", 150 },
-            { "optic_ACO_grn_smg", "", 2500 },
-            { "V_Rangemaster_belt", "", 4900 }
+            { "30Rnd_9x21_Mag", "", 50 },
+            { "20Rnd_SA_9x39", "", 50 },
+            { "C1987_MP7", "", 2500 },
+            { "C1987_20Rnd_46x30_mp7", "", 50 },
+            { "C1987_40Rnd_46x30_mp7", "", 50 },
+            { "R3F_MP5A5", "", 2500 },
+            { "R3F_30Rnd_9x19_MP5", "", 50 },
+            { "optic_ACO_grn_smg", "", 50 },
+            { "V_Rangemaster_belt", "", 70 }
         };
     };
     //Shop Rebelle
@@ -507,12 +507,12 @@ class WeaponShops {
             { "Trixie_AWM338", "", 590 },
             { "Trixie_5x338_Mag", "", 20 },
             //Lnt
-            { "LMG_Mk200_F", "", 75000 },
-            { "200Rnd_65x39_cased_Box_Tracer", "", 500 },
-            { "LMG_Zafir_F", "", 250000 },
-            { "150Rnd_762x54_Box_Tracer", "", 500 },
-            { "srifle_LRR_F", "", 350000 },
-            { "7Rnd_408_Mag", "", 800 }
+            { "LMG_Mk200_F", "", 590 },
+            { "200Rnd_65x39_cased_Box_Tracer", "", 19 },
+            { "LMG_Zafir_F", "", 600 },
+            { "150Rnd_762x54_Box_Tracer", "", 20 },
+            { "srifle_LRR_F", "", 600 },
+            { "7Rnd_408_Mag", "", 20 }
         };
     };
     //Armurerie capitaine
@@ -589,15 +589,15 @@ class WeaponShops {
             { "Trixie_AWM338", "", 590 },
             { "Trixie_5x338_Mag", "", 20 },
             //Lnt
-            { "LMG_Mk200_F", "", 75000 },
-            { "200Rnd_65x39_cased_Box_Tracer", "", 500 },
-            { "LMG_Zafir_F", "", 250000 },
-            { "150Rnd_762x54_Box_Tracer", "", 500 },
-            { "srifle_LRR_F", "", 350000 },
-            { "7Rnd_408_Mag", "", 800 },
+            { "LMG_Mk200_F", "", 590 },
+            { "200Rnd_65x39_cased_Box_Tracer", "", 19 },
+            { "LMG_Zafir_F", "", 600 },
+            { "150Rnd_762x54_Box_Tracer", "", 20 },
+            { "srifle_LRR_F", "", 600 },
+            { "7Rnd_408_Mag", "", 20 },
             //Capitaine
-            { "R3F_M107", "", 350000 },
-            { "R3F_10Rnd_127x99_M107", "", 800 }
+            { "R3F_M107", "", 620 },
+            { "R3F_10Rnd_127x99_M107", "", 21 }
         };
     };
     //Armurerie commandant
@@ -674,15 +674,15 @@ class WeaponShops {
             { "Trixie_AWM338", "", 590 },
             { "Trixie_5x338_Mag", "", 20 },
             //Lnt
-            { "LMG_Mk200_F", "", 75000 },
-            { "200Rnd_65x39_cased_Box_Tracer", "", 500 },
-            { "LMG_Zafir_F", "", 250000 },
-            { "150Rnd_762x54_Box_Tracer", "", 500 },
-            { "srifle_LRR_F", "", 350000 },
-            { "7Rnd_408_Mag", "", 800 },
+            { "LMG_Mk200_F", "", 590 },
+            { "200Rnd_65x39_cased_Box_Tracer", "", 19 },
+            { "LMG_Zafir_F", "", 600 },
+            { "150Rnd_762x54_Box_Tracer", "", 20 },
+            { "srifle_LRR_F", "", 600 },
+            { "7Rnd_408_Mag", "", 20 },
             //Capitaine
-            { "R3F_M107", "", 350000 },
-            { "R3F_10Rnd_127x99_M107", "", 800 }
+            { "R3F_M107", "", 620 },
+            { "R3F_10Rnd_127x99_M107", "", 21 }
         };
     };
     //Armurerie armee 1
@@ -746,8 +746,6 @@ class WeaponShops {
             { "200Rnd_65x39_cased_Box", "", 10 },
             { "R3F_HK417L", "", 10 },
             { "R3F_20Rnd_762x51_TRACER_HK417", "", 10 },
-            { "wirk_p90", "", 10 },
-            { "wirk_p90_mag", "", 10 },
             { "srifle_DMR_06_camo_F", "", 10 },
             { "20Rnd_762x51_Mag", "", 10 },
             { "LMG_Mk200_F", "", 10 },
@@ -831,10 +829,10 @@ class WeaponShops {
 			{ "ItemGPS", "", 100 },
 			{ "ToolKit", "", 250 },
 			{ "FirstAidKit", "", 150 },
-            { "Medikit", "", 2000,},
-            { "pmc_earpiece", "", 2500},
-            { "H_PilotHelmetHeli_B", "", 500},
-			{ "ALFR_Police_Backpack", "", 5000 }
+            { "Medikit", "", 200,},
+            { "pmc_earpiece", "", 300},
+            { "H_PilotHelmetHeli_B", "", 200},
+			{ "ALFR_Police_Backpack", "", 500 }
         };
     };
 };
