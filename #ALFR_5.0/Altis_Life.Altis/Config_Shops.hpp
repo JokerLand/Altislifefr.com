@@ -688,7 +688,7 @@ class WeaponShops {
     //Armurerie armee 1
     class armer {
         name = "Armurerie armee";
-        side = "adac";
+        side = "armer";
         license = "";
         level = 1;
         items[] = {
@@ -721,7 +721,7 @@ class WeaponShops {
     //Armurerie armee 2
     class armee {
         name = "Armurerie armee";
-        side = "adac";
+        side = "armer";
         license = "";
         level = 2;
         items[] = {

@@ -5718,8 +5718,8 @@ class Mission
 		};
 		class Item242
 		{
-			position[]={3165.6121,2,12896.591};
-			azimut=451.07199;
+			position[]={3165.6121,2,12896.553};
+			azimut=632.12183;
 			offsetY=0.40000001;
 			special="NONE";
 			id=458;
@@ -6552,7 +6552,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_InfoStand_V2_F";
 			skill=0.60000002;
-			init="this enableSimulation false;  this allowDamage false;  this addAction[""Process Oil"",life_fnc_processAction,""oil"",0,false,false,"""",' life_inv_oilUnprocessed > 0 && !life_is_processing'];  this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""driver"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""driver"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""oil"",0,false,false,"""",' !license_civ_oil && playerSide == civilian '];";
+			init="this enableSimulation false;  this allowDamage false;  this addAction[""Traitement de petrole"",life_fnc_processAction,""oil"",0,false,false,"""",' life_inv_oilu > 0 && !life_is_processing'];";
 		};
 		class Item316
 		{
