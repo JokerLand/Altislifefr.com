@@ -195,12 +195,28 @@ compileFinal "
 	hint format[""Admin Message Sent To All: %1"",_msg];
 ";
 
+//To ADAC
+TON_fnc_cell_adacrequest = 
+compileFinal "
+private[""_msg"",""_to""];
+	ctrlShow[3023,false];
+	_msg = ctrlText 3003;
+	_to = ""ADAC Units"";
+	if(_msg == """") exitWith {hint ""Vous devez entrer un message!"";ctrlShow[3023,true];};
+		
+	[[_msg,name player,6],""TON_fnc_clientMessage"",east,false] spawn life_fnc_MP;
+	[] call life_fnc_cellphone;
+	hint format[""Vous avez envoyé un message à toute l'armée !"",_to,_msg];
+	ctrlShow[3023,true];
+";
+
 publicVariable "TON_fnc_cell_textmsg";
 publicVariable "TON_fnc_cell_textcop";
 publicVariable "TON_fnc_cell_textadmin";
 publicVariable "TON_fnc_cell_adminmsg";
 publicVariable "TON_fnc_cell_adminmsgall";
 publicVariable "TON_fnc_cell_emsrequest";
+publicVariable "TON_fnc_cell_adacrequest";
 //Client Message
 /*
 	0 = private message
