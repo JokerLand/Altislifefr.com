@@ -17,7 +17,7 @@ _return pushBack backpack player;
 _return pushBack goggles player;
 _return pushBack headgear player;
 _return pushBack assignedITems player;
-if(playerSide == west || playerSide == civilian && {EQUAL(LIFE_SETTINGS(getNumber,"save_civ_weapons"),1)}) then {
+if(playerSide == west || playerSide == civilian || playerSide == east && {EQUAL(LIFE_SETTINGS(getNumber,"save_civ_weapons"),1)}) then {
     _return pushBack RIFLE;
     _return pushBack PISTOL;
 } else {
