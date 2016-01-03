@@ -14,35 +14,35 @@ class CarShops {
 			{ "C_SUV_01_F", 22000, "driver" },
 			{ "cl3_taurus_black", 12500, "driver" },
 			{ "cl3_polo_gti_black", 15000, "driver" },
-			{ "GeK_S60", 25000, "driver" },
-			{ "GeK_CTSV", 25000, "driver" },
-			{ "cl3_q7_black", 45000, "driver" },
+			{ "GeK_S60", 15000, "driver" },
+			{ "GeK_CTSV", 15000, "driver" },
+			{ "cl3_q7_black", 40000, "driver" },
 			{ "I_G_Offroad_01_F", 55000, "driver" },
 			{ "cl3_e63_amg_black", 50000, "driver" },
-			{ "SAL_IROCCiv", 95000, "driver" },
-			{ "cl3_dodge_charger_s_black", 110000, "driver" },
-			{ "cl3_z4_2008_black", 120000, "driver" },
-			{ "GeK_TLC100", 150000, "driver" },
-			{ "cl3_carrera_gt_black", 150000, "driver" },
-			{ "cl3_dbs_volante_black", 150000, "driver" },
-			{ "GeK_Mercedes_ML63", 220000, "driver" },
-			{ "wirk_cayenne", 270000, "driver" },
-			{ "Jonzie_Viper", 270000, "driver" },
+			{ "SAL_IROCCiv", 9500, "driver" },
+			{ "cl3_dodge_charger_s_black", 11000, "driver" },
+			{ "cl3_z4_2008_black", 12000, "driver" },
+			{ "GeK_TLC100", 15000, "driver" },
+			{ "cl3_carrera_gt_black", 15000, "driver" },
+			{ "cl3_dbs_volante_black", 15000, "driver" },
+			{ "GeK_Mercedes_ML63", 22000, "driver" },
+			{ "wirk_cayenne", 27000, "driver" },
+			{ "Jonzie_Viper", 27000, "driver" },
 			{ "cl3_r8_spyder_black", 270000, "driver" },
 			{ "cl3_458_black", 275000, "driver" },
-			{ "cl3_murcielago_black", 300000, "driver" },
-			{ "cl3_reventon_black", 320000, "driver" },
-			{ "wirk_ferrari_california", 400000, "driver" },
-			{ "cl3_lamborghini_gt1_black", 500000, "driver" },
-			{ "ALFR_GeK_MF1", 500000, "driver" },
-			{ "AudiA8_Limo", 300000, "driver" },
-			{ "cl3_arielatom_black", 250000, "driver" },
-			{ "cl3_veyron_wht_blu", 270000, "driver" },
-			{ "CL3_bus_cl_black", 100000, "driver" },
-			{ "cl3_xr_1000_black", 250000, "driver" },
-			{ "ALFR_GeK_Panamera", 350000, "driver" },
-			{ "GeK_Civilian_H1", 200000, "driver" },
-			{ "ALFR_GeK_Pagani_Zonda", 800000, "driver" }	
+			{ "cl3_murcielago_black", 30000, "driver" },
+			{ "cl3_reventon_black", 32000, "driver" },
+			{ "wirk_ferrari_california", 40000, "driver" },
+			{ "cl3_lamborghini_gt1_black", 50000, "driver" },
+			{ "ALFR_GeK_MF1", 50000, "driver" },
+			{ "AudiA8_Limo", 30000, "driver" },
+			{ "cl3_arielatom_black", 25000, "driver" },
+			{ "cl3_veyron_wht_blu", 27000, "driver" },
+			{ "CL3_bus_cl_black", 10000, "driver" },
+			{ "cl3_xr_1000_black", 25000, "driver" },
+			{ "ALFR_GeK_Panamera", 35000, "driver" },
+			{ "GeK_Civilian_H1", 20000, "driver" },
+			{ "ALFR_GeK_Pagani_Zonda", 80000, "driver" }	
 			
 		};
 	};
@@ -81,24 +81,16 @@ class CarShops {
 	class civ_truck {
 		side = "civ";
 		vehicles[] = {
-			{ "C_Van_01_transport_F", 40000, "trucking" },
-			{ "C_Van_01_Fuel_F", 440000, "trucking" },
-			{ "GeK_Renault_Trafic", 45000, "trucking" },
-			{ "cl3_transit_black", 50000, "trucking" },
-			{ "C_Van_01_box_F", 60000, "trucking" },
-			{ "C_Offroad_01_repair_F", 75000, "trucking" },
-			{ "I_Truck_02_transport_F", 75000, "trucking" },
-			{ "I_Truck_02_covered_F", 100000, "trucking" },
-			{ "cg_rv_camper", 130000, "trucking" },
-			{ "B_Truck_01_transport_F", 200000, "trucking" },
+			{ "C_Van_01_transport_F", 10000, "trucking" },
+			{ "C_Van_01_Fuel_F", 5000, "trucking" },
+			{ "C_Van_01_box_F", 12500, "trucking" },
+			{ "C_Offroad_01_repair_F", 7500, "trucking" },
+			{ "I_Truck_02_transport_F", 32500, "trucking" },
+			{ "I_Truck_02_covered_F", 60000, "trucking" },
+			{ "cg_rv_camper", 13000, "trucking" },
+			{ "B_Truck_01_transport_F", 60000, "trucking" },
 			{ "A3L_Dumptruck", 250000, "trucking" },
-			{ "B_Truck_01_covered_F", 300000, "trucking" },
-			{ "B_Truck_01_box_F", 400000, "trucking" },
-			{ "ALFR_GeK_Scania_420", 400000, "trucking" },
-			{ "ALFR_GeK_Volvo_FH16_2012", 500000, "trucking" },
-			{ "GeK_Renault_Magnum", 600000, "trucking" }
-			
-			
+			{ "B_Truck_01_box_F", 105000, "trucking" }
 		};
 	};
 	
@@ -147,13 +139,13 @@ class CarShops {
 			{ "GeK_S60_Police", 30000, ""},
 			{ "ALFR_GeK_Panamera_Police", 20000, "", { "life_coplevel", 2 } },
 			{ "GeK_TLC100_Police", 25000, "", { "life_coplevel", 2 } },
-			{ "I_MRAP_03_F", 1000000, "", { "life_coplevel", 3 } },
-			{ "ALFR_GeK_MF1_Police", 1500000, "", { "life_coplevel", 3 } },
+			{ "I_MRAP_03_F", 100000, "", { "life_coplevel", 3 } },
+			{ "ALFR_GeK_MF1_Police", 150000, "", { "life_coplevel", 3 } },
 			{ "GeK_S60_Police_ST", 30000, "", { "life_coplevel", 3 } },
 			{ "GeK_TLC100", 35000, "", { "life_coplevel", 3 } },
 			{ "ALFR_GeK_Panamera_Police_ST", 30000, "", { "life_coplevel", 3 } },
-			{ "CL3_bus_cl_black", 400000, "", { "life_coplevel", 3 } },
-			{ "cg_h2_sert", 800000, "", { "life_coplevel", 4 } }
+			{ "CL3_bus_cl_black", 40000, "", { "life_coplevel", 3 } },
+			{ "cg_h2_sert", 80000, "", { "life_coplevel", 4 } }
 		};
 	};
 
@@ -274,14 +266,14 @@ class CfgVehicles {
 	
 	class GNT_C185F : Default {
 		vItemSpace = 150;
-		storageFee[] = { 1000, 1000, 1000, 1000 };
+		storageFee[] = { 0, 0, 0, 0 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
 		chopShop = 3000;
 	};
 	
 	class A3L_VolksWagenGolfGTiblack : Default {
 		vItemSpace = 35;
-		storageFee[] = { 1000, 1000, 1000, 1000 };
+		storageFee[] = { 0, 0, 0, 0 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
 		chopShop = 3000;
 		textures[] = {
@@ -332,8 +324,8 @@ class CfgVehicles {
 	};
 	
 	class wirk_gtr : Default {
-		vItemSpace = 40;
-		storageFee[] = { 1000, 1000, 1000, 1000 };
+		vItemSpace = 35;
+		storageFee[] = { 0, 0, 0, 0 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
 		chopShop = 3000;
 		textures[] = {
@@ -384,15 +376,15 @@ class CfgVehicles {
 	};
 	
 	class wirk_cayenne : Default {
-		vItemSpace = 65;
-		storageFee[] = { 1000, 1000, 1000, 1000 };
+		vItemSpace = 35;
+		storageFee[] = { 0, 0, 0, 0 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
 		chopShop = 3000;
 	};
 	
 	class GeK_Mercedes_ML63 : Default {
-		vItemSpace = 65;
-		storageFee[] = { 1000, 1000, 1000, 1000 };
+		vItemSpace = 35;
+		storageFee[] = { 0, 0, 0, 0 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
 		chopShop = 3000;
 		textures[] = {
@@ -444,7 +436,7 @@ class CfgVehicles {
 	
 	class GeK_Mercedes_ML63_Rebelle : Default {
 		vItemSpace = 65;
-		storageFee[] = { 1000, 1000, 1000, 1000 };
+		storageFee[] = { 0, 0, 0, 0 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
 		chopShop = 3000;
 		textures[] = {
@@ -460,7 +452,7 @@ class CfgVehicles {
 	
 	class SAL_IROCCiv : Default {
 		vItemSpace = 20;
-		storageFee[] = { 1000, 1000, 1000, 1000 };
+		storageFee[] = { 0, 0, 0, 0 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
 		chopShop = 3000;
 		textures[] = {
@@ -488,14 +480,14 @@ class CfgVehicles {
 	
 	class SAL_77TRANSAMCiv : Default {
 		vItemSpace = 20;
-		storageFee[] = { 1000, 1000, 1000, 1000 };
+		storageFee[] = { 0, 0, 0, 0 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
 		chopShop = 3000;
 	};
 	
 	class cl3_civic_vti_black : Default {
 		vItemSpace = 35;
-		storageFee[] = { 1000, 1000, 1000, 1000 };
+		storageFee[] = { 0, 0, 0, 0 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
 		chopShop = 3000;
 		textures[] = {
@@ -546,8 +538,8 @@ class CfgVehicles {
 	};
 	
 	class cl3_polo_gti_black : Default {
-		vItemSpace = 30;
-		storageFee[] = { 1000, 1000, 1000, 1000 };
+		vItemSpace = 35;
+		storageFee[] = { 0, 0, 0, 0 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
 		chopShop = 3000;
 		textures[] = {
@@ -598,8 +590,8 @@ class CfgVehicles {
 	};
 	
 	class GeK_S60 : Default {
-		vItemSpace = 50;
-		storageFee[] = { 1000, 1000, 1000, 1000 };
+		vItemSpace = 35;
+		storageFee[] = { 0, 0, 0, 0 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
 		chopShop = 3000;
 		textures[] = {
@@ -650,8 +642,8 @@ class CfgVehicles {
 	};
 	
 	class GeK_CTSV : Default {
-		vItemSpace = 50;
-		storageFee[] = { 1000, 1000, 1000, 1000 };
+		vItemSpace = 35;
+		storageFee[] = { 0, 0, 0, 0 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
 		chopShop = 3000;
 		textures[] = {
@@ -702,8 +694,8 @@ class CfgVehicles {
 	};
 	
 	class GeK_ElCamino : Default {
-		vItemSpace = 150;
-		storageFee[] = { 1000, 1000, 1000, 1000 };
+		vItemSpace = 40;
+		storageFee[] = { 0, 0, 0, 0 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
 		chopShop = 3000;
 		textures[] = {
@@ -754,8 +746,8 @@ class CfgVehicles {
 	};
 	
 	class GeK_Avalanche : Default {
-		vItemSpace = 200;
-		storageFee[] = { 1000, 1000, 1000, 1000 };
+		vItemSpace = 40;
+		storageFee[] = { 0, 0, 0, 0 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
 		chopShop = 3000;
 		textures[] = {
@@ -788,8 +780,8 @@ class CfgVehicles {
 	};
 	
 	class cl3_e63_amg_black : Default {
-		vItemSpace = 50;
-		storageFee[] = { 1000, 1000, 1000, 1000 };
+		vItemSpace = 35;
+		storageFee[] = { 0, 0, 0, 0 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
 		chopShop = 3000;
 		textures[] = {
@@ -840,8 +832,8 @@ class CfgVehicles {
 	};
 	
 	class cl3_range_rover_black : Default {
-		vItemSpace = 85;
-		storageFee[] = { 1000, 1000, 1000, 1000 };
+		vItemSpace = 35;
+		storageFee[] = { 0, 0, 0, 0 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
 		chopShop = 3000;
 		textures[] = {
@@ -895,7 +887,7 @@ class CfgVehicles {
 	
 	class cl3_dodge_charger_s_black : Default {
 		vItemSpace = 65;
-		storageFee[] = { 1000, 1000, 1000, 1000 };
+		storageFee[] = { 0, 0, 0, 0 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
 		chopShop = 3000;
 		textures[] = {
@@ -948,7 +940,7 @@ class CfgVehicles {
 	
 	class cl3_z4_2008_black : Default {
 		vItemSpace = 10;
-		storageFee[] = { 1000, 1000, 1000, 1000 };
+		storageFee[] = { 0, 0, 0, 0 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
 		chopShop = 3000;
 		textures[] = {
@@ -1000,7 +992,7 @@ class CfgVehicles {
 	
 	class cl3_carrera_gt_black : Default {
 		vItemSpace = 10;
-		storageFee[] = { 1000, 1000, 1000, 1000 };
+		storageFee[] = { 0, 0, 0, 0 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
 		chopShop = 3000;
 		textures[] = {
@@ -1053,7 +1045,7 @@ class CfgVehicles {
 	
 	class cl3_dbs_volante_black : Default {
 		vItemSpace = 20;
-		storageFee[] = { 1000, 1000, 1000, 1000 };
+		storageFee[] = { 0, 0, 0, 0 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
 		chopShop = 3000;
 		textures[] = {
@@ -1106,7 +1098,7 @@ class CfgVehicles {
 	
 	class cl3_r8_spyder_black : Default {
 		vItemSpace = 10;
-		storageFee[] = { 1000, 1000, 1000, 1000 };
+		storageFee[] = { 0, 0, 0, 0 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
 		chopShop = 3000;
 		textures[] = {
@@ -1159,7 +1151,7 @@ class CfgVehicles {
 	
 	class cl3_458_black : Default {
 		vItemSpace = 10;
-		storageFee[] = { 1000, 1000, 1000, 1000 };
+		storageFee[] = { 0, 0, 0, 0 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
 		chopShop = 3000;
 		textures[] = {
@@ -1212,7 +1204,7 @@ class CfgVehicles {
 	
 	class cl3_murcielago_black : Default {
 		vItemSpace = 10;
-		storageFee[] = { 1000, 1000, 1000, 1000 };
+		storageFee[] = { 0, 0, 0, 0 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
 		chopShop = 3000;
 		textures[] = {
@@ -1265,7 +1257,7 @@ class CfgVehicles {
 	
 	class cl3_reventon_black : Default {
 		vItemSpace = 10;
-		storageFee[] = { 1000, 1000, 1000, 1000 };
+		storageFee[] = { 0, 0, 0, 0 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
 		chopShop = 3000;
 		textures[] = {
@@ -1317,8 +1309,8 @@ class CfgVehicles {
 	};
 	
 	class cl3_dodge_charger_s_camo : Default {
-		vItemSpace = 40;
-		storageFee[] = { 1000, 1000, 1000, 1000 };
+		vItemSpace = 35;
+		storageFee[] = { 0, 0, 0, 0 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
 		chopShop = 3000;
 		textures[] = {
@@ -1338,8 +1330,8 @@ class CfgVehicles {
 	};
 	
 	class cl3_e63_amg_camo : Default {
-		vItemSpace = 40;
-		storageFee[] = { 1000, 1000, 1000, 1000 };
+		vItemSpace = 35;
+		storageFee[] = { 0, 0, 0, 0 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
 		chopShop = 3000;
 		textures[] = {
@@ -1362,8 +1354,8 @@ class CfgVehicles {
 	};
 	
 	class cl3_range_rover_camo : Default {
-		vItemSpace = 85;
-		storageFee[] = { 1000, 1000, 1000, 1000 };
+		vItemSpace = 35;
+		storageFee[] = { 0, 0, 0, 0 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
 		chopShop = 3000;
 		textures[] = {
@@ -1387,7 +1379,7 @@ class CfgVehicles {
 	
 	class Jonzie_Viper : Default {
 		vItemSpace = 20;
-		storageFee[] = { 1000, 1000, 1000, 1000 };
+		storageFee[] = { 0, 0, 0, 0 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
 		chopShop = 3000;
 		textures[] = {
@@ -1440,7 +1432,7 @@ class CfgVehicles {
 	
 	class cl3_veyron_blk_wht : Default {
 		vItemSpace = 10;
-		storageFee[] = { 1000, 1000, 1000, 1000 };
+		storageFee[] = { 0, 0, 0, 0 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
 		chopShop = 3000;
 		textures[] = {
@@ -1493,7 +1485,7 @@ class CfgVehicles {
 	
 	class cl3_lamborghini_gt1_black : Default {
 		vItemSpace = 10;
-		storageFee[] = { 1000, 1000, 1000, 1000 };
+		storageFee[] = { 0, 0, 0, 0 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
 		chopShop = 3000;
 		textures[] = {
@@ -1546,7 +1538,7 @@ class CfgVehicles {
 	
 	class A3L_Dumptruck : Default {
 		vItemSpace = 400;
-		storageFee[] = { 1000, 1000, 1000, 1000 };
+		storageFee[] = { 0, 0, 0, 0 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
 		chopShop = 3000;
 		textures[] = {
@@ -1575,7 +1567,7 @@ class CfgVehicles {
 	
 	class IVORY_T6A_1 : Default {
 		vItemSpace = 50;
-		storageFee[] = { 1000, 1000, 1000, 1000 };
+		storageFee[] = { 0, 0, 0, 0 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
 		chopShop = 3000;
 		textures[] = {
@@ -1592,8 +1584,8 @@ class CfgVehicles {
 	};
 	
 	class I_G_Offroad_01_F : Default {
-		vItemSpace = 75;
-		storageFee[] = { 1000, 1000, 1000, 1000 };
+		vItemSpace = 35;
+		storageFee[] = { 0, 0, 0, 0 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
 		chopShop = 3000;
 		textures[] = {
@@ -1611,8 +1603,8 @@ class CfgVehicles {
 	};
 	
 	class  B_G_Offroad_01_F: Default {
-		vItemSpace = 65;
-		storageFee[] = { 1000, 1000, 1000, 1000 };
+		vItemSpace = 35;
+		storageFee[] = { 0, 0, 0, 0 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
 		chopShop = 3000;
 		textures[] = {
@@ -1635,21 +1627,21 @@ class CfgVehicles {
 
 	class I_Truck_02_medical_F : Default {
 		vItemSpace = 150;
-		storageFee[] = { 0, 0, 1500, 0 };
+		storageFee[] = { 0, 0, 0, 0 };
 		garageSell[] = { 0, 0, 5000, 0 };
 		chopShop = 3000;
 	};
 
 	class O_Truck_03_medical_F : Default {
 		vItemSpace = 200;
-		storageFee[] = { 0, 0, 3000, 0 };
+		storageFee[] = { 0, 0, 0, 0 };
 		garageSell[] = { 0, 0, 10000, 0 };
 		chopShop = 7500;
 	};
 
 	class B_Truck_01_medical_F : Default {
 		vItemSpace = 250;
-		storageFee[] = { 0, 0, 6500, 0 };
+		storageFee[] = { 0, 0, 0, 0 };
 		garageSell[] = { 0, 0, 25000, 0 };
 		chopShop = 12500;
 	};
@@ -1744,7 +1736,7 @@ class CfgVehicles {
 
 	class I_G_Van_01_transport_F {
         vItemSpace = 100;
-        storageFee[] = { 1000, 0, 0, 0 };
+        storageFee[] = { 0, 0, 0, 0 };
         chopShop = 5000;
         textures[] = { };
     };
@@ -1804,8 +1796,8 @@ class CfgVehicles {
     };
 
 	class C_Offroad_01_F {
-        vItemSpace = 65;
-        storageFee[] = { 1000, 1000, 1000, 1000 };
+        vItemSpace = 35;
+        storageFee[] = { 0, 0, 0, 0 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
         chopShop = 2500;
         textures[] = {
@@ -1868,8 +1860,8 @@ class CfgVehicles {
     };
 
 	class C_Kart_01_Blu_F {
-		vItemSpace = 20;
-		storageFee[] = { 1500, 0, 0, 0 };
+		vItemSpace = 5;
+		storageFee[] = { 0, 0, 0, 0 };
 		garageSell[] = { 3500, 0, 0, 0 };
 		chopShop = 3500;
 		textures[] = {};
@@ -1880,8 +1872,8 @@ class CfgVehicles {
 	class C_Kart_01_Vrana_F : C_Kart_01_Blu_F {}; //Inherits everything from the above class
 
 	class C_Hatchback_01_sport_F {
-        vItemSpace = 45;
-        storageFee[] = { 2500, 1000, 0, 0 };
+        vItemSpace = 35;
+        storageFee[] = { 0, 0, 0, 0 };
 		garageSell[] = { 15000, 7500, 0, 0 };
         chopShop = 4500;
         textures[] = {
@@ -1911,7 +1903,7 @@ class CfgVehicles {
 
 	class B_Quadbike_01_F {
         vItemSpace = 25;
-        storageFee[] = { 1000, 0, 0, 0 };
+        storageFee[] = { 0, 0, 0, 0 };
 		garageSell[] = { 950, 0, 0, 0 };
         chopShop = 5000;
         textures[] = {
@@ -1976,8 +1968,8 @@ class CfgVehicles {
 	};
 
 	class C_Hatchback_01_F {
-        vItemSpace = 40;
-        storageFee[] = { 1000, 0, 0, 0 };
+        vItemSpace = 30;
+        storageFee[] = { 0, 0, 0, 0 };
 		garageSell[] = { 4500, 3500, 0, 0 };
         chopShop = 5000;
         textures[] = {
@@ -2009,8 +2001,8 @@ class CfgVehicles {
     };
 
 	class C_SUV_01_F {
-        vItemSpace = 50;
-        storageFee[] = { 1000, 0, 0, 0 };
+        vItemSpace = 35;
+        storageFee[] = { 0, 0, 0, 0 };
 		garageSell[] = { 15000, 7500, 0, 0 };
         chopShop = 5000;
         textures[] = {
@@ -2063,7 +2055,7 @@ class CfgVehicles {
     };
 	class B_MRAP_01_F {
         vItemSpace = 65;
-        storageFee[] = { 0, 7500, 0, 0 };
+        storageFee[] = { 0, 0, 0, 0 };
 		garageSell[] = { 0, 10000, 0, 0 };
         chopShop = 5000;
         textures[] = {
@@ -2078,7 +2070,7 @@ class CfgVehicles {
 
 	class B_Heli_Light_01_F {
         vItemSpace = 90;
-        storageFee[] = { 45000, 19500, 0, 0 };
+        storageFee[] = { 0, 0, 0, 0 };
 		garageSell[] = { 57000, 35000, 0, 0 };
         chopShop = 5000;
         textures[] = {
