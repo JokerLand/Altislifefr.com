@@ -14,13 +14,13 @@ class Header
 {
 	gameType = RPG;
 	minPlayers = 1;
-	maxPlayers = 150;
+	maxPlayers = 120;
 };
 
 wreckLimit = 3;
 wreckRemovalMinTime = 60;
 wreckRemovalMaxTime = 320;
-corpseLimit = 150;
+corpseLimit = 120;
 corpseRemovalMinTime = 999;
 corpseRemovalMaxTime = 9999;
 
@@ -68,80 +68,80 @@ class CfgSounds
 		sound[] = {"\sounds\flashbang.ogg", 1.0, 1};
 		titles[] = {};
 	};
-	
+
 	class BeepBeep
     {
         name = "BeepBeep";
         sound[] = {"\sounds\BeepBeep.ogg", 0.9, 1};
         titles[] = {};
     };
-	
+
     class Beep
     {
         name = "Beep";
         sound[] = {"\sounds\Beep.ogg", 0.9, 1};
         titles[] = {};
     };
-	
+
 	class Cuff
     {
         name = "cuff";
         sound[] = {"\sounds\cuff.ogg", 0.95, 0.95};
         titles[] = {};
     };
-	
+
 	class Caching
     {
 	    name = "caching";
 	    sound[] = {"\sounds\caching.ogg", 1, 1};
 	    titles[] = {};
     };
-	
+
 	class Bag
     {
 	    name = "bag";
 	    sound[] = {"\sounds\bag.ogg", 1, 1};
 	    titles[] = {};
     };
-	
+
 	class Intro
     {
 	    name = "Intro";
 	    sound[] = {"\sounds\Intro.ogg", 1, 1};
 	    titles[] = {};
     };
-	
+
 	class alert
     {
         name = "alert";
         sound[] = {"\sounds\alert.ogg", 1.0, 1};
         titles[] = {};
     };
-	
+
 	class car_alarm
 	{
 		name="car_alarm";
 		sound[] = {"\sounds\car_alarm.ogg", 1, 1};
 		titles[] = {};
-	
+
 	};
-	
+
 	class boire
 	{
 		name="boire";
 		sound[] = {"\sounds\boire.ogg", 7, 7};
 		titles[] = {};
-	
+
 	};
-	
+
 	class mange
 	{
 		name="mange";
 		sound[] = {"\sounds\mange.ogg", 5, 5};
 		titles[] = {};
-	
+
 	};
-	
+
 	class Mining
     {
 	    name = "mining";
@@ -161,7 +161,7 @@ class CfgDebriefing
 		picture = "";
 		pictureColor[] = {0,0.3,0.6,1};
 	};
-	
+
 	class Blacklisted
 	{
 		title = "Echec Mission";
@@ -171,7 +171,7 @@ class CfgDebriefing
 		picture = "";
 		pictureColor[] = {0,0.3,0.6,1};
 	};
-	
+
 	class SpyGlass
 	{
 		title = "The SpyGlass sees you";
@@ -193,7 +193,7 @@ class CfgNotifications
 		duration = 5;
 		priority = 7;
 	};
-	
+
 	class DeliveryAssigned
 	{
 		title = "Job de Livraison accepté";
@@ -202,7 +202,7 @@ class CfgNotifications
 		duration = 10;
 		priority = 7;
 	};
-	
+
 	class DeliveryFailed
 	{
 		title = "Job de Livraison échoué";
@@ -211,7 +211,7 @@ class CfgNotifications
 		duration = 7;
 		priority = 7;
 	};
-	
+
 	class DeliverySucceeded
 	{
 		title = "Job de Livraison terminé";
@@ -220,7 +220,7 @@ class CfgNotifications
 		duration = 6;
 		priority = 6;
 	};
-	
+
 	class TextMessage
 	{
 		title = "Nouveau Message";
@@ -229,7 +229,7 @@ class CfgNotifications
 		duration = 10;
 		priority = 6;
 	};
-	
+
 	class PoliceDispatch
 	{
 		title = "Alerte Police Secours";
@@ -238,7 +238,7 @@ class CfgNotifications
 		duration = 10;
 		priority = 6;
 	};
-	
+
 	class AdminDispatch
 	{
 		title = "Requête Admin";
@@ -247,7 +247,7 @@ class CfgNotifications
 		duration = 10;
 		priority = 6;
 	};
-	
+
 	class AdacMessage
 	{
 		title = "Requête Armée";
@@ -256,7 +256,7 @@ class CfgNotifications
 		duration = 10;
 		priority = 5;
 	};
-	
+
 	class AdminMessage
 	{
 		title = "Message des Admins";
