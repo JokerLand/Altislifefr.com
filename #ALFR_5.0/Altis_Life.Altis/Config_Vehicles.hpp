@@ -1904,8 +1904,8 @@ class CfgVehicles {
 	class B_Quadbike_01_F {
         vItemSpace = 25;
         storageFee[] = { 0, 0, 0, 0 };
-		garageSell[] = { 950, 0, 0, 0 };
-        chopShop = 5000;
+		garageSell[] = { 50, 0, 0, 0 };
+        chopShop = 3000;
         textures[] = {
         	{ "Brown", "cop", {
                 "\A3\Soft_F\Quadbike_01\Data\Quadbike_01_co.paa"
