@@ -2732,7 +2732,7 @@ class Mission
 						};
 						class Item3
 						{
-							value="TFR / Test Staff Only";
+							value="EN JEU TASK FORCE RADIO";
 							parentCls="tfar_ModuleTaskForceRadioEnforceUsage";
 							typeName="radio_channel_name";
 						};
