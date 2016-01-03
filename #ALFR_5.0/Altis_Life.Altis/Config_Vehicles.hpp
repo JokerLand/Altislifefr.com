@@ -89,7 +89,7 @@ class CarShops {
 			{ "I_Truck_02_covered_F", 60000, "trucking" },
 			{ "cg_rv_camper", 13000, "trucking" },
 			{ "B_Truck_01_transport_F", 60000, "trucking" },
-			{ "A3L_Dumptruck", 250000, "trucking" },
+			{ "A3L_Dumptruck", 90000, "trucking" },
 			{ "B_Truck_01_box_F", 105000, "trucking" }
 		};
 	};
