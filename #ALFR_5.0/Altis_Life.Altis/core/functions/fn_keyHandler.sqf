@@ -362,31 +362,31 @@ switch (_code) do
 	};
 
 	//F Key
-	case 33: {
-		if(playerSide in [west,independent] && {vehicle player != player} && {!life_siren_active} && {((driver vehicle player) == player)}) then {
-			[] spawn {
-				life_siren_active = true;
-				sleep 4.7;
-				life_siren_active = false;
-			};
-			
-			_veh = vehicle player;
-			if(isNil {_veh GVAR "siren"}) then {_veh SVAR ["siren",false,true];};
-			if((_veh GVAR "siren")) then {
-				titleText [localize "STR_MISC_SirensOFF","PLAIN"];
-				_veh SVAR ["siren",false,true];
-			} else {
-				titleText [localize "STR_MISC_SirensON","PLAIN"];
-				_veh SVAR ["siren",true,true];
-				if(playerSide == west) then {
-					[_veh] remoteExec ["life_fnc_copSiren",RCLIENT];
-				} else {
-					//I do not have a custom sound for this and I really don't want to go digging for one, when you have a sound uncomment this and change medicSiren.sqf in the medical folder.
-					//[_veh] remoteExec ["life_fnc_medicSiren",RCLIENT];
-				};
-			};
-		};
-	};
+    case 33: {
+        if(playerSide in [west,independent] && {vehicle player != player} && {!life_siren_active} && {((driver vehicle player) == player)}) then {
+            [] spawn {
+                life_siren_active = true;
+                sleep 5;
+                life_siren_active = false;
+            };
+           
+            _veh = vehicle player;
+            if(isNil {_veh GVAR "siren"}) then {_veh SVAR ["siren",false,true];};
+            if((_veh GVAR "siren")) then {
+                titleText [localize "STR_MISC_SirensOFF","PLAIN"];
+                _veh SVAR ["siren",false,true];
+            } else {
+                titleText [localize "STR_MISC_SirensON","PLAIN"];
+                _veh SVAR ["siren",true,true];
+                if(playerSide == west) then {
+                    [[_veh],"life_fnc_copSiren",nil,true] call life_fnc_MP;
+                } else {
+                    //I do not have a custom sound for this and I really don't want to go digging for one, when you have a sound uncomment this and change medicSiren.sqf in the medical folder.
+                    //[[_veh],"life_fnc_medicSiren",nil,true] call life_fnc_MP;
+                };
+            };
+        };
+    };
 	//U Key
 	case 22:
 	{
