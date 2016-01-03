@@ -8,5 +8,6 @@ life_versionInfo = "Altis Life RPG v5.0";
 //Menu Admin
 [] execVM "Anticheat.sqf";
 [] execVM "AdminMenu.sqf";
-
+//Safezone
+[] execVM "safezone.sqf";
 StartProgress = true;
