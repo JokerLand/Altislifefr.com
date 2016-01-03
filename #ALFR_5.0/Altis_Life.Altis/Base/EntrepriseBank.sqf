@@ -5,7 +5,6 @@ _cString = {_obj = createVehicle [(_dat select 0), call compile (_dat select 1),
 
 _dat = ["Land_Offices_01_V1_F","[16093.600586,16933.167969,-9.53674e-007]",180,-100,0,0,[]];call _cString;
 _dat = ["Land_Offices_01_V1_F","[16073.985352,17063.648438,0]",-1.70454,-100,0,0,[]];call _cString;
-_dat = ["Land_Offices_01_V1_F","[16032.847656,16962.9375,0]",233.295,-100,0,0,[]];call _cString;
 _dat = ["Land_Offices_01_V1_F","[16135.287109,17030.0605469,0]",60,-100,0,0,[]];call _cString;
 _dat = ["Land_Offices_01_V1_F","[16135.542969,16964.158203,0]",-241.705,-100,0,0,[]];call _cString;
 _dat = ["Land_i_Barracks_V1_dam_F","[15991.972656,16962.527344,0]",-5,-100,0,0,[]];call _cString;

@@ -75,33 +75,35 @@ switch (_code) do
 			case east:{if(!visibleMap) then {[] spawn life_fnc_adacMarkers;}};
 		};
 	};
-	//H Key
-	case 35:
-	{
-		if(!_alt && !_ctrlKey && !_shift) then
-		{
-			if (vehicle player == player && !(player getVariable ["restrained", false]) && !(player getVariable ["Escorting", false]) ) then {
-				if (player getVariable ["playerSurrender", false]) then {
-					player setVariable ["playerSurrender", false, true];
-				} else {
-					[] spawn life_fnc_surrender;
-				};
-			};
-			_handled = true;
-		};
-
-		if(!_ctrlKey && _shift && currentWeapon player != "") then {
-			life_curWep_h = currentWeapon player;
-			player action ["SwitchWeapon", player, player, 100];
-			player switchCamera cameraView;
-		};
-
-		if(!_shift && _ctrlKey && !isNil "life_curWep_h" && {!(EQUAL(life_curWep_h,""))}) then {
-			if(life_curWep_h in [RIFLE,LAUNCHER,PISTOL]) then {
-				player selectWeapon life_curWep_h;
-			};
-		};
-	};
+	//H Key mettre les mains sur la tete + Hostler
+    case 35:
+    {
+        if(!_alt && !_ctrlKey && !_shift) then
+        {
+            if (vehicle player == player && !(player GVAR ["restrained", false]) && (animationState player) != "Incapacitated" && !life_istazed) then
+            {
+                if (player GVAR ["surrender", false]) then
+                {
+                    player SVAR ["surrender", false, true];
+                } else
+                {
+                    [] spawn life_fnc_surrender;
+                };
+            };
+        };
+           
+        if(!_ctrlKey && _shift && currentWeapon player != "") then {
+            life_curWep_h = currentWeapon player;
+            player action ["SwitchWeapon", player, player, 100];
+            player switchcamera cameraView;
+        };
+ 
+        if(_ctrlKey && !_shift && !isNil "life_curWep_h" && {(life_curWep_h != "")}) then {
+            if(life_curWep_h in [primaryWeapon player,secondaryWeapon player,handgunWeapon player]) then {
+                player selectWeapon life_curWep_h;
+            };
+        };
+    };
 
 	//Touche pour supprimer cones, barrières et herses lorsqu'un policier vise cet objet ( O )
 	case 24:
@@ -162,6 +164,17 @@ switch (_code) do
 				waitUntil {!isNull (findDisplay 602)};
 				closeDialog 0;
 			};
+		};
+	};
+    
+    //Anti MetaGaming (Touche "²")
+	 case 41:
+    {
+		if((_code in (actionKeys "SelectAll") || _code in (actionKeys "ForceCommandingMode"))) then 
+		{
+			[] call life_fnc_p_openMenu;
+			player setDamage ((getDammage player) + 0.1);
+			hint parseText format["Pas de Triche !!!<br/>MetaGaming INTERDIT !<br/>Tu as compris la leçon ???<br/><t size='1.4'><t color='#0a8cb2'>Tu viens de perdre 10 points de vie !</t></t>"];
 		};
 	};
 
@@ -349,31 +362,31 @@ switch (_code) do
 	};
 
 	//F Key
-	case 33: {
-		if(playerSide in [west,independent] && {vehicle player != player} && {!life_siren_active} && {((driver vehicle player) == player)}) then {
-			[] spawn {
-				life_siren_active = true;
-				sleep 4.7;
-				life_siren_active = false;
-			};
-			
-			_veh = vehicle player;
-			if(isNil {_veh GVAR "siren"}) then {_veh SVAR ["siren",false,true];};
-			if((_veh GVAR "siren")) then {
-				titleText [localize "STR_MISC_SirensOFF","PLAIN"];
-				_veh SVAR ["siren",false,true];
-			} else {
-				titleText [localize "STR_MISC_SirensON","PLAIN"];
-				_veh SVAR ["siren",true,true];
-				if(playerSide == west) then {
-					[_veh] remoteExec ["life_fnc_copSiren",RCLIENT];
-				} else {
-					//I do not have a custom sound for this and I really don't want to go digging for one, when you have a sound uncomment this and change medicSiren.sqf in the medical folder.
-					//[_veh] remoteExec ["life_fnc_medicSiren",RCLIENT];
-				};
-			};
-		};
-	};
+    case 33: {
+        if(playerSide in [west,independent] && {vehicle player != player} && {!life_siren_active} && {((driver vehicle player) == player)}) then {
+            [] spawn {
+                life_siren_active = true;
+                sleep 5;
+                life_siren_active = false;
+            };
+           
+            _veh = vehicle player;
+            if(isNil {_veh GVAR "siren"}) then {_veh SVAR ["siren",false,true];};
+            if((_veh GVAR "siren")) then {
+                titleText [localize "STR_MISC_SirensOFF","PLAIN"];
+                _veh SVAR ["siren",false,true];
+            } else {
+                titleText [localize "STR_MISC_SirensON","PLAIN"];
+                _veh SVAR ["siren",true,true];
+                if(playerSide == west) then {
+                    [[_veh],"life_fnc_copSiren",nil,true] call life_fnc_MP;
+                } else {
+                    //I do not have a custom sound for this and I really don't want to go digging for one, when you have a sound uncomment this and change medicSiren.sqf in the medical folder.
+                    //[[_veh],"life_fnc_medicSiren",nil,true] call life_fnc_MP;
+                };
+            };
+        };
+    };
 	//U Key
 	case 22:
 	{

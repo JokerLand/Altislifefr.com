@@ -26,6 +26,10 @@ if(EQUAL(count _itemArray,0)) exitWith {
         case independent: {
             [] call life_fnc_medicLoadout;
         };
+		
+		case east: {
+			[] call life_fnc_adacLoadout;
+		};
     };
 };
 

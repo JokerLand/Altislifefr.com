@@ -27,6 +27,7 @@ _query = switch(_side) do {
 	case west: {format["playerWestInfo:%1",_uid];};
 	case civilian: {format["playerCivInfo:%1",_uid];};
 	case independent: { format["playerIndependentInfo:%1",_uid];};
+	case east: { format["playerEastInfo:%1",_uid];};
 };
 
 waitUntil{sleep (random 0.3); !DB_Async_Active};

@@ -29,6 +29,7 @@ CONTROL(2700,2701) ctrlSetStructuredText parseText format["<img size='1.7' image
 			case west: {_type = "Cop"};
 			case civilian: {_type = "Civ"};
 			case independent: {_type = "EMS"};
+			case east: {_type = "Adac"};
 		};
 		_units lbAdd format["%1 (%2)",_x GVAR ["realname",name _x],_type];
 		_units lbSetData [(lbSize _units)-1,str(_x)];

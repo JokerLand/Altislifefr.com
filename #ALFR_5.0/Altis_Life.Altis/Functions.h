@@ -27,6 +27,7 @@ class Life_Client_Core
 		class initMedic {};
 		class welcomeNotification {};
 		class survival {};
+		class initAdac {};
 	};
 	
 	class Admin
@@ -270,6 +271,15 @@ class Life_Client_Core
         class copEnter {}
         class InsigneAction {};
 		class Insigne {};
+	};
+	
+	class Adac
+	{
+		file = "core\adac";
+		class adacLoadout {};
+		class adacMarkers {};
+		class adacInteractionMenu {};
+		class adacEnter {};
 	};
 	
 	class Gangs
