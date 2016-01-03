@@ -113,6 +113,9 @@ life_fnc_moveIn = compileFinal
 
 [] spawn life_fnc_survival;
 
+//Gaz lacrymogène
+[] execVM "teargas.sqf";
+
 // MELEE ANIMS HOTFIX
 player addEventHandler["Fired",{
         _unit = _this select 0;
