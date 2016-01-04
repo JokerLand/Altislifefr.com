@@ -172,16 +172,16 @@ class WeaponShops {
         level = -1;
         msg = "";
         items[] = {
-        	{ "Binocular", "", 150 },
-			{ "ItemGPS", "", 100 },
-			{ "ToolKit", "", 250 },
-			{ "FirstAidKit", "", 150 },
-			{ "NVGoggles", "", 2000 },
+        	{ "Binocular", "", 15 },
+			{ "ItemGPS", "", 10 },
+			{ "ToolKit", "", 50 },
+			{ "FirstAidKit", "", 15 },
+			{ "NVGoggles", "", 100 },
 			{ "Chemlight_red", "", 5 },
 			{ "Chemlight_yellow", "", 5 },
 			{ "Chemlight_green", "", 5 },
 			{ "Chemlight_blue", "", 5 },
-			{ "tf_anprc148jem_1", "Radio Courte", 50 },
+			{ "tf_anprc148jem_1", "Radio Courte", 0 },
 			{ "tf_anprc155_coyote", "Radio Longue", 0 }
         };
     };
@@ -219,7 +219,7 @@ class WeaponShops {
             { "optic_ACO_grn", "", 25 },
             { "optic_Aco", "", 50 },
             { "acc_pointer_IR", "", 20 },
-            { "bipod_01_F_blk", "", 50 },    
+            { "bipod_01_F_blk", "", 50 },
             { "SmokeShell", "", 30 },
             //Policier
             { "hgun_P07_snds_F", "Taser", 100 },
@@ -254,7 +254,7 @@ class WeaponShops {
             { "optic_Hamr", "", 100 },
             { "optic_Arco", "", 100 },
             { "acc_pointer_IR", "", 20 },
-            { "bipod_01_F_blk", "", 50 },    
+            { "bipod_01_F_blk", "", 50 },
             { "SmokeShell", "", 30 },
             //Policier
             { "hgun_P07_snds_F", "Taser", 100 },
@@ -284,8 +284,8 @@ class WeaponShops {
             { "arifle_MX_Black_F", "", 500 },
             { "arifle_MX_GL_Black_F", "", 500 },
             { "arifle_MX_SW_Black_F", "", 500 },
-            { "30Rnd_65x39_caseless_mag_Tracer", "", 17 },						
-            { "100Rnd_65x39_caseless_mag_Tracer", "", 17 }     
+            { "30Rnd_65x39_caseless_mag_Tracer", "", 17 },
+            { "100Rnd_65x39_caseless_mag_Tracer", "", 17 }
         };
     };
     //Armurerie adjudant
@@ -307,7 +307,7 @@ class WeaponShops {
             { "optic_Hamr", "", 100 },
             { "optic_Arco", "", 100 },
             { "acc_pointer_IR", "", 20 },
-            { "bipod_01_F_blk", "", 50 },    
+            { "bipod_01_F_blk", "", 50 },
             { "SmokeShell", "", 30 },
             //Policier
             { "hgun_P07_snds_F", "Taser", 100 },
@@ -337,8 +337,8 @@ class WeaponShops {
             { "arifle_MX_Black_F", "", 500 },
             { "arifle_MX_GL_Black_F", "", 500 },
             { "arifle_MX_SW_Black_F", "", 500 },
-            { "30Rnd_65x39_caseless_mag_Tracer", "", 17 },						
-            { "100Rnd_65x39_caseless_mag_Tracer", "", 17 },					
+            { "30Rnd_65x39_caseless_mag_Tracer", "", 17 },
+            { "100Rnd_65x39_caseless_mag_Tracer", "", 17 },
             //Adj
             { "M110", "", 570 },
             { "20Rnd_762x51_Mag", "", 19 },
@@ -374,7 +374,7 @@ class WeaponShops {
             { "optic_Hamr", "", 100 },
             { "optic_Arco", "", 100 },
             { "acc_pointer_IR", "", 20 },
-            { "bipod_01_F_blk", "", 50 },    
+            { "bipod_01_F_blk", "", 50 },
             { "SmokeShell", "", 30 },
             //Policier
             { "hgun_P07_snds_F", "Taser", 100 },
@@ -404,8 +404,8 @@ class WeaponShops {
             { "arifle_MX_Black_F", "", 500 },
             { "arifle_MX_GL_Black_F", "", 500 },
             { "arifle_MX_SW_Black_F", "", 500 },
-            { "30Rnd_65x39_caseless_mag_Tracer", "", 17 },						
-            { "100Rnd_65x39_caseless_mag_Tracer", "", 17 },						
+            { "30Rnd_65x39_caseless_mag_Tracer", "", 17 },
+            { "100Rnd_65x39_caseless_mag_Tracer", "", 17 },
             //Adj
             { "M110", "", 570 },
             { "20Rnd_762x51_Mag", "", 19 },
@@ -449,7 +449,7 @@ class WeaponShops {
             { "optic_Hamr", "", 100 },
             { "optic_Arco", "", 100 },
             { "acc_pointer_IR", "", 20 },
-            { "bipod_01_F_blk", "", 50 },    
+            { "bipod_01_F_blk", "", 50 },
             { "SmokeShell", "", 30 },
             //Policier
             { "hgun_P07_snds_F", "Taser", 100 },
@@ -479,8 +479,8 @@ class WeaponShops {
             { "arifle_MX_Black_F", "", 500 },
             { "arifle_MX_GL_Black_F", "", 500 },
             { "arifle_MX_SW_Black_F", "", 500 },
-            { "30Rnd_65x39_caseless_mag_Tracer", "", 17 },						
-            { "100Rnd_65x39_caseless_mag_Tracer", "", 17 },						
+            { "30Rnd_65x39_caseless_mag_Tracer", "", 17 },
+            { "100Rnd_65x39_caseless_mag_Tracer", "", 17 },
             //Adj
             { "M110", "", 570 },
             { "20Rnd_762x51_Mag", "", 19 },
@@ -531,7 +531,7 @@ class WeaponShops {
             { "optic_Hamr", "", 100 },
             { "optic_Arco", "", 100 },
             { "acc_pointer_IR", "", 20 },
-            { "bipod_01_F_blk", "", 50 },    
+            { "bipod_01_F_blk", "", 50 },
             { "SmokeShell", "", 30 },
             //Policier
             { "hgun_P07_snds_F", "Taser", 100 },
@@ -561,8 +561,8 @@ class WeaponShops {
             { "arifle_MX_Black_F", "", 500 },
             { "arifle_MX_GL_Black_F", "", 500 },
             { "arifle_MX_SW_Black_F", "", 500 },
-            { "30Rnd_65x39_caseless_mag_Tracer", "", 17 },						
-            { "100Rnd_65x39_caseless_mag_Tracer", "", 17 },						
+            { "30Rnd_65x39_caseless_mag_Tracer", "", 17 },
+            { "100Rnd_65x39_caseless_mag_Tracer", "", 17 },
             //Adj
             { "M110", "", 570 },
             { "20Rnd_762x51_Mag", "", 19 },
@@ -616,7 +616,7 @@ class WeaponShops {
             { "optic_Hamr", "", 100 },
             { "optic_Arco", "", 100 },
             { "acc_pointer_IR", "", 20 },
-            { "bipod_01_F_blk", "", 50 },    
+            { "bipod_01_F_blk", "", 50 },
             { "SmokeShell", "", 30 },
             //Policier
             { "hgun_P07_snds_F", "Taser", 100 },
@@ -646,8 +646,8 @@ class WeaponShops {
             { "arifle_MX_Black_F", "", 500 },
             { "arifle_MX_GL_Black_F", "", 500 },
             { "arifle_MX_SW_Black_F", "", 500 },
-            { "30Rnd_65x39_caseless_mag_Tracer", "", 17 },						
-            { "100Rnd_65x39_caseless_mag_Tracer", "", 17 },						
+            { "30Rnd_65x39_caseless_mag_Tracer", "", 17 },
+            { "100Rnd_65x39_caseless_mag_Tracer", "", 17 },
             //Adj
             { "M110", "", 570 },
             { "20Rnd_762x51_Mag", "", 19 },
