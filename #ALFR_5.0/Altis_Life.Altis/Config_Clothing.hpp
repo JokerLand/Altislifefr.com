@@ -314,7 +314,7 @@ class Clothing {
 	class armer {
 		title = "STR_Shops_C_Diving";
 		license = "";
-		side = "adac";
+		side = "armer";
 
 		uniforms[] = {
 			{ "NONE", "Remove Uniform", 0, { "", "", -1 } },

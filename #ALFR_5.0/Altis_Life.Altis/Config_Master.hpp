@@ -228,7 +228,7 @@ class Licenses {
 	LICENSEMACRO(salt,"STR_License_Salt","salt",400,false,"civ")
 
 	/** Ilegal **/
-	LICENSEMACRO(rebel,"STR_License_Rebel","rebel",55000,true,"civ")
+	LICENSEMACRO(rebel,"STR_License_Rebel","rebel",999999,true,"civ")
 	LICENSEMACRO(heroin,"STR_License_Heroin","heroin",50000,true,"civ")
 	LICENSEMACRO(marijuana,"STR_License_Marijuana","marijuana",28000,true,"civ")
 	LICENSEMACRO(medmarijuana,"STR_License_Medmarijuana","medmarijuana",20000,false,"civ")
