@@ -2350,8 +2350,9 @@ class CfgVehicles {
 	class I_Truck_02_transport_F : I_Truck_02_covered_F {
         vItemSpace = 300;
         storageFee[] = { 1000, 1000, 1000, 1000 };
-        vItemSpace = 250;
 		garageSell[] = { 1000, 1000, 1000, 1000 };
+        chopShop = 20000;
+        textures[] = {};
     };
 
 	class O_Truck_03_covered_F {
