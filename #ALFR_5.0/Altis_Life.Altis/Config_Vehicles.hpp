@@ -1954,7 +1954,7 @@ class CfgVehicles {
             { "Armer", "armer", {
                 "alfr_Arm\data\ALFR_lite_armee.jpg"
             } },
-			{ "Monster", "civ" {
+			{ "Monster", "civ", {
                 "ALFR_TexSnd\M900_Monster.paa"
             } },
 			{ "Rebelle", "reb" {
@@ -1976,6 +1976,8 @@ class CfgVehicles {
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
 		chopShop = 3000;	
+		
+	};
 
 	class civ_ship {
 		side = "civ";
@@ -1984,8 +1986,6 @@ class CfgVehicles {
 			{ "C_Boat_Civil_01_F", 22000, "boat" }
 		};
 	};
-};
-
 	class I_Truck_02_medical_F : Default {
 		vItemSpace = 150;
 		storageFee[] = { 0, 0, 0, 0 };
@@ -2248,10 +2248,7 @@ class CfgVehicles {
 			{ "Medical", "med", {
 	                "ALFR_TexSnd\med_offroad.jpg"
             } }
-			
-			
-			
-			
+				
 	    };
     };
 
@@ -2580,4 +2577,3 @@ class CfgVehicles {
             } }
         };
     };
-};
