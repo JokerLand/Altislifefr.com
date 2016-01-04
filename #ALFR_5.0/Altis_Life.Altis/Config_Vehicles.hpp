@@ -257,7 +257,7 @@ class CarShops {
 class CfgVehicles {
 	class Default {
 		vItemSpace = -1;
-		storageFee[] = { 1000, 1000, 1000, 1000 };
+		storageFee[] = { 50, 50, 50, 50 };
 		garageSell[] = { 0, 0, 0, 0 };
 		insurance = 2500;
 		chopShop = 1200;
@@ -1904,7 +1904,7 @@ class CfgVehicles {
 	class B_Quadbike_01_F {
         vItemSpace = 25;
         storageFee[] = { 0, 0, 0, 0 };
-		garageSell[] = { 50, 0, 0, 0 };
+	garageSell[] = { 3000, 0, 0, 0 };
         chopShop = 3000;
         textures[] = {
         	{ "Brown", "cop", {
