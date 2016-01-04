@@ -84,13 +84,18 @@ class CarShops {
 			{ "C_Van_01_transport_F", 6000, "trucking" },
 			{ "C_Van_01_Fuel_F", 4400, "trucking" },
 			{ "C_Van_01_box_F", 12500, "trucking" },
+            { "cl3_transit_black", 12000, "trucking" },
+            { "GeK_Renault_Trafic", 12500, "trucking" },
 			{ "C_Offroad_01_repair_F", 7500, "trucking" },
 			{ "I_Truck_02_transport_F", 25000, "trucking" },
 			{ "I_Truck_02_covered_F", 32500, "trucking" },
 			{ "cg_rv_camper", 13000, "trucking" },
 			{ "B_Truck_01_transport_F", 60000, "trucking" },
 			{ "A3L_Dumptruck", 250000, "trucking" },
-			{ "B_Truck_01_box_F", 105000, "trucking" }
+			{ "B_Truck_01_box_F", 105000, "trucking" },
+            { "ALFR_GeK_Scania_420", 105000, "trucking" },
+            { "ALFR_GeK_Volvo_FH16_2012", 105000, "trucking" },
+            { "GeK_Renault_Magnum", 105000, "trucking" }
 		};
 	};
 
