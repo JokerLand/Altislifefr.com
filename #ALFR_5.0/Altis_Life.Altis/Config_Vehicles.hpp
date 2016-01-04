@@ -1789,9 +1789,10 @@ class CfgVehicles {
 			{ "Orange", "civ", {
                 "#(argb,8,8,3)color(1,0.3,0.01,0.6)"
             } }
+			
+		};
+	};
 
-	
-	
 	class  GeK_Renault_Magnum: Default {
 		vItemSpace = 800;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
@@ -1957,7 +1958,7 @@ class CfgVehicles {
 			{ "Monster", "civ", {
                 "ALFR_TexSnd\M900_Monster.paa"
             } },
-			{ "Rebelle", "reb" {
+			{ "Rebelle", "reb", {
                 "ALFR_TexSnd\Hummingbird_Metallique_Urbain.paa"
             } }
         };
@@ -2173,8 +2174,8 @@ class CfgVehicles {
                 "ALFR_TexSnd\Ifrit_Spetsnaz.paa",
                 "ALFR_TexSnd\Ifrit_Spetsnaz_Back.paa"
 		} }
-		};
-    };
+	 };
+  };
 
 	class I_MRAP_03_F {
         vItemSpace = 60;
@@ -2523,13 +2524,13 @@ class CfgVehicles {
             { "Armer", "armer", {
                 "alfr_Arm\data\ALFR_lite_armee.jpg"
             } },
-			{ "Monster", "civ" {
+			{ "Monster", "civ", {
                 "ALFR_TexSnd\M900_Monster.paa"
             } },
-			{ "Rebelle", "reb" {
+			{ "Rebelle", "reb", {
                 "ALFR_TexSnd\Hummingbird_Metallique_Urbain.paa"
             } },
-			{ "medical", "med" {
+			{ "medical", "med", {
                 "ALFR_TexSnd\Heli_medic.jpg"
             } }
         };
@@ -2577,3 +2578,4 @@ class CfgVehicles {
             } }
         };
     };
+};
