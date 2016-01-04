@@ -208,7 +208,7 @@ class Licenses {
 	LICENSEMACRO(pilot,"STR_License_Pilot","pilot",18500,false,"civ")
 	LICENSEMACRO(gun,"STR_License_Firearm","gun",6500,false,"civ")
 	LICENSEMACRO(dive,"STR_License_Diving","dive",1500,false,"civ")
-	LICENSEMACRO(trucking,"STR_License_trucking","trucking",5000,false,"civ")
+	LICENSEMACRO(trucking,"STR_License_trucking","trucking",25000,false,"civ")
 	LICENSEMACRO(home,"STR_License_Home","home",50000,false,"civ")
 
 
