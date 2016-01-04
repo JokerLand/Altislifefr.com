@@ -86,11 +86,11 @@ class CarShops {
 			{ "I_Truck_02_transport_F", 25000, "trucking" },
 			{ "I_Truck_02_covered_F", 32500, "trucking" },
 			{ "cg_rv_camper", 13000, "trucking" },
-			{ "B_Truck_01_transport_F", 60000, "trucking" },
-			{ "B_Truck_01_box_F", 105000, "trucking" },
-            { "ALFR_GeK_Scania_420", 105000, "trucking" },
-            { "ALFR_GeK_Volvo_FH16_2012", 105000, "trucking" },
-            { "GeK_Renault_Magnum", 105000, "trucking" }
+			{ "B_Truck_01_transport_F", 39000, "trucking" },
+			{ "B_Truck_01_box_F", 45000, "trucking" },
+            { "ALFR_GeK_Scania_420", 48000, "trucking" },
+            { "GeK_Renault_Magnum", 55000, "trucking" },
+            { "ALFR_GeK_Volvo_FH16_2012", 62000, "trucking" }
 		};
 	};
 
@@ -1976,7 +1976,7 @@ class CfgVehicles {
 	};
 
 	class  ALFR_GeK_Scania_420: Default {
-		vItemSpace = 600;
+		vItemSpace = 550;
 		storageFee[] = { 0, 0, 0, 0 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
 		chopShop = 3000;
@@ -2081,7 +2081,7 @@ class CfgVehicles {
 	};
 
 	class  GeK_Renault_Magnum: Default {
-		vItemSpace = 800;
+		vItemSpace = 600;
 		storageFee[] = { 0, 0, 0, 0 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
 		chopShop = 3000;
@@ -2415,7 +2415,7 @@ class CfgVehicles {
 
 	class B_Truck_01_box_F {
 
-        vItemSpace = 600;
+        vItemSpace = 500;
         storageFee[] = { 0, 0, 0, 0 };
 		garageSell[] = { 1000, 0, 0, 0 };
         chopShop = 5000;
@@ -2423,8 +2423,8 @@ class CfgVehicles {
     };
 
 	class B_Truck_01_transport_F {
-        vItemSpace = 425;
-        storageFee[] = { 1000, 1000, 1000, 1000 };
+        vItemSpace = 400;
+        storageFee[] = { 0, 0, 0, 0 };
 		garageSell[] = { 1000, 0, 0, 0 };
         chopShop = 5000;
         textures[] = { };
@@ -2643,7 +2643,7 @@ class CfgVehicles {
     };
 
 	class O_Truck_03_covered_F {
-		vItemSpace = 250;
+		vItemSpace = 300;
 		storageFee[] = { 1000, 0, 0, 0 };
 		garageSell[] = { 1000, 0, 0, 0 };
 		chopShop = 5000;
