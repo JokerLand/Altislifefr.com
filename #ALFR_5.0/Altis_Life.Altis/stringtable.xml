@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project name="Altis Life RPG">
 	<Package name="Shop_Names">
 		<Key ID="STR_Shops_C_Bruce">
@@ -4340,6 +4340,9 @@
 			<French>Vous devez être un flic pour utiliser ce magasin!</French>
 			<Italian>Devi essere un poliziotto per utilizzare questo negozio!</Italian>
 			<Portuguese>Você tem que ser Policial para usar essa loja!</Portuguese>
+		</Key>
+		<Key ID="STR_Shop_NotaArmer">
+			<Original>Vous ne faites pas partie de l'armée !</Original>
 		</Key>
 		<Key ID="STR_Shop_NotaReb">
 			<Original>You don't have rebel training yet!</Original>

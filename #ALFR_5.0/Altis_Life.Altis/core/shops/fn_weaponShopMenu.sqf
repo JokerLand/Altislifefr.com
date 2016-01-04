@@ -21,10 +21,10 @@ if(!(EQUAL(_license,""))) then {
 };
 if(_exit) exitWith {};
 
-_flag = switch(playerSide) do {case west: {"cop"}; case independent: {"med"}; default {"civ"};};
+_flag = switch(playerSide) do {case west: {"cop"}; case independent: {"med"}; case east: {"armer"}; default {"civ"};};
 if(!(EQUAL(_flag,_shopSide))) exitWith {};
 if(!(EQUAL(_level,-1))) then {
-    _flag = switch(playerSide) do {case west: {(_level <= (FETCH_CONST(life_copLevel)))}; case independent: {(_level <= (FETCH_CONST(life_medicLevel)))}; default {true};};
+    _flag = switch(playerSide) do {case west: {(_level <= (FETCH_CONST(life_copLevel)))}; case east: {(_level <= (FETCH_CONST(life_adaclevel)))}; case independent: {(_level <= (FETCH_CONST(life_medicLevel)))}; default {true};};
     if(!_flag) then {_exit2 = true;};
 };
 if(_exit2) exitWith {hint _message;};
