@@ -193,14 +193,14 @@ class WeaponShops {
         level = -1;
         msg = "";
         items[] = {
-        	{ "Binocular", "", 150 },
-			{ "ItemGPS", "", 100 },
-			{ "ToolKit", "", 250 },
-			{ "FirstAidKit", "", 150 },
-			{ "Medikit", "", 2000 },
-			{ "pmc_earpiece", "", 300 },
+        	{ "Binocular", "", 15 },
+			{ "ItemGPS", "", 10 },
+			{ "ToolKit", "", 50 },
+			{ "FirstAidKit", "", 15 },
+			{ "Medikit", "", 50 },
+			{ "pmc_earpiece", "", 100 },
 			{ "Rangefinder", "", 15 },
-			{ "tf_fadak", "Radio Courte", 50 }
+			{ "tf_fadak", "Radio Courte", 0 }
         };
     };
     //Armurerie policier
