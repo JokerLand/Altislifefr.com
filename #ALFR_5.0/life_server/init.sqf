@@ -130,6 +130,18 @@ onMapSingleClick "if(_alt) then {vehicle player setPos _pos};"; //Local debug fo
 	};
 } foreach allUnits;
 
+[] spawn {
+    while {true} do {
+        {
+            if(count (units _x) == 0) then {
+                //Delete the group
+                deleteGroup _x;
+            };
+        } forEach allGroups;
+        sleep 250;
+    };
+};
+
 [8,true,12] execFSM "\life_server\FSM\timeModule.fsm";
 
 life_adminLevel = 0;
