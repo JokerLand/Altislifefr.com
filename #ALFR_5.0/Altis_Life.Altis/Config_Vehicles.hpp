@@ -2183,7 +2183,7 @@ class CfgVehicles {
         chopShop = 5000;
         textures[] = {
 
-		{ "Police" "cop", {
+		{ "Police", "cop", {
                 "ALFR_TexSnd\strider_police_altis.jpg"
 
 		} }
