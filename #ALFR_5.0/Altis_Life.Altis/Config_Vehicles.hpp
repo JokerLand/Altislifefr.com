@@ -2534,7 +2534,8 @@ class CfgVehicles {
             } },
 			{ "medical", "med" {
                 "ALFR_TexSnd\Heli_medic.jpg"
-            } },
+            } }
+            } }
         };
     };
 
