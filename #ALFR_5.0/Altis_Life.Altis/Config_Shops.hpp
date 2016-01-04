@@ -186,7 +186,7 @@ class WeaponShops {
         };
     };
     //Quincaillerie Police
-    class cop_basic {
+    class copstore {
         name = "Quincaillerie Police";
         side = "cop";
         license = "";

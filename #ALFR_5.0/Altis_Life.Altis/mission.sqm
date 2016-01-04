@@ -3112,7 +3112,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=494;
+		items=495;
 		class Item0
 		{
 			position[]={8065.1616,35.674362,24985.314};
@@ -8544,6 +8544,18 @@ class Mission
 			skill=0.60000002;
 			text="fed_bank";
 			init="this allowDamage false; this enableSimulation false; this addAction[""Open Vault"",life_fnc_safeOpen,"""",0,false,false,"""",' playerSide == civilian && {_target getVariable[""safe_open"",false]} '];  this addAction[""Fix Vault"",life_fnc_safeFix,"""",0,false,false,"""",' playerSide == west && {_target getVariable [""safe_open"",false]} ' ];";
+		};
+		class Item494
+		{
+			position[]={3165.6338,2,12899.076};
+			azimut=629.57098;
+			offsetY=0.40000001;
+			special="NONE";
+			id=710;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V2_F";
+			skill=0.2;
+			init="this enableSimulation false; this allowDamage false; this addAction[""Quincaillerie"",life_fnc_weaponShopMenu,""copstore""];";
 		};
 	};
 	class Markers
