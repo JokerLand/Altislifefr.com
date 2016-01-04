@@ -2170,7 +2170,7 @@ class CfgVehicles {
                 "ALFR_TexSnd\ifrit_black_01.jpg",
                 "ALFR_TexSnd\ifrit_black_02.jpg"
             } },
-		{ "Spetznaz" "reb", {
+		{ "Spetznaz", "reb", {
                 "ALFR_TexSnd\Ifrit_Spetsnaz.paa",
                 "ALFR_TexSnd\Ifrit_Spetsnaz_Back.paa"
 		} }
