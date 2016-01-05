@@ -132,19 +132,19 @@ class CarShops {
 	class cop_car {
 		side = "cop";
 		vehicles[] = {
-			{ "C_Offroad_01_F", 150, ""},
-			{ "C_SUV_01_F", 100, "" },
-			{ "GeK_Renault_Trafic_Police", 150, ""},
-			{ "GeK_S60_Police", 300, ""},
-			{ "ALFR_GeK_Panamera_Police", 200, "", { "life_coplevel", 2 } },
-			{ "GeK_TLC100_Police", 250, "", { "life_coplevel", 2 } },
-			{ "I_MRAP_03_F", 10000, "", { "life_coplevel", 3 } },
-			{ "ALFR_GeK_MF1_Police", 1500, "", { "life_coplevel", 3 } },
-			{ "GeK_S60_Police_ST", 300, "", { "life_coplevel", 3 } },
-			{ "GeK_TLC100", 350, "", { "life_coplevel", 3 } },
-			{ "ALFR_GeK_Panamera_Police_ST", 300, "", { "life_coplevel", 3 } },
-			{ "CL3_bus_cl_black", 400, "", { "life_coplevel", 3 } },
-			{ "cg_h2_sert", 800, "", { "life_coplevel", 4 } }
+			{ "C_Offroad_01_F", 1000, ""},
+			{ "C_SUV_01_F", 1000, "" },
+			{ "GeK_Renault_Trafic_Police", 1000, ""},
+			{ "GeK_S60_Police", 1000, ""},
+			{ "ALFR_GeK_Panamera_Police", 1000, "", { "life_coplevel", 2 } },
+			{ "GeK_TLC100_Police", 1000, "", { "life_coplevel", 2 } },
+			{ "I_MRAP_03_F", 1000, "", { "life_coplevel", 3 } },
+			{ "ALFR_GeK_MF1_Police", 1000, "", { "life_coplevel", 3 } },
+			{ "GeK_S60_Police_ST", 1000, "", { "life_coplevel", 3 } },
+			{ "GeK_TLC100", 1000, "", { "life_coplevel", 3 } },
+			{ "ALFR_GeK_Panamera_Police_ST", 1000, "", { "life_coplevel", 3 } },
+			{ "CL3_bus_cl_black", 1000, "", { "life_coplevel", 3 } },
+			{ "cg_h2_sert", 1000, "", { "life_coplevel", 4 } }
 		};
 	};
 
