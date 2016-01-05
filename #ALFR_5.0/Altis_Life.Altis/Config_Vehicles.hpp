@@ -269,28 +269,28 @@ class CfgVehicles {
 		garageSell[] = { 1000, 1000, 1000, 1000 };
 		chopShop = 3000;
 	};
-	
+
 	class O_Truck_03_ammo_F : Default {
 		vItemSpace = 1500;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
 		chopShop = 3000;
 	};
-	
+
 	class O_Heli_Transport_04_covered_F : Default {
 		vItemSpace = 5;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
 		chopShop = 3000;
 	};
-	
+
 	class O_Heli_Transport_04_ammo_F : Default {
 		vItemSpace = 5;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
 		chopShop = 3000;
 	};
-	
+
 	class B_Heli_Transport_03_F : Default {
 		vItemSpace = 5;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
@@ -300,17 +300,17 @@ class CfgVehicles {
 			{ "Police", "cop", {
                 "alfr_police\huron\huronav1.jpg",
 				"alfr_police\huron\huronar1.jpg"
-            } }	
+            } }
 		};
 	};
-	
+
 	class EC635_Unarmed : Default {
 		vItemSpace = 5;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
 		chopShop = 3000;
 	};
-	
+
 	class A3L_VolksWagenGolfGTiblack : Default {
 		vItemSpace = 35;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
@@ -414,49 +414,49 @@ class CfgVehicles {
             } }
 		};
 	};
-	
+
 	class ALFR_GeK_Panamera_Police : Default {
 		vItemSpace = 40;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
-		chopShop = 3000;		
+		chopShop = 3000;
 	};
-	
+
 	class ALFR_GeK_MF1 : Default {
 		vItemSpace = 20;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
-		chopShop = 3000;		
+		chopShop = 3000;
 	};
-	
+
 	class Cha_UH60L_Unarmed_FFV_AUS : Default {
 		vItemSpace = 80;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
-		chopShop = 3000;		
+		chopShop = 3000;
 	};
-	
+
 	class ALFR_suv_armee : Default {
 		vItemSpace = 60;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
-		chopShop = 3000;		
+		chopShop = 3000;
 	};
-	
+
 	class EC635_Med : Default {
 		vItemSpace = 80;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
-		chopShop = 3000;		
+		chopShop = 3000;
 	};
-	
+
 	class cg_rv_camper : Default {
 		vItemSpace = 80;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
-		chopShop = 3000;		
+		chopShop = 3000;
 	};
-	
+
 	class I_Heli_light_03_unarmed_F : Default {
 		vItemSpace = 80;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
@@ -467,53 +467,53 @@ class CfgVehicles {
 			{ "Police", "cop", {
                 "ALFR_TexSnd\cophellcat.jpg"
             } }
-			
+
 		};
 	};
-	
-	
+
+
 	class GeK_TLC100_Medic : Default {
 		vItemSpace = 70;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
-		chopShop = 3000;		
+		chopShop = 3000;
 	};
-	
+
 	class GeK_Renault_Trafic_Ambulance : Default {
 		vItemSpace = 60;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
-		chopShop = 3000;		
+		chopShop = 3000;
 	};
-	
+
 	class GeK_S60_Police_ST : Default {
 		vItemSpace = 50;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
-		chopShop = 3000;		
+		chopShop = 3000;
 	};
-	
+
 	class cg_h2_sert : Default {
 		vItemSpace = 120;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
-		chopShop = 3000;		
+		chopShop = 3000;
 	};
-	
+
 	class AudiA8_Limo : Default {
 		vItemSpace = 60;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
-		chopShop = 3000;		
+		chopShop = 3000;
 	};
-	
+
 	class ALFR_GeK_Panamera_Police_ST : Default {
 		vItemSpace = 40;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
-		chopShop = 3000;		
+		chopShop = 3000;
 	};
-	
+
 	class GeK_TLC100_Police : Default {
 		vItemSpace = 70;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
@@ -527,17 +527,17 @@ class CfgVehicles {
 			{ "Armee", "armer", {
                 "alfr_Arm\data\ALFR_range_armee.jpg"
             } }
-			
+
 		};
 	};
-	
+
 	class ALFR_GeK_MF1_Police : Default {
 		vItemSpace = 20;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
-		chopShop = 3000;		
+		chopShop = 3000;
 	};
-	
+
 	class B_Heli_Transport_03_unarmed_F : Default {
 		vItemSpace = 90;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
@@ -565,17 +565,17 @@ class CfgVehicles {
                 "alfr_police\huron\huronav1.jpg",
 				"alfr_police\huron\huronar1.jpg"
             } }
-			
+
 		};
 	};
-	
+
 	class GeK_S60_Medic : Default {
 		vItemSpace = 50;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
-		chopShop = 3000;		
+		chopShop = 3000;
 	};
-	
+
 	class cl3_arielatom_black : Default {
 		vItemSpace = 20;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
@@ -624,7 +624,7 @@ class CfgVehicles {
             } }
 		};
 	};
-	
+
 	class CL3_bus_cl_black : Default {
 		vItemSpace = 60;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
@@ -638,10 +638,10 @@ class CfgVehicles {
 			{ "Donator", "civ", {
                 "ALFR_TexSnd\bus_exterior_donator.jpg"
             } }
-			
+
 		};
 	};
-	
+
 	class wirk_cayenne : Default {
 		vItemSpace = 55;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
@@ -1011,7 +1011,7 @@ class CfgVehicles {
             } }
 		};
 	};
-    
+
 	class GeK_ElCamino : Default {
 		vItemSpace = 35;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
@@ -1308,7 +1308,7 @@ class CfgVehicles {
             } }
 		};
 	};
-    
+
     class Gek_TLC100 : Default {
 		vItemSpace = 60;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
@@ -1731,7 +1731,7 @@ class CfgVehicles {
 		};
 
 	};
-    
+
 	class cl3_dodge_charger_s_camo : Default {
 		vItemSpace = 35;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
@@ -1959,7 +1959,7 @@ class CfgVehicles {
 		};
 
 	};
-	
+
 	class GeK_Renault_Trafic_Police : Default {
 		vItemSpace = 130;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
@@ -1972,7 +1972,7 @@ class CfgVehicles {
             } }
 		};
 	};
-    
+
     class ALFR_GeK_Panamera : Default {
 		vItemSpace = 40;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
@@ -2025,7 +2025,7 @@ class CfgVehicles {
 		};
 
 	};
-    
+
     class GeK_Civilian_H1 : Default {
 		vItemSpace = 70;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
@@ -2078,16 +2078,16 @@ class CfgVehicles {
 		};
 
 	};
-	
+
 	class GeK_S60_Police : Default {
 		vItemSpace = 50;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
 		chopShop = 3000;
-		
+
 	};
-		
-    
+
+
     class ALFR_GeK_Pagani_Zonda : Default {
 		vItemSpace = 30;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
@@ -2140,7 +2140,7 @@ class CfgVehicles {
 		};
 
 	};
-    
+
 	class IVORY_T6A_1 : Default {
 		vItemSpace = 50;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
@@ -2549,9 +2549,9 @@ class CfgVehicles {
 		textures[] = {
 			{ "Police", "cop", {
                 "alfr_police\hawk\hawkav1.jpg",
-				"alfr_police\hawk\hawkar1.jpg"	
+				"alfr_police\hawk\hawkar1.jpg"
             } }
-				
+
 		};
 	};
 
@@ -3014,11 +3014,11 @@ class CfgVehicles {
             } }
 		};
 	};
-    
+
 	class C_Van_01_transport_F {
         vItemSpace = 80;
         storageFee[] = { 1000, 1000, 1000, 1000 };
-		garageSell[] = { 25000, 0, 0, 0 };
+		garageSell[] = { 2000, 0, 0, 0 };
         chopShop = 5000;
         textures[] = {
         	{ "Blanc", "civ", {
@@ -3033,7 +3033,7 @@ class CfgVehicles {
 	class C_Van_01_box_F {
         vItemSpace = 100;
         storageFee[] = { 1000, 1000, 1000, 1000 };
-		garageSell[] = { 35000, 0, 0, 0 };
+		garageSell[] = { 3000, 0, 0, 0 };
         chopShop = 5000;
         textures[] = {
         	{ "Blanc", "civ", {
@@ -3044,7 +3044,7 @@ class CfgVehicles {
             } }
         };
     };
-    
+
     class cl3_transit_black : Default {
 		vItemSpace = 80;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
@@ -3096,7 +3096,7 @@ class CfgVehicles {
             } }
 		};
 	};
-    
+
     class GeK_Renault_Trafic : Default {
 		vItemSpace = 65;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
@@ -3148,7 +3148,7 @@ class CfgVehicles {
             } }
 		};
 	};
-    
+
 	class B_MRAP_01_F {
         vItemSpace = 65;
         storageFee[] = { 1000, 1000, 1000, 1000 };
