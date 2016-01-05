@@ -151,11 +151,11 @@ class CarShops {
 	class civ_air {
 		side = "civ";
 		vehicles[] = {
-			{ "B_Heli_Light_01_F", 153000, "pilot" },
+			{ "B_Heli_Light_01_F", 100000, "pilot" },
 			{ "C_Heli_Light_01_civil_F", 100000, "pilot" },
-			{ "GNT_C185", 75000, "pilot" },
-			{ "O_Heli_Light_02_unarmed_F", 250000, "pilot" },
-			{ "I_Heli_Transport_02_F", 500000, "pilot" },
+			{ "GNT_C185", 54000, "pilot" },
+			{ "O_Heli_Light_02_unarmed_F", 150000, "pilot" },
+			{ "I_Heli_Transport_02_F", 234000, "pilot" },
 			{ "B_Heli_Transport_03_unarmed_", 2500000, "pilot" }
 
 		};
@@ -426,7 +426,7 @@ class CfgVehicles {
 		vItemSpace = 20;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
-		chopShop = 3000;		
+		chopShop = 12000;		
 	};
 	
 	class Cha_UH60L_Unarmed_FFV_AUS : Default {
@@ -454,7 +454,7 @@ class CfgVehicles {
 		vItemSpace = 80;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
-		chopShop = 3000;		
+		chopShop = 4875;		
 	};
 	
 	class I_Heli_light_03_unarmed_F : Default {
@@ -504,7 +504,7 @@ class CfgVehicles {
 		vItemSpace = 60;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
-		chopShop = 3000;		
+		chopShop = 12000;		
 	};
 	
 	class ALFR_GeK_Panamera_Police_ST : Default {
@@ -580,7 +580,7 @@ class CfgVehicles {
 		vItemSpace = 20;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
-		chopShop = 3000;
+		chopShop = 7500;
 		textures[] = {
 
 			{ "Gris sombre", "civ", {
@@ -646,14 +646,14 @@ class CfgVehicles {
 		vItemSpace = 55;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
-		chopShop = 3000;
+		chopShop = 12000;
 	};
 
 	class GeK_Mercedes_ML63 : Default {
 		vItemSpace = 65;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
-		chopShop = 3000;
+		chopShop = 13125;
 		textures[] = {
 
 			{ "Noir", "civ", {
@@ -721,7 +721,7 @@ class CfgVehicles {
 		vItemSpace = 20;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
-		chopShop = 3000;
+		chopShop = 3500;
 		textures[] = {
 
 			{ "Rouge", "civ", {
@@ -756,7 +756,7 @@ class CfgVehicles {
 		vItemSpace = 30;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
-		chopShop = 3000;
+		chopShop = 2250;
 		textures[] = {
 
 			{ "Noir", "civ", {
@@ -808,7 +808,7 @@ class CfgVehicles {
 		vItemSpace = 30;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
-		chopShop = 3000;
+		chopShop = 2250;
 		textures[] = {
 
 			{ "Noir", "civ", {
@@ -860,7 +860,7 @@ class CfgVehicles {
 		vItemSpace = 40;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
-		chopShop = 3000;
+		chopShop = 11500;
 		textures[] = {
 
 			{ "Noir", "civ", {
@@ -912,7 +912,7 @@ class CfgVehicles {
 		vItemSpace = 40;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
-		chopShop = 3000;
+		chopShop = 11500;
 		textures[] = {
 
 			{ "Noir", "civ", {
@@ -964,7 +964,7 @@ class CfgVehicles {
 		vItemSpace = 55;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
-		chopShop = 3000;
+		chopShop = 11250;
 		textures[] = {
 
 			{ "Noir", "civ", {
@@ -1102,7 +1102,7 @@ class CfgVehicles {
 		vItemSpace = 35;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
-		chopShop = 3000;
+		chopShop = 9375;
 		textures[] = {
 
 			{ "Noir", "civ", {
@@ -1208,7 +1208,7 @@ class CfgVehicles {
 		vItemSpace = 35;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
-		chopShop = 3000;
+		chopShop = 9375;
 		textures[] = {
 
 			{ "Noir", "civ", {
@@ -1261,7 +1261,7 @@ class CfgVehicles {
 		vItemSpace = 20;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
-		chopShop = 3000;
+		chopShop = 2625;
 		textures[] = {
 
 			{ "Noir", "civ", {
@@ -1313,7 +1313,7 @@ class CfgVehicles {
 		vItemSpace = 60;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
-		chopShop = 3000;
+		chopShop = 10500;
 		textures[] = {
 
 			{ "Noir", "civ", {
@@ -1365,7 +1365,7 @@ class CfgVehicles {
 		vItemSpace = 10;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
-		chopShop = 3000;
+		chopShop = 7500;
 		textures[] = {
 
 			{ "Noir", "civ", {
@@ -1418,7 +1418,7 @@ class CfgVehicles {
 		vItemSpace = 10;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
-		chopShop = 3000;
+		chopShop = 7500;
 		textures[] = {
 
 			{ "Noir", "civ", {
@@ -1471,7 +1471,7 @@ class CfgVehicles {
 		vItemSpace = 10;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
-		chopShop = 3000;
+		chopShop = 9000;
 		textures[] = {
 
 			{ "Noir", "civ", {
@@ -1524,7 +1524,7 @@ class CfgVehicles {
 		vItemSpace = 10;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
-		chopShop = 3000;
+		chopShop = 9000;
 		textures[] = {
 
 			{ "Noir", "civ", {
@@ -1577,7 +1577,7 @@ class CfgVehicles {
 		vItemSpace = 10;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
-		chopShop = 3000;
+		chopShop = 9000;
 		textures[] = {
 
 			{ "Noir", "civ", {
@@ -1630,7 +1630,7 @@ class CfgVehicles {
 		vItemSpace = 10;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
-		chopShop = 3000;
+		chopShop = 9000;
 		textures[] = {
 
 			{ "Noir", "civ", {
@@ -1683,7 +1683,7 @@ class CfgVehicles {
 		vItemSpace = 10;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
-		chopShop = 3000;
+		chopShop = 9000;
 		textures[] = {
 
 			{ "Noir", "civ", {
@@ -1805,7 +1805,7 @@ class CfgVehicles {
 		vItemSpace = 10;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
-		chopShop = 3000;
+		chopShop = 11250;
 		textures[] = {
 
 			{ "Noir", "civ", {
@@ -1858,7 +1858,7 @@ class CfgVehicles {
 		vItemSpace = 10;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
-		chopShop = 3000;
+		chopShop = 10125;
 		textures[] = {
 
 			{ "Noir", "civ", {
@@ -1911,7 +1911,7 @@ class CfgVehicles {
 		vItemSpace = 25;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
-		chopShop = 3000;
+		chopShop = 5250;
 		textures[] = {
 
 			{ "Noir", "civ", {
@@ -1977,7 +1977,7 @@ class CfgVehicles {
 		vItemSpace = 40;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
-		chopShop = 3000;
+		chopShop = 11500;
 		textures[] = {
 
 			{ "Noir", "civ", {
@@ -2030,7 +2030,7 @@ class CfgVehicles {
 		vItemSpace = 70;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
-		chopShop = 3000;
+		chopShop = 15000;
 		textures[] = {
 
 			{ "Noir", "civ", {
@@ -2092,7 +2092,7 @@ class CfgVehicles {
 		vItemSpace = 30;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
-		chopShop = 3000;
+		chopShop = 16500;
 		textures[] = {
 
 			{ "Noir", "civ", {
@@ -2163,7 +2163,7 @@ class CfgVehicles {
 		vItemSpace = 40;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
-		chopShop = 3000;
+		chopShop = 6375;
 		textures[] = {
 
 			{ "RockStar", "civ", {
@@ -2217,7 +2217,7 @@ class CfgVehicles {
 		vItemSpace = 550;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
-		chopShop = 3000;
+		chopShop = 18000;
 		textures[] = {
 
 			{ "Noir", "civ", {
@@ -2269,7 +2269,7 @@ class CfgVehicles {
 		vItemSpace = 700;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
-		chopShop = 3000;
+		chopShop = 23250;
 		textures[] = {
 
 			{ "Noir", "civ", {
@@ -2322,7 +2322,7 @@ class CfgVehicles {
 		vItemSpace = 600;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
-		chopShop = 3000;
+		chopShop = 20625;
 		textures[] = {
 
 			{ "Noir", "civ", {
@@ -2662,7 +2662,7 @@ class CfgVehicles {
         vItemSpace = 500;
         storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 0, 0, 0 };
-        chopShop = 5000;
+        chopShop = 16875;
         textures[] = { };
     };
 
@@ -2670,7 +2670,7 @@ class CfgVehicles {
         vItemSpace = 400;
         storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 0, 0, 0 };
-        chopShop = 5000;
+        chopShop = 14625;
         textures[] = { };
     };
 
@@ -2727,7 +2727,7 @@ class CfgVehicles {
         vItemSpace = 40;
         storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
-        chopShop = 2500;
+        chopShop = 5625;
         textures[] = {
         	{ "Rouge", "civ", {
                 "\A3\soft_F\Offroad_01\Data\offroad_01_ext_co.paa",
@@ -2828,9 +2828,9 @@ class CfgVehicles {
 
 	class B_Quadbike_01_F {
         vItemSpace = 25;
-		garageSell[] = { 2000, 0, 0, 0 };
+		garageSell[] = { 1000, 0, 0, 0 };
         storageFee[] = { 1000, 1000, 1000, 1000 };
-        chopShop = 3000;
+        chopShop = 1000;
         textures[] = {
         	{ "Brown", "cop", {
                 "\A3\Soft_F\Quadbike_01\Data\Quadbike_01_co.paa"
@@ -2866,7 +2866,7 @@ class CfgVehicles {
         vItemSpace = 350;
         storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
-        chopShop = 20000;
+        chopShop = 12150;
         textures[] = {
         	{ "Orange", "civ", {
                 "\A3\Soft_F_Beta\Truck_02\data\truck_02_kab_co.paa",
@@ -2882,7 +2882,7 @@ class CfgVehicles {
         vItemSpace = 200;
         storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
-        chopShop = 20000;
+        chopShop = 9375;
         textures[] = {};
     };
 
@@ -2931,7 +2931,7 @@ class CfgVehicles {
         vItemSpace = 40;
         storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 15000, 7500, 0, 0 };
-        chopShop = 5000;
+        chopShop = 7500;
         textures[] = {
         	{ "Rouge Fonce", "civ", {
                 "\a3\soft_f_gamma\SUV_01\Data\suv_01_ext_co.paa"
@@ -2967,7 +2967,7 @@ class CfgVehicles {
 		vItemSpace = 30;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
-		chopShop = 3000;
+		chopShop = 3750;
 		textures[] = {
 
 			{ "Noir", "civ", {
@@ -3019,7 +3019,7 @@ class CfgVehicles {
         vItemSpace = 80;
         storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 25000, 0, 0, 0 };
-        chopShop = 5000;
+        chopShop = 3750;
         textures[] = {
         	{ "Blanc", "civ", {
                 "\a3\soft_f_gamma\Van_01\Data\van_01_ext_co.paa"
@@ -3034,7 +3034,7 @@ class CfgVehicles {
         vItemSpace = 100;
         storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 35000, 0, 0, 0 };
-        chopShop = 5000;
+        chopShop = 4500;
         textures[] = {
         	{ "Blanc", "civ", {
                 "\a3\soft_f_gamma\Van_01\Data\van_01_ext_co.paa"
@@ -3049,7 +3049,7 @@ class CfgVehicles {
 		vItemSpace = 80;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
-		chopShop = 3000;
+		chopShop = 3750;
 		textures[] = {
 
 			{ "Noir", "civ", {
@@ -3101,7 +3101,7 @@ class CfgVehicles {
 		vItemSpace = 65;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
-		chopShop = 3000;
+		chopShop = 2625;
 		textures[] = {
 
 			{ "Noir", "civ", {
