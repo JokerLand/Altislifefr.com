@@ -3030,13 +3030,8 @@ class CfgVehicles {
 	class C_Van_01_transport_F {
         vItemSpace = 80;
         storageFee[] = { 1000, 1000, 1000, 1000 };
-<<<<<<< HEAD
-		garageSell[] = { 25000, 0, 0, 0 };
         chopShop = 3750;
-=======
-		garageSell[] = { 2000, 0, 0, 0 };
-        chopShop = 5000;
->>>>>>> origin/master
+		garageSell[] = { 1000, 0, 0, 0 };
         textures[] = {
         	{ "Blanc", "civ", {
                 "\a3\soft_f_gamma\Van_01\Data\van_01_ext_co.paa"
@@ -3050,13 +3045,8 @@ class CfgVehicles {
 	class C_Van_01_box_F {
         vItemSpace = 100;
         storageFee[] = { 1000, 1000, 1000, 1000 };
-<<<<<<< HEAD
-		garageSell[] = { 35000, 0, 0, 0 };
         chopShop = 4500;
-=======
-		garageSell[] = { 3000, 0, 0, 0 };
-        chopShop = 5000;
->>>>>>> origin/master
+		garageSell[] = { 1000, 0, 0, 0 };
         textures[] = {
         	{ "Blanc", "civ", {
                 "\a3\soft_f_gamma\Van_01\Data\van_01_ext_co.paa"
