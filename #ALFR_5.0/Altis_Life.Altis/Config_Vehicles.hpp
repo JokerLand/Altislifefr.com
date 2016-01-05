@@ -426,11 +426,7 @@ class CfgVehicles {
 		vItemSpace = 20;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
-<<<<<<< HEAD
 		chopShop = 12000;		
-=======
-		chopShop = 3000;
->>>>>>> origin/master
 	};
 
 	class Cha_UH60L_Unarmed_FFV_AUS : Default {
@@ -458,11 +454,7 @@ class CfgVehicles {
 		vItemSpace = 80;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
-<<<<<<< HEAD
 		chopShop = 4875;		
-=======
-		chopShop = 3000;
->>>>>>> origin/master
 	};
 
 	class I_Heli_light_03_unarmed_F : Default {
@@ -512,11 +504,7 @@ class CfgVehicles {
 		vItemSpace = 60;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
-<<<<<<< HEAD
 		chopShop = 12000;		
-=======
-		chopShop = 3000;
->>>>>>> origin/master
 	};
 
 	class ALFR_GeK_Panamera_Police_ST : Default {
