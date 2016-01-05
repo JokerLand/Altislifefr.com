@@ -133,6 +133,14 @@ class CfgSounds
 		titles[] = {};
 
 	};
+	
+	class soif
+	{
+		name="soif";
+		sound[] = {"\sounds\soif.ogg", 5, 5};
+		titles[] = {};
+
+	};
 
 	class mange
 	{
