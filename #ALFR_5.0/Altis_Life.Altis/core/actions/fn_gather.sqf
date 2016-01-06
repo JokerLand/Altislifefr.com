@@ -8,7 +8,7 @@
 */
 if(isNil "life_action_gathering") then {life_action_gathering = false;};
 private["_gather","_itemWeight","_diff","_itemName","_resourceZones","_zone"];
-_resourceZones = ["apple_1","apple_2","apple_3","apple_4","peaches_1","peaches_2","peaches_3","peaches_4","heroin_1","cocaine_1","weed_1","iron_1","salt_1","sand_1","diamond_1","oil_1","oil_2","rock_1"];
+_resourceZones = ["apple_1","apple_2","apple_3","apple_4","peaches_1","peaches_2","peaches_3","peaches_4","heroin_1","cocaine_1","weed_1","lead_1","iron_1","salt_1","sand_1","diamond_1","oil_1","oil_2","rock_1"];
 _minage = ["lead_1","iron_1","salt_1","sand_1","diamond_1","oil_1","oil_2","rock_1"];
 _zone = "";
 
@@ -33,13 +33,14 @@ switch(true) do {
 	case (_zone in ["heroin_1"]): {_gather = ["heroin_unprocessed",1];};
 	case (_zone in ["cocaine_1"]): {_gather = ["cocaine_unprocessed",1];};
 	case (_zone in ["weed_1"]): {_gather = ["cannabis",1];};
-	case (_zone in ["iron_1"]): {_gather = "ironore"; _val = 1;};
-	case (_zone in ["salt_1"]): {_gather = "salt"; _val = 1;};
-	case (_zone in ["sand_1"]): {_gather = "sand"; _val = 1;};
-	case (_zone in ["diamond_1"]): {_gather = "diamond"; _val = 1;};
-	case (_zone in ["oil_1"]): {_gather = "oilu"; _val = 1;};
-	case (_zone in ["oil_2"]): {_gather = "oilu"; _val = 1;};
-	case (_zone in ["rock_1"]): {_gather = "rock"; _val = 1;};
+	case (_zone in ["lead_1"]): {_gather = ["copper_unrefined",2];};
+	case (_zone in ["iron_1"]): {_gather = ["iron_unrefined",2];};
+	case (_zone in ["salt_1"]): {_gather = ["salt_unrefined",4];};
+	case (_zone in ["sand_1"]): {_gather = ["sand",5];};
+	case (_zone in ["diamond_1"]): {_gather = ["diamond_uncut",1];};
+	case (_zone in ["oil_1"]): {_gather = ["oil_unprocessed",1];};
+	case (_zone in ["oil_2"]): {_gather = ["oil_unprocessed",1];};
+	case (_zone in ["rock_1"]): {_gather = ["rock",2];};
 	default {""};
 };
 //gather check??
