@@ -22,7 +22,7 @@ class WeaponShops {
             { "C1987_MP7", "", 10000 },
             { "C1987_20Rnd_46x30_mp7", "", 50 },
             { "C1987_40Rnd_46x30_mp7", "", 50 },
-            { "R3F_MP5A5", "", 10000 },
+            { "R3F_MP5A5", "", 12000 },
             { "R3F_30Rnd_9x19_MP5", "", 50 },
             { "optic_ACO_grn_smg", "", 50 },
             { "V_Rangemaster_belt", "", 70 }
