@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project name="Altis Life RPG">
 	<Package name="Shop_Names">
 		<Key ID="STR_Shops_C_Bruce">
@@ -1811,6 +1811,13 @@
 			<Original>You are not a cop.</Original>
 			<German>Du bist kein Polizist.</German>
 			<French>Vous n'êtes pas flic.</French>
+			<Italian>Non sei un poliziotto.</Italian>
+			<Portuguese>Você não é Policial.</Portuguese>
+		</Key>
+        <Key ID="STR_NOTF_NotAAdac">
+			<Original>You are not a adac.</Original>
+			<German>Du bist kein Polizist.</German>
+			<French>Vous n'êtes pas militaire.</French>
 			<Italian>Non sei un poliziotto.</Italian>
 			<Portuguese>Você não é Policial.</Portuguese>
 		</Key>

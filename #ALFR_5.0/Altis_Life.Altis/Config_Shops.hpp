@@ -185,6 +185,24 @@ class WeaponShops {
 			{ "tf_anprc155_coyote", "Radio Longue", 0 }
         };
     };
+    //Quincaillerie Armee
+    class armeestore {
+        name = "Quincaillerie Armee";
+        side = "cop";
+        license = "";
+        level = -1;
+        msg = "";
+        items[] = {
+        	{ "Binocular", "", 15 },
+			{ "ItemGPS", "", 10 },
+			{ "ToolKit", "", 50 },
+			{ "FirstAidKit", "", 15 },
+			{ "Medikit", "", 50 },
+			{ "pmc_earpiece", "", 100 },
+			{ "Rangefinder", "", 15 },
+			{ "tf_fadak", "Radio Courte", 0 }
+        };
+    };
     //Quincaillerie Police
     class copstore {
         name = "Quincaillerie Police";

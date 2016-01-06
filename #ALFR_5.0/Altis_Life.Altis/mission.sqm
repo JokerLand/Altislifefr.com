@@ -3098,7 +3098,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=495;
+		items=496;
 		class Item0
 		{
 			position[]={8065.1616,35.674362,24985.314};
@@ -5247,8 +5247,8 @@ class Mission
 		};
 		class Item202
 		{
-			position[]={3474.2542,5.5632443,12853.938};
-			azimut=116.82037;
+			position[]={3469.3662,5.5390668,12862.472};
+			azimut=20.418005;
 			special="NONE";
 			id=417;
 			side="EMPTY";
@@ -8482,7 +8482,7 @@ class Mission
 			vehicle="Land_InfoStand_V2_F";
 			skill=0.2;
 			text="armer_shop";
-			init=" this enableSimulation false;  this addAction[""Superette de l'armee"",life_fnc_virt_menu,""market""];  this allowDamage false;  this addAction[""Vestiaire de l'armee"",life_fnc_clothingMenu,""armer""];  this addAction[""Armurerie armee Recrue"",life_fnc_weaponShopMenu,""armer""];  this addAction[""Armurerie armee"",life_fnc_weaponShopMenu,""armee""];";
+			init=" this enableSimulation false;  this addAction[""Superette de l'armee"",life_fnc_virt_menu,""adac""];  this allowDamage false;  this addAction[""Vestiaire de l'armee"",life_fnc_clothingMenu,""armer""];  this addAction[""Armurerie armee Recrue"",life_fnc_weaponShopMenu,""armer""];  this addAction[""Armurerie armee"",life_fnc_weaponShopMenu,""armee""];";
 		};
 		class Item490
 		{
@@ -8494,7 +8494,7 @@ class Mission
 			vehicle="Land_InfoStand_V2_F";
 			skill=0.2;
 			text="armegen";
-			init="this enableSimulation false; this allowDamage false; this addAction[""Quincaillerie"",life_fnc_weaponShopMenu,""genstore""];";
+			init="this enableSimulation false; this allowDamage false; this addAction[""Quincaillerie"",life_fnc_weaponShopMenu,""armeestore""];";
 		};
 		class Item491
 		{
@@ -8543,10 +8543,21 @@ class Mission
 			skill=0.2;
 			init="this enableSimulation false; this allowDamage false; this addAction[""Quincaillerie"",life_fnc_weaponShopMenu,""copstore""];";
 		};
+		class Item495
+		{
+			position[]={12790.675,87.177582,16684.531};
+			azimut=-59.964073;
+			id=710;
+			side="EMPTY";
+			vehicle="Land_Atm_01_F";
+			skill=0.60000002;
+			text="atm1_1_3_1_6_4_3_1_3_2";
+			init="this enableSimulation false; this allowDamage false; this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu]; this addAction[""Banking Insurance ($1,000)"",{if(life_atmcash > 1000) then {life_has_insurance = true; life_atmcash = life_atmcash - 1000};},"""",0,false,false,"""",'!life_has_insurance'];";
+		};
 	};
 	class Markers
 	{
-		items=359;
+		items=360;
 		class Item0
 		{
 			position[]={8459.6777,104.56568,25131.203};
@@ -9708,17 +9719,17 @@ class Mission
 		};
 		class Item145
 		{
-			position[]={3489.3823,6.9895945,12862.146};
+			position[]={3491.2053,7.1083651,12861.525};
 			name="civ_car_5_1";
 			type="Empty";
 			angle=378.29501;
 		};
 		class Item146
 		{
-			position[]={3489.3384,6.9858222,12862.124};
+			position[]={3484.7615,6.7272439,12863.833};
 			name="civ_car_5";
 			type="Empty";
-			angle=733.604;
+			angle=743.93781;
 		};
 		class Item147
 		{
@@ -9738,11 +9749,11 @@ class Mission
 		};
 		class Item149
 		{
-			position[]={3474.5208,5.5753369,12853.569};
+			position[]={3467.5388,5.1809583,12859.501};
 			name="civ_gar_1_5";
 			text="Garage";
 			type="o_service";
-			angle=-198.60452;
+			angle=-226.40274;
 		};
 		class Item150
 		{
@@ -10978,17 +10989,17 @@ class Mission
 		};
 		class Item309
 		{
-			position[]={14370.227,16.676548,18062.455};
+			position[]={14354.782,16.712347,18052.938};
 			name="jail_release";
 			type="Empty";
-			angle=208.89799;
+			angle=243.46281;
 		};
 		class Item310
 		{
-			position[]={14414.406,16.991854,18092.242};
+			position[]={14391.464,16.767973,18076.49};
 			name="jail_marker";
 			type="Empty";
-			angle=-163.93401;
+			angle=-209.0105;
 		};
 		class Item311
 		{
@@ -11301,9 +11312,10 @@ class Mission
 		};
 		class Item349
 		{
-			position[]={12800.47,87.681007,16655.063};
+			position[]={12794.582,87.36924,16682.627};
 			name="spawn_armer";
 			type="Empty";
+			angle=120.19614;
 		};
 		class Item350
 		{
@@ -11388,6 +11400,14 @@ class Mission
 			a=600;
 			b=600;
 			drawBorder=1;
+		};
+		class Item359
+		{
+			position[]={12790.587,87.199593,16684.355};
+			name="atm_1_3_11_5_4_5_13_2_1";
+			text="ATM";
+			type="loc_Tourism";
+			colorName="ColorEAST";
 		};
 	};
 	class Sensors
