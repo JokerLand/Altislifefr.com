@@ -8475,14 +8475,14 @@ class Mission
 		class Item489
 		{
 			position[]={12789.015,87.128906,16684.816};
-			azimut=570.54504;
+			azimut=570.54498;
 			special="NONE";
 			id=704;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V2_F";
 			skill=0.2;
 			text="armer_shop";
-			init=" this enableSimulation false;  this addAction[""Superette de l'armee"",life_fnc_virt_menu,""adac""];  this allowDamage false;  this addAction[""Vestiaire de l'armee"",life_fnc_clothingMenu,""armer""];  this addAction[""Armurerie armee Recrue"",life_fnc_weaponShopMenu,""armer""];  this addAction[""Armurerie armee"",life_fnc_weaponShopMenu,""armee""];";
+			init=" this enableSimulation false;  this addAction[""Superette de l'armee"",life_fnc_virt_menu,""armer""];  this allowDamage false;  this addAction[""Vestiaire de l'armee"",life_fnc_clothingMenu,""armer""];  this addAction[""Armurerie armee Recrue"",life_fnc_weaponShopMenu,""armer""];  this addAction[""Armurerie armee"",life_fnc_weaponShopMenu,""armee""];";
 		};
 		class Item490
 		{
@@ -8499,7 +8499,7 @@ class Mission
 		class Item491
 		{
 			position[]={12880.234,84.431824,16745.727};
-			azimut=37.50098;
+			azimut=37.500999;
 			special="NONE";
 			id=706;
 			side="EMPTY";
@@ -11320,9 +11320,9 @@ class Mission
 		class Item350
 		{
 			position[]={12876.224,84.693001,16740.398};
-			name="armer_1";
+			name="arme_1";
 			type="Empty";
-			angle=218.19839;
+			angle=218.198;
 		};
 		class Item351
 		{

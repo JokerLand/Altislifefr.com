@@ -95,7 +95,7 @@ class CarShops {
 	};
 
 	class armer_car {
-		side = "adac";
+		side = "armer";
 		vehicles[] = {
 			{ "B_Heli_Light_01_F", 10, "" },
 			{ "GeK_TLC100", 10, "" },
