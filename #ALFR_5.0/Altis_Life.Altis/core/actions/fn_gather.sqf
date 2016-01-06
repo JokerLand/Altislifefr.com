@@ -8,7 +8,8 @@
 */
 if(isNil "life_action_gathering") then {life_action_gathering = false;};
 private["_gather","_itemWeight","_diff","_itemName","_resourceZones","_zone"];
-_resourceZones = ["apple_1","apple_2","apple_3","apple_4","peaches_1","peaches_2","peaches_3","peaches_4","heroin_1","cocaine_1","weed_1"];
+_resourceZones = ["apple_1","apple_2","apple_3","apple_4","peaches_1","peaches_2","peaches_3","peaches_4","heroin_1","cocaine_1","weed_1","iron_1","salt_1","sand_1","diamond_1","oil_1","oil_2","rock_1"];
+_minage = ["lead_1","iron_1","salt_1","sand_1","diamond_1","oil_1","oil_2","rock_1"];
 _zone = "";
 
 if(life_action_gathering) exitWith {}; //Action is in use, exit to prevent spamming.
@@ -20,6 +21,11 @@ life_action_gathering = true;
 
 if(EQUAL(_zone,"")) exitWith {life_action_gathering = false;};
 
+if((_zone in _minage) && (life_inv_pickaxe < 1)) exitWith {
+		life_action_gathering = false;
+		hint "Vous avez besoin d'une pioche pour effectuer cette action.";
+	};
+
 //Get the resource that will be gathered from the zone name...
 switch(true) do {
 	case (_zone in ["apple_1","apple_2","apple_3","apple_4"]): {_gather = ["apple",3];};
@@ -27,6 +33,13 @@ switch(true) do {
 	case (_zone in ["heroin_1"]): {_gather = ["heroin_unprocessed",1];};
 	case (_zone in ["cocaine_1"]): {_gather = ["cocaine_unprocessed",1];};
 	case (_zone in ["weed_1"]): {_gather = ["cannabis",1];};
+	case (_zone in ["iron_1"]): {_gather = "ironore"; _val = 1;};
+	case (_zone in ["salt_1"]): {_gather = "salt"; _val = 1;};
+	case (_zone in ["sand_1"]): {_gather = "sand"; _val = 1;};
+	case (_zone in ["diamond_1"]): {_gather = "diamond"; _val = 1;};
+	case (_zone in ["oil_1"]): {_gather = "oilu"; _val = 1;};
+	case (_zone in ["oil_2"]): {_gather = "oilu"; _val = 1;};
+	case (_zone in ["rock_1"]): {_gather = "rock"; _val = 1;};
 	default {""};
 };
 //gather check??
@@ -35,6 +48,11 @@ if(vehicle player != player) exitWith {};
 _diff = [SEL(_gather,0),SEL(_gather,1),life_carryWeight,life_maxWeight] call life_fnc_calWeightDiff;
 if(EQUAL(_diff,0)) exitWith {hint localize "STR_NOTF_InvFull"};
 life_action_gathering = true;
+
+if(_zone in _minage) then
+    {
+		playSound "mining";
+	};
 
 for "_i" from 0 to 2 do {
 	player playMove "AinvPercMstpSnonWnonDnon_Putdown_AmovPercMstpSnonWnonDnon";
