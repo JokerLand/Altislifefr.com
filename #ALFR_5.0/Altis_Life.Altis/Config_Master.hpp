@@ -203,10 +203,10 @@ class VirtualItems {
 class Licenses {
 
 	/** Permis **/
-	LICENSEMACRO(driver,"STR_License_Driver","driver",1000,false,"civ")
+	LICENSEMACRO(driver,"STR_License_Driver","driver",100,false,"civ")
 	LICENSEMACRO(boat,"STR_License_Boat","boat",1500,false,"civ")
 	LICENSEMACRO(pilot,"STR_License_Pilot","pilot",18500,false,"civ")
-	LICENSEMACRO(gun,"STR_License_Firearm","gun",20000,false,"civ")
+	LICENSEMACRO(gun,"STR_License_Firearm","gun",15000,false,"civ")
 	LICENSEMACRO(dive,"STR_License_Diving","dive",1500,false,"civ")
 	LICENSEMACRO(trucking,"STR_License_trucking","trucking",10000,false,"civ")
 	LICENSEMACRO(home,"STR_License_Home","home",50000,false,"civ")

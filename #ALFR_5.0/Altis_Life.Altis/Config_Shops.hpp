@@ -7,27 +7,25 @@ class WeaponShops {
         level = -1;
         msg = "Vous n'avez pas le permis de port d'arme";
         items[] = {
-            { "hgun_Rook40_F", "", 8800 },
-            { "16Rnd_9x21_Mag", "", 100 },
-            { "hgun_Pistol_heavy_02_F", "", 10000 },
-            { "6Rnd_45ACP_Cylinder", "", 100 },
-            { "hgun_SA_makarov_pm_F", "", 8600 },
-            { "8Rnd_9x18_Mag", "", 100 },
-            { "hgun_sam_browning_hp_F", "", 8600 },
-            { "16Rnd_9x21_Mag", "", 100 },
-            { "SIG_P226", "", 8800 },
-            { "16Rnd_9x21_Mag", "", 100 },
-            { "smg_SA_9a91", "", 14000 },
-            { "20Rnd_SA_9x39", "", 200 },
-            { "hgun_PDW2000_F", "", 14000 },
-            { "30Rnd_9x21_Mag", "", 200 },
-            { "C1987_MP7", "", 18000 },
-            { "C1987_20Rnd_46x30_mp7", "", 100 },
-            { "C1987_40Rnd_46x30_mp7", "", 200 },
-            { "R3F_MP5A5", "", 20000 },
-            { "R3F_30Rnd_9x19_MP5", "", 200 },
-            { "optic_ACO_grn_smg", "", 1000 },
-            { "V_Rangemaster_belt", "", 1500 }
+            { "hgun_Rook40_F", "", 5000 },
+            { "hgun_Pistol_heavy_02_F", "", 5000 },
+            { "hgun_SA_makarov_pm_F", "", 5200 },
+            { "8Rnd_9x18_Mag", "", 50 },
+            { "hgun_sam_browning_hp_F","", 5500 },
+            { "8Rnd_9x18_Mag", "", 10 },
+            { "SIG_P226", "", 7500 },
+            { "smg_SA_9a91", "", 8000 },
+            { "hgun_PDW2000_F", "", 10000 },
+            { "11Rnd_45ACP_Mag", "", 50 },
+            { "30Rnd_9x21_Mag", "", 50 },
+            { "20Rnd_SA_9x39", "", 50 },
+            { "C1987_MP7", "", 10000 },
+            { "C1987_20Rnd_46x30_mp7", "", 50 },
+            { "C1987_40Rnd_46x30_mp7", "", 50 },
+            { "R3F_MP5A5", "", 12000 },
+            { "R3F_30Rnd_9x19_MP5", "", 50 },
+            { "optic_ACO_grn_smg", "", 50 },
+            { "V_Rangemaster_belt", "", 70 }
         };
     };
     //Shop Rebelle
