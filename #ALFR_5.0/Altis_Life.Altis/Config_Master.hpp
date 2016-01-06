@@ -143,7 +143,7 @@ class VirtualItems {
 	VITEMMACRO(salt_unrefined, "STR_Item_Salt", "saltUnrefined", 3, -1, -1, false, -1, "icons\ico_unprocessed.paa")
 	VITEMMACRO(salt_refined, "STR_Item_SaltR", "saltRefined", 1, -1, 115, false, -1, "icons\ico_salt.paa")
 	VITEMMACRO(sand, "STR_Item_Sand", "sand", 3, -1, -1, false, -1, "icons\ico_sand.paa")
-	VITEMMACRO(glass, "STR_Item_Glass", "glass", 1, -1, 130, false, -1, "icons\ico_glass.paa")
+	VITEMMACRO(glass, "STR_Item_Glass", "glass", 1, -1, 118, false, -1, "icons\ico_glass.paa")
 	VITEMMACRO(diamond_uncut, "STR_Item_DiamondU", "diamondUncut", 4, -1, 30, false, -1, "icons\ico_diamond_unprocessed.paa")
 	VITEMMACRO(diamond_cut, "STR_Item_DiamondC", "diamondCut", 2, -1, 185, false, -1, "icons\ico_diamond.paa")
 	VITEMMACRO(rock, "STR_Item_Rock", "rock", 6, -1, -1, false, -1, "icons\ico_rock.paa")
@@ -206,9 +206,9 @@ class Licenses {
 	LICENSEMACRO(driver,"STR_License_Driver","driver",100,false,"civ")
 	LICENSEMACRO(boat,"STR_License_Boat","boat",1500,false,"civ")
 	LICENSEMACRO(pilot,"STR_License_Pilot","pilot",18500,false,"civ")
-	LICENSEMACRO(gun,"STR_License_Firearm","gun",3250,false,"civ")
+	LICENSEMACRO(gun,"STR_License_Firearm","gun",15000,false,"civ")
 	LICENSEMACRO(dive,"STR_License_Diving","dive",1500,false,"civ")
-	LICENSEMACRO(trucking,"STR_License_trucking","trucking",5000,false,"civ")
+	LICENSEMACRO(trucking,"STR_License_trucking","trucking",10000,false,"civ")
 	LICENSEMACRO(home,"STR_License_Home","home",50000,false,"civ")
 
 
@@ -219,20 +219,20 @@ class Licenses {
 	LICENSEMACRO(mAir,"STR_License_Pilot","mAir",2500,false,"med")
 
 	/** Traitement **/
-	LICENSEMACRO(oil,"STR_License_Oil","oil",10000,false,"civ")
-	LICENSEMACRO(sand,"STR_License_Sand","sand",400,false,"civ")
-	LICENSEMACRO(iron,"STR_License_Iron","iron",5000,false,"civ")
-	LICENSEMACRO(copper,"STR_License_Copper","copper",2700,false,"civ")
-	LICENSEMACRO(cement,"STR_License_Cement","cement",1400,false,"civ")
-	LICENSEMACRO(diamond,"STR_License_Diamond","diamond",8000,false,"civ")
-	LICENSEMACRO(salt,"STR_License_Salt","salt",400,false,"civ")
+	LICENSEMACRO(oil,"STR_License_Oil","oil",8000,false,"civ")
+	LICENSEMACRO(sand,"STR_License_Sand","sand",7800,false,"civ")
+	LICENSEMACRO(iron,"STR_License_Iron","iron",7000,false,"civ")
+	LICENSEMACRO(copper,"STR_License_Copper","copper",5500,false,"civ")
+	LICENSEMACRO(cement,"STR_License_Cement","cement",6500,false,"civ")
+	LICENSEMACRO(diamond,"STR_License_Diamond","diamond",11000,false,"civ")
+	LICENSEMACRO(salt,"STR_License_Salt","salt",7500,false,"civ")
 
 	/** Ilegal **/
 	LICENSEMACRO(rebel,"STR_License_Rebel","rebel",999999,true,"civ")
 	LICENSEMACRO(heroin,"STR_License_Heroin","heroin",50000,true,"civ")
-	LICENSEMACRO(marijuana,"STR_License_Marijuana","marijuana",28000,true,"civ")
+	LICENSEMACRO(marijuana,"STR_License_Marijuana","marijuana",40000,true,"civ")
 	LICENSEMACRO(medmarijuana,"STR_License_Medmarijuana","medmarijuana",20000,false,"civ")
-	LICENSEMACRO(cocaine,"STR_License_Cocaine","cocaine",45000,false,"civ")
+	LICENSEMACRO(cocaine,"STR_License_Cocaine","cocaine",55000,false,"civ")
 
 };
 
