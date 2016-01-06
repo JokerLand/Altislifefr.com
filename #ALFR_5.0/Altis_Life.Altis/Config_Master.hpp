@@ -139,7 +139,7 @@ class VirtualItems {
 	VITEMMACRO(copper_unrefined, "STR_Item_CopperOre", "copperUnrefined", 4, -1, -1, false, -1, "icons\ico_copper_ore.paa")
 	VITEMMACRO(copper_refined, "STR_Item_CopperIngot", "copperRefined", 3, -1, 114, false, -1, "icons\ico_copper.paa")
 	VITEMMACRO(iron_unrefined, "STR_Item_IronOre", "ironUnrefined", 5, -1, -1, false, -1, "icons\ico_iron_ore.paa")
-	VITEMMACRO(iron_refined, "STR_Item_IronIngot", "ironRefined", 3, -1, 45, false, -1, "icons\ico_iron.paa")
+	VITEMMACRO(iron_refined, "STR_Item_IronIngot", "ironRefined", 3, -1, 190, false, -1, "icons\ico_iron.paa")
 	VITEMMACRO(salt_unrefined, "STR_Item_Salt", "saltUnrefined", 3, -1, -1, false, -1, "icons\ico_unprocessed.paa")
 	VITEMMACRO(salt_refined, "STR_Item_SaltR", "saltRefined", 1, -1, 115, false, -1, "icons\ico_salt.paa")
 	VITEMMACRO(sand, "STR_Item_Sand", "sand", 3, -1, -1, false, -1, "icons\ico_sand.paa")
