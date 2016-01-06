@@ -58,11 +58,11 @@ class CarShops {
 	class med_shop {
 		side = "med";
 		vehicles[] = {
-			{ "C_Offroad_01_F", 0, "" },
-			{ "GeK_Renault_Trafic_Ambulance", 0, "" },
-			{ "C_SUV_01_F", 0, "", { "life_mediclevel", 2 } },
-			{ "GeK_TLC100_Medic", 0, "", { "life_mediclevel", 2 } },
-			{ "GeK_S60_Medic", 0, "", { "life_mediclevel", 3 } }
+			{ "C_Offroad_01_F", 1000, "" },
+			{ "GeK_Renault_Trafic_Ambulance", 1000, "" },
+			{ "C_SUV_01_F", 1000, "", { "life_mediclevel", 2 } },
+			{ "GeK_TLC100_Medic", 1000, "", { "life_mediclevel", 2 } },
+			{ "GeK_S60_Medic", 1000, "", { "life_mediclevel", 3 } }
 
 		};
 	};
@@ -476,7 +476,7 @@ class CfgVehicles {
 		vItemSpace = 70;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
-		chopShop = 3000;
+		chopShop = 1000;
 	};
 
 	class GeK_Renault_Trafic_Ambulance : Default {
@@ -573,7 +573,7 @@ class CfgVehicles {
 		vItemSpace = 50;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
-		chopShop = 3000;
+		chopShop = 1000;
 	};
 
 	class cl3_arielatom_black : Default {
@@ -2930,8 +2930,8 @@ class CfgVehicles {
 	class C_SUV_01_F {
         vItemSpace = 40;
         storageFee[] = { 1000, 1000, 1000, 1000 };
-		garageSell[] = { 15000, 7500, 0, 0 };
-        chopShop = 7500;
+		garageSell[] = { 1000, 1000, 1000, 1000 };
+        chopShop = 1000;
         textures[] = {
         	{ "Rouge Fonce", "civ", {
                 "\a3\soft_f_gamma\SUV_01\Data\suv_01_ext_co.paa"
