@@ -188,7 +188,7 @@ class WeaponShops {
     //Quincaillerie Armee
     class armeestore {
         name = "Quincaillerie Armee";
-        side = "cop";
+        side = "adac";
         license = "";
         level = -1;
         msg = "";
