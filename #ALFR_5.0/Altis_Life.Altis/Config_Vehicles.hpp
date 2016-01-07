@@ -89,8 +89,8 @@ class CarShops {
 			{ "B_Truck_01_transport_F", 39000, "trucking" },
 			{ "B_Truck_01_box_F", 45000, "trucking" },
             { "ALFR_GeK_Scania_420", 48000, "trucking" },
-            { "GeK_Renault_Magnum", 55000, "trucking" },
-            { "ALFR_GeK_Volvo_FH16_2012", 62000, "trucking" }
+            { "GeK_Renault_Magnum", 62000, "trucking" },
+            { "ALFR_GeK_Volvo_FH16_2012", 76000, "trucking" }
 		};
 	};
 
@@ -151,12 +151,11 @@ class CarShops {
 	class civ_air {
 		side = "civ";
 		vehicles[] = {
-			{ "B_Heli_Light_01_F", 100000, "pilot" },
-			{ "C_Heli_Light_01_civil_F", 100000, "pilot" },
+			{ "C_Heli_Light_01_civil_F", 90000, "pilot" },
 			{ "GNT_C185", 54000, "pilot" },
-			{ "O_Heli_Light_02_unarmed_F", 150000, "pilot" },
-			{ "I_Heli_Transport_02_F", 234000, "pilot" },
-			{ "B_Heli_Transport_03_unarmed_", 2500000, "pilot" }
+			{ "O_Heli_Light_02_unarmed_F", 156000, "pilot" },
+			{ "I_Heli_Transport_02_F", 300000, "pilot" },
+			{ "B_Heli_Transport_03_unarmed_", 568000, "pilot" }
 
 		};
 	};
@@ -264,10 +263,10 @@ class CfgVehicles {
 	};
 
 	class GNT_C185F : Default {
-		vItemSpace = 150;
+		vItemSpace = 5;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
-		chopShop = 3000;
+		chopShop = 20250;
 	};
 
 	class O_Truck_03_ammo_F : Default {
@@ -542,7 +541,7 @@ class CfgVehicles {
 		vItemSpace = 90;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
-		chopShop = 3000;
+		chopShop = 213000;
 		textures[] = {
 
 			{ "Blanc", "civ", {
@@ -2433,7 +2432,7 @@ class CfgVehicles {
 		vItemSpace = 5;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
-		chopShop = 3000;
+		chopShop = 90000;
 		textures[] = {
         	{ "Police", "cop", {
                 "ALFR_Force\data\vehicule\air\alfr_police_heli_co.paa"
@@ -3226,10 +3225,10 @@ class CfgVehicles {
     };
 
 	class O_Heli_Light_02_unarmed_F {
-        vItemSpace = 210;
+        vItemSpace = 15;
         storageFee[] = { 55000, 0, 22000, 0 };
 		garageSell[] = { 72500, 0, 35000, 0 };
-        chopShop = 5000;
+        chopShop = 58500;
         textures[] = {
         	{ "Black", "fed", {
                 "\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_co.paa"
@@ -3250,10 +3249,10 @@ class CfgVehicles {
     };
 
 	class I_Heli_Transport_02_F {
-        vItemSpace = 375;
+        vItemSpace = 5;
         storageFee[] = { 75000, 0, 0, 0 };
 		garageSell[] = { 125000, 0, 0, 0 };
-        chopShop = 5000;
+        chopShop = 112500;
         textures[] = {
         	{ "Ion", "civ", {
                 "\a3\air_f_beta\Heli_Transport_02\Data\Skins\heli_transport_02_1_ion_co.paa",
