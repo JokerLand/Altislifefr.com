@@ -214,6 +214,7 @@ class Licenses {
 
 	/** Police **/
 	LICENSEMACRO(coastguard,"STR_License_CG","cg",1000,false,"cop")
+    LICENSEMACRO(cAir,"STR_License_Pilot","cAir",8000,false,"cop")
 
 	/** EMS **/
 	LICENSEMACRO(mAir,"STR_License_Pilot","mAir",2500,false,"med")
