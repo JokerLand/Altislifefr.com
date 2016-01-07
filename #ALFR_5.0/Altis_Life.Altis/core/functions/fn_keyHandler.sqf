@@ -240,18 +240,6 @@ switch (_code) do
 			player playMove "AmovPercMstpSnonWnonDnon_exercisePushup";
 		};
 	};
-    
-    //Radio VerMAj
-	case 58:
-    {
-		    if (player GVAR ["restrained" , true]) exitWith {hint "Vous ne pouvez pas parler à la radio en étant menotté !"};
-    };
-
-	//Radio T
-	case 20:
-    {
-		    if (player GVAR ["restrained" , true]) exitWith {hint "Vous ne pouvez pas parler à la radio en étant menotté !"};
-    };
 
 	//Knock out, this is experimental and yeah...
     case 34:
@@ -262,10 +250,10 @@ switch (_code) do
         if((animationState cursorTarget) != "Incapacitated" && (currentWeapon player == primaryWeapon player OR currentWeapon player == handgunWeapon player) && currentWeapon player != "" && !life_knockout && !(player                       getVariable["restrained",false]) && !life_istazed) then
             {
                 [cursorTarget] spawn life_fnc_knockoutAction;
-                if("ItemGPS" in assignedItems cursorTarget) then {
+                if("ItemRadio" in assignedItems cursorTarget) then {
                 cursorTarget removeweapon "ItemRadio";
                 hint "Le téléphone portable de la personne a été placée sur le sol.";
-                _defenceplace1 = "ItemGPS" createVehicle (player modelToWorld[0,0,0]);}
+                _defenceplace1 = "Item_ItemRadio" createVehicle (player modelToWorld[0,0,0]);}
                 else { hint "La personne que vous n'a pas de téléphone!"};
             };
         };
@@ -451,6 +439,35 @@ switch (_code) do
 			};
 		};
 	};
+    
+    //Anti petit ²
+	case 41	: 
+    {
+
+		if((_code in (actionKeys "SelectAll") || _code in (actionKeys "ForceCommandingMode"))) then {true;};
+	};
+    
+    //Radio VerMAj
+	case 58:
+    {
+        if (player GVAR ["restrained" , true]) exitWith {hint "Vous ne pouvez pas parler à la radio en étant menotté !"};
+    };
+
+	//Radio T
+	case 20:
+    {
+        if (player GVAR ["restrained" , true]) exitWith {hint "Vous ne pouvez pas parler à la radio en étant menotté !"};
+    };
+
+	//Shift+P = Faded Sound
+    case 25:
+    {
+        if(_shift) then
+        {
+            [] call life_fnc_fadeSound;
+            _handled = true;
+        };
+    };
 };
 
 _handled;
