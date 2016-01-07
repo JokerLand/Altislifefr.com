@@ -250,10 +250,10 @@ switch (_code) do
         if((animationState cursorTarget) != "Incapacitated" && (currentWeapon player == primaryWeapon player OR currentWeapon player == handgunWeapon player) && currentWeapon player != "" && !life_knockout && !(player                       getVariable["restrained",false]) && !life_istazed) then
             {
                 [cursorTarget] spawn life_fnc_knockoutAction;
-                if("ItemRadio" in assignedItems cursorTarget) then {
-                cursorTarget removeweapon "ItemRadio";
+                if("ItemGPS" in assignedItems cursorTarget) then {
+                cursorTarget removeweapon "ItemGPS";
                 hint "Le téléphone portable de la personne a été placée sur le sol.";
-                _defenceplace1 = "Item_ItemRadio" createVehicle (player modelToWorld[0,0,0]);}
+                _defenceplace1 = "Item_ItemGPS" createVehicle (player modelToWorld[0,0,0]);}
                 else { hint "La personne que vous n'a pas de téléphone!"};
             };
         };
