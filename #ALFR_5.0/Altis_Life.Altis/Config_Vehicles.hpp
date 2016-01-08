@@ -3218,8 +3218,8 @@ class CfgVehicles {
 			{ "Rebelle", "reb", {
                 "ALFR_TexSnd\Hummingbird_Metallique_Urbain.paa"
             } },
-			{ "medical", "med", {
-                "ALFR_TexSnd\Heli_medic.jpg"
+			{ "Medical", "med", {
+                "\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_sunset_co.paa"
             } }
         };
     };

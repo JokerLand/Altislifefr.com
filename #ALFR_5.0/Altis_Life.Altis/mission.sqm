@@ -5338,7 +5338,7 @@ class Mission
 			vehicle="Land_InfoStand_V2_F";
 			skill=0.2;
 			text="h1_3_4_1";
-			init="removeHeadgear this;     removeAllWeapons this;  removeVest this;  this enableSimulation false;   this allowDamage false;  this addAction[""Superette "",life_fnc_virt_menu,""medic""]; this setObjectTexture [0,""textures\medic_uniform.jpg""];   ";
+			init="removeHeadgear this;     removeAllWeapons this;  removeVest this;  this enableSimulation false;   this allowDamage false;  this addAction[""Superette "",life_fnc_virt_menu,""market""]; this setObjectTexture [0,""textures\medic_uniform.jpg""];   ";
 		};
 		class Item210
 		{
