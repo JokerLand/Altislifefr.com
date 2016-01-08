@@ -2,7 +2,7 @@
 /*
 	File: fn_keyHandler.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Main key handler for event 'keyDown'
 */
@@ -60,7 +60,7 @@ switch (_code) do
 		if(_shift && {!(EQUAL(animationState player,"AovrPercMrunSrasWrflDf"))} && {isTouchingGround player} && {EQUAL(stance player,"STAND")} && {speed player > 2} && {!life_is_arrested} && {SEL((velocity player),2) < 2.5} && {time - jumpActionTime > 1.5}) then {
 			jumpActionTime = time; //Update the time.
 			[player,true] spawn life_fnc_jumpFnc; //Local execution
-			[player,false] remoteExec ["life_fnc_jumpFnc",RANY]; //Global execution 
+			[player,false] remoteExec ["life_fnc_jumpFnc",RANY]; //Global execution
 			_handled = true;
 		};
 	};
@@ -91,13 +91,13 @@ switch (_code) do
                 };
             };
         };
-           
+
         if(!_ctrlKey && _shift && currentWeapon player != "") then {
             life_curWep_h = currentWeapon player;
             player action ["SwitchWeapon", player, player, 100];
             player switchcamera cameraView;
         };
- 
+
         if(_ctrlKey && !_shift && !isNil "life_curWep_h" && {(life_curWep_h != "")}) then {
             if(life_curWep_h in [primaryWeapon player,secondaryWeapon player,handgunWeapon player]) then {
                 player selectWeapon life_curWep_h;
@@ -166,11 +166,11 @@ switch (_code) do
 			};
 		};
 	};
-    
+
     //Anti MetaGaming (Touche "²")
 	 case 41:
     {
-		if((_code in (actionKeys "SelectAll") || _code in (actionKeys "ForceCommandingMode"))) then 
+		if((_code in (actionKeys "SelectAll") || _code in (actionKeys "ForceCommandingMode"))) then
 		{
 			[] call life_fnc_p_openMenu;
 			player setDamage ((getDammage player) + 0.1);
@@ -353,6 +353,7 @@ switch (_code) do
 	//Y Player Menu
 	case 21:
 	{
+		if(life_action_gathering) exitWith {};
 		if(!_alt && !_ctrlKey && !dialog) then
 		{
 			life_action_gathering = false;
@@ -369,7 +370,7 @@ switch (_code) do
                 sleep 5;
                 life_siren_active = false;
             };
-           
+
             _veh = vehicle player;
             if(isNil {_veh GVAR "siren"}) then {_veh SVAR ["siren",false,true];};
             if((_veh GVAR "siren")) then {
@@ -402,7 +403,7 @@ switch (_code) do
 					_door = [_veh] call life_fnc_nearestDoor;
 					if(EQUAL(_door,0)) exitWith {hint localize "STR_House_Door_NotNear"};
 					_locked = _veh GVAR [format["bis_disabled_Door_%1",_door],0];
-					
+
 					if(EQUAL(_locked,0)) then {
 						_veh SVAR [format["bis_disabled_Door_%1",_door],1,true];
 						_veh animate [format["door_%1_rot",_door],0];
@@ -439,14 +440,14 @@ switch (_code) do
 			};
 		};
 	};
-    
+
     //Anti petit ²
-	case 41	: 
+	case 41	:
     {
 
 		if((_code in (actionKeys "SelectAll") || _code in (actionKeys "ForceCommandingMode"))) then {true;};
 	};
-    
+
     //Radio VerMAj
 	case 58:
     {
