@@ -121,22 +121,21 @@ class Mission
 	{
 		briefingName="Altis Life RPG";
 		overviewText="www.AltisLifeFr.com";
-		startWeather=0.099999994;
-		startWind=0.29999998;
+		startWeather=0;
+		startWind=0;
 		startWindDir=20;
-		startWaves=0.12;
-		startGust=0.099999994;
-		forecastWeather=0.099999994;
-		forecastWind=0.29999998;
-		forecastWaves=0.12;
-		forecastGust=0.099999994;
+		forecastWeather=0;
+		forecastWind=0;
+		forecastWaves=0;
 		forecastWindDir=360;
+		rainForced=1;
+		lightningsForced=1;
 		wavesForced=1;
 		windForced=1;
 		year=2035;
-		month=7;
+		month=6;
 		day=6;
-		hour=8;
+		hour=6;
 		minute=0;
 		startFogDecay=0.0049333;
 		forecastFogDecay=0.0049333;
@@ -3098,7 +3097,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=499;
+		items=500;
 		class Item0
 		{
 			position[]={8065.1616,35.674362,24985.314};
@@ -8590,10 +8589,21 @@ class Mission
 			skill=0.2;
 			init="this enableSimulation false; this allowDamage false;  this addAction[""Superette de la Police"",life_fnc_virt_menu,""cop""]; this addAction[""Quincaillerie"",life_fnc_weaponShopMenu,""copstore""];  this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""cg"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""cg"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""cg"",0,false,false,"""",' !license_cop_cg && playerSide == west']; this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""cAir"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""cAir"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""cAir"",0,false,false,"""",' !license_cop_cair && playerSide == west '];";
 		};
+		class Item499
+		{
+			position[]={18139.979,26.736803,12841.068};
+			azimut=262.29977;
+			id=714;
+			side="EMPTY";
+			vehicle="Land_Atm_01_F";
+			skill=0.60000002;
+			text="atm1_1_3_1_6_4_8_1_1";
+			init="this enableSimulation false; this allowDamage false; this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu]; this addAction[""Banking Insurance ($1,000)"",{if(life_atmcash > 1000) then {life_has_insurance = true; life_atmcash = life_atmcash - 1000};},"""",0,false,false,"""",'!life_has_insurance'];";
+		};
 	};
 	class Markers
 	{
-		items=366;
+		items=367;
 		class Item0
 		{
 			position[]={8459.6777,104.56568,25131.203};
@@ -11514,6 +11524,15 @@ class Mission
 			a=100;
 			b=220;
 			angle=195.55734;
+		};
+		class Item366
+		{
+			position[]={18140.029,26.729633,12841.238};
+			name="atm_1_3_11_5_4_6_1_1";
+			text="ATM";
+			type="loc_Tourism";
+			colorName="ColorGreen";
+			angle=2.1775949;
 		};
 	};
 	class Sensors
