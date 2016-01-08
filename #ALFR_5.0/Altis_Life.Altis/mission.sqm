@@ -3098,7 +3098,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=496;
+		items=499;
 		class Item0
 		{
 			position[]={8065.1616,35.674362,24985.314};
@@ -7354,7 +7354,7 @@ class Mission
 			vehicle="Land_InfoStand_V2_F";
 			skill=0.2;
 			text="h1_3_1";
-			init="this enableSimulation false;    this allowDamage false;   this addAction[""Superette de la Police"",life_fnc_virt_menu,""cop""];    this addAction[""Vestiaire de la Police"",life_fnc_clothingMenu,""cop""];    this addAction[""Quincaillerie de la Police"",life_fnc_weaponShopMenu,""cop_basic""];    this addAction[""Boutique Recrue"",life_fnc_weaponShopMenu,""cop_recrue"",0,false,false,"""",' _target distance _this < 5 && !isNil ""life_coplevel"" &&  (call life_coplevel) == 1 && playerSide == west'];   this addAction[""Boutique Policier"",life_fnc_weaponShopMenu,""cop_policier"",0,false,false,"""",' _target distance _this < 5 && !isNil ""life_coplevel"" &&  (call life_coplevel) == 2 && playerSide == west'];   this addAction[""Boutique Brigadier"",life_fnc_weaponShopMenu,""cop_brigadier"",0,false,false,"""",' _target distance _this < 5 && !isNil ""life_coplevel"" &&  (call life_coplevel) == 3 && playerSide == west'];   this addAction[""Boutique Major"",life_fnc_weaponShopMenu,""cop_major"",0,false,false,"""",' _target distance _this < 5 && !isNil ""life_coplevel"" &&  (call life_coplevel) == 4 && playerSide == west'];   this addAction[""Boutique Lieutenant"",life_fnc_weaponShopMenu,""cop_lieutenant"",0,false,false,"""",' _target distance _this < 5 && !isNil ""life_coplevel"" &&  (call life_coplevel) == 5 && playerSide == west'];   this addAction[""Boutique Capitaine"",life_fnc_weaponShopMenu,""cop_capitaine"",0,false,false,"""",' _target distance _this < 5 && !isNil ""life_coplevel"" &&  (call life_coplevel) == 6 && playerSide == west'];   this addAction[""Boutique Commandant"",life_fnc_weaponShopMenu,""cop_admin"",0,false,false,"""",' _target distance _this < 5 && !isNil ""life_coplevel"" &&  (call life_coplevel) == 7 && playerSide == west'];  this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu]; this addAction[""Banking Insurance ($1,000)"",{if(life_atmcash > 1000) then {life_has_insurance = true; life_atmcash = life_atmcash - 1000};},"""",0,false,false,"""",'!life_has_insurance'];  this addAction[format[""%1 (%2€)"",[""license_cop_air""] call life_fnc_varToStr,[([""cair""] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,""cair"",0,false,false,"""",' !license_cop_air && playerSide == west '];";
+			init="this enableSimulation false;  this allowDamage false;  this addAction[""Vestiaire de la Police"",life_fnc_clothingMenu,""cop""];  this addAction[""Armurerie policier"",life_fnc_weaponShopMenu,""cop_policier""];  this addAction[""Armurerie brigadier"",life_fnc_weaponShopMenu,""cop_brigadier""];  this addAction[""Armurerie adjudant"",life_fnc_weaponShopMenu,""cop_adjudant""];  this addAction[""Armurerie major"",life_fnc_weaponShopMenu,""cop_major""];  this addAction[""Armurerie lieutenant"",life_fnc_weaponShopMenu,""cop_lieutenant""];  this addAction[""Armurerie capitaine"",life_fnc_weaponShopMenu,""cop_capitaine""];  this addAction[""Armurerie commandant"",life_fnc_weaponShopMenu,""cop_commandant""];";
 		};
 		class Item391
 		{
@@ -7723,7 +7723,7 @@ class Mission
 		};
 		class Item424
 		{
-			position[]={15138.191,17.91,17234.637};
+			position[]={15135.281,17.91,17237.195};
 			azimut=-46.2159;
 			offsetY=0.40000001;
 			special="NONE";
@@ -7731,7 +7731,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_InfoStand_V2_F";
 			skill=0.2;
-			init="this enableSimulation false;  this addAction[""Superette de la Police"",life_fnc_virt_menu,""cop""];  this allowDamage false;  this addAction[""Vestiaire de la Police"",life_fnc_clothingMenu,""cop""];  this addAction[""Armurerie policier"",life_fnc_weaponShopMenu,""cop_policier""];  this addAction[""Armurerie brigadier"",life_fnc_weaponShopMenu,""cop_brigadier""];  this addAction[""Armurerie adjudant"",life_fnc_weaponShopMenu,""cop_adjudant""];  this addAction[""Armurerie major"",life_fnc_weaponShopMenu,""cop_major""];  this addAction[""Armurerie lieutenant"",life_fnc_weaponShopMenu,""cop_lieutenant""];  this addAction[""Armurerie capitaine"",life_fnc_weaponShopMenu,""cop_capitaine""];  this addAction[""Armurerie commandant"",life_fnc_weaponShopMenu,""cop_commandant""];  this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""cAir"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""cAir"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""cAir"",0,false,false,"""",' !license_cop_cAir && playerSide == west '];  this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""coastguard"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""coastguard"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""coastguard"",0,false,false,"""",' !license_cop_cg && playerSide == west '];";
+			init="this enableSimulation false;  this allowDamage false;  this addAction[""Vestiaire de la Police"",life_fnc_clothingMenu,""cop""];  this addAction[""Armurerie policier"",life_fnc_weaponShopMenu,""cop_policier""];  this addAction[""Armurerie brigadier"",life_fnc_weaponShopMenu,""cop_brigadier""];  this addAction[""Armurerie adjudant"",life_fnc_weaponShopMenu,""cop_adjudant""];  this addAction[""Armurerie major"",life_fnc_weaponShopMenu,""cop_major""];  this addAction[""Armurerie lieutenant"",life_fnc_weaponShopMenu,""cop_lieutenant""];  this addAction[""Armurerie capitaine"",life_fnc_weaponShopMenu,""cop_capitaine""];  this addAction[""Armurerie commandant"",life_fnc_weaponShopMenu,""cop_commandant""];";
 		};
 		class Item425
 		{
@@ -8378,7 +8378,7 @@ class Mission
 			vehicle="Land_InfoStand_V2_F";
 			skill=0.2;
 			text="h1_3_2_1";
-			init="this enableSimulation false;  this addAction[""Superette de la Police"",life_fnc_virt_menu,""cop""];  this allowDamage false;  this addAction[""Vestiaire de la Police"",life_fnc_clothingMenu,""cop""];  this addAction[""Armurerie policier"",life_fnc_weaponShopMenu,""cop_policier""];  this addAction[""Armurerie brigadier"",life_fnc_weaponShopMenu,""cop_brigadier""];  this addAction[""Armurerie adjudant"",life_fnc_weaponShopMenu,""cop_adjudant""];  this addAction[""Armurerie major"",life_fnc_weaponShopMenu,""cop_major""];  this addAction[""Armurerie lieutenant"",life_fnc_weaponShopMenu,""cop_lieutenant""];  this addAction[""Armurerie capitaine"",life_fnc_weaponShopMenu,""cop_capitaine""];  this addAction[""Armurerie commandant"",life_fnc_weaponShopMenu,""cop_commandant""];  this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""cAir"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""cAir"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""cAir"",0,false,false,"""",' !license_cop_cAir && playerSide == west '];  this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""coastguard"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""coastguard"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""coastguard"",0,false,false,"""",' !license_cop_cg && playerSide == west '];";
+			init="this enableSimulation false;  this allowDamage false;  this addAction[""Vestiaire de la Police"",life_fnc_clothingMenu,""cop""];  this addAction[""Armurerie policier"",life_fnc_weaponShopMenu,""cop_policier""];  this addAction[""Armurerie brigadier"",life_fnc_weaponShopMenu,""cop_brigadier""];  this addAction[""Armurerie adjudant"",life_fnc_weaponShopMenu,""cop_adjudant""];  this addAction[""Armurerie major"",life_fnc_weaponShopMenu,""cop_major""];  this addAction[""Armurerie lieutenant"",life_fnc_weaponShopMenu,""cop_lieutenant""];  this addAction[""Armurerie capitaine"",life_fnc_weaponShopMenu,""cop_capitaine""];  this addAction[""Armurerie commandant"",life_fnc_weaponShopMenu,""cop_commandant""];";
 		};
 		class Item481
 		{
@@ -8448,7 +8448,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_InfoStand_V2_F";
 			skill=0.2;
-			init="this enableSimulation false;  this allowDamage false;  this addAction[""Vestiaire de la Police"",life_fnc_clothingMenu,""cop""];  this addAction[""Armurerie policier"",life_fnc_weaponShopMenu,""cop_policier""];  this addAction[""Armurerie brigadier"",life_fnc_weaponShopMenu,""cop_brigadier""];  this addAction[""Armurerie adjudant"",life_fnc_weaponShopMenu,""cop_adjudant""];  this addAction[""Armurerie major"",life_fnc_weaponShopMenu,""cop_major""];  this addAction[""Armurerie lieutenant"",life_fnc_weaponShopMenu,""cop_lieutenant""];  this addAction[""Armurerie capitaine"",life_fnc_weaponShopMenu,""cop_capitaine""];  this addAction[""Armurerie commandant"",life_fnc_weaponShopMenu,""cop_commandant""];  this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""cAir"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""cAir"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""cAir"",0,false,false,"""",' !license_cop_cAir && playerSide == west '];  this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""coastguard"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""coastguard"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""coastguard"",0,false,false,"""",' !license_cop_cg && playerSide == west '];";
+			init="this enableSimulation false;  this allowDamage false;  this addAction[""Vestiaire de la Police"",life_fnc_clothingMenu,""cop""];  this addAction[""Armurerie policier"",life_fnc_weaponShopMenu,""cop_policier""];  this addAction[""Armurerie brigadier"",life_fnc_weaponShopMenu,""cop_brigadier""];  this addAction[""Armurerie adjudant"",life_fnc_weaponShopMenu,""cop_adjudant""];  this addAction[""Armurerie major"",life_fnc_weaponShopMenu,""cop_major""];  this addAction[""Armurerie lieutenant"",life_fnc_weaponShopMenu,""cop_lieutenant""];  this addAction[""Armurerie capitaine"",life_fnc_weaponShopMenu,""cop_capitaine""];  this addAction[""Armurerie commandant"",life_fnc_weaponShopMenu,""cop_commandant""];";
 		};
 		class Item487
 		{
@@ -8554,10 +8554,46 @@ class Mission
 			text="atm1_1_3_1_6_4_3_1_3_2";
 			init="this enableSimulation false; this allowDamage false; this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu]; this addAction[""Banking Insurance ($1,000)"",{if(life_atmcash > 1000) then {life_has_insurance = true; life_atmcash = life_atmcash - 1000};},"""",0,false,false,"""",'!life_has_insurance'];";
 		};
+		class Item496
+		{
+			position[]={15136.144,17.91,17238.068};
+			azimut=672.85095;
+			offsetY=0.40000001;
+			special="NONE";
+			id=711;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V2_F";
+			skill=0.2;
+			init="this enableSimulation false; this allowDamage false;  this addAction[""Superette de la Police"",life_fnc_virt_menu,""cop""]; this addAction[""Quincaillerie"",life_fnc_weaponShopMenu,""copstore""];  this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""cg"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""cg"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""cg"",0,false,false,"""",' !license_cop_cg && playerSide == west']; this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""cAir"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""cAir"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""cAir"",0,false,false,"""",' !license_cop_cair && playerSide == west '];";
+		};
+		class Item497
+		{
+			position[]={20599.145,35.217598,16643.627};
+			azimut=577.125;
+			offsetY=1;
+			special="NONE";
+			id=712;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V2_F";
+			skill=0.2;
+			init="this enableSimulation false; this allowDamage false;  this addAction[""Superette de la Police"",life_fnc_virt_menu,""cop""]; this addAction[""Quincaillerie"",life_fnc_weaponShopMenu,""copstore""];  this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""cg"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""cg"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""cg"",0,false,false,"""",' !license_cop_cg && playerSide == west']; this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""cAir"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""cAir"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""cAir"",0,false,false,"""",' !license_cop_cair && playerSide == west '];";
+		};
+		class Item498
+		{
+			position[]={16545.201,11.103184,12795.717};
+			azimut=661.78699;
+			offsetY=0.40000001;
+			special="NONE";
+			id=713;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V2_F";
+			skill=0.2;
+			init="this enableSimulation false; this allowDamage false;  this addAction[""Superette de la Police"",life_fnc_virt_menu,""cop""]; this addAction[""Quincaillerie"",life_fnc_weaponShopMenu,""copstore""];  this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""cg"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""cg"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""cg"",0,false,false,"""",' !license_cop_cg && playerSide == west']; this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""cAir"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""cAir"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""cAir"",0,false,false,"""",' !license_cop_cair && playerSide == west '];";
+		};
 	};
 	class Markers
 	{
-		items=360;
+		items=366;
 		class Item0
 		{
 			position[]={8459.6777,104.56568,25131.203};
@@ -9080,7 +9116,7 @@ class Mission
 		};
 		class Item66
 		{
-			position[]={5188.1885,217.79607,20872.66};
+			position[]={5200.3408,239.99092,20977.895};
 			name="cocaine_1";
 			text="Champ de coca";
 			type="mil_dot";
@@ -9088,7 +9124,7 @@ class Mission
 		};
 		class Item67
 		{
-			position[]={5190.8076,219.8526,20877.027};
+			position[]={5200.6953,240.00031,20977.336};
 			name="coke_area";
 			markerType="ELLIPSE";
 			type="Empty";
@@ -11410,6 +11446,74 @@ class Mission
 			text="ATM";
 			type="loc_Tourism";
 			colorName="ColorEAST";
+		};
+		class Item360
+		{
+			position[]={17199.961,15.409824,17892.414};
+			name="Douane";
+			text="Douane Nord";
+			type="mil_warning";
+			colorName="ColorBlue";
+		};
+		class Item361
+		{
+			position[]={16635.793,5.2149434,15722.831};
+			name="Douane_1";
+			text="Douane Sud";
+			type="mil_warning";
+			colorName="ColorBlue";
+		};
+		class Item362
+		{
+			position[]={16929.68,47.185741,16799.473};
+			name="Marqueur_Frontiere_1";
+			text="Frontière";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorBlue";
+			fillName="DiagGrid";
+			a=100;
+			b=1050;
+			angle=194.47926;
+		};
+		class Item363
+		{
+			position[]={17228.152,14.969357,17959.77};
+			name="Marqeur_Frontiere_1_1_1";
+			text="Frontière";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorBlue";
+			fillName="DiagGrid";
+			a=100;
+			b=150;
+			angle=14.216312;
+		};
+		class Item364
+		{
+			position[]={16630.633,2.832068,15638.074};
+			name="Marqeur_Frontiere_1_1_1_1";
+			text="Frontière";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorBlue";
+			fillName="DiagGrid";
+			a=100;
+			b=150;
+			angle=-345.93729;
+		};
+		class Item365
+		{
+			position[]={17323.455,6.4022121,18313.805};
+			name="Marqeur_Frontiere_1_1_1_2";
+			text="Frontière";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorBlue";
+			fillName="DiagGrid";
+			a=100;
+			b=220;
+			angle=195.55734;
 		};
 	};
 	class Sensors
