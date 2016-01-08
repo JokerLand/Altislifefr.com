@@ -849,7 +849,7 @@ class WeaponShops {
             { "Medikit", "", 150 },
             { "pmc_earpiece", "", 100 },
             { "H_PilotHelmetHeli_B", "", 80 },
-			{ "ALFR_Police_Backpack", "", 100 }
+			{ "ALFR_Police_Backpack", "", 100 },
             { "tf_anprc152", "Radio (5km)", 0 },
             { "tf_anprc155_coyote", "Radio (20km)(sac)", 50 },
             { "tf_anarc164", "Radio (40km)(sac)", 50 }
