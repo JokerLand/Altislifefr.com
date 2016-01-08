@@ -94,6 +94,7 @@ class Life_Client_Core
 		class gutAnimal {};
 		class surrender {};
         class robShops {};
+        class seizeObjects {};
 	};
 	
 	class Housing
