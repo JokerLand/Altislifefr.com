@@ -164,7 +164,7 @@ class VirtualItems {
 
 	//Food
 	VITEMMACRO(apple, "STR_Item_Apple", "apple", 1, 5, 2, false, 10, "icons\ico_apple.paa")
-	VITEMMACRO(peach, "STR_Item_Peach", "peach", 1, 10, 7, false, 10, "icons\ico_peach.paa")
+	VITEMMACRO(peach, "STR_Item_Peach", "peach", 1, 10, 5, false, 10, "icons\ico_peach.paa")
 	VITEMMACRO(tbacon, "STR_Item_TBacon", "tbacon", 1, 10, 2, false, 40, "icons\ico_tbacon.paa")
 	VITEMMACRO(donuts, "STR_Item_Donuts", "donuts", 1, 2, 1, false, 30, "icons\ico_donut.paa")
 	VITEMMACRO(rabbit_raw, "STR_Item_Rabbit", "rabbitRaw", 2, -1, 65, false, -1, "icons\food.paa")
