@@ -52,7 +52,7 @@ if(EQUAL(_diff,0)) exitWith {hint localize "STR_NOTF_InvFull"};
 //Setup our progress bar.
 disableSerialization;
 5 cutRsc ["life_progress","PLAIN"];
-_upp = "recolte";
+_upp = "Recolte";
 _ui = GVAR_UINS "life_progress";
 _progress = _ui displayCtrl 38201;
 _pgText = _ui displayCtrl 38202;
