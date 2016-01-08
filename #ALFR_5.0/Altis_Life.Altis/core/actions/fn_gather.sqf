@@ -73,6 +73,7 @@ while{true} do {
 		_progress progressSetPosition _cP;
 		_pgText ctrlSetText format["%3 (%1%2)...",round(_cP * 100),"%",_upp];
 		if(_cP >= 1) exitWith {};
+		if(player distance (getMarkerPos _x) < 30) exitWith {_zone = _x;};
 	};
 
 if(([true,SEL(_gather,0),_diff] call life_fnc_handleInv)) then {
