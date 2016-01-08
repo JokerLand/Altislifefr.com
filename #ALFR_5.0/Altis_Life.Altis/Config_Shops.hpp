@@ -840,16 +840,19 @@ class WeaponShops {
         license = "";
         level = -1;
         items[] = {
-            { "ItemCompass", "", 50 },
-			{ "Binocular", "", 150 },
-			{ "ItemMap", "", 15 },
-			{ "ItemGPS", "", 100 },
-			{ "ToolKit", "", 250 },
-			{ "FirstAidKit", "", 150 },
-            { "Medikit", "", 200,},
-            { "pmc_earpiece", "", 300},
-            { "H_PilotHelmetHeli_B", "", 200},
-			{ "ALFR_Police_Backpack", "", 500 }
+            { "ItemCompass", "", 10 },
+			{ "Binocular", "", 15 },
+			{ "ItemMap", "", 10 },
+			{ "ItemGPS", "", 10 },
+			{ "ToolKit", "", 50 },
+			{ "FirstAidKit", "", 15 },
+            { "Medikit", "", 150 },
+            { "pmc_earpiece", "", 100 },
+            { "H_PilotHelmetHeli_B", "", 80 },
+			{ "ALFR_Police_Backpack", "", 100 }
+            { "tf_anprc152", "Radio (5km)", 0 },
+            { "tf_anprc155_coyote", "Radio (20km)(sac)", 50 },
+            { "tf_anarc164", "Radio (40km)(sac)", 50 }
         };
     };
 };
