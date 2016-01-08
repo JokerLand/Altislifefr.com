@@ -220,7 +220,7 @@ class WeaponShops {
 			{ "Medikit", "", 50 },
 			{ "pmc_earpiece", "", 100 },
 			{ "Rangefinder", "", 15 },
-			{ "tf_fadak", "Radio Courte", 0 }
+			{ "tf_anprc152", "Radio (5km)", 0 }
         };
     };
     //Armurerie policier

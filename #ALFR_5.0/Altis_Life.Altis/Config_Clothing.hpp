@@ -278,6 +278,8 @@ class Clothing {
 		backpacks[] = {
 			{ "NONE", "Remove Backpack", 0, { "", "", -1 } },
 			{ "ALFR_Police_Backpack", "", 50, { "", "", -1 } },
+			{ "tf_anprc155_coyote", "Radio 20km", 50, { "", "", -1 } },
+            { "tf_anarc164", "Radio 40km", 50, { "", "", -1 } },
 			{ "B_UAV_01_backpack_F", "", 5000, { "life_coplevel", "SCALAR", 3 } }
 		};
 	};

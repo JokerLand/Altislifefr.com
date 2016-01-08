@@ -19,7 +19,5 @@ player addItem "ItemCompass";
 player assignItem "ItemCompass";
 player addItem "ItemWatch";
 player assignItem "ItemWatch";
-player addItem "tf_anprc148jem_4";
-player assignItem "ItemRadio";
 
 [] call life_fnc_saveGear;
