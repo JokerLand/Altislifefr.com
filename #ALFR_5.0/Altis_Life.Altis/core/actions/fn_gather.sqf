@@ -59,7 +59,7 @@ _pgText = _ui displayCtrl 38202;
 _pgText ctrlSetText format["%2 (1%1)...","%",_upp];
 _progress progressSetPosition 0.01;
 _cP = 0.01;
-_time = _diff / 100;
+_time = _diff / 50;
 
 life_action_gathering = true;
 
