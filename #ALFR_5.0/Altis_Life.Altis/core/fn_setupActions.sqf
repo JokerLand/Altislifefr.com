@@ -105,9 +105,9 @@ switch (playerSide) do
 	{
 
 		//entrer dans un vehicule meme verouillé
-		life_actions = life_actions + [player addAction["Monter en conducteur",life_fnc_medicEnter,"driver",200,false,false,"",'!isNull cursorTarget && ((cursorTarget isKindOf "Car")||(cursorTarget isKindOf "Air")||(cursorTarget isKindOf "Ship")) && (locked cursorTarget) != 0 && cursorTarget distance player < 5']];
-		life_actions = life_actions + [player addAction["Monter en passager",life_fnc_medicEnter,"passenger",100,false,false,"",'!isNull cursorTarget && ((cursorTarget isKindOf "Car")||(cursorTarget isKindOf "Air")||(cursorTarget isKindOf "Ship")) && (locked cursorTarget) != 0 && cursorTarget distance player < 5']];
-		life_actions = life_actions + [player addAction["Descendre",life_fnc_medicEnter,"exit",100,false,false,"",'(vehicle player != player) && (locked(vehicle player)==2)']];
+		life_actions = life_actions + [player addAction["Monter en conducteur",life_fnc_medEnter,"driver",200,false,false,"",'!isNull cursorTarget && ((cursorTarget isKindOf "Car")||(cursorTarget isKindOf "Air")||(cursorTarget isKindOf "Ship")) && (locked cursorTarget) != 0 && cursorTarget distance player < 5']];
+		life_actions = life_actions + [player addAction["Monter en passager",life_fnc_medEnter,"passenger",100,false,false,"",'!isNull cursorTarget && ((cursorTarget isKindOf "Car")||(cursorTarget isKindOf "Air")||(cursorTarget isKindOf "Ship")) && (locked cursorTarget) != 0 && cursorTarget distance player < 5']];
+		life_actions = life_actions + [player addAction["Descendre",life_fnc_medEnter,"exit",100,false,false,"",'(vehicle player != player) && (locked(vehicle player)==2)']];
 
 		//Place Cone
 		life_actions = life_actions + [player addAction["Placer le cone",{if(!isNull life_cone) then {detach life_cone; life_cone = ObjNull;};},"",999,false,false,"",'!isNull life_cone']];
