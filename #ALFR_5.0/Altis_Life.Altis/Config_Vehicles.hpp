@@ -137,6 +137,7 @@ class CarShops {
 			{ "GeK_Renault_Trafic_Police", 1000, ""},
 			{ "GeK_S60_Police", 1000, ""},
 			{ "ALFR_GeK_Panamera_Police", 1000, "", { "life_coplevel", 2 } },
+            { "GeK_ML63_Police" , 1000, "", { "life_coplevel", 2 } },
 			{ "GeK_TLC100_Police", 1000, "", { "life_coplevel", 2 } },
 			{ "I_MRAP_03_F", 1000, "", { "life_coplevel", 3 } },
 			{ "ALFR_GeK_MF1_Police", 1000, "", { "life_coplevel", 3 } },
@@ -526,6 +527,13 @@ class CfgVehicles {
 		};
 	};
 
+    class GeK_ML63_Police : Default {
+		vItemSpace = 40;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 1000, 1000, 1000, 1000 };
+		chopShop = 3000;
+	};
+    
 	class ALFR_GeK_MF1_Police : Default {
 		vItemSpace = 20;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
