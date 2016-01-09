@@ -145,7 +145,7 @@ class VirtualItems {
 	VITEMMACRO(sand, "STR_Item_Sand", "sand", 3, -1, -1, false, -1, "icons\ico_sand.paa")
 	VITEMMACRO(glass, "STR_Item_Glass", "glass", 1, -1, 118, false, -1, "icons\ico_glass.paa")
 	VITEMMACRO(diamond_uncut, "STR_Item_DiamondU", "diamondUncut", 4, -1, 30, false, -1, "icons\ico_diamond_unprocessed.paa")
-	VITEMMACRO(diamond_cut, "STR_Item_DiamondC", "diamondCut", 2, -1, 185, false, -1, "icons\ico_diamond.paa")
+	VITEMMACRO(diamond_cut, "STR_Item_DiamondC", "diamondCut", 2, -1, 175, false, -1, "icons\ico_diamond.paa")
 	VITEMMACRO(rock, "STR_Item_Rock", "rock", 6, -1, -1, false, -1, "icons\ico_rock.paa")
 	VITEMMACRO(cement, "STR_Item_CementBag", "cement", 5, -1, 210, false, -1, "icons\ico_cement.paa")
 
