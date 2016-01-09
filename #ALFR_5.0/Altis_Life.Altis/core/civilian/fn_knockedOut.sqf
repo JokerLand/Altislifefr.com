@@ -13,6 +13,7 @@ if(isNull _target) exitWith {};
 if(_target != player) exitWith {};
 if(EQUAL(_who,"")) exitWith {};
 
+player setVariable ["tf_unable_to_use_radio", true];
 titleText[format[localize "STR_Civ_KnockedOut",_who],"PLAIN"];
 player playMoveNow "Incapacitated";
 _obj = "Land_ClutterCutter_small_F" createVehicle ASLTOATL(visiblePositionASL player); //WHY THE HELL WAS THIS BEING CREATED GLOBALLY?!?!?!!?!~?!?!?!?$@Q?G%@?$TGWGSXBG, BECAUSE IT WORK
