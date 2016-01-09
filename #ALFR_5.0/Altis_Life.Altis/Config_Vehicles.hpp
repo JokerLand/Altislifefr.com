@@ -9,36 +9,36 @@ class CarShops {
 		side = "civ";
 		vehicles[] = {
 			{ "B_Quadbike_01_F", 1000, "" },
+            { "cl3_polo_gti_black", 2000, "driver" },
 			{ "cl3_civic_vti_black", 2000, "driver" },
+            { "C_SUV_01_F", 3800, "driver" },
 			{ "C_Offroad_01_F", 3800, "driver" },
-			{ "C_SUV_01_F", 3800, "driver" },
+            { "I_G_Offroad_01_F", 4000, "driver" },
+            { "cl3_z4_2008_black", 7000, "driver" },
+            { "SAL_IROCCiv", 9500, "driver" },
 			{ "cl3_taurus_black", 12500, "driver" },
-			{ "cl3_polo_gti_black", 2000, "driver" },
-			{ "GeK_S60", 34500, "driver" },
-			{ "GeK_CTSV", 34500, "driver" },
-			{ "cl3_q7_black", 30000, "driver" },
-			{ "I_G_Offroad_01_F", 4000, "driver" },
-			{ "cl3_e63_amg_black", 25000, "driver" },
-			{ "SAL_IROCCiv", 9500, "driver" },
-			{ "cl3_dodge_charger_s_black", 25000, "driver" },
-			{ "cl3_z4_2008_black", 7000, "driver" },
-			{ "GeK_TLC100", 28000, "driver" },
+            { "cl3_xr_1000_black", 14000, "driver" },
 			{ "cl3_carrera_gt_black", 20000, "driver" },
 			{ "cl3_dbs_volante_black", 20000, "driver" },
-			{ "GeK_Mercedes_ML63", 35000, "driver" },
-			{ "wirk_cayenne", 32000, "driver" },
-			{ "Jonzie_Viper", 30000, "driver" },
-			{ "cl3_r8_spyder_black", 24000, "driver" },
-			{ "cl3_458_black", 24000, "driver" },
+            { "cl3_arielatom_black", 20000, "driver" },
+            { "cl3_r8_spyder_black", 24000, "driver" },
+            { "cl3_458_black", 24000, "driver" },
 			{ "cl3_murcielago_black", 24000, "driver" },
 			{ "cl3_reventon_black", 24000, "driver" },
 			{ "wirk_ferrari_california", 24000, "driver" },
-			{ "ALFR_GeK_MF1", 32000, "driver" },
+            { "cl3_e63_amg_black", 25000, "driver" },
+            { "cl3_dodge_charger_s_black", 25000, "driver" },
+            { "cl3_veyron_wht_blu", 27000, "driver" },
+            { "GeK_TLC100", 28000, "driver" },
+            { "cl3_q7_black", 30000, "driver" },
+            { "Jonzie_Viper", 30000, "driver" },
+            { "ALFR_GeK_MF1", 32000, "driver" },
+            { "wirk_cayenne", 32000, "driver" },
 			{ "AudiA8_Limo", 32000, "driver" },
-			{ "cl3_arielatom_black", 20000, "driver" },
-			{ "cl3_veyron_wht_blu", 27000, "driver" },
-			{ "cl3_xr_1000_black", 14000, "driver" },
-			{ "ALFR_GeK_Panamera", 34500, "driver" },
+            { "ALFR_GeK_Panamera", 34500, "driver" },
+			{ "GeK_S60", 34500, "driver" },
+			{ "GeK_CTSV", 34500, "driver" },
+			{ "GeK_Mercedes_ML63", 35000, "driver" },
 			{ "GeK_Civilian_H1", 40000, "driver" },
 			{ "ALFR_GeK_Pagani_Zonda", 44000, "driver" }
 
@@ -71,21 +71,21 @@ class CarShops {
 		side = "med";
 		vehicles[] = {
 			{ "B_Heli_Light_01_F", 2000, "mAir" },
-			{ "O_Heli_Light_02_unarmed_F", 3000, "mAir", { "life_mediclevel", 2 } },
-			{ "EC635_Med", 5000, "mAir", { "life_mediclevel", 3 } }
+         /* { "O_Heli_Light_02_unarmed_F", 3000, "mAir", { "life_mediclevel", 2 } },  */
+			{ "EC635_SAR", 5000, "mAir", { "life_mediclevel", 3 } }
 		};
 	};
 
 	class civ_truck {
 		side = "civ";
 		vehicles[] = {
-			{ "C_Van_01_transport_F", 12000, "trucking" },
-			{ "C_Van_01_box_F", 18500, "trucking" },
-            { "cl3_transit_black", 12000, "trucking" },
             { "GeK_Renault_Trafic", 10400, "trucking" },
+			{ "C_Van_01_transport_F", 12000, "trucking" },
+            { "cl3_transit_black", 12000, "trucking" },
+            { "cg_rv_camper", 13000, "trucking" },
+            { "C_Van_01_box_F", 18500, "trucking" },
 			{ "I_Truck_02_transport_F", 25000, "trucking" },
 			{ "I_Truck_02_covered_F", 32500, "trucking" },
-			{ "cg_rv_camper", 13000, "trucking" },
 			{ "B_Truck_01_transport_F", 39000, "trucking" },
 			{ "B_Truck_01_box_F", 45000, "trucking" },
             { "ALFR_GeK_Scania_420", 48000, "trucking" },
@@ -155,7 +155,7 @@ class CarShops {
 			{ "GNT_C185", 54000, "pilot" },
 			{ "O_Heli_Light_02_unarmed_F", 156000, "pilot" },
 			{ "I_Heli_Transport_02_F", 300000, "pilot" },
-			{ "B_Heli_Transport_03_unarmed_", 568000, "pilot" }
+			{ "B_Heli_Transport_03_unarmed_F", 568000, "pilot" }
 
 		};
 	};
@@ -193,13 +193,11 @@ class CarShops {
 	class cop_air {
 		side = "cop";
 		vehicles[] = {
-			{ "B_Heli_Light_01_F", 75000, "cAir", { "life_coplevel", 2 } },
-			{ "C_Heli_Light_01_civil_F", 75000, "cAir", { "life_coplevel", 2 } },
-			{ "I_Heli_light_03_unarmed_F", 150000, "cAir", { "life_coplevel", 3 } },
-			{ "B_Heli_Transport_03_unarmed_F", 150000, "cAir", { "life_coplevel", 4 } },
-			{ "EC635_Unarmed", 180000, "cAir", { "life_coplevel", 4 } },
-			{ "B_Heli_Transport_01_F", 200000, "cAir", { "life_coplevel", 6 } },
-			{ "B_Heli_Transport_03_F", 1000000, "cAir", { "life_coplevel", 7 } }
+			{ "B_Heli_Light_01_F", 15000, "cAir", { "life_coplevel", 2 } },
+			{ "C_Heli_Light_01_civil_F", 15000, "cAir", { "life_coplevel", 2 } },
+			{ "B_Heli_Transport_03_unarmed_F", 100000, "cAir", { "life_coplevel", 4 } },
+			{ "EC635_Unarmed", 80000, "cAir", { "life_coplevel", 4 } },
+			{ "B_Heli_Transport_01_F", 175000, "cAir", { "life_coplevel", 6 } },
 
 		};
 	};
@@ -207,13 +205,11 @@ class CarShops {
 	class cop_airhq {
 		side = "cop";
 		vehicles[] = {
-			{ "B_Heli_Light_01_F", 75000, "cAir", { "life_coplevel", 2 } },
-			{ "C_Heli_Light_01_civil_F", 75000, "cAir", { "life_coplevel", 2 } },
-			{ "I_Heli_light_03_unarmed_F", 150000, "cAir", { "life_coplevel", 3 } },
-			{ "B_Heli_Transport_03_unarmed_F", 150000, "cAir", { "life_coplevel", 4 } },
-			{ "EC635_Unarmed", 180000, "cAir", { "life_coplevel", 4 } },
-			{ "B_Heli_Transport_01_F", 200000, "cAir", { "life_coplevel", 6 } },
-			{ "B_Heli_Transport_03_F", 1000000, "cAir", { "life_coplevel", 7 } }
+			{ "B_Heli_Light_01_F", 15000, "cAir", { "life_coplevel", 2 } },
+			{ "C_Heli_Light_01_civil_F", 15000, "cAir", { "life_coplevel", 2 } },
+			{ "B_Heli_Transport_03_unarmed_F", 100000, "cAir", { "life_coplevel", 4 } },
+			{ "EC635_Unarmed", 80000, "cAir", { "life_coplevel", 4 } },
+			{ "B_Heli_Transport_01_F", 175000, "cAir", { "life_coplevel", 6 } },
 		};
 	};
 
@@ -544,6 +540,22 @@ class CfgVehicles {
 		chopShop = 213000;
 		textures[] = {
 
+         /* { "Vert", "civ", {
+                "ALFR_TexSnd\huronunivert2.paa", //Probleme Texture
+				"ALFR_TexSnd\huronunivert1.paa"
+            } }, */
+            { "Rouge", "civ", {
+                "ALFR_TexSnd\huronunirouge2.paa",
+				"ALFR_TexSnd\huronunirouge1.paa"
+            } },
+         /* { "Orange", "civ", {
+                "ALFR_TexSnd\huronuniorange2.paa", //Probleme Texture
+				"ALFR_TexSnd\huronuniorange1.paa"
+            } }, */
+            { "Cyan", "civ", {
+                "ALFR_TexSnd\huronunicyan2.paa",
+				"ALFR_TexSnd\huronunicyan1.paa"
+            } },
 			{ "Blanc", "civ", {
                 "ALFR_TexSnd\huronuniblanc2.paa",
 				"ALFR_TexSnd\huronuniblanc1.paa"
@@ -551,10 +563,6 @@ class CfgVehicles {
 			{ "Bleu", "civ", {
                 "ALFR_TexSnd\huronunibleu2.paa",
 				"ALFR_TexSnd\huronunibleu1.paa"
-            } },
-			{ "Camo Vert", "civ", {
-                "ALFR_TexSnd\huroncamovert2.paa",
-				"ALFR_TexSnd\huroncamovert1.paa"
             } },
 			{ "Armee", "armer", {
                 "alfr_Arm\data\ALFR_huronk_front_armee.jpg",
@@ -2456,7 +2464,7 @@ class CfgVehicles {
 	                "\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_elliptical_co.paa"
             } },
 			{ "Furious", "civ", {
-	                "\a3\air_B_Heli_Light_01_Ff\Heli_Light_01\Data\Skins\heli_light_01_ext_furious_co.paa"
+	                "\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_furious_co.paa"
             } },
 			{ "Jeans Blue", "civ", {
 	                "\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_jeans_co.paa"
@@ -3162,7 +3170,7 @@ class CfgVehicles {
     };
 
 	class B_Heli_Light_01_F {
-        vItemSpace = 90;
+        vItemSpace = 5;
         storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
         chopShop = 5000;
@@ -3219,14 +3227,15 @@ class CfgVehicles {
                 "ALFR_TexSnd\Hummingbird_Metallique_Urbain.paa"
             } },
 			{ "Medical", "med", {
-                "\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_sunset_co.paa"
+                "ALFR_TexSnd\Heli_medic.jpg"
             } }
         };
     };
 
 	class O_Heli_Light_02_unarmed_F {
-        vItemSpace = 15;
+        vItemSpace = 10;
         storageFee[] = { 1000, 1000, 1000, 1000 };
+        
 		garageSell[] = { 1000, 1000, 1000, 1000 };
         chopShop = 58500;
         textures[] = {
@@ -3249,7 +3258,7 @@ class CfgVehicles {
     };
 
 	class I_Heli_Transport_02_F {
-        vItemSpace = 5;
+        vItemSpace = 15;
         storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 125000, 1000, 1000, 1000 };
         chopShop = 112500;
