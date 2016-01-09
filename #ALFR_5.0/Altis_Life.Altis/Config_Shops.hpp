@@ -183,7 +183,7 @@ class WeaponShops {
 			{ "Chemlight_yellow", "", 5 },
 			{ "Chemlight_green", "", 5 },
 			{ "Chemlight_blue", "", 5 },
-			{ "tf_anprc148jem_1", "Radio Courte", 0 },
+			{ "tf_anprc148jem_999", "Radio Courte", 0 },
 			{ "tf_anprc155_coyote", "Radio Longue", 0 }
         };
     };
@@ -202,7 +202,7 @@ class WeaponShops {
 			{ "Medikit", "", 50 },
 			{ "pmc_earpiece", "", 100 },
 			{ "Rangefinder", "", 15 },
-			{ "tf_fadak", "Radio Courte", 0 }
+			{ "tf_fadak_999", "Radio Courte", 0 }
         };
     };
     //Quincaillerie Police
@@ -220,7 +220,7 @@ class WeaponShops {
 			{ "Medikit", "", 50 },
 			{ "pmc_earpiece", "", 100 },
 			{ "Rangefinder", "", 15 },
-			{ "tf_anprc152", "Radio (5km)", 0 }
+			{ "tf_anprc152_999", "Radio (5km)", 0 }
         };
     };
     //Armurerie policier
