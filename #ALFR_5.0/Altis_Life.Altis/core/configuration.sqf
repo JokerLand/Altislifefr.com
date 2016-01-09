@@ -66,17 +66,17 @@ switch (playerSide) do {
 		BANK = 10000; //Starting Bank Money
 		life_paycheck = 500; //Paycheck Amount
 	};
-	
+
 	case civilian: {
 		BANK = 6000; //Starting Bank Money
 		life_paycheck = 50; //Paycheck Amount
 	};
-	
+
 	case independent: {
 		BANK = 10000;
 		life_paycheck = 1000;
 	};
-	
+
 	case east:
 	{
 		BANK = 50000; //Starting Bank Money
@@ -96,6 +96,6 @@ switch (playerSide) do {
 {
 	_varName = getText(_x >> "variable");
 	_sideFlag = getText(_x >> "side");
-	
+
 	SVAR_MNS [LICENSE_VARNAME(_varName,_sideFlag),false];
 } foreach ("true" configClasses (missionConfigFile >> "Licenses"));

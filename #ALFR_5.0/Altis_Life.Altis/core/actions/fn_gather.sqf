@@ -59,7 +59,7 @@ _pgText = _ui displayCtrl 38202;
 _pgText ctrlSetText format["%2 (1%1)...","%",_upp];
 _progress progressSetPosition 0.01;
 _cP = 0.01;
-_time = life_maxWeight / 100;
+_time = _diff / 100;
 
 life_action_gathering = true;
 
@@ -73,8 +73,10 @@ while{true} do {
 		_progress progressSetPosition _cP;
 		_pgText ctrlSetText format["%3 (%1%2)...",round(_cP * 100),"%",_upp];
 		if(_cP >= 1) exitWith {};
-		if(player distance (getMarkerPos _x) < 30) exitWith {_zone = _x;};
+		if(player != vehicle player) exitWith {5 cutText ["","PLAIN"];};
 	};
+
+if(player != vehicle player) exitWith {};
 
 if(([true,SEL(_gather,0),_diff] call life_fnc_handleInv)) then {
 	_itemName = M_CONFIG(getText,"VirtualItems",SEL(_gather,0),"displayName");
