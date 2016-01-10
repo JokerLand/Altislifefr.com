@@ -23,4 +23,3 @@ _price2 = CASH + _price;
 life_chopvehicle_sell_garage = time;
 [[player,_vehicle,_price,_price2],"TON_fnc_chopShopSell",false,false] call life_fnc_MP;
 playSound "caching";
-closeDialog 0;
