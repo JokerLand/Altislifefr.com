@@ -167,26 +167,25 @@ class CarShops {
 			{ "cl3_xr_1000_black", 7500, "driver", { "life_donator", 1 } },
 			{ "GeK_S60", 15000, "driver", { "life_donator", 1 } },
 			{ "GeK_CTSV", 15000, "driver", { "life_donator", 1 } },
-			{ "cl3_suv_taxi", 50000, "driver", { "life_donator", 1 } },
-			{ "GeK_ElCamino", 100000, "driver", { "life_donator", 1 } },
-			{ "wirk_ktm", 125000, "driver", { "life_donatorlvl", 1 } },
-			{ "cl3_arielatom_black", 125000, "driver", { "life_donator", 1 } },
-			{ "GeK_Avalanche", 150000, "driver", { "life_donator", 1 } },
-			{ "cl3_suv_black", 200000, "driver", { "life_donator", 1 } },
-			{ "GeK_Civilian_H1", 200000, "driver", { "life_donator", 1 } },
-			{ "cl3_arielatom_race_black", 250000, "driver", { "life_donator", 1 } },
-			{ "ALFR_GeK_Scania_420", 250000, "trucking", { "life_donator", 1 } },
-			{ "cl3_veyron_wht_blu", 270000, "driver", { "life_donator", 1 } },
-			{ "ALFR_GeK_Volvo_FH16_2012", 300000, "trucking", { "life_donator", 1 } },
-			{ "ALFR_GeK_Panamera", 350000, "driver", { "life_donator", 1 } },
-			{ "GeK_Renault_Magnum", 400000, "trucking", { "life_donator", 1 } },
-			{ "GR_UH1H_1", 400000, "driver", { "life_donator", 1 } },
-			{ "ARMSCor_A109_Civ", 500000, "driver", { "life_donator", 1 } },
-			{ "CL3_bus_cl_black", 100000, "driver", { "life_donator", 1 } },
-			{ "ALFR_GeK_Pagani_Zonda", 2500000, "driver", { "life_donator", 1 } },
-			{ "mv22", 4500000, "pilot", { "life_donator", 1 } },
-			{ "IVORY_ERJ135_1", 10000000, "pilot", { "life_donator", 1 } }
-
+			{ "cl3_suv_taxi", 20000, "driver", { "life_donator", 1 } },
+			{ "GeK_ElCamino", 25000, "driver", { "life_donator", 1 } },
+			{ "wirk_ktm", 30000, "driver", { "life_donator", 1 } },
+			{ "cl3_arielatom_black", 30000, "driver", { "life_donator", 1 } },
+			{ "GeK_Avalanche", 30000, "driver", { "life_donator", 1 } },
+			{ "cl3_suv_black", 30000, "driver", { "life_donator", 1 } },
+			{ "GeK_Civilian_H1", 30000, "driver", { "life_donator", 1 } },
+			{ "cl3_arielatom_race_black", 50000, "driver", { "life_donator", 1 } },
+			{ "cl3_veyron_wht_blu", 50000, "driver", { "life_donator", 1 } },
+			{ "ALFR_GeK_Panamera", 50000, "driver", { "life_donator", 1 } },
+			{ "CL3_bus_cl_black", 50000, "driver", { "life_donator", 1 } },
+			{ "ALFR_GeK_Pagani_Zonda", 70000, "driver", { "life_donator", 1 } },
+			{ "ALFR_GeK_Scania_420", 40000, "trucking", { "life_donator", 1 } },
+			{ "GeK_Renault_Magnum", 55000, "trucking", { "life_donator", 1 } },
+			{ "ALFR_GeK_Volvo_FH16_2012", 65000, "trucking", { "life_donator", 1 } },
+			{ "GR_UH1H_1", 100000, "driver", { "life_donator", 1 } },
+			{ "ARMSCor_A109_Civ", 120000, "driver", { "life_donator", 1 } },
+			{ "mv22", 300000, "pilot", { "life_donator", 1 } },
+			{ "IVORY_ERJ135_1", 600000, "pilot", { "life_donator", 1 } }
 
 		};
 	};
@@ -422,7 +421,7 @@ class CfgVehicles {
 		vItemSpace = 20;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
-		chopShop = 12000;		
+		chopShop = 12000;
 	};
 
 	class Cha_UH60L_Unarmed_FFV_AUS : Default {
@@ -450,7 +449,7 @@ class CfgVehicles {
 		vItemSpace = 80;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
-		chopShop = 4875;		
+		chopShop = 4875;
 	};
 
 	class I_Heli_light_03_unarmed_F : Default {
@@ -500,7 +499,7 @@ class CfgVehicles {
 		vItemSpace = 60;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
-		chopShop = 12000;		
+		chopShop = 12000;
 	};
 
 	class ALFR_GeK_Panamera_Police_ST : Default {
@@ -533,7 +532,7 @@ class CfgVehicles {
 		garageSell[] = { 1000, 1000, 1000, 1000 };
 		chopShop = 3000;
 	};
-    
+
 	class ALFR_GeK_MF1_Police : Default {
 		vItemSpace = 20;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
@@ -3243,7 +3242,7 @@ class CfgVehicles {
 	class O_Heli_Light_02_unarmed_F {
         vItemSpace = 10;
         storageFee[] = { 1000, 1000, 1000, 1000 };
-        
+
 		garageSell[] = { 1000, 1000, 1000, 1000 };
         chopShop = 58500;
         textures[] = {
