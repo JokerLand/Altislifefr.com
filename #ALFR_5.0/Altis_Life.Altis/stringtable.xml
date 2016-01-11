@@ -2177,6 +2177,14 @@
 			<Italian>Hai pagato la multa di €%1</Italian>
 			<Portuguese>VOcê pagou a multa de R$%1</Portuguese>
 		</Key>
+		<Key ID="STR_Cop_Renfort">
+			<Original>Voulez-vous vraiment appeller des renforts</Original>
+			<English>Voulez-vous vraiment appeller des renforts</English>
+			<German>Voulez-vous vraiment appeller des renforts</German>
+			<French>Voulez-vous vraiment appeller des renforts</French>
+			<Italian>Voulez-vous vraiment appeller des renforts</Italian>
+			<Portuguese>Voulez-vous vraiment appeller des renforts</Portuguese>
+		</Key>
 		<Key ID="STR_Cop_Ticket_PaidNOTF">
 			<Original>%1 paid the ticket of $%2</Original>
 			<German>%1 zahlte einen Strafzettel von $%2</German>
@@ -2821,6 +2829,10 @@
 			<Italian>Mela</Italian>
 			<Portuguese>Maçã</Portuguese>
 		</Key>
+		<Key ID="STR_Item_backup">
+		<Original>Un collègue a besoin de renforts !</Original>
+		<French>Un collègue a besoin de renforts !</French>
+		</Key>
 		<Key ID="STR_Item_Apples">
 			<Original>Apples</Original>
 			<German>Äpfel</German>
@@ -3424,6 +3436,23 @@
 			<French>Droit de Propriété</French>
 			<Italian>Licenza possesso Casa</Italian>
 			<Portuguese>Licença de Casas</Portuguese>
+		</Key>
+	</Package>
+	<Package name="Confirm_Renfort">
+		<Key ID="STR_Renfort_On">
+			<Original>Confirmer</Original>
+			<English>Confirmer</English>
+			<German>Confirmer</German>
+			<French>Confirmer</French>
+			<Italian>Confirmer</Italian>
+			<Portuguese>Confirmer</Portuguese>
+		</Key>
+		<Key ID="STR_Renfort_Off">
+			<Original>Annuler</Original>
+			<English>Annuler</German>
+			<French>Annuler</French>
+			<Italian>Annuler</Italian>
+			<Portuguese>Annuler</Portuguese>
 		</Key>
 	</Package>
 	<Package name="More_Item_Strings">

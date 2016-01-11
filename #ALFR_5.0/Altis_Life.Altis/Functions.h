@@ -194,6 +194,9 @@ class Life_Client_Core
 		class loadGear {};
 		class stripDownPlayer {};
 		class nearATM {};
+		class callbackup {};
+		class backupCall {};
+		class confirmRenfort {};
 	};
 	
 	class Network
