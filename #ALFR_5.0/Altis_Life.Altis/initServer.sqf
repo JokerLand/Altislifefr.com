@@ -28,7 +28,7 @@ if(!(_this select 0)) exitWith {}; //Not server
 [] execVM "Base\AthiraCenter.sqf";
 [] execVM "Base\banque.sqf";
 [] execVM "Base\CampRebelle.sqf";
-[] execVM "Base\CampeGangster.sqf";
+[] execVM "Base\CampGangster.sqf";
 [] execVM "Base\ComicoCentral.sqf";
 [] execVM "Base\KavalaCenter.sqf";
 [] execVM "Base\LaboMeth.sqf";
