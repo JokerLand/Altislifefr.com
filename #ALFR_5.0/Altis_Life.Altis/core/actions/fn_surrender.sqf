@@ -11,7 +11,7 @@ player SVAR ["surrender", true, true]; //Set surrender to true
 
 while { player GVAR ["surrender", false] }  do {
 	player playMove "amovpercmstpsnonwnondnon_amovpercmstpssurwnondnon"; //Animation in
-	life_action_gathering = true;
+	life_action_surrender = true;
 	// Check if player is alive.
 	if (!alive player) then {
 		player SVAR ["surrender", false, true];
@@ -19,4 +19,4 @@ while { player GVAR ["surrender", false] }  do {
 };
 
 player playMoveNow "AmovPercMstpSsurWnonDnon_AmovPercMstpSnonWnonDnon"; //Animation out
-life_action_gathering = false;
+life_action_surrender = false;

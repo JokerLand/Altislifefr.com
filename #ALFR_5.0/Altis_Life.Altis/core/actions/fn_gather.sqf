@@ -74,9 +74,11 @@ while{true} do {
 		_pgText ctrlSetText format["%3 (%1%2)...",round(_cP * 100),"%",_upp];
 		if(_cP >= 1) exitWith {};
 		if(player != vehicle player) exitWith {5 cutText ["","PLAIN"];};
+		if(life_action_surrender) exitWith {5 cutText ["","PLAIN"];};
 	};
 
 if(player != vehicle player) exitWith {};
+if(life_action_surrender) exitWith {};
 
 if(([true,SEL(_gather,0),_diff] call life_fnc_handleInv)) then {
 	_itemName = M_CONFIG(getText,"VirtualItems",SEL(_gather,0),"displayName");
