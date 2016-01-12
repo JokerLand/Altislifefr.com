@@ -36,6 +36,7 @@ class playerHUD {
 	};
 
 	/* Background */
+	/*
 	class LIFE_UI_BACK: Life_RscBackground
 	{
 		colorBackground[] = {0,0,0,0.5};
@@ -44,7 +45,7 @@ class playerHUD {
 		w = 0.0825 * safezoneW;
 		h = 0.11 * safezoneH;
 	};
-
+    */
 	/* Progress Bars */
 	class LIFE_BAR_FOOD: Life_RscProgress
 	{
