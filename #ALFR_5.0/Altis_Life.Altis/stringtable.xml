@@ -3416,6 +3416,11 @@
 			<Italian>Processo Cocaina</Italian>
 			<Portuguese>Treinamento de Cocaina</Portuguese>
 		</Key>
+		<Key ID="STR_License_Gangster">
+			<Original>Gangster Training</Original>
+			<French>Licence de Gangster</French>
+		</Key>
+		
 		<Key ID="STR_License_Marijuana">
 			<Original>Marijuana Training</Original>
 			<German>Marihuanaausbildung</German>

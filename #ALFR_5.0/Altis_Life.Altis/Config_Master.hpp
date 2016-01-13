@@ -234,6 +234,7 @@ class Licenses {
 	LICENSEMACRO(marijuana,"STR_License_Marijuana","marijuana",40000,true,"civ")
 	LICENSEMACRO(medmarijuana,"STR_License_Medmarijuana","medmarijuana",20000,false,"civ")
 	LICENSEMACRO(cocaine,"STR_License_Cocaine","cocaine",55000,true,"civ")
+	LICENSEMACRO(gangster,"STR_License_Gangster","gangster",200000,true,"civ")
 
 };
 
