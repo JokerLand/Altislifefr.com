@@ -181,7 +181,6 @@ class CarShops {
 			{ "ALFR_GeK_Volvo_FH16_2012", 65000, "trucking", { "life_donator", 1 } },
 			{ "GR_UH1H_1", 100000, "driver", { "life_donator", 1 } },
 			{ "ARMSCor_A109_Civ", 120000, "driver", { "life_donator", 1 } },
-			{ "mv22", 300000, "pilot", { "life_donator", 1 } },
 			{ "IVORY_ERJ135_1", 600000, "pilot", { "life_donator", 1 } }
 
 		};
@@ -1898,11 +1897,8 @@ class CfgVehicles {
             } },
 			{ "Camo Urbain", "reb", {
                 "cl3_vehiclefunctions\skins\skin_camo_urban_co.paa"
-            } },
-			{ "Noir", "civ", {
-                "#(ai,64,64,1)Fresnel(0.3,3)"
             } }
-
+            
 		};
 
 	};
@@ -1922,11 +1918,8 @@ class CfgVehicles {
             } },
 			{ "Noir", "reb", {
                 "#(ai,64,64,1)Fresnel(0.3,3)"
-            } },
-			{ "Police", "cop", {
-                "#(ai,64,64,1)Fresnel(0.3,3)"
             } }
-
+            
 		};
 
 	};
@@ -2754,6 +2747,7 @@ class CfgVehicles {
 	class O_Truck_03_transport_F {
         vItemSpace = 800;
         storageFee[] = { 1000, 0, 0, 0 };
+        garageSell[] = { 1000, 0, 0, 0 };
         chopShop = 37500;
         textures[] = { };
     };
@@ -2761,7 +2755,7 @@ class CfgVehicles {
 	class O_Truck_03_device_F {
         vItemSpace = 750;
         storageFee[] = { 1000, 1000, 1000, 1000 };
-		garageSell[] = { 185000, 0, 0, 0 };
+		garageSell[] = { 1000, 1000, 1000, 1000 };
         chopShop = 42750;
         textures[] = { };
     };
@@ -2781,7 +2775,8 @@ class CfgVehicles {
 
 	class B_G_Offroad_01_armed_F {
         vItemSpace = 25;
-        storageFee[] = { 1000 , 1000 , 1000 , 1000 };
+        storageFee[] = { 1000, 1000, 1000, 1000 };
+        garageSell[] = { 1000, 1000, 1000, 1000 };
         chopShop = 56250;
         textures[] = {
             { "Guerilla 1", "reb", {
