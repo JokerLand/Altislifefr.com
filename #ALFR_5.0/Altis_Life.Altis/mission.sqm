@@ -7574,7 +7574,7 @@ class Mission
 			vehicle="Land_InfoStand_V2_F";
 			leader=1;
 			skill=0.2;
-			init="this enableSimulation false; this allowDamage false; this addAction[""Armes Donateurs"",life_fnc_weaponShopMenu,""donator"",0,false,false,"""",' _target distance _this < 5 && !isNil ""life_donator"" &&  (call life_donator) > 0 && playerSide == civilian'];   this addAction[format[""%1 ($%2)"",[""license_civ_rebel""] call life_fnc_varToStr,[([""rebel""] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,""rebel"",0,false,false,"""",' !license_civ_rebel && playerSide == civilian '];";
+			init="this enableSimulation false; this allowDamage false; this addAction[""Armes Donateurs"",life_fnc_weaponShopMenu,""donator"",0,false,false,"""",' _target distance _this < 5 && !isNil ""life_donator"" &&  (call life_donator) > 0 && playerSide == civilian'];";
 		};
 		class Item407
 		{
