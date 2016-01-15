@@ -112,20 +112,17 @@ class CarShops {
 	class reb_car {
 		side = "civ";
 		vehicles[] = {
-			{ "B_G_Offroad_01_F", 15000, "rebel" },
-			{ "B_G_Van_01_transport_F", 50000, "rebel" },
-			{ "cl3_dodge_charger_s_camo", 100000, "rebel" },
-			{ "cl3_e63_amg_camo", 150000, "rebel" },
-			{ "GeK_Mercedes_ML63_Rebelle", 350000, "rebel" },
-			{ "O_Truck_03_device_F", 700000, "rebel" },
-			{ "O_Truck_03_transport_F", 700000, "rebel" },
-			{ "O_Truck_03_covered_F", 1000000, "rebel" },
-			{ "O_Truck_03_ammo_F", 1200000, "rebel" },
-			{ "B_Heli_Light_01_F", 225000, "rebel" },
-			{ "O_Heli_Light_02_unarmed_F", 350000, "rebel" },
-			{ "O_Heli_Transport_04_bench_F", 600000, "rebel" },
-			{ "O_Heli_Transport_04_covered_F", 600000, "rebel" },
-			{ "O_Heli_Transport_04_ammo_F", 600000, "rebel" }
+			{ "B_G_Offroad_01_armed_F", 150000, "rebel" },
+            { "O_MRAP_02_F", 120000, "rebel" },
+			{ "cl3_dodge_charger_s_camo", 60000, "rebel" },
+			{ "cl3_e63_amg_camo", 60000, "rebel" },
+			{ "GeK_Mercedes_ML63_Rebelle", 72000, "rebel" },
+			{ "O_Truck_03_device_F", 114000, "rebel" },
+			{ "O_Truck_03_transport_F", 100000, "rebel" },
+			{ "O_Truck_03_covered_F", 124000, "rebel" },
+			{ "O_Truck_03_ammo_F", 132000, "rebel" },
+            { "B_Heli_Light_01_F", 96000, "rebel" },
+            { "O_Heli_Transport_04_bench_F", 376000, "rebel" }}
 		};
 	};
 
@@ -266,10 +263,10 @@ class CfgVehicles {
 	};
 
 	class O_Truck_03_ammo_F : Default {
-		vItemSpace = 1500;
+		vItemSpace = 1000;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
-		chopShop = 3000;
+		chopShop = 49500;
 	};
 
 	class O_Heli_Transport_04_covered_F : Default {
@@ -1893,7 +1890,7 @@ class CfgVehicles {
 		vItemSpace = 35;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
-		chopShop = 3000;
+		chopShop = 22500;
 		textures[] = {
 
 			{ "Camo", "reb", {
@@ -1914,7 +1911,7 @@ class CfgVehicles {
 		vItemSpace = 35;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
-		chopShop = 3000;
+		chopShop = 22500;
 		textures[] = {
 
 			{ "Camo", "reb", {
@@ -2655,10 +2652,10 @@ class CfgVehicles {
 
 
 	class  O_Heli_Transport_04_bench_F: Default {
-		vItemSpace = 5;
+		vItemSpace = 20;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
-		chopShop = 3000;
+		chopShop = 141000;
 
 	};
 
@@ -2755,17 +2752,17 @@ class CfgVehicles {
     };
 
 	class O_Truck_03_transport_F {
-        vItemSpace = 285;
+        vItemSpace = 800;
         storageFee[] = { 1000, 0, 0, 0 };
-        chopShop = 5000;
+        chopShop = 37500;
         textures[] = { };
     };
 
 	class O_Truck_03_device_F {
-        vItemSpace = 350;
+        vItemSpace = 750;
         storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 185000, 0, 0, 0 };
-        chopShop = 125000;
+        chopShop = 42750;
         textures[] = { };
     };
 
@@ -2782,7 +2779,49 @@ class CfgVehicles {
     };
 
 
-	class B_G_Offroad_01_armed_F : B_G_Offroad_01_F {};
+	class B_G_Offroad_01_armed_F {
+        vItemSpace = 25;
+        storageFee[] = { 1000 , 1000 , 1000 , 1000 };
+        chopShop = 56250;
+        textures[] = {
+            { "Guerilla 1", "reb", {
+                "\a3\soft_f_bootcamp\Offroad_01\Data\offroad_01_ext_ig_01_co.paa"
+            } },
+            { "Guerilla 2", "reb", {
+                "\a3\soft_f_bootcamp\Offroad_01\Data\offroad_01_ext_ig_02_co.paa"
+            } },
+            { "Guerilla 3", "reb", {
+                "\a3\soft_f_bootcamp\Offroad_01\Data\offroad_01_ext_ig_03_co.paa"
+            } },
+            { "Guerilla 4", "reb", {
+                "\a3\soft_f_bootcamp\Offroad_01\Data\offroad_01_ext_ig_04_co.paa"
+            } },
+            { "Guerilla 5", "reb", {
+                "\a3\soft_f_bootcamp\Offroad_01\Data\offroad_01_ext_ig_05_co.paa"
+            } },
+            { "Guerilla 6", "reb", {
+                "\a3\soft_f_bootcamp\Offroad_01\Data\offroad_01_ext_ig_06_co.paa"
+            } },
+            { "Guerilla 7", "reb", {
+                "\a3\soft_f_bootcamp\Offroad_01\Data\offroad_01_ext_ig_07_co.paa"
+            } },
+            { "Guerilla 8", "reb", {
+                "\a3\soft_f_bootcamp\Offroad_01\Data\offroad_01_ext_ig_08_co.paa"
+            } },
+            { "Guerilla 9", "reb", {
+                "\a3\soft_f_bootcamp\Offroad_01\Data\offroad_01_ext_ig_09_co.paa"
+            } },
+            { "Guerilla 10", "reb", {
+                "\a3\soft_f_bootcamp\Offroad_01\Data\offroad_01_ext_ig_10_co.paa"
+            } },
+            { "Guerilla 11", "reb", {
+                "\a3\soft_f_bootcamp\Offroad_01\Data\offroad_01_ext_ig_11_co.paa"
+            } },
+            { "Guerilla 12", "reb", {
+                "\a3\soft_f_bootcamp\Offroad_01\Data\offroad_01_ext_ig_12_co.paa"
+            } },
+        };
+    };
 
 	class I_G_Van_01_transport_F {
         vItemSpace = 100;
@@ -2832,10 +2871,10 @@ class CfgVehicles {
     };
 
 	class O_MRAP_02_F {
-        vItemSpace = 60;
+        vItemSpace = 40;
         storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 0, 0, 0 };
-        chopShop = 5000;
+        chopShop = 45000;
         textures[] = {
 
 		{ "Reb", "reb", {
@@ -3044,10 +3083,10 @@ class CfgVehicles {
     };
 
 	class O_Truck_03_covered_F {
-		vItemSpace = 300;
+		vItemSpace = 900;
 		storageFee[] = { 1000, 0, 0, 0 };
 		garageSell[] = { 1000, 0, 0, 0 };
-		chopShop = 5000;
+		chopShop = 46500;
 		textures[] = {};
 	};
 
@@ -3323,7 +3362,7 @@ class CfgVehicles {
         vItemSpace = 5;
         storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
-        chopShop = 5000;
+        chopShop = 36000;
         textures[] = {
         	{ "Police", "cop", {
                 "ALFR_Force\data\vehicule\air\alfr_police_heli_co.paa"
