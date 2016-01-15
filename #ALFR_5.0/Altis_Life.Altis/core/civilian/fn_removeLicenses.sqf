@@ -44,4 +44,9 @@ switch (_state) do {
 			hint localize "STR_Civ_LicenseRemove_2";
 		};
 	};
+    
+    //Death by a cop Gangster license
+	case 4: {
+		SVAR_MNS [LICENSE_VARNAME("gangster","civ"),false];
+	};
 };
