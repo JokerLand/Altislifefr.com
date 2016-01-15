@@ -181,7 +181,7 @@ class VirtualItems {
 	VITEMMACRO(mullet_fried, "STR_Item_MulletFried", "mulletFried", 2, 600, 250, false, 80, "icons\ico_cookedMeat.paa")
 	VITEMMACRO(catshark_raw, "STR_Item_CatSharkMeat", "catsharkRaw", 6, -1, 200, false, -1, "icons\ico_fish.paa")
 	VITEMMACRO(catshark_fried, "STR_Item_CatSharkFried", "catsharkFried", 3, 750, 250, false, 100, "icons\ico_cookedMeat.paa")
-	VITEMMACRO(turtle_raw, "STR_Item_Turtle", "turtleRaw", 6, 1000, 500, true, -1, "icons\ico_turtle.paa")
+	VITEMMACRO(turtle_raw, "STR_Item_Turtle", "turtleRaw", 6, -1, 1500, true, -1, "icons\ico_turtle.paa")
 	VITEMMACRO(turtle_soup, "STR_Item_TurtleSoup", "turtleSoup", 2, 500, 250, false, 100, "icons\ico_cookedMeat.paa")
 	VITEMMACRO(hen_raw, "STR_Item_HenRaw", "henRaw", 1, -1, 35, false, -1, "icons\food.paa")
 	VITEMMACRO(hen_fried, "STR_Item_HenFried", "henFried", 1, 115, 85, false, 65, "icons\ico_cookedMeat.paa")
@@ -234,7 +234,7 @@ class Licenses {
 	LICENSEMACRO(marijuana,"STR_License_Marijuana","marijuana",40000,true,"civ")
 	LICENSEMACRO(medmarijuana,"STR_License_Medmarijuana","medmarijuana",20000,false,"civ")
 	LICENSEMACRO(cocaine,"STR_License_Cocaine","cocaine",55000,true,"civ")
-	LICENSEMACRO(gangster,"STR_License_Gangster","gangster",250000,true,"civ")
+	LICENSEMACRO(gangster,"STR_License_Gangster","gangster",135000,true,"civ")
 
 };
 
