@@ -122,7 +122,7 @@ class CarShops {
 			{ "O_Truck_03_covered_F", 124000, "rebel" },
 			{ "O_Truck_03_ammo_F", 132000, "rebel" },
             { "B_Heli_Light_01_F", 96000, "rebel" },
-            { "O_Heli_Transport_04_bench_F", 376000, "rebel" }}
+            { "O_Heli_Transport_04_bench_F", 376000, "rebel" }
 		};
 	};
 
