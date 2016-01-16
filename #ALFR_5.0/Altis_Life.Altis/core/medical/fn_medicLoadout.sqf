@@ -25,16 +25,12 @@ player addItem "FirstAidKit";
 player addItem "FirstAidKit";
 player addItem "FirstAidKit";
 player addItem "Medikit";
-removeGoggles player;
-removeHeadGear player;
 if(hmd player != "") then {
         player unlinkItem (hmd player);
 };
 // ITEMS 
 player linkItem "ItemMap";
 player linkItem "ItemCompass";
-player linkItem "tf_microdagr";
-player linkItem "tf_anprc152_1";
 player linkItem "ItemGPS";
 player linkItem "pmc_earpiece";
 
