@@ -8119,14 +8119,14 @@ class Mission
 		class Item453
 		{
 			position[]={14747.262,47.52,20739.295};
-			azimut=817.62823;
+			azimut=817.62799;
 			special="NONE";
 			id=669;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V2_F";
 			skill=0.2;
 			text="gangster_shop_1";
-			init=" this allowDamage false; this enableSimulation false; this addAction[""Superette"",life_fnc_virt_menu,""market""];  this addAction[""Vestiaire Gangster"",life_fnc_clothingMenu,""gangster""];  this addAction[""Armurerie Gangster"",life_fnc_weaponShopMenu,""gangster""]; this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""gangster"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""gangster"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""gangster"",0,false,false,"""",' !license_civ_rebel'];";
+			init=" this allowDamage false; this enableSimulation false; this addAction[""Superette"",life_fnc_virt_menu,""market""];  this addAction[""Vestiaire Gangster"",life_fnc_clothingMenu,""gangster""];  this addAction[""Armurerie Gangster"",life_fnc_weaponShopMenu,""gangster""]; this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""gangster"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""gangster"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""gangster"",0,false,false,"""",' !license_civ_rebel && !license_civ_gangster'];";
 		};
 		class Item454
 		{
