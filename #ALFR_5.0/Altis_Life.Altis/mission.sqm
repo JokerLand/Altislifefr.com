@@ -6147,8 +6147,9 @@ class Mission
 		};
 		class Item278
 		{
-			position[]={10385.245,27.723583,13200.433};
-			azimut=116.915;
+			position[]={10382,27.727854,13200.391};
+			azimut=27.572088;
+			offsetY=0.2;
 			id=494;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V2_F";
@@ -8021,7 +8022,7 @@ class Mission
 			vehicle="Land_InfoStand_V2_F";
 			skill=0.2;
 			text="carshop_armee";
-			init="this enableSimulation false; this allowDamage false; this addAction[""Vehicule"",life_fnc_vehicleShopMenu,[""armer_car"",east,[""arme_1""],""civ"",""Bruce's New & Used Auto's""]];";
+			init="this enableSimulation false; this allowDamage false; this addAction[""Vehicule"",life_fnc_vehicleShopMenu,[""armer_car"",east,[""arme_1""],""armer"",""Véhicules de l'armée""]];";
 		};
 		class Item445
 		{
