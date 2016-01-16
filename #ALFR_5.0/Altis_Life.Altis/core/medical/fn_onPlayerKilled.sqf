@@ -79,6 +79,8 @@ if(!isNull _killer && {_killer != _unit} && {side _killer != west} && {alive _ki
 //Killed by cop stuff...
 if(side _killer == west && playerSide != west) then {
 	life_copRecieve = _killer;
+	//Je perds ma licence gangster
+	license_civ_gangster = false;
 	//Did I rob the federal reserve?
 	if(!life_use_atm && {CASH > 0}) then {
 		[format[localize "STR_Cop_RobberDead",[CASH] call life_fnc_numberText],"life_fnc_broadcast",true,false] call life_fnc_MP;
