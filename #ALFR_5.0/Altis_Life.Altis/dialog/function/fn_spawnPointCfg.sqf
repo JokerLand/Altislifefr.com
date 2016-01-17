@@ -33,7 +33,15 @@ switch (_side) do
 			["civ_spawn_3","Athira","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
 			["civ_spawn_4","Sofia","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
 		];
-		
+
+				if(license_civ_rebel && playerSide == civilian) then {
+				_return pushBack ["reb_spawn_1","Camp Rebelle","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"];
+		};
+        
+				if(license_civ_gangster && playerSide == civilian) then {
+				_return pushBack ["gang_spawn_1","Camp Gangster","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"];
+		};
+        
 		if(count life_houses > 0) then {
 			{
 				_pos = call compile format["%1",_x select 0];
