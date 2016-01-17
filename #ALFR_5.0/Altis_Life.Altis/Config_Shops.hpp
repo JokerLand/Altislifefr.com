@@ -228,6 +228,7 @@ class WeaponShops {
 			{ "Medikit", "", 50 },
 			{ "pmc_earpiece", "", 100 },
 			{ "Rangefinder", "", 15 },
+            { "O_UavTerminal", "Terminal", 15 },
 			{ "tf_fadak_999", "Radio Courte", 0 }
         };
     };

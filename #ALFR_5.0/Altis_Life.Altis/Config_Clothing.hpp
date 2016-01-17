@@ -361,7 +361,7 @@ class Clothing {
 		backpacks[] = {
 			{ "NONE", "Remove Backpack", 0, { "", "", -1 } },
             { "ALFR_Police_Backpack", "Sac Invisible", 50, { "", "", -1 } },
-            { "B_UAV_01_backpack_F", "", 500, { "", "", -1 } }    
+            { "O_UAV_01_backpack_F", "", 500, { "", "", -1 } }    
 		};
 	};
 
