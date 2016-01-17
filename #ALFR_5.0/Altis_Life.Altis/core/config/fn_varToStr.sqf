@@ -86,22 +86,5 @@ switch (_var) do
 	case "license_med_air": {(localize "STR_License_Pilot")};
 	case "license_civ_home": {(localize "STR_License_Home")};
 	case "license_civ_gangster": {(localize "STR_License_Gangster")};
-    case "license_civ_lmc": {"NIA"};
-	case "license_civ_bmg": {"BMG"};
-	case "license_civ_olympia": {"Olympia"};
-	case "license_civ_ms": {"MS-13"};
-	case "license_civ_ng": {"'Neghta"};
-    case "license_civ_sop": {"H.N"};
-	case "license_civ_moa": {"Les Autres"};
-	case "license_civ_raid": {"Les cartel"};
-	case "license_civ_grf": {"G.R.F"};
-	case "license_civ_mw": {"salamander"};
-	case "license_civ_poc": {"Leninskaïa"};
-	case "license_civ_yk": {"Yakusa"};
-	case "license_civ_cn": {"Newgate"};
-	case "license_civ_ec": {"Eagle"};
-	case "license_civ_gr": {"Strauss"};
-	case "license_civ_fla": {"PE1"};
-	case "license_civ_reb1": {"SPQR"};
 
 };

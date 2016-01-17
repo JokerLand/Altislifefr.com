@@ -235,25 +235,6 @@ class Licenses {
 	LICENSEMACRO(medmarijuana,"STR_License_Medmarijuana","medmarijuana",20000,false,"civ")
 	LICENSEMACRO(cocaine,"STR_License_Cocaine","cocaine",55000,true,"civ")
 	LICENSEMACRO(gangster,"STR_License_Gangster","gangster",135000,true,"civ")
-        
-    /** Base Famille **/
-	LICENSEMACRO(lmc,"NIA","lmc",999999,true,"civ")
-    LICENSEMACRO(bmg,"BMG","bmg",999999,true,"civ") 
-    LICENSEMACRO(olympia,"Olympia","olympia",999999,true,"civ") 
-    LICENSEMACRO(insurg,"Les Cartel","insurg",999999,true,"civ") 
-    LICENSEMACRO(ms,"MS-13","ms",999999,true,"civ") 
-    LICENSEMACRO(ng,"Neghta","ng",999999,true,"civ") 
-    LICENSEMACRO(sop,"H.N","sop",999999,true,"civ") 
-    LICENSEMACRO(lesautres,"Les Autres","lesautres",999999,true,"civ") 
-    LICENSEMACRO(grf,"G.R.F","grf",999999,true,"civ") 
-    LICENSEMACRO(mw,"Salamander","mw",999999,true,"civ") 
-    LICENSEMACRO(poc,"Leninskaïa","poc",999999,true,"civ") 
-    LICENSEMACRO(yk,"Yakusa","yk",999999,true,"civ") 
-    LICENSEMACRO(cn,"Newgate","cn",999999,true,"civ") 
-    LICENSEMACRO(eagle,"Eagle","eagle",999999,true,"civ") 
-    LICENSEMACRO(gr,"Strauss","gr",999999,true,"civ") 
-    LICENSEMACRO(pe1,"PE1","pe1",999999,true,"civ") 
-    LICENSEMACRO(spqr,"SPQR","spqr",999999,true,"civ")     
 
 };
 
