@@ -72,7 +72,7 @@ class CarShops {
 		side = "med";
 		vehicles[] = {
 			{ "B_Heli_Light_01_F", 2000, "mAir" },
-         /* { "O_Heli_Light_02_unarmed_F", 3000, "mAir", { "life_mediclevel", 2 } },  */
+			{ "O_Heli_Light_02_unarmed_F", 3000, "mAir", { "life_mediclevel", 2 } },
 			{ "EC635_SAR", 5000, "mAir", { "life_mediclevel", 3 } }
 		};
 	};
@@ -358,19 +358,6 @@ class CfgVehicles {
 		};
 	};
     
-    class ALE_Gend_Bus : Default {
-		vItemSpace = 5;
-		storageFee[] = { 1000, 1000, 1000, 1000 };
-		garageSell[] = { 1000, 1000, 1000, 1000 };
-		chopShop = 11250;
-		textures[] = {
-            
-            { "Bus", "civ", {
-                "\alfr_texsnd\bus_exterior_donator.jpg"
-            } }
-		};
-	};
-
 	class A3L_VolksWagenGolfGTiblack : Default {
 		vItemSpace = 35;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
@@ -2619,13 +2606,6 @@ class CfgVehicles {
 
 	};
 
-	class civ_ship {
-		side = "civ";
-		vehicles[] = {
-			{ "C_Rubberboat", 5000, "boat" },
-			{ "C_Boat_Civil_01_F", 22000, "boat" }
-		};
-	};
 	class I_Truck_02_medical_F : Default {
 		vItemSpace = 150;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
@@ -2692,6 +2672,7 @@ class CfgVehicles {
 	class I_Boat_Armed_01_minigun_F {
         vItemSpace = 175;
         storageFee[] = { 1000, 0, 0, 0 };
+		garageSell[] = { 1000, 1000, 1000, 1000 };
         chopShop = 5000;
         textures[] = { };
     };
@@ -2699,6 +2680,7 @@ class CfgVehicles {
 	class B_G_Boat_Transport_01_F {
         vItemSpace = 45;
         storageFee[] = { 1000, 0, 0, 0 };
+		garageSell[] = { 1000, 1000, 1000, 1000 };
         chopShop = 5000;
         textures[] = { };
     };
@@ -2714,6 +2696,7 @@ class CfgVehicles {
 	class O_Truck_03_transport_F {
         vItemSpace = 285;
         storageFee[] = { 1000, 0, 0, 0 };
+		garageSell[] = { 1000, 1000, 1000, 1000 };
         chopShop = 5000;
         textures[] = { };
     };
@@ -2744,6 +2727,7 @@ class CfgVehicles {
 	class I_G_Van_01_transport_F {
         vItemSpace = 100;
         storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 1000, 1000, 1000, 1000 };
         chopShop = 5000;
         textures[] = { };
     };
@@ -3342,7 +3326,6 @@ class CfgVehicles {
 	class O_Heli_Light_02_unarmed_F {
         vItemSpace = 10;
         storageFee[] = { 1000, 1000, 1000, 1000 };
-
 		garageSell[] = { 1000, 1000, 1000, 1000 };
         chopShop = 58500;
         textures[] = {
