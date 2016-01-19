@@ -171,6 +171,8 @@ switch (_code) do
     //Anti MetaGaming (Touche "²")
 	 case 41:
     {
+    	if(life_action_gathering) exitWith {}; //Action is in use, exit to prevent spamming.
+		if(life_action_surrender) exitWith {}; //Action is in use, exit to prevent spamming.
 		if((_code in (actionKeys "SelectAll") || _code in (actionKeys "ForceCommandingMode"))) then
 		{
 			[] call life_fnc_p_openMenu;
