@@ -298,21 +298,21 @@ class CfgVehicles {
 		garageSell[] = { 1000, 1000, 1000, 1000 };
 		chopShop = 3000;
 	};
-    
+
     class cl3_suv_taxi : Default {
         vItemSpace = 5;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
 		chopShop = 9000;
     };
-    
+
     class cl3_arielatom_race_black : Default {
         vItemSpace = 5;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
 		chopShop = 9000;
 		textures[] = {
-           
+
             { "Noir", "civ", {
                 "#(ai,64,64,1)Fresnel(0.3,3)"
             } },
@@ -357,7 +357,7 @@ class CfgVehicles {
             } }
 		};
 	};
-    
+
 	class A3L_VolksWagenGolfGTiblack : Default {
 		vItemSpace = 35;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
@@ -416,7 +416,7 @@ class CfgVehicles {
         garageSell[] = { 1000, 1000, 1000, 1000 };
         chopShop = 7800;
         textures[] = {
-            
+
             { "Noir", "civ", {
                 "#(ai,64,64,1)Fresnel(0.3,3)"
             } },
@@ -461,7 +461,7 @@ class CfgVehicles {
             } }
 		};
 	};
-            
+
 	class wirk_gtr : Default {
 		vItemSpace = 35;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
@@ -1166,7 +1166,7 @@ class CfgVehicles {
 	};
 
 	class GeK_Avalanche : Default {
-		vItemSpace = 35;
+		vItemSpace = 80;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
 		chopShop = 9150;
