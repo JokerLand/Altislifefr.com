@@ -51,8 +51,12 @@ switch (playerSide) do
 		_retList = _illegalmarkers
 	};
 
-
 	case independent:
+	{
+		_retList = _illegalmarkers
+	};
+    
+    case east:
 	{
 		_retList = _illegalmarkers
 	};
