@@ -68,7 +68,7 @@ if(isPlayer _curTarget && _curTarget isKindOf "Man") then {
 	if((_curTarget GVAR ["restrained",false]) && !dialog && playerSide == west) then {
 		[_curTarget] call life_fnc_copInteractionMenu;
 	};
-	if((_curTarget getVariable["restrained",false]) && !dialog && playerSide == east) then {
+	if((_curTarget GVAR ["restrained",false]) && !dialog && playerSide == east) then {
 	[_curTarget] call life_fnc_adacInteractionMenu;
 	};
 } else {
@@ -87,9 +87,6 @@ if(isPlayer _curTarget && _curTarget isKindOf "Man") then {
 			if(player distance _curTarget < SEL(SEL(boundingBox _curTarget,1),0)+2) then {
 				[_curTarget] call life_fnc_vInteractionMenu;
 			};
-			if(playerSide == east && player distance _curTarget < (((boundingBox _curTarget select 1) select 0) + 2)) then {
-			    [_curTarget] call life_fnc_adacVInteractionMenu;
-		};
 	};
 	} else {
 		//Is it a animal type?
