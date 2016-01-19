@@ -68,6 +68,9 @@ if(isPlayer _curTarget && _curTarget isKindOf "Man") then {
 	if((_curTarget GVAR ["restrained",false]) && !dialog && playerSide == west) then {
 		[_curTarget] call life_fnc_copInteractionMenu;
 	};
+	if((_curTarget getVariable["restrained",false]) && !dialog && playerSide == east) then {
+	[_curTarget] call life_fnc_adacInteractionMenu;
+	};
 } else {
 	//OK, it wasn't a player so what is it?
 	private["_isVehicle","_miscItems","_money","_list"];
@@ -84,6 +87,8 @@ if(isPlayer _curTarget && _curTarget isKindOf "Man") then {
 			if(player distance _curTarget < SEL(SEL(boundingBox _curTarget,1),0)+2) then {
 				[_curTarget] call life_fnc_vInteractionMenu;
 			};
+			if(playerSide == east && player distance _curTarget < (((boundingBox _curTarget select 1) select 0) + 2)) then {
+			    [_curTarget] call life_fnc_adacVInteractionMenu;
 		};
 	} else {
 		//Is it a animal type?
