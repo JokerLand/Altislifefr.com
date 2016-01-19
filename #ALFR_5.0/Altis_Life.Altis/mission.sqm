@@ -8388,7 +8388,7 @@ class Mission
 		class Item12
 		{
 			position[]={8440.3506,49.484863,12756.805};
-			name="cocaine processing";
+			name="cocaine_processing";
 			text="Traitement de cocaine";
 			type="mil_dot";
 			colorName="ColorRed";
@@ -9189,7 +9189,7 @@ class Mission
 		{
 			position[]={11693.286,37.651257,15914.844};
 			name="gang_area_1";
-			text="Gang Hideout 1";
+			text="Planque d'Arme";
 			type="hd_warning";
 			colorName="ColorRed";
 		};
@@ -9197,7 +9197,7 @@ class Mission
 		{
 			position[]={4885.7808,17.059162,14418.125};
 			name="gang_area_2";
-			text="Gang Hideout 2";
+			text="Planque d'Arme";
 			type="hd_warning";
 			colorName="ColorRed";
 			angle=-358.09299;
@@ -9206,10 +9206,10 @@ class Mission
 		{
 			position[]={18383.779,27.092974,15248.242};
 			name="gang_area_3";
-			text="Gang Hideout 3";
+			text="Planque d'Arme";
 			type="hd_warning";
 			colorName="ColorRed";
-			angle=2.7999959;
+			angle=2.8;
 		};
 		class Item114
 		{
