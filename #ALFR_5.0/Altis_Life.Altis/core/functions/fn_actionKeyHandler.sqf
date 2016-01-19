@@ -90,6 +90,7 @@ if(isPlayer _curTarget && _curTarget isKindOf "Man") then {
 			if(playerSide == east && player distance _curTarget < (((boundingBox _curTarget select 1) select 0) + 2)) then {
 			    [_curTarget] call life_fnc_adacVInteractionMenu;
 		};
+	};
 	} else {
 		//Is it a animal type?
 		if((typeOf _curTarget) in _animalTypes) then {
