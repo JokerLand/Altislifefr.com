@@ -13,7 +13,7 @@ waitUntil {!isNull player && player == player};
 if (isNil "tm4_handler_fuelUptake") then {
    tm4_handler_fuelUptake = [] spawn {
       if (isNil "tm4_prom_spotrebaPaliva") then {
-         tm4_prom_spotrebaPaliva = [[] call {(0.00066314157*1.00619)}, [] call {((0.0016314157+0.00014159)/(pi*2))}, [] call {((0.0026314157+0.00025159)/(pi*2))}, [] call {((0.0036314157+0.00026159)/(pi*2))} ];
+         tm4_prom_spotrebaPaliva = [[] call {(0.00066314157*1.00619)}, [] call {((0.0016314157+0.00014159)/(pi*3))}, [] call {((0.0026314157+0.00025159)/(pi*3))}, [] call {((0.0036314157+0.00026159)/(pi*3))} ];
       };
       while {alive player} do   {
          diag_log ["LOG:", __filename, diag_tickTime, "THREAD STARTED"];
