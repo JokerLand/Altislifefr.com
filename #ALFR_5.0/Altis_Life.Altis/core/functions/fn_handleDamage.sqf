@@ -45,10 +45,5 @@ if(!isNull _source) then {
 	};
 };
 
-//No Carkill
-if(vehicle _source isKindOf "LandVehicle") exitWith {
-        _unit setDamage 0.2;
-};
-
 [] call life_fnc_hudUpdate;
 _damage;
