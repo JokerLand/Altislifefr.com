@@ -7,7 +7,10 @@
 private["_vault","_handle"];
 _vault = [_this,0,ObjNull,[ObjNull]] call BIS_fnc_param;
 if(isNull _vault) exitWith {}; //Bad object
-if(typeOf _vault != "Land_CargoBox_V1_F") exitWith {hint localize "STR_ISTR_Blast_VaultOnly"};
+_cops = (west countSide playableUnits);
+if(_cops < 10) exitWith{hint "Il n'y a pas assez de policier pour braquer la Banque Federale!(10 minimum)";};
+if(currentWeapon _robber == "") exitWith { hint "Vous ne pouvez pas braquer la Banque Federale sans arme a feu" };
+if(typeOf _vault != "GeK_Coffre") exitWith {hint localize "STR_ISTR_Blast_VaultOnly"};
 if(_vault getVariable["chargeplaced",false]) exitWith {hint localize "STR_ISTR_Blast_AlreadyPlaced"};
 if(_vault getVariable["safe_open",false]) exitWith {hint localize "STR_ISTR_Blast_AlreadyOpen"};
 if(!([false,"blastingcharge",1] call life_fnc_handleInv)) exitWith {}; //Error?
