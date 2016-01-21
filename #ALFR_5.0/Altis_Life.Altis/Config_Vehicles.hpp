@@ -174,9 +174,9 @@ class CarShops {
             { "ALFR_GeK_Pagani_Zonda", 27500, "driver", { "life_donator", 1 } },
             { "GeK_TLC100", 17500, "driver", { "life_donator", 1 } },
             { "ALFR_GeK_MF1", 20000, "driver", { "life_donator", 1 } },
-            { "ALFR_GeK_Scania_420", 30000, "driver", { "life_donator", 1 } },
-            { "GeK_Renault_Magnum", 38750, "driver", { "life_donator", 1 } },
-            { "ALFR_GeK_Volvo_FH16_2012", 47500, "driver", { "life_donator", 1 } }
+            { "ALFR_GeK_Scania_420", 30000, "trucking", { "life_donator", 1 } },
+            { "GeK_Renault_Magnum", 38750, "trucking", { "life_donator", 1 } },
+            { "ALFR_GeK_Volvo_FH16_2012", 47500, "trucking", { "life_donator", 1 } }
 		};
 	};
 
