@@ -96,6 +96,7 @@ class Life_Client_Core
 		class surrender {};
         class robShops {};
         class seizeObjects {};
+        class vesteExplosive {};
 	};
 	
 	class Housing
