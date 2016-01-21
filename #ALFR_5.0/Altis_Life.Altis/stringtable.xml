@@ -3363,7 +3363,7 @@
 		<Key ID="STR_License_Rebel">
 			<Original>Rebel Training</Original>
 			<German>Rebellenausbildung</German>
-			<French>Entrainement rebelle</French>
+			<French>Entrainement terroriste</French>
 			<Italian>Licenza da Ribelle</Italian>
 			<Portuguese>Treinamento Rebelde</Portuguese>
 		</Key>
@@ -3419,6 +3419,10 @@
 		<Key ID="STR_License_Gangster">
 			<Original>Gangster Training</Original>
 			<French>Licence de Gangster</French>
+		</Key>
+        <Key ID="STR_License_ChefRebelle">
+			<Original>ChefRebelle Training</Original>
+			<French>Entrainement ChefRebelle</French>
 		</Key>
 		
 		<Key ID="STR_License_Marijuana">

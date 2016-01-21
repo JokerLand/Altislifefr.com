@@ -40,7 +40,9 @@ switch (_mode) do
 			case "cement": {_var = "license_civ_cement"};
 			case "mair": {_var = "license_med_air"};
 			case "home": {_var = "license_civ_home"};
+            //License AltisLifeFr
 			case "gangster": {_var = "license_civ_gangster"};
+            case "chefrebelle": {_var = "license_civ_chefrebelle"};
 			default {_var = ""};
 		};
 	};
@@ -73,7 +75,9 @@ switch (_mode) do
 			case "license_civ_cement": {_var = "cement"};
 			case "license_med_air": {_var = "mair"};
 			case "license_civ_home": {_var = "home"};
+            //License AltisLifeFr
 			case "license_civ_gangster": {_var = "gangster"};
+            case "license_civ_chefrebelle": {_var = "chefrebelle"};
 			default {_var = ""};
 		};
 	};
