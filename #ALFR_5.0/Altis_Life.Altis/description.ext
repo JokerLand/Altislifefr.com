@@ -86,7 +86,7 @@ class CfgSounds
 	class beepshoot
     {
         name = "beepshoot";
-        sound[] = {"\sounds\beepshot.ogg", 1, 1};
+        sound[] = {"\sounds\beepshoot.ogg", 1, 1};
         titles[] = {};
     };
 	
