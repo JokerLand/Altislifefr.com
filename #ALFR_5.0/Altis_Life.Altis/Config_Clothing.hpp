@@ -729,6 +729,33 @@ class Clothing {
 		};
 	};
 
+    class chefrebelle {
+		title = "Vestiaire chef rebelle";
+		license = "chefrebelle";
+		side = "civ";
+
+		uniforms[] = {
+			{ "NONE", "Remove Uniform", 0, { "", "", -1 } },
+		};
+
+		headgear[] = {
+			{ "NONE", "Remove Hat", 0, { "", "", -1 } }
+		};
+
+		goggles[] = {
+			{ "NONE", "Remove Glasses", 0, { "", "", -1 } }
+		};
+
+		vests[] = {
+			{ "NONE", "Remove Vest", 0, { "", "", -1 } },
+            { "V_HarnessOGL_brn", "", 160000, {"", "", -1} }
+		};
+
+		backpacks[] = {
+			{ "NONE", "Remove Backpack", 0, { "", "", -1 } }
+		};
+	};
+    
 	class kart {
 		title = "STR_Shops_C_Kart";
 		license = "";
