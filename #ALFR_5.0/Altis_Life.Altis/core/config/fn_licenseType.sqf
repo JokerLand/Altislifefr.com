@@ -43,6 +43,7 @@ switch (_mode) do
             //License AltisLifeFr
 			case "gangster": {_var = "license_civ_gangster"};
             case "chefrebelle": {_var = "license_civ_chefrebelle"};
+            case "depanneur": {_var = "license_depannage"};
 			default {_var = ""};
 		};
 	};
@@ -78,6 +79,7 @@ switch (_mode) do
             //License AltisLifeFr
 			case "license_civ_gangster": {_var = "gangster"};
             case "license_civ_chefrebelle": {_var = "chefrebelle"};
+            case "license_depannage": {_var = "depanneur"};
 			default {_var = ""};
 		};
 	};

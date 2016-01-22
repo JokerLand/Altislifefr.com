@@ -1,10 +1,10 @@
 /*
 	File: fn_spawnPointCfg.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Master configuration for available spawn points depending on the units side.
-	
+
 	Return:
 	[Spawn Marker,Spawn Name,Image Path]
 */
@@ -24,7 +24,7 @@ switch (_side) do
 			["cop_spawn_5","HW Patrol","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]
 		];
 	};
-	
+
 	case civilian:
 	{
 		_return = [
@@ -37,22 +37,25 @@ switch (_side) do
 				if(license_civ_rebel && playerSide == civilian) then {
 				_return pushBack ["reb_spawn_1","Camp Rebelle","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"];
 		};
-        
+
 				if(license_civ_gangster && playerSide == civilian) then {
 				_return pushBack ["gang_spawn_1","Camp Gangster","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"];
 		};
-        
+				if(license_depannage && playerSide == civilian) then {
+ 				_return pushBack ["depanneur","Depanneurs HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"];
+ 		};
+
 		if(count life_houses > 0) then {
 			{
 				_pos = call compile format["%1",_x select 0];
 				_house = nearestBuilding _pos;
 				_houseName = getText(configFile >> "CfgVehicles" >> (typeOf _house) >> "displayName");
-				
+
 				_return pushBack [format["house_%1",_house getVariable "uid"],_houseName,"\a3\ui_f\data\map\MapControl\lighthouse_ca.paa"];
 			} foreach life_houses;
-		};	
+		};
 	};
-	
+
 	case independent: {
 		_return = [
 			["medic_spawn_1","Kavala Hospital","\a3\ui_f\data\map\MapControl\hospital_ca.paa"],
@@ -60,8 +63,8 @@ switch (_side) do
 			["medic_spawn_3","Pygros Hospital","\a3\ui_f\data\map\MapControl\hospital_ca.paa"]
 		];
 	};
-	
-	case east: 
+
+	case east:
 	{
 		_return = [
 			["spawn_armer","Base Armee","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]

@@ -95,6 +95,15 @@ class CarShops {
 		};
 	};
 
+	class veh_depannage {
+		side = "civ";
+		vehicles[] = {
+            { "C_Offroad_01_repair_F", 5000, "depanneur" },
+			{ "GeK_Volvo_FH16_2012_Depannage", 10000, "depanneur" },
+			{ "EC635_ADAC", 20000, "depanneur" }
+		};
+	};
+
 	class armer_car {
 		side = "armer";
 		vehicles[] = {
@@ -2712,13 +2721,13 @@ class CfgVehicles {
     };
 
 
-	class B_G_Offroad_01_armed_F {	
+	class B_G_Offroad_01_armed_F {
 		vItemSpace = 25;
         storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
         chopShop = 56250;
 		textures[] = {
-			
+
             { "Guerilla 1", "reb", {
                 "\a3\soft_f_bootcamp\Offroad_01\Data\offroad_01_ext_ig_01_co.paa"
             } },
@@ -2755,7 +2764,7 @@ class CfgVehicles {
             { "Guerilla 12", "reb", {
                 "\a3\soft_f_bootcamp\Offroad_01\Data\offroad_01_ext_ig_12_co.paa"
             } }
-        };	
+        };
 	};
 	class I_G_Van_01_transport_F {
         vItemSpace = 100;
