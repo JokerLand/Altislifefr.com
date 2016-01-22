@@ -8458,8 +8458,9 @@ class Mission
 		{
 			position[]={10022.424,14.231085,12550.737};
 			name="apple_3";
-			text="Champ de Pommiers";
+			text="Champ de Pomme";
 			type="loc_Tree";
+			colorName="ColorGreen";
 		};
 		class Item27
 		{
