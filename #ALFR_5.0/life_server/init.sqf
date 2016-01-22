@@ -181,7 +181,7 @@ life_wanted_list = [];
 
 		{
 			_x setVariable["sellers",[],true];
-		} foreach [Dealer_1,Dealer_2,Dealer_3];
+		} foreach [Dealer_1,Dealer_3];
 	};
 };
 
