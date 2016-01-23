@@ -233,7 +233,7 @@ class WeaponShops {
 			{ "pmc_earpiece", "", 100 },
 			{ "Rangefinder", "", 15 },
             { "O_UavTerminal", "Terminal", 15 },
-			{ "tf_fadak", "Radio Courte", 0 }
+			{ "tf_anprc152", "Radio Courte", 0 }
         };
     };
     //Quincaillerie Police
@@ -253,7 +253,7 @@ class WeaponShops {
 			{ "Medikit", "", 50 },
 			{ "pmc_earpiece", "", 100 },
 			{ "Rangefinder", "", 15 },
-			{ "tf_fadak", "Radio (5km)", 0 }
+			{ "tf_anprc152", "Radio (5km)", 0 }
         };
     };
     //Armurerie policier
@@ -957,7 +957,7 @@ class WeaponShops {
             { "H_PilotHelmetHeli_B", "", 80 },
 			{ "ACE_EarPlugs", "", 80 },
 			{ "ALFR_Police_Backpack", "", 100 },
-            { "tf_fadak", "Radio (5km)", 0 },
+            { "tf_anprc152", "Radio (5km)", 0 },
             { "tf_anprc155_coyote", "Radio (20km)(sac)", 50 },
             { "tf_anarc164", "Radio (40km)(sac)", 50 }
         };
