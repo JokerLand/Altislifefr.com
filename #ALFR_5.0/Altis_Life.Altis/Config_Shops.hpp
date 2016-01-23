@@ -206,7 +206,7 @@ class WeaponShops {
 			{ "FirstAidKit", "", 15 },
 			{ "NVGoggles", "", 100 },
 			{ "ACE_packingBandage", "", 10 },
-			{ "ACE_EarPlugs", "", 80 },
+			{ "ACE_Earplugs", "", 80 },
 			{ "Chemlight_red", "", 5 },
 			{ "Chemlight_yellow", "", 5 },
 			{ "Chemlight_green", "", 5 },
@@ -225,7 +225,7 @@ class WeaponShops {
         items[] = {
         	{ "Binocular", "", 15 },
 			{ "ItemGPS", "", 10 },
-			{ "ACE_EarPlugs", "", 80 },
+			{ "ACE_Earplugs", "", 80 },
 			{ "ToolKit", "", 50 },
 			{ "ACE_packingBandage", "", 10 },
 			{ "FirstAidKit", "", 15 },
@@ -246,9 +246,9 @@ class WeaponShops {
         items[] = {
         	{ "Binocular", "", 15 },
 			{ "ItemGPS", "", 10 },
-			{ "ACE_packingBandage", "", 10 },
+			{ "ACE_quikclot", "Bandage hémostatique", 60 },
 			{ "ToolKit", "", 50 },
-			{ "ACE_EarPlugs", "", 80 },
+			{ "ACE_Earplugs", "", 80 },
 			{ "FirstAidKit", "", 15 },
 			{ "Medikit", "", 50 },
 			{ "pmc_earpiece", "", 100 },
@@ -744,7 +744,7 @@ class WeaponShops {
         items[] = {
 
             { "Rangefinder", "", 10 },
-			{ "ACE_EarPlugs", "", 80 },
+			{ "ACE_Earplugs", "", 80 },
             { "R3F_Famas_G2_HG", "", 10 },
             { "R3F_Famas_F1_HG_DES", "", 10 },
             { "R3F_25Rnd_556x45_TRACER_FAMAS", "", 10 },
@@ -796,7 +796,7 @@ class WeaponShops {
         items[] = {
 
             { "Rangefinder", "", 10 },
-			{ "ACE_EarPlugs", "", 80 },
+			{ "ACE_Earplugs", "", 80 },
             { "B_UavTerminal", "", 10 },
             { "arifle_sdar_F", "", 10 },
             { "20Rnd_556x45_UW_mag", "", 10 },
@@ -955,7 +955,7 @@ class WeaponShops {
             { "Medikit", "", 150 },
             { "pmc_earpiece", "", 100 },
             { "H_PilotHelmetHeli_B", "", 80 },
-			{ "ACE_EarPlugs", "", 80 },
+			{ "ACE_Earplugs", "", 80 },
 			{ "ALFR_Police_Backpack", "", 100 },
             { "tf_anprc152", "Radio (5km)", 0 },
             { "tf_anprc155_coyote", "Radio (20km)(sac)", 50 },
