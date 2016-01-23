@@ -95,7 +95,7 @@ class CarShops {
 		};
 	};
 
-	class veh_depannage {
+    class veh_depannage {
 		side = "civ";
 		vehicles[] = {
             { "C_Offroad_01_repair_F", 5000, "depanneur" },
@@ -103,7 +103,7 @@ class CarShops {
 			{ "EC635_ADAC", 20000, "depanneur" }
 		};
 	};
-
+    
 	class armer_car {
 		side = "armer";
 		vehicles[] = {
@@ -114,16 +114,16 @@ class CarShops {
 			{ "Cha_UH60L_Unarmed_FFV_AUS", 10, "", { "life_adaclevel", 2 } },
 			{ "B_Heli_Transport_03_unarmed_F", 10, "", { "life_adaclevel", 3 } },
 			{ "B_MRAP_01_F", 10, "", { "life_adaclevel", 5 } }
-
-
 		};
 	};
 
 	class reb_car {
 		side = "civ";
 		vehicles[] = {
-			{ "B_G_Offroad_01_armed_F", 150000, "rebel"},
-			{ "O_MRAP_02_F", 120000, "rebel"},
+            { "UAZ_Unarmed", 28000, "rebel" },
+            { "B_G_Offroad_01_F", 28000, "rebel" },
+			{ "B_G_Offroad_01_armed_F", 150000, "rebel" },
+			{ "O_MRAP_02_F", 120000, "rebel" },
 			{ "cl3_dodge_charger_s_camo", 90000, "rebel" },
 			{ "cl3_e63_amg_camo", 90000, "rebel" },
 			{ "GeK_Mercedes_ML63_Rebelle", 72000, "rebel" },
@@ -2285,8 +2285,41 @@ class CfgVehicles {
 		chopShop = 3000;
 		textures[] = {
 
-			{ "Rebelle", "reb", {
-                "\a3\soft_f_gamma\Offroad_01\Data\offroad_01_ext_ig01_co.paa"
+			{ "Guerilla 1", "reb", {
+                "\a3\soft_f_bootcamp\Offroad_01\Data\offroad_01_ext_ig_01_co.paa"
+            } },
+            { "Guerilla 2", "reb", {
+                "\a3\soft_f_bootcamp\Offroad_01\Data\offroad_01_ext_ig_02_co.paa"
+            } },
+            { "Guerilla 3", "reb", {
+                "\a3\soft_f_bootcamp\Offroad_01\Data\offroad_01_ext_ig_03_co.paa"
+            } },
+            { "Guerilla 4", "reb", {
+                "\a3\soft_f_bootcamp\Offroad_01\Data\offroad_01_ext_ig_04_co.paa"
+            } },
+            { "Guerilla 5", "reb", {
+                "\a3\soft_f_bootcamp\Offroad_01\Data\offroad_01_ext_ig_05_co.paa"
+            } },
+            { "Guerilla 6", "reb", {
+                "\a3\soft_f_bootcamp\Offroad_01\Data\offroad_01_ext_ig_06_co.paa"
+            } },
+            { "Guerilla 7", "reb", {
+                "\a3\soft_f_bootcamp\Offroad_01\Data\offroad_01_ext_ig_07_co.paa"
+            } },
+            { "Guerilla 8", "reb", {
+                "\a3\soft_f_bootcamp\Offroad_01\Data\offroad_01_ext_ig_08_co.paa"
+            } },
+            { "Guerilla 9", "reb", {
+                "\a3\soft_f_bootcamp\Offroad_01\Data\offroad_01_ext_ig_09_co.paa"
+            } },
+            { "Guerilla 10", "reb", {
+                "\a3\soft_f_bootcamp\Offroad_01\Data\offroad_01_ext_ig_10_co.paa"
+            } },
+            { "Guerilla 11", "reb", {
+                "\a3\soft_f_bootcamp\Offroad_01\Data\offroad_01_ext_ig_11_co.paa"
+            } },
+            { "Guerilla 12", "reb", {
+                "\a3\soft_f_bootcamp\Offroad_01\Data\offroad_01_ext_ig_12_co.paa"
             } },
 			{ "Rebelle Rouge", "reb", {
                 "ALFR_TexSnd\offroad_reb_red.jpg"
@@ -2294,7 +2327,6 @@ class CfgVehicles {
 			{ "Rebelle Vert", "reb", {
                 "ALFR_TexSnd\offroad_reb_green.jpg"
             } }
-
 		};
 
 	};
@@ -2721,13 +2753,12 @@ class CfgVehicles {
     };
 
 
-	class B_G_Offroad_01_armed_F {
+	class B_G_Offroad_01_armed_F {	
 		vItemSpace = 25;
         storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
         chopShop = 56250;
 		textures[] = {
-
             { "Guerilla 1", "reb", {
                 "\a3\soft_f_bootcamp\Offroad_01\Data\offroad_01_ext_ig_01_co.paa"
             } },
@@ -2764,8 +2795,16 @@ class CfgVehicles {
             { "Guerilla 12", "reb", {
                 "\a3\soft_f_bootcamp\Offroad_01\Data\offroad_01_ext_ig_12_co.paa"
             } }
-        };
+        };	
 	};
+    
+    class UAZ_Unarmed : Default {
+		vItemSpace = 40;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 1000, 1000, 1000, 1000 };
+		chopShop = 10500;
+	};
+    
 	class I_G_Van_01_transport_F {
         vItemSpace = 100;
         storageFee[] = { 1000, 1000, 1000, 1000 };
@@ -3379,9 +3418,6 @@ class CfgVehicles {
             } },
 			{ "Digi Green", "donate", {
 	                "\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_indp_co.paa"
-            } },
-			{ "Desert Digi", "reb", {
-	                "\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_opfor_co.paa"
             } },
             { "EMS White", "med", {
                 "#(argb,8,8,3)color(1,1,1,0.8)"
