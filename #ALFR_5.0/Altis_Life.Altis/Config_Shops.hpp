@@ -205,6 +205,7 @@ class WeaponShops {
 			{ "ToolKit", "", 50 },
 			{ "FirstAidKit", "", 15 },
 			{ "NVGoggles", "", 100 },
+			{ "ACE_packingBandage", "", 10 },
 			{ "ACE_EarPlugs", "", 80 },
 			{ "Chemlight_red", "", 5 },
 			{ "Chemlight_yellow", "", 5 },
@@ -226,6 +227,7 @@ class WeaponShops {
 			{ "ItemGPS", "", 10 },
 			{ "ACE_EarPlugs", "", 80 },
 			{ "ToolKit", "", 50 },
+			{ "ACE_packingBandage", "", 10 },
 			{ "FirstAidKit", "", 15 },
 			{ "Medikit", "", 50 },
 			{ "pmc_earpiece", "", 100 },
@@ -244,6 +246,7 @@ class WeaponShops {
         items[] = {
         	{ "Binocular", "", 15 },
 			{ "ItemGPS", "", 10 },
+			{ "ACE_packingBandage", "", 10 },
 			{ "ToolKit", "", 50 },
 			{ "ACE_EarPlugs", "", 80 },
 			{ "FirstAidKit", "", 15 },
