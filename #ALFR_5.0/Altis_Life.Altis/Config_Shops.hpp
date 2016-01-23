@@ -791,13 +791,10 @@ class WeaponShops {
         license = "";
         level = 2;
         items[] = {
-<<<<<<< HEAD
+
             { "Rangefinder", "", 10 },
-=======
-            { "Rangefinder", "", 15 },
 			{ "ACE_EarPlugs", "", 80 },
             { "B_UavTerminal", "", 10 },
->>>>>>> refs/remotes/origin/Ace-item
             { "arifle_sdar_F", "", 10 },
             { "20Rnd_556x45_UW_mag", "", 10 },
 			{ "R3F_HK417L", "", 10 },
