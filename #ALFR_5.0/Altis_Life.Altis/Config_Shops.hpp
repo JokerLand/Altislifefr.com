@@ -205,6 +205,7 @@ class WeaponShops {
 			{ "ToolKit", "", 50 },
 			{ "FirstAidKit", "", 15 },
 			{ "NVGoggles", "", 100 },
+			{ "ACE_EarPlugs", "", 80 },
 			{ "Chemlight_red", "", 5 },
 			{ "Chemlight_yellow", "", 5 },
 			{ "Chemlight_green", "", 5 },
@@ -223,6 +224,7 @@ class WeaponShops {
         items[] = {
         	{ "Binocular", "", 15 },
 			{ "ItemGPS", "", 10 },
+			{ "ACE_EarPlugs", "", 80 },
 			{ "ToolKit", "", 50 },
 			{ "FirstAidKit", "", 15 },
 			{ "Medikit", "", 50 },
@@ -243,6 +245,7 @@ class WeaponShops {
         	{ "Binocular", "", 15 },
 			{ "ItemGPS", "", 10 },
 			{ "ToolKit", "", 50 },
+			{ "ACE_EarPlugs", "", 80 },
 			{ "FirstAidKit", "", 15 },
 			{ "Medikit", "", 50 },
 			{ "pmc_earpiece", "", 100 },
@@ -736,7 +739,10 @@ class WeaponShops {
         license = "";
         level = 1;
         items[] = {
+
             { "Rangefinder", "", 10 },
+			{ "ACE_EarPlugs", "", 80 },
+            { "R3F_Famas_G2_HG", "", 10 },
             { "R3F_Famas_F1_HG_DES", "", 10 },
             { "R3F_25Rnd_556x45_TRACER_FAMAS", "", 10 },
             { "LMG_Mk200_F", "Mk200 (Sur Ordre)", 10 },
@@ -785,7 +791,13 @@ class WeaponShops {
         license = "";
         level = 2;
         items[] = {
+<<<<<<< HEAD
             { "Rangefinder", "", 10 },
+=======
+            { "Rangefinder", "", 15 },
+			{ "ACE_EarPlugs", "", 80 },
+            { "B_UavTerminal", "", 10 },
+>>>>>>> refs/remotes/origin/Ace-item
             { "arifle_sdar_F", "", 10 },
             { "20Rnd_556x45_UW_mag", "", 10 },
 			{ "R3F_HK417L", "", 10 },
@@ -923,9 +935,27 @@ class WeaponShops {
 			{ "ItemGPS", "", 10 },
 			{ "ToolKit", "", 50 },
 			{ "FirstAidKit", "", 15 },
+			{ "ACE_atropine", "", 10 },
+			{ "ACE_fieldDressing", "", 10 },
+			{ "ACE_elasticBandage", "", 10 },
+			{ "ACE_quikclot", "", 10 },
+			{ "ACE_bloodIV", "", 10 },
+			{ "ACE_bloodIV_500", "", 10 },
+			{ "ACE_bloodIV_250", "", 10 },
+			{ "ACE_bodyBag", "", 10 },
+			{ "ACE_bodyBagObject", "", 10 },
+			{ "ACE_epinephrine", "", 10 },
+			{ "ACE_morphine", "", 10 },
+			{ "ACE_packingBandage", "", 10 },
+			{ "ACE_personalAidKit", "", 10 },
+			{ "ACE_plasmaIV", "", 10 },
+			{ "ACE_salineIV", "", 10 },
+			{ "ACE_surgicalKit", "", 10 },
+			{ "ACE_tourniquet", "", 10 },
             { "Medikit", "", 150 },
             { "pmc_earpiece", "", 100 },
             { "H_PilotHelmetHeli_B", "", 80 },
+			{ "ACE_EarPlugs", "", 80 },
 			{ "ALFR_Police_Backpack", "", 100 },
             { "tf_fadak", "Radio (5km)", 0 },
             { "tf_anprc155_coyote", "Radio (20km)(sac)", 50 },
