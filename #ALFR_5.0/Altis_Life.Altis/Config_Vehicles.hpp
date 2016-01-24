@@ -49,10 +49,10 @@ class CarShops {
 	class kart_shop {
 		side = "civ";
 		vehicles[] = {
-			{ "C_Kart_01_Blu_F", 100000 , "driver" },
-			{ "C_Kart_01_Fuel_F", 100000, "driver" },
-			{ "C_Kart_01_Red_F", 100000, "driver" },
-			{ "C_Kart_01_Vrana_F", 100000, "driver" }
+			{ "C_Kart_01_Blu_F", 27000, "driver" },
+			{ "C_Kart_01_Fuel_F", 27000, "driver" },
+			{ "C_Kart_01_Red_F", 27000, "driver" },
+			{ "C_Kart_01_Vrana_F", 27000, "driver" }
 		};
 	};
 
@@ -299,6 +299,13 @@ class CfgVehicles {
 	};
 
 	class EC635_Unarmed : Default {
+		vItemSpace = 5;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 1000, 1000, 1000, 1000 };
+		chopShop = 3000;
+	};
+    
+    class EC635_SAR : Default {
 		vItemSpace = 5;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
