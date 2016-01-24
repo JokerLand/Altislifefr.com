@@ -48,6 +48,7 @@ class WeaponShops {
         msg = "Vous n'avez pas la license gangster";
         items[] = {
             { "Rangefinder", "", 800 },
+            { "ACE_Vector", "", 1000 },    
             { "SMG_01_F", "", 45000 },
             { "30Rnd_45ACP_Mag_SMG_01", "", 300 },
             { "arifle_Mk20_plain_F", "", 54000 },
@@ -101,7 +102,9 @@ class WeaponShops {
         level = -1;
         msg = "Vous n'avez pas la licence rebelle";
         items[] = {
+            { "ACE_CableTie", "", 500 },
             { "Rangefinder", "", 1000 },
+            { "ACE_Vector", "", 1500 },    
             { "srifle_DMR_01_F", "", 81000 },
             { "10Rnd_762x54_Mag", "", 500 },
             { "hlc_rifle_ak74", "", 60000 },
@@ -244,6 +247,7 @@ class WeaponShops {
 			{ "Medikit", "", 50 },
 			{ "pmc_earpiece", "", 100 },
 			{ "Rangefinder", "", 15 },
+            { "ACE_Vector", "", 25 },
             { "O_UavTerminal", "Terminal", 15 },
 			{ "tf_anprc152", "Radio Courte", 0 }
         };
@@ -265,6 +269,8 @@ class WeaponShops {
 			{ "Medikit", "", 50 },
 			{ "pmc_earpiece", "", 100 },
 			{ "Rangefinder", "", 15 },
+            { "ACE_Vector", "", 25 },
+            { "ACE_CableTie", "", 100 },    
 			{ "tf_anprc152", "Radio (5km)", 0 }
         };
     };
@@ -941,6 +947,7 @@ class WeaponShops {
         license = "";
         level = -1;
         items[] = {
+            { "U_Rangemaster", "", 5 },
             { "ItemCompass", "", 10 },
 			{ "Binocular", "", 15 },
 			{ "ItemMap", "", 10 },
