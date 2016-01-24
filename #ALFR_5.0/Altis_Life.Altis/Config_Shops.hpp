@@ -173,6 +173,18 @@ class WeaponShops {
             { "SmokeShellRed", "Fumigene rouge", 150 }
         };
     };
+    //Shop ChefRebelle
+    class chefrebelle {
+        name = "Armurerie ChefRebelle";
+        side = "civ";
+        license = "chefrebelle";
+        level = -1;
+        msg = "Vous n'avez pas la licence Chefrebelle";
+        items[] = {
+        	{ "launch_RPG7V", "RPG7V", 150000 },
+			{ "RPG7_PG7V", "Munition RPG7V", 20000 }
+        };
+    };
     class gang {
         name = "Hideout Armament";
         side = "civ";

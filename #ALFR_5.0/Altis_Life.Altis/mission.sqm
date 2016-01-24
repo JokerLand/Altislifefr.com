@@ -4141,7 +4141,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=464;
+		items=465;
 		class Item0
 		{
 			position[]={8065.1616,35.674362,24985.314};
@@ -9269,6 +9269,18 @@ class Mission
 			vehicle="Land_InfoStand_V2_F";
 			skill=0.2;
 			init="this enableSimulation false; this allowDamage false; this addAction[""Vehicle Garage"",  {   [[getPlayerUID player,playerSide,""Car"",player],""TON_fnc_getVehicles"",false,false] spawn life_fnc_MP; life_garage_type = ""Car"";  createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""depannage_1_1"";  }]; this addAction[""Store vehicle in Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];";
+		};
+		class Item464
+		{
+			position[]={20794.998,27.828474,7271.5771};
+			azimut=326.95099;
+			special="NONE";
+			id=709;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V2_F";
+			skill=0.2;
+			text="red_1_2_2";
+			init="removeallWeapons this;  this enableSimulation false;  this addAction[""Vetements ChefRebelles"",life_fnc_clothingMenu,""chefrebelle"",0,false,false,"""",' license_civ_chefrebelle && playerSide == civilian'];  this addAction[""Armes ChefRebelles"",life_fnc_weaponShopMenu,""chefrebelle"",0,false,false,"""",' license_civ_chefrebelle && playerSide == civilian'];";
 		};
 	};
 	class Markers
