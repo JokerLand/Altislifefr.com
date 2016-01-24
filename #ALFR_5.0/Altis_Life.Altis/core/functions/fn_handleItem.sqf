@@ -96,10 +96,16 @@ if(_bool) then {
 							if(_override) then {
 								player addItem _item;
 							} else {
-								if(_item in (assignedItems  player)) then {
+							    if(_item in (assignedItems  player)) then 
+								{
 									player addItem _item;
-								} else {
-									player linkItem _item;
+								} 
+									else 
+								{
+										player addItem _item; 
+										if(!(["ACE_",_item] call BIS_fnc_inString)) then {
+										player assignItem _item;
+									};
 								};
 							};
 						};
