@@ -731,7 +731,7 @@ class Clothing {
 	};
 
     class chefrebelle {
-		title = "Vestiaire chef rebelle";
+		title = "Vestiaire Chef Rebelle";
 		license = "chefrebelle";
 		side = "civ";
 
