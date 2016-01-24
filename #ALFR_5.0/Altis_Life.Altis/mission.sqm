@@ -3988,7 +3988,7 @@ class Mission
 						};
 						class Item9
 						{
-							value="1";
+							value="0";
 							parentCls="ACE_moduleMedicalSettings";
 							typeName="preventInstaDeath";
 						};
@@ -4077,7 +4077,7 @@ class Mission
 						};
 						class Item1
 						{
-							value="1";
+							value="0";
 							parentCls="ace_advanced_ballistics_ModuleSettings";
 							typeName="simulateForSnipers";
 						};
