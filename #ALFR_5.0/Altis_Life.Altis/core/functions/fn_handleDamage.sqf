@@ -17,10 +17,10 @@ _projectile = SEL(_this,4);
 if(!isNull _source) then {
 	if(_source != _unit) then {
 		_curWep = currentWeapon _source;
-		if(_projectile in ["B_9x21_Ball","B_556x45_dual"] && _curWep in ["hgun_P07_snds_F","arifle_SDAR_F"]) then {
+		if(_projectile in ["B_9x21_Ball","ALFR_1Rnd_Flashball"] && _curWep in ["hgun_P07_snds_F","hgun_Sam_flashball_F"]) then {
 			if(side _source == west && playerSide != west) then {
 				private["_distance","_isVehicle","_isQuad"];
-				_distance = if(_projectile == "B_556x45_dual") then {100} else {35};
+				_distance = if(_projectile == "ALFR_1Rnd_Flashball") then {100} else {35};
 				_isVehicle = if(vehicle player != player) then {true} else {false};
 				_isQuad = if(_isVehicle) then {if(typeOf (vehicle player) == "B_Quadbike_01_F") then {true} else {false}} else {false};
 				
