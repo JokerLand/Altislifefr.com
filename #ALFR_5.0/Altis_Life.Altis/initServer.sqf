@@ -7,23 +7,6 @@
 if(!(_this select 0)) exitWith {}; //Not server
 [] call compile PreprocessFileLineNumbers "\life_server\init.sqf";
 
-[] execVM "Base\Base-1.sqf";
-[] execVM "Base\Base-2.sqf";
-[] execVM "Base\Base-3.sqf";
-[] execVM "Base\Base-4.sqf";
-[] execVM "Base\Base-5.sqf";
-[] execVM "Base\Base-6.sqf";
-[] execVM "Base\Base-7.sqf";
-[] execVM "Base\Base-8.sqf";
-[] execVM "Base\Base-9.sqf";
-[] execVM "Base\Base-10.sqf";
-[] execVM "Base\Base-11.sqf";
-[] execVM "Base\Base-12.sqf";
-[] execVM "Base\Base-13.sqf";
-[] execVM "Base\base-14.sqf";
-[] execVM "Base\Base-15.sqf";
-[] execVM "Base\Base-16.sqf";
-[] execVM "Base\Base-17.sqf";
 [] execVM "Base\AirportDonateur.sqf";
 [] execVM "Base\AthiraCenter.sqf";
 [] execVM "Base\banque.sqf";
