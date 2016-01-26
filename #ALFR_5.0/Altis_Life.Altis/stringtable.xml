@@ -2179,7 +2179,6 @@
 		</Key>
 		<Key ID="STR_Cop_Renfort">
 			<Original>Voulez-vous vraiment appeller des renforts</Original>
-			<English>Voulez-vous vraiment appeller des renforts</English>
 			<German>Voulez-vous vraiment appeller des renforts</German>
 			<French>Voulez-vous vraiment appeller des renforts</French>
 			<Italian>Voulez-vous vraiment appeller des renforts</Italian>
@@ -3453,7 +3452,6 @@
 	<Package name="Confirm_Renfort">
 		<Key ID="STR_Renfort_On">
 			<Original>Confirmer</Original>
-			<English>Confirmer</English>
 			<German>Confirmer</German>
 			<French>Confirmer</French>
 			<Italian>Confirmer</Italian>
@@ -3461,7 +3459,6 @@
 		</Key>
 		<Key ID="STR_Renfort_Off">
 			<Original>Annuler</Original>
-			<English>Annuler</German>
 			<French>Annuler</French>
 			<Italian>Annuler</Italian>
 			<Portuguese>Annuler</Portuguese>
