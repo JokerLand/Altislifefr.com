@@ -97,6 +97,11 @@ class Life_Client_Core
         class robShops {};
         class seizeObjects {};
         class vesteExplosive {};
+        class packupBarriere {};
+		class packupCone {};
+        class packupGlissiere {};
+        class packupBarstop {};
+        class packupLightd {};
 	};
 	
 	class Housing
@@ -345,6 +350,11 @@ class Life_Client_Core
 		class defuseKit {};
 		class storageBox {};
         class CarAlarmSound {};
+        class barriere {};
+		class cone {};
+        class glissiere {};
+        class barstop {};
+        class lightd {};
 	};
 	
 	class Dialog_Controls

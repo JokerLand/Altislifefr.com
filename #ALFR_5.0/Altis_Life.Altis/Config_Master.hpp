@@ -113,14 +113,21 @@ class Life_Settings {
 		{"30Rnd_9x21_Mag", 0}
 	};
 
-	allowedSavedVirtualItems[] = { "pickaxe", "fuelEmpty", "fuelFull", "spikeStrip", "lockpick", "defuseKit", "storageSmall", "storageBig", "redgull", "coffee", "waterBottle", "apple", "peach", "tbacon", "donuts", "rabbitGrilled", "salemaGrilled", "ornateGrilled", "mackerelGrilled", "tunaGrilled", "mulletGrilled", "catsharkGrilled", "turtleSoup", "henGrilled", "roosterGrilled", "sheepGrilled", "goatGrilled" };
+	allowedSavedVirtualItems[] = { "pickaxe", "fuelEmpty", "fuelFull", "spikeStrip", "lockpick", "defuseKit", "storageSmall", "storageBig", "redgull", "coffee", "waterBottle", "apple", "peach", "tbacon", "donuts", "rabbitGrilled", "salemaGrilled", "ornateGrilled", "mackerelGrilled", "tunaGrilled", "mulletGrilled", "catsharkGrilled", "turtleSoup", "henGrilled", "roosterGrilled", "sheepGrilled", "goatGrilled", "barriere", "cone", "glissiere", "barstop", "lightd" };
 };
 
 //Virtual Items
 class VirtualItems {
 
     //VITEMMACRO(NAME,DISPLAYNAME,VARNAME,WEIGHT,BUYPRICE,SELLPRICE,ILLEGAL,EDIBLE,ICON)
-	//Misc
+	//Item ALtisLifeFr
+    VITEMMACRO(barriere, "STR_AltisLifeFr_barriere", "barriere", 2, 0, 0, false, -1, "icons\ico_barriere.paa")
+    VITEMMACRO(cone, "STR_AltisLifeFr_Cone", "cone", 2, 0, 0, false, -1, "icons\ico_cone.paa")
+    VITEMMACRO(glissiere, "STR_AltisLifeFr_glissiere", "glissiere", 2, 0, 0, false, -1, "icons\ico_barriere.paa")
+    VITEMMACRO(barstop, "STR_AltisLifeFr_barstop", "barstop", 2, 0, 0, false, -1, "icons\ico_barriere")
+    VITEMMACRO(lightd, "STR_AltisLifeFr_lightd", "lightd", 2, 0, 0, false, -1, "icons\ico_cone.paa")    
+    
+    //Misc
 	VITEMMACRO(pickaxe, "STR_Item_Pickaxe", "pickaxe", 2, 55, 27, false, -1, "icons\ico_pickaxe.paa")
 	VITEMMACRO(fuelEmpty, "STR_Item_FuelE", "fuelEmpty", 2, -1, -1, false, -1, "icons\ico_fuelempty.paa")
 	VITEMMACRO(fuelFull, "STR_Item_FuelF", "fuelFull", 5, 20, 10, false, -1, "icons\ico_fuel.paa")
@@ -305,7 +312,7 @@ class VirtualShops {
 
 	class cop {
 		name = "STR_Shops_Cop";
-		items[] = { "donuts", "coffee", "spikeStrip", "waterBottle", "rabbit_grilled", "apple", "redgull", "fuelFull", "defusekit" };
+		items[] = { "donuts", "coffee", "spikeStrip", "waterBottle", "rabbit_grilled", "apple", "redgull", "fuelFull", "defusekit", "barriere", "cone", "glissiere", "barstop", "lightd" };
 	};
 
 	class cement {

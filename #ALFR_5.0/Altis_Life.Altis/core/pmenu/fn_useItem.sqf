@@ -54,6 +54,51 @@ switch (true) do {
 			[] spawn life_fnc_spikeStrip;
 		};
 	};
+    
+    case (EQUAL(_item == "barriere")):
+	{
+		if(!isNull life_barriere) exitWith {hint "Vous deployez déjà une barrière"};
+		if(([false,_item,1] call life_fnc_handleInv)) then
+		{
+			[] spawn life_fnc_barriere;
+		};
+	};
+
+	case (EQUAL(_item == "cone")):
+	{
+		if(!isNull life_cone) exitWith {hint "Vous deployez déjà un cône."};
+		if(([false,_item,1] call life_fnc_handleInv)) then
+		{
+			[] spawn life_fnc_cone;
+		};
+	};
+    
+    case (EQUAL(_item == "glissiere")):
+	{
+		if(!isNull life_glissiere) exitWith {hint "Vous deployez déjà une glissière."};
+		if(([false,_item,1] call life_fnc_handleInv)) then
+		{
+			[] spawn life_fnc_glissiere;
+		};
+	};
+    
+    case (EQUAL(_item == "barstop")):
+	{
+		if(!isNull life_barstop) exitWith {hint "Vous deployez déjà une barstop."};
+		if(([false,_item,1] call life_fnc_handleInv)) then
+		{
+			[] spawn life_fnc_barstop;
+		};
+	};
+    
+    case (EQUAL(_item == "lightd")):
+	{
+		if(!isNull life_lightd) exitWith {hint "Vous deployez déjà une lightd."};
+		if(([false,_item,1] call life_fnc_handleInv)) then
+		{
+			[] spawn life_fnc_lightd;
+		};
+	};
 
 	case (EQUAL(_item,"fuelFull")): {
 		if(vehicle player != player) exitWith {hint localize "STR_ISTR_RefuelInVehicle"};

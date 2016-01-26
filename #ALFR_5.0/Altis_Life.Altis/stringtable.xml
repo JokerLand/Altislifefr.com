@@ -4953,4 +4953,26 @@
 			<Portuguese>Attempted Murder</Portuguese>
 		</Key>
 	</Package>
+    <Package name="AltisLifeFr">
+		<Key ID="STR_AltisLifeFr_barriere">
+			<Original>Barriere</Original>
+			<French>Barriere</French>
+		</Key>
+        <Key ID="STR_AltisLifeFr_cone">
+			<Original>Cone Routier</Original>
+			<French>Cone Routier</French>
+		</Key>
+        <Key ID="STR_AltisLifeFr_glissiere">
+			<Original>Glissiere</Original>
+			<French>Glissiere</French>
+		</Key>
+        <Key ID="STR_AltisLifeFr_barstop">
+			<Original>Barriere</Original>
+			<French>Barriere</French>
+		</Key>
+        <Key ID="STR_AltisLifeFr_lightd">
+			<Original>Projecteur</Original>
+			<French>Projecteur</French>
+		</Key>
+</Package>
 </Project>
