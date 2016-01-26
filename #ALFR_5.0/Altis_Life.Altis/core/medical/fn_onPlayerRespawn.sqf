@@ -23,6 +23,11 @@ _unit SVAR ["transporting",FALSE,TRUE]; //Again why the fuck am I setting this? 
 _unit SVAR ["steam64id",steamid,true]; //Reset the UID.
 _unit SVAR ["realname",profileName,true]; //Reset the players name.
 
+//Reload du stuff si policier
+if(playerSide == west) then {
+	[] spawn life_fnc_loadCopGear;
+};
+
 _unit addRating 1e12; //Set our rating to a high value, this is for a ARMA engine thing.
 player playMoveNow "amovppnemstpsraswrfldnon";
 
