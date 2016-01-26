@@ -4967,8 +4967,8 @@
 			<French>Glissiere</French>
 		</Key>
         <Key ID="STR_AltisLifeFr_barstop">
-			<Original>Barriere</Original>
-			<French>Barriere</French>
+			<Original>Barriere Stop</Original>
+			<French>Barriere Stop</French>
 		</Key>
         <Key ID="STR_AltisLifeFr_lightd">
 			<Original>Projecteur</Original>

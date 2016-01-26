@@ -55,7 +55,7 @@ switch (true) do {
 		};
 	};
     
-    case (EQUAL(_item == "barriere")):
+    case (EQUAL(_item,"barriere")):
 	{
 		if(!isNull life_barriere) exitWith {hint "Vous deployez déjà une barrière"};
 		if(([false,_item,1] call life_fnc_handleInv)) then
@@ -64,7 +64,7 @@ switch (true) do {
 		};
 	};
 
-	case (EQUAL(_item == "cone")):
+	case (EQUAL(_item,"cone")):
 	{
 		if(!isNull life_cone) exitWith {hint "Vous deployez déjà un cône."};
 		if(([false,_item,1] call life_fnc_handleInv)) then
@@ -82,7 +82,7 @@ switch (true) do {
 		};
 	};
     
-    case (EQUAL(_item == "barstop")):
+    case (EQUAL(_item,"barstop")):
 	{
 		if(!isNull life_barstop) exitWith {hint "Vous deployez déjà une barstop."};
 		if(([false,_item,1] call life_fnc_handleInv)) then
@@ -91,7 +91,7 @@ switch (true) do {
 		};
 	};
     
-    case (EQUAL(_item == "lightd")):
+    case (EQUAL(_item,"lightd")):
 	{
 		if(!isNull life_lightd) exitWith {hint "Vous deployez déjà une lightd."};
 		if(([false,_item,1] call life_fnc_handleInv)) then
