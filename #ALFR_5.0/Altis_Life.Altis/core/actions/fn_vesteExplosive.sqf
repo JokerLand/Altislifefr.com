@@ -1,6 +1,6 @@
 private["_Bombe"];
 if(vest player != "V_HarnessOGL_brn") exitWith {};
-[[player, "beepshoot",10],"life_fnc_playSound",true,false] spawn life_fnc_MP;
+[[player, "beepshoot",100],"life_fnc_playSound",true,false] spawn life_fnc_MP;
 sleep 3;
 [[0,format["%1 s'est fait exploser!",name player]],"life_fnc_broadcast",true,false] call life_fnc_MP;
 
