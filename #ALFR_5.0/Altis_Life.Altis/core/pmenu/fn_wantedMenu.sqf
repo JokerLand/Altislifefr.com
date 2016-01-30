@@ -1,4 +1,4 @@
-#include <macro.h>
+﻿#include <macro.h>
 /*
 	File: fn_wantedMenu.sqf
 	Author: Bryan "Tonic" Boardwine
@@ -20,7 +20,7 @@ _units = [];
 lbClear _players;
 
 {
-    _side = switch(side _x) do {case west: {"Cop"}; case civilian : {"Civ"}; default {"Unknown"};};
+    _side = switch(side _x) do {case west: {"Policier"}; case independent: {"Medecin"}; case east: {"Armée"}; case civilian : {"Civil"}; default {"Unknown"};};
     _players lbAdd format["%1 - %2", name _x,_side];
     _players lbSetdata [(lbSize _players)-1,str(_x)];
 } foreach playableUnits;
