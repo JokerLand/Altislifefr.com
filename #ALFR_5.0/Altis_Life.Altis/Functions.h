@@ -205,6 +205,7 @@ class Life_Client_Core
 		class backupCall {};
 		class confirmRenfort {};
         class playSound {};
+        class autoSave {};
 	};
 	
 	class Network
