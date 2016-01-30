@@ -26,7 +26,7 @@ _bounty = _data select 1;
 	if(!(_crime in _mylist)) then
 	{
 		_mylist pushBack _crime;
-		_list lbAdd format["%1 accompte de %2",{_x == _crime} count _crimes,localize _crime];
+		_list lbAdd format["%1 acompte de %2",{_x == _crime} count _crimes,localize _crime];
 	};
 } foreach _crimes;
 
