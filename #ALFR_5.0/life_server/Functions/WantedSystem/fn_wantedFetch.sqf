@@ -32,12 +32,14 @@ _tickTime = diag_tickTime;
 
 if (_inStatement == "") exitWith {[[_list],"life_fnc_wantedList",_ret,false] spawn life_fnc_MP;};
 
-_result = format["wantedFetchID:%1",_inStatement];
+_result = "wantedFetchIDAll";
 waitUntil{!DB_Async_Active};
 _queryResult = [_result,2,true] call DB_fnc_asyncCall;
 
-{
-	_list pushBack (_x);
+{	
+if (SEL(_x, 0) in _units) then	
+{		
+	_list pushBack (_x);	};
 }
 forEach _queryResult;
 

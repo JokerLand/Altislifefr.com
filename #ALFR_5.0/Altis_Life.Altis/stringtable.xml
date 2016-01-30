@@ -1295,21 +1295,21 @@
 		<Key ID="STR_Wanted_Add">
 			<Original>Add</Original>
 			<German>Add</German>
-			<French>Add</French>
+			<French>Ajouter</French>
 			<Italian>Add</Italian>
 			<Portuguese>Add</Portuguese>
 		</Key>
 		<Key ID="STR_Wanted_People">
 			<Original>Wanted People</Original>
 			<German>Wanted People</German>
-			<French>Wanted People</French>
+			<French>Personnes recherchée(s)</French>
 			<Italian>Wanted People</Italian>
 			<Portuguese>Wanted People</Portuguese>
 		</Key>
 		<Key ID="STR_Wanted_Citizens">
 			<Original>Citizens</Original>
 			<German>Citizens</German>
-			<French>Citizens</French>
+			<French>Citoyens</French>
 			<Italian>Citizens</Italian>
 			<Portuguese>Citizens</Portuguese>
 		</Key>
@@ -1323,21 +1323,21 @@
 		<Key ID="STR_Wanted_AddP">
 			<Original>%1 has been added to the wanted list.</Original>
 			<German>%1 has been added to the wanted list.</German>
-			<French>%1 has been added to the wanted list.</French>
+			<French>%1 a été ajouté à la WantedList.</French>
 			<Italian>%1 has been added to the wanted list.</Italian>
 			<Portuguese>%1 has been added to the wanted list.</Portuguese>
 		</Key>
 		<Key ID="STR_Wanted_Count">
 			<Original>%1 count(s) of %2</Original>
 			<German>%1 count(s) of %2</German>
-			<French>%1 count(s) of %2</French>
+			<French>%1 acompte de %2</French>
 			<Italian>%1 count(s) of %2</Italian>
 			<Portuguese>%1 count(s) of %2</Portuguese>
 		</Key>
 		<Key ID="STR_Wanted_Bounty">
 			<Original>Current Bounty Price: $%1</Original>
 			<German>Current Bounty Price: $%1</German>
-			<French>Current Bounty Price: $%1</French>
+			<French>Recherché pour: $%1</French>
 			<Italian>Current Bounty Price: $%1</Italian>
 			<Portuguese>Current Bounty Price: $%1</Portuguese>
 		</Key>
@@ -4755,42 +4755,42 @@
 		<Key ID="STR_Crime_187V">
 			<Original>Vehicular Manslaughter</Original>
 			<German>Vehicular Manslaughter</German>
-			<French>Vehicular Manslaughter</French>
+			<French>Car Kill</French>
 			<Italian>Vehicular Manslaughter</Italian>
 			<Portuguese>Vehicular Manslaughter</Portuguese>
 		</Key>
 		<Key ID="STR_Crime_187">
 			<Original>Manslaughter</Original>
 			<German>Manslaughter</German>
-			<French>Manslaughter</French>
+			<French>Homicide</French>
 			<Italian>Manslaughter</Italian>
 			<Portuguese>Manslaughter</Portuguese>
 		</Key>
 		<Key ID="STR_Crime_901">
 			<Original>Escaping Jail</Original>
 			<German>Escaping Jail</German>
-			<French>Escaping Jail</French>
+			<French>Echappé de prison</French>
 			<Italian>Escaping Jail</Italian>
 			<Portuguese>Escaping Jail</Portuguese>
 		</Key>
 		<Key ID="STR_Crime_215">
 			<Original>Attempted Auto Theft</Original>
 			<German>Attempted Auto Theft</German>
-			<French>Attempted Auto Theft</French>
+			<French>Tentative de vol de véhicule</French>
 			<Italian>Attempted Auto Theft</Italian>
 			<Portuguese>Attempted Auto Theft</Portuguese>
 		</Key>
 		<Key ID="STR_Crime_213">
 			<Original>Use of illegal explosives</Original>
 			<German>Use of illegal explosives</German>
-			<French>Use of illegal explosives</French>
+			<French>Utilisation illégale d'explosif</French>
 			<Italian>Use of illegal explosives</Italian>
 			<Portuguese>Use of illegal explosives</Portuguese>
 		</Key>
 		<Key ID="STR_Crime_211">
 			<Original>Robbery</Original>
 			<German>Robbery</German>
-			<French>Robbery</French>
+			<French>Braquage</French>
 			<Italian>Robbery</Italian>
 			<Portuguese>Robbery</Portuguese>
 		</Key>
@@ -4804,98 +4804,98 @@
 		<Key ID="STR_Crime_207A">
 			<Original>Attempted Kidnapping</Original>
 			<German>Attempted Kidnapping</German>
-			<French>Attempted Kidnapping</French>
+			<French>Tentative de Kidnapping</French>
 			<Italian>Attempted Kidnapping</Italian>
 			<Portuguese>Attempted Kidnapping</Portuguese>
 		</Key>
 		<Key ID="STR_Crime_390">
 			<Original>Public Intoxication</Original>
 			<German>Public Intoxication</German>
-			<French>Public Intoxication</French>
+			<French>Intoxication sur un lieu public</French>
 			<Italian>Public Intoxication</Italian>
 			<Portuguese>Public Intoxication</Portuguese>
 		</Key>
 		<Key ID="STR_Crime_487">
 			<Original>Grand Theft</Original>
 			<German>Grand Theft</German>
-			<French>Grand Theft</French>
+			<French>Vol Majeur</French>
 			<Italian>Grand Theft</Italian>
 			<Portuguese>Grand Theft</Portuguese>
 		</Key>
 		<Key ID="STR_Crime_488">
 			<Original>Petty Theft</Original>
 			<German>Petty Theft</German>
-			<French>Petty Theft</French>
+			<French>Vol Mineur</French>
 			<Italian>Petty Theft</Italian>
 			<Portuguese>Petty Theft</Portuguese>
 		</Key>
 		<Key ID="STR_Crime_480">
-			<Original>Hit and run</Original>
-			<German>Hit and run</German>
-			<French>Hit and run</French>
-			<Italian>Hit and run</Italian>
-			<Portuguese>Hit and run</Portuguese>
+			<Original>Délit de Fuite V1</Original>
+			<German>Délit de Fuite V1</German>
+			<French>Délit de Fuite V1</French>
+			<Italian>Délit de Fuite V1</Italian>
+			<Portuguese>Délit de Fuite V1</Portuguese>
 		</Key>
 		<Key ID="STR_Crime_481">
 			<Original>Drug Possession</Original>
 			<German>Drug Possession</German>
-			<French>Drug Possession</French>
+			<French>Possession de drogue</French>
 			<Italian>Drug Possession</Italian>
 			<Portuguese>Drug Possession</Portuguese>
 		</Key>
 		<Key ID="STR_Crime_482">
 			<Original>Intent to distribute</Original>
 			<German>Intent to distribute</German>
-			<French>Intent to distribute</French>
+			<French>Intention de vendre de la drogue</French>
 			<Italian>Intent to distribute</Italian>
 			<Portuguese>Intent to distribute</Portuguese>
 		</Key>
 		<Key ID="STR_Crime_483">
 			<Original>Drug Trafficking</Original>
 			<German>Drug Trafficking</German>
-			<French>Drug Trafficking</French>
+			<French>Trafic de Drogue</French>
 			<Italian>Drug Trafficking</Italian>
 			<Portuguese>Drug Trafficking</Portuguese>
 		</Key>
 		<Key ID="STR_Crime_459">
-			<Original>Burglary</Original>
-			<German>Burglary</German>
-			<French>Burglary</French>
-			<Italian>Burglary</Italian>
-			<Portuguese>Burglary</Portuguese>
+			<Original>Cambriolage</Original>
+			<German>Cambriolage</German>
+			<French>Cambriolage</French>
+			<Italian>Cambriolage</Italian>
+			<Portuguese>Cambriolage</Portuguese>
 		</Key>
 		<Key ID="STR_Crime_666">
-			<Original>Tax Evasion</Original>
-			<German>Tax Evasion</German>
-			<French>Tax Evasion</French>
-			<Italian>Tax Evasion</Italian>
-			<Portuguese>Tax Evasion</Portuguese>
+			<Original>Évasion fiscale</Original>
+			<German>Évasion fiscale</German>
+			<French>Évasion fiscale</French>
+			<Italian>Évasion fiscale</Italian>
+			<Portuguese>Évasion fiscale</Portuguese>
 		</Key>
 		<Key ID="STR_Crime_667">
 			<Original>Terrorism</Original>
 			<German>Terrorism</German>
-			<French>Terrorism</French>
+			<French>Terrorisme</French>
 			<Italian>Terrorism</Italian>
 			<Portuguese>Terrorism</Portuguese>
 		</Key>
 		<Key ID="STR_Crime_668">
 			<Original>Unlicensed Hunting</Original>
 			<German>Unlicensed Hunting</German>
-			<French>Unlicensed Hunting</French>
+			<French>Défaut du permis de chasse</French>
 			<Italian>Unlicensed Hunting</Italian>
 			<Portuguese>Unlicensed Hunting</Portuguese>
 		</Key>
 		<Key ID="STR_Crime_919">
 			<Original>Organ Theft</Original>
 			<German>Organ Theft</German>
-			<French>Organ Theft</French>
+			<French>Trafic d'organe</French>
 			<Italian>Organ Theft</Italian>
 			<Portuguese>Organ Theft</Portuguese>
 		</Key>
 		<Key ID="STR_Crime_919A">
 			<Original>Attempted Organ Theft</Original>
 			<German>Attempted Organ Theft</German>
-			<French>Attempted Organ Theft</French>
+			<French>Tentative de Trafic d'organe</French>
 			<Italian>Attempted Organ Theft</Italian>
 			<Portuguese>Attempted Organ Theft</Portuguese>
 		</Key>
@@ -4903,49 +4903,49 @@
 		<Key ID="STR_Crime_1">
 			<Original>Driving without Lights</Original>
 			<German>Driving without Lights</German>
-			<French>Driving without Lights</French>
+			<French>Conduite sans phares</French>
 			<Italian>Driving without Lights</Italian>
 			<Portuguese>Driving without Lights</Portuguese>
 		</Key>
 		<Key ID="STR_Crime_2">
 			<Original>Driving without License</Original>
 			<German>Driving without License</German>
-			<French>Driving without License</French>
+			<French>Conduite sans permis</French>
 			<Italian>Driving without License</Italian>
 			<Portuguese>Driving without License</Portuguese>
 		</Key>
 		<Key ID="STR_Crime_3">
 			<Original>Driving over the Speed</Original>
 			<German>Driving over the Speed</German>
-			<French>Driving over the Speed</French>
+			<French>Excès de vitesse</French>
 			<Italian>Driving over the Speed</Italian>
 			<Portuguese>Driving over the Speed</Portuguese>
 		</Key>
 		<Key ID="STR_Crime_4">
 			<Original>Reckless Driving</Original>
 			<German>Reckless Driving</German>
-			<French>Reckless Driving</French>
+			<French>Conduite dangereuse</French>
 			<Italian>Reckless Driving</Italian>
 			<Portuguese>Reckless Driving</Portuguese>
 		</Key>
 		<Key ID="STR_Crime_5">
 			<Original>Driving Stolen Vehicle</Original>
 			<German>Driving Stolen Vehicle</German>
-			<French>Driving Stolen Vehicle</French>
+			<French>Conduite d'un véhicule volé</French>
 			<Italian>Driving Stolen Vehicle</Italian>
 			<Portuguese>Driving Stolen Vehicle</Portuguese>
 		</Key>
 		<Key ID="STR_Crime_6">
-			<Original>Hit and Run</Original>
-			<German>Hit and Run</German>
-			<French>Hit and Run</French>
-			<Italian>Hit and Run</Italian>
-			<Portuguese>Hit and Run</Portuguese>
+			<Original>Délit de Fuite V2</Original>
+			<German>Délit de Fuite V2</German>
+			<French>Délit de Fuite V2</French>
+			<Italian>Délit de Fuite V2</Italian>
+			<Portuguese>Délit de Fuite V2</Portuguese>
 		</Key>
 		<Key ID="STR_Crime_7">
 			<Original>Attempted Murder</Original>
 			<German>Attempted Murder</German>
-			<French>Attempted Murder</French>
+			<French>Tentative de meurtre</French>
 			<Italian>Attempted Murder</Italian>
 			<Portuguese>Attempted Murder</Portuguese>
 		</Key>

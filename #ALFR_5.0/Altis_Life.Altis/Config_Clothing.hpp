@@ -225,28 +225,28 @@ class Clothing {
 			{ "NONE", "Remove Uniform", 0, { "", "", -1 } },
 			{ "ALFR_FR_police_tenu", "Tenue Police", 30, { "", "", -1 } },
             { "U_B_Wetsuit", "", 50, { "", "", -1 } },
-			{ "U_PMC_CombatUniformRS_SSBPBB", "Tenue BAC", 30, { "life_coplevel", "SCALAR", 2 } },
-			{ "U_PMC_BluPolo_GrnPants", "Tenue BAC", 30, { "life_coplevel", "SCALAR", 2 } },
-			{ "U_PMC_WhtPolo_BluPants", "Tenue BAC", 30, { "life_coplevel", "SCALAR", 2 } },
-            { "U_PMC_GTShirt_SJeans", "Tenue BAC", 30, { "life_coplevel", "SCALAR", 2 } },
-            { "U_PMC_BlkTShirt_DJeans", "Tenue BAC", 30, { "life_coplevel", "SCALAR", 2 } },
-            { "U_PMC_BlackPoloShirt_BeigeCords", "Tenue BAC", 30, { "life_coplevel", "SCALAR", 2 } },
-            { "U_PMC_CombatUniformLS_SSGPBB", "Tenue BAC", 30, { "life_coplevel", "SCALAR", 2 } },
-            { "U_PMC_CombatUniformLS_ChckDBS_GPSB", "Tenue BAC", 30, { "life_coplevel", "SCALAR", 2 } },
-            { "U_PMC_CombatUniformLS_ChckP_BPBB", "Tenue BAC", 30, { "life_coplevel", "SCALAR", 2 } },
-            { "U_PMC_CombatUniformRS_BSGPSB", "Tenue BAC", 30, { "life_coplevel", "SCALAR", 2 } },
-            { "U_PMC_CombatUniformRS_GSSPBB", "Tenue BAC", 30, { "life_coplevel", "SCALAR", 2 } }
+			{ "U_PMC_CombatUniformRS_SSBPBB", "Tenue BAC", 30, { "life_coplevel", "SCALAR", 3 } },
+			{ "U_PMC_BluPolo_GrnPants", "Tenue BAC", 30, { "life_coplevel", "SCALAR", 3 } },
+			{ "U_PMC_WhtPolo_BluPants", "Tenue BAC", 30, { "life_coplevel", "SCALAR", 3 } },
+            { "U_PMC_GTShirt_SJeans", "Tenue BAC", 30, { "life_coplevel", "SCALAR", 3 } },
+            { "U_PMC_BlkTShirt_DJeans", "Tenue BAC", 30, { "life_coplevel", "SCALAR", 3 } },
+            { "U_PMC_BlackPoloShirt_BeigeCords", "Tenue BAC", 30, { "life_coplevel", "SCALAR", 3 } },
+            { "U_PMC_CombatUniformLS_SSGPBB", "Tenue BAC", 30, { "life_coplevel", "SCALAR", 3 } },
+            { "U_PMC_CombatUniformLS_ChckDBS_GPSB", "Tenue BAC", 30, { "life_coplevel", "SCALAR", 3 } },
+            { "U_PMC_CombatUniformLS_ChckP_BPBB", "Tenue BAC", 30, { "life_coplevel", "SCALAR", 3 } },
+            { "U_PMC_CombatUniformRS_BSGPSB", "Tenue BAC", 30, { "life_coplevel", "SCALAR", 3 } },
+            { "U_PMC_CombatUniformRS_GSSPBB", "Tenue BAC", 30, { "life_coplevel", "SCALAR", 3 } }
 		};
 
 		headgear[] = {
 			{ "NONE", "Remove Hat", 0, { "", "", -1 } },
 			{ "H_MilCap_blue", "", 20, { "", "", -1 } },
 			{ "H_ALFR_Gasmask", "", 20, { "", "", -1 } },
-			{ "H_Beret_blk", "", 20, { "life_coplevel", "SCALAR", 1 } },
-            { "H_PilotHelmetHeli_B", "", 20, { "life_coplevel", "SCALAR", 1 } },
+			{ "H_Beret_blk", "", 20, { "life_coplevel", "SCALAR", 2 } },
+            { "H_PilotHelmetHeli_B", "", 20, { "life_coplevel", "SCALAR", 2 } },
             { "H_PilotHelmetHeli_O", "Casque Heli BAC", 20, { "life_coplevel", "SCALAR", 3 } },
+			{ "R3F_beret", "", 20, { "life_coplevel", "SCALAR", 3 } },
             { "H_Beret_02", "", 20, { "life_coplevel", "SCALAR", 4 } },
-            { "R3F_beret", "", 20, { "life_coplevel", "SCALAR", 4 } },
             { "R3F_beret_commando", "", 20, { "life_coplevel", "SCALAR", 5 } },
             { "H_Beret_Colonel", "", 20, { "life_coplevel", "SCALAR", 6 } }
 		};
@@ -273,6 +273,7 @@ class Clothing {
 			{ "NONE", "Remove Vest", 0, { "", "", -1 } },
 			{ "V_TacVest_blk_POLICE", "", 125, { "", "", -1 } },
 			{ "V_Police_light", "", 125, { "", "", 1 } },
+			{ "V_Police_medium", "", 125, { "", "", 1 } },
             { "V_Police_heavy", "", 125, { "", "", -1 } },
             { "V_RebreatherB", "", 125, { "", "", -1 } }
 		};
@@ -282,8 +283,7 @@ class Clothing {
 			{ "ALFR_Police_Backpack", "", 50, { "", "", -1 } },
             { "ACE_TacticalLadder_Pack", "", 50, { "", "", -1 } },    
 			{ "tf_rt1523g_big_bwmod", "P Radio 20km", 50, { "", "", -1 } },
-            { "tf_anarc164", "PA Radio 40km", 50, { "", "", -1 } },
-			{ "B_UAV_01_backpack_F", "", 5000, { "life_coplevel", "SCALAR", 3 } }
+			{ "B_UAV_01_backpack_F", "", 5000, { "life_coplevel", "SCALAR", 4 } }
 		};
 	};
 
