@@ -1,4 +1,4 @@
-#include <macro.h>
+﻿#include <macro.h>
 /*
 	File: fn_cellphone.sqf
 	Author: Alan
@@ -26,10 +26,10 @@ if((FETCH_CONST(life_adminlevel) < 1)) then
 	{
 		switch (side _x) do
 		{
-			case west: {_type = "Cop"};
-			case civilian: {_type = "Civ"};
-			case independent: {_type = "Med"};
-			case east: {_type = "Adac"};
+			case west: {_type = "Policier"};
+			case civilian: {_type = "Civil"};
+			case independent: {_type = "Medecin"};
+			case east: {_type = "Armée"};
 		};
 		_units lbAdd format["%1 (%2)",_x getVariable["realname",name _x],_type];
 		_units lbSetData [(lbSize _units)-1,str(_x)];
