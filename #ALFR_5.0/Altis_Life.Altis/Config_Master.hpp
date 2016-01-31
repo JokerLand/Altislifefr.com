@@ -252,7 +252,7 @@ class Licenses {
 class VirtualShops {
 	class market {
 		name = "STR_Shops_Market";
-		items[] = { "waterBottle", "rabbit_grilled", "apple", "redgull", "tbacon", "lockpick", "pickaxe", "fuelFull", "peach", "boltcutter", "storagesmall", "storagebig" };
+		items[] = { "waterBottle", "rabbit_grilled", "apple", "redgull", "tbacon", "lockpick", "pickaxe", "fuelFull", "peach", "storagesmall" };
 	};
 
 	class rebel {

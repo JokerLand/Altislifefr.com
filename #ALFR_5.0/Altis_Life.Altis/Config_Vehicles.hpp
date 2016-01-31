@@ -2752,7 +2752,7 @@ class CfgVehicles {
     };
 
 	class Box_IND_Grenades_F : Default {
-        vItemSpace = 350;
+        vItemSpace = 1000;
     };
 
 	class B_supplyCrate_F {
