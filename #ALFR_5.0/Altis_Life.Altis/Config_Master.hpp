@@ -124,7 +124,7 @@ class VirtualItems {
     VITEMMACRO(barriere, "STR_AltisLifeFr_barriere", "barriere", 2, 0, 0, false, -1, "icons\ico_barriere.paa")
     VITEMMACRO(cone, "STR_AltisLifeFr_Cone", "cone", 2, 0, 0, false, -1, "icons\ico_cone.paa")
     VITEMMACRO(glissiere, "STR_AltisLifeFr_glissiere", "glissiere", 2, 0, 0, false, -1, "icons\ico_barriere.paa")
-    VITEMMACRO(barstop, "STR_AltisLifeFr_barstop", "barstop", 2, 0, 0, false, -1, "icons\ico_barriere")
+    VITEMMACRO(barstop, "STR_AltisLifeFr_barstop", "barstop", 2, 0, 0, false, -1, "icons\ico_barriere.paa")
     VITEMMACRO(lightd, "STR_AltisLifeFr_lightd", "lightd", 2, 0, 0, false, -1, "icons\ico_cone.paa")    
     
     //Misc
