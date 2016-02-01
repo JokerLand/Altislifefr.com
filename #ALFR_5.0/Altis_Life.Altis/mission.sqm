@@ -80,7 +80,8 @@ class Mission
 		"ace_advanced_ballistics",
 		"ace_repair",
 		"ace_medical",
-		"ace_medical_menu"
+		"ace_medical_menu",
+		"A3_Structures_F_EPC_Items_Electronics"
 	};
 	addOnsAuto[]=
 	{
@@ -139,6 +140,7 @@ class Mission
 		"A3_Structures_F_Naval_Buoys",
 		"A3_Structures_F_Bootcamp_Items_Electronics",
 		"A3_Misc_F_Helpers",
+		"A3_Structures_F_EPC_Items_Electronics",
 		"A3_Structures_F_Mil_Helipads",
 		"A3_Structures_F_Bootcamp_Items_Sport",
 		"A3_Structures_F_Bootcamp_Civ_SportsGrounds",
@@ -7264,21 +7266,21 @@ class Mission
 		class Item258
 		{
 			position[]={5379.1904,77.382858,17922.586};
-			azimut=-89.236198;
+			azimut=-93.090759;
 			id=504;
 			side="EMPTY";
-			vehicle="Land_InfoStand_V2_F";
+			vehicle="Land_Device_assembled_F";
 			skill=0.60000002;
 			init="this enableSimulation false;  this allowDamage false;  this addAction[""Traiter le Sable"",life_fnc_processAction,""sand"",0,false,false,"""",' life_inv_sand > 0 && !life_is_processing'];  this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""sand"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""sand"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""sand"",0,false,false,"""",' !license_civ_sand && playerSide == civilian '];";
 		};
 		class Item259
 		{
 			position[]={8440.3711,49.495903,12761.383};
-			azimut=188.48622;
+			azimut=186.19119;
 			offsetY=0.2;
 			id=505;
 			side="EMPTY";
-			vehicle="Land_InfoStand_V2_F";
+			vehicle="Land_Sink_F";
 			skill=0.60000002;
 			init="this enableSimulation false;  this allowDamage false;  this addAction[""Traiter la Cocaine"",life_fnc_processAction,""cocaine"",0,false,false,"""",' life_inv_cocaineUnprocessed > 0 && !life_is_processing'];  this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""cocaine"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""cocaine"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""cocaine"",0,false,false,"""",' !license_civ_cocaine && playerSide == civilian '];";
 		};
@@ -7294,12 +7296,12 @@ class Mission
 		};
 		class Item261
 		{
-			position[]={6263.561,43,16265.395};
-			azimut=-2.0088501;
+			position[]={12593.139,33.938557,16402.057};
+			azimut=118.83181;
 			offsetY=0.2;
 			id=507;
 			side="EMPTY";
-			vehicle="Land_InfoStand_V2_F";
+			vehicle="Land_Device_assembled_F";
 			skill=0.60000002;
 			init="this enableSimulation false;  this allowDamage false;  this addAction[""Raffiner le Pétrole"",life_fnc_processAction,""oil"",0,false,false,"""",' life_inv_oilUnprocessed > 0 && !life_is_processing'];  this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""oil"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""oil"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""oil"",0,false,false,"""",' !license_civ_oil && playerSide == civilian '];";
 		};
@@ -7357,8 +7359,8 @@ class Mission
 		};
 		class Item267
 		{
-			position[]={10382,27.727854,13200.391};
-			azimut=27.572088;
+			position[]={19397.893,20.799999,14312.115};
+			azimut=42.847198;
 			offsetY=0.2;
 			id=513;
 			side="EMPTY";
@@ -7419,10 +7421,10 @@ class Mission
 		class Item273
 		{
 			position[]={14344.318,37.079151,18952.098};
-			azimut=-44.4123;
+			azimut=-41.521221;
 			id=519;
 			side="EMPTY";
-			vehicle="Land_InfoStand_V2_F";
+			vehicle="Land_Device_assembled_F";
 			skill=0.60000002;
 			init="this enableSimulation false;  this allowDamage false;  this addAction[""Traiter le Diamant"",life_fnc_processAction,""diamond"",0,false,false,"""",' life_inv_diamondUncut > 0 && !life_is_processing'];  this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""diamond"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""diamond"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""diamond"",0,false,false,"""",' !license_civ_diamond && playerSide == civilian '];";
 		};
@@ -7448,8 +7450,8 @@ class Mission
 		};
 		class Item276
 		{
-			position[]={16556.521,1.8004956,15550.618};
-			azimut=125.631;
+			position[]={16491.707,4.558157,15002.318};
+			azimut=2.3662579;
 			id=522;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V2_F";
@@ -9448,8 +9450,8 @@ class Mission
 		};
 		class Item452
 		{
-			position[]={12582.891,34.134861,16395.105};
-			azimut=388.87024;
+			position[]={18314.484,47.392967,15518.184};
+			azimut=358.8399;
 			id=698;
 			side="EMPTY";
 			vehicle="Land_CashDesk_F";
@@ -9459,14 +9461,14 @@ class Mission
 		};
 		class Item453
 		{
-			position[]={16577.932,14.271824,15989.478};
-			azimut=317.85901;
+			position[]={16164.953,57.567596,18346.172};
+			azimut=444.32501;
 			id=699;
 			side="EMPTY";
 			vehicle="Land_CashDesk_F";
 			leader=1;
 			skill=0.60000002;
-			init="this enableSimulation false; this allowDamage false; this addAction[""Cement Trader"",life_fnc_virt_menu,""cement""];";
+			init="this enableSimulation false; this allowDamage false; this addAction[""Vendeur de Ciment"",life_fnc_virt_menu,""cement""];";
 		};
 		class Item454
 		{
@@ -9492,7 +9494,7 @@ class Mission
 		};
 		class Item456
 		{
-			position[]={4927.1313,16.262701,14577.358};
+			position[]={6244.9248,43,16287.333};
 			azimut=358.94501;
 			id=702;
 			side="EMPTY";
@@ -9587,8 +9589,8 @@ class Mission
 		};
 		class Item464
 		{
-			position[]={20883.35,2.749326,14626.478};
-			azimut=361.25851;
+			position[]={16008.402,4.3670874,15853.269};
+			azimut=572.24323;
 			id=710;
 			side="EMPTY";
 			vehicle="Land_CashDesk_F";
@@ -9659,9 +9661,9 @@ class Mission
 		};
 		class Item8
 		{
-			position[]={6263.5244,43,16265.374};
+			position[]={12593.102,33.938576,16402.035};
 			name="OilP";
-			text="Raffinage de Pétrole";
+			text="Raffinerie de Pétrole";
 			type="mil_box";
 			colorName="ColorBrown";
 		};
@@ -9693,7 +9695,7 @@ class Mission
 			position[]={8440.3506,49.484863,12756.805};
 			name="cocaine_processing";
 			text="Traitement de cocaine";
-			type="mil_dot";
+			type="mil_box";
 			colorName="ColorRed";
 		};
 		class Item13
@@ -10025,11 +10027,12 @@ class Mission
 		};
 		class Item53
 		{
-			position[]={20883.285,2.7552369,14626.188};
+			position[]={16008.475,4.3720608,15853.432};
 			name="Dealer_3";
 			text="Dealer de Drogue";
 			type="mil_dot";
 			colorName="ColorOrange";
+			angle=26.768797;
 		};
 		class Item54
 		{
@@ -10045,7 +10048,7 @@ class Mission
 			position[]={14344.174,37.080429,18952.045};
 			name="dimond_1";
 			text="Traitement de Diamant";
-			type="mil_triangle";
+			type="mil_box";
 			colorName="ColorBrown";
 		};
 		class Item56
@@ -10066,7 +10069,7 @@ class Mission
 		};
 		class Item58
 		{
-			position[]={11556.398,77.697838,7048.0737};
+			position[]={11202.452,62.9757,18134.896};
 			name="weed_1";
 			text="Champ de Cannabis";
 			type="mil_dot";
@@ -10074,11 +10077,12 @@ class Mission
 		};
 		class Item59
 		{
-			position[]={10383.381,27.727995,13201.877};
+			position[]={19399.611,20.799999,14313.19};
 			name="Weed_p_1";
 			text="Traitement de marijuana";
-			type="mil_dot";
+			type="mil_box";
 			colorName="ColorRed";
+			angle=358.47299;
 		};
 		class Item60
 		{
@@ -10145,7 +10149,7 @@ class Mission
 		};
 		class Item68
 		{
-			position[]={12582.778,34.149235,16394.836};
+			position[]={18314.371,47.392216,15517.914};
 			name="oil_trader";
 			text="Revendeur de Pétrole";
 			type="b_unknown";
@@ -10170,7 +10174,7 @@ class Mission
 		};
 		class Item71
 		{
-			position[]={4928.9746,16.186176,14576.784};
+			position[]={6246.7681,43,16286.759};
 			name="oil_trader_3";
 			text="Vendeur de Verre";
 			type="b_unknown";
@@ -10190,9 +10194,9 @@ class Mission
 			position[]={5379.1855,77.380905,17922.482};
 			name="dimond_1_1";
 			text="Traitement de Sable";
-			type="mil_triangle";
+			type="mil_box";
 			colorName="ColorBrown";
-			angle=-117.57735;
+			angle=0.82738298;
 		};
 		class Item74
 		{
@@ -10218,7 +10222,7 @@ class Mission
 		};
 		class Item77
 		{
-			position[]={19878.146,30.042439,17011.926};
+			position[]={16581.395,22.128803,19642.789};
 			name="heroin_1";
 			text="Champ de Pavot";
 			type="hd_dot";
@@ -10226,7 +10230,7 @@ class Mission
 		};
 		class Item78
 		{
-			position[]={19877.701,29.819229,17004.623};
+			position[]={16580.949,22.369381,19635.486};
 			name="heroin_area";
 			markerType="ELLIPSE";
 			type="Empty";
@@ -10239,7 +10243,7 @@ class Mission
 			position[]={23649.838,51.999672,21791.127};
 			name="heroin_p";
 			text="Traitement heroine";
-			type="mil_dot";
+			type="mil_box";
 			colorName="ColorRed";
 		};
 		class Item80
@@ -10295,16 +10299,17 @@ class Mission
 			position[]={19314.266,21.279949,16545.195};
 			name="rock_proc";
 			text="Traitement de la Roche";
-			type="mil_dot";
+			type="mil_box";
 			colorName="ColorBrown";
 		};
 		class Item87
 		{
-			position[]={16578.012,14.273811,15989.947};
+			position[]={16165.009,57.55587,18346.643};
 			name="oil_trader_3_1";
 			text="Vendeur de Ciment";
 			type="b_unknown";
 			colorName="ColorOrange";
+			angle=-1.8996499;
 		};
 		class Item88
 		{
@@ -10527,7 +10532,7 @@ class Mission
 		};
 		class Item115
 		{
-			position[]={16556.398,1.8017138,15550.469};
+			position[]={16491.777,4.5904517,15003.216};
 			name="turle_dealer_2";
 			text="Dealer de Tortue";
 			type="mil_dot";
@@ -12487,7 +12492,7 @@ class Mission
 		};
 		class Item361
 		{
-			position[]={14702.936,46.815269,20743.752};
+			position[]={14708.097,47.509571,20746.367};
 			name="Rebelop_1_1_1_1";
 			text="Camp Gangster";
 			type="mil_triangle";
@@ -12510,7 +12515,7 @@ class Mission
 		};
 		class Item364
 		{
-			position[]={14751.043,47.538002,20745.354};
+			position[]={14751.348,47.555382,20745.961};
 			name="atm_1_3_11_5_4_6_1_2";
 			text="ATM";
 			type="loc_Tourism";
