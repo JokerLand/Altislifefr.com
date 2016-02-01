@@ -257,7 +257,7 @@ class CfgVehicles {
 		textures[] = {};
 	};
 
-	class GNT_C185F : Default {
+	class GNT_C185 : Default {
 		vItemSpace = 5;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
