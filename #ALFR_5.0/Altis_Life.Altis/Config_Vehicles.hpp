@@ -132,7 +132,9 @@ class CarShops {
 			{ "O_Truck_03_covered_F", 124000, "rebel" },
 			{ "O_Truck_03_ammo_F", 132000, "rebel" },
 			{ "B_Heli_Light_01_F", 96000, "rebel" },
-			{ "O_Heli_Transport_04_bench_F", 280000, "rebel" }
+			{ "O_Heli_Transport_04_ammo_F", 230000, "rebel" },
+            { "O_Heli_Transport_04_bench_F", 280000, "rebel" },
+            { "O_Heli_Transport_04_covered_F", 280000, "rebel" }
 		};
 	};
 
@@ -275,14 +277,14 @@ class CfgVehicles {
 		vItemSpace = 5;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
-		chopShop = 3000;
+		chopShop = 105000;
 	};
 
 	class O_Heli_Transport_04_ammo_F : Default {
 		vItemSpace = 5;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
-		chopShop = 3000;
+		chopShop = 105000;
 	};
 
 	class B_Heli_Transport_03_F : Default {
