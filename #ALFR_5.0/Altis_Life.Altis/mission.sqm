@@ -4084,7 +4084,7 @@ class Mission
 						};
 						class Item5
 						{
-							value="1";
+							value="0.35";
 							parentCls="ACE_moduleMedicalSettings";
 							typeName="playerDamageThreshold";
 						};
@@ -4114,7 +4114,7 @@ class Mission
 						};
 						class Item10
 						{
-							value="1";
+							value="0.35";
 							parentCls="ACE_moduleMedicalSettings";
 							typeName="bleedingCoefficient";
 						};
