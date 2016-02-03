@@ -11,29 +11,29 @@ if(_type == "") exitWith {-1};
 
 switch (_type) do
 {
-	case "driver": {500}; //Drivers License cost
-	case "boat": {1000}; //Boating license cost
-	case "pilot": {25000}; //Pilot/air license cost
-	case "gun": {10000}; //Firearm/gun license cost
-	case "dive": {2000}; //Diving license cost
-	case "oil": {10000}; //Oil processing license cost
-	case "cair": {15000}; //Cop Pilot License cost
-	case "swat": {35000}; //Swat License cost
-	case "cg": {8000}; //Coast guard license cost
-	case "heroin": {25000}; //Heroin processing license cost
-	case "marijuana": {19500}; //Marijuana processing license cost
-	case "medmarijuana": {1500}; //Medical Marijuana processing license cost
-	case "gang": {10000}; //Gang license cost
-	case "rebel": {75000}; //Rebel license cost
-	case "truck": {20000}; //Truck license cost
-	case "diamond": {35000};
-	case "salt": {12000};
-	case "cocaine": {30000};
-	case "sand": {14500};
-	case "iron": {9500};
-	case "copper": {8000};
-	case "cement": {6500};
-	case "mair": {15000};
-	case "home": {75000};
-	case "gangster" {200000};
+	case "driver": {500}; //Prix Permis de Conduire
+	case "boat": {1000}; //Prix Permis de Bateau
+	case "pilot": {25000}; //Prix License Air/Pilote
+	case "gun": {10000}; //Prix Permis de port d'arme
+	case "dive": {2000}; //Prix License de plongée
+	case "oil": {10000}; //Prix License Pétrole
+	case "cair": {15000}; //Prix License Pilote Police
+	case "swat": {35000}; //Prix License Swat ??
+	case "cg": {8000}; //Prix License Garde Côte
+	case "heroin": {25000}; //Prix License d'Heroine
+	case "marijuana": {19500}; //Prix License Marijuana
+	case "medmarijuana": {1500}; //Prix License Medical Marijuana
+	case "gang": {10000}; //Prix License gang ??
+	case "rebel": {75000}; //Prix Entraînement Terroriste
+	case "truck": {20000}; //Prix Permis Poid Lourd
+	case "diamond": {35000}; //Prix License Diamant
+	case "salt": {12000}; //Prix License Sel
+	case "cocaine": {30000}; //Prix License Cocaine
+	case "sand": {14500}; //Prix License Sable
+	case "iron": {9500}; //Prix License Fer
+	case "copper": {8000}; //Prix License Cuivre
+	case "cement": {6500}; //Prix License Ciment
+	case "mair": {15000}; //Prix License Pilote Médic
+	case "home": {75000}; //Prix License Propriétaire
+	case "gangster" {200000}; //Prix License Gangster
 };
