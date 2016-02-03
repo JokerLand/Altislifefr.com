@@ -270,7 +270,7 @@ class VirtualShops {
 
 	class wongs {
 		name = "STR_Shops_Wongs";
-		items[] = { "turtle_soup", "turtle_raw" };
+		items[] = { "turtle_soup" };
 	};
 
 	class coffee {
