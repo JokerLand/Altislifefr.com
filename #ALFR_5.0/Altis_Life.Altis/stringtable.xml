@@ -3427,6 +3427,10 @@
 			<Original>Depanneur</Original>
 			<French>Depanneur</French>
 		</Key>
+        <Key ID="STR_License_Ion">
+			<Original>Licence Entreprise Ion</Original>
+			<French>Licence Entreprise Ion</French>
+		</Key>
 		<Key ID="STR_License_Marijuana">
 			<Original>Marijuana Training</Original>
 			<German>Marihuanaausbildung</German>

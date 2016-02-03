@@ -246,6 +246,9 @@ class Licenses {
 
     /** Depanneur **/
 	LICENSEMACRO(depanneur,"STR_License_Depanneur","depanneur",-1,false,"civ")
+        
+    /** ENtreprise **/
+    LICENSEMACRO(ion,"STR_License_Ion","ion",-1,false,"civ")    
 
 };
 
