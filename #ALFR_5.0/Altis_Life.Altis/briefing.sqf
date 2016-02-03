@@ -2,11 +2,11 @@ waitUntil {!isNull player && player == player};
 if(player diarySubjectExists "rules")exitwith{};
 
 player createDiarySubject ["changelog","Change Log"];
-player createDiarySubject ["serverrules","General Rules"];
-player createDiarySubject ["policerules","Police Procedures/Rules"];
-player createDiarySubject ["safezones","Safe Zones (No Killing)"];
+//player createDiarySubject ["serverrules","General Rules"];
+//player createDiarySubject ["policerules","Police Procedures/Rules"];
+player createDiarySubject ["safezones","Safe Zones (Attention)"];
 //player createDiarySubject ["civrules","Civilian Rules"];
-player createDiarySubject ["illegalitems","Illegal Activity"];
+//player createDiarySubject ["illegalitems","Illegal Activity"];
 //player createDiarySubject ["gangrules","Gang Rules"];
 //player createDiarySubject ["terrorrules","Terrorism Rules"];
 player createDiarySubject ["controls","Controls"];
@@ -25,16 +25,7 @@ player createDiarySubject ["controls","Controls"];
 		[
 			"Official Change Log",
 				"
-					The official change log can be found on the BIS forums (search Altis Life RPG)
-				"
-		]
-	];
-	
-	player createDiaryRecord["changelog",
-		[
-			"Custom Change Log",
-				"
-					This section is meant for people doing their own edits to the mission, DO NOT REMOVE THE ABOVE.
+					Tout les Patch sont disponible sur le forum rubrique Annonce
 				"
 		]
 	];
@@ -58,13 +49,13 @@ player createDiarySubject ["controls","Controls"];
 		[
 			"Safe Zones",
 				"
-					If bombing (bombing can be intentionally exploding a vehicle), robbing, or killing occurs around these or in these areas it is punishable by ban.<br/><br/>
+					Pas d'explosion, de rob, de kill sous peine de sanction de type bannissement.<br/><br/>
 					
-					Any vehicle spawn (shop or garage)<br/>
-					Any weapon shop<br/>
-					All Police HQs<br/>
-					Rebel Outposts<br/>
-					Donator Shops<br/><br/>
+					Les garages<br/>
+					Shop de Kavala<br/>
+					Camp Rebelle<br/>
+					Camp Gangster<br/>
+					Donator Shop<br/><br/>
 				"
 		]
 	];
@@ -532,7 +523,7 @@ player createDiarySubject ["controls","Controls"];
 		[
 			"Illegal Items",
 				"
-				The following items are illegal to posses:<br/><br/>
+				La liste des items illegaux sont les suivants:<br/><br/>
 				1. Turtle<br/>
 				2. Cocaine<br/>
 				3. Heroin<br/>
@@ -549,15 +540,15 @@ player createDiarySubject ["controls","Controls"];
 		[
 			"",
 				"
-				Y: Open Player Menu<br/>
-				U: Lock and unlock cars<br/>
-				F: Cop Siren (if cop)<br/>
-				T: Vehicle Trunk<br/>
-				Left Shift + R: Restrain (Cop Only)<br/>
-				Left Shift + G: Knock out / stun (Civ Only, used for robbing them)<br/>
-				Left Windows: Main Interaction key which is used for picking up items/money, gathering, interacting with cars (repair,etc) and for cops to interact with civilians. Can be rebound to a single key like H by pressing ESC->Configure->Controls->Custom->Use Action 10<br/>
-				Left Shift + L: Activates cop siren lights (as a cop).<br/>
-				Left Shift + H: Holster's your pistol<br/>
+				Y: Pour ouvrir la Tablette<br/>
+				U: Pour ouvrir ou fermer son Vehicule<br/>
+				F: Pour activer la sirene (if cop)<br/>
+				T: Pour ouvrir le coffre du Vehicule<br/>
+				Shift + R: Pour menotter en tant que Policier<br/>
+				Shift + G: Pour knock un individu<br/>
+				Windows: Menu interaction principal utiliser pour prendre items/argent, recolter, interagir avec un vehicule (reparer,etc)et la police pour interagir avec les civils. Pour savoir ou la configurer aller dans ECHAP->Configure->Controls->Custom->Use Action 10<br/>
+				Shift + L: Pour activer les gyrophares.<br/>
+				Shift + H: Pour mettre son arme dans le dos<br/>
 				"
 		]
 	];
