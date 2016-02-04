@@ -365,8 +365,8 @@ class Clothing {
             { "O_UAV_01_backpack_F", "", 500, { "", "", -1 } }
 		};
 	};
-
-
+    
+    //Shop Gangster
     class gangster {
 		title = "La boutique du Parrain";
 		license = "gangster";
@@ -494,8 +494,8 @@ class Clothing {
 			{ "B_Parachute", "", 500, {"", "", -1} }
 		};
 	};
-
-
+    
+    //Shop Rebelle
     class reb {
 		title = "STR_Shops_C_Rebel";
 		license = "rebel";
@@ -729,7 +729,8 @@ class Clothing {
 			{ "B_Parachute", "", 500, {"", "", -1} }
 		};
 	};
-
+    
+    //Shop ChefRebelle
     class chefrebelle {
 		title = "Vestiaire Chef Rebelle";
 		license = "chefrebelle";
@@ -754,6 +755,36 @@ class Clothing {
 
 		backpacks[] = {
 			{ "NONE", "Remove Backpack", 0, { "", "", -1 } }
+		};
+	};
+    
+    //Shop Entreprise ION
+    class  {
+		title = "Vestiaire ION";
+		license = "chefrebelle";
+		side = "civ";
+
+		uniforms[] = {
+			{ "NONE", "Remove Uniform", 0, { "", "", -1 } },
+            { "U_Competitor", "Tenue ION", 1000, {"", "", -1} }
+		};
+
+		headgear[] = {
+			{ "NONE", "Remove Hat", 0, { "", "", -1 } },
+            { "H_Cap_blk_ION", "Casquette ION", 50, {"", "", -1} }
+		};
+
+		goggles[] = {
+			{ "NONE", "Remove Glasses", 0, { "", "", -1 } }
+		};
+
+		vests[] = {
+			{ "NONE", "Remove Vest", 0, { "", "", -1 } }
+		};
+
+		backpacks[] = {
+			{ "NONE", "Remove Backpack", 0, { "", "", -1 } },
+            { "TRYK_B_Carryall_blk", "Sac Noir ION", 200, {"", "", -1} }
 		};
 	};
       /*
