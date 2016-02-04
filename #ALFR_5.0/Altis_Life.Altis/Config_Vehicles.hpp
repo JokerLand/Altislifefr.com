@@ -104,6 +104,21 @@ class CarShops {
 		};
 	};
     
+    class veh_ion {
+		side = "civ";
+		vehicles[] = {
+            { "GeK_Renault_Trafic", 10400, "trucking" },
+            { "cl3_transit_black", 12000, "trucking" },
+            { "C_Van_01_box_F", 18500, "trucking" },
+            { "ALFR_GeK_Scania_420", 48000, "trucking" },
+            { "GeK_Renault_Magnum", 62000, "trucking" },
+            { "ALFR_GeK_Volvo_FH16_2012", 76000, "trucking" },
+            { "C_Heli_Light_01_civil_F", 90000, "pilot" },
+            { "O_Heli_Light_02_unarmed_F", 156000, "pilot" },
+			{ "I_Heli_Transport_02_F", 300000, "pilot" } 
+		};
+	};
+    
 	class armer_car {
 		side = "armer";
 		vehicles[] = {
