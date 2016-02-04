@@ -76,7 +76,7 @@ class Clothing {
             { "ALE_CivilAveng", "T-Shirt Bleu Avengers", 200, { "", "", -1 } },
             { "ALE_CivilSkull", "T-Shirt Tête de mort", 200, { "", "", -1 } },
             { "ALE_CivilLacoste_B", "Polo Lacoste Blanc", 200, { "", "", -1 } },
-            { "ALE_CivilLacoste_Bl", "Polo Lacoste Bleu", 20050, { "", "", -1 } },
+            { "ALE_CivilLacoste_Bl", "Polo Lacoste Bleu", 200, { "", "", -1 } },
             { "ALE_CivilLacoste_O", "Polo Lacoste Orange", 200, { "", "", -1 } },
             { "ALE_CivilLacoste_V", "Polo Lacoste Vert", 200, { "", "", -1 } },
             { "ALE_CivilEleven", "T-Shirt Eleven Paris", 200, { "", "", -1 } },
