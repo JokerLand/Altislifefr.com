@@ -760,7 +760,7 @@ class Clothing {
 	};
     
     //Shop Entreprise ION
-    class  {
+    class ion {
 		title = "Vestiaire ION";
 		license = "ion";
 		side = "civ";
