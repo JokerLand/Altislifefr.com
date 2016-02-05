@@ -767,21 +767,26 @@ class Clothing {
 
 		uniforms[] = {
 			{ "NONE", "Supprime uniforme", 0, { "", "", -1 } },
-            { "U_Competitor", "Tenue ION", 1000, {"", "", -1} }
+            { "U_Competitor", "Tenue ION", 100, {"", "", -1} },
+            { "U_Coveralls_C", "Tenue Ouvrier ION", 100, {"", "", -1} },
+            { "rds_uniform_Functionary1", "Tenue Patron 1", 200, {"", "", -1} },
+            { "rds_uniform_Functionary2", "Tenue Patron 2", 200, {"", "", -1} }
 		};
 
 		headgear[] = {
 			{ "NONE", "Supprime couvre-chef", 0, { "", "", -1 } },
             { "H_Cap_blk_ION", "Casquette ION", 50, {"", "", -1} }
-            { "H_ALFR_Gasmask", "", 100, {"", "", -1} }
 		};
 
 		goggles[] = {
-			{ "NONE", "Supprime lunette", 0, { "", "", -1 } }
+			{ "NONE", "Supprime lunette", 0, { "", "", -1 } },
+            { "Mask_M40", "Masque a Gaz", 150, {"", "", -1} }
 		};
 
 		vests[] = {
-			{ "NONE", "Supprime gilet", 0, { "", "", -1 } }
+			{ "NONE", "Supprime gilet", 0, { "", "", -1 } },
+            { "V_BandollierB_blk", "Sac Noir ION", 200, {"", "", -1} },
+            { "V_Chestrig_blk", "Sac Noir ION", 500, {"", "", -1} }
 		};
 
 		backpacks[] = {
