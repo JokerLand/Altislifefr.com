@@ -28,6 +28,7 @@ class Life_Client_Core
 		class welcomeNotification {};
 		class survival {};
 		class initAdac {};
+		class Erreur {};
 	};
 	
 	class Admin

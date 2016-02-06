@@ -174,11 +174,32 @@ class CfgSounds
 
 class CfgDebriefing
 {
+		
+		class ServeurTeamspeak
+	{
+		title = "Echec Mission (TFR)";
+		subTitle = "Pas connecté au Teamspeak d'ALFR";
+		description = "Vous devez être connecté au serveur Teamspeak d'AltisLifeFr.com pour pouvoir jouer sur le serveur (IP du Teamspeak : ts3.altislifefr.com). Une fois connecté réessayer. Si vous êtes sur le serveur Teamspeak d'AltisLifeFr mais qu'il vous éjecte quand même, vérifiez que votre plugin 'TaskForce Radio' est activé sur votre Teamspeak";
+		pictureBackground = "";
+		picture = "";
+		pictureColor[] = {0, 0.3, 0.6, 1};
+	};
+
+	class CannalTeamspeak
+	{
+		title = "Echec Mission (TFR)";
+		subTitle = "¨Pas dans le canal Task Force Radio";
+		description = "Vous devez être dans le canal 'EN JEU TASK FORCE RADIO' pour pouvoir jouer sur le serveur";
+		pictureBackground = "";
+		picture = "";
+		pictureColor[] = {0, 0.3, 0.6, 1};
+	};
+	
 	class NotWhitelisted
 	{
 		title = "Echec Mission";
-		subtitle = "Vous n êtes pas whitelisted";
-		description = "Vous n avez pas la permission d'utiliser ce slot.";
+		subtitle = "Vous n'êtes pas whiteliste";
+		description = "Vous n'avez pas la permission d'utiliser ce slot car vous n'êtes pas whitelist.";
 		pictureBackground = "";
 		picture = "";
 		pictureColor[] = {0,0.3,0.6,1};
@@ -186,9 +207,9 @@ class CfgDebriefing
 
 	class Blacklisted
 	{
-		title = "Echec Mission";
+		title = "BlackList";
 		subtitle = "Vous êtes Blackliste de la Police";
-		description = "Vous n'avez pas la permission due a une action d'un admin qui vous a remove de la police.";
+		description = "Vous avez été blacklist de la police, cela veut dire que vous n'avez plus le droit de jouer policier sur le serveur AltisLifeFr.com. Pour plus d'informations merci de vous référer à un ModGlobal/Fondateur sur le Teamspeak";
 		pictureBackground = "";
 		picture = "";
 		pictureColor[] = {0,0.3,0.6,1};

@@ -41,11 +41,40 @@ diag_log "::Life Client:: Waiting for the server to be ready..";
 waitUntil{!isNil "life_server_isReady"};
 waitUntil{(life_server_isReady OR !isNil "life_server_extDB_notLoaded")};
 
+
+player setVariable["tf_globalVolume", 0];
+
+	/* Check Pugin */
+	0 cutText ["Vérification du plugin TaskForceRadio sur Teamspeak. Si cela prend du temps veuillez vérifier que votre plugin est activer sur le Teamspeak. !! NE CLIQUEZ PAS SUR REAPPARITION !! ", "BLACK FADED"];
+	0 cutFadeOut 99999999;
+	waitUntil {!(isNil "TFAR_fnc_isTeamSpeakPluginEnabled")};
+
+
+	0 cutText ["En attente de validation du plugin Teamspeak Task Force Radio. Si cela prend du temps veuillez vérifier que votre plugin est activer sur le Teamspeak. !! NE CLIQUEZ PAS SUR REAPPARITION !! ", "BLACK FADED"];
+	0 cutFadeOut 99999999;
+	waitUntil {(call TFAR_fnc_isTeamSpeakPluginEnabled)};
+
+	/* Check Serveur TS */
+		0 cutText ["Vous n'êtes pas connecté sur le Serveur Teamspeak d'AltisLifeFr (IP du Teamspeak : ts3.altislifefr.com). Une fois connecté sur le teamspeak, revenez dans le lobby et réessayer. Si vous êtes déjà sur TS vérifié de ne pas être connecté plusieurs fois. Il est OBLIGATOIRE d’être présent sur le serveur TS avec le plugin Task Force Radio, si vous n'êtes pas présent dessus vous encourez un bannissement. Le double TS (micro activé sur un autre TS), Skype ou autre logiciel de discussion sera sanctionable d'un kick. !! NE CLIQUEZ PAS SUR REAPPARITION !! ", "BLACK FADED"];
+		0 cutFadeOut 99999999;
+		waitUntil {((call TFAR_fnc_getTeamSpeakServerName) == "AltisLifeFR.com - Altis Life RP  | Launcher | TaskForceRadio")};
+
+	/* Check Cannal TS */
+
+
+	0 cutText ["Vérification de votre présence dans le canal Task Force Radio. Le double TS (micro activé sur un autre TS), Skype ou autre logiciel de discussion sera sanctionable d'un kick. ", "BLACK FADED"];
+	0 cutFadeOut 99999999;
+	player setVariable["tf_globalVolume", 0];
+	waitUntil {((call TFAR_fnc_getTeamSpeakChannelName) == "EN JEU TASK FORCE RADIO")};
+	
+
 if(!isNil "life_server_extDB_notLoaded" && {life_server_extDB_notLoaded != ""}) exitWith {
 	diag_log life_server_extDB_notLoaded;
 	999999 cutText [life_server_extDB_notLoaded,"BLACK FADED"];
 	999999 cutFadeOut 99999999;
 };
+
+
 
 [] call SOCK_fnc_dataQuery;
 waitUntil {life_session_completed};
