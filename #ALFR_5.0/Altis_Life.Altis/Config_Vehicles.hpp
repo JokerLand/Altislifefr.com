@@ -138,6 +138,8 @@ class CarShops {
 		vehicles[] = {
             { "UAZ_Unarmed", 24000, "rebel" },
             { "B_G_Offroad_01_F", 24000, "rebel" },
+            { "cl3_e60_m5_black", 25000, "rebel" },
+            { "cl3_dodge_charger_f_black", 30000, "rebel" },    
 			{ "B_G_Offroad_01_armed_F", 106000, "rebel" },
 			{ "O_MRAP_02_F", 86000, "rebel" },
 			{ "cl3_dodge_charger_s_camo", 44000, "rebel" },
@@ -343,6 +345,32 @@ class CfgVehicles {
 		garageSell[] = { 1000, 1000, 1000, 1000 };
 		chopShop = 9000;
     };
+    
+    class cl3_dodge_charger_f_black : Default {
+        vItemSpace = 35;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 1000, 1000, 1000, 1000 };
+		chopShop = 9000;
+		textures[] = {
+
+            { "Noir", "civ", {
+                "#(ai,64,64,1)Fresnel(0.3,3)"
+            } }
+		};
+	};
+    
+    class cl3_e60_m5_black : Default {
+        vItemSpace = 35;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 1000, 1000, 1000, 1000 };
+		chopShop = 9000;
+		textures[] = {
+
+            { "Noir", "civ", {
+                "#(ai,64,64,1)Fresnel(0.3,3)"
+            } }
+		};
+	};
     
     class cl3_arielatom_race_black : Default {
         vItemSpace = 5;
