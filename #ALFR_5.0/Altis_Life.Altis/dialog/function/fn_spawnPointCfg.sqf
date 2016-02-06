@@ -44,7 +44,7 @@ switch (_side) do
  				_return pushBack ["depanneur","Depanneurs HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"];
  		};
                 if(license_civ_ion && playerSide == civilian) then {
-				_return pushBack ["ion_spawn","Entreprise ION","\plp_markers\icons\plp_mark_as_building.pac"];
+				_return pushBack ["ion_spawn","QG ION","\plp_markers\icons\plp_mark_as_building.pac"];
 		};
 
 		if(count life_houses > 0) then {
