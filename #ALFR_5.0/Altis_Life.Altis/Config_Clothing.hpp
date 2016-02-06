@@ -778,7 +778,19 @@ class Clothing {
 
 		goggles[] = {
 			{ "NONE", "Supprime lunette", 0, { "", "", -1 } },
-            { "Mask_M40", "Masque a Gaz", 150, {"", "", -1} }
+            { "G_Shades_Black", "", 200, { "", "", -1 } },
+			{ "G_Shades_Blue", "", 200, { "", "", -1 } },
+			{ "G_Sport_Blackred", "", 200, { "", "", -1 } },
+			{ "G_Sport_Checkered", "", 200, { "", "", -1 } },
+			{ "G_Sport_Blackyellow", "", 200, { "", "", -1 } },
+			{ "G_Sport_BlackWhite", "", 200, { "", "", -1 } },
+			{ "G_Squares", "", 200, { "", "", -1 } },
+			{ "G_Aviator", "", 200, { "", "", -1 } },
+			{ "G_Lady_Mirror", "", 200, { "", "", -1 } },
+			{ "G_Lady_Dark", "", 200, { "", "", -1 } },
+			{ "G_Lady_Blue", "", 200, { "", "", -1 } },
+			{ "G_Lowprofile", "", 200, { "", "", -1 } },
+            { "Mask_M40", "Masque a Gaz", 250, {"", "", -1} }
 		};
 
 		vests[] = {
