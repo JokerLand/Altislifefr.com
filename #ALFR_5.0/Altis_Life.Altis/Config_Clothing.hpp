@@ -372,9 +372,6 @@ class Clothing {
 
         uniforms[] = {
             { "NONE", "Supprime uniforme", 0, { "", "", -1 } },
-            { "U_IG_Guerilla2_1", "Buttonup Black", 800, {"", "", -1} },
-            { "U_IG_Guerilla2_2", "Buttonup Checked", 800, {"", "", -1} },
-            { "U_IG_Guerilla2_3", "Buttonup Navy", 800, {"", "", -1} },
             { "rds_uniform_Woodlander1", "Tenue Gangster 1", 800, {"", "", -1} },
             { "rds_uniform_Woodlander2", "Tenue Gangster 2", 800, {"", "", -1} },
             { "rds_uniform_Woodlander3", "Tenue Gangster 3", 800, {"", "", -1} },
@@ -389,9 +386,7 @@ class Clothing {
             { "U_CivilianSport_A", "Tenue gangster adidas blue", 800, {"", "", -1} },
             { "U_CivilianSport_B", "Tenue gangster adidas vert", 800, {"", "", -1} },
             { "U_CivilianSport_C", "Tenue gangster adidas rouge", 800, {"", "", -1} },
-            { "U_CivilianSport_D", "Tenue gangster adidas jaune", 800, {"", "", -1} },
-            { "U_I_G_Story_Protagonist_F", "", 800, {"", "", -1} },
-            { "U_I_G_resistanceLeader_F", "", 800, {"", "", -1} }
+            { "U_CivilianSport_D", "Tenue gangster adidas jaune", 800, {"", "", -1} }
         };
 
 		headgear[] = {
