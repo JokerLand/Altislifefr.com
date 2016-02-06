@@ -107,6 +107,7 @@ class CarShops {
     class veh_ion {
 		side = "civ";
 		vehicles[] = {
+            { "cl3_suv_black", 30000, "driver" },
             { "GeK_Renault_Trafic", 10400, "trucking" },
             { "cl3_transit_black", 12000, "trucking" },
             { "C_Van_01_box_F", 18500, "trucking" },
@@ -336,6 +337,13 @@ class CfgVehicles {
 		chopShop = 9000;
     };
 
+    class cl3_suv_black : Default {
+        vItemSpace = 5;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 1000, 1000, 1000, 1000 };
+		chopShop = 9000;
+    };
+    
     class cl3_arielatom_race_black : Default {
         vItemSpace = 5;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
