@@ -37,13 +37,15 @@ switch (_side) do
 				if(license_civ_rebel && playerSide == civilian) then {
 				_return pushBack ["reb_spawn_1","Camp Rebelle","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"];
 		};
-
 				if(license_civ_gangster && playerSide == civilian) then {
 				_return pushBack ["gang_spawn_1","Camp Gangster","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"];
 		};
 				if(license_depannage && playerSide == civilian) then {
  				_return pushBack ["depanneur","Depanneurs HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"];
  		};
+                if(license_civ_ion && playerSide == civilian) then {
+				_return pushBack ["ion_spawn","Entreprise ION","\plp_markers\icons\plp_mark_as_building.pac"];
+		};
 
 		if(count life_houses > 0) then {
 			{

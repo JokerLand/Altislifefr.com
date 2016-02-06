@@ -9672,7 +9672,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=373;
+		items=374;
 		class Item0
 		{
 			position[]={8459.6777,104.56568,25131.203};
@@ -12654,6 +12654,13 @@ class Mission
 			name="civ_car_ion";
 			type="Empty";
 			angle=189.67082;
+		};
+		class Item373
+		{
+			position[]={16085.03,13.547647,17051.824};
+			name="ion_spawn";
+			type="Empty";
+			angle=354.64435;
 		};
 	};
 	class Sensors
