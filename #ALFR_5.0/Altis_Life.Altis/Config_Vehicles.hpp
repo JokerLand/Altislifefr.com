@@ -21,6 +21,7 @@ class CarShops {
 			{ "cl3_carrera_gt_black", 20000, "driver" },
 			{ "cl3_dbs_volante_black", 20000, "driver" },
             { "cl3_arielatom_black", 20000, "driver" },
+            { "cl3_e60_m5_black", 24000, "driver" },    
             { "cl3_r8_spyder_black", 24000, "driver" },
             { "cl3_458_black", 24000, "driver" },
 			{ "cl3_murcielago_black", 24000, "driver" },
@@ -138,8 +139,8 @@ class CarShops {
 		vehicles[] = {
             { "UAZ_Unarmed", 24000, "rebel" },
             { "B_G_Offroad_01_F", 24000, "rebel" },
-            { "cl3_e60_m5_black", 25000, "rebel" },
-            { "cl3_dodge_charger_f_black", 30000, "rebel" },    
+            { "cl3_e60_m5_black", 24000, "rebel" },
+            { "ALFR_GeK_Panamera", 34500, "rebel" },    
 			{ "B_G_Offroad_01_armed_F", 106000, "rebel" },
 			{ "O_MRAP_02_F", 86000, "rebel" },
 			{ "cl3_dodge_charger_s_camo", 44000, "rebel" },
@@ -360,7 +361,7 @@ class CfgVehicles {
 	};
     
     class cl3_e60_m5_black : Default {
-        vItemSpace = 35;
+        vItemSpace = 40;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
 		chopShop = 9000;
@@ -368,6 +369,45 @@ class CfgVehicles {
 
             { "Noir", "civ", {
                 "#(ai,64,64,1)Fresnel(0.3,3)"
+            } },
+			{ "Gris sombre", "civ", {
+                "#(argb,8,8,3)color(0.1,0.1,0.1,0.7)"
+            } },
+			{ "Gris", "civ", {
+                "#(argb,8,8,3)color(0.5,0.5,0.5,0.1)"
+            } },
+			{ "Gris clair", "civ", {
+                "#(argb,8,8,3)color(0.3,0.3,0.3,0.8)"
+            } },
+			{ "Blanc", "civ", {
+                "#(argb,8,8,3)color(1,1,1,1)"
+            } },
+			{ "Sable", "civ", {
+                "#(argb,8,8,3)color(1.5,1.6,0.9,0.2)"
+            } },
+			{ "Bordeau", "civ", {
+                "#(argb,8,8,3)color(1,0,0,0.1)"
+            } },
+			{ "Bleu", "civ", {
+                "#(argb,8,8,3)color(0.01,0.6,1,0.1)"
+            } },
+			{ "Bleu Nuit", "civ", {
+                "#(argb,8,8,3)color(0,0,0.5,0.1)"
+            } },
+			{ "Mauve Nuit", "civ", {
+                "#(argb,8,8,3)color(0.6,0,1,0.01)"
+            } },
+			{ "vert", "civ", {
+                "#(argb,8,8,3)color(0.5,1,0.5,0.05)"
+            } },
+			{ "Rouge", "civ", {
+                "#(argb,8,8,3)color(1,0,0,1)"
+            } },
+			{ "Jaune", "civ", {
+                "#(argb,8,8,3)color(0.6,0.3,0.01,1)"
+            } },
+			{ "Orange", "civ", {
+                "#(argb,8,8,3)color(1,0.3,0.01,0.6)"
             } }
 		};
 	};
