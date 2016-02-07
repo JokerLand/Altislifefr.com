@@ -65,13 +65,44 @@ _fnc_water = {
 	};
 };
 
+_fnc_channel =
+	{
+		["Vous n'êtes pas connecté sur le canal Teamspeak 'EN JEU TASK FORCE RADIO'. Pour le rejoindre > Teamspeak > Settings > Plugins > Reload All."] call life_fnc_erreur;
+		sleep 60;
+		if (!((call TFAR_fnc_getTeamSpeakChannelName) == "EN JEU TASK FORCE RADIO")) then {
+			["Vous n'êtes pas connecté sur le canal Teamspeak 'EN JEU TASK FORCE RADIO' | Vous allez être expulsé dans 60 secondes."] call life_fnc_erreur;
+	} else {
+			["Vous êtes maintenant dans le canal approprié. Bon jeu !"] call life_fnc_erreur;
+		};
+		sleep 30;
+		if (!((call TFAR_fnc_getTeamSpeakChannelName) == "EN JEU TASK FORCE RADIO")) then {
+			["Vous n'êtes pas connecté sur le canal Teamspeak 'EN JEU TASK FORCE RADIO' | Vous allez être expulsé dans 30 secondes."] call life_fnc_erreur;
+	} else {
+			["Vous êtes maintenant dans le canal approprié. Bon jeu !"] call life_fnc_erreur;
+		};
+		sleep 20;
+		if (!((call TFAR_fnc_getTeamSpeakChannelName) == "EN JEU TASK FORCE RADIO")) then {
+			["Vous n'êtes pas connecté sur le canal Teamspeak 'EN JEU TASK FORCE RADIO' | Vous allez être expulsé dans 10 secondes."] call life_fnc_erreur;
+	} else {
+			["Vous êtes maintenant dans le canal approprié. Bon jeu !"] call life_fnc_erreur;
+		};
+		sleep 10;
+		if (!((call TFAR_fnc_getTeamSpeakChannelName) == "EN JEU TASK FORCE RADIO")) then
+		{
+			[[player], "TON_fnc_cleanupRequest", false, false] spawn life_fnc_MP;
+			["CannalTeamspeak", false, true] call BIS_fnc_endMission;
+	} else {
+			["Vous êtes maintenant dans le canal approprié. Bon jeu !"] call life_fnc_erreur;
+		};
+	};
+	
 _fnc_server =
 	{
-		["Vous n'êtes pas connecté sur le Serveur Teamspeak d'AltisLifeFr.com | Vous allez être expulsé dans 60 secondes."] call life_fnc_erreur;
+		["Vous n'êtes pas connecté sur le serveur Teamspeak d'AltisLifeFr.com | Vous allez être expulsé dans 60 secondes."] call life_fnc_erreur;
 		sleep 30;
-		["Vous n'êtes pas connecté sur le Serveur Teamspeak d'AltisLifeFr.com | Vous allez être expulsé dans 30 secondes."] call life_fnc_erreur;
+		["Vous n'êtes pas connecté sur le serveur Teamspeak d'AltisLifeFr.com | Vous allez être expulsé dans 30 secondes."] call life_fnc_erreur;
 		sleep 20;
-		["Vous n'êtes pas connecté sur le Serveur Teamspeak d'AltisLifeFr.com | Vous allez être expulsé dans 10 secondes !"] call life_fnc_erreur;
+		["Vous n'êtes pas connecté sur le serveur Teamspeak d'AltisLifeFr.com | Vous allez être expulsé dans 10 secondes !"] call life_fnc_erreur;
 		sleep 10;
 		if (!(["AltisLifeFR.com - Altis Life RP  | Launcher | TaskForceRadio", (call TFAR_fnc_getTeamSpeakServerName)] call BIS_fnc_inString)) then
 		{

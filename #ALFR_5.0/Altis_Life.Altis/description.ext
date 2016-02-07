@@ -188,7 +188,7 @@ class CfgDebriefing
 	class CannalTeamspeak
 	{
 		title = "Echec Mission (TFR)";
-		subTitle = "¨Pas dans le canal Task Force Radio";
+		subTitle = "Pas dans le canal Task Force Radio";
 		description = "Vous devez être dans le canal 'EN JEU TASK FORCE RADIO' pour pouvoir jouer sur le serveur";
 		pictureBackground = "";
 		picture = "";
