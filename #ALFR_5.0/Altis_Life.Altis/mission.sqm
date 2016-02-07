@@ -64,23 +64,16 @@ class Mission
 		"A3_Characters_F_INDEP",
 		"ace_map",
 		"ace_winddeflection",
-		"ace_viewdistance",
 		"ace_weather",
 		"ace_captives",
 		"ace_map_gestures",
-		"ace_nametags",
 		"ace_finger",
 		"ace_sitting",
-		"ace_spectator",
 		"ace_interaction",
-		"ace_switchunits",
-		"ace_respawn",
 		"ace_common",
 		"ace_hearing",
 		"ace_advanced_ballistics",
-		"ace_repair",
 		"ace_medical",
-		"ace_medical_menu",
 		"A3_Structures_F_EPC_Items_Electronics"
 	};
 	addOnsAuto[]=
