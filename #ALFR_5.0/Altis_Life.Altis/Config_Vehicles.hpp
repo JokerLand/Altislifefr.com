@@ -2795,8 +2795,16 @@ class CfgVehicles {
 	class B_Boat_Armed_01_minigun_F {
         vItemSpace = 175;
         storageFee[] = { 1000, 1000, 1000, 1000 };
-		garageSell[] = { 0, 21000, 0, 0 };
-        chopShop = 5000;
+		garageSell[] = { 1000, 1000, 1000, 1000 };
+        chopShop = 1000;
+        textures[] = { };
+    };
+	
+	class B_SDV_01_F {
+        vItemSpace = 50;
+        storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 1000, 1000, 1000, 1000 };
+        chopShop = 1000;
         textures[] = { };
     };
 
