@@ -12,18 +12,13 @@ _state = [_this,0,1,[0]] call BIS_fnc_param;
 switch (_state) do {
 	//Death while being wanted
 	case 0: {
-		SVAR_MNS [LICENSE_VARNAME("rebel","civ"),false];
 		SVAR_MNS [LICENSE_VARNAME("driver","civ"),false];
-		SVAR_MNS [LICENSE_VARNAME("heroin","civ"),false];
-		SVAR_MNS [LICENSE_VARNAME("marijuana","civ"),false];
-		SVAR_MNS [LICENSE_VARNAME("coke","civ"),false];
 	};
 	
 	//Jail licenses
 	case 1: {
 		SVAR_MNS [LICENSE_VARNAME("gun","civ"),false];
 		SVAR_MNS [LICENSE_VARNAME("driver","civ"),false];
-		SVAR_MNS [LICENSE_VARNAME("rebel","civ"),false];
 	};
 	
 	//Remove motor vehicle licenses
