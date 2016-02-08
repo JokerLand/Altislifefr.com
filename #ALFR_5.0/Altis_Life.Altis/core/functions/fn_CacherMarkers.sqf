@@ -29,7 +29,7 @@ _illegalmarkers = [
 "safezone_reb_1", "safezone_frini",    
 
 //Dealer
-"Dealer_1", "Dealer_1_3", "turle_dealer", "turle_dealer_1", "turle_dealer_2",
+"Dealer_1", "Dealer_1_3", "Dealer_3", "turle_dealer", "turle_dealer_1", "turle_dealer_2",
     
 //Planque d'Arme
 "gang_area_1", "gang_area_2", "gang_area_3",    
