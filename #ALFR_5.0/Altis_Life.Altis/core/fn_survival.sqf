@@ -70,29 +70,21 @@ _fnc_channel =
 		["Vous n'êtes pas connecté sur le canal Teamspeak 'EN JEU TASK FORCE RADIO'. Pour le rejoindre > Teamspeak > Settings > Plugins > Reload All."] call life_fnc_erreur;
 		sleep 60;
 		if (!((call TFAR_fnc_getTeamSpeakChannelName) == "EN JEU TASK FORCE RADIO")) then {
-			["Vous n'êtes pas connecté sur le canal Teamspeak 'EN JEU TASK FORCE RADIO' | Vous allez être expulsé dans 60 secondes."] call life_fnc_erreur;
+			["Vous n'êtes pas connecté sur le canal Teamspeak 'EN JEU TASK FORCE RADIO'. Pour le rejoindre > Teamspeak > Settings > Plugins > Reload All."] call life_fnc_erreur;
 	} else {
 			["Vous êtes maintenant dans le canal approprié. Bon jeu !"] call life_fnc_erreur;
 		};
-		sleep 30;
+		sleep 60;
 		if (!((call TFAR_fnc_getTeamSpeakChannelName) == "EN JEU TASK FORCE RADIO")) then {
-			["Vous n'êtes pas connecté sur le canal Teamspeak 'EN JEU TASK FORCE RADIO' | Vous allez être expulsé dans 30 secondes."] call life_fnc_erreur;
+			["Vous n'êtes pas connecté sur le canal Teamspeak 'EN JEU TASK FORCE RADIO'. Merci de le rejoindre au plus vite au risque de vous faire éjecter par le staff  (sauf si vous êtes en 'Besoin d'aide')"] call life_fnc_erreur;
 	} else {
 			["Vous êtes maintenant dans le canal approprié. Bon jeu !"] call life_fnc_erreur;
 		};
-		sleep 20;
+		sleep 60;
 		if (!((call TFAR_fnc_getTeamSpeakChannelName) == "EN JEU TASK FORCE RADIO")) then {
-			["Vous n'êtes pas connecté sur le canal Teamspeak 'EN JEU TASK FORCE RADIO' | Vous allez être expulsé dans 10 secondes."] call life_fnc_erreur;
+			["Vous n'êtes pas connecté sur le canal Teamspeak 'EN JEU TASK FORCE RADIO'. Merci de le rejoindre au plus vite au risque de vous faire éjecter par le staff  (sauf si vous êtes en 'Besoin d'aide')"] call life_fnc_erreur;
 	} else {
-			["Vous êtes maintenant dans le canal approprié. Bon jeu !"] call life_fnc_erreur;
-		};
-		sleep 10;
-		if (!((call TFAR_fnc_getTeamSpeakChannelName) == "EN JEU TASK FORCE RADIO")) then
-		{
-			[[player], "TON_fnc_cleanupRequest", false, false] spawn life_fnc_MP;
-			["CannalTeamspeak", false, true] call BIS_fnc_endMission;
-	} else {
-			["Vous êtes maintenant dans le canal approprié. Bon jeu !"] call life_fnc_erreur;
+			["Vous êtes maintenant dans le canal approprié. Bon jeu !"] call life_fnc_erreur;			
 		};
 	};
 	
