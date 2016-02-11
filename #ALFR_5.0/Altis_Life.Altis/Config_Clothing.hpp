@@ -896,4 +896,61 @@ class Clothing {
 			{ "NONE", "Supprime sac", 0, { "", "", -1 } }
 		};
 	};
+	
+	class mask {
+		title = "STR_Shops_C_Mask";
+		license = "";
+		side = "civ";
+
+		uniforms[] = {
+			{ "NONE", "Supprime uniforme", 0, { "", "", -1 } }
+		};
+
+		headgear[] = {
+			{ "NONE", "Supprime couvre-chef", 0, { "", "", -1 } },
+			{ "H_ALFR_Headset", "", 800, { "", "", -1 } },
+			{ "H_ALFR_PaintballMsk", "", 800, { "", "", -1 } },	
+			{ "H_ALFR_Metal_Gasmask_RU_blk", "", 800, { "", "", -1 } },	
+			{ "H_ALFR_Metal_Gasmask_RU_oli", "", 800, { "", "", -1 } },	
+			{ "H_ALFR_Metal_Gasmask_RU_grey", "", 800, { "", "", -1 } },
+			{ "H_ALFR_Metal_Gasmask_RU_khk", "", 800, { "", "", -1 } },
+			{ "H_ALFR_Metal_Gasmask_RU_fuckyou", "", 800, { "", "", -1 } },
+			{ "H_ALFR_Gasmask", "", 800, { "", "", -1 } },
+			{ "H_ALFR_Metal_Facemask_blk", "", 800, { "", "", -1 } },
+			{ "H_ALFR_Metal_Facemask_oli", "", 800, { "", "", -1 } },
+			{ "H_ALFR_Metal_Facemask_sand", "", 800, { "", "", -1 } },
+			{ "H_ALFR_Metal_Facemask_gry", "", 800, { "", "", -1 } },
+			{ "H_ALFR_Heist_Mask_1", "", 800, { "", "", -1 } },
+			{ "H_ALFR_Heist_Mask_2", "", 800, { "", "", -1 } },
+			{ "H_ALFR_Heist_Mask_3", "", 800, { "", "", -1 } },
+			{ "H_ALFR_Heist_Mask_4", "", 800, { "", "", -1 } },
+			{ "H_ALFR_Heist_Mask_5", "", 800, { "", "", -1 } },	
+			{ "H_ALFR_Heist_Mask_6", "", 800, { "", "", -1 } },	
+			{ "H_ALFR_Heist_Mask_7", "", 800, { "", "", -1 } },	
+			{ "H_ALFR_Samurai_Mask", "", 800, { "", "", -1 } },	
+			{ "H_ALFR_Sheep_Mask", "", 800, { "", "", -1 } },	
+			{ "H_ALFR_Dallas_Mask", "", 800, { "", "", -1 } },
+			{ "H_ALFR_DinoMask", "", 800, { "", "", -1 } },
+			{ "H_ALFR_HorseMask", "", 800, { "", "", -1 } },	
+			{ "H_ALFR_HorseMask_2", "", 800, { "", "", -1 } },	
+			{ "H_ALFR_HorseMask_blk", "", 800, { "", "", -1 } },
+			{ "H_ALFR_HorseMask_pnk", "", 800, { "", "", -1 } },	
+			{ "H_ALFR_OVERKILL_I", "", 800, { "", "", -1 } },	
+			{ "H_ALFR_OVERKILL_II", "", 800, { "", "", -1 } },	
+			{ "H_ALFR_OVERKILL_III", "", 800, { "", "", -1 } },	
+			{ "H_ALFR_OVERKILL_IV", "", 800, { "", "", -1 } }
+		};
+
+		goggles[] = {
+			{ "NONE", "Supprime lunette", 0, { "", "", -1 } }
+		};
+
+		vests[] = {
+			{ "NONE", "Supprime gilet", 0, { "", "", -1 } }
+		};
+
+		backpacks[] = {
+			{ "NONE", "Supprime sac", 0, { "", "", -1 } }
+		};
+	};
 };
