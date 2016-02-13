@@ -195,6 +195,7 @@ class CarShops {
 		side = "civ";
 		vehicles[] = {
             { "wirk_ktm", 20800, "driver", { "life_donator", 1 } },
+            { "GeK_Cadillac_Fleetwood_Brougham_85", 21000, "driver", { "life_donator", 1 } },    
             { "GeK_ElCamino", 22900, "driver", { "life_donator", 1 } },
             { "GeK_Avalanche", 24400, "driver", { "life_donator", 1 } },
             { "GeK_S60", 21600, "driver", { "life_donator", 1 } },
@@ -358,6 +359,58 @@ class CfgVehicles {
 
             { "Noir", "civ", {
                 "#(ai,64,64,1)Fresnel(0.3,3)"
+            } }
+		};
+	};
+    
+    class GeK_Cadillac_Fleetwood_Brougham_85 : Default {
+        vItemSpace = 35;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 1000, 1000, 1000, 1000 };
+		chopShop = 7875;
+		textures[] = {
+
+            { "Noir", "civ", {
+                "#(ai,64,64,1)Fresnel(0.3,3)"
+            } },
+			{ "Gris sombre", "civ", {
+                "#(argb,8,8,3)color(0.1,0.1,0.1,0.7)"
+            } },
+			{ "Gris", "civ", {
+                "#(argb,8,8,3)color(0.5,0.5,0.5,0.1)"
+            } },
+			{ "Gris clair", "civ", {
+                "#(argb,8,8,3)color(0.3,0.3,0.3,0.8)"
+            } },
+			{ "Blanc", "civ", {
+                "#(argb,8,8,3)color(1,1,1,1)"
+            } },
+			{ "Sable", "civ", {
+                "#(argb,8,8,3)color(1.5,1.6,0.9,0.2)"
+            } },
+			{ "Bordeau", "civ", {
+                "#(argb,8,8,3)color(1,0,0,0.1)"
+            } },
+			{ "Bleu", "civ", {
+                "#(argb,8,8,3)color(0.01,0.6,1,0.1)"
+            } },
+			{ "Bleu Nuit", "civ", {
+                "#(argb,8,8,3)color(0,0,0.5,0.1)"
+            } },
+			{ "Mauve Nuit", "civ", {
+                "#(argb,8,8,3)color(0.6,0,1,0.01)"
+            } },
+			{ "vert", "civ", {
+                "#(argb,8,8,3)color(0.5,1,0.5,0.05)"
+            } },
+			{ "Rouge", "civ", {
+                "#(argb,8,8,3)color(1,0,0,1)"
+            } },
+			{ "Jaune", "civ", {
+                "#(argb,8,8,3)color(0.6,0.3,0.01,1)"
+            } },
+			{ "Orange", "civ", {
+                "#(argb,8,8,3)color(1,0.3,0.01,0.6)"
             } }
 		};
 	};
