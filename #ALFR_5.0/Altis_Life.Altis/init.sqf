@@ -31,4 +31,3 @@ waitUntil {sleep 0.1;!(isNull player)};
 player setVariable ["tf_sendingDistanceMultiplicator", 20];
 player setVariable ["tf_receivingDistanceMultiplicator", 1];
 TF_terrain_interception_coefficient = 5;
-TF_give_microdagr_to_soldier = false;

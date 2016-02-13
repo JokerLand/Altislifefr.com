@@ -7,7 +7,7 @@
 private["_vault","_ui","_title","_progressBar","_cP","_titleText"];
 _vault = [_this,0,ObjNull,[ObjNull]] call BIS_fnc_param;
 if(isNull _vault) exitWith {};
-if(typeOf _vault != "GeK_Coffre") exitWith {};
+if(typeOf _vault != "Land_CargoBox_V1_F") exitWith {};
 if(!(_vault getVariable["chargeplaced",false])) exitWith {hint localize "STR_ISTR_Defuse_Nothing"};
 
 life_action_inUse = true;

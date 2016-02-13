@@ -13,5 +13,5 @@ uiSleep 8;
 
 if(player distance (_this select 0) > 5) exitWith {titleText[localize "STR_NOTF_HS_ToFar","PLAIN"]};
 titleText[localize "STR_NOTF_HS_Healed","PLAIN"];
-player setVariable["ACE_medical_bloodVolume",100,true];
-SUB(CASH,1000);
+player setDamage 0;
+SUB(CASH,100);

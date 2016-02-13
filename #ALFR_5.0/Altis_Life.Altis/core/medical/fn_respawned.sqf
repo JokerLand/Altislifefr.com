@@ -16,27 +16,12 @@ CASH = 0; //Make sure we don't get our cash back.
 life_respawned = false;
 player playMove "amovpercmstpsnonwnondnon";
 
-[profileName, "COMA"] remoteExecCall ["life_fnc_deleteMarker",[independent,west]];
-
-// life_corpse setVariable["Revive",nil,TRUE];
-// life_corpse setVariable["name",nil,TRUE];
-// life_corpse setVariable["Reviving",nil,TRUE];
-// player setVariable["Revive",nil,TRUE];
-// player setVariable["name",nil,TRUE];
-// player setVariable["Reviving",nil,TRUE];
-
-if (_unit getVariable ["ACE_captives_isHandcuffed", false]) then {
-	[_unit, false] call ACE_captives_setHandcuffed;
-};
-if (_unit getVariable ["ACE_captives_isSurrendering", false]) then {
-	[_unit, false] call ACE_captives_setSurrendered;
-};
- if (_unit getVariable ["ACE_captives_isEscorting", false]) then {
-	_unit setVariable["ACE_captives_isEscorting",false,true];
-};
-if (_unit getVariable ["ACE_isUnconscious", false]) then {
-	_unit setVariable["ACE_isUnconscious",false,true];
-};
+life_corpse setVariable["Revive",nil,TRUE];
+life_corpse setVariable["name",nil,TRUE];
+life_corpse setVariable["Reviving",nil,TRUE];
+player setVariable["Revive",nil,TRUE];
+player setVariable["name",nil,TRUE];
+player setVariable["Reviving",nil,TRUE];
 
 //Load gear for a 'new life'
 switch(playerSide) do
@@ -53,10 +38,9 @@ switch(playerSide) do
 	case east: {
 		_handle = [] spawn life_fnc_adacLoadout;
 	};
-	waitUntil {sleep 0.1; scriptDone _handle};
+	waitUntil {scriptDone _handle};
 };
 
-/*
 //Cleanup of weapon containers near the body & hide it.
 if(!isNull life_corpse) then {
 	private "_containers";
@@ -64,19 +48,18 @@ if(!isNull life_corpse) then {
 	_containers = nearestObjects[life_corpse,["WeaponHolderSimulated"],5];
 	{deleteVehicle _x;} foreach _containers; //Delete the containers.
 	hideBody life_corpse;
-};*/
+};
 
 //Destroy our camera...
-//life_deathCamera cameraEffect ["TERMINATE","BACK"];
-//camDestroy life_deathCamera;
+life_deathCamera cameraEffect ["TERMINATE","BACK"];
+camDestroy life_deathCamera;
 
 //Bad boy
 if(life_is_arrested) exitWith {
 	hint localize "STR_Jail_Suicide";
 	life_is_arrested = false;
 	[player,TRUE] spawn life_fnc_jail;
-	spawnmenuon = 0;
-	// [] call SOCK_fnc_updateRequest;
+	[] call SOCK_fnc_updateRequest;
 };
 
 //Johnny law got me but didn't let the EMS revive me, reward them half the bounty.

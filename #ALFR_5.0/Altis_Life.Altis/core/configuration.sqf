@@ -24,7 +24,7 @@ life_impound_inuse = false;
 life_action_surrender = false;
 life_action_inUse = false;
 life_spikestrip = ObjNull;
-life_respawn_timer = 5; //Scaled in minutes
+life_respawn_timer = 1; //Scaled in minutes
 life_knockout = false;
 life_interrupted = false;
 life_respawned = false;
@@ -34,7 +34,6 @@ life_vdFoot = viewDistance;
 life_vdCar = viewDistance;
 life_vdAir = viewDistance;
 tawvd_addon_disable = true;
-ACE_Hearing_disableVolumeUpdate = true;
 
 //Uniform price (0),Hat Price (1),Glasses Price (2),Vest Price (3),Backpack Price (4)
 life_clothing_purchase = [-1,-1,-1,-1,-1];
