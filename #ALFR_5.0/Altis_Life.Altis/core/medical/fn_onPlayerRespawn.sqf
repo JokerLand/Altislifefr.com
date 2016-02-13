@@ -9,7 +9,10 @@
 private["_unit","_corpse"];
 _unit = SEL(_this,0);
 _corpse = SEL(_this,1);
-life_corpse = _corpse;
+// life_corpse = _corpse;
+// life_corpse setVariable["life_corps",true,true];
+// _unit setVariable["life_corpse_var",_corpse,true];
+hideBody _corpse;
 
 //Comment this code out if you want them to keep the weapon on the ground.
 private["_containers"];
@@ -17,9 +20,19 @@ _containers = nearestObjects[getPosATL _corpse,["WeaponHolderSimulated"],5]; //F
 {deleteVehicle _x;} foreach _containers; //Delete the containers.
 
 //Set some vars on our new body.
-_unit SVAR ["restrained",FALSE,TRUE];
-_unit SVAR ["Escorting",FALSE,TRUE];
-_unit SVAR ["transporting",FALSE,TRUE]; //Again why the fuck am I setting this? Can anyone tell me?
+if (_unit getVariable ["ACE_captives_isHandcuffed", false]) then {
+	[_unit, false] call ACE_captives_setHandcuffed;
+};
+if (_unit getVariable ["ACE_captives_isSurrendering", false]) then {
+	[_unit, false] call ACE_captives_setSurrendered;
+};
+ if (_unit getVariable ["ACE_captives_isEscorting", false]) then {
+	_unit setVariable["ACE_captives_isEscorting",false,true];
+};
+if (_unit getVariable ["ACE_isUnconscious", false]) then {
+	_unit setVariable["ACE_isUnconscious",false,true];
+};
+
 _unit SVAR ["steam64id",steamid,true]; //Reset the UID.
 _unit SVAR ["realname",profileName,true]; //Reset the players name.
 
@@ -28,9 +41,12 @@ if(playerSide == west) then {
 	[] spawn life_fnc_loadCopGear;
 };
 
-_unit addRating 1e12; //Set our rating to a high value, this is for a ARMA engine thing.
+_unit addRating 9999999999999999; //Set our rating to a high value, this is for a ARMA engine thing.
 player playMoveNow "amovppnemstpsraswrfldnon";
 
 [] call life_fnc_setupActions;
+
+[] call life_fnc_spawnMenu;
+
 [[_unit,life_sidechat,playerSide],"TON_fnc_managesc",false,false] call life_fnc_MP;
 if(EQUAL(LIFE_SETTINGS(getNumber,"enable_fatigue"),0)) then {player enableFatigue false;};

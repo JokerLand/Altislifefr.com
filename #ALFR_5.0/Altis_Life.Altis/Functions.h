@@ -161,6 +161,7 @@ class Life_Client_Core
 	class Functions
 	{
 		file = "core\functions";
+		class abattre {};
 		class calWeightDiff {};
 		class fetchCfgDetails {};
 		class handleInv {};
@@ -207,6 +208,8 @@ class Life_Client_Core
 		class confirmRenfort {};
         class playSound {};
         class autoSave {};
+		class deleteMarker {};
+		class createMarker {};
 	};
 	
 	class Network
@@ -365,6 +368,7 @@ class Life_Client_Core
 		file = "dialog\function";
 		class setMapPosition {};
 		class displayHandler {};
+		class forceSpawnMenu {};
 		class spawnConfirm {};
 		class spawnMenu {};
 		class spawnPointCfg {};

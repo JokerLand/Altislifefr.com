@@ -7,6 +7,7 @@
 [] execVM "AdminMenu.sqf";
 life_firstSpawn = true;
 life_session_completed = false;
+spawnmenuon = 3;
 private["_handle","_timeStamp"];
 0 cutText["Mise en place du client... !!!! NE CLIQUEZ PAS SUR REAPPARITION !!!!","BLACK FADED"];
 0 cutFadeOut 9999999;
@@ -106,9 +107,10 @@ switch (playerSide) do {
 	};
 };
 
-player SVAR ["restrained",false,true];
-player SVAR ["Escorting",false,true];
-player SVAR ["transporting",false,true];
+spawnmenuon = 0;
+// player SVAR ["restrained",false,true];
+// player SVAR ["Escorting",false,true];
+// player SVAR ["transporting",false,true];
 
 diag_log "Past Settings Init";
 [] execFSM "core\fsm\client.fsm";
@@ -169,6 +171,58 @@ if(playerSide != west && playerSide != east) then {
 			};
 	}];
 };*/
+
+[] spawn
+{
+	private["_isUnconscious"];
+	while {true} do {
+		// _isUnconscious = player getvariable ["ACE_isUnconscious", false];
+		
+		// unconscious
+		waitUntil {sleep 0.1; player getvariable ["ACE_isUnconscious", false] };
+		sleep 1;
+		createDialog "DeathScreen";
+
+		(findDisplay 7300) displaySetEventHandler ["KeyDown","if((_this select 1) == 1) then {true}"]; //Block the ESC menu
+		
+		[] call life_fnc_getHLC;
+		[player,"",3] remoteExec ["TON_fnc_logdeath",serverhc];
+		
+		//Create a thread for something?
+		player spawn
+		{
+			private["_maxTime","_RespawnBtn","_Timer"];
+			disableSerialization;
+			_RespawnBtn = ((findDisplay 7300) displayCtrl 7302);
+			_Timer = ((findDisplay 7300) displayCtrl 7301);
+			if(FETCH_CONST(life_adminlevel) > 0) then {
+				maxTimeRespawn = time + 10;
+				_RespawnBtn ctrlEnable false;
+				waitUntil {_Timer ctrlSetText format[localize "STR_Medic_Respawn",[(maxTimeRespawn - time),"MM:SS.MS"] call BIS_fnc_secondsToString];
+				round(maxTimeRespawn - time) <= 0 OR isNull _this};
+				_RespawnBtn ctrlEnable true;
+				_Timer ctrlSetText localize "STR_Medic_Respawn_2";
+				maxTimeRespawn = 0;
+			} else {
+				maxTimeRespawn = time + (life_respawn_timer * 60);
+				_RespawnBtn ctrlEnable false;
+				waitUntil {_Timer ctrlSetText format[localize "STR_Medic_Respawn",[(maxTimeRespawn - time),"MM:SS.MS"] call BIS_fnc_secondsToString];
+				round(maxTimeRespawn - time) <= 0 OR isNull _this};
+				_RespawnBtn ctrlEnable true;
+				_Timer ctrlSetText localize "STR_Medic_Respawn_2";
+				maxTimeRespawn = 0;
+			};
+		};
+
+		[player] spawn life_fnc_deathScreen;
+		
+		// not unconscious
+		waitUntil { !(player getvariable ["ACE_isUnconscious", false]) };
+		
+		closeDialog 0;
+		[profileName, "COMA"] remoteExecCall ["life_fnc_deleteMarker",[independent,west]];
+	};
+};
 
 // MELEE MAGS HOTFIX
 [] spawn {

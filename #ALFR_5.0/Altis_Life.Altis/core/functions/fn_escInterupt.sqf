@@ -42,7 +42,7 @@ _escSync = {
 
 _canUseControls = {
 	if(playerSide == west) exitWith {true};
-	if((player GVAR ["restrained",FALSE]) OR (player GVAR ["Escorting",FALSE]) OR (player GVAR ["transporting",FALSE]) OR (life_is_arrested) OR (life_istazed)) then {false} else {true};
+	if((player getVariable["ACE_isUnconscious",false]) OR (player getVariable["ACE_captives_isHandcuffed",false]) OR (player getVariable["ACE_captives_isEscorting",false]) OR (life_is_arrested) OR (life_istazed)) then {false} else {true};
 };
 	
 while {true} do
@@ -63,5 +63,5 @@ while {true} do
 	if(_usebleCtrl) then {
 		_respawnButton ctrlEnable true; //Enable the button.
 	};
-	waitUntil{isNull (findDisplay 49)};
+	waitUntil{sleep 0.03;isNull (findDisplay 49)};
 };

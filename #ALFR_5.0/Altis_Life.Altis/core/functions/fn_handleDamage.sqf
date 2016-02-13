@@ -17,25 +17,27 @@ _projectile = SEL(_this,4);
 if(!isNull _source) then {
 	if(_source != _unit) then {
 		_curWep = currentWeapon _source;
-		if(_projectile in ["B_9x21_Ball","ALFR_1Rnd_Flashball"] && _curWep in ["hgun_P07_snds_F","hgun_Sam_flashball_F"]) then {
+		 if(_projectile == "ALFR_1Rnd_Flashball" && _curWep in ["hgun_Sam_flashball_F"]) then {
 			if(side _source == west && playerSide != west) then {
+				_damage = 0;
 				private["_distance","_isVehicle","_isQuad"];
-				_distance = if(_projectile == "ALFR_1Rnd_Flashball") then {100} else {35};
+				_distance = 15;
+				//_distance = if(_projectile == "B_556x45_dual") then {100} else {35};
 				_isVehicle = if(vehicle player != player) then {true} else {false};
-				_isQuad = if(_isVehicle) then {if(typeOf (vehicle player) == "B_Quadbike_01_F") then {true} else {false}} else {false};
-				
-				_damage = false;
+				_isQuad = if(_isVehicle) then {if((typeOf (vehicle player)) in ["B_Quadbike_01_F","C_Kart_01_Vrana_F","C_Kart_01_Red_F","C_Kart_01_Blu_F","C_Kart_01_Fuel_F","C_Kart_01_F"]) then {true} else {false}} else {false};		
 				if(_unit distance _source < _distance) then {
-					if(!life_istazed && !(_unit GVAR ["restrained",false])) then {
+					if(!life_istazed && !(_unit getVariable["ACE_captives_isHandcuffed",false])) then {
 						if(_isVehicle && _isQuad) then {
 							player action ["Eject",vehicle player];
 							[_unit,_source] spawn life_fnc_tazed;
-						} else {
+						};
+						if(!_isVehicle) then {
 							[_unit,_source] spawn life_fnc_tazed;
 						};
 					};
 				};
 			};
+		};
 			
 			//Temp fix for super tasers on cops.
 			if(playerSide == west && side _source == west) then {
@@ -46,4 +48,5 @@ if(!isNull _source) then {
 };
 
 [] call life_fnc_hudUpdate;
+_damage = 0;
 _damage;

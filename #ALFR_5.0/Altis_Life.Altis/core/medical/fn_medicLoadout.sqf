@@ -7,32 +7,32 @@
 */
 private["_handle"];
 _handle = [] spawn life_fnc_stripDownPlayer;
-waitUntil {scriptDone _handle};
+waitUntil {sleep 0.1; scriptDone _handle};
 
 removeAllWeapons player;
-removeAllItems player;
-removeAllAssignedItems player;
-removeUniform player;
-removeVest player;
-removeBackpack player;
 removeHeadgear player;
 removeGoggles player;
 sleep 1;
 player addUniform "U_Rangemaster";
 player addBackpack "ALFR_Police_Backpack";
-player addItem "FirstAidKit";
-player addItem "FirstAidKit";
-player addItem "FirstAidKit";
-player addItem "FirstAidKit";
-player addItem "Medikit";
+player addItem "ACE_fieldDressing";
+player addItem "ACE_fieldDressing";
+player addItem "ACE_fieldDressing";
+player addItem "ACE_fieldDressing";
 if(hmd player != "") then {
         player unlinkItem (hmd player);
 };
 // ITEMS 
-player linkItem "ItemMap";
-player linkItem "ItemCompass";
-player linkItem "ItemGPS";
-player linkItem "pmc_earpiece";
+player addItem "ItemMap";
+player assignItem "ItemMap";
+player addItem "ItemCompass";
+player assignItem "ItemCompass";
+player addItem "ItemWatch";
+player assignItem "ItemWatch";
+player addItem "ItemGPS";
+player assignItem "ItemGPS";
+player addItem "pmc_earpiece";
+player assignItem "pmc_earpiece";
 
 [[player,0,"textures\medic_uniform.jpg"],"life_fnc_setTexture",true,false] call life_fnc_MP;
 

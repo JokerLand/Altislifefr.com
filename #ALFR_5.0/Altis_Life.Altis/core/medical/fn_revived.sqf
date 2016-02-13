@@ -15,6 +15,8 @@ life_corpse SVAR ["realname",nil,true]; //Should correct the double name sinking
 _dir = getDir life_corpse;
 hint format[localize "STR_Medic_RevivePay",_medic,[LIFE_SETTINGS(getNumber,"revive_fee")] call life_fnc_numberText];
 
+[profileName, "COMA"] remoteExecCall ["life_fnc_deleteMarker",[independent,west]];
+
 closeDialog 0;
 life_deathCamera cameraEffect ["TERMINATE","BACK"];
 camDestroy life_deathCamera;
@@ -32,6 +34,7 @@ switch(playerSide) do {
 };
 
 //Bring me back to life.
+player setDamage 0.95;
 player setDir _dir;
 player setPosASL (visiblePositionASL life_corpse);
 life_corpse SVAR ["Revive",nil,TRUE];
