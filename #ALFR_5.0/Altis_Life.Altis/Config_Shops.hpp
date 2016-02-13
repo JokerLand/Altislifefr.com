@@ -220,7 +220,8 @@ class WeaponShops {
 			{ "ToolKit", "", 50 },
 			{ "FirstAidKit", "", 15 },
 			{ "NVGoggles", "", 100 },
-			{ "ACE_packingBandage", "", 10 },
+			{ "ACE_packingBandage", "Bandage", 10 },
+			{ "ACE_morphine", "", 100 },
 			{ "ACE_Earplugs", "", 80 },
 			{ "Chemlight_red", "", 5 },
 			{ "Chemlight_yellow", "", 5 },
@@ -242,9 +243,9 @@ class WeaponShops {
 			{ "ItemGPS", "", 10 },
 			{ "ACE_Earplugs", "", 80 },
 			{ "ToolKit", "", 50 },
-			{ "ACE_packingBandage", "", 10 },
+			{ "ACE_quikclot", "Bandage", 60 },
+			{ "ACE_morphine", "", 10 },
 			{ "FirstAidKit", "", 15 },
-			{ "Medikit", "", 50 },
 			{ "pmc_earpiece", "", 100 },
 			{ "Rangefinder", "", 15 },
             { "ACE_Vector", "", 25 },
@@ -262,15 +263,15 @@ class WeaponShops {
         items[] = {
         	{ "Binocular", "", 15 },
 			{ "ItemGPS", "", 10 },
-			{ "ACE_quikclot", "Bandage hémostatique", 60 },
+			{ "ACE_quikclot", "Bandage", 60 },
+			{ "ACE_morphine", "", 10 },
 			{ "ToolKit", "", 50 },
 			{ "ACE_Earplugs", "", 80 },
 			{ "FirstAidKit", "", 15 },
-			{ "Medikit", "", 50 },
 			{ "pmc_earpiece", "", 100 },
 			{ "Rangefinder", "", 15 },
             { "ACE_Vector", "", 25 },
-            { "ACE_CableTie", "", 100 },    
+            { "ACE_CableTie", "", 50 },    
 			{ "tf_anprc152", "Radio (5km)", 0 }
         };
     };
@@ -957,11 +958,7 @@ class WeaponShops {
 			{ "ItemMap", "", 10 },
 			{ "ItemGPS", "", 10 },
 			{ "ToolKit", "", 50 },
-			{ "FirstAidKit", "", 15 },
-			{ "ACE_atropine", "", 10 },
 			{ "ACE_fieldDressing", "", 10 },
-			{ "ACE_elasticBandage", "", 10 },
-			{ "ACE_quikclot", "", 10 },
 			{ "ACE_bloodIV", "", 10 },
 			{ "ACE_bloodIV_500", "", 10 },
 			{ "ACE_bloodIV_250", "", 10 },
@@ -970,19 +967,13 @@ class WeaponShops {
 			{ "ACE_epinephrine", "", 10 },
 			{ "ACE_morphine", "", 10 },
 			{ "ACE_packingBandage", "", 10 },
-			{ "ACE_personalAidKit", "", 10 },
-			{ "ACE_plasmaIV", "", 10 },
-			{ "ACE_salineIV", "", 10 },
-			{ "ACE_surgicalKit", "", 10 },
 			{ "ACE_tourniquet", "", 10 },
-            { "Medikit", "", 150 },
             { "pmc_earpiece", "", 100 },
             { "H_PilotHelmetHeli_B", "", 80 },
 			{ "ACE_Earplugs", "", 80 },
 			{ "ALFR_Police_Backpack", "", 100 },
             { "tf_anprc152", "Radio (5km)", 0 },
-            { "tf_anprc155_coyote", "Radio (20km)(sac)", 50 },
-            { "tf_anarc164", "Radio (40km)(sac)", 50 }
+            { "tf_anprc155_coyote", "Radio (20km)(sac)", 50 }
         };
     };
 };
