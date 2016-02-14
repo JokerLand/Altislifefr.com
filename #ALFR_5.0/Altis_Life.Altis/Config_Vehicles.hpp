@@ -18,6 +18,7 @@ class CarShops {
             { "SAL_IROCCiv", 9500, "driver" },
 			{ "cl3_taurus_black", 12500, "driver" },
             { "cl3_xr_1000_black", 14000, "driver" },
+            { "Mrshounka_ducati_p", 17000, "driver" },    
 			{ "cl3_carrera_gt_black", 20000, "driver" },
 			{ "cl3_dbs_volante_black", 20000, "driver" },
             { "cl3_arielatom_black", 20000, "driver" },
@@ -86,6 +87,7 @@ class CarShops {
 			{ "C_Van_01_transport_F", 12000, "trucking" },
             { "cl3_transit_black", 12000, "trucking" },
             { "cg_rv_camper", 13000, "trucking" },
+            { "shounka_a3_spr_civ", 16000, "trucking" },    
             { "C_Van_01_box_F", 18500, "trucking" },
 			{ "I_Truck_02_transport_F", 25000, "trucking" },
 			{ "I_Truck_02_covered_F", 32500, "trucking" },
@@ -164,10 +166,12 @@ class CarShops {
 			{ "C_Offroad_01_F", 1000, ""},
 			{ "C_SUV_01_F", 1000, "" },
 			{ "GeK_Renault_Trafic_Police", 1000, ""},
+            { "shounka_a3_gendsprinter", 1000, ""},    
 			{ "GeK_S60_Police", 1000, ""},
 			{ "ALFR_GeK_Panamera_Police", 1000, "", { "life_coplevel", 2 } },
             { "GeK_ML63_Police" , 1000, "", { "life_coplevel", 2 } },
 		//	{ "GeK_TLC100_Police", 1000, "", { "life_coplevel", 2 } },
+            { "Mrshounka_ducati_police_p", 1000, "", { "life_coplevel", 3 } },    
 			{ "I_MRAP_03_F", 1000, "", { "life_coplevel", 3 } },
 			{ "ALFR_GeK_MF1_Police", 1000, "", { "life_coplevel", 3 } },
 			{ "GeK_S60_Police_ST", 1000, "", { "life_coplevel", 3 } },
@@ -2221,6 +2225,66 @@ class CfgVehicles {
 		};
 
 	};
+    
+    class Mrshounka_ducati_p : Default {
+		vItemSpace = 25;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 1000, 1000, 1000, 1000 };
+		chopShop = 6375;
+		textures[] = {
+
+			{ "Noir", "civ", {
+                "#(ai,64,64,1)Fresnel(0.3,3)"
+            } },
+			{ "Gris sombre", "civ", {
+                "#(argb,8,8,3)color(0.1,0.1,0.1,0.7)"
+            } },
+			{ "Gris", "civ", {
+                "#(argb,8,8,3)color(0.5,0.5,0.5,0.1)"
+            } },
+			{ "Gris clair", "civ", {
+                "#(argb,8,8,3)color(0.3,0.3,0.3,0.8)"
+            } },
+			{ "Blanc", "civ", {
+                "#(argb,8,8,3)color(1,1,1,1)"
+            } },
+			{ "Sable", "civ", {
+                "#(argb,8,8,3)color(1.5,1.6,0.9,0.2)"
+            } },
+			{ "Bordeau", "civ", {
+                "#(argb,8,8,3)color(1,0,0,0.1)"
+            } },
+			{ "Bleu", "civ", {
+                "#(argb,8,8,3)color(0.01,0.6,1,0.1)"
+            } },
+			{ "Bleu Nuit", "civ", {
+                "#(argb,8,8,3)color(0,0,0.5,0.1)"
+            } },
+			{ "Mauve Nuit", "civ", {
+                "#(argb,8,8,3)color(0.6,0,1,0.01)"
+            } },
+			{ "vert", "civ", {
+                "#(argb,8,8,3)color(0.5,1,0.5,0.05)"
+            } },
+			{ "Rouge", "civ", {
+                "#(argb,8,8,3)color(1,0,0,1)"
+            } },
+			{ "Jaune", "civ", {
+                "#(argb,8,8,3)color(0.6,0.3,0.01,1)"
+            } },
+			{ "Orange", "civ", {
+                "#(argb,8,8,3)color(1,0.3,0.01,0.6)"
+            } }
+		};
+
+	};
+    
+    class Mrshounka_ducati_police_p : Default {
+		vItemSpace = 25;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 1000, 1000, 1000, 1000 };
+		chopShop = 6375;
+	};
 
 	class GeK_Renault_Trafic_Police : Default {
 		vItemSpace = 130;
@@ -3499,6 +3563,66 @@ class CfgVehicles {
 		};
 	};
 
+    class shounka_a3_spr_civ : Default {
+		vItemSpace = 90;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 1000, 1000, 1000, 1000 };
+		chopShop = 6000;
+		textures[] = {
+
+			{ "Noir", "civ", {
+                "#(ai,64,64,1)Fresnel(0.3,3)"
+            } },
+			{ "Gris sombre", "civ", {
+                "#(argb,8,8,3)color(0.1,0.1,0.1,0.7)"
+            } },
+			{ "Gris", "civ", {
+                "#(argb,8,8,3)color(0.5,0.5,0.5,0.1)"
+            } },
+			{ "Gris clair", "civ", {
+                "#(argb,8,8,3)color(0.3,0.3,0.3,0.8)"
+            } },
+			{ "Blanc", "civ", {
+                "#(argb,8,8,3)color(1,1,1,1)"
+            } },
+			{ "Sable", "civ", {
+                "#(argb,8,8,3)color(1.5,1.6,0.9,0.2)"
+            } },
+			{ "Bordeau", "civ", {
+                "#(argb,8,8,3)color(1,0,0,0.1)"
+            } },
+			{ "Bleu", "civ", {
+                "#(argb,8,8,3)color(0.01,0.6,1,0.1)"
+            } },
+			{ "Bleu Nuit", "civ", {
+                "#(argb,8,8,3)color(0,0,0.5,0.1)"
+            } },
+			{ "Mauve Nuit", "civ", {
+                "#(argb,8,8,3)color(0.6,0,1,0.01)"
+            } },
+			{ "vert", "civ", {
+                "#(argb,8,8,3)color(0.5,1,0.5,0.05)"
+            } },
+			{ "Rouge", "civ", {
+                "#(argb,8,8,3)color(1,0,0,1)"
+            } },
+			{ "Jaune", "civ", {
+                "#(argb,8,8,3)color(0.6,0.3,0.01,1)"
+            } },
+			{ "Orange", "civ", {
+                "#(argb,8,8,3)color(1,0.3,0.01,0.6)"
+            } }
+		};
+	};
+    
+    class shounka_a3_gendsprinter {
+		vItemSpace = 1000;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 1000, 1000, 1000, 1000 };
+		chopShop = 6000;
+		textures[] = {};
+	};
+    
     class GeK_Renault_Trafic : Default {
 		vItemSpace = 65;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
