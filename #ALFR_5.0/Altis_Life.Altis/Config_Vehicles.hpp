@@ -3616,7 +3616,7 @@ class CfgVehicles {
 	};
     
     class shounka_a3_gendsprinter {
-		vItemSpace = 1000;
+		vItemSpace = 90;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
 		chopShop = 6000;
