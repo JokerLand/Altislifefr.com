@@ -249,6 +249,7 @@ class WeaponShops {
 			{ "pmc_earpiece", "", 100 },
 			{ "Rangefinder", "", 15 },
             { "ACE_Vector", "", 25 },
+            { "ACE_CableTie", "", 50 },    
             { "O_UavTerminal", "Terminal", 15 },
 			{ "tf_anprc152", "Radio Courte", 0 }
         };
