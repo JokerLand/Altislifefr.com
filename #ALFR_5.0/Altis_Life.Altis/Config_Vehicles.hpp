@@ -95,7 +95,8 @@ class CarShops {
 			{ "B_Truck_01_box_F", 45000, "trucking" },
             { "ALFR_GeK_Scania_420", 48000, "trucking" },
             { "GeK_Renault_Magnum", 62000, "trucking" },
-            { "ALFR_GeK_Volvo_FH16_2012", 76000, "trucking" }
+            { "ALFR_GeK_Volvo_FH16_2012", 76000, "trucking" },
+            { "GeK_Iveco_Stralis", 86000, "trucking" }
 		};
 	};
 
@@ -131,8 +132,10 @@ class CarShops {
 			{ "GeK_TLC100", 10, "" },
 			{ "GeK_TLC100_Police", 10, "" },
 			{ "ALFR_suv_armee", 10, "", { "life_adaclevel", 2 } },
+            { "GeK_Panhard", 10, "", { "life_adaclevel", 2 } },    
 			{ "Cha_UH60L_Unarmed_FFV_AUS", 10, "", { "life_adaclevel", 2 } },
 			{ "B_Heli_Transport_03_unarmed_F", 10, "", { "life_adaclevel", 3 } },
+            { "GeK_VAB", 10, "", { "life_adaclevel", 5 } },
 			{ "B_MRAP_01_F", 10, "", { "life_adaclevel", 5 } }
 		};
 	};
@@ -2728,6 +2731,59 @@ class CfgVehicles {
 
 		};
 	};
+    
+    class  GeK_Iveco_Stralis: Default {
+		vItemSpace = 750;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 1000, 1000, 1000, 1000 };
+		chopShop = 32250;
+		textures[] = {
+
+			{ "Noir", "civ", {
+                "#(ai,64,64,1)Fresnel(0.3,3)"
+            } },
+			{ "Gris sombre", "civ", {
+                "#(argb,8,8,3)color(0.1,0.1,0.1,0.7)"
+            } },
+			{ "Gris", "civ", {
+                "#(argb,8,8,3)color(0.5,0.5,0.5,0.1)"
+            } },
+			{ "Gris clair", "civ", {
+                "#(argb,8,8,3)color(0.3,0.3,0.3,0.8)"
+            } },
+			{ "Blanc", "civ", {
+                "#(argb,8,8,3)color(1,1,1,1)"
+            } },
+			{ "Sable", "civ", {
+                "#(argb,8,8,3)color(1.5,1.6,0.9,0.2)"
+            } },
+			{ "Bordeau", "civ", {
+                "#(argb,8,8,3)color(1,0,0,0.1)"
+            } },
+			{ "Bleu", "civ", {
+                "#(argb,8,8,3)color(0.01,0.6,1,0.1)"
+            } },
+			{ "Bleu Nuit", "civ", {
+                "#(argb,8,8,3)color(0,0,0.5,0.1)"
+            } },
+			{ "Mauve Nuit", "civ", {
+                "#(argb,8,8,3)color(0.6,0,1,0.01)"
+            } },
+			{ "vert", "civ", {
+                "#(argb,8,8,3)color(0.5,1,0.5,0.05)"
+            } },
+			{ "Rouge", "civ", {
+                "#(argb,8,8,3)color(1,0,0,1)"
+            } },
+			{ "Jaune", "civ", {
+                "#(argb,8,8,3)color(0.6,0.3,0.01,1)"
+            } },
+			{ "Orange", "civ", {
+                "#(argb,8,8,3)color(1,0.3,0.01,0.6)"
+            } }
+
+		};
+	};
 
 	class  GeK_Renault_Magnum: Default {
 		vItemSpace = 600;
@@ -3087,6 +3143,20 @@ class CfgVehicles {
     
     class UAZ_Unarmed : Default {
 		vItemSpace = 40;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 1000, 1000, 1000, 1000 };
+		chopShop = 9000;
+	};
+    
+    class GeK_Panhard : Default {
+		vItemSpace = 40;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 1000, 1000, 1000, 1000 };
+		chopShop = 9000;
+	};
+    
+    class GeK_VAB : Default {
+		vItemSpace = 60;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
 		chopShop = 9000;
