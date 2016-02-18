@@ -15,6 +15,11 @@ if((FETCH_CONST(life_adaclevel) == 0) && (FETCH_CONST(life_adminlevel) == 0)) th
 	sleep 35;
 };
 
+if(face player in life_faceWomen && (__GETC__(life_girl) == 0)) then {
+	["NotWomen",false,true] call BIS_fnc_endMission;
+	sleep 35;
+};
+
 [] call life_fnc_spawnMenu;
 waitUntil{!isNull (findDisplay 38500)}; //Wait for the spawn selection to be open.
 waitUntil{isNull (findDisplay 38500)}; //Wait for the spawn selection to be done. 
