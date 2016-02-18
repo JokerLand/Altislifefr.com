@@ -1,0 +1,311 @@
+author = "Tonic & AltisLifeFr";
+onLoadName = "Altis Life RPG v5.0";
+onLoadMission = "Un mod roleplay développé par www.AltisLifeFr.com";
+joinUnassigned = 1;
+respawn = BASE;
+respawndelay = 5;
+disabledAI = true;
+disableChannels[]={0,1,2,3,4,5,6};
+enableDebugConsole = 1;
+respawnDialog = 0;
+LoadScreen  = "images\welcome.jpg";
+
+class Header
+{
+	gameType = RPG;
+	minPlayers = 1;
+	maxPlayers = 120;
+};
+
+wreckLimit = 3;
+wreckRemovalMinTime = 60;
+wreckRemovalMaxTime = 320;
+corpseLimit = 120;
+corpseRemovalMinTime = 999;
+corpseRemovalMaxTime = 9999;
+
+//SpyGlass configuration
+SPY_Enable = true;
+
+#include "Config_Spyglass.hpp"
+
+#include "dialog\MasterHandler.h"
+#include "Config_Master.hpp"
+
+class RscTitles
+{
+	#include "dialog\ui.hpp"
+	#include "dialog\progress.hpp"
+	#include "dialog\hud_nameTags.h"
+	#include "statusBar.hpp"
+};
+
+class CfgFunctions
+{
+	#include "Functions.h"
+};
+
+class CfgSounds
+{
+	sounds[] = {};
+	class SirenLong
+	{
+		name = "SirenLong";
+		sound[] = {"\sounds\Siren_Long.ogg", 1.0, 1};
+		titles[] = {};
+	};
+
+	class SirenMedic
+	{
+		name = "SirenMedic";
+		sound[] = {"\sounds\Siren_Medic.ogg", 1.0, 1};
+		titles[] = {};
+	};
+	
+	class tazersound
+	{
+		name = "Tazersound";
+		sound[] = {"\sounds\tazer.ogg", 0.25, 1};
+		titles[] = {};
+	};
+
+	class flashbang
+	{
+		name = "flashbang";
+		sound[] = {"\sounds\flashbang.ogg", 1.0, 1};
+		titles[] = {};
+	};
+
+	class BeepBeep
+    {
+        name = "BeepBeep";
+        sound[] = {"\sounds\BeepBeep.ogg", 0.9, 1};
+        titles[] = {};
+    };
+
+	class beepshoot
+    {
+        name = "beepshoot";
+        sound[] = {"\sounds\beepshoot.ogg", 1, 1};
+        titles[] = {};
+    };
+	
+    class Beep
+    {
+        name = "Beep";
+        sound[] = {"\sounds\Beep.ogg", 0.9, 1};
+        titles[] = {};
+    };
+
+	class Cuff
+    {
+        name = "cuff";
+        sound[] = {"\sounds\cuff.ogg", 0.95, 0.95};
+        titles[] = {};
+    };
+
+	class Caching
+    {
+	    name = "caching";
+	    sound[] = {"\sounds\caching.ogg", 1, 1};
+	    titles[] = {};
+    };
+
+	class Bag
+    {
+	    name = "bag";
+	    sound[] = {"\sounds\bag.ogg", 1, 1};
+	    titles[] = {};
+    };
+
+	class Intro
+    {
+	    name = "Intro";
+	    sound[] = {"\sounds\Intro.ogg", 1, 1};
+	    titles[] = {};
+    };
+
+	class alert
+    {
+        name = "alert";
+        sound[] = {"\sounds\alert.ogg", 1.0, 1};
+        titles[] = {};
+    };
+
+	class car_alarm
+	{
+		name="car_alarm";
+		sound[] = {"\sounds\car_alarm.ogg", 1, 1};
+		titles[] = {};
+
+	};
+
+	class boire
+	{
+		name="boire";
+		sound[] = {"\sounds\boire.ogg", 7, 7};
+		titles[] = {};
+
+	};
+	
+	class soif
+	{
+		name="soif";
+		sound[] = {"\sounds\soif.ogg", 5, 5};
+		titles[] = {};
+
+	};
+
+	class mange
+	{
+		name="mange";
+		sound[] = {"\sounds\mange.ogg", 5, 5};
+		titles[] = {};
+
+	};
+
+	class Mining
+    {
+	    name = "mining";
+        sound[] = {"\sounds\mining.ogg", 0.95, 0.95};
+        titles[] = {};
+    };
+};
+
+class CfgDebriefing
+{
+		
+		class ServeurTeamspeak
+	{
+		title = "Echec Mission (TFR)";
+		subTitle = "Pas connecté au Teamspeak d'ALFR";
+		description = "Vous devez être connecté au serveur Teamspeak d'AltisLifeFr.com pour pouvoir jouer sur le serveur (IP du Teamspeak : ts3.altislifefr.com). Une fois connecté réessayer. Si vous êtes sur le serveur Teamspeak d'AltisLifeFr mais qu'il vous éjecte quand même, vérifiez que votre plugin 'TaskForce Radio' est activé sur votre Teamspeak";
+		pictureBackground = "";
+		picture = "";
+		pictureColor[] = {0, 0.3, 0.6, 1};
+	};
+
+	class CannalTeamspeak
+	{
+		title = "Echec Mission (TFR)";
+		subTitle = "Pas dans le canal Task Force Radio";
+		description = "Vous devez être dans le canal 'EN JEU TASK FORCE RADIO' pour pouvoir jouer sur le serveur";
+		pictureBackground = "";
+		picture = "";
+		pictureColor[] = {0, 0.3, 0.6, 1};
+	};
+	
+	class NotWhitelisted
+	{
+		title = "Echec Mission";
+		subtitle = "Vous n'êtes pas whiteliste";
+		description = "Vous n'avez pas la permission d'utiliser ce slot car vous n'êtes pas whitelist.";
+		pictureBackground = "";
+		picture = "";
+		pictureColor[] = {0,0.3,0.6,1};
+	};
+
+	class Blacklisted
+	{
+		title = "BlackList";
+		subtitle = "Vous êtes Blackliste de la Police";
+		description = "Vous avez été blacklist de la police, cela veut dire que vous n'avez plus le droit de jouer policier sur le serveur AltisLifeFr.com. Pour plus d'informations merci de vous référer à un ModGlobal/Fondateur sur le Teamspeak";
+		pictureBackground = "";
+		picture = "";
+		pictureColor[] = {0,0.3,0.6,1};
+	};
+
+	class SpyGlass
+	{
+		title = "The SpyGlass sees you";
+		subTitle = "Vous avez été détecter par SpyGlass";
+		description = "Vous avez été détecter avec un fichier non autorisé.";
+		pictureBackground = "";
+		picture = "";
+		pictureColor[] = {0,0.3,0.6,1};
+	};
+};
+
+class CfgNotifications
+{
+	class MedicalRequestEmerg
+	{
+		title = "Alerte SAMU";
+		iconPicture = "\A3\ui_f\data\map\mapcontrol\taskIcon_ca.paa";
+		description = "%1";
+		duration = 5;
+		priority = 7;
+	};
+
+	class DeliveryAssigned
+	{
+		title = "Job de Livraison accepté";
+		iconPicture = "\A3\ui_f\data\map\mapcontrol\taskIcon_ca.paa";
+		description = "%1";
+		duration = 10;
+		priority = 7;
+	};
+
+	class DeliveryFailed
+	{
+		title = "Job de Livraison échoué";
+		iconPicture = "\A3\ui_f\data\map\mapcontrol\taskiconfailed_ca.paa";
+		description = "%1";
+		duration = 7;
+		priority = 7;
+	};
+
+	class DeliverySucceeded
+	{
+		title = "Job de Livraison terminé";
+		iconPicture = "\A3\ui_f\data\map\mapcontrol\taskIcondone_ca.paa";
+		description = "%1";
+		duration = 6;
+		priority = 6;
+	};
+
+	class TextMessage
+	{
+		title = "Nouveau Message";
+		iconPicture = "icons\messagenew.paa";
+		description = "%1";
+		duration = 10;
+		priority = 6;
+	};
+
+	class PoliceDispatch
+	{
+		title = "Alerte Police Secours";
+		iconPicture = "icons\messagepolice.paa";
+		description = "%1";
+		duration = 10;
+		priority = 6;
+	};
+
+	class AdminDispatch
+	{
+		title = "Requête Admin";
+		iconPicture = "icons\messageadmin.paa";
+		description = "%1";
+		duration = 10;
+		priority = 6;
+	};
+
+	class AdacMessage
+	{
+		title = "Requête Armée";
+		iconPicture = "icons\messagenew.paa";
+		description = "%1";
+		duration = 10;
+		priority = 5;
+	};
+
+	class AdminMessage
+	{
+		title = "Message des Admins";
+		iconPicture = "icons\messageadmin.paa";
+		description = "%1";
+		duration = 10;
+		priority = 5;
+	};
+};
