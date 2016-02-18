@@ -461,18 +461,6 @@ switch (_code) do
 		if((_code in (actionKeys "SelectAll") || _code in (actionKeys "ForceCommandingMode"))) then {true;};
 	};
 
-    //Radio VerMAj
-	case 58:
-    {
-        if (player GVAR ["restrained" , true]) exitWith {hint "Vous ne pouvez pas parler à la radio en étant menotté !"};
-    };
-
-	//Radio T
-	case 20:
-    {
-        if (player GVAR ["restrained" , true]) exitWith {hint "Vous ne pouvez pas parler à la radio en étant menotté !"};
-    };
-
 	//Shift+P = Faded Sound
     case 25:
     {

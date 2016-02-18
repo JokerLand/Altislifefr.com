@@ -3634,7 +3634,7 @@ class Mission
 						};
 						class Item4
 						{
-							value="0";
+							value="1";
 							parentCls="ACE_ModuleMap";
 							typeName="MapShowCursorCoordinates";
 						};
@@ -4040,7 +4040,7 @@ class Mission
 						items=13;
 						class Item0
 						{
-							value="2";
+							value="1";
 							parentCls="ACE_moduleMedicalSettings";
 							typeName="level";
 						};
@@ -4070,7 +4070,7 @@ class Mission
 						};
 						class Item5
 						{
-							value="0.35";
+							value="1";
 							parentCls="ACE_moduleMedicalSettings";
 							typeName="playerDamageThreshold";
 						};
@@ -4100,7 +4100,7 @@ class Mission
 						};
 						class Item10
 						{
-							value="0.35";
+							value="1";
 							parentCls="ACE_moduleMedicalSettings";
 							typeName="bleedingCoefficient";
 						};

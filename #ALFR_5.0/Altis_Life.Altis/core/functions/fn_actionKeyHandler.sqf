@@ -58,7 +58,7 @@ life_action_inUse = true;
 //Check if it's a dead body.
 if(_curTarget isKindOf "Man" && {!alive _curTarget} && {playerSide in [west,independent]}) exitWith {
 	//Hotfix code by ins0
-	if(((playerSide == blufor && {(EQUAL(LIFE_SETTINGS(getNumber,"revive_cops"),1))}) || playerSide == independent) && {"Medikit" in (items player)}) then {
+	if(((playerSide == blufor && {(EQUAL(LIFE_SETTINGS(getNumber,"revive_cops"),1))}) || playerSide == independent) && {"ACE_epinephrine" in (items player)}) then {
 		[_curTarget] call life_fnc_revivePlayer;
 	};
 };

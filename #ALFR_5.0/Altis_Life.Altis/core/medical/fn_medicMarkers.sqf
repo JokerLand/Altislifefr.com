@@ -1,9 +1,9 @@
 /*
-        File: fn_medicMarkers.sqf
-        Author: Bryan "Tonic" Boardwine
-        
-        Description:
-        Marks downed players on the map when it's open.
+	File: fn_medicMarkers.sqf
+	Author: Bryan "Tonic" Boardwine
+	
+	Description:
+	Marks downed players on the map when it's open.
 */
 private["_markers","_units"];
 _markers = [];
@@ -32,43 +32,44 @@ if(visibleMap) then {
         waitUntil {!visibleMap};
         {deleteMarkerLocal _x;} foreach _markers;
 };
-        
-private["_markers","_medics"];
+
+private["_markers","_med"];
 _markers = [];
-_medics = [];
+_med = [];
 
 sleep 0.5;
 if(visibleMap) then {
-        {if(side _x == independent) then {_medics pushBack _x;}} foreach playableUnits;
+	{if(side _x == independent && !(_x getVariable ["ACE_captives_isHandcuffed", false])) then {_med pushBack _x;}} foreach playableUnits; //Fetch list of med
 
-        //Create markers pour que les medic se voit entre eux sur la map > bug connu : cela marche une fois sur deux
-        {
-                _marker = createMarkerLocal [format["%1_marker",_x],visiblePosition _x];
-                _marker setMarkerColorLocal "ColorGreen";
-                _marker setMarkerTypeLocal "Mil_dot";
-                _marker setMarkerTextLocal format["%1", name _x];
-                _markers pushBack [_marker,_x];
-        } foreach _medics;
+	//Create markers
+	{
+		_marker = createMarkerLocal [format["%1_marker",_x],visiblePosition _x];
+		_marker setMarkerColorLocal "ColorGreen";
+		_marker setMarkerTypeLocal "Mil_dot";
+		_marker setMarkerTextLocal format["%1", _x getVariable["realname",name _x]];
+	
+		_markers pushBack [_marker,_x];
+	} foreach _med;
+		
+	while {visibleMap} do
+	{
+		{
+			private["_marker","_unit"];
+			_marker = _x select 0;
+			_unit = _x select 1;
+			if(!isNil "_unit") then
+			{
+				if(!isNull _unit) then
+				{
+					_marker setMarkerPosLocal (visiblePosition _unit);
+				};
+			};
+		} foreach _markers;
+		if(!visibleMap) exitWith {};
+		sleep 0.2;
+	};
 
-        while {visibleMap} do
-        {
-                {
-                        private["_marker","_unit"];
-                        _marker = _x select 0;
-                        _unit = _x select 1;
-                        if(!isNil "_unit") then
-                        {
-                                if(!isNull _unit) then
-                                {
-                                        _marker setMarkerPosLocal (visiblePosition _unit);
-                                };
-                        };
-                } foreach _markers;
-                if(!visibleMap) exitWith {};
-                sleep 0.02;
-        };
-    
-        {deleteMarkerLocal (_x select 0);} foreach _markers;
-        _markers = [];
-        _medics = [];
+	{deleteMarkerLocal (_x select 0);} foreach _markers;
+	_markers = [];
+	_med = [];
 };

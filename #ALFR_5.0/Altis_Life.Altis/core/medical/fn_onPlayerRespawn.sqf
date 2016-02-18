@@ -17,9 +17,19 @@ _containers = nearestObjects[getPosATL _corpse,["WeaponHolderSimulated"],5]; //F
 {deleteVehicle _x;} foreach _containers; //Delete the containers.
 
 //Set some vars on our new body.
-_unit SVAR ["restrained",FALSE,TRUE];
-_unit SVAR ["Escorting",FALSE,TRUE];
-_unit SVAR ["transporting",FALSE,TRUE]; //Again why the fuck am I setting this? Can anyone tell me?
+if (_unit getVariable ["ACE_captives_isHandcuffed", false]) then {
+	[_unit, false] call ACE_captives_setHandcuffed;
+};
+if (_unit getVariable ["ACE_captives_isSurrendering", false]) then {
+	[_unit, false] call ACE_captives_setSurrendered;
+};
+ if (_unit getVariable ["ACE_captives_isEscorting", false]) then {
+	_unit setVariable["ACE_captives_isEscorting",false,true];
+};
+if (_unit getVariable ["ACE_isUnconscious", false]) then {
+	_unit setVariable["ACE_isUnconscious",false,true];
+};
+
 _unit SVAR ["steam64id",steamid,true]; //Reset the UID.
 _unit SVAR ["realname",profileName,true]; //Reset the players name.
 
