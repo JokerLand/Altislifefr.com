@@ -35,6 +35,9 @@ life_vdCar = viewDistance;
 life_vdAir = viewDistance;
 tawvd_addon_disable = true;
 
+//AltisLifeFr
+life_faceWomen = ["Oakes","Tyler","Tyler_scars","Mason","Mason_camo","Mason_Rigged","Mason_scars","Smith","Cheung","Quereshi"];
+
 //Uniform price (0),Hat Price (1),Glasses Price (2),Vest Price (3),Backpack Price (4)
 life_clothing_purchase = [-1,-1,-1,-1,-1];
 /*
