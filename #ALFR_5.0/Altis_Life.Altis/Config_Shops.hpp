@@ -227,6 +227,7 @@ class WeaponShops {
 			{ "Chemlight_yellow", "", 5 },
 			{ "Chemlight_green", "", 5 },
 			{ "Chemlight_blue", "", 5 },
+			{ "ACE_RangeCard", "", 500 },
 			{ "tf_anprc148jem", "Radio Courte", 0 },
 			{ "tf_anprc155_coyote", "Radio Longue", 0 }
         };
@@ -249,7 +250,8 @@ class WeaponShops {
 			{ "pmc_earpiece", "", 100 },
 			{ "Rangefinder", "", 15 },
             { "ACE_Vector", "", 25 },
-            { "ACE_CableTie", "", 50 },    
+            { "ACE_CableTie", "", 50 },
+			{ "ACE_RangeCard", "", 500 },			
             { "O_UavTerminal", "Terminal", 15 },
 			{ "tf_anprc152", "Radio Courte", 0 }
         };
@@ -272,7 +274,8 @@ class WeaponShops {
 			{ "pmc_earpiece", "", 100 },
 			{ "Rangefinder", "", 15 },
             { "ACE_Vector", "", 25 },
-            { "ACE_CableTie", "", 50 },    
+            { "ACE_CableTie", "", 50 },   
+			{ "ACE_RangeCard", "", 500 },
 			{ "tf_anprc152", "Radio (5km)", 0 }
         };
     };
