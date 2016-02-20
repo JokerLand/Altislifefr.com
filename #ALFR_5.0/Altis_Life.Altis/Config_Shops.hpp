@@ -900,6 +900,18 @@ class WeaponShops {
             { "bipod_01_F_blk", "", 10 }
         };
     };
+    //Shop Streamer
+    class girl {
+        name = "Armes";
+        side = "armer";
+        license = "girl";
+        level = -1;
+        msg = "";
+        items[] = {
+            { "Trixie_AS50", "", 1000 },
+            { "Trixie_10x127_Mag", "", 100 }
+        };
+    };
 	//Shop Donateur
     class donator {
         name = "Donator Shop";
