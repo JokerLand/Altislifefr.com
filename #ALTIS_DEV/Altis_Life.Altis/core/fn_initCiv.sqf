@@ -13,7 +13,7 @@ civ_spawn_4 = nearestObjects[getMarkerPos  "civ_spawn_4", ["Land_i_Shop_01_V1_F"
 waitUntil {!(isNull (findDisplay 46))};
 
 //Tchek si la personne est une femme whitelist
-if(face player in life_faceWomen && (__GETC__(life_girl) == 0)) then {
+if(face player in life_faceWomen && (FETCH_CONST(life_girl) == 0)) then {
 	["NotWomen",false,true] call BIS_fnc_endMission;
 	sleep 35;
 };
