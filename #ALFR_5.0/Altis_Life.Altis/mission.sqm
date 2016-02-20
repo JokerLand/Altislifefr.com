@@ -4427,7 +4427,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=465;
+		items=466;
 		class Item0
 		{
 			position[]={8065.1616,35.674362,24985.314};
@@ -9598,6 +9598,17 @@ class Mission
 			skill=0.2;
 			text="atm1_1_3_1_6_4_7_16_1_1";
 			init="this enableSimulation false; this allowDamage false; this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu]; this addAction[""Banking Insurance ($1,000)"",{if(life_atmcash > 1000) then {life_has_insurance = true; life_atmcash = life_atmcash - 1000};},"""",0,false,false,"""",'!life_has_insurance'];";
+		};
+		class Item465
+		{
+			position[]={12788.476,86.90081,16686.922};
+			azimut=299.16101;
+			special="NONE";
+			id=711;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V2_F";
+			skill=0.2;
+			init="this allowDamage false; this enableSimulation false; this addAction[""Vêtements Pour Femme"",life_fnc_clothingMenu,""girl"",0,false,false,"""",' license_civ_girl && playerSide == civilian'];  this addAction[""Armes"",life_fnc_weaponShopMenu,""girl"",0,false,false,"""",' license_civ_girl && playerSide == civilian'];";
 		};
 	};
 	class Markers
