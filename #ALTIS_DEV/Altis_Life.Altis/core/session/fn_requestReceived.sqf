@@ -72,21 +72,21 @@ switch(playerSide) do {
 			[] spawn life_fnc_initGang;
 		};
 		[] spawn life_fnc_initHouses;
-        CONST(life_girl, parseNumber(_SEL(_this,15)));
+        CONST(life_girl, parseNumber(SEL(_this,15)));
 	};
 
 	case independent: {
 		CONST(life_medicLevel, parseNumber(SEL(_this,7)));
 		CONST(life_coplevel,0);
 		CONST(life_adaclevel,0);
-        CONST(life_girl, parseNumber(_SEL(_this,16)));
+        CONST(life_girl, parseNumber(SEL(_this,16)));
 	};
 
 	case east: {
 		CONST(life_adaclevel, parseNumber(SEL(_this,7)));
 		CONST(life_coplevel,0);
 		CONST(life_medicLevel,0);
-        CONST(life_girl, parseNumber(_SEL(_this,17)));
+        CONST(life_girl, parseNumber(SEL(_this,17)));
 	};
 };
 
