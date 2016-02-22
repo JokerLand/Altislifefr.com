@@ -3666,13 +3666,13 @@ class Mission
 						items=4;
 						class Item0
 						{
-							value="1";
+							value="0";
 							parentCls="ace_winddeflection_ModuleSettings";
 							typeName="enabled";
 						};
 						class Item1
 						{
-							value="1";
+							value="0";
 							parentCls="ace_winddeflection_ModuleSettings";
 							typeName="vehicleEnabled";
 						};
