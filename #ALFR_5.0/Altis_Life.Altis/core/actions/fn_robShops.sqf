@@ -23,7 +23,7 @@ if(_shop getVariable ["robbed", false]) exitWith {hint "Cette pompe a déja ete 
 _shop setVariable["robbed",true,true];
 [[_shop],"TON_fnc_robShop",false,false] spawn life_fnc_MP;
 
-_cash = 1500 + round(random 5000);
+_cash = 5000 + round(random 10000);
 _shop switchMove "AmovPercMstpSsurWnonDnon";
 hint "Le caissier a activer l'alarme, la police ne va pas tarder a arriver!";
 [[1,format["ALERTE! - La station: %1 est en train d'etre braquee!", _shop], false],"life_fnc_broadcast",west,false] spawn life_fnc_MP;
