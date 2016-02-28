@@ -191,7 +191,7 @@ class CarShops {
             { "gek_audi_a4_avant_police", 1000, "", { "life_coplevel", 3 } },    
 			{ "GeK_TLC100", 1000, "", { "life_coplevel", 3 } },
 			{ "ALFR_GeK_Panamera_Police_ST", 1000, "", { "life_coplevel", 3 } },
-            { "zorak_audi_a6_police", 1000, "", { "life_coplevel", 6 } }    
+            { "zorak_audi_a6_police", 1000, "", { "life_coplevel", 6 } },
 			{ "CL3_bus_cl_black", 1000, "", { "life_coplevel", 3 } },
 			{ "cg_h2_sert", 1000, "", { "life_coplevel", 4 } }
 		};
