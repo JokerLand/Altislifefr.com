@@ -49,9 +49,11 @@ class CarShops {
 			{ "GeK_CTSV", 34500, "driver" },
             { "Gek_audi_a4_avant", 34500, "driver" },
             { "GeK_C63_AMG", 35000, "driver" },
+            { "GeK_GTR", 35000, "driver" },    
             { "zorak_audi_a6", 36000, "driver" },    
             { "cl3_arielatom_race_black", 36000, "driver" },
 			{ "GeK_Civilian_H1", 40000, "driver" },
+            { "GeK_Camaro", 43000, "driver" },    
             { "GeK_Mercedes_ML63", 45000, "driver" },    
 			{ "ALFR_GeK_Pagani_Zonda", 44000, "driver" }
 		};
@@ -700,11 +702,70 @@ class CfgVehicles {
 		chopShop = 13500;
     };
     
+    class GeK_Camaro : Default {
+        vItemSpace = 30;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 1000, 1000, 1000, 1000 };
+		chopShop = 16125;
+    };
+    
     class GeK_Cadillac_Fleetwood_Brougham_85 : Default {
         vItemSpace = 35;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
 		chopShop = 7875;
+		textures[] = {
+
+            { "Noir", "civ", {
+                "#(ai,64,64,1)Fresnel(0.3,3)"
+            } },
+			{ "Gris sombre", "civ", {
+                "#(argb,8,8,3)color(0.1,0.1,0.1,0.7)"
+            } },
+			{ "Gris", "civ", {
+                "#(argb,8,8,3)color(0.5,0.5,0.5,0.1)"
+            } },
+			{ "Gris clair", "civ", {
+                "#(argb,8,8,3)color(0.3,0.3,0.3,0.8)"
+            } },
+			{ "Blanc", "civ", {
+                "#(argb,8,8,3)color(1,1,1,1)"
+            } },
+			{ "Sable", "civ", {
+                "#(argb,8,8,3)color(1.5,1.6,0.9,0.2)"
+            } },
+			{ "Bordeau", "civ", {
+                "#(argb,8,8,3)color(1,0,0,0.1)"
+            } },
+			{ "Bleu", "civ", {
+                "#(argb,8,8,3)color(0.01,0.6,1,0.1)"
+            } },
+			{ "Bleu Nuit", "civ", {
+                "#(argb,8,8,3)color(0,0,0.5,0.1)"
+            } },
+			{ "Mauve Nuit", "civ", {
+                "#(argb,8,8,3)color(0.6,0,1,0.01)"
+            } },
+			{ "vert", "civ", {
+                "#(argb,8,8,3)color(0.5,1,0.5,0.05)"
+            } },
+			{ "Rouge", "civ", {
+                "#(argb,8,8,3)color(1,0,0,1)"
+            } },
+			{ "Jaune", "civ", {
+                "#(argb,8,8,3)color(0.6,0.3,0.01,1)"
+            } },
+			{ "Orange", "civ", {
+                "#(argb,8,8,3)color(1,0.3,0.01,0.6)"
+            } }
+		};
+	};
+    
+    class GeK_GTR : Default {
+        vItemSpace = 35;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 1000, 1000, 1000, 1000 };
+		chopShop = 13125;
 		textures[] = {
 
             { "Noir", "civ", {
