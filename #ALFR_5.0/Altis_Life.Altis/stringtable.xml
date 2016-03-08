@@ -3428,8 +3428,8 @@
 			<French>Depanneur</French>
 		</Key>
         <Key ID="STR_License_Girl">
-			<Original>Passeport féminin</Original>
-			<French>Passeport féminin</French>
+			<Original>Licence Femme</Original>
+			<French>Licence Femme</French>
 		</Key>
         <Key ID="STR_License_Ion">
 			<Original>Licence Entreprise Ion</Original>

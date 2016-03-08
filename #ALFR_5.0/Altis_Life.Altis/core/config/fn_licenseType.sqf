@@ -43,12 +43,9 @@ switch (_mode) do
             //License AltisLifeFr
 			case "gangster": {_var = "license_civ_gangster"};
             case "chefrebelle": {_var = "license_civ_chefrebelle"};
-            case "depanneur": {_var = "license_civ_depannage"}; 
+            case "depanneur": {_var = "license_civ_depannage"};
+            case "girl": {_var = "license_civ_girl"};
             case "ion": {_var = "license_civ_ion"};
-			case "girlciv": {_var = "license_civ_girl"};
-			case "girlcop": {_var = "license_cop_girl"};
-			case "girlarmy": {_var = "license_armer_girl"};
-			case "girlmed": {_var = "license_med_girl"};			
 			default {_var = ""};
 		};
 	};
@@ -85,11 +82,8 @@ switch (_mode) do
 			case "license_civ_gangster": {_var = "gangster"};
             case "license_civ_chefrebelle": {_var = "chefrebelle"};
             case "license_civ_depannage": {_var = "depanneur"};
+            case "license_civ_girl": {_var = "girl"};
             case "license_civ_ion": {_var = "ion"};
-            case "license_civ_girl": {_var = "girlciv"};
-            case "license_cop_girl": {_var = "girlcop"};
-            case "license_armer_girl": {_var = "girlarmy"};
-            case "license_med_girl": {_var = "girlmed"};				
 			default {_var = ""};
 		};
 	};
