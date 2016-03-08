@@ -248,7 +248,10 @@ class Licenses {
 	LICENSEMACRO(depanneur,"STR_License_Depanneur","depanneur",-1,false,"civ")
     
     /** Femme **/
-    LICENSEMACRO(girl,"STR_License_Girl","girl",-1,false,"civ")    
+    LICENSEMACRO(girlciv,"STR_License_Girl","girlciv",-1,false,"civ")
+    LICENSEMACRO(girlcop,"STR_License_Girl","girlcop",-1,false,"cop")
+    LICENSEMACRO(girlarmy,"STR_License_Girl","girlarmy",-1,false,"armer")
+    LICENSEMACRO(girlmed,"STR_License_Girl","girlmed",-1,false,"med")	
         
     /** Entreprise **/
     LICENSEMACRO(ion,"STR_License_Ion","ion",-1,false,"civ")    
