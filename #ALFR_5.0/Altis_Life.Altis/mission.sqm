@@ -4261,7 +4261,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=466;
+		items=467;
 		class Item0
 		{
 			position[]={8065.1616,35.674362,24985.314};
@@ -9443,6 +9443,17 @@ class Mission
 			vehicle="Land_InfoStand_V2_F";
 			skill=0.2;
 			init="this allowDamage false; this enableSimulation false; this addAction[""Vêtements Pour Femme"",life_fnc_clothingMenu,""girl"",0,false,false,"""",' license_civ_girl && playerSide == civilian'];  this addAction[""Armes"",life_fnc_weaponShopMenu,""girl"",0,false,false,"""",' license_civ_girl && playerSide == civilian'];";
+		};
+		class Item466
+		{
+			position[]={20789.553,27.967291,7267.9653};
+			azimut=323.14801;
+			special="NONE";
+			id=710;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V2_F";
+			skill=0.2;
+			init="this allowDamage false; this enableSimulation false; this addAction[""Vêtements Pour Femme"",life_fnc_clothingMenu,""girl"",0,false,false,"""",'playerSide == civilian']; ";
 		};
 	};
 	class Markers

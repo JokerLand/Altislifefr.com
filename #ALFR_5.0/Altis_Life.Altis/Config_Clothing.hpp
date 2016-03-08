@@ -754,23 +754,23 @@ class Clothing {
     
     //Shop Femme
     class girl {
-		title = "Vestiaire Femme";
-		license = "girl";
+		title = "Vestiaire Féminin";
+		license = "rebel";
 		side = "civ";
 
 		uniforms[] = {
 			{ "NONE", "Supprime uniforme", 0, { "", "", -1 } },
-            { "B_FEM_NATO", "Tenue Femme 1", 100, {"", "", -1} },
-            { "B_FEM_NATO_long", "Tenue Femme 2", 100, {"", "", -1} },
-            { "B_FEM_NATO_Collar", "Tenue Femme 3", 100, {"", "", -1} },
-            { "B_FEM_NATO_Rolled", "Tenue Femme 4", 100, {"", "", -1} },
-            { "O_FEM_CSAT", "Tenue Femme 5", 100, {"", "", -1} },
-            { "O_FEM_CSAT_Long", "Tenue Femme 6", 100, {"", "", -1} },
-            { "O_FEM_CSAT_Rolled", "Tenue Femme 7", 100, {"", "", -1} },
-            { "I_FEM_AAF", "Tenue Femme 8", 100, {"", "", -1} },
-            { "I_FEM_AAF_long", "Tenue Femme 9", 100, {"", "", -1} },
-            { "B_FEM_AAF_Rolled", "Tenue Femme 10", 100, {"", "", -1} },
-            { "B_FEM_FIA", "Tenue Femme 11", 100, {"", "", -1} }    
+            { "O_FEM_CSAT", "Tenue Femme CSAT(T-Shirt)", 100, {"", "", -1} },
+            { "O_FEM_CSAT_Long", "Tenue Femme CSAT(Manche longue)", 100, {"", "", -1} },
+            { "O_FEM_CSAT_Rolled", "Tenue Femme CSAT(Manche courte)", 100, {"", "", -1} },
+            { "I_FEM_AAF", "Tenue Femme AAF(T-Shirt)", 100, {"", "", -1} },
+            { "I_FEM_AAF_long", "Tenue Femme AAF(Manche longue)", 100, {"", "", -1} },
+            { "B_FEM_AAF_Rolled", "Tenue Femme AAF(Manche courte)", 100, {"", "", -1} },
+            { "B_FEM_FIA", "Tenue Femme CIVIL (T-Shirt)", 100, {"", "", -1} },
+            { "B_FEM_NATO", "Tenue Femme NATO (complète)", 100, {"", "", -1} },
+            { "B_FEM_NATO_long", "Tenue Femme NATO (T-Shirt)", 100, {"", "", -1} },
+            { "B_FEM_NATO_Collar", "Tenue Femme NATO (Manche longue)", 100, {"", "", -1} },
+            { "B_FEM_NATO_Rolled", "Tenue Femme NATO (Manche courte)", 100, {"", "", -1} }			
 		};
 
 		headgear[] = {
