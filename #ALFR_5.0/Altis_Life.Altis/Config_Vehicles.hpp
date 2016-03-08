@@ -161,8 +161,6 @@ class CarShops {
 			{ "B_G_Offroad_01_armed_F", 106000, "rebel" },
 			{ "O_MRAP_02_F", 86000, "rebel" },
             { "GeK_G65", 43000, "rebel" },
-			{ "cl3_dodge_charger_s_camo", 44000, "rebel" },
-			{ "cl3_e63_amg_camo", 44000, "rebel" },
 			{ "GeK_Mercedes_ML63_Rebelle", 62000, "rebel" },
 			{ "O_Truck_03_device_F", 114000, "rebel" },
 			{ "O_Truck_03_transport_F", 100000, "rebel" },
