@@ -153,15 +153,25 @@ class CarShops {
 	class reb_car {
 		side = "civ";
 		vehicles[] = {
-            { "UAZ_Unarmed", 24000, "rebel" },
+			{ "zorak_bmw_120i", 7000, "rebel" },
+			{ "Mrshounka_ducati_p", 17000, "rebel" },
+            { "GeK_TLC100", 17500, "rebel" },			
+            { "GeK_CTSV", 21600, "rebel" },	
+            { "wirk_cayenne", 21700, "rebel" },			
+			{ "UAZ_Unarmed", 24000, "rebel" },
             { "B_G_Offroad_01_F", 24000, "rebel" },
-            { "cl3_e60_m5_black", 24000, "rebel" },
-            { "ALFR_GeK_Panamera", 34500, "rebel" },
+            { "cl3_e60_m5_black", 24000, "rebel" },		
+            { "GeK_Supra", 25000, "rebel" }, 			
+			{ "GeK_A45", 31000, "rebel" }, 			
+            { "ALFR_GeK_Panamera", 34500, "rebel" },		
             { "GeK_C63_AMG", 35000, "rebel" },
+            { "GeK_GTR", 35000, "rebel" },		
+            { "zorak_audi_a6", 36000, "rebel" },   			
+			{ "GeK_Avalanche", 36600, "rebel" },		
 			{ "B_G_Offroad_01_armed_F", 106000, "rebel" },
 			{ "O_MRAP_02_F", 86000, "rebel" },
             { "GeK_G65", 43000, "rebel" },
-			{ "GeK_Mercedes_ML63_Rebelle", 62000, "rebel" },
+			{ "GeK_Mercedes_ML63_Rebelle", 62000, "rebel" },			
 			{ "O_Truck_03_device_F", 114000, "rebel" },
 			{ "O_Truck_03_transport_F", 100000, "rebel" },
 			{ "O_Truck_03_covered_F", 124000, "rebel" },
@@ -234,8 +244,8 @@ class CarShops {
 	class cop_air {
 		side = "cop";
 		vehicles[] = {
-			{ "B_Heli_Light_01_F", 15000, "cAir", { "life_coplevel", 2 } },
-			{ "C_Heli_Light_01_civil_F", 15000, "cAir", { "life_coplevel", 2 } },
+			{ "B_Heli_Light_01_F", 5000, "cAir", { "life_coplevel", 2 } },
+			{ "C_Heli_Light_01_civil_F", 5000, "cAir", { "life_coplevel", 2 } },
 			{ "B_Heli_Transport_03_unarmed_F", 100000, "cAir", { "life_coplevel", 4 } },
 			{ "EC635_Unarmed", 80000, "cAir", { "life_coplevel", 4 } },
 			{ "B_Heli_Transport_01_F", 175000, "cAir", { "life_coplevel", 6 } },
@@ -547,6 +557,9 @@ class CfgVehicles {
             { "Noir", "civ", {
                 "#(ai,64,64,1)Fresnel(0.3,3)"
             } },
+            { "Noir", "reb", {
+                "#(ai,64,64,1)Fresnel(0.3,3)"
+            } },			
 			{ "Gris sombre", "civ", {
                 "#(argb,8,8,3)color(0.1,0.1,0.1,0.7)"
             } },
@@ -599,6 +612,9 @@ class CfgVehicles {
             { "Noir", "civ", {
                 "#(ai,64,64,1)Fresnel(0.3,3)"
             } },
+            { "Noir", "reb", {
+                "#(ai,64,64,1)Fresnel(0.3,3)"
+            } },			
 			{ "Gris sombre", "civ", {
                 "#(argb,8,8,3)color(0.1,0.1,0.1,0.7)"
             } },
@@ -651,6 +667,9 @@ class CfgVehicles {
             { "Noir", "civ", {
                 "#(ai,64,64,1)Fresnel(0.3,3)"
             } },
+            { "Noir", "reb", {
+                "#(ai,64,64,1)Fresnel(0.3,3)"
+            } },			
 			{ "Gris sombre", "civ", {
                 "#(argb,8,8,3)color(0.1,0.1,0.1,0.7)"
             } },
@@ -769,6 +788,9 @@ class CfgVehicles {
             { "Noir", "civ", {
                 "#(ai,64,64,1)Fresnel(0.3,3)"
             } },
+            { "Noir", "reb", {
+                "#(ai,64,64,1)Fresnel(0.3,3)"
+            } },			
 			{ "Gris sombre", "civ", {
                 "#(argb,8,8,3)color(0.1,0.1,0.1,0.7)"
             } },
@@ -1590,6 +1612,9 @@ class CfgVehicles {
 			{ "Noir", "civ", {
                 "#(ai,64,64,1)Fresnel(0.3,3)"
             } },
+			{ "Noir", "reb", {
+                "#(ai,64,64,1)Fresnel(0.3,3)"
+            } },			
 			{ "Gris sombre", "civ", {
                 "#(argb,8,8,3)color(0.1,0.1,0.1,0.7)"
             } },
@@ -1753,7 +1778,7 @@ class CfgVehicles {
                 "GeK_Avalanche\data\AVL_Gris.paa"
             } },
 			{ "Gris clair", "civ", {
-                "GeK_Avalanche\data\AVL_Gris_Clair.paa)"
+                "GeK_Avalanche\data\AVL_Gris_Clair.paa"
             } },
 			{ "Jaune", "civ", {
                 "GeK_Avalanche\data\AVL_Jaune.paa"
@@ -1761,6 +1786,9 @@ class CfgVehicles {
 			{ "Noir", "civ", {
                 "GeK_Avalanche\data\AVL_Noir.paa"
             } },
+			{ "Noir", "reb", {
+                "GeK_Avalanche\data\AVL_Noir.paa"
+            } },			
 			{ "Orange", "civ", {
                 "GeK_Avalanche\data\AVL_Orange.paa"
             } },
@@ -1832,6 +1860,9 @@ class CfgVehicles {
 			{ "Noir", "civ", {
                 "#(ai,64,64,1)Fresnel(0.3,3)"
             } },
+			{ "Noir", "reb", {
+                "#(ai,64,64,1)Fresnel(0.3,3)"
+            } },			
 			{ "Gris sombre", "civ", {
                 "#(argb,8,8,3)color(0.1,0.1,0.1,0.7)"
             } },
@@ -2043,6 +2074,9 @@ class CfgVehicles {
 			{ "Noir", "civ", {
                 "#(ai,64,64,1)Fresnel(0.3,3)"
             } },
+			{ "Noir", "reb", {
+                "#(ai,64,64,1)Fresnel(0.3,3)"
+            } },			
 			{ "Gris sombre", "civ", {
                 "#(argb,8,8,3)color(0.1,0.1,0.1,0.7)"
             } },
@@ -2687,6 +2721,9 @@ class CfgVehicles {
 			{ "Noir", "civ", {
                 "#(ai,64,64,1)Fresnel(0.3,3)"
             } },
+			{ "Noir", "reb", {
+                "#(ai,64,64,1)Fresnel(0.3,3)"
+            } },			
 			{ "Gris sombre", "civ", {
                 "#(argb,8,8,3)color(0.1,0.1,0.1,0.7)"
             } },
@@ -2760,6 +2797,9 @@ class CfgVehicles {
 			{ "Noir", "civ", {
                 "#(ai,64,64,1)Fresnel(0.3,3)"
             } },
+			{ "Noir", "reb", {
+                "#(ai,64,64,1)Fresnel(0.3,3)"
+            } },			
 			{ "Gris sombre", "civ", {
                 "#(argb,8,8,3)color(0.1,0.1,0.1,0.7)"
             } },
@@ -2813,6 +2853,9 @@ class CfgVehicles {
 			{ "Noir", "civ", {
                 "#(ai,64,64,1)Fresnel(0.3,3)"
             } },
+			{ "Noir", "reb", {
+                "#(ai,64,64,1)Fresnel(0.3,3)"
+            } },			
 			{ "Gris sombre", "civ", {
                 "#(argb,8,8,3)color(0.1,0.1,0.1,0.7)"
             } },
