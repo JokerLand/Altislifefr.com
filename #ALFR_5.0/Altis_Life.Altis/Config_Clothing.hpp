@@ -278,7 +278,6 @@ class Clothing {
 		backpacks[] = {
 			{ "NONE", "Supprime sac", 0, { "", "", -1 } },
 			{ "ALFR_Police_Backpack", "", 50, { "", "", -1 } },
-            { "ACE_TacticalLadder_Pack", "", 50, { "", "", -1 } },    
 			{ "tf_rt1523g_big_bwmod", "P Radio 20km", 50, { "", "", -1 } },
 			{ "B_UAV_01_backpack_F", "", 5000, { "life_coplevel", "SCALAR", 4 } }
 		};

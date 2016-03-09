@@ -52,8 +52,7 @@ class WeaponShops {
         level = -1;
         msg = "Vous n'avez pas la license gangster";
         items[] = {
-            { "Rangefinder", "", 800 },
-            { "ACE_Vector", "", 1000 },    
+            { "Rangefinder", "", 800 },   
             { "SMG_01_F", "", 35000 },
             { "30Rnd_45ACP_Mag_SMG_01", "", 300 },
             { "arifle_Mk20_plain_F", "", 42000 },
@@ -107,9 +106,7 @@ class WeaponShops {
         level = -1;
         msg = "Vous n'avez pas la licence rebelle";
         items[] = {
-            { "ACE_CableTie", "", 500 },
-            { "Rangefinder", "", 1000 },
-            { "ACE_Vector", "", 1500 },    
+            { "Rangefinder", "", 1000 }, 
             { "srifle_DMR_01_F", "", 63000 },
             { "10Rnd_762x54_Mag", "", 500 },
             { "hlc_rifle_ak74", "", 47000 },
@@ -224,9 +221,7 @@ class WeaponShops {
 			{ "ItemGPS", "", 10 },
 			{ "ToolKit", "", 50 },
 			{ "NVGoggles", "", 100 },
-			{ "ACE_fieldDressing", "", 10 },
-			{ "ACE_morphine", "", 100 },
-			{ "ACE_Earplugs", "", 80 },
+			{ "FirstAidKit", "", 15 },
 			{ "Chemlight_red", "", 5 },
 			{ "Chemlight_yellow", "", 5 },
 			{ "Chemlight_green", "", 5 },
@@ -245,14 +240,10 @@ class WeaponShops {
         items[] = {
         	{ "Binocular", "", 15 },
 			{ "ItemGPS", "", 10 },
-			{ "ACE_Earplugs", "", 80 },
 			{ "ToolKit", "", 50 },
-			{ "ACE_fieldDressing", "", 10 },
-			{ "ACE_morphine", "", 10 },
 			{ "pmc_earpiece", "", 100 },
-			{ "Rangefinder", "", 15 },
-            { "ACE_Vector", "", 25 },
-            { "ACE_CableTie", "", 50 },			
+			{ "Rangefinder", "", 15 },	
+			{ "FirstAidKit", "", 15 },
             { "O_UavTerminal", "Terminal", 15 },
 			{ "tf_anprc152", "Radio Courte", 0 }
         };
@@ -267,14 +258,10 @@ class WeaponShops {
         items[] = {
         	{ "Binocular", "", 15 },
 			{ "ItemGPS", "", 10 },
-			{ "ACE_fieldDressing", "", 10 },
-			{ "ACE_morphine", "", 10 },
 			{ "ToolKit", "", 50 },
-			{ "ACE_Earplugs", "", 80 },
+			{ "FirstAidKit", "", 15 },
 			{ "pmc_earpiece", "", 100 },
-			{ "Rangefinder", "", 15 },
-            { "ACE_Vector", "", 25 },
-            { "ACE_CableTie", "", 50 },   
+			{ "Rangefinder", "", 15 },  
 			{ "tf_anprc152", "Radio (5km)", 0 }
         };
     };
@@ -509,8 +496,7 @@ class WeaponShops {
             //Mjr
             { "B_UavTerminal", "", 250 },
             { "optic_SOS", "", 170 },
-            { "HandGrenade_Stone", "Flashbang", 150 },
-			{ "ACE_M84", "", 150 },			
+            { "HandGrenade_Stone", "Flashbang", 150 },	
             { "srifle_EBR_F", "", 580 } ,
             { "20Rnd_762x51_Mag", "", 19 },
             { "Trixie_AWM338", "", 590 },
@@ -588,8 +574,7 @@ class WeaponShops {
             //Mjr
             { "B_UavTerminal", "", 250 },
             { "optic_SOS", "", 170 },
-            { "HandGrenade_Stone", "Flashbang", 150 },
-			{ "ACE_M84", "", 150 },			
+            { "HandGrenade_Stone", "Flashbang", 150 },			
             { "srifle_EBR_F", "", 580 } ,
             { "20Rnd_762x51_Mag", "", 19 },
             { "Trixie_AWM338", "", 590 },
@@ -675,7 +660,6 @@ class WeaponShops {
             { "B_UavTerminal", "", 250 },
             { "optic_SOS", "", 170 },
             { "HandGrenade_Stone", "Flashbang", 150 },
-			{ "ACE_M84", "", 150 },
             { "srifle_EBR_F", "", 580 } ,
             { "20Rnd_762x51_Mag", "", 19 },
             { "Trixie_AWM338", "", 590 },
@@ -764,7 +748,6 @@ class WeaponShops {
             { "B_UavTerminal", "", 250 },
             { "optic_SOS", "", 170 },
             { "HandGrenade_Stone", "Flashbang", 150 },
-			{ "ACE_M84", "", 150 },
             { "srifle_EBR_F", "", 580 } ,
             { "20Rnd_762x51_Mag", "", 19 },
             { "Trixie_AWM338", "", 590 },
@@ -790,7 +773,6 @@ class WeaponShops {
         items[] = {
 
             { "Rangefinder", "", 10 },
-			{ "ACE_Earplugs", "", 80 },
             { "R3F_Famas_G2_HG", "", 10 },
             { "R3F_Famas_F1_HG_DES", "", 10 },
             { "R3F_25Rnd_556x45_TRACER_FAMAS", "", 10 },
@@ -842,7 +824,6 @@ class WeaponShops {
         items[] = {
 
             { "Rangefinder", "", 10 },
-			{ "ACE_Earplugs", "", 80 },
             { "B_UavTerminal", "", 10 },
             { "arifle_sdar_F", "", 10 },
             { "20Rnd_556x45_UW_mag", "", 10 },
@@ -1001,17 +982,9 @@ class WeaponShops {
 			{ "ItemMap", "", 10 },
 			{ "ItemGPS", "", 10 },
 			{ "ToolKit", "", 50 },
-			{ "ACE_fieldDressing", "", 10 },
-			{ "ACE_packingBandage", "", 10 },			
-			{ "ACE_bloodIV", "", 10 },
-			{ "ACE_bloodIV_500", "", 10 },
-			{ "ACE_bloodIV_250", "", 10 },
-			{ "ACE_epinephrine", "", 10 },
-			{ "ACE_morphine", "", 10 },
-			{ "ACE_bodyBag", "", 10 },
+			{ "Medikit", "", 50 },
             { "pmc_earpiece", "", 100 },
             { "H_PilotHelmetHeli_B", "", 80 },
-			{ "ACE_Earplugs", "", 80 },
 			{ "ALFR_Police_Backpack", "", 100 },
             { "tf_anprc152", "Radio (5km)", 0 },
             { "tf_anprc155_coyote", "Radio (20km)(sac)", 50 }

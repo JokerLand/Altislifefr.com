@@ -56,7 +56,7 @@ if(!(EQUAL(count (actionKeys "User10"),0)) && {(inputAction "User10" > 0)}) exit
 switch (_code) do
 {
 	//Space key for Jumping
-	/*case 57: {
+	case 57: {
 		if(isNil "jumpActionTime") then {jumpActionTime = 0;};
 		if(_shift && {!(EQUAL(animationState player,"AovrPercMrunSrasWrflDf"))} && {isTouchingGround player} && {EQUAL(stance player,"STAND")} && {speed player > 2} && {!life_is_arrested} && {SEL((velocity player),2) < 2.5} && {time - jumpActionTime > 1.5}) then {
 			jumpActionTime = time; //Update the time.
@@ -64,7 +64,7 @@ switch (_code) do
 			[player,false] remoteExec ["life_fnc_jumpFnc",RANY]; //Global execution
 			_handled = true;
 		};
-	};*/
+	};
 
 	//Map Key
 	case _mapKey:
@@ -77,7 +77,7 @@ switch (_code) do
 		};
 	};
 	//H Key mettre les mains sur la tete + Hostler
-    /*case 35:
+    case 35:
     {
         if(!_alt && !_ctrlKey && !_shift) then
         {
@@ -104,7 +104,7 @@ switch (_code) do
                 player selectWeapon life_curWep_h;
             };
         };
-    };*/
+    };
 
 	//Touche pour supprimer cones, barrières et herses lorsqu'un policier vise cet objet ( O )
 	case 24:
@@ -146,7 +146,7 @@ switch (_code) do
 	};
 
 	//Restraining (Shift + R)
-	/*case 19:
+	case 19:
 	{
 		if(_shift) then {_handled = true;};
 		if(_shift && playerSide == west || playerSide == east && !isNull cursorTarget && cursorTarget isKindOf "Man" && (isPlayer cursorTarget) && (side cursorTarget in [civilian,independent]) && alive cursorTarget && cursorTarget distance player < 3.5 && !(cursorTarget getVariable "Escorting") && !(cursorTarget getVariable "restrained") && speed cursorTarget < 1) then
@@ -166,7 +166,7 @@ switch (_code) do
 				closeDialog 0;
 			};
 		};
-	};*/
+	};
 
     //Anti MetaGaming (Touche "²")
 	 case 41:

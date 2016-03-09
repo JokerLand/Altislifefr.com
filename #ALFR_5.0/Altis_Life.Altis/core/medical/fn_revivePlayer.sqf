@@ -31,29 +31,13 @@ _titleText ctrlSetText format["%2 (1%1)...","%",_title];
 _progressBar progressSetPosition 0.01;
 _cP = 0.01;
 
-// play appropriate anim
-private "_fnc_playAnim";
-_fnc_playAnim = {
-	if (getNumber (configFile >> "CfgMovesMaleSdr" >> "States" >> animationState _this >> "ACE_isLadder") == 1) then {
-		_this action ["LadderOff", nearestObject [position _this, "House"]];
-	};
-	waitUntil {isTouchingGround _this OR underwater _this};
-	waitUntil {!([_this] call ACE_Common_fnc_inTransitionAnim) or !(alive _this)};
-	if !(alive _this) exitWith {};
-	[_this, "AinvPknlMstpSnonWnonDnon_medic_1", 1, True] call ACE_Common_fnc_doAnimation;
-	sleep 0.15;
-	if(player != vehicle player) exitWith {};
-	if (animationState _this != "AinvPknlMstpSnonWnonDnon_medic_1") then {
-		[_this, "AinvPknlMstpSnonWnonDnon_medic_1", 2, True] call ACE_Common_fnc_doAnimation;
-	};
-};
-
 //Lets reuse the same thing!
-while {true} do
-{
+while {true} do {
 	if(animationState player != "AinvPknlMstpSnonWnonDnon_medic_1") then {
-		player spawn _fnc_playAnim;
+		[[player,"AinvPknlMstpSnonWnonDnon_medic_1"],"life_fnc_animSync",true,false] call life_fnc_MP;
+		player playMoveNow "AinvPknlMstpSnonWnonDnon_medic_1";
 	};
+	
 	sleep .15;
 	_cP = _cP + .01;
 	_progressBar progressSetPosition _cP;
@@ -61,7 +45,7 @@ while {true} do
 	if(_cP >= 1 OR !alive player) exitWith {};
 	if(life_istazed) exitWith {}; //Tazed
 	if(life_interrupted) exitWith {};
-	if((player GVAR ["ACE_captives_isHandcuffed",false])) exitWith {};
+	if((player GVAR ["restrained",false])) exitWith {};
 	if(player distance _target > 4) exitWith {_badDistance = true;};
 	if(_target GVAR ["Revive",FALSE]) exitWith {};
 	if(_target GVAR ["Reviving",ObjNull] != player) exitWith {};
@@ -74,7 +58,7 @@ if(_target GVAR ["Reviving",ObjNull] != player) exitWith {hint localize "STR_Med
 _target SVAR ["Reviving",NIL,TRUE];
 if(!alive player OR life_istazed) exitWith {life_action_inUse = false;};
 if(_target GVAR ["Revive",FALSE]) exitWith {hint localize "STR_Medic_RevivedRespawned"};
-if((player GVAR ["ACE_captives_isHandcuffed",false])) exitWith {life_action_inUse = false;};
+if((player GVAR ["restrained",false])) exitWith {life_action_inUse = false;};
 if(!isNil "_badDistance") exitWith {titleText[localize "STR_Medic_TooFar","PLAIN"]; life_action_inUse = false;};
 if(life_interrupted) exitWith {life_interrupted = false; titleText[localize "STR_NOTF_ActionCancel","PLAIN"]; life_action_inUse = false;};
 

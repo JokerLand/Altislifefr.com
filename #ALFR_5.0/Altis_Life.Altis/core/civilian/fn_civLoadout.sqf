@@ -19,7 +19,5 @@ player addItem "ItemCompass";
 player assignItem "ItemCompass";
 player addItem "ItemWatch";
 player assignItem "ItemWatch";
-player addItem "ACE_fieldDressing";
-player addItem "ACE_fieldDressing";
 
 [] call life_fnc_saveGear;
