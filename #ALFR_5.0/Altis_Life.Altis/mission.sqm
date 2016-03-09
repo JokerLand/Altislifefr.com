@@ -7952,7 +7952,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_InfoStand_V2_F";
 			skill=0.2;
-			init="this allowDamage false; this enableSimulation false; this addAction[""Superette"",life_fnc_virt_menu,""medic""];";
+			init="this enableSimulation false;   this allowDamage false;  this addAction[""Superette "",life_fnc_virt_menu,""market""]; this setObjectTexture [0,""textures\medic_uniform.jpg""];   ";
 		};
 		class Item335
 		{
@@ -7986,7 +7986,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_InfoStand_V2_F";
 			skill=0.2;
-			init="this enableSimulation false;    removeHeadgear this;       removeAllWeapons this;    removeVest this;     this allowDamage false; this addAction[""Vehicule Shop"",life_fnc_vehicleShopMenu,[""med_shop"",independent,""med_car_3"",""med"",""Kavala Hosptial""]];    this addAction[""Garage Vehicule"",  {   [[getPlayerUID player,playerSide,""Car"",player],""TON_fnc_getVehicles"",false,false] spawn life_fnc_MP;   createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""med_car_3""; life_garage_type = ""Car"";  },"""",0,false,false,"""",'playerSide == independent '];    this addAction[""Store vehicle in Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];   this setObjectTexture [0,""textures\medic_uniform.jpg""];";
+			init="this enableSimulation false;    removeHeadgear this;       removeAllWeapons this;    removeVest this;     this allowDamage false; this addAction[""Vehicule Shop"",life_fnc_vehicleShopMenu,[""med_shop"",independent,""med_car_4"",""med"",""Kavala Hosptial""]];    this addAction[""Garage Vehicule"",  {   [[getPlayerUID player,playerSide,""Car"",player],""TON_fnc_getVehicles"",false,false] spawn life_fnc_MP;   createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""med_car_4""; life_garage_type = ""Car"";  },"""",0,false,false,"""",'playerSide == independent '];    this addAction[""Store vehicle in Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];   this setObjectTexture [0,""textures\medic_uniform.jpg""];";
 		};
 		class Item338
 		{
@@ -7997,7 +7997,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_InfoStand_V2_F";
 			skill=0.2;
-			init="this enableSimulation false;     removeHeadgear this;       removeAllWeapons this;    removeVest this;    this allowDamage false; this addAction[""Helicopter Shop"",life_fnc_vehicleShopMenu,[""med_air_hs"",independent,""med_air_1"",""med"",""Kavala Hosptial""]];    this addAction[""Helicopter Garage"",  {   [[getPlayerUID player,playerSide,""Air"",player],""TON_fnc_getVehicles"",false,false] spawn life_fnc_MP;   createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""med_air_1""; life_garage_type = ""Air"";  },"""",0,false,false,"""",'playerSide == independent '];    this addAction[""Store vehicle in Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store']; this setObjectTexture [0,""textures\medic_uniform.jpg""];";
+			init="this enableSimulation false;     removeHeadgear this;       removeAllWeapons this;    removeVest this;    this allowDamage false; this addAction[""Helicopter Shop"",life_fnc_vehicleShopMenu,[""med_air_hs"",independent,""med_air_4"",""med"",""Hopital de Pyrgos""]];    this addAction[""Helicopter Garage"",  {   [[getPlayerUID player,playerSide,""Air"",player],""TON_fnc_getVehicles"",false,false] spawn life_fnc_MP;   createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""med_air_4""; life_garage_type = ""Air"";  },"""",0,false,false,"""",'playerSide == independent '];    this addAction[""Store vehicle in Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store']; this setObjectTexture [0,""textures\medic_uniform.jpg""];";
 		};
 		class Item339
 		{
@@ -10577,7 +10577,7 @@ class Mission
 		};
 		class Item139
 		{
-			position[]={3727.833,18.698465,12996.143};
+			position[]={3727.6787,18.699083,12996.143};
 			name="med_air_1";
 			type="Empty";
 			angle=-93.959862;
@@ -11559,9 +11559,9 @@ class Mission
 		class Item267
 		{
 			position[]={16585.908,11,12814.43};
-			name="medic_spawn_3_1";
+			name="medic_spawn_3";
 			type="Empty";
-			angle=-1044.9982;
+			angle=-1045;
 		};
 		class Item268
 		{
@@ -11575,14 +11575,14 @@ class Mission
 		class Item269
 		{
 			position[]={16590.893,11,12795.154};
-			name="med_car_3_1";
+			name="med_car_4";
 			type="Empty";
 			angle=-237.18401;
 		};
 		class Item270
 		{
 			position[]={16578.209,11,12795.381};
-			name="med_air_3";
+			name="med_air_4";
 			type="Empty";
 			angle=211.425;
 		};
@@ -12240,7 +12240,7 @@ class Mission
 			position[]={12832.435,86.754959,16708.955};
 			name="Base de l'armée";
 			text="Base de l'armée";
-			type="mil_box";
+			type="mil_flag";
 			colorName="ColorBrown";
 		};
 		class Item351
