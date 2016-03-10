@@ -64,7 +64,6 @@ life_hunger = 100;
 CASH = 0;
 
 life_istazed = false;
-player setVariable ["tf_unable_to_use_radio", false];
 life_vehicles = [];
 
 switch (playerSide) do {
