@@ -9,7 +9,6 @@
 */
 private["_curTarget","_isWater"];
 _curTarget = cursorTarget;
-if(!alive player) exitwith {};
 if(life_action_inUse) exitWith {}; //Action is in use, exit to prevent spamming.
 if(life_action_gathering) exitWith {};
 if(life_interrupted) exitWith {life_interrupted = false;};
@@ -58,7 +57,7 @@ life_action_inUse = true;
 //Check if it's a dead body.
 if(_curTarget isKindOf "Man" && {!alive _curTarget} && {playerSide in [west,independent]}) exitWith {
 	//Hotfix code by ins0
-	if(((playerSide == blufor && {(EQUAL(LIFE_SETTINGS(getNumber,"revive_cops"),1))}) || playerSide == independent) && {"ACE_epinephrine" in (items player)}) then {
+	if(((playerSide == blufor && {(EQUAL(LIFE_SETTINGS(getNumber,"revive_cops"),1))}) || playerSide == independent) && {"Medikit" in (items player)}) then {
 		[_curTarget] call life_fnc_revivePlayer;
 	};
 };
@@ -68,10 +67,10 @@ if(_curTarget isKindOf "Man" && {!alive _curTarget} && {playerSide in [west,inde
 if(isPlayer _curTarget && _curTarget isKindOf "Man") then {
 	if((_curTarget GVAR ["restrained",false]) && !dialog && playerSide == west) then {
 		[_curTarget] call life_fnc_copInteractionMenu;
-	};
+		};
 	if((_curTarget GVAR ["restrained",false]) && !dialog && playerSide == east) then {
 	[_curTarget] call life_fnc_adacInteractionMenu;
-	};
+	};		
 } else {
 	//OK, it wasn't a player so what is it?
 	private["_isVehicle","_miscItems","_money","_list"];
@@ -88,7 +87,7 @@ if(isPlayer _curTarget && _curTarget isKindOf "Man") then {
 			if(player distance _curTarget < SEL(SEL(boundingBox _curTarget,1),0)+2) then {
 				[_curTarget] call life_fnc_vInteractionMenu;
 			};
-	};
+		};
 	} else {
 		//Is it a animal type?
 		if((typeOf _curTarget) in _animalTypes) then {
