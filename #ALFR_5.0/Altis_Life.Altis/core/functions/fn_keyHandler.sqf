@@ -56,6 +56,7 @@ if(!(EQUAL(count (actionKeys "User10"),0)) && {(inputAction "User10" > 0)}) exit
 switch (_code) do
 {
 	//Space key for Jumping
+/*	
 	case 57: {
 		if(isNil "jumpActionTime") then {jumpActionTime = 0;};
 		if(_shift && {!(EQUAL(animationState player,"AovrPercMrunSrasWrflDf"))} && {isTouchingGround player} && {EQUAL(stance player,"STAND")} && {speed player > 2} && {!life_is_arrested} && {SEL((velocity player),2) < 2.5} && {time - jumpActionTime > 1.5}) then {
@@ -65,6 +66,7 @@ switch (_code) do
 			_handled = true;
 		};
 	};
+*/	
 
 	//Map Key
 	case _mapKey:
@@ -155,6 +157,7 @@ switch (_code) do
 		};
 	};
 
+/*	
 	//Bloquage d'ouverture d'inventaire lorsque le joueur est proche de panneaux
 	case 23:
 	{
@@ -167,6 +170,7 @@ switch (_code) do
 			};
 		};
 	};
+*/
 
     //Anti MetaGaming (Touche "²")
 	 case 41:
@@ -250,7 +254,7 @@ switch (_code) do
         if(_shift) then {_handled = true;};
         if(_shift && playerSide == civilian && !isNull cursorTarget && cursorTarget isKindOf "Man" && isPlayer cursorTarget && alive cursorTarget && cursorTarget distance player < 4 && speed cursorTarget < 1) then
         {
-			if((animationState cursorTarget) != "Incapacitated" && (currentWeapon player == primaryWeapon player OR currentWeapon player == handgunWeapon player) && currentWeapon player != "" && !life_knockout && !(player getVariable["ACE_captives_isHandcuffed",false]) && !life_istazed && !(cursorTarget getVariable ["ACE_captives_isHandcuffed",false])) then
+        if((animationState cursorTarget) != "Incapacitated" && (currentWeapon player == primaryWeapon player OR currentWeapon player == handgunWeapon player) && currentWeapon player != "" && !life_knockout && !(player player GVAR ["restrained",false]) && !life_istazed) then
             {
                 [cursorTarget] spawn life_fnc_knockoutAction;
                 if("ItemGPS" in assignedItems cursorTarget) then {
