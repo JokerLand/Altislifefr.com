@@ -39,7 +39,7 @@ _med = [];
 
 sleep 0.5;
 if(visibleMap) then {
-	{if(side _x == independent && !(_x getVariable ["ACE_captives_isHandcuffed", false])) then {_med pushBack _x;}} foreach playableUnits; //Fetch list of med
+	{if(side _x == independent) then {_medics pushBack _x;}} foreach playableUnits; //Fetch list of med
 
 	//Create markers
 	{
