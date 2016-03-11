@@ -11,3 +11,16 @@ life_versionInfo = "Altis Life RPG v5.0";
 //Safezone
 [] execVM "safezone.sqf";
 StartProgress = true;
+
+/*
+*****************************
+****** Task Force Radio  ****
+*****************************
+*/
+
+
+/* Configuration */
+
+player setVariable ["tf_sendingDistanceMultiplicator", 10];
+player setVariable ["tf_receivingDistanceMultiplicator", 1];
+TF_terrain_interception_coefficient = 3;
