@@ -11,9 +11,13 @@ class CarShops {
 			{ "B_Quadbike_01_F", 1000, "" },
             { "cl3_polo_gti_black", 2000, "driver" },
 			{ "cl3_civic_vti_black", 2000, "driver" },
+            { "GeK_Clio", 2100, "driver" },
+            { "GeK_DS3", 3200, "driver" },
+            { "GeK_C30", 5500, "driver" },
+            { "zorak_bmw_120i", 7000, "driver" },    
             { "C_SUV_01_F", 3800, "driver" },
 			{ "C_Offroad_01_F", 3800, "driver" },
-            { "I_G_Offroad_01_F", 4000, "driver" },
+            { "I_G_Offroad_01_F", 4000, "driver" }, 
             { "cl3_z4_2008_black", 7000, "driver" },
             { "SAL_IROCCiv", 9500, "driver" },
 			{ "cl3_taurus_black", 12500, "driver" },
@@ -28,6 +32,7 @@ class CarShops {
 			{ "cl3_murcielago_black", 24000, "driver" },
 			{ "cl3_reventon_black", 24000, "driver" },
 			{ "wirk_ferrari_california", 24000, "driver" },
+            { "GeK_Supra", 25000, "driver" },   
             { "cl3_e63_amg_black", 25000, "driver" },
             { "cl3_dodge_charger_s_black", 25000, "driver" },
             { "cl3_veyron_wht_blu", 27000, "driver" },
@@ -35,16 +40,21 @@ class CarShops {
             { "CL3_bus_cl_black", 30000, "driver" },
             { "cl3_q7_black", 30000, "driver" },
             { "Jonzie_Viper", 30000, "driver" },
+            { "GeK_A45", 31000, "driver" },    
             { "ALFR_GeK_MF1", 32000, "driver" },
             { "wirk_cayenne", 32000, "driver" },
 			{ "AudiA8_Limo", 32000, "driver" },
             { "ALFR_GeK_Panamera", 34500, "driver" },
 			{ "GeK_S60", 34500, "driver" },
 			{ "GeK_CTSV", 34500, "driver" },
-            { "Gek_audi_a4_avant", 34500, "driver" },    
-			{ "GeK_Mercedes_ML63", 35000, "driver" },
+            { "Gek_audi_a4_avant", 34500, "driver" },
+            { "GeK_C63_AMG", 35000, "driver" },
+            { "GeK_GTR", 35000, "driver" },    
+            { "zorak_audi_a6", 36000, "driver" },    
             { "cl3_arielatom_race_black", 36000, "driver" },
 			{ "GeK_Civilian_H1", 40000, "driver" },
+            { "GeK_Camaro", 43000, "driver" },    
+            { "GeK_Mercedes_ML63", 45000, "driver" },    
 			{ "ALFR_GeK_Pagani_Zonda", 44000, "driver" }
 		};
 	};
@@ -65,8 +75,8 @@ class CarShops {
 			{ "C_Offroad_01_F", 1000, "" },
 			{ "GeK_Renault_Trafic_Ambulance", 1000, "" },
 			{ "C_SUV_01_F", 1000, "", { "life_mediclevel", 2 } },
-			{ "GeK_TLC100_Medic", 1000, "", { "life_mediclevel", 2 } },
-			{ "GeK_S60_Medic", 1000, "", { "life_mediclevel", 3 } }
+			{ "GeK_TLC100_Medic", 1000, "", { "life_mediclevel", 3 } },
+			{ "GeK_S60_Medic", 1000, "", { "life_mediclevel", 4 } }
 
 		};
 	};
@@ -75,8 +85,8 @@ class CarShops {
 		side = "med";
 		vehicles[] = {
 			{ "B_Heli_Light_01_F", 2000, "mAir" },
-			{ "O_Heli_Light_02_unarmed_F", 3000, "mAir", { "life_mediclevel", 2 } },
-			{ "EC635_SAR", 5000, "mAir", { "life_mediclevel", 3 } }
+			{ "O_Heli_Light_02_unarmed_F", 3000, "mAir", { "life_mediclevel", 3 } },
+			{ "EC635_SAR", 5000, "mAir", { "life_mediclevel", 5 } }
 		};
 	};
 
@@ -143,15 +153,25 @@ class CarShops {
 	class reb_car {
 		side = "civ";
 		vehicles[] = {
-            { "UAZ_Unarmed", 24000, "rebel" },
+			{ "zorak_bmw_120i", 7000, "rebel" },
+			{ "Mrshounka_ducati_p", 17000, "rebel" },
+            { "GeK_TLC100", 17500, "rebel" },			
+            { "GeK_CTSV", 21600, "rebel" },	
+            { "wirk_cayenne", 21700, "rebel" },			
+			{ "UAZ_Unarmed", 24000, "rebel" },
             { "B_G_Offroad_01_F", 24000, "rebel" },
-            { "cl3_e60_m5_black", 24000, "rebel" },
-            { "ALFR_GeK_Panamera", 34500, "rebel" },    
+            { "cl3_e60_m5_black", 24000, "rebel" },		
+            { "GeK_Supra", 25000, "rebel" }, 			
+			{ "GeK_A45", 31000, "rebel" }, 			
+            { "ALFR_GeK_Panamera", 34500, "rebel" },		
+            { "GeK_C63_AMG", 35000, "rebel" },
+            { "GeK_GTR", 35000, "rebel" },		
+            { "zorak_audi_a6", 36000, "rebel" },   			
+			{ "GeK_Avalanche", 36600, "rebel" },		
 			{ "B_G_Offroad_01_armed_F", 106000, "rebel" },
 			{ "O_MRAP_02_F", 86000, "rebel" },
-			{ "cl3_dodge_charger_s_camo", 44000, "rebel" },
-			{ "cl3_e63_amg_camo", 44000, "rebel" },
-			{ "GeK_Mercedes_ML63_Rebelle", 62000, "rebel" },
+            { "GeK_G65", 43000, "rebel" },
+			{ "GeK_Mercedes_ML63_Rebelle", 62000, "rebel" },			
 			{ "O_Truck_03_device_F", 114000, "rebel" },
 			{ "O_Truck_03_transport_F", 100000, "rebel" },
 			{ "O_Truck_03_covered_F", 124000, "rebel" },
@@ -181,6 +201,7 @@ class CarShops {
             { "gek_audi_a4_avant_police", 1000, "", { "life_coplevel", 3 } },    
 			{ "GeK_TLC100", 1000, "", { "life_coplevel", 3 } },
 			{ "ALFR_GeK_Panamera_Police_ST", 1000, "", { "life_coplevel", 3 } },
+            { "zorak_audi_a6_police", 1000, "", { "life_coplevel", 6 } },
 			{ "CL3_bus_cl_black", 1000, "", { "life_coplevel", 3 } },
 			{ "cg_h2_sert", 1000, "", { "life_coplevel", 4 } }
 		};
@@ -223,8 +244,8 @@ class CarShops {
 	class cop_air {
 		side = "cop";
 		vehicles[] = {
-			{ "B_Heli_Light_01_F", 15000, "cAir", { "life_coplevel", 2 } },
-			{ "C_Heli_Light_01_civil_F", 15000, "cAir", { "life_coplevel", 2 } },
+			{ "B_Heli_Light_01_F", 5000, "cAir", { "life_coplevel", 2 } },
+			{ "C_Heli_Light_01_civil_F", 5000, "cAir", { "life_coplevel", 2 } },
 			{ "B_Heli_Transport_03_unarmed_F", 100000, "cAir", { "life_coplevel", 4 } },
 			{ "EC635_Unarmed", 80000, "cAir", { "life_coplevel", 4 } },
 			{ "B_Heli_Transport_01_F", 175000, "cAir", { "life_coplevel", 6 } },
@@ -370,6 +391,341 @@ class CfgVehicles {
 		};
 	};
     
+    class GeK_Clio : Default {
+        vItemSpace = 30;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 1000, 1000, 1000, 1000 };
+		chopShop = 785;
+		textures[] = {
+
+            { "Noir", "civ", {
+                "#(ai,64,64,1)Fresnel(0.3,3)"
+            } },
+			{ "Gris sombre", "civ", {
+                "#(argb,8,8,3)color(0.1,0.1,0.1,0.7)"
+            } },
+			{ "Gris", "civ", {
+                "#(argb,8,8,3)color(0.5,0.5,0.5,0.1)"
+            } },
+			{ "Gris clair", "civ", {
+                "#(argb,8,8,3)color(0.3,0.3,0.3,0.8)"
+            } },
+			{ "Blanc", "civ", {
+                "#(argb,8,8,3)color(1,1,1,1)"
+            } },
+			{ "Sable", "civ", {
+                "#(argb,8,8,3)color(1.5,1.6,0.9,0.2)"
+            } },
+			{ "Bordeau", "civ", {
+                "#(argb,8,8,3)color(1,0,0,0.1)"
+            } },
+			{ "Bleu", "civ", {
+                "#(argb,8,8,3)color(0.01,0.6,1,0.1)"
+            } },
+			{ "Bleu Nuit", "civ", {
+                "#(argb,8,8,3)color(0,0,0.5,0.1)"
+            } },
+			{ "Mauve Nuit", "civ", {
+                "#(argb,8,8,3)color(0.6,0,1,0.01)"
+            } },
+			{ "vert", "civ", {
+                "#(argb,8,8,3)color(0.5,1,0.5,0.05)"
+            } },
+			{ "Rouge", "civ", {
+                "#(argb,8,8,3)color(1,0,0,1)"
+            } },
+			{ "Jaune", "civ", {
+                "#(argb,8,8,3)color(0.6,0.3,0.01,1)"
+            } },
+			{ "Orange", "civ", {
+                "#(argb,8,8,3)color(1,0.3,0.01,0.6)"
+            } }
+		};
+	};
+    
+    class GeK_DS3 : Default {
+        vItemSpace = 35;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 1000, 1000, 1000, 1000 };
+		chopShop = 1200;
+		textures[] = {
+
+            { "Noir", "civ", {
+                "#(ai,64,64,1)Fresnel(0.3,3)"
+            } },
+			{ "Gris sombre", "civ", {
+                "#(argb,8,8,3)color(0.1,0.1,0.1,0.7)"
+            } },
+			{ "Gris", "civ", {
+                "#(argb,8,8,3)color(0.5,0.5,0.5,0.1)"
+            } },
+			{ "Gris clair", "civ", {
+                "#(argb,8,8,3)color(0.3,0.3,0.3,0.8)"
+            } },
+			{ "Blanc", "civ", {
+                "#(argb,8,8,3)color(1,1,1,1)"
+            } },
+			{ "Sable", "civ", {
+                "#(argb,8,8,3)color(1.5,1.6,0.9,0.2)"
+            } },
+			{ "Bordeau", "civ", {
+                "#(argb,8,8,3)color(1,0,0,0.1)"
+            } },
+			{ "Bleu", "civ", {
+                "#(argb,8,8,3)color(0.01,0.6,1,0.1)"
+            } },
+			{ "Bleu Nuit", "civ", {
+                "#(argb,8,8,3)color(0,0,0.5,0.1)"
+            } },
+			{ "Mauve Nuit", "civ", {
+                "#(argb,8,8,3)color(0.6,0,1,0.01)"
+            } },
+			{ "vert", "civ", {
+                "#(argb,8,8,3)color(0.5,1,0.5,0.05)"
+            } },
+			{ "Rouge", "civ", {
+                "#(argb,8,8,3)color(1,0,0,1)"
+            } },
+			{ "Jaune", "civ", {
+                "#(argb,8,8,3)color(0.6,0.3,0.01,1)"
+            } },
+			{ "Orange", "civ", {
+                "#(argb,8,8,3)color(1,0.3,0.01,0.6)"
+            } }
+		};
+	};
+    
+    class GeK_C30 : Default {
+        vItemSpace = 40;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 1000, 1000, 1000, 1000 };
+		chopShop = 2062;
+		textures[] = {
+
+            { "Noir", "civ", {
+                "#(ai,64,64,1)Fresnel(0.3,3)"
+            } },
+			{ "Gris sombre", "civ", {
+                "#(argb,8,8,3)color(0.1,0.1,0.1,0.7)"
+            } },
+			{ "Gris", "civ", {
+                "#(argb,8,8,3)color(0.5,0.5,0.5,0.1)"
+            } },
+			{ "Gris clair", "civ", {
+                "#(argb,8,8,3)color(0.3,0.3,0.3,0.8)"
+            } },
+			{ "Blanc", "civ", {
+                "#(argb,8,8,3)color(1,1,1,1)"
+            } },
+			{ "Sable", "civ", {
+                "#(argb,8,8,3)color(1.5,1.6,0.9,0.2)"
+            } },
+			{ "Bordeau", "civ", {
+                "#(argb,8,8,3)color(1,0,0,0.1)"
+            } },
+			{ "Bleu", "civ", {
+                "#(argb,8,8,3)color(0.01,0.6,1,0.1)"
+            } },
+			{ "Bleu Nuit", "civ", {
+                "#(argb,8,8,3)color(0,0,0.5,0.1)"
+            } },
+			{ "Mauve Nuit", "civ", {
+                "#(argb,8,8,3)color(0.6,0,1,0.01)"
+            } },
+			{ "vert", "civ", {
+                "#(argb,8,8,3)color(0.5,1,0.5,0.05)"
+            } },
+			{ "Rouge", "civ", {
+                "#(argb,8,8,3)color(1,0,0,1)"
+            } },
+			{ "Jaune", "civ", {
+                "#(argb,8,8,3)color(0.6,0.3,0.01,1)"
+            } },
+			{ "Orange", "civ", {
+                "#(argb,8,8,3)color(1,0.3,0.01,0.6)"
+            } }
+		};
+	};
+    
+    class zorak_bmw_120i : Default {
+        vItemSpace = 40;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 1000, 1000, 1000, 1000 };
+		chopShop = 2625;
+		textures[] = {
+
+            { "Noir", "civ", {
+                "#(ai,64,64,1)Fresnel(0.3,3)"
+            } },
+            { "Noir", "reb", {
+                "#(ai,64,64,1)Fresnel(0.3,3)"
+            } },			
+			{ "Gris sombre", "civ", {
+                "#(argb,8,8,3)color(0.1,0.1,0.1,0.7)"
+            } },
+			{ "Gris", "civ", {
+                "#(argb,8,8,3)color(0.5,0.5,0.5,0.1)"
+            } },
+			{ "Gris clair", "civ", {
+                "#(argb,8,8,3)color(0.3,0.3,0.3,0.8)"
+            } },
+			{ "Blanc", "civ", {
+                "#(argb,8,8,3)color(1,1,1,1)"
+            } },
+			{ "Sable", "civ", {
+                "#(argb,8,8,3)color(1.5,1.6,0.9,0.2)"
+            } },
+			{ "Bordeau", "civ", {
+                "#(argb,8,8,3)color(1,0,0,0.1)"
+            } },
+			{ "Bleu", "civ", {
+                "#(argb,8,8,3)color(0.01,0.6,1,0.1)"
+            } },
+			{ "Bleu Nuit", "civ", {
+                "#(argb,8,8,3)color(0,0,0.5,0.1)"
+            } },
+			{ "Mauve Nuit", "civ", {
+                "#(argb,8,8,3)color(0.6,0,1,0.01)"
+            } },
+			{ "vert", "civ", {
+                "#(argb,8,8,3)color(0.5,1,0.5,0.05)"
+            } },
+			{ "Rouge", "civ", {
+                "#(argb,8,8,3)color(1,0,0,1)"
+            } },
+			{ "Jaune", "civ", {
+                "#(argb,8,8,3)color(0.6,0.3,0.01,1)"
+            } },
+			{ "Orange", "civ", {
+                "#(argb,8,8,3)color(1,0.3,0.01,0.6)"
+            } }
+		};
+	};
+    
+    class GeK_A45 : Default {
+        vItemSpace = 35;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 1000, 1000, 1000, 1000 };
+		chopShop = 11600;
+		textures[] = {
+
+            { "Noir", "civ", {
+                "#(ai,64,64,1)Fresnel(0.3,3)"
+            } },
+            { "Noir", "reb", {
+                "#(ai,64,64,1)Fresnel(0.3,3)"
+            } },			
+			{ "Gris sombre", "civ", {
+                "#(argb,8,8,3)color(0.1,0.1,0.1,0.7)"
+            } },
+			{ "Gris", "civ", {
+                "#(argb,8,8,3)color(0.5,0.5,0.5,0.1)"
+            } },
+			{ "Gris clair", "civ", {
+                "#(argb,8,8,3)color(0.3,0.3,0.3,0.8)"
+            } },
+			{ "Blanc", "civ", {
+                "#(argb,8,8,3)color(1,1,1,1)"
+            } },
+			{ "Sable", "civ", {
+                "#(argb,8,8,3)color(1.5,1.6,0.9,0.2)"
+            } },
+			{ "Bordeau", "civ", {
+                "#(argb,8,8,3)color(1,0,0,0.1)"
+            } },
+			{ "Bleu", "civ", {
+                "#(argb,8,8,3)color(0.01,0.6,1,0.1)"
+            } },
+			{ "Bleu Nuit", "civ", {
+                "#(argb,8,8,3)color(0,0,0.5,0.1)"
+            } },
+			{ "Mauve Nuit", "civ", {
+                "#(argb,8,8,3)color(0.6,0,1,0.01)"
+            } },
+			{ "vert", "civ", {
+                "#(argb,8,8,3)color(0.5,1,0.5,0.05)"
+            } },
+			{ "Rouge", "civ", {
+                "#(argb,8,8,3)color(1,0,0,1)"
+            } },
+			{ "Jaune", "civ", {
+                "#(argb,8,8,3)color(0.6,0.3,0.01,1)"
+            } },
+			{ "Orange", "civ", {
+                "#(argb,8,8,3)color(1,0.3,0.01,0.6)"
+            } }
+		};
+	};
+    
+    class zorak_audi_a6 : Default {
+        vItemSpace = 50;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 1000, 1000, 1000, 1000 };
+		chopShop = 13500;
+		textures[] = {
+
+            { "Noir", "civ", {
+                "#(ai,64,64,1)Fresnel(0.3,3)"
+            } },
+            { "Noir", "reb", {
+                "#(ai,64,64,1)Fresnel(0.3,3)"
+            } },			
+			{ "Gris sombre", "civ", {
+                "#(argb,8,8,3)color(0.1,0.1,0.1,0.7)"
+            } },
+			{ "Gris", "civ", {
+                "#(argb,8,8,3)color(0.5,0.5,0.5,0.1)"
+            } },
+			{ "Gris clair", "civ", {
+                "#(argb,8,8,3)color(0.3,0.3,0.3,0.8)"
+            } },
+			{ "Blanc", "civ", {
+                "#(argb,8,8,3)color(1,1,1,1)"
+            } },
+			{ "Sable", "civ", {
+                "#(argb,8,8,3)color(1.5,1.6,0.9,0.2)"
+            } },
+			{ "Bordeau", "civ", {
+                "#(argb,8,8,3)color(1,0,0,0.1)"
+            } },
+			{ "Bleu", "civ", {
+                "#(argb,8,8,3)color(0.01,0.6,1,0.1)"
+            } },
+			{ "Bleu Nuit", "civ", {
+                "#(argb,8,8,3)color(0,0,0.5,0.1)"
+            } },
+			{ "Mauve Nuit", "civ", {
+                "#(argb,8,8,3)color(0.6,0,1,0.01)"
+            } },
+			{ "vert", "civ", {
+                "#(argb,8,8,3)color(0.5,1,0.5,0.05)"
+            } },
+			{ "Rouge", "civ", {
+                "#(argb,8,8,3)color(1,0,0,1)"
+            } },
+			{ "Jaune", "civ", {
+                "#(argb,8,8,3)color(0.6,0.3,0.01,1)"
+            } },
+			{ "Orange", "civ", {
+                "#(argb,8,8,3)color(1,0.3,0.01,0.6)"
+            } }
+		};
+	};
+    
+    class zorak_audi_a6_police : Default {
+        vItemSpace = 50;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 1000, 1000, 1000, 1000 };
+		chopShop = 13500;
+    };
+    
+    class GeK_Camaro : Default {
+        vItemSpace = 30;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 1000, 1000, 1000, 1000 };
+		chopShop = 16125;
+    };
+    
     class GeK_Cadillac_Fleetwood_Brougham_85 : Default {
         vItemSpace = 35;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
@@ -380,6 +736,61 @@ class CfgVehicles {
             { "Noir", "civ", {
                 "#(ai,64,64,1)Fresnel(0.3,3)"
             } },
+			{ "Gris sombre", "civ", {
+                "#(argb,8,8,3)color(0.1,0.1,0.1,0.7)"
+            } },
+			{ "Gris", "civ", {
+                "#(argb,8,8,3)color(0.5,0.5,0.5,0.1)"
+            } },
+			{ "Gris clair", "civ", {
+                "#(argb,8,8,3)color(0.3,0.3,0.3,0.8)"
+            } },
+			{ "Blanc", "civ", {
+                "#(argb,8,8,3)color(1,1,1,1)"
+            } },
+			{ "Sable", "civ", {
+                "#(argb,8,8,3)color(1.5,1.6,0.9,0.2)"
+            } },
+			{ "Bordeau", "civ", {
+                "#(argb,8,8,3)color(1,0,0,0.1)"
+            } },
+			{ "Bleu", "civ", {
+                "#(argb,8,8,3)color(0.01,0.6,1,0.1)"
+            } },
+			{ "Bleu Nuit", "civ", {
+                "#(argb,8,8,3)color(0,0,0.5,0.1)"
+            } },
+			{ "Mauve Nuit", "civ", {
+                "#(argb,8,8,3)color(0.6,0,1,0.01)"
+            } },
+			{ "vert", "civ", {
+                "#(argb,8,8,3)color(0.5,1,0.5,0.05)"
+            } },
+			{ "Rouge", "civ", {
+                "#(argb,8,8,3)color(1,0,0,1)"
+            } },
+			{ "Jaune", "civ", {
+                "#(argb,8,8,3)color(0.6,0.3,0.01,1)"
+            } },
+			{ "Orange", "civ", {
+                "#(argb,8,8,3)color(1,0.3,0.01,0.6)"
+            } }
+		};
+	};
+    
+    class GeK_GTR : Default {
+        vItemSpace = 35;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 1000, 1000, 1000, 1000 };
+		chopShop = 13125;
+		textures[] = {
+
+            { "Noir", "civ", {
+                "#(ai,64,64,1)Fresnel(0.3,3)"
+            } },
+            { "Noir", "reb", {
+                "#(ai,64,64,1)Fresnel(0.3,3)"
+            } },			
 			{ "Gris sombre", "civ", {
                 "#(argb,8,8,3)color(0.1,0.1,0.1,0.7)"
             } },
@@ -768,7 +1179,7 @@ class CfgVehicles {
 	};
     
     class gek_audi_a4_avant_police : Default {
-		vItemSpace = 60;
+		vItemSpace = 40;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
 		chopShop = 3000;
@@ -806,7 +1217,7 @@ class CfgVehicles {
 	};
 
     class GeK_ML63_Police : Default {
-		vItemSpace = 40;
+		vItemSpace = 65;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
 		chopShop = 3000;
@@ -933,12 +1344,19 @@ class CfgVehicles {
 		garageSell[] = { 1000, 1000, 1000, 1000 };
 		chopShop = 12000;
 	};
+    
+    class GeK_G65 : Default {
+		vItemSpace = 55;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 1000, 1000, 1000, 1000 };
+		chopShop = 12000;
+	};
 
 	class GeK_Mercedes_ML63 : Default {
 		vItemSpace = 65;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
-		chopShop = 13125;
+		chopShop = 16875;
 		textures[] = {
 
 			{ "Noir", "civ", {
@@ -1194,6 +1612,9 @@ class CfgVehicles {
 			{ "Noir", "civ", {
                 "#(ai,64,64,1)Fresnel(0.3,3)"
             } },
+			{ "Noir", "reb", {
+                "#(ai,64,64,1)Fresnel(0.3,3)"
+            } },			
 			{ "Gris sombre", "civ", {
                 "#(argb,8,8,3)color(0.1,0.1,0.1,0.7)"
             } },
@@ -1357,7 +1778,7 @@ class CfgVehicles {
                 "GeK_Avalanche\data\AVL_Gris.paa"
             } },
 			{ "Gris clair", "civ", {
-                "GeK_Avalanche\data\AVL_Gris_Clair.paa)"
+                "GeK_Avalanche\data\AVL_Gris_Clair.paa"
             } },
 			{ "Jaune", "civ", {
                 "GeK_Avalanche\data\AVL_Jaune.paa"
@@ -1365,6 +1786,9 @@ class CfgVehicles {
 			{ "Noir", "civ", {
                 "GeK_Avalanche\data\AVL_Noir.paa"
             } },
+			{ "Noir", "reb", {
+                "GeK_Avalanche\data\AVL_Noir.paa"
+            } },			
 			{ "Orange", "civ", {
                 "GeK_Avalanche\data\AVL_Orange.paa"
             } },
@@ -1384,6 +1808,61 @@ class CfgVehicles {
 			{ "Noir", "civ", {
                 "#(ai,64,64,1)Fresnel(0.3,3)"
             } },
+			{ "Gris sombre", "civ", {
+                "#(argb,8,8,3)color(0.1,0.1,0.1,0.7)"
+            } },
+			{ "Gris", "civ", {
+                "#(argb,8,8,3)color(0.5,0.5,0.5,0.1)"
+            } },
+			{ "Gris clair", "civ", {
+                "#(argb,8,8,3)color(0.3,0.3,0.3,0.8)"
+            } },
+			{ "Blanc", "civ", {
+                "#(argb,8,8,3)color(1,1,1,1)"
+            } },
+			{ "Sable", "civ", {
+                "#(argb,8,8,3)color(1.5,1.6,0.9,0.2)"
+            } },
+			{ "Bordeau", "civ", {
+                "#(argb,8,8,3)color(1,0,0,0.1)"
+            } },
+			{ "Bleu", "civ", {
+                "#(argb,8,8,3)color(0.01,0.6,1,0.1)"
+            } },
+			{ "Bleu Nuit", "civ", {
+                "#(argb,8,8,3)color(0,0,0.5,0.1)"
+            } },
+			{ "Mauve Nuit", "civ", {
+                "#(argb,8,8,3)color(0.6,0,1,0.01)"
+            } },
+			{ "vert", "civ", {
+                "#(argb,8,8,3)color(0.5,1,0.5,0.05)"
+            } },
+			{ "Rouge", "civ", {
+                "#(argb,8,8,3)color(1,0,0,1)"
+            } },
+			{ "Jaune", "civ", {
+                "#(argb,8,8,3)color(0.6,0.3,0.01,1)"
+            } },
+			{ "Orange", "civ", {
+                "#(argb,8,8,3)color(1,0.3,0.01,0.6)"
+            } }
+		};
+	};
+    
+    class GeK_Supra : Default {
+		vItemSpace = 35;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 1000, 1000, 1000, 1000 };
+		chopShop = 9375;
+		textures[] = {
+
+			{ "Noir", "civ", {
+                "#(ai,64,64,1)Fresnel(0.3,3)"
+            } },
+			{ "Noir", "reb", {
+                "#(ai,64,64,1)Fresnel(0.3,3)"
+            } },			
 			{ "Gris sombre", "civ", {
                 "#(argb,8,8,3)color(0.1,0.1,0.1,0.7)"
             } },
@@ -1595,6 +2074,9 @@ class CfgVehicles {
 			{ "Noir", "civ", {
                 "#(ai,64,64,1)Fresnel(0.3,3)"
             } },
+			{ "Noir", "reb", {
+                "#(ai,64,64,1)Fresnel(0.3,3)"
+            } },			
 			{ "Gris sombre", "civ", {
                 "#(argb,8,8,3)color(0.1,0.1,0.1,0.7)"
             } },
@@ -2239,6 +2721,9 @@ class CfgVehicles {
 			{ "Noir", "civ", {
                 "#(ai,64,64,1)Fresnel(0.3,3)"
             } },
+			{ "Noir", "reb", {
+                "#(ai,64,64,1)Fresnel(0.3,3)"
+            } },			
 			{ "Gris sombre", "civ", {
                 "#(argb,8,8,3)color(0.1,0.1,0.1,0.7)"
             } },
@@ -2312,6 +2797,65 @@ class CfgVehicles {
 			{ "Noir", "civ", {
                 "#(ai,64,64,1)Fresnel(0.3,3)"
             } },
+			{ "Noir", "reb", {
+                "#(ai,64,64,1)Fresnel(0.3,3)"
+            } },			
+			{ "Gris sombre", "civ", {
+                "#(argb,8,8,3)color(0.1,0.1,0.1,0.7)"
+            } },
+			{ "Gris", "civ", {
+                "#(argb,8,8,3)color(0.5,0.5,0.5,0.1)"
+            } },
+			{ "Gris clair", "civ", {
+                "#(argb,8,8,3)color(0.3,0.3,0.3,0.8)"
+            } },
+			{ "Blanc", "civ", {
+                "#(argb,8,8,3)color(1,1,1,1)"
+            } },
+			{ "Sable", "civ", {
+                "#(argb,8,8,3)color(1.5,1.6,0.9,0.2)"
+            } },
+			{ "Bordeau", "civ", {
+                "#(argb,8,8,3)color(1,0,0,0.1)"
+            } },
+			{ "Bleu", "civ", {
+                "#(argb,8,8,3)color(0.01,0.6,1,0.1)"
+            } },
+			{ "Bleu Nuit", "civ", {
+                "#(argb,8,8,3)color(0,0,0.5,0.1)"
+            } },
+			{ "Mauve Nuit", "civ", {
+                "#(argb,8,8,3)color(0.6,0,1,0.01)"
+            } },
+			{ "vert", "civ", {
+                "#(argb,8,8,3)color(0.5,1,0.5,0.05)"
+            } },
+			{ "Rouge", "civ", {
+                "#(argb,8,8,3)color(1,0,0,1)"
+            } },
+			{ "Jaune", "civ", {
+                "#(argb,8,8,3)color(0.6,0.3,0.01,1)"
+            } },
+			{ "Orange", "civ", {
+                "#(argb,8,8,3)color(1,0.3,0.01,0.6)"
+            } }
+		};
+
+	};
+    
+    class GeK_C63_AMG : Default {
+		vItemSpace = 40;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 1000, 1000, 1000, 1000 };
+		chopShop = 11500;
+		textures[] = {
+
+			{ "Noir", "civ", {
+                "#(ai,64,64,1)Fresnel(0.3,3)"
+            } },
+			{ "Noir", "reb", {
+                "#(ai,64,64,1)Fresnel(0.3,3)"
+            } },			
 			{ "Gris sombre", "civ", {
                 "#(argb,8,8,3)color(0.1,0.1,0.1,0.7)"
             } },
@@ -2356,7 +2900,7 @@ class CfgVehicles {
 	};
     
     class Gek_audi_a4_avant : Default {
-		vItemSpace = 60;
+		vItemSpace = 40;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
 		chopShop = 11500;

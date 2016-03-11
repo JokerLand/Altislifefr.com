@@ -23,11 +23,6 @@ if(!(str(player) in ["cop_1","cop_2","cop_3","cop_4"])) then {
 	};
 };
 
-//Tchek si la personne est une femme whitelist
-if(face player in life_faceWomen && (FETCH_CONST(life_girl) == 0)) then {
-	["NotWomen",false,true] call BIS_fnc_endMission;
-	sleep 35;
-};
 
 player setVariable["rank",(FETCH_CONST(life_coplevel)),true];
 [] call life_fnc_spawnMenu;

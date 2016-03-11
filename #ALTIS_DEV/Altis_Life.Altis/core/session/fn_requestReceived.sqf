@@ -53,7 +53,6 @@ switch(playerSide) do {
 		CONST(life_medicLevel,0);
 		CONST(life_adaclevel,0);
 		life_blacklisted = SEL(_this,9);
-        CONST(life_girl, parseNumber(SEL(_this,13)));
 	};
 
 	case civilian: {
@@ -72,21 +71,18 @@ switch(playerSide) do {
 			[] spawn life_fnc_initGang;
 		};
 		[] spawn life_fnc_initHouses;
-        CONST(life_girl, parseNumber(SEL(_this,15)));
 	};
 
 	case independent: {
 		CONST(life_medicLevel, parseNumber(SEL(_this,7)));
 		CONST(life_coplevel,0);
 		CONST(life_adaclevel,0);
-        CONST(life_girl, parseNumber(SEL(_this,16)));
 	};
 
 	case east: {
 		CONST(life_adaclevel, parseNumber(SEL(_this,7)));
 		CONST(life_coplevel,0);
 		CONST(life_medicLevel,0);
-        CONST(life_girl, parseNumber(SEL(_this,17)));
 	};
 };
 

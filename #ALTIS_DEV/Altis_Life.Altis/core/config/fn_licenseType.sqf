@@ -44,6 +44,7 @@ switch (_mode) do
 			case "gangster": {_var = "license_civ_gangster"};
             case "chefrebelle": {_var = "license_civ_chefrebelle"};
             case "depanneur": {_var = "license_civ_depannage"};
+            case "girl": {_var = "license_civ_girl"};
             case "ion": {_var = "license_civ_ion"};
 			default {_var = ""};
 		};
@@ -81,6 +82,7 @@ switch (_mode) do
 			case "license_civ_gangster": {_var = "gangster"};
             case "license_civ_chefrebelle": {_var = "chefrebelle"};
             case "license_civ_depannage": {_var = "depanneur"};
+            case "license_civ_girl": {_var = "girl"};
             case "license_civ_ion": {_var = "ion"};
 			default {_var = ""};
 		};

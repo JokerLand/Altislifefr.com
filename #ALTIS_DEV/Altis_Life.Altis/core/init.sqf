@@ -41,9 +41,6 @@ diag_log "::Life Client:: Waiting for the server to be ready..";
 waitUntil{!isNil "life_server_isReady"};
 waitUntil{(life_server_isReady OR !isNil "life_server_extDB_notLoaded")};
 
-
-player setVariable["tf_globalVolume", 0];
-
 	/* Check Pugin */
 	0 cutText ["Vérification du plugin TaskForceRadio sur Teamspeak. Si cela prend du temps veuillez vérifier que votre plugin est activer sur le Teamspeak. !! NE CLIQUEZ PAS SUR REAPPARITION !! ", "BLACK FADED"];
 	0 cutFadeOut 99999999;
@@ -64,7 +61,6 @@ player setVariable["tf_globalVolume", 0];
 
 	0 cutText ["Vérification de votre présence dans le canal Task Force Radio. Le double TS (micro activé sur un autre TS), Skype ou autre logiciel de discussion sera sanctionable d'un kick. ", "BLACK FADED"];
 	0 cutFadeOut 99999999;
-	player setVariable["tf_globalVolume", 0];
 	waitUntil {((call TFAR_fnc_getTeamSpeakChannelName) == "EN JEU TASK FORCE RADIO")};
 	
 

@@ -235,19 +235,22 @@ class Licenses {
 	LICENSEMACRO(diamond,"STR_License_Diamond","diamond",11000,false,"civ")
 	LICENSEMACRO(salt,"STR_License_Salt","salt",7500,false,"civ")
 
-	/** Ilegal **/
+	/** Illegal **/
 	LICENSEMACRO(rebel,"STR_License_Rebel","rebel",999999,true,"civ")
 	LICENSEMACRO(heroin,"STR_License_Heroin","heroin",50000,true,"civ")
 	LICENSEMACRO(marijuana,"STR_License_Marijuana","marijuana",40000,true,"civ")
 	LICENSEMACRO(medmarijuana,"STR_License_Medmarijuana","medmarijuana",20000,false,"civ")
 	LICENSEMACRO(cocaine,"STR_License_Cocaine","cocaine",55000,true,"civ")
-	LICENSEMACRO(gangster,"STR_License_Gangster","gangster",135000,true,"civ")
+	LICENSEMACRO(gangster,"STR_License_Gangster","gangster",100000,true,"civ")
     LICENSEMACRO(chefrebelle,"STR_License_ChefRebelle","chefrebelle",-1,false,"civ")
 
     /** Depanneur **/
 	LICENSEMACRO(depanneur,"STR_License_Depanneur","depanneur",-1,false,"civ")
+    
+    /** Femme **/
+    LICENSEMACRO(girl,"STR_License_Girl","girl",-1,false,"civ")    
         
-    /** ENtreprise **/
+    /** Entreprise **/
     LICENSEMACRO(ion,"STR_License_Ion","ion",-1,false,"civ")    
 
 };

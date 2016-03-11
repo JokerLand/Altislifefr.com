@@ -13,7 +13,7 @@ _robber = [_this,1,ObjNull,[ObjNull]] call BIS_fnc_param; //Can you guess? Alrig
 
 if(side _robber != civilian) exitWith { hint "Vous ne pouvez pas braquer cette station!" };
 _cops = (west countSide playableUnits);
-if(_cops < 6) exitWith{hint "Il n'y a pas assez de policiers pour braquer la station! (6)";};
+if(_cops < 3) exitWith{hint "Il n'y a pas assez de policiers pour braquer la station! (3)";};
 if(_robber distance _shop > 3) exitWith { hint "Vous devez rester a moins de 3m du caissier!" };
 if (vehicle player != _robber) exitWith { hint "Impossible de braquer depuis le vehicule" };
 if !(alive _robber) exitWith {};
@@ -23,7 +23,7 @@ if(_shop getVariable ["robbed", false]) exitWith {hint "Cette pompe a déja ete 
 _shop setVariable["robbed",true,true];
 [[_shop],"TON_fnc_robShop",false,false] spawn life_fnc_MP;
 
-_cash = 1500 + round(random 5000);
+_cash = 5000 + round(random 10000);
 _shop switchMove "AmovPercMstpSsurWnonDnon";
 hint "Le caissier a activer l'alarme, la police ne va pas tarder a arriver!";
 [[1,format["ALERTE! - La station: %1 est en train d'etre braquee!", _shop], false],"life_fnc_broadcast",west,false] spawn life_fnc_MP;

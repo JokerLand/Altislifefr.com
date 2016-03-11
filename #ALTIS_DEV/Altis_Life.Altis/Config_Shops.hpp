@@ -7,7 +7,10 @@ class WeaponShops {
         level = -1;
         msg = "Vous n'avez pas le permis de port d'arme";
         items[] = {
-            { "hgun_Rook40_F", "", 8800 },
+            { "ALFR_BaseballBat", "", 1000 },
+            { "ALFR_BaseballBat_Grey", "", 1000 },
+            { "ALFR_Machete", "", 1000 },
+			{ "hgun_Rook40_F", "", 8800 },
             { "16Rnd_9x21_Mag", "", 100 },
             { "hgun_Pistol_heavy_01_F", "", 15000 },
             { "11Rnd_45ACP_Mag", "", 100 },
@@ -29,13 +32,15 @@ class WeaponShops {
             { "hgun_PDW2000_F", "", 14000 },
             { "30Rnd_9x21_Mag", "", 200 },
             { "C1987_MP7", "", 18000 },
+			{ "C1987_MP7_folded_p", "", 16250 },
             { "C1987_20Rnd_46x30_mp7", "", 100 },
             { "C1987_40Rnd_46x30_mp7", "", 200 },
             { "R3F_MP5A5", "", 20000 },
             { "R3F_30Rnd_9x19_MP5", "", 200 },
-            { "optic_ACO_grn_smg", "", 1000 },
-            { "arifle_SDAR_F", "", 23000 },
+			{ "arifle_SDAR_F", "", 23000 },
             { "20Rnd_556x45_UW_mag", "Chargeur SDAR sous-marin", 200 },
+            { "C1987_zeiss_AIM", "", 500 },
+			{ "optic_ACO_grn_smg", "", 1000 },
             { "V_Rangemaster_belt", "", 1500 }
         };
     };
@@ -47,8 +52,7 @@ class WeaponShops {
         level = -1;
         msg = "Vous n'avez pas la license gangster";
         items[] = {
-            { "Rangefinder", "", 800 },
-            { "ACE_Vector", "", 1000 },    
+            { "Rangefinder", "", 800 },   
             { "SMG_01_F", "", 35000 },
             { "30Rnd_45ACP_Mag_SMG_01", "", 300 },
             { "arifle_Mk20_plain_F", "", 42000 },
@@ -102,9 +106,7 @@ class WeaponShops {
         level = -1;
         msg = "Vous n'avez pas la licence rebelle";
         items[] = {
-            { "ACE_CableTie", "", 500 },
-            { "Rangefinder", "", 1000 },
-            { "ACE_Vector", "", 1500 },    
+            { "Rangefinder", "", 1000 }, 
             { "srifle_DMR_01_F", "", 63000 },
             { "10Rnd_762x54_Mag", "", 500 },
             { "hlc_rifle_ak74", "", 47000 },
@@ -218,11 +220,8 @@ class WeaponShops {
         	{ "Binocular", "", 15 },
 			{ "ItemGPS", "", 10 },
 			{ "ToolKit", "", 50 },
-			{ "FirstAidKit", "", 15 },
 			{ "NVGoggles", "", 100 },
-			{ "ACE_packingBandage", "Bandage", 10 },
-			{ "ACE_morphine", "", 100 },
-			{ "ACE_Earplugs", "", 80 },
+			{ "FirstAidKit", "", 15 },
 			{ "Chemlight_red", "", 5 },
 			{ "Chemlight_yellow", "", 5 },
 			{ "Chemlight_green", "", 5 },
@@ -241,15 +240,10 @@ class WeaponShops {
         items[] = {
         	{ "Binocular", "", 15 },
 			{ "ItemGPS", "", 10 },
-			{ "ACE_Earplugs", "", 80 },
 			{ "ToolKit", "", 50 },
-			{ "ACE_quikclot", "Bandage", 60 },
-			{ "ACE_morphine", "", 10 },
-			{ "FirstAidKit", "", 15 },
 			{ "pmc_earpiece", "", 100 },
-			{ "Rangefinder", "", 15 },
-            { "ACE_Vector", "", 25 },
-            { "ACE_CableTie", "", 50 },    
+			{ "Rangefinder", "", 15 },	
+			{ "FirstAidKit", "", 15 },
             { "O_UavTerminal", "Terminal", 15 },
 			{ "tf_anprc152", "Radio Courte", 0 }
         };
@@ -264,15 +258,10 @@ class WeaponShops {
         items[] = {
         	{ "Binocular", "", 15 },
 			{ "ItemGPS", "", 10 },
-			{ "ACE_quikclot", "Bandage", 60 },
-			{ "ACE_morphine", "", 10 },
 			{ "ToolKit", "", 50 },
-			{ "ACE_Earplugs", "", 80 },
 			{ "FirstAidKit", "", 15 },
 			{ "pmc_earpiece", "", 100 },
-			{ "Rangefinder", "", 15 },
-            { "ACE_Vector", "", 25 },
-            { "ACE_CableTie", "", 50 },    
+			{ "Rangefinder", "", 15 },  
 			{ "tf_anprc152", "Radio (5km)", 0 }
         };
     };
@@ -291,6 +280,8 @@ class WeaponShops {
             { "optic_Aco_smg", "", 25 },
             { "optic_ACO_grn", "", 25 },
             { "optic_Aco", "", 50 },
+            { "FHQ_optic_AC11704", "", 100 },
+            { "FHQ_optic_AC12136", "", 100 },    
             { "acc_pointer_IR", "", 20 },
             { "bipod_01_F_blk", "", 50 },
             { "SmokeShell", "", 30 },
@@ -326,6 +317,9 @@ class WeaponShops {
             { "optic_MRCO", "", 100 },
             { "optic_Hamr", "", 100 },
             { "optic_Arco", "", 100 },
+            { "FHQ_optic_AC11704", "", 100 },
+            { "FHQ_optic_AC12136", "", 100 },
+            { "FHQ_optic_ACOG", "", 100 },    
             { "acc_pointer_IR", "", 20 },
             { "bipod_01_F_blk", "", 50 },
             { "SmokeShell", "", 30 },
@@ -379,6 +373,9 @@ class WeaponShops {
             { "optic_MRCO", "", 100 },
             { "optic_Hamr", "", 100 },
             { "optic_Arco", "", 100 },
+            { "FHQ_optic_AC11704", "", 100 },
+            { "FHQ_optic_AC12136", "", 100 },
+            { "FHQ_optic_ACOG", "", 100 },    
             { "acc_pointer_IR", "", 20 },
             { "bipod_01_F_blk", "", 50 },
             { "SmokeShell", "", 30 },
@@ -446,6 +443,9 @@ class WeaponShops {
             { "optic_MRCO", "", 100 },
             { "optic_Hamr", "", 100 },
             { "optic_Arco", "", 100 },
+            { "FHQ_optic_AC11704", "", 100 },
+            { "FHQ_optic_AC12136", "", 100 },
+            { "FHQ_optic_ACOG", "", 100 },    
             { "acc_pointer_IR", "", 20 },
             { "bipod_01_F_blk", "", 50 },
             { "SmokeShell", "", 30 },
@@ -496,8 +496,7 @@ class WeaponShops {
             //Mjr
             { "B_UavTerminal", "", 250 },
             { "optic_SOS", "", 170 },
-            { "HandGrenade_Stone", "Flashbang", 150 },
-			{ "ACE_M84", "", 150 },			
+            { "HandGrenade_Stone", "Flashbang", 150 },	
             { "srifle_EBR_F", "", 580 } ,
             { "20Rnd_762x51_Mag", "", 19 },
             { "Trixie_AWM338", "", 590 },
@@ -522,6 +521,9 @@ class WeaponShops {
             { "optic_MRCO", "", 100 },
             { "optic_Hamr", "", 100 },
             { "optic_Arco", "", 100 },
+            { "FHQ_optic_AC11704", "", 100 },
+            { "FHQ_optic_AC12136", "", 100 },
+            { "FHQ_optic_ACOG", "", 100 },    
             { "acc_pointer_IR", "", 20 },
             { "bipod_01_F_blk", "", 50 },
             { "SmokeShell", "", 30 },
@@ -572,8 +574,7 @@ class WeaponShops {
             //Mjr
             { "B_UavTerminal", "", 250 },
             { "optic_SOS", "", 170 },
-            { "HandGrenade_Stone", "Flashbang", 150 },
-			{ "ACE_M84", "", 150 },			
+            { "HandGrenade_Stone", "Flashbang", 150 },			
             { "srifle_EBR_F", "", 580 } ,
             { "20Rnd_762x51_Mag", "", 19 },
             { "Trixie_AWM338", "", 590 },
@@ -605,6 +606,9 @@ class WeaponShops {
             { "optic_MRCO", "", 100 },
             { "optic_Hamr", "", 100 },
             { "optic_Arco", "", 100 },
+            { "FHQ_optic_AC11704", "", 100 },
+            { "FHQ_optic_AC12136", "", 100 },
+            { "FHQ_optic_ACOG", "", 100 },    
             { "acc_pointer_IR", "", 20 },
             { "bipod_01_F_blk", "", 50 },
             { "SmokeShell", "", 30 },
@@ -656,7 +660,6 @@ class WeaponShops {
             { "B_UavTerminal", "", 250 },
             { "optic_SOS", "", 170 },
             { "HandGrenade_Stone", "Flashbang", 150 },
-			{ "ACE_M84", "", 150 },
             { "srifle_EBR_F", "", 580 } ,
             { "20Rnd_762x51_Mag", "", 19 },
             { "Trixie_AWM338", "", 590 },
@@ -691,6 +694,9 @@ class WeaponShops {
             { "optic_MRCO", "", 100 },
             { "optic_Hamr", "", 100 },
             { "optic_Arco", "", 100 },
+            { "FHQ_optic_AC11704", "", 100 },
+            { "FHQ_optic_AC12136", "", 100 },
+            { "FHQ_optic_ACOG", "", 100 },    
             { "acc_pointer_IR", "", 20 },
             { "bipod_01_F_blk", "", 50 },
             { "SmokeShell", "", 30 },
@@ -742,7 +748,6 @@ class WeaponShops {
             { "B_UavTerminal", "", 250 },
             { "optic_SOS", "", 170 },
             { "HandGrenade_Stone", "Flashbang", 150 },
-			{ "ACE_M84", "", 150 },
             { "srifle_EBR_F", "", 580 } ,
             { "20Rnd_762x51_Mag", "", 19 },
             { "Trixie_AWM338", "", 590 },
@@ -768,7 +773,6 @@ class WeaponShops {
         items[] = {
 
             { "Rangefinder", "", 10 },
-			{ "ACE_Earplugs", "", 80 },
             { "R3F_Famas_G2_HG", "", 10 },
             { "R3F_Famas_F1_HG_DES", "", 10 },
             { "R3F_25Rnd_556x45_TRACER_FAMAS", "", 10 },
@@ -820,7 +824,6 @@ class WeaponShops {
         items[] = {
 
             { "Rangefinder", "", 10 },
-			{ "ACE_Earplugs", "", 80 },
             { "B_UavTerminal", "", 10 },
             { "arifle_sdar_F", "", 10 },
             { "20Rnd_556x45_UW_mag", "", 10 },
@@ -897,6 +900,18 @@ class WeaponShops {
             { "bipod_01_F_blk", "", 10 }
         };
     };
+    //Shop Streamer
+    class girl {
+        name = "Armes";
+        side = "armer";
+        license = "girl";
+        level = -1;
+        msg = "";
+        items[] = {
+            { "Trixie_AS50", "", 1000 },
+            { "Trixie_10x127_Mag", "", 100 }
+        };
+    };
 	//Shop Donateur
     class donator {
         name = "Donator Shop";
@@ -907,43 +922,51 @@ class WeaponShops {
             { "ALFR_BaseballBat", "", 1000 },
             { "ALFR_BaseballBat_Grey", "", 1000 },
             { "ALFR_Machete", "", 1000 },
-            { "hgun_Rook40_F", "", 5500 },
+			{ "hgun_Rook40_F", "", 8800 },
             { "16Rnd_9x21_Mag", "", 100 },
-            { "hgun_Pistol_heavy_01_F", "", 9375 },
+            { "hgun_Pistol_heavy_01_F", "", 15000 },
             { "11Rnd_45ACP_Mag", "", 100 },
-            { "optic_MRD", "Viseur 4-Five", 625 },
-            { "hgun_Pistol_heavy_02_F", "", 6250 },
+            { "optic_MRD", "Viseur 4-Five", 1000 },
+            { "hgun_Pistol_heavy_02_F", "", 10000 },
             { "6Rnd_45ACP_Cylinder", "", 100 },
-            { "hgun_Sam_hk45_F", "", 7500 },
+            { "hgun_Sam_hk45_F", "", 12000 },
             { "10Rnd_45acp_hk45_Mag", "", 100 },
-            { "hgun_ACPC2_F", "", 6875 },
+            { "hgun_ACPC2_F", "", 11000 },
             { "9Rnd_45ACP_Mag", "", 100 },
-            { "hgun_SA_makarov_pm_F", "", 5375 },
+            { "hgun_SA_makarov_pm_F", "", 8600 },
             { "8Rnd_9x18_Mag", "", 100 },
-            { "hgun_sam_browning_hp_F", "", 5375 },
+            { "hgun_sam_browning_hp_F", "", 8600 },
             { "16Rnd_9x21_Mag", "", 100 },
-            { "SIG_P226", "", 5500 },
+            { "SIG_P226", "", 8800 },
             { "16Rnd_9x21_Mag", "", 100 },
-            { "smg_SA_9a91", "", 8750 },
+            { "smg_SA_9a91", "", 14000 },
             { "20Rnd_SA_9x39", "", 200 },
-            { "hgun_PDW2000_F", "", 8750 },
+            { "hgun_PDW2000_F", "", 14000 },
             { "30Rnd_9x21_Mag", "", 200 },
-            { "C1987_MP7", "", 11250 },
-            { "C1987_MP7_ucp", "", 11250 },
-            { "C1987_MP7_urb", "", 11250 },
-            { "C1987_MP7_dmarpat", "", 11250 },
-            { "C1987_MP7_marpat", "", 11250 },
-            { "C1987_MP7_wcam", "", 11250 },
-            { "C1987_MP7_sand", "", 11250 },
-            { "C1987_MP7_nwu", "", 11250 },
-            { "C1987_MP7_folded_p", "", 11250 },
+            { "C1987_MP7", "", 18000 },
+            { "C1987_MP7_ucp", "", 18000 },
+            { "C1987_MP7_urb", "", 18000 },
+            { "C1987_MP7_dmarpat", "", 18000 },
+            { "C1987_MP7_marpat", "", 18000 },
+            { "C1987_MP7_wcam", "", 18000 },
+            { "C1987_MP7_sand", "", 18000 },
+            { "C1987_MP7_nwu", "", 18000 },
+            { "C1987_MP7_folded_p", "", 16250 },
             { "C1987_20Rnd_46x30_mp7", "", 200 },
             { "C1987_40Rnd_46x30_mp7", "", 400 },
-            { "R3F_MP5A5", "", 12500 },
+            { "R3F_MP5A5", "", 20000 },
             { "R3F_30Rnd_9x19_MP5", "", 200 },
-            { "optic_ACO_grn_smg", "", 625 },
-            { "arifle_SDAR_F", "", 18750 },
-            { "20Rnd_556x45_UW_mag", "Chargeur SDAR sous-marin", 200 }
+			{ "arifle_SDAR_F", "", 23000 },
+            { "20Rnd_556x45_UW_mag", "Chargeur SDAR sous-marin", 200 },
+           	{ "C1987_zeiss_AIM", "", 500 },
+			{ "C1987_zeiss_AIM_ucp", "", 500 },
+			{ "C1987_zeiss_AIM_dmarpat", "", 500 },
+			{ "C1987_zeiss_AIM_marpat", "", 500 },
+			{ "C1987_zeiss_AIM_nwu", "", 500 },
+			{ "C1987_zeiss_AIM_sand", "", 500 },
+			{ "C1987_zeiss_AIM_urb", "", 500 },
+			{ "C1987_zeiss_AIM_wcam", "", 500 },				
+		    { "optic_ACO_grn_smg", "", 1000 }
         };
     };
     //Shop des médecins
@@ -959,19 +982,9 @@ class WeaponShops {
 			{ "ItemMap", "", 10 },
 			{ "ItemGPS", "", 10 },
 			{ "ToolKit", "", 50 },
-			{ "ACE_fieldDressing", "", 10 },
-			{ "ACE_bloodIV", "", 10 },
-			{ "ACE_bloodIV_500", "", 10 },
-			{ "ACE_bloodIV_250", "", 10 },
-			{ "ACE_bodyBag", "", 10 },
-			{ "ACE_bodyBagObject", "", 10 },
-			{ "ACE_epinephrine", "", 10 },
-			{ "ACE_morphine", "", 10 },
-			{ "ACE_packingBandage", "", 10 },
-			{ "ACE_tourniquet", "", 10 },
+			{ "Medikit", "", 50 },
             { "pmc_earpiece", "", 100 },
             { "H_PilotHelmetHeli_B", "", 80 },
-			{ "ACE_Earplugs", "", 80 },
 			{ "ALFR_Police_Backpack", "", 100 },
             { "tf_anprc152", "Radio (5km)", 0 },
             { "tf_anprc155_coyote", "Radio (20km)(sac)", 50 }

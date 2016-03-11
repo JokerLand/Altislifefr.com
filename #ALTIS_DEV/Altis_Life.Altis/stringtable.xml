@@ -3427,6 +3427,10 @@
 			<Original>Depanneur</Original>
 			<French>Depanneur</French>
 		</Key>
+        <Key ID="STR_License_Girl">
+			<Original>Licence Femme</Original>
+			<French>Licence Femme</French>
+		</Key>
         <Key ID="STR_License_Ion">
 			<Original>Licence Entreprise Ion</Original>
 			<French>Licence Entreprise Ion</French>
