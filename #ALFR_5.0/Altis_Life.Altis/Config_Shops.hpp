@@ -33,7 +33,7 @@
 			{ "20Rnd_556x45_UW_mag", "Chargeur SDAR sous-marin", 500 },		
 			//	Viseur	
 			{ "optic_MRD", "", 1000 },
-			{ "optic_Yorris", "", 1000 }
+			{ "optic_Yorris", "", 1000 },
 			{ "C1987_zeiss_AIM", "", 1000 }
         };
     };
