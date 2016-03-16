@@ -1,4 +1,4 @@
-/*
+﻿/*
 	File: fn_restrainAction.sqf
 	Author: Bryan "Tonic" Boardwine
 	
@@ -15,6 +15,13 @@ if(player == _unit) exitWith {};
 if(!isPlayer _unit) exitWith {};
 //Broadcast!
 player say3D "cuff";
+// Serflex
+if (side player == civilian) then {
+	if(life_inv_serflex < 1) exitWith { hint "Vous n'avez pas de Serflex sur vous!"; };
+	life_inv_serflex = life_inv_serflex - 1;
+	player say3D "cuff";
+	hint "Vous avez attaché votre cible avec un Serflex. Pour plus d'options, utilisez votre menu d'interaction (Par défaut : 'Windows gauche')";
+};
 
 _unit setVariable["restrained",true,true];
 [[player], "life_fnc_restrain", _unit, false] call life_fnc_MP;

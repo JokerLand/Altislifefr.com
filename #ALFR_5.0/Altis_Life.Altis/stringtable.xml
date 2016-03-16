@@ -4979,5 +4979,9 @@
 			<Original>Projecteur</Original>
 			<French>Projecteur</French>
 		</Key>
+        <Key ID="STR_AltisLifeFr_serflex">
+			<Original>Serflex</Original>
+			<French>Serflex</French>
+		</Key>		
 </Package>
 </Project>

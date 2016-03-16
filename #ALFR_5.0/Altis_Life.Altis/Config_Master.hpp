@@ -125,7 +125,8 @@ class VirtualItems {
     VITEMMACRO(cone, "STR_AltisLifeFr_Cone", "cone", 2, 0, 0, false, -1, "icons\ico_cone.paa")
     VITEMMACRO(glissiere, "STR_AltisLifeFr_glissiere", "glissiere", 2, 0, 0, false, -1, "icons\ico_barriere.paa")
     VITEMMACRO(barstop, "STR_AltisLifeFr_barstop", "barstop", 2, 0, 0, false, -1, "icons\ico_barriere.paa")
-    VITEMMACRO(lightd, "STR_AltisLifeFr_lightd", "lightd", 2, 0, 0, false, -1, "icons\ico_cone.paa")    
+    VITEMMACRO(lightd, "STR_AltisLifeFr_lightd", "lightd", 2, 0, 0, false, -1, "icons\ico_cone.paa")  
+    VITEMMACRO(serflex, "STR_AltisLifeFr_serflex", "serflex", 2, 2000, 1000, true, -1, "icons\ico_serflex.paa")    	
     
     //Misc
 	VITEMMACRO(pickaxe, "STR_Item_Pickaxe", "pickaxe", 2, 55, 27, false, -1, "icons\ico_pickaxe.paa")
@@ -158,7 +159,7 @@ class VirtualItems {
 
 	//Drugs
 	VITEMMACRO(heroin_unprocessed, "STR_Item_HeroinU", "heroinUnprocessed", 6, -1, -1, true, -1, "icons\ico_heroin.paa")
-	VITEMMACRO(heroin_processed, "STR_Item_HeroinP", "heroinProcessed", 4, -1, 470, true, -1, "icons\ico_crack.paa")
+	VITEMMACRO(heroin_processed, "STR_Item_HeroinP", "heroinProcessed", 4, -1, 505, true, -1, "icons\ico_crack.paa")
 	VITEMMACRO(cannabis, "STR_Item_Cannabis", "cannabis", 4, -1, -1, true, -1, "icons\ico_cannabis.paa")
 	VITEMMACRO(marijuana, "STR_Item_Marijuana", "marijuana", 3, -1, 305, true, -1, "icons\ico_marijuana.paa")
 	VITEMMACRO(cocaine_unprocessed, "STR_Item_CocaineU", "cocaineUnprocessed", 6, -1, 60, true, -1, "icons\ico_coke.paa")
@@ -188,7 +189,7 @@ class VirtualItems {
 	VITEMMACRO(mullet_fried, "STR_Item_MulletFried", "mulletFried", 2, 600, 250, false, 80, "icons\ico_cookedMeat.paa")
 	VITEMMACRO(catshark_raw, "STR_Item_CatSharkMeat", "catsharkRaw", 6, -1, 200, false, -1, "icons\ico_fish.paa")
 	VITEMMACRO(catshark_fried, "STR_Item_CatSharkFried", "catsharkFried", 3, 750, 250, false, 100, "icons\ico_cookedMeat.paa")
-	VITEMMACRO(turtle_raw, "STR_Item_Turtle", "turtleRaw", 6, -1, 2200, true, -1, "icons\ico_turtle.paa")
+	VITEMMACRO(turtle_raw, "STR_Item_Turtle", "turtleRaw", 6, -1, 1850, true, -1, "icons\ico_turtle.paa")
 	VITEMMACRO(turtle_soup, "STR_Item_TurtleSoup", "turtleSoup", 2, 500, 250, false, 100, "icons\ico_cookedMeat.paa")
 	VITEMMACRO(hen_raw, "STR_Item_HenRaw", "henRaw", 1, -1, 35, false, -1, "icons\food.paa")
 	VITEMMACRO(hen_fried, "STR_Item_HenFried", "henFried", 1, 115, 85, false, 65, "icons\ico_cookedMeat.paa")
@@ -263,7 +264,7 @@ class VirtualShops {
 
 	class rebel {
 		name = "STR_Shops_Rebel";
-		items[] = { "waterBottle", "rabbit_grilled", "apple", "redgull", "tbacon", "lockpick", "pickaxe", "fuelFull", "peach", "boltcutter", "blastingcharge" };
+		items[] = { "waterBottle", "rabbit_grilled", "apple", "redgull", "tbacon", "lockpick", "pickaxe", "fuelFull", "peach", "boltcutter", "blastingcharge", "serflex" };
 	};
 
 	class gang {

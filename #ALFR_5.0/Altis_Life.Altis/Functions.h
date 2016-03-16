@@ -237,6 +237,7 @@ class Life_Client_Core
 		class civLoadout {};
         class PasseportAction {};
 		class Passeport {};
+		class civInteractionMenu {};
 	};
 	
 	class Vehicle
