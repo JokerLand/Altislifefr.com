@@ -2177,6 +2177,13 @@
 			<Italian>Hai pagato la multa di €%1</Italian>
 			<Portuguese>VOcê pagou a multa de R$%1</Portuguese>
 		</Key>
+		<Key ID="STR_Cop_Se_Rendre">
+			<Original>Voulez-vous vraiment vous rendre</Original>
+			<German>Voulez-vous vraiment vous rendre</German>
+			<French>Voulez-vous vraiment vous rendre</French>
+			<Italian>Voulez-vous vraiment vous rendre</Italian>
+			<Portuguese>Voulez-vous vraiment vous rendre</Portuguese>
+		</Key>
 		<Key ID="STR_Cop_Renfort">
 			<Original>Voulez-vous vraiment appeller des renforts</Original>
 			<German>Voulez-vous vraiment appeller des renforts</German>
