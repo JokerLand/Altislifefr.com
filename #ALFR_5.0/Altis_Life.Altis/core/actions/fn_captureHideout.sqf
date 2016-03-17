@@ -1,4 +1,4 @@
-#include <macro.h>
+﻿#include <macro.h>
 /*
 	Author: Bryan "Tonic" Boardwine
 	
@@ -71,7 +71,7 @@ if((player getVariable["restrained",false])) exitWith {life_action_inUse = false
 if(life_interrupted) exitWith {life_interrupted = false; titleText[localize "STR_GNOTF_CaptureCancel","PLAIN"]; life_action_inUse = false;_hideout setVariable["inCapture",false,true];};
 life_action_inUse = false;
 
-titleText["Hideout has been captured.","PLAIN"];
+titleText["La planque a été capturé.","PLAIN"];
 _flagTexture = [
 		"\A3\Data_F\Flags\Flag_red_CO.paa",
 		"\A3\Data_F\Flags\Flag_green_CO.paa",
@@ -83,6 +83,6 @@ _flagTexture = [
 		"\A3\Data_F\Flags\flag_fd_orange_CO.paa"
 	] call BIS_fnc_selectRandom;
 _this select 0 setFlagTexture _flagTexture;
-[[[0,1],"STR_GNOTF_CaptureSuccess",true,[name player,(group player) getVariable "gang_name"]],"life_fnc_broadcast",true,false] call life_fnc_MP;
+// [[[0,1],"STR_GNOTF_CaptureSuccess",true,[name player,(group player) getVariable "gang_name"]],"life_fnc_broadcast",true,false] call life_fnc_MP;
 _hideout setVariable["inCapture",false,true];
 _hideout setVariable["gangOwner",grpPlayer,true];
