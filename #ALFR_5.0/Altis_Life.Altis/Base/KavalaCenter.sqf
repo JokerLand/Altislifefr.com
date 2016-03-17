@@ -53,26 +53,6 @@ _dat = ["Land_Sack_F","[3414.361328,13128.466797,0.424243]",-173.308,-100,0,0,[]
 _dat = ["Land_LampDecor_F","[3383.938477,13105.647461,0.228956]",-173.308,-100,0,0,[],1];call _cString;
 _dat = ["Land_LampDecor_F","[3417.121338,13119.484375,0.183502]",-173.308,-100,0,0,[],1];call _cString;
 
-//Hopital
-
-_dat = ["Land_HelipadRescue_F","[3727.958008,12995.919922,0]",90,-100,0,0,[],1];call _cString;
-_dat = ["Land_PipeWall_concretel_8m_F","[3731.852295,13035.711914,0]",-65,-100,0,1,[],1];call _cString;
-_dat = ["Land_PipeWall_concretel_8m_F","[3728.41626,13028.532227,0]",-63.6742,-100,0,1,[],1];call _cString;
-_dat = ["Land_PipeWall_concretel_8m_F","[3724.899902,13021.425781,0.000246048]",295.743,-100,0,1,[],1];call _cString;
-_dat = ["Land_PipeWall_concretel_8m_F","[3721.973145,13014.105469,0]",-72.0707,-100,0,1,[],1];call _cString;
-_dat = ["Land_PipeWall_concretel_8m_F","[3720.00976563,13006.429688,0]",-79.2045,-100,0,1,[],1];call _cString;
-_dat = ["Land_HelipadSquare_F","[3743.254639,12991.96582,0]",359.369,-100,0,0,[],1];call _cString;
-_dat = ["Land_Obstacle_Saddle_F","[3734.854736,13003.00488281,-0.0749158]",-91.5152,-100,0,1,[],1];call _cString;
-_dat = ["Land_Obstacle_Saddle_F","[3734.82373,13006.890625,-0.0749158]",-91.5152,-100,0,1,[],1];call _cString;
-_dat = ["Land_Obstacle_Saddle_F","[3734.798584,13010.878906,-0.0749158]",-91.5152,-100,0,1,[],1];call _cString;
-_dat = ["Land_Obstacle_Saddle_F","[3734.757813,13014.854492,-0.0749158]",-91.5152,-100,0,1,[],1];call _cString;
-_dat = ["Land_Obstacle_Saddle_F","[3734.736816,13018.841797,-0.0749158]",-91.5152,-100,0,1,[],1];call _cString;
-_dat = ["Land_Obstacle_Saddle_F","[3734.718994,13022.783203,-0.0749158]",-91.5152,-100,0,1,[],1];call _cString;
-_dat = ["Land_Obstacle_Saddle_F","[3756.00610352,13014.90332,-0.0622311]",268.481,-100,0,1,[],1];call _cString;
-_dat = ["Land_Obstacle_Saddle_F","[3753.709229,13014.841797,-0.0639731]",-91.5152,-100,0,1,[],1];call _cString;
-_dat = ["Land_LampDecor_F","[3708.235596,13009.708984,0.23064]",-91.5152,-100,0,0,[],1];call _cString;
-_dat = ["Land_LampDecor_F","[3742.966797,13028.768555,0.23064]",-94.1036,-100,0,0,[],1];call _cString;
-
 //Quaincallerie
 
 _dat = ["Land_Obstacle_Saddle_F","[3685.834473,13269.201172,-0.0596333]",23.0992,-100,0,1,[],1];call _cString;
