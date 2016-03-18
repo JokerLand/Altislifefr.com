@@ -364,6 +364,13 @@ class CfgVehicles {
 		garageSell[] = { 1000, 1000, 1000, 1000 };
 		chopShop = 3000;
 	};
+	
+	class GR_Bell412_1 : Default {
+		vItemSpace = 5;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 1000, 1000, 1000, 1000 };
+		chopShop = 15000;
+	};
 
     class cl3_suv_taxi : Default {
         vItemSpace = 5;
@@ -4236,7 +4243,7 @@ class CfgVehicles {
 		garageSell[] = { 1000, 1000, 1000, 1000 };
 		chopShop = 6000;
 		textures[] = {};
-	};
+	};	
     
     class GeK_Renault_Trafic : Default {
 		vItemSpace = 65;
