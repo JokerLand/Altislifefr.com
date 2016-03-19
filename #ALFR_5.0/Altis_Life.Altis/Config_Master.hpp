@@ -113,7 +113,7 @@ class Life_Settings {
 		{"30Rnd_9x21_Mag", 0}
 	};
 
-	allowedSavedVirtualItems[] = { "pickaxe", "fuelEmpty", "fuelFull", "spikeStrip", "lockpick", "defuseKit", "storageSmall", "storageBig", "redgull", "coffee", "waterBottle", "apple", "peach", "tbacon", "donuts", "rabbitGrilled", "salemaGrilled", "ornateGrilled", "mackerelGrilled", "tunaGrilled", "mulletGrilled", "catsharkGrilled", "turtleSoup", "henGrilled", "roosterGrilled", "sheepGrilled", "goatGrilled", "barriere", "cone", "glissiere", "barstop", "lightd" };
+	allowedSavedVirtualItems[] = { "serflex", "pickaxe", "fuelEmpty", "fuelFull", "spikeStrip", "lockpick", "defuseKit", "storageSmall", "storageBig", "redgull", "coffee", "waterBottle", "apple", "peach", "tbacon", "donuts", "rabbitGrilled", "salemaGrilled", "ornateGrilled", "mackerelGrilled", "tunaGrilled", "mulletGrilled", "catsharkGrilled", "turtleSoup", "henGrilled", "roosterGrilled", "sheepGrilled", "goatGrilled", "barriere", "cone", "glissiere", "barstop", "lightd" };
 };
 
 //Virtual Items
@@ -252,7 +252,8 @@ class Licenses {
     LICENSEMACRO(girl,"STR_License_Girl","girl",-1,false,"civ")    
         
     /** Entreprise **/
-    LICENSEMACRO(ion,"STR_License_Ion","ion",-1,false,"civ")    
+    LICENSEMACRO(ion,"STR_License_Ion","ion",-1,false,"civ")
+	LICENSEMACRO(aan,"STR_License_Aan","aan",-1,false,"civ")	
 
 };
 

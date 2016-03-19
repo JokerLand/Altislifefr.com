@@ -3439,9 +3439,13 @@
 			<French>Licence Femme</French>
 		</Key>
         <Key ID="STR_License_Ion">
-			<Original>Licence Entreprise Ion</Original>
-			<French>Licence Entreprise Ion</French>
+			<Original>Entreprise Ion</Original>
+			<French>Entreprise Ion</French>
 		</Key>
+        <Key ID="STR_License_Aan">
+			<Original>Entreprise AAN World News</Original>
+			<French>Entreprise AAN World News</French>
+		</Key>		
 		<Key ID="STR_License_Marijuana">
 			<Original>Marijuana Training</Original>
 			<German>Marihuanaausbildung</German>

@@ -747,6 +747,38 @@ class Clothing {
 			{ "NONE", "Supprime sac", 0, { "", "", -1 } }
 		};
 	};
+	
+	class aan {
+		title = "Vestiaire AAN";
+		license = "aan";
+		side = "civ";
+
+		uniforms[] = {
+			{ "NONE", "Supprime uniforme", 0, { "", "", -1 } },
+			{ "U_C_Journalist", "", 150, { "", "", -1 } }
+		};
+
+		headgear[] = {
+			{ "NONE", "Supprime couvre-chef", 0, { "", "", -1 } },
+			{ "H_ALFR_Headset", "", 50, { "", "", -1 } },
+			{ "H_Cap_press", "", 100, { "", "", -1 } }
+		};
+
+		goggles[] = {
+			{ "NONE", "Supprime lunette", 0, { "", "", -1 } }
+		};
+
+		vests[] = {
+			{ "NONE", "Supprime gilet", 0, { "", "", -1 } },
+			{ "V_BandollierB_blk", "", 250, { "", "", -1 } },
+			{ "V_Press_F", "", 1000, { "", "", -1 } }			
+		};
+
+		backpacks[] = {
+			{ "NONE", "Supprime sac", 0, { "", "", -1 } },
+			{ "CUP_B_AssaultPack_Black", "", 500, { "", "", -1 } }
+		};
+	};	
     
     //Shop Femme
     class girl {

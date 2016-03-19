@@ -96,5 +96,6 @@ switch (_var) do
     case "license_civ_depannage": {(localize "STR_License_Depanneur")};
     case "license_civ_girl": {(localize "STR_License_Girl")};
     case "license_civ_ion": {(localize "STR_License_Ion")};
+	case "license_civ_aan": {(localize "STR_License_Aan")};
 
 };
