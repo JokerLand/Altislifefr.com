@@ -255,7 +255,7 @@
 			{ "CUP_20Rnd_9x39_SP5_VSS_M", "", 100 },
         	{ "CUP_srifle_M107_Base", "", 100000 },
 			{ "CUP_10Rnd_127x99_M107", "", 250 },			
-			{ "CUP_launch_RPG7V", "", 125000 },
+			{ "CUP_launch_RPG7V", "", 130000 },
 			{ "CUP_TBG7V_M", "RPG7 Roquette Anti-Personnel", 15000 },
 			{ "CUP_PG7VR_M", "RPG7 Roquette Anti-Matériel", 15000 }
         };
