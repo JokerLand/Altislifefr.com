@@ -205,6 +205,8 @@ class Life_Client_Core
 		class callbackup {};
 		class backupCall {};
 		class confirmRenfort {};
+        class Stop {};
+        class confirmStop {};		
         class playSound {};
 	};
 	
@@ -237,6 +239,7 @@ class Life_Client_Core
 		class civLoadout {};
         class PasseportAction {};
 		class Passeport {};
+		class civInteractionMenu {};
 	};
 	
 	class Vehicle

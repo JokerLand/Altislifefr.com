@@ -208,20 +208,20 @@ switch (_code) do
 		};
 	};
 
-	//Shift+C Zipties ( Civilians can restrain )
+	//Shift+C Serflex ( Pour que les rebelles/gangster puissent menotter )
 	case 46:
 	{
 		if(_shift) then {_handled = true;};
-		if(_shift && license_civ_rebel && playerSide == civilian && !isNull cursorTarget && cursorTarget isKindOf "Man" && (isPlayer cursorTarget) && (side cursorTarget in [civilian,independent]) && alive cursorTarget && cursorTarget distance player < 3.5 && !(cursorTarget getVariable "Escorting") && !(cursorTarget getVariable "restrained") && speed cursorTarget < 1) then
+		if(_shift && playerSide == civilian && !isNull cursorTarget && cursorTarget isKindOf "Man" && (isPlayer cursorTarget) && alive cursorTarget && cursorTarget distance player < 3.5 && !(cursorTarget getVariable "Escorting") && !(cursorTarget getVariable "restrained") && speed cursorTarget < 1) then
 		{
-			if([false,"menotte",1] call life_fnc_handleInv) then
+			if([false,"serflex",1] call life_fnc_handleInv) then
 			{
 			[] call life_fnc_restrainAction;
-			hint "You restrained him, use your interactionmenu for more options";
+			hint "Vous avez attaché votre cible avec un Serflex. Pour plus d'options, utilisez votre menu d'interaction (Par défaut : 'Windows gauche')";
 			}
 				else
 				{
-				hint "Tu n'as pas de menotte!";
+				hint "Vous n'avez pas de Serflex sur vous!";
 				};
 		};
 	};
@@ -247,7 +247,20 @@ switch (_code) do
 			player playMove "AmovPercMstpSnonWnonDnon_exercisePushup";
 		};
 	};
-
+	
+    //Ear Plugs
+    case 207:
+    {
+	if(_shift) then {
+		switch (player getVariable["Earplugs",0]) do {
+			case 0: {hintSilent "Baisse du Volume de 90%"; 1 fadeSound 0.1; player setVariable ["Earplugs", 10]; };
+			case 10: {hintSilent "Baisse du Volume de 60%"; 1 fadeSound 0.4; player setVariable ["Earplugs", 40]; };
+			case 40: {hintSilent "Baisse du Volume de 30%"; 1 fadeSound 0.7; player setVariable ["Earplugs", 70]; };
+			case 70: {hintSilent "Volume de Base"; 1 fadeSound 1; player setVariable ["Earplugs", 0]; };
+		    };
+	    };
+    };	
+	
 	//Knock out, this is experimental and yeah...
     case 34:
     {
@@ -464,16 +477,6 @@ switch (_code) do
 
 		if((_code in (actionKeys "SelectAll") || _code in (actionKeys "ForceCommandingMode"))) then {true;};
 	};
-
-	//Shift+P = Faded Sound
-    case 25:
-    {
-        if(_shift) then
-        {
-            [] call life_fnc_fadeSound;
-            _handled = true;
-        };
-    };
 };
 
 _handled;

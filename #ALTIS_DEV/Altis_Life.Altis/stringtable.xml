@@ -2049,6 +2049,12 @@
 			<French>Vous avez perdu votre permis d'armes à feu pour homicide involontaire.</French>
 			<Italian>Hai perso il tuo Porto d'Armi a causa di un omicidio</Italian>
 		</Key>
+		<Key ID="STR_Civ_LicenseRemove_3">
+			<Original>Vous avez perdu votre permis de port d'arme car vous êtes mort tout en étant recherché.</Original>
+			<German>Vous avez perdu votre permis de port d'arme car vous êtes mort tout en étant recherché.</German>
+			<French>Vous avez perdu votre permis de port d'arme car vous êtes mort tout en étant recherché.</French>
+			<Italian>Vous avez perdu votre permis de port d'arme car vous êtes mort tout en étant recherché.</Italian>
+		</Key>		
 		<Key ID="STR_Civ_RobFail">
 			<Original>They didn't have any cash...</Original>
 			<German>Er hatte kein Geld...</German>
@@ -2176,6 +2182,13 @@
 			<French>Vous avez payé l'amende de $%1</French>
 			<Italian>Hai pagato la multa di €%1</Italian>
 			<Portuguese>VOcê pagou a multa de R$%1</Portuguese>
+		</Key>
+		<Key ID="STR_Cop_Se_Rendre">
+			<Original>Voulez-vous vraiment vous rendre</Original>
+			<German>Voulez-vous vraiment vous rendre</German>
+			<French>Voulez-vous vraiment vous rendre</French>
+			<Italian>Voulez-vous vraiment vous rendre</Italian>
+			<Portuguese>Voulez-vous vraiment vous rendre</Portuguese>
 		</Key>
 		<Key ID="STR_Cop_Renfort">
 			<Original>Voulez-vous vraiment appeller des renforts</Original>
@@ -3432,9 +3445,13 @@
 			<French>Licence Femme</French>
 		</Key>
         <Key ID="STR_License_Ion">
-			<Original>Licence Entreprise Ion</Original>
-			<French>Licence Entreprise Ion</French>
+			<Original>Entreprise Ion</Original>
+			<French>Entreprise Ion</French>
 		</Key>
+        <Key ID="STR_License_Aan">
+			<Original>Entreprise AAN World News</Original>
+			<French>Entreprise AAN World News</French>
+		</Key>		
 		<Key ID="STR_License_Marijuana">
 			<Original>Marijuana Training</Original>
 			<German>Marihuanaausbildung</German>
@@ -4979,5 +4996,9 @@
 			<Original>Projecteur</Original>
 			<French>Projecteur</French>
 		</Key>
+        <Key ID="STR_AltisLifeFr_serflex">
+			<Original>Serflex</Original>
+			<French>Serflex</French>
+		</Key>		
 </Package>
 </Project>

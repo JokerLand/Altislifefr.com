@@ -70,6 +70,7 @@ switch (_mode) do
             case "glissiere": {"life_inv_glissiere"};
             case "barstop": {"life_inv_barstop"};
             case "lightd": {"life_inv_lightd"};
+			case "serflex": {"life_inv_serflex"};
 		};
 	};
 	
@@ -131,6 +132,7 @@ switch (_mode) do
             case "life_inv_glissiere": {"glissiere"};
             case "life_inv_barstop": {"barstop"};
             case "life_inv_lightd": {"lightd"};
+			case "life_inv_serflex": {"serflex"};
 		};
 	};
 };
