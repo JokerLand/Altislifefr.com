@@ -1,3 +1,4 @@
+// Mapping by John Conry for AltisLifeFR.com
 private ["_obj","_dat","_cString","_adString"];
 
 _obj = objNull;_dat = [];_adString = "CAN_COLLIDE";
