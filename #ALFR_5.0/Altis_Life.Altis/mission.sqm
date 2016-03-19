@@ -3190,7 +3190,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=398;
+		items=399;
 		class Item0
 		{
 			position[]={8065.1616,35.674362,24985.314};
@@ -5338,8 +5338,8 @@ class Mission
 		};
 		class Item195
 		{
-			position[]={10233.782,95.309235,14853.762};
-			azimut=134.472;
+			position[]={14341.753,37.047718,18946.281};
+			azimut=229.77304;
 			id=417;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V2_F";
@@ -5368,8 +5368,8 @@ class Mission
 		};
 		class Item198
 		{
-			position[]={14344.318,37.079151,18952.098};
-			azimut=-41.521221;
+			position[]={10275.485,94.863518,14802.177};
+			azimut=-133.2787;
 			id=420;
 			side="EMPTY";
 			vehicle="Land_Device_assembled_F";
@@ -7383,8 +7383,8 @@ class Mission
 		};
 		class Item376
 		{
-			position[]={17872.412,2.5528908,18204.406};
-			azimut=395.76315;
+			position[]={5541.02,22.591408,14624.763};
+			azimut=451.71613;
 			id=598;
 			side="EMPTY";
 			vehicle="Land_CashDesk_F";
@@ -7427,14 +7427,14 @@ class Mission
 		};
 		class Item380
 		{
-			position[]={5327.8486,22.222124,14477.373};
+			position[]={5327.8696,22.226234,14477.305};
 			azimut=533.73798;
 			id=602;
 			side="EMPTY";
 			vehicle="Land_CashDesk_F";
 			leader=1;
 			skill=0.60000002;
-			init="this enableSimulation false; this allowDamage false;  this addAction[""Iron / Copper Trader"",life_fnc_virt_menu,""iron""];";
+			init="this enableSimulation false; this allowDamage false;  this addAction[""Vendeur de cuivre"",life_fnc_virt_menu,""copper""];";
 		};
 		class Item381
 		{
@@ -7635,10 +7635,21 @@ class Mission
 			skill=0.2;
 			init="this allowDamage false; this enableSimulation false; this addAction[""Vêtements Pour Femme"",life_fnc_clothingMenu,""girl"",0,false,false,"""",'playerSide == civilian']; ";
 		};
+		class Item398
+		{
+			position[]={17875.275,2.9108179,18209.404};
+			azimut=389.01672;
+			id=620;
+			side="EMPTY";
+			vehicle="Land_CashDesk_F";
+			leader=1;
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false;  this addAction[""Vendeur de Fer"",life_fnc_virt_menu,""iron""];";
+		};
 	};
 	class Markers
 	{
-		items=376;
+		items=377;
 		class Item0
 		{
 			position[]={8459.6777,104.56568,25131.203};
@@ -7665,7 +7676,7 @@ class Mission
 		};
 		class Item4
 		{
-			position[]={19856.078,62.778057,17895.051};
+			position[]={13925.197,25.190018,22308.605};
 			name="iron_1";
 			text="Mine de Fer";
 			type="mil_triangle";
@@ -7705,11 +7716,12 @@ class Mission
 		};
 		class Item9
 		{
-			position[]={10232.705,95.303696,14854.982};
+			position[]={14343.042,37.060909,18947.236};
 			name="iron_processing";
 			text="Traitement de Fer";
 			type="mil_box";
 			colorName="ColorBrown";
+			angle=179.8732;
 		};
 		class Item10
 		{
@@ -7783,7 +7795,7 @@ class Mission
 		};
 		class Item19
 		{
-			position[]={13928.122,24.577969,22310.945};
+			position[]={19860.533,62.63765,17883.686};
 			name="diamond_1";
 			text="Mine de Diamant";
 			type="mil_triangle";
@@ -8081,11 +8093,12 @@ class Mission
 		};
 		class Item55
 		{
-			position[]={14344.174,37.080429,18952.045};
+			position[]={10275.446,94.863449,14802.054};
 			name="dimond_1";
 			text="Traitement de Diamant";
 			type="mil_box";
 			colorName="ColorBrown";
+			angle=-91.757469;
 		};
 		class Item56
 		{
@@ -8201,7 +8214,7 @@ class Mission
 		};
 		class Item70
 		{
-			position[]={17871.844,2.4755812,18203.592};
+			position[]={5541.7002,22.616648,14624.246};
 			name="oil_trader_2";
 			text="Vendeur de Diamant";
 			type="b_unknown";
@@ -8219,8 +8232,8 @@ class Mission
 		class Item72
 		{
 			position[]={5327.8848,22.266685,14476.616};
-			name="oil_trader_4";
-			text="Vendeur de Cuivre et de Fer";
+			name="copper_trader";
+			text="Vendeur de Cuivre";
 			type="b_unknown";
 			colorName="ColorOrange";
 			angle=-0.60203898;
@@ -10651,6 +10664,15 @@ class Mission
 			text="Frontière (Mur séparant l'ouest de l'est de l'île)";
 			type="mil_dot";
 			colorName="ColorGreen";
+		};
+		class Item376
+		{
+			position[]={17875.174,2.8961596,18209.25};
+			name="iron_trader";
+			text="Vendeur de Fer";
+			type="b_unknown";
+			colorName="ColorOrange";
+			angle=-0.50365323;
 		};
 	};
 	class Sensors

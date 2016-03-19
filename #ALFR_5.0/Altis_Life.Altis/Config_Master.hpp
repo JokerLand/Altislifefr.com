@@ -305,7 +305,12 @@ class VirtualShops {
 
 	class iron  {
 		name = "STR_Shops_Minerals";
-		items[] = { "iron_refined", "copper_refined" };
+		items[] = { "iron_refined" };
+	};
+	
+	class copper  {
+		name = "STR_Shops_Minerals";
+		items[] = { "copper_refined" };
 	};
 
 	class diamond {
