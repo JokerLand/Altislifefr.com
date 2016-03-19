@@ -12,7 +12,9 @@ _state = [_this,0,1,[0]] call BIS_fnc_param;
 switch (_state) do {
 	//Death while being wanted
 	case 0: {
-		SVAR_MNS [LICENSE_VARNAME("gangster","civ"),false];
+		if(GVAR_MNS LICENSE_VARNAME("gun","civ")) then {
+			SVAR_MNS [LICENSE_VARNAME("gun","civ"),false];
+			hint localize "STR_Civ_LicenseRemove_3";
 	};
 	
 	//Jail licenses

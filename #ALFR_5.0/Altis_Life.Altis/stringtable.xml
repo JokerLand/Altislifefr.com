@@ -2049,6 +2049,12 @@
 			<French>Vous avez perdu votre permis d'armes à feu pour homicide involontaire.</French>
 			<Italian>Hai perso il tuo Porto d'Armi a causa di un omicidio</Italian>
 		</Key>
+		<Key ID="STR_Civ_LicenseRemove_3">
+			<Original>Vous avez perdu votre permis de port d'arme car vous êtes mort tout en étant recherché.</Original>
+			<German>Vous avez perdu votre permis de port d'arme car vous êtes mort tout en étant recherché.</German>
+			<French>Vous avez perdu votre permis de port d'arme car vous êtes mort tout en étant recherché.</French>
+			<Italian>Vous avez perdu votre permis de port d'arme car vous êtes mort tout en étant recherché.</Italian>
+		</Key>		
 		<Key ID="STR_Civ_RobFail">
 			<Original>They didn't have any cash...</Original>
 			<German>Er hatte kein Geld...</German>
