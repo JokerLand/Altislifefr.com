@@ -15,7 +15,7 @@ CONST(BIS_fnc_endMission,BIS_fnc_endMission);
 //Desactivation vue satellite
 if (isNil "tm4_handler_disableGroupView") then {tm4_handler_disableGroupView = [] spawn {while {alive player} do {waitUntil {sleep .5; cameraView == "group"}; player switchCamera "Internal"; sleep .5; }; terminate tm4_handler_disableGroupView; tm4_handler_disableGroupView = nil; }; };
 
-//[] execVM "core\functions\fn_Fuel_Increase.sqf";
+[] execVM "core\functions\fn_Fuel_Increase.sqf";
 
 //Execute JIP code.
 if((_this select 1)) then {
