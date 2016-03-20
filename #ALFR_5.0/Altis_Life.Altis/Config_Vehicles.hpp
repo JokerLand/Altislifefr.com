@@ -32,7 +32,8 @@ class CarShops {
 			{ "cl3_murcielago_black", 24000, "driver" },
 			{ "cl3_reventon_black", 24000, "driver" },
 			{ "wirk_ferrari_california", 24000, "driver" },
-            { "GeK_Supra", 25000, "driver" },   
+            { "GeK_Supra", 25000, "driver" },
+			{ "GeK_Cadillac_Fleetwood_Brougham_85", 25000, "driver" },   
             { "cl3_e63_amg_black", 25000, "driver" },
             { "cl3_dodge_charger_s_black", 25000, "driver" },
             { "cl3_veyron_wht_blu", 27000, "driver" },
@@ -40,7 +41,9 @@ class CarShops {
             { "CL3_bus_cl_black", 30000, "driver" },
             { "cl3_q7_black", 30000, "driver" },
             { "Jonzie_Viper", 30000, "driver" },
-            { "GeK_A45", 31000, "driver" },    
+			{ "GeK_ElCamino", 31000, "driver" },
+            { "GeK_A45", 31000, "driver" },
+			{ "wirk_ktm", 31000, "driver" },
             { "ALFR_GeK_MF1", 32000, "driver" },
             { "wirk_cayenne", 32000, "driver" },
 			{ "AudiA8_Limo", 32000, "driver" },
@@ -124,7 +127,7 @@ class CarShops {
     class veh_ion {
 		side = "civ";
 		vehicles[] = {
-            { "cl3_suv_black", 30000, "driver" },
+            { "GeK_Yukon", 38000, "driver" },
             { "GeK_Renault_Trafic", 10400, "trucking" },
             { "cl3_transit_black", 12000, "trucking" },
             { "C_Van_01_box_F", 18500, "trucking" },
@@ -222,6 +225,7 @@ class CarShops {
 		};
 	};
 
+/*
 	class donator {
 		side = "civ";
 		vehicles[] = {
@@ -243,6 +247,7 @@ class CarShops {
             { "ALFR_GeK_Volvo_FH16_2012", 47500, "trucking", { "life_donator", 1 } }
 		};
 	};
+*/
 
 	class cop_air {
 		side = "cop";
