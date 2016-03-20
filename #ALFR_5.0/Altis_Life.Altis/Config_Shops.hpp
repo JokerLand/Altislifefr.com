@@ -290,8 +290,7 @@
 			{ "Chemlight_yellow", "", 5 },
 			{ "Chemlight_green", "", 5 },
 			{ "Chemlight_blue", "", 5 },
-			{ "tf_anprc148jem", "Radio Courte", 0 },
-			{ "tf_anprc155_coyote", "Radio Longue", 0 }
+			{ "tf_anprc148jem", "Radio", 0 }
         };
     };
     //Quincaillerie Armee
@@ -310,7 +309,7 @@
 			{ "Rangefinder", "", 15 },	
 			{ "FirstAidKit", "", 15 },
             { "O_UavTerminal", "Terminal", 15 },
-			{ "tf_anprc152", "Radio Courte", 0 }
+			{ "tf_anprc152", "Radio", 0 }
         };
     };
     //Quincaillerie Police
@@ -327,7 +326,7 @@
 			{ "FirstAidKit", "", 15 },
 			{ "pmc_earpiece", "", 100 },
 			{ "Rangefinder", "", 15 },  
-			{ "tf_anprc152", "Radio (5km)", 0 }
+			{ "tf_anprc152", "Radio", 0 }
         };
     };
     //Armurerie policier
@@ -1294,8 +1293,7 @@
             { "pmc_earpiece", "", 100 },
             { "H_PilotHelmetHeli_B", "", 80 },
 			{ "ALFR_Police_Backpack", "", 100 },
-            { "tf_anprc152", "Radio (5km)", 0 },
-            { "tf_anprc155_coyote", "Radio (20km)(sac)", 50 }
+            { "tf_anprc152", "Radio", 0 }
         };
     };
 };
