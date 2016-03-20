@@ -1426,10 +1426,7 @@ class CfgVehicles {
             } },
 			{ "Noir", "reb", {
                 "#(ai,64,64,1)Fresnel(0.3,3)"
-            } },
-			{ "Camo", "reb", {
-                "GeK_Mercedes_ML63_Rebelle\data\woodland_camo.paa"
-            } },			
+            } },		
 			{ "Gris sombre", "civ", {
                 "#(argb,8,8,3)color(0.1,0.1,0.1,0.7)"
             } },

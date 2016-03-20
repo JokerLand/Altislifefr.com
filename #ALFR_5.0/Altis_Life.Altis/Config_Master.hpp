@@ -126,7 +126,7 @@ class VirtualItems {
     VITEMMACRO(glissiere, "STR_AltisLifeFr_glissiere", "glissiere", 2, 0, 0, false, -1, "icons\ico_barriere.paa")
     VITEMMACRO(barstop, "STR_AltisLifeFr_barstop", "barstop", 2, 0, 0, false, -1, "icons\ico_barriere.paa")
     VITEMMACRO(lightd, "STR_AltisLifeFr_lightd", "lightd", 2, 0, 0, false, -1, "icons\ico_cone.paa")  
-    VITEMMACRO(serflex, "STR_AltisLifeFr_serflex", "serflex", 2, 2000, 1000, true, -1, "icons\ico_serflex.paa")    	
+    VITEMMACRO(serflex, "STR_AltisLifeFr_serflex", "serflex", 2, 1000, 500, true, -1, "icons\ico_serflex.paa")    	
     
     //Misc
 	VITEMMACRO(pickaxe, "STR_Item_Pickaxe", "pickaxe", 2, 55, 27, false, -1, "icons\ico_pickaxe.paa")
