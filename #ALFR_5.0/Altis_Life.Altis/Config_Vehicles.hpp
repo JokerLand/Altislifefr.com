@@ -52,6 +52,7 @@ class CarShops {
             { "GeK_GTR", 35000, "driver" },    
             { "zorak_audi_a6", 36000, "driver" },    
             { "cl3_arielatom_race_black", 36000, "driver" },
+			{ "GeK_Yukon", 38000, "driver" },
 			{ "GeK_Civilian_H1", 40000, "driver" },
             { "GeK_Camaro", 43000, "driver" },    
             { "GeK_Mercedes_ML63", 45000, "driver" },    
@@ -166,7 +167,8 @@ class CarShops {
 			{ "GeK_A45", 31000, "rebel" }, 			
             { "ALFR_GeK_Panamera", 34500, "rebel" },		
             { "GeK_C63_AMG", 35000, "rebel" },
-            { "GeK_GTR", 35000, "rebel" },		
+            { "GeK_GTR", 35000, "rebel" },
+			{ "GeK_Yukon", 38000, "rebel" },				
             { "zorak_audi_a6", 36000, "rebel" },   			
 			{ "GeK_Avalanche", 36600, "rebel" },		
 			{ "B_G_Offroad_01_armed_F", 106000, "rebel" },
@@ -1412,6 +1414,64 @@ class CfgVehicles {
 		};
 	};
 
+	class GeK_Yukon : Default {
+		vItemSpace = 60;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 1000, 1000, 1000, 1000 };
+		chopShop = 14250;
+		textures[] = {
+
+			{ "Noir", "civ", {
+                "#(ai,64,64,1)Fresnel(0.3,3)"
+            } },
+			{ "Noir", "reb", {
+                "#(ai,64,64,1)Fresnel(0.3,3)"
+            } },
+			{ "Camo", "reb", {
+                "GeK_Mercedes_ML63_Rebelle\data\woodland_camo.paa"
+            } },			
+			{ "Gris sombre", "civ", {
+                "#(argb,8,8,3)color(0.1,0.1,0.1,0.7)"
+            } },
+			{ "Gris", "civ", {
+                "#(argb,8,8,3)color(0.5,0.5,0.5,0.1)"
+            } },
+			{ "Gris clair", "civ", {
+                "#(argb,8,8,3)color(0.3,0.3,0.3,0.8)"
+            } },
+			{ "Blanc", "civ", {
+                "#(argb,8,8,3)color(1,1,1,1)"
+            } },
+			{ "Sable", "civ", {
+                "#(argb,8,8,3)color(1.5,1.6,0.9,0.2)"
+            } },
+			{ "Bordeau", "civ", {
+                "#(argb,8,8,3)color(1,0,0,0.1)"
+            } },
+			{ "Bleu", "civ", {
+                "#(argb,8,8,3)color(0.01,0.6,1,0.1)"
+            } },
+			{ "Bleu Nuit", "civ", {
+                "#(argb,8,8,3)color(0,0,0.5,0.1)"
+            } },
+			{ "Mauve Nuit", "civ", {
+                "#(argb,8,8,3)color(0.6,0,1,0.01)"
+            } },
+			{ "vert", "civ", {
+                "#(argb,8,8,3)color(0.5,1,0.5,0.05)"
+            } },
+			{ "Rouge", "civ", {
+                "#(argb,8,8,3)color(1,0,0,1)"
+            } },
+			{ "Jaune", "civ", {
+                "#(argb,8,8,3)color(0.6,0.3,0.01,1)"
+            } },
+			{ "Orange", "civ", {
+                "#(argb,8,8,3)color(1,0.3,0.01,0.6)"
+            } }
+		};
+	};
+	
 	class GeK_Mercedes_ML63_Rebelle : Default {
 		vItemSpace = 65;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
@@ -1426,7 +1486,7 @@ class CfgVehicles {
                 "cl3_vehiclefunctions\skins\skin_camo_urban_co.paa"
             } }
 		};
-	};
+	};	
 
 	class SAL_IROCCiv : Default {
 		vItemSpace = 20;
