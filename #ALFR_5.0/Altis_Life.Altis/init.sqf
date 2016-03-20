@@ -22,3 +22,5 @@ StartProgress = true;
 /* Configuration */
 
 TF_terrain_interception_coefficient = 5;
+player setVariable ["tf_sendingDistanceMultiplicator", 20];
+player setVariable ["tf_receivingDistanceMultiplicator", 1];
