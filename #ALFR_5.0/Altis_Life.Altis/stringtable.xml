@@ -3474,6 +3474,23 @@
 			<Portuguese>Licença de Casas</Portuguese>
 		</Key>
 	</Package>
+	<Package name="Confirm_Rendre">
+		<Key ID="STR_Confirm_On">
+			<Original>Confirmer</Original>
+			<English>Confirmer</English>
+			<German>Confirmer</German>
+			<French>Confirmer</French>
+			<Italian>Confirmer</Italian>
+			<Portuguese>Confirmer</Portuguese>
+		</Key>
+		<Key ID="STR_Confirm_Off">
+			<Original>Annuler</Original>
+			<English>Annuler</German>
+			<French>Annuler</French>
+			<Italian>Annuler</Italian>
+			<Portuguese>Annuler</Portuguese>
+		</Key>
+	</Package>	
 	<Package name="Confirm_Renfort">
 		<Key ID="STR_Renfort_On">
 			<Original>Confirmer</Original>
