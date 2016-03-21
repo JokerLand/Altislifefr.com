@@ -5016,6 +5016,10 @@
         <Key ID="STR_AltisLifeFr_serflex">
 			<Original>Serflex</Original>
 			<French>Serflex</French>
-		</Key>		
+		</Key>
+        <Key ID="STR_AltisLifeFr_serendre">
+			<Original>%1 se rend et met les mains sur la tête</Original>
+ 			<French>%1 se rend et met les mains sur la tête</French>
+		</Key>				
 </Package>
 </Project>
