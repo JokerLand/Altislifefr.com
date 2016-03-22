@@ -139,6 +139,15 @@ class CarShops {
 			{ "I_Heli_Transport_02_F", 300000, "pilot" } 
 		};
 	};
+	
+    class veh_aan {
+		side = "civ";
+		vehicles[] = {
+            { "GeK_Yukon", 38000, "driver" },
+			{ "cl3_transit_black", 12000, "trucking" },
+            { "C_Heli_Light_01_civil_F", 90000, "pilot" }
+		};
+	};	
     
 	class armer_car {
 		side = "armer";
