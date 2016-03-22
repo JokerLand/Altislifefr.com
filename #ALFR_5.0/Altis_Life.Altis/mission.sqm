@@ -7661,7 +7661,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_InfoStand_V2_F";
 			skill=0.2;
-			init="this enableSimulation false; this allowDamage false; this addAction[""Vendeur de vehicule AAN"",life_fnc_vehicleShopMenu,[""veh_aan"",civilian,""civ_car_aan"",""civ"",""Achat Vehicule AAN""],0,false,false,"""",'license_civ_aan'];";
+			init="this enableSimulation false; this allowDamage false; this addAction[""Vendeur de vehicule AAN"",life_fnc_vehicleShopMenu,[""veh_aan"",civilian,""civ_car_spawn_aan"",""civ"",""Achat Vehicule AAN""],0,false,false,"""",'license_civ_aan'];";
 		};
 	};
 	class Markers
@@ -10703,14 +10703,14 @@ class Mission
 		};
 		class Item378
 		{
-			position[]={16153.879,13.339645,16961.094};
+			position[]={16154.241,13.342216,16960.934};
 			name="air_aan";
 			type="Empty";
 			angle=484.98001;
 		};
 		class Item379
 		{
-			position[]={16153.895,13.339587,16961.131};
+			position[]={16153.623,13.337847,16961.201};
 			name="car_g_aan";
 			type="Empty";
 			angle=486.15799;
@@ -10718,9 +10718,9 @@ class Mission
 		class Item380
 		{
 			position[]={16153.958,13.340365,16961.018};
-			name="civ_car_ion_1";
+			name="civ_car_spawn_aan";
 			type="Empty";
-			angle=124.04762;
+			angle=124.048;
 		};
 	};
 	class Sensors
