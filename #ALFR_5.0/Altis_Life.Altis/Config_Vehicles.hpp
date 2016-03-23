@@ -12,20 +12,21 @@ class CarShops {
             { "cl3_polo_gti_black", 2000, "driver" },
 			{ "cl3_civic_vti_black", 2000, "driver" },
             { "GeK_Clio", 2100, "driver" },
-            { "GeK_DS3", 3200, "driver" },
-            { "GeK_C30", 5500, "driver" },
-            { "zorak_bmw_120i", 7000, "driver" },    
+            { "GeK_DS3", 3200, "driver" }, 
             { "C_SUV_01_F", 3800, "driver" },
 			{ "C_Offroad_01_F", 3800, "driver" },
             { "I_G_Offroad_01_F", 4000, "driver" }, 
+			{ "GeK_C30", 5500, "driver" }, 
             { "cl3_z4_2008_black", 7000, "driver" },
             { "SAL_IROCCiv", 9500, "driver" },
+			{ "zorak_bmw_120i", 10700, "driver" }, 
 			{ "cl3_taurus_black", 12500, "driver" },
             { "cl3_xr_1000_black", 14000, "driver" },
             { "Mrshounka_ducati_p", 17000, "driver" },    
 			{ "cl3_carrera_gt_black", 20000, "driver" },
 			{ "cl3_dbs_volante_black", 20000, "driver" },
             { "cl3_arielatom_black", 20000, "driver" },
+			{ "wirk_ktm", 20800, "driver" },
             { "cl3_e60_m5_black", 24000, "driver" },    
             { "cl3_r8_spyder_black", 24000, "driver" },
             { "cl3_458_black", 24000, "driver" },
@@ -36,14 +37,13 @@ class CarShops {
 			{ "GeK_Cadillac_Fleetwood_Brougham_85", 25000, "driver" },   
             { "cl3_e63_amg_black", 25000, "driver" },
             { "cl3_dodge_charger_s_black", 25000, "driver" },
+			{ "GeK_ElCamino", 25000, "driver" },
             { "cl3_veyron_wht_blu", 27000, "driver" },
             { "GeK_TLC100", 28000, "driver" },
             { "CL3_bus_cl_black", 30000, "driver" },
             { "cl3_q7_black", 30000, "driver" },
             { "Jonzie_Viper", 30000, "driver" },
-			{ "GeK_ElCamino", 31000, "driver" },
             { "GeK_A45", 31000, "driver" },
-			{ "wirk_ktm", 31000, "driver" },
             { "ALFR_GeK_MF1", 32000, "driver" },
             { "wirk_cayenne", 32000, "driver" },
 			{ "AudiA8_Limo", 32000, "driver" },
@@ -57,9 +57,9 @@ class CarShops {
             { "cl3_arielatom_race_black", 36000, "driver" },
 			{ "GeK_Yukon", 38000, "driver" },
 			{ "GeK_Civilian_H1", 40000, "driver" },
-            { "GeK_Camaro", 43000, "driver" },    
-            { "GeK_Mercedes_ML63", 45000, "driver" },    
-			{ "ALFR_GeK_Pagani_Zonda", 44000, "driver" }
+            { "GeK_Camaro", 43000, "driver" },       
+			{ "ALFR_GeK_Pagani_Zonda", 44000, "driver" },
+			{ "GeK_Mercedes_ML63", 45000, "driver" } 
 		};
 	};
 
@@ -182,10 +182,10 @@ class CarShops {
             { "GeK_GTR", 35000, "rebel" },
 			{ "GeK_Yukon", 38000, "rebel" },				
             { "zorak_audi_a6", 36000, "rebel" },   			
-			{ "GeK_Avalanche", 36600, "rebel" },		
+			{ "GeK_Avalanche", 36600, "rebel" },
+			{ "GeK_G65", 36800, "rebel" },
 			{ "B_G_Offroad_01_armed_F", 106000, "rebel" },
 			{ "O_MRAP_02_F", 86000, "rebel" },
-            { "GeK_G65", 43000, "rebel" },
 			{ "GeK_Mercedes_ML63_Rebelle", 62000, "rebel" },			
 			{ "O_Truck_03_device_F", 114000, "rebel" },
 			{ "O_Truck_03_transport_F", 100000, "rebel" },
@@ -238,22 +238,8 @@ class CarShops {
 	class donator {
 		side = "civ";
 		vehicles[] = {
-            { "wirk_ktm", 20800, "driver", { "life_donator", 1 } },
-            { "GeK_Cadillac_Fleetwood_Brougham_85", 21000, "driver", { "life_donator", 1 } },    
-            { "GeK_ElCamino", 22900, "driver", { "life_donator", 1 } },
-            { "GeK_Avalanche", 24400, "driver", { "life_donator", 1 } },
-            { "GeK_S60", 21600, "driver", { "life_donator", 1 } },
-            { "GeK_CTSV", 21600, "driver", { "life_donator", 1 } },
-            { "ALFR_GeK_Panamera", 21600, "driver", { "life_donator", 1 } },
-            { "GeK_Mercedes_ML63", 21700, "driver", { "life_donator", 1 } },
-            { "wirk_cayenne", 21700, "driver", { "life_donator", 1 } },
-            { "GeK_Civilian_H1", 25000, "driver", { "life_donator", 1 } },
-            { "ALFR_GeK_Pagani_Zonda", 27500, "driver", { "life_donator", 1 } },
-            { "GeK_TLC100", 17500, "driver", { "life_donator", 1 } },
-            { "ALFR_GeK_MF1", 20000, "driver", { "life_donator", 1 } },
-            { "ALFR_GeK_Scania_420", 30000, "trucking", { "life_donator", 1 } },
-            { "GeK_Renault_Magnum", 38750, "trucking", { "life_donator", 1 } },
-            { "ALFR_GeK_Volvo_FH16_2012", 47500, "trucking", { "life_donator", 1 } }
+            { "----id----", --Price--, "--licence--", { "life_donator", 1 } },
+            { "----id----", --Price--, "--licence--", { "life_donator", 1 } }
 		};
 	};
 */
@@ -575,7 +561,7 @@ class CfgVehicles {
         vItemSpace = 40;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
-		chopShop = 2625;
+		chopShop = 4100;
 		textures[] = {
 
             { "Noir", "civ", {
@@ -1014,7 +1000,7 @@ class CfgVehicles {
 	};
 
     class wirk_ktm : Default {
-        vItemsSpace = 10;
+        vItemsSpace = 20;
         storageFee[] = { 1000, 1000, 1000, 1000 };
         garageSell[] = { 1000, 1000, 1000, 1000 };
         chopShop = 7800;
@@ -1370,10 +1356,10 @@ class CfgVehicles {
 	};
     
     class GeK_G65 : Default {
-		vItemSpace = 55;
+		vItemSpace = 70;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
-		chopShop = 12000;
+		chopShop = 13800;
 	};
 
 	class GeK_Mercedes_ML63 : Default {
@@ -1792,7 +1778,7 @@ class CfgVehicles {
 		vItemSpace = 35;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
-		chopShop = 8500;
+		chopShop = 9375;
 		textures[] = {
 
 			{ "Noir", "civ", {
@@ -1841,10 +1827,10 @@ class CfgVehicles {
 	};
 
 	class GeK_Avalanche : Default {
-		vItemSpace = 80;
+		vItemSpace = 50;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
-		chopShop = 9150;
+		chopShop = 13725;
 		textures[] = {
 
 			{ "Blanc", "civ", {

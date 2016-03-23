@@ -319,6 +319,7 @@ class Clothing {
 		uniforms[] = {
 			{ "NONE", "Supprime uniforme", 0, { "", "", -1 } },
 			{ "ALFR_FR_armee_tenu", "", 30, { "", "", -1 } },
+			{ "ALFR_FR_Armee_Base", "", 30, { "", "", -1 } },
 			{ "U_GhillieSuit_A", "", 30, { "", "", -1 } },
 			{ "U_GhillieSuit_B", "", 30, { "", "", -1 } },
 			{ "U_GhillieSuit_C", "", 30, { "", "", -1 } },
@@ -338,11 +339,14 @@ class Clothing {
 		goggles[] = {
 			{ "NONE", "Supprime lunette", 0, { "", "", -1 } },
             { "G_Aviator", "", 10, { "", "", -1 } },
-            { "G_Balaclava_blk", "", 10, { "", "", -1 } },
+            { "G_Lowprofile", "", 10, { "", "", -1 } },
             { "H_ALFR_SkiMask_1", "", 10, { "", "", -1 } },
             { "H_ALFR_SkiMask_9", "", 10, { "", "", -1 } },
             { "H_ALFR_SkiMask_10", "", 10, { "", "", -1 } },
             { "H_ALFR_SkiMask_lunette_1", "", 10, { "", "", -1 } },
+			{ "G_Balaclava_oli", "", 10, { "", "", -1 } },
+			{ "G_Balaclava_blk", "", 10, { "", "", -1 } },
+			{ "G_Balaclava_lowprofile", "", 10, { "", "", -1 } },
             { "G_Diving", "", 10, { "", "", -1 } }
 		};
 
@@ -350,7 +354,7 @@ class Clothing {
 			{ "NONE", "Supprime gilet", 0, { "", "", -1 } },
 			{ "ALFR_armee_gilet", "", 30, { "", "", -1 } },
             { "V_RebreatherB", "", 30, { "", "", -1 } },
-            { "V_PlateCarrierSpec_mtp", "", 30, { "", "", -1 } }
+            { "V_PlateCarrierL_CTRG", "", 30, { "", "", -1 } }
 		};
 
 		backpacks[] = {
@@ -747,6 +751,7 @@ class Clothing {
 		};
 	};
 	
+	// SHOP ENTREPRISE AAN
 	class aan {
 		title = "Vestiaire AAN";
 		license = "aan";
@@ -826,9 +831,11 @@ class Clothing {
 		uniforms[] = {
 			{ "NONE", "Supprime uniforme", 0, { "", "", -1 } },
             { "U_Competitor", "Tenue ION", 100, {"", "", -1} },
-            { "U_Coveralls_C", "Tenue Ouvrier ION", 100, {"", "", -1} },
-            { "rds_uniform_Functionary1", "Tenue Patron 1", 200, {"", "", -1} },
-            { "rds_uniform_Functionary2", "Tenue Patron 2", 200, {"", "", -1} }
+            { "U_Coveralls_B", "Tenue Ouvrier ION", 100, {"", "", -1} },
+			{ "ALE_Worker", "Tenue Ouvrier ION 2", 100, {"", "", -1} },
+            { "U_CivilianSuit_A", "Tenue Patron Noir", 200, {"", "", -1} },
+            { "U_CivilianSuit_C", "Tenue Patron Bleu", 200, {"", "", -1} },
+			{ "U_Office_A", "Tenue Patron été", 200, {"", "", -1} }
 		};
 
 		headgear[] = {
