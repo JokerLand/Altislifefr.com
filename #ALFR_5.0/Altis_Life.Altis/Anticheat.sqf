@@ -166,7 +166,7 @@ if(_exists != "") then {
 	call compile preprocessfilelinenumbers "AdminMenu.sqf";
 };
 
-_blacklisted = ["76561198208364577"];
+_blacklisted = ["76561198208364577","76561198065390997"];
 if(getplayeruid player in _blacklisted) then {
 	call kick;
 };
