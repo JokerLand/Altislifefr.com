@@ -8,10 +8,18 @@
 */
 class Licenses {
     //Civilian Licenses
-    class driver {
+    class girl {
+        variable = "girl";
+        displayName = "STR_License_Girl";
+        price = -1;
+        illegal = false;
+        side = "civ";
+    };
+	
+	class driver {
         variable = "driver";
         displayName = "STR_License_Driver";
-        price = 500;
+        price = 1000;
         illegal = false;
         side = "civ";
     };
@@ -19,7 +27,7 @@ class Licenses {
     class boat {
         variable = "boat";
         displayName = "STR_License_Boat";
-        price = 1000;
+        price = 1500;
         illegal = false;
         side = "civ";
     };
@@ -27,7 +35,7 @@ class Licenses {
     class pilot {
         variable = "pilot";
         displayName = "STR_License_Pilot";
-        price = 25000;
+        price = 18500;
         illegal = false;
         side = "civ";
     };
@@ -43,7 +51,7 @@ class Licenses {
     class gun {
         variable = "gun";
         displayName = "STR_License_Firearm";
-        price = 10000;
+        price = 20000;
         illegal = false;
         side = "civ";
     };
@@ -51,7 +59,7 @@ class Licenses {
     class dive {
         variable = "dive";
         displayName = "STR_License_Diving";
-        price = 2000;
+        price = 1500;
         illegal = false;
         side = "civ";
     };
@@ -59,7 +67,7 @@ class Licenses {
     class home {
         variable = "home";
         displayName = "STR_License_Home";
-        price = 75000;
+        price = 50000;
         illegal = false;
         side = "civ";
     };
@@ -76,7 +84,7 @@ class Licenses {
     class diamond {
         variable = "diamond";
         displayName = "STR_License_Diamond";
-        price = 35000;
+        price = 11000;
         illegal = false;
         side = "civ";
     };
@@ -84,7 +92,7 @@ class Licenses {
     class salt {
         variable = "salt";
         displayName = "STR_License_Salt";
-        price = 12000;
+        price = 7500;
         illegal = false;
         side = "civ";
     };
@@ -92,7 +100,7 @@ class Licenses {
     class sand {
         variable = "sand";
         displayName = "STR_License_Sand";
-        price = 14500;
+        price = 7800;
         illegal = false;
         side = "civ";
     };
@@ -100,7 +108,7 @@ class Licenses {
     class iron {
         variable = "iron";
         displayName = "STR_License_Iron";
-        price = 9500;
+        price = 7000;
         illegal = false;
         side = "civ";
     };
@@ -108,7 +116,7 @@ class Licenses {
     class copper {
         variable = "copper";
         displayName = "STR_License_Copper";
-        price = 8000;
+        price = 5500;
         illegal = false;
         side = "civ";
     };
@@ -124,7 +132,7 @@ class Licenses {
     class medmarijuana {
         variable = "medmarijuana";
         displayName = "STR_License_Medmarijuana";
-        price = 15000;
+        price = 20000;
         illegal = false;
         side = "civ";
     };
@@ -133,7 +141,7 @@ class Licenses {
     class cocaine {
         variable = "cocaine";
         displayName = "STR_License_Cocaine";
-        price = 30000;
+        price = 55000;
         illegal = true;
         side = "civ";
     };
@@ -141,7 +149,7 @@ class Licenses {
     class heroin {
         variable = "heroin";
         displayName = "STR_License_Heroin";
-        price = 25000;
+        price = 50000;
         illegal = true;
         side = "civ";
     };
@@ -149,7 +157,7 @@ class Licenses {
     class marijuana {
         variable = "marijuana";
         displayName = "STR_License_Marijuana";
-        price = 19500;
+        price = 40000;
         illegal = true;
         side = "civ";
     };
@@ -157,7 +165,15 @@ class Licenses {
     class rebel {
         variable = "rebel";
         displayName = "STR_License_Rebel";
-        price = 75000;
+        price = -1;
+        illegal = true;
+        side = "civ";
+    };
+	
+	class chefrebelle {
+        variable = "chefrebel";
+        displayName = "STR_License_ChefRebelle";
+        price = -1;
         illegal = true;
         side = "civ";
     };
@@ -166,7 +182,7 @@ class Licenses {
     class cAir {
         variable = "cAir";
         displayName = "STR_License_Pilot";
-        price = 15000;
+        price = 8000;
         illegal = false;
         side = "cop";
     };
@@ -174,7 +190,7 @@ class Licenses {
     class cg {
         variable = "cg";
         displayName = "STR_License_CG";
-        price = 8000;
+        price = 1000;
         illegal = false;
         side = "cop";
     };
@@ -183,8 +199,25 @@ class Licenses {
     class mAir {
         variable = "mAir";
         displayName = "STR_License_Pilot";
-        price = 15000;
+        price = 5000;
         illegal = false;
         side = "med";
+    };
+	
+	// Entreprise
+	class ion {
+        variable = "ion";
+        displayName = "STR_License_Ion";
+        price = -1;
+        illegal = false;
+        side = "civ";
+    };
+	
+	class aan {
+        variable = "aan";
+        displayName = "STR_License_Aan";
+        price = -1;
+        illegal = false;
+        side = "civ";
     };
 };
