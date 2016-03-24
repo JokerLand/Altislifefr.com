@@ -266,7 +266,7 @@ class Clothing {
 			{ "V_TacVest_blk_POLICE", "", 125, { "", "", -1 } },
 			{ "V_Police_light", "", 125, { "", "", 1 } },
 			{ "V_Police_medium", "", 125, { "", "", 1 } },
-            { "V_Police_heavy", "", 125, { "life_coplevel", "SCALAR", 2 } },
+            { "V_Police_heavy", "", 125, { "life_coplevel", "SCALAR", 3 } },
             { "V_RebreatherB", "", 125, { "", "", -1 } }
         };
         backpacks[] = {
@@ -276,6 +276,59 @@ class Clothing {
 			{ "B_UAV_01_backpack_F", "", 2500, { "life_coplevel", "SCALAR", 4 } }
         };
     };
+	
+	class armer {
+		title = "Vendeur d'équipement militaire";
+		license = "";
+		side = "armer";
+
+		uniforms[] = {
+			{ "NONE", "Supprime uniforme", 0, { "", "", -1 } },
+			{ "ALFR_FR_armee_tenu", "", 30, { "", "", -1 } },
+			{ "ALFR_FR_Armee_Base", "", 30, { "", "", -1 } },
+			{ "U_GhillieSuit_A", "", 30, { "", "", -1 } },
+			{ "U_GhillieSuit_B", "", 30, { "", "", -1 } },
+			{ "U_GhillieSuit_C", "", 30, { "", "", -1 } },
+            { "U_O_Wetsuit", "", 30, { "", "", -1 } }
+		};
+
+		headgear[] = {
+			{ "NONE", "Supprime couvre-chef", 0, { "", "", -1 } },
+            { "ALFR_armee_casque", "", 10, { "", "", -1 } },
+            { "H_Cap_headphones", "", 10, { "", "", -1 } },
+            { "H_Beret_A", "", 10, { "life_adaclevel", "SCALAR", 5 } },
+            { "H_PilotHelmetHeli_B", "", 10, { "", "", -1 } },
+            { "H_PilotHelmetHeli_O", "", 10, { "", "", -1 } },
+            { "H_ALFR_Gasmask", "", 10, { "", "", -1 } }
+		};
+
+		goggles[] = {
+			{ "NONE", "Supprime lunette", 0, { "", "", -1 } },
+            { "G_Aviator", "", 10, { "", "", -1 } },
+            { "G_Lowprofile", "", 10, { "", "", -1 } },
+            { "H_ALFR_SkiMask_1", "", 10, { "", "", -1 } },
+            { "H_ALFR_SkiMask_9", "", 10, { "", "", -1 } },
+            { "H_ALFR_SkiMask_10", "", 10, { "", "", -1 } },
+            { "H_ALFR_SkiMask_lunette_1", "", 10, { "", "", -1 } },
+			{ "G_Balaclava_oli", "", 10, { "", "", -1 } },
+			{ "G_Balaclava_blk", "", 10, { "", "", -1 } },
+			{ "G_Balaclava_lowprofile", "", 10, { "", "", -1 } },
+            { "G_Diving", "", 10, { "", "", -1 } }
+		};
+
+		vests[] = {
+			{ "NONE", "Supprime gilet", 0, { "", "", -1 } },
+			{ "ALFR_armee_gilet", "", 30, { "", "", -1 } },
+            { "V_RebreatherB", "", 30, { "", "", -1 } },
+            { "V_PlateCarrierL_CTRG", "", 30, { "", "", -1 } }
+		};
+
+		backpacks[] = {
+			{ "NONE", "Supprime sac", 0, { "", "", -1 } },
+            { "ALFR_armee_Bags", "", 50, { "", "", -1 } },
+            { "O_UAV_01_backpack_F", "", 500, { "life_adaclevel", "SCALAR", 2 } }
+		};
+	};	
 
     class dive {
         title = "STR_Shops_C_Diving";
@@ -370,89 +423,513 @@ class Clothing {
         };
     };
 
-    class reb {
-        title = "STR_Shops_C_Rebel";
-        license = "rebel";
-        side = "civ";
+    //Shop Gangster
+    class gangster {
+		title = "La boutique du Parrain";
+		license = "gangster";
+		side = "civ";
+
         uniforms[] = {
             { "NONE", "Supprimé uniforme", 0, { "", "", -1 } },
-            { "U_IG_Guerilla1_1", "", 5000, {"", "", -1} },
-            { "U_I_G_Story_Protagonist_F", "", 7500, { "", "", -1 } },
-            { "U_I_G_resistanceLeader_F", "", 11500, { "", "", -1 } },
-            { "U_O_SpecopsUniform_ocamo", "", 17500, { "", "", -1 } },
-            { "U_O_PilotCoveralls", "", 15610, { "", "", -1 } },
-            { "U_IG_leader", "Guerilla Leader", 15340, { "", "", -1 } },
-            { "U_O_GhillieSuit", "", 50000, { "", "", -1 } }
+            { "rds_uniform_Woodlander1", "Tenue Gangster 1", 800, {"", "", -1} },
+            { "rds_uniform_Woodlander2", "Tenue Gangster 2", 800, {"", "", -1} },
+            { "rds_uniform_Woodlander3", "Tenue Gangster 3", 800, {"", "", -1} },
+            { "rds_uniform_Woodlander4", "Tenue Gangster 4", 800, {"", "", -1} },
+            { "U_IG_Guerilla1_1", "", 800, {"", "", -1} },
+            { "U_CivilianTShirt_C", "TeeShirt gris et pantalon vert", 800, {"", "", -1} },
+            { "U_InsUniShirt_C", "Uniforme desert", 800, {"", "", -1} },
+            { "U_InsUniShirt_Leader", "Uniforme leader", 800, {"", "", -1} },
+            { "U_InsUniShirt_B", "Uniforme tigre", 800, {"", "", -1} },
+            { "U_MilitiaSport_B", "Tenue sport adidas camo 1", 800, {"", "", -1} },
+            { "U_MilitiaSport_C", "Tenue sport adidas camo 2", 800, {"", "", -1} },
+            { "U_CivilianSport_A", "Tenue gangster adidas blue", 800, {"", "", -1} },
+            { "U_CivilianSport_B", "Tenue gangster adidas vert", 800, {"", "", -1} },
+            { "U_CivilianSport_C", "Tenue gangster adidas rouge", 800, {"", "", -1} },
+            { "U_CivilianSport_D", "Tenue gangster adidas jaune", 800, {"", "", -1} }
         };
-        headgear[] = {
+
+		headgear[] = {
             { "NONE", "Supprimé couvre-chef", 0, { "", "", -1 } },
-            { "H_ShemagOpen_tan", "", 850, { "", "", -1 } },
-            { "H_Shemag_olive", "", 850, { "", "", -1 } },
-            { "H_ShemagOpen_khk", "", 800, { "", "", -1 } },
-            { "H_HelmetO_ocamo", "", 2500, { "", "", -1 } },
-            { "H_MilCap_oucamo", "", 1200, { "", "", -1 } },
-            { "H_Bandanna_camo", "", 650, { "", "", -1 } }
+            { "H_Hat_HeadbandL_E", "Ruban camo", 500, {"", "", -1} },
+            { "H_Hat_HeadbandL_C", "Ruban marron", 500, {"", "", -1} },
+            { "H_Hat_HeadbandL_B", "Ruban khaki", 500, {"", "", -1} },
+            { "H_Hat_HeadbandL_F", "Ruban MTP", 500, {"", "", -1} },
+            { "H_Hat_HeadbandL_G", "Ruban rouge", 500, {"", "", -1} },
+            { "H_Hat_HeadbandL_D", "Ruban vert", 500, {"", "", -1} },
+            { "H_Hat_Ushanka", "", 500, {"", "", -1} },
+            { "H_Hat_CapSov_B", "Casquette russe 1", 500, {"", "", -1} },
+            { "H_Hat_CapSov_C", "Casquette russe 2", 500, {"", "", -1} },
+            { "H_Hat_CapSov_A", "Casquette russe 3", 500, {"", "", -1} },
+            { "H_Hat_Face_Balaclava_T", "Cagoule tortue ninja", 500, {"", "", -1} },
+            { "rds_Woodlander_cap1", "", 500, {"", "", -1} },
+			{ "rds_Woodlander_cap2", "", 500, {"", "", -1} },
+			{ "rds_Woodlander_cap3", "", 500, {"", "", -1} },
+			{ "rds_Woodlander_cap4", "", 500, {"", "", -1} }
         };
-        goggles[] = {
-            { "NONE", "Supprimé lunette", 0, { "", "", -1 } },
-            { "G_Shades_Black", "", 25, { "", "", -1 } },
-            { "G_Shades_Blue", "", 20, { "", "", -1 } },
-            { "G_Sport_Blackred", "", 20, { "", "", -1 } },
-            { "G_Sport_Checkered", "", 20, { "", "", -1 } },
-            { "G_Sport_Blackyellow", "", 20, { "", "", -1 } },
-            { "G_Sport_BlackWhite", "", 20, { "", "", -1 } },
-            { "G_Squares", "", 10, { "", "", -1 } },
-            { "G_Lowprofile", "", 30, { "", "", -1 } },
-            { "G_Combat", "", 55, { "", "", -1 } },
-            // BI
-            { "G_Balaclava_blk", "", 150, { "", "", -1 } },
-            { "G_Balaclava_combat", "", 150, { "", "", -1 } },
-            { "G_Balaclava_lowprofile", "", 150, { "", "", -1 } },
-            { "G_Balaclava_oli", "", 150, { "", "", -1 } },
-            { "G_Bandanna_aviator", "", 150, { "", "", -1 } },
-            { "G_Bandanna_beast", "", 150, { "", "", -1 } },
-            { "G_Bandanna_blk", "", 150, { "", "", -1 } },
-            { "G_Bandanna_khk", "", 150, { "", "", -1 } },
-            { "G_Bandanna_oli", "", 150, { "", "", -1 } },
-            { "G_Bandanna_shades", "", 150, { "", "", -1 } },
-            { "G_Bandanna_sport", "", 150, { "", "", -1 } },
-            { "G_Bandanna_tan", "", 150, { "", "", -1 } }
-        };
-        vests[] = {
-            { "NONE", "Supprimé gilet", 0, { "", "", -1 } },
-            { "V_TacVest_khk", "", 12500, { "", "", -1 } },
-            { "V_BandollierB_cbr", "", 4500, { "", "", -1 } },
-            { "V_HarnessO_brn", "", 7500, { "", "", -1 } }
-        };
-        backpacks[] = {
-            { "NONE", "Supprimé sac", 0, { "", "", -1 } },
-            { "B_AssaultPack_khk", "", 2000, { "", "", -1 } },
-            { "B_AssaultPack_dgtl", "", 2000, { "", "", -1 } },
-            { "B_AssaultPack_rgr", "", 2000, { "", "", -1 } },
-            { "B_AssaultPack_sgg", "", 2000, { "", "", -1 } },
-            { "B_AssaultPack_blk", "", 2000, { "", "", -1 } },
-            { "B_AssaultPack_cbr", "", 2000, { "", "", -1 } },
-            { "B_AssaultPack_mcamo", "", 2000, { "", "", -1 } },
-            { "B_TacticalPack_oli", "", 2500, { "", "", -1 } },
-            { "B_Kitbag_mcamo", "", 3500, { "", "", -1 } },
-            { "B_Kitbag_sgg", "", 3500, { "", "", -1 } },
-            { "B_Kitbag_cbr", "", 3500, { "", "", -1 } },
-            { "B_Bergen_sgg", "", 6500, { "", "", -1 } },
-            { "B_Bergen_mcamo", "", 6500, { "", "", -1 } },
-            { "B_Bergen_rgr", "", 6500, { "", "", -1 } },
-            { "B_Bergen_blk", "", 6500, { "", "", -1 } },
-            { "B_FieldPack_blk", "", 5000, { "", "", -1 } },
-            { "B_FieldPack_ocamo", "", 5000, { "", "", -1 } },
-            { "B_FieldPack_oucamo", "", 5000, { "", "", -1 } },
-            { "B_Carryall_ocamo", "", 7500, { "", "", -1 } },
-            { "B_Carryall_oucamo", "", 7500, { "", "", -1 } },
-            { "B_Carryall_mcamo", "", 7500, { "", "", -1 } },
-            { "B_Carryall_oli", "", 7500, { "", "", -1 } },
-            { "B_Carryall_khk", "", 7500, { "", "", -1 } },
-            { "B_Carryall_cbr", "", 7500, { "", "", -1 } },
-            { "B_OutdoorPack_blk", "", 500, { "", "", -1 } }
-        };
-    };
+
+		goggles[] = {
+			{ "NONE", "Supprimé lunette", 0, { "", "", -1 } },
+			{ "G_Shades_Black", "", 200, {"", "", -1} },
+			{ "G_Shades_Blue", "", 200, {"", "", -1} },
+			{ "G_Sport_Blackred", "", 200, {"", "", -1} },
+			{ "G_Sport_Checkered", "", 200, {"", "", -1} },
+			{ "G_Sport_Blackyellow", "", 200, {"", "", -1} },
+			{ "G_Sport_BlackWhite", "", 200, {"", "", -1} },
+			{ "G_Squares", "", 200, {"", "", -1} },
+			{ "G_Aviator", "", 200, {"", "", -1} },
+			{ "G_Lady_Mirror", "", 200, {"", "", -1} },
+			{ "G_Lady_Dark", "", 200, {"", "", -1} },
+			{ "G_Lady_Blue", "", 200, {"", "", -1} },
+			{ "G_Lowprofile", "", 200, {"", "", -1} },
+			{ "G_Balaclava_blk", "", 200, {"", "", -1} },
+			{ "G_Balaclava_lowprofile", "", 200, {"", "", -1} },
+			{ "G_Balaclava_combat", "", 200, {"", "", -1} },
+			{ "G_Balaclava_oli", "", 200, {"", "", -1} },
+			{ "G_Bandanna_aviator", "", 200, {"", "", -1} },
+			{ "G_Bandanna_beast", "", 200, {"", "", -1} },
+			{ "G_Bandanna_tan", "", 200, {"", "", -1} },
+			{ "G_Bandanna_sport", "", 200, {"", "", -1} },
+			{ "G_Bandanna_blk", "", 200, {"", "", -1} },
+			{ "G_Bandanna_oli", "", 200, {"", "", -1} },
+			{ "G_Bandanna_shades", "", 200, {"", "", -1} },
+			{ "G_Combat", "", 200, {"", "", -1} },
+			{ "G_Bandanna_tan", "", 200, {"", "", -1} },
+			{ "G_Bandanna_khk", "", 200, {"", "", -1} },
+			{ "G_Bandanna_oli", "", 200, {"", "", -1} },
+			{ "G_Bandanna_blk", "", 200, {"", "", -1} },
+			{ "G_Bandanna_beast", "", 200, {"", "", -1} },
+			{ "G_Balaclava_oli", "", 200, {"", "", -1} }
+		};
+
+		vests[] = {
+			{ "NONE", "Supprimé gilet", 0, { "", "", -1 } },
+            { "V_HarnessO_brn", "", 1100, {"", "", -1} },
+            { "V_TacVestIR_blk", "", 1300, {"", "", -1} },
+            { "V_TacVest_camo", "", 1300, {"", "", -1} },
+			{ "V_TacVest_khk", "", 1300, {"", "", -1} },
+			{ "V_I_G_resistanceLeader_F", "", 1300, {"", "", -1} },
+            { "ALFR_V_Tactical_Vest_Light", "", 1300, {"", "", -1} },
+			{ "ALFR_V_Tactical_Vest_Light_oli", "", 1300, {"", "", -1} },
+			{ "ALFR_V_Tactical_Vest_Light_blk", "", 1300, {"", "", -1} },
+			{ "ALFR_V_Tactical_Vest_Light_AAF", "", 1300, {"", "", -1} },
+			{ "ALFR_V_Tactical_Vest_Light_OPFOR", "", 1300, {"", "", -1} },
+			{ "ALFR_V_Tactical_Vest_Light_MTP", "", 1300, {"", "", -1} },
+            { "V_PlateCarrierInd_PMC_blk", "", 1500, {"", "", -1} }
+		};
+
+		backpacks[] = {
+			{ "NONE", "Supprimé sac", 0, { "", "", -1 } },
+			{ "B_AssaultPack_blk", "", 200, {"", "", -1} },
+			{ "B_AssaultPack_cbr", "", 200, {"", "", -1} },
+			{ "B_AssaultPack_khk", "", 200, {"", "", -1} },
+			{ "B_AssaultPack_sgg", "", 200, {"", "", -1} },
+			{ "B_AssaultPack_rgr", "", 200, {"", "", -1} },
+			{ "B_FieldPack_cbr", "", 200, {"", "", -1} },
+			{ "B_FieldPack_blk", "", 200, {"", "", -1} },
+			{ "B_FieldPack_ocamo", "", 200, {"", "", -1} },
+			{ "B_FieldPack_oucamo", "", 200, {"", "", -1} },
+			{ "B_FieldPack_cbr", "", 200, {"", "", -1} },
+			{ "B_Kitbag_mcamo", "", 200, {"", "", -1} },
+			{ "B_Kitbag_sgg", "", 200, {"", "", -1} },
+			{ "B_Kitbag_cbr", "", 200, {"", "", -1} },
+			{ "B_Bergen_sgg", "", 200, {"", "", -1} },
+			{ "B_Bergen_blk", "", 200, {"", "", -1} },
+			{ "B_Bergen_mcamo", "", 200, {"", "", -1} },
+            { "B_Carryall_ocamo", "", 200, {"", "", -1} },
+			{ "B_Carryall_oucamo", "", 200, {"", "", -1} },
+			{ "B_Carryall_mcamo", "", 200, {"", "", -1} },
+			{ "B_Carryall_oli", "", 200, {"", "", -1} },
+			{ "B_Carryall_khk", "", 200, {"", "", -1} },
+			{ "B_Carryall_cbr", "", 200, {"", "", -1} },
+            { "TRYK_B_Carryall_JSDF", "", 200, {"", "", -1} },
+            { "TRYK_B_Carryall_blk", "", 200, {"", "", -1} },
+			{ "B_Parachute", "", 500, {"", "", -1} }
+		};
+	};
+	
+    //Shop Rebelle
+    class reb {
+		title = "STR_Shops_C_Rebel";
+		license = "rebel";
+		side = "civ";
+
+		uniforms[] = {
+			{ "NONE", "Supprimé uniforme", 0, { "", "", -1 } },
+            { "U_O_SpecopsUniform_ocamo", "", 800, {"", "", -1} },
+            { "U_O_CombatUniform_oucamo", "", 800, {"", "", -1} },
+            { "U_O_PilotCoveralls", "", 800, {"", "", -1} },
+            { "U_IG_leader", "Guerilla Leader", 800, {"", "", -1} },
+			{ "U_I_OfficerUniform", "", 800, {"", "", -1} },
+            { "U_I_CombatUniform", "", 800, {"", "", -1} },
+            { "U_CombatUniFatigue_A", "Tenue digital black", 800, {"", "", -1} },
+            { "U_MilitiaUniTShirt_B", "Tenue insurge noire", 800, {"", "", -1} },
+            { "U_MilitiaUniTShirt_G", "Tenue insurge noire et marron", 800, {"", "", -1} },
+            { "U_MilitiaUniTShirt_D", "Tenue insurge noire et vert", 800, {"", "", -1} },
+            { "U_MilitiaUniTShirt_E", "Tenue insurge tigre", 800, {"", "", -1} },
+            { "U_MilitiaUniTShirt_F", "Tenue insurge tigre noire", 800, {"", "", -1} },
+            { "U_MilitiaUniTShirt_A", "Tenue insurge woodland", 800, {"", "", -1} },
+            { "U_MilitiaUniTShirt_C", "Tenue insurge woodland noire", 800, {"", "", -1} },
+            { "U_CombatUniLeadMerc_F", "Tenue mercenaire blue", 800, {"", "", -1} },
+            { "U_CombatUniLeadMerc_D", "Tenue mercenaire vert", 800, {"", "", -1} },
+            { "U_CombatUniLeadMerc_A", "Tenue mercenaire marron", 800, {"", "", -1} },
+            { "U_CombatUniLeadMerc_B", "Tenue mercenaire digital", 800, {"", "", -1} },
+            { "U_CombatUniLeadMerc_C", "Tenue mercenaire woodland", 800, {"", "", -1} },
+            { "U_CombatUniShirtMercB_J", "Tenue mercenaire full noire", 800, {"", "", -1} },
+            { "U_CombatUniShirtMercB_G", "Tenue mercenaire full blue", 800, {"", "", -1} },
+            { "U_CombatUniShirtMercB_C", "Tenue mercenaire desert", 800, {"", "", -1} },
+            { "U_CombatUniShirtMercB_E", "Tenue mercenaire dpm", 800, {"", "", -1} },
+            { "U_CombatUniShirtMercB_B", "Tenue mercenaire jungle", 800, {"", "", -1} },
+            { "U_CombatUniShirtMercB_I", "Tenue mercenaire tigre stripe", 800, {"", "", -1} },
+            { "U_CombatUniShirtMercA_G", "Tenue mercenaire noire sandals", 800, {"", "", -1} },
+            { "U_CombatUniShirtMercA_B", "Tenue mercenaire vert sandals", 800, {"", "", -1} },
+            { "U_CombatUniShirtMercA_C", "Tenue mercenaire desert sandals", 800, {"", "", -1} },
+            { "U_CombatUniShirtMercA_D", "Tenue mercenaire dpm1 sandals", 800, {"", "", -1} },
+            { "U_CombatUniShirtMercA_E", "Tenue mercenaire dpm2 sandals", 800, {"", "", -1} },
+            { "U_CombatUniShirtMercA_F", "Tenue mercenaire splitter sandals", 800, {"", "", -1} },
+            { "U_CombatUniShirtMercD_F", "Tenue mercenaire adidas noire", 800, {"", "", -1} },
+            { "U_CombatUniShirtMercD_E", "Tenue mercenaire adidas marron", 800, {"", "", -1} },
+            { "U_CombatUniShirtMercD_G", "Tenue mercenaire adidas desert", 800, {"", "", -1} },
+            { "U_CombatUniShirtMercD_D", "Tenue mercenaire adidas khaki", 800, {"", "", -1} },
+            { "U_CombatUniShirtMercD_C", "Tenue mercenaire adidas tigre", 800, {"", "", -1} },
+            { "U_CombatUniShirtMercD_A", "Tenue mercenaire adidas dpm", 800, {"", "", -1} },
+            { "U_CombatUniShirtMercC_B", "Tenue mercenaire marron bottes", 800, {"", "", -1} },
+            { "U_CombatUniShirtMercC_D", "Tenue mercenaire vert bottes", 800, {"", "", -1} },
+            { "U_DressTKLocalUni_E_E", "Tenue takistan 1", 800, {"", "", -1} },
+            { "U_DressTKLocalUni_E_D", "Tenue takistan 2", 800, {"", "", -1} },
+            { "U_DressTKLocalUni_E_C", "Tenue takistan 3", 800, {"", "", -1} },
+            { "U_DressTKLocalUni_D_A", "Tenue takistan 4", 800, {"", "", -1} },
+            { "U_DressTKLocalUni_E_B", "Tenue takistan 5", 800, {"", "", -1} },
+            { "U_DressTKLocalUni_E_A", "Tenue takistan 6", 800, {"", "", -1} },
+            { "U_DressTKLocalUni_D_E", "Tenue takistan 7", 800, {"", "", -1} },
+            { "U_DressTKLocalUni_D_D", "Tenue takistan 8", 800, {"", "", -1} },
+            { "U_DressTKLocalUni_D_C", "Tenue takistan 9", 800, {"", "", -1} },
+            { "U_DressTKLocalUni_D_B", "Tenue takistan 10", 800, {"", "", -1} },
+            { "U_DressTKLocalUni_A_A", "Tenue takistan 11", 800, {"", "", -1} },
+            { "U_DressTKLocalUni_C_E", "Tenue takistan 12", 800, {"", "", -1} },
+            { "U_DressTKLocalUni_C_D", "Tenue takistan 13", 800, {"", "", -1} },
+            { "U_DressTKLocalUni_C_C", "Tenue takistan 14", 800, {"", "", -1} },
+            { "U_DressTKLocalUni_C_B", "Tenue takistan 15", 800, {"", "", -1} },
+            { "U_DressTKLocalUni_C_A", "Tenue takistan 16", 800, {"", "", -1} },
+            { "U_DressTKLocalUni_B_E", "Tenue takistan 17", 800, {"", "", -1} },
+            { "U_DressTKLocalUni_B_D", "Tenue takistan 18", 800, {"", "", -1} },
+            { "U_DressTKLocalUni_B_C", "Tenue takistan 19", 800, {"", "", -1} },
+            { "U_DressTKLocalUni_B_B", "Tenue takistan 20", 800, {"", "", -1} },
+            { "U_DressTKLocalUni_B_A", "Tenue takistan 21", 800, {"", "", -1} },
+            { "U_DressTKLocalUni_A_E", "Tenue takistan 22", 800, {"", "", -1} },
+            { "U_DressTKLocalUni_A_D", "Tenue takistan 23", 800, {"", "", -1} },
+            { "U_DressTKLocalUni_A_C", "Tenue takistan 24", 800, {"", "", -1} },
+            { "U_DressTKLocalUni_A_B", "Tenue takistan 25", 800, {"", "", -1} },
+            { "U_TKLocalCombat_A", "Tenue pakistan 1", 800, {"", "", -1} },
+            { "U_TKLocalUni_C", "Tenue pakistan 2", 800, {"", "", -1} },
+            { "U_TKLocalUni_D", "Tenue pakistan 3", 800, {"", "", -1} },
+            { "U_TKLocalUni_B", "Tenue pakistan 4", 800, {"", "", -1} },
+            { "U_TKLocalCombat_C", "Tenue pakistan 5", 800, {"", "", -1} },
+            { "U_TKLocalTactic_C", "Tenue pakistan 6", 800, {"", "", -1} },
+            { "U_TKLocalCombat_E", "Tenue pakistan 7", 800, {"", "", -1} },
+            { "U_TKLocalCombat_D", "Tenue pakistan 8", 800, {"", "", -1} },
+            { "U_TKLocalTactic_E", "Tenue pakistan 9", 800, {"", "", -1} },
+            { "U_TKLocalTactic_A", "Tenue pakistan 10", 800, {"", "", -1} },
+            { "U_TKLocalUni_E", "Tenue pakistan 11", 800, {"", "", -1} },
+            { "U_TKLocalTactic_D", "Tenue pakistan 12", 800, {"", "", -1} },
+            { "U_TKLocalUni_F", "Tenue pakistan 13", 800, {"", "", -1} },
+            { "U_TKLocalCombat_B", "Tenue pakistan 14", 800, {"", "", -1} },
+            { "U_TerrorCombat_A", "Tenue terroriste 1", 800, {"", "", -1} },
+            { "U_TerrorCombat_B", "Tenue terroriste 2", 800, {"", "", -1} },
+            { "U_TerrorCombat_Black", "Tenue terroriste 3", 800, {"", "", -1} },
+            { "U_GhillieSuit_A", "Ghillie Suit 1", 1500, {"", "", -1} },
+            { "U_GhillieSuit_B", "Ghillie Suit 2", 1500, {"", "", -1} },
+            { "U_GhillieSuit_C", "Ghillie Suit 3", 1500, {"", "", -1} },
+            { "U_GhillieSuit_D", "Ghillie Suit 4", 1500, {"", "", -1} },
+            { "U_GhillieSuit_E", "Ghillie Suit 5", 1500, {"", "", -1} },
+            { "U_GhillieSuit_F", "Ghillie Suit 6", 1500, {"", "", -1} },
+            { "U_I_FullGhillie_ard", "Ghillie MarksMen 1", 1500, {"", "", -1} },
+            { "U_O_FullGhillie_ard", "Ghillie MarksMen 2", 1500, {"", "", -1} },
+            { "U_B_FullGhillie_ard", "Ghillie MarksMen 3", 1500, {"", "", -1} },
+            { "U_I_FullGhillie_lsh", "Ghillie MarksMen 4", 1500, {"", "", -1} },
+            { "U_O_FullGhillie_lsh", "Ghillie MarksMen 5", 1500, {"", "", -1} },
+            { "U_B_FullGhillie_lsh", "Ghillie MarksMen 6", 1500, {"", "", -1} },
+            { "U_I_FullGhillie_sard", "Ghillie MarksMen 7", 1500, {"", "", -1} },
+            { "U_O_FullGhillie_sard", "Ghillie MarksMen 8", 1500, {"", "", -1} },
+            { "U_O_FullGhillie_sard", "Ghillie MarksMen 9", 1500, {"", "", -1} },
+            { "U_O_GhillieSuit", "", 1500, {"", "", -1} },
+            { "U_I_GhillieSuit", "", 1500, {"", "", -1} }
+		};
+
+		headgear[] = {
+			{ "NONE", "Supprimé couvre-chef", 0, { "", "", -1 } },
+			{ "H_ShemagOpen_tan", "", 500, {"", "", -1} },
+			{ "H_Shemag_olive", "", 500, {"", "", -1} },
+			{ "H_ShemagOpen_khk", "", 500, {"", "", -1} },
+			{ "H_Shemag_tan", "", 500, {"", "", -1} },
+			{ "H_Shemag_olive_hs", "", 500, {"", "", -1} },
+			{ "H_HelmetO_ocamo", "", 500, {"", "", -1} },
+			{ "H_MilCap_oucamo", "", 500, {"", "", -1} },
+			{ "H_HelmetCrew_I", "", 500, {"", "", -1} },
+			{ "H_Hat_HelmetR", "", 500, {"", "", -1} },
+			{ "H_Bandanna_camo", "", 500, {"", "", -1} },
+            { "H_Hat_Cap_Thai", "Casquette marine", 500, {"", "", -1} },
+            { "H_Hat_Face_Balaclava_T", "Cagoule tortue ninja", 500, {"", "", -1} },
+            { "H_Hat_Face_Wrap_Black", "Wrapped noire", 500, {"", "", -1} },
+            { "H_Hat_Face_Wrap_Dark", "Wrapped dark", 500, {"", "", -1} },
+            { "H_Hat_Face_Wrap_Gold", "Wrapped desert", 500, {"", "", -1} },
+            { "H_Hat_Face_Wrap_White", "Wrapped Dirty", 500, {"", "", -1} },
+            { "H_Hat_Face_Wrap_DPM", "Wrapped DPM", 500, {"", "", -1} },
+            { "H_Hat_Face_Wrap_Flecktarn", "Wrapped Flecktarn", 500, {"", "", -1} },
+            { "H_Hat_Face_Wrap_Sand", "Wrapped Sand", 500, {"", "", -1} },
+            { "H_Hat_Kufiya_B", "Kufiya noire", 500, {"", "", -1} },
+            { "H_Hat_Kufiya_D", "Kufiya desert", 500, {"", "", -1} },
+            { "H_Hat_Kufiya", "Kufiya dirty", 500, {"", "", -1} },
+            { "H_Hat_Kufiya_F", "Kufiya flecktarn", 500, {"", "", -1} },
+            { "H_Hat_Kufiya_G", "Kufiya vert", 500, {"", "", -1} },
+            { "H_Hat_Kufiya_R", "Kufiya rouge", 500, {"", "", -1} },
+            { "H_Hat_Face_Cover", "Scarf noire", 500, {"", "", -1} },
+            { "H_Hat_Face_Cover_Gold", "Scarf desert", 500, {"", "", -1} },
+            { "H_Hat_Face_Cover_Green", "Scarf vert", 500, {"", "", -1} },
+            { "H_Hat_Face_Wrap_Red", "Shemagh rouge", 500, {"", "", -1} },
+            { "H_Hat_Taqiyah_A", "Taqiyah 1", 500, {"", "", -1} },
+            { "H_Hat_Taqiyah_D", "Taqiyah 2", 500, {"", "", -1} },
+            { "H_Hat_Taqiyah_C", "Taqiyah 3", 500, {"", "", -1} },
+            { "H_Hat_Taqiyah_B", "Taqiyah 4", 500, {"", "", -1} },
+            { "H_Hat_Taqiyah_E", "Taqiyah 5", 500, {"", "", -1} },
+            { "H_Hat_Turban_D", "Turban 1", 500, {"", "", -1} },
+            { "H_Hat_Pagri", "Turban 2", 500, {"", "", -1} },
+            { "H_Hat_Turban_C", "Turban 3", 500, {"", "", -1} },
+            { "H_Hat_Turban_B", "Turban 4", 500, {"", "", -1} },
+            { "H_Hat_Turban_A", "Turban 5", 500, {"", "", -1} },
+            { "H_Hat_Pagri_C", "Turban 6", 500, {"", "", -1} },
+            { "H_Hat_Pagri_B", "Turban 7", 500, {"", "", -1} },
+            { "H_Hat_Turban_E", "Turban 8", 500, {"", "", -1} },
+            { "H_PilotHelmetHeli_I", "", 500, {"", "", -1} }
+		};
+
+		goggles[] = {
+			{ "NONE", "Supprimé lunette", 0, { "", "", -1 } },
+			{ "G_Shades_Black", "", 200, {"", "", -1} },
+			{ "G_Shades_Blue", "", 200, {"", "", -1} },
+			{ "G_Sport_Blackred", "", 200, {"", "", -1} },
+			{ "G_Sport_Checkered","", 200, {"", "", -1} },
+			{ "G_Sport_Blackyellow", "", 200, {"", "", -1} },
+			{ "G_Sport_BlackWhite", "", 200, {"", "", -1} },
+			{ "G_Squares", "", 200, {"", "", -1} },
+			{ "G_Aviator", "", 200, {"", "", -1} },
+			{ "G_Lady_Mirror", "", 200, {"", "", -1} },
+			{ "G_Lady_Dark", "", 200, {"", "", -1} },
+			{ "G_Lady_Blue", "", 200, {"", "", -1} },
+			{ "G_Lowprofile", "", 200, {"", "", -1} },
+			{ "G_Balaclava_blk", "", 200, {"", "", -1} },
+			{ "G_Balaclava_lowprofile", "", 200, {"", "", -1} },
+			{ "G_Balaclava_combat", "", 200, {"", "", -1} },
+			{ "G_Balaclava_oli", "", 200, {"", "", -1} },
+			{ "G_Bandanna_aviator", "", 200, {"", "", -1} },
+			{ "G_Bandanna_beast", "", 200, {"", "", -1} },
+			{ "G_Bandanna_tan", "", 200, {"", "", -1} },
+			{ "G_Bandanna_sport", "", 200, {"", "", -1} },
+			{ "G_Bandanna_blk", "", 200, {"", "", -1} },
+			{ "G_Bandanna_oli", "", 200, {"", "", -1} },
+			{ "G_Bandanna_shades", "", 200, {"", "", -1} },
+			{ "G_Combat", "", 200, {"", "", -1} },
+			{ "G_Bandanna_tan", "", 200, {"", "", -1} },
+			{ "G_Bandanna_khk", "", 200, {"", "", -1} },
+			{ "G_Bandanna_oli", "", 200, {"", "", -1} },
+			{ "G_Bandanna_blk", "", 200, {"", "", -1} },
+			{ "G_Bandanna_beast", "", 200, {"", "", -1} },
+			{ "G_Balaclava_oli", "", 200, {"", "", -1} }
+		};
+
+		vests[] = {
+			{ "NONE", "Supprimé gilet", 0, { "", "", -1 } },
+            { "V_TacVest_camo", "", 1300, {"", "", -1} },
+			{ "V_TacVest_khk", "", 1300, {"", "", -1} },
+			{ "V_I_G_resistanceLeader_F", "", 1300, {"", "", -1} },
+            { "V_PlateCarrier1_blk", "", 1300, {"", "", -1} },
+			{ "V_PlateCarrierGL_rgr", "", 1300, {"", "", -1} },
+			{ "V_PlateCarrierIAGL_dgtl", "", 1500, {"", "", -1} },
+			{ "ALFR_V_Tactical_Vest_Heavy_khk", "", 1500, {"", "", -1} },
+			{ "ALFR_V_Tactical_Vest_Heavy_blk", "", 1500, {"", "", -1} },
+			{ "ALFR_V_Tactical_Vest_Heavy_oli", "", 1500, {"", "", -1} },
+			{ "ALFR_V_Tactical_Vest_Heavy_AAF", "", 1500, {"", "", -1} },
+			{ "ALFR_V_Tactical_Vest_Heavy_OPFOR", "", 1500, {"", "", -1} },
+			{ "ALFR_V_Tactical_Vest_Heavy_MTP", "", 1500, {"", "", -1} }
+		};
+
+		backpacks[] = {
+			{ "NONE", "Supprimé sac", 0, { "", "", -1 } },
+			{ "B_AssaultPack_blk", "", 200, {"", "", -1} },
+			{ "B_AssaultPack_cbr", "", 200, {"", "", -1} },
+			{ "B_AssaultPack_khk", "", 200, {"", "", -1} },
+			{ "B_AssaultPack_sgg", "", 200, {"", "", -1} },
+			{ "B_AssaultPack_rgr", "", 200, {"", "", -1} },
+			{ "B_FieldPack_cbr", "", 200, {"", "", -1} },
+			{ "B_FieldPack_blk", "", 200, {"", "", -1} },
+			{ "B_FieldPack_ocamo", "", 200, {"", "", -1} },
+			{ "B_FieldPack_oucamo", "", 200, {"", "", -1} },
+			{ "B_FieldPack_cbr", "", 200, {"", "", -1} },
+			{ "B_Kitbag_mcamo", "", 200, {"", "", -1} },
+			{ "B_Kitbag_sgg", "", 200, {"", "", -1} },
+			{ "B_Kitbag_cbr", "", 200, {"", "", -1} },
+			{ "B_Bergen_sgg", "", 200, {"", "", -1} },
+			{ "B_Bergen_blk", "", 200, {"", "", -1} },
+			{ "B_Bergen_mcamo", "", 200, {"", "", -1} },
+            { "B_Carryall_ocamo", "", 200, {"", "", -1} },
+			{ "B_Carryall_oucamo", "", 200, {"", "", -1} },
+			{ "B_Carryall_mcamo", "", 200, {"", "", -1} },
+			{ "B_Carryall_oli", "", 200, {"", "", -1} },
+			{ "B_Carryall_khk", "", 200, {"", "", -1} },
+			{ "B_Carryall_cbr", "", 200, {"", "", -1} },
+            { "TRYK_B_Carryall_JSDF", "", 200, {"", "", -1} },
+            { "TRYK_B_Carryall_blk", "", 200, {"", "", -1} },
+			{ "B_Parachute", "", 500, {"", "", -1} }
+		};
+	};
+	
+    //Shop ChefRebelle
+    class chefrebelle {
+		title = "Vestiaire Chef Rebelle";
+		license = "chefrebelle";
+		side = "civ";
+
+		uniforms[] = {
+			{ "NONE", "Supprimé uniforme", 0, { "", "", -1 } }
+		};
+
+		headgear[] = {
+			{ "NONE", "Supprimé couvre-chef", 0, { "", "", -1 } }
+		};
+
+		goggles[] = {
+			{ "NONE", "Supprimé lunette", 0, { "", "", -1 } }
+		};
+
+		vests[] = {
+			{ "NONE", "Supprimé gilet", 0, { "", "", -1 } },
+            { "V_HarnessOGL_brn", "Veste Explosive", 90000, {"", "", -1} }
+		};
+
+		backpacks[] = {
+			{ "NONE", "Supprimé sac", 0, { "", "", -1 } }
+		};
+	};
+
+	// SHOP ENTREPRISE AAN
+	class aan {
+		title = "Vestiaire AAN";
+		license = "aan";
+		side = "civ";
+
+		uniforms[] = {
+			{ "NONE", "Supprimé uniforme", 0, { "", "", -1 } },
+			{ "U_C_Journalist", "", 150, { "", "", -1 } }
+		};
+
+		headgear[] = {
+			{ "NONE", "Supprimé couvre-chef", 0, { "", "", -1 } },
+			{ "H_ALFR_Headset", "", 50, { "", "", -1 } },
+			{ "H_Cap_press", "", 100, { "", "", -1 } }
+		};
+
+		goggles[] = {
+			{ "NONE", "Supprimé lunette", 0, { "", "", -1 } }
+		};
+
+		vests[] = {
+			{ "NONE", "Supprimé gilet", 0, { "", "", -1 } },
+			{ "V_BandollierB_blk", "", 250, { "", "", -1 } },
+			{ "V_Press_F", "", 1000, { "", "", -1 } }			
+		};
+
+		backpacks[] = {
+			{ "NONE", "Supprimé sac", 0, { "", "", -1 } },
+			{ "CUP_B_AssaultPack_Black", "", 500, { "", "", -1 } }
+		};
+	};	
+
+    //Shop Entreprise ION
+    class ion {
+		title = "Vestiaire ION";
+		license = "ion";
+		side = "civ";
+
+		uniforms[] = {
+			{ "NONE", "Supprimé uniforme", 0, { "", "", -1 } },
+            { "U_Competitor", "Tenue ION", 100, {"", "", -1} },
+            { "U_Coveralls_B", "Tenue Ouvrier ION", 100, {"", "", -1} },
+			{ "ALE_Worker", "Tenue Ouvrier ION 2", 100, {"", "", -1} },
+            { "U_CivilianSuit_A", "Tenue Patron Noir", 200, {"", "", -1} },
+            { "U_CivilianSuit_C", "Tenue Patron Bleu", 200, {"", "", -1} },
+			{ "U_Office_A", "Tenue Patron été", 200, {"", "", -1} }
+		};
+
+		headgear[] = {
+			{ "NONE", "Supprimé couvre-chef", 0, { "", "", -1 } },
+            { "H_Cap_blk_ION", "Casquette ION", 50, {"", "", -1} }
+		};
+
+		goggles[] = {
+			{ "NONE", "Supprimé lunette", 0, { "", "", -1 } },
+            { "G_Shades_Black", "", 200, { "", "", -1 } },
+			{ "G_Shades_Blue", "", 200, { "", "", -1 } },
+			{ "G_Sport_Blackred", "", 200, { "", "", -1 } },
+			{ "G_Sport_Checkered", "", 200, { "", "", -1 } },
+			{ "G_Sport_Blackyellow", "", 200, { "", "", -1 } },
+			{ "G_Sport_BlackWhite", "", 200, { "", "", -1 } },
+			{ "G_Squares", "", 200, { "", "", -1 } },
+			{ "G_Aviator", "", 200, { "", "", -1 } },
+			{ "G_Lady_Mirror", "", 200, { "", "", -1 } },
+			{ "G_Lady_Dark", "", 200, { "", "", -1 } },
+			{ "G_Lady_Blue", "", 200, { "", "", -1 } },
+			{ "G_Lowprofile", "", 200, { "", "", -1 } },
+            { "Mask_M40", "Masque a Gaz", 250, {"", "", -1} }
+		};
+
+		vests[] = {
+			{ "NONE", "Supprimé gilet", 0, { "", "", -1 } },
+            { "V_BandollierB_blk", "Sac Noir ION", 200, {"", "", -1} },
+            { "V_Chestrig_blk", "Sac Noir ION", 500, {"", "", -1} }
+		};
+
+		backpacks[] = {
+			{ "NONE", "Supprimé sac", 0, { "", "", -1 } },
+            { "TRYK_B_Carryall_blk", "Sac Noir ION", 200, {"", "", -1} }
+		};
+	};
+
+    //Shop Femme
+    class girl {
+		title = "Vestiaire Féminin";
+		license = "rebel";
+		side = "civ";
+
+		uniforms[] = {
+			{ "NONE", "Supprimé uniforme", 0, { "", "", -1 } },
+            { "O_FEM_CSAT", "Tenue Femme CSAT(T-Shirt)", 100, {"", "", -1} },
+            { "O_FEM_CSAT_Long", "Tenue Femme CSAT(Manche longue)", 100, {"", "", -1} },
+            { "O_FEM_CSAT_Rolled", "Tenue Femme CSAT(Manche courte)", 100, {"", "", -1} },
+            { "I_FEM_AAF", "Tenue Femme AAF(T-Shirt)", 100, {"", "", -1} },
+            { "I_FEM_AAF_long", "Tenue Femme AAF(Manche longue)", 100, {"", "", -1} },
+            { "B_FEM_AAF_Rolled", "Tenue Femme AAF(Manche courte)", 100, {"", "", -1} },
+            { "B_FEM_FIA", "Tenue Femme CIVIL (T-Shirt)", 100, {"", "", -1} },
+            { "B_FEM_NATO", "Tenue Femme NATO (complète)", 100, {"", "", -1} },
+            { "B_FEM_NATO_long", "Tenue Femme NATO (T-Shirt)", 100, {"", "", -1} },
+            { "B_FEM_NATO_Collar", "Tenue Femme NATO (Manche longue)", 100, {"", "", -1} },
+            { "B_FEM_NATO_Rolled", "Tenue Femme NATO (Manche courte)", 100, {"", "", -1} }			
+		};
+
+		headgear[] = {
+			{ "NONE", "Supprimé couvre-chef", 0, { "", "", -1 } }
+		};
+
+		goggles[] = {
+			{ "NONE", "Supprimé lunette", 0, { "", "", -1 } }
+		};
+
+		vests[] = {
+			{ "NONE", "Supprimé gilet", 0, { "", "", -1 } }
+		};
+
+		backpacks[] = {
+			{ "NONE", "Supprimé sac", 0, { "", "", -1 } }
+		};
+	};	
 
     class kart {
         title = "STR_Shops_C_Kart";
@@ -495,4 +972,61 @@ class Clothing {
             { "NONE", "Supprimé sac", 0, { "", "", -1 } }
         };
     };
+
+	class mask {
+		title = "STR_Shops_C_Mask";
+		license = "";
+		side = "civ";
+
+		uniforms[] = {
+			{ "NONE", "Supprimé uniforme", 0, { "", "", -1 } }
+		};
+
+		headgear[] = {
+			{ "NONE", "Supprimé couvre-chef", 0, { "", "", -1 } },
+			{ "H_ALFR_Headset", "", 800, { "", "", -1 } },
+			{ "H_ALFR_PaintballMsk", "", 800, { "", "", -1 } },	
+			{ "H_ALFR_Metal_Gasmask_RU_blk", "", 800, { "", "", -1 } },	
+			{ "H_ALFR_Metal_Gasmask_RU_oli", "", 800, { "", "", -1 } },	
+			{ "H_ALFR_Metal_Gasmask_RU_grey", "", 800, { "", "", -1 } },
+			{ "H_ALFR_Metal_Gasmask_RU_khk", "", 800, { "", "", -1 } },
+			{ "H_ALFR_Metal_Gasmask_RU_fuckyou", "", 800, { "", "", -1 } },
+			{ "H_ALFR_Gasmask", "", 800, { "", "", -1 } },
+			{ "H_ALFR_Metal_Facemask_blk", "", 800, { "", "", -1 } },
+			{ "H_ALFR_Metal_Facemask_oli", "", 800, { "", "", -1 } },
+			{ "H_ALFR_Metal_Facemask_sand", "", 800, { "", "", -1 } },
+			{ "H_ALFR_Metal_Facemask_gry", "", 800, { "", "", -1 } },
+			{ "H_ALFR_Heist_Mask_1", "", 800, { "", "", -1 } },
+			{ "H_ALFR_Heist_Mask_2", "", 800, { "", "", -1 } },
+			{ "H_ALFR_Heist_Mask_3", "", 800, { "", "", -1 } },
+			{ "H_ALFR_Heist_Mask_4", "", 800, { "", "", -1 } },
+			{ "H_ALFR_Heist_Mask_5", "", 800, { "", "", -1 } },	
+			{ "H_ALFR_Heist_Mask_6", "", 800, { "", "", -1 } },	
+			{ "H_ALFR_Heist_Mask_7", "", 800, { "", "", -1 } },	
+			{ "H_ALFR_Samurai_Mask", "", 800, { "", "", -1 } },	
+			{ "H_ALFR_Sheep_Mask", "", 800, { "", "", -1 } },	
+			{ "H_ALFR_Dallas_Mask", "", 800, { "", "", -1 } },
+			{ "H_ALFR_DinoMask", "", 800, { "", "", -1 } },
+			{ "H_ALFR_HorseMask", "", 800, { "", "", -1 } },	
+			{ "H_ALFR_HorseMask_2", "", 800, { "", "", -1 } },	
+			{ "H_ALFR_HorseMask_blk", "", 800, { "", "", -1 } },
+			{ "H_ALFR_HorseMask_pnk", "", 800, { "", "", -1 } },	
+			{ "H_ALFR_OVERKILL_I", "", 800, { "", "", -1 } },	
+			{ "H_ALFR_OVERKILL_II", "", 800, { "", "", -1 } },	
+			{ "H_ALFR_OVERKILL_III", "", 800, { "", "", -1 } },	
+			{ "H_ALFR_OVERKILL_IV", "", 800, { "", "", -1 } }
+		};
+
+		goggles[] = {
+			{ "NONE", "Supprimé lunette", 0, { "", "", -1 } }
+		};
+
+		vests[] = {
+			{ "NONE", "Supprimé gilet", 0, { "", "", -1 } }
+		};
+
+		backpacks[] = {
+			{ "NONE", "Supprimé sac", 0, { "", "", -1 } }
+		};
+	};	
 };
