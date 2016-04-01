@@ -126,7 +126,33 @@ class VirtualItems {
     VITEMMACRO(glissiere, "STR_AltisLifeFr_glissiere", "glissiere", 2, 0, 0, false, -1, "icons\ico_barriere.paa")
     VITEMMACRO(barstop, "STR_AltisLifeFr_barstop", "barstop", 2, 0, 0, false, -1, "icons\ico_barriere.paa")
     VITEMMACRO(lightd, "STR_AltisLifeFr_lightd", "lightd", 2, 0, 0, false, -1, "icons\ico_cone.paa")  
-    VITEMMACRO(serflex, "STR_AltisLifeFr_serflex", "serflex", 2, 1000, 500, true, -1, "icons\ico_serflex.paa")    	
+    VITEMMACRO(serflex, "STR_AltisLifeFr_serflex", "serflex", 2, 1000, 500, true, -1, "icons\ico_serflex.paa") 
+	// Passeport AltisLifeFR
+	VITEMMACRO(passeport, "STR_AltisLifeFr_passeport", "passeport", 3, 1000, -1, false, -1, "textures\Passeport.paa")
+	VITEMMACRO(johnpasseport, "STR_AltisLifeFr_johnpasseport", "johnpasseport", 3, 1000, -1, true, -1, "textures\Passeport.paa")
+	VITEMMACRO(michealpasseport, "STR_AltisLifeFr_michealpasseport", "michealpasseport", 3, 1000, -1, true, -1, "textures\Passeport.paa")
+	VITEMMACRO(tompasseport, "STR_AltisLifeFr_tompasseport", "tompasseport", 3, 1000, -1, true, -1, "textures\Passeport.paa")
+	VITEMMACRO(marcelpasseport, "STR_AltisLifeFr_marcelpasseport", "marcelpasseport", 3, 1000, -1, true, -1, "textures\Passeport.paa")
+	VITEMMACRO(marcpasseport, "STR_AltisLifeFr_marcpasseport", "marcpasseport", 3, 1000, -1, true, -1, "textures\Passeport.paa")
+	VITEMMACRO(nathanpasseport, "STR_AltisLifeFr_nathanpasseport", "nathanpasseport", 3, 1000, -1, true, -1, "textures\Passeport.paa")
+	VITEMMACRO(francispasseport, "STR_AltisLifeFr_francispasseport", "francispasseport", 3, 1000, -1, true, -1, "textures\Passeport.paa")
+	VITEMMACRO(deweypasseport, "STR_AltisLifeFr_deweypasseport", "deweypasseport", 3, 1000, -1, true, -1, "textures\Passeport.paa")
+	VITEMMACRO(halpasseport, "STR_AltisLifeFr_halpasseport", "halpasseport", 3, 1000, -1, true, -1, "textures\Passeport.paa")
+	VITEMMACRO(craigpasseport, "STR_AltisLifeFr_craigpasseport", "craigpasseport", 3, 1000, -1, true, -1, "textures\Passeport.paa")
+	VITEMMACRO(ericpasseport, "STR_AltisLifeFr_ericpasseport", "ericpasseport", 3, 1000, -1, true, -1, "textures\Passeport.paa")
+	VITEMMACRO(joshuapasseport, "STR_AltisLifeFr_joshuapasseport", "joshuapasseport", 3, 1000, -1, true, -1, "textures\Passeport.paa")
+	VITEMMACRO(dougpasseport, "STR_AltisLifeFr_dougpasseport", "dougpasseport", 3, 1000, -1, true, -1, "textures\Passeport.paa")
+	VITEMMACRO(richardpasseport, "STR_AltisLifeFr_richardpasseport", "richardpasseport", 3, 1000, -1, true, -1, "textures\Passeport.paa")
+	VITEMMACRO(anthonypasseport, "STR_AltisLifeFr_anthonypasseport", "anthonypasseport", 3, 1000, -1, true, -1, "textures\Passeport.paa")	
+	VITEMMACRO(leonpasseport, "STR_AltisLifeFr_leonpasseport", "leonpasseport", 3, 1000, -1, true, -1, "textures\Passeport.paa")
+	VITEMMACRO(tracypasseport, "STR_AltisLifeFr_leonpasseport", "leonpasseport", 3, 1000, -1, true, -1, "textures\Passeport.paa")	
+	VITEMMACRO(nikkipasseport, "STR_AltisLifeFr_nikkipasseport", "nikkipasseport", 3, 1000, -1, true, -1, "textures\Passeport.paa")	
+	VITEMMACRO(monicapasseport, "STR_AltisLifeFr_nikkipasseport", "monicapasseport", 3, 1000, -1, true, -1, "textures\Passeport.paa")
+	VITEMMACRO(mariepasseport, "STR_AltisLifeFr_mariepasseport", "mariepasseport", 3, 1000, -1, true, -1, "textures\Passeport.paa")	
+	VITEMMACRO(mirandapasseport, "STR_AltisLifeFr_mirandapasseport", "mirandapasseport", 3, 1000, -1, true, -1, "textures\Passeport.paa")	
+	VITEMMACRO(christinapasseport, "STR_AltisLifeFr_christinapasseport", "christinapasseport", 3, 1000, -1, true, -1, "textures\Passeport.paa")	
+	VITEMMACRO(ericapasseport, "STR_AltisLifeFr_ericapasseport", "ericapasseport", 3, 1000, -1, true, -1, "textures\Passeport.paa")		
+	VITEMMACRO(jingmeipasseport, "STR_AltisLifeFr_jingmeipasseport", "jingmeipasseport", 3, 1000, -1, true, -1, "textures\Passeport.paa")	
     
     //Misc
 	VITEMMACRO(pickaxe, "STR_Item_Pickaxe", "pickaxe", 2, 55, 27, false, -1, "icons\ico_pickaxe.paa")
@@ -242,7 +268,7 @@ class Licenses {
 	LICENSEMACRO(marijuana,"STR_License_Marijuana","marijuana",40000,true,"civ")
 	LICENSEMACRO(medmarijuana,"STR_License_Medmarijuana","medmarijuana",20000,false,"civ")
 	LICENSEMACRO(cocaine,"STR_License_Cocaine","cocaine",55000,true,"civ")
-	LICENSEMACRO(gangster,"STR_License_Gangster","gangster",550000,true,"civ")
+	LICENSEMACRO(gangster,"SaTR_License_Gangster","gangster",550000,true,"civ")
     LICENSEMACRO(chefrebelle,"STR_License_ChefRebelle","chefrebelle",-1,false,"civ")
 
     /** Depanneur **/
@@ -258,9 +284,24 @@ class Licenses {
 };
 
 class VirtualShops {
+	class passeport {
+		name = "Préfecture (Passeport)";
+		items[] = { "passeport" };
+	};
+
+	class faussaire_homme {
+		name = "Faussaire (Nom masculin)";
+		items[] = { "johnpasseport", "michealpasseport", "michealpasseport", "tompasseport", "marcelpasseport", "marcpasseport", "nathanpasseport", "francispasseport", "deweypasseport", "halpasseport", "craigpasseport", "ericpasseport", "joshuapasseport", "dougpasseport", "richardpasseport", "anthonypasseport", "leonpasseport" };
+	};
+	
+	class faussaire_femme {
+		name = "Faussaire (Nom féminin)";
+		items[] = { "tracypasseport", "nikkipasseport", "monicapasseport", "monicapasseport", "mariepasseport", "mirandapasseport", "christinapasseport", "ericapasseport", "jingmeipasseport" };
+	};
+	
 	class market {
 		name = "STR_Shops_Market";
-		items[] = { "waterBottle", "rabbit_grilled", "apple", "redgull", "tbacon", "lockpick", "pickaxe", "fuelFull", "peach", "storagesmall" };
+		items[] = { "passeport", "johnpasseport", "michealpasseport", "tompasseport", "waterBottle", "rabbit_grilled", "apple", "redgull", "tbacon", "lockpick", "pickaxe", "fuelFull", "peach", "storagesmall" };
 	};
 
 	class rebel {

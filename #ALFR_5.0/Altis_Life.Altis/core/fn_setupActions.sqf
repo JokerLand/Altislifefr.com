@@ -85,8 +85,35 @@ switch (playerSide) do
         //Veste Explosive
 life_actions = life_actions + [player addAction["<t color='#FFA500'>Activer la veste explosive</t>",life_fnc_vesteExplosive,"",0,false,false,"",
 'vest player == "V_HarnessOGL_brn" && alive player && playerSide == civilian && !life_istazed && !(player getVariable "restrained") && !(player getVariable "Escorting") && !(player getVariable "transporting")']];                                                
-        //Montrer sa carte d'identité
-        life_actions = life_actions + [player addAction["<t color='#FFA500'>Montrer son Passeport</t>",life_fnc_PasseportAction,"",1,false,true,"",' playerSide == civilian && !isNull cursorTarget && cursorTarget isKindOf "Man"']];                                                
+        
+		//Papier d'identité
+		
+		life_actions = life_actions + [player addAction["<t color='#00FF00'>Montrer Passeport</t>",life_fnc_civpapier,"",1,false,true,"",' playerSide == civilian && !isNull cursorTarget && cursorTarget isKindOf "Man" && (life_inv_passeport >= 1) && cursorTarget distance player < 5']];
+		life_actions = life_actions + [player addAction["<t color='#00FF00'>Montrer Passeport (Anthony Mallard)</t>",life_fnc_anthonypapier,"",1,false,true,"",' playerSide == civilian && !isNull cursorTarget && cursorTarget isKindOf "Man" && (life_inv_anthonypasseport >= 1) && cursorTarget distance player < 5']];
+		life_actions = life_actions + [player addAction["<t color='#00FF00'>Montrer Passeport (Christina Yung)</t>",life_fnc_christinapapier,"",1,false,true,"",' playerSide == civilian && !isNull cursorTarget && cursorTarget isKindOf "Man" && (life_inv_christinapasseport >= 1) && cursorTarget distance player < 5']];
+		life_actions = life_actions + [player addAction["<t color='#00FF00'>Montrer Passeport (Craig Feldspar)</t>",life_fnc_craigpapier,"",1,false,true,"",' playerSide == civilian && !isNull cursorTarget && cursorTarget isKindOf "Man" && (life_inv_craigpasseport >= 1) && cursorTarget distance player < 5']];
+		life_actions = life_actions + [player addAction["<t color='#00FF00'>Montrer Passeport (Dewey Wilkerson)</t>",life_fnc_deweypapier,"",1,false,true,"",' playerSide == civilian && !isNull cursorTarget && cursorTarget isKindOf "Man" && (life_inv_deweypasseport >= 1) && cursorTarget distance player < 5']];
+		life_actions = life_actions + [player addAction["<t color='#00FF00'>Montrer Passeport (Doug Carter)</t>",life_fnc_dougpapier,"",1,false,true,"",' playerSide == civilian && !isNull cursorTarget && cursorTarget isKindOf "Man" && (life_inv_dougpasseport >= 1) && cursorTarget distance player < 5']];
+		life_actions = life_actions + [player addAction["<t color='#00FF00'>Montrer Passeport (Erica Harris)</t>",life_fnc_ericapapier,"",1,false,true,"",' playerSide == civilian && !isNull cursorTarget && cursorTarget isKindOf "Man" && (life_inv_ericapasseport >= 1) && cursorTarget distance player < 5']];
+		life_actions = life_actions + [player addAction["<t color='#00FF00'>Montrer Passeport (Eric Kenarban)</t>",life_fnc_ericpapier,"",1,false,true,"",' playerSide == civilian && !isNull cursorTarget && cursorTarget isKindOf "Man" && (life_inv_ericpasseport >= 1) && cursorTarget distance player < 5']];
+		life_actions = life_actions + [player addAction["<t color='#00FF00'>Montrer Passeport (Francis Pulivan)</t>",life_fnc_francispapier,"",1,false,true,"",' playerSide == civilian && !isNull cursorTarget && cursorTarget isKindOf "Man" && (life_inv_francispasseport >= 1) && cursorTarget distance player < 5']];
+		life_actions = life_actions + [player addAction["<t color='#00FF00'>Montrer Passeport (Hal Hansen)</t>",life_fnc_halpapier,"",1,false,true,"",' playerSide == civilian && !isNull cursorTarget && cursorTarget isKindOf "Man" && (life_inv_halpasseport >= 1) && cursorTarget distance player < 5']];
+		life_actions = life_actions + [player addAction["<t color='#00FF00'>Montrer Passeport (Jing-Mei Chan)</t>",life_fnc_jingmeipapier,"",1,false,true,"",' playerSide == civilian && !isNull cursorTarget && cursorTarget isKindOf "Man" && (life_inv_jingmeipasseport >= 1) && cursorTarget distance player < 5']];
+		life_actions = life_actions + [player addAction["<t color='#00FF00'>Montrer Passeport (John Smith)</t>",life_fnc_johnpapier,"",1,false,true,"",' playerSide == civilian && !isNull cursorTarget && cursorTarget isKindOf "Man" && (life_inv_johnpasseport >= 1) && cursorTarget distance player < 5']];
+		life_actions = life_actions + [player addAction["<t color='#00FF00'>Montrer Passeport (Joshua Harris)</t>",life_fnc_joshuapapier,"",1,false,true,"",' playerSide == civilian && !isNull cursorTarget && cursorTarget isKindOf "Man" && (life_inv_joshuapasseport >= 1) && cursorTarget distance player < 5']];
+		life_actions = life_actions + [player addAction["<t color='#00FF00'>Montrer Passeport (Leon Vance)</t>",life_fnc_leonpapier,"",1,false,true,"",' playerSide == civilian && !isNull cursorTarget && cursorTarget isKindOf "Man" && (life_inv_leonpasseport >= 1) && cursorTarget distance player < 5']];
+		life_actions = life_actions + [player addAction["<t color='#00FF00'>Montrer Passeport (Marcel Dupont)</t>",life_fnc_marcelpapier,"",1,false,true,"",' playerSide == civilian && !isNull cursorTarget && cursorTarget isKindOf "Man" && (life_inv_marcelpasseport >= 1) && cursorTarget distance player < 5']];
+		life_actions = life_actions + [player addAction["<t color='#00FF00'>Montrer Passeport (Marc Sanders)</t>",life_fnc_marcpapier,"",1,false,true,"",' playerSide == civilian && !isNull cursorTarget && cursorTarget isKindOf "Man" && (life_inv_marcpasseport >= 1) && cursorTarget distance player < 5']];
+		life_actions = life_actions + [player addAction["<t color='#00FF00'>Montrer Passeport (Marie Dawson)</t>",life_fnc_mariepapier,"",1,false,true,"",' playerSide == civilian && !isNull cursorTarget && cursorTarget isKindOf "Man" && (life_inv_mariepasseport >= 1) && cursorTarget distance player < 5']];
+		life_actions = life_actions + [player addAction["<t color='#00FF00'>Montrer Passeport (Micheal Williams)</t>",life_fnc_michealpapier,"",1,false,true,"",' playerSide == civilian && !isNull cursorTarget && cursorTarget isKindOf "Man" && (life_inv_michealpasseport >= 1) && cursorTarget distance player < 5']];
+		life_actions = life_actions + [player addAction["<t color='#00FF00'>Montrer Passeport (Miranda Stevens)</t>",life_fnc_mirandapapier,"",1,false,true,"",' playerSide == civilian && !isNull cursorTarget && cursorTarget isKindOf "Man" && (life_inv_mirandapasseport >= 1) && cursorTarget distance player < 5']];
+		life_actions = life_actions + [player addAction["<t color='#00FF00'>Montrer Passeport (Monica Deveaux)</t>",life_fnc_monicapapier,"",1,false,true,"",' playerSide == civilian && !isNull cursorTarget && cursorTarget isKindOf "Man" && (life_inv_monicapasseport >= 1) && cursorTarget distance player < 5']];
+		life_actions = life_actions + [player addAction["<t color='#00FF00'>Montrer Passeport (Nathan Masahashi)</t>",life_fnc_nathanpapier,"",1,false,true,"",' playerSide == civilian && !isNull cursorTarget && cursorTarget isKindOf "Man" && (life_inv_nathanpasseport >= 1) && cursorTarget distance player < 5']];
+		life_actions = life_actions + [player addAction["<t color='#00FF00'>Montrer Passeport (Nikki Bishop)</t>",life_fnc_nikkipapier,"",1,false,true,"",' playerSide == civilian && !isNull cursorTarget && cursorTarget isKindOf "Man" && (life_inv_nikkipasseport >= 1) && cursorTarget distance player < 5']];
+		life_actions = life_actions + [player addAction["<t color='#00FF00'>Montrer Passeport (Richard Hunt)</t>",life_fnc_richardpapier,"",1,false,true,"",' playerSide == civilian && !isNull cursorTarget && cursorTarget isKindOf "Man" && (life_inv_richardpasseport >= 1) && cursorTarget distance player < 5']];
+		life_actions = life_actions + [player addAction["<t color='#00FF00'>Montrer Passeport (Tom Dubois)</t>",life_fnc_tompapier,"",1,false,true,"",' playerSide == civilian && !isNull cursorTarget && cursorTarget isKindOf "Man" && (life_inv_tompasseport >= 1) && cursorTarget distance player < 5']];
+		life_actions = life_actions + [player addAction["<t color='#00FF00'>Montrer Passeport (Tracy Petrelli)</t>",life_fnc_tracypapier,"",1,false,true,"",' playerSide == civilian && !isNull cursorTarget && cursorTarget isKindOf "Man" && (life_inv_tracypasseport >= 1) && cursorTarget distance player < 5']];
+
 	};
 
 	case east: 
@@ -123,6 +150,5 @@ life_actions = life_actions + [player addAction["<t color='#FFA500'>Activer la v
 
 		//Se rendre
 		life_actions pushBack (player addAction["<t color='#006400'>Se rendre</t>",life_fnc_confirmStop,"",0,FALSE,FALSE,""]);
-
 	}
 };

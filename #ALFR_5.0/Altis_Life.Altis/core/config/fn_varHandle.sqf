@@ -71,6 +71,10 @@ switch (_mode) do
             case "barstop": {"life_inv_barstop"};
             case "lightd": {"life_inv_lightd"};
 			case "serflex": {"life_inv_serflex"};
+			case "passeport": {"life_inv_passeport"};
+			case "johnpasseport": {"life_inv_johnpasseport"};
+			case "michealpasseport": {"life_inv_michealpasseport"};
+			case "tompasseport": {"life_inv_tompasseport"};
 		};
 	};
 	
@@ -132,7 +136,11 @@ switch (_mode) do
             case "life_inv_glissiere": {"glissiere"};
             case "life_inv_barstop": {"barstop"};
             case "life_inv_lightd": {"lightd"};
-			case "life_inv_serflex": {"serflex"};
+			case "life_inv_passeport": {"passeport"};
+			case "life_inv_johnpasseport": {"johnpasseport"};
+			case "life_inv_michealpasseport": {"michealpasseport"};
+			case "life_inv_tompasseport": {"tompasseport"};
+			
 		};
 	};
 };

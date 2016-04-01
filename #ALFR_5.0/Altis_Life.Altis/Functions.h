@@ -237,9 +237,7 @@ class Life_Client_Core
 		class removeLicenses {};
 		class demoChargeTimer {};
 		class civLoadout {};
-        class PasseportAction {};
-		class Passeport {};
-		class civInteractionMenu {};
+		class civInteractionMenu {};	
 	};
 	
 	class Vehicle
@@ -289,6 +287,8 @@ class Life_Client_Core
         class copEnter {}
         class InsigneAction {};
 		class Insigne {};
+		class copShowLicense {};
+        class copLicenseShown {};
 	};
 	
 	class Adac
@@ -360,6 +360,61 @@ class Life_Client_Core
         class glissiere {};
         class barstop {};
         class lightd {};
+	};
+	
+	class Passeport
+	{
+		file = "core\passeport";
+		class anthonypapier {}; //faux papier - Anthony Mallard
+		class christinapapier {}; //faux papier - Christina Yung
+		class civpapier {}; //papier légal
+		class craigpapier {}; //faux papiers - Craig Feldspar
+		class deweypapier {}; //faux papiers - Dewey Wilkerson
+		class dougpapier {}; //faux papiers - Doug Carter
+		class ericapapier {}; //faux papiers - Erica Harris
+		class ericpapier {}; //faux papiers - Eric Kenarban
+		class francispapier {}; //faux papiers - Francis Pulivan
+		class halpapier {}; //faux papiers - Hal Hansen
+		class jingmeipapier  {}; //faux papiers - Jing-Mei Chan
+		class johnpapier {}; //faux papiers - John Smith
+		class joshuapapier {}; //faux papiers - Joshua Harris
+		class leonpapier {}; //faux papiers - Leon Vance
+		class marcelpapier {}; //faux papiers - Marcel Dupont
+		class marcpapier {}; //faux papiers - Marc Sanders
+		class mariepapier {}; //faux papiers - Marie Dawson
+		class michealpapier {}; //faux papiers - Micheal Williams
+		class mirandapapier {}; //faux papiers - Miranda Stevens
+		class monicapapier {}; //faux papiers - Monica Deveaux
+		class nathanpapier {}; //faux papiers - Nathan Masahashi
+		class nikkipapier {}; //faux papiers - Nikki Bishop
+		class richardpapier {}; //faux papiers - Richard Hunt
+		class tompapier {}; //faux papiers - Tom Dubois
+		class tracypapier {}; //faux papiers - Tracy Petrelli
+		class usepasseport {}; // usepasseport 
+		class usepasseportanthony {}; // usepasseport Anthony Mallard
+		class usepasseportchristina {}; // usepasseport Christina Yung
+		class usepasseportcraig {}; // usepasseport Craig Feldspar
+		class usepasseportdewey {}; // usepasseport Dewey Wilkerson
+		class usepasseportdoug {}; // usepasseport Doug Carter
+		class usepasseporteric {}; // usepasseport Eric Kenarban
+		class usepasseporterica {}; // usepasseport Erica Harris
+		class usepasseportfrancis {}; // usepasseport Francis Pulivan
+		class usepasseporthal {}; // usepasseport Hal Hansen
+		class usepasseportjingmei {}; // usepasseport Jing-Mei Chan
+		class usepasseportjohn {}; // usepasseport John
+		class usepasseportjoshua {}; // usepasseport Joshua Harris
+		class usepasseportleon {}; // usepasseport Leon Vance
+		class usepasseportmarc {}; // usepasseport Marc Sanders
+		class usepasseportmarcel {}; // usepasseport Marcel Dupont
+		class usepasseportmarie {}; // usepasseport Marie Dawson
+		class usepasseportmicheal {}; // usepasseport Micheal
+		class usepasseportmiranda {}; // usepasseport Miranda Stevens
+		class usepasseportmonica {}; // usepasseport Monica Deveaux
+		class usepasseportnathan {}; // usepasseport Nathan Masahashi
+		class usepasseportnikki {}; // usepasseport Nikki Bishop
+		class usepasseportrichard {}; // usepasseport Richard Hunt
+		class usepasseporttom {}; // usepasseport Tom
+		class usepasseporttracy {}; // usepasseport Tracy Petrelli
 	};
 	
 	class Dialog_Controls

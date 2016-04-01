@@ -1,7 +1,7 @@
-#include <macro.h>
 /*
-File : copLicenseShown .sqf
+File : fn_copShowLicense.sqf
 Create : Black Lagoon
+Edit : Artkyom - AltisLifeFr.com
 */
 
 private["_msg"];

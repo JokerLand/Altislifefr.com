@@ -66,6 +66,10 @@ switch (_var) do
     case "life_inv_glissiere": {"Glissière"};
     case "life_inv_barstop": {"Barstop"};
     case "life_inv_lightd": {"lightd"};
+	case "life_inv_passeport": {"STR_AltisLifeFr_passeport"};
+	case "life_inv_johnpasseport": {"STR_AltisLifeFr_johnpasseport"};
+	case "life_inv_michealpasseport": {"STR_AltisLifeFr_michealpasseport"};
+	case "life_inv_tompasseport": {"STR_AltisLifeFr_tompasseport"};
 
 	//License Block
 	case "license_civ_driver": {(localize "STR_License_Driver")};

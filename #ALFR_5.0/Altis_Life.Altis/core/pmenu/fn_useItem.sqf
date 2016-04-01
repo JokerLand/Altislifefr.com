@@ -1,4 +1,4 @@
-#include <macro.h>
+﻿#include <macro.h>
 /*
 	File: fn_useItem.sqf
 	Author: Bryan "Tonic" Boardwine
@@ -109,7 +109,132 @@ switch (true) do {
 	case (EQUAL(_item,"lockpick")): {
 		[] spawn life_fnc_lockpick;
 	};
+	
+	case (_item == "passeport"):
+		{
+			[] spawn life_fnc_usepasseport;
+		};
+	
+	case (_item == "johnpasseport"):
+		{
+			[] spawn life_fnc_usepasseportjohn;
+		};
+		
+	case (_item == "michealpasseport"):
+		{
+			[] spawn life_fnc_usepasseportmicheal;
+		};
 
+	case (_item == "tompasseport"):
+		{
+			[] spawn life_fnc_usepasseporttom;
+		};
+
+	case (_item == "marcelpasseport"):
+		{
+			[] spawn life_fnc_usepasseportmarcel;
+		};
+
+	case (_item == "marcpasseport"):
+		{
+			[] spawn life_fnc_usepasseportmarc;
+		};
+
+	case (_item == "nathanpasseport"):
+		{
+			[] spawn life_fnc_usepasseportnathan;
+		};
+
+	case (_item == "francispasseport"):
+		{
+			[] spawn life_fnc_usepasseportfrancis;
+		};
+
+	case (_item == "deweypasseport"):
+		{
+			[] spawn life_fnc_usepasseportdewey;
+		};
+
+	case (_item == "halpasseport"):
+		{
+			[] spawn life_fnc_usepasseporthal;
+		};	
+
+	case (_item == "craigpasseport"):
+		{
+			[] spawn life_fnc_usepasseportcraig;
+		};	
+
+	case (_item == "ericpasseport"):
+		{
+			[] spawn life_fnc_usepasseporteric;
+		};	
+
+	case (_item == "joshuapasseport"):
+		{
+			[] spawn life_fnc_usepasseportjoshua;
+		};	
+
+	case (_item == "dougpasseport"):
+		{
+			[] spawn life_fnc_usepasseportdoug;
+		};
+
+	case (_item == "richardpasseport"):
+		{
+			[] spawn life_fnc_usepasseportrichard;
+		};	
+
+	case (_item == "anthonypasseport"):
+		{
+			[] spawn life_fnc_usepasseportanthony;
+		};	
+
+	case (_item == "leonpasseport"):
+		{
+			[] spawn life_fnc_usepasseportleon;
+		};	
+
+	case (_item == "tracypasseport"):
+		{
+			[] spawn life_fnc_usepasseporttracy;
+		};
+
+	case (_item == "nikkipasseport"):
+		{
+			[] spawn life_fnc_usepasseportnikki;
+		};	
+
+	case (_item == "monicapasseport"):
+		{
+			[] spawn life_fnc_usepasseportmonica;
+		};
+
+	case (_item == "mariepasseport"):
+		{
+			[] spawn life_fnc_usepasseportmarie;
+		};	
+
+	case (_item == "mirandapasseport"):
+		{
+			[] spawn life_fnc_usepasseportmiranda;
+		};	
+
+	case (_item == "christinapasseport"):
+		{
+			[] spawn life_fnc_usepasseportchristina;
+		};	
+
+	case (_item == "ericapasseport"):
+		{
+			[] spawn life_fnc_usepasseporterica;
+		};				
+
+	case (_item == "jingmeipasseport"):
+		{
+			[] spawn life_fnc_usepasseportjingmei;
+		};
+		
 	case (_item in ["apple","rabbit","salema","ornate","mackerel","tuna","mullet","catshark","turtle","turtlesoup","donuts","tbacon","peach"]): {
 		if(!(EQUAL(M_CONFIG(getNumber,"VirtualItems",_item,"edible"),-1))) then {
 			if([false,_item,1] call life_fnc_handleInv) then {

@@ -17,10 +17,10 @@ _illegalmarkers = [
 "heroin_1", "heroin_area", "heroin_p",
     
 //Zone de Tortue
-"turtle_1_name_2", "turtle_1_name_1", "turtle_1_name",    
+"turtle_1_name_2", "turtle_1_name_1", "turtle_1_name", "turtle_2", "turtle_3", "turtle_1",   
 
 //Rebelle
-"Rebelop_1_1", "Rebelop_1_1_1", "garage_reb_1_1", "garage_reb_1",
+"Rebelop_1_1", "Rebelop_1_1_1", "garage_reb_1_1", "garage_reb_1", "faussaire",
     
 //Gangster
 "Rebelop_1_1_1_1", "garage_reb_1_1_2", "garage_reb_1_1_1", "Gangster_shop",    
