@@ -323,7 +323,7 @@ class Clothing {
 			{ "G_Lady_Blue", "", 5, { "", "", -1 } },
 			{ "G_Lowprofile", "", 5, { "", "", -1 } },
 			{ "G_Combat", "", 5, { "", "", -1 } },
-            { "G_B_Diving", "", 10, { "", "", -1 } },
+            { "G_B_Diving", "", 10, { "", "", -1 } }
 		};
 
 		vests[] = {
