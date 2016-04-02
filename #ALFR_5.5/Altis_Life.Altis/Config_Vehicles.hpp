@@ -1,4 +1,4 @@
-class CarShops {
+﻿class CarShops {
     /*
     *    ARRAY FORMAT:
     *        0: STRING (Classname)
@@ -3958,9 +3958,50 @@ class LifeCfgVehicles {
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
 		chopShop = 3000;
-	};	
+	};
 
-    class B_Heli_Transport_01_F {
+    class GeK_VAB {
+		vItemSpace = 70;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 1000, 1000, 1000, 1000 };
+		chopShop = 6500;
+	};
+
+	class B_MRAP_01_F {
+        vItemSpace = 60;
+        storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 1000, 1000, 1000, 1000 };
+        chopShop = 6500;
+        textures[] = {
+        	{ "Armée", "armer", {
+                "alfr_Arm\data\ALFR_hunter_base_armee.jpg",
+				"alfr_Arm\data\ALFR_hunter_back_armee.jpg"
+            } }
+        };
+    };
+
+	class C_Offroad_01_repair_F {
+		vItemSpace = 40;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 1000, 1000, 1000, 1000 };
+		chopShop = 5000;
+	};
+
+	class GeK_Volvo_FH16_2012_Depannage {
+		vItemSpace = 25;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 1000, 1000, 1000, 1000 };
+		chopShop = 5000;
+	};
+
+	class EC635_ADAC {
+		vItemSpace = 5;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 1000, 1000, 1000, 1000 };
+		chopShop = 7500;
+	};	
+	
+	class B_Heli_Transport_01_F {
         vItemSpace = 200;
         storageFee[] = { 0, 50000, 0, 0 };
         garageSell[] = { 0, 85000, 0, 0 };
@@ -4120,21 +4161,7 @@ class LifeCfgVehicles {
             } }
         };
     };
-
-    class B_MRAP_01_F {
-        vItemSpace = 65;
-        storageFee[] = { 0, 7500, 0, 0 };
-        garageSell[] = { 0, 10000, 0, 0 };
-        insurance = 2500;
-        chopShop = 15000;
-        textures[] = {
-            { "Black", "cop", {
-                "#(argb,8,8,3)color(0.05,0.05,0.05,1)",
-                "#(argb,8,8,3)color(0.05,0.05,0.05,1)"
-            } }
-        };
-    };
-
+	
 	class B_Heli_Light_01_F {
         vItemSpace = 5;
         storageFee[] = { 1000, 1000, 1000, 1000 };
