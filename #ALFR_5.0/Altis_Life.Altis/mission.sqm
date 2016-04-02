@@ -7704,7 +7704,7 @@ class Mission
 			vehicle="Land_CashDesk_F";
 			leader=1;
 			skill=0.60000002;
-			init="this enableSimulation false; this allowDamage false; this addAction[""Passeport"",life_fnc_virt_menu,""passeport""];";
+			init="this enableSimulation false; this allowDamage false; this addAction[""Passeport (Masculin)"",life_fnc_virt_menu,""faussaire_homme""]; this addAction[""Passeport (Féminin)"",life_fnc_virt_menu,""faussaire_femme""]; ";
 		};
 	};
 	class Markers
