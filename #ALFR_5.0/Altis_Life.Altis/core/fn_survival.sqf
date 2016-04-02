@@ -5,7 +5,7 @@
 	Description:
 	All survival? things merged into one thread.
 */
-private["_fnc_food","_fnc_water","_foodTime","_waterTime","_bp","_walkDis","_lastPos","_curPos", "_fnc_channel", "_fnc_server"];
+private["_fnc_food","_fnc_water","_foodTime","_waterTime","_bp","_walkDis","_lastPos","_curPos", "_fnc_channel", "_fnc_server", "_load"];
 _fnc_food =  {
 	if(life_hunger < 2) then {player setDamage 1; hint localize "STR_NOTF_EatMSG_Death";}
 	else
@@ -143,7 +143,35 @@ while {true} do {
 	} else {
 		if(!(EQUAL(backpack player,"")) && {!(EQUAL(backpack player,_bp))}) then {
 			_bp = backpack player;
-			life_maxWeight = life_maxWeightT + (round(FETCH_CONFIG2(getNumber,CONFIG_VEHICLES,_bp,"maximumload") / 4));
+			if (backpack player == "B_Parachute") then { _load = 24; };
+			if (backpack player == "CUP_B_SLA_Medicbag") then { _load = 45; };
+			if (backpack player == "CUP_B_AlicePack_Khaki") then { _load = 52; };
+			if (backpack player == "CUP_B_CivPack_WDL") then { _load = 52; };
+			if (backpack player == "B_FieldPack_cbr") then { _load = 52; };
+			if (backpack player == "B_FieldPack_khk") then { _load = 52; };
+			if (backpack player == "B_FieldPack_blk") then { _load = 52; };
+			if (backpack player == "B_FieldPack_oucamo") then { _load = 52; };
+			if (backpack player == "CUP_B_CivPack_WDL") then { _load = 52; };
+			if (backpack player == "CUP_B_USMC_MOLLE_WDL") then { _load = 52; };
+			if (backpack player == "TRYK_B_FieldPack_Wood") then { _load = 52; };
+			if (backpack player == "ALFR_Civ_Bags_backpack_DC") then { _load = 104; };
+			if (backpack player == "ALFR_Civ_Bags_backpack_terminator") then { _load = 104; };
+			if (backpack player == "ALFR_Civ_Bags_backpack_monster") then { _load = 104; };
+			if (backpack player == "ALFR_Civ_Bags_backpack_superman") then { _load = 104; };
+			if (backpack player == "ALFR_Civ_Bags_Nitrado") then { _load = 104; };
+			if (backpack player == "B_Carryall_oli") then { _load = 104; };
+			if (backpack player == "B_Carryall_cbr") then { _load = 104; };
+			if (backpack player == "B_Carryall_khk") then { _load = 104; };
+			if (backpack player == "TRYK_B_Carryall_blk") then { _load = 104; };
+			if (backpack player == "CUP_B_GER_Pack_Flecktarn") then { _load = 104; };
+			if (backpack player == "CUP_B_GER_Pack_Tropentarn") then { _load = 104; };
+			if (backpack player == "CUP_B_HikingPack_Civ") then { _load = 104; };
+			if (backpack player == "B_Carryall_ocamo") then { _load = 104; };
+			if (backpack player == "B_Carryall_mcamo") then { _load = 104; };
+			if (backpack player == "TRYK_B_Carryall_JSDF") then { _load = 104; };
+			if (backpack player == "TRYK_B_Carryall_wood") then { _load = 104; };
+			if (backpack player == "CUP_B_ACRPara_m95") then { _load = 128; };
+			life_maxWeight = _load;
 		};
 	};
 	

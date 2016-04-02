@@ -84,7 +84,7 @@ switch (playerSide) do
 		life_actions pushBack (player addAction["<t color='#006400'>Se rendre</t>",life_fnc_confirmStop,"",0,FALSE,FALSE,""]);
         //Veste Explosive
 life_actions = life_actions + [player addAction["<t color='#FFA500'>Activer la veste explosive</t>",life_fnc_vesteExplosive,"",0,false,false,"",
-'vest player == "V_HarnessOGL_brn" && alive player && playerSide == civilian && !life_istazed && !(player getVariable "restrained") && !(player getVariable "Escorting") && !(player getVariable "transporting")']];                                                
+'vest player == "V_BombJacket" && alive player && playerSide == civilian && !life_istazed && !(player getVariable "restrained") && !(player getVariable "Escorting") && !(player getVariable "transporting")']];                                                
         
 		//Papier d'identité
 		
