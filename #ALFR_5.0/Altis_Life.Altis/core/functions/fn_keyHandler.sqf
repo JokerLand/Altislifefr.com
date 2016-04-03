@@ -232,8 +232,8 @@ switch (_code) do
 	    //if(_shift) then {_handled = true;};
 		if ((!_shift) && (vehicle player == player)) then
 		{
-			cutText [format["Plus vite!!!"], "PLAIN DOWN"];
-			player playMove "AmovPercMstpSnonWnonDnon_exercisekneeBendB";
+			cutText [format["Briefing"], "PLAIN DOWN"];
+			player playMove "Acts_A_M01_briefing";
 		};
 	};
 
