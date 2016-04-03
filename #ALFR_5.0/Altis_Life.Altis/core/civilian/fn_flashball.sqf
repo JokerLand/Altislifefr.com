@@ -1,5 +1,3 @@
-hgun_Sam_flashball_F
-
 private["_unit","_shooter","_curWep","_curMags","_attach"];
 _unit = [_this,0,Objnull,[Objnull]] call BIS_fnc_param;
 _shooter = [_this,1,Objnull,[Objnull]] call BIS_fnc_param;
