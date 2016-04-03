@@ -5020,22 +5020,6 @@
         <Key ID="STR_AltisLifeFr_serendre">
 			<Original>%1 se rend et met les mains sur la tête</Original>
  			<French>%1 se rend et met les mains sur la tête</French>
-		</Key>
-        <Key ID="STR_AltisLifeFr_passeport">
-			<Original>Passeport</Original>
- 			<French>Passeport</French>
-		</Key>		
-        <Key ID="STR_AltisLifeFr_johnpasseport">
-			<Original>Passeport Falsifié (John Smith)</Original>
- 			<French>Passeport Falsifié (John Smith)</French>
 		</Key>	
-        <Key ID="STR_AltisLifeFr_michealpasseport">
-			<Original>Passeport Falsifié (Micheal Williams)</Original>
- 			<French>Passeport Falsifié (Micheal Williams)</French>
-		</Key>
-        <Key ID="STR_AltisLifeFr_tompasseport">
-			<Original>Passeport Falsifié (Tom Dubois)</Original>
- 			<French>Passeport Falsifié (Tom Dubois)</French>
-		</Key>			
 </Package>
 </Project>
