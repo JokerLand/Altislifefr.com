@@ -246,15 +246,12 @@ class Clothing {
             { "V_BandollierB_rgr", "", 200, { "", "", -1 } },
             { "V_BandollierB_blk", "", 200, { "", "", -1 } },
 			{ "V_BandollierB_oli", "", 200, { "", "", -1 } },
-			{ "V_Rangemaster_belt", "", 200, { "", "", -1 } },
-			{ "ALFR_V_Tactical_Vest_Light", "", 200, { "", "", -1 } },
-			{ "ALFR_V_Tactical_Vest_Light_blk", "", 200, { "", "", -1 } },
-			{ "ALFR_V_Tactical_Vest_Light_oli", "", 200, { "", "", -1 } }
+			{ "V_Rangemaster_belt", "", 200, { "", "", -1 } }
 		};
 
 		backpacks[] = {
 			{ "NONE", "Supprime sac", 0, { "", "", -1 } },
-			{ "B_Parachute", "", 200, { "", "", -1 } }
+			{ "B_Parachute", "", 200, { "", "", -1 } },
 			{ "CUP_B_SLA_Medicbag", "", 400, { "", "", -1 } },
 			{ "CUP_B_AlicePack_Khaki", "", 500, { "", "", -1 } },
 			{ "CUP_B_CivPack_WDL", "", 500, { "", "", -1 } },
@@ -555,7 +552,7 @@ class Clothing {
 
 		backpacks[] = {
 			{ "NONE", "Supprime sac", 0, { "", "", -1 } },
-			{ "B_Parachute", "", 200, { "", "", -1 } }
+			{ "B_Parachute", "", 200, { "", "", -1 } },
 			{ "CUP_B_AlicePack_Khaki", "", 500, { "", "", -1 } },
 			{ "CUP_B_CivPack_WDL", "", 500, { "", "", -1 } },
 			{ "B_FieldPack_cbr", "", 500, { "", "", -1 } },
