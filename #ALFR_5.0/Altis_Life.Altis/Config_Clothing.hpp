@@ -236,7 +236,22 @@ class Clothing {
 			{ "G_Lady_Dark", "", 200, { "", "", -1 } },
 			{ "G_Lady_Blue", "", 200, { "", "", -1 } },
 			{ "G_Lowprofile", "", 200, { "", "", -1 } },
-			{ "G_Combat", "", 200, { "", "", -1 } }
+			{ "EWK_Cigar1", "", 200, { "", "", -1 } },
+			{ "EWK_Cigar2", "", 200, { "", "", -1 } },
+			{ "EWK_Cig6", "", 200, { "", "", -1 } },
+			{ "EWK_Glasses_Cig6", "", 200, { "", "", -1 } },
+			{ "EWK_Shemag_NB_Cig6", "", 200, { "", "", -1 } },
+			{ "EWK_Shemag_GRE_Cig6", "", 200, { "", "", -1 } },
+			{ "EWK_Shemag_tan_Cig6", "", 200, { "", "", -1 } },
+			{ "EWK_Glasses_Shemag_NB_Cig6", "", 200, { "", "", -1 } },	
+			{ "EWK_Glasses_Shemag_GRE_Cig6", "", 200, { "", "", -1 } },
+			{ "EWK_Glasses_Shemag_tan_Cig6", "", 200, { "", "", -1 } },	
+			{ "EWK_Cig4", "", 200, { "", "", -1 } },
+			{ "EWK_Glasses_Cig4", "", 200, { "", "", -1 } },	
+			{ "EWK_Shemag_NB", "", 200, { "", "", -1 } },		
+			{ "EWK_Shemag_LULZ", "", 200, { "", "", -1 } },	
+			{ "EWK_Shemag_GRE", "", 200, { "", "", -1 } },	
+			{ "EWK_Shemag_tan", "", 200, { "", "", -1 } }	
 		};
 
 		vests[] = {
@@ -320,7 +335,11 @@ class Clothing {
 			{ "G_Lady_Blue", "", 5, { "", "", -1 } },
 			{ "G_Lowprofile", "", 5, { "", "", -1 } },
 			{ "G_Combat", "", 5, { "", "", -1 } },
-            { "G_B_Diving", "", 10, { "", "", -1 } }
+            { "G_B_Diving", "", 10, { "", "", -1 } },
+			{ "EWK_Shemag_GRE_Cig6", "", 200, { "", "", -1 } },
+			{ "EWK_Shemag_tan_Cig6", "", 200, { "", "", -1 } },
+			{ "EWK_Glasses_Cig6", "", 200, { "", "", -1 } },
+			{ "EWK_Cig6", "", 200, { "", "", -1 } }	
 		};
 
 		vests[] = {
@@ -527,7 +546,23 @@ class Clothing {
 			{ "G_Bandanna_oli", "", 200, {"", "", -1} },
 			{ "G_Bandanna_blk", "", 200, {"", "", -1} },
 			{ "G_Bandanna_beast", "", 200, {"", "", -1} },
-			{ "G_Balaclava_oli", "", 200, {"", "", -1} }
+			{ "G_Balaclava_oli", "", 200, {"", "", -1} },
+			{ "EWK_Cigar1", "", 200, { "", "", -1 } },
+			{ "EWK_Cigar2", "", 200, { "", "", -1 } },
+			{ "EWK_Cig6", "", 200, { "", "", -1 } },
+			{ "EWK_Glasses_Cig6", "", 200, { "", "", -1 } },
+			{ "EWK_Shemag_NB_Cig6", "", 200, { "", "", -1 } },
+			{ "EWK_Shemag_GRE_Cig6", "", 200, { "", "", -1 } },
+			{ "EWK_Shemag_tan_Cig6", "", 200, { "", "", -1 } },
+			{ "EWK_Glasses_Shemag_NB_Cig6", "", 200, { "", "", -1 } },	
+			{ "EWK_Glasses_Shemag_GRE_Cig6", "", 200, { "", "", -1 } },
+			{ "EWK_Glasses_Shemag_tan_Cig6", "", 200, { "", "", -1 } },	
+			{ "EWK_Cig4", "", 200, { "", "", -1 } },
+			{ "EWK_Glasses_Cig4", "", 200, { "", "", -1 } },	
+			{ "EWK_Shemag_NB", "", 200, { "", "", -1 } },		
+			{ "EWK_Shemag_LULZ", "", 200, { "", "", -1 } },	
+			{ "EWK_Shemag_GRE", "", 200, { "", "", -1 } },	
+			{ "EWK_Shemag_tan", "", 200, { "", "", -1 } }	
 		};
 
 		vests[] = {
@@ -720,7 +755,23 @@ class Clothing {
 			{ "G_Bandanna_oli", "", 200, {"", "", -1} },
 			{ "G_Bandanna_blk", "", 200, {"", "", -1} },
 			{ "G_Bandanna_beast", "", 200, {"", "", -1} },
-			{ "G_Balaclava_oli", "", 200, {"", "", -1} }
+			{ "G_Balaclava_oli", "", 200, {"", "", -1} },
+			{ "EWK_Cigar1", "", 200, { "", "", -1 } },
+			{ "EWK_Cigar2", "", 200, { "", "", -1 } },
+			{ "EWK_Cig6", "", 200, { "", "", -1 } },
+			{ "EWK_Glasses_Cig6", "", 200, { "", "", -1 } },
+			{ "EWK_Shemag_NB_Cig6", "", 200, { "", "", -1 } },
+			{ "EWK_Shemag_GRE_Cig6", "", 200, { "", "", -1 } },
+			{ "EWK_Shemag_tan_Cig6", "", 200, { "", "", -1 } },
+			{ "EWK_Glasses_Shemag_NB_Cig6", "", 200, { "", "", -1 } },	
+			{ "EWK_Glasses_Shemag_GRE_Cig6", "", 200, { "", "", -1 } },
+			{ "EWK_Glasses_Shemag_tan_Cig6", "", 200, { "", "", -1 } },	
+			{ "EWK_Cig4", "", 200, { "", "", -1 } },
+			{ "EWK_Glasses_Cig4", "", 200, { "", "", -1 } },	
+			{ "EWK_Shemag_NB", "", 200, { "", "", -1 } },		
+			{ "EWK_Shemag_LULZ", "", 200, { "", "", -1 } },	
+			{ "EWK_Shemag_GRE", "", 200, { "", "", -1 } },	
+			{ "EWK_Shemag_tan", "", 200, { "", "", -1 } }	
 		};
 
 		vests[] = {
@@ -1074,7 +1125,10 @@ class Clothing {
 			{ "H_ALFR_OVERKILL_I", "", 800, { "", "", -1 } },	
 			{ "H_ALFR_OVERKILL_II", "", 800, { "", "", -1 } },	
 			{ "H_ALFR_OVERKILL_III", "", 800, { "", "", -1 } },	
-			{ "H_ALFR_OVERKILL_IV", "", 800, { "", "", -1 } }
+			{ "H_ALFR_OVERKILL_IV", "", 800, { "", "", -1 } },
+			{ "kio_skl_msk_grn", "", 800, { "", "", -1 } },
+			{ "kio_skl_msk_red", "", 800, { "", "", -1 } },
+			{ "kio_skl_msk", "", 800, { "", "", -1 } }
 		};
 
 		goggles[] = {

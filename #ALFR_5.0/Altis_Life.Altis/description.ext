@@ -170,6 +170,13 @@ class CfgSounds
         sound[] = {"\sounds\mining.ogg", 0.95, 0.95};
         titles[] = {};
     };
+	
+	class Bank
+    {
+	    name = "Bank";
+        sound[] = {"\sounds\bank.ogg", 0.95, 0.95};
+        titles[] = {};
+    };
 };
 
 class CfgDebriefing

@@ -7,14 +7,15 @@
 private["_vault","_handle"];
 _vault = [_this,0,ObjNull,[ObjNull]] call BIS_fnc_param;
 if(isNull _vault) exitWith {}; //Bad object
-if({side _x == west} count playableUnits < 8) exitWith {hint localize "STR_Civ_NotEnoughCops"};
+// if({side _x == west} count playableUnits < 8) exitWith {hint localize "STR_Civ_NotEnoughCops"};
 if(typeOf _vault != "GeK_Coffre") exitWith {hint localize "STR_ISTR_Blast_VaultOnly"};
 if(_vault getVariable["chargeplaced",false]) exitWith {hint localize "STR_ISTR_Blast_AlreadyPlaced"};
 if(_vault getVariable["safe_open",false]) exitWith {hint localize "STR_ISTR_Blast_AlreadyOpen"};
 if(!([false,"blastingcharge",1] call life_fnc_handleInv)) exitWith {}; //Error?
 
 _vault setVariable["chargeplaced",true,true];
-[[0,"STR_ISTR_Blast_Placed"],"life_fnc_broadcast",west,false] call life_fnc_MP;
+[[2,"LA BANQUE D'ALTIS EST EN COURS DE BRAQUAGE !"],"life_fnc_broadcast",nil,false] spawn life_fnc_MP;
+[player, "Bank",10] call CBA_fnc_globalSay3d;
 hint localize "STR_ISTR_Blast_KeepOff";
 _handle = [] spawn life_fnc_demoChargeTimer;
 [[],"life_fnc_demoChargeTimer",west,false] call life_fnc_MP;

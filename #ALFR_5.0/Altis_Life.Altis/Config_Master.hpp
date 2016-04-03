@@ -128,10 +128,10 @@ class VirtualItems {
     VITEMMACRO(lightd, "STR_AltisLifeFr_lightd", "lightd", 2, 0, 0, false, -1, "icons\ico_cone.paa")  
     VITEMMACRO(serflex, "STR_AltisLifeFr_serflex", "serflex", 2, 1000, 500, true, -1, "icons\ico_serflex.paa") 
 	// Passeport AltisLifeFR
-	VITEMMACRO(passeport, "STR_AltisLifeFr_passeport", "passeport", 3, 800, -1, false, -1, "textures\Passeport.paa")
+	VITEMMACRO(passeport, "Passeport", "passeport", 3, 800, -1, false, -1, "textures\Passeport.paa")
 	VITEMMACRO(johnpasseport, "Passeport Falsifié (John Smith)", "johnpasseport", 3, 60000, -1, true, -1, "textures\Passeport.paa")
-	VITEMMACRO(michealpasseport, "Passeport Falsifié (John Smith)", "michealpasseport", 3, 60000, -1, true, -1, "textures\Passeport.paa")
-	VITEMMACRO(tompasseport, "Passeport Falsifié (John Smith)", "tompasseport", 3, 60000, -1, true, -1, "textures\Passeport.paa")
+	VITEMMACRO(michealpasseport, "Passeport Falsifié (Micheal Williams)", "michealpasseport", 3, 60000, -1, true, -1, "textures\Passeport.paa")
+	VITEMMACRO(tompasseport, "Passeport Falsifié (Tom Dubois)", "tompasseport", 3, 60000, -1, true, -1, "textures\Passeport.paa")
 	VITEMMACRO(marcelpasseport, "Passeport Falsifié (Marcel Dupont)", "marcelpasseport", 3, 60000, -1, true, -1, "textures\Passeport.paa")
 	VITEMMACRO(marcpasseport, "Passeport Falsifié (Marc Sanders)", "marcpasseport", 3, 60000, -1, true, -1, "textures\Passeport.paa")
 	VITEMMACRO(nathanpasseport, "Passeport Falsifié (Nathan Masahashi)", "nathanpasseport", 3, 60000, -1, true, -1, "textures\Passeport.paa")

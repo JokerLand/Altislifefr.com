@@ -66,10 +66,32 @@ switch (_var) do
     case "life_inv_glissiere": {"Glissière"};
     case "life_inv_barstop": {"Barstop"};
     case "life_inv_lightd": {"lightd"};
-	case "life_inv_passeport": {"STR_AltisLifeFr_passeport"};
-	case "life_inv_johnpasseport": {"STR_AltisLifeFr_johnpasseport"};
-	case "life_inv_michealpasseport": {"STR_AltisLifeFr_michealpasseport"};
-	case "life_inv_tompasseport": {"STR_AltisLifeFr_tompasseport"};
+	case "life_inv_passeport": {"Passeport"};
+	case "life_inv_johnpasseport": {"Passeport Falsifié (John Smith)"};
+	case "life_inv_michealpasseport": {"Passeport Falsifié (Micheal Williams)"};
+	case "life_inv_tompasseport": {"Passeport Falsifié (Tom Dubois)"};
+	case "life_inv_marcelpasseport": {"Passeport Falsifié (Marcel Dupont)"};
+	case "life_inv_marcpasseport": {"Passeport Falsifié (Marc Sanders)"};
+	case "life_inv_nathanpasseport": {"Passeport Falsifié (Nathan Masahashi)"};
+	case "life_inv_francispasseport": {"Passeport Falsifié (Francis Pulivan)"};
+	case "life_inv_deweypasseport": {"Passeport Falsifié (Dewey Wilkerson)"};
+	case "life_inv_halpasseport": {"Passeport Falsifié (Hal Hansen)"};	
+	case "life_inv_craigpasseport": {"Passeport Falsifié (Craig Feldspar)"};
+	case "life_inv_ericpasseport": {"Passeport Falsifié (Eric Kenarban)"};	
+	case "life_inv_joshuapasseport": {"Passeport Falsifié (Joshua Harris)"};
+	case "life_inv_dougpasseport": {"Passeport Falsifié (Doug Carter)"};
+	case "life_inv_richardpasseport": {"Passeport Falsifié (Richard Hunt)"};
+	case "life_inv_anthonypasseport": {"Passeport Falsifié (Anthony Mallard)"};		
+	case "life_inv_leonpasseport": {"Passeport Falsifié (Leon Vance)"};
+	case "life_inv_tracypasseport": {"Passeport Falsifié (Tracy Petrelli)"};
+	case "life_inv_nikkipasseport": {"Passeport Falsifié (Nikki Bishop)"};	
+	case "life_inv_monicapasseport": {"Passeport Falsifié (Monica Deveaux)"};	
+	case "life_inv_mariepasseport": {"Passeport Falsifié (Marie Dawson)"};	
+	case "life_inv_mirandapasseport": {"Passeport Falsifié (Miranda Stevens)"};	
+	case "life_inv_christinapasseport": {"Passeport Falsifié (Christina Yung)"};
+	case "life_inv_ericapasseport": {"Passeport Falsifié (Erica Harris)"};	
+	case "life_inv_jingmeipasseport": {"Passeport Falsifié (Jing-Mei Chan)"};
+
 
 	//License Block
 	case "license_civ_driver": {(localize "STR_License_Driver")};
