@@ -5020,6 +5020,106 @@
         <Key ID="STR_AltisLifeFr_serendre">
 			<Original>%1 se rend et met les mains sur la tête</Original>
  			<French>%1 se rend et met les mains sur la tête</French>
+		</Key>
+        <Key ID="STR_AltisLifeFr_passeport">
+			<Original>Passeport</Original>
+ 			<French>Passeport</French>
+		</Key>
+        <Key ID="STR_AltisLifeFr_johnpasseport">
+			<Original>Passeport Falsifié (John Smith)</Original>
+ 			<French>Passeport Falsifié (John Smith)</French>
 		</Key>	
+        <Key ID="STR_AltisLifeFr_michealpasseport">
+			<Original>Passeport Falsifié (Micheal Williams)</Original>
+ 			<French>Passeport Falsifié (Micheal Williams)</French>
+		</Key>
+        <Key ID="STR_AltisLifeFr_tompasseport">
+			<Original>Passeport Falsifié (Tom Dubois)</Original>
+ 			<French>Passeport Falsifié (Tom Dubois)</French>
+		</Key>	
+        <Key ID="STR_AltisLifeFr_marcelpasseport">
+			<Original>Passeport Falsifié (Marcel Dupont)</Original>
+ 			<French>Passeport Falsifié (Marcel Dupont)</French>
+		</Key>
+        <Key ID="STR_AltisLifeFr_marcpasseport">
+			<Original>Passeport Falsifié (Marc Sanders)</Original>
+ 			<French>Passeport Falsifié (Marc Sanders)</French>
+		</Key>
+        <Key ID="STR_AltisLifeFr_nathanpasseport">
+			<Original>Passeport Falsifié (Nathan Masahashi)</Original>
+ 			<French>Passeport Falsifié (Nathan Masahashi)</French>
+		</Key>
+        <Key ID="STR_AltisLifeFr_francispasseport">
+			<Original>Passeport Falsifié (Francis Pulivan)</Original>
+ 			<French>Passeport Falsifié (Francis Pulivan)</French>
+		</Key>	
+        <Key ID="STR_AltisLifeFr_deweypasseport">
+			<Original>Passeport Falsifié (Dewey Wilkerson)</Original>
+ 			<French>Passeport Falsifié (Dewey Wilkerson)</French>
+		</Key>
+        <Key ID="STR_AltisLifeFr_halpasseport">
+			<Original>Passeport Falsifié (Hal Hansen)</Original>
+ 			<French>Passeport Falsifié (Hal Hansen)</French>
+		</Key>	
+        <Key ID="STR_AltisLifeFr_craigpasseport">
+			<Original>Passeport Falsifié (Craig Feldspar)</Original>
+ 			<French>Passeport Falsifié (Craig Feldspar)</French>
+		</Key>
+        <Key ID="STR_AltisLifeFr_ericpasseport">
+			<Original>Passeport Falsifié (Eric Kenarban)</Original>
+ 			<French>Passeport Falsifié (Eric Kenarban)</French>
+		</Key>	
+        <Key ID="STR_AltisLifeFr_joshuapasseport">
+			<Original>Passeport Falsifié (Joshua Harris)</Original>
+ 			<French>Passeport Falsifié (Joshua Harris)</French>
+		</Key>
+        <Key ID="STR_AltisLifeFr_dougpasseport">
+			<Original>Passeport Falsifié (Doug Carter)</Original>
+ 			<French>Passeport Falsifié (Doug Carter)</French>
+		</Key>
+        <Key ID="STR_AltisLifeFr_richardpasseport">
+			<Original>Passeport Falsifié (Richard Hunt)</Original>
+ 			<French>Passeport Falsifié (Richard Hunt)</French>
+		</Key>	
+        <Key ID="STR_AltisLifeFr_anthonypasseport">
+			<Original>Passeport Falsifié (Anthony Mallard)</Original>
+ 			<French>Passeport Falsifié (Anthony Mallard)</French>
+		</Key>
+        <Key ID="STR_AltisLifeFr_leonpasseport">
+			<Original>Passeport Falsifié (Leon Vance)</Original>
+ 			<French>Passeport Falsifié (Leon Vance)</French>
+		</Key>	
+        <Key ID="STR_AltisLifeFr_tracypasseport">
+			<Original>Passeport Falsifié (Tracy Petrelli)</Original>
+ 			<French>Passeport Falsifié (Tracy Petrelli)</French>
+		</Key>	
+        <Key ID="STR_AltisLifeFr_nikkipasseport">
+			<Original>Passeport Falsifié (Nikki Bishop)</Original>
+ 			<French>Passeport Falsifié (Nikki Bishop)</French>
+		</Key>
+        <Key ID="STR_AltisLifeFr_monicapasseport">
+			<Original>Passeport Falsifié (Monica Deveaux)</Original>
+ 			<French>Passeport Falsifié (Monica Deveaux)</French>
+		</Key>
+        <Key ID="STR_AltisLifeFr_mariepasseport">
+			<Original>Passeport Falsifié (Marie Dawson)</Original>
+ 			<French>Passeport Falsifié (Marie Dawson)</French>
+		</Key>	
+        <Key ID="STR_AltisLifeFr_mirandapasseport">
+			<Original>Passeport Falsifié (Miranda Stevens)</Original>
+ 			<French>Passeport Falsifié (Miranda Stevens)</French>
+		</Key>	
+        <Key ID="STR_AltisLifeFr_christinapasseport">
+			<Original>Passeport Falsifié (Christina Yung)</Original>
+ 			<French>Passeport Falsifié (Christina Yung)</French>
+		</Key>
+        <Key ID="STR_AltisLifeFr_ericapasseport">
+			<Original>Passeport Falsifié (Erica Harris)</Original>
+ 			<French>Passeport Falsifié (Erica Harris)</French>
+		</Key>	
+        <Key ID="STR_AltisLifeFr_jingmeipasseport">
+			<Original>Passeport Falsifié (Jing-Mei Chan)</Original>
+ 			<French>Passeport Falsifié (Jing-Mei Chan)</French>
+		</Key>			
 </Package>
 </Project>

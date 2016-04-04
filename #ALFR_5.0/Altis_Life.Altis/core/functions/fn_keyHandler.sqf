@@ -225,8 +225,21 @@ switch (_code) do
 				};
 		};
 	};
+	
+	//Shift+V Coups de poing / Coups de crosse
+	case 47:
+	{
+		if(_shift) then {_handled = true;};
+		if(_shift && !isNull cursorTarget && cursorTarget isKindOf "Man" && isPlayer cursorTarget && alive cursorTarget && cursorTarget distance player < 3 && speed cursorTarget < 1) then
+		{
+			if((animationState cursorTarget) != "Incapacitated" && !life_knockout && !(player getVariable["restrained",false]) && !life_istazed && !(player GVAR["restrained",false]) && !life_istazed && !(player GVAR["surrender",false])) then
+			{
+				[cursorTarget] spawn life_fnc_coups;
+			};
+		};
+	};	
 
-	//Mouvements(f7)
+	//Mouvements Briefing(f7)
 	case 65:
 	{
 	    //if(_shift) then {_handled = true;};

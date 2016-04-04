@@ -1297,7 +1297,7 @@
 			{ "Medikit", "", 50 },
             { "pmc_earpiece", "", 100 },
             { "H_PilotHelmetHeli_B", "", 80 },
-			{ "ALFR_Police_Backpack", "", 100 },
+			{ "TRYK_B_Medbag", "", 100 },
             { "tf_anprc152", "Radio", 0 }
         };
     };

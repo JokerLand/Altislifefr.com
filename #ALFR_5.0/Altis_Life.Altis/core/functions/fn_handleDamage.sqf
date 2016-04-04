@@ -66,7 +66,7 @@ if(!isNull _source) then {
 						};
 					};
 				};
-			};
+			};a
 		};
 			
 		if(side _source == west && playerSide == west) then {

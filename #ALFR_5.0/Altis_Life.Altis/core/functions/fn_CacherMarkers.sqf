@@ -20,7 +20,7 @@ _illegalmarkers = [
 "turtle_1_name_2", "turtle_1_name_1", "turtle_1_name", "turtle_2", "turtle_3", "turtle_1",   
 
 //Rebelle
-"Rebelop_1_1", "Rebelop_1_1_1", "garage_reb_1_1", "garage_reb_1", "faussaire",
+"Rebelop_1_1", "Rebelop_1_1_1", "garage_reb_1_1", "garage_reb_1", "faussaire_1", "faussaire_2", "faussaire_3",
     
 //Gangster
 "Rebelop_1_1_1_1", "garage_reb_1_1_2", "garage_reb_1_1_1", "Gangster_shop",    

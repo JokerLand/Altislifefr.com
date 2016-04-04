@@ -2773,7 +2773,7 @@ class Mission
 					vehicle="SideBLUFOR_F";
 					leader=1;
 					skill=0.60000002;
-					init="(getPos this nearestObject 1119892) hideObject true;                  (getPos this nearestObject 1119904) hideObject true;                     (getPos this nearestObject 491010) hideObject true;                  (getPos this nearestObject 491093) hideObject true;                     this allowDamage false;";
+					init="(getPos this nearestObject 1119892) hideObject true;  (getPos this nearestObject 1119959) hideObject true;  (getPos this nearestObject 1119957) hideObject true;  (getPos this nearestObject 1119955) hideObject true;  (getPos this nearestObject 1119960) hideObject true;  (getPos this nearestObject 1119956) hideObject true;  (getPos this nearestObject 1119896) hideObject true;  (getPos this nearestObject 1119867) hideObject true; ";
 				};
 			};
 		};
@@ -3188,7 +3188,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=402;
+		items=405;
 		class Item0
 		{
 			position[]={8065.1616,35.674362,24985.314};
@@ -4374,7 +4374,7 @@ class Mission
 		};
 		class Item109
 		{
-			position[]={3211.8149,2,12884.819};
+			position[]={3209.2505,2,12878.874};
 			azimut=459.27057;
 			special="NONE";
 			id=331;
@@ -4392,12 +4392,12 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_InfoStand_V2_F";
 			skill=0.2;
-			init="this enableSimulation false;  this allowDamage false;  this addAction[""Vehicle Shop"",life_fnc_vehicleShopMenu,[""cop_car"",west,""cop_car_1"",""cop"",""APD - Kavala District""]];  this addAction[""Vehicle Garage"",  {   [[getPlayerUID player,playerSide,""Car"",player],""TON_fnc_getVehicles"",false,false] call life_fnc_MP;   createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""cop_car_1""; life_garage_type = ""Car"";  },"""",0,false,false,"""",'playerSide == west'];  this addAction[""Store vehicle in Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store']; this setVariable[""realname"",""Cop Vehicle Store""];";
+			init="this enableSimulation false;  this allowDamage false;  this addAction[""Vendeur de vehicule"",life_fnc_vehicleShopMenu,[""cop_car"",west,[""cop_car_1"",""cop_car_1_1""],""cop"",""APD - Kavala District""]];  this addAction[""Vehicle Garage"",  {   [[getPlayerUID player,playerSide,""Car"",player],""TON_fnc_getVehicles"",false,false] call life_fnc_MP;   createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""cop_car_1""; life_garage_type = ""Car"";  },"""",0,false,false,"""",'playerSide == west'];  this addAction[""Store vehicle in Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store']; this setVariable[""realname"",""Cop Vehicle Store""];";
 		};
 		class Item111
 		{
-			position[]={3184.4639,2,12902.909};
-			azimut=274.56381;
+			position[]={3199.6013,2,12906.037};
+			azimut=188.72095;
 			id=333;
 			side="EMPTY";
 			vehicle="Land_Billboard_F";
@@ -4406,8 +4406,8 @@ class Mission
 		};
 		class Item112
 		{
-			position[]={3165.6121,2,12896.553};
-			azimut=632.12183;
+			position[]={3207.1277,2,12887.839};
+			azimut=818.9267;
 			offsetY=0.40000001;
 			special="NONE";
 			id=334;
@@ -7001,8 +7001,8 @@ class Mission
 		};
 		class Item342
 		{
-			position[]={3180.6514,2,12905.076};
-			azimut=94.323402;
+			position[]={3198.4216,2,12903.147};
+			azimut=2.9873378;
 			offsetY=5.3699999;
 			special="NONE";
 			id=564;
@@ -7094,9 +7094,9 @@ class Mission
 		};
 		class Item350
 		{
-			position[]={3182.1057,2.213922,12912.083};
-			azimut=113.97113;
-			offsetY=4.0500002;
+			position[]={3191.2295,2,12904.347};
+			azimut=16.4095;
+			offsetY=4.3000002;
 			special="NONE";
 			id=572;
 			side="EMPTY";
@@ -7677,8 +7677,9 @@ class Mission
 		};
 		class Item401
 		{
-			position[]={20754.83,28.353075,7254.0522};
-			azimut=325.45999;
+			position[]={17188.395,12.635703,13309.057};
+			azimut=371.84698;
+			offsetY=0.74382001;
 			id=623;
 			side="EMPTY";
 			vehicle="Land_CashDesk_F";
@@ -7686,10 +7687,44 @@ class Mission
 			skill=0.60000002;
 			init="this enableSimulation false; this allowDamage false; this addAction[""Passeport (Masculin)"",life_fnc_virt_menu,""faussaire_homme"",0,false,false,"""",' license_civ_rebel && playerSide == civilian']; this addAction[""Passeport (Féminin)"",life_fnc_virt_menu,""faussaire_femme"",0,false,false,"""",' license_civ_rebel && playerSide == civilian']; ";
 		};
+		class Item402
+		{
+			position[]={12681.306,31.200001,14775.809};
+			azimut=413.20599;
+			id=624;
+			side="EMPTY";
+			vehicle="Land_CashDesk_F";
+			leader=1;
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; this addAction[""Passeport (Masculin)"",life_fnc_virt_menu,""faussaire_homme"",0,false,false,"""",' license_civ_rebel && playerSide == civilian']; this addAction[""Passeport (Féminin)"",life_fnc_virt_menu,""faussaire_femme"",0,false,false,"""",' license_civ_rebel && playerSide == civilian']; ";
+		};
+		class Item403
+		{
+			position[]={4019.6797,27.786892,12529.034};
+			azimut=486.51401;
+			id=625;
+			side="EMPTY";
+			vehicle="Land_CashDesk_F";
+			leader=1;
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; this addAction[""Passeport (Masculin)"",life_fnc_virt_menu,""faussaire_homme"",0,false,false,"""",' license_civ_rebel && playerSide == civilian']; this addAction[""Passeport (Féminin)"",life_fnc_virt_menu,""faussaire_femme"",0,false,false,"""",' license_civ_rebel && playerSide == civilian']; ";
+		};
+		class Item404
+		{
+			position[]={3493.8599,7.138289,12852.985};
+			azimut=566.146;
+			id=626;
+			side="EMPTY";
+			vehicle="Land_CashDesk_F";
+			leader=1;
+			skill=0.60000002;
+			text="Carshop1_1_1_1";
+			init="this enableSimulation false; this allowDamage false; this addAction[""Car Shop"",life_fnc_vehicleShopMenu,[""civ_car"",civilian,[""civ_car_5"",""civ_car_5_1""],""civ"",""Bruce's New & Used Auto's""]];";
+		};
 	};
 	class Markers
 	{
-		items=382;
+		items=385;
 		class Item0
 		{
 			position[]={8459.6777,104.56568,25131.203};
@@ -8981,35 +9016,35 @@ class Mission
 		};
 		class Item160
 		{
-			position[]={3199.4607,2.0518556,12909.444};
+			position[]={3198.0964,2.164501,12914.109};
 			name="cop_car_1";
 			type="Empty";
-			angle=195.2899;
+			angle=360.60742;
 		};
 		class Item161
 		{
-			position[]={3239.574,-0.0079650199,12837.17};
+			position[]={3243.1423,0,12888.883};
 			name="cop_ship_1";
 			type="Empty";
 			angle=179.09599;
 		};
 		class Item162
 		{
-			position[]={3177.7568,2,12894.694};
+			position[]={3196.9834,2,12884.082};
 			name="cop_spawn_1";
 			type="Empty";
-			angle=-454.84058;
+			angle=-351.18451;
 		};
 		class Item163
 		{
-			position[]={3194.9675,2,12887.474};
+			position[]={3198.0601,2,12871.536};
 			name="cop_air_1";
 			type="Empty";
-			angle=190.70975;
+			angle=282.38269;
 		};
 		class Item164
 		{
-			position[]={3237.4468,-0.0025373208,12870.195};
+			position[]={3241.5247,0,12875.035};
 			name="cop_ship_1_1";
 			type="Empty";
 			angle=179.09599;
@@ -9024,15 +9059,16 @@ class Mission
 		};
 		class Item166
 		{
-			position[]={3165.5764,2,12896.553};
+			position[]={3207.1658,2,12887.835};
 			name="atm_1_3_11_5_4_5_13_2";
 			text="ATM";
 			type="loc_Tourism";
 			colorName="ColorBlue";
+			angle=360.38943;
 		};
 		class Item167
 		{
-			position[]={3177.7083,2,12896.057};
+			position[]={3192.8225,2,12891.612};
 			name="police_hq_1";
 			type="Empty";
 		};
@@ -10747,12 +10783,37 @@ class Mission
 		};
 		class Item381
 		{
-			position[]={20754.723,28.352976,7254.1245};
-			name="faussaire";
+			position[]={17188.354,12.633291,13309.174};
+			name="faussaire_1";
 			text="Faussaire ";
 			type="mil_dot";
 			colorName="ColorRed";
-			angle=360.44699;
+			angle=406.83401;
+		};
+		class Item382
+		{
+			position[]={12681.337,31.200001,14775.932};
+			name="faussaire_2";
+			text="Faussaire ";
+			type="mil_dot";
+			colorName="ColorRed";
+			angle=448.19299;
+		};
+		class Item383
+		{
+			position[]={4019.8516,27.791122,12528.892};
+			name="faussaire_3";
+			text="Faussaire ";
+			type="mil_dot";
+			colorName="ColorRed";
+			angle=521.50098;
+		};
+		class Item384
+		{
+			position[]={3204.3679,2.1216476,12914.257};
+			name="cop_car_1_1";
+			type="Empty";
+			angle=360.60699;
 		};
 	};
 	class Sensors
