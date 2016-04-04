@@ -5215,7 +5215,7 @@ class Mission
 		class Item183
 		{
 			position[]={13795.386,60.221783,6396.019};
-			azimut=-6.7140894;
+			azimut=-22.917582;
 			id=405;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V2_F";
@@ -7724,7 +7724,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=385;
+		items=387;
 		class Item0
 		{
 			position[]={8459.6777,104.56568,25131.203};
@@ -8613,7 +8613,7 @@ class Mission
 		};
 		class Item110
 		{
-			position[]={13795.459,60.220287,6396.0879};
+			position[]={13795.368,60.239517,6395.5205};
 			name="gold_bar_dealer";
 			text="Acheteur de lingot d'or";
 			type="loc_ViewTower";
@@ -9711,7 +9711,7 @@ class Mission
 		};
 		class Item253
 		{
-			position[]={16589.324,11,12765.229};
+			position[]={16553.109,11,12778.867};
 			name="police_hq_2";
 			text="Poste de la Police de Pyrgos";
 			type="mil_box";
@@ -9958,10 +9958,10 @@ class Mission
 		};
 		class Item283
 		{
-			position[]={15127.008,17.91,17255.113};
+			position[]={15148.457,17.91,17249.672};
 			name="police_hq_4";
 			type="Empty";
-			angle=60.330769;
+			angle=51.586266;
 		};
 		class Item284
 		{
@@ -10683,8 +10683,8 @@ class Mission
 		{
 			position[]={16083.417,13.575837,17078.014};
 			name="Entreprise ION";
-			text="Entreprise ION";
-			type="plp_mark_as_building";
+			text=" Entreprise ION";
+			type="Faction_CUP_PMC_ION_black";
 			colorName="ColorUNKNOWN";
 			a=0.80000001;
 			b=0.80000001;
@@ -10814,6 +10814,23 @@ class Mission
 			name="cop_car_1_1";
 			type="Empty";
 			angle=360.60699;
+		};
+		class Item385
+		{
+			position[]={11633.103,22.689653,11943.708};
+			name="entrainement";
+			text="Terrain d'entrainement-  Zone neutre";
+			type="loc_Bunker";
+			a=1.5;
+			b=1.5;
+			angle=0.14018001;
+		};
+		class Item386
+		{
+			position[]={20605.16,35.461082,16654.039};
+			name="police_hq_3";
+			type="Empty";
+			angle=32.2883;
 		};
 	};
 	class Sensors

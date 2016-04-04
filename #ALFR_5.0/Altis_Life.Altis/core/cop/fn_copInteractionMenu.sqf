@@ -2,6 +2,7 @@
 /*
 	File: fn_copInteractionMenu.sqf
 	Author: Bryan "Tonic" Boardwine
+	Edit : Artkyom - AltisLifeFR.com
 	
 	Description:
 	Replaces the mass addactions for various cop actions towards another player.
@@ -94,12 +95,12 @@ _Btn7 ctrlSetText localize "STR_pInAct_PutInCar";
 _Btn7 buttonSetAction "[life_pInact_curTarget] call life_fnc_putInCar;";
 
 //Check that you are near a place to jail them.
-if(!((player distance (getMarkerPos "police_hq_1") < 30) OR  (player distance (getMarkerPos "police_hq_2") < 30) OR (player distance (getMarkerPos "police_hq_4") < 30) OR (player distance (getMarkerPos "police_hq_4") < 30) OR (player distance (getMarkerPos "Correctional Facility") < 50))) then  {
+if(!((player distance (getMarkerPos "police_hq_1") < 50) OR  (player distance (getMarkerPos "police_hq_2") < 50) OR (player distance (getMarkerPos "police_hq_3") < 50) OR (player distance (getMarkerPos "police_hq_4") < 50) OR (player distance (getMarkerPos "Correctional Facility") < 50))) then  {
 	_Btn6 ctrlEnable false;
 };
 
 //Fouiller un gars uniquement au poste de police
-if(!((player distance (getMarkerPos "police_hq_1") < 30) OR  (player distance (getMarkerPos "police_hq_2") < 30) OR (player distance (getMarkerPos "police_hq_4") < 30) OR (player distance (getMarkerPos "police_hq_4") < 30))) then  {
+if(!((player distance (getMarkerPos "police_hq_1") < 50) OR  (player distance (getMarkerPos "police_hq_2") < 50) OR (player distance (getMarkerPos "police_hq_3") < 50) OR (player distance (getMarkerPos "police_hq_4") < 50))) then  {
 	_Btn3 ctrlEnable false;
 };
 		

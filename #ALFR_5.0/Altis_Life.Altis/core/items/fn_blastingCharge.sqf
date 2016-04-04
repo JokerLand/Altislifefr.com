@@ -7,7 +7,7 @@
 private["_vault","_handle"];
 _vault = [_this,0,ObjNull,[ObjNull]] call BIS_fnc_param;
 if(isNull _vault) exitWith {}; //Bad object
-// if({side _x == west} count playableUnits < 8) exitWith {hint localize "STR_Civ_NotEnoughCops"};
+if({side _x == west} count playableUnits < 8) exitWith {hint localize "STR_Civ_NotEnoughCops"};
 if(typeOf _vault != "GeK_Coffre") exitWith {hint localize "STR_ISTR_Blast_VaultOnly"};
 if(_vault getVariable["chargeplaced",false]) exitWith {hint localize "STR_ISTR_Blast_AlreadyPlaced"};
 if(_vault getVariable["safe_open",false]) exitWith {hint localize "STR_ISTR_Blast_AlreadyOpen"};
