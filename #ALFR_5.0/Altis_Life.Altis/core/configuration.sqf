@@ -64,7 +64,6 @@ life_hunger = 100;
 CASH = 0;
 
 life_istazed = false;
-life_isdowned = false;
 life_vehicles = [];
 
 switch (playerSide) do {
