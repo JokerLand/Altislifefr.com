@@ -301,7 +301,7 @@ class VirtualShops {
 	
 	class market {
 		name = "STR_Shops_Market";
-		items[] = { "passeport", "johnpasseport", "michealpasseport", "tompasseport", "waterBottle", "rabbit_grilled", "apple", "redgull", "tbacon", "lockpick", "pickaxe", "fuelFull", "peach", "storagesmall" };
+		items[] = { "waterBottle", "rabbit_grilled", "apple", "redgull", "tbacon", "lockpick", "pickaxe", "fuelFull", "peach", "storagesmall" };
 	};
 
 	class rebel {
