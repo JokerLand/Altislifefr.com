@@ -238,7 +238,6 @@ class Life_Client_Core
 		class demoChargeTimer {};
 		class civLoadout {};
 		class civInteractionMenu {};
-		class flashball	{};
 		class coups {};
 		class coups1 {};
 		class coups2 {};
