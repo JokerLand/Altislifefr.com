@@ -31,3 +31,4 @@ if(!(_this select 0)) exitWith {}; //Not server
 [] execVM "Base\GangHideoutKavala.sqf";
 [] execVM "Base\GangHideoutPyrgos.sqf";
 [] execVM "Base\ComicoKavala.sqf";
+[] execVM "Base\ChampTir.sqf";
