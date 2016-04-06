@@ -319,6 +319,25 @@
 			{ "tf_anprc152", "Radio", 0 }
         };
     };
+	
+    //Armuerie SWAT
+    class swatweapons {
+        name = "Armuerie / Quincaillerie SWAT";
+        side = "cop";
+        license = "swat";
+        level = 1;
+        msg = "Vous n'êtes pas membre du SWAT";
+        items[] = {
+        	{ "Binocular", "", 15 },
+			{ "ItemGPS", "", 10 },
+			{ "ToolKit", "", 50 },
+			{ "FirstAidKit", "", 15 },
+			{ "pmc_earpiece", "", 100 },
+			{ "Rangefinder", "", 15 },  
+			{ "tf_anprc152", "Radio", 0 }
+        };
+    };
+	
     //Quincaillerie Police
     class copstore {
         name = "Quincaillerie Police";
