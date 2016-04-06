@@ -249,6 +249,7 @@ class Licenses {
 	/** Police **/
 	LICENSEMACRO(cg,"STR_License_CG","cg",1000,false,"cop")
     LICENSEMACRO(cAir,"STR_License_Pilot","cAir",8000,false,"cop")
+	LICENSEMACRO(swat,"STR_License_Swat","swat",-1,false,"cop")
 
 	/** EMS **/
 	LICENSEMACRO(mAir,"STR_License_Pilot","mAir",2500,false,"med")
@@ -268,7 +269,7 @@ class Licenses {
 	LICENSEMACRO(marijuana,"STR_License_Marijuana","marijuana",40000,true,"civ")
 	LICENSEMACRO(medmarijuana,"STR_License_Medmarijuana","medmarijuana",20000,false,"civ")
 	LICENSEMACRO(cocaine,"STR_License_Cocaine","cocaine",55000,true,"civ")
-	LICENSEMACRO(gangster,"SaTR_License_Gangster","gangster",550000,true,"civ")
+	LICENSEMACRO(gangster,"STR_License_Gangster","gangster",550000,true,"civ")
     LICENSEMACRO(chefrebelle,"STR_License_ChefRebelle","chefrebelle",-1,false,"civ")
 
     /** Depanneur **/
@@ -285,7 +286,7 @@ class Licenses {
 
 class VirtualShops {
 	class passeport {
-		name = "Préfecture (Passeport)";
+		name = "PrÃ©fecture (Passeport)";
 		items[] = { "passeport" };
 	};
 
@@ -295,7 +296,7 @@ class VirtualShops {
 	};
 	
 	class faussaire_femme {
-		name = "Faussaire (Nom féminin)";
+		name = "Faussaire (Nom fÃ©minin)";
 		items[] = { "tracypasseport", "nikkipasseport", "monicapasseport", "monicapasseport", "mariepasseport", "mirandapasseport", "christinapasseport", "ericapasseport", "jingmeipasseport" };
 	};
 	
