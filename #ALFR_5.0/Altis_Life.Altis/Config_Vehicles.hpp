@@ -224,7 +224,6 @@ class CarShops {
 			{ "zorak_audi_rs6_police", 1000, "", { "life_coplevel", 4 } },
 			{ "cg_h2_sert", 1000, "", { "life_coplevel", 4 } },
 			{ "zorak_audi_a6_police", 1000, "", { "life_coplevel", 6 } }
-			{ "GeK_VAB", 1000, "swat", { "life_coplevel", 1 } },
 		};
 	};
 

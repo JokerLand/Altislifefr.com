@@ -6,12 +6,7 @@
 		</Key>
 		<Key ID="STR_Shops_C_Police">
 			<Original>Altis Police Department Shop</Original>
-			<French>Vestiaire de la police</French>
 		</Key>
-		<Key ID="STR_Shops_C_SWAT">
-			<Original>Vestiaire du SWAT</Original>
-			<French>Vestiaire du SWAT</French>
-		</Key>		
 		<Key ID="STR_Shops_C_Rebel">
 			<Original>Mohammed's Jihadi Shop</Original>
 		</Key>
