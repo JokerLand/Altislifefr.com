@@ -360,7 +360,7 @@ class Clothing {
 	
 	class swatclothing {
 		title = "STR_Shops_C_SWAT";
-		license = "swatlicence";
+		license = "swatlicense";
 		side = "cop";
 
 		uniforms[] = {
