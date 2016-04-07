@@ -17,172 +17,45 @@
 class WeaponShops {
     //Armory Shops
     class gun {
-        name = "Armurerie";
+        name = "Billy Joe's Firearms";
         side = "civ";
         license = "gun";
         level[] = { "", "", -1, "" };
         items[] = {
-            { "hgun_Rook40_F", "", 8000, -1 },
-			{ "hgun_Pistol_heavy_01_F", "", 8000, -1 },
-			{ "hgun_ACPC2_F", "", 8000, -1 },
-			{ "CUP_hgun_Duty", "", 8000, -1 },
-			{ "CUP_hgun_Colt1911", "", 8000, -1 },
-			{ "CUP_hgun_TaurusTracker455", "", 8500, -1 },
-			{ "CUP_hgun_M9", "", 9000, -1 },
-			{ "hgun_PDW2000_F", "", 15000, -1 },	
-			{ "C1987_MP7", "", 18000, -1 },
-			{ "arifle_SDAR_F", "", 30000, -1 },		
-			{ "optic_MRD", "", 1000, -1 },	
-			{ "optic_Yorris", "", 1000, -1 },
-			{ "C1987_zeiss_AIM", "", 1000, -1 }
+            { "hgun_Rook40_F", "", 6500, 500 },
+            { "hgun_Pistol_heavy_02_F", "", 9850, -1 },
+            { "hgun_ACPC2_F", "", 11500, -1 },
+            { "hgun_PDW2000_F", "", 20000, -1 },
+            { "optic_ACO_grn_smg", "", 2500, 250 }
         };
         mags[] = {
-            { "16Rnd_9x21_Mag", "", 100 },
-            { "11Rnd_45ACP_Mag", "", 100 },
-            { "9Rnd_45ACP_Mag", "", 100 },
-            { "16Rnd_9x21_Mag", "", 100 },
-			{ "CUP_7Rnd_45ACP_1911", "", 100 },
-			{ "CUP_6Rnd_45ACP_M", "", 100 },
-			{ "CUP_15Rnd_9x19_M9", "", 100 },
-			{ "30Rnd_9x21_Mag", "", 100 },
-			{ "C1987_20Rnd_46x30_mp7", "", 100 },
-			{ "C1987_40Rnd_46x30_mp7", "", 100 },
-			{ "20Rnd_556x45_UW_mag", "Chargeur SDAR sous-marin", 100 }
+            { "16Rnd_9x21_Mag", "", 25 },
+            { "6Rnd_45ACP_Cylinder", "", 50 },
+            { "9Rnd_45ACP_Mag", "", 45 },
+            { "30Rnd_9x21_Mag", "", 75 }
         };
     };
-	
-// Shop Gangster	
-    class ganster {
-        name = "Armuerie Gangster";
-        side = "civ";
-        license = "gangster";
-        level[] = { "", "", -1, "" };
-        items[] = {
-			{ "Rangefinder", "", 800, 400 },
-			// Arme de poing
-            { "hgun_Rook40_F", "", 8000, -1 },
-			{ "CUP_hgun_Makarov", "", 8000, -1 },
-            { "hgun_Pistol_heavy_01_F", "", 8000, -1 },
-            { "hgun_ACPC2_F", "", 8000, -1 },
-			{ "CUP_hgun_Colt1911", "", 8000, -1 },
-            { "CUP_hgun_M9", "", 9000, -1 },
-            { "CUP_hgun_Compact", "", 9000, -1 },
-            { "CUP_hgun_Phantom", "", 9000, -1 },
-            { "CUP_hgun_PB6P9", "", 9000, -1 },
-            { "CUP_hgun_Glock17", "", 10000, -1 },
-			{ "CUP_hgun_SA61", "", 10000, -1 },
-			{ "CUP_hgun_MicroUzi", "", 15000, -1 },
-			{ "optic_MRD", "", 1000, -1 },
-			{ "optic_Yorris", "", 1000, -1 },
-			// Armes à 2 mains
-			{ "CUP_smg_bizon", "", 20000, -1 },
-			{ "arifle_SDAR_F", "", 25000, -1 },
-			{ "CUP_arifle_AK74", "", 25000, -1 },
-			// VISEUR Arme à 2 mains
-			{ "CUP_optic_Kobra", "Kobra (AK74 et Bizon uniquement)", 1000, -1 },
-			{ "optic_ACO_grn", "", 1000, -1 },
-			{ "optic_Aco", "", 1000, -1 },
-			{ "FHQ_optic_AC11704", "", 1000, -1 },
-			{ "FHQ_optic_AC11704_tan", "", 1000, -1 },
-			{ "FHQ_optic_AC12136", "", 1000, -1 },
-			{ "FHQ_optic_AC12136_tan", "", 1000, -1 },
-			{ "optic_Hamr", "", 1000, -1 },
-			{ "CUP_optic_MRad", "", 1000, -1 },
-			{ "CUP_optic_ZDDot", "", 1000, -1 },
-			{ "CUP_optic_TrijiconRx01_black", "", 1000, -1 },
-			{ "CUP_optic_CompM4", "", 2500, -1 },
-			{ "optic_Arco", "", 2500, -1 },
-			{ "CUP_optic_HoloBlack", "", 2500, -1 },
-			{ "optic_Holosight", "", 2500, -1 },
-			{ "CUP_optic_LeupoldMk4_CQ_T", "", 2500, -1 },
-			{ "CUP_optic_CompM2_Black", "", 2500, -1 },	
-			{ "CUP_optic_ZDDot", "", 2500, -1 },
-			{ "optic_MRCO", "", 2500, -1 },	
-			{ "CUP_optic_SUSAT", "", 2500, -1 },
-			{ "CUP_optic_ACOG", "", 2500, -1 },	
-			{ "CUP_optic_RCO", "", 2500, -1 },
-			{ "CUP_optic_PSO_1", "", 2500, -1 },
-			// Autres
-			{ "acc_flashlight", "", 500, -1 },
-			{ "SmokeShellRed", "Fumigene rouge", 150, -1 }
-        };
-        mags[] = {
-            { "16Rnd_9x21_Mag", "", 100 },
-			{ "CUP_8Rnd_9x18_Makarov_M", "", 100 },
-            { "11Rnd_45ACP_Mag", "", 100 },
-			{ "9Rnd_45ACP_Mag", "", 100 },
-			{ "CUP_7Rnd_45ACP_1911", "", 100 },
-            { "CUP_10Rnd_9x19_Compact", "", 100 },
-			{ "CUP_18Rnd_9x19_Phantom", "", 100 },
-            { "CUP_8Rnd_9x18_Makarov_M", "", 100 },
-			{ "CUP_17Rnd_9x19_glock17", "", 100 },
-			{ "CUP_20Rnd_B_765x17_Ball_M", "", 100 },
-			{ "CUP_30Rnd_9x19_UZI", "", 100 },
-			{ "CUP_64Rnd_9x19_Bizon_M", "", 100 },
-			{ "20Rnd_556x45_UW_mag", "", 100 },
-			{ "CUP_30Rnd_545x39_AK_M", "", 100 }
-        };
-    };	
 
     class rebel {
-        name = "Armurerie Rebelle";
+        name = "Mohammed's Jihadi Shop";
         side = "civ";
         license = "rebel";
         level[] = { "", "", -1, "" };
         items[] = {
-			{ "Rangefinder", "", 800, 400 },
-			// Armes de poing
-            { "CUP_hgun_Makarov", "", 8000, -1 },
-            { "CUP_hgun_Glock17", "", 10000, -1 },
-            { "CUP_hgun_SA61", "", 12500, -1 },
-            { "CUP_hgun_MicroUzi", "", 15000, -1 },
-            { "optic_MRD", "", 1000, -1 },
-            { "CUP_smg_bizon", "", 20000, -1 },
-            { "CUP_arifle_Sa58P", "", 30000, -1 },
-            { "CUP_arifle_Sa58V", "", 30000, -1 },
-			{ "CUP_arifle_Sa58P_des", "", 35000, -1 },
-			{ "CUP_arifle_Sa58V_camo", "", 35000, -1 },
-			{ "CUP_arifle_AKS74U", "", 40000, -1 },
-			{ "CUP_arifle_AKS74", "", 40000, -1 },
-			{ "CUP_arifle_AK74", "", 40000, -1 },
-			{ "CUP_arifle_AK74M", "", 40000, -1 },
-			{ "CUP_arifle_AK107", "", 50000, -1 },
-			{ "CUP_arifle_AK47", "", 50000, -1 },
-			{ "CUP_arifle_AKS", "", 50000, -1 },
-			{ "CUP_arifle_AKM", "", 50000, -1 },
-			{ "CUP_arifle_AKM", "", 50000, -1 },
-			{ "CUP_srifle_LeeEnfield_rail", "", 50000, -1 },
-			{ "CUP_arifle_M4A3_desert", "", 55000, -1 },
-			{ "CUP_arifle_RPK74", "", 60000, -1 },
-			{ "CUP_arifle_RPK74_45", "", 60000, -1 },
-			{ "CUP_arifle_RPK74M", "", 60000, -1 },
-			{ "CUP_arifle_Sa58RIS1", "", 65000, -1 },
-			{ "CUP_arifle_Sa58RIS2", "", 65000, -1 },
-			{ "CUP_arifle_Sa58RIS1_des", "", 65700, -1 },
-			{ "CUP_arifle_Sa58RIS2_camo", "", 65700, -1 },
-			{ "CUP_arifle_AKS_Gold", "", 70000, -1 },
-			{ "CUP_srifle_M24_wdl", "", 72500, -1 },
-			{ "CUP_srifle_M24_des", "", 72500, -1 },
-			{ "CUP_Mxx_camo_half", "", 500, -1 },
-			{ "CUP_Mxx_camo", "", 500, -1 },
-			{ "CUP_srifle_SVD", "", 75000, -1 },
-			{ "CUP_srifle_SVD_des", "", 75000, -1 },
+            { "arifle_TRG20_F", "", 25000, 2500 },
+            { "arifle_Katiba_F", "", 30000, 5000 },
+            { "srifle_DMR_01_F", "", 50000, -1 },
+            { "arifle_SDAR_F", "", 20000, 7500 },
+            { "optic_ACO_grn", "", 3500, 350 },
+            { "optic_Holosight", "", 3600, 275 },
+            { "optic_Hamr", "", 7500, -1 },
+            { "acc_flashlight", "", 1000, 100 }
         };
         mags[] = {
-            { "CUP_8Rnd_9x18_Makarov_M", "", 100 },
-			{ "CUP_17Rnd_9x19_glock17", "", 100 },
-            { "CUP_20Rnd_B_765x17_Ball_M", "", 100 },
-            { "CUP_30Rnd_9x19_UZI", "", 100 },
-			{ "CUP_64Rnd_9x19_Bizon_M", "", 100 },
-			{ "CUP_30Rnd_Sa58_M", "", 100 },
-			{ "CUP_30Rnd_545x39_AK_M", "", 100 },
-			{ "CUP_30Rnd_762x39_AK47_M", "", 100 },
-			{ "CUP_10x_303_M", "", 100 },
-			{ "CUP_30Rnd_556x45_Stanag", "", 100 },
-			{ "CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M", "", 100 },
-			{ "CUP_30Rnd_Sa58_M", "", 100 },
-			{ "CUP_30Rnd_762x39_AK47_M", "", 100 },
-			{ "CUP_5Rnd_762x51_M24", "", 100 },
+            { "30Rnd_556x45_Stanag", "", 300 },
+            { "30Rnd_65x39_caseless_green", "", 275 },
+            { "10Rnd_762x54_Mag", "", 500 },
+            { "20Rnd_556x45_UW_mag", "", 125 }
         };
     };
 
