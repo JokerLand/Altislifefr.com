@@ -9,7 +9,6 @@ _cString =
 	_obj setdir (_dat select 2);
 	if((_dat select 3) == -100) then
 	{
-		_obj setposATL (call compile (_dat select 1));
 		if((_dat select 5) == 0) then {_obj setVectorUp [0,0,1]} else {_obj setVectorUp (surfacenormal (getPosATL _obj))};
 	}
 	else
