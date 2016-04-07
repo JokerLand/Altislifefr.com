@@ -357,6 +357,40 @@ class Clothing {
 			{ "B_UAV_01_backpack_F", "", 5000, { "life_coplevel", "SCALAR", 4 } }
 		};
 	};
+	
+	class swatclothing {
+		title = "STR_Shops_C_SWAT";
+		license = "swatlicence";
+		side = "cop";
+
+		uniforms[] = {
+			{ "NONE", "Supprime uniforme", 0, { "", "", -1 } },
+			{ "ALFR_SWAT", "", 125, { "", "", -1 } }
+		};
+
+		headgear[] = {
+			{ "NONE", "Supprime couvre-chef", 0, { "", "", -1 } },
+			{ "ALFR_swathelmet", "", 125, { "", "", -1 } },
+            { "gign_helm", "", 500, { "", "", -1 } }
+		};
+
+		goggles[] = {
+			{ "NONE", "Supprime lunette", 0, { "", "", -1 } },
+			{ "G_Balaclava_blk", "", 125, { "", "", -1 } }
+		};
+
+		vests[] = {
+			{ "NONE", "Supprime gilet", 0, { "", "", -1 } },
+            { "ALFR_swatvest1", "", 125, { "", "", -1 } },
+			{ "ALFR_swatvest2", "", 125, { "", "", -1 } },
+			{ "ALFR_swatvest3", "", 125, { "", "", -1 } }
+		};
+
+		backpacks[] = {
+			{ "NONE", "Supprime sac", 0, { "", "", -1 } },
+			{ "ALFR_Police_Backpack", "Sac Invisible (SWAT ONLY)", 125, { "", "", -1 } }
+		};
+	};	
 
 	class dive {
 		title = "STR_Shops_C_Diving";

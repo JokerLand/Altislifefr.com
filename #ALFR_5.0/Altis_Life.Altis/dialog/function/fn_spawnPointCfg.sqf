@@ -45,6 +45,9 @@ switch (_side) do
                 if(license_civ_ion && playerSide == civilian) then {
 				_return pushBack ["ion_spawn","QG ION","\plp_markers\icons\plp_mark_as_building.pac"];
 		};
+                if(license_civ_aan && playerSide == civilian) then {
+				_return pushBack ["aan_spawn","QG AAN","\plp_markers\icons\plp_mark_as_building.pac"];
+		};		
 
 		if(count life_houses > 0) then {
 			{
@@ -64,13 +67,14 @@ switch (_side) do
 			["medic_spawn_3","Hopital de Pyrgos","\a3\ui_f\data\map\MapControl\hospital_ca.paa"]
 		];
 	};
-
+/*	
 	case east:
 	{
 		_return = [
 			["spawn_armer","Base Armee","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
 		];
 	};
+*/	
 };
 
 _return;
