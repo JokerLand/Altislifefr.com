@@ -249,7 +249,7 @@ class Licenses {
 	/** Police **/
 	LICENSEMACRO(cg,"STR_License_CG","cg",1000,false,"cop")
     LICENSEMACRO(cAir,"STR_License_Pilot","cAir",8000,false,"cop")
-	LICENSEMACRO(swatlicense,"STR_License_Swat","swatlicense",-1,false,"cop")
+	LICENSEMACRO(swat,"STR_License_Swat","swat",-1,false,"cop")
 
 	/** EMS **/
 	LICENSEMACRO(mAir,"STR_License_Pilot","mAir",2500,false,"med")
