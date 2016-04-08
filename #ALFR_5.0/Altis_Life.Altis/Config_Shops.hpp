@@ -165,6 +165,7 @@
 			{ "CUP_30Rnd_762x39_AK47_M", "", 100 },			
 			{ "CUP_srifle_M24_wdl", "", 72500 },
 			{ "CUP_srifle_M24_des", "", 72500 },
+			{ "CUP_srifle_M40A3", "", 74000 },
 			{ "CUP_5Rnd_762x51_M24", "", 100 },
 			{ "CUP_Mxx_camo_half", "", 500 },
 			{ "CUP_Mxx_camo", "", 500 },
@@ -181,8 +182,10 @@
 			{ "CUP_lmg_Pecheneg", "", 87500 },
 			{ "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M", "", 200 },
 			{ "CUP_optic_PechenegScope", "Viseur PKP Pecheneg", 500 },
-			{ "CUP_srifle_AWM_wdl", "", 90000 },
-			{ "CUP_srifle_AWM_des", "", 90000 },
+			{ "CUP_5Rnd_762x67_G22", "", 90000 },
+			{ "CUP_100Rnd_556x45_BetaCMag", "", 100 },
+			{ "CUP_srifle_AWM_wdl", "", 92000 },
+			{ "CUP_srifle_AWM_des", "", 92000 },
 			{ "CUP_5Rnd_86x70_L115A1", "", 100 },	
 			{ "CUP_srifle_ksvk", "", 110000 },
 			{ "CUP_5Rnd_127x108_KSVK_M", "", 100 },	
@@ -336,6 +339,75 @@
 			{ "tf_anprc152", "Radio", 0 }
         };
     };
+
+    //Armuerie SWAT
+    class swatweapons {
+        name = "Armuerie du SWAT";
+        side = "cop";
+        license = "swat";
+        level = -1;
+        msg = "";
+        items[] = {
+			{ "CUP_NVG_PVS7", "", 100 },
+			{ "pmc_earpiece", "", 100 },
+			{ "B_UavTerminal", "", 15 },
+			//  Arme de poing
+            { "hgun_Pistol_heavy_02_F", "", 10 },
+			{ "6Rnd_45ACP_Cylinder", "", 10 },
+			{ "CUP_hgun_M9", "", 10 },
+            { "CUP_15Rnd_9x19_M9", "", 10 },
+			//  Viseur pour Arme de poing
+			{ "optic_MRD", "", 10 },
+			{ "optic_Yorris", "", 10 },
+			// Arme à 2 mains
+			{ "CUP_arifle_L86A2", "", 10 },
+			{ "CUP_30Rnd_556x45_Stanag", "", 10 },
+			{ "CUP_srifle_M40A3", "", 10 },
+			{ "CUP_5Rnd_762x51_M24", "", 10 },
+			{ "CUP_lmg_minimipara", "", 10 },
+			{ "CUP_200Rnd_TE4_Red_Tracer_556x45_M249", "", 10 },
+			{ "CUP_srifle_M110", "", 10 },
+			{ "CUP_20Rnd_762x51_B_M110", "", 10 },
+			{ "CUP_srifle_G22_des", "", 10 },
+			{ "CUP_5Rnd_762x67_G22", "", 10 },
+			{ "CUP_100Rnd_556x45_BetaCMag", "", 10 },
+			{ "srifle_DMR_06_olive_F", "", 10 },
+			{ "srifle_DMR_06_camo_F", "", 10 },
+			{ "20Rnd_762x51_Mag", "", 10 },	
+			{ "LMG_Mk200_F", "", 10 },
+			{ "200Rnd_65x39_cased_Box_Tracer", "", 10 },
+			{ "srifle_GM6_F", "", 10 },
+			{ "5Rnd_127x108_Mag", "", 10 },
+			{ "srifle_LRR_F", "", 10 },
+			{ "7Rnd_408_Mag", "", 10 },	
+			{ "CUP_lmg_M60E4", "", 10 },	
+			{ "CUP_lmg_L7A2", "", 10 },
+			{ "CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M", "", 10 },
+			// Viseur arme à 2 mains
+            { "optic_Holosight", "", 10 },
+            { "optic_ACO_grn_smg", "", 10 },
+            { "optic_Aco_smg", "", 10 },
+            { "optic_ACO_grn", "", 10 },
+            { "optic_Aco", "", 10 },
+			{ "FHQ_optic_AC11704", "", 10 },
+			{ "FHQ_optic_AC11704_tan", "", 10 },
+			{ "FHQ_optic_AC12136", "", 10 },
+			{ "FHQ_optic_AC12136_tan", "", 10 },			
+			{ "optic_MRCO", "", 10 },
+            { "optic_Hamr", "", 10 },
+            { "optic_Arco", "", 10 },
+            { "optic_LRPS", "", 10 },
+            { "optic_DMS", "", 10 },
+            { "optic_SOS", "", 10 },
+			// Autres ...
+			{ "bipod_03_F_oli", "", 10 },
+			{ "bipod_01_F_blk", "", 50 },
+			{ "acc_pointer_IR", "", 10 },
+			{ "acc_flashlight", "", 10 },
+			{ "SmokeShellBlue", "", 10 }			
+        };
+    };	
+	
     //Armurerie policier
     class cop_policier {
         name = "Armurerie Policier";

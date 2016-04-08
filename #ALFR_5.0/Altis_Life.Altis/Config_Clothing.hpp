@@ -387,58 +387,41 @@ class Clothing {
 		};
 	};
 
-	class armer {
-		title = "Vendeur d'équipement militaire";
-		license = "";
-		side = "armer";
+	class swatclothing {
+		title = "Vestiaire du SWAT";
+		license = "swat";
+		side = "cop";
 
 		uniforms[] = {
 			{ "NONE", "Supprime uniforme", 0, { "", "", -1 } },
-			{ "ALFR_FR_armee_tenu", "", 30, { "", "", -1 } },
-			{ "ALFR_FR_Armee_Base", "", 30, { "", "", -1 } },
-			{ "U_GhillieSuit_A", "", 30, { "", "", -1 } },
-			{ "U_GhillieSuit_B", "", 30, { "", "", -1 } },
-			{ "U_GhillieSuit_C", "", 30, { "", "", -1 } },
-            { "U_O_Wetsuit", "", 30, { "", "", -1 } }
+			{ "ALFR_SWAT", "", 125, { "", "", -1 } }
 		};
 
 		headgear[] = {
 			{ "NONE", "Supprime couvre-chef", 0, { "", "", -1 } },
-            { "ALFR_armee_casque", "", 10, { "", "", -1 } },
-            { "H_Cap_headphones", "", 10, { "", "", -1 } },
-            { "H_Beret_A", "", 10, { "", "", -1 } },
-            { "H_PilotHelmetHeli_B", "", 10, { "", "", -1 } },
-            { "H_PilotHelmetHeli_O", "", 10, { "", "", -1 } },
-            { "H_ALFR_Gasmask", "", 10, { "", "", -1 } }
+			{ "H_MilCap_gry", "", 50, { "", "", -1 } },
+			{ "ALFR_swathelmet", "", 125, { "", "", -1 } },
+            { "gign_helm", "", 500, { "", "", -1 } }
 		};
 
 		goggles[] = {
 			{ "NONE", "Supprime lunette", 0, { "", "", -1 } },
-            { "G_Aviator", "", 10, { "", "", -1 } },
-            { "G_Lowprofile", "", 10, { "", "", -1 } },
-            { "H_ALFR_SkiMask_1", "", 10, { "", "", -1 } },
-            { "H_ALFR_SkiMask_9", "", 10, { "", "", -1 } },
-            { "H_ALFR_SkiMask_10", "", 10, { "", "", -1 } },
-            { "H_ALFR_SkiMask_lunette_1", "", 10, { "", "", -1 } },
-			{ "G_Balaclava_oli", "", 10, { "", "", -1 } },
-			{ "G_Balaclava_blk", "", 10, { "", "", -1 } },
-			{ "G_Balaclava_lowprofile", "", 10, { "", "", -1 } },
-            { "G_Diving", "", 10, { "", "", -1 } }
+			{ "G_Balaclava_blk", "", 125, { "", "", -1 } }
 		};
 
 		vests[] = {
 			{ "NONE", "Supprime gilet", 0, { "", "", -1 } },
-			{ "ALFR_armee_gilet", "", 30, { "", "", -1 } },
-            { "V_RebreatherB", "", 30, { "", "", -1 } },
-            { "V_PlateCarrierL_CTRG", "", 30, { "", "", -1 } }
+            { "ALFR_swatvest1", "", 125, { "", "", -1 } },
+			{ "ALFR_swatvest2", "", 125, { "", "", -1 } },
+			{ "ALFR_swatvest3", "", 125, { "", "", -1 } }
 		};
 
 		backpacks[] = {
 			{ "NONE", "Supprime sac", 0, { "", "", -1 } },
-            { "ALFR_armee_Bags", "", 50, { "", "", -1 } },
-            { "O_UAV_01_backpack_F", "", 500, { "", "", -1 } }
+			{ "B_UAV_01_backpack_F", "", 500, { "", "", -1 } },
+			{ "CUP_B_AssaultPack_Black", "", 125, { "", "", -1 } }
 		};
-	};
+	};	
     
     //Shop Gangster
     class gangster {
