@@ -3190,7 +3190,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=404;
+		items=403;
 		class Item0
 		{
 			position[]={8065.1616,35.674362,24985.314};
@@ -4139,7 +4139,7 @@ class Mission
 			vehicle="Land_InfoStand_V2_F";
 			skill=0.2;
 			text="h1_3_4_1";
-			init="this enableSimulation false;   this allowDamage false;  this addAction[""Superette "",life_fnc_virt_menu,""market""]; this setObjectTexture [0,""textures\medic_uniform.jpg""];   ";
+			init="removeHeadgear this;     removeAllWeapons this;  removeVest this;  this enableSimulation false;   this allowDamage false;  this addAction[""Superette "",life_fnc_virt_menu,""market""]; this setObjectTexture [0,""textures\medic_uniform.jpg""];   ";
 		};
 		class Item88
 		{
@@ -7116,7 +7116,7 @@ class Mission
 			vehicle="Land_InfoStand_V2_F";
 			skill=0.2;
 			text="gangster_shop_1";
-			init=" this allowDamage false; this enableSimulation false; this addAction[""Marché Gangster"",life_fnc_virt_menu,""rebel""];  this addAction[""Vestiaire Gangster"",life_fnc_clothingMenu,""gangster""];  this addAction[""Armurerie Gangster"",life_fnc_weaponShopMenu,""gangster""]; this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""gangster"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""gangster"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""gangster"",0,false,false,"""",' !license_civ_rebel && !license_civ_gangster'];";
+			init=" this allowDamage false; this enableSimulation false; this addAction[""Superette"",life_fnc_virt_menu,""market""];  this addAction[""Vestiaire Gangster"",life_fnc_clothingMenu,""gangster""];  this addAction[""Armurerie Gangster"",life_fnc_weaponShopMenu,""gangster""]; this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""gangster"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""gangster"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""gangster"",0,false,false,"""",' !license_civ_rebel && !license_civ_gangster'];";
 		};
 		class Item352
 		{
@@ -7700,19 +7700,6 @@ class Mission
 			vehicle="C_Test_Car_01_F";
 			skill=0.60000002;
 			init="this allowDamage false;";
-		};
-		class Item403
-		{
-			position[]={15591.939,18.537207,17192.361};
-			azimut=132.8212;
-			offsetY=0.2;
-			special="NONE";
-			id=625;
-			side="EMPTY";
-			vehicle="Land_InfoStand_V2_F";
-			skill=0.2;
-			text="h1_3_4_1_1";
-			init="this enableSimulation false;   this allowDamage false;  this addAction[""Superette "",life_fnc_virt_menu,""market""]; this setObjectTexture [0,""textures\medic_uniform.jpg""];   ";
 		};
 	};
 	class Markers
