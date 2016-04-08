@@ -19,6 +19,7 @@ _return pushBack headgear player;
 _return pushBack assignedITems player;
 if(playerSide == west || playerSide == civilian || playerSide == east && {EQUAL(LIFE_SETTINGS(getNumber,"save_civ_weapons"),1)}) then {
     _return pushBack RIFLE;
+	_return pushBack LAUNCHER;
     _return pushBack PISTOL;
 } else {
     _return pushBack [];
