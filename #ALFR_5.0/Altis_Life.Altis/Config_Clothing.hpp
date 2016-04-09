@@ -336,10 +336,10 @@ class Clothing {
 			{ "G_Lowprofile", "", 5, { "", "", -1 } },
 			{ "G_Combat", "", 5, { "", "", -1 } },
             { "G_B_Diving", "", 10, { "", "", -1 } },
-			{ "EWK_Shemag_GRE_Cig6", "", 200, { "", "", -1 } },
-			{ "EWK_Shemag_tan_Cig6", "", 200, { "", "", -1 } },
+			{ "EWK_Cigar1", "", 200, { "", "", -1 } },
+			{ "EWK_Cig6", "", 200, { "", "", -1 } },
 			{ "EWK_Glasses_Cig6", "", 200, { "", "", -1 } },
-			{ "EWK_Cig6", "", 200, { "", "", -1 } }	
+			{ "EWK_Cigar2", "", 200, { "", "", -1 } }	
 		};
 
 		vests[] = {
@@ -420,7 +420,7 @@ class Clothing {
 		backpacks[] = {
 			{ "NONE", "Supprime sac", 0, { "", "", -1 } },
 			{ "B_UAV_01_backpack_F", "", 500, { "", "", -1 } },
-			{ "CUP_B_AssaultPack_Black", "", 125, { "", "", -1 } }
+			{ "TRYK_B_Kitbag_blk", "", 125, { "", "", -1 } }
 		};
 	};	
     

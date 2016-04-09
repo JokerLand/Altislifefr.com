@@ -171,7 +171,7 @@ while {true} do {
 			if (backpack player == "TRYK_B_Carryall_JSDF") then { _load = 104; };
 			if (backpack player == "TRYK_B_Carryall_wood") then { _load = 104; };
 			if (backpack player == "ALFR_Police_Bags") then { _load = 104; };
-			if (backpack player == "CUP_B_AssaultPack_Black") then { _load = 104; };
+			if (backpack player == "TRYK_B_Kitbag_blk") then { _load = 104; };
 			if (backpack player == "TRYK_B_Medbag") then { _load = 104; };
 			if (backpack player == "ALFR_armee_Bags") then { _load = 104; };			
 			if (backpack player == "CUP_B_ACRPara_m95") then { _load = 128; };
