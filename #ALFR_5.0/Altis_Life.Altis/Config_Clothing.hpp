@@ -401,6 +401,7 @@ class Clothing {
 			{ "NONE", "Supprime couvre-chef", 0, { "", "", -1 } },
 			{ "H_MilCap_gry", "", 50, { "", "", -1 } },
 			{ "ALFR_swathelmet", "", 125, { "", "", -1 } },
+			{ "gign_helm4", "", 250, { "", "", -1 } },
             { "gign_helm", "", 500, { "", "", -1 } }
 		};
 
