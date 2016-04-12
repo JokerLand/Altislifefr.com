@@ -208,6 +208,7 @@ class Life_Client_Core
         class Stop {};
         class confirmStop {};		
         class playSound {};
+		class robcom {};
 	};
 	
 	class Network

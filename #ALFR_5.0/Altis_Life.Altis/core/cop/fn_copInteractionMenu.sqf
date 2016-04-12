@@ -61,6 +61,7 @@ _Btn4 = _display displayCtrl Btn4;
 _Btn5 = _display displayCtrl Btn5;
 _Btn6 = _display displayCtrl Btn6;
 _Btn7 = _display displayCtrl Btn7;
+_Btn8 = _display displayCtrl Btn7;
 life_pInact_curTarget = _curTarget;
 
 //Set Unrestrain Button
@@ -93,6 +94,16 @@ _Btn6 buttonSetAction "[life_pInact_curTarget] call life_fnc_arrestAction;";
 
 _Btn7 ctrlSetText localize "STR_pInAct_PutInCar";
 _Btn7 buttonSetAction "[life_pInact_curTarget] call life_fnc_putInCar;";
+
+//Saisir moyen de com
+if (playerSide == west) then {
+if(side _curTarget == west) then {closeDialog 0;}
+else {
+_Btn8 ctrlSetText  "Retirer Radio";
+_Btn8 buttonSetAction "[life_pInact_curTarget] call life_fnc_robcom;";
+};
+} else {_Btn8 ctrlShow false;
+};
 
 //Check that you are near a place to jail them.
 if(!((player distance (getMarkerPos "police_hq_1") < 50) OR  (player distance (getMarkerPos "police_hq_2") < 50) OR (player distance (getMarkerPos "police_hq_3") < 50) OR (player distance (getMarkerPos "police_hq_4") < 50) OR (player distance (getMarkerPos "Correctional Facility") < 50))) then  {
