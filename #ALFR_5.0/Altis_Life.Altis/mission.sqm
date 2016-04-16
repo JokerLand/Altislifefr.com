@@ -4118,7 +4118,7 @@ class Mission
 		class Item86
 		{
 			position[]={3744.7603,18.870001,12970.744};
-			azimut=179.18875;
+			azimut=179.189;
 			offsetY=0.2;
 			special="NONE";
 			id=308;
@@ -4126,7 +4126,7 @@ class Mission
 			vehicle="Land_InfoStand_V2_F";
 			skill=0.2;
 			text="h1_3_4";
-			init="removeHeadgear this;     removeAllWeapons this;  removeVest this;  this enableSimulation false;   this allowDamage false; this addAction[format[""%1 ($%2)"",[""license_med_air""] call life_fnc_varToStr,[([""mair""] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,""mair"",0,false,false,"""",' !license_med_air && playerSide == independent '];    this addAction[""Magasin Medecin"",life_fnc_weaponShopMenu,""med_basic""];   this setObjectTexture [0,""textures\medic_uniform.jpg""];   ";
+			init="removeHeadgear this;     removeAllWeapons this;  removeVest this;  this enableSimulation false;   this allowDamage false; this addAction[format[""%1 ($%2)"",[""license_med_air""] call life_fnc_varToStr,[([""mair""] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,""mair"",0,false,false,"""",' !license_med_air && playerSide == independent '];    this addAction[""Magasin Medecin"",life_fnc_weaponShopMenu,""med_basic""];   this setObjectTexture [0,""textures\medic_uniform.jpg""];";
 		};
 		class Item87
 		{
@@ -4139,7 +4139,7 @@ class Mission
 			vehicle="Land_InfoStand_V2_F";
 			skill=0.2;
 			text="h1_3_4_1";
-			init="this enableSimulation false;   this allowDamage false;  this addAction[""Superette "",life_fnc_virt_menu,""market""]; this setObjectTexture [0,""textures\medic_uniform.jpg""];   ";
+			init="this enableSimulation false;   this allowDamage false;  this addAction[""Superette Medic"",life_fnc_virt_menu,""medmarket""]; this setObjectTexture [0,""textures\medic_uniform.jpg""];";
 		};
 		class Item88
 		{
@@ -6116,7 +6116,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_InfoStand_V2_F";
 			skill=0.2;
-			init="this enableSimulation false;   this allowDamage false;  this addAction[""Superette "",life_fnc_virt_menu,""market""]; this setObjectTexture [0,""textures\medic_uniform.jpg""];   ";
+			init="this enableSimulation false;   this allowDamage false;  this addAction[""Superette Medic"",life_fnc_virt_menu,""medmarket""]; this setObjectTexture [0,""textures\medic_uniform.jpg""];   ";
 		};
 		class Item264
 		{
@@ -7704,7 +7704,7 @@ class Mission
 		class Item403
 		{
 			position[]={15591.939,18.537207,17192.361};
-			azimut=132.8212;
+			azimut=132.821;
 			offsetY=0.2;
 			special="NONE";
 			id=625;
@@ -7712,7 +7712,7 @@ class Mission
 			vehicle="Land_InfoStand_V2_F";
 			skill=0.2;
 			text="h1_3_4_1_1";
-			init="this enableSimulation false;   this allowDamage false;  this addAction[""Superette "",life_fnc_virt_menu,""market""]; this setObjectTexture [0,""textures\medic_uniform.jpg""];   ";
+			init="this enableSimulation false;   this allowDamage false;  this addAction[""Superette Medic"",life_fnc_virt_menu,""medmarket""]; this setObjectTexture [0,""textures\medic_uniform.jpg""];   ";
 		};
 	};
 	class Markers

@@ -110,6 +110,11 @@ switch (true) do {
 		[] spawn life_fnc_lockpick;
 	};
 	
+	case (_item == "crowbar"):
+		{
+		[] spawn life_fnc_crowbar;
+		};
+	
 	case (_item == "passeport"):
 		{
 			[] spawn life_fnc_usepasseport;

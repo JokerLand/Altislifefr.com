@@ -364,6 +364,7 @@ class Life_Client_Core
         class glissiere {};
         class barstop {};
         class lightd {};
+		class crowbar {};
 	};
 	
 	class Passeport

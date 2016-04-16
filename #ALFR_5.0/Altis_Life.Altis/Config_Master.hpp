@@ -127,6 +127,7 @@ class VirtualItems {
     VITEMMACRO(barstop, "STR_AltisLifeFr_barstop", "barstop", 2, 0, 0, false, -1, "icons\ico_barriere.paa")
     VITEMMACRO(lightd, "STR_AltisLifeFr_lightd", "lightd", 2, 0, 0, false, -1, "icons\ico_cone.paa")  
     VITEMMACRO(serflex, "STR_AltisLifeFr_serflex", "serflex", 2, 1000, 500, true, -1, "icons\ico_serflex.paa") 
+	VITEMMACRO(crowbar, "STR_AltisLifeFr_crowbar", "crowbar", 2, 0, 0, false, -1, "icons\ico_crowbar.paa") 
 	// Passeport AltisLifeFR
 	VITEMMACRO(passeport, "STR_AltisLifeFr_passeport", "passeport", 3, 800, -1, false, -1, "textures\Passeport.paa")
 	VITEMMACRO(johnpasseport, "STR_AltisLifeFr_johnpasseport", "johnpasseport", 3, 60000, -1, true, -1, "textures\Passeport.paa")
@@ -304,6 +305,11 @@ class VirtualShops {
 		name = "STR_Shops_Market";
 		items[] = { "waterBottle", "rabbit_grilled", "apple", "redgull", "tbacon", "lockpick", "pickaxe", "fuelFull", "peach", "storagesmall" };
 	};
+	
+	class medmarket {
+		name = "Superette Medic";
+		items[] = { "donuts", "coffee", "waterBottle", "rabbit_grilled", "apple", "redgull", "fuelFull", "cone" };
+	};	
 
 	class rebel {
 		name = "STR_Shops_Rebel";
@@ -367,7 +373,7 @@ class VirtualShops {
 
 	class cop {
 		name = "STR_Shops_Cop";
-		items[] = { "donuts", "coffee", "spikeStrip", "waterBottle", "rabbit_grilled", "apple", "redgull", "fuelFull", "defusekit", "barriere", "cone", "glissiere", "barstop", "lightd" };
+		items[] = { "crowbar", "donuts", "coffee", "spikeStrip", "waterBottle", "rabbit_grilled", "apple", "redgull", "fuelFull", "defusekit", "barriere", "cone", "glissiere", "barstop", "lightd" };
 	};
 
 	class cement {

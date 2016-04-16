@@ -1,5 +1,5 @@
 /*
-	File: fn_error.sqf
+	File: fn_erreur.sqf
 	Author: Bryan "Tonic" Boardwine
 	Edité par AltisLifeFr.com
 

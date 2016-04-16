@@ -5021,6 +5021,10 @@
 			<Original>%1 se rend et met les mains sur la tête</Original>
  			<French>%1 se rend et met les mains sur la tête</French>
 		</Key>
+        <Key ID="STR_AltisLifeFr_crowbar">
+			<Original>Pied de Biche</Original>
+ 			<French>Pied de Biche</French>
+		</Key>
         <Key ID="STR_AltisLifeFr_passeport">
 			<Original>Passeport</Original>
  			<French>Passeport</French>
