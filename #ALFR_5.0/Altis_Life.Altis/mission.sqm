@@ -3195,13 +3195,13 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={14241.153,19.35606,16307.954};
+					position[]={14218.809,19.37973,16300.754};
 					id=222;
 					side="LOGIC";
 					vehicle="SideBLUFOR_F";
 					leader=1;
 					skill=0.60000002;
-					init="(getPos this nearestObject 525825) hideObject true;  (getPos this nearestObject 524211) hideObject true;  (getPos this nearestObject 524212) hideObject true;  (getPos this nearestObject 524213) hideObject true;";
+					init="(getPos this nearestObject 525825) hideObject true;  (getPos this nearestObject 524211) hideObject true;  (getPos this nearestObject 524212) hideObject true;  (getPos this nearestObject 524213) hideObject true; (getPos this nearestObject 524238 ) hideObject true;";
 				};
 			};
 		};
@@ -3385,8 +3385,8 @@ class Mission
 		};
 		class Item18
 		{
-			position[]={15590.544,18.560768,17184.262};
-			azimut=134.11658;
+			position[]={14269.758,19.330933,16314.89};
+			azimut=54.777618;
 			id=241;
 			side="EMPTY";
 			vehicle="Land_Atm_02_F";
@@ -6204,9 +6204,9 @@ class Mission
 		};
 		class Item270
 		{
-			position[]={15591.116,18.544588,17191.453};
-			azimut=132.45799;
-			offsetY=0.40000001;
+			position[]={14273.792,19.283342,16324.51};
+			azimut=54.172802;
+			offsetY=0.15000001;
 			special="NONE";
 			id=493;
 			side="EMPTY";
@@ -7721,9 +7721,9 @@ class Mission
 		};
 		class Item403
 		{
-			position[]={15591.939,18.537207,17192.361};
-			azimut=132.821;
-			offsetY=0.2;
+			position[]={14273.064,19.284269,16325.49};
+			azimut=54.535801;
+			offsetY=0.15000001;
 			special="NONE";
 			id=626;
 			side="EMPTY";
@@ -8549,10 +8549,10 @@ class Mission
 		};
 		class Item99
 		{
-			position[]={15596.775,18.531496,17184.191};
+			position[]={14276.413,19.307091,16311.305};
 			name="medic_spawn_2";
 			type="Empty";
-			angle=-39.342587;
+			angle=-133.14853;
 		};
 		class Item100
 		{
@@ -8612,27 +8612,27 @@ class Mission
 		};
 		class Item107
 		{
-			position[]={15600.498,18.554039,17211.836};
+			position[]={14246.732,19.318357,16326.481};
 			name="hospital_2";
 			text="Hopital";
 			type="loc_Hospital";
 			colorName="ColorRed";
-			angle=-52.633999;
+			angle=1.253951;
 		};
 		class Item108
 		{
-			position[]={15573.91,18.490637,17202.232};
+			position[]={14256.443,19.374105,16299.71};
 			name="med_car_3";
 			type="Empty";
-			angle=-130.62582;
+			angle=-206.19756;
 		};
 		class Item109
 		{
-			position[]={15590.591,18.56068,17184.236};
+			position[]={14269.803,19.330725,16314.923};
 			name="atm_marker_1_2";
 			type="loc_Tourism";
 			colorName="ColorGreen";
-			angle=-221.65602;
+			angle=-300.99512;
 		};
 		class Item110
 		{
