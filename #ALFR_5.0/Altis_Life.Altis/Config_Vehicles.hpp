@@ -1011,6 +1011,117 @@ class CfgVehicles {
             } }
 		};
 	};
+	
+    class GeK_911_1972 : Default {
+        vItemSpace = 25;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 1000, 1000, 1000, 1000 };
+		chopShop = 11625;
+		textures[] = {
+
+            { "Noir", "civ", {
+                "#(ai,64,64,1)Fresnel(0.3,3)"
+            } },
+			{ "Gris sombre", "civ", {
+                "#(argb,8,8,3)color(0.1,0.1,0.1,0.7)"
+            } },
+			{ "Gris", "civ", {
+                "#(argb,8,8,3)color(0.5,0.5,0.5,0.1)"
+            } },
+			{ "Gris clair", "civ", {
+                "#(argb,8,8,3)color(0.3,0.3,0.3,0.8)"
+            } },
+			{ "Blanc", "civ", {
+                "#(argb,8,8,3)color(1,1,1,1)"
+            } },
+			{ "Sable", "civ", {
+                "#(argb,8,8,3)color(1.5,1.6,0.9,0.2)"
+            } },
+			{ "Bordeau", "civ", {
+                "#(argb,8,8,3)color(1,0,0,0.1)"
+            } },
+			{ "Bleu", "civ", {
+                "#(argb,8,8,3)color(0.01,0.6,1,0.1)"
+            } },
+			{ "Bleu Nuit", "civ", {
+                "#(argb,8,8,3)color(0,0,0.5,0.1)"
+            } },
+			{ "Mauve Nuit", "civ", {
+                "#(argb,8,8,3)color(0.6,0,1,0.01)"
+            } },
+			{ "vert", "civ", {
+                "#(argb,8,8,3)color(0.5,1,0.5,0.05)"
+            } },
+			{ "Rouge", "civ", {
+                "#(argb,8,8,3)color(1,0,0,1)"
+            } },
+			{ "Jaune", "civ", {
+                "#(argb,8,8,3)color(0.6,0.3,0.01,1)"
+            } },
+			{ "Orange", "civ", {
+                "#(argb,8,8,3)color(1,0.3,0.01,0.6)"
+            } }
+		};
+	};
+	
+    class GeK_Gallardo : Default {
+        vItemSpace = 15;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 1000, 1000, 1000, 1000 };
+		chopShop = 30625;
+		textures[] = {
+
+            { "Noir", "civ", {
+                "#(ai,64,64,1)Fresnel(0.3,3)"
+            } },
+			{ "Gris sombre", "civ", {
+                "#(argb,8,8,3)color(0.1,0.1,0.1,0.7)"
+            } },
+			{ "Gris", "civ", {
+                "#(argb,8,8,3)color(0.5,0.5,0.5,0.1)"
+            } },
+			{ "Gris clair", "civ", {
+                "#(argb,8,8,3)color(0.3,0.3,0.3,0.8)"
+            } },
+			{ "Blanc", "civ", {
+                "#(argb,8,8,3)color(1,1,1,1)"
+            } },
+			{ "Sable", "civ", {
+                "#(argb,8,8,3)color(1.5,1.6,0.9,0.2)"
+            } },
+			{ "Bordeau", "civ", {
+                "#(argb,8,8,3)color(1,0,0,0.1)"
+            } },
+			{ "Bleu", "civ", {
+                "#(argb,8,8,3)color(0.01,0.6,1,0.1)"
+            } },
+			{ "Bleu Nuit", "civ", {
+                "#(argb,8,8,3)color(0,0,0.5,0.1)"
+            } },
+			{ "Mauve Nuit", "civ", {
+                "#(argb,8,8,3)color(0.6,0,1,0.01)"
+            } },
+			{ "vert", "civ", {
+                "#(argb,8,8,3)color(0.5,1,0.5,0.05)"
+            } },
+			{ "Rouge", "civ", {
+                "#(argb,8,8,3)color(1,0,0,1)"
+            } },
+			{ "Jaune", "civ", {
+                "#(argb,8,8,3)color(0.6,0.3,0.01,1)"
+            } },
+			{ "Orange", "civ", {
+                "#(argb,8,8,3)color(1,0.3,0.01,0.6)"
+            } }
+		};
+	};
+	
+    class zorak_master_ambulance : Default {
+        vItemSpace = 40;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 1000, 1000, 1000, 1000 };
+		chopShop = 1000;
+	};	
     
     class GeK_GTR : Default {
         vItemSpace = 35;
@@ -1699,51 +1810,20 @@ class CfgVehicles {
 		garageSell[] = { 1000, 1000, 1000, 1000 };
 		chopShop = 14250;
 		textures[] = {
-
-			{ "Noir", "civ", {
+			 { "Noir", "civ", {
                 "#(ai,64,64,1)Fresnel(0.3,3)"
-            } },
-			{ "Noir", "reb", {
+            } }
+		};
+	};
+	
+	class GeK_Yukon_Police : Default {
+		vItemSpace = 60;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 1000, 1000, 1000, 1000 };
+		chopShop = 1000;
+		textures[] = {
+			 { "Noir", "cop", {
                 "#(ai,64,64,1)Fresnel(0.3,3)"
-            } },		
-			{ "Gris sombre", "civ", {
-                "#(argb,8,8,3)color(0.1,0.1,0.1,0.7)"
-            } },
-			{ "Gris", "civ", {
-                "#(argb,8,8,3)color(0.5,0.5,0.5,0.1)"
-            } },
-			{ "Gris clair", "civ", {
-                "#(argb,8,8,3)color(0.3,0.3,0.3,0.8)"
-            } },
-			{ "Blanc", "civ", {
-                "#(argb,8,8,3)color(1,1,1,1)"
-            } },
-			{ "Sable", "civ", {
-                "#(argb,8,8,3)color(1.5,1.6,0.9,0.2)"
-            } },
-			{ "Bordeau", "civ", {
-                "#(argb,8,8,3)color(1,0,0,0.1)"
-            } },
-			{ "Bleu", "civ", {
-                "#(argb,8,8,3)color(0.01,0.6,1,0.1)"
-            } },
-			{ "Bleu Nuit", "civ", {
-                "#(argb,8,8,3)color(0,0,0.5,0.1)"
-            } },
-			{ "Mauve Nuit", "civ", {
-                "#(argb,8,8,3)color(0.6,0,1,0.01)"
-            } },
-			{ "vert", "civ", {
-                "#(argb,8,8,3)color(0.5,1,0.5,0.05)"
-            } },
-			{ "Rouge", "civ", {
-                "#(argb,8,8,3)color(1,0,0,1)"
-            } },
-			{ "Jaune", "civ", {
-                "#(argb,8,8,3)color(0.6,0.3,0.01,1)"
-            } },
-			{ "Orange", "civ", {
-                "#(argb,8,8,3)color(1,0.3,0.01,0.6)"
             } }
 		};
 	};
@@ -1762,7 +1842,14 @@ class CfgVehicles {
                 "cl3_vehiclefunctions\skins\skin_camo_urban_co.paa"
             } }
 		};
-	};	
+	};
+	
+	class GeK_Raptor : Default {
+		vItemSpace = 80;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 1000, 1000, 1000, 1000 };
+		chopShop = 17500;
+	};
 
 	class SAL_IROCCiv : Default {
 		vItemSpace = 20;
