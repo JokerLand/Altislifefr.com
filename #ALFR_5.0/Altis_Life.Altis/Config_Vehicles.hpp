@@ -944,7 +944,14 @@ class CfgVehicles {
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
 		chopShop = 1000;
-    };	
+    };
+	
+    class GeK_GMC_SWAT : Default {
+        vItemSpace = 75;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 1000, 1000, 1000, 1000 };
+		chopShop = 1000;
+    };
 
     class zorak_audi_rs6_police : Default {
         vItemSpace = 50;
