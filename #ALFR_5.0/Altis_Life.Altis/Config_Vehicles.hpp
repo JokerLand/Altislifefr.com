@@ -228,17 +228,18 @@ class CarShops {
 			{ "GeK_S60_Police", 1000, ""},
 			{ "ALFR_GeK_Panamera_Police", 1000, "", { "life_coplevel", 2 } },
             { "GeK_ML63_Police" , 1000, "", { "life_coplevel", 2 } },
-		//	{ "GeK_TLC100_Police", 1000, "", { "life_coplevel", 2 } },
+			{ "GeK_TLC100_Police", 1000, "", { "life_coplevel", 2 } },
+			{ "gek_audi_a4_avant_police", 1000, "", { "life_coplevel", 2 } },  
             { "Mrshounka_ducati_police_p", 1000, "", { "life_coplevel", 3 } },    
 			{ "I_MRAP_03_F", 1000, "", { "life_coplevel", 3 } },
 			{ "ALFR_GeK_MF1_Police", 1000, "", { "life_coplevel", 3 } },
 			{ "GeK_S60_Police_ST", 1000, "", { "life_coplevel", 3 } },
-            { "gek_audi_a4_avant_police", 1000, "", { "life_coplevel", 3 } },    
+            { "GeK_C63_Police", 1000, "", { "life_coplevel", 3 } },   
 			{ "GeK_TLC100", 1000, "", { "life_coplevel", 3 } },
 			{ "ALFR_GeK_Panamera_Police_ST", 1000, "", { "life_coplevel", 3 } },
 			{ "CL3_bus_cl_black", 1000, "", { "life_coplevel", 3 } },
 			{ "zorak_mazda_rx8_police", 1000, "", { "life_coplevel", 3 } },
-			{ "GeK_GMC_SWAT", 1000, "swat", { "life_coplevel", 3 } },
+			// { "GeK_GMC_SWAT", 1000, "swat", { "life_coplevel", 3 } },
 			{ "zorak_audi_rs6_police", 1000, "", { "life_coplevel", 4 } },
 			{ "cg_h2_sert", 1000, "", { "life_coplevel", 4 } },
 			{ "GeK_Yukon_Police", 1000, "swat", { "life_coplevel", 4 } },
@@ -1470,6 +1471,13 @@ class CfgVehicles {
 		garageSell[] = { 1000, 1000, 1000, 1000 };
 		chopShop = 3000;
 	};
+	
+	class GeK_C63_Police : Default {
+		vItemSpace = 40;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 1000, 1000, 1000, 1000 };
+		chopShop = 1000;
+	};	
 
 	class cg_h2_sert : Default {
 		vItemSpace = 120;
@@ -1507,7 +1515,7 @@ class CfgVehicles {
 		textures[] = {
 
 			{ "Police", "cop", {
-                "ALFR_TexSnd\toyota_police.paa"
+                "ALFR_TexSnd\TLCPolice.paa"
             } },
 			{ "Armee", "armer", {
                 "alfr_Arm\data\ALFR_range_armee.jpg"

@@ -111,7 +111,6 @@ class Mission
 		"A3_Structures_F_Kart_Civ_SportsGrounds",
 		"A3_Structures_F_Heli_Items_Electronics",
 		"gek_coffre",
-		"Test_car_F",
 		"a3_map_altis"
 	};
 	randomSeed=2004553;
@@ -3208,7 +3207,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=412;
+		items=404;
 		class Item0
 		{
 			position[]={8065.1616,35.674362,24985.314};
@@ -7710,116 +7709,28 @@ class Mission
 		};
 		class Item402
 		{
-			position[]={3766.7029,18.85,13011.706};
-			azimut=-0.87003499;
-			offsetY=0.050000001;
-			id=625;
-			side="EMPTY";
-			vehicle="C_Test_Car_01_F";
-			skill=0.60000002;
-			init="this allowDamage false;";
-		};
-		class Item403
-		{
 			position[]={14273.064,19.284269,16325.49};
 			azimut=54.535801;
 			offsetY=0.15000001;
 			special="NONE";
-			id=626;
+			id=625;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V2_F";
 			skill=0.2;
 			text="h1_3_4_1_1";
 			init="this enableSimulation false;   this allowDamage false;  this addAction[""Superette Medic"",life_fnc_virt_menu,""medmarket"",0,false,false,"""",' playerSide == independent']; this setObjectTexture [0,""textures\medic_uniform.jpg""];   ";
 		};
-		class Item404
+		class Item403
 		{
 			position[]={14601.09,17.91,16630.623};
 			azimut=228.81407;
 			offsetY=0.1;
 			special="NONE";
-			id=627;
+			id=626;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.2;
 			init="this enableSimulation false; this allowDamage false; this addAction[""Vendeur de véhicule de Luxe/Prestige"",life_fnc_vehicleShopMenu,[""luxe_car"",civilian,""luxe_car_spawn"",""civ"",""Concessionnaire de voiture de luxe""]];";
-		};
-		class Item405
-		{
-			position[]={3760.9724,18.85,13011.584};
-			azimut=-0.87003499;
-			offsetY=0.050000001;
-			id=628;
-			side="EMPTY";
-			vehicle="C_Test_Car_01_F";
-			skill=0.60000002;
-			init="this allowDamage false;";
-		};
-		class Item406
-		{
-			position[]={3765.3296,18.85,13024.499};
-			azimut=179.46426;
-			offsetY=0.050000001;
-			id=629;
-			side="EMPTY";
-			vehicle="C_Test_Car_01_F";
-			skill=0.60000002;
-			init="this allowDamage false;";
-		};
-		class Item407
-		{
-			position[]={3760.1484,18.795837,13024.471};
-			azimut=179.46426;
-			offsetY=0.050000001;
-			id=630;
-			side="EMPTY";
-			vehicle="C_Test_Car_01_F";
-			skill=0.60000002;
-			init="this allowDamage false;";
-		};
-		class Item408
-		{
-			position[]={14230.873,19.352295,16314.904};
-			azimut=-123.176;
-			offsetY=0.1;
-			id=631;
-			side="EMPTY";
-			vehicle="C_Test_Car_01_F";
-			skill=0.60000002;
-			init="this allowDamage false;";
-		};
-		class Item409
-		{
-			position[]={14228.005,19.350346,16319.236};
-			azimut=-123.176;
-			offsetY=0.1;
-			id=632;
-			side="EMPTY";
-			vehicle="C_Test_Car_01_F";
-			skill=0.60000002;
-			init="this allowDamage false;";
-		};
-		class Item410
-		{
-			position[]={14220.431,19.361666,16308.125};
-			azimut=56.595112;
-			offsetY=0.1;
-			id=633;
-			side="EMPTY";
-			vehicle="C_Test_Car_01_F";
-			skill=0.60000002;
-			init="this allowDamage false;";
-		};
-		class Item411
-		{
-			position[]={14217.803,19.345188,16312.106};
-			azimut=56.595112;
-			offsetY=0.1;
-			id=634;
-			side="EMPTY";
-			vehicle="C_Test_Car_01_F";
-			skill=0.60000002;
-			init="this allowDamage false;";
 		};
 	};
 	class Markers
