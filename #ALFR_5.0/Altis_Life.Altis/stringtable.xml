@@ -4927,6 +4927,13 @@
 			<Italian>Unlicensed Hunting</Italian>
 			<Portuguese>Unlicensed Hunting</Portuguese>
 		</Key>
+		<Key ID="STR_Crime_669">
+			<Original>Braquage de station service</Original>
+			<German>Braquage de station service</German>
+			<French>Braquage de station service</French>
+			<Italian>Braquage de station service</Italian>
+			<Portuguese>Braquage de station service</Portuguese>
+		</Key>		
 		<Key ID="STR_Crime_919">
 			<Original>Organ Theft</Original>
 			<German>Organ Theft</German>

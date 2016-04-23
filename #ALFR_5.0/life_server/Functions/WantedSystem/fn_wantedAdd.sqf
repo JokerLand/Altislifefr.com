@@ -37,6 +37,7 @@ switch(_type) do
 	case "666": {_type = ["666",2000]};
 	case "667": {_type = ["667",45000]};
 	case "668": {_type = ["668",15000]};
+	case "669": {_type = ["669",30000]}; // Braquage de station service
 
 	case "1": {_type = ["1",350]};
     case "2": {_type = ["2",1500]};

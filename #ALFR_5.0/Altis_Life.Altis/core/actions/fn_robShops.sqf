@@ -1,4 +1,4 @@
-/*
+﻿/*
 file: fn_robShops.sqf
 Author: MrKraken
 Made from MrKrakens bare-bones shop robbing tutorial on www.altisliferpg.com forums
@@ -59,15 +59,16 @@ _shop switchMove "";
 deleteMarker "Marker200";
 if(_robber distance _shop > 10.5) exitWith
 {
-	hint "Vous devez rester a moins de 3m pour braquer la station!";
+	hint "Vous devez rester à moins de 3m pour braquer la station! - Une caméra de surveillance vous a filmé, vous êtes maintenant recherché";
   	_shop setVariable["robbed",false,false];
+	[[getPlayerUID player,player getVariable["realname",name player],"187"],"life_fnc_wantedAdd",false,false] call life_fnc_MP;
 };
 if(!alive _robber) exitWith
 {
 	hint "Vous etes mort pendant le braquage! - La station est maintenant verrouillee.";
 };
-titleText[format["Vous venez de voler $%1, partez vite avant que la police n'arrive!!",[_cash] call life_fnc_numberText],"PLAIN"];
-[[getPlayerUID player,name player,"460"],"life_fnc_wantedAdd",false,false] spawn life_fnc_MP;
+titleText[format["Vous venez de voler $%1, Une caméra de surveillance vous a filmé, vous êtes maintenant recherché",[_cash] call life_fnc_numberText],"PLAIN"];
+[[getPlayerUID player,player getVariable["realname",name player],"669"],"life_fnc_wantedAdd",false,false] call life_fnc_MP;
 life_cash = life_cash + _cash;
 sleep 1800;
 _shop setVariable["robbed",false,false];

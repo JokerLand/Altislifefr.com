@@ -108,7 +108,7 @@ class CarShops {
 		side = "med";
 		vehicles[] = {
 			{ "B_Heli_Light_01_F", 2000, "mAir" },
-			// { "GR_Bell412_1", 3000, "mAir", { "life_mediclevel", 2 } },
+			{ "GR_Bell412_1", 3000, "mAir", { "life_mediclevel", 2 } },
 			// { "O_Heli_Light_02_unarmed_F", 4000, "mAir", { "life_mediclevel", 3 } },
 			{ "EC635_SAR", 5000, "mAir", { "life_mediclevel", 5 } }
 		};
@@ -239,7 +239,7 @@ class CarShops {
 			{ "ALFR_GeK_Panamera_Police_ST", 1000, "", { "life_coplevel", 3 } },
 			{ "CL3_bus_cl_black", 1000, "", { "life_coplevel", 3 } },
 			{ "zorak_mazda_rx8_police", 1000, "", { "life_coplevel", 3 } },
-			// { "GeK_GMC_SWAT", 1000, "swat", { "life_coplevel", 3 } },
+			{ "GeK_GMC_SWAT", 1000, "swat", { "life_coplevel", 3 } },
 			{ "zorak_audi_rs6_police", 1000, "", { "life_coplevel", 4 } },
 			{ "cg_h2_sert", 1000, "", { "life_coplevel", 4 } },
 			{ "GeK_Yukon_Police", 1000, "swat", { "life_coplevel", 4 } },
