@@ -281,7 +281,8 @@ class Licenses {
         
     /** Entreprise **/
     LICENSEMACRO(ion,"STR_License_Ion","ion",-1,false,"civ")
-	LICENSEMACRO(aan,"STR_License_Aan","aan",-1,false,"civ")	
+	LICENSEMACRO(aan,"STR_License_Aan","aan",-1,false,"civ")
+	LICENSEMACRO(altisfly,"STR_License_Altisfly","altisfly",-1,false,"civ")
 
 };
 
