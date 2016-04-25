@@ -311,12 +311,19 @@ class Clothing {
 			{ "NONE", "Supprime couvre-chef", 0, { "", "", -1 } },
 			{ "H_MilCap_blue", "", 20, { "", "", -1 } },
 			{ "H_ALFR_Gasmask", "", 20, { "", "", -1 } },
-			{ "H_Beret_blk", "", 20, { "life_coplevel", "SCALAR", 2 } },
-            { "H_PilotHelmetHeli_B", "", 20, { "life_coplevel", "SCALAR", 2 } },
+			//{ "H_Beret_blk", "", 20, { "life_coplevel", "SCALAR", 2 } },
             { "H_PilotHelmetHeli_O", "Casque Heli BAC", 20, { "life_coplevel", "SCALAR", 3 } },
-			{ "H_Beret_C", "", 20, { "life_coplevel", "SCALAR", 3 } },
-            { "H_Beret_02", "", 20, { "life_coplevel", "SCALAR", 4 } },
-            { "H_Beret_B", "", 20, { "life_coplevel", "SCALAR", 5 } },
+            { "H_PilotHelmetHeli_B", "", 20, { "life_coplevel", "SCALAR", 1 } },
+            { "ALFR_Beret_Brigadier", "", 20, { "life_coplevel", "SCALAR", 2 } },
+            { "ALFR_Beret_BrigadierChef", "", 20, { "life_coplevel", "SCALAR", 2 } },
+            { "ALFR_Beret_Adjudant", "", 20, { "life_coplevel", "SCALAR", 3 } },
+            { "ALFR_Beret_AdjudantChef", "", 20, { "life_coplevel", "SCALAR", 3 } },
+            { "ALFR_Beret_Major", "", 20, { "life_coplevel", "SCALAR", 4 } },
+            { "ALFR_Beret_Lieutenant", "", 20, { "life_coplevel", "SCALAR", 5 } },
+            { "ALFR_Beret_Capitaine", "", 20, { "life_coplevel", "SCALAR", 6 } },²
+			//{ "H_Beret_C", "", 20, { "life_coplevel", "SCALAR", 3 } },
+            //{ "H_Beret_02", "", 20, { "life_coplevel", "SCALAR", 4 } },
+            //{ "H_Beret_B", "", 20, { "life_coplevel", "SCALAR", 5 } },
             { "H_Beret_Colonel", "", 20, { "life_coplevel", "SCALAR", 6 } }
 		};
 
@@ -880,6 +887,55 @@ class Clothing {
 			{ "CUP_B_AssaultPack_Black", "", 500, { "", "", -1 } }
 		};
 	};	
+    
+    //SHOP ENTREPRISE ALTISFLY
+    class altisfly {
+		title = "Vestiaire AltisFly";
+		license = "altisfly";
+		side = "civ";
+
+		uniforms[] = {
+			{ "NONE", "Supprime uniforme", 0, { "", "", -1 } },
+			{ "U_Office_B", "", 150, { "", "", -1 } },
+            { "U_CivilianPilot_A", "", 150, { "", "", -1 } },
+            { "U_B_PilotCoveralls", "", 150, { "", "", -1 } },
+            { "U_I_pilotCoveralls", "", 150, { "", "", -1 } }
+		};
+
+		headgear[] = {
+			{ "NONE", "Supprime couvre-chef", 0, { "", "", -1 } },
+			{ "H_ALFR_Headset", "", 50, { "", "", -1 } },
+            { "H_Cap_pmc_headphones", "", 50, { "", "", -1 } },
+            { "H_CrewHelmetHeli_B", "", 50, { "", "", -1 } },
+            { "H_CrewHelmetHeli_O", "", 50, { "", "", -1 } },
+            { "H_PilotHelmetFighter_B", "", 50, { "", "", -1 } },
+            { "H_PilotHelmetFighter_O", "", 50, { "", "", -1 } },
+            { "H_Cap_marshal", "", 50, { "", "", -1 } },
+            { "H_Hat_Headphones", "", 50, { "", "", -1 } },
+            { "H_Cap_headphones", "", 50, { "", "", -1 } }
+		};
+
+		goggles[] = {
+			{ "NONE", "Supprime lunette", 0, { "", "", -1 } },
+            { "G_Aviator", "", 50, { "", "", -1 } },
+            { "EWK_Cigar1", "", 200, { "", "", -1 } },
+			{ "EWK_Cigar2", "", 200, { "", "", -1 } },
+			{ "EWK_Cig6", "", 200, { "", "", -1 } },
+			{ "EWK_Glasses_Cig6", "", 200, { "", "", -1 } }
+		};
+
+		vests[] = {
+			{ "NONE", "Supprime gilet", 0, { "", "", -1 } }	
+		};
+
+		backpacks[] = {
+			{ "NONE", "Supprime sac", 0, { "", "", -1 } },
+			{ "TRYK_B_Kitbag_blk", "", 500, { "", "", -1 } },
+            { "B_Parachute", "", 500, { "", "", -1 } },
+            { "B_Carryall_cbr", "", 500, { "", "", -1 } },
+            { "B_Carryall_oli", "", 500, { "", "", -1 } }            
+		};
+	};
     
     //Shop Femme
     class girl {

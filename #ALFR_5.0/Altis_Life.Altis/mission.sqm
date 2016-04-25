@@ -3207,7 +3207,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=404;
+		items=416;
 		class Item0
 		{
 			position[]={8065.1616,35.674362,24985.314};
@@ -7732,10 +7732,148 @@ class Mission
 			skill=0.2;
 			init="this enableSimulation false; this allowDamage false; this addAction[""Vendeur de véhicule de Luxe/Prestige"",life_fnc_vehicleShopMenu,[""luxe_car"",civilian,""luxe_car_spawn"",""civ"",""Concessionnaire de voiture de luxe""]];";
 		};
+		class Item404
+		{
+			position[]={16145.289,13.649694,17027.777};
+			azimut=57;
+			offsetY=1.1;
+			special="NONE";
+			id=627;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V2_F";
+			skill=0.2;
+			init="this allowDamage false; this enableSimulation false; this addAction[""Vêtements EntrepriseAltisFly"",life_fnc_clothingMenu,""altisfly"",0,false,false,"""",' license_civ_altisfly && playerSide == civilian']; this addAction[""Superette"",life_fnc_virt_menu,""market""]; this addAction[""Quincaillerie"",life_fnc_weaponShopMenu,""genstore""];";
+		};
+		class Item405
+		{
+			position[]={16144.578,13.639351,17028.76};
+			azimut=57;
+			offsetY=1.1;
+			special="NONE";
+			id=628;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V2_F";
+			skill=0.2;
+			text="atm1_1_3_1_6_4_7_16_1_1_1_1";
+			init="this enableSimulation false; this allowDamage false; this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu];";
+		};
+		class Item406
+		{
+			position[]={16149.706,13.499644,17081.094};
+			azimut=57;
+			special="NONE";
+			id=629;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V2_F";
+			leader=1;
+			skill=0.2;
+			init="this enableSimulation false; this allowDamage false; this addAction[""Garage Aérien"",  {   [[getPlayerUID player,playerSide,""Air"",player],""TON_fnc_getVehicles"",false,false,"""",' license_civ_altisfly && playerSide == civilian'] spawn life_fnc_MP;  life_garage_type = ""Air""; createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""air_altisfly"";  }]; this addAction[""Store vehicle in Garage"",  {   private[""_nearVehicle""];   _nearVehicle = nearestObjects[(getPos (_this select 0)),[""Car"",""Ship"",""Air""],35] select 0;   if(isNil ""_nearVehicle"") exitWith {hint ""There isn't a vehicle near this NPC."";};   [[_nearVehicle,false,(_this select 1)],""TON_fnc_vehicleStore"",false,false,"""",' license_civ_ion && playerSide == civilian'] spawn life_fnc_MP;   hint ""Garage AltisFly - Le serveur tente de stocker votre véhicule, veuillez patienter ..."";   life_garage_store = true;  },"""",0,false,false,"""",'!life_garage_store'];";
+		};
+		class Item407
+		{
+			position[]={16158.749,13.265177,17086.809};
+			azimut=57;
+			id=630;
+			side="EMPTY";
+			vehicle="Land_HelipadSquare_F";
+			skill=0.60000002;
+			text="zone_spawn_1_1_1";
+			init="this enableSimulation false; this allowDamage false;";
+		};
+		class Item408
+		{
+			position[]={16149.049,13.506924,17082.029};
+			azimut=57;
+			special="NONE";
+			id=631;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V2_F";
+			skill=0.2;
+			init="this enableSimulation false; this allowDamage false; this addAction[""Vehicle Garage"",  {   [[getPlayerUID player,playerSide,""Car"",player],""TON_fnc_getVehicles"",false,false,"""",' license_civ_altisfly && playerSide == civilian'] call life_fnc_MP; life_garage_type = ""Car"";   createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""car_g_altisfly"";  }];  this addAction[""Store vehicle in Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];";
+		};
+		class Item409
+		{
+			position[]={16150.316,13.493072,17080.186};
+			azimut=57;
+			special="NONE";
+			id=632;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V2_F";
+			skill=0.2;
+			init="this enableSimulation false; this allowDamage false; this addAction[""Vendeur de vehicule AltisFly"",life_fnc_vehicleShopMenu,[""veh_altisfly"",civilian,""civ_car_spawn_altisfly"",""civ"",""Achat Vehicule AltisFly""],0,false,false,"""",'license_civ_altisfly'];";
+		};
+		class Item410
+		{
+			position[]={14403.347,18.807611,16335.568};
+			azimut=295;
+			special="NONE";
+			id=633;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V2_F";
+			leader=1;
+			skill=0.2;
+			init="this enableSimulation false; this allowDamage false; this addAction[""Garage Aérien"",  {   [[getPlayerUID player,playerSide,""Air"",player],""TON_fnc_getVehicles"",false,false,"""",' license_civ_altisfly && playerSide == civilian'] spawn life_fnc_MP;  life_garage_type = ""Air""; createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""air_altisfly_1"";  }]; this addAction[""Store vehicle in Garage"",  {   private[""_nearVehicle""];   _nearVehicle = nearestObjects[(getPos (_this select 0)),[""Car"",""Ship"",""Air""],35] select 0;   if(isNil ""_nearVehicle"") exitWith {hint ""Il n'y a pas de vehicule près du panneau."";};   [[_nearVehicle,false,(_this select 1)],""TON_fnc_vehicleStore"",false,false,"""",' license_civ_ion && playerSide == civilian'] spawn life_fnc_MP;   hint ""Garage AltisFly - Le serveur tente de stocker votre véhicule, veuillez patienter ..."";   life_garage_store = true;  },"""",0,false,false,"""",'!life_garage_store'];";
+		};
+		class Item411
+		{
+			position[]={14402.963,19.284689,16312.001};
+			azimut=205;
+			id=634;
+			side="EMPTY";
+			vehicle="Land_HelipadSquare_F";
+			skill=0.60000002;
+			text="zone_spawn_1_1_1_1";
+			init="this enableSimulation false; this allowDamage false;";
+		};
+		class Item412
+		{
+			position[]={14402.866,18.841587,16334.535};
+			azimut=295;
+			special="NONE";
+			id=635;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V2_F";
+			skill=0.2;
+			init="this enableSimulation false; this allowDamage false; this addAction[""Vehicle Garage"",  {   [[getPlayerUID player,playerSide,""Car"",player],""TON_fnc_getVehicles"",false,false,"""",' license_civ_altisfly && playerSide == civilian'] call life_fnc_MP; life_garage_type = ""Car"";   createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""car_g_altisfly_1"";  }];  this addAction[""Véhicule entreposé au garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];";
+		};
+		class Item413
+		{
+			position[]={14403.829,18.782475,16336.537};
+			azimut=295;
+			special="NONE";
+			id=636;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V2_F";
+			skill=0.2;
+			init="this enableSimulation false; this allowDamage false; this addAction[""Vendeur de vehicule AltisFly"",life_fnc_vehicleShopMenu,[""veh_altisfly"",civilian,""civ_car_spawn_altisfly_1"",""civ"",""Achat Vehicule AltisFly""],0,false,false,"""",'license_civ_altisfly'];";
+		};
+		class Item414
+		{
+			position[]={14405.75,18.725628,16340.773};
+			azimut=295;
+			special="NONE";
+			id=637;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V2_F";
+			skill=0.2;
+			init="this allowDamage false; this enableSimulation false; this addAction[""Vêtements EntrepriseAltisFly"",life_fnc_clothingMenu,""altisfly"",0,false,false,"""",' license_civ_altisfly && playerSide == civilian']; this addAction[""Superette"",life_fnc_virt_menu,""market""]; this addAction[""Quincaillerie"",life_fnc_weaponShopMenu,""genstore""];";
+		};
+		class Item415
+		{
+			position[]={14405.302,18.732798,16339.873};
+			azimut=295;
+			special="NONE";
+			id=638;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V2_F";
+			skill=0.2;
+			text="atm1_1_3_1_6_4_7_16_1_1_1_1_1";
+			init="this enableSimulation false; this allowDamage false; this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu];";
+		};
 	};
 	class Markers
 	{
-		items=388;
+		items=398;
 		class Item0
 		{
 			position[]={8459.6777,104.56568,25131.203};
@@ -10850,6 +10988,82 @@ class Mission
 			name="med_car_1_1";
 			type="Empty";
 			angle=-1.33005;
+		};
+		class Item388
+		{
+			position[]={16158.775,13.265181,17086.652};
+			name="air_altisfly";
+			type="Empty";
+			angle=484.98001;
+		};
+		class Item389
+		{
+			position[]={16158.157,13.274341,17086.92};
+			name="car_g_altisfly";
+			type="Empty";
+			angle=486.15799;
+		};
+		class Item390
+		{
+			position[]={16158.492,13.269467,17086.736};
+			name="civ_car_spawn_altisfly";
+			type="Empty";
+			angle=124.048;
+		};
+		class Item391
+		{
+			position[]={16154.397,13.330979,17089.752};
+			name="aan_spawn_1";
+			type="Empty";
+			angle=483.64099;
+		};
+		class Item392
+		{
+			position[]={14401.403,19.281115,16311.666};
+			name="air_altisfly_1";
+			type="Empty";
+			angle=484.98001;
+		};
+		class Item393
+		{
+			position[]={14400.785,19.283966,16311.934};
+			name="car_g_altisfly_1";
+			type="Empty";
+			angle=486.15799;
+		};
+		class Item394
+		{
+			position[]={14401.12,19.282013,16311.75};
+			name="civ_car_spawn_altisfly_1";
+			type="Empty";
+			angle=124.048;
+		};
+		class Item395
+		{
+			position[]={14397.025,19.25695,16314.766};
+			name="aan_spawn_1_1";
+			type="Empty";
+			angle=483.64099;
+		};
+		class Item396
+		{
+			position[]={16145.873,13.600166,17038.094};
+			name="Entreprise AltisFly";
+			text="Entreprise Altis Fly";
+			type="plp_mark_as_airport2";
+			colorName="ColorUNKNOWN";
+			a=0.80000001;
+			b=0.80000001;
+		};
+		class Item397
+		{
+			position[]={14408.989,19.017988,16326.166};
+			name="Entrepôts AltisFly";
+			text="Entrepôts Altis Fly";
+			type="plp_mark_as_airport2";
+			colorName="ColorCIV";
+			a=0.80000001;
+			b=0.80000001;
 		};
 	};
 	class Sensors

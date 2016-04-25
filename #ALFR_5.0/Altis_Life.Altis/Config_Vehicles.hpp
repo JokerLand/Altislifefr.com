@@ -16,10 +16,20 @@ class CarShops {
             { "C_SUV_01_F", 3800, "driver" },
 			{ "C_Offroad_01_F", 3800, "driver" },
             { "I_G_Offroad_01_F", 4000, "driver" }, 
-			{ "GeK_C30", 5500, "driver" }, 
+			{ "GeK_C30", 5500, "driver" },
+            // { "Jonzie_Datsun_510", 1800, "driver" }, //130km
+            // { "Jonzie_Mini_Cooper", 2700, "driver" }, //144km
+            // { "Jonzie_Ceed", 4800, "driver" }, //170km - Style Clio
+			// { "Jonzie_30CSL", 8000, "driver" }, // 207km
+            // { "Jonzie_Corolla", 9200, "driver" }, //180km
+            // { "Jonzie_Datsun_Z432", 10500, "driver" }, //210km
 			{ "zorak_bmw_120i", 10500, "driver" }, 
 			// { "Sn0cky_DS4_noir", 11000, "driver" },
 			{ "cl3_taurus_black", 12500, "driver" }, 
+            // { "Jonzie_Escalade", 12800, "driver" },  //231km
+            // { "Jonzie_XB", 19000, "driver" }, //194km - Style FordMustang
+            // { "Jonzie_Galant", 21700, "driver" }, //222km
+            // { "Jonzie_Mini_Cooper_R_spec", 23500, "driver" }, //225km
             { "cl3_e60_m5_black", 24000, "driver" },    
             { "GeK_Supra", 25000, "driver" },  
             { "cl3_e63_amg_black", 25000, "driver" },
@@ -32,10 +42,12 @@ class CarShops {
             { "cl3_q7_black", 30000, "driver" },
             { "GeK_A45", 31000, "driver" },
             { "wirk_cayenne", 32000, "driver" },
+            // { "Jonzie_Quattroporte", 32500, "driver" }, // 286km
 			{ "zorak_mazda_rx8", 33000, "driver" },
 			{ "GeK_S60", 34500, "driver" },
 			{ "GeK_CTSV", 34500, "driver" },
             { "Gek_audi_a4_avant", 34500, "driver" },
+            // { "Jonzie_STI", 35200, "driver" },  //260km
             { "zorak_audi_a6", 36000, "driver" },    
 			{ "zorak_jeep_cherokee", 38000, "driver" },
 			{ "GeK_Yukon", 38500, "driver" },
@@ -97,7 +109,8 @@ class CarShops {
 			{ "C_Offroad_01_F", 1000, "" },
 			{ "GeK_Renault_Trafic_Ambulance", 1000, "" },
 			{ "C_SUV_01_F", 1000, "", { "life_mediclevel", 2 } },
-			// { "zorak_master_ambulance", 1000, "", { "life_mediclevel", 2 } },
+			{ "zorak_master_ambulance", 1000, "", { "life_mediclevel", 2 } },
+			//{ "Jonzie_Ambulance", 1000, "", { "life_mediclevel", 2 } },
 			{ "GeK_TLC100_Medic", 1000, "", { "life_mediclevel", 3 } },
 			{ "GeK_S60_Medic", 1000, "", { "life_mediclevel", 4 } }
 
@@ -126,8 +139,10 @@ class CarShops {
 			{ "I_Truck_02_transport_F", 25000, "trucking" },
 			{ "I_Truck_02_covered_F", 32500, "trucking" },
 			{ "B_Truck_01_transport_F", 39000, "trucking" },
+            //{ "Jonzie_Tanker_Truck", 42000, "trucking" },
 			{ "B_Truck_01_box_F", 45000, "trucking" },
             { "ALFR_GeK_Scania_420", 48000, "trucking" },
+            //{ "Jonzie_Box_Truck", 55000, "trucking" },
             { "GeK_Renault_Magnum", 62000, "trucking" },
             { "ALFR_GeK_Volvo_FH16_2012", 76000, "trucking" },
             { "GeK_Iveco_Stralis", 86000, "trucking" }
@@ -138,6 +153,8 @@ class CarShops {
 		side = "civ";
 		vehicles[] = {
             { "C_Offroad_01_repair_F", 5000, "depanneur" },
+            //{ "Jonzie_Forklift", 6000, "depanneur" },
+            //{ "Jonzie_Tow_Truck", 10000, "depanneur" },
 			{ "GeK_Volvo_FH16_2012_Depannage", 10000, "depanneur" },
 			{ "EC635_ADAC", 20000, "depanneur" }
 		};
@@ -159,6 +176,25 @@ class CarShops {
 		};
 	};
 	
+    class veh_altisfly {
+		side = "civ";
+		vehicles[] = {
+            { "cl3_suv_black", 7000, "driver" },
+            { "C_Van_01_fuel_F", 6000, "trucking" },
+            { "B_Truck_01_fuel_F", 10000, "trucking" },
+            { "sab_BI_An2", 10000, "pilot" },
+            { "Sab_sea_An2", 10000, "pilot" },
+            { "GNT_C185F", 10000, "pilot" },
+            { "GNT_C185", 10000, "pilot" },
+            { "IVORY_T6A_1", 10000, "pilot" },
+            { "GR_Bell412_2", 10000, "pilot" },
+            { "GR_UH1H_3", 10000, "pilot" },
+            { "GR_UH1N_1", 10000, "pilot" },
+			{ "GR_UH1N_2", 10000, "pilot" },
+            { "IVORY_ERJ135_1", 60000, "pilot" }
+		};
+	};
+    
     class veh_aan {
 		side = "civ";
 		vehicles[] = {
@@ -1125,7 +1161,7 @@ class CfgVehicles {
 	};
 	
     class zorak_master_ambulance : Default {
-        vItemSpace = 40;
+        vItemSpace = 85;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
 		chopShop = 1000;
@@ -3899,6 +3935,142 @@ class CfgVehicles {
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
 		chopShop = 3000;
+	};
+    
+    
+    class  Jonzie_Box_Truck: Default {
+		vItemSpace = 580;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 1000, 1000, 1000, 1000 };
+		chopShop = 20625;
+	};
+    
+    
+    class  Jonzie_Tanker_Truck: Default {
+		vItemSpace = 450;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 1000, 1000, 1000, 1000 };
+		chopShop = 15750;
+	};
+    
+    
+    class  Jonzie_Tow_Truck: Default {
+		vItemSpace = 60;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 1000, 1000, 1000, 1000 };
+		chopShop = 2500;
+	};
+    
+    
+    class  Jonzie_Forklift: Default {
+		vItemSpace = 5;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 1000, 1000, 1000, 1000 };
+		chopShop = 2250;
+	};
+    
+    
+    class  Jonzie_Ambulance: Default {
+		vItemSpace = 40;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 1000, 1000, 1000, 1000 };
+		chopShop = 3000;
+	};
+    
+    
+    class  Jonzie_Datsun_510: Default {
+		vItemSpace = 25;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 1000, 1000, 1000, 1000 };
+		chopShop = 675;
+	};
+    
+    
+    class  Jonzie_Mini_Cooper: Default {
+		vItemSpace = 25;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 1000, 1000, 1000, 1000 };
+		chopShop = 1012;
+	};
+    
+    
+    class  Jonzie_Ceed: Default {
+		vItemSpace = 30;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 1000, 1000, 1000, 1000 };
+		chopShop = 1800;
+	};
+    
+    
+    class  Jonzie_30CSL: Default {
+		vItemSpace = 30;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 1000, 1000, 1000, 1000 };
+		chopShop = 3000;
+	};
+    
+    
+    class  Jonzie_Corolla: Default {
+		vItemSpace = 35;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 1000, 1000, 1000, 1000 };
+		chopShop = 3450;
+	};
+    
+    
+    class  Jonzie_Datsun_Z432: Default {
+		vItemSpace = 35;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 1000, 1000, 1000, 1000 };
+		chopShop = 3930;
+	};
+    
+    
+    class  Jonzie_Escalade: Default {
+		vItemSpace = 50;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 1000, 1000, 1000, 1000 };
+		chopShop = 4800;
+	};
+    
+    
+    class  Jonzie_XB: Default {
+		vItemSpace = 25;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 1000, 1000, 1000, 1000 };
+		chopShop = 7125;
+	};
+    
+    
+    class  Jonzie_Galant: Default {
+		vItemSpace = 15;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 1000, 1000, 1000, 1000 };
+		chopShop = 8135;
+	};
+    
+    
+    class  Jonzie_Mini_Cooper_R_spec: Default {
+		vItemSpace = 10;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 1000, 1000, 1000, 1000 };
+		chopShop = 8810;
+	};
+    
+    
+    class  Jonzie_Quattroporte: Default {
+		vItemSpace = 15;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 1000, 1000, 1000, 1000 };
+		chopShop = 12187;
+	};
+    
+    
+    class  Jonzie_STI: Default {
+		vItemSpace = 15;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 1000, 1000, 1000, 1000 };
+		chopShop = 13200;
 	};
 
 
