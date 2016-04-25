@@ -76,6 +76,7 @@ switch (_code) do
 			case west: {if(!visibleMap) then {[] spawn life_fnc_copMarkers;}};
 			case independent: {if(!visibleMap) then {[] spawn life_fnc_medicMarkers;}};
 			case east:{if(!visibleMap) then {[] spawn life_fnc_adacMarkers;}};
+            case civilian: {if(!visibleMap) then {[] spawn life_fnc_gangMarkers;}};
 		};
 	};
 	//H Key mettre les mains sur la tete + Hostler
@@ -283,11 +284,11 @@ switch (_code) do
         if((animationState cursorTarget) != "Incapacitated" && (currentWeapon player == primaryWeapon player OR currentWeapon player == handgunWeapon player) && currentWeapon player != "" && !life_knockout && !(player GVAR ["restrained",false]) && !life_istazed) then
             {
                 [cursorTarget] spawn life_fnc_knockoutAction;
-                if("ItemGPS" in assignedItems cursorTarget) then {
-                cursorTarget removeweapon "ItemGPS";
-                hint "Le téléphone portable de la personne a été placée sur le sol.";
+                if("ItemMap" in assignedItems cursorTarget) then {
+                cursorTarget removeweapon "ItemMap";
+                hint "Le carte de la personne a été placée sur le sol.";
                 _defenceplace1 = "Item_ItemGPS" createVehicle (player modelToWorld[0,0,0]);}
-                else { hint "La personne que vous avez assomé n'a pas de téléphone!"};
+                else { hint "La personne que vous avez assomé n'a pas de carte!"};
             };
         };
     };

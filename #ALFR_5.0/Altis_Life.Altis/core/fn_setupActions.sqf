@@ -71,13 +71,20 @@ switch (playerSide) do
 
 		//Se rendre
 		life_actions pushBack (player addAction["<t color='#006400'>Se rendre</t>",life_fnc_confirmStop,"",0,FALSE,FALSE,""]);
+		
+		// Prendre Traceur GPS
+		life_actions = life_actions + [player addAction["Prendre le traceur GPS",life_fnc_robTraceurGPSAction,"",0,false,false,"",'
+		!isNull cursorTarget && player distance cursorTarget < 3.5 && isPlayer cursorTarget && (cursorTarget getVariable["restrained",TRUE]) && ("ItemGPS" in assignedItems cursorTarget) ']];
 	};
 	case civilian:
 	{
 		//Drop fishing net
 		life_actions = [player addAction[localize "STR_pAct_DropFishingNet",life_fnc_dropFishingNet,"",0,false,false,"",'
 		(surfaceisWater (getPos vehicle player)) && (vehicle player isKindOf "Ship") && life_carryWeight < life_maxWeight && speed (vehicle player) < 2 && speed (vehicle player) > -1 && !life_net_dropped ']];
-		//Rob person
+		//Voler le traceur GPS
+		life_actions = life_actions + [player addAction["Voler le traceur GPS",life_fnc_robTraceurGPSAction,"",0,false,false,"",'
+		!isNull cursorTarget && player distance cursorTarget < 3.5 && isPlayer cursorTarget && animationState cursorTarget == "Incapacitated" && !(cursorTarget getVariable["robbed",FALSE]) ']];
+        //Rob person
 		life_actions = life_actions + [player addAction[localize "STR_pAct_RobPerson",life_fnc_robAction,"",0,false,false,"",'
 		!isNull cursorTarget && player distance cursorTarget < 3.5 && isPlayer cursorTarget && animationState cursorTarget == "Incapacitated" && !(cursorTarget getVariable["robbed",FALSE]) ']];
 		//Se rendre

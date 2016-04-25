@@ -103,6 +103,7 @@ class Life_Client_Core
         class packupGlissiere {};
         class packupBarstop {};
         class packupLightd {};
+		class robTraceurGPSAction {};
 	};
 	
 	class Housing
@@ -242,6 +243,7 @@ class Life_Client_Core
 		class coups {};
 		class coups1 {};
 		class coups2 {};
+		class robTraceurGPS {};
 	};
 	
 	class Vehicle
@@ -319,6 +321,7 @@ class Life_Client_Core
 		class gangInvite {};
 		class gangDisband {};
 		class gangDisbanded {};
+        class gangMarkers {};
 	};
 	
 	class Shops
