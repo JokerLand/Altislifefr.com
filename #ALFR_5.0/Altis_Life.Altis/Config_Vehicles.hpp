@@ -109,8 +109,8 @@ class CarShops {
 			{ "C_Offroad_01_F", 1000, "" },
 			{ "GeK_Renault_Trafic_Ambulance", 1000, "" },
 			{ "C_SUV_01_F", 1000, "", { "life_mediclevel", 2 } },
-			{ "zorak_master_ambulance", 1000, "", { "life_mediclevel", 2 } },
-			//{ "Jonzie_Ambulance", 1000, "", { "life_mediclevel", 2 } },
+			{ "Jonzie_Ambulance", 1000, "", { "life_mediclevel", 2 } },
+			{ "zorak_master_ambulance", 1000, "", { "life_mediclevel", 3 } },
 			{ "GeK_TLC100_Medic", 1000, "", { "life_mediclevel", 3 } },
 			{ "GeK_S60_Medic", 1000, "", { "life_mediclevel", 4 } }
 

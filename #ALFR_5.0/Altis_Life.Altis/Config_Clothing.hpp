@@ -320,7 +320,7 @@ class Clothing {
             { "ALFR_Beret_AdjudantChef", "", 20, { "life_coplevel", "SCALAR", 3 } },
             { "ALFR_Beret_Major", "", 20, { "life_coplevel", "SCALAR", 4 } },
             { "ALFR_Beret_Lieutenant", "", 20, { "life_coplevel", "SCALAR", 5 } },
-            { "ALFR_Beret_Capitaine", "", 20, { "life_coplevel", "SCALAR", 6 } },²
+            { "ALFR_Beret_Capitaine", "", 20, { "life_coplevel", "SCALAR", 6 } },
 			//{ "H_Beret_C", "", 20, { "life_coplevel", "SCALAR", 3 } },
             //{ "H_Beret_02", "", 20, { "life_coplevel", "SCALAR", 4 } },
             //{ "H_Beret_B", "", 20, { "life_coplevel", "SCALAR", 5 } },
