@@ -407,7 +407,9 @@ class Clothing {
 		headgear[] = {
 			{ "NONE", "Supprime couvre-chef", 0, { "", "", -1 } },
 			{ "H_MilCap_gry", "", 50, { "", "", -1 } },
-			{ "ALFR_swathelmet", "", 125, { "", "", -1 } }
+			{ "ALFR_swathelmet", "", 125, { "", "", -1 } },
+			{ "gign_helm4", "", 250, { "", "", -1 } },
+            { "gign_helm", "", 500, { "", "", -1 } }
 		};
 
 		goggles[] = {
@@ -425,7 +427,7 @@ class Clothing {
 		backpacks[] = {
 			{ "NONE", "Supprime sac", 0, { "", "", -1 } },
 			{ "B_UAV_01_backpack_F", "", 500, { "", "", -1 } },
-			{ "TRYK_B_Kitbag_blk", "", 125, { "", "", -1 } }
+			{ "ALFR_Police_Backpack", "", 125, { "", "", -1 } }
 		};
 	};	
     
