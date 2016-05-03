@@ -10,8 +10,9 @@ class CarShops {
 		vehicles[] = {
 			{ "B_Quadbike_01_F", 1000, "" },
             { "cl3_polo_gti_black", 2000, "driver" },
-			{ "cl3_civic_vti_black", 2000, "driver" },
-            { "GeK_Clio", 2100, "driver" },
+			{ "GeK_107", 2200, "driver" },
+			{ "cl3_civic_vti_black", 2250, "driver" },
+            { "GeK_Clio", 2500, "driver" },
             { "GeK_DS3", 3200, "driver" }, 
             { "C_SUV_01_F", 3800, "driver" },
 			{ "C_Offroad_01_F", 3800, "driver" },
@@ -46,7 +47,8 @@ class CarShops {
 			{ "zorak_mazda_rx8", 33000, "driver" },
 			{ "GeK_S60", 34500, "driver" },
 			{ "GeK_CTSV", 34500, "driver" },
-            { "Gek_audi_a4_avant", 34500, "driver" },
+			{ "GeK_Impreza", 35000, "driver" },
+            { "Gek_audi_a4_avant", 35500, "driver" },
             // { "Jonzie_STI", 35200, "driver" },  //260km
             { "zorak_audi_a6", 36000, "driver" },    
 			{ "zorak_jeep_cherokee", 38000, "driver" },
@@ -66,6 +68,7 @@ class CarShops {
 			{ "GeK_911_1972", 46500, "driver" },
 			// { "Sn0cky_RS3", 47500, "driver" },
 			{ "AudiA8_Limo", 50000, "driver" },
+			{ "GeK_IS", 52500, "driver" },
 			{ "cl3_z4_2008_black", 55000, "driver" },
 			// { "Sn0cky_Crossfire_noir", 62500, "driver" },
 			// { "Sn0cky_CL65_noir", 70000, "driver" },
@@ -260,12 +263,14 @@ class CarShops {
 			{ "C_Offroad_01_F", 1000, ""},
 			{ "C_SUV_01_F", 1000, "" },
 			{ "GeK_Renault_Trafic_Police", 1000, ""},
-            { "shounka_a3_gendsprinter", 1000, ""},    
-			{ "GeK_S60_Police", 1000, ""},
+            { "shounka_a3_gendsprinter", 1000, ""},   
+			{ "GeK_107_Police", 1000, ""},
+			{ "GeK_S60_Police", 1000, "", { "life_coplevel", 2 } },
 			{ "ALFR_GeK_Panamera_Police", 1000, "", { "life_coplevel", 2 } },
             { "GeK_ML63_Police" , 1000, "", { "life_coplevel", 2 } },
 			{ "GeK_TLC100_Police", 1000, "", { "life_coplevel", 2 } },
-			{ "gek_audi_a4_avant_police", 1000, "", { "life_coplevel", 2 } },  
+			{ "gek_audi_a4_avant_police", 1000, "", { "life_coplevel", 2 } }, 
+			{ "GeK_Impreza_Police", 1000, "", { "life_coplevel", 2 } },
             { "Mrshounka_ducati_police_p", 1000, "", { "life_coplevel", 3 } },    
 			{ "I_MRAP_03_F", 1000, "", { "life_coplevel", 3 } },
 			{ "ALFR_GeK_MF1_Police", 1000, "", { "life_coplevel", 3 } },
@@ -1526,7 +1531,14 @@ class CfgVehicles {
 		vItemSpace = 40;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
-		chopShop = 3000;
+		chopShop = 1000;
+	};
+	
+    class GeK_Impreza_Police : Default {
+		vItemSpace = 30;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 1000, 1000, 1000, 1000 };
+		chopShop = 1000;
 	};
 
 	class AudiA8_Limo : Default {
@@ -1534,6 +1546,55 @@ class CfgVehicles {
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
 		chopShop = 12000;
+	};
+	
+	class GeK_IS : Default {
+		vItemSpace = 45;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 1000, 1000, 1000, 1000 };
+		chopShop = 15000;
+		textures[] = {
+
+			{ "Gris sombre", "civ", {
+                "#(argb,8,8,3)color(0.1,0.1,0.1,0.7)"
+            } },
+			{ "Gris", "civ", {
+                "#(argb,8,8,3)color(0.5,0.5,0.5,0.1)"
+            } },
+			{ "Gris clair", "civ", {
+                "#(argb,8,8,3)color(0.3,0.3,0.3,0.8)"
+            } },
+			{ "Blanc", "civ", {
+                "#(argb,8,8,3)color(1,1,1,1)"
+            } },
+			{ "Sable", "civ", {
+                "#(argb,8,8,3)color(1.5,1.6,0.9,0.2)"
+            } },
+			{ "Bordeau", "civ", {
+                "#(argb,8,8,3)color(1,0,0,0.1)"
+            } },
+			{ "Bleu", "civ", {
+                "#(argb,8,8,3)color(0.01,0.6,1,0.1)"
+            } },
+			{ "Bleu Nuit", "civ", {
+                "#(argb,8,8,3)color(0,0,0.5,0.1)"
+            } },
+			{ "Mauve Nuit", "civ", {
+                "#(argb,8,8,3)color(0.6,0,1,0.01)"
+            } },
+			{ "vert", "civ", {
+                "#(argb,8,8,3)color(0.5,1,0.5,0.05)"
+            } },
+			{ "Rouge", "civ", {
+                "#(argb,8,8,3)color(1,0,0,1)"
+            } },
+			{ "Jaune", "civ", {
+                "#(argb,8,8,3)color(0.6,0.3,0.01,1)"
+            } },
+			{ "Orange", "civ", {
+                "#(argb,8,8,3)color(1,0.3,0.01,0.6)"
+            } }
+		};
 	};
 
 	class ALFR_GeK_Panamera_Police_ST : Default {
@@ -1929,7 +1990,59 @@ class CfgVehicles {
 	};
 
 	class cl3_polo_gti_black : Default {
-		vItemSpace = 30;
+		vItemSpace = 20;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 1000, 1000, 1000, 1000 };
+		chopShop = 750;
+		textures[] = {
+
+			{ "Noir", "civ", {
+                "#(ai,64,64,1)Fresnel(0.3,3)"
+            } },
+			{ "Gris sombre", "civ", {
+                "#(argb,8,8,3)color(0.1,0.1,0.1,0.7)"
+            } },
+			{ "Gris", "civ", {
+                "#(argb,8,8,3)color(0.5,0.5,0.5,0.1)"
+            } },
+			{ "Gris clair", "civ", {
+                "#(argb,8,8,3)color(0.3,0.3,0.3,0.8)"
+            } },
+			{ "Blanc", "civ", {
+                "#(argb,8,8,3)color(1,1,1,1)"
+            } },
+			{ "Sable", "civ", {
+                "#(argb,8,8,3)color(1.5,1.6,0.9,0.2)"
+            } },
+			{ "Bordeau", "civ", {
+                "#(argb,8,8,3)color(1,0,0,0.1)"
+            } },
+			{ "Bleu", "civ", {
+                "#(argb,8,8,3)color(0.01,0.6,1,0.1)"
+            } },
+			{ "Bleu Nuit", "civ", {
+                "#(argb,8,8,3)color(0,0,0.5,0.1)"
+            } },
+			{ "Mauve Nuit", "civ", {
+                "#(argb,8,8,3)color(0.6,0,1,0.01)"
+            } },
+			{ "vert", "civ", {
+                "#(argb,8,8,3)color(0.5,1,0.5,0.05)"
+            } },
+			{ "Rouge", "civ", {
+                "#(argb,8,8,3)color(1,0,0,1)"
+            } },
+			{ "Jaune", "civ", {
+                "#(argb,8,8,3)color(0.6,0.3,0.01,1)"
+            } },
+			{ "Orange", "civ", {
+                "#(argb,8,8,3)color(1,0.3,0.01,0.6)"
+            } }
+		};
+	};
+	
+	class GeK_107 : Default {
+		vItemSpace = 25;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
 		chopShop = 750;
@@ -2037,6 +2150,61 @@ class CfgVehicles {
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
 		chopShop = 11500;
+		textures[] = {
+
+			{ "Noir", "civ", {
+                "#(ai,64,64,1)Fresnel(0.3,3)"
+            } },
+			{ "Noir", "reb", {
+                "#(ai,64,64,1)Fresnel(0.3,3)"
+            } },			
+			{ "Gris sombre", "civ", {
+                "#(argb,8,8,3)color(0.1,0.1,0.1,0.7)"
+            } },
+			{ "Gris", "civ", {
+                "#(argb,8,8,3)color(0.5,0.5,0.5,0.1)"
+            } },
+			{ "Gris clair", "civ", {
+                "#(argb,8,8,3)color(0.3,0.3,0.3,0.8)"
+            } },
+			{ "Blanc", "civ", {
+                "#(argb,8,8,3)color(1,1,1,1)"
+            } },
+			{ "Sable", "civ", {
+                "#(argb,8,8,3)color(1.5,1.6,0.9,0.2)"
+            } },
+			{ "Bordeau", "civ", {
+                "#(argb,8,8,3)color(1,0,0,0.1)"
+            } },
+			{ "Bleu", "civ", {
+                "#(argb,8,8,3)color(0.01,0.6,1,0.1)"
+            } },
+			{ "Bleu Nuit", "civ", {
+                "#(argb,8,8,3)color(0,0,0.5,0.1)"
+            } },
+			{ "Mauve Nuit", "civ", {
+                "#(argb,8,8,3)color(0.6,0,1,0.01)"
+            } },
+			{ "vert", "civ", {
+                "#(argb,8,8,3)color(0.5,1,0.5,0.05)"
+            } },
+			{ "Rouge", "civ", {
+                "#(argb,8,8,3)color(1,0,0,1)"
+            } },
+			{ "Jaune", "civ", {
+                "#(argb,8,8,3)color(0.6,0.3,0.01,1)"
+            } },
+			{ "Orange", "civ", {
+                "#(argb,8,8,3)color(1,0.3,0.01,0.6)"
+            } }
+		};
+	};
+	
+	class GeK_Impreza : Default {
+		vItemSpace = 35;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 1000, 1000, 1000, 1000 };
+		chopShop = 12000;
 		textures[] = {
 
 			{ "Noir", "civ", {
@@ -3442,7 +3610,14 @@ class CfgVehicles {
 		chopShop = 3000;
 
 	};
+	
+	class GeK_107_Police : Default {
+		vItemSpace = 25;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 1000, 1000, 1000, 1000 };
+		chopShop = 1000;
 
+	};
 
     class ALFR_GeK_Pagani_Zonda : Default {
 		vItemSpace = 30;
