@@ -1214,14 +1214,14 @@ class CfgVehicles {
 		chopShop = 1000;
 	};
 	
-	class GR_UH1H_1 : Default {
+	class GR_UH1N_1 : Default {
         vItemSpace = 20;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
 		chopShop = 1000;
 	};
 	
-	class GR_UH1H_2 : Default {
+	class GR_UH1N_2 : Default {
         vItemSpace = 20;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
