@@ -384,6 +384,20 @@ class CfgVehicles {
 		garageSell[] = { 1000, 1000, 1000, 1000 };
 		chopShop = 20250;
 	};
+	
+	class IVORY_ERJ135_1 : Default {
+		vItemSpace = 5;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 1000, 1000, 1000, 1000 };
+		chopShop = 20250;
+	};
+	
+	class GNT_C185F : Default {
+		vItemSpace = 5;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 1000, 1000, 1000, 1000 };
+		chopShop = 20250;
+	};
 
 	class O_Truck_03_ammo_F : Default {
 		vItemSpace = 1100;
@@ -434,6 +448,13 @@ class CfgVehicles {
 	};
 	
 	class GR_Bell412_1 : Default {
+		vItemSpace = 5;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 1000, 1000, 1000, 1000 };
+		chopShop = 15000;
+	};
+	
+	class GR_Bell412_2 : Default {
 		vItemSpace = 5;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
@@ -981,6 +1002,20 @@ class CfgVehicles {
 		chopShop = 1000;
     };
 	
+	class sab_BI_An2 : Default {
+        vItemSpace = 5;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 1000, 1000, 1000, 1000 };
+		chopShop = 1000;
+    };
+	
+	class sab_sea_An2 : Default {
+        vItemSpace = 5;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 1000, 1000, 1000, 1000 };
+		chopShop = 1000;
+    };
+	
     class zorak_mazda_rx8_police : Default {
         vItemSpace = 30;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
@@ -1170,7 +1205,28 @@ class CfgVehicles {
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 1000, 1000, 1000, 1000 };
 		chopShop = 1000;
-	};	
+	};
+	
+	class GR_UH1H_3 : Default {
+        vItemSpace = 20;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 1000, 1000, 1000, 1000 };
+		chopShop = 1000;
+	};
+	
+	class GR_UH1H_1 : Default {
+        vItemSpace = 20;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 1000, 1000, 1000, 1000 };
+		chopShop = 1000;
+	};
+	
+	class GR_UH1H_2 : Default {
+        vItemSpace = 20;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 1000, 1000, 1000, 1000 };
+		chopShop = 1000;
+	};
     
     class GeK_GTR : Default {
         vItemSpace = 35;
