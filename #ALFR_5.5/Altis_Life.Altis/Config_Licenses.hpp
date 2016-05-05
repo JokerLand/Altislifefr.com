@@ -161,6 +161,14 @@ class Licenses {
         illegal = true;
         side = "civ";
     };
+	
+    class gangster {
+        variable = "gangster";
+        displayName = "STR_License_Gangster";
+        price = 550000;
+        illegal = true;
+        side = "civ";
+    };	
 
     class rebel {
         variable = "rebel";
@@ -194,6 +202,14 @@ class Licenses {
         illegal = false;
         side = "cop";
     };
+	
+    class swat {
+        variable = "swat";
+        displayName = "STR_License_Swat";
+        price = -1;
+        illegal = false;
+        side = "cop";
+    };	
 
     //Medic Licenses
     class mAir {
@@ -216,6 +232,14 @@ class Licenses {
 	class aan {
         variable = "aan";
         displayName = "STR_License_Aan";
+        price = -1;
+        illegal = false;
+        side = "civ";
+    };
+	
+	class altisfly {
+        variable = "altisfly";
+        displayName = "STR_License_Altisfly";
         price = -1;
         illegal = false;
         side = "civ";
