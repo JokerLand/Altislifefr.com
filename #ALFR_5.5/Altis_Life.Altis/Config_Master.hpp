@@ -10,7 +10,7 @@ class Life_Settings {
     save_virtualItems = true; //Save Virtual items (all sides)?
     save_playerStats = true; //Save food & water (all sides)?
     save_veh_virtualItems = true; //Save Virtual items for vehicles (all sides)?
-    save_veh_gear = false; //Save Gear for vehicles (all sides)?
+    save_veh_gear = true; //Save Gear for vehicles (all sides)?
 
     /* Clothing related settings */
     clothing_box = true; //true = preview inside a black box.  false = preview on map.
@@ -31,11 +31,11 @@ class Life_Settings {
 
     /* Gang related settings */
     gang_price = 100000; //Price for creating a gang, remember they are persistent so keep it reasonable to avoid millions of gangs.
-    gang_upgradeBase = 25000; //The base cost for upgrading slots in a gang
+    gang_upgradeBase = 10000; //The base cost for upgrading slots in a gang
     gang_upgradeMultiplier = 2.5; //Not sure if in use?
 
     /* Player-related systems */
-    enable_fatigue = true; //Set to false to disable the ARMA 3 false system.
+    enable_fatigue = false; //Set to false to disable the ARMA 3 false system.
     total_maxWeight = 24; //Static variable for the maximum weight allowed without having a backpack
     paycheck_period = 10; //Scaled in minutes
 
@@ -50,12 +50,12 @@ class Life_Settings {
     bank_med = 6500; //Amount of cash on bank for new medics
 
     /* Paycheck Amount */
-    paycheck_cop = 350; //Payment for cops
+    paycheck_cop = 400; //Payment for cops
     paycheck_civ = 350; //Payment for civillians
-    paycheck_med = 450; //Payment for medics
+    paycheck_med = 400; //Payment for medics
 
     /* Federal Reserve settings */
-    noatm_timer = 10; //Time in minutes that players won't be able to deposit his money after selling stolen gold
+    noatm_timer = 15; //Time in minutes that players won't be able to deposit his money after selling stolen gold
 
     /* Spyglass settings */
     spyglass_init = false; //Enable or disable spyglass
@@ -64,7 +64,7 @@ class Life_Settings {
     global_ATM = true; //Allow users to access any ATM on the map.
 
     /* Pump settings */
-    Pump_service = false; //Allow users to use pump service on the map. Default = false
+    Pump_service = true; //Allow users to use pump service on the map. Default = false
 
     /* Skins settings */
     civ_skins = false; //Enable or disable civilian skins. Before enabling, you must add all the SEVEN files to textures folder. (It must be named as: civilian_uniform_1.jpg, civilian_uniform_2.jpg...civilian_uniform_6.jpg, civilian_uniform_7.jpg)
