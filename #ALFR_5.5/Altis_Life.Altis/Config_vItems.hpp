@@ -1,4 +1,4 @@
-/*
+﻿/*
 *    Format:
 *        level: ARRAY (This is for limiting items to certain things)
 *            0: Variable to read from
@@ -8,6 +8,30 @@
 */
 class VirtualShops {
     //Virtual Shops
+    class passeport {
+        name = "Préfecture(Passeport)";
+        side = "civ";
+        license = "";
+        level[] = { "", "", -1, "" };
+        items[] = { "passeport" };
+    };	
+	
+	class faussaire_homme {
+		name = "Faussaire (Nom masculin)";
+		side = "civ";
+        license = "";
+        level[] = { "", "", -1, "" };
+		items[] = { "johnpasseport", "michealpasseport", "michealpasseport", "tompasseport", "marcelpasseport", "marcpasseport", "nathanpasseport", "francispasseport", "deweypasseport", "halpasseport", "craigpasseport", "ericpasseport", "joshuapasseport", "dougpasseport", "richardpasseport", "anthonypasseport", "leonpasseport" };
+	};
+
+	class faussaire_femme {
+		name = "Faussaire (Nom féminin)";
+		side = "civ";
+        license = "";
+        level[] = { "", "", -1, "" };
+		items[] = { "tracypasseport", "nikkipasseport", "monicapasseport", "monicapasseport", "mariepasseport", "mirandapasseport", "christinapasseport", "ericapasseport", "jingmeipasseport" };
+	};	
+	
     class market {
         name = "STR_Shops_Market";
         side = "civ";
@@ -151,8 +175,7 @@ class VirtualShops {
 */
 class VirtualItems {
     //Virtual Items
-
-    //Misc
+	//Misc
     class pickaxe {
         variable = "pickaxe";
         displayName = "STR_Item_Pickaxe";
@@ -213,7 +236,7 @@ class VirtualItems {
         displayName = "STR_Item_GoldBar";
         weight = 15;
         buyPrice = -1;
-        sellPrice = 5000;
+        sellPrice = 6000;
         illegal = true;
         edible = -1;
         icon = "icons\ico_goldbar.paa";
@@ -223,8 +246,8 @@ class VirtualItems {
         variable = "blastingCharge";
         displayName = "STR_Item_BCharge";
         weight = 20;
-        buyPrice = 10000;
-        sellPrice = 5000;
+        buyPrice = 20000;
+        sellPrice = 10000;
         illegal = true;
         edible = -1;
         icon = "icons\ico_blastingCharge.paa";
@@ -275,6 +298,18 @@ class VirtualItems {
     };
 
     //Mined Items
+
+    class oil_BQ {
+        variable = "oil_BQ";
+        displayName = "STR_Item_OilBQ";
+        weight = 8;
+        buyPrice = -1;
+        sellPrice = -1;
+        illegal = false;
+        edible = -1;
+        icon = "icons\ico_oilUnprocessed.paa";
+    };	
+	
     class oil_unprocessed {
         variable = "oilUnprocessed";
         displayName = "STR_Item_OilU";
@@ -907,23 +942,47 @@ class VirtualItems {
         edible = -1;
         icon = "icons\ico_serflex.paa";
     };
+	
+    class crowbar {
+        variable = "crowbar";
+        displayName = "STR_AltisLifeFr_crowbar";
+        weight = 2;
+        buyPrice = 0;
+        sellPrice = 0;
+        illegal = false;
+        edible = -1;
+        icon = "icons\ico_crowbar.paa";
+    };
+	
+	// Passeport
 
     class passeport {
         variable = "passeport";
         displayName = "STR_AltisLifeFr_passeport";
-        weight = 2;
+        weight = 3;
         buyPrice = 1000;
         sellPrice = 0;
         illegal = false;
         edible = -1;
         icon = "textures\Passeport.paa";
     };
-
+	
+    class passeport {
+        variable = "passeport";
+        displayName = "STR_AltisLifeFr_passeport";
+        weight = 3;
+        buyPrice = 1000;
+        sellPrice = 0;
+        illegal = false;
+        edible = -1;
+        icon = "textures\Passeport.paa";
+    };
+	
     class johnpasseport {
         variable = "johnpasseport";
         displayName = "STR_AltisLifeFr_johnpasseport";
-        weight = 2;
-        buyPrice = 6000;
+        weight = 3;
+        buyPrice = 60000;
         sellPrice = 0;
         illegal = true;
         edible = -1;
@@ -933,8 +992,8 @@ class VirtualItems {
     class michealpasseport {
         variable = "michealpasseport";
         displayName = "STR_AltisLifeFr_michealpasseport";
-        weight = 2;
-        buyPrice = 6000;
+        weight = 3;
+        buyPrice = 60000;
         sellPrice = 0;
         illegal = true;
         edible = -1;
@@ -944,11 +1003,242 @@ class VirtualItems {
     class tompasseport {
         variable = "tompasseport";
         displayName = "STR_AltisLifeFr_tompasseport";
-        weight = 2;
-        buyPrice = 6000;
+        weight = 3;
+        buyPrice = 60000;
         sellPrice = 0;
         illegal = true;
         edible = -1;
         icon = "textures\Passeport.paa";
     };
+	
+    class marcelpasseport {
+        variable = "marcelpasseport";
+        displayName = "STR_AltisLifeFr_marcelpasseport";
+        weight = 3;
+        buyPrice = 60000;
+        sellPrice = 0;
+        illegal = true;
+        edible = -1;
+        icon = "textures\Passeport.paa";
+    };
+	
+    class marcpasseport {
+        variable = "marcpasseport";
+        displayName = "STR_AltisLifeFr_marcpasseport";
+        weight = 3;
+        buyPrice = 60000;
+        sellPrice = 0;
+        illegal = true;
+        edible = -1;
+        icon = "textures\Passeport.paa";
+    };	
+
+    class nathanpasseport {
+        variable = "nathanpasseport";
+        displayName = "STR_AltisLifeFr_nathanpasseport";
+        weight = 3;
+        buyPrice = 60000;
+        sellPrice = 0;
+        illegal = true;
+        edible = -1;
+        icon = "textures\Passeport.paa";
+    };	
+
+    class francispasseport {
+        variable = "francispasseport";
+        displayName = "STR_AltisLifeFr_francispasseport";
+        weight = 3;
+        buyPrice = 60000;
+        sellPrice = 0;
+        illegal = true;
+        edible = -1;
+        icon = "textures\Passeport.paa";
+    };
+
+    class deweypasseport {
+        variable = "deweypasseport";
+        displayName = "STR_AltisLifeFr_deweypasseport";
+        weight = 3;
+        buyPrice = 60000;
+        sellPrice = 0;
+        illegal = true;
+        edible = -1;
+        icon = "textures\Passeport.paa";
+    };
+
+    class halpasseport {
+        variable = "halpasseport";
+        displayName = "STR_AltisLifeFr_halpasseport";
+        weight = 3;
+        buyPrice = 60000;
+        sellPrice = 0;
+        illegal = true;
+        edible = -1;
+        icon = "textures\Passeport.paa";
+    };	
+
+    class craigpasseport {
+        variable = "craigpasseport";
+        displayName = "STR_AltisLifeFr_craigpasseport";
+        weight = 3;
+        buyPrice = 60000;
+        sellPrice = 0;
+        illegal = true;
+        edible = -1;
+        icon = "textures\Passeport.paa";
+    };	
+
+    class ericpasseport {
+        variable = "ericpasseport";
+        displayName = "STR_AltisLifeFr_ericpasseport";
+        weight = 3;
+        buyPrice = 60000;
+        sellPrice = 0;
+        illegal = true;
+        edible = -1;
+        icon = "textures\Passeport.paa";
+    };
+
+    class joshuapasseport {
+        variable = "joshuapasseport";
+        displayName = "STR_AltisLifeFr_joshuapasseport";
+        weight = 3;
+        buyPrice = 60000;
+        sellPrice = 0;
+        illegal = true;
+        edible = -1;
+        icon = "textures\Passeport.paa";
+    };	
+
+    class dougpasseport {
+        variable = "dougpasseport";
+        displayName = "STR_AltisLifeFr_dougpasseport";
+        weight = 3;
+        buyPrice = 60000;
+        sellPrice = 0;
+        illegal = true;
+        edible = -1;
+        icon = "textures\Passeport.paa";
+    };
+
+    class richardpasseport {
+        variable = "richardpasseport";
+        displayName = "STR_AltisLifeFr_richardpasseport";
+        weight = 3;
+        buyPrice = 60000;
+        sellPrice = 0;
+        illegal = true;
+        edible = -1;
+        icon = "textures\Passeport.paa";
+    };
+
+    class anthonypasseport {
+        variable = "anthonypasseport";
+        displayName = "STR_AltisLifeFr_anthonypasseport";
+        weight = 3;
+        buyPrice = 60000;
+        sellPrice = 0;
+        illegal = true;
+        edible = -1;
+        icon = "textures\Passeport.paa";
+    };
+
+    class leonpasseport {
+        variable = "leonpasseport";
+        displayName = "STR_AltisLifeFr_leonpasseport";
+        weight = 3;
+        buyPrice = 60000;
+        sellPrice = 0;
+        illegal = true;
+        edible = -1;
+        icon = "textures\Passeport.paa";
+    };	
+
+    class tracypasseport {
+        variable = "tracypasseport";
+        displayName = "STR_AltisLifeFr_tracypasseport";
+        weight = 3;
+        buyPrice = 60000;
+        sellPrice = 0;
+        illegal = true;
+        edible = -1;
+        icon = "textures\Passeport.paa";
+    };
+
+    class nikkipasseport {
+        variable = "nikkipasseport";
+        displayName = "STR_AltisLifeFr_nikkipasseport";
+        weight = 3;
+        buyPrice = 60000;
+        sellPrice = 0;
+        illegal = true;
+        edible = -1;
+        icon = "textures\Passeport.paa";
+    };	
+
+    class monicapasseport {
+        variable = "monicapasseport";
+        displayName = "STR_AltisLifeFr_monicapasseport";
+        weight = 3;
+        buyPrice = 60000;
+        sellPrice = 0;
+        illegal = true;
+        edible = -1;
+        icon = "textures\Passeport.paa";
+    };
+
+    class mariepasseport {
+        variable = "mariepasseport";
+        displayName = "STR_AltisLifeFr_mariepasseport";
+        weight = 3;
+        buyPrice = 60000;
+        sellPrice = 0;
+        illegal = true;
+        edible = -1;
+        icon = "textures\Passeport.paa";
+    };
+
+    class mirandapasseport {
+        variable = "mirandapasseport";
+        displayName = "STR_AltisLifeFr_mirandapasseport";
+        weight = 3;
+        buyPrice = 60000;
+        sellPrice = 0;
+        illegal = true;
+        edible = -1;
+        icon = "textures\Passeport.paa";
+    };
+
+    class christinapasseport {
+        variable = "christinapasseport";
+        displayName = "STR_AltisLifeFr_christinapasseport";
+        weight = 3;
+        buyPrice = 60000;
+        sellPrice = 0;
+        illegal = true;
+        edible = -1;
+        icon = "textures\Passeport.paa";
+    };
+
+    class ericapasseport {
+        variable = "ericapasseport";
+        displayName = "STR_AltisLifeFr_ericapasseport";
+        weight = 3;
+        buyPrice = 60000;
+        sellPrice = 0;
+        illegal = true;
+        edible = -1;
+        icon = "textures\Passeport.paa";
+    };
+
+    class jingmeipasseport {
+        variable = "jingmeipasseport";
+        displayName = "STR_AltisLifeFr_jingmeipasseport";
+        weight = 3;
+        buyPrice = 60000;
+        sellPrice = 0;
+        illegal = true;
+        edible = -1;
+        icon = "textures\Passeport.paa";
+    };		
 };
