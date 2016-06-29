@@ -144,6 +144,35 @@ class WeaponShops {
 			{ "tf_anprc152", "Radio", 0 }
         };
     };
+    
+    //SWAT
+    class swatweapons {
+        name = "Armurerie S.W.A.T";
+        side = "cop";
+        license = "swat";
+        level[] = { "life_coplevel", "EQUAL", 10, "Vous devez être du S.W.A.T pour accéder à cette armurerie" };
+        items[] = { 
+            { "SmokeShell", "", 10, 10 },
+            { "ALFR_Shield_F", "", 10, 10 },
+            { "DDOPP_X26", "", 10, -1 },
+            { "SMG_02_F", "", 10, 10 },
+            { "R3F_MP5A5", "", 10, -1 },
+            { "hlc_smg_mp5k_PDW", "", 10, -1 },
+            { "acc_flashlight", "", 10 },
+            { "optic_Holosight", "", 10 },
+            { "R3F_AIMPOINT", "", 10 },
+            { "FHQ_optic_AIM", "", 10 },
+            { "FHQ_optic_MARS", "", 10 },            
+            { "C1987_zeiss_AIM", "", 10 }
+        };
+        mags[] = {
+            { "DDOPP_1Rnd_X26", "", 10 },
+            { "R3F_30Rnd_9x19_MP5", "", 10 },
+            { "30Rnd_9x21_Mag", "", 10 },           
+            { "hlc_30Rnd_9x19_B_MP5", "", 10 }      
+        };
+        accs[] = {};
+    };
 
     //Armurerie policier
     class cop_policier {

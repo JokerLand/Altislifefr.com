@@ -65,6 +65,7 @@ class Life_Client_Core {
         class restrainAction {};
         class robAction {};
 		class robShops {};
+		class robConcessionnaire {};        
 		class robTraceurGPSAction {};
         class searchAction {};
         class searchVehAction {};
