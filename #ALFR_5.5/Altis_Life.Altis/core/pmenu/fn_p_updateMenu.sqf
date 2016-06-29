@@ -1,4 +1,4 @@
-#include "..\..\script_macros.hpp"
+#include <macro.h>
 /*
 	File: fn_p_updateMenu.sqf
 	Author: Bryan "Tonic" Boardwine
@@ -14,7 +14,7 @@ if(FETCH_CONST(life_adminlevel) < 1) then {
 	ctrlShow[2021,false];
 };
 
-_side = switch(playerSide) do {case west:{"cop"}; case civilian:{"civ"}; case independent:{"med"};};
+_side = switch(playerSide) do {case west:{"cop"}; case civilian:{"civ"}; case east:{"adac"}; case independent:{"med"};};
 
 _inv = CONTROL(2001,2005);
 _lic = CONTROL(2001,2014);
@@ -61,7 +61,7 @@ ctrlSetText[2009,format["Weight: %1 / %2", life_carryWeight, life_maxWeight]];
 } foreach (format["getText(_x >> 'side') isEqualTo '%1'",_side] configClasses (missionConfigFile >> "Licenses"));
 
 if(EQUAL(_struct,"")) then {
-	_struct = "No Licenses";
+	_struct = "Aucune licence";
 };
 
 _lic ctrlSetStructuredText parseText format["

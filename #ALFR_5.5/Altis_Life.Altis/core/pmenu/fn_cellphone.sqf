@@ -1,4 +1,4 @@
-#include "..\..\script_macros.hpp"
+﻿#include <macro.h>
 /*
 	File: fn_cellphone.sqf
 	Author: Alan
@@ -16,18 +16,21 @@ _units = _display displayCtrl 3004;
 ctrlSetText [3003, ""];
 lbClear _units;
 
-if((FETCH_CONST(life_adminlevel) < 1)) then {
-	ctrlShow[3020,false];
+if((FETCH_CONST(life_adminlevel) < 1)) then
+{
 	ctrlShow[3021,false];
 };
 {
-	if(alive _x && _x != player) then {
-		switch (side _x) do {
-			case west: {_type = "Cop"};
-			case civilian: {_type = "Civ"};
-			case independent: {_type = "Med"};
+	if(alive _x && _x != player) then
+	{
+		switch (side _x) do
+		{
+			case west: {_type = "Policier"};
+			case civilian: {_type = "Civil"};
+			case independent: {_type = "Medecin"};
+			case east: {_type = "Armée"};
 		};
-		_units lbAdd format["%1 (%2)",_x GVAR ["realname",name _x],_type];
+		_units lbAdd format["%1 (%2)",_x getVariable["realname",name _x],_type];
 		_units lbSetData [(lbSize _units)-1,str(_x)];
 	};
 } foreach playableUnits;

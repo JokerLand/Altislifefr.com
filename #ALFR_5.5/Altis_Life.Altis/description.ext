@@ -1,41 +1,28 @@
-author = "Tonic";
-loadScreen = "textures\armalife.jpg";
-joinUnassigned = 1;
-respawn = BASE;
-respawndelay = 5;
-disabledAI = 1;
-disableChannels[]={0,1,2};
-enableDebugConsole = 1;
-respawnDialog = 0;
-saving = 0;
-
-class Header
-{
-	gameType = RPG;
-	minPlayers = 1;
-	maxPlayers = 75;
-};
-
-wreckLimit = 3;
-wreckRemovalMinTime = 60;
-wreckRemovalMaxTime = 320;
-corpseLimit = 150;
-corpseRemovalMinTime = 999;
-corpseRemovalMaxTime = 9999;
+disableChannels[]={{0,true,true},{1,true,true},{2,true,true},{3,true,true},{4,true,true},{5,false,true}};    // Disabled text and voice for global, side, and command channels. disableChannels[] = {{channelID<number>, disableChat<bool>, disableVoice<bool>}};
 
 #include "Config_Spyglass.hpp"
 #include "CfgRemoteExec.hpp"
 #include "dialog\MasterHandler.hpp"
 #include "Config_Master.hpp"
 
+class CfgServer {
+    DatabaseName = "altislife"; //Config name that'll be grep in the extdb-conf.ini. Default: [altislife]
+    DebugMode = 0; //Enable many server/hc debugging logs. Default: 0 (1 = Enabled / 0 = Disabled)
+    HeadlessSupport = 1; //Enable/Disable Headless client support. Default: 1 (1 = Enabled / 0 = Disabled)
+    /*
+    Enabled: When HeadlessSupport is set to 1 (enabled), the server will run without fault when no Headless Client is connected. However, it will support the Headless Client if you choose to connect one.
+    Disabled: If HeadlessSupport is set to 0 (disabled), the connection of a Headless Client will make no difference. This option will increase server performance a TINY but negligible amount.
+    */
+};
+
 class RscTitles {
-	#include "dialog\progress.hpp"
-	#include "dialog\hud_nameTags.hpp"
-	#include "dialog\hud_stats.hpp"
+    #include "dialog\progress.hpp"
+    #include "dialog\hud_nameTags.hpp"
+    #include "dialog\hud_stats.hpp"
 };
 
 class CfgFunctions {
-	#include "Functions.hpp"
+    #include "Functions.hpp"
 };
 
 class CfgSounds
@@ -48,13 +35,13 @@ class CfgSounds
 		titles[] = {};
 	};
 
-	class medicSiren
+	class SirenMedic
 	{
-		name = "medicSiren";
-		sound[] = {"\sounds\medic_siren.ogg", 1.0, 1};
+		name = "SirenMedic";
+		sound[] = {"\sounds\Siren_Medic.ogg", 1.0, 1};
 		titles[] = {};
 	};
-
+	
 	class tazersound
 	{
 		name = "Tazersound";
@@ -68,112 +55,220 @@ class CfgSounds
 		sound[] = {"\sounds\flashbang.ogg", 1.0, 1};
 		titles[] = {};
 	};
+
+	class BeepBeep
+    {
+        name = "BeepBeep";
+        sound[] = {"\sounds\BeepBeep.ogg", 0.9, 1};
+        titles[] = {};
+    };
+
+	class beepshoot
+    {
+        name = "beepshoot";
+        sound[] = {"\sounds\beepshoot.ogg", 1, 1};
+        titles[] = {};
+    };
+	
+    class Beep
+    {
+        name = "Beep";
+        sound[] = {"\sounds\Beep.ogg", 0.9, 1};
+        titles[] = {};
+    };
+
+	class Cuff
+    {
+        name = "cuff";
+        sound[] = {"\sounds\cuff.ogg", 0.95, 0.95};
+        titles[] = {};
+    };
+
+	class Caching
+    {
+	    name = "caching";
+	    sound[] = {"\sounds\caching.ogg", 1, 1};
+	    titles[] = {};
+    };
+
+	class Bag
+    {
+	    name = "bag";
+	    sound[] = {"\sounds\bag.ogg", 1, 1};
+	    titles[] = {};
+    };
+
+	class Intro
+    {
+	    name = "Intro";
+	    sound[] = {"\sounds\Intro.ogg", 1, 1};
+	    titles[] = {};
+    };
+
+	class alert
+    {
+        name = "alert";
+        sound[] = {"\sounds\alert.ogg", 1.0, 1};
+        titles[] = {};
+    };
+
+	class car_alarm
+	{
+		name="car_alarm";
+		sound[] = {"\sounds\car_alarm.ogg", 1, 1};
+		titles[] = {};
+
+	};
+
+	class boire
+	{
+		name="boire";
+		sound[] = {"\sounds\boire.ogg", 7, 7};
+		titles[] = {};
+
+	};
+	
+	class soif
+	{
+		name="soif";
+		sound[] = {"\sounds\soif.ogg", 5, 5};
+		titles[] = {};
+
+	};
+
+	class mange
+	{
+		name="mange";
+		sound[] = {"\sounds\mange.ogg", 5, 5};
+		titles[] = {};
+
+	};
+
+	class Mining
+    {
+	    name = "mining";
+        sound[] = {"\sounds\mining.ogg", 0.95, 0.95};
+        titles[] = {};
+    };
+	
+	class Bank
+    {
+	    name = "Bank";
+        sound[] = {"\sounds\bank.ogg", 0.95, 0.95};
+        titles[] = {};
+    };
 };
 
-class CfgDebriefing
-{
-	class NotWhitelisted
-	{
-		title = "Mission Failed";
-		subtitle = "You are not white-listed to use this slot";
-		description = "You are not allowed to use this slot because you do not have the appropriate permissions, try another slot.";
+class CfgDebriefing {
+
+    class ServeurTeamspeak {
+		title = "Echec Mission (TFR)";
+		subTitle = "Pas connecté au Teamspeak d'ALFR";
+		description = "Vous devez être connecté au serveur Teamspeak d'AltisLifeFr.com pour pouvoir jouer sur le serveur (IP du Teamspeak : ts3.altislifefr.com). Une fois connecté réessayer. Si vous êtes sur le serveur Teamspeak d'AltisLifeFr mais qu'il vous éjecte quand même, vérifiez que votre plugin 'TaskForce Radio' est activé sur votre Teamspeak";
+		pictureBackground = "";
+		picture = "";
+		pictureColor[] = {0, 0.3, 0.6, 1};
+	};
+
+	class CannalTeamspeak {
+		title = "Echec Mission (TFR)";
+		subTitle = "Pas dans le canal Task Force Radio";
+		description = "Vous devez être dans le canal 'EN JEU TASK FORCE RADIO' pour pouvoir jouer sur le serveur";
+		pictureBackground = "";
+		picture = "";
+		pictureColor[] = {0, 0.3, 0.6, 1};
+	};
+    
+    class NotWhitelisted {
+		title = "Echec Mission";
+		subtitle = "Vous n'êtes pas whitelist";
+		description = "Vous n'avez pas la permission d'utiliser ce slot car vous n'êtes pas whitelist.";
 		pictureBackground = "";
 		picture = "";
 		pictureColor[] = {0,0.3,0.6,1};
 	};
 
-	class Blacklisted
-	{
-		title = "Mission Failed";
-		subtitle = "You are blacklisted from cops";
-		description = "You are not allowed to be a cop due to previous actions and the admins have removed you from being a cop.";
+    class Blacklisted {
+		title = "BlackList";
+		subtitle = "Vous êtes Blackliste de la Police";
+		description = "Vous avez été blacklist de la police, cela veut dire que vous n'avez plus le droit de jouer policier sur le serveur AltisLifeFr.com. Pour plus d'informations merci de vous référer à un ModGlobal/Fondateur sur le Teamspeak";
 		pictureBackground = "";
 		picture = "";
 		pictureColor[] = {0,0.3,0.6,1};
 	};
 
-	class SpyGlass
-	{
+    class SpyGlass {
 		title = "The SpyGlass sees you";
-		subTitle = "You were detected by the SpyGlass";
-		description = "You were detected for cheating and have been reported to the server. Enjoy your day.";
+		subTitle = "Vous avez été détecter par SpyGlass";
+		description = "Vous avez été détecter avec un fichier non autorisé.";
 		pictureBackground = "";
 		picture = "";
 		pictureColor[] = {0,0.3,0.6,1};
 	};
 };
 
-class CfgNotifications
-{
-	class MedicalRequestEmerg
-	{
-		title = "EMS Requested";
-		iconPicture = "\A3\ui_f\data\map\mapcontrol\taskIcon_ca.paa";
-		description = "%1";
-		duration = 5;
-		priority = 7;
-	};
+class CfgNotifications {
+    class MedicalRequestEmerg {
+        title = "Alerte SAMU";
+        iconPicture = "\A3\ui_f\data\map\mapcontrol\taskIcon_ca.paa";
+        description = "%1";
+        duration = 5;
+        priority = 7;
+    };
 
-	class DeliveryAssigned
-	{
-		title = "Delivery Job Accepted";
-		iconPicture = "\A3\ui_f\data\map\mapcontrol\taskIcon_ca.paa";
-		description = "%1";
-		duration = 10;
-		priority = 7;
-	};
+    class DeliveryAssigned {
+        title = "Job de Livraison accepté";
+        iconPicture = "\A3\ui_f\data\map\mapcontrol\taskIcon_ca.paa";
+        description = "%1";
+        duration = 10;
+        priority = 7;
+    };
 
-	class DeliveryFailed
-	{
-		title = "Delivery Job Failed";
-		iconPicture = "\A3\ui_f\data\map\mapcontrol\taskiconfailed_ca.paa";
-		description = "%1";
-		duration = 7;
-		priority = 7;
-	};
+    class DeliveryFailed {
+        title = "Job de Livraison échoué";
+        iconPicture = "\A3\ui_f\data\map\mapcontrol\taskiconfailed_ca.paa";
+        description = "%1";
+        duration = 7;
+        priority = 7;
+    };
 
-	class DeliverySucceeded
-	{
-		title = "Delivery Job Completed";
-		iconPicture = "\A3\ui_f\data\map\mapcontrol\taskIcondone_ca.paa";
-		description = "%1";
-		duration = 6;
-		priority = 6;
-	};
+    class DeliverySucceeded {
+        title = "Job de Livraison terminé";
+        iconPicture = "\A3\ui_f\data\map\mapcontrol\taskIcondone_ca.paa";
+        description = "%1";
+        duration = 6;
+        priority = 6;
+    };
 
-	class TextMessage
-	{
-		title = "Received A Text Message";
-		iconPicture = "icons\messagenew.paa";
-		description = "%1";
-		duration = 10;
-		priority = 6;
-	};
+    class TextMessage {
+        title = "Nouveau Message";
+        iconPicture = "icons\ico_messageNew.paa";
+        description = "%1";
+        duration = 10;
+        priority = 6;
+    };
 
-	class PoliceDispatch
-	{
-		title = "911 Dispatch Center";
-		iconPicture = "icons\messagepolice.paa";
-		description = "%1";
-		duration = 10;
-		priority = 6;
-	};
+    class PoliceDispatch {
+        title = "Alerte Police Secours";
+        iconPicture = "icons\ico_messagePolice.paa";
+        description = "%1";
+        duration = 10;
+        priority = 6;
+    };
 
-	class AdminDispatch
-	{
-		title = "Admin Dispatch Center";
-		iconPicture = "icons\messageadmin.paa";
-		description = "%1";
-		duration = 10;
-		priority = 6;
-	};
+    class AdminDispatch {
+        title = "Requête Admin";
+        iconPicture = "icons\ico_messageAdmin.paa";
+        description = "%1";
+        duration = 10;
+        priority = 6;
+    };
 
-	class AdminMessage
-	{
-		title = "Admin Message";
-		iconPicture = "icons\messageadmin.paa";
-		description = "%1";
-		duration = 10;
-		priority = 5;
-	};
+    class AdminMessage {
+        title = "Message des Admins";
+        iconPicture = "icons\ico_messageAdmin.paa";
+        description = "%1";
+        duration = 10;
+        priority = 5;
+    };
 };

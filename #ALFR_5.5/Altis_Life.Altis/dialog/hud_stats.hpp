@@ -1,6 +1,6 @@
-#define ST_CENTER         0x02
+#define COLOR_HALF_BLACK { 0, 0, 0, 0.5 }
 /*
-	Author: Daniel Stuart
+	Author: Artkyom - AltisLifeFR.com
 
 	File: hud_stats.hpp
 */
@@ -14,75 +14,133 @@ class playerHUD {
 	name = "playerHUD";
 	onLoad = "uiNamespace setVariable ['playerHUD',_this select 0]";
 	objects[] = {};
-	controls[] = {
-		Life_RscBackground_HUD,
-		Life_RscProgress_HUDFood,
-		Life_RscProgress_HUDHealth,
-		Life_RscProgress_HUDWater,
-		Life_RscText_HUDFood,
-		Life_RscText_HUDHealth,
-		Life_RscText_HUDWater
+	
+	
+	class controlsBackground 
+	{
+		class alfr_watermark : life_RscPicture
+		{
+			idc = -1;
+			text= "icons\alfr_watermark.paa";
+			x = 0.90* safezoneW + safezoneX;
+            y = 0.85 * safezoneH + safezoneY;
+            w = 0.0945 * safezoneW;
+            h = 0.128 * safezoneH;
+		};
+		
+		class foodHIcon : life_RscPicture 
+		{
+		
+			idc = -1;
+			text = "icons\food.paa";
+			x = safeZoneX+safeZoneW-0.15; y = safeZoneY+safeZoneH-0.400;
+			w = 0.032; h = 0.042;
+			colorBackground[] = COLOR_HALF_BLACK;
+		};
+		
+		class waterHIcon : life_RscPicture 
+		{
+		
+			idc = -1;
+			text = "icons\water.paa";
+			x = safeZoneX+safeZoneW-0.15; y = safeZoneY+safeZoneH-0.353;
+			w = 0.032; h = 0.042;
+			colorBackground[] = COLOR_HALF_BLACK;
+		};
+		
+		class healthHIcon : life_RscPicture
+		{
+			
+			idc = -1;
+			text = "icons\health.paa";
+			x = safeZoneX+safeZoneW-0.15; y = safeZoneY+safeZoneH-0.306;
+			w = 0.032; h = 0.042;
+			colorBackground[] = COLOR_HALF_BLACK;
+		};	
+		
+		class alcoolHIcon : life_RscPicture
+		{
+			
+			idc = -1;
+			text = "icons\alcool.paa";
+			x = safeZoneX+safeZoneW-0.15; y = safeZoneY+safeZoneH-0.259;
+			w = 0.032; h = 0.042;
+			colorBackground[] = COLOR_HALF_BLACK;
+		};
 	};
-
-	/* Background */
-	class Life_RscBackground_HUD : Life_RscBackground {
-		colorBackground[] = {0,0,0,0.35};
-		x = 0.414815 * safezoneW + safezoneX;
-		y = 0.966667 * safezoneH + safezoneY;
-		w = 0.170371 * safezoneW;
-		h = 0.0333333 * safezoneH;
-	};
-
-	/* Progress Bars */
-	class LIFE_RscProgress_HUDCommon : Life_RscProgress {
-		colorFrame[] = {0, 0, 0, 0.8};
-		y = 0.972223 * safezoneH + safezoneY;
-		w = 0.0462964 * safezoneW;
-		h = 0.0222222 * safezoneH;
-	};
-
-	class Life_RscProgress_HUDFood : LIFE_RscProgress_HUDCommon {
-		idc = 2200;
-		colorBar[] = {0,0.50,0,0.65};
-		x = 0.418981 * safezoneW + safezoneX;
-	};
-
-	class Life_RscProgress_HUDHealth : LIFE_RscProgress_HUDCommon {
-		idc = 2201;
-		colorBar[] = {0.85,0.05,0,0.65};
-		x = 0.476852 * safezoneW + safezoneX;
-	};
-
-	class Life_RscProgress_HUDWater : LIFE_RscProgress_HUDCommon {
-		idc = 2202;
-		colorBar[] = {0,0.25,0.65,0.65};
-		x = 0.534723 * safezoneW + safezoneX;
-	};
-
-	/* Texts */
-	class Life_RscText_HUDCommon : Life_RscText {
-		SizeEx = "(((((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 0.8)";
-		style = ST_CENTER;
-		y = 0.970023 * safezoneH + safezoneY;
-		w = 0.0462964 * safezoneW;
-		h = 0.0222222 * safezoneH;
-	};
-
-	class Life_RscText_HUDFood : Life_RscText_HUDCommon {
-		idc = 1200;
-		text = "$STR_HUD_Food";
-		x = 0.418981 * safezoneW + safezoneX;
-	};
-
-	class Life_RscText_HUDHealth : Life_RscText_HUDCommon {
-		idc = 1201;
-		text = "$STR_HUD_Health";
-		x = 0.476852 * safezoneW + safezoneX;
-	};
-
-	class Life_RscText_HUDWater : Life_RscText_HUDCommon {
-		idc = 1202;
-		text = "$STR_HUD_Water";
-		x = 0.534723 * safezoneW + safezoneX;
+	
+	class controls
+	{
+		class foodtext
+		{
+			type=0;
+			idc=23500;
+			style=0;
+			x=-1;
+			y=-1;
+			w=0.3;
+			h=0.04;
+			sizeEx=0.03;
+			size=1;
+			font="PuristaSemibold";
+			colorBackground[] = COLOR_HALF_BLACK;
+			colorText[] = { 1 , 1 , 1 , 1 };
+			shadow=true;
+			text="";
+		};
+		
+		class watertext
+		{
+			type=0;
+			idc=23510;
+			style=0;
+			x=-1;
+			y=-1;
+			w=0.3;
+			h=0.04;
+			sizeEx=0.03;
+			size=1;
+			font="PuristaSemibold";
+			colorBackground[] = COLOR_HALF_BLACK;
+			colorText[] = { 1 , 1 , 1 , 1 };
+			shadow=true;
+			text="";
+		};
+		
+		class healthtext
+		{
+			type=0;
+			idc=23515;
+			style=0;
+			x=-1;
+			y=-1;
+			w=0.3;
+			h=0.04;
+			sizeEx=0.03;
+			size=1;
+			font="PuristaSemibold";
+			colorBackground[] = COLOR_HALF_BLACK;
+			colorText[] = { 1 , 1 , 1 , 1 };
+			shadow=true;
+			text="";
+		};
+		
+		class alcooltext
+		{
+			type=0;
+			idc=23520;
+			style=0;
+			x=-1;
+			y=-1;
+			w=0.3;
+			h=0.04;
+			sizeEx=0.03;
+			size=1;
+			font="PuristaSemibold";
+			colorBackground[] = COLOR_HALF_BLACK;
+			colorText[] = { 1 , 1 , 1 , 1 };
+			shadow=true;
+			text="";
+		};
 	};
 };

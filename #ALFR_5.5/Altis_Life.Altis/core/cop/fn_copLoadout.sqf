@@ -1,26 +1,39 @@
+#include "..\..\script_macros.hpp"
 /*
-	File: fn_copLoadout.sqf
-	Author: Bryan "Tonic" Boardwine
-	Edited: Itsyuka
-	
-	Description:
-	Loads the cops out with the default gear.
+    File: fn_copLoadout.sqf
+    Author: Bryan "Tonic" Boardwine
+    Edited: Itsyuka
+    
+    Description:
+    Loads the cops out with the default gear.
 */
 private["_handle"];
 _handle = [] spawn life_fnc_stripDownPlayer;
 waitUntil {scriptDone _handle};
 
 //Load player with default cop gear.
-player addUniform "U_Rangemaster";
-player addVest "V_Rangemaster_belt";
+player addUniform "ALFR_FR_police_tenu";
+player addVest "V_TacVest_blk_POLICE";
 
-player addWeapon "hgun_P07_snds_F";
-player addMagazine "16Rnd_9x21_Mag";
-player addMagazine "16Rnd_9x21_Mag";
-player addMagazine "16Rnd_9x21_Mag";
-player addMagazine "16Rnd_9x21_Mag";
-player addMagazine "16Rnd_9x21_Mag";
-player addMagazine "16Rnd_9x21_Mag";
+if(FETCH_CONST(life_coplevel) == 1) then
+{
+player addWeapon "DDOPP_X26";
+player addMagazine "DDOPP_1Rnd_X26";
+player addMagazine "DDOPP_1Rnd_X26";
+player addMagazine "DDOPP_1Rnd_X26";
+player addMagazine "DDOPP_1Rnd_X26";
+player addMagazine "DDOPP_1Rnd_X26";
+};
+
+if(FETCH_CONST(life_coplevel) != 1) then
+{
+player addWeapon "DDOPP_X3";
+player addMagazine "DDOPP_3Rnd_X3";
+player addMagazine "DDOPP_3Rnd_X3";
+player addMagazine "DDOPP_3Rnd_X3";
+player addMagazine "DDOPP_3Rnd_X3";
+player addMagazine "DDOPP_3Rnd_X3";
+};
 
 /* ITEMS */
 player addItem "ItemMap";

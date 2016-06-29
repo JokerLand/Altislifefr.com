@@ -1,20 +1,53 @@
 /*
-	File: fn_welcomeNotification.sqf
-	
-	Description:
-	Called upon first spawn selection and welcomes our player.
+    File: fn_welcomeNotification.sqf
+    Author:
+
+    Description:
+    Called upon first spawn selection and welcomes our player.
 */
-format["Welcome %1, Please read the following as it is important!",profileName] hintC
+disableSerialization;
 [
-	"Welcome to the server! A few things have changed with Altis Life RPG that you need to be aware of!",
-	"An interaction key has been introduced which replaces the large majority of scroll wheel actions, this was for performance issues. By default this key is [Left Windows], you can change this key by pressing ESC and going to Configure->Controls->Custom
-	and bind 'Use Action 10' to a single key like H. This key is used for the following actions",
-	"Picking up items and money.",
-	"Fishing and gathering",
-	"Interacting with players (as a cop)",
-	"Interacting with vehicles (repairing and cop actions)",
-	"",
-	"If you are having issues with interacting / picking up items just wait. A quick way to know when you can interact with that item if the server allows it is by pressing your tilde key (~) and using the circle to highlight the object, when it says for example 'Pile of Money' then
-	that means you can pick it up!."
-];
-	
+        "",
+        0,
+        0.2,
+        10,
+        0,
+        0,
+        8
+] spawn BIS_fnc_dynamicText;
+
+createDialog "RscDisplayWelcome";
+
+_display = findDisplay 999999;
+_text1 = _display displayCtrl 1100;
+_buttonSpoiler = _display displayCtrl 2400;
+_textSpoiler = _display displayCtrl 1101;
+_text2 = _display displayCtrl 1102;
+
+_message = "";
+_message = _message + "<t align='center' size='8' shadow='0'><img image='textures\armalife.jpg' /></t><br /><br />";
+_message = _message + "Lien de notre site (cliquer dessus pour l'ouvrir sur votre navigateur)<br /><br />";
+_message = _message + " <a href='http://www.altislifefr.com/' color='#56BDD6'>AltisLifeFR.com</a> -- Pour tout problèmes nous vous invitons à demander de l'aide sur le Forum ou Teamspeak..<br /><br />";
+_message = _message + "Vous êtes sur un serveur RP (Jeu de Rôle). Il est donc important de consulter les règles disponibles sur le forum. Le Fairplay et le RP sont de rigueur en Jeu !<br /><br />";
+_message = _message + "Si vous voyez des objets invisibles ou autres bugs, verifiez que vous lancez bien le jeu via notre <t color='#00aa00'>#Launcher</t> disponible sur notre site<br /><br />";
+_message = _message + "Bienvenue et Bon Jeu ! <br /><br />";
+
+
+
+//Fill only the first text
+_text1 ctrlSetStructuredText (parseText _message);
+
+//Resize StructuredText component to display the scrollbar if needed
+_positionText1 = ctrlPosition _text1;
+_yText1 = _positionText1 select 1;
+_hText1 = ctrlTextHeight _text1;
+_text1 ctrlSetPosition [_positionText1 select 0, _yText1, _positionText1 select 2, _hText1];
+_text1 ctrlCommit 0;
+//Hide second text, spoiler text and button
+_buttonSpoiler ctrlSetFade 1;
+_buttonSpoiler ctrlCommit 0;
+_buttonSpoiler ctrlEnable false;
+_textSpoiler ctrlSetFade 1;
+_textSpoiler ctrlCommit 0;
+_text2 ctrlSetFade 1;
+_text2 ctrlCommit 0;

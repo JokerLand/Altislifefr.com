@@ -1,4 +1,4 @@
-#include "..\..\script_macros.hpp"
+#include <macro.h>
 /*
 	Author: Bryan "Tonic" Boardwine
 	

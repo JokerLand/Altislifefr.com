@@ -1,28 +1,30 @@
 #include "..\..\script_macros.hpp"
 /*
-	File: fn_catchFish.sqf
-	Author: Bryan "Tonic" Boardwine
-	
-	Description:
-	Catches a fish that is near by.
+    File: fn_catchFish.sqf
+    Author: Bryan "Tonic" Boardwine
+
+    Description:
+    Catches a fish that is near by.
 */
-private["_fish","_type"];
+private["_fish","_type","_typeName"];
 _fish = [_this,0,ObjNull,[ObjNull]] call BIS_fnc_param;
-if(!(_fish isKindOf "Fish_Base_F")) exitWith {}; //Not a fishy!
-if(player distance _fish > 3.5) exitWith {};
-switch(true) do {
-	case ((typeOf _fish) == "Salema_F"): {_type = "salema_raw"};
-	case ((typeOf _fish) == "Ornate_random_F") : {_type = "ornate_raw"};
-	case ((typeOf _fish) == "Mackerel_F") : {_type = "mackerel_raw"};
-	case ((typeOf _fish) == "Tuna_F") : {_type = "tuna_raw"};
-	case ((typeOf _fish) == "Mullet_F") : {_type = "mullet_raw"};
-	case ((typeOf _fish) == "CatShark_F") : {_type = "catshark_raw"};
-	default {_type = ""};
+if (isNull _fish) exitWith {}; //Object passed is null?
+if (player distance _fish > 3.5) exitWith {};
+
+switch (true) do {
+    case ((typeOf _fish) isEqualTo "Salema_F"): {_typeName = localize "STR_ANIM_Salema"; _type = "salema_raw";};
+    case ((typeOf _fish) isEqualTo "Ornate_random_F") : {_typeName = localize "STR_ANIM_Ornate"; _type = "ornate_raw";};
+    case ((typeOf _fish) isEqualTo "Mackerel_F") : {_typeName = localize "STR_ANIM_Mackerel"; _type = "mackerel_raw";};
+    case ((typeOf _fish) isEqualTo "Tuna_F") : {_typeName = localize "STR_ANIM_Tuna"; _type = "tuna_raw";};
+    case ((typeOf _fish) isEqualTo "Mullet_F") : {_typeName = localize "STR_ANIM_Mullet"; _type = "mullet_raw";};
+    case ((typeOf _fish) isEqualTo "CatShark_F") : {_typeName = localize "STR_ANIM_Catshark"; _type = "catshark_raw";};
+    case ((typeOf _fish) isEqualTo "Turtle_F") : {_typeName = localize "STR_ANIM_Turtle"; _type = "turtle_raw";};
+    default {_type = ""};
 };
 
-if(EQUAL(_type,"")) exitWith {}; //Couldn't get a type
+if (_type isEqualTo "") exitWith {}; //Couldn't get a type
 
-if(([true,_type,1] call life_fnc_handleInv)) then {
-	deleteVehicle _fish;
-	titleText[format[(localize "STR_NOTF_Fishing"),_type],"PLAIN"];
+if ([true,_type,1] call life_fnc_handleInv) then {
+    deleteVehicle _fish;
+    titleText[format[(localize "STR_NOTF_Fishing"),_typeName],"PLAIN"];
 };

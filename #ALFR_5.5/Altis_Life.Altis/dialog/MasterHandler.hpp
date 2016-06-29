@@ -1,5 +1,5 @@
 /*
-	Master UI Resource File
+    Master UI Resource File
 */
 #include "common.hpp"
 #include "shop_items.hpp"
@@ -22,7 +22,9 @@
 #include "pInteraction.hpp"
 #include "deathScreen.hpp"
 #include "vehicleShop.hpp"
+#include "vehicleShop3D.hpp"
 #include "settings.hpp"
 #include "federalReserve.hpp"
 #include "compensate.hpp"
 #include "FuelStat.hpp"
+#include "AltisPhone.hpp"

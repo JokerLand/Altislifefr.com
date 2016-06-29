@@ -80,6 +80,22 @@ class Licenses {
         illegal = false;
         side = "civ";
     };
+    
+    class paper {
+        variable = "paper";
+        displayName = "STR_License_Paper";
+        price = 21000;
+        illegal = false;
+        side = "civ";
+    };
+    
+    class algue {
+        variable = "algue";
+        displayName = "STR_License_Algue";
+        price = 28000;
+        illegal = false;
+        side = "civ";
+    };
 
     class diamond {
         variable = "diamond";
@@ -128,6 +144,22 @@ class Licenses {
         illegal = false;
         side = "civ";
     };
+    
+    class tabaccigarette {
+        variable = "tabaccigarette";
+        displayName = "STR_License_TabacCigarette";
+        price = 24000;
+        illegal = false;
+        side = "civ";
+    };
+    
+    class tabaccigare {
+        variable = "tabaccigare";
+        displayName = "STR_License_TabacCigare";
+        price = 32000;
+        illegal = false;
+        side = "civ";
+    };
 
     class medmarijuana {
         variable = "medmarijuana";
@@ -162,6 +194,14 @@ class Licenses {
         side = "civ";
     };
 	
+    class tabacjoint {
+        variable = "tabacjoint";
+        displayName = "STR_License_TabacJoint";
+        price = 70000;
+        illegal = true;
+        side = "civ";
+    };
+    
     class gangster {
         variable = "gangster";
         displayName = "STR_License_Gangster";
@@ -179,7 +219,7 @@ class Licenses {
     };
 	
 	class chefrebelle {
-        variable = "chefrebel";
+        variable = "chefrebelle";
         displayName = "STR_License_ChefRebelle";
         price = -1;
         illegal = true;
@@ -232,6 +272,14 @@ class Licenses {
 	class aan {
         variable = "aan";
         displayName = "STR_License_Aan";
+        price = -1;
+        illegal = false;
+        side = "civ";
+    };
+    
+    class depan {
+        variable = "depan";
+        displayName = "STR_License_Depan";
         price = -1;
         illegal = false;
         side = "civ";

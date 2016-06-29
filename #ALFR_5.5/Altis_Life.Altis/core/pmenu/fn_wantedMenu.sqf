@@ -1,4 +1,4 @@
-#include "..\..\script_macros.hpp"
+﻿#include <macro.h>
 /*
 	File: fn_wantedMenu.sqf
 	Author: Bryan "Tonic" Boardwine
@@ -20,7 +20,7 @@ _units = [];
 lbClear _players;
 
 {
-    _side = switch(side _x) do {case west: {"Cop"}; case civilian : {"Civ"}; default {"Unknown"};};
+    _side = switch(side _x) do {case west: {"Policier"}; case independent: {"Medecin"}; case east: {"Armée"}; case civilian : {"Civil"}; default {"Unknown"};};
     _players lbAdd format["%1 - %2", name _x,_side];
     _players lbSetdata [(lbSize _players)-1,str(_x)];
 } foreach playableUnits;
@@ -36,11 +36,11 @@ _crimes = LIFE_SETTINGS(getArray,"crimes");
 	_list2 lbSetData [(lbSize _list2)-1,(_x select 2)];
 } foreach _crimes;
 
-ctrlSetText[2404,"Establishing connection..."];
+ctrlSetText[2404,"Chargement..."];
 
 if(FETCH_CONST(life_coplevel) < 3 && FETCH_CONST(life_adminlevel) == 0) then
 {
 	ctrlShow[2405,false];
 };
 
-[player] remoteExec ["life_fnc_wantedFetch",RSERV];
+[[player],"life_fnc_wantedFetch",false,false] spawn life_fnc_MP; 
