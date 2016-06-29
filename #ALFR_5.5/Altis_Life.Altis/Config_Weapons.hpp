@@ -17,7 +17,7 @@
 class WeaponShops {
     //Armory Shops
     class gun {
-        name = "Billy Joe's Firearms";
+        name = "Armurerie Civile";
         side = "civ";
         license = "gun";
         level[] = { "", "", -1, "" };
@@ -25,7 +25,8 @@ class WeaponShops {
             { "hgun_Rook40_F", "", 6500, 500 },
             { "hgun_Pistol_heavy_02_F", "", 9850, -1 },
             { "hgun_ACPC2_F", "", 11500, -1 },
-            { "hgun_PDW2000_F", "", 20000, -1 }
+            { "hgun_PDW2000_F", "", 20000, -1 },
+            { "optic_ACO_grn_smg", "", 2500 }
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "", 25 },
@@ -33,13 +34,11 @@ class WeaponShops {
             { "9Rnd_45ACP_Mag", "", 45 },
             { "30Rnd_9x21_Mag", "", 75 }
         };
-        accs[] = {
-            { "optic_ACO_grn_smg", "", 2500 }
-        };
+        accs[] = {};
     };
 
     class rebel {
-        name = "Mohammed's Jihadi Shop";
+        name = "Magasin Jïhadiste";
         side = "civ";
         license = "rebel";
         level[] = { "", "", -1, "" };
@@ -47,7 +46,11 @@ class WeaponShops {
             { "arifle_TRG20_F", "", 25000, 2500 },
             { "arifle_Katiba_F", "", 30000, 5000 },
             { "srifle_DMR_01_F", "", 50000, -1 },
-            { "arifle_SDAR_F", "", 20000, 7500 }
+            { "arifle_SDAR_F", "", 20000, 7500 },
+            { "optic_ACO_grn", "", 3500 },
+            { "optic_Holosight", "", 3600 },
+            { "optic_Hamr", "", 7500 },
+            { "acc_flashlight", "", 1000 }
         };
         mags[] = {
             { "30Rnd_556x45_Stanag", "", 300 },
@@ -55,12 +58,7 @@ class WeaponShops {
             { "10Rnd_762x54_Mag", "", 500 },
             { "20Rnd_556x45_UW_mag", "", 125 }
         };
-        accs[] = {
-            { "optic_ACO_grn", "", 3500 },
-            { "optic_Holosight", "", 3600 },
-            { "optic_Hamr", "", 7500 },
-            { "acc_flashlight", "", 1000 }
-        };
+        accs[] = {};
     };
 
     class gang {
@@ -159,15 +157,7 @@ class WeaponShops {
             { "DDOPP_X26", "", 10, -1 },
             { "SMG_02_F", "", 10, 10 },
             { "R3F_MP5A5", "", 10, -1 },
-            { "hlc_smg_mp5k_PDW", "", 10, -1 }
-        };
-        mags[] = {
-            { "DDOPP_1Rnd_X26", "", 10 },
-            { "R3F_30Rnd_9x19_MP5", "", 10 },
-            { "30Rnd_9x21_Mag", "", 10 },           
-            { "hlc_30Rnd_9x19_B_MP5", "", 10 }      
-        };
-        accs[] = {
+            { "hlc_smg_mp5k_PDW", "", 10, -1 },
             { "acc_flashlight", "", 10 },
             { "optic_Holosight", "", 10 },
             { "R3F_AIMPOINT", "", 10 },
@@ -175,6 +165,13 @@ class WeaponShops {
             { "FHQ_optic_MARS", "", 10 },            
             { "C1987_zeiss_AIM", "", 10 }
         };
+        mags[] = {
+            { "DDOPP_1Rnd_X26", "", 10 },
+            { "R3F_30Rnd_9x19_MP5", "", 10 },
+            { "30Rnd_9x21_Mag", "", 10 },           
+            { "hlc_30Rnd_9x19_B_MP5", "", 10 }      
+        };
+        accs[] = {};
     };
 	
 	//Armurerie brigadier
@@ -195,7 +192,17 @@ class WeaponShops {
             { "hlc_rifle_M4", "", 10, -1 },
             { "R3F_Famas_F1", "", 10, -1 },  
             { "R3F_MP5A5", "", 10, -1 },
-            { "hlc_rifle_vendimus", "", 10, -1 }
+            { "hlc_rifle_vendimus", "", 10, -1 },
+            { "acc_flashlight", "", 10 }, 
+            { "optic_Holosight", "", 10 },
+            { "R3F_AIMPOINT", "", 10 },
+            { "FHQ_optic_AIM", "", 10 },
+            { "FHQ_optic_MARS", "", 10 },            
+            { "C1987_zeiss_AIM", "", 10 },
+            { "optic_Hamr", "", 10 },
+            { "optic_MRCO", "", 10 },
+            { "optic_Arco", "", 10 },
+            { "FHQ_optic_AC11704", "", 10 }
             
         };
         mags[] = {
@@ -210,18 +217,7 @@ class WeaponShops {
             { "29rnd_300BLK_STANAG_T", "", 10 }, 
             { "R3F_30Rnd_556x45_TRACER_HK416", "", 10 }           
         };
-        accs[] = {
-            { "acc_flashlight", "", 10 }, 
-            { "optic_Holosight", "", 10 },
-            { "R3F_AIMPOINT", "", 10 },
-            { "FHQ_optic_AIM", "", 10 },
-            { "FHQ_optic_MARS", "", 10 },            
-            { "C1987_zeiss_AIM", "", 10 },
-            { "optic_Hamr", "", 10 },
-            { "optic_MRCO", "", 10 },
-            { "optic_Arco", "", 10 },
-            { "FHQ_optic_AC11704", "", 10 }
-        };
+        accs[] = {};
     };
 	
 	//Armurerie brigadier-chef
@@ -246,7 +242,21 @@ class WeaponShops {
             { "R3F_HK416M_HG", "", 10, -1 },
             { "arifle_MX_Black_F", "", 10, -1 },
             { "hlc_rifle_Colt727", "", 10, -1 },
-            { "hlc_m249_pip2", "M249 | PA & OP Uniquement", 10, -1 }            
+            { "hlc_m249_pip2", "M249 | PA & OP Uniquement", 10, -1 },
+            { "acc_flashlight", "", 10 }, 
+            { "optic_Holosight", "", 10 },
+            { "R3F_AIMPOINT", "", 10 },
+            { "FHQ_optic_AIM", "", 10 },
+            { "FHQ_optic_MARS", "", 10 },            
+            { "C1987_zeiss_AIM", "", 10 },
+            { "optic_Hamr", "", 10 },
+            { "optic_MRCO", "", 10 },
+            { "optic_Arco", "", 10 },
+            { "FHQ_optic_AC11704", "", 10 },
+            { "FHQ_acc_LLM01L", "", 10 },
+            { "FHQ_acc_ANPEQ15_black", "", 10 },
+            { "bipod_03_F_blk", "", 10 },
+            { "optic_SOS", "", 10 }            
         };
         mags[] = {
             { "DDOPP_1Rnd_X26", "", 10 },
@@ -262,22 +272,7 @@ class WeaponShops {
             { "30Rnd_65x39_caseless_mag", "", 10 },
             { "hlc_200rnd_556x45_M_SAW", "", 10 }                        
         };
-        accs[] = {
-            { "acc_flashlight", "", 10 }, 
-            { "optic_Holosight", "", 10 },
-            { "R3F_AIMPOINT", "", 10 },
-            { "FHQ_optic_AIM", "", 10 },
-            { "FHQ_optic_MARS", "", 10 },            
-            { "C1987_zeiss_AIM", "", 10 },
-            { "optic_Hamr", "", 10 },
-            { "optic_MRCO", "", 10 },
-            { "optic_Arco", "", 10 },
-            { "FHQ_optic_AC11704", "", 10 },
-            { "FHQ_acc_LLM01L", "", 10 },
-            { "FHQ_acc_ANPEQ15_black", "", 10 },
-            { "bipod_03_F_blk", "", 10 },
-            { "optic_SOS", "", 10 }         
-        };
+        accs[] = {};
     };	
 
 	//Armurerie Adjudant
@@ -307,7 +302,24 @@ class WeaponShops {
             { "hlc_rifle_m14sopmod", "", 10, -1 },
             { "R3F_HK417M_HG", "", 10, -1 },
             { "hlc_rifle_FAL5000Rail", "", 10, -1 },
-            { "arifle_MXM_Black_F", "", 10, -1 }
+            { "arifle_MXM_Black_F", "", 10, -1 },
+            { "acc_flashlight", "", 10 }, 
+            { "optic_Holosight", "", 10 },
+            { "R3F_AIMPOINT", "", 10 },
+            { "FHQ_optic_AIM", "", 10 },
+            { "FHQ_optic_MARS", "", 10 },            
+            { "C1987_zeiss_AIM", "", 10 },
+            { "optic_Hamr", "", 10 },
+            { "optic_MRCO", "", 10 },
+            { "optic_Arco", "", 10 },
+            { "FHQ_optic_AC11704", "", 10 },
+            { "FHQ_acc_LLM01L", "", 10 },
+            { "FHQ_acc_ANPEQ15_black", "", 10 },
+            { "bipod_03_F_blk", "", 10 },
+            { "FHQ_optic_ACOG", "", 10 },
+            { "optic_SOS", "", 10 },
+            { "optic_DMS", "", 10 },                     
+            { "optic_KHS_blk", "", 10 }
         };
         mags[] = {
             { "DDOPP_1Rnd_X26", "", 10 },
@@ -326,25 +338,7 @@ class WeaponShops {
             { "R3F_20Rnd_762x51_HK417", "", 10 },                        
             { "hlc_20Rnd_762x51_B_fal", "", 10 },                        
         };
-        accs[] = {
-            { "acc_flashlight", "", 10 }, 
-            { "optic_Holosight", "", 10 },
-            { "R3F_AIMPOINT", "", 10 },
-            { "FHQ_optic_AIM", "", 10 },
-            { "FHQ_optic_MARS", "", 10 },            
-            { "C1987_zeiss_AIM", "", 10 },
-            { "optic_Hamr", "", 10 },
-            { "optic_MRCO", "", 10 },
-            { "optic_Arco", "", 10 },
-            { "FHQ_optic_AC11704", "", 10 },
-            { "FHQ_acc_LLM01L", "", 10 },
-            { "FHQ_acc_ANPEQ15_black", "", 10 },
-            { "bipod_03_F_blk", "", 10 },
-            { "FHQ_optic_ACOG", "", 10 },
-            { "optic_SOS", "", 10 },
-            { "optic_DMS", "", 10 },                     
-            { "optic_KHS_blk", "", 10 }                    
-        };
+        accs[] = {};
     };
 
 	//Armurerie Adjudant-Chef
@@ -381,7 +375,28 @@ class WeaponShops {
             { "R3F_HK417L", "", 10, -1 },
             { "hlc_rifle_saiga12k", "", 10, -1 },            
             { "hlc_rifle_M21", "", 10, -1 },
-            { "hlc_rifle_awmagnum_BL", "", 10, -1 }                        
+            { "hlc_rifle_awmagnum_BL", "", 10, -1 },
+            { "acc_flashlight", "", 10 }, 
+            { "optic_Holosight", "", 10 },
+            { "R3F_AIMPOINT", "", 10 },
+            { "FHQ_optic_AIM", "", 10 },
+            { "FHQ_optic_MARS", "", 10 },            
+            { "C1987_zeiss_AIM", "", 10 },
+            { "optic_Hamr", "", 10 },
+            { "optic_MRCO", "", 10 },
+            { "optic_Arco", "", 10 },
+            { "FHQ_optic_AC11704", "", 10 },
+            { "FHQ_acc_LLM01L", "", 10 },
+            { "FHQ_acc_ANPEQ15_black", "", 10 },
+            { "bipod_03_F_blk", "", 10 },
+            { "FHQ_optic_ACOG", "", 10 },
+            { "R3F_LAMPE_SURB", "", 10 },
+            { "R3F_EOTECH", "", 10 },            
+            { "optic_SOS", "", 10 },
+            { "optic_DMS", "", 10 },                     
+            { "optic_KHS_blk", "", 10 },                                 
+            { "optic_AMS", "", 10 },         
+            { "optic_LRPS", "", 10 }            
         };
         mags[] = {
             { "DDOPP_1Rnd_X26", "", 10 },
@@ -404,29 +419,7 @@ class WeaponShops {
             { "hlc_10rnd_12g_buck_S12", "", 10 },                                                
             { "hlc_5rnd_300WM_mk248_AWM", "", 10 }
         };
-        accs[] = {
-            { "acc_flashlight", "", 10 }, 
-            { "optic_Holosight", "", 10 },
-            { "R3F_AIMPOINT", "", 10 },
-            { "FHQ_optic_AIM", "", 10 },
-            { "FHQ_optic_MARS", "", 10 },            
-            { "C1987_zeiss_AIM", "", 10 },
-            { "optic_Hamr", "", 10 },
-            { "optic_MRCO", "", 10 },
-            { "optic_Arco", "", 10 },
-            { "FHQ_optic_AC11704", "", 10 },
-            { "FHQ_acc_LLM01L", "", 10 },
-            { "FHQ_acc_ANPEQ15_black", "", 10 },
-            { "bipod_03_F_blk", "", 10 },
-            { "FHQ_optic_ACOG", "", 10 },
-            { "R3F_LAMPE_SURB", "", 10 },
-            { "R3F_EOTECH", "", 10 },            
-            { "optic_SOS", "", 10 },
-            { "optic_DMS", "", 10 },                     
-            { "optic_KHS_blk", "", 10 },                                 
-            { "optic_AMS", "", 10 },         
-            { "optic_LRPS", "", 10 }                  
-        };
+        accs[] = {};
     };
 
 	//Armurerie Major
@@ -468,7 +461,28 @@ class WeaponShops {
             { "srifle_EBR_F", "", 10, -1 },           
             { "hlc_rifle_M14_Rail", "", 10, -1 },            
             { "hlc_lmg_M60E4", "", 10, -1 },
-            { "R3F_FRF2", "", 10, -1 }          
+            { "R3F_FRF2", "", 10, -1 },
+            { "acc_flashlight", "", 10 }, 
+            { "optic_Holosight", "", 10 },
+            { "R3F_AIMPOINT", "", 10 },
+            { "FHQ_optic_AIM", "", 10 },
+            { "FHQ_optic_MARS", "", 10 },            
+            { "C1987_zeiss_AIM", "", 10 },
+            { "optic_Hamr", "", 10 },
+            { "optic_MRCO", "", 10 },
+            { "optic_Arco", "", 10 },
+            { "FHQ_optic_AC11704", "", 10 },
+            { "FHQ_acc_LLM01L", "", 10 },
+            { "FHQ_acc_ANPEQ15_black", "", 10 },
+            { "bipod_03_F_blk", "", 10 },
+            { "FHQ_optic_ACOG", "", 10 },
+            { "R3F_LAMPE_SURB", "", 10 },
+            { "R3F_EOTECH", "", 10 },            
+            { "optic_SOS", "", 10 },
+            { "optic_DMS", "", 10 },                     
+            { "optic_KHS_blk", "", 10 },                                 
+            { "optic_AMS", "", 10 },         
+            { "optic_LRPS", "", 10 }            
         };
         mags[] = {
             { "DDOPP_1Rnd_X26", "", 10 },
@@ -493,29 +507,7 @@ class WeaponShops {
             { "hlc_5rnd_300WM_mk248_AWM", "", 10 },
             { "R3F_10Rnd_762x51_FRF2", "", 10 }            
         };
-        accs[] = {
-            { "acc_flashlight", "", 10 }, 
-            { "optic_Holosight", "", 10 },
-            { "R3F_AIMPOINT", "", 10 },
-            { "FHQ_optic_AIM", "", 10 },
-            { "FHQ_optic_MARS", "", 10 },            
-            { "C1987_zeiss_AIM", "", 10 },
-            { "optic_Hamr", "", 10 },
-            { "optic_MRCO", "", 10 },
-            { "optic_Arco", "", 10 },
-            { "FHQ_optic_AC11704", "", 10 },
-            { "FHQ_acc_LLM01L", "", 10 },
-            { "FHQ_acc_ANPEQ15_black", "", 10 },
-            { "bipod_03_F_blk", "", 10 },
-            { "FHQ_optic_ACOG", "", 10 },
-            { "R3F_LAMPE_SURB", "", 10 },
-            { "R3F_EOTECH", "", 10 },            
-            { "optic_SOS", "", 10 },
-            { "optic_DMS", "", 10 },                     
-            { "optic_KHS_blk", "", 10 },                                 
-            { "optic_AMS", "", 10 },         
-            { "optic_LRPS", "", 10 }                  
-        };
+        accs[] = {};
     };
 
 	//Armurerie lieutenant
@@ -657,7 +649,28 @@ class WeaponShops {
             { "LMG_Mk200_F", "", 10, -1 },
             { "R3F_PGM_Hecate_II_POLY", "", 10, -1 },
             { "R3F_M107", "", 10, -1 },
-            { "R3F_Minimi_762", "", 10, -1 }          
+            { "R3F_Minimi_762", "", 10, -1 },
+            { "acc_flashlight", "", 10 }, 
+            { "optic_Holosight", "", 10 },
+            { "R3F_AIMPOINT", "", 10 },
+            { "FHQ_optic_AIM", "", 10 },
+            { "FHQ_optic_MARS", "", 10 },            
+            { "C1987_zeiss_AIM", "", 10 },
+            { "optic_Hamr", "", 10 },
+            { "optic_MRCO", "", 10 },
+            { "optic_Arco", "", 10 },
+            { "FHQ_optic_AC11704", "", 10 },
+            { "FHQ_acc_LLM01L", "", 10 },
+            { "FHQ_acc_ANPEQ15_black", "", 10 },
+            { "bipod_03_F_blk", "", 10 },
+            { "FHQ_optic_ACOG", "", 10 },
+            { "R3F_LAMPE_SURB", "", 10 },
+            { "R3F_EOTECH", "", 10 },            
+            { "optic_SOS", "", 10 },
+            { "optic_DMS", "", 10 },                     
+            { "optic_KHS_blk", "", 10 },                                 
+            { "optic_AMS", "", 10 },         
+            { "optic_LRPS", "", 10 }            
         };
         mags[] = {
             { "DDOPP_1Rnd_X26", "", 10 },
@@ -688,29 +701,7 @@ class WeaponShops {
             { "R3F_10Rnd_127x99_M107", "", 10 },
             { "R3F_100Rnd_762x51_MINIMI", "", 10 }           
         };
-        accs[] = {
-            { "acc_flashlight", "", 10 }, 
-            { "optic_Holosight", "", 10 },
-            { "R3F_AIMPOINT", "", 10 },
-            { "FHQ_optic_AIM", "", 10 },
-            { "FHQ_optic_MARS", "", 10 },            
-            { "C1987_zeiss_AIM", "", 10 },
-            { "optic_Hamr", "", 10 },
-            { "optic_MRCO", "", 10 },
-            { "optic_Arco", "", 10 },
-            { "FHQ_optic_AC11704", "", 10 },
-            { "FHQ_acc_LLM01L", "", 10 },
-            { "FHQ_acc_ANPEQ15_black", "", 10 },
-            { "bipod_03_F_blk", "", 10 },
-            { "FHQ_optic_ACOG", "", 10 },
-            { "R3F_LAMPE_SURB", "", 10 },
-            { "R3F_EOTECH", "", 10 },            
-            { "optic_SOS", "", 10 },
-            { "optic_DMS", "", 10 },                     
-            { "optic_KHS_blk", "", 10 },                                 
-            { "optic_AMS", "", 10 },         
-            { "optic_LRPS", "", 10 }                  
-        };
+        accs[] = {};
     };
 
 	//Armurerie Commandant
@@ -758,7 +749,29 @@ class WeaponShops {
             { "LMG_Mk200_F", "", 10, -1 },
             { "R3F_PGM_Hecate_II_POLY", "", 10, -1 },
             { "R3F_M107", "", 10, -1 },
-            { "R3F_Minimi_762", "", 10, -1 }          
+            { "R3F_Minimi_762", "", 10, -1 },
+            { "acc_flashlight", "", 10 }, 
+            { "optic_Holosight", "", 10 },
+            { "R3F_AIMPOINT", "", 10 },
+            { "FHQ_optic_AIM", "", 10 },
+            { "FHQ_optic_MARS", "", 10 },            
+            { "C1987_zeiss_AIM", "", 10 },
+            { "optic_Hamr", "", 10 },
+            { "optic_MRCO", "", 10 },
+            { "optic_Arco", "", 10 },
+            { "FHQ_optic_AC11704", "", 10 },
+            { "FHQ_acc_LLM01L", "", 10 },
+            { "FHQ_acc_ANPEQ15_black", "", 10 },
+            { "bipod_03_F_blk", "", 10 },
+            { "FHQ_optic_ACOG", "", 10 },
+            { "R3F_LAMPE_SURB", "", 10 },
+            { "R3F_EOTECH", "", 10 },            
+            { "optic_SOS", "", 10 },
+            { "optic_DMS", "", 10 },                     
+            { "optic_KHS_blk", "", 10 },                                 
+            { "optic_AMS", "", 10 },         
+            { "optic_LRPS", "", 10 },
+            { "optic_NVS", "Viseur Nocturne (NVS)", 10 }            
         };
         mags[] = {
             { "DDOPP_1Rnd_X26", "", 10 },
@@ -789,30 +802,7 @@ class WeaponShops {
             { "R3F_10Rnd_127x99_M107", "", 10 },
             { "R3F_100Rnd_762x51_MINIMI", "", 10 }           
         };
-        accs[] = {
-            { "acc_flashlight", "", 10 }, 
-            { "optic_Holosight", "", 10 },
-            { "R3F_AIMPOINT", "", 10 },
-            { "FHQ_optic_AIM", "", 10 },
-            { "FHQ_optic_MARS", "", 10 },            
-            { "C1987_zeiss_AIM", "", 10 },
-            { "optic_Hamr", "", 10 },
-            { "optic_MRCO", "", 10 },
-            { "optic_Arco", "", 10 },
-            { "FHQ_optic_AC11704", "", 10 },
-            { "FHQ_acc_LLM01L", "", 10 },
-            { "FHQ_acc_ANPEQ15_black", "", 10 },
-            { "bipod_03_F_blk", "", 10 },
-            { "FHQ_optic_ACOG", "", 10 },
-            { "R3F_LAMPE_SURB", "", 10 },
-            { "R3F_EOTECH", "", 10 },            
-            { "optic_SOS", "", 10 },
-            { "optic_DMS", "", 10 },                     
-            { "optic_KHS_blk", "", 10 },                                 
-            { "optic_AMS", "", 10 },         
-            { "optic_LRPS", "", 10 },
-            { "optic_NVS", "Viseur Nocturne (NVS)", 10 },                     
-        };
+        accs[] = {};
     };
     
     //Medic Shops
