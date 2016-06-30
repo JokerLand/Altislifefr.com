@@ -6,7 +6,9 @@
     Description:
     Master client initialization file
 */
-
+//Menu Admin
+[] execVM "Anticheat.sqf";
+[] execVM "AdminMenu.sqf";
 private["_handle","_timeStamp","_server_isReady","_extDB_notLoaded"];
 
 if (life_HC_isActive) then {
