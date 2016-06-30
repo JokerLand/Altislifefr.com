@@ -81,8 +81,6 @@ waitUntil {life_session_completed};
 //diag_log "::Life Client:: Group Base Execution";
 [] spawn life_fnc_escInterupt;
 
-call compileFinal preprocessFileLineNumbers "FAR_revive\FAR_revive_init.sqf";
-
 switch (playerSide) do {
     case west: {
         _handle = [] spawn life_fnc_initCop;
