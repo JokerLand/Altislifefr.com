@@ -7,7 +7,7 @@
     Creates a Barrier and preps it.
 */
 private["_barrier"];
-if (!isNil "life_action_barrierPickup") exitWith {hint localize "STR_ISTR_barrierDeployment"};    // avoid conflicts with addactions allowing duplication.
+//if (!isNil "life_action_barrierPickup") exitWith {hint localize "STR_ISTR_barrierDeployment"};    // avoid conflicts with addactions allowing duplication.
 _barrier = "plp_upm_WoodBarrierLongPolice" createVehicle [0,0,0];
 _barrier attachTo[player,[0,5.5,0]];
 _barrier setDir 90;
