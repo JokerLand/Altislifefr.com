@@ -10,9 +10,9 @@ private["_barrierel"];
 _barrierel = nearestObjects[getPos player,["plp_up_WoodBarrierShortPoliceLightsOn"],8] select 0;
 if(isNil "_barrierel") exitWith {};
 
-if(([true,"barrierl",1] call life_fnc_handleInv)) then
+if([true,"barrierl",1] call life_fnc_handleInv) then
 {
-	titleText["Vous avez ramassé votre barrière lumineuse.","PLAIN"];
+    titleText[localize "STR_NOTF_barrierl","PLAIN"];
 	playSound "bag";
 	deleteVehicle _barrierel;
 };

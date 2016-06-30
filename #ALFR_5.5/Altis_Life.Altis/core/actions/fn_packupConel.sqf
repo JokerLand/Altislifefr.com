@@ -12,7 +12,7 @@ if(isNil "_conel") exitWith {};
 
 if(([true,"conel",1] call life_fnc_handleInv)) then
 {
-	titleText["Vous avez ramassé votre cône lumineux.","PLAIN"];
+    titleText[localize "STR_NOTF_conel","PLAIN"];
 	playSound "bag";
 	deleteVehicle _conel;
 };

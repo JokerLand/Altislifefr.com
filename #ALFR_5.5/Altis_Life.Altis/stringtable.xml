@@ -3009,20 +3009,30 @@
         </Key>
         <Key ID="STR_NOTF_SpikeStrip">
             <Original>You have packed up the spike strip.</Original>
-            <Czech>Jste sbalil spike proužek.</Czech>
-            <Spanish>Has agarrado la Barrera de Clavos.</Spanish>
-            <German>Du hast das Nagelband eingepackt.</German>
             <French>Vous avez remballé la herse.</French>
-            <Italian>Hai raccolto una striscia chiodata.</Italian>
-            <Portuguese>Você recolheu o tapete de espinhos.</Portuguese>
-            <Polish>Kolczatka zwinięta</Polish>
+        </Key>
+        <Key ID="STR_NOTF_barrier">
+            <Original>You have packed up the barrier.</Original>
+            <French>Vous avez remballé la barrière.</French>
+        </Key>
+        <Key ID="STR_NOTF_barrierl">
+            <Original>You have packed up the light barrier.</Original>
+            <French>Vous avez remballé la barrière lumineuse.</French>
+        </Key>
+        <Key ID="STR_NOTF_cone">
+            <Original>You have packed up the cone.</Original>
+            <French>Vous avez remballé le cône.</French>
+        </Key>
+        <Key ID="STR_NOTF_conel">
+            <Original>You have packed up the light barrier.</Original>
+            <French>Vous avez remballé le cône lumineux.</French>
         </Key>
         <Key ID="STR_NOTF_PickedEvidence">
             <Original>%1 has been placed in evidence, you have received %2€ as a reward.</Original>
             <Czech>%1 byl umístěn v důkazu, jste obdrželi %2€ jako odměnu.</Czech>
             <Spanish>%1 ha sido colocado en evidencias, has recibido %2€ como recompensa.</Spanish>
             <German>%1 hat Beweise hinterlassen, du hast eine Belohnung von %2€ erhalten.</German>
-            <French>Vous avez ramassé la drogue de %1, vous avez reçu %2€ comme récompense.</French>
+            <French>Vous avez ramassé la drogue de %1, vous avez reçu %2€ en récompense.</French>
             <Italian>E' stata trovata della merce illegale: %1, hai ricevuto %2€ come ricompensa.</Italian>
             <Portuguese>%1 foi pego como evidência, você recebeu R%2€ como recompensa.</Portuguese>
             <Polish>%1 umieszczony w dowodach, otrzymujesz w nagrodę %2€</Polish>
@@ -6631,23 +6641,43 @@
         </Key>
         <Key ID="STR_ISTR_Spike_Place">
             <Original>Place Spike Strip</Original>
-            <Czech>Umístěte Spike Strip</Czech>
-            <Spanish>Poner Barrera de Clavos</Spanish>
-            <German>Nagelband platzieren</German>
             <French>Placer la herse</French>
-            <Italian>Posa striscie chiodate</Italian>
-            <Portuguese>Tapete de Espinhos armado.</Portuguese>
-            <Polish>Rozłóż kolczatkę</Polish>
+        </Key>
+        <Key ID="STR_ISTR_barrier_Place">
+            <Original>Place barrier</Original>
+            <French>Placer la barrière</French>
+        </Key>
+        <Key ID="STR_ISTR_barrierl_Place">
+            <Original>Place light barrier</Original>
+            <French>Placer la barrière lumineuse</French>
+        </Key>
+        <Key ID="STR_ISTR_Cone_Place">
+            <Original>Place cone</Original>
+            <French>Placer le cône</French>
+        </Key>
+        <Key ID="STR_ISTR_conel_Place">
+            <Original>Place light cone</Original>
+            <French>Placer le cône lumineux</French>
         </Key>
         <Key ID="STR_ISTR_Spike_Pack">
             <Original>Pack up Spike Strip</Original>
-            <Czech>Sbalit Spike Strip</Czech>
-            <Spanish>Guardar Barrera de Clavos</Spanish>
-            <German>Nagelband zusammenpacken</German>
             <French>Ranger la herse</French>
-            <Italian>Recupera striscie chiodate</Italian>
-            <Portuguese>Pegar Tapete de Espinhos.</Portuguese>
-            <Polish>Zwiń kolczatkę</Polish>
+        </Key>
+        <Key ID="STR_ISTR_barrier_Pack">
+            <Original>Pack up barrier</Original>
+            <French>Ranger la barrière</French>
+        </Key>
+        <Key ID="STR_ISTR_barrierl_Pack">
+            <Original>Pack up light barrier</Original>
+            <French>Ranger la barrière lumineuse</French>
+        </Key>
+        <Key ID="STR_ISTR_Cone_Pack">
+            <Original>Pack up cone</Original>
+            <French>Ranger le cône</French>
+        </Key>
+        <Key ID="STR_ISTR_conel_Pack">
+            <Original>Pack up light cone</Original>
+            <French>Ranger le cône lumineux</French>
         </Key>
         <Key ID="STR_ISTR_Box_NotinHouse">
             <Original>You need to be inside your house to place this.</Original>
@@ -6708,6 +6738,22 @@
             <Italian>Hai già una striscia chiodata piazzata</Italian>
             <Portuguese>Você já tem um Tapete de Espinhos ativo</Portuguese>
             <Polish>Aktualnie masz rozłożoną kolczatkę</Polish>
+        </Key>
+        <Key ID="STR_ISTR_barrierDeployment">
+            <Original>You already have a barrier active in deployment</Original>
+            <French>Vous avez déjà une barrière entrain d'être deployée</French>
+        </Key>
+        <Key ID="STR_ISTR_barrierlDeployment">
+            <Original>You already have a light barrier active in deployment</Original>
+            <French>Vous avez déjà une barrière lumineuse entrain d'être deployée</French>
+        </Key>
+        <Key ID="STR_ISTR_ConeDeployment">
+            <Original>You already have a cone active in deployment</Original>
+            <French>Vous avez déjà un cône entrain d'être deployé</French>
+        </Key>
+        <Key ID="STR_ISTR_conelDeployment">
+            <Original>You already have a light cone active in deployment</Original>
+            <French>Vous avez déjà un cône lumineux entrain d'être deployé</French>
         </Key>
         <Key ID="STR_ISTR_RefuelInVehicle">
             <Original>You can't refuel the vehicle while in it!</Original>
@@ -8537,9 +8583,9 @@
             <Polish>Kopalnia diamentów</Polish>
         </Key>
         <Key ID="STR_MAR_General_Store">
-            <Original>General Store</Original>
+            <Original>Quincaillerie</Original>
             <Czech>Obchod se smíšeným zbožím</Czech>
-            <French>Magasin général</French>
+            <French>Quincaillerie</French>
             <Spanish>Tienda General</Spanish>
             <Italian>Strumenti Generali</Italian>
             <German>Supermarkt</German>
@@ -8599,7 +8645,7 @@
         <Key ID="STR_MAR_Market">
             <Original>Market</Original>
             <Czech>Trh</Czech>
-            <French>Marché</French>
+            <French>Superette</French>
             <Spanish>Mercado</Spanish>
             <Italian>Mercato</Italian>
             <German>Markt</German>
@@ -8796,15 +8842,13 @@
             <Polish>Skup szkła</Polish>
             <Italian>Vendita del Vetro</Italian>
         </Key>
-        <Key ID="STR_MAR_Iron_Copper_Trader">
-            <Original>Iron / Copper Trader</Original>
-            <Czech>Žehlička / Měď Trader</Czech>
-            <French>Vendeur de Fer/Cuivre</French>
-            <Spanish>Comerciante de Hierro / Cobre</Spanish>
-            <German>Händler für Eisen / Kupfer</German>
-            <Portuguese>Comprador de Ferro e Cobre</Portuguese>
-            <Polish>Skup metali</Polish>
-            <Italian>Vendita del Ferro/Rame</Italian>
+        <Key ID="STR_MAR_Copper_Trader">
+            <Original>Copper Trader</Original>
+            <French>Vendeur de Cuivre</French>
+        </Key>
+        <Key ID="STR_MAR_Iron_Trader">
+            <Original>Iron Trader</Original>
+            <French>Vendeur de Fer</French>
         </Key>
         <Key ID="STR_MAR_Sand_Processing">
             <Original>Sand Processing</Original>
