@@ -8,6 +8,7 @@
 */
 disableSerialization;
 private["_control","_price","_vehicle","_nearVehicles","_price2","_chopable"];
+if(life_chopvehicle_sell_garage + 5 > time) exitWith {hint "Pas si vite! Tu dois attendre 5 secondes avant de vendre à nouveau.";};
 _control = CONTROL(39400,39402);
 _price = _control lbValue (lbCurSel _control);
 _vehicle = _control lbData (lbCurSel _control);
@@ -35,5 +36,6 @@ if (LIFE_SETTINGS(getNumber,"player_advancedLog") isEqualTo 1) then {
     };
     publicVariableServer "advanced_log";
 };
-
+life_chopvehicle_sell_garage = time;
+playSound "caching";
 closeDialog 0;
