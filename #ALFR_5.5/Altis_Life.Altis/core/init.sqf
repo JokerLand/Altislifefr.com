@@ -138,6 +138,9 @@ publicVariableServer "life_fnc_RequestClientId"; //Variable OwnerID for Headless
 
 [] spawn life_fnc_survival;
 
+//Gaz lacrymogène
+[] execVM "teargas.sqf";
+
 [] spawn {
     for "_i" from 0 to 1 step 0 do {
         waitUntil{(!isNull (findDisplay 49)) && (!isNull (findDisplay 602))}; // Check if Inventory and ESC dialogs are open
