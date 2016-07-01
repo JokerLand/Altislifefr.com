@@ -374,6 +374,7 @@ class Life_Client_Core {
         file = "core\pmenu";
         class altisPhone {};
         class cellphone {};
+        class cellphone2 {};
         class giveItem {};
         class giveMoney {};
         class keyDrop {};
