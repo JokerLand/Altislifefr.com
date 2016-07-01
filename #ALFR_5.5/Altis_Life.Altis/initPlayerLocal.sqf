@@ -19,9 +19,6 @@ if (LIFE_SETTINGS(getNumber,"spyGlass_toggle") isEqualTo 1) then {[] execVM "Spy
 
 [] execVM "core\init.sqf";
 [] execVM "core\functions\fn_CacherMarkers.sqf";
-//Menu Admin
-[] execVM "Anticheat.sqf";
-[] execVM "AdminMenu.sqf";
 
 //Desactivation vue satellite
 if (isNil "tm4_handler_disableGroupView") then {tm4_handler_disableGroupView = [] spawn {while {alive player} do {waitUntil {sleep .5; cameraView == "group"}; player switchCamera "Internal"; sleep .5; }; terminate tm4_handler_disableGroupView; tm4_handler_disableGroupView = nil; }; };
