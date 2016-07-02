@@ -126,7 +126,7 @@ class CarShops {
 			{ "Jonzie_Tanker_Truck", { "", "", -1 } },
 			{ "B_Truck_01_box_F", { "", "", -1 } },
 			{ "Jonzie_Box_Truck", { "", "", -1 } },
-			{ "ALFR_GeK_Scania_420", { "", "", -1 },
+			{ "ALFR_GeK_Scania_420", { "", "", -1 } },
 			{ "GeK_Renault_Magnum", { "", "", -1 } },
 			{ "ALFR_GeK_Volvo_FH16_2012", { "", "", -1 } },
             { "GeK_Iveco_Stralis", { "", "", -1 } }
