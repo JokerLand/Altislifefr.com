@@ -126,7 +126,7 @@ class CarShops {
 			{ "Jonzie_Tanker_Truck", { "", "", -1 } },
 			{ "B_Truck_01_box_F", { "", "", -1 } },
 			{ "Jonzie_Box_Truck", { "", "", -1 } },
-			{ "ALFR_GeK_Scania_420", { "", "", -1 } },
+			{ "ALFR_GeK_Scania_420", { "", "", -1 } ,
 			{ "GeK_Renault_Magnum", { "", "", -1 } },
 			{ "ALFR_GeK_Volvo_FH16_2012", { "", "", -1 } },
             { "GeK_Iveco_Stralis", { "", "", -1 } }
@@ -660,13 +660,63 @@ class LifeCfgVehicles {
         textures[] = {};
 	};	
 
-	class GeK_Renault_Trafic_Police {
+	class GeK_Renault_Trafic_Police {   
 		vItemSpace = 75;
         licenses[] = { {""}, {""}, {""}, {""} };
 		price = 5000;
 		textures[] = {
 			{ "Police", "cop", {
                 "ALFR_TexSnd\Gek_renault_trafic_police.paa"
+            } }
+		};
+	};
+    
+    class GeK_Renault_Trafic {   
+		vItemSpace = 75;
+        licenses[] = { {"trucking"}, {""}, {""}, {""} };
+		price = 10400;
+		textures[] = {
+			{ "Noir", "civ", {
+                "#(ai,64,64,1)Fresnel(0.3,3)"
+            } },
+			{ "Gris sombre", "civ", {
+                "#(argb,8,8,3)color(0.1,0.1,0.1,0.7)"
+            } },
+			{ "Gris", "civ", {
+                "#(argb,8,8,3)color(0.5,0.5,0.5,0.1)"
+            } },
+			{ "Gris clair", "civ", {
+                "#(argb,8,8,3)color(0.3,0.3,0.3,0.8)"
+            } },
+			{ "Blanc", "civ", {
+                "#(argb,8,8,3)color(1,1,1,1)"
+            } },
+			{ "Sable", "civ", {
+                "#(argb,8,8,3)color(1.5,1.6,0.9,0.2)"
+            } },
+			{ "Bordeau", "civ", {
+                "#(argb,8,8,3)color(1,0,0,0.1)"
+            } },
+			{ "Bleu", "civ", {
+                "#(argb,8,8,3)color(0.01,0.6,1,0.1)"
+            } },
+			{ "Bleu Nuit", "civ", {
+                "#(argb,8,8,3)color(0,0,0.5,0.1)"
+            } },
+			{ "Mauve Nuit", "civ", {
+                "#(argb,8,8,3)color(0.6,0,1,0.01)"
+            } },
+			{ "Vert", "civ", {
+                "#(argb,8,8,3)color(0.5,1,0.5,0.05)"
+            } },
+			{ "Rouge", "civ", {
+                "#(argb,8,8,3)color(1,0,0,1)"
+            } },
+			{ "Jaune", "civ", {
+                "#(argb,8,8,3)color(0.6,0.3,0.01,1)"
+            } },
+			{ "Orange", "civ", {
+                "#(argb,8,8,3)color(1,0.3,0.01,0.6)"
             } }
 		};
 	};
@@ -1018,7 +1068,7 @@ class LifeCfgVehicles {
 			{ "Mauve Nuit", "civ", {
                 "#(argb,8,8,3)color(0.6,0,1,0.01)"
             } },
-			{ "vert", "civ", {
+			{ "Vert", "civ", {
                 "#(argb,8,8,3)color(0.5,1,0.5,0.05)"
             } },
 			{ "Rouge", "civ", {
@@ -1069,7 +1119,7 @@ class LifeCfgVehicles {
 			{ "Mauve Nuit", "civ", {
                 "#(argb,8,8,3)color(0.6,0,1,0.01)"
             } },
-			{ "vert", "civ", {
+			{ "Vert", "civ", {
                 "#(argb,8,8,3)color(0.5,1,0.5,0.05)"
             } },
 			{ "Rouge", "civ", {
@@ -1120,7 +1170,7 @@ class LifeCfgVehicles {
 			{ "Mauve Nuit", "civ", {
                 "#(argb,8,8,3)color(0.6,0,1,0.01)"
             } },
-			{ "vert", "civ", {
+			{ "Vert", "civ", {
                 "#(argb,8,8,3)color(0.5,1,0.5,0.05)"
             } },
 			{ "Rouge", "civ", {
@@ -1171,7 +1221,7 @@ class LifeCfgVehicles {
 			{ "Mauve Nuit", "civ", {
                 "#(argb,8,8,3)color(0.6,0,1,0.01)"
             } },
-			{ "vert", "civ", {
+			{ "Vert", "civ", {
                 "#(argb,8,8,3)color(0.5,1,0.5,0.05)"
             } },
 			{ "Rouge", "civ", {
@@ -1222,7 +1272,7 @@ class LifeCfgVehicles {
 			{ "Mauve Nuit", "civ", {
                 "#(argb,8,8,3)color(0.6,0,1,0.01)"
             } },
-			{ "vert", "civ", {
+			{ "Vert", "civ", {
                 "#(argb,8,8,3)color(0.5,1,0.5,0.05)"
             } },
 			{ "Rouge", "civ", {
@@ -1276,7 +1326,7 @@ class LifeCfgVehicles {
 			{ "Mauve Nuit", "civ", {
                 "#(argb,8,8,3)color(0.6,0,1,0.01)"
             } },
-			{ "vert", "civ", {
+			{ "Vert", "civ", {
                 "#(argb,8,8,3)color(0.5,1,0.5,0.05)"
             } },
 			{ "Rouge", "civ", {
@@ -1357,7 +1407,7 @@ class LifeCfgVehicles {
 			{ "Mauve Nuit", "civ", {
                 "#(argb,8,8,3)color(0.6,0,1,0.01)"
             } },
-			{ "vert", "civ", {
+			{ "Vert", "civ", {
                 "#(argb,8,8,3)color(0.5,1,0.5,0.05)"
             } },
 			{ "Rouge", "civ", {
@@ -1479,7 +1529,7 @@ class LifeCfgVehicles {
 			{ "Mauve Nuit", "civ", {
                 "#(argb,8,8,3)color(0.6,0,1,0.01)"
             } },
-			{ "vert", "civ", {
+			{ "Vert", "civ", {
                 "#(argb,8,8,3)color(0.5,1,0.5,0.05)"
             } },
 			{ "Rouge", "civ", {
@@ -1531,7 +1581,7 @@ class LifeCfgVehicles {
 			{ "Mauve Nuit", "civ", {
                 "#(argb,8,8,3)color(0.6,0,1,0.01)"
             } },
-			{ "vert", "civ", {
+			{ "Vert", "civ", {
                 "#(argb,8,8,3)color(0.5,1,0.5,0.05)"
             } },
 			{ "Rouge", "civ", {
@@ -1749,7 +1799,7 @@ class LifeCfgVehicles {
 			{ "Mauve Nuit", "civ", {
                 "#(argb,8,8,3)color(0.6,0,1,0.01)"
             } },
-			{ "vert", "civ", {
+			{ "Vert", "civ", {
                 "#(argb,8,8,3)color(0.5,1,0.5,0.05)"
             } },
 			{ "Rouge", "civ", {
@@ -3455,13 +3505,227 @@ class LifeCfgVehicles {
         price = 45000;
         textures[] = { };
     };
+    
+    class  Jonzie_Box_Truck: Default {
+		vItemSpace = 580;
+        licenses[] = { {"trucking"}, {""}, {""}, {""} };
+		price = 55000;
+	};
+    
+    class  ALFR_GeK_Scania_420: Default {
+		vItemSpace = 550;
+        licenses[] = { {"trucking"}, {""}, {""}, {""} };
+		price = 48000;
+		textures[] = {
+			{ "Noir", "civ", {
+                "#(ai,64,64,1)Fresnel(0.3,3)"
+            } },
+			{ "Gris sombre", "civ", {
+                "#(argb,8,8,3)color(0.1,0.1,0.1,0.7)"
+            } },
+			{ "Gris", "civ", {
+                "#(argb,8,8,3)color(0.5,0.5,0.5,0.1)"
+            } },
+			{ "Gris clair", "civ", {
+                "#(argb,8,8,3)color(0.3,0.3,0.3,0.8)"
+            } },
+			{ "Blanc", "civ", {
+                "#(argb,8,8,3)color(1,1,1,1)"
+            } },
+			{ "Sable", "civ", {
+                "#(argb,8,8,3)color(1.5,1.6,0.9,0.2)"
+            } },
+			{ "Bordeau", "civ", {
+                "#(argb,8,8,3)color(1,0,0,0.1)"
+            } },
+			{ "Bleu", "civ", {
+                "#(argb,8,8,3)color(0.01,0.6,1,0.1)"
+            } },
+			{ "Bleu Nuit", "civ", {
+                "#(argb,8,8,3)color(0,0,0.5,0.1)"
+            } },
+			{ "Mauve Nuit", "civ", {
+                "#(argb,8,8,3)color(0.6,0,1,0.01)"
+            } },
+			{ "Vert", "civ", {
+                "#(argb,8,8,3)color(0.5,1,0.5,0.05)"
+            } },
+			{ "Rouge", "civ", {
+                "#(argb,8,8,3)color(1,0,0,1)"
+            } },
+			{ "Jaune", "civ", {
+                "#(argb,8,8,3)color(0.6,0.3,0.01,1)"
+            } },
+			{ "Orange", "civ", {
+                "#(argb,8,8,3)color(1,0.3,0.01,0.6)"
+            } }
+		};
+	};
+    
+    class  GeK_Renault_Magnum: Default {
+		vItemSpace = 600;
+        licenses[] = { {"trucking"}, {""}, {""}, {""} };
+		price = 62000;
+		textures[] = {
+			{ "Noir", "civ", {
+                "#(ai,64,64,1)Fresnel(0.3,3)"
+            } },
+			{ "Gris sombre", "civ", {
+                "#(argb,8,8,3)color(0.1,0.1,0.1,0.7)"
+            } },
+			{ "Gris", "civ", {
+                "#(argb,8,8,3)color(0.5,0.5,0.5,0.1)"
+            } },
+			{ "Gris clair", "civ", {
+                "#(argb,8,8,3)color(0.3,0.3,0.3,0.8)"
+            } },
+			{ "Blanc", "civ", {
+                "#(argb,8,8,3)color(1,1,1,1)"
+            } },
+			{ "Sable", "civ", {
+                "#(argb,8,8,3)color(1.5,1.6,0.9,0.2)"
+            } },
+			{ "Bordeau", "civ", {
+                "#(argb,8,8,3)color(1,0,0,0.1)"
+            } },
+			{ "Bleu", "civ", {
+                "#(argb,8,8,3)color(0.01,0.6,1,0.1)"
+            } },
+			{ "Bleu Nuit", "civ", {
+                "#(argb,8,8,3)color(0,0,0.5,0.1)"
+            } },
+			{ "Mauve Nuit", "civ", {
+                "#(argb,8,8,3)color(0.6,0,1,0.01)"
+            } },
+			{ "Vert", "civ", {
+                "#(argb,8,8,3)color(0.5,1,0.5,0.05)"
+            } },
+			{ "Rouge", "civ", {
+                "#(argb,8,8,3)color(1,0,0,1)"
+            } },
+			{ "Jaune", "civ", {
+                "#(argb,8,8,3)color(0.6,0.3,0.01,1)"
+            } },
+			{ "Orange", "civ", {
+                "#(argb,8,8,3)color(1,0.3,0.01,0.6)"
+            } }
+		};
+	};
 
+    class  ALFR_GeK_Volvo_FH16_2012: Default {
+		vItemSpace = 700;
+        licenses[] = { {"trucking"}, {""}, {""}, {""} };
+		price = 76000;
+		textures[] = {
+
+			{ "Noir", "civ", {
+                "#(ai,64,64,1)Fresnel(0.3,3)"
+            } },
+			{ "Gris sombre", "civ", {
+                "#(argb,8,8,3)color(0.1,0.1,0.1,0.7)"
+            } },
+			{ "Gris", "civ", {
+                "#(argb,8,8,3)color(0.5,0.5,0.5,0.1)"
+            } },
+			{ "Gris clair", "civ", {
+                "#(argb,8,8,3)color(0.3,0.3,0.3,0.8)"
+            } },
+			{ "Blanc", "civ", {
+                "#(argb,8,8,3)color(1,1,1,1)"
+            } },
+			{ "Sable", "civ", {
+                "#(argb,8,8,3)color(1.5,1.6,0.9,0.2)"
+            } },
+			{ "Bordeau", "civ", {
+                "#(argb,8,8,3)color(1,0,0,0.1)"
+            } },
+			{ "Bleu", "civ", {
+                "#(argb,8,8,3)color(0.01,0.6,1,0.1)"
+            } },
+			{ "Bleu Nuit", "civ", {
+                "#(argb,8,8,3)color(0,0,0.5,0.1)"
+            } },
+			{ "Mauve Nuit", "civ", {
+                "#(argb,8,8,3)color(0.6,0,1,0.01)"
+            } },
+			{ "Vert", "civ", {
+                "#(argb,8,8,3)color(0.5,1,0.5,0.05)"
+            } },
+			{ "Rouge", "civ", {
+                "#(argb,8,8,3)color(1,0,0,1)"
+            } },
+			{ "Jaune", "civ", {
+                "#(argb,8,8,3)color(0.6,0.3,0.01,1)"
+            } },
+			{ "Orange", "civ", {
+                "#(argb,8,8,3)color(1,0.3,0.01,0.6)"
+            } }
+
+		};
+	};
+    
+    class  GeK_Iveco_Stralis: Default {
+		vItemSpace = 750;
+        licenses[] = { {"trucking"}, {""}, {""}, {""} };
+		chopShop = 86000;
+		textures[] = {
+			{ "Noir", "civ", {
+                "#(ai,64,64,1)Fresnel(0.3,3)"
+            } },
+			{ "Gris sombre", "civ", {
+                "#(argb,8,8,3)color(0.1,0.1,0.1,0.7)"
+            } },
+			{ "Gris", "civ", {
+                "#(argb,8,8,3)color(0.5,0.5,0.5,0.1)"
+            } },
+			{ "Gris clair", "civ", {
+                "#(argb,8,8,3)color(0.3,0.3,0.3,0.8)"
+            } },
+			{ "Blanc", "civ", {
+                "#(argb,8,8,3)color(1,1,1,1)"
+            } },
+			{ "Sable", "civ", {
+                "#(argb,8,8,3)color(1.5,1.6,0.9,0.2)"
+            } },
+			{ "Bordeau", "civ", {
+                "#(argb,8,8,3)color(1,0,0,0.1)"
+            } },
+			{ "Bleu", "civ", {
+                "#(argb,8,8,3)color(0.01,0.6,1,0.1)"
+            } },
+			{ "Bleu Nuit", "civ", {
+                "#(argb,8,8,3)color(0,0,0.5,0.1)"
+            } },
+			{ "Mauve Nuit", "civ", {
+                "#(argb,8,8,3)color(0.6,0,1,0.01)"
+            } },
+			{ "Vert", "civ", {
+                "#(argb,8,8,3)color(0.5,1,0.5,0.05)"
+            } },
+			{ "Rouge", "civ", {
+                "#(argb,8,8,3)color(1,0,0,1)"
+            } },
+			{ "Jaune", "civ", {
+                "#(argb,8,8,3)color(0.6,0.3,0.01,1)"
+            } },
+			{ "Orange", "civ", {
+                "#(argb,8,8,3)color(1,0.3,0.01,0.6)"
+            } }
+		};
+	};
+    
     class B_Truck_01_transport_F {
         vItemSpace = 400;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
         price = 39000;
         textures[] = { };
     };
+    
+    class  Jonzie_Tanker_Truck: Default {
+		vItemSpace = 450;
+        licenses[] = { {"trucking"}, {""}, {""}, {""} };
+		price = 42000;
+	};
 
     class O_MRAP_02_F {
         vItemSpace = 60;
@@ -3664,7 +3928,127 @@ will modify the virtual space and the price of the vehicle, but other informatio
             } }
         };
     };
-
+    
+    class cl3_transit_black : Default {
+		vItemSpace = 80;
+        licenses[] = { {"trucking"}, {""}, {""}, {""} };
+		price = 12000;
+		textures[] = {
+			{ "Noir", "civ", {
+                "#(ai,64,64,1)Fresnel(0.3,3)"
+            } },
+			{ "Gris sombre", "civ", {
+                "#(argb,8,8,3)color(0.1,0.1,0.1,0.7)"
+            } },
+			{ "Gris", "civ", {
+                "#(argb,8,8,3)color(0.5,0.5,0.5,0.1)"
+            } },
+			{ "Gris clair", "civ", {
+                "#(argb,8,8,3)color(0.3,0.3,0.3,0.8)"
+            } },
+			{ "Blanc", "civ", {
+                "#(argb,8,8,3)color(1,1,1,1)"
+            } },
+			{ "Sable", "civ", {
+                "#(argb,8,8,3)color(1.5,1.6,0.9,0.2)"
+            } },
+			{ "Bordeau", "civ", {
+                "#(argb,8,8,3)color(1,0,0,0.1)"
+            } },
+			{ "Bleu", "civ", {
+                "#(argb,8,8,3)color(0.01,0.6,1,0.1)"
+            } },
+			{ "Bleu Nuit", "civ", {
+                "#(argb,8,8,3)color(0,0,0.5,0.1)"
+            } },
+			{ "Mauve Nuit", "civ", {
+                "#(argb,8,8,3)color(0.6,0,1,0.01)"
+            } },
+			{ "Vert", "civ", {
+                "#(argb,8,8,3)color(0.5,1,0.5,0.05)"
+            } },
+			{ "Rouge", "civ", {
+                "#(argb,8,8,3)color(1,0,0,1)"
+            } },
+			{ "Jaune", "civ", {
+                "#(argb,8,8,3)color(0.6,0.3,0.01,1)"
+            } },
+			{ "Orange", "civ", {
+                "#(argb,8,8,3)color(1,0.3,0.01,0.6)"
+            } }
+		};
+	};
+    
+    class cg_rv_camper : Default {
+		vItemSpace = 80;
+        licenses[] = { {"trucking"}, {""}, {""}, {""} };
+		price = 13000;
+	};
+    
+    class CL3_bus_cl_black : Default {
+		vItemSpace = 60;
+        licenses[] = { {"trucking"}, {""}, {""}, {""} };
+		price = 16000;
+		textures[] = {
+            { "Police", "cop", {
+                "ALFR_TexSnd\bus_exterior_cop.jpg"
+            } },
+			{ "Donator", "civ", {
+                "ALFR_TexSnd\bus_exterior_donator.jpg"
+            } }
+		};
+	};
+    
+    class shounka_a3_spr_civ : Default {
+		vItemSpace = 90;
+        licenses[] = { {"trucking"}, {""}, {""}, {""} };
+		price = 16000;
+		textures[] = {
+			{ "Noir", "civ", {
+                "#(ai,64,64,1)Fresnel(0.3,3)"
+            } },
+			{ "Gris sombre", "civ", {
+                "#(argb,8,8,3)color(0.1,0.1,0.1,0.7)"
+            } },
+			{ "Gris", "civ", {
+                "#(argb,8,8,3)color(0.5,0.5,0.5,0.1)"
+            } },
+			{ "Gris clair", "civ", {
+                "#(argb,8,8,3)color(0.3,0.3,0.3,0.8)"
+            } },
+			{ "Blanc", "civ", {
+                "#(argb,8,8,3)color(1,1,1,1)"
+            } },
+			{ "Sable", "civ", {
+                "#(argb,8,8,3)color(1.5,1.6,0.9,0.2)"
+            } },
+			{ "Bordeau", "civ", {
+                "#(argb,8,8,3)color(1,0,0,0.1)"
+            } },
+			{ "Bleu", "civ", {
+                "#(argb,8,8,3)color(0.01,0.6,1,0.1)"
+            } },
+			{ "Bleu Nuit", "civ", {
+                "#(argb,8,8,3)color(0,0,0.5,0.1)"
+            } },
+			{ "Mauve Nuit", "civ", {
+                "#(argb,8,8,3)color(0.6,0,1,0.01)"
+            } },
+			{ "Vert", "civ", {
+                "#(argb,8,8,3)color(0.5,1,0.5,0.05)"
+            } },
+			{ "Rouge", "civ", {
+                "#(argb,8,8,3)color(1,0,0,1)"
+            } },
+			{ "Jaune", "civ", {
+                "#(argb,8,8,3)color(0.6,0.3,0.01,1)"
+            } },
+			{ "Orange", "civ", {
+                "#(argb,8,8,3)color(1,0.3,0.01,0.6)"
+            } }
+		};
+	};
+    
     class C_Van_01_box_F {
         vItemSpace = 150;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
