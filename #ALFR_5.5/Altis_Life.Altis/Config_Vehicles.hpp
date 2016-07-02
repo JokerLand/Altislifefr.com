@@ -126,7 +126,7 @@ class CarShops {
 			{ "Jonzie_Tanker_Truck", { "", "", -1 } },
 			{ "B_Truck_01_box_F", { "", "", -1 } },
 			{ "Jonzie_Box_Truck", { "", "", -1 } },
-			{ "ALFR_GeK_Scania_420", { "", "", -1 } ,
+			{ "ALFR_GeK_Scania_420", { "", "", -1 },
 			{ "GeK_Renault_Magnum", { "", "", -1 } },
 			{ "ALFR_GeK_Volvo_FH16_2012", { "", "", -1 } },
             { "GeK_Iveco_Stralis", { "", "", -1 } }
@@ -3512,7 +3512,7 @@ class LifeCfgVehicles {
 		price = 55000;
 	};
     
-    class  ALFR_GeK_Scania_420: Default {
+    class  ALFR_GeK_Scania_420 {
 		vItemSpace = 550;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
 		price = 48000;
@@ -3562,7 +3562,7 @@ class LifeCfgVehicles {
 		};
 	};
     
-    class  GeK_Renault_Magnum: Default {
+    class  GeK_Renault_Magnum {
 		vItemSpace = 600;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
 		price = 62000;
@@ -3612,7 +3612,7 @@ class LifeCfgVehicles {
 		};
 	};
 
-    class  ALFR_GeK_Volvo_FH16_2012: Default {
+    class  ALFR_GeK_Volvo_FH16_2012 {
 		vItemSpace = 700;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
 		price = 76000;
@@ -3664,7 +3664,7 @@ class LifeCfgVehicles {
 		};
 	};
     
-    class  GeK_Iveco_Stralis: Default {
+    class  GeK_Iveco_Stralis {
 		vItemSpace = 750;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
 		chopShop = 86000;
@@ -3721,7 +3721,7 @@ class LifeCfgVehicles {
         textures[] = { };
     };
     
-    class  Jonzie_Tanker_Truck: Default {
+    class Jonzie_Tanker_Truck: Default {
 		vItemSpace = 450;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
 		price = 42000;
