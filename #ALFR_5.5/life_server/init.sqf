@@ -84,18 +84,6 @@ if (LIFE_SETTINGS(getNumber,"save_civilian_position_restart") isEqualTo 1) then 
 master_group attachTo[bank_obj,[0,0,0]];
 
 {
-    _hs = createVehicle ["Land_Hospital_main_F", [0,0,0], [], 0, "NONE"];
-    _hs setDir (markerDir _x);
-    _hs setPosATL (getMarkerPos _x);
-    _var = createVehicle ["Land_Hospital_side1_F", [0,0,0], [], 0, "NONE"];
-    _var attachTo [_hs, [4.69775,32.6045,-0.1125]];
-    detach _var;
-    _var = createVehicle ["Land_Hospital_side2_F", [0,0,0], [], 0, "NONE"];
-    _var attachTo [_hs, [-28.0336,-10.0317,0.0889387]];
-    detach _var;
-} forEach ["hospital_2","hospital_3"];
-
-{
     if (!isPlayer _x) then {
         _npc = _x;
         {
