@@ -12,7 +12,7 @@ _robber = [_this,1,ObjNull,[ObjNull]] call BIS_fnc_param; //Can you guess? Alrig
 
 if(side _robber != civilian) exitWith { hint "Vous ne pouvez pas braquer ce concessionnaire de véhicule de luxe !" };
 _cops = (west countSide playableUnits);
-if(_cops < 1) exitWith{hint "Il n'y a pas assez de policiers pour braquer le concessionnaire de luxe ! (6)";};
+if(_cops < 0) exitWith{hint "Il n'y a pas assez de policiers pour braquer le concessionnaire de luxe ! (6)";};
 if(_robber distance _shop > 10) exitWith { hint "Vous devez rester a moins de 10m du patron !" };
 if (vehicle player != _robber) exitWith { hint "Impossible de braquer depuis le vehicule" };
 if !(alive _robber) exitWith {};
