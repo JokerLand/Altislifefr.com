@@ -9,7 +9,6 @@ StartProgress = false;
 
 [] execVM "briefing.sqf"; //Load Briefing
 [] execVM "KRON_Strings.sqf";
-[] spawn life_fnc_autoMessages; 
 
 //Menu Admin
 [] execVM "Anticheat.sqf";
