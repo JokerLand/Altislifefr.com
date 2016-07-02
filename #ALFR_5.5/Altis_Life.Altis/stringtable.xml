@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project name="Altis Life RPG">
     <Package name="Shop_Names">
         <Key ID="STR_Shops_C_Bruce">
@@ -7156,7 +7156,7 @@
             <Polish>Kontroluje czy gracze będą mieli nad głowami swoje Tagi z nazwą</Polish>
         </Key>
         <Key ID="STR_GUI_ShopStock">
-            <Original>Shop Stock</Original>
+            <Original>Stock Concessionnaire</Original>
             <Czech>Obchod Sklad</Czech>
             <Spanish>Inventario de la Tienda</Spanish>
             <German>Lagerbestand</German>
