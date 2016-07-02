@@ -1,4 +1,4 @@
-disableChannels[]={{0,true,true},{1,true,true},{2,true,true},{3,true,true},{4,true,true},{5,false,true}};    // Disabled text and voice for global, side, and command channels. disableChannels[] = {{channelID<number>, disableChat<bool>, disableVoice<bool>}};
+disableChannels[]={{0,true,true},{1,true,true},{2,true,true},{3,false,false},{4,true,true},{5,false,false}};    // Disabled text and voice for global, side, and command channels. disableChannels[] = {{channelID<number>, disableChat<bool>, disableVoice<bool>}};
 
 #include "Config_Spyglass.hpp"
 #include "CfgRemoteExec.hpp"
