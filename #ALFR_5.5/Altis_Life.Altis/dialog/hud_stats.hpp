@@ -1,13 +1,17 @@
 #define COLOR_HALF_BLACK { 0, 0, 0, 0.5 }
 /*
-	Author: Sakzy - AltisLifeFR.com
+	Author: Artkyom - AltisLifeFR.com
 
 	File: hud_stats.hpp
 */
 
 class playerHUD {
 	idd = -1;
+<<<<<<< HEAD
 	duration = INFINITE;
+=======
+	duration = 10e10;
+>>>>>>> parent of 337b88a... #5.5_try_fix_hud
 	movingEnable = 0;
 	fadein = 0;
 	fadeout = 0;
