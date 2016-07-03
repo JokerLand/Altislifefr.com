@@ -144,6 +144,13 @@ class CfgSounds
 		titles[] = {};
 
 	};
+	
+	class alarme_magasin
+    {
+        name = "alarme_magasin";
+        sound[] = {"\sounds\alarme_magasin.ogg", 1, 1};
+        titles[] = {};
+	};
 
 	class Mining
     {
