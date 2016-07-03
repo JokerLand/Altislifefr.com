@@ -75,3 +75,5 @@ sleep (_onScreenTime);
 [_role5, _role5names]
 
 ];
+
+[] call life_fnc_hudUpdate;
