@@ -5,6 +5,7 @@
 */
 
 private [ "_camera", "_welcomeMessage", "_camDistance" ];
+[] call life_fnc_hudUpdate;
 _welcomeMessage = format["Bienvenue sur AltisLifeFr.com %1",format["%1", name player]];
 _camDistance = 40;
 waitUntil { alive player };
