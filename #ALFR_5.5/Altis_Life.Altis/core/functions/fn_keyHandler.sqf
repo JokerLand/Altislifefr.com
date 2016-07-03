@@ -430,9 +430,9 @@ switch (_code) do {
                             _veh animateDoor ['DoorL_Back_Open',1];
                             _veh animateDoor ['DoorR_Back_Open ',1];
                         };
-						hint composeText [ image "icons\unlock.paa", "  Véhicule déverrouillé" ];
+						hint composeText [ image "icons\unlock.paa", "  Vehicule deverrouille" ];
 						_veh say3D "Beep";
-                        [_veh,"UnlockCarSound"] remoteExec ["life_fnc_say3D",RANY];
+                        //[_veh,"UnlockCarSound"] remoteExec ["life_fnc_say3D",RANY];
                     } else {
                         if (local _veh) then {
                             _veh lock 2;
@@ -483,7 +483,7 @@ switch (_code) do {
                         };
 						hint composeText [ image "icons\lock.paa", "  Vehicule ferme" ];
 						_veh say3D "BeepBeep";	
-                        [_veh,"LockCarSound"] remoteExec ["life_fnc_say3D",RANY];
+                        //[_veh,"LockCarSound"] remoteExec ["life_fnc_say3D",RANY];
                     };
                 };
             };
