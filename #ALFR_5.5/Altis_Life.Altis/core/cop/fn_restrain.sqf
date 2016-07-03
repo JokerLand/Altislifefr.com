@@ -34,7 +34,7 @@ titleText[format[localize "STR_Cop_Restrained",_cop getVariable ["realname",name
 
 life_disable_getIn = true;
 life_disable_getOut = false;
-
+        player say3D "cuff";
 while {player getVariable  "restrained"} do {
     if (isNull objectParent player) then {
         player playMove "AmovPercMstpSnonWnonDnon_Ease";
@@ -88,6 +88,7 @@ while {player getVariable  "restrained"} do {
 
 if (alive player) then {
     player switchMove "AmovPercMstpSlowWrflDnon_SaluteIn";
+    player say3D "cuff";
     player setVariable ["Escorting",false,true];
     player setVariable ["transporting",false,true];
     detach player;

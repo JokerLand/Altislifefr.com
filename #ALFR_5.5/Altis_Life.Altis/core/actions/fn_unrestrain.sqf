@@ -13,6 +13,7 @@ if (isNull _unit || !(_unit getVariable ["restrained",FALSE])) exitWith {}; //Er
 _unit setVariable ["restrained",FALSE,TRUE];
 _unit setVariable ["Escorting",FALSE,TRUE];
 _unit setVariable ["transporting",FALSE,TRUE];
+player say3D "cuff";
 detach _unit;
 
 [0,"STR_NOTF_Unrestrain",true,[_unit getVariable ["realname",name _unit], profileName]] remoteExecCall ["life_fnc_broadcast",west];
