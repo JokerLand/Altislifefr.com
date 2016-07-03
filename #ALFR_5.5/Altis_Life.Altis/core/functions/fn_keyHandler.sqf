@@ -6,7 +6,7 @@
 *    Description:
 *    Main key handler for event 'keyDown'
 */
-private ["_handled","_shift","_alt","_code","_ctrl","_alt","_ctrlKey","_veh","_locked","_interactionKey","_mapKey","_interruptionKeys"];
+private ["_handled","_shift","_alt","_code","_ctrl","_alt","_ctrlKey","_veh","_locked","_interactionKey","_mapKey","_interruptionKeys","_curTarget"];
 _ctrl = _this select 0;
 _code = _this select 1;
 _shift = _this select 2;
@@ -17,6 +17,7 @@ _handled = false;
 _barriere = nearestObject [player, "RoadBarrier_F"];
 _cone = nearestObject [player, "RoadCone_F"];
 _spikeStrip = nearestOBject [player, "ALFR_Herse_F"];
+_curTarget = cursorTarget;
 
 _interactionKey = if (count (actionKeys "User10") isEqualTo 0) then {219} else {(actionKeys "User10") select 0};
 _mapKey = (actionKeys "ShowMap" select 0);
@@ -289,6 +290,16 @@ switch (_code) do {
 	// O : Ouvre les bornes
     case 24: {
 	[] call life_fnc_copOpener
+	};
+	
+	//Bloquage d'ouverture d'inventaire lorsque le joueur est proche de panneaux
+ 	case 23:
+ 	{
+ 		if (((player distance "Land_InfoStand_V2_F") < 10) || ((player distance "Land_InfoStand_V1_F") < 10)) then
+ 		{
+ 			closeDialog 0;
+ 			cutText [format["Vous ne pouvez pas ouvrir votre inventaire à moins de 10 mètres d'un panneau !"], "PLAIN DOWN"];
+ 		};
 	};
 	
 	//Takwondo(f5)
