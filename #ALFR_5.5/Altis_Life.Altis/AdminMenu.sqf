@@ -9,7 +9,7 @@
 
   /* Configuration */
 
-Admin_List = compileFinal "['76561198065064060','76561198134471438','76561198047615445','76561198085115832','76561198065064060','76561198047992077','76561197961947580','76561197998164895','76561198081857755','_SP_PLAYER_']";		//replace these with your admin player UIDS (steamID64)
+Admin_List = compileFinal "['76561198018721225','76561198134471438','76561198047615445','76561198085115832','76561198047992077','76561197961947580','76561197998164895','76561198081857755','_SP_PLAYER_']";		//replace these with your admin player UIDS (steamID64)
 
 /* End Configuration */
 
@@ -82,8 +82,8 @@ if(isServer) then {
 			} forEach vehicles;
 			format["%1 has deleted all the vehicles!",name _object] call SERVER_LOG;
 			[{hint "All Dead And Empty Vehicles Have Been Removed!";},"BIS_fnc_Spawn",_object,false] call AH_fnc_MP;
-*/		};
-	};
+		};
+*/	};
 	AH_Menu_TPAHere = {
 		_object = _this;
 		if(_object call AH_AdminCheck) then {
