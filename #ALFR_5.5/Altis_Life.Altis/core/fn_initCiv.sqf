@@ -37,7 +37,5 @@ player addRating 9999999;
 
 //Intro
 [] execVM "msgbienvenueCiv.sqf";
-//Bar de statut en bas a droite
-[] execVM "statusBar.sqf";
 //Pour ouvrir les portes du comico
 player setVariable ["copLevel",1,true];

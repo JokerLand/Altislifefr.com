@@ -29,9 +29,5 @@ player setVariable["rank",(FETCH_CONST(life_coplevel)),true];
 waitUntil{!isNull (findDisplay 38500)}; //Wait for the spawn selection to be open.
 waitUntil{isNull (findDisplay 38500)}; //Wait for the spawn selection to be done.
 
-
-//Bar de statut en bas a droite
-[] execVM "statusBar.sqf";
-
 //Pour ouvrir les portes du comico
 player setVariable ["copLevel",1,true];
