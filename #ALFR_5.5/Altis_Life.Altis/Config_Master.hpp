@@ -19,7 +19,7 @@ class Life_Settings {
     /* Player Data Saving */
     save_virtualItems = true; //Save Virtual items (all sides)?
     saved_virtualItems[] = { "pickaxe","fuelEmpty","fuelFull", "spikeStrip", "lockpick", "defuseKit","storageSmall","storageBig","redgull","coffee","waterBottle","apple","peach","tbacon","donuts","rabbit","salema","ornate","mackerel","tuna","mullet","catshark","turtle_soup","hen","rooster","sheep","goat","defibrillator","toolkit","johnpasseport","michealpasseport","michealpasseport","tompasseport","marcelpasseport","marcpasseport","nathanpasseport","francispasseport","deweypasseport","halpasseport","craigpasseport","ericpasseport","joshuapasseport","dougpasseport","richardpasseport","anthonypasseport","leonpasseport","tracypasseport","nikkipasseport","monicapasseport","monicapasseport","mariepasseport","mirandapasseport","christinapasseport","ericapasseport","jingmeipasseport" }; //Array of virtual items that can be saved on your player.
-    save_playerStats = true; //Save food, water and damage (all sides)?
+    save_playerStats = false; //Save food, water and damage (all sides)?
     save_civilian_weapons = true; //Allow civilians to save weapons on them?
     save_civilian_position = false; //Save civilian location?
     save_civilian_position_restart = false; //Save civilian location only between restarts. After a server restart you'll have to spawn again.
@@ -66,7 +66,7 @@ class Life_Settings {
     gang_upgradeMultiplier = 2.5; //CURRENTLY NOT IN USE
 
     /* Housing System Configurations */
-    house_limit = 3; //Maximum number of houses a player can own.
+    house_limit = 2; //Maximum number of houses a player can own.
 
     /* Hunting & Fishing System Configurations */
     animaltypes_fish[] = { "Salema_F", "Ornate_random_F", "Mackerel_F", "Tuna_F", "Mullet_F", "CatShark_F", "Turtle_F" }; //Classnames of fish you can catch
