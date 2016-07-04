@@ -34,13 +34,12 @@ class CfgFunctions {
         class Wanted_Sys {
             file = "\life_server\Functions\WantedSystem";
             class wantedFetch {};
-			class wantedPerson {};
-			class wantedBounty {};
-			class wantedTicket {};
-			class wantedPardon {};
-			class wantedRemove {};
-			class wantedAdd {};
-			class wantedPunish {};
+            class wantedPerson {};
+            class wantedBounty {};
+            class wantedRemove {};
+            class wantedAdd {};
+            class wantedCrimes {};
+            class wantedProfUpdate {};
         };
 
         class Jail_Sys {
