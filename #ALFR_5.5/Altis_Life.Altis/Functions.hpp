@@ -151,7 +151,6 @@ class Life_Client_Core {
         class ticketPay {};
         class ticketPrompt {};
         class vehInvSearch {};
-        class wantedGrab {};
     };
 
     class Dialog_Controls {
@@ -388,7 +387,6 @@ class Life_Client_Core {
         class settingsMenu {};
         class updateViewDistance {};
         class useItem {};
-        class wantedAddP {};
         class wantedInfo {};
         class wantedList {};
         class wantedMenu {};
