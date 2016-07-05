@@ -17,7 +17,7 @@
 class WeaponShops {
     //Armory Shops
     class gun {
-        name = "Armurerie Civile";
+        name = "Armurerie Civil";
         side = "civ";
         license = "gun";
         level[] = { "", "", -1, "" };
@@ -38,7 +38,7 @@ class WeaponShops {
     };
 
     class rebel {
-        name = "Magasin Jïhadiste";
+        name = "Magasin Rebel";
         side = "civ";
         license = "rebel";
         level[] = { "", "", -1, "" };
