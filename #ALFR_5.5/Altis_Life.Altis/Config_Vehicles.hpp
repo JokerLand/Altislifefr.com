@@ -137,8 +137,10 @@ class CarShops {
         side = "civ";
         vehicles[] = {
             { "C_Heli_Light_01_civil_F", { "", "", -1 } },
-            { "B_Heli_Light_01_F", { "", "", -1 } },
-            { "O_Heli_Light_02_unarmed_F", { "", "", -1 } }
+			{ "GNT_C185", { "", "", -1 } },
+			{ "O_Heli_Light_02_unarmed_F", { "", "", -1 } },
+			{ "I_Heli_Transport_02_F", { "", "", -1 } },
+			{ "B_Heli_Transport_03_unarmed_F", { "", "", -1 } }
         };
     };
 
@@ -4148,6 +4150,66 @@ will modify the virtual space and the price of the vehicle, but other informatio
         };
     };
     
+    class  C_Heli_Light_01_civil_F: Default {
+		vItemSpace = 5;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 1000, 1000, 1000, 1000 };
+		chopShop = 90000;
+		textures[] = {
+        	{ "Police", "cop", {
+                "ALFR_Force\data\vehicule\air\alfr_police_heli_co.paa"
+            } },
+			{ "Black", "fed", {
+	                "\a3\air_f\Heli_Light_01\Data\heli_light_01_ext_ion_co.paa"
+            } },
+			{ "Civ Blue", "civ", {
+	                "\a3\air_f\Heli_Light_01\Data\heli_light_01_ext_blue_co.paa"
+            } },
+			{ "Civ Red", "civ", {
+	                "\a3\air_f\Heli_Light_01\Data\heli_light_01_ext_co.paa"
+            } },
+			{ "Digi Green", "donate", {
+	                "\a3\air_f\Heli_Light_01\Data\heli_light_01_ext_indp_co.paa"
+            } },
+			{ "Blueline", "civ", {
+	                "\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_blueline_co.paa"
+            } },
+			{ "Elliptical", "civ", {
+	                "\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_elliptical_co.paa"
+            } },
+			{ "Furious", "civ", {
+	                "\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_furious_co.paa"
+            } },
+			{ "Jeans Blue", "civ", {
+	                "\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_jeans_co.paa"
+            } },
+			{ "Speedy Redline", "civ", {
+	                "\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_speedy_co.paa"
+            } },
+			{ "Sunset", "civ", {
+	                "\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_sunset_co.paa"
+            } },
+			{ "Vrana", "civ", {
+	                "\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_vrana_co.paa"
+            } },
+			{ "Waves Blue", "civ", {
+	                "\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_wave_co.paa"
+            } },
+			{ "Rebel Digital", "reb", {
+	                "\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_digital_co.paa"
+            } },
+            { "Armer", "armer", {
+                "alfr_Arm\data\ALFR_lite_armee.jpg"
+            } },
+			{ "Monster", "civ", {
+                "ALFR_TexSnd\M900_Monster.paa"
+            } },
+			{ "Rebelle", "reb", {
+                "ALFR_TexSnd\Hummingbird_Metallique_Urbain.paa"
+            } }
+        };
+	};
+    
     class GR_Bell412_1 {
 		vItemSpace = 5;
         licenses[] = { {""}, {""}, {"mAir"}, {""} };
@@ -4228,7 +4290,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
             } }
         };
     };
-
+    
     class B_SDV_01_F {
         vItemSpace = 50;
         licenses[] = { {"boat"}, {"cg"}, {""}, {""} };
