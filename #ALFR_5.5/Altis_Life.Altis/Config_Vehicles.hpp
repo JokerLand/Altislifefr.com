@@ -623,7 +623,7 @@ class LifeCfgVehicles {
     class C_SUV_01_F {
         vItemSpace = 45;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 5700;
+        price = 19950;
         textures[] = {
         	{ "Rouge Fonce", "civ", {
                 "\a3\soft_f_gamma\SUV_01\Data\suv_01_ext_co.paa"
@@ -658,14 +658,14 @@ class LifeCfgVehicles {
     class GeK_107_Police {
 		vItemSpace = 25;
         licenses[] = { {""}, {""}, {""}, {""} };
-		price = 5000;
+		price = 17500;
         textures[] = {};
 	};	
 
 	class GeK_Renault_Trafic_Police {   
 		vItemSpace = 75;
         licenses[] = { {""}, {""}, {""}, {""} };
-		price = 5000;
+		price = 17500;
 		textures[] = {
 			{ "Police", "cop", {
                 "ALFR_TexSnd\Gek_renault_trafic_police.paa"
@@ -726,14 +726,14 @@ class LifeCfgVehicles {
     class shounka_a3_gendsprinter {
 		vItemSpace = 90;
         licenses[] = { {""}, {""}, {""}, {""} };
-		price = 5000;
+		price = 17500;
 		textures[] = {};
 	};
 	
     class C_Offroad_01_F {
         vItemSpace = 60;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 5700;
+        price = 19950;
        textures[] = {
         	{ "Rouge", "civ", {
                 "\A3\soft_F\Offroad_01\Data\offroad_01_ext_co.paa",
@@ -792,28 +792,28 @@ class LifeCfgVehicles {
     class GeK_Renault_Trafic_Ambulance {
 		vItemSpace = 70;
         licenses[] = { {""}, {""}, {""}, {""} };
-		price = 5000;
+		price = 17500;
         textures[] = {};
 	};
 	
 	class Jonzie_Ambulance {
 		vItemSpace = 80;
         licenses[] = { {""}, {""}, {""}, {""} };
-		price = 5000;
+		price = 17500;
         textures[] = {};
 	};
     
     class zorak_master_ambulance {
 		vItemSpace = 80;
         licenses[] = { {""}, {""}, {""}, {""} };
-		price = 5000;
+		price = 17500;
         textures[] = {};
 	};
 	
     class I_G_Offroad_01_F {
         vItemSpace = 62;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 6000;
+        price = 21000;
 		textures[] = {
 			{ "RockStar", "civ", {
                 "ALFR_TexSnd\offroad_rock.jpg"
@@ -827,7 +827,7 @@ class LifeCfgVehicles {
     class GeK_C30 {
         vItemSpace = 50;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 6750;
+        price = 23625;
 		textures[] = {
 			{ "Noir", "civ", {
                 "#(ai,64,64,1)Fresnel(0.3,3)"
@@ -877,28 +877,28 @@ class LifeCfgVehicles {
     class Jonzie_Datsun_510 {
         vItemSpace = 50;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 8250;
+        price = 28875;
 		textures[] = {};
 	};
 
     class Jonzie_30CSL {
         vItemSpace = 55;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 12000;
+        price = 42000;
 		textures[] = {};
 	};
 
     class Jonzie_Datsun_Z432 {
         vItemSpace = 55;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 13800;
+        price = 48300;
 		textures[] = {};
 	};	
 	
     class zorak_bmw_120i {
         vItemSpace = 55;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 15750;
+        price = 55125;
 		textures[] = {
 
             { "Noir", "civ", {
@@ -952,14 +952,14 @@ class LifeCfgVehicles {
     class Jonzie_Corolla {
         vItemSpace = 60;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 15750;
+        price = 55125;
 		textures[] = {};
 	};	
 	
     class cl3_taurus_black {
         vItemSpace = 64;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 18750;
+        price = 65625;
 		textures[] = {
 			{ "Noir", "civ", {
                 "#(ai,64,64,1)Fresnel(0.3,3)"
@@ -1009,35 +1009,35 @@ class LifeCfgVehicles {
     class Jonzie_Escalade {
         vItemSpace = 65;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 19000;
+        price = 66500;
 		textures[] = {};
 	};	
     
     class Jonzie_XB {
         vItemSpace = 70;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 20500;
+        price = 71750;
 		textures[] = {};
 	};	
     
     class Jonzie_Galant {
         vItemSpace = 75;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 21500;
+        price = 75250;
 		textures[] = {}; 
 	};	
     
     class Jonzie_Mini_Cooper_R_spec {
         vItemSpace = 30;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 22000;
+        price = 77000;
 		textures[] = {};
 	};	
     
     class cl3_e60_m5_black {
         vItemSpace = 40;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 23000;
+        price = 80500;
 		textures[] = {
 
             { "Noir", "civ", {
@@ -1088,7 +1088,7 @@ class LifeCfgVehicles {
     class GeK_Supra {
         vItemSpace = 40;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 23000;
+        price = 80500;
 		textures[] = {
 
             { "Noir", "civ", {
@@ -1139,7 +1139,7 @@ class LifeCfgVehicles {
     class cl3_e63_amg_black {
         vItemSpace = 30;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 24000;
+        price = 84000;
 		textures[] = {
 
 			{ "Noir", "civ", {
@@ -1190,7 +1190,7 @@ class LifeCfgVehicles {
     class cl3_dodge_charger_s_black {
         vItemSpace = 35;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 29500;
+        price = 103250;
 		textures[] = {
 
 			{ "Noir", "civ", {
@@ -1241,7 +1241,7 @@ class LifeCfgVehicles {
     class GeK_ElCamino {
         vItemSpace = 35;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 32000;
+        price = 112000;
 		textures[] = {
 
 			{ "Noir", "civ", {
@@ -1292,7 +1292,7 @@ class LifeCfgVehicles {
     class GeK_TLC100 {  
         vItemSpace = 55;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 52000;
+        price = 182000;
 		textures[] = {
 
 			{ "Noir", "civ", {
@@ -1346,7 +1346,7 @@ class LifeCfgVehicles {
     class GeK_TLC100_Police {    
         vItemSpace = 55;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 5000;
+        price = 17500;
 		textures[] = {
 
 			{ "Police", "cop", {
@@ -1362,21 +1362,21 @@ class LifeCfgVehicles {
     class GeK_TLC100_Medic {
         vItemSpace = 55;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 5000;
+        price = 175000;
 		textures[] = {};
 	};
     
     class GeK_Yukon {
 		vItemSpace = 50;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 49500;
+        price = 173250;
 		textures[] = {};
 	};
     
     class cl3_q7_black {
         vItemSpace = 55;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 30000;
+        price = 105000;
 		textures[] = {
 
 			{ "Noir", "civ", {
@@ -1427,7 +1427,7 @@ class LifeCfgVehicles {
     class GeK_A45 {
         vItemSpace = 35;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 35000;
+        price = 122500;
 		textures[] = {
 
             { "Noir", "civ", {
@@ -1481,21 +1481,21 @@ class LifeCfgVehicles {
     class wirk_cayenne {
         vItemSpace = 55;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 35000;
+        price = 122500;
 		textures[] = {}; 
 	};	
     
     class Jonzie_Quattroporte {
         vItemSpace = 30;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 48000;
+        price = 168000;
 		textures[] = {};
 	};	
     
     class zorak_mazda_rx8 {  
         vItemSpace = 30;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 23000;
+        price = 80500;
 		textures[] = {
 
             { "Noir", "civ", {
@@ -1550,7 +1550,7 @@ class LifeCfgVehicles {
     class GeK_S60 {
         vItemSpace = 40;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 42500;
+        price = 148750;
 		textures[] = {
 
 			{ "Noir", "civ", {
@@ -1601,21 +1601,21 @@ class LifeCfgVehicles {
     class GeK_S60_Police { 
         vItemSpace = 40;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 5000;
+        price = 17500;
 		textures[] = {};
 	};
     
     class gek_audi_a4_avant_police {
 		vItemSpace = 55;
         licenses[] = { {""}, {""}, {""}, {""} };
-		price = 5000;
+		price = 17500;
         textures[] = {};
 	};
 
     class GeK_ML63_Police {
 		vItemSpace = 65;
         licenses[] = { {""}, {""}, {""}, {""} };
-		price = 5000;
+		price = 17500;
         textures[] = {};
 	};
     
@@ -1623,42 +1623,42 @@ class LifeCfgVehicles {
     class zorak_mazda_rx8_police {
         vItemSpace = 35;
         licenses[] = { {""}, {""}, {""}, {""} };
-		price = 5000;
+		price = 17500;
         textures[] = {};
     };
 	
     class GeK_Impreza_Police {
 		vItemSpace = 40;
         licenses[] = { {""}, {""}, {""}, {""} };
-		price = 5000;
+		price = 17500;
         textures[] = {};
 	};
 
     class Mrshounka_ducati_police_p {
 		vItemSpace = 5;
         licenses[] = { {""}, {""}, {""}, {""} };
-		price = 5000;
+		price = 17500;
         textures[] = {};
 	};
 	
 	class GeK_C63_Police {
 		vItemSpace = 45;
         licenses[] = { {""}, {""}, {""}, {""} };
-		price = 5000;
+		price = 17500;
         textures[] = {};
 	};		
 
 	class ALFR_GeK_Panamera_Police {
 		vItemSpace = 40;
         licenses[] = { {""}, {""}, {""}, {""} };
-		price = 5000;
+		price = 17500;
         textures[] = {};
 	};
 
 	class I_MRAP_03_F {
         vItemSpace = 60;
         licenses[] = { {""}, {""}, {""}, {""} };
-        price = 5000;
+        price = 17500;
         textures[] = {
 			{ "Police", "cop", {
                 "ALFR_TexSnd\strider_police_altis.jpg"
@@ -1676,42 +1676,42 @@ class LifeCfgVehicles {
     class ALFR_GeK_Panamera_Police_ST {
 		vItemSpace = 40;
         licenses[] = { {""}, {""}, {""}, {""} };
-		price = 5000;
+		price = 17500;
         textures[] = {};
 	};
 
     class zorak_audi_rs6_police {
         vItemSpace = 50;
         licenses[] = { {""}, {""}, {""}, {""} };
-		price = 5000;
+		price = 17500;
         textures[] = {};
     };
 
 	class cg_h2_sert {
 		vItemSpace = 60;
         licenses[] = { {""}, {""}, {""}, {""} };
-		price = 5000;
+		price = 17500;
         textures[] = {};
 	};
     
     class GeK_S60_Medic {
         vItemSpace = 40;
         licenses[] = { {""}, {""}, {""}, {""} };
-        price = 1500;
+        price = 5250;
 		textures[] = {};
 	};
     
     class GeK_S60_Police_ST {
         vItemSpace = 40;
         licenses[] = { {""}, {""}, {""}, {""} };
-        price = 5000;
+        price = 17500;
 		textures[] = {};
 	};
     
     class GeK_CTSV {
         vItemSpace = 35;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 45000;
+        price = 157500;
 		textures[] = {
 
 			{ "Noir", "civ", {
@@ -1765,7 +1765,7 @@ class LifeCfgVehicles {
     class zorak_audi_a6 {
         vItemSpace = 35;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 37000;
+        price = 129500;
 		textures[] = {
 
             { "Noir", "civ", {
@@ -1819,14 +1819,14 @@ class LifeCfgVehicles {
     class zorak_audi_a6_police {
         vItemSpace = 35;
         licenses[] = { {""}, {""}, {""}, {""} };
-        price = 5000;
+        price = 17500;
         textures[] = {};
     };
     
     class GeK_Civilian_H1 {
 		vItemSpace = 75;
 		licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 52000;
+        price = 182000;
         textures[] = {
 
 			{ "Noir", "civ", {
@@ -1877,7 +1877,7 @@ class LifeCfgVehicles {
     class Gek_audi_a4_avant {
         vItemSpace = 40;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 37000;
+        price = 129500;
 		textures[] = {
 
 			{ "Noir", "civ", {
@@ -1928,14 +1928,14 @@ class LifeCfgVehicles {
     class Jonzie_STI {
         vItemSpace = 40;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 23000;
+        price = 80500;
 		textures[] = {};  
 	};
     
     class GeK_Mercedes_ML63 {
         vItemSpace = 45;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 66500;
+        price = 232750;
 		textures[] = {
 
 			{ "Noir", "civ", {
@@ -1986,21 +1986,21 @@ class LifeCfgVehicles {
     class cl3_xr_1000_black {
         vItemSpace = 45;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 66500;
+        price = 200000;
 		textures[] = {};
 	};
     
     class Mrshounka_ducati_p {
         vItemSpace = 45;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 66500;
+        price = 200000;
 		textures[] = {};
 	};
     
     class GeK_Cadillac_Fleetwood_Brougham_85 {
         vItemSpace = 45;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 66500;
+        price = 232750;
 		textures[] = {
 
 			{ "Noir", "civ", {
@@ -2051,7 +2051,7 @@ class LifeCfgVehicles {
     class SAL_IROCCiv {
         vItemSpace = 45;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 66500;
+        price = 232750;
 		textures[] = {
 
 			{ "Noir", "civ", {
@@ -2102,7 +2102,7 @@ class LifeCfgVehicles {
     class GeK_911_1972 {
         vItemSpace = 45;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 66500;
+        price = 232750;
 		textures[] = {
 
 			{ "Noir", "civ", {
@@ -2152,7 +2152,7 @@ class LifeCfgVehicles {
     class AudiA8_Limo {
         vItemSpace = 45;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 66500;
+        price = 232750;
 		textures[] = {
 
 			{ "Noir", "civ", {
@@ -2203,7 +2203,7 @@ class LifeCfgVehicles {
     class cl3_z4_2008_black {
         vItemSpace = 45;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 66500;
+        price = 227500;
 		textures[] = {
 
 			{ "Noir", "civ", {
@@ -2254,7 +2254,7 @@ class LifeCfgVehicles {
     class GeK_C63_AMG {
         vItemSpace = 45;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 66500;
+        price = 232750;
 		textures[] = {
 
 			{ "Noir", "civ", {
@@ -2305,7 +2305,7 @@ class LifeCfgVehicles {
     class zorak_audi_rs6 {
         vItemSpace = 45;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 66500;
+        price = 232750;
 		textures[] = {
 
 			{ "Noir", "civ", {
@@ -2356,7 +2356,7 @@ class LifeCfgVehicles {
     class cl3_arielatom_black {
         vItemSpace = 45;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 66500;
+        price = 232750;
 		textures[] = {
 
 			{ "Noir", "civ", {
@@ -2407,7 +2407,7 @@ class LifeCfgVehicles {
     class wirk_ktm {
         vItemSpace = 45;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 66500;
+        price = 232750;
 		textures[] = {
 
 			{ "Noir", "civ", {
@@ -2458,7 +2458,7 @@ class LifeCfgVehicles {
     class GeK_Camaro {
         vItemSpace = 45;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 66500;
+        price = 232750;
 		textures[] = {
 
 			{ "Noir", "civ", {
@@ -2509,7 +2509,7 @@ class LifeCfgVehicles {
     class cl3_arielatom_race_black {
         vItemSpace = 45;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 66500;
+        price = 232750;
 		textures[] = {
 
 			{ "Noir", "civ", {
@@ -2561,7 +2561,7 @@ class LifeCfgVehicles {
     class cl3_dbs_volante_black {
         vItemSpace = 45;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 66500;
+        price = 232750;
 		textures[] = {
 
 			{ "Noir", "civ", {
@@ -2613,7 +2613,7 @@ class LifeCfgVehicles {
     class cl3_carrera_gt_black {
         vItemSpace = 45;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 66500;
+        price = 232750;
 		textures[] = {
 
 			{ "Noir", "civ", {
@@ -2665,7 +2665,7 @@ class LifeCfgVehicles {
     class GeK_GTR {
         vItemSpace = 45;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 66500;
+        price = 232750;
 		textures[] = {
 
 			{ "Noir", "civ", {
@@ -2717,7 +2717,7 @@ class LifeCfgVehicles {
     class cl3_r8_spyder_black {
         vItemSpace = 45;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 66500;
+        price = 232750;
 		textures[] = {
 
 			{ "Noir", "civ", {
@@ -2769,7 +2769,7 @@ class LifeCfgVehicles {
     class cl3_458_black {
         vItemSpace = 45;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 66500;
+        price = 232750;
 		textures[] = {
 
 			{ "Noir", "civ", {
@@ -2821,7 +2821,7 @@ class LifeCfgVehicles {
     class ALFR_GeK_Panamera {
         vItemSpace = 45;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 66500;
+        price = 232750;
 		textures[] = {
 
 			{ "Noir", "civ", {
@@ -2873,7 +2873,7 @@ class LifeCfgVehicles {
     class cl3_murcielago_black {
         vItemSpace = 45;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 66500;
+        price = 232750;
 		textures[] = {
 
 			{ "Noir", "civ", {
@@ -2924,7 +2924,7 @@ class LifeCfgVehicles {
     class Jonzie_Viper {
         vItemSpace = 45;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 66500;
+        price = 232750;
 		textures[] = {
 
 			{ "Noir", "civ", {
@@ -2976,7 +2976,7 @@ class LifeCfgVehicles {
     class wirk_ferrari_california {
         vItemSpace = 45;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 66500;
+        price = 232750;
 		textures[] = {
 
 			{ "Noir", "civ", {
@@ -3028,7 +3028,7 @@ class LifeCfgVehicles {
     class GeK_Gallardo {
         vItemSpace = 45;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 66500;
+        price = 232750;
 		textures[] = {
 
 			{ "Noir", "civ", {
@@ -3080,7 +3080,7 @@ class LifeCfgVehicles {
     class cl3_reventon_black {
         vItemSpace = 45;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 66500;
+        price = 232750;
 		textures[] = {
 
 			{ "Noir", "civ", {
@@ -3131,7 +3131,7 @@ class LifeCfgVehicles {
     class cl3_veyron_wht_blu {
         vItemSpace = 45;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 66500;
+        price = 232750;
 		textures[] = {
 
 			{ "Noir", "civ", {
@@ -3182,7 +3182,7 @@ class LifeCfgVehicles {
     class ALFR_GeK_MF1 {
         vItemSpace = 45;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 66500;
+        price = 232750;
 		textures[] = {
 
 			{ "Noir", "civ", {
@@ -3233,7 +3233,7 @@ class LifeCfgVehicles {
     class ALFR_GeK_Pagani_Zonda {
         vItemSpace = 45;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 66500;
+        price = 232750;
 		textures[] = {
 
 			{ "Noir", "civ", {
@@ -3285,35 +3285,35 @@ class LifeCfgVehicles {
     class I_Truck_02_medical_F {
         vItemSpace = 150;
         licenses[] = { {""}, {""}, {""}, {""} };
-        price = 25000;
+        price = 87500;
         textures[] = {};
     };
 
     class O_Truck_03_medical_F {
         vItemSpace = 200;
         licenses[] = { {""}, {""}, {""}, {""} };
-        price = 45000;
+        price = 157500;
         textures[] = {};
     };
 
     class B_Truck_01_medical_F {
         vItemSpace = 250;
         licenses[] = { {""}, {""}, {""}, {""} };
-        price = 60000;
+        price = 210000;
         textures[] = {};
     };
 
     class C_Rubberboat {
         vItemSpace = 45;
         licenses[] = { {"boat"}, {""}, {""}, {""} };
-        price = 5000;
+        price = 15000;
         textures[] = { };
     };
 
     class B_Heli_Transport_01_F {
         vItemSpace = 200;
         licenses[] = { {""}, {"cAir"}, {""}, {""} };
-        price = 660000;
+        price = 2310000;
         textures[] = {
 			{ "Police", "cop", {
                 "alfr_police\hawk\hawkav1.jpg",
@@ -3353,7 +3353,7 @@ class LifeCfgVehicles {
     class zorak_jeep_cherokee {
         vItemSpace = 45;
         licenses[] = { {""}, {""}, {""}, {""} };
-        price = 54000;
+        price = 189000;
         textures[] = { };
     };
 
@@ -3395,7 +3395,7 @@ class LifeCfgVehicles {
     class B_G_Offroad_01_F {
         vItemSpace = 40;
         licenses[] = { {"rebel"}, {""}, {""}, {""} };
-        price = 24000;
+        price = 84000;
         textures[] = {
 
 			{ "Guerilla 1", "reb", {
@@ -3490,14 +3490,14 @@ class LifeCfgVehicles {
     class C_Boat_Civil_01_F {
         vItemSpace = 85;
         licenses[] = { {"boat"}, {""}, {""}, {""} };
-        price = 22000;
+        price = 77000;
         textures[] = { };
     };
 
     class C_Boat_Civil_01_police_F {
         vItemSpace = 85;
         licenses[] = { {""}, {"cg"}, {""}, {""} };
-        price = 5000;
+        price = 15000;
         textures[] = { };
     };
 
@@ -3814,7 +3814,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class B_Quadbike_01_F {
         vItemSpace = 25;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 2500;
+        price = 8750;
         textures[] = {
             { "Brown", "cop", {
                 "\A3\Soft_F\Quadbike_01\Data\Quadbike_01_co.paa"
