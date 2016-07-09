@@ -345,28 +345,28 @@ class LifeCfgVehicles {
     class GNT_C185 {
         vItemSpace = 5;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
-        price = 54000;
+        price = 189000;
         textures[] = {};
     };
     
     class GNT_C185F {
         vItemSpace = 5;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
-        price = 54000;
+        price = 189000;
         textures[] = {};
     };
     
     class Jonzie_Mini_Cooper {
         vItemSpace = 20;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 3000;
+        price = 10500;
         textures[] = {};
     };
 	
     class GeK_107 {
         vItemSpace = 25;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 3150;
+        price = 11025;
 		textures[] = {
 			{ "Noir", "civ", {
                 "#(ai,64,64,1)Fresnel(0.3,3)"
@@ -416,7 +416,7 @@ class LifeCfgVehicles {
     class cl3_polo_gti_black {
         vItemSpace = 30;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 3450;
+        price = 12075;
 		textures[] = {
 			{ "Noir", "civ", {
                 "#(ai,64,64,1)Fresnel(0.3,3)"
@@ -466,7 +466,7 @@ class LifeCfgVehicles {
     class cl3_civic_vti_black {
         vItemSpace = 30;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 3500;
+        price = 12250;
 		textures[] = {
 			{ "Noir", "civ", {
                 "#(ai,64,64,1)Fresnel(0.3,3)"
@@ -516,7 +516,7 @@ class LifeCfgVehicles {
     class GeK_Clio {
         vItemSpace = 36;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 3900;
+        price = 13650;
 		textures[] = {
 			{ "Noir", "civ", {
                 "#(ai,64,64,1)Fresnel(0.3,3)"
@@ -566,14 +566,14 @@ class LifeCfgVehicles {
     class Jonzie_Ceed {
         vItemSpace = 40;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 4275;
+        price = 15000;
         textures[] = {};
     };
 		
     class GeK_DS3 {
         vItemSpace = 40;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 4300;
+        price = 15100;
 		textures[] = {
 			{ "Noir", "civ", {
                 "#(ai,64,64,1)Fresnel(0.3,3)"
@@ -3766,7 +3766,7 @@ class LifeCfgVehicles {
     class C_Kart_01_Blu_F {
         vItemSpace = 5;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 27000;
+        price = 100000;
         textures[] = {};
     };
 /*
