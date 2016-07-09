@@ -4151,10 +4151,9 @@ will modify the virtual space and the price of the vehicle, but other informatio
     };
     
     class  C_Heli_Light_01_civil_F: Default {
-		vItemSpace = 5;
-		storageFee[] = { 1000, 1000, 1000, 1000 };
-		garageSell[] = { 1000, 1000, 1000, 1000 };
-		chopShop = 90000;
+        vItemSpace = 5;
+        licenses[] = { {"pilot"}, {"cAir"}, {"mAir"}, {""} };
+        price = 96000;
 		textures[] = {
         	{ "Police", "cop", {
                 "ALFR_Force\data\vehicule\air\alfr_police_heli_co.paa"
