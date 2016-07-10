@@ -4262,11 +4262,6 @@ will modify the virtual space and the price of the vehicle, but other informatio
 		};
 	};
 
-    class C_Heli_Light_01_civil_F : B_Heli_Light_01_F {
-        vItemSpace = 10;
-        price = 90000;
-    };
-
     class O_Heli_Light_02_unarmed_F {
         vItemSpace = 60;
         licenses[] = { {"pilot" }, {""}, {"mAir"}, {""} };
