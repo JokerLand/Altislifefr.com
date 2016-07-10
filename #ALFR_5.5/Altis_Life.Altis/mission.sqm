@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={11415.585,43.85638,14711.045};
-		dir[]={-0.32905555,-0.48519599,0.81016403};
-		up[]={-0.18258998,0.87438995,0.44955492};
-		aside[]={0.92652327,-5.9981539e-007,0.37631562};
+		pos[]={5382.0137,83.703156,17928.482};
+		dir[]={-0.40937698,-0.71187037,-0.57069886};
+		up[]={-0.41494098,0.70229,-0.57845503};
+		aside[]={-0.81257707,1.0448275e-007,0.58288407};
 	};
 };
 binarizationWanted=0;
@@ -240,24 +240,6 @@ class CustomAttributes
 		name="Multiplayer";
 		class Attribute0
 		{
-			property="RespawnTemplates";
-			expression="true";
-			class Value
-			{
-				class data
-				{
-					class type
-					{
-						type[]=
-						{
-							"ARRAY"
-						};
-					};
-				};
-			};
-		};
-		class Attribute1
-		{
 			property="RespawnButton";
 			expression="true";
 			class Value
@@ -272,6 +254,24 @@ class CustomAttributes
 						};
 					};
 					value=1;
+				};
+			};
+		};
+		class Attribute1
+		{
+			property="RespawnTemplates";
+			expression="true";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"ARRAY"
+						};
+					};
 				};
 			};
 		};
@@ -1295,7 +1295,7 @@ class Mission
 			position[]={14001.083,23.290466,18910.758};
 			name="cop_car_2";
 			type="Empty";
-			angle=217.60706;
+			angle=217.60704;
 			id=100;
 		};
 		class Item96
@@ -2000,7 +2000,7 @@ class Mission
 			name="atm_marker_1";
 			type="loc_Tourism";
 			colorName="ColorGreen";
-			angle=3.495224;
+			angle=3.4952238;
 			id=177;
 		};
 		class Item165
@@ -21069,7 +21069,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="this enableSimulation false;  this allowDamage false;  this addAction[localize""STR_MAR_Process_Sand"",life_fnc_processAction,""sand"",0,false,false,"""",' life_inv_sand > 0 && !life_is_processing && !life_action_inUse'];  this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""sand"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""sand"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""sand"",0,false,false,"""",' !license_civ_sand && playerSide isEqualTo civilian '];";
+				init="this enableSimulation false;  this allowDamage false;  this addAction[""Traiter le Sable"",life_fnc_processAction,""sand"",0,false,false,"""",' life_inv_sand > 0 && !life_is_processing'];  this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""sand"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""sand"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""sand"",0,false,false,"""",' !license_civ_sand && playerSide == civilian '];";
 			};
 			id=1569;
 			type="Land_Device_assembled_F";
@@ -21349,7 +21349,7 @@ class Mission
 			position[]={23535.42,93.701828,21083.695};
 			name="air_reb_1";
 			type="Empty";
-			angle=359.05884;
+			angle=359.05881;
 			id=1591;
 			atlOffset=-0.030654907;
 		};
