@@ -8,23 +8,24 @@
     Master handling for processing an item.
     NiiRoZz : Added multiprocess
 */
-private["_vendor","_type","_itemInfo","_oldItem","_newItemWeight","_newItem","_oldItemWeight","_cost","_upp","_hasLicense","_itemName","_oldVal","_ui","_progress","_pgText","_cP","_materialsRequired","_materialsGiven","_text","_filter","_totalConversions","_minimumConversions"];
+private["_vendor","_type","_itemInfo","_oldItem","_newItemWeight","_newItem","_oldItemWeight","_cost","_upp","_hasLicense","_itemName","_oldVal","_ui","_progress","_pgText","_cP","_materialsRequired","_materialsGiven","_noLicenseCost","_text","_filter","_totalConversions","_minimumConversions"];
 _vendor = [_this,0,ObjNull,[ObjNull]] call BIS_fnc_param;
 _type = [_this,3,"",[""]] call BIS_fnc_param;
 //Error check
 if (isNull _vendor || _type isEqualTo "" || (player distance _vendor > 10)) exitWith {};
 life_action_inUse = true;//Lock out other actions during processing.
 
-if (isClass (missionConfigFile >> "ProcessAction" >> _type)) then {
+/*if (isClass (missionConfigFile >> "ProcessAction" >> _type)) then {
     _filter = false;
     _materialsRequired = M_CONFIG(getArray,"ProcessAction",_type,"MaterialsReq");
     _materialsGiven = M_CONFIG(getArray,"ProcessAction",_type,"MaterialsGive");
+    _noLicenseCost = M_CONFIG(getNumber,"ProcessAction",_type,"NoLicenseCost");
     _text = M_CONFIG(getText,"ProcessAction",_type,"Text");
 } else {_filter = true;};
 
 if (_filter) exitWith {life_action_inUse = false;};
 
-_itemInfo = [_materialsRequired,_materialsGiven,(localize format["%1",_text])];
+_itemInfo = [_materialsRequired,_materialsGiven,_noLicenseCost,(localize format["%1",_text])];*/
 if (count _itemInfo isEqualTo 0) exitWith {life_action_inUse = false;};
 
 //Setup vars.
