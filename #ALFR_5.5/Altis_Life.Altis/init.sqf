@@ -15,6 +15,8 @@ StartProgress = false;
 [] execVM "AdminMenu.sqf";
 //Safezone
 [] execVM "safezone.sqf";
+//Météo
+[] execVM "D41_Wetter.sqf";
 
 StartProgress = true;
 
