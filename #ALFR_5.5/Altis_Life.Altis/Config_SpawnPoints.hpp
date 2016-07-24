@@ -60,14 +60,6 @@ class CfgSpawnPoints {
             level[] = { "", "", -1 };
         };
         
-        class Gangster {
-            displayName = "Camp Gangster";
-            spawnMarker = "gangster_spawn_1";
-            icon = "\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa";
-            licenses[] = { { "gangster", true } };
-            level[] = { "", "", -1 };
-        };
-        
         class depan {
             displayName = "QG Dépanneurs";
             spawnMarker = "depan_spawn";

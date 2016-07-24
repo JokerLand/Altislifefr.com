@@ -167,9 +167,9 @@ class CarShops {
 			{ "O_Truck_03_device_F", { "", "", -1 } },
 			{ "O_Truck_03_covered_F", { "", "", -1 } },
 			{ "O_Truck_03_ammo_F", { "", "", -1 } },
-			{ "O_Heli_Transport_04_ammo_F", { "", "", -1 } },
-			{ "O_Heli_Transport_04_bench_F", { "", "", -1 } },
-			{ "O_Heli_Transport_04_covered_F", { "", "", -1 } }
+			{ "O_Heli_Transport_04_ammo_F", { "", "", -1 } },//
+			{ "O_Heli_Transport_04_bench_F", { "", "", -1 } },//
+			{ "O_Heli_Transport_04_covered_F", { "", "", -1 } }//
         };
     };
 
@@ -3360,14 +3360,14 @@ class LifeCfgVehicles {
     class O_Truck_03_transport_F {
         vItemSpace = 900;
         licenses[] = { {"rebel"}, {""}, {""}, {""} };
-        price = 100000;
+        price = 1000000;
         textures[] = { };
     };
 
     class O_Truck_03_device_F {
         vItemSpace = 850;
         licenses[] = { {"rebel"}, {""}, {""}, {""} };
-        price = 114000;
+        price = 1000000;
         textures[] = { };
     };
 
@@ -3391,11 +3391,76 @@ class LifeCfgVehicles {
         price = -1;
         textures[] = {};
     };
+    
+    class UAZ_Unarmed : Default {
+		vItemSpace = 40;
+		licenses[] = { {"rebel"}, {""}, {""}, {""} };
+		price = 215000;
+        textures[] = {};
+	};
+    
+    class GeK_G65 : Default {
+		vItemSpace = 70;
+		licenses[] = { {"rebel"}, {""}, {""}, {""} };
+		price = 290000;
+        textures[] = {};
+	};
+    
+    class GeK_Mercedes_ML63_Rebelle : Default {
+		vItemSpace = 65;
+		licenses[] = { {"rebel"}, {""}, {""}, {""} };
+		price = 1250000;
+		textures[] = {
+
+			{ "Camo", "reb", {
+                "GeK_Mercedes_ML63_Rebelle\data\woodland_camo.paa"
+            } },
+			{ "Camo Urbain", "reb", {
+                "cl3_vehiclefunctions\skins\skin_camo_urban_co.paa"
+            } }
+		};
+	};
+    
+    class GeK_Avalanche : Default {
+		vItemSpace = 50;
+		licenses[] = { {"rebel"}, {""}, {""}, {""} };
+		price = 285000;
+		textures[] = {
+
+			{ "Blanc", "civ", {
+                "GeK_Avalanche\data\AVL_Blanc.paa"
+            } },
+			{ "Bleu", "civ", {
+                "GeK_Avalanche\data\AVL_Bleu.paa"
+            } },
+			{ "Gris", "civ", {
+                "GeK_Avalanche\data\AVL_Gris.paa"
+            } },
+			{ "Gris clair", "civ", {
+                "GeK_Avalanche\data\AVL_Gris_Clair.paa"
+            } },
+			{ "Jaune", "civ", {
+                "GeK_Avalanche\data\AVL_Jaune.paa"
+            } },
+			{ "Noir", "civ", {
+                "GeK_Avalanche\data\AVL_Noir.paa"
+            } },
+			{ "Noir", "reb", {
+                "GeK_Avalanche\data\AVL_Noir.paa"
+            } },			
+			{ "Orange", "civ", {
+                "GeK_Avalanche\data\AVL_Orange.paa"
+            } },
+			{ "Rouge", "civ", {
+                "GeK_Avalanche\data\AVL_Rouge.paa"
+            } }
+		};
+	};
 
     class B_G_Offroad_01_F {
         vItemSpace = 40;
         licenses[] = { {"rebel"}, {""}, {""}, {""} };
-        price = 84000;
+        price = 150000;
         textures[] = {
 
 			{ "Guerilla 1", "reb", {
@@ -3446,7 +3511,7 @@ class LifeCfgVehicles {
     class B_G_Offroad_01_armed_F {
         vItemSpace = 65;
         licenses[] = { {"rebel"}, {""}, {""}, {""} };
-        price = 106000;
+        price = 1500000;
         textures[] = {
             { "Guerilla 1", "reb", {
                 "\a3\soft_f_bootcamp\Offroad_01\Data\offroad_01_ext_ig_01_co.paa"
@@ -3732,7 +3797,7 @@ class LifeCfgVehicles {
     class O_MRAP_02_F {
         vItemSpace = 60;
         licenses[] = { {"rebel"}, {""}, {""}, {""} };
-        price = 129000;
+        price = 1500000;
         textures[] = {
 
 		{ "Reb", "reb", {
@@ -3876,12 +3941,37 @@ will modify the virtual space and the price of the vehicle, but other informatio
         };
     };
 
-    class O_Truck_03_covered_F {
+    class O_Truck_03_covered_F {  
         vItemSpace = 1000;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
-        price = 124000;
+        price = 1350000;
         textures[] = {};
     };
+    
+    class O_Truck_03_ammo_F {  
+        vItemSpace = 850;
+        licenses[] = { {"trucking"}, {""}, {""}, {""} };
+        price = 1500000;
+        textures[] = {};
+    };
+    
+    class O_Heli_Transport_04_covered_F {
+		vItemSpace = 5;
+        licenses[] = { {"trucking"}, {""}, {""}, {""} };
+		price = 1130000;
+	};
+
+	class O_Heli_Transport_04_ammo_F { 
+		vItemSpace = 5;
+        licenses[] = { {"trucking"}, {""}, {""}, {""} };
+		price = 1500000;
+	};
+    
+    class O_Heli_Transport_04_bench_F {  
+		vItemSpace = 5;
+        licenses[] = { {"trucking"}, {""}, {""}, {""} };
+		price = 1000000;
+	};
 
     class C_Hatchback_01_F {
         vItemSpace = 40;
@@ -4091,7 +4181,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class B_Heli_Light_01_F {
         vItemSpace = 5;
         licenses[] = { {"pilot"}, {"cAir"}, {"mAir"}, {""} };
-        price = 96000;
+        price = 225000;
         textures[] = {
         	{ "Police", "cop", {
                 "ALFR_Force\data\vehicule\air\alfr_police_heli_co.paa"

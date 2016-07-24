@@ -202,14 +202,16 @@ class Licenses {
         side = "civ";
     };
     
-    class gangster {
+    /*class gangster {
         variable = "gangster";
         displayName = "STR_License_Gangster";
         price = 550000;
         illegal = true;
         side = "civ";
     };	
+    */
 
+    
     class rebel {
         variable = "rebel";
         displayName = "STR_License_Rebel";

@@ -489,7 +489,7 @@ class Clothing {
     };
 
     //Shop Gangster
-    class gangster {
+    /*class gangster {
 		title = "La boutique du Parrain";
 		license = "gangster";
 		side = "civ";
@@ -642,6 +642,7 @@ class Clothing {
 			{ "TRYK_B_Carryall_blk", "", 1000, { "", "", -1 } }
 		};
 	};
+    */
 	
     //Shop Rebelle
     class reb {
