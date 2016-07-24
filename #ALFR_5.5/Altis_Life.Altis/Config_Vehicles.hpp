@@ -4243,7 +4243,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class  C_Heli_Light_01_civil_F: Default {
         vItemSpace = 5;
         licenses[] = { {"pilot"}, {"cAir"}, {"mAir"}, {""} };
-        price = 96000;
+        price = 75000;
 		textures[] = {
         	{ "Police", "cop", {
                 "ALFR_Force\data\vehicule\air\alfr_police_heli_co.paa"
@@ -4316,14 +4316,32 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class EC635_Unarmed {
 		vItemSpace = 5;
         licenses[] = { {""}, {"cAir"}, {""}, {""} };
-		price = 50000;
-        textures[] = {};
+		price = 180000;
+        textures[] = {};  
+	};
+    
+    class I_Heli_Transport_02_F {
+		vItemSpace = 5;
+        licenses[] = { {"pilot"}, {""}, {""}, {""} };
+		price = 1000000;
+        textures[] = {
+        	{ "Ion", "civ", {
+                "\a3\air_f_beta\Heli_Transport_02\Data\Skins\heli_transport_02_1_ion_co.paa",
+                "\a3\air_f_beta\Heli_Transport_02\Data\Skins\heli_transport_02_2_ion_co.paa",
+                "\a3\air_f_beta\Heli_Transport_02\Data\Skins\heli_transport_02_3_ion_co.paa"
+            } },
+            { "Dahoman", "civ", {
+                "\a3\air_f_beta\Heli_Transport_02\Data\Skins\heli_transport_02_1_dahoman_co.paa",
+                "\a3\air_f_beta\Heli_Transport_02\Data\Skins\heli_transport_02_2_dahoman_co.paa",
+                "\a3\air_f_beta\Heli_Transport_02\Data\Skins\heli_transport_02_3_dahoman_co.paa"
+            } }
+        };
 	};
     
     class B_Heli_Transport_03_unarmed_F {
 		vItemSpace = 90;
         licenses[] = { {"pilot"}, {"cAir"}, {"mAir"}, {""} };
-		price = 50000;
+		price = 4500000;
 		textures[] = {
             { "Rouge", "civ", {
                 "ALFR_TexSnd\huronunirouge2.paa",
