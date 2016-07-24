@@ -1,6 +1,12 @@
-Liste des choses à faire : Avec indications de celui qui s'occupe 
+   | Liste des choses Ã  faire : Avec indications de celui qui s'occupe |
 
 
-véhicule aérien ,rajouter les camions
+vÃ©hicule aÃ©rien ,rajouter les camions
 l'econommie vehicule air , camions et rebelle
-+ rajouter les véhicule qui sont dans le shop rebelle à mettre dansle config vehicule
++ rajouter les vÃ©hicule qui sont dans le shop rebelle Ã  mettre dansle config vehicule
+
+//Ressources (John) : 
+
+- Meth & pleins d'autres
+
+//FRET
