@@ -137,6 +137,14 @@ class ProcessAction {
         NoLicenseCost = 1500;
     };
     
+    class try {
+        MaterialsReq[] = {{"cocaine_unprocessed",1},{"heroin_unprocessed",1}};
+        MaterialsGive[] = {{"joint",1}};
+        Text = "STR_Process_Joint";
+        //ScrollText = "Mix Cement";
+        NoLicenseCost = 1500;
+    };
+    
     class meth {
         MaterialsReq[] = {{"phosphore_rouge",1},{"ephedrine",1},{"iode",1}};
         MaterialsGive[] = {{"meth",1}};
