@@ -15,3 +15,12 @@ l'econommie vehicule air , camions et rebelle
 //Donateur (Sakzy)
 -Rajouter les panneaux + le mapping donateur
 -Voir si les classes sont là + les variables définis
+
+//Autre :
+-Remettre un cycle jour nuit (Sakzy)
+
+//Test :
+-Voir et refaire les règles demander à yuricane
+-Vérifier le nombre de policier connecté pour braquer les stations services
+-Vérifier le nombre de policier connecté pour braquer la banque
+-Vérifier les mapping
