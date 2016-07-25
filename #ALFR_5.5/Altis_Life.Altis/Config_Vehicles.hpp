@@ -167,9 +167,9 @@ class CarShops {
 			{ "O_Truck_03_device_F", { "", "", -1 } },
 			{ "O_Truck_03_covered_F", { "", "", -1 } },
 			{ "O_Truck_03_ammo_F", { "", "", -1 } },
-			{ "O_Heli_Transport_04_ammo_F", { "", "", -1 } },//
-			{ "O_Heli_Transport_04_bench_F", { "", "", -1 } },//
-			{ "O_Heli_Transport_04_covered_F", { "", "", -1 } }//
+			{ "O_Heli_Transport_04_ammo_F", { "", "", -1 } },
+			{ "O_Heli_Transport_04_bench_F", { "", "", -1 } },
+			{ "O_Heli_Transport_04_covered_F", { "", "", -1 } }
         };
     };
 
@@ -687,7 +687,7 @@ class LifeCfgVehicles {
 	class GeK_Renault_Trafic_Police {   
 		vItemSpace = 75;
         licenses[] = { {""}, {""}, {""}, {""} };
-		price = 17500;
+		price = 25000;
 		textures[] = {
 			{ "Police", "cop", {
                 "ALFR_TexSnd\Gek_renault_trafic_police.paa"
@@ -698,7 +698,7 @@ class LifeCfgVehicles {
     class GeK_Renault_Trafic {   
 		vItemSpace = 75;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
-		price = 10400;
+		price = 45000;
 		textures[] = {
 			{ "Noir", "civ", {
                 "#(ai,64,64,1)Fresnel(0.3,3)"
@@ -3654,7 +3654,7 @@ class LifeCfgVehicles {
     class B_Truck_01_box_F {
         vItemSpace = 500;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
-        price = 45000;
+        price = 400000;
         textures[] = { };
     };
     
@@ -3869,14 +3869,14 @@ class LifeCfgVehicles {
     class B_Truck_01_transport_F {
         vItemSpace = 400;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
-        price = 39000;
+        price = 200000;
         textures[] = { };
     };
     
     class Jonzie_Tanker_Truck: Default {
 		vItemSpace = 450;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
-		price = 42000;
+		price = 225000;
 	};
 
     class O_MRAP_02_F {
@@ -3999,7 +3999,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class I_Truck_02_covered_F {
         vItemSpace = 350;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
-        price = 32500;
+        price = 100000;
         textures[] = {
             { "Orange", "civ", {
                 "\A3\Soft_F_Beta\Truck_02\data\truck_02_kab_co.paa",
@@ -4014,7 +4014,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class I_Truck_02_transport_F {
         vItemSpace = 200;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
-        price = 25000;
+        price = 75000;
         textures[] = {
             { "Orange", "civ", {
                 "\A3\Soft_F_Beta\Truck_02\data\truck_02_kab_co.paa",
@@ -4095,7 +4095,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class C_Van_01_transport_F {
         vItemSpace = 100;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 12000;
+        price = 40000;
         textures[] = {
             { "White", "civ", {
                 "\a3\soft_f_gamma\Van_01\Data\van_01_ext_co.paa"
@@ -4109,7 +4109,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class cl3_transit_black : Default {
 		vItemSpace = 80;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
-		price = 12000;
+		price = 50000;
 		textures[] = {
 			{ "Noir", "civ", {
                 "#(ai,64,64,1)Fresnel(0.3,3)"
@@ -4159,13 +4159,13 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class cg_rv_camper : Default {
 		vItemSpace = 80;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
-		price = 13000;
+		price = 130000;
 	};
     
     class CL3_bus_cl_black : Default {
 		vItemSpace = 60;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
-		price = 16000;
+		price = 100000;
 		textures[] = {
             { "Police", "cop", {
                 "ALFR_TexSnd\bus_exterior_cop.jpg"
@@ -4179,7 +4179,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class shounka_a3_spr_civ : Default {
 		vItemSpace = 90;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
-		price = 16000;
+		price = 135000;
 		textures[] = {
 			{ "Noir", "civ", {
                 "#(ai,64,64,1)Fresnel(0.3,3)"
@@ -4229,7 +4229,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class C_Van_01_box_F {
         vItemSpace = 150;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
-        price = 18500;
+        price = 60000;
         textures[] = {
             { "White", "civ", {
                 "\a3\soft_f_gamma\Van_01\Data\van_01_ext_co.paa"
