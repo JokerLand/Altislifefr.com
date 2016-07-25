@@ -4034,9 +4034,9 @@ will modify the virtual space and the price of the vehicle, but other informatio
     };
     
     class O_Truck_03_ammo_F {  
-        vItemSpace = 850;
+        vItemSpace = 1250;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
-        price = 1500000;
+        price = 1750000;
         textures[] = {};
     };
     
