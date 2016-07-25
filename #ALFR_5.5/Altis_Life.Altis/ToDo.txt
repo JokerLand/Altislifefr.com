@@ -8,10 +8,10 @@ l'econommie vehicule air , camions et rebelle
 //Ressources (John) : 
 - Meth & pleins d'autres
 
-//FRET (Sakzy) :
+//Fret (Sakzy) :
 -Rajouter panneaux pub addaction dans les 4 grande ville
 -Rajouter les classname dans le script des camions manquants
 
-//Donateur
+//Donateur (Sakzy)
 -Rajouter les panneaux + le mapping donateur
 -Voir si les classes sont là + les variables définis
