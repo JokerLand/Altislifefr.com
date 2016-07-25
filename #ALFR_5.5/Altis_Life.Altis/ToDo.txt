@@ -1,4 +1,4 @@
-   | Liste des choses à faire : Avec indications de celui qui s'occupe |
+﻿   | Liste des choses à faire : Avec indications de celui qui s'occupe |
 
 
 véhicule aérien ,rajouter les camions
@@ -6,7 +6,12 @@ l'econommie vehicule air , camions et rebelle
 |FAIT| + rajouter les véhicule qui sont dans le shop rebelle à mettre dansle config vehicule |FAIT|
 
 //Ressources (John) : 
-
 - Meth & pleins d'autres
 
-//FRET
+//FRET (Sakzy) :
+-Rajouter panneaux pub addaction dans les 4 grande ville
+-Rajouter les classname dans le script des camions manquants
+
+//Donateur
+-Rajouter les panneaux + le mapping donateur
+-Voir si les classes sont là + les variables définis
