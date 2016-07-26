@@ -38,27 +38,95 @@ class WeaponShops {
     };
 
     class rebel {
-        name = "Magasin Rebel";
+        name = "Armurerie Rebelle";
         side = "civ";
         license = "rebel";
         level[] = { "", "", -1, "" };
         items[] = {
-            { "arifle_TRG20_F", "", 25000, -1 },
-            { "arifle_Katiba_F", "", 30000, -1 },
-            { "srifle_DMR_01_F", "", 50000, -1 },
-            { "arifle_SDAR_F", "", 20000, -1 },
-            { "optic_ACO_grn", "", 3500 },
-            { "optic_Holosight", "", 3600 },
-            { "optic_Hamr", "", 7500 },
-            { "acc_flashlight", "", 1000 }
+            { "Rangefinder", "", 5000, -1 },
+            { "hgun_ACPC2_F", "", 25000, -1 },                      //ACP
+            { "hgun_Pistol_heavy_01_F", "", 25000, -1 },            //4-Five
+            { "CUP_hgun_TaurusTracker455_gold", "", 35000, -1 },    //Taurus gold
+            { "CUP_hgun_MicroUzi", "", 55000, -1 },                 //Micro UZI
+            { "arifle_AKS_F", "", 90000, -1 },                      //AKS 74u
+            { "arifle_Mk20_F", "", 120000, -1 },                    //Mk20
+            { "hlc_rifle_aek971_mtk", "", 135000, -1 },             //AEK971
+            { "hlc_rifle_SAMR", "", 140000, -1 },                   //RRA LAR 15
+            { "arifle_SPAR_02_blk_F", "", 150000, -1 },             //SPAR 
+            { "arifle_ARX_hex_F", "", 150000, -1 },                 //TYPE 115
+            { "arifle_CTARS_hex_F", "", 150000, -1 },               //CAR 95
+            { "srifle_DMR_07_hex_F", "", 160000, -1 },              //CMR 76
+            { "hlc_rifle_stgw57_commando", "", 160000, -1 },        //SIG STGW Commando
+            { "hlc_rifle_stgw57_RIS", "", 160000, -1 },             //SIG.STGW RIS
+            { "hlc_rifle_STG58F", "", 170000, -1 },                 //SIG.58
+            { "arifle_AKM_F", "", 175000, -1 },                     //AKM
+            { "hlc_rifle_M14_Rail", "", 175000, -1 },               //M14 rail
+            { "hlc_rifle_m14sopmod", "", 175000, -1 },              //M14 sopmod
+            { "srifle_DMR_01_F", "", 180000, -1 },                  //Rahim
+            { "srifle_DMR_03_woodland_F", "", 190000, -1 },         //MK-I
+            { "srifle_DMR_03_multicam_F", "", 190000, -1 },
+            { "srifle_DMR_03_khaki_F", "", 190000, -1 },
+            { "srifle_DMR_03_tan_F", "", 190000, -1 },
+            { "arifle_SPAR_03_khk_F", "", 200000, -1 },
+            { "arifle_AK12_F", "", 200000, -1 },                    //AK12
+            { "hlc_rifle_awMagnum_FDE_ghillie", "", 350000, -1 },   //AWM
+            { "R3F_FRF2_DES", "", 350000, -1 },                     //FRF2
+            { "LMG_Zafir_F", "", 400000, -1 },                      //Zafir
+            { "R3F_PGM_Hecate_II_DES", "", 600000, -1 },            //Hecate II
+            { "R3F_TAC50", "", 600000, -1 }                         //McMillan
         };
         mags[] = {
-            { "30Rnd_556x45_Stanag", "", 300 },
-            { "30Rnd_65x39_caseless_green", "", 275 },
-            { "10Rnd_762x54_Mag", "", 500 },
-            { "20Rnd_556x45_UW_mag", "", 125 }
+            { "9Rnd_45ACP_Mag", "", 25 },
+            { "11Rnd_45ACP_Mag", "Chargeur 4-Five", 25 },
+            { "CUP_6Rnd_45ACP_M", "", 30 },
+            { "CUP_30Rnd_9x19_UZI", "", 55 },
+            { "30Rnd_545x39_Mag_F", "Chargeur AKS-74U", 90 },
+            { "30Rnd_556x45_Stanag", "Chargeur MK20", 120 },
+            { "hlc_30Rnd_545x39_B_AK", "Chargeur AEK971", 135 },
+            { "hlc_30rnd_556x45_EPR", "Chargeur RRA LAR-15", 140 },
+            { "150Rnd_556x45_Drum_Mag_Tracer_F", "Chargeur SPAR-16S", 150 },
+            { "30Rnd_65x39_caseless_green", "Chargeur Type 115", 150 },
+            { "100Rnd_580x42_Mag_Tracer_F", "Chargeur CAR-95", 150 },
+            { "20Rnd_650x39_Cased_Mag_F", "Chargeur CMR 76", 160 },
+            { "hlc_24Rnd_75x55_B_stgw", "Chargeur SIG STGW.57 Commando ", 160 },
+            { "hlc_24Rnd_75x55_B_stgw", "Chargeur SIG STGW.57+RIS", 160 },
+            { "hlc_20Rnd_762x51_B_fal", "Chargeur STG.58", 170 },
+            { "30Rnd_762x39_Mag_F", "Chargeur AKM", 175 },
+            { "hlc_20Rnd_762x51_B_M14", "Chargeur Springfield M14", 175 },
+            { "hlc_20Rnd_762x51_B_M14", "Chargeur Troy M14", 175 },
+            { "10Rnd_762x54_Mag", "Chargeur Rahim", 180 },
+            { "20Rnd_762x51_Mag", "Chargeur MK-I", 190 },
+            { "20Rnd_762x51_Mag", "Chargeur SPAR-17", 200 },
+            { "30Rnd_762x39_Mag_F", "Chargeur AK12", 200 },
+            { "hlc_5rnd_300WM_FMJ_AWM", "Chargeur AWM", 350 },
+            { "R3F_10Rnd_762x51_FRF2", "Chargeur FRF2", 350 },
+            { "150Rnd_762x54_Box_Tracer", "Chargeur Zafir", 400 },
+            { "R3F_7Rnd_127x99_PGM", "Chargeur PGM Hecate II", 600 },
+            { "R3F_5Rnd_127x99_TAC50", "Chargeur Mc Millan TAC50", 600 }
         };
-        accs[] = {};
+        accs[] = {
+            { "bipod_03_F_blk", "", 250 },
+            { "R3F_LAMPE_SURB", "", 750 },
+            { "acc_flashlight", "", 750 }, 
+            { "optic_Holosight", "", 1200 },
+            { "R3F_AIMPOINT", "", 1500 },
+            { "FHQ_optic_AIM", "", 1500 },
+            { "FHQ_optic_MARS", "", 1500 },            
+            { "C1987_zeiss_AIM", "", 1500 },
+            { "optic_Hamr", "", 2000 },
+            { "optic_MRCO", "", 2000 },
+            { "optic_Arco", "", 2000 },
+            { "FHQ_optic_AC11704", "", 1500 },
+            { "FHQ_acc_LLM01L", "", 1500 },
+            { "FHQ_acc_ANPEQ15_black", "", 1500 },
+            { "FHQ_optic_ACOG", "", 1500 },
+            { "R3F_EOTECH", "", 1500 },            
+            { "optic_SOS", "", 3000 },
+            { "optic_DMS", "", 3500 },                     
+            { "optic_KHS_blk", "", 1500 },                                 
+            { "optic_AMS", "", 3000 },         
+            { "optic_LRPS", "", 4500 }	
+        };
     };
 
     class gang {
@@ -154,23 +222,67 @@ class WeaponShops {
             { "SmokeShell", "", 100, -1 },
             { "ALFR_Shield_F", "", 1000, -1 },
             { "DDOPP_X26", "", 100, -1 },
+            { "hgun_Pistol_heavy_01_F", "", 1000, -1 },
+            { "hgun_ACPC2_F", "", 1000, -1 },
+            { "R3F_M4S90", "", 3000, -1 },
+            { "arifle_SPAR_01_blk_F", "", 5000, -1 },
             { "SMG_02_F", "", 5000, -1 },
             { "R3F_MP5A5", "", 6000, -1 },
-            { "hlc_smg_mp5k_PDW", "", 5000, -1 },
+            { "hlc_smg_mp5k_PDW", "", 6000, -1 },
+            { "R3F_Famas_G2_HG", "", 7000, -1 },
+            { "hlc_rifle_G36MLIC", "", 8000, -1 },
+            { "arifle_MXM_Black_F", "", 9000, -1 },
+            { "LMG_Mk200_F", "", 15000, -1 },
+            { "hlc_rifle_FAL5061Rail", "", 20000, -1 },
+            { "srifle_EBR_F", "", 20000, -1 },
+            { "srifle_DMR_03_F", "", 20000, -1},
+            { "R3F_HK417L", "", 20000, -1},
+            { "srifle_LRR_F", "", 350000, -1 },
+            { "R3F_PGM_Hecate_II_POLY", "", 400000, -1 }
+        };
+        mags[] = {
+            { "DDOPP_1Rnd_X26", "Chargeur Tazer X26", 10 },
+            { "11Rnd_45ACP_Mag", "Chargeur 4-Five", 10 },
+            { "9Rnd_45ACP_Mag", "Chargeur ACP", 10 },
+            { "R3F_7Rnd_M4S90", "Chargeur Benelli M4 S90", 30 },
+            { "30Rnd_556x45_Stanag", "Chargeur SPAR-16", 50 },
+            { "30Rnd_9x21_Mag", "Chargeur Sting", 50 },
+            { "R3F_30Rnd_9x19_MP5", "Chargeur MP5 A5", 60 },           
+            { "hlc_30Rnd_9x19_B_MP5", "Chargeur HK MP5K", 60 }      
+            { "R3F_30Rnd_556x45_FAMAS", "Chargeur Famas", 10 },
+            { "30Rnd_65x39_caseless_mag", "Chargeur G36", 80 },
+            { "30Rnd_65x39_caseless_mag", "Chargeur MXM", 90 },
+            { "200Rnd_65x39_cased_Box", "Chargeur MK200", 150 },
+            { "hlc_20Rnd_762x51_B_fal", "Chargeur FN FAL", 200 },
+            { "20Rnd_762x51_Mag", "Chargeur MK18 + MK-I", 200 },
+            { "20Rnd_762x51_Mag", "Chargeur MK-I", 200 },
+            { "R3F_20Rnd_762x51_HK417", "Chargeur HK 417", 200 },
+            { "7Rnd_408_Mag", "Chargeur M320", 3500 },
+            { "R3F_7Rnd_127x99_PGM", "Chargeur PGM Hecate II", 4000 }      
+        };
+        accs[] = {
+            { "bipod_03_F_blk", "", 250 },
             { "acc_flashlight", "", 750 },
+            { "R3F_LAMPE_SURB", "", 750 },
             { "optic_Holosight", "", 1200 },
             { "R3F_AIMPOINT", "", 1500 },
             { "FHQ_optic_AIM", "", 1500 },
             { "FHQ_optic_MARS", "", 1500 },            
-            { "C1987_zeiss_AIM", "", 1500 }
+            { "C1987_zeiss_AIM", "", 1500 },
+            { "optic_Hamr", "", 2000 },
+            { "optic_MRCO", "", 2000 },
+            { "optic_Arco", "", 2000 },
+            { "FHQ_optic_AC11704", "", 1500 },
+            { "FHQ_acc_LLM01L", "", 1500 },
+            { "FHQ_acc_ANPEQ15_black", "", 1500 },
+            { "FHQ_optic_ACOG", "", 1500 },
+            { "R3F_EOTECH", "", 1500 },            
+            { "optic_SOS", "", 3000 },
+            { "optic_DMS", "", 3500 },                     
+            { "optic_KHS_blk", "", 1500 },                                 
+            { "optic_AMS", "", 3000 },         
+            { "optic_LRPS", "", 4500 }
         };
-        mags[] = {
-            { "DDOPP_1Rnd_X26", "", 10 },
-            { "R3F_30Rnd_9x19_MP5", "", 60 },
-            { "30Rnd_9x21_Mag", "", 60 },           
-            { "hlc_30Rnd_9x19_B_MP5", "", 60 }      
-        };
-        accs[] = {};
     };
 
     //Armurerie policier
