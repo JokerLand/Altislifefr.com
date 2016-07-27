@@ -35,11 +35,10 @@ class WeaponShops {
             { "9Rnd_45ACP_Mag", "Chargeur ACP-C2", 10 },
             { "11Rnd_45ACP_Mag", "Chargeur 4-Five", 10 },
             { "30Rnd_9x21_Mag_SMG_02", "Chargeur Protector 9mm", 10 },
-            { "30Rnd_9x21_Mag", "Chargeur PDW2000 9mm", 10}
-        };
-        accs[] = {
+            { "30Rnd_9x21_Mag", "Chargeur PDW2000 9mm", 10},
             { "optic_ACO_grn_smg", "", 500 }
         };
+        accs[] = {};
     };
 
     class rebel {
@@ -107,9 +106,7 @@ class WeaponShops {
             { "R3F_10Rnd_762x51_FRF2", "Chargeur FRF2", 350 },
             { "150Rnd_762x54_Box_Tracer", "Chargeur Zafir", 400 },
             { "R3F_7Rnd_127x99_PGM", "Chargeur PGM Hecate II", 600 },
-            { "R3F_5Rnd_127x99_TAC50", "Chargeur Mc Millan TAC50", 600 }
-        };
-        accs[] = {
+            { "R3F_5Rnd_127x99_TAC50", "Chargeur Mc Millan TAC50", 600 },
             { "bipod_03_F_blk", "", 250 },
             { "R3F_LAMPE_SURB", "", 750 },
             { "acc_flashlight", "", 750 }, 
@@ -130,8 +127,9 @@ class WeaponShops {
             { "optic_DMS", "", 3500 },                     
             { "optic_KHS_blk", "", 1500 },                                 
             { "optic_AMS", "", 3000 },         
-            { "optic_LRPS", "", 4500 }	
+            { "optic_LRPS", "", 4500 }
         };
+        accs[] = {};
     };
 
     class gang {
@@ -149,11 +147,10 @@ class WeaponShops {
             { "16Rnd_9x21_Mag", "", 25 },
             { "6Rnd_45ACP_Cylinder", "", 50 },
             { "9Rnd_45ACP_Mag", "", 45 },
-            { "30Rnd_9x21_Mag", "", 75 }
-        };
-        accs[] = {
+            { "30Rnd_9x21_Mag", "", 75 },
             { "optic_ACO_grn_smg", "", 2500 }
         };
+        accs[] = {};
     };
 
     //Basic Shops
@@ -263,9 +260,7 @@ class WeaponShops {
             { "20Rnd_762x51_Mag", "Chargeur MK-I", 200 },
             { "R3F_20Rnd_762x51_HK417", "Chargeur HK 417", 200 },
             { "7Rnd_408_Mag", "Chargeur M320", 3500 },
-            { "R3F_7Rnd_127x99_PGM", "Chargeur PGM Hecate II", 4000 }      
-        };
-        accs[] = {
+            { "R3F_7Rnd_127x99_PGM", "Chargeur PGM Hecate II", 4000 },
             { "bipod_03_F_blk", "", 250 },
             { "acc_flashlight", "", 750 },
             { "R3F_LAMPE_SURB", "", 750 },
@@ -288,6 +283,7 @@ class WeaponShops {
             { "optic_AMS", "", 3000 },         
             { "optic_LRPS", "", 4500 }
         };
+        accs[] = {};
     };
 
     //Armurerie policier
@@ -308,9 +304,7 @@ class WeaponShops {
             { "DDOPP_1Rnd_X26", "Chargeur Taser X26", 10 },
             { "R3F_30Rnd_9x19_MP5", "Chargeur MP5 A5", 60 },
             { "30Rnd_9x21_Mag", "Chargeur Sting", 60 },           
-            { "hlc_30Rnd_9x19_B_MP5", "Chargeur HK MP5K", 60 }      
-        };
-        accs[] = {
+            { "hlc_30Rnd_9x19_B_MP5", "Chargeur HK MP5K", 60 },
             { "acc_flashlight", "", 750 },
             { "optic_Holosight", "", 1200 },
             { "R3F_AIMPOINT", "", 1500 },
@@ -318,6 +312,7 @@ class WeaponShops {
             { "FHQ_optic_MARS", "", 1500 },            
             { "C1987_zeiss_AIM", "", 1500 }
         };
+        accs[] = {};
     };
 	
 	//Armurerie brigadier
@@ -350,9 +345,7 @@ class WeaponShops {
             { "30Rnd_556x45_Stanag", "Chargeur M4", 70 },           
             { "R3F_25Rnd_556x45_TRACER_FAMAS", "Chargeur Famas", 70 },           
             { "29rnd_300BLK_STANAG_T", "Chargeur AR15", 60 }, 
-            { "R3F_30Rnd_556x45_TRACER_HK416", "Chargeur HK416", 125 }           
-        };
-        accs[] = {
+            { "R3F_30Rnd_556x45_TRACER_HK416", "Chargeur HK416", 125 },
             { "acc_flashlight", "", 750 }, 
             { "optic_Holosight", "", 1200 },
             { "R3F_AIMPOINT", "", 1500 },
@@ -364,6 +357,7 @@ class WeaponShops {
             { "optic_Arco", "", 2000 },
             { "FHQ_optic_AC11704", "", 1500 }
         };
+        accs[] = {};
     };
 	
 	//Armurerie brigadier-chef
@@ -403,9 +397,7 @@ class WeaponShops {
             { "R3F_30Rnd_556x45_TRACER_HK416", "Chargeur HK416", 70 },
             { "30Rnd_65x39_caseless_mag", "Chargeur MX", 100 },
             { "30Rnd_556x45_Stanag", "Chargeur Colt Carabine", 70 },
-            { "hlc_200rnd_556x45_M_SAW", "Chargeur M249", 250 }                        
-        };
-        accs[] = {
+            { "hlc_200rnd_556x45_M_SAW", "Chargeur M249", 250 },
             { "acc_flashlight", "", 750 }, 
             { "optic_Holosight", "", 1200 },
             { "R3F_AIMPOINT", "", 1500 },
@@ -421,6 +413,7 @@ class WeaponShops {
             { "bipod_03_F_blk", "", 250 },
             { "optic_SOS", "", 3000 }
         };
+        accs[] = {};
     };	
 
 	//Armurerie Adjudant
@@ -469,9 +462,7 @@ class WeaponShops {
             { "hlc_200rnd_556x45_M_SAW", "Chargeur M249", 250 },
             { "hlc_20Rnd_762x51_B_M14", "Chargeur M14", 150 },                        
             { "R3F_20Rnd_762x51_HK417", "Chargeur HK417", 200 },                        
-            { "hlc_20Rnd_762x51_B_fal", "Chargeur FN FAL", 150 }                        
-        };
-        accs[] = {
+            { "hlc_20Rnd_762x51_B_fal", "Chargeur FN FAL", 150 },
             { "acc_flashlight", "", 720 }, 
             { "optic_Holosight", "", 1200 },
             { "R3F_AIMPOINT", "", 1500 },
@@ -490,6 +481,7 @@ class WeaponShops {
             { "optic_DMS", "", 3500 },                     
             { "optic_KHS_blk", "", 1500 }
         };
+        accs[] = {};
     };
 
 	//Armurerie Adjudant-Chef
@@ -550,9 +542,7 @@ class WeaponShops {
             { "R3F_7Rnd_M4S90", "Chargeur Benelli M4 S90", 30 },                                    
             { "hlc_10rnd_12g_slug_S12", "Chargeur Saiga 12K", 50 },                                    
             { "hlc_10rnd_12g_buck_S12", "Chargeur Saiga 12K", 50 },                                                
-            { "hlc_5rnd_300WM_mk248_AWM", "Chargeur AWMChargeur Taser X26", 200 }
-        };
-        accs[] = {
+            { "hlc_5rnd_300WM_mk248_AWM", "Chargeur AWMChargeur Taser X26", 200 },
             { "acc_flashlight", "", 750 }, 
             { "optic_Holosight", "", 1200 },
             { "R3F_AIMPOINT", "", 1500 },
@@ -575,6 +565,7 @@ class WeaponShops {
             { "optic_AMS", "", 3000 },         
             { "optic_LRPS", "", 4500 }
         };
+        accs[] = {};
     };
 
 	//Armurerie Major
@@ -641,9 +632,7 @@ class WeaponShops {
             { "hlc_10rnd_12g_buck_S12", "Chargeur Saiga 12K", 50 },            
             { "20Rnd_762x51_Mag", "Chargeur MK18", 200 },
             { "hlc_5rnd_300WM_mk248_AWM", "Chargeur AWM", 200 },
-            { "R3F_10Rnd_762x51_FRF2", "Chargeur FRF2", 200 }            
-        };
-        accs[] = {
+            { "R3F_10Rnd_762x51_FRF2", "Chargeur FRF2", 200 },
             { "acc_flashlight", "", 750 }, 
             { "optic_Holosight", "", 1200 },
             { "R3F_AIMPOINT", "", 1500 },
@@ -666,6 +655,7 @@ class WeaponShops {
             { "optic_AMS", "", 3000 },         
             { "optic_LRPS", "", 4500 }
         };
+        accs[] = {};
     };
 
 	//Armurerie lieutenant
@@ -738,9 +728,7 @@ class WeaponShops {
             { "hlc_5rnd_300WM_mk248_AWM", "Chargeur AWM", 200 },
             { "R3F_10Rnd_762x51_FRF2", "Chargeur FRF2", 200 },
             { "7Rnd_408_Mag", "Chargeur M320", 3500 },           
-            { "200Rnd_65x39_cased_Box_Tracer", "Chargeur MK200", 150 }                                    
-        };
-        accs[] = {
+            { "200Rnd_65x39_cased_Box_Tracer", "Chargeur MK200", 150 },
             { "acc_flashlight", "", 750 }, 
             { "optic_Holosight", "", 1200 },
             { "R3F_AIMPOINT", "", 1500 },
@@ -763,6 +751,7 @@ class WeaponShops {
             { "optic_AMS", "", 3000 },         
             { "optic_LRPS", "", 4500 }
         };
+        accs[] = {};
     };
 
 	//Armurerie Capitaine
@@ -839,9 +828,7 @@ class WeaponShops {
             { "7Rnd_408_Mag", "Chargeur M320", 3500 },           
             { "200Rnd_65x39_cased_Box_Tracer", "Chargeur MK200", 150 },
             { "R3F_7Rnd_127x99_PGM", "Chargeur PGM Hecate II", 3500 },
-            { "R3F_10Rnd_127x99_M107", "Chargeur M107", 3500 }        
-        };
-        accs[] = {
+            { "R3F_10Rnd_127x99_M107", "Chargeur M107", 3500 },
             { "acc_flashlight", "", 750 }, 
             { "optic_Holosight", "", 1200 },
             { "R3F_AIMPOINT", "", 1500 },
@@ -864,6 +851,7 @@ class WeaponShops {
             { "optic_AMS", "", 3000 },         
             { "optic_LRPS", "", 4500 }
         };
+        accs[] = {};
     };
 
 	//Armurerie Commandant
@@ -942,9 +930,7 @@ class WeaponShops {
             { "200Rnd_65x39_cased_Box_Tracer", "Chargeur MK200", 150 },
             { "R3F_7Rnd_127x99_PGM", "Chargeur PGM Hecate II", 3500 },
             { "R3F_10Rnd_127x99_M107", "Chargeur M107", 3500 },
-            { "R3F_100Rnd_762x51_MINIMI", "Chargeur Minimi 7.62", 750 }           
-        };
-        accs[] = {
+            { "R3F_100Rnd_762x51_MINIMI", "Chargeur Minimi 7.62", 750 },
             { "bipod_03_F_blk", "", 250 },
             { "acc_flashlight", "", 750 },
             { "R3F_LAMPE_SURB", "", 750 },
@@ -968,6 +954,7 @@ class WeaponShops {
             { "optic_LRPS", "", 4500 },
             { "optic_NVS", "Viseur Nocturne (NVS)", 5000 }
         };
+        accs[] = {};
     };
     
     //Medic Shops
