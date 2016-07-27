@@ -44,3 +44,6 @@ if (!(_this select 0)) exitWith {}; //Not server
 [] execVM "Base\concessionnaire_veh.sqf";
 // [] execVM "Base\PlatForm_Maritime_John.sqf";
 // [] execVM "Base\Archeologie_John.sqf";
+
+//Cycle Jour/nuit
+[16,true,true,16] execFSM "core\fsm\timeModule.fsm";
