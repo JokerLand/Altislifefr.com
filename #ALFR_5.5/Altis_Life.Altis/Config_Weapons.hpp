@@ -215,7 +215,7 @@ class WeaponShops {
     };
     
     //SWAT
-    class swatweapons {
+    /*class swatweapons {
         name = "Armurerie S.W.A.T";
         side = "cop";
         license = "swat";
@@ -284,7 +284,7 @@ class WeaponShops {
             { "optic_LRPS", "", 4500 }
         };
         accs[] = {};
-    };
+    };*/
 
     //Armurerie policier
     class cop_policier {
