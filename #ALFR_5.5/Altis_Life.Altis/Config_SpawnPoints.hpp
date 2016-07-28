@@ -64,7 +64,7 @@ class CfgSpawnPoints {
             displayName = "QG Dépanneurs";
             spawnMarker = "depan_spawn";
             icon = "\plp_markers\icons\plp_mark_as_building.pac";
-            licenses[] = { { "depan", true }, { "rebel", false } };
+            licenses[] = { { "depan", true } };
             level[] = { "", "", -1 };
         };
         
@@ -72,7 +72,7 @@ class CfgSpawnPoints {
             displayName = "QG AAN";
             spawnMarker = "aan_spawn";
             icon = "\plp_markers\icons\plp_mark_as_building.pac";
-            licenses[] = { { "aan", true }, { "rebel", false } };
+            licenses[] = { { "aan", true } };
             level[] = { "", "", -1 };
         };
         
@@ -80,7 +80,7 @@ class CfgSpawnPoints {
             displayName = "QG ION";
             spawnMarker = "ion_spawn";
             icon = "\plp_markers\icons\plp_mark_as_building.pac";
-            licenses[] = { { "ion", true }, { "rebel", false } };
+            licenses[] = { { "ion", true } };
             level[] = { "", "", -1 };
         };
         
@@ -88,7 +88,7 @@ class CfgSpawnPoints {
             displayName = "QG Altis Wings";
             spawnMarker = "altisfly_spawn";
             icon = "\plp_markers\icons\plp_mark_as_building.pac";
-            licenses[] = { { "altisfly", true }, { "rebel", false } };
+            licenses[] = { { "altisfly", true } };
             level[] = { "", "", -1 };
         };
     };
