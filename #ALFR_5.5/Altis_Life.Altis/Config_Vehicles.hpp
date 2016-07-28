@@ -62,7 +62,7 @@ class CarShops {
         };
     };
 	
-	class luxe_car { //OK
+	class luxe_car { //A FAIRE PLUS TARD
         side = "civ";
         vehicles[] = {
 			{ "cl3_xr_1000_black", { "", "", -1 } },
@@ -345,7 +345,7 @@ class LifeCfgVehicles {
     class GNT_C185 {
         vItemSpace = 5;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
-        price = 189000;
+        price = 500000;
         textures[] = {};
     };
     
@@ -3661,13 +3661,13 @@ class LifeCfgVehicles {
     class  Jonzie_Box_Truck: Default {
 		vItemSpace = 580;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
-		price = 55000;
+		price = 515000;
 	};
     
     class  ALFR_GeK_Scania_420 {
 		vItemSpace = 550;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
-		price = 48000;
+		price = 480000;
 		textures[] = {
 			{ "Noir", "civ", {
                 "#(ai,64,64,1)Fresnel(0.3,3)"
@@ -3717,7 +3717,7 @@ class LifeCfgVehicles {
     class  GeK_Renault_Magnum {
 		vItemSpace = 600;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
-		price = 62000;
+		price = 600000;
 		textures[] = {
 			{ "Noir", "civ", {
                 "#(ai,64,64,1)Fresnel(0.3,3)"
@@ -3767,7 +3767,7 @@ class LifeCfgVehicles {
     class  ALFR_GeK_Volvo_FH16_2012 {
 		vItemSpace = 700;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
-		price = 76000;
+		price = 720000;
 		textures[] = {
 
 			{ "Noir", "civ", {
@@ -3819,7 +3819,7 @@ class LifeCfgVehicles {
     class  GeK_Iveco_Stralis {
 		vItemSpace = 750;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
-		chopShop = 86000;
+		chopShop = 815000;
 		textures[] = {
 			{ "Noir", "civ", {
                 "#(ai,64,64,1)Fresnel(0.3,3)"
@@ -4328,7 +4328,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class  C_Heli_Light_01_civil_F: Default {
         vItemSpace = 5;
         licenses[] = { {"pilot"}, {"cAir"}, {"mAir"}, {""} };
-        price = 75000;
+        price = 153000;
 		textures[] = {
         	{ "Police", "cop", {
                 "ALFR_Force\data\vehicule\air\alfr_police_heli_co.paa"
@@ -4408,7 +4408,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class I_Heli_Transport_02_F {
 		vItemSpace = 5;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
-		price = 1000000;
+		price = 920000;
         textures[] = {
         	{ "Ion", "civ", {
                 "\a3\air_f_beta\Heli_Transport_02\Data\Skins\heli_transport_02_1_ion_co.paa",
@@ -4426,7 +4426,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class B_Heli_Transport_03_unarmed_F {
 		vItemSpace = 90;
         licenses[] = { {"pilot"}, {"cAir"}, {"mAir"}, {""} };
-		price = 4500000;
+		price = 3200000;
 		textures[] = {
             { "Rouge", "civ", {
                 "ALFR_TexSnd\huronunirouge2.paa",
@@ -4458,7 +4458,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class O_Heli_Light_02_unarmed_F {
         vItemSpace = 60;
         licenses[] = { {"pilot" }, {""}, {"mAir"}, {""} };
-        price = 156000;
+        price = 350000;
         textures[] = {
             { "Black", "cop", {
                 "\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_co.paa"
