@@ -237,8 +237,8 @@ class WeaponShops {
             { "LMG_Mk200_F", "", 15000, -1 },
             { "hlc_rifle_FAL5061Rail", "", 20000, -1 },
             { "srifle_EBR_F", "", 20000, -1 },
-            { "srifle_DMR_03_F", "", 20000, -1},
-            { "R3F_HK417L", "", 20000, -1},
+            { "srifle_DMR_03_F", "", 20000, -1 },
+            { "R3F_HK417L", "", 20000, -1 },
             { "srifle_LRR_F", "", 350000, -1 },
             { "R3F_PGM_Hecate_II_POLY", "", 400000, -1 }
         };
