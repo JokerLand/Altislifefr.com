@@ -50,8 +50,6 @@ class WeaponShops {
             { "Rangefinder", "", 5000, -1 },
             { "hgun_ACPC2_F", "", 25000, -1 },                      //ACP
             { "hgun_Pistol_heavy_01_F", "", 25000, -1 },            //4-Five
-            { "CUP_hgun_TaurusTracker455_gold", "", 35000, -1 },    //Taurus gold
-            { "CUP_hgun_MicroUzi", "", 55000, -1 },                 //Micro UZI
             { "arifle_AKS_F", "", 90000, -1 },                      //AKS 74u
             { "arifle_Mk20_F", "", 120000, -1 },                    //Mk20
             { "hlc_rifle_aek971_mtk", "", 135000, -1 },             //AEK971
