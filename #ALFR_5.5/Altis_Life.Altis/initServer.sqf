@@ -40,6 +40,7 @@ if (!(_this select 0)) exitWith {}; //Not server
 [] execVM "Base\ComicoParos.sqf";
 //[] execVM "Base\Prison-ALFR.sqf";
 [] execVM "Base\ChampTir.sqf";
+[] execVM "Base\CampRebel.sqf";
 [] execVM "Base\ComicoAthira.sqf"; 
 [] execVM "Base\concessionnaire_veh.sqf";
 // [] execVM "Base\PlatForm_Maritime_John.sqf";

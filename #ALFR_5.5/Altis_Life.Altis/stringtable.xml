@@ -8843,11 +8843,11 @@
             <Italian>Vendita del Vetro</Italian>
         </Key>
         <Key ID="STR_MAR_Copper_Trader">
-            <Original>Copper Trader</Original>
+            <Original>Vendeur de Cuivre</Original>
             <French>Vendeur de Cuivre</French>
         </Key>
         <Key ID="STR_MAR_Iron_Trader">
-            <Original>Iron Trader</Original>
+            <Original>Vendeur de Fer</Original>
             <French>Vendeur de Fer</French>
         </Key>
         <Key ID="STR_MAR_Sand_Processing">
@@ -9212,9 +9212,9 @@
             <Polish>Armurerie SWAT</Polish>
         </Key>
         <Key ID="STR_MAR_W_E_Vehicle Shop">
-            <Original>Concessionnaire Automobile</Original>
+            <Original>Vendeur de Véhicules Rebelles</Original>
             <Czech>Shop Vehicle</Czech>
-            <French>Concessionnaire Automobile</French>
+            <French>Vendeur de Véhicules Rebelles</French>
             <Spanish>Tienda de Vehículos</Spanish>
             <Italian>di veicoli</Italian>
             <German>Autohändler</German>
