@@ -1,5 +1,8 @@
 ﻿   | Liste des choses à faire : Avec indications de celui qui s'occupe |
 
+//Serveur :
+- Fix erreur (Picture \cl3_images\data\ui_connectionqualitypoor_ca.paa not found) qui kick du serveur !
+
 
 |FAIT| véhicule aérien ,rajouter les camions |FAIT|
 |FAIT| l'econommie vehicule air , camions et rebelle |FAIT|
