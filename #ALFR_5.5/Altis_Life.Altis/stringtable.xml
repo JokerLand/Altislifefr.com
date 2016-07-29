@@ -9384,7 +9384,7 @@
     </Package>
     <Package name="Crimes">
         <Key ID="STR_Crime_187V">
-            <Original>Vehicular Manslaughter</Original>
+            <Original>Voleur de vehicules</Original>
             <Czech>dopravní zabití</Czech>
             <French>Voleur de vehicules</French>
             <Spanish>Homicidio Vehicular</Spanish>
@@ -9394,7 +9394,7 @@
             <German>Fahrlässige Tötung</German>
         </Key>
         <Key ID="STR_Crime_187">
-            <Original>Manslaughter</Original>
+            <Original>Homicide involontaire</Original>
             <Czech>Zabití</Czech>
             <French>Homicide involontaire</French>
             <Spanish>Homicidio</Spanish>
@@ -9404,7 +9404,7 @@
             <German>Totschlag</German>
         </Key>
         <Key ID="STR_Crime_901">
-            <Original>Escaping Jail</Original>
+            <Original>Échappé de prison</Original>
             <Czech>Jak uniknout vězení</Czech>
             <French>Échappé de prison</French>
             <Spanish>Escaparse de la Cárcel</Spanish>
@@ -9414,7 +9414,7 @@
             <German>Ausbruch</German>
         </Key>
         <Key ID="STR_Crime_215">
-            <Original>Attempted Auto Theft</Original>
+            <Original>Tentative de vol d'automobiles</Original>
             <Czech>Pokusili Theft Auto</Czech>
             <French>Tentative de vol d'automobiles</French>
             <Spanish>Atentado: Robo de Vehículo</Spanish>
@@ -9424,7 +9424,7 @@
             <German>Versuchter Autodiebstahl</German>
         </Key>
         <Key ID="STR_Crime_213">
-            <Original>Use of illegal explosives</Original>
+            <Original>Utilisation d'explosifs illégaux</Original>
             <Czech>Používání nelegálních výbušnin</Czech>
             <French>L'utilisation d'explosifs illégaux</French>
             <Spanish>Uso de Explosivos Ilegales</Spanish>
@@ -9434,7 +9434,7 @@
             <German>Verwendung von illegalen Sprengstoff</German>
         </Key>
         <Key ID="STR_Crime_211">
-            <Original>Robbery</Original>
+            <Original>Vol</Original>
             <Czech>Loupež</Czech>
             <French>Vol</French>
             <Spanish>Robo</Spanish>
@@ -9444,7 +9444,7 @@
             <German>Raub</German>
         </Key>
         <Key ID="STR_Crime_207">
-            <Original>Kidnapping</Original>
+            <Original>Enlèvement</Original>
             <Czech>Únos</Czech>
             <French>Enlèvement</French>
             <Spanish>Secuestro</Spanish>
@@ -9454,7 +9454,7 @@
             <German>Entführung</German>
         </Key>
         <Key ID="STR_Crime_207A">
-            <Original>Attempted Kidnapping</Original>
+            <Original>Tentative de kidnapping</Original>
             <Czech>pokus o únos</Czech>
             <French>Tentative de kidnapping</French>
             <Spanish>Atentado: Secuestro</Spanish>
@@ -9464,7 +9464,7 @@
             <Polish>Próba porwania</Polish>
         </Key>
         <Key ID="STR_Crime_390">
-            <Original>Public Intoxication</Original>
+            <Original>Intoxication publique</Original>
             <Czech>veřejné Intoxikace</Czech>
             <French>Intoxication publique</French>
             <Spanish>Intoxicación Pública</Spanish>
@@ -9474,7 +9474,7 @@
             <Polish>Upojenie publiczny</Polish>
         </Key>
         <Key ID="STR_Crime_487">
-            <Original>Grand Theft</Original>
+            <Original>Vol de voiture</Original>
             <Czech>velká loupež</Czech>
             <French>Vol de voiture</French>
             <Spanish>Robo Mayor</Spanish>
@@ -9484,7 +9484,7 @@
             <German>Auto Diebstahl</German>
         </Key>
         <Key ID="STR_Crime_488">
-            <Original>Petty Theft</Original>
+            <Original>Petit vol</Original>
             <Czech>Petty Theft</Czech>
             <French>Petit vol</French>
             <Spanish>Robo Menor</Spanish>
@@ -9494,7 +9494,7 @@
             <German>Kleiner Diebstahl</German>
         </Key>
         <Key ID="STR_Crime_480">
-            <Original>Hit and run</Original>
+            <Original>Délit de fuite</Original>
             <Czech>Zavinit nehodu a ujet</Czech>
             <French>Délit de fuite</French>
             <Spanish>Pega y Corre</Spanish>
@@ -9504,7 +9504,7 @@
             <German>Fahrerflucht</German>
         </Key>
         <Key ID="STR_Crime_481">
-            <Original>Drug Possession</Original>
+            <Original>Possession de drogues</Original>
             <Czech>držení drog</Czech>
             <French>Possession de drogues</French>
             <Spanish>Posesión de Drogas</Spanish>
@@ -9514,7 +9514,7 @@
             <German>Drogenbesitz</German>
         </Key>
         <Key ID="STR_Crime_482">
-            <Original>Intent to distribute</Original>
+            <Original>Intention de distribuer</Original>
             <Czech>Intent distribuovat</Czech>
             <French>Intention de distribuer</French>
             <Spanish>Intención de Distribuir</Spanish>
@@ -9524,7 +9524,7 @@
             <Polish>Zamiarem dystrybucji</Polish>
         </Key>
         <Key ID="STR_Crime_483">
-            <Original>Drug Trafficking</Original>
+            <Original>Trafic de drogue</Original>
             <Czech>Obchodování s drogami</Czech>
             <French>Trafic de drogue</French>
             <Spanish>Tráfico de Drogas</Spanish>
@@ -9534,7 +9534,7 @@
             <Polish>Handel narkotykami</Polish>
         </Key>
         <Key ID="STR_Crime_459">
-            <Original>Burglary</Original>
+            <Original>Cambriolage</Original>
             <Czech>loupež</Czech>
             <French>Cambriolage</French>
             <Spanish>Robo de Casa</Spanish>
@@ -9544,7 +9544,7 @@
             <German>Einbruch</German>
         </Key>
         <Key ID="STR_Crime_666">
-            <Original>Tax Evasion</Original>
+            <Original>Évasion fiscale</Original>
             <Czech>Daňový únik</Czech>
             <French>Évasion fiscale</French>
             <Spanish>Evadir Impuestos</Spanish>
@@ -9554,7 +9554,7 @@
             <Polish>Unikanie podatków</Polish>
         </Key>
         <Key ID="STR_Crime_667">
-            <Original>Terrorism</Original>
+            <Original>Terrorisme</Original>
             <Czech>Terorismus</Czech>
             <French>Terrorisme</French>
             <Spanish>Terrorismo</Spanish>
@@ -9564,7 +9564,7 @@
             <Polish>Terroryzm</Polish>
         </Key>
         <Key ID="STR_Crime_668">
-            <Original>Unlicensed Hunting</Original>
+            <Original>Chasse sans licence</Original>
             <Czech>Volně prodejné Hunting</Czech>
             <French>Chasse sans licence</French>
             <Spanish>Caza sin Licencia</Spanish>
@@ -9574,7 +9574,7 @@
             <Polish>Polowanie nielicencjonowane</Polish>
         </Key>
         <Key ID="STR_Crime_919">
-            <Original>Organ Theft</Original>
+            <Original>Vol d'organes</Original>
             <Czech>Organ Krádež</Czech>
             <French>Vol d'organes</French>
             <Spanish>Robo de Organos</Spanish>
@@ -9584,7 +9584,7 @@
             <German>Organ Diebstahl</German>
         </Key>
         <Key ID="STR_Crime_919A">
-            <Original>Attempted Organ Theft</Original>
+            <Original>Tentative de vol d'organes</Original>
             <Czech>Pokus o krádež Organ</Czech>
             <French>Tentative de vol d'organes</French>
             <Spanish>Atentado: Robo de Organos</Spanish>
@@ -9594,7 +9594,7 @@
             <German>Versuchte Organ-Diebstahl</German>
         </Key>
         <Key ID="STR_Crime_1">
-            <Original>Driving without license</Original>
+            <Original>Absence du permis de conduire</Original>
             <Czech>Jízda bez povolení</Czech>
             <Spanish>Conducir sin Licencia</Spanish>
             <French>Absence du permis de conduire</French>
@@ -9604,7 +9604,7 @@
             <Polish>Jazda bez licencji</Polish>
         </Key>
         <Key ID="STR_Crime_2">
-            <Original>Driving on the wrong side of the road</Original>
+            <Original>Conduite sur le mauvais côté de la route</Original>
             <Czech>Jízda v špatným směrem do ulice</Czech>
             <Spanish>Conducir en el lado incorrecto de la calle</Spanish>
             <French>Conduite sur le mauvais côté de la route</French>
@@ -9614,7 +9614,7 @@
             <German>Fahren in die falsche Richtung der Straße</German>
         </Key>
         <Key ID="STR_Crime_3">
-            <Original>Not respecting the signalizations</Original>
+            <Original>Non respect des signalisations</Original>
             <Czech>Nerespektování signalizací</Czech>
             <Spanish>No respetar las señales</Spanish>
             <French>Non respect des signalisations</French>
@@ -9624,7 +9624,7 @@
             <Polish>Nie przestrzegając sygnalizacji czy</Polish>
         </Key>
         <Key ID="STR_Crime_4">
-            <Original>Speeding</Original>
+            <Original>Excès de vitesse</Original>
             <Czech>rychlá jízda</Czech>
             <Spanish>Exceso de Velocidad</Spanish>
             <French>Excès de vitesse</French>
@@ -9634,7 +9634,7 @@
             <Polish>Przyśpieszenie</Polish>
         </Key>
         <Key ID="STR_Crime_5">
-            <Original>No headlight in the night</Original>
+            <Original>Absence de phare la nuit</Original>
             <Czech>No světel v noci</Czech>
             <Spanish>Manejar sin luces en la noche</Spanish>
             <French>Absence de phare la nuit</French>
@@ -9644,7 +9644,7 @@
             <Polish>Brak świateł w nocy</Polish>
         </Key>
         <Key ID="STR_Crime_6">
-            <Original>Driving kart without helmet</Original>
+            <Original>Non-port du casque en Kart</Original>
             <Czech>Hnací motokáru bez helmy</Czech>
             <Spanish>Manejar un Kart sin casco</Spanish>
             <French>Non-port du casque en Kart</French>
@@ -9654,7 +9654,7 @@
             <Polish>Jazda bez kasku gokarta</Polish>
         </Key>
         <Key ID="STR_Crime_7">
-            <Original>Badly parked vehicle</Original>
+            <Original>Véhicule mal garé</Original>
             <Czech>Špatně zaparkované vozidlo</Czech>
             <Spanish>Vehículo mal estacionado</Spanish>
             <French>Véhicule mal garé</French>
@@ -9664,7 +9664,7 @@
             <Polish>Źle zaparkowany samochód</Polish>
         </Key>
         <Key ID="STR_Crime_8">
-            <Original>Rebel vehicle (Not armed)</Original>
+            <Original>Véhicule rebel non armé</Original>
             <Czech>Rebel vozidla (není ozbrojený)</Czech>
             <Spanish>Vehículo Rebelde (No Armado)</Spanish>
             <French>Véhicule rebel non armé</French>
@@ -9674,7 +9674,7 @@
             <Polish>Rebel pojeździe (nie czuwa)</Polish>
         </Key>
         <Key ID="STR_Crime_9">
-            <Original>Grand Theft (Civilian Vehicle)</Original>
+            <Original>Vol de véhicule civil</Original>
             <Czech>Grand Theft (Civilian Vehicle)</Czech>
             <Spanish>Robo Mayor (Vehículo Civil)</Spanish>
             <French>Vol de véhicule civil</French>
@@ -9685,7 +9685,7 @@
 
         </Key>
         <Key ID="STR_Crime_10">
-            <Original>Grand Theft (Military Vehicle)</Original>
+            <Original>Vol de véhicule militaire</Original>
             <Czech>Grand Theft (Military Vehicle)</Czech>
             <Spanish>Robo Mayor (Vehículo Militar)</Spanish>
             <French>Vol de véhicule militaire</French>
@@ -9695,7 +9695,7 @@
             <Polish>Grand Theft (pojazd wojskowy)</Polish>
         </Key>
         <Key ID="STR_Crime_11">
-            <Original>Armored Vehicle</Original>
+            <Original>Véhicules blindés</Original>
             <Czech>obrněné vozidlo</Czech>
             <Spanish>Vehículo Blindado</Spanish>
             <French>Véhicules blindés</French>
@@ -9705,7 +9705,7 @@
             <Polish>Opancerzony pojazd</Polish>
         </Key>
         <Key ID="STR_Crime_12">
-            <Original>Flying over the city without authorization</Original>
+            <Original>Survol de ville sans autorisation</Original>
             <Czech>Létání nad městem bez povolení</Czech>
             <Spanish>Volar sobre la ciudad sin autorización</Spanish>
             <French>Survol de ville sans autorisation</French>
@@ -9715,7 +9715,7 @@
             <Polish>Latające nad miastem bez zezwolenia</Polish>
         </Key>
         <Key ID="STR_Crime_13">
-            <Original>Closing the street without authorization</Original>
+            <Original>Interdiction de se poser sans autorisation</Original>
             <Czech>Uzavření ulici bez povolení</Czech>
             <Spanish>Cerrar las calles sin autorización</Spanish>
             <French>Interdiction de se poser sans autorisation</French>
@@ -9725,7 +9725,7 @@
             <Polish>Zamknięcie ulicy bez zezwolenia</Polish>
         </Key>
         <Key ID="STR_Crime_14">
-            <Original>Open carry in city (Legal Weapon)</Original>
+            <Original>Arme légale visible en ville</Original>
             <Czech>open carry ve městě (právní Weapon)</Czech>
             <Spanish>Cargar Arma Abiertamente en la Ciudad (Arma Legal)</Spanish>
             <Italian>Aprire il trasporto in città (Arma Legale)</Italian>
@@ -9735,7 +9735,7 @@
             <German>Offenes tragen einer legalen Waffe in der Stadt</German>
         </Key>
         <Key ID="STR_Crime_15">
-            <Original>Rebel weapon</Original>
+            <Original>Armes rebelles</Original>
             <Czech>Rebel zbraň</Czech>
             <Spanish>Arma Rebelde</Spanish>
             <French>Armes rebelles</French>
@@ -9745,7 +9745,7 @@
             <Polish>Rebel bronią</Polish>
         </Key>
         <Key ID="STR_Crime_16">
-            <Original>Illegal clothing</Original>
+            <Original>Vêtements illégaux</Original>
             <Czech>Nelegální oblečení</Czech>
             <Spanish>Ropa Ilegal</Spanish>
             <Italian>abbigliamento illegale</Italian>
@@ -9755,7 +9755,7 @@
             <German>Illegale Kleidung</German>
         </Key>
         <Key ID="STR_Crime_17">
-            <Original>Hiding face (Mask)</Original>
+            <Original>Cacher son visage</Original>
             <Czech>Schovává tvář (Mask)</Czech>
             <Spanish>Ocultar su Cara (Máscara)</Spanish>
             <Italian>Nascondere faccia (Mask)</Italian>
@@ -9765,7 +9765,7 @@
             <German>Verstecken des Gesichts (Maske)</German>
         </Key>
         <Key ID="STR_Crime_18">
-            <Original>Refuses to cooperate</Original>
+            <Original>Refus d'obtempérer</Original>
             <Czech>Odmítá spolupracovat</Czech>
             <Spanish>Reusa a Cooperar</Spanish>
             <Italian>Si rifiuta di collaborare</Italian>
@@ -9775,7 +9775,7 @@
             <German>Behinderung der Staatsgewalt</German>
         </Key>
         <Key ID="STR_Crime_19">
-            <Original>Hit and run</Original>
+            <Original>Délit de fuite</Original>
             <Czech>Zavinit nehodu a ujet</Czech>
             <Spanish>Golpea y Corre</Spanish>
             <Italian>Mordi e fuggi</Italian>
@@ -9785,7 +9785,7 @@
             <German>Fahrerflucht</German>
         </Key>
         <Key ID="STR_Crime_20">
-            <Original>Insulting a civilian</Original>
+            <Original>Insulte envers un civil</Original>
             <Czech>Urážky civilní</Czech>
             <Spanish>Insultar a un Civil</Spanish>
             <French>Insulte envers un civil</French>
@@ -9795,7 +9795,7 @@
             <Polish>Obrażanie cywilem</Polish>
         </Key>
         <Key ID="STR_Crime_21">
-            <Original>Insulting a soldier</Original>
+            <Original>Insulte envers un militaire</Original>
             <Czech>Urážky vojáka</Czech>
             <Spanish>Insultar a un Soldado</Spanish>
             <French>Insulte envers un militaire</French>
@@ -9805,7 +9805,7 @@
             <Polish>Znieważenie żołnierza</Polish>
         </Key>
         <Key ID="STR_Crime_22">
-            <Original>Drug dealing</Original>
+            <Original>Trafique de drogue</Original>
             <Czech>Urážky vojáka...</Czech>
             <Spanish>Venta de Drogas</Spanish>
             <French>Trafique de drogue</French>
@@ -9815,7 +9815,7 @@
             <Polish>Handel narkotykami</Polish>
         </Key>
         <Key ID="STR_Crime_23">
-            <Original>Federal Reserve breaking</Original>
+            <Original>Intrusion dans le coffre du gouverneur</Original>
             <Czech>Federální rezervní systém lámání</Czech>
             <Spanish>Entrar a la Reserva Federal</Spanish>
             <French>Intrusion dans le coffre du gouverneur</French>
@@ -9825,7 +9825,7 @@
             <Polish>Rezerwa Federalna łamanie</Polish>
         </Key>
         <Key ID="STR_Crime_24">
-            <Original>Killing of a civilian</Original>
+            <Original>Meurtre d'un civil</Original>
             <Czech>Zabíjení civilní</Czech>
             <Spanish>Homicidio de un Civil</Spanish>
             <Italian>Uccisione di un civile</Italian>
@@ -9835,7 +9835,7 @@
             <German>Das Töten eines Zivilen</German>
         </Key>
         <Key ID="STR_Crime_25">
-            <Original>Killing of a soldier</Original>
+            <Original>Meurtre d'un militaire</Original>
             <Czech>Zabití vojáka</Czech>
             <Spanish>Homicidio de un Soldado</Spanish>
             <French>Meurtre d'un militaire</French>
