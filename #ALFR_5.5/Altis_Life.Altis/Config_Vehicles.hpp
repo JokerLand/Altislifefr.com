@@ -4094,7 +4094,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
 
     class C_Van_01_transport_F {
         vItemSpace = 100;
-        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        licenses[] = { {"trucking"}, {""}, {""}, {""} };
         price = 40000;
         textures[] = {
             { "White", "civ", {
