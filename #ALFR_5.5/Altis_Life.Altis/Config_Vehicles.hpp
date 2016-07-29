@@ -3819,7 +3819,7 @@ class LifeCfgVehicles {
     class  GeK_Iveco_Stralis {
 		vItemSpace = 750;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
-		chopShop = 815000;
+		price = 815000;
 		textures[] = {
 			{ "Noir", "civ", {
                 "#(ai,64,64,1)Fresnel(0.3,3)"
