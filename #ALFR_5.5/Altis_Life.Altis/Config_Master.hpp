@@ -144,7 +144,7 @@ class Life_Settings {
     /* Wanted System Settings *
     /* crimes[] = {String, Bounty, Code} */
     crimes[] = {
-        {"STR_Crime_187V","650","187V"},
+        {"Voleur de vehicules","650","187V"},
         {"STR_Crime_187","2000","187"},
         {"STR_Crime_901","450","901"},
         {"STR_Crime_215","200","215"},
