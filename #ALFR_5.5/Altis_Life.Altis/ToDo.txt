@@ -5,6 +5,7 @@
 |FAIT| l'econommie vehicule air , camions et rebelle |FAIT|
 |FAIT| + rajouter les véhicule qui sont dans le shop rebelle à mettre dansle config vehicule |FAIT|
 |FAIT| Remettre cycle jour nuit |FAIT|
+|FAIT| Désactiver les valise qui tombe après mort |FAIT|
 
 //Ressources (John) : 
 - Meth & pleins d'autres
@@ -20,7 +21,6 @@
 //Autre :
 -"Demander un medic" envoie la notif aux flics
 -Wanted Stringtable a modifier car en français marche pas
--Désactiver les valise qui tombe après mort
 -Debug l'armurerie du SWAT
 -Alcool à remettre qui cause le bug du any dans le HUD
 
