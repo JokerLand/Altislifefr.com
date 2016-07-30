@@ -276,6 +276,10 @@ class Life_Client_Core {
         class barrierl {};
         class crowbar {};
         class defuseKit {};
+        class drinkbeer {};
+        class drinkrhum {};
+        class drinkvodka {};
+        class drinkwhiskey {};
         class flashbang {};
         class jerrycanRefuel {};
         class jerryRefuel {};

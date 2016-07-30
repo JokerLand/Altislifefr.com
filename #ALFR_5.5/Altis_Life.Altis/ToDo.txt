@@ -27,5 +27,5 @@
 //Test :
 -Voir et refaire les règles demander à yuricane
 -Vérifier le nombre de policier connecté pour braquer les stations services
--Vérifier le nombre de policier connecté pour braquer la banque
+-Vérifier le nombre de policier connecté pour braquer la banque & concessionnaire veh
 -Vérifier les mapping

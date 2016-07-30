@@ -62,45 +62,6 @@ _fnc_water = {
     };
 };
 
-_fnc_channel =
-	{
-		["Vous n'êtes pas connecté sur le canal Teamspeak 'EN JEU TASK FORCE RADIO'. Pour le rejoindre > Teamspeak > Settings > Plugins > Reload All."] call life_fnc_erreur;
-		sleep 60;
-		if (!((call TFAR_fnc_getTeamSpeakChannelName) == "EN JEU TASK FORCE RADIO")) then {
-			["Vous n'êtes pas connecté sur le canal Teamspeak 'EN JEU TASK FORCE RADIO'. Pour le rejoindre > Teamspeak > Settings > Plugins > Reload All."] call life_fnc_erreur;
-	} else {
-			["Vous êtes maintenant dans le canal approprié. Bon jeu !"] call life_fnc_erreur;
-		};
-		sleep 60;
-		if (!((call TFAR_fnc_getTeamSpeakChannelName) == "EN JEU TASK FORCE RADIO")) then {
-			["Vous n'êtes pas connecté sur le canal Teamspeak 'EN JEU TASK FORCE RADIO'. Merci de le rejoindre au plus vite au risque de vous faire éjecter par le staff  (sauf si vous êtes en 'Besoin d'aide')"] call life_fnc_erreur;
-	} else {
-			["Vous êtes maintenant dans le canal approprié. Bon jeu !"] call life_fnc_erreur;
-		};
-		sleep 60;
-		if (!((call TFAR_fnc_getTeamSpeakChannelName) == "EN JEU TASK FORCE RADIO")) then {
-			["Vous n'êtes pas connecté sur le canal Teamspeak 'EN JEU TASK FORCE RADIO'. Merci de le rejoindre au plus vite au risque de vous faire éjecter par le staff  (sauf si vous êtes en 'Besoin d'aide')"] call life_fnc_erreur;
-	} else {
-			["Vous êtes maintenant dans le canal approprié. Bon jeu !"] call life_fnc_erreur;			
-		};
-	};
-	
-_fnc_server =
-	{
-		["Vous n'êtes pas connecté sur le serveur Teamspeak d'AltisLifeFr.com | Vous allez être expulsé dans 60 secondes."] call life_fnc_erreur;
-		sleep 30;
-		["Vous n'êtes pas connecté sur le serveur Teamspeak d'AltisLifeFr.com | Vous allez être expulsé dans 30 secondes."] call life_fnc_erreur;
-		sleep 20;
-		["Vous n'êtes pas connecté sur le serveur Teamspeak d'AltisLifeFr.com | Vous allez être expulsé dans 10 secondes !"] call life_fnc_erreur;
-		sleep 10;
-		if (!(["AltisLifeFR.com - Altis Life RP  | Launcher | TaskForceRadio", (call TFAR_fnc_getTeamSpeakServerName)] call BIS_fnc_inString)) then
-		{
-			[[player], "TON_fnc_cleanupRequest", false, false] spawn life_fnc_MP;
-			["ServeurTeamspeak", false, true] call BIS_fnc_endMission;
-	} else {
-		["Vous êtes maintenant connecté sur le Teamspeak d'AltisLifeFr. Bon jeu !"] call life_fnc_erreur;
-		};
-	};
 
 //Setup the time-based variables.
 _foodTime = time;
@@ -111,23 +72,6 @@ _lastPos = visiblePosition player;
 _lastPos = (_lastPos select 0) + (_lastPos select 1);
 _lastState = vehicle player;
 
-while {true} do {
-
-	/* Check TFR */
-
-	if (!(["AltisLifeFR.com - Altis Life RP  | Launcher | TaskForceRadio", (call TFAR_fnc_getTeamSpeakServerName)] call BIS_fnc_inString)) then
-		{
-			if ((call life_adminlevel) == 0) then {
-				[] call _fnc_server;
-			};
-		};
-
-	if (!((call TFAR_fnc_getTeamSpeakChannelName) == "EN JEU TASK FORCE RADIO")) then
-		{
-			if ((call life_adminlevel) == 0) then {
-				[] call _fnc_channel;
-			};
-		};
 
 for "_i" from 0 to 1 step 0 do {
     /* Thirst / Hunger adjustment that is time based */
@@ -143,15 +87,10 @@ for "_i" from 0 to 1 step 0 do {
             _bp = backpack player;
             life_maxWeight = LIFE_SETTINGS(getNumber,"total_maxWeight") + round(FETCH_CONFIG2(getNumber,"CfgVehicles",_bp,"maximumload") / 4);
 			if (backpack player == "B_Parachute") then { _load = 24; };
-			if (backpack player == "CUP_B_SLA_Medicbag") then { _load = 40; };
-			if (backpack player == "CUP_B_AlicePack_Khaki") then { _load = 52; };
-			if (backpack player == "CUP_B_CivPack_WDL") then { _load = 52; };
 			if (backpack player == "B_FieldPack_cbr") then { _load = 52; };
 			if (backpack player == "B_FieldPack_khk") then { _load = 52; };
 			if (backpack player == "B_FieldPack_blk") then { _load = 52; };
 			if (backpack player == "B_FieldPack_oucamo") then { _load = 52; };
-			if (backpack player == "CUP_B_CivPack_WDL") then { _load = 52; };
-			if (backpack player == "CUP_B_USMC_MOLLE_WDL") then { _load = 52; };
 			if (backpack player == "TRYK_B_FieldPack_Wood") then { _load = 52; };
 			if (backpack player == "ALFR_Civ_Bags_backpack_DC") then { _load = 78; };
 			if (backpack player == "ALFR_Civ_Bags_backpack_terminator") then { _load = 78; };
@@ -162,9 +101,6 @@ for "_i" from 0 to 1 step 0 do {
 			if (backpack player == "B_Carryall_cbr") then { _load = 78; };
 			if (backpack player == "B_Carryall_khk") then { _load = 78; };
 			if (backpack player == "TRYK_B_Carryall_blk") then { _load = 78; };
-			if (backpack player == "CUP_B_GER_Pack_Flecktarn") then { _load = 78; };
-			if (backpack player == "CUP_B_GER_Pack_Tropentarn") then { _load = 78; };
-			if (backpack player == "CUP_B_HikingPack_Civ") then { _load = 78; };
 			if (backpack player == "B_Carryall_ocamo") then { _load = 78; };
 			if (backpack player == "B_Carryall_mcamo") then { _load = 78; };
 			if (backpack player == "TRYK_B_Carryall_JSDF") then { _load = 78; };
@@ -172,8 +108,7 @@ for "_i" from 0 to 1 step 0 do {
 			if (backpack player == "ALFR_Police_Bags") then { _load = 78; };
 			if (backpack player == "TRYK_B_Kitbag_blk") then { _load = 78; };
 			if (backpack player == "TRYK_B_Medbag") then { _load = 78; };
-			if (backpack player == "ALFR_Police_Backpack") then { _load = 78; };			
-			if (backpack player == "CUP_B_ACRPara_m95") then { _load = 104; };
+			if (backpack player == "ALFR_Police_Backpack") then { _load = 78; };
 			life_maxWeight = _load;			
         };
     };
@@ -212,4 +147,34 @@ for "_i" from 0 to 1 step 0 do {
         _lastPos = (_lastPos select 0) + (_lastPos select 1);
     };
     uiSleep 1;
+};
+
+[] spawn
+{
+	while {true} do
+	{
+		waitUntil {(life_drink > 0)};
+		while{(life_drink > 0)} do {
+		
+			if(life_drink > 0.08) then {
+			"radialBlur" ppEffectEnable true;
+			"radialBlur" ppEffectAdjust[0.08, 0,0.35,0.37];
+			"radialBlur" ppEffectCommit 3;
+			sleep 240;
+			life_drink = life_drink - 0.02;
+			} else {
+			"radialBlur" ppEffectEnable true;
+			"radialBlur" ppEffectAdjust[0.05, 0,0.36,0.38];
+			"radialBlur" ppEffectCommit 1;
+			sleep 180;
+			life_drink = life_drink - 0.02;
+			};
+		};
+		
+		"radialBlur" ppEffectAdjust  [0,0,0,0];
+		"radialBlur" ppEffectCommit 5;
+		"radialBlur" ppEffectEnable false;
+		life_drink = 0;
+		
+	};
 };

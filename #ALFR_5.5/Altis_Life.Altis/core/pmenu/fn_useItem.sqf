@@ -288,6 +288,64 @@ switch (true) do {
 	default {
 		hint localize "STR_ISTR_NotUsable";
 	};
+    
+    case (_item =="vodka"):
+	{
+		if(playerSide in [west,independent]) exitWith {hint "Pas d'alcool durant le service !";};
+		if((player getVariable ["inDrink",FALSE])) exitWith {hint "Vous êtes déja en train de boire !";};
+		if(([false,_item,1] call life_fnc_handleInv)) then
+		{
+			if(isNil "life_drink") then {life_drink = 0;};
+			life_drink = life_drink + 0.04;
+			if (life_drink < 0.07) exitWith {};
+			[] spawn life_fnc_drinkwhiskey;
+		};
+	};
+	
+	case (_item =="rhum"):
+	{
+		if(playerSide in [west,independent]) exitWith {hint "Pas d'alcool durant le service !";};
+		if((player getVariable ["inDrink",FALSE])) exitWith {hint "Vous êtes déja en train de boire !";};
+		if(([false,_item,1] call life_fnc_handleInv)) then
+		{
+			if(isNil "life_drink") then {life_drink = 0;};
+			life_drink = life_drink + 0.04;
+			if (life_drink < 0.07) exitWith {};
+			[] spawn life_fnc_drinkrhum;
+		};
+	};
+	
+	case (_item =="whiskey"):
+	{
+		if(playerSide in [west,independent]) exitWith {hint "Pas d'alcool durant le service !";};
+		if((player getVariable ["inDrink",FALSE])) exitWith {hint "Vous êtes déja en train de boire !";};
+		if(([false,_item,1] call life_fnc_handleInv)) then
+		{
+			if(isNil "life_drink") then {life_drink = 0;};
+			life_drink = life_drink + 0.06;
+			if (life_drink < 0.07) exitWith {};
+			[] spawn life_fnc_drinkwhiskey;
+		};
+	};
+	
+	case (_item =="beer"):
+	{
+		
+		if(playerSide in [west,independent]) exitWith {hint localize "Pas d'alcool durant le service !";};
+		if((player getVariable ["inDrink",FALSE])) exitWith {hint localize "Vous êtes déja en train de boire !";};
+		if(([false,_item,1] call life_fnc_handleInv)) then
+		{
+			if(isNil "life_drink") then {life_drink = 0;};
+			life_drink = life_drink + 0.02;
+			if (life_drink < 0.06) exitWith {};
+			[] spawn life_fnc_drinkbeer;
+		};
+	};
+
+	default
+	{
+		hint localize "STR_ISTR_NotUsable";
+	};
 };
 
 [] call life_fnc_p_updateMenu;

@@ -806,6 +806,49 @@ class VirtualItems {
         edible = 50;
         icon = "icons\ico_redgull.paa";
     };
+    
+    class beer {
+        variable = "beer";
+        displayName = "STR_Item_beer";
+        weight = 1;
+        buyPrice = 1500;
+        sellPrice = 0;
+        illegal = false;
+        edible = 50;
+        icon = "icons\ico_redgull.paa";
+    };
+    
+    class whiskey {
+        variable = "whiskey";
+        displayName = "STR_Item_whiskey";
+        weight = 1;
+        buyPrice = 1500;
+        sellPrice = 0;
+        illegal = false;
+        edible = 50;
+        icon = "icons\ico_redgull.paa";
+    };
+    
+    class rhum {
+        variable = "rhum";
+        displayName = "STR_Item_rhum";
+        weight = 1;
+        buyPrice = 1500;
+        sellPrice = 0;
+        illegal = false;
+        edible = 50;
+        icon = "icons\ico_redgull.paa";
+    };
+    class vodka  {
+        variable = "vodka";
+        displayName = "STR_Item_vodka";
+        weight = 1;
+        buyPrice = 1500;
+        sellPrice = 0;
+        illegal = false;
+        edible = 50;
+        icon = "icons\ico_redgull.paa";
+    };
 
     class coffee {
         variable = "coffee";
