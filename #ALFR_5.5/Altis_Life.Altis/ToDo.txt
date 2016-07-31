@@ -32,6 +32,8 @@
 -Wanted Stringtable a modifier car en français marche pas
 -Debug l'armurerie du SWAT
 -Ajouter le g/l dans le HUD pour l'alcool
+-Enlever le demande de renfort
+-Remettre le "montrer son insigne"
 
 //Test :
 -Voir et refaire les règles demander à yuricane
