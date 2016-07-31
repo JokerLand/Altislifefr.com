@@ -35,6 +35,8 @@
 -Enlever le demande de renfort
 -Remettre le "montrer son insigne"
 -Debug la barrière qui s'envole
+-Finir tout les items pour personnage masqués
+-Remettre tout les items police
 -Debug channel 7 news (Plus tard)
 
 //Test :
