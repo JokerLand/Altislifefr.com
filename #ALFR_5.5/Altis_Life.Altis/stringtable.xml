@@ -5961,6 +5961,22 @@
             <Portuguese>RedGull</Portuguese>
             <Polish>RedGull</Polish>
         </Key>
+        <Key ID="STR_Item_beer">
+            <Original>Bière</Original>
+            <French>Bière</French>
+        </Key>
+        <Key ID="STR_Item_whiskey">
+            <Original>Whiskey</Original>
+            <French>Whiskey</French>
+        </Key>
+        <Key ID="STR_Item_rhum">
+            <Original>Rhum</Original>
+            <French>Rhum</French>
+        </Key>
+        <Key ID="STR_Item_vodka">
+            <Original>Vodka</Original>
+            <French>Vodka</French>
+        </Key>
         <Key ID="STR_Item_Lockpick">
             <Original>Lockpick</Original>
             <Czech>Šperhák</Czech>
