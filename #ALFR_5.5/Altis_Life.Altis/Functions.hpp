@@ -42,6 +42,7 @@ class Life_Client_Core {
         class healHospital {};
         class impoundAction {};
         class mine {};
+        class newsBroadcast {};
 		class packupBarrier {};
 		class packupBarrierel {};
 		class packupBarstop {};

@@ -8,7 +8,7 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=1818;
+		nextID=1820;
 	};
 	class MarkerIDProvider
 	{
@@ -207,6 +207,24 @@ class CustomAttributes
 		name="Multiplayer";
 		class Attribute0
 		{
+			property="RespawnTemplates";
+			expression="true";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"ARRAY"
+						};
+					};
+				};
+			};
+		};
+		class Attribute1
+		{
 			property="RespawnButton";
 			expression="true";
 			class Value
@@ -221,24 +239,6 @@ class CustomAttributes
 						};
 					};
 					value=1;
-				};
-			};
-		};
-		class Attribute1
-		{
-			property="RespawnTemplates";
-			expression="true";
-			class Value
-			{
-				class data
-				{
-					class type
-					{
-						type[]=
-						{
-							"ARRAY"
-						};
-					};
 				};
 			};
 		};
@@ -297,7 +297,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=828;
+		items=829;
 		class Item0
 		{
 			dataType="Marker";
@@ -1591,7 +1591,7 @@ class Mission
 			text="@STR_MAR_Heroin_Processing";
 			type="mil_dot";
 			colorName="ColorRed";
-			angle=334.35703;
+			angle=334.35699;
 			id=142;
 		};
 		class Item128
@@ -18635,7 +18635,7 @@ class Mission
 			position[]={23523.941,90.573997,21168.094};
 			name="reb_spawn_1";
 			type="Empty";
-			angle=229.05876;
+			angle=229.05875;
 			id=1578;
 		};
 		class Item655
@@ -21275,6 +21275,37 @@ class Mission
 			colorName="ColorOrange";
 			id=1811;
 			atlOffset=-22.695881;
+		};
+		class Item828
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={14348.698,16.701326,18055.42};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						isPlayer=1;
+					};
+					id=1819;
+					type="B_Soldier_F";
+					atlOffset=-0.0002117157;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=1818;
+			atlOffset=-0.0002117157;
 		};
 	};
 };

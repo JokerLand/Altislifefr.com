@@ -1,3 +1,4 @@
+#include "..\..\script_macros.hpp"
 /*
     File: fn_seizePlayerWeaponAction.sqf
     Author: Skalicon
@@ -9,4 +10,4 @@ removeAllWeapons player;
 [] call life_fnc_saveGear;
 [] call life_fnc_syncData; //Should make weapon remove persistent
 [] call life_fnc_LoadGear;
-titleText["Votre arme a été saisie par la police.","PLAIN"];
+titleText["Your weapons were seized by the police.","PLAIN"];

@@ -4140,7 +4140,7 @@
         </Key>
         <Key ID="STR_Cop_WeapSeized">
             <Original>Votre %1 a été saisi(e)</Original>
-            <French>Votre %1 a été saisi(e)</French
+            <French>Votre %1 a été saisi(e)</French>
         </Key>
         <Key ID="STR_Cop_Ticket">
             <Original>Ticketing %1</Original>
