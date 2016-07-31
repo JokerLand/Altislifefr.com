@@ -20,9 +20,6 @@ switch (playerSide) do
 		//Saisir Objets
 		life_actions = life_actions + [player addAction["Saisir objets",life_fnc_seizeObjects,cursorTarget,0,false,false,"",'((count(nearestObjects [player,["WeaponHolder"],3])>0) || (count(nearestObjects [player,["GroundWeaponHolder"],3])>0) || (count(nearestObjects [player,["WeaponHolderSimulated"],3])>0))']];
 
-		//Call backup
-		life_actions pushBack (player addAction["<t color='#F70101'>Demande de renforts</t>",life_fnc_confirmRenfort,"",0,FALSE,FALSE,""]);
-		
 		// Prendre Traceur GPS
 		life_actions = life_actions + [player addAction["Prendre le traceur GPS",life_fnc_robTraceurGPSAction,"",0,false,false,"",'
 		!isNull cursorTarget && player distance cursorTarget < 3.5 && isPlayer cursorTarget && (cursorTarget getVariable["restrained",TRUE]) && ("ItemGPS" in assignedItems cursorTarget) ']];

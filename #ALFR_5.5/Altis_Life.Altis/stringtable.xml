@@ -3935,8 +3935,8 @@
             <French>Diffuser le Message</French>
         </Key>
         <Key ID="STR_News_StructuredText">
-            <Original>Coût de la Diffusion: %1&lt;br /&gt;Prochaine diffusion disponible dans: %2min(s)</Original>
-            <French>Coût de la Diffusion: %1&lt;br /&gt;Prochaine diffusion disponible dans: %2min(s)</French>
+            <Original>Coût de la Diffusion: %1&lt;br /&gt;Prochaine diffusion disponible dans: %2</Original>
+            <French>Coût de la Diffusion: %1&lt;br /&gt;Prochaine diffusion disponible dans: %2</French>
         </Key>
         <Key ID="STR_News_HeaderLength">
             <Original>Le titre ne peut pas dépasser %1 caractères</Original>

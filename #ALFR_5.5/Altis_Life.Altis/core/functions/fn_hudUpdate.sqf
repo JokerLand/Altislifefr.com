@@ -48,7 +48,7 @@ _health ctrlCommit 0;
 
 //Update Alcool
 _alcool ctrlSetPosition [safeZoneX+safeZoneW-0.10,safeZoneY+safeZoneH-0.259];
-_alcool ctrlSetText format["%1", life_drink];
+_alcool ctrlSetText format["%1", life_drink, "g/l"];
 _alcool ctrlSetBackgroundColor [0, 0, 0, 0.5]; 
 if(life_drink > 0.12) then { 
 	_alcool ctrlSetBackgroundColor [255, 0, 0, 0.5]; 	

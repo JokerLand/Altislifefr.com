@@ -7,6 +7,10 @@
 |FAIT| Remettre cycle jour nuit |FAIT|
 |FAIT| Désactiver les valise qui tombe après mort |FAIT|
 |FAIT| Fix "Demander un medic" envoie la notif aux flics |FAIT|
+|FAIT| Debug channel 7 news |FAIT|
+|FAIT| Enlever le demande de renfort |FAIT|
+|A TEST| Le give money ne fonctionne pas |A TEST|
+|A TEST| Ajouter le g/l dans le HUD pour l'alcool |A TEST|
 
 //Ressources (John) : 
 - Meth & pleins d'autres  || EN COURS
@@ -27,17 +31,15 @@
 
 //Autre :
 -Pas de message lors d'un give d'item via le menu Y
--Le give money ne fonctionne pas
+
 -Impossible de récolter champ de cocaine
 -Wanted Stringtable a modifier car en français marche pas
 -Debug l'armurerie du SWAT
--Ajouter le g/l dans le HUD pour l'alcool
--Enlever le demande de renfort
 -Remettre le "montrer son insigne"
 -Debug la barrière qui s'envole
 -Finir tout les items pour personnage masqués
 -Remettre tout les items police
--Debug channel 7 news (Plus tard)
+
 
 //Test :
 -Voir et refaire les règles demander à yuricane
