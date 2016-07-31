@@ -3,7 +3,6 @@ onLoadName = "Tanoa Life RPG v4.3";
 onLoadMission = "Dev par Tonic | Modifié par Baguette-Life ";
 
 joinUnassigned = 1;
-respawn = BASE;
 respawndelay = 5;
 disabledAI = true;
 
