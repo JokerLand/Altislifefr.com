@@ -3915,8 +3915,8 @@
     </Package>
     <Package name="News_Strings">
         <Key ID="STR_News_AddAction">
-            <Original>News Station Broadcast</Original>
-            <French>Nouvelle diffusion de l'Antenne Radio </French>
+            <Original>Utiliser l'antenne Radio</Original>
+            <French>Utiliser l'antenne Radio</French>
         </Key>
         <Key ID="STR_News_DialogTitle">
             <Original>Channel 7 News Station</Original>
@@ -4137,6 +4137,10 @@
             <Italian>Impossibile aprire l'interfaccia per le multe</Italian>
             <Portuguese>Não foi possível abrir o bloco de multa</Portuguese>
             <Polish>Nie potrafię otworzyć interfejsu mandatów</Polish>
+        </Key>
+        <Key ID="STR_Cop_WeapSeized">
+            <Original>Votre %1 a été saisi(e)</Original>
+            <French>Votre %1 a été saisi(e)</French
         </Key>
         <Key ID="STR_Cop_Ticket">
             <Original>Ticketing %1</Original>
