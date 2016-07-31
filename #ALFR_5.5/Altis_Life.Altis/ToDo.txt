@@ -6,6 +6,7 @@
 |FAIT| + rajouter les véhicule qui sont dans le shop rebelle à mettre dansle config vehicule |FAIT|
 |FAIT| Remettre cycle jour nuit |FAIT|
 |FAIT| Désactiver les valise qui tombe après mort |FAIT|
+|FAIT| Fix "Demander un medic" envoie la notif aux flics |FAIT|
 
 //Ressources (John) : 
 - Meth & pleins d'autres
@@ -18,11 +19,19 @@
 -Rajouter les panneaux + le mapping donateur
 -Voir si les classes sont là + les variables définis
 
+//Concessinnaire
+-Mettre un message du braquage du concessionnaire
+-Augmenter le temps du braquage du concessionnaire
+-Mettre une alarme pour le braquage du concessionnaire
+-Rajouter marqueur sur la map
+
 //Autre :
--"Demander un medic" envoie la notif aux flics
+-Pas de message lors d'un give d'item via le menu Y
+-Le give money ne fonctionne pas
+-Impossible de récolter champ de cocaine
 -Wanted Stringtable a modifier car en français marche pas
 -Debug l'armurerie du SWAT
--Alcool à remettre qui cause le bug du any dans le HUD
+-Ajouter le g/l dans le HUD pour l'alcool
 
 //Test :
 -Voir et refaire les règles demander à yuricane
