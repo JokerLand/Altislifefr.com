@@ -34,6 +34,8 @@
 -Ajouter le g/l dans le HUD pour l'alcool
 -Enlever le demande de renfort
 -Remettre le "montrer son insigne"
+-Debug la barrière qui s'envole
+-Debug channel 7 news (Plus tard)
 
 //Test :
 -Voir et refaire les règles demander à yuricane
