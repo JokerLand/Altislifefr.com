@@ -19,7 +19,7 @@
 -Rajouter les panneaux + le mapping donateur
 -Voir si les classes sont là + les variables définis
 
-//Concessinnaire
+//Concessionnaire
 -Mettre un message du braquage du concessionnaire
 -Augmenter le temps du braquage du concessionnaire
 -Mettre une alarme pour le braquage du concessionnaire
@@ -37,4 +37,4 @@
 -Voir et refaire les règles demander à yuricane
 -Vérifier le nombre de policier connecté pour braquer les stations services
 -Vérifier le nombre de policier connecté pour braquer la banque & concessionnaire veh
--Vérifier les mapping
+-Vérifier les mappings
