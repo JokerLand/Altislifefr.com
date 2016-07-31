@@ -30,6 +30,8 @@
 -Rajouter marqueur sur la map
 
 //Autre :
+
+-Problème avec le fichier fn_seizePlayerWeapon à la lign 12 (en commentaire actuellement)
 -Pas de message lors d'un give d'item via le menu Y
 
 -Impossible de récolter champ de cocaine
