@@ -33,3 +33,5 @@ waitUntil{isNull (findDisplay 38500)}; //Wait for the spawn selection to be done
 [] execVM "statusBar.sqf";
 //Pour ouvrir les portes du comico
 player setVariable ["copLevel",1,true];
+//ObjetsPlaceables
+[] spawn life_fnc_placeablesInit;
