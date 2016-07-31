@@ -185,6 +185,7 @@ class Life_Client_Core {
 
     class Functions    {
         file = "core\functions";
+        class AAN {};
         class accType {};
         class actionKeyHandler {};
         class animSync {};
@@ -219,6 +220,7 @@ class Life_Client_Core {
         class onTakeItem {};
         class playerSkins {};
         class playerTags {};
+        class postNewsBroadcast {};
         class pullOutVeh {};
         class pushObject {};
         class receiveItem {};

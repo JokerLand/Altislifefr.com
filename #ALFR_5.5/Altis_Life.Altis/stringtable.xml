@@ -3915,36 +3915,48 @@
     </Package>
     <Package name="News_Strings">
         <Key ID="STR_News_AddAction">
-            <Original>Utiliser l'antenne Radio</Original>
-            <French>Utiliser l'antenne Radio</French>
+            <Original>Diffuser un message via l'Antenne Radio</Original>
+            <French>Diffuser un message via l'Antenne Radio</French>
         </Key>
         <Key ID="STR_News_DialogTitle">
-            <Original>Channel 7 News Station</Original>
-            <French>Antenne Radio 7 News</French>
+            <Original>Flash INFO: Altis News</Original>
+            <French></French>
         </Key>
         <Key ID="STR_News_MsgHeader">
-            <Original>Message Heading:</Original>
-            <French>Titre du Message</French>
+            <Original>Titre du Message:</Original>
+            <French>Titre du Message:</French>
         </Key>
         <Key ID="STR_News_MsgContent">
-            <Original>Message Content:</Original>
-            <French>Contenu du Message</French>
+            <Original>Contenu du Message:</Original>
+            <French>Contenu du Message:</French>
         </Key>
         <Key ID="STR_News_Broadcast">
-            <Original>Broadcast Message</Original>
-            <French>Message diffusé</French>
+            <Original>Diffuser le Message</Original>
+            <French>Diffuser le Message</French>
         </Key>
-        <Key ID="STR_News_BroadcastCooldown">
-            <Original>You must wait %1 seconds to send a broadcast!</Original>
-            <French>Vous devez attendre %1 seconde(s) pour diffuser votre message</French>
+        <Key ID="STR_News_StructuredText">
+            <Original>Coût de la Diffusion: %1&lt;br /&gt;Prochaine diffusion disponible dans: %2min(s)</Original>
+            <French>Coût de la Diffusion: %1&lt;br /&gt;Prochaine diffusion disponible dans: %2min(s)</French>
+        </Key>
+        <Key ID="STR_News_HeaderLength">
+            <Original>Le titre ne peut pas dépasser %1 caractères</Original>
+            <French>Le titre ne peut pas dépasser %1 caractères</French>
+        </Key>
+        <Key ID="STR_News_UnsupportedCharacter">
+            <Original>Vous avez utilisé un caractère inconnu</Original>
+            <French>Vous avez utilisé un caractère inconnu</French>
+        </Key>
+        <Key ID="STR_News_Now">
+            <Original>Maintenant</Original>
+            <French>Maintenant</French>
         </Key>
         <Key ID="STR_News_NotEnough">
-            <Original>You need %1€ to send a broadcast!</Original>
-            <French>Vous avez besoin de %1€ pour diffuser votre message.</French>
+            <Original>Vous avez besoin de %1€ pour diffuser votre message !</Original>
+            <French>Vous avez besoin de %1€ pour diffuser votre message !</French>
         </Key>
-        <Key ID="STR_News_BroadcastCost">
-            <Original>Cost to Broadcast: %1€</Original>
-            <French>Coût pour la diffusion : %1€</French>
+        <Key ID="STR_News_BroadcastedBy">
+            <Original>&lt;t size='2'&gt;%1&lt;/t&gt;&lt;br /&gt;Diffusé par: %2</Original>
+            <French>&lt;t size='2'&gt;%1&lt;/t&gt;&lt;br /&gt;Diffusé par: %2</French>
         </Key>
     </Package>	
 	<Package name="Jail_Strings">
