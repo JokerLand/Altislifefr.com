@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={5731.2856,179.40233,10243.073};
-		dir[]={0.16579865,-0.95240206,0.25589257};
-		up[]={0.51787555,0.30485016,0.79928786};
-		aside[]={0.839252,-1.9304571e-007,-0.54376858};
+		pos[]={5705.6885,951.12878,2163.8013};
+		dir[]={-0.84299415,-0.49072111,-0.22043534};
+		up[]={-0.47477964,0.87130135,-0.12415091};
+		aside[]={-0.25298831,-3.4068944e-007,0.96748906};
 	};
 };
 binarizationWanted=0;
@@ -11103,8 +11103,8 @@ class Mission
 					side="Civilian";
 					class Attributes
 					{
-						skill=0.60000002;
-						init="this enableSimulation false;  this addAction[""Marcher Gendarmerie"",life_fnc_virt_menu,""cop""];  this allowDamage false;  this addAction[""Cop Clothing Shop"",life_fnc_clothingMenu,""cop""];  this addAction[""Armurerie 1ere Classe"",life_fnc_weaponShopMenu,""cop_patrol""];  this addAction[""Armurerie Brigadier"",life_fnc_weaponShopMenu,""cop_brigadier""];  this addAction[""Armurerie Caporal"",life_fnc_weaponShopMenu,""cop_caporal""]; this addAction[""Armurerie Sergent"",life_fnc_weaponShopMenu,""cop_sergent""];  this addAction[""Armurerie Lieutenant"",life_fnc_weaponShopMenu,""cop_lieutenant""]; this addAction[""Armurerie Colonel"",life_fnc_weaponShopMenu,""cop_colonel""]; this addAction[""Armurerie General"",life_fnc_weaponShopMenu,""cop_general""]; this addAction[""Armurerie GIGN"",life_fnc_weaponShopMenu,""cop_gign""]; this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""cAir"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""cAir"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""cAir"",0,false,false,"""",' !license_cop_cAir && playerSide == west '];  this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""cg"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""cg"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""cg"",0,false,false,"""",' !license_cop_cg && playerSide == west ']; this setObjectTexture [0,""textures\cop\gend.jpeg""];";
+						skill=0.5778957;
+						init="this enableSimulation false;  this addAction[""Marcher Gendarmerie"",life_fnc_virt_menu,""cop""];  this allowDamage false;  this addAction[""Cop Clothing Shop"",life_fnc_clothingMenu,""cop""];  this addAction[""Armurerie 1ere Classe"",life_fnc_weaponShopMenu,""cop_patrol""];  this addAction[""Armurerie Brigadier"",life_fnc_weaponShopMenu,""cop_brigadier""];  this addAction[""Armurerie Caporal"",life_fnc_weaponShopMenu,""cop_caporal""]; this addAction[""Armurerie Sergent"",life_fnc_weaponShopMenu,""cop_sergent""];  this addAction[""Armurerie Lieutenant"",life_fnc_weaponShopMenu,""cop_lieutenant""]; this addAction[""Armurerie Colonel"",life_fnc_weaponShopMenu,""cop_colonel""]; this addAction[""Armurerie General"",life_fnc_weaponShopMenu,""cop_general""]; this addAction[""Armurerie GIGN"",life_fnc_weaponShopMenu,""cop_gign""]; this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""cAir"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""cAir"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""cAir"",0,false,false,"""",' !license_cop_cAir && playerSide == west '];  this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""cg"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""cg"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""cg"",0,false,false,"""",' !license_cop_cg && playerSide == west '];";
 						name="h1_3";
 					};
 					id=976;
@@ -11204,7 +11204,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.60000002;
-						init="this enableSimulation false;  this allowDamage false;  this addAction[""Vehicle Shop"",life_fnc_vehicleShopMenu,[""cop_car"",west,""cop_car_1"",""cop"",""APD - Kavala District""]];  this addAction[""Vehicle Garage"",  {   [getPlayerUID player,playerSide,""Car"",player] remoteExecCall [""TON_fnc_getVehicles"",2];   createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""cop_car_1""; life_garage_type = ""Car"";  },"""",0,false,false,"""",'playerSide == west'];  this addAction[""Store vehicle in Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store']; this setVariable[""realname"",""Cop Vehicle Store""]; this setObjectTexture [0,""textures\cop\gend.jpeg""];";
+						init="this enableSimulation false;  this allowDamage false;  this addAction[""Vehicle Shop"",life_fnc_vehicleShopMenu,[""cop_car"",west,""cop_car_1"",""cop"",""APD - Kavala District""]];  this addAction[""Vehicle Garage"",  {   [getPlayerUID player,playerSide,""Car"",player] remoteExecCall [""TON_fnc_getVehicles"",2];   createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""cop_car_1""; life_garage_type = ""Car"";  },"""",0,false,false,"""",'playerSide == west'];  this addAction[""Store vehicle in Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store']; this setVariable[""realname"",""Cop Vehicle Store""];";
 					};
 					id=975;
 					type="B_RangeMaster_F";
@@ -11965,6 +11965,7 @@ class Mission
 						angles[]={0,4.6470962,0};
 					};
 					side="Civilian";
+					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
@@ -11973,7 +11974,7 @@ class Mission
 					};
 					id=5806;
 					type="C_man_p_fugitive_F_asia";
-					atlOffset=0.46200013;
+					atlOffset=0.00038957596;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -12593,7 +12594,7 @@ class Mission
 					};
 					id=969;
 					type="C_man_1";
-					atlOffset=0.53100014;
+					atlOffset=0.53099966;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -13083,7 +13084,7 @@ class Mission
 						angles[]={0,5.9684324,6.2826962};
 					};
 					side="Civilian";
-					flags=2;
+					flags=6;
 					class Attributes
 					{
 						skill=0.60000002;
@@ -13091,7 +13092,7 @@ class Mission
 					};
 					id=944;
 					type="C_man_polo_3_F";
-					atlOffset=1.0030212;
+					atlOffset=0.0001373291;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -13178,7 +13179,7 @@ class Mission
 			{
 			};
 			id=1085;
-			atlOffset=1.0030212;
+			atlOffset=0.0001373291;
 		};
 		class Item248
 		{
@@ -13648,7 +13649,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.60000002;
-						init="this enableSimulation false; this allowDamage false;  this addAction[""Boat Shop"",life_fnc_vehicleShopMenu,[""cop_ship"",west,""cop_ship_1"",""cop"",""APD - Kavala District - Boat Store""]]; this addAction[""Store vehicle in Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store']; this setObjectTexture [0,""textures\cop\gend.jpeg""];";
+						init="this enableSimulation false; this allowDamage false;  this addAction[""Boat Shop"",life_fnc_vehicleShopMenu,[""cop_ship"",west,""cop_ship_1"",""cop"",""APD - Kavala District - Boat Store""]]; this addAction[""Store vehicle in Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];";
 					};
 					id=973;
 					type="B_RangeMaster_F";
@@ -39395,7 +39396,7 @@ class Mission
 					};
 					id=5796;
 					type="C_man_p_fugitive_F_asia";
-					atlOffset=0.0056929588;
+					atlOffset=0.0056934357;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -39482,7 +39483,7 @@ class Mission
 			{
 			};
 			id=5795;
-			atlOffset=0.0056929588;
+			atlOffset=0.0056934357;
 		};
 		class Item1705
 		{
@@ -44418,7 +44419,7 @@ class Mission
 			};
 			id=6596;
 			type="Land_ConcreteWall_01_l_8m_F";
-			atlOffset=0.036000252;
+			atlOffset=0.00045156479;
 		};
 		class Item1954
 		{
@@ -44429,13 +44430,13 @@ class Mission
 				angles[]={0,2.361989,0};
 			};
 			side="Empty";
-			flags=1;
+			flags=5;
 			class Attributes
 			{
 			};
 			id=6597;
 			type="Land_ConcreteWall_01_l_4m_F";
-			atlOffset=4.6999998;
+			atlOffset=0.01019907;
 		};
 		class Item1955
 		{
@@ -50957,7 +50958,7 @@ class Mission
 					};
 					id=7323;
 					type="C_man_1";
-					atlOffset=0.00049257278;
+					atlOffset=0.00049209595;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -51044,7 +51045,7 @@ class Mission
 			{
 			};
 			id=7322;
-			atlOffset=0.00049257278;
+			atlOffset=0.00049209595;
 		};
 		class Item2356
 		{
@@ -53122,11 +53123,10 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="this allowDamage false; this setObjectTexture [0, ""textures\pub\marcher.jpeg""];";
+				init="this allowDamage false;";
 			};
 			id=7648;
 			type="Land_MapBoard_F";
-			atlOffset=-2.3841858e-007;
 		};
 		class Item2456
 		{
@@ -59381,7 +59381,7 @@ class Mission
 			fillName="SolidFull";
 			a=3;
 			b=300;
-			angle=55.953911;
+			angle=55.953907;
 			id=8125;
 			atlOffset=3.8957607e+017;
 		};
@@ -65612,7 +65612,7 @@ class Mission
 			position[]={2970,69,9302.75};
 			name="car_g_8";
 			type="Empty";
-			angle=187.31474;
+			angle=187.31473;
 			id=8368;
 			atlOffset=54.966019;
 		};
@@ -65733,7 +65733,7 @@ class Mission
 			position[]={2970,11,9302.75};
 			name="air_g_7";
 			type="Empty";
-			angle=183.21674;
+			angle=183.21672;
 			id=8371;
 			atlOffset=-3.0339794;
 		};
@@ -65753,7 +65753,7 @@ class Mission
 			position[]={2970,0,9302.75};
 			name="car_guerilla";
 			type="Empty";
-			angle=184.40814;
+			angle=184.40813;
 			id=8375;
 			atlOffset=-14.033979;
 		};
