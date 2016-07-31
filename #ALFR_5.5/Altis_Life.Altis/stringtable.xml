@@ -2008,6 +2008,18 @@
             <Portuguese>Items Atuais</Portuguese>
             <Polish>Aktualne wyposażenie:</Polish>
         </Key>
+        <Key ID="STR_MISC_StPubIntox">
+ 			<Original>%1 s'est évanoui en public !</Original>
+ 			<English>%1 s'est évanoui en public !</English>
+ 		</Key>
+ 		<Key ID="STR_MISC_DrunkBlackOut">
+ 			<Original>Vous vous évanouissez d'avoir trop bu</Original>
+ 			<English>Vous vous évanouissez d'avoir trop bu</English>
+ 		</Key>
+ 		<Key ID="STR_MISC_DrunkBlackOut1">
+ 			<Original>Qu'est ce qu'il s'est passé ? J'ai mal au crâne...</Original>
+ 			<English>Qu'est ce qu'il s'est passé ? J'ai mal au crâne...</English>
+        </Key>
         <Key ID="STR_PM_Licenses">
             <Original>Licenses</Original>
             <Czech>licencí</Czech>

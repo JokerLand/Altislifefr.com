@@ -8,7 +8,7 @@
 |FAIT| Désactiver les valise qui tombe après mort |FAIT|
 
 //Ressources (John) : 
-- Meth & pleins d'autres
+- Meth & pleins d'autres  || EN COURS
 
 //Fret (Sakzy) :
 -Rajouter panneaux pub addaction dans les 4 grande ville
@@ -19,10 +19,10 @@
 -Voir si les classes sont là + les variables définis
 
 //Autre :
--"Demander un medic" envoie la notif aux flics
+-"Demander un medic" envoie la notif aux flics  || A TEST 
 -Wanted Stringtable a modifier car en français marche pas
 -Debug l'armurerie du SWAT
--Alcool à remettre qui cause le bug du any dans le HUD
+-Alcool à remettre qui cause le bug du any dans le HUD  || A TEST 
 
 //Test :
 -Voir et refaire les règles demander à yuricane
