@@ -255,6 +255,7 @@ switch (_code) do {
         if (!_alt && !_ctrlKey && !dialog && !(player getVariable ["restrained",false]) && {!life_action_inUse}) then {
             if (!_shift) then {
                 [] call life_fnc_p_openMenu;
+            };    
         };
     };
 
