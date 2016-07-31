@@ -39,6 +39,14 @@ class VirtualShops {
         level[] = { "", "", -1, "" };
         items[] = { "waterBottle", "rabbit", "apple", "redgull", "tbacon", "pickaxe", "toolkit", "fuelFull", "peach", "storagesmall", "storagebig", "rabbit_raw", "hen_raw", "rooster_raw", "sheep_raw", "goat_raw" };
     };
+    
+    class bar {
+        name = "STR_Shops_Bar";
+        side = "civ";
+        license = "";
+        level[] = { "", "", -1, "" };
+        items[] = { "waterBottle", "redgull", "beer", "whiskey", "rhum", "vodka" };
+    };
 
     class med_market {
         name = "STR_Shops_Market";
@@ -721,7 +729,7 @@ class VirtualItems {
         variable = "joint";
         displayName = "STR_Item_Joint";
         weight = 2;
-        buyPrice = 8000;
+        buyPrice = -1;
         sellPrice = 5000;
         illegal = true;
         edible = -1;

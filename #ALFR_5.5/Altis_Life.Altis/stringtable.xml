@@ -72,7 +72,7 @@
             <Polish>Sklep Kartingowy</Polish>
         </Key>
         <Key ID="STR_Shops_Market">
-            <Original>Altis Market</Original>
+            <Original>Marché</Original>
             <Czech>Altis Market</Czech>
             <Spanish>Mercado de Altis</Spanish>
             <German>Altis Markt</German>
@@ -80,6 +80,10 @@
             <French>Marché</French>
             <Portuguese>Mercado</Portuguese>
             <Polish>Market Altis</Polish>
+        </Key>
+        <Key ID="STR_Shops_Bar">
+            <Original>Bar d'Altos</Original>
+            <French>Bar d'Altos</French>
         </Key>
         <Key ID="STR_Shops_Rebel">
             <Original>Rebel Market</Original>

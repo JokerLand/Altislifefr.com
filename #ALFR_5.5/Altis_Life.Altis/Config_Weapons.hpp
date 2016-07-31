@@ -22,7 +22,6 @@ class WeaponShops {
         license = "gun";
         level[] = { "", "", -1, "" };
         items[] = {
-            { "CUP_hgun_Colt1911", "", 30000, -1 },
             { "hgun_Pistol_01_F", "", 30000, -1 },
             { "hgun_ACPC2_F", "", 25000, -1 },
             { "hgun_Pistol_heavy_01_F", "", 25000, -1 },
