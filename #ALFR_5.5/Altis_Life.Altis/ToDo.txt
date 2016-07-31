@@ -9,7 +9,7 @@
 |FAIT| Fix "Demander un medic" envoie la notif aux flics |FAIT|
 
 //Ressources (John) : 
-- Meth & pleins d'autres
+- Meth & pleins d'autres  || EN COURS
 
 //Fret (Sakzy) :
 -Rajouter panneaux pub addaction dans les 4 grande ville
@@ -26,12 +26,19 @@
 -Rajouter marqueur sur la map
 
 //Autre :
+<<<<<<< HEAD
 -Pas de message lors d'un give d'item via le menu Y
 -Le give money ne fonctionne pas
 -Impossible de récolter champ de cocaine
 -Wanted Stringtable a modifier car en français marche pas
 -Debug l'armurerie du SWAT
 -Ajouter le g/l dans le HUD pour l'alcool
+=======
+-"Demander un medic" envoie la notif aux flics  || A TEST 
+-Wanted Stringtable a modifier car en français marche pas
+-Debug l'armurerie du SWAT
+-Alcool à remettre qui cause le bug du any dans le HUD  || A TEST 
+>>>>>>> origin/master
 
 //Test :
 -Voir et refaire les règles demander à yuricane
