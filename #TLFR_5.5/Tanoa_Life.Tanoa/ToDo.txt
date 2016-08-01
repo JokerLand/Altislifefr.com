@@ -11,6 +11,10 @@
 |FAIT| Enlever le demande de renfort |FAIT|
 |FAIT| Le give money ne fonctionne pas |FAIT|
 |FAIT| Ajouter le g/l dans le HUD pour l'alcool |FAIT|
+|FAIT| Remettre tout les items police |FAIT VIA MENU OBJETS DANS Y |
+|FAIT| Problème avec le fichier fn_seizePlayerWeapon à la lign 12 (en commentaire actuellement)|FAIT|
+
+
 
 //Ressources (John) : 
 - Meth & pleins d'autres  || EN COURS
@@ -31,7 +35,6 @@
 
 //Autre :
 
--Problème avec le fichier fn_seizePlayerWeapon à la lign 12 (en commentaire actuellement)
 -Pas de message lors d'un give d'item via le menu Y
 
 -Impossible de récolter champ de cocaine
@@ -40,7 +43,6 @@
 -Remettre le "montrer son insigne"
 -Debug la barrière qui s'envole
 -Finir tout les items pour personnage masqués
--Remettre tout les items police
 
 
 //Test :
