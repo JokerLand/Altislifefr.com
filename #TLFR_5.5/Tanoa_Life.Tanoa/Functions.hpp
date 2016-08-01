@@ -184,6 +184,16 @@ class Life_Client_Core {
         class vehicleGarage {};
         class wireTransfer {};
     };
+    
+    class CopPlaceables	{
+	    file = "core\cop\placeables";
+	    class placeablesInit {};
+	    class placeablesMenu {};
+	    class placeablesRemoveAll {};
+	    class placeablePlace {};
+	    class placeableCancel {};
+	    class placeablesPlaceComplete {};
+    };
 
     class Functions    {
         file = "core\functions";

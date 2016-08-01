@@ -177,7 +177,8 @@ switch (_code) do {
     };
 	
     //Shift+C Serflex ( Pour que les rebelles/gangster puissent menotter )
-	case 46:
+	/*
+    case 46:
 	{
 		if(_shift) then {_handled = true;};
 		if(_shift && playerSide == civilian && !isNull cursorTarget && cursorTarget isKindOf "Man" && (isPlayer cursorTarget) && alive cursorTarget && cursorTarget distance player < 3.5 && !(cursorTarget getVariable "Escorting") && !(cursorTarget getVariable "restrained") && speed cursorTarget < 1) then
@@ -193,7 +194,7 @@ switch (_code) do {
 				};
 		};
 	};
-	
+	*/
     //Ear Plugs
     case 207:
     {
@@ -487,6 +488,16 @@ switch (_code) do {
             };
         };
     };
+    case 46	: {
+            _currentPos = getPosATL life_barrier_activeObj;
+            detach life_barrier_activeObj;
+            life_barrier_activeObj setPos[(getPos life_barrier_activeObj select 0), (getPos life_barrier_activeObj select 1), 0];
+            life_barrier_activeObj enableSimulationGlobal true;
+            life_bar_placey pushBack life_barrier_activeObj;
+            life_barrier_active = false;
+            life_barrier_activeObj = ObjNull;
+            hint "Vous avez placé l'objet !";
+   	};
 };
 
 _handled;
