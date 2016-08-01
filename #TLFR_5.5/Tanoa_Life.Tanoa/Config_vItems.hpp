@@ -79,14 +79,6 @@ class VirtualShops {
         level[] = { "", "", -1, "" };
         items[] = { "turtle_soup", "turtle_raw" };
     };
-    
-    class ble {
-        name = "STR_Shops_Ble";
-        side = "civ";
-        license = "";
-        level[] = { "", "", -1, "" };
-        items[] = { "ble_unprocessed", "ble_processed" };
-    };
 
     class coffee {
         name = "STR_Shops_Coffee";
@@ -641,29 +633,6 @@ class VirtualItems {
     };
     
     //ALFR FARM
-    
-    class ble_unprocessed {
-        variable = "bleU";
-        displayName = "STR_Item_BleU";
-        weight = 3;
-        buyPrice = -1;
-        sellPrice = -1;
-        illegal = false;
-        edible = -1;
-        icon = "";
-    };
-    
-    class ble_processed {
-        variable = "bleP";
-        displayName = "STR_Item_BleP";
-        weight = 2;
-        buyPrice = -1;
-        sellPrice = -1;
-        illegal = false;
-        edible = -1;
-        icon = "";
-    };
-    
     class tabacunprocessed {
         variable = "tabacunprocessed";
         displayName = "STR_Item_TabacUnprocessed";

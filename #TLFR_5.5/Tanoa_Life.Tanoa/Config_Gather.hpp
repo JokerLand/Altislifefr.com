@@ -3,19 +3,13 @@ class CfgGather {
     class Resources {
         class apple {
             amount = 5;
-            zones[] = { "apple_1", "apple_2", "apple_3" };
+            zones[] = { "apple_1", "apple_2", "apple_3", "apple_4" };
             item = "";
         };
 
         class peach {
             amount = 5;
-            zones[] = { "peaches_1", "peaches_2", "peaches_3" };
-            item = "";
-        };
-        
-        class ble_unprocessed {
-            amount = 5;
-            zones[] = { "Ble_1" };
+            zones[] = { "peaches_1", "peaches_2", "peaches_3", "peaches_4" };
             item = "";
         };
 

@@ -73,6 +73,7 @@ class Licenses {
     };
 
     //Processing Licenses
+<<<<<<< HEAD
     class ble {
         variable = "ble";
         displayName = "STR_License_Ble";
@@ -81,6 +82,8 @@ class Licenses {
         side = "civ";
     };
          
+=======
+>>>>>>> parent of 7f0d7ef... #5.5_Ressource_Blé
     class oil {
         variable = "oil";
         displayName = "STR_License_Oil";
