@@ -72,18 +72,6 @@ class Licenses {
         side = "civ";
     };
 
-    //Processing Licenses
-<<<<<<< HEAD
-    class ble {
-        variable = "ble";
-        displayName = "STR_License_Ble";
-        price = 10000;
-        illegal = false;
-        side = "civ";
-    };
-         
-=======
->>>>>>> parent of 7f0d7ef... #5.5_Ressource_Blé
     class oil {
         variable = "oil";
         displayName = "STR_License_Oil";
