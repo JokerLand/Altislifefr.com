@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={3883.8259,293.64038,13225.286};
-		dir[]={0,-0.70710683,0.70710683};
-		up[]={0,0.70710677,0.70710677};
-		aside[]={0.99999994,0,-0};
+		pos[]={9793.501,241.36523,12957.435};
+		dir[]={0.74828053,-0.59589773,-0.29155093};
+		up[]={0.55524862,0.80305523,-0.21633966};
+		aside[]={-0.36304548,6.9165253e-008,-0.93178064};
 	};
 };
 binarizationWanted=0;
@@ -495,7 +495,7 @@ class Mission
 			text="Quincaillerie";
 			type="c_unknown";
 			colorName="ColorCIV";
-			angle=359.5899;
+			angle=359.58987;
 			id=35;
 			atlOffset=-4.5113416;
 		};
@@ -541,11 +541,11 @@ class Mission
 		class Item23
 		{
 			dataType="Marker";
-			position[]={5075,0,10014.75};
+			position[]={5075,-2.1228115e-012,10014.75};
 			name="apple_1";
 			text="Champ de pommes";
 			type="loc_Tree";
-			colorName="ColorGreen";
+			colorName="ColorCIV";
 			id=43;
 			atlOffset=-3.050719;
 		};
@@ -563,7 +563,7 @@ class Mission
 		class Item25
 		{
 			dataType="Marker";
-			position[]={9847.0029,2.6526521e+036,12972.166};
+			position[]={9867,2.6526521e+036,12971.75};
 			name="peaches_2";
 			text="Champ de pêches";
 			type="loc_Tree";
@@ -574,13 +574,13 @@ class Mission
 		class Item26
 		{
 			dataType="Marker";
-			position[]={5028,6.4061e+024,9853};
+			position[]={5028,-9.668657e-029,9853};
 			name="peaches_1";
 			text="Champ de peches";
 			type="loc_Tree";
-			colorName="ColorGreen";
+			colorName="ColorCIV";
 			id=46;
-			atlOffset=6.4061e+024;
+			atlOffset=-5.6460133;
 		};
 		class Item27
 		{
@@ -655,7 +655,7 @@ class Mission
 			text="Vendeur de Licences";
 			type="c_unknown";
 			colorName="ColorOrange";
-			angle=358.09692;
+			angle=358.09689;
 			id=56;
 			atlOffset=-4.4375367;
 		};
@@ -1089,7 +1089,7 @@ class Mission
 			text="Boutique de plongée";
 			type="mil_box";
 			colorName="ColorOrange";
-			angle=215.54398;
+			angle=215.54396;
 			id=162;
 			atlOffset=-1.0413282;
 		};
@@ -1314,7 +1314,7 @@ class Mission
 			colorName="ColorGreen";
 			angle=2.5068085;
 			id=188;
-			atlOffset=68.814072;
+			atlOffset=72.694679;
 		};
 		class Item94
 		{
@@ -1710,6 +1710,7 @@ class Mission
 				angles[]={0,1.0793229,0};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 				skill=0.60000002;
@@ -1718,7 +1719,6 @@ class Mission
 			};
 			id=546;
 			type="Land_CargoBox_V1_F";
-			atlOffset=3.9117603;
 		};
 		class Item124
 		{
@@ -2029,7 +2029,7 @@ class Mission
 			};
 			id=641;
 			type="Land_WoodenTable_large_F";
-			atlOffset=0.44539928;
+			atlOffset=0.44485283;
 		};
 		class Item141
 		{
@@ -2048,7 +2048,7 @@ class Mission
 			};
 			id=642;
 			type="Land_Sink_F";
-			atlOffset=0.46276569;
+			atlOffset=0.46100044;
 		};
 		class Item142
 		{
@@ -2157,7 +2157,7 @@ class Mission
 			};
 			id=668;
 			type="Land_InfoStand_V1_F";
-			atlOffset=0.81141376;
+			atlOffset=0.81099987;
 		};
 		class Item148
 		{
@@ -8113,7 +8113,7 @@ class Mission
 			text="Vendeur de Licences";
 			type="c_unknown";
 			colorName="ColorOrange";
-			angle=359.17993;
+			angle=359.1799;
 			id=1238;
 			atlOffset=-2.3099999;
 		};
@@ -8134,7 +8134,7 @@ class Mission
 			text="Vendeur de Licences";
 			type="c_unknown";
 			colorName="ColorOrange";
-			angle=359.17993;
+			angle=359.1799;
 			id=1243;
 			atlOffset=-3.0599999;
 		};
@@ -8473,7 +8473,7 @@ class Mission
 			position[]={6969.5,0,7172.75};
 			name="civ_plane_2";
 			type="Empty";
-			angle=356.9379;
+			angle=356.93787;
 			id=3493;
 			atlOffset=-2.6600001;
 		};
@@ -29097,7 +29097,7 @@ class Mission
 			};
 			id=8417;
 			type="Land_InfoStand_V2_F";
-			atlOffset=2.9563904e-005;
+			atlOffset=0.010000229;
 		};
 		class Item1462
 		{
@@ -29561,6 +29561,7 @@ class Mission
 			};
 			id=8445;
 			type="Land_InfoStand_V2_F";
+			atlOffset=2.3841858e-007;
 		};
 		class Item1489
 		{
@@ -29631,7 +29632,7 @@ class Mission
 			};
 			id=8449;
 			type="Land_InfoStand_V2_F";
-			atlOffset=0.37199998;
+			atlOffset=0.37200022;
 		};
 		class Item1493
 		{
@@ -29700,7 +29701,7 @@ class Mission
 			};
 			id=8453;
 			type="Land_Sink_F";
-			atlOffset=0.45755005;
+			atlOffset=0.45498657;
 		};
 		class Item1497
 		{
@@ -29787,7 +29788,7 @@ class Mission
 			};
 			id=8459;
 			type="Land_Sink_F";
-			atlOffset=0.00022888184;
+			atlOffset=0.22490692;
 		};
 		class Item1502
 		{
@@ -29804,7 +29805,7 @@ class Mission
 			};
 			id=8460;
 			type="Land_InfoStand_V2_F";
-			atlOffset=0.27900004;
+			atlOffset=0.27899981;
 		};
 		class Item1503
 		{
@@ -30273,7 +30274,7 @@ class Mission
 			};
 			id=8501;
 			type="Land_InfoStand_V2_F";
-			atlOffset=0.4224;
+			atlOffset=0.42239952;
 		};
 		class Item1531
 		{
@@ -30291,7 +30292,7 @@ class Mission
 			};
 			id=8502;
 			type="Land_InfoStand_V2_F";
-			atlOffset=0.20699692;
+			atlOffset=0.2069931;
 		};
 		class Item1532
 		{
@@ -30342,7 +30343,7 @@ class Mission
 			};
 			id=8505;
 			type="Land_InfoStand_V2_F";
-			atlOffset=0.00021362305;
+			atlOffset=0.00020599365;
 		};
 		class Item1535
 		{
@@ -30712,18 +30713,18 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={5252.5,31.040251,11618.25};
+				position[]={5251.75,31.0404,11618};
 				angles[]={0,2.157768,0};
 			};
 			side="Empty";
 			flags=1;
 			class Attributes
 			{
-				init="this enableSimulation false;  this allowDamage false;  this addAction[""Traiter le blé"",life_fnc_processAction,""baguette1"",0,false,false,"""",' life_inv_ble > 0 && !life_is_processing'];  " \n "this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""baguette1"" >> ""displayName"")),  " \n "[(getNumber(missionConfigFile >> ""Licenses"" >> ""baguette1"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""baguette1"",0,false,false,"""",' !license_civ_baguette1 && playerSide == civilian '];";
+				init="this enableSimulation false;  this allowDamage false;  this addAction[""Moudre le blé"",life_fnc_processAction,""ble"",0,false,false,"""",' life_inv_ble > 0 && !life_is_processing'];  " \n "this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""ble"" >> ""displayName"")),  " \n "[(getNumber(missionConfigFile >> ""Licenses"" >> ""ble"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""ble"",0,false,false,"""",' !license_civ_ble && playerSide == civilian '];";
 			};
 			id=8531;
 			type="Land_i_Windmill01_F";
-			atlOffset=3.2520008;
+			atlOffset=3.1395092;
 		};
 		class Item1557
 		{
@@ -30846,7 +30847,7 @@ class Mission
 			};
 			id=8538;
 			type="Land_InfoStand_V2_F";
-			atlOffset=5.9604645e-008;
+			atlOffset=1.1920929e-007;
 		};
 		class Item1564
 		{
@@ -31489,7 +31490,7 @@ class Mission
 			};
 			id=8648;
 			type="Land_InfoStand_V2_F";
-			atlOffset=0.40224457;
+			atlOffset=0.45000076;
 		};
 		class Item1602
 		{
@@ -31628,7 +31629,7 @@ class Mission
 			};
 			id=8658;
 			type="Land_InfoStand_V2_F";
-			atlOffset=0.90900016;
+			atlOffset=0.9090004;
 		};
 		class Item1610
 		{
@@ -32127,13 +32128,13 @@ class Mission
 		class Item1639
 		{
 			dataType="Marker";
-			position[]={5776,-0.054933235,10338.075};
+			position[]={5776,-2.3466324e-012,10338.075};
 			name="marker_277";
-			text="Vendeur de Pain";
+			text="Vendeur de Farine de Blé";
 			type="mil_box";
 			colorName="ColorGUER";
 			id=8698;
-			atlOffset=-7.8349333;
+			atlOffset=-7.7800002;
 		};
 	};
 };
