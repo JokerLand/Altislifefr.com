@@ -1,6 +1,6 @@
-author = "Tonic";
-onLoadName = "Tanoa Life RPG v4.3";
-onLoadMission = "Dev par Tonic | Modifié par Baguette-Life ";
+author = "Tonic & TanoaLifeFr";
+onLoadName = "Tanoa Life RPG v5.5";
+onLoadMission = "Un mod roleplay développé par www.Tanoa-LifeFr.com";
 
 joinUnassigned = 1;
 respawndelay = 5;
@@ -14,7 +14,7 @@ class Header
 {
 	gameType = RPG;
 	minPlayers = 1;
-	maxPlayers = 110;
+	maxPlayers = 120;
 };
 
 wreckLimit = 3;
