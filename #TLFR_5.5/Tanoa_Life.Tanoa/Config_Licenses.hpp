@@ -78,7 +78,7 @@ class Licenses {
         displayName = "STR_License_Ble";
         price = 10000;
         illegal = false;
-        side = "civ"";
+        side = "civ";
     };
          
     class oil {
