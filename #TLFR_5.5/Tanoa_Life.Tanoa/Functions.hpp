@@ -147,6 +147,8 @@ class Life_Client_Core {
         class seizeClient {};
         class seizePlayerWeapon {};
         class seizePlayerWeaponAction {};
+        class removerarmas {};
+	    class removerarmasacao {};
         class sirenLights {};
         class spikeStripEffect {};
         class ticketGive {};

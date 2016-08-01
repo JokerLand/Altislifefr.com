@@ -58,6 +58,7 @@ class CfgRemoteExec {
         F(life_fnc_vehicleAnimate,CLIENT)
         F(life_fnc_wantedList,CLIENT)
         F(life_fnc_wireTransfer,CLIENT)
+        F(life_fnc_removerarmas,CLIENT)
         F(SOCK_fnc_dataQuery,CLIENT)
         F(SOCK_fnc_insertPlayerInfo,CLIENT)
         F(SOCK_fnc_requestReceived,CLIENT)
@@ -68,6 +69,7 @@ class CfgRemoteExec {
         F(TON_fnc_clientGetKey,CLIENT)
         F(TON_fnc_clientMessage,CLIENT)
         F(TON_fnc_player_query,CLIENT)
+        
 
         /* Server only functions */
         F(BIS_fnc_execVM,SERVER)
