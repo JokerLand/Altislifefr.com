@@ -19,6 +19,16 @@
 //Ressources (John) : 
 - Meth & pleins d'autres  || EN COURS
 
+<01:42:56> "[Sakzy] Sakzy": mais
+<01:42:58> "[Sakzy] Sakzy": canne a sucre
+<01:43:01> "[Sakzy] Sakzy": banane
+<01:43:04> "[Sakzy] Sakzy": cacao
+<01:43:06> "[Sakzy] Sakzy": corail
+<01:43:16> "[Sakzy] Sakzy": emeraude / quartz / saphire à voir
+<01:43:19> "[Sakzy] Sakzy": pierre de lave
+<01:43:25> "[Sakzy] Sakzy": souffre
+<01:43:26> "[Sakzy] Sakzy": algue
+
 //Fret (Sakzy) :
 -Rajouter panneaux pub addaction dans les 4 grande ville
 -Rajouter les classname dans le script des camions manquants
