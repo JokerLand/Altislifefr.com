@@ -73,6 +73,14 @@ class Licenses {
     };
 
     //Processing Licenses
+    class ble {
+        variable = "ble";
+        displayName = "STR_License_Ble";
+        price = 10000;
+        illegal = false;
+        side = "civ"";
+    };
+         
     class oil {
         variable = "oil";
         displayName = "STR_License_Oil";

@@ -125,6 +125,9 @@
             <Portuguese>Praça de Alimentação</Portuguese>
             <Polish>Przysmaki Wonga</Polish>
         </Key>
+        <Key ID="STR_Shops_Ble">
+            <Original>Vendeur de Farine de Blé</Original>
+        </Key>
         <Key ID="STR_Shops_Coffee">
             <Original>Gyro's Coffee</Original>
             <Czech>gyros Coffee</Czech>
@@ -5480,6 +5483,12 @@
             <Portuguese>Pêssegos</Portuguese>
             <Polish>Brzoskwinie</Polish>
         </Key>
+        <Key ID="STR_Item_BleU">
+            <Original>Blé</Original>
+        </Key>
+        <Key ID="STR_Item_BleP">
+            <Original>Farine de Blé</Original>
+        </Key>
         <Key ID="STR_Item_OilU">
             <Original>Crude Oil</Original>
             <Czech>Ropa</Czech>
@@ -6159,6 +6168,9 @@
             <Portuguese>Refinamento de Petróleo</Portuguese>
             <Polish>Rafinacja ropy naftowej</Polish>
         </Key>
+        <Key ID="STR_License_Ble">
+            <Original>Moudre du Blé</Original>
+        </Key>
         <Key ID="STR_License_Diving">
             <Original>Diving License</Original>
             <Czech>potápěčské licence</Czech>
@@ -6825,6 +6837,9 @@
         </Key>
     </Package>
     <Package name="Process_Action">
+        <Key ID="STR_Process_Ble">
+            <Original>Moudre du blé</Original>
+        </Key>
         <Key ID="STR_Process_Oil">
             <Original>Processing Oil</Original>
             <Czech>zpracování ropy</Czech>

@@ -17,6 +17,14 @@
 */
 
 class ProcessAction {
+    class ble {
+        MaterialsReq[] = {{"ble_unprocessed",1}};
+        MaterialsGive[] = {{"ble_processed",1}};
+        Text = "STR_Process_Ble";
+        //ScrollText = "Moudre du blé";
+        NoLicenseCost = 1000;
+    };
+        
     class oil {
         MaterialsReq[] = {{"oil_unprocessed",1}};
         MaterialsGive[] = {{"oil_processed",1}};
