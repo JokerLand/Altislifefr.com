@@ -88,12 +88,20 @@ class CfgSpawnPoints {
     class Cop {
         class Kavala {
             displayName = "Georgetown";
-            spawnMarker = "cop_spawn_1";
+            spawnMarker = "police_hq_1";
             icon = "\a3\ui_f\data\map\Markers\NATO\b_air.paa";
             licenses[] = { { "", true } };
             level[] = { "", "", -1 };
         };
 
+        class Pyrgos {
+            displayName = "La Rochelle";
+            spawnMarker = "cop_spawn_4";
+            icon = "\a3\ui_f\data\map\Markers\NATO\b_air.paa";
+            licenses[] = { { "", true } };
+            level[] = { "", "", -1 };
+        };
+        
         class Athira {
             displayName = "Lijnhaven";
             spawnMarker = "cop_spawn_3";
@@ -102,21 +110,13 @@ class CfgSpawnPoints {
             level[] = { "", "", -1 };
         };
 
-        class Pyrgos {
-            displayName = "La Rochelle";
-            spawnMarker = "cop_spawn_2";
+        class Paros {
+            displayName = "Ouméré";
+            spawnMarker = "police_hq_2";
             icon = "\a3\ui_f\data\map\Markers\NATO\b_air.paa";
             licenses[] = { { "", true } };
             level[] = { "", "", -1 };
         };
-
-        //class Paros {
-            //displayName = "Paros";
-            //spawnMarker = "cop_spawn_4";
-            //icon = "\a3\ui_f\data\map\Markers\NATO\b_air.paa";
-            //licenses[] = { { "", true } };
-            //level[] = { "", "", -1 };
-        //};
 
         //class HW {
           //  displayName = "HW Patrol";
