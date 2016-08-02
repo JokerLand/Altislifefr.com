@@ -129,6 +129,14 @@ class ProcessAction {
         NoLicenseCost = 1500;
     };
     
+    class sugarcane {
+        MaterialsReq[] = {{"sugarcaneunprocessed",1}};
+        MaterialsGive[] = {{"sugarcaneprocessed",1}};
+        Text = "STR_Process_Sugarcane";
+        //ScrollText = "Mix Cement";
+        NoLicenseCost = 1500;
+    };
+    
     class joint {
         MaterialsReq[] = {{"tabacunprocessed",1},{"marijuana",1}};
         MaterialsGive[] = {{"joint",1}};

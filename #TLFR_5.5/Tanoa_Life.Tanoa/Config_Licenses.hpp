@@ -159,7 +159,15 @@ class Licenses {
         illegal = false;
         side = "civ";
     };
-
+    
+    class sugarcane {
+        variable = "sugarcane";
+        displayName = "STR_License_Sugarcane";
+        price = 15000;
+        illegal = false;
+        side = "civ";
+    };
+    
     class medmarijuana {
         variable = "medmarijuana";
         displayName = "STR_License_Medmarijuana";

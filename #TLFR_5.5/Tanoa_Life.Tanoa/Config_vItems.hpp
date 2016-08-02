@@ -207,6 +207,14 @@ class VirtualShops {
         level[] = { "", "", -1, "" };
         items[] = { "cigare" };
     };
+    
+    class sugarcane {
+        name = "STR_Shops_SugarCane";
+        side = "civ";
+        license = "";
+        level[] = { "", "", -1, "" };
+        items[] = { "sugarcaneprocessed" };
+    };
 
     class gold {
         name = "STR_Shops_Gold";
@@ -664,6 +672,28 @@ class VirtualItems {
         illegal = false;
         edible = -1;
         icon = "icons\ico_cigare.paa";
+    };
+    
+    class sugarcaneunprocessed {
+        variable = "sugarcaneunprocessed";
+        displayName = "STR_Item_SugarcaneUnprocessed";
+        weight = 3;
+        buyPrice = -1;
+        sellPrice = -1;
+        illegal = false;
+        edible = -1;
+        icon = "";
+    };
+    
+    class sugarcaneprocessed {
+        variable = "sugarcaneprocessed";
+        displayName = "STR_Item_SugarcaneProcessed";
+        weight = 2;
+        buyPrice = -1;
+        sellPrice = 120;
+        illegal = false;
+        edible = -1;
+        icon = "";
     };
     
     //Artefact Basse Qualité

@@ -37,6 +37,12 @@ class CfgGather {
             item = "";
         };
         
+        class sugarcaneunprocessed {
+            amount = 2;
+            zones[] = { "sugarcane_1" };
+            item = "";
+        };
+        
         class girolle {
             amount = 5;
             zones[] = { "champignon_1" };

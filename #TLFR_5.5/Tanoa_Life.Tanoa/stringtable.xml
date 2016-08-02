@@ -146,6 +146,10 @@
             <Polish>Sprzedawca 'Trawy'</Polish>
         </Key>
         //FARM ALFR
+        <Key ID="STR_Shops_SugarCane">
+            <Original>Acheteur de Canne à Sucre</Original>
+            <French>Acheteur de Canne à Sucre</French>
+        </Key>
         <Key ID="STR_Shops_Paper">
             <Original>Paper Shop</Original>
             <French>Acheteur de Papier</French>
@@ -5410,6 +5414,14 @@
             <French>Pied de Biche</French>
         </Key>
         //ALFR FIN
+        <Key ID="STR_Item_SugarcaneUnprocessed">
+            <Original>Canne à Sucre Brut</Original>
+            <French>Canne à Sucre Brut</French>
+        </Key>
+        <Key ID="STR_Item_SugarcaneProcessed">
+            <Original>Canne à Sucre Traitée</Original>
+            <French>Canne à Sucre Traitée</French>
+        </Key>
         <Key ID="STR_Item_Cannabis">
             <Original>Marijuana leaf</Original>
             <Czech>marihuana list</Czech>
@@ -6229,6 +6241,10 @@
             <Portuguese>Licença de Caminhão</Portuguese>
             <Polish>Prawo jazdy - ciężarówki</Polish>
         </Key>
+        <Key ID="STR_License_Sugarcane">
+            <Original>Découpage de la canne à sucre</Original>
+            <French>Découpage de la canne à sucre</French>
+        </Key>
         <Key ID="STR_License_Diamond">
             <Original>Diamond Processing</Original>
             <Czech>Diamond Processing</Czech>
@@ -6825,6 +6841,10 @@
         </Key>
     </Package>
     <Package name="Process_Action">
+        <Key ID="STR_Process_Sugarcane">
+            <Original>Découpe de canne à sucre</Original>
+            <French>Découpe de canne à sucre</French>
+        </Key>
         <Key ID="STR_Process_Oil">
             <Original>Processing Oil</Original>
             <Czech>zpracování ropy</Czech>
@@ -8873,6 +8893,10 @@
             <Portuguese>Comprador de Sal</Portuguese>
             <Polish>Skup soli</Polish>
             <Italian>Vendita Sale</Italian>
+        </Key>
+        <Key ID="STR_MAR_Sugarcane_Trader">
+            <Original>Vendeur de canne à sucre</Original>
+            <French>Vendeur de canne à sucre</French>
         </Key>
         <Key ID="STR_MAR_Diamond_Trader">
             <Original>Diamond Trader</Original>
