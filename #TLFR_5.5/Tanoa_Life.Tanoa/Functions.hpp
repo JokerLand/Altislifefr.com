@@ -112,6 +112,15 @@ class Life_Client_Core {
 		class robTraceurGPS {};
         class tazed {};
     };
+    
+    class CellPhone {
+		file = "core\cellphone";
+		class cellPhoneCheck {};
+		class setupCellPhone {};
+		class messagesMenu {};
+		class lbChanged {};
+		class deleteMessage {};
+    };
 
     class Config {
         file = "core\config";

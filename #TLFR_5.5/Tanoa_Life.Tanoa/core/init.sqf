@@ -140,6 +140,8 @@ publicVariableServer "life_fnc_RequestClientId"; //Variable OwnerID for Headless
 
 //Gaz lacrymogène
 [] execVM "teargas.sqf";
+//SMS Persistent
+[] call life_fnc_cellPhoneCheck;
 
 [] spawn {
     for "_i" from 0 to 1 step 0 do {

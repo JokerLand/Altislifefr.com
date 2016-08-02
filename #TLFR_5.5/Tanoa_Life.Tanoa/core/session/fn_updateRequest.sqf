@@ -6,12 +6,13 @@
     Description:
     Passes ALL player information to the server to save player data to the database.
 */
-private["_packet","_array","_flag","_alive","_position"];
+private["_packet","_array","_flag","_alive","_position","_messages"];
 _packet = [getPlayerUID player,(profileName),playerSide,CASH,BANK];
 _array = [];
 _alive = alive player;
 _position = getPosATL player;
 _flag = switch (playerSide) do {case west: {"cop"}; case civilian: {"civ"}; case independent: {"med"};};
+_messages = player getVariable "cellphone_messages";
 
 {
     _varName = LICENSE_VARNAME(configName _x,_flag);
@@ -42,3 +43,5 @@ if (life_HC_isActive) then {
 } else {
     _packet remoteExecCall ["DB_fnc_updateRequest",RSERV];
 };
+
+[getPlayerUid player, _messages] remoteExecCall ["DB_fnc_saveCellPhone",RSERV];

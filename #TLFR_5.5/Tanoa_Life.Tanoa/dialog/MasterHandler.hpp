@@ -30,3 +30,4 @@
 #include "AltisPhone.hpp"
 #include "newsStation.hpp"
 #include "placeables.hpp"
+#include "oldmessages.hpp"
