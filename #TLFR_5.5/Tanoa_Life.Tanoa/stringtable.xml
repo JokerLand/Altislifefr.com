@@ -7385,6 +7385,10 @@
             <Portuguese>Vender Garagem</Portuguese>
             <Polish>Sprzedaj garaż</Polish>
         </Key>
+        <Key ID="STR_InsuranceApply">
+			<Original>You just insure your vehicle you are now protected against explosions!</Original>
+            <French>Vous venez d'assurer votre véhicule vous êtes maintenant protégé contre les explosions!</French>
+		</Key> 
         <Key ID="STR_pInAct_RemoveContainer">
             <Original>Remove Container</Original>
             <Czech>Nádobu</Czech>

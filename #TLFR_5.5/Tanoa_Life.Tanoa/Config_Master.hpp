@@ -140,6 +140,12 @@ class Life_Settings {
     vehicle_sell_multiplier_COP = .25; //Cop Vehicle Garage Sell Price = Vehicle Buy Price * multiplier
     vehicle_sell_multiplier_MEDIC = .25; //Medic Vehicle Garage Sell Price = Vehicle Buy Price * multiplier
     vehicle_sell_multiplier_OPFOR = -1; // -- NOT IN USE -- Simply left in for east support.
+    
+     /* Vehicle Insurance Prices */
+    vehicle_insurance_multiplier_CIVILIAN = .25; //Civilian Vehicle Insurance Price = Vehicle Buy Price * multiplier
+    vehicle_insurance_multiplier_COP = .1; //Cop Vehicle Insurance Price = Vehicle Buy Price * multiplier
+    vehicle_insurance_multiplier_MEDIC = .1; //Medic Vehicle Insurance Price = Vehicle Buy Price * multiplier
+    vehicle_insurance_multiplier_OPFOR = -1; // -- NOT IN USE -- Simply left in for east support. 
 
     /* "Other" Vehicle Prices */
     vehicle_chopShop_multiplier = .25; //Chop Shop price for vehicles. TO AVOID EXPLOITS NEVER SET HIGHER THAN A PURCHASE/RENTAL multipler!   Payout = Config_vehicle Price * multiplier
