@@ -1,4 +1,4 @@
-﻿   | Liste des choses à faire : Avec indications de celui qui s'occupe |
+   | Liste des choses à faire : Avec indications de celui qui s'occupe |
 
 
 |FAIT| véhicule aérien ,rajouter les camions |FAIT|
@@ -56,3 +56,6 @@ algue
 -Respawn sans la tenue et sans map (-> initciv voir)
 -Remettre les icons droit
 -Station à rajouter en 109098 et 021033
+
+//A retenir :
+-Sakzy a dit dans le dos de Max tel un pd qu'il cassait les couilles, Max est autorisé a ne plus dev pendant 1 semaine et demi
