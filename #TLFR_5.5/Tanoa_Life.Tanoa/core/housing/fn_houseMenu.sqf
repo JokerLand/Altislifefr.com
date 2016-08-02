@@ -118,7 +118,7 @@ if (!(_curTarget in life_vehicles) || isNil {_curTarget getVariable "house_owner
         _Btn2 buttonSetAction "[life_pInact_curTarget] call life_fnc_lockHouse; closeDialog 0;";
         _Btn2 ctrlShow true;
 
-        if(isNull (_curTarget GVAR ["light01",ObjNull]) || isNull (_curTarget GVAR ["light02",ObjNull]) || isNull (_curTarget GVAR ["light03",ObjNull]) || isNull (_curTarget GVAR ["light04",ObjNull]) || isNull (_curTarget GVAR ["light05",ObjNull]) || isNull (_curTarget GVAR ["light06",ObjNull]) || isNull (_curTarget GVAR ["light07",ObjNull]) || isNull (_curTarget GVAR ["light08",ObjNull]) || isNull (_curTarget GVAR ["light09",ObjNull]) || isNull (_curTarget GVAR ["light10",ObjNull])) then {
+        if(isNull (_curTarget getVariable ["light01",ObjNull]) || isNull (_curTarget getVariable ["light02",ObjNull]) || isNull (_curTarget getVariable ["light03",ObjNull]) || isNull (_curTarget getVariable ["light04",ObjNull]) || isNull (_curTarget getVariable ["light05",ObjNull]) || isNull (_curTarget getVariable ["light06",ObjNull]) || isNull (_curTarget getVariable ["light07",ObjNull]) || isNull (_curTarget getVariable ["light08",ObjNull]) || isNull (_curTarget getVariable ["light09",ObjNull]) || isNull (_curTarget getVariable ["light10",ObjNull])) then {
 			_Btn3 ctrlSetText localize "STR_pInAct_LightsOn";
 		} else {
 			_Btn3 ctrlSetText localize "STR_pInAct_LightsOff";
