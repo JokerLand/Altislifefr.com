@@ -20,7 +20,7 @@
 */
 class CfgSpawnPoints {
     class Civilian {
-        class Kavala {
+        class Georgetown {
             displayName = "Georgetown";
             spawnMarker = "civ_spawn_1";
             icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
@@ -28,7 +28,15 @@ class CfgSpawnPoints {
             level[] = { "", "", -1 };
         };
 
-        class Athira {
+        class LaRochelle {
+            displayName = "La Rochelle";
+            spawnMarker = "civ_spawn_4";
+            icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
+            licenses[] = { { "", true } };
+            level[] = { "", "", -1 };
+        };
+        
+        class Lijnhaben {
             displayName = "Lijnhaven";
             spawnMarker = "civ_spawn_3";
             icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
@@ -36,17 +44,17 @@ class CfgSpawnPoints {
             level[] = { "", "", -1 };
         };
 
-        class Pyrgos {
-            displayName = "La Rochelle";
+        class Ouméré {
+            displayName = "Ouméré";
             spawnMarker = "civ_spawn_2";
             icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
             licenses[] = { { "", true } };
             level[] = { "", "", -1 };
         };
-
+        
         class Rebel {
             displayName = "Base Rebelle";
-            spawnMarker = "spawn_rebelle";
+            spawnMarker = "reb_spawn_1";
             icon = "\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa";
             licenses[] = { { "rebel", true } };
             level[] = { "", "", -1 };
@@ -88,7 +96,7 @@ class CfgSpawnPoints {
     class Cop {
         class Kavala {
             displayName = "Georgetown";
-            spawnMarker = "police_hq_1";
+            spawnMarker = "cop_spawn_1";
             icon = "\a3\ui_f\data\map\Markers\NATO\b_air.paa";
             licenses[] = { { "", true } };
             level[] = { "", "", -1 };
@@ -112,7 +120,7 @@ class CfgSpawnPoints {
 
         class Paros {
             displayName = "Ouméré";
-            spawnMarker = "police_hq_2";
+            spawnMarker = "cop_spawn_2";
             icon = "\a3\ui_f\data\map\Markers\NATO\b_air.paa";
             licenses[] = { { "", true } };
             level[] = { "", "", -1 };
