@@ -41,6 +41,7 @@ class CfgGather {
             amount = 2;
             zones[] = { "sugarcane_1" };
             item = "";
+            mined[] = {"sugarcaneunprocessed"};
         };
         
         class girolle {
