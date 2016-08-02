@@ -9066,6 +9066,18 @@
             <Polish>Zbrojownia rebelianta</Polish>
             <Italian>Armeria della Guerriglia</Italian>
         </Key>
+        <Key ID="STR_MAR_Armee1_Weapon_Shop">
+            <Original>Armurerie Armée Trouffion</Original>
+            <French>Armurerie Armée Trouffion</French>
+        </Key>
+        <Key ID="STR_MAR_Armee2_Weapon_Shop">
+            <Original>Armurerie Armée Sous-Officiers</Original>
+            <French>Armurerie Armée Sous-Officiers</French>
+        </Key>
+        <Key ID="STR_MAR_Armee3_Weapon_Shop">
+            <Original>Armurerie Armée Officiers</Original>
+            <French>Armurerie Armée Officiers</French>
+        </Key>
         <Key ID="STR_MAR_Helicopter_Shop">
             <Original>Vendeur d'Hélicoptère</Original>
             <Czech>vrtulník Shop</Czech>

@@ -18617,7 +18617,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init=" " \n "this addAction[localize""STR_NOTF_ATM"",life_fnc_atmMenu,"""",0,false,false,"""",' isNull objectParent player && player distance _target < 4 ']; this addAction[localize ""STR_MAR_Armee_Weapon_Shop"",life_fnc_weaponShopMenu,""cop_armee1"",0,false,false,"""",' license_cop_armee && playerSide isEqualTo west']; this addAction[localize ""STR_MAR_Armee_Weapon_Shop"",life_fnc_weaponShopMenu,""cop_armee2"",0,false,false,"""",' license_cop_armee && playerSide isEqualTo west']; this addAction[localize ""STR_MAR_Armee_Weapon_Shop"",life_fnc_weaponShopMenu,""cop_armee3"",0,false,false,"""",' license_cop_armee && playerSide isEqualTo west'];";
+				init=" " \n "this addAction[localize""STR_NOTF_ATM"",life_fnc_atmMenu,"""",0,false,false,"""",' isNull objectParent player && player distance _target < 4 ']; this addAction[localize ""STR_MAR_Armee1_Weapon_Shop"",life_fnc_weaponShopMenu,""cop_armee1"",0,false,false,"""",' license_cop_armee && playerSide isEqualTo west']; this addAction[localize ""STR_MAR_Armee2_Weapon_Shop"",life_fnc_weaponShopMenu,""cop_armee2"",0,false,false,"""",' license_cop_armee && playerSide isEqualTo west']; this addAction[localize ""STR_MAR_Armee3_Weapon_Shop"",life_fnc_weaponShopMenu,""cop_armee3"",0,false,false,"""",' license_cop_armee && playerSide isEqualTo west'];";
 			};
 			id=1932;
 			type="Land_InfoStand_V2_F";
