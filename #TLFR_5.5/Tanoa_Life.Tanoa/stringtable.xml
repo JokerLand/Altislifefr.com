@@ -3846,6 +3846,22 @@
             <Russian>Вы не можете удалить элемент, когда вы находитесь в автомобиле.</Russian>
             <German>Sie können ein Element nicht entfernen, wenn Sie in einem Fahrzeug sind.</German>
         </Key>
+        <Key ID="STR_NOTF_nowSpectating">
+            <Original>>Vous êtes maintenant spectating %1.\n\nAppuyez sur F10 pour arrêter spectating..</Original>
+            <French>Vous êtes maintenant spectating %1.\n\nAppuyez sur F10 pour arrêter spectating.</French>
+        </Key>
+        <Key ID="STR_NOTF_haveTPedToYou">
+            <Original>Vous avez téléporté %1 à votre emplacement.</Original>
+            <French>Vous avez téléporté %1 à votre emplacement.</French>
+        </Key>
+        <Key ID="STR_NOTF_ATM">
+            <Original>&lt;t color='#ADFF2F'&gt;ATM&lt;/t&gt;</Original>
+            <French>&lt;t color='#ADFF2F'&gt;ATM&lt;/t&gt;</French>
+        </Key>
+        <Key ID="STR_NOTF_captureGangHideout">
+            <Original>Capturez la Cachette de Gang</Original>
+            <French>Capturez la Cachette de Gang</French>
+        </Key>
     </Package>
     <Package name="News_Strings">
         <Key ID="STR_News_AddAction">

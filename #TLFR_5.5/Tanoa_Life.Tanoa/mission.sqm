@@ -8,7 +8,7 @@ class EditorData
 	toggles=517;
 	class ItemIDProvider
 	{
-		nextID=1932;
+		nextID=1933;
 	};
 	class MarkerIDProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={5702.8677,49.485729,12315.211};
-		dir[]={-0.47222963,-0.74837887,-0.46579733};
-		up[]={-0.5327999,0.66326016,-0.52554387};
-		aside[]={-0.70225364,-8.2585029e-007,0.71194923};
+		pos[]={5632.4253,5.3957639,11059.548};
+		dir[]={-0.56030679,-0.68694121,0.46280384};
+		up[]={-0.52963293,0.72670949,0.43746859};
+		aside[]={0.63683957,-1.6111881e-007,0.77100676};
 	};
 };
 binarizationWanted=0;
@@ -218,24 +218,6 @@ class CustomAttributes
 		name="Multiplayer";
 		class Attribute0
 		{
-			property="RespawnTemplates";
-			expression="true";
-			class Value
-			{
-				class data
-				{
-					class type
-					{
-						type[]=
-						{
-							"ARRAY"
-						};
-					};
-				};
-			};
-		};
-		class Attribute1
-		{
 			property="RespawnButton";
 			expression="true";
 			class Value
@@ -250,6 +232,24 @@ class CustomAttributes
 						};
 					};
 					value=1;
+				};
+			};
+		};
+		class Attribute1
+		{
+			property="RespawnTemplates";
+			expression="true";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"ARRAY"
+						};
+					};
 				};
 			};
 		};
@@ -308,7 +308,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=711;
+		items=712;
 		class Item0
 		{
 			dataType="Marker";
@@ -651,7 +651,6 @@ class Mission
 			type="c_unknown";
 			colorName="ColorGreen";
 			id=41;
-			atlOffset=0.20529222;
 		};
 		class Item33
 		{
@@ -725,7 +724,6 @@ class Mission
 			type="c_unknown";
 			colorName="ColorGreen";
 			id=48;
-			atlOffset=0.14122105;
 		};
 		class Item40
 		{
@@ -866,7 +864,7 @@ class Mission
 			position[]={6286.4204,84.820435,10977.629};
 			name="jail_release";
 			type="Empty";
-			angle=200.32574;
+			angle=200.32573;
 			id=62;
 			atlOffset=72.912941;
 		};
@@ -981,7 +979,7 @@ class Mission
 			position[]={5608.2285,2.6600001,10998.573};
 			name="cop_car_1";
 			type="Empty";
-			angle=228.08287;
+			angle=228.08286;
 			id=99;
 		};
 		class Item64
@@ -1000,7 +998,7 @@ class Mission
 			position[]={12671.561,91.033508,7504.2671};
 			name="cop_car_3";
 			type="Empty";
-			angle=106.61729;
+			angle=106.61728;
 			id=101;
 			atlOffset=65.603554;
 		};
@@ -1707,7 +1705,6 @@ class Mission
 			colorName="ColorGreen";
 			angle=3.4952214;
 			id=177;
-			atlOffset=0.088558674;
 		};
 		class Item131
 		{
@@ -1736,7 +1733,7 @@ class Mission
 			name="atm_marker_4";
 			type="loc_Tourism";
 			colorName="ColorGreen";
-			angle=56.26334;
+			angle=56.263336;
 			id=182;
 			atlOffset=80.822258;
 		};
@@ -2780,7 +2777,7 @@ class Mission
 			};
 			id=547;
 			type="Land_Atm_02_F";
-			atlOffset=0.3621006;
+			atlOffset=0.27331638;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -7366,6 +7363,7 @@ class Mission
 				angles[]={0,5.2770157,0};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 				skill=0.60000002;
@@ -7374,7 +7372,6 @@ class Mission
 			};
 			id=766;
 			type="Land_CashDesk_F";
-			atlOffset=0.52993774;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -13762,7 +13759,6 @@ class Mission
 				angles[]={0,1.6464937,0};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 				init="this enableSimulation false; this allowDamage false; this addAction[localize""STR_MAR_Station_Shop"",life_fnc_weaponShopMenu,""f_station_store""];this addAction[localize""STR_Shop_Station_Coffee"",life_fnc_virt_menu,""f_station_coffee""]; this addAction[""Braquer la Station Service"",life_fnc_robShops];";
@@ -13770,6 +13766,7 @@ class Mission
 			};
 			id=1257;
 			type="Land_CashDesk_F";
+			atlOffset=0.45763612;
 		};
 		class Item413
 		{
@@ -14054,7 +14051,7 @@ class Mission
 			name="civ_gar_3";
 			text="@STR_MAR_Garage";
 			type="o_service";
-			angle=53.793869;
+			angle=53.793865;
 			id=1321;
 			atlOffset=0.16650057;
 		};
@@ -14622,7 +14619,7 @@ class Mission
 			type="loc_Fuelstation";
 			colorName="ColorGreen";
 			id=1501;
-			atlOffset=16.628304;
+			atlOffset=11.236607;
 		};
 		class Item468
 		{
@@ -15116,7 +15113,6 @@ class Mission
 			};
 			id=1541;
 			type="Land_CashDesk_F";
-			atlOffset=0.15252447;
 		};
 		class Item493
 		{
@@ -15723,7 +15719,7 @@ class Mission
 			position[]={3879.28,155.492,13402.078};
 			name="reb_spawn_1";
 			type="Empty";
-			angle=229.05859;
+			angle=229.05858;
 			id=1578;
 			atlOffset=144.86591;
 		};
@@ -18547,7 +18543,7 @@ class Mission
 		class Item706
 		{
 			dataType="Marker";
-			position[]={5750,1.3243891e+036,9299};
+			position[]={5703,1.3243891e+036,9399};
 			name="sugarcane_1";
 			text="Champ de canne à sucre";
 			type="mil_dot";
@@ -18608,6 +18604,46 @@ class Mission
 			type="b_unknown";
 			colorName="ColorOrange";
 			id=1931;
+		};
+		class Item711
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5631.0005,3.6237438,11060};
+				angles[]={0,5.0292487,6.2820935};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init=" " \n "this addAction[localize""STR_NOTF_ATM"",life_fnc_atmMenu,"""",0,false,false,"""",' isNull objectParent player && player distance _target < 4 ']; this addAction[localize ""STR_MAR_Armee_Weapon_Shop"",life_fnc_weaponShopMenu,""cop_armee1"",0,false,false,"""",' license_cop_armee && playerSide isEqualTo west']; this addAction[localize ""STR_MAR_Armee_Weapon_Shop"",life_fnc_weaponShopMenu,""cop_armee2"",0,false,false,"""",' license_cop_armee && playerSide isEqualTo west']; this addAction[localize ""STR_MAR_Armee_Weapon_Shop"",life_fnc_weaponShopMenu,""cop_armee3"",0,false,false,"""",' license_cop_armee && playerSide isEqualTo west'];";
+			};
+			id=1932;
+			type="Land_InfoStand_V2_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 	};
 };
