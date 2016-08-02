@@ -5,7 +5,7 @@ class EditorData
 	angleGridStep=0.2617994;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=513;
+	toggles=517;
 	class ItemIDProvider
 	{
 		nextID=1927;
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={12403.014,793.10376,7553.812};
-		dir[]={-0.7421146,-0.47379738,0.47412181};
-		up[]={-0.39930433,0.88061219,0.25510728};
-		aside[]={0.53838587,1.4592661e-007,0.84270388};
+		pos[]={11550.321,454.61603,2629.5195};
+		dir[]={-0.44618139,-0.76863104,-0.4584052};
+		up[]={-0.5361104,0.63968951,-0.55079782};
+		aside[]={-0.71659714,-1.6530976e-007,0.69748801};
 	};
 };
 binarizationWanted=0;
@@ -218,24 +218,6 @@ class CustomAttributes
 		name="Multiplayer";
 		class Attribute0
 		{
-			property="RespawnTemplates";
-			expression="true";
-			class Value
-			{
-				class data
-				{
-					class type
-					{
-						type[]=
-						{
-							"ARRAY"
-						};
-					};
-				};
-			};
-		};
-		class Attribute1
-		{
 			property="RespawnButton";
 			expression="true";
 			class Value
@@ -250,6 +232,24 @@ class CustomAttributes
 						};
 					};
 					value=1;
+				};
+			};
+		};
+		class Attribute1
+		{
+			property="RespawnTemplates";
+			expression="true";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"ARRAY"
+						};
+					};
 				};
 			};
 		};
@@ -380,7 +380,7 @@ class Mission
 			position[]={5651.0596,2.6600001,11063.647};
 			name="cop_spawn_1";
 			type="Empty";
-			angle=131.38521;
+			angle=131.38519;
 			id=8;
 		};
 		class Item8
@@ -586,7 +586,7 @@ class Mission
 			text="@STR_MAR_Car_Shop";
 			type="c_car";
 			colorName="ColorWhite";
-			angle=0.010999998;
+			angle=0.010999997;
 			id=35;
 			atlOffset=1.0904247e+035;
 		};
@@ -651,7 +651,6 @@ class Mission
 			type="c_unknown";
 			colorName="ColorGreen";
 			id=41;
-			atlOffset=0.20529222;
 		};
 		class Item33
 		{
@@ -659,7 +658,7 @@ class Mission
 			position[]={12960.242,79.301033,7368.208};
 			name="civ_car_2";
 			type="Empty";
-			angle=235.42972;
+			angle=235.4297;
 			id=42;
 			atlOffset=77.381035;
 		};
@@ -725,7 +724,6 @@ class Mission
 			type="c_unknown";
 			colorName="ColorGreen";
 			id=48;
-			atlOffset=0.14122105;
 		};
 		class Item40
 		{
@@ -799,7 +797,7 @@ class Mission
 			text="@STR_MAR_Car_Shop";
 			type="c_car";
 			colorName="ColorWhite";
-			angle=0.19099997;
+			angle=0.19099995;
 			id=56;
 			atlOffset=-7.0500002;
 		};
@@ -811,7 +809,7 @@ class Mission
 			text="@STR_MAR_Boat_Shop";
 			type="c_ship";
 			colorName="ColorWhite";
-			angle=202.49934;
+			angle=202.49933;
 			id=57;
 			atlOffset=2.2985607e+022;
 		};
@@ -866,7 +864,7 @@ class Mission
 			position[]={6286.4204,84.820435,10977.629};
 			name="jail_release";
 			type="Empty";
-			angle=200.32582;
+			angle=200.32581;
 			id=62;
 			atlOffset=72.912941;
 		};
@@ -982,7 +980,7 @@ class Mission
 			position[]={5608.2285,2.6600001,10998.573};
 			name="cop_car_1";
 			type="Empty";
-			angle=228.08295;
+			angle=228.08293;
 			id=99;
 		};
 		class Item64
@@ -991,7 +989,7 @@ class Mission
 			position[]={11667.468,117.73471,3056.5317};
 			name="cop_car_2";
 			type="Empty";
-			angle=40.170177;
+			angle=40.170174;
 			id=100;
 			atlOffset=113.04471;
 		};
@@ -1001,7 +999,7 @@ class Mission
 			position[]={12671.561,91.033508,7504.2671};
 			name="cop_car_3";
 			type="Empty";
-			angle=106.61734;
+			angle=106.61733;
 			id=101;
 			atlOffset=65.603554;
 		};
@@ -1011,7 +1009,7 @@ class Mission
 			position[]={5598.7563,2.6600001,11022.867};
 			name="cop_air_1";
 			type="Empty";
-			angle=47.219963;
+			angle=47.219959;
 			id=103;
 		};
 		class Item67
@@ -1024,7 +1022,7 @@ class Mission
 			colorName="ColorBlue";
 			angle=358.09689;
 			id=104;
-			atlOffset=112.38068;
+			atlOffset=101.69445;
 		};
 		class Item68
 		{
@@ -1042,7 +1040,7 @@ class Mission
 			position[]={6945.8965,83.980949,7223.1221};
 			name="civ_air_1_2";
 			type="Empty";
-			angle=359.92679;
+			angle=359.92676;
 			id=106;
 			atlOffset=81.320946;
 		};
@@ -1072,7 +1070,7 @@ class Mission
 			position[]={11855.393,7.0750589,13079.879};
 			name="civ_air_2_2";
 			type="Empty";
-			angle=17.402264;
+			angle=17.402262;
 			id=109;
 			atlOffset=0.12505913;
 		};
@@ -1082,7 +1080,7 @@ class Mission
 			position[]={5273.0576,2.21,10027.439};
 			name="civ_truck_1";
 			type="Empty";
-			angle=359.69781;
+			angle=359.69778;
 			id=110;
 		};
 		class Item74
@@ -1101,7 +1099,7 @@ class Mission
 			name="civ_ship_1";
 			type="loc_Quay";
 			colorName="ColorOrange";
-			angle=206.5688;
+			angle=206.56879;
 			id=113;
 			atlOffset=4.7380323;
 		};
@@ -1125,7 +1123,6 @@ class Mission
 			colorName="ColorGreen";
 			angle=235.15215;
 			id=116;
-			atlOffset=0.64577579;
 		};
 		class Item78
 		{
@@ -1146,9 +1143,8 @@ class Mission
 			text="@STR_MAR_Market";
 			type="c_unknown";
 			colorName="ColorGreen";
-			angle=240.88586;
+			angle=240.88585;
 			id=118;
-			atlOffset=0.22570848;
 		};
 		class Item80
 		{
@@ -1159,7 +1155,7 @@ class Mission
 			type="c_unknown";
 			colorName="ColorGreen";
 			id=119;
-			atlOffset=113.94728;
+			atlOffset=105.34557;
 		};
 		class Item81
 		{
@@ -1343,13 +1339,14 @@ class Mission
 		class Item97
 		{
 			dataType="Marker";
-			position[]={7404.3564,114.1768,9423.9941};
+			position[]={-401.45059,-0.1865921,11092.113};
 			name="gun_store_1";
 			text="@STR_MAR_Gun_Store";
 			type="loc_Bunker";
 			colorName="ColorRed";
 			angle=7.2259865;
 			id=138;
+			atlOffset=56.711349;
 		};
 		class Item98
 		{
@@ -1472,7 +1469,7 @@ class Mission
 			name="civ_ship_2";
 			type="loc_Quay";
 			colorName="ColorOrange";
-			angle=308.42499;
+			angle=308.42496;
 			id=152;
 			atlOffset=5.6140728;
 		};
@@ -1484,7 +1481,7 @@ class Mission
 			text="@STR_MAR_Boat_Shop";
 			type="c_ship";
 			colorName="ColorWhite";
-			angle=12.939131;
+			angle=12.93913;
 			id=153;
 			atlOffset=9.000351;
 		};
@@ -1520,7 +1517,7 @@ class Mission
 			type="c_unknown";
 			colorName="ColorGreen";
 			id=156;
-			atlOffset=111.55283;
+			atlOffset=98.585381;
 		};
 		class Item114
 		{
@@ -1707,7 +1704,6 @@ class Mission
 			colorName="ColorGreen";
 			angle=3.4952214;
 			id=177;
-			atlOffset=0.088558674;
 		};
 		class Item131
 		{
@@ -1715,7 +1711,7 @@ class Mission
 			position[]={5796.9512,7.9723387,10447.555};
 			name="medic_spawn_1";
 			type="Empty";
-			angle=98.175644;
+			angle=98.175636;
 			id=178;
 		};
 		class Item132
@@ -1736,7 +1732,7 @@ class Mission
 			name="atm_marker_4";
 			type="loc_Tourism";
 			colorName="ColorGreen";
-			angle=56.263359;
+			angle=56.263355;
 			id=182;
 			atlOffset=80.822258;
 		};
@@ -1812,7 +1808,7 @@ class Mission
 			name="atm_marker_2_8";
 			type="loc_Tourism";
 			colorName="ColorGreen";
-			angle=2.3547611;
+			angle=2.3547609;
 			id=192;
 		};
 		class Item141
@@ -2367,7 +2363,6 @@ class Mission
 			};
 			id=530;
 			type="Land_CashDesk_F";
-			atlOffset=0.23013926;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -2608,6 +2603,7 @@ class Mission
 				angles[]={0.0024897563,3.9977753,6.2793717};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 				skill=0.60000002;
@@ -2615,7 +2611,6 @@ class Mission
 			};
 			id=539;
 			type="Land_CashDesk_F";
-			atlOffset=0.36558056;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -2780,7 +2775,7 @@ class Mission
 			};
 			id=547;
 			type="Land_Atm_02_F";
-			atlOffset=0.3621006;
+			atlOffset=0.27331638;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -13762,6 +13757,7 @@ class Mission
 				angles[]={0,1.6464937,0};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 				init="this enableSimulation false; this allowDamage false; this addAction[localize""STR_MAR_Station_Shop"",life_fnc_weaponShopMenu,""f_station_store""];this addAction[localize""STR_Shop_Station_Coffee"",life_fnc_virt_menu,""f_station_coffee""]; this addAction[""Braquer la Station Service"",life_fnc_robShops];";
@@ -13769,7 +13765,6 @@ class Mission
 			};
 			id=1257;
 			type="Land_CashDesk_F";
-			atlOffset=0.45763612;
 		};
 		class Item413
 		{
@@ -13866,7 +13861,7 @@ class Mission
 			position[]={7270.3076,2.7540889,6944.5991};
 			name="car_g_altisfly_1";
 			type="Empty";
-			angle=261.00473;
+			angle=261.0047;
 			id=1271;
 		};
 		class Item419
@@ -14025,7 +14020,7 @@ class Mission
 			position[]={12764.746,7.3815212,7334.8525};
 			name="car_g_5";
 			type="Empty";
-			angle=105.78894;
+			angle=105.78893;
 			id=1319;
 			atlOffset=0.32194519;
 		};
@@ -14054,7 +14049,7 @@ class Mission
 			name="civ_gar_3";
 			text="@STR_MAR_Garage";
 			type="o_service";
-			angle=53.793888;
+			angle=53.793884;
 			id=1321;
 			atlOffset=0.16650057;
 		};
@@ -14063,7 +14058,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={12706.043,17.831106,7510.1597};
+				position[]={12706.043,17.830999,7510.1592};
 				angles[]={6.2805324,0.30080751,6.2671809};
 			};
 			side="Empty";
@@ -14074,7 +14069,7 @@ class Mission
 			};
 			id=1322;
 			type="Land_InfoStand_V2_F";
-			atlOffset=0.031099319;
+			atlOffset=0.031000137;
 		};
 		class Item432
 		{
@@ -14127,7 +14122,7 @@ class Mission
 			};
 			id=1331;
 			type="Land_InfoStand_V2_F";
-			atlOffset=0.22757196;
+			atlOffset=0.18256497;
 		};
 		class Item435
 		{
@@ -14323,7 +14318,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={6843.5464,2.8332407,7280.8271};
+				position[]={6843.5464,3.240258,7280.8271};
 				angles[]={0,3.811516,0};
 			};
 			side="Empty";
@@ -14334,7 +14329,6 @@ class Mission
 			};
 			id=1430;
 			type="Land_InfoStand_V2_F";
-			atlOffset=-0.40701723;
 		};
 		class Item446
 		{
@@ -14434,6 +14428,7 @@ class Mission
 				angles[]={0,0.88736385,6.2826972};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 				init=" " \n "this enableSimulation false; this allowDamage false; this addAction[localize""STR_MAR_Station_Shop"",life_fnc_weaponShopMenu,""f_station_store""];this addAction[localize""STR_Shop_Station_Coffee"",life_fnc_virt_menu,""f_station_coffee""]; this addAction[""Braquer la Station Service"",life_fnc_robShops];";
@@ -14441,7 +14436,6 @@ class Mission
 			};
 			id=1482;
 			type="Land_CashDesk_F";
-			atlOffset=0.41667938;
 		};
 		class Item452
 		{
@@ -14460,7 +14454,6 @@ class Mission
 			};
 			id=1483;
 			type="Land_CashDesk_F";
-			atlOffset=0.15502691;
 		};
 		class Item453
 		{
@@ -14471,7 +14464,6 @@ class Mission
 			type="loc_Fuelstation";
 			colorName="ColorGreen";
 			id=1486;
-			atlOffset=0.14923429;
 		};
 		class Item454
 		{
@@ -14482,7 +14474,6 @@ class Mission
 			type="loc_Fuelstation";
 			colorName="ColorGreen";
 			id=1487;
-			atlOffset=0.4977088;
 		};
 		class Item455
 		{
@@ -14525,7 +14516,7 @@ class Mission
 			text="Station Service 6";
 			type="loc_Fuelstation";
 			colorName="ColorGreen";
-			angle=1.9128246;
+			angle=1.9128245;
 			id=1491;
 			atlOffset=0.064145088;
 		};
@@ -14776,8 +14767,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={11549.912,3.5603576,2633.0664};
-				angles[]={0.093063653,0.76123983,6.2485313};
+				position[]={11549.912,3.6263287,2633.0659};
+				angles[]={0.093060948,0.76124281,6.2485232};
 			};
 			side="Empty";
 			flags=4;
@@ -14787,7 +14778,7 @@ class Mission
 			};
 			id=1514;
 			type="Land_InfoStand_V2_F";
-			atlOffset=-0.032907248;
+			atlOffset=0.032999754;
 		};
 		class Item479
 		{
@@ -15075,17 +15066,17 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={7403.2031,112.95651,9421.0381};
-				angles[]={5.8709149,3.3590484,6.2299018};
+				position[]={-351.56387,0,11073.834};
+				angles[]={0,3.3590484,0};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 				init="this enableSimulation false; this allowDamage false; this addAction[localize""STR_Shops_W_Gun"",life_fnc_weaponShopMenu,""gun"",0,false,false,"""",' license_civ_gun && playerSide isEqualTo civilian']; this addAction[localize ""STR_Shops_C_Gun"",life_fnc_clothingMenu,""gun_clothing"",0,false,false,"""",' license_civ_gun && playerSide isEqualTo civilian']; this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""gun"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""gun"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""gun"",0,false,false,"""",' !license_civ_gun && playerSide isEqualTo civilian '];";
 			};
 			id=1539;
 			type="Land_CashDesk_F";
+			atlOffset=56.711346;
 		};
 		class Item491
 		{
@@ -15120,7 +15111,6 @@ class Mission
 			};
 			id=1541;
 			type="Land_CashDesk_F";
-			atlOffset=0.15252447;
 		};
 		class Item493
 		{
@@ -15546,13 +15536,13 @@ class Mission
 				angles[]={0,0.20287536,6.2826972};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 				init="this allowDamage false; this enableSimulation false; this addAction[localize""STR_MAR_Clothing_Store"",life_fnc_clothingMenu,""bruce""];";
 			};
 			id=1565;
 			type="Land_CashDesk_F";
-			atlOffset=0.64319897;
 		};
 		class Item515
 		{
@@ -15727,7 +15717,7 @@ class Mission
 			position[]={3879.28,155.492,13402.078};
 			name="reb_spawn_1";
 			type="Empty";
-			angle=229.05867;
+			angle=229.05865;
 			id=1578;
 			atlOffset=144.86591;
 		};
@@ -15787,7 +15777,7 @@ class Mission
 			position[]={3863.3049,2.8010117e+034,13410.059};
 			name="reb_v_1";
 			type="Empty";
-			angle=145.61237;
+			angle=145.61235;
 			id=1583;
 			atlOffset=2.8010117e+034;
 		};
@@ -15859,7 +15849,7 @@ class Mission
 			position[]={3853.0735,155.97009,13403.417};
 			name="car_g_6";
 			type="Empty";
-			angle=145.53792;
+			angle=145.5379;
 			id=1589;
 			atlOffset=145.33984;
 		};
@@ -15933,7 +15923,7 @@ class Mission
 			text="Garage Rebelle";
 			type="mil_triangle";
 			colorName="Color1_FD_F";
-			angle=149.04468;
+			angle=149.04466;
 			id=1594;
 			atlOffset=145.28354;
 		};
@@ -18406,7 +18396,7 @@ class Mission
 			text="@STR_MAR_Boat_Shop";
 			type="c_ship";
 			colorName="ColorWhite";
-			angle=146.69644;
+			angle=146.69643;
 			id=1892;
 			atlOffset=5.5944161;
 		};
