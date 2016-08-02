@@ -19,15 +19,15 @@
 //Ressources (John) : 
 - Meth & pleins d'autres  || EN COURS
 
-<01:42:56> "[Sakzy] Sakzy": mais
-<01:42:58> "[Sakzy] Sakzy": canne a sucre
-<01:43:01> "[Sakzy] Sakzy": banane
-<01:43:04> "[Sakzy] Sakzy": cacao
-<01:43:06> "[Sakzy] Sakzy": corail
-<01:43:16> "[Sakzy] Sakzy": emeraude / quartz / saphire à voir
-<01:43:19> "[Sakzy] Sakzy": pierre de lave
-<01:43:25> "[Sakzy] Sakzy": souffre
-<01:43:26> "[Sakzy] Sakzy": algue
+mais
+canne a sucre
+banane
+cacao
+corail
+emeraude / quartz / saphire à voir
+pierre volcanique
+souffre
+algue
 
 //Fret (Sakzy) :
 -Rajouter panneaux pub addaction dans les 4 grande ville
@@ -44,17 +44,15 @@
 -Rajouter marqueur sur la map
 
 //Autre :
-
 -Impossible de récolter champ de cocaine
 -Wanted Stringtable a modifier car en français marche pas
--Debug l'armurerie du SWAT
 -Remettre le "montrer son insigne"
 -Debug la barrière qui s'envole
--Finir tout les items pour personnage masqués
+-Finir tout les items pour personnage masqué
 
-
-//Test :
--Voir et refaire les règles demander à yuricane
--Vérifier le nombre de policier connecté pour braquer les stations services
--Vérifier le nombre de policier connecté pour braquer la banque & concessionnaire veh
--Vérifier les mappings
+//Debug urgent :
+-Bug dans la phrase "Vous recevrez votre prochain chèque dans any minutes"
+-Respawn dans l'eau quant on choisi georgetown (en 0.0)
+-Respawn sans la tenue et sans map (-> initciv voir)
+-Remettre les icons droit
+-Station à rajouter en 109098 et 021033
