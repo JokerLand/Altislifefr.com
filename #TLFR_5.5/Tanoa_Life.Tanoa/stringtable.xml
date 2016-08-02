@@ -3609,106 +3609,43 @@
             <Polish>Zostałeś odmrożony przez administratora</Polish>
         </Key>
         <Key ID="STR_NOTF_noOneSelected">
-            <Original>No one was selected!</Original>
-            <Czech>Nikdo byl vybrán!</Czech>
-            <French>Personne n'a été sélectionné!</French>
-            <Spanish>Nadie fue seleccionado!</Spanish>
-            <Italian>Nessuno è stato selezionato!</Italian>
-            <Polish>Nikt nie został wybrany!</Polish>
-            <Portuguese>Ninguém foi selecionado!</Portuguese>
-            <Russian>Никто не был выбран!</Russian>
-            <German>Niemand wurde ausgewählt!</German>
+            <Original>Personne n'a été sélectionné</Original>
+            <French>Personne n'a été sélectionné</French>
         </Key>
         <Key ID="STR_NOTF_didNotSelectItemToGive">
-            <Original>You didn't select an item you wanted to give.</Original>
-            <Czech>Nevybrali jste položku, kterou chtěl dát.</Czech>
+            <Original>Vous n'avez pas sélectionné l'item que vous vouliez donner.</Original>
             <French>Vous n'avez pas sélectionné l'item que vous vouliez donner.</French>
-            <Spanish>No ha seleccionado un elemento que quería dar.</Spanish>
-            <Italian>non è stato selezionato un elemento che si voleva dare.</Italian>
-            <Polish>Nie wybrano element, który chciał dać.</Polish>
-            <Portuguese>Você não selecionou um item que você queria dar.</Portuguese>
-            <Russian>Вы не выбрали пункт, который вы хотели дать.</Russian>
-            <German>Sie haben keinen Artikel aus, die Sie geben wollte.</German>
         </Key>
         <Key ID="STR_NOTF_notNumberFormat">
-            <Original>You didn't enter an actual number format.</Original>
-            <Czech>Nezadal jste skutečný formát čísla.</Czech>
+            <Original>Vous n'avez pas saisi un nombre réel.</Original>
             <French>Vous n'avez pas saisi un nombre réel.</French>
-            <Spanish>No ha especificado un formato de número real.</Spanish>
-            <Italian>Non hai inserito un formato di numero reale.</Italian>
-            <Polish>Nie wprowadzono rzeczywisty format liczb.</Polish>
-            <Portuguese>Você não inseriu um formato número real.</Portuguese>
-            <Russian>Вы не ввели фактический формат числа.</Russian>
-            <German>Sie haben keine tatsächliche Anzahl Format eingeben.</German>
         </Key>
         <Key ID="STR_NOTF_enterAmountGive">
-            <Original>You need to enter an actual amount you want to give.</Original>
-            <Czech>Musíte zadat skutečnou částku, kterou chcete dát.</Czech>
+            <Original>Vous devez entrer un montant réel que vous voulez donner.</Original>
             <French>Vous devez entrer un montant réel que vous voulez donner.</French>
-            <Spanish>Es necesario introducir una cantidad real que se desea dar.</Spanish>
-            <Italian>È necessario immettere un importo effettivo si vuole dare.</Italian>
-            <Polish>Musisz podać rzeczywistą kwotę, którą chcesz dać.</Polish>
-            <Portuguese>É necessário introduzir uma quantidade real que você quer dar.</Portuguese>
-            <Russian>Вам необходимо ввести фактическую сумму, которую вы хотите дать.</Russian>
-            <German>Sie benötigen einen tatsächlichen Betrag, den Sie geben wollen, einzugeben.</German>
         </Key>
         <Key ID="STR_NOTF_enterAmountRemove">
-            <Original>You need to enter an actual amount you want to remove.</Original>
-            <Czech>Musíte zadat skutečnou částku, kterou chcete odebrat.</Czech>
+            <Original>Vous devez entrer un montant réel que vous souhaitez supprimer.</Original>
             <French>Vous devez entrer un montant réel que vous souhaitez supprimer.</French>
-            <Spanish>Es necesario introducir una cantidad real que se desea eliminar.</Spanish>
-            <Italian>È necessario immettere un importo effettivo che si desidera rimuovere.</Italian>
-            <Polish>Musisz podać rzeczywistą kwotę, którą chcesz usunąć.</Polish>
-            <Portuguese>É necessário introduzir uma quantidade real que você deseja remover.</Portuguese>
-            <Russian>Вам необходимо ввести фактическую сумму, которую вы хотите удалить.</Russian>
-            <German>Sie benötigen einen tatsächlichen Betrag, den Sie entfernen möchten, eingeben.</German>
         </Key>
         <Key ID="STR_NOTF_notWithinRange">
-            <Original>The selected player is not within range.</Original>
-            <Czech>Zvolená Hráč není v dosahu.</Czech>
+            <Original>Le joueur sélectionné est hors de portée.</Original>
             <French>Le joueur sélectionné est hors de portée.</French>
-            <Spanish>El jugador seleccionado no está dentro del rango.</Spanish>
-            <Italian>Il giocatore selezionato non è nel raggio d'azione.</Italian>
-            <Polish>Wybrany gracz nie jest w zasięgu.</Polish>
-            <Portuguese>O jogador selecionado não está dentro do alcance.</Portuguese>
-            <Russian>Выбранный игрок не находится в пределах диапазона.</Russian>
-            <German>Der ausgewählte Spieler ist nicht in Reichweite.</German>
         </Key>
         <Key ID="STR_NOTF_couldNotGive">
-            <Original>Couldn't give that much of that item, maybe you don't have that amount?</Original>
-            <Czech>Nemohl dát, že velká část této položky, možná nemáte tuto částku?</Czech>
-            <French>Impossible de donner cet article, vérifiez ce que vous possédez</French>
-            <Spanish>No se pudo dar a que gran parte de ese elemento, tal vez usted no tiene esa cantidad?</Spanish>
-            <Italian>Impossibile dare quella quantità di oggetti.</Italian>
-            <Polish>nie mógł dać, że wiele z tego elementu, może nie masz tej kwoty?</Polish>
-            <Portuguese>não poderia dar que muito desse item, talvez você não tem essa quantia?</Portuguese>
-            <Russian>Не могу дать, что большая часть этого пункта, может быть, у вас нет этой суммы?</Russian>
-            <German>Nicht geben konnte, dass dieser Artikel viel, vielleicht auch nicht, dass die Menge, die Sie tun?</German>
+            <Original>Impossible de donner cet article, vérifiez que vous le possédez</Original>
+            <French>Impossible de donner cet article, vérifiez que vous le possédez</French>
         </Key>
         <Key ID="STR_NOTF_youGaveItem">
-            <Original>You gave %1 %2 %3.</Original>
-            <Czech>Ty jsi dal %1 %2 %3.</Czech>
+            <Original>Vous avez donné %1 %2 %3.</Original>
             <French>Vous avez donné %1 %2 %3.</French>
-            <Spanish>Diste %1 %2 %3.</Spanish>
-            <Italian>Hai dato %1 %2 %3.</Italian>
-            <Polish>Daliście %1 %2 %3.</Polish>
-            <Portuguese>você deu %1 %2 %3.</Portuguese>
-            <Russian>Ты дал %1 %2 %3.</Russian>
-            <German>Du gabst %1 %2 %3.</German>
         </Key>
         <Key ID="STR_NOTF_notEnoughtToGive">
-            <Original>You don't have that much to give!</Original>
-            <Czech>Nemusíte to hodně dát!</Czech>
-            <French>Vous n'avez pas autant sur vous!</French>
-            <Spanish>Usted no tiene mucho para dar!</Spanish>
-            <Italian>Non hai abbastanza oggetti da dare!</Italian>
-            <Polish>Nie ma tego dużo dać!</Polish>
-            <Portuguese>Você não tem muito para dar!</Portuguese>
-            <Russian>Вы не так много, чтобы дать!</Russian>
-            <German>Sie haben nicht so viel zu geben!</German>
+            <Original>Vous n'en avez pas autant sur vous!</Original>
+            <French>Vous n'en avez pas autant sur vous!</French>
         </Key>
         <Key ID="STR_NOTF_youGaveMoney">
-            <Original>You gave %1€ to %2.</Original>
+            <Original>Vous avez donné %1€ à %2.</Original>
             <Czech>Dal jsi %1€ do %2.</Czech>
             <French>Vous avez donné %1€ à %2.</French>
             <Spanish>Usted le dio %1€ a %2.</Spanish>
@@ -3719,15 +3656,8 @@
             <German>Sie gaben %1€ %2.</German>
         </Key>
         <Key ID="STR_NOTF_recentlyRobbedBank">
-            <Original>You recently robbed the bank! You can't give money away just yet.</Original>
-            <Czech>Nedávno jste vyloupil banku! Nemůžete dávat peníze pryč jen zatím.</Czech>
+            <Original>Vous avez récemment volé la banque! Vous ne pouvez pas donner de l'argent pour l'instant.</Original>
             <French>Vous avez récemment volé la banque! Vous ne pouvez pas donner de l'argent pour l'instant.</French>
-            <Spanish>Recientemente has robado el banco! No se puede dar dinero por el momento.</Spanish>
-            <Italian>Recentemente hai rapinato la banca! Non puoi ancora depositare i soldi nel tuo conto bancario.</Italian>
-            <Polish>Niedawno obrabował bank! Nie można dać pieniądze w błoto jeszcze.</Polish>
-            <Portuguese>Recentemente, você roubou o banco! Você não pode dar dinheiro fora ainda.</Portuguese>
-            <Russian>Вы недавно ограбили банк! Вы не можете отдавать деньги только пока.</Russian>
-            <German>Sie beraubt kürzlich die Bank! Sie können kein Geld geben nur noch weg.</German>
         </Key>
         <Key ID="STR_NOTF_noDataSelected">
             <Original>No data selected.</Original>

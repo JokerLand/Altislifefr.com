@@ -13,7 +13,7 @@
 |FAIT| Ajouter le g/l dans le HUD pour l'alcool |FAIT|
 |FAIT| Remettre tout les items police |FAIT VIA MENU OBJETS DANS Y |
 |FAIT| Problème avec le fichier fn_seizePlayerWeapon à la lign 12 (en commentaire actuellement)|FAIT|
-
+|FAIT| Pas de message lors d'un give d'item via le menu |FAIT|
 
 
 //Ressources (John) : 
@@ -44,8 +44,6 @@
 -Rajouter marqueur sur la map
 
 //Autre :
-
--Pas de message lors d'un give d'item via le menu Y
 
 -Impossible de récolter champ de cocaine
 -Wanted Stringtable a modifier car en français marche pas
