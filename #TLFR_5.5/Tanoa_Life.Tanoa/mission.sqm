@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={5702.957,31.993559,12315.435};
-		dir[]={-0.74232286,-0.32768136,-0.58447653};
-		up[]={-0.25746655,0.9447788,-0.20272005};
-		aside[]={-0.61863059,-1.2695091e-007,0.78569907};
+		pos[]={5702.8677,49.485729,12315.211};
+		dir[]={-0.47222963,-0.74837887,-0.46579733};
+		up[]={-0.5327999,0.66326016,-0.52554387};
+		aside[]={-0.70225364,-8.2585029e-007,0.71194923};
 	};
 };
 binarizationWanted=0;
@@ -218,6 +218,24 @@ class CustomAttributes
 		name="Multiplayer";
 		class Attribute0
 		{
+			property="RespawnTemplates";
+			expression="true";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"ARRAY"
+						};
+					};
+				};
+			};
+		};
+		class Attribute1
+		{
 			property="RespawnButton";
 			expression="true";
 			class Value
@@ -232,24 +250,6 @@ class CustomAttributes
 						};
 					};
 					value=1;
-				};
-			};
-		};
-		class Attribute1
-		{
-			property="RespawnTemplates";
-			expression="true";
-			class Value
-			{
-				class data
-				{
-					class type
-					{
-						type[]=
-						{
-							"ARRAY"
-						};
-					};
 				};
 			};
 		};
@@ -651,6 +651,7 @@ class Mission
 			type="c_unknown";
 			colorName="ColorGreen";
 			id=41;
+			atlOffset=0.20529222;
 		};
 		class Item33
 		{
@@ -724,6 +725,7 @@ class Mission
 			type="c_unknown";
 			colorName="ColorGreen";
 			id=48;
+			atlOffset=0.14122105;
 		};
 		class Item40
 		{
@@ -864,7 +866,7 @@ class Mission
 			position[]={6286.4204,84.820435,10977.629};
 			name="jail_release";
 			type="Empty";
-			angle=200.32576;
+			angle=200.32574;
 			id=62;
 			atlOffset=72.912941;
 		};
@@ -904,13 +906,12 @@ class Mission
 		class Item56
 		{
 			dataType="Marker";
-			position[]={-2103.0503,-23.238808,15967.549};
+			position[]={6045,53.740055,9615};
 			name="oil_field_2";
 			text="@STR_MAR_Oil_Field";
 			type="mil_triangle";
 			colorName="ColorBrown";
 			id=92;
-			atlOffset=44.371193;
 		};
 		class Item57
 		{
@@ -980,7 +981,7 @@ class Mission
 			position[]={5608.2285,2.6600001,10998.573};
 			name="cop_car_1";
 			type="Empty";
-			angle=228.08289;
+			angle=228.08287;
 			id=99;
 		};
 		class Item64
@@ -999,7 +1000,7 @@ class Mission
 			position[]={12671.561,91.033508,7504.2671};
 			name="cop_car_3";
 			type="Empty";
-			angle=106.6173;
+			angle=106.61729;
 			id=101;
 			atlOffset=65.603554;
 		};
@@ -1022,7 +1023,7 @@ class Mission
 			colorName="ColorBlue";
 			angle=358.09689;
 			id=104;
-			atlOffset=101.69445;
+			atlOffset=112.38068;
 		};
 		class Item68
 		{
@@ -1099,7 +1100,7 @@ class Mission
 			name="civ_ship_1";
 			type="loc_Quay";
 			colorName="ColorOrange";
-			angle=206.56874;
+			angle=206.56873;
 			id=113;
 			atlOffset=4.7380323;
 		};
@@ -1146,6 +1147,7 @@ class Mission
 			colorName="ColorGreen";
 			angle=240.88585;
 			id=118;
+			atlOffset=0.22570848;
 		};
 		class Item80
 		{
@@ -1156,7 +1158,7 @@ class Mission
 			type="c_unknown";
 			colorName="ColorGreen";
 			id=119;
-			atlOffset=105.34557;
+			atlOffset=113.94728;
 		};
 		class Item81
 		{
@@ -1518,7 +1520,7 @@ class Mission
 			type="c_unknown";
 			colorName="ColorGreen";
 			id=156;
-			atlOffset=98.585381;
+			atlOffset=111.55283;
 		};
 		class Item114
 		{
@@ -1705,6 +1707,7 @@ class Mission
 			colorName="ColorGreen";
 			angle=3.4952214;
 			id=177;
+			atlOffset=0.088558674;
 		};
 		class Item131
 		{
@@ -1733,7 +1736,7 @@ class Mission
 			name="atm_marker_4";
 			type="loc_Tourism";
 			colorName="ColorGreen";
-			angle=56.263344;
+			angle=56.26334;
 			id=182;
 			atlOffset=80.822258;
 		};
@@ -2364,6 +2367,7 @@ class Mission
 			};
 			id=530;
 			type="Land_CashDesk_F";
+			atlOffset=0.23013926;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -2604,7 +2608,6 @@ class Mission
 				angles[]={0.0024897563,3.9977753,6.2793717};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 				skill=0.60000002;
@@ -2612,6 +2615,7 @@ class Mission
 			};
 			id=539;
 			type="Land_CashDesk_F";
+			atlOffset=0.36558056;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -2776,7 +2780,7 @@ class Mission
 			};
 			id=547;
 			type="Land_Atm_02_F";
-			atlOffset=0.27331638;
+			atlOffset=0.3621006;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -7362,7 +7366,6 @@ class Mission
 				angles[]={0,5.2770157,0};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 				skill=0.60000002;
@@ -7371,6 +7374,7 @@ class Mission
 			};
 			id=766;
 			type="Land_CashDesk_F";
+			atlOffset=0.52993774;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -13522,7 +13526,7 @@ class Mission
 			};
 			id=1196;
 			type="Land_InfoStand_V2_F";
-			atlOffset=0.21524954;
+			atlOffset=0.21520758;
 		};
 		class Item399
 		{
@@ -14050,7 +14054,7 @@ class Mission
 			name="civ_gar_3";
 			text="@STR_MAR_Garage";
 			type="o_service";
-			angle=53.793873;
+			angle=53.793869;
 			id=1321;
 			atlOffset=0.16650057;
 		};
@@ -14105,7 +14109,7 @@ class Mission
 			};
 			id=1330;
 			type="Land_InfoStand_V2_F";
-			atlOffset=0.2239852;
+			atlOffset=0.22398472;
 		};
 		class Item434
 		{
@@ -14123,7 +14127,7 @@ class Mission
 			};
 			id=1331;
 			type="Land_InfoStand_V2_F";
-			atlOffset=0.18256497;
+			atlOffset=0.22757196;
 		};
 		class Item435
 		{
@@ -14278,6 +14282,7 @@ class Mission
 			};
 			id=1420;
 			type="Land_InfoStand_V2_F";
+			atlOffset=3.8146973e-006;
 		};
 		class Item443
 		{
@@ -14617,7 +14622,7 @@ class Mission
 			type="loc_Fuelstation";
 			colorName="ColorGreen";
 			id=1501;
-			atlOffset=11.236607;
+			atlOffset=16.628304;
 		};
 		class Item468
 		{
@@ -15111,6 +15116,7 @@ class Mission
 			};
 			id=1541;
 			type="Land_CashDesk_F";
+			atlOffset=0.15252447;
 		};
 		class Item493
 		{
@@ -15717,7 +15723,7 @@ class Mission
 			position[]={3879.28,155.492,13402.078};
 			name="reb_spawn_1";
 			type="Empty";
-			angle=229.05861;
+			angle=229.05859;
 			id=1578;
 			atlOffset=144.86591;
 		};
@@ -18541,12 +18547,13 @@ class Mission
 		class Item706
 		{
 			dataType="Marker";
-			position[]={5750,31.683332,9299};
+			position[]={5750,1.3243891e+036,9299};
 			name="sugarcane_1";
 			text="Champ de canne à sucre";
 			type="mil_dot";
 			colorName="ColorBrown";
 			id=1927;
+			atlOffset=1.3243891e+036;
 		};
 		class Item707
 		{
@@ -18563,7 +18570,7 @@ class Mission
 			};
 			id=1928;
 			type="Land_InfoStand_V2_F";
-			atlOffset=406.47122;
+			atlOffset=406.46823;
 		};
 		class Item708
 		{
