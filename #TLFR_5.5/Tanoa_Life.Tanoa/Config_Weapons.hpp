@@ -284,6 +284,243 @@ class WeaponShops {
         };
         accs[] = {};
     };*/
+    
+    //Armurerie Armée lvl 1
+    class cop_armee {
+        name = "Armurerie Armée";
+        side = "cop";
+        license = "armee";
+        level[] = { "life_coplevel", "EQUAL", 1, "Vous devez être dans l'Armée - Grade Trouffion" };
+        items[] = {
+            { "SmokeShell", "", 100, -1 },
+            { "ALFR_Shield_F", "", 1000, -1 },
+            { "DDOPP_X26", "", 100, -1 },
+            { "DDOPP_X3", "", 100, -1 },
+            { "SMG_02_F", "", 5000, -1 },
+            { "arifle_SDAR_F", "", 1000, -1 },
+            { "R3F_MP5A5", "", 6000, -1 },
+            { "hlc_smg_mp5k_PDW", "", 6000, -1 },
+            { "R3F_Famas_G2_HG", "", 1000, -1 }, 
+            { "R3F_Famas_F1_HG_DES", "", 1000, -1 },
+            { "LMG_Mk200_F", "MK200 - PA Only", 5000, -1 },
+            { "acc_flashlight", "", 750 }, 
+            { "optic_Holosight", "", 1200 },
+            { "R3F_AIMPOINT", "", 1500 },
+            { "R3F_LAMPE_SURB", "", 1500 },
+            { "FHQ_optic_AIM", "", 1500 },
+            { "FHQ_optic_MARS", "", 1500 },            
+            { "C1987_zeiss_AIM", "", 1500 },
+            { "FHQ_optic_AC11704", "", 1500 },
+            { "FHQ_optic_ACOG", "", 1500 },                   
+            { "optic_Yorris", "", 1500 },                                 
+            { "optic_MRD", "", 3000 },  
+            { "optic_Hamr", "", 2000 },
+            { "optic_MRCO", "", 2000 },
+            { "optic_Arco", "", 2000 },       
+            { "bipod_01_F_blk", "", 4500 }        
+        };
+        mags[] = {
+            { "DDOPP_1Rnd_X26", "Chargeur Taser X26", 10 },
+            { "DDOPP_3Rnd_X3", "Chargeur Taser X3", 10 },
+            { "30Rnd_9x21_Mag", "Chargeur Sting", 60 },
+            { "20Rnd_556x45_UW_mag", "Chargeur SDAR", 25 },
+            { "R3F_30Rnd_9x19_MP5", "Chargeur MP5 A5", 60 },           
+            { "hlc_30Rnd_9x19_B_MP5", "Chargeur HK MP5K", 60 },
+            { "R3F_25Rnd_556x45_TRACER_FAMAS", "Chargeur Famas x25", 60 },
+            { "R3F_30Rnd_556x45_TRACER_FAMAS", "Chargeur Famas x30", 60 },
+            { "200Rnd_65x39_cased_Box", "Chargeur MK200", 60 }
+        };
+        accs[] = {};
+    };
+    
+    //Armurerie Armée lvl 2
+    class cop_armee {
+        name = "Armurerie Armée";
+        side = "cop";
+        license = "armee";
+        level[] = { "life_coplevel", "EQUAL", 2, "Vous devez être dans l'Armée - Grade Sous Officier" };
+        items[] = { 
+            { "SmokeShell", "", 100, -1 },
+            { "SmokeShellGreen", "Grenade Lacrymogène", 100, -1 },
+            { "ALFR_Shield_F", "", 1000, -1 },
+            { "DDOPP_X26", "", 100, -1 },
+            { "DDOPP_X3", "", 100, -1 },
+            { "hgun_Pistol_heavy_01_F", "", 1000, -1 },
+            { "hgun_ACPC2_F", "", 1000, -1 },
+            { "SMG_02_F", "", 5000, -1 },
+            { "arifle_SDAR_F", "", 1000, -1 },
+            { "R3F_Famas_G2_HG", "", 1000, -1 }, 
+            { "R3F_Famas_F1_HG_DES", "", 5000, -1 },
+            { "LMG_Mk200_F", "", 5000, -1 },
+            { "R3F_M4S90", "", 3000, -1 },
+            { "arifle_SPAR_01_blk_F", "", 5000, -1 },
+            { "SMG_02_F", "", 5000, -1 },
+            { "hlc_rifle_G36MLIC", "", 8000, -1 },
+            { "arifle_MXM_Black_F", "", 9000, -1 },
+            { "hlc_rifle_FAL5061Rail", "", 20000, -1 },
+            { "srifle_DMR_03_F", "", 20000, -1 },
+            { "R3F_HK417L", "", 20000, -1 },
+            { "bipod_03_F_blk", "", 250 },
+            { "acc_flashlight", "", 750 },
+            { "R3F_LAMPE_SURB", "", 750 },
+            { "optic_Holosight", "", 1200 },
+            { "R3F_AIMPOINT", "", 1500 },
+            { "FHQ_optic_AIM", "", 1500 },
+            { "FHQ_optic_MARS", "", 1500 },            
+            { "C1987_zeiss_AIM", "", 1500 },
+            { "optic_Hamr", "", 2000 },
+            { "optic_MRCO", "", 2000 },
+            { "optic_Arco", "", 2000 },
+            { "FHQ_optic_AC11704", "", 1500 },
+            { "FHQ_acc_LLM01L", "", 1500 },
+            { "FHQ_acc_ANPEQ15_black", "", 1500 },
+            { "FHQ_optic_ACOG", "", 1500 },
+            { "R3F_EOTECH", "", 1500 },            
+            { "optic_SOS", "", 3000 },
+            { "optic_DMS", "", 3500 },                     
+            { "optic_KHS_blk", "", 1500 },                                 
+            { "optic_AMS", "", 3000 },         
+            { "optic_LRPS", "", 4500 }       
+        };
+        mags[] = {
+            { "DDOPP_1Rnd_X26", "Chargeur Tazer X26", 10 },
+            { "DDOPP_3Rnd_X3", "Chargeur Taser X3", 10 },   
+            { "11Rnd_45ACP_Mag", "Chargeur 4-Five", 10 },
+            { "9Rnd_45ACP_Mag", "Chargeur ACP", 10 },
+            { "R3F_7Rnd_M4S90", "Chargeur Benelli M4 S90", 30 },
+            { "30Rnd_556x45_Stanag", "Chargeur SPAR-16", 50 },
+            { "30Rnd_9x21_Mag", "Chargeur Sting", 50 },
+            { "R3F_30Rnd_9x19_MP5", "Chargeur MP5 A5", 60 },           
+            { "hlc_30Rnd_9x19_B_MP5", "Chargeur HK MP5K", 60 },    
+            { "R3F_30Rnd_556x45_FAMAS", "Chargeur Famas", 10 },
+            { "30Rnd_65x39_caseless_mag", "Chargeur G36", 80 },
+            { "30Rnd_65x39_caseless_mag", "Chargeur MXM", 90 },
+            { "200Rnd_65x39_cased_Box", "Chargeur MK200", 150 },
+            { "hlc_20Rnd_762x51_B_fal", "Chargeur FN FAL", 200 },
+            { "20Rnd_762x51_Mag", "", 200 },
+            { "R3F_20Rnd_762x51_HK417", "Chargeur HK 417", 200 },
+            { "bipod_03_F_blk", "", 250 },
+            { "acc_flashlight", "", 750 },
+            { "R3F_LAMPE_SURB", "", 750 },
+            { "optic_Holosight", "", 1200 },
+            { "R3F_AIMPOINT", "", 1500 },
+            { "FHQ_optic_AIM", "", 1500 },
+            { "FHQ_optic_MARS", "", 1500 },            
+            { "C1987_zeiss_AIM", "", 1500 },
+            { "optic_Hamr", "", 2000 },
+            { "optic_MRCO", "", 2000 },
+            { "optic_Arco", "", 2000 },
+            { "FHQ_optic_AC11704", "", 1500 },
+            { "FHQ_acc_LLM01L", "", 1500 },
+            { "FHQ_acc_ANPEQ15_black", "", 1500 },
+            { "FHQ_optic_ACOG", "", 1500 },
+            { "R3F_EOTECH", "", 1500 },            
+            { "optic_SOS", "", 3000 },
+            { "optic_DMS", "", 3500 },                     
+            { "optic_KHS_blk", "", 1500 },                                 
+            { "optic_AMS", "", 3000 },         
+            { "optic_LRPS", "", 4500 }
+        };
+        accs[] = {};
+    };
+    
+    //Armurerie Armée lvl 3
+    class cop_armee {
+        name = "Armurerie Armée";
+        side = "cop";
+        license = "armee";
+        level[] = { "life_coplevel", "EQUAL", 3, "Vous devez être dans l'Armée - Grade Officiers" };
+        items[] = {
+            { "SmokeShell", "", 100, -1 },
+            { "SmokeShellGreen", "Grenade Lacrymogène", 100, -1 },
+            { "HandGrenade_Stone", "Flashbang", 2000, -1 },
+            { "B_UavTerminal", "", 500, -1 },
+            { "ALFR_Shield_F", "", 1000, -1 },
+            { "DDOPP_X26", "", 100, -1 },
+            { "DDOPP_X3", "", 100, -1 },
+            { "hgun_Pistol_heavy_01_F", "", 1000, -1 },
+            { "hgun_ACPC2_F", "", 1000, -1 },
+            { "SMG_02_F", "", 5000, -1 },
+            { "arifle_SDAR_F", "", 1000, -1 },
+            { "R3F_Famas_G2_HG", "", 1000, -1 }, 
+            { "R3F_Famas_F1_HG_DES", "", 5000, -1 },
+            { "LMG_Mk200_F", "", 5000, -1 },
+            { "R3F_M4S90", "", 3000, -1 },
+            { "arifle_SPAR_01_blk_F", "", 5000, -1 },
+            { "SMG_02_F", "", 5000, -1 },
+            { "hlc_rifle_G36MLIC", "", 8000, -1 },
+            { "arifle_MXM_Black_F", "", 9000, -1 },
+            { "hlc_rifle_FAL5061Rail", "", 20000, -1 },
+            { "srifle_DMR_03_F", "", 20000, -1 },
+            { "R3F_HK417L", "", 20000, -1 },
+            { "srifle_EBR_F", "", 20000, -1 },
+            { "srifle_LRR_F", "", 350000, -1 },
+            { "R3F_PGM_Hecate_II_POLY", "", 400000, -1 },
+            { "acc_flashlight", "", 750 }, 
+            { "optic_Holosight", "", 1200 },
+            { "R3F_AIMPOINT", "", 1500 },
+            { "FHQ_optic_AIM", "", 1500 },
+            { "FHQ_optic_MARS", "", 1500 },            
+            { "C1987_zeiss_AIM", "", 1500 },
+            { "optic_Hamr", "", 2000 },
+            { "optic_MRCO", "", 2000 },
+            { "optic_Arco", "", 2000 },
+            { "FHQ_optic_AC11704", "", 1500 },
+            { "FHQ_acc_LLM01L", "", 1500 },
+            { "FHQ_acc_ANPEQ15_black", "", 1500 },
+            { "bipod_03_F_blk", "", 250 },
+            { "FHQ_optic_ACOG", "", 1500 },
+            { "R3F_LAMPE_SURB", "", 750 },
+            { "R3F_EOTECH", "", 1500 },            
+            { "optic_SOS", "", 3000 },
+            { "optic_DMS", "", 3500 },                     
+            { "optic_KHS_blk", "", 1500 },                                 
+            { "optic_AMS", "", 3000 },         
+            { "optic_LRPS", "", 4500 }        
+        };
+        mags[] = {
+            { "DDOPP_1Rnd_X26", "Chargeur Tazer X26", 10 },
+            { "DDOPP_3Rnd_X3", "Chargeur Taser X3", 10 },   
+            { "11Rnd_45ACP_Mag", "Chargeur 4-Five", 10 },
+            { "9Rnd_45ACP_Mag", "Chargeur ACP", 10 },
+            { "R3F_7Rnd_M4S90", "Chargeur Benelli M4 S90", 30 },
+            { "30Rnd_556x45_Stanag", "Chargeur SPAR-16", 50 },
+            { "30Rnd_9x21_Mag", "Chargeur Sting", 50 },
+            { "R3F_30Rnd_9x19_MP5", "Chargeur MP5 A5", 60 },           
+            { "hlc_30Rnd_9x19_B_MP5", "Chargeur HK MP5K", 60 },    
+            { "R3F_30Rnd_556x45_FAMAS", "Chargeur Famas", 10 },
+            { "30Rnd_65x39_caseless_mag", "Chargeur G36", 80 },
+            { "30Rnd_65x39_caseless_mag", "Chargeur MXM", 90 },
+            { "200Rnd_65x39_cased_Box", "Chargeur MK200", 150 },
+            { "hlc_20Rnd_762x51_B_fal", "Chargeur FN FAL", 200 },
+            { "20Rnd_762x51_Mag", "", 200 },
+            { "R3F_20Rnd_762x51_HK417", "Chargeur HK 417", 200 },
+            { "7Rnd_408_Mag", "Chargeur M320", 3500 },
+            { "R3F_7Rnd_127x99_PGM", "Chargeur PGM Hecate II", 4000 },
+            { "bipod_03_F_blk", "", 250 },
+            { "acc_flashlight", "", 750 },
+            { "R3F_LAMPE_SURB", "", 750 },
+            { "optic_Holosight", "", 1200 },
+            { "R3F_AIMPOINT", "", 1500 },
+            { "FHQ_optic_AIM", "", 1500 },
+            { "FHQ_optic_MARS", "", 1500 },            
+            { "C1987_zeiss_AIM", "", 1500 },
+            { "optic_Hamr", "", 2000 },
+            { "optic_MRCO", "", 2000 },
+            { "optic_Arco", "", 2000 },
+            { "FHQ_optic_AC11704", "", 1500 },
+            { "FHQ_acc_LLM01L", "", 1500 },
+            { "FHQ_acc_ANPEQ15_black", "", 1500 },
+            { "FHQ_optic_ACOG", "", 1500 },
+            { "R3F_EOTECH", "", 1500 },            
+            { "optic_SOS", "", 3000 },
+            { "optic_DMS", "", 3500 },                     
+            { "optic_KHS_blk", "", 1500 },                                 
+            { "optic_AMS", "", 3000 },         
+            { "optic_LRPS", "", 4500 }
+        };
+        accs[] = {};
+    };
 
     //Armurerie policier
     class cop_policier {
@@ -490,8 +727,8 @@ class WeaponShops {
         license = "";
         level[] = { "life_coplevel", "EQUAL", 5, "Vous devez être au grade d'Adjudant-Chef pour accéder à l'Armurerie Adjudant-Chef" };
         items[] = { 
-            { "SmokeShell", "Grenade Lacrymogène", 2000, -1 },
             { "SmokeShell", "", 100, -1 },
+            { "SmokeShellGreen", "Grenade Lacrymogène", 100, -1 },
             { "ALFR_Shield_F", "", 1000, -1 },
             { "DDOPP_X26", "", 100, -1 },
             { "DDOPP_X3", "", 100, -1 },
@@ -574,8 +811,8 @@ class WeaponShops {
         license = "";
         level[] = { "life_coplevel", "EQUAL", 6, "Vous devez être au grade de Major pour accéder à l'Armurerie Major" };
         items[] = { 
-            { "SmokeShell", "Grenade Lacrymogène", 2000, -1 },
-            { "SmokeShellGreen", "", 100, -1 },
+            { "SmokeShell", "", 2000, -1 },
+            { "SmokeShellGreen", "Grenade Lacrymogène", 100, -1 },
             { "HandGrenade_Stone", "Flashbang", 2000, -1 },
             { "B_UavTerminal", "", 500, -1 },
             { "ALFR_Shield_F", "", 1000, -1 },
@@ -664,8 +901,8 @@ class WeaponShops {
         license = "";
         level[] = { "life_coplevel", "EQUAL", 7, "Vous devez être au grade de Lieutenant pour accéder à l'Armurerie Lieutenant" };
         items[] = { 
-            { "SmokeShell", "Grenade Lacrymogène", 2000, -1 },
-            { "SmokeShellGreen", "", 100, -1 },
+            { "SmokeShell", "", 2000, -1 },
+            { "SmokeShellGreen", "Grenade Lacrymogène", 100, -1 },
             { "HandGrenade_Stone", "Flashbang", 2000, -1 },
             { "B_UavTerminal", "", 500, -1 },
             { "ALFR_Shield_F", "", 1000, -1 },
@@ -760,8 +997,8 @@ class WeaponShops {
         license = "";
         level[] = { "life_coplevel", "EQUAL", 8, "Vous devez être au grade de Capitaine pour accéder à l'Armurerie Capitaine" };
         items[] = { 
-            { "SmokeShell", "Grenade Lacrymogène", 2000, -1 },
-            { "SmokeShellGreen", "", 300, -1 },
+            { "SmokeShell", "", 2000, -1 },
+            { "SmokeShellGreen", "Grenade Lacrymogène", 300, -1 },
             { "HandGrenade_Stone", "Flashbang", 2000, -1 },
             { "B_UavTerminal", "", 500, -1 },
             { "ALFR_Shield_F", "", 1000, -1 },
@@ -860,8 +1097,8 @@ class WeaponShops {
         license = "";
         level[] = { "life_coplevel", "EQUAL", 9, "Vous devez être au grade de Commandant pour accéder à l'Armurerie Commandant" };
         items[] = { 
-            { "SmokeShell", "Grenade Lacrymogène", 2000, -1 },
-            { "SmokeShellGreen", "", 100, -1 },
+            { "SmokeShell", "", 2000, -1 },
+            { "SmokeShellGreen", "Grenade Lacrymogène", 100, -1 },
             { "HandGrenade_Stone", "Flashbang", 2000, -1 },
             { "B_UavTerminal", "", 500, -1 },
             { "ALFR_Shield_F", "", 1000, -1 },

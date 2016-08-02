@@ -359,9 +359,9 @@ class Clothing {
         };
     };
     
-    class swatclothing {
-		title = "Vestiaire du SWAT";
-		license = "swat";
+    class armeeclothing {
+		title = "Vestiaire de l'Armée";
+		license = "armee";
 		side = "cop";
 		uniforms[] = {
 			{ "NONE", "Supprime uniforme", 0, { "", "", -1 } },
