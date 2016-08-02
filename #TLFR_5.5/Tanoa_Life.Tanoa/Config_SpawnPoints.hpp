@@ -44,7 +44,7 @@ class CfgSpawnPoints {
             level[] = { "", "", -1 };
         };
 
-        class Ouméré {
+        class Oumere {
             displayName = "Ouméré";
             spawnMarker = "civ_spawn_2";
             icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
