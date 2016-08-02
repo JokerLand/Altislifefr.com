@@ -10,4 +10,4 @@ removeAllWeapons player; // Remove todas as armas do jogador.
 [] call life_fnc_saveGear;
 [] call SOCK_fnc_updateRequest;
 
-titleText["Les armes ont été saisies.","PLAIN"];
+titleText["Vos armes ont Ã©tÃ© saisies par la Police.","PLAIN"];

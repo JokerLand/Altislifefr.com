@@ -145,8 +145,6 @@ class Life_Client_Core {
         class restrain {};
         class searchClient {};
         class seizeClient {};
-        class seizePlayerWeapon {};
-        class seizePlayerWeaponAction {};
         class removerarmas {};
 	    class removerarmasacao {};
         class sirenLights {};

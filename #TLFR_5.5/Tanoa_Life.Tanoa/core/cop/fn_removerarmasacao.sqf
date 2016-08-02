@@ -17,4 +17,4 @@ if(!isPlayer _unit) exitWith {};
 
 [player] remoteExec ["life_fnc_removerarmas",_unit];
 
-hint "Vos armes ont été saisies par la Police";
+hint "Les armes ont été saisies";

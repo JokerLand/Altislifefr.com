@@ -17,7 +17,7 @@
 #define Btn9 37486
 #define Title 37401
 
-private["_display","_curTarget","_seizeRank","_Btn1","_Btn2","_Btn3","_Btn4","_Btn5","_Btn6","_Btn7","_Btn8","_Btn9"];
+private["_display","_curTarget","_seizeRank","_Btn1","_Btn2","_Btn3","_Btn4","_Btn5","_Btn6","_Btn7","_Btn8"];
 
 disableSerialization;
 _curTarget = param [0,objNull,[objNull]];
@@ -42,7 +42,6 @@ _Btn5 = _display displayCtrl Btn5;
 _Btn6 = _display displayCtrl Btn6;
 _Btn7 = _display displayCtrl Btn7;
 _Btn8 = _display displayCtrl Btn8;
-_Btn9 = _display displayCtrl Btn9;
 life_pInact_curTarget = _curTarget;
 
 if (player getVariable["isEscorting",false]) then {
@@ -81,26 +80,10 @@ _Btn6 ctrlEnable false;
 _Btn7 ctrlSetText localize "STR_pInAct_PutInCar";
 _Btn7 buttonSetAction "[life_pInact_curTarget] call life_fnc_putInCar; closeDialog 0;";
 
-//Saisir moyen de com
-if (playerSide == west) then {
-if(side _curTarget == west) then {closeDialog 0;}
-else {
-_Btn8 ctrlSetText  "Retirer Radio";
-_Btn8 buttonSetAction "[life_pInact_curTarget] call life_fnc_robcom;";
-};
-} else {_Btn8 ctrlShow false;
-};
-
-//SeizeWeapons Button
-/*
-_Btn9 ctrlSetText localize "STR_pInAct_Seize";
-_Btn9 buttonSetAction "[life_pInact_curTarget] spawn life_fnc_seizePlayerAction; closeDialog 0;";
-if (FETCH_CONST(life_coplevel) < _seizeRank) then {_Btn9 ctrlEnable false;};
-*/
 
 // REMOVE WEAPONS OF PLAYER
-_Btn9 ctrlSetText "REMOVER ARMAS";
-_Btn9 buttonSetAction "[life_pInact_curTarget] call life_fnc_removerarmasacao;";
+_Btn8 ctrlSetText "Saisir Arme(s)";
+_Btn8 buttonSetAction "[life_pInact_curTarget] call life_fnc_removerarmasacao;";
 
 
 {
