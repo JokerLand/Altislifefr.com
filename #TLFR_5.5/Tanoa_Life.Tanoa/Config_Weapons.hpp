@@ -286,7 +286,7 @@ class WeaponShops {
     };*/
     
     //Armurerie Armée lvl 1
-    class cop_armee {
+    class cop_armee1 {
         name = "Armurerie Armée";
         side = "cop";
         license = "armee";
@@ -334,7 +334,7 @@ class WeaponShops {
     };
     
     //Armurerie Armée lvl 2
-    class cop_armee {
+    class cop_armee2 {
         name = "Armurerie Armée";
         side = "cop";
         license = "armee";
@@ -425,7 +425,7 @@ class WeaponShops {
     };
     
     //Armurerie Armée lvl 3
-    class cop_armee {
+    class cop_armee3 {
         name = "Armurerie Armée";
         side = "cop";
         license = "armee";
