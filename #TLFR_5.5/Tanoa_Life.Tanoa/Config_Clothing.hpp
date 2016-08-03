@@ -290,8 +290,17 @@ class Clothing {
         side = "cop";
         uniforms[] = {
 			{ "NONE", "Supprimer uniforme", 0, { "", "", -1 } },
-			{ "ALFR_FR_police_tenu", "Tenue Police", 1500, { "", "", -1 } },
+			{ "hightline_gendarmerie_gilet", "Gilet Jaune", 1500, { "", "", -1 } },
+			{ "hightline_gendarmerie_03", "Tenue Gendarme", 1500, { "", "", -1 } },
+			{ "hightline_gendarmerie_04", "Tenue Motard", 1500, { "", "", 4 } },
+            { "hightline_gendarmerie_02", "Tenue Officier de Gendarmerie", 1500, { "life_coplevel", "SCALAR", 6 } },
             { "U_B_Wetsuit", "", 1500, { "", "", -1 } },
+			{ "U_B_JaKdo_PCU_kryptek", "Tenue BAC", 1500, { "life_coplevel", "SCALAR", 5 } },
+			{ "U_B_JaKdo_PCU_kryptek_hood", "Tenue BAC", 1500, { "life_coplevel", "SCALAR", 5 } },
+			{ "U_B_JaKdo_PCU_Oliv", "Tenue BAC", 1500, { "life_coplevel", "SCALAR", 5 } },
+			{ "U_B_JaKdo_PCU_oliv_hood", "Tenue BAC", 1500, { "life_coplevel", "SCALAR", 5 } },
+			{ "U_B_JaKdo_PCU_winter", "Tenue BAC", 1500, { "life_coplevel", "SCALAR", 5 } },
+			{ "U_B_JaKdo_PCU_winter_hood", "Tenue BAC", 1500, { "life_coplevel", "SCALAR", 5 } },
 			{ "U_PMC_CombatUniformRS_SSBPBB", "Tenue BAC", 1500, { "life_coplevel", "SCALAR", 5 } },
 			{ "U_PMC_BluPolo_GrnPants", "Tenue BAC", 1500, { "life_coplevel", "SCALAR", 5 } },
 			{ "U_PMC_WhtPolo_BluPants", "Tenue BAC", 1500, { "life_coplevel", "SCALAR", 5 } },
@@ -306,7 +315,7 @@ class Clothing {
 		};
         headgear[] = {
 			{ "NONE", "Supprime couvre-chef", 0, { "", "", -1 } },
-			{ "H_MilCap_blue", "", 200, { "", "", -1 } },
+			{ "H_MilCap_gen_F", "", 200, { "", "", -1 } },
 			{ "H_ALFR_Gasmask", "", 200, { "", "", -1 } },
 			//{ "H_Beret_blk", "", 200, { "life_coplevel", "SCALAR", 2 } },
             { "H_PilotHelmetHeli_O", "Casque Heli BAC", 200, { "life_coplevel", "SCALAR", 3 } },
@@ -355,7 +364,7 @@ class Clothing {
         backpacks[] = {
 			{ "NONE", "Supprime sac", 0, { "", "", -1 } },
 			{ "ALFR_Police_Bags", "", 5000, { "", "", -1 } },
-			{ "B_UAV_01_backpack_F", "", 10000, { "life_coplevel", "SCALAR", 4 } }
+			{ "B_UAV_01_backpack_F", "", 10000, { "life_coplevel", "SCALAR", 6 } }
         };
     };
     
