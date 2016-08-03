@@ -1,4 +1,4 @@
-   | Liste des choses à faire : Avec indications de celui qui s'occupe |
+﻿   | Liste des choses à faire : Avec indications de celui qui s'occupe |
 
 
 |FAIT| véhicule aérien ,rajouter les camions |FAIT|
@@ -56,6 +56,6 @@ bois | oui
 -Finir tout les items pour personnage masqué
 
 //Debug urgent :
--Bug dans la phrase "Vous recevrez votre prochain chèque dans any minutes"
+-Bug dans la phrase "Vous recevrez votre prochain chèque dans any minutes" -> je pense savoir d'ou sa vient (Sakzy)
 
 
