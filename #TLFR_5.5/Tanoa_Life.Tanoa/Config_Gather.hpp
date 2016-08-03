@@ -24,6 +24,18 @@ class CfgGather {
             zones[] = { "algue_1" };
             item = "";
         };
+        
+        class maisu {
+            amount = 6;
+            zones[] = { "mais_1" };
+            item = "";
+        };
+        
+        class ephedrine {
+            amount = 4;
+            zones[] = { "ephedrine_1" };
+            item = "";
+        };        
 
         class heroin_unprocessed {
             amount = 3;
@@ -150,6 +162,41 @@ Example 2:
             zones[] = { "oil_field_1", "oil_field_2" };
             item = "pickaxe";
             mined[] = { "oil_unprocessed" };
+        };
+        
+        class emeraudeu {
+            amount = 2;
+            zones[] = { "emeraude_1", "emeraude_2" };
+            item = "pickaxe";
+            mined[] = { "emeraudeu" };
+        };
+        
+        class saphiru {
+            amount = 2;
+            zones[] = { "saphir_1", "saphir_2" };
+            item = "pickaxe";
+            mined[] = { "saphiru" };
+        };
+        
+        class pierrevolcaniqueu {
+            amount = 2;
+            zones[] = { "pierrevolcanique_1", "pierrevolcanique_2" };
+            item = "pickaxe";
+            mined[] = { "pierrevolcaniqueu" };
+        };
+        
+        class souffreu {
+            amount = 2;
+            zones[] = { "souffre_1", "souffre_2" };
+            item = "pickaxe";
+            mined[] = { "souffreu" };
+        };
+        
+        class boisu {
+            amount = 2;
+            zones[] = { "bois_1", "bois_2" };
+            item = "axe";
+            mined[] = { "boisu" };
         };
     };
 };

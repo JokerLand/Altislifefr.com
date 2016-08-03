@@ -32,6 +32,54 @@ class ProcessAction {
         //ScrollText = "Cut Diamonds";
         NoLicenseCost = 1350;
     };
+    
+    class mais {
+        MaterialsReq[] = {{"maisu",1}};
+        MaterialsGive[] = {{"maisp",1}};
+        Text = "STR_Process_Mais";
+        //ScrollText = "Cut Diamonds";
+        NoLicenseCost = 1350;
+    };
+    
+    class emeraude {
+        MaterialsReq[] = {{"emeraudeu",1}};
+        MaterialsGive[] = {{"emeraudep",1}};
+        Text = "STR_Process_Emeraude";
+        //ScrollText = "Cut Diamonds";
+        NoLicenseCost = 1350;
+    };
+    
+    class saphir {
+        MaterialsReq[] = {{"saphiru",1}};
+        MaterialsGive[] = {{"saphirp",1}};
+        Text = "STR_Process_Saphir";
+        //ScrollText = "Cut Diamonds";
+        NoLicenseCost = 1350;
+    };
+    
+    class pierrevolcanique {
+        MaterialsReq[] = {{"pierrevolcaniqueu",1}};
+        MaterialsGive[] = {{"pierrevolcaniquep",1}};
+        Text = "STR_Process_Pierrevolcanique";
+        //ScrollText = "Cut Diamonds";
+        NoLicenseCost = 1350;
+    };
+    
+    class souffre {
+        MaterialsReq[] = {{"souffreu",1}};
+        MaterialsGive[] = {{"souffrep",1}};
+        Text = "STR_Process_Souffre";
+        //ScrollText = "Cut Diamonds";
+        NoLicenseCost = 1350;
+    };
+    
+    class bois {
+        MaterialsReq[] = {{"boisu",1}};
+        MaterialsGive[] = {{"boisp",1}};
+        Text = "STR_Process_Bois";
+        //ScrollText = "Cut Diamonds";
+        NoLicenseCost = 1350;
+    };
 
     class heroin {
         MaterialsReq[] = {{"heroin_unprocessed",1}};
@@ -145,13 +193,13 @@ class ProcessAction {
         NoLicenseCost = 1500;
     };
     
-    class try {
+    /*class try {
         MaterialsReq[] = {{"cocaine_unprocessed",1},{"heroin_unprocessed",1}};
         MaterialsGive[] = {{"joint",1}};
         Text = "STR_Process_Joint";
         //ScrollText = "Mix Cement";
         NoLicenseCost = 1500;
-    };
+    };*/
     
     class meth {
         MaterialsReq[] = {{"phosphore_rouge",1},{"ephedrine",1},{"iode",1}};

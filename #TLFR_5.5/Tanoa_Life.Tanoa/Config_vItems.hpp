@@ -103,6 +103,14 @@ class VirtualShops {
         level[] = { "", "", -1, "" };
         items[] = { "cocaine_processed", "heroin_processed", "marijuana", "joint", "meth" };
     };
+    
+    class produitchimique {
+        name = "STR_Shops_Produitchimique";
+        side = "civ";
+        license = "";
+        level[] = { "", "", -1, "" };
+        items[] = { "phosphore_rouge", "iode" };
+    };
 
     class oil {
         name = "STR_Shops_Oil";
@@ -240,6 +248,54 @@ class VirtualShops {
         items[] = { "algue" };
     };
     
+    class maisv {
+        name = "STR_Shops_Maisv";
+        side = "civ";
+        license = "";
+        level[] = { "", "", -1, "" };
+        items[] = { "maisp" };
+    };
+    
+    class emeraudev {
+        name = "STR_Shops_Emeraudev";
+        side = "civ";
+        license = "";
+        level[] = { "", "", -1, "" };
+        items[] = { "emeraudep" };
+    };
+    
+    class saphirv {
+        name = "STR_Shops_Saphirv";
+        side = "civ";
+        license = "";
+        level[] = { "", "", -1, "" };
+        items[] = { "saphirp" };
+    };
+    
+    class pierrevolcaniquev {
+        name = "STR_Shops_Pierrevolcaniquev";
+        side = "civ";
+        license = "";
+        level[] = { "", "", -1, "" };
+        items[] = { "pierrevolcaniquep" };
+    };
+    
+    class souffrev {
+        name = "STR_Shops_Souffrev";
+        side = "civ";
+        license = "";
+        level[] = { "", "", -1, "" };
+        items[] = { "souffrep" };
+    };
+    
+    class boisv {
+        name = "STR_Shops_Boisv";
+        side = "civ";
+        license = "";
+        level[] = { "", "", -1, "" };
+        items[] = { "boisp" };
+    };
+    //
     class sugarcane {
         name = "STR_Shops_SugarCane";
         side = "civ";
@@ -803,7 +859,7 @@ class VirtualItems {
         displayName = "STR_Item_Iode";
         weight = 2;
         buyPrice = 600;
-        sellPrice = 400;
+        sellPrice = 300;
         illegal = true;
         edible = -1;
         icon = "icons\ico_marijuana.paa";
@@ -825,7 +881,7 @@ class VirtualItems {
         displayName = "STR_Item_Phosphore_Rouge";
         weight = 2;
         buyPrice = 600;
-        sellPrice = 400;
+        sellPrice = 300;
         illegal = true;
         edible = -1;
         icon = "icons\ico_marijuana.paa";
@@ -1030,7 +1086,141 @@ class VirtualItems {
         edible = 10;
         icon = "icons\ico_algue.paa";
     };
-
+    
+    class maisu {
+        variable = "maisu";
+        displayName = "STR_Item_Maisu";
+        weight = 3;
+        buyPrice = -1;
+        sellPrice = -1;
+        illegal = false;
+        edible = -1;
+        icon = "icons\ico_meat.paa";
+    };
+    
+    class maisp {
+        variable = "maisp";
+        displayName = "STR_Item_Maisp";
+        weight = 2;
+        buyPrice = -1;
+        sellPrice = 75;
+        illegal = false;
+        edible = 15;
+        icon = "icons\ico_meat.paa";
+    };
+    
+    class emeraudeu {
+        variable = "emeraudeu";
+        displayName = "STR_Item_Emeraudeu";
+        weight = 3;
+        buyPrice = -1;
+        sellPrice = -1;
+        illegal = false;
+        edible = -1;
+        icon = "icons\ico_meat.paa";
+    };
+    
+    class emeraudep {
+        variable = "emeraudep";
+        displayName = "STR_Item_Emeraudep";
+        weight = 2;
+        buyPrice = -1;
+        sellPrice = 75;
+        illegal = false;
+        edible = -1;
+        icon = "icons\ico_meat.paa";
+    };
+    
+    class saphiru {
+        variable = "saphiru";
+        displayName = "STR_Item_Saphiru";
+        weight = 3;
+        buyPrice = -1;
+        sellPrice = -1;
+        illegal = false;
+        edible = -1;
+        icon = "icons\ico_meat.paa";
+    };
+    
+    class saphirp {
+        variable = "saphirp";
+        displayName = "STR_Item_Saphirp";
+        weight = 2;
+        buyPrice = -1;
+        sellPrice = 75;
+        illegal = false;
+        edible = -1;
+        icon = "icons\ico_meat.paa";
+    };
+    
+    class pierrevolcaniqueu {
+        variable = "pierrevolcaniqueu";
+        displayName = "STR_Item_Pierrevolcaniqueu";
+        weight = 3;
+        buyPrice = -1;
+        sellPrice = -1;
+        illegal = false;
+        edible = -1;
+        icon = "icons\ico_meat.paa";
+    };
+    
+    class pierrevolcaniquep {
+        variable = "pierrevolcaniquep";
+        displayName = "STR_Item_Pierrevolcaniquep";
+        weight = 2;
+        buyPrice = -1;
+        sellPrice = 75;
+        illegal = false;
+        edible = -1;
+        icon = "icons\ico_meat.paa";
+    };
+    
+    class souffreu {
+        variable = "souffreu";
+        displayName = "STR_Item_Souffreu";
+        weight = 3;
+        buyPrice = -1;
+        sellPrice = -1;
+        illegal = false;
+        edible = -1;
+        icon = "icons\ico_meat.paa";
+    };
+    
+    class souffrep {
+        variable = "souffrep";
+        displayName = "STR_Item_Souffrep";
+        weight = 2;
+        buyPrice = -1;
+        sellPrice = 75;
+        illegal = false;
+        edible = -1;
+        icon = "icons\ico_meat.paa";
+    };
+    
+    class boisu {
+        variable = "boisu";
+        displayName = "STR_Item_Boisu";
+        weight = 3;
+        buyPrice = -1;
+        sellPrice = -1;
+        illegal = false;
+        edible = -1;
+        icon = "icons\ico_meat.paa";
+    };
+    
+    class boisp {
+        variable = "boisp";
+        displayName = "STR_Item_Boisp";
+        weight = 2;
+        buyPrice = -1;
+        sellPrice = 75;
+        illegal = false;
+        edible = -1;
+        icon = "icons\ico_meat.paa";
+    };
+    
+    
+    //
     class rabbit_raw {
         variable = "rabbitRaw";
         displayName = "STR_Item_RabbitRaw";

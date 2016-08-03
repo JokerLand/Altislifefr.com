@@ -22,17 +22,18 @@
 - Meth & pleins d'autres  || EN COURS
 
 Ressource | Traitement
-mais | oui
-canne a sucre | oui
+mais | oui |FAIT| POINT MAP A FINIR DE PLACER
+canne a sucre | oui |FAIT| POINT MAP A FINIR DE PLACER
 banane | non |FAIT| POINT MAP A FINIR DE PLACER
 cacao | non |FAIT| POINT MAP A FINIR DE PLACER
 corail | non |FAIT| POINT MAP A FINIR DE PLACER
-emeraude | oui
-saphire | oui
-pierre volcanique | oui 
-souffre | oui 
+emeraude | oui |FAIT| POINT MAP A FINIR DE PLACER
+saphire | oui |FAIT| POINT MAP A FINIR DE PLACER
+pierre volcanique | oui |FAIT| POINT MAP A FINIR DE PLACER
+souffre | oui |FAIT| POINT MAP A FINIR DE PLACER
 algue | non |FAIT| POINT MAP A FINIR DE PLACER
-bois | oui 
+bois | oui |FAIT| POINT MAP A FINIR DE PLACER
+meth | multiprocess |FAIT| POINT MAP A FINIR DE PLACER
 
 //Fret (Sakzy) :
 -Rajouter panneaux pub addaction dans les 4 grande ville
