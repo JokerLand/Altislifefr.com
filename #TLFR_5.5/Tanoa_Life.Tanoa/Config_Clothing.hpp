@@ -374,33 +374,36 @@ class Clothing {
 		side = "cop";
 		uniforms[] = {
 			{ "NONE", "Supprime uniforme", 0, { "", "", -1 } },
-			{ "ALFR_SWAT", "", 1250, { "", "", -1 } }
+			{ "R3F_uniform_f1", "", 1250, { "", "", -1 } },
+			{ "R3F_uniform_apso", "", 1250, { "", "", -1 } }
 		};
 
 		headgear[] = {
 			{ "NONE", "Supprime couvre-chef", 0, { "", "", -1 } },
-			{ "H_MilCap_gry", "", 100, { "", "", -1 } },
-			{ "ALFR_swathelmet", "", 200, { "", "", -1 } },
-			{ "gign_helm4", "", 250, { "", "", -1 } },
-            { "gign_helm", "", 500, { "", "", -1 } }
+			{ "R3F_casque_spectra", "", 100, { "", "", -1 } },
+			{ "R3F_chapeaubrousse_CE", "", 100, { "life_coplevel", "SCALAR", 2 } },
+			{ "R3F_casquette_off", "", 100, { "life_coplevel", "SCALAR", 2 } },
+			{ "R3F_beret_para", "", 100, { "life_coplevel", "SCALAR", 3 } }
 		};
 
 		goggles[] = {
 			{ "NONE", "Supprime lunette", 0, { "", "", -1 } },
-			{ "G_Balaclava_blk", "", 125, { "", "", -1 } }
+			{ "R3F_cagoule_punisher", "", 125, { "", "", -1 } },
+			{ "R3F_cagoule_olive", "", 125, { "", "", -1 } },
+			{ "G_Aviator", "", 125, { "life_coplevel", "SCALAR", 2 } },
+			{ "G_Squares_Tinted", "", 125, { "life_coplevel", "SCALAR", 2 } },
+			{ "G_Spectacles_Tinted", "", 125, { "life_coplevel", "SCALAR", 3 } }
 		};
 
 		vests[] = {
 			{ "NONE", "Supprime gilet", 0, { "", "", -1 } },
-            { "ALFR_swatvest1", "", 1250, { "", "", -1 } },
-			{ "ALFR_swatvest2", "", 1250, { "", "", -1 } },
-			{ "ALFR_swatvest3", "", 1250, { "", "", -1 } }
+            { "R3F_veste_ce600", "", 1250, { "", "", -1 } }
 		};
 
 		backpacks[] = {
 			{ "NONE", "Supprime sac", 0, { "", "", -1 } },
-			{ "B_UAV_01_backpack_F", "", 10000, { "", "", -1 } },
-			{ "ALFR_Police_Backpack", "", 5000, { "", "", -1 } }
+			{ "B_UAV_01_backpack_F", "", 10000, { "life_coplevel", "SCALAR", 3 } },
+			{ "R3F_sac_moyen_CE", "", 5000, { "", "", -1 } }
 		};
 	};
 
