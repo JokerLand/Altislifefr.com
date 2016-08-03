@@ -54,5 +54,4 @@ algue
 -Bug dans la phrase "Vous recevrez votre prochain chèque dans any minutes"
 -Respawn dans l'eau quant on choisi georgetown (en 0.0)
 -Respawn sans la tenue et sans map (-> initciv voir)
--Remettre les icons droit
--Station à rajouter en 109098 et 021033
+
