@@ -1,4 +1,4 @@
-﻿   | Liste des choses à faire : Avec indications de celui qui s'occupe |
+   | Liste des choses à faire : Avec indications de celui qui s'occupe |
 
 
 |FAIT| véhicule aérien ,rajouter les camions |FAIT|
@@ -16,7 +16,7 @@
 |FAIT| Pas de message lors d'un give d'item via le menu |FAIT|
 |FAIT| Respawn dans l'eau(en 0.0) |FAIT|   ---------------------------------\ Résolu grâce à un spawn fixe
 |FAIT| Respawn sans la tenue et sans map (-> initciv voir) |FAIT|-----------/  comme la police (La map supprimée venait de l'erreur du spawn)
-
+|FAIT| Finir tout les items pour personnage masqué |FAIT|
 
 //Ressources (John) : 
 - Meth & pleins d'autres  || EN COURS
@@ -53,7 +53,6 @@ bois | oui
 -Wanted Stringtable a modifier car en français marche pas
 -Remettre le "montrer son insigne"
 -Debug la barrière qui s'envole
--Finir tout les items pour personnage masqué
 
 //Debug urgent :
 -Bug dans la phrase "Vous recevrez votre prochain chèque dans any minutes" -> je pense savoir d'ou sa vient (Sakzy)
