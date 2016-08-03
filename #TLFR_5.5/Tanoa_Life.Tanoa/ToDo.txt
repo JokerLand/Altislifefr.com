@@ -14,6 +14,8 @@
 |FAIT| Remettre tout les items police |FAIT VIA MENU OBJETS DANS Y |
 |FAIT| Problème avec le fichier fn_seizePlayerWeapon à la lign 12 (en commentaire actuellement)|FAIT|
 |FAIT| Pas de message lors d'un give d'item via le menu |FAIT|
+|FAIT| Respawn dans l'eau(en 0.0) |FAIT|   ---------------------------------\ Résolu grâce à un spawn fixe
+|FAIT| Respawn sans la tenue et sans map (-> initciv voir) |FAIT|-----------/  comme la police (La map supprimée venait de l'erreur du spawn)
 
 
 //Ressources (John) : 
@@ -55,6 +57,5 @@ bois | oui
 
 //Debug urgent :
 -Bug dans la phrase "Vous recevrez votre prochain chèque dans any minutes"
--Respawn dans l'eau(en 0.0)
--Respawn sans la tenue et sans map (-> initciv voir)
+
 
