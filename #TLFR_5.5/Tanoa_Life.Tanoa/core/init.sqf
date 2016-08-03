@@ -21,7 +21,7 @@ if (life_HC_isActive) then {
 
 life_firstSpawn = true;
 life_session_completed = false;
-0 cutText["Setting up client, please wait...","BLACK FADED"];
+0 cutText["Mise en place du client, Patientez...","BLACK FADED"];
 0 cutFadeOut 9999999;
 _timeStamp = diag_tickTime;
 diag_log "----------------------------------------------------------------------------------------------------";

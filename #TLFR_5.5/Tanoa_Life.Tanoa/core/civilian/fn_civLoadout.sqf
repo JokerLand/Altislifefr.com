@@ -15,6 +15,8 @@ player addUniform (selectRandom _clothings);
 /* ITEMS */
 player addItem "ItemMap";
 player assignItem "ItemMap";
+player addItem "ItemGPS";
+player assignItem "ItemGPS";
 player addItem "ItemCompass";
 player assignItem "ItemCompass";
 player addItem "ItemWatch";
