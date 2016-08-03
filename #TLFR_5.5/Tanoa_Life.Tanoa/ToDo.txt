@@ -22,14 +22,14 @@
 Ressource | Traitement
 mais | oui
 canne a sucre | oui
-banane | non
-cacao | non
-corail | non
+banane | non |FAIT| POINT MAP A FINIR DE PLACER
+cacao | non |FAIT| POINT MAP A FINIR DE PLACER
+corail | non |FAIT| POINT MAP A FINIR DE PLACER
 emeraude | oui
 saphire | oui
 pierre volcanique | oui 
 souffre | oui 
-algue | non
+algue | non |FAIT| POINT MAP A FINIR DE PLACER
 bois | oui 
 
 //Fret (Sakzy) :
@@ -55,6 +55,6 @@ bois | oui
 
 //Debug urgent :
 -Bug dans la phrase "Vous recevrez votre prochain chèque dans any minutes"
--Respawn dans l'eau quant on choisi georgetown (en 0.0)
+-Respawn dans l'eau(en 0.0)
 -Respawn sans la tenue et sans map (-> initciv voir)
 

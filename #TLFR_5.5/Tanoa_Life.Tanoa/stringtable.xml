@@ -5768,6 +5768,22 @@
             <Portuguese>Rosquinha</Portuguese>
             <Polish>Pączki</Polish>
         </Key>
+        <Key ID="STR_Item_Banane">
+            <Original>Banane</Original>
+            <French>Banane</French>
+        </Key>
+        <Key ID="STR_Item_Cacao">
+            <Original>Cacao</Original>
+            <French>Cacao</French>
+        </Key>
+        <Key ID="STR_Item_Corail">
+            <Original>Corail</Original>
+            <French>Corail</French>
+        </Key>
+        <Key ID="STR_Item_Algue">
+            <Original>Algue</Original>
+            <French>Algue</French>
+        </Key>
         <Key ID="STR_Item_FuelE">
             <Original>Empty Fuel Canister</Original>
             <Czech>Prázdný palivo může</Czech>

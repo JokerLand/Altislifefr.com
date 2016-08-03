@@ -37,7 +37,7 @@ class VirtualShops {
         side = "civ";
         license = "";
         level[] = { "", "", -1, "" };
-        items[] = { "waterBottle", "rabbit", "apple", "redgull", "tbacon", "pickaxe", "toolkit", "fuelFull", "peach", "storagesmall", "storagebig", "rabbit_raw", "hen_raw", "rooster_raw", "sheep_raw", "goat_raw" };
+        items[] = { "waterBottle", "rabbit", "apple", "redgull", "tbacon", "pickaxe", "toolkit", "fuelFull", "peach", "storagesmall", "rabbit_raw", "hen_raw", "rooster_raw", "sheep_raw", "goat_raw" };
     };
     
     class bar {
@@ -208,6 +208,38 @@ class VirtualShops {
         items[] = { "cigare" };
     };
     
+    class bananier {
+        name = "STR_Shops_Bananier";
+        side = "civ";
+        license = "";
+        level[] = { "", "", -1, "" };
+        items[] = { "banane" };
+    };
+    
+    class cacaotier {
+        name = "STR_Shops_Cacaotier";
+        side = "civ";
+        license = "";
+        level[] = { "", "", -1, "" };
+        items[] = { "cacao" };
+    };
+    
+    class corailier {
+        name = "STR_Shops_Corailier";
+        side = "civ";
+        license = "";
+        level[] = { "", "", -1, "" };
+        items[] = { "corail" };
+    };
+    
+    class alguiste {
+        name = "STR_Shops_Alguiste";
+        side = "civ";
+        license = "";
+        level[] = { "", "", -1, "" };
+        items[] = { "algue" };
+    };
+    
     class sugarcane {
         name = "STR_Shops_SugarCane";
         side = "civ";
@@ -245,7 +277,7 @@ class VirtualShops {
         side = "civ";
         license = "ion";
         level[] = { "", "", -1, "" };
-        items[] = { "waterBottle", "rabbit", "apple", "redgull", "tbacon", "light", "pickaxe", "fuelFull", "peach", "storagesmall", "storagebig", "rabbit_raw", "hen_raw", "rooster_raw", "sheep_raw", "goat_raw" };
+        items[] = { "waterBottle", "rabbit", "apple", "redgull", "tbacon", "light", "pickaxe", "fuelFull", "peach", "storagesmall", "rabbit_raw", "hen_raw", "rooster_raw", "sheep_raw", "goat_raw" };
     };
 };
 
@@ -951,8 +983,52 @@ class VirtualItems {
         buyPrice = 100;
         sellPrice = 50;
         illegal = false;
-        edible = 35;
+        edible = 50;
         icon = "icons\ico_donuts.paa";
+    };
+    
+    class banane {
+        variable = "banane";
+        displayName = "STR_Item_Banane";
+        weight = 1;
+        buyPrice = 110;
+        sellPrice = 55;
+        illegal = false;
+        edible = 25;
+        icon = "icons\ico_banane.paa";
+    };
+    
+    class cacao {
+        variable = "cacao";
+        displayName = "STR_Item_Cacao";
+        weight = 1;
+        buyPrice = 110;
+        sellPrice = 55;
+        illegal = false;
+        edible = 20;
+        icon = "icons\ico_cacao.paa";
+    };
+    
+    class corail {
+        variable = "corail";
+        displayName = "STR_Item_Corail";
+        weight = 6;
+        buyPrice = 100;
+        sellPrice = 1500;
+        illegal = true;
+        edible = -1;
+        icon = "icons\ico_corail.paa";
+    };
+    
+    class algue {
+        variable = "algue";
+        displayName = "STR_Item_Algue";
+        weight = 2;
+        buyPrice = 100;
+        sellPrice = 350;
+        illegal = false;
+        edible = 10;
+        icon = "icons\ico_algue.paa";
     };
 
     class rabbit_raw {

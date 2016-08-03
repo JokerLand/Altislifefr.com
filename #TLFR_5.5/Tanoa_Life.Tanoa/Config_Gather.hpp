@@ -1,15 +1,27 @@
 class CfgGather {
     zoneSize = 30;
     class Resources {
-        class apple {
+        class cacao {
             amount = 5;
-            zones[] = { "apple_1", "apple_2", "apple_3", "apple_4" };
+            zones[] = { "cacao_1", "cacao_2", "cacao_3", "cacao_4" };
             item = "";
         };
 
-        class peach {
+        class banane {
             amount = 5;
-            zones[] = { "peaches_1", "peaches_2", "peaches_3", "peaches_4" };
+            zones[] = { "banane_1", "banane_2", "banane_3", "banane_4" };
+            item = "";
+        };
+        
+        class corail {
+            amount = 3;
+            zones[] = { "corail_1" };
+            item = "";
+        };
+        
+        class algue {
+            amount = 6;
+            zones[] = { "algue_1" };
             item = "";
         };
 
