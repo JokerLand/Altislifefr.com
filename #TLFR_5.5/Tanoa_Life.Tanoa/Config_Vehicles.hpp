@@ -224,6 +224,21 @@ class CarShops {
             { "zorak_audi_a6_police", { "life_coplevel", "SCALAR", 8 } }
         };
     };
+    
+    /*class armee_car { 
+        side = "cop";
+        vehicles[] = {
+            { "C_Offroad_01_F", { "", "", -1 } },
+            { "C_SUV_01_F", { "", "", -1 } },
+			{ "GeK_107_Police", { "", "", -1 } }, 
+            { "GeK_Renault_Trafic_Police", { "", "", -1 } },
+			{ "shounka_a3_gendsprinter", { "", "", -1 } },
+			{ "GeK_S60_Police", { "life_coplevel", "SCALAR", 2 } },
+			{ "gek_audi_a4_avant_police", { "life_coplevel", "SCALAR", 2 } },
+			{ "GeK_TLC100_Police", { "life_coplevel", "SCALAR", 2 } },
+			{ "GeK_ML63_Police", { "life_coplevel", "SCALAR", 3 } }
+        };
+    };*/
 
     class cop_air { //OK
         side = "cop";
@@ -1367,14 +1382,14 @@ class LifeCfgVehicles {
     
     class GeK_TLC100_Police {    
         vItemSpace = 55;
-        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        licenses[] = { {""}, {"armee"}, {""}, {""} };
         price = 17500;
 		textures[] = {
 
 			{ "Police", "cop", {
                 "ALFR_TexSnd\TLCPolice.paa"
             } },
-			{ "Armee", "armer", {
+			{ "Armee", "armee", {
                 "alfr_Arm\data\ALFR_range_armee.jpg"
             } }
 
