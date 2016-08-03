@@ -5,21 +5,21 @@ class EditorData
 	angleGridStep=0.2617994;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=517;
+	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=1933;
+		nextID=1940;
 	};
 	class MarkerIDProvider
 	{
-		nextID=226;
+		nextID=227;
 	};
 	class Camera
 	{
-		pos[]={5632.4253,5.3957639,11059.548};
-		dir[]={-0.56030679,-0.68694121,0.46280384};
-		up[]={-0.52963293,0.72670949,0.43746859};
-		aside[]={0.63683957,-1.6111881e-007,0.77100676};
+		pos[]={9998.8945,48.008202,13508.778};
+		dir[]={-0.25281969,-0.43214485,-0.86564618};
+		up[]={-0.12115204,0.90180135,-0.41482082};
+		aside[]={-0.95990407,2.7666101e-007,0.28034785};
 	};
 };
 binarizationWanted=0;
@@ -218,6 +218,24 @@ class CustomAttributes
 		name="Multiplayer";
 		class Attribute0
 		{
+			property="RespawnTemplates";
+			expression="true";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"ARRAY"
+						};
+					};
+				};
+			};
+		};
+		class Attribute1
+		{
 			property="RespawnButton";
 			expression="true";
 			class Value
@@ -232,24 +250,6 @@ class CustomAttributes
 						};
 					};
 					value=1;
-				};
-			};
-		};
-		class Attribute1
-		{
-			property="RespawnTemplates";
-			expression="true";
-			class Value
-			{
-				class data
-				{
-					class type
-					{
-						type[]=
-						{
-							"ARRAY"
-						};
-					};
 				};
 			};
 		};
@@ -308,7 +308,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=712;
+		items=716;
 		class Item0
 		{
 			dataType="Marker";
@@ -723,6 +723,7 @@ class Mission
 			text="@STR_MAR_Market";
 			type="c_unknown";
 			colorName="ColorGreen";
+			angle=359.224;
 			id=48;
 		};
 		class Item40
@@ -781,12 +782,12 @@ class Mission
 		class Item45
 		{
 			dataType="Marker";
-			position[]={5617.3223,2.2195263,10182.9};
+			position[]={5617,2.218667,10183};
 			name="car1";
 			text="@STR_MAR_Car_Shop";
 			type="c_car";
 			colorName="ColorWhite";
-			angle=47.424591;
+			angle=8.8375568;
 			id=55;
 		};
 		class Item46
@@ -864,7 +865,7 @@ class Mission
 			position[]={6286.4204,84.820435,10977.629};
 			name="jail_release";
 			type="Empty";
-			angle=200.32573;
+			angle=200.32571;
 			id=62;
 			atlOffset=72.912941;
 		};
@@ -904,12 +905,13 @@ class Mission
 		class Item56
 		{
 			dataType="Marker";
-			position[]={6045,53.740055,9615};
+			position[]={-1339,-63.268066,15967};
 			name="oil_field_2";
 			text="@STR_MAR_Oil_Field";
 			type="mil_triangle";
 			colorName="ColorBrown";
 			id=92;
+			atlOffset=4.3419342;
 		};
 		class Item57
 		{
@@ -979,7 +981,7 @@ class Mission
 			position[]={5608.2285,2.6600001,10998.573};
 			name="cop_car_1";
 			type="Empty";
-			angle=228.08286;
+			angle=228.08281;
 			id=99;
 		};
 		class Item64
@@ -998,7 +1000,7 @@ class Mission
 			position[]={12671.561,91.033508,7504.2671};
 			name="cop_car_3";
 			type="Empty";
-			angle=106.61728;
+			angle=106.61726;
 			id=101;
 			atlOffset=65.603554;
 		};
@@ -1120,9 +1122,8 @@ class Mission
 			text="@STR_MAR_Bruce_Outfits";
 			type="c_unknown";
 			colorName="ColorGreen";
-			angle=235.15215;
+			angle=0.51961142;
 			id=116;
-			atlOffset=0.64577579;
 		};
 		class Item78
 		{
@@ -1143,7 +1144,7 @@ class Mission
 			text="@STR_MAR_Market";
 			type="c_unknown";
 			colorName="ColorGreen";
-			angle=240.88585;
+			angle=0.71426868;
 			id=118;
 			atlOffset=0.22570848;
 		};
@@ -1177,7 +1178,7 @@ class Mission
 			text="@STR_MAR_DMV";
 			type="c_unknown";
 			colorName="ColorBlue";
-			angle=12.776;
+			angle=359.40311;
 			id=121;
 			atlOffset=3.8106352e+028;
 		};
@@ -1200,7 +1201,7 @@ class Mission
 			text="@STR_MAR_General_Store";
 			type="c_unknown";
 			colorName="ColorGreen";
-			angle=313.12415;
+			angle=0.97759116;
 			id=123;
 		};
 		class Item85
@@ -1211,7 +1212,7 @@ class Mission
 			text="@STR_MAR_DMV";
 			type="c_unknown";
 			colorName="ColorBlue";
-			angle=30.32011;
+			angle=1.1319176;
 			id=124;
 			atlOffset=64.0457;
 		};
@@ -1413,6 +1414,7 @@ class Mission
 			name="civ_gar_1";
 			text="@STR_MAR_Garage";
 			type="o_service";
+			angle=0.49618435;
 			id=144;
 		};
 		class Item104
@@ -1449,6 +1451,7 @@ class Mission
 			name="civ_gar_1_2";
 			text="@STR_MAR_Garage";
 			type="o_service";
+			angle=358.81;
 			id=148;
 		};
 		class Item108
@@ -1733,7 +1736,7 @@ class Mission
 			name="atm_marker_4";
 			type="loc_Tourism";
 			colorName="ColorGreen";
-			angle=56.263336;
+			angle=56.263325;
 			id=182;
 			atlOffset=80.822258;
 		};
@@ -1855,11 +1858,11 @@ class Mission
 		class Item145
 		{
 			dataType="Marker";
-			position[]={5812.5532,8.0247021,10388.493};
+			position[]={5804,8.0391064,10420};
 			name="atm_marker_1_1";
 			type="loc_Tourism";
 			colorName="ColorGreen";
-			angle=182.78691;
+			angle=1.7161012;
 			id=204;
 		};
 		class Item146
@@ -1898,7 +1901,7 @@ class Mission
 		class Item149
 		{
 			dataType="Marker";
-			position[]={5517.3018,4.04,12015.038};
+			position[]={5512.6401,4.2473335,12005.512};
 			name="gang_area_2";
 			text="@STR_MAR_Gang_Hideout2";
 			type="hd_warning";
@@ -2395,7 +2398,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={9972.8164,3.1175499,13456.323};
-				angles[]={0,4.6687984,0};
+				angles[]={0,4.735342,0};
 			};
 			side="Empty";
 			flags=4;
@@ -7363,7 +7366,6 @@ class Mission
 				angles[]={0,5.2770157,0};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 				skill=0.60000002;
@@ -7372,6 +7374,7 @@ class Mission
 			};
 			id=766;
 			type="Land_CashDesk_F";
+			atlOffset=0.52993774;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -13523,7 +13526,7 @@ class Mission
 			};
 			id=1196;
 			type="Land_InfoStand_V2_F";
-			atlOffset=0.21520758;
+			atlOffset=0.21524954;
 		};
 		class Item399
 		{
@@ -14051,7 +14054,7 @@ class Mission
 			name="civ_gar_3";
 			text="@STR_MAR_Garage";
 			type="o_service";
-			angle=53.793865;
+			angle=357.47742;
 			id=1321;
 			atlOffset=0.16650057;
 		};
@@ -14402,6 +14405,7 @@ class Mission
 			};
 			id=1477;
 			type="Land_CashDesk_F";
+			atlOffset=0.046600342;
 		};
 		class Item450
 		{
@@ -14430,7 +14434,6 @@ class Mission
 				angles[]={0,0.88736385,6.2826972};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 				init=" " \n "this enableSimulation false; this allowDamage false; this addAction[localize""STR_MAR_Station_Shop"",life_fnc_weaponShopMenu,""f_station_store""];this addAction[localize""STR_Shop_Station_Coffee"",life_fnc_virt_menu,""f_station_coffee""]; this addAction[""Braquer la Station Service"",life_fnc_robShops];";
@@ -14438,6 +14441,7 @@ class Mission
 			};
 			id=1482;
 			type="Land_CashDesk_F";
+			atlOffset=0.41667938;
 		};
 		class Item452
 		{
@@ -14460,251 +14464,257 @@ class Mission
 		class Item453
 		{
 			dataType="Marker";
-			position[]={5810.4458,4.4792342,10850.17};
+			position[]={5810.4458,2.5849017e+026,10850.17};
 			name="StationService_1";
-			text="Station Service 1";
+			text="Station Service 2";
 			type="loc_Fuelstation";
 			colorName="ColorGreen";
 			id=1486;
+			atlOffset=2.5849017e+026;
 		};
 		class Item454
 		{
 			dataType="Marker";
-			position[]={5622.9224,5.4367347,12521.049};
+			position[]={5622.9219,-3.339814e-026,12521.049};
 			name="StationService_2";
-			text="Station Service 2";
+			text="Station Service 3";
 			type="loc_Fuelstation";
 			colorName="ColorGreen";
 			id=1487;
+			atlOffset=-4.9390025;
 		};
 		class Item455
 		{
 			dataType="Marker";
-			position[]={6570.1201,31.11475,13090.706};
+			position[]={6570.1201,-3.3373291e-026,13090.706};
 			name="StationService_3";
-			text="Station Service 3";
+			text="Station Service 4";
 			type="loc_Fuelstation";
 			colorName="ColorGreen";
 			id=1488;
-			atlOffset=8.5723095;
+			atlOffset=-16.799999;
 		};
 		class Item456
 		{
 			dataType="Marker";
-			position[]={8945.6582,51.918392,13663.611};
+			position[]={8945.6582,2.5630017e+026,13663.611};
 			name="StationService_4";
-			text="Station Service 4";
+			text="Station Service 6";
 			type="loc_Fuelstation";
 			colorName="ColorGreen";
 			id=1489;
-			atlOffset=34.097237;
+			atlOffset=2.5630017e+026;
 		};
 		class Item457
 		{
 			dataType="Marker";
-			position[]={11622.251,139.04463,13015.793};
+			position[]={11622.251,-2.4051155e-026,13015.793};
 			name="StationService_5";
-			text="Station Service 5";
+			text="Station Service 7";
 			type="loc_Fuelstation";
 			colorName="ColorGreen";
 			id=1490;
-			atlOffset=126.07983;
+			atlOffset=-7.0500002;
 		};
 		class Item458
 		{
 			dataType="Marker";
-			position[]={14248.669,15.47949,11498.647};
+			position[]={14248.669,-3.4647893e-026,11498.647};
 			name="StationService_6";
-			text="Station Service 6";
+			text="Station Service 8";
 			type="loc_Fuelstation";
 			colorName="ColorGreen";
-			angle=1.9128245;
+			angle=1.9129997;
 			id=1491;
-			atlOffset=0.064145088;
+			atlOffset=-15.25;
 		};
 		class Item459
 		{
 			dataType="Marker";
-			position[]={14352.643,37.588291,8747.2793};
+			position[]={14352.643,-2.991453e-026,8747.2803};
 			name="StationService_7";
-			text="Station Service 7";
+			text="Station Service 9";
 			type="loc_Fuelstation";
 			colorName="ColorGreen";
 			id=1492;
-			atlOffset=21.057907;
+			atlOffset=-15.91811;
 		};
 		class Item460
 		{
 			dataType="Marker";
-			position[]={12622.176,23.900427,7604.7798};
+			position[]={12622.176,2.424719e+026,7604.7798};
 			name="StationService_8";
-			text="Station Service 8";
+			text="Station Service 10";
 			type="loc_Fuelstation";
 			colorName="ColorGreen";
-			angle=358.27554;
+			angle=358.27591;
 			id=1493;
-			atlOffset=0.62076378;
+			atlOffset=2.424719e+026;
 		};
 		class Item461
 		{
 			dataType="Marker";
-			position[]={10809.775,166.11317,6484.4536};
+			position[]={10809.775,2.424719e+026,6484.4541};
 			name="StationService_9";
-			text="Station Service 9";
+			text="Station Service 17";
 			type="loc_Fuelstation";
 			colorName="ColorGreen";
 			id=1494;
-			atlOffset=156.32527;
+			atlOffset=2.424719e+026;
 		};
 		class Item462
 		{
 			dataType="Marker";
-			position[]={7994.9287,125.73061,7416.394};
+			position[]={7994.9292,-3.3701062e-026,7416.394};
 			name="StationService_10";
-			text="Station Service 10";
+			text="Station Service 16";
 			type="loc_Fuelstation";
 			colorName="ColorGreen";
 			id=1495;
-			atlOffset=115.85477;
+			atlOffset=-3.8617918;
 		};
 		class Item463
 		{
 			dataType="Marker";
-			position[]={7381.5884,91.990875,7999.1362};
+			position[]={7381.5879,-2.8955275e-026,7999.1362};
 			name="StationService_11";
-			text="Station Service 11";
+			text="Station Service 15";
 			type="loc_Fuelstation";
 			colorName="ColorGreen";
 			id=1496;
-			atlOffset=83.270981;
+			atlOffset=-2.6957178;
 		};
 		class Item464
 		{
 			dataType="Marker";
-			position[]={5177.8931,2.6133509,8825.0957};
+			position[]={5177.8931,-3.3676213e-026,8825.0957};
 			name="StationService_12";
-			text="Station Service 12";
+			text="Station Service 14";
 			type="loc_Fuelstation";
 			colorName="ColorGreen";
 			id=1497;
+			atlOffset=-2.5181568;
 		};
 		class Item465
 		{
 			dataType="Marker";
-			position[]={5413.7798,159.52945,9929.3789};
+			position[]={5413.7798,-2.4493114e-026,9929.3789};
 			name="StationService_13";
-			text="Station Service 13";
+			text="Station Service 1";
 			type="loc_Fuelstation";
 			colorName="ColorGreen";
 			id=1498;
-			atlOffset=148.06625;
+			atlOffset=-5.5999999;
 		};
 		class Item466
 		{
 			dataType="Marker";
-			position[]={8335.583,64.89682,9695.415};
+			position[]={8335.583,2.424719e+026,9695.415};
 			name="StationService_14";
-			text="Station Service 14";
+			text="Station Service 13";
 			type="loc_Fuelstation";
 			colorName="ColorGreen";
 			id=1499;
-			atlOffset=43.370369;
+			atlOffset=2.424719e+026;
 		};
 		class Item467
 		{
 			dataType="Marker";
-			position[]={8956.6748,45.808304,10342.073};
+			position[]={8956.6748,-3.3676213e-026,10342.073};
 			name="StationService_15";
-			text="Station Service 15";
+			text="Station Service 12";
 			type="loc_Fuelstation";
 			colorName="ColorGreen";
 			id=1501;
-			atlOffset=11.236607;
+			atlOffset=-29.18;
 		};
 		class Item468
 		{
 			dataType="Marker";
-			position[]={8506.1465,621.23846,12431.863};
+			position[]={8506.1465,-2.4051155e-026,12431.863};
 			name="StationService_16";
-			text="Station Service 16";
+			text="Station Service 5";
 			type="loc_Fuelstation";
 			colorName="ColorGreen";
 			id=1502;
-			atlOffset=451.6261;
+			atlOffset=-169.10814;
 		};
 		class Item469
 		{
 			dataType="Marker";
-			position[]={11173.479,2.5190797,5151.3071};
+			position[]={11173.479,-3.3676213e-026,5151.3071};
 			name="StationService_17";
-			text="Station Service 17";
+			text="Station Service 18";
 			type="loc_Fuelstation";
 			colorName="ColorGreen";
 			id=1503;
+			atlOffset=-2.5190797;
 		};
 		class Item470
 		{
 			dataType="Marker";
-			position[]={11633.866,4.4179211,2984.2844};
+			position[]={11633.866,-3.3701062e-026,2984.2839};
 			name="StationService_18";
-			text="Station Service 18";
+			text="Station Service 19";
 			type="loc_Fuelstation";
 			colorName="ColorGreen";
 			id=1504;
+			atlOffset=-4.4179177;
 		};
 		class Item471
 		{
 			dataType="Marker";
-			position[]={11679.121,194.28967,2251.3169};
+			position[]={11679.121,-3.3676213e-026,2251.3169};
 			name="StationService_19";
-			text="Station Service 19";
+			text="Station Service 20";
 			type="loc_Fuelstation";
 			colorName="ColorGreen";
 			id=1505;
-			atlOffset=183.65778;
+			atlOffset=-4.6199999;
 		};
 		class Item472
 		{
 			dataType="Marker";
-			position[]={5384.4116,282.77167,4079.041};
+			position[]={5384.4121,-3.3676213e-026,4079.041};
 			name="StationService_20";
-			text="Station Service 20";
+			text="Station Service 22";
 			type="loc_Fuelstation";
 			colorName="ColorGreen";
 			id=1506;
-			atlOffset=279.69434;
+			atlOffset=-3.0773902;
 		};
 		class Item473
 		{
 			dataType="Marker";
-			position[]={5783.5674,5.511817,4209.4473};
+			position[]={5783.5669,-3.3701062e-026,4209.4468};
 			name="StationService_21";
 			text="Station Service 21";
 			type="loc_Fuelstation";
 			colorName="ColorGreen";
 			id=1507;
+			atlOffset=-5.23;
 		};
 		class Item474
 		{
 			dataType="Marker";
-			position[]={2457.7529,66.438141,7447.6348};
+			position[]={2457.7529,-3.3676213e-026,7447.6348};
 			name="StationService_22";
-			text="Station Service 22";
+			text="Station Service 24";
 			type="loc_Fuelstation";
 			colorName="ColorGreen";
 			id=1508;
-			atlOffset=46.493462;
+			atlOffset=-14.006027;
 		};
 		class Item475
 		{
 			dataType="Marker";
-			position[]={1889.3782,5.2343955,12134.775};
+			position[]={1889.3781,-3.3676213e-026,12134.775};
 			name="StationService_23";
-			text="Station Service 23";
+			text="Station Service 26";
 			type="loc_Fuelstation";
 			colorName="ColorGreen";
 			id=1509;
-			atlOffset=-4.7683716e-007;
+			atlOffset=-5.2343946;
 		};
 		class Item476
 		{
@@ -15538,13 +15548,13 @@ class Mission
 				angles[]={0,0.20287536,6.2826972};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 				init="this allowDamage false; this enableSimulation false; this addAction[localize""STR_MAR_Clothing_Store"",life_fnc_clothingMenu,""bruce""];";
 			};
 			id=1565;
 			type="Land_CashDesk_F";
-			atlOffset=0.64319897;
 		};
 		class Item515
 		{
@@ -15719,7 +15729,7 @@ class Mission
 			position[]={3879.28,155.492,13402.078};
 			name="reb_spawn_1";
 			type="Empty";
-			angle=229.05858;
+			angle=229.05853;
 			id=1578;
 			atlOffset=144.86591;
 		};
@@ -18499,12 +18509,13 @@ class Mission
 		class Item702
 		{
 			dataType="Marker";
-			position[]={3027.22,8.4161997,11328.788};
+			position[]={3027.22,6.6928155e+028,11328.788};
 			name="StationService_24";
-			text="Station Service 24";
+			text="Station Service 25";
 			type="loc_Fuelstation";
 			colorName="ColorGreen";
 			id=1902;
+			atlOffset=6.6928155e+028;
 		};
 		class Item703
 		{
@@ -18644,6 +18655,112 @@ class Mission
 				};
 				nAttributes=1;
 			};
+		};
+		class Item712
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10943,110.93245,9873};
+				angles[]={0,0.07271678,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				skill=0.60000002;
+				init="this enableSimulation false; this allowDamage false; this addAction[localize""STR_MAR_Station_Shop"",life_fnc_weaponShopMenu,""f_station_store""];this addAction[localize""STR_Shop_Station_Coffee"",life_fnc_virt_menu,""f_station_coffee""];";
+				name="Station_shop_25";
+			};
+			id=1933;
+			type="Land_CashDesk_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item713
+		{
+			dataType="Marker";
+			position[]={10939,2.424719e+026,9869};
+			name="StationService_25";
+			text="Station Service 11";
+			type="loc_Fuelstation";
+			colorName="ColorGreen";
+			id=1934;
+			atlOffset=2.424719e+026;
+		};
+		class Item714
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2128,12.429418,3345};
+				angles[]={0,3.1648214,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				skill=0.60000002;
+				init="this enableSimulation false; this allowDamage false; this addAction[localize""STR_MAR_Station_Shop"",life_fnc_weaponShopMenu,""f_station_store""];this addAction[localize""STR_Shop_Station_Coffee"",life_fnc_virt_menu,""f_station_coffee""];";
+				name="Station_shop_26";
+			};
+			id=1935;
+			type="Land_CashDesk_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item715
+		{
+			dataType="Marker";
+			position[]={2135,-3.3701062e-026,3348};
+			name="StationService_26";
+			text="Station Service 23";
+			type="loc_Fuelstation";
+			colorName="ColorGreen";
+			id=1936;
+			atlOffset=-11.981341;
 		};
 	};
 };
