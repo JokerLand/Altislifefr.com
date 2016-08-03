@@ -19,15 +19,18 @@
 //Ressources (John) : 
 - Meth & pleins d'autres  || EN COURS
 
-mais
-canne a sucre
-banane
-cacao
-corail
-emeraude / quartz / saphire à voir
-pierre volcanique
-souffre
-algue
+Ressource | Traitement
+mais | oui
+canne a sucre | oui
+banane | non
+cacao | non
+corail | non
+emeraude | oui
+saphire | oui
+pierre volcanique | oui 
+souffre | oui 
+algue | non
+bois | oui 
 
 //Fret (Sakzy) :
 -Rajouter panneaux pub addaction dans les 4 grande ville
