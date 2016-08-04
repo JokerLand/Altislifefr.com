@@ -95,6 +95,63 @@ class Licenses {
         illegal = false;
         side = "civ";
     };
+    
+    class souffre {
+        variable = "souffre";
+        displayName = "STR_License_Souffre";
+        price = 75000;
+        illegal = false;
+        side = "civ";
+    };
+    
+    class saphir {
+        variable = "saphir";
+        displayName = "STR_License_Saphir";
+        price = 28000;
+        illegal = false;
+        side = "civ";
+    };
+    
+    class emeraude {
+        variable = "emeraude";
+        displayName = "STR_License_Emeraude";
+        price = 28000;
+        illegal = false;
+        side = "civ";
+    };
+    
+    class pierrevolcanique {
+        variable = "pierrevolcanique";
+        displayName = "STR_License_Pierrevolcanique";
+        price = 28000;
+        illegal = true;
+        side = "civ";
+    };
+    
+    class corail {
+        variable = "corail";
+        displayName = "STR_License_Corail";
+        price = 28000;
+        illegal = false;
+        side = "civ";
+    };
+    
+    class bois {
+        variable = "bois";
+        displayName = "STR_License_Bois";
+        price = 28000;
+        illegal = false;
+        side = "civ";
+    };
+    
+    
+    class mais {
+        variable = "mais";
+        displayName = "STR_License_Mais";
+        price = 28000;
+        illegal = false;
+        side = "civ";
+    };
 
     class diamond {
         variable = "diamond";

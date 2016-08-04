@@ -41,6 +41,14 @@ class ProcessAction {
         NoLicenseCost = 1350;
     };
     
+    class algue {
+        MaterialsReq[] = {{"algueu",1}};
+        MaterialsGive[] = {{"alguep",1}};
+        Text = "STR_Process_Algue";
+        //ScrollText = "Cut Diamonds";
+        NoLicenseCost = 1350;
+    };
+    
     class emeraude {
         MaterialsReq[] = {{"emeraudeu",1}};
         MaterialsGive[] = {{"emeraudep",1}};

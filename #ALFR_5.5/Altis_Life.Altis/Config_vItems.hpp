@@ -221,7 +221,7 @@ class VirtualShops {
         side = "cop";
         license = "";
         level[] = { "", "", -1, "" };
-        items[] = { "donuts", "coffee", "telecommande", "spikeStrip", "ladder", "barrier", "barrierl", "panneau", "panneauattention", "cone", "conel", "cordon", "glissiere", "barstop", "lightd", "crowbar", "apple", "redgull", "fuelFull", "defusekit" };
+        items[] = { "donuts", "coffee", "telecommande", "crowbar", "banane", "redgull", "toolkit", "fuelFull", "defusekit" }; //  "barrier", "spikeStrip", "barrierl", "panneau", "panneauattention", "cone", "conel", "cordon", "glissiere", "barstop", "lightd",
     };
         
     class depan {

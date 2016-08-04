@@ -3,7 +3,7 @@ class CfgGather {
     class Resources {
         class cacao {
             amount = 5;
-            zones[] = { "cacao_1", "cacao_2", "cacao_3", "cacao_4" };
+            zones[] = { "cacao_1", "cacao_2", "cacao_3", "cacao_4", "cacao_5" };
             item = "";
         };
 

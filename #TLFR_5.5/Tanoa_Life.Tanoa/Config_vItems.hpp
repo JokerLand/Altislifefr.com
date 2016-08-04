@@ -37,7 +37,7 @@ class VirtualShops {
         side = "civ";
         license = "";
         level[] = { "", "", -1, "" };
-        items[] = { "waterBottle", "rabbit", "apple", "redgull", "tbacon", "pickaxe", "toolkit", "fuelFull", "peach", "storagesmall", "rabbit_raw", "hen_raw", "rooster_raw", "sheep_raw", "goat_raw" };
+        items[] = { "waterBottle", "rabbit", "cacao", "redgull", "tbacon", "pickaxe", "toolkit", "fuelFull", "banane", "storagesmall", "rabbit_raw", "hen_raw", "rooster_raw", "sheep_raw", "goat_raw" };
     };
     
     class bar {
@@ -127,14 +127,7 @@ class VirtualShops {
         level[] = { "", "", -1, "" };
         items[] = { "girolle", "truffe", "champignon_halu", "soup_girolle" };
     };
-    
-    class algue {
-        name = "STR_Shops_Algue";
-        side = "civ";
-        license = "";
-        level[] = { "", "", -1, "" };
-        items[] = { "algalithe" };
-    };
+        
 
     class fishmarket {
         name = "STR_Shops_FishMarket";
@@ -216,36 +209,21 @@ class VirtualShops {
         items[] = { "cigare" };
     };
     
-    class bananier {
-        name = "STR_Shops_Bananier";
-        side = "civ";
-        license = "";
-        level[] = { "", "", -1, "" };
-        items[] = { "banane" };
-    };
     
-    class cacaotier {
-        name = "STR_Shops_Cacaotier";
-        side = "civ";
-        license = "";
-        level[] = { "", "", -1, "" };
-        items[] = { "cacao" };
-    };
-    
-    class corailier {
-        name = "STR_Shops_Corailier";
+    class corailv {
+        name = "STR_Shops_Corailv";
         side = "civ";
         license = "";
         level[] = { "", "", -1, "" };
         items[] = { "corail" };
     };
     
-    class alguiste {
-        name = "STR_Shops_Alguiste";
+    class alguev {
+        name = "STR_Shops_Alguev";
         side = "civ";
         license = "";
         level[] = { "", "", -1, "" };
-        items[] = { "algue" };
+        items[] = { "alguep" };
     };
     
     class maisv {
@@ -1048,7 +1026,7 @@ class VirtualItems {
         displayName = "STR_Item_Banane";
         weight = 1;
         buyPrice = 110;
-        sellPrice = 55;
+        sellPrice = 70;
         illegal = false;
         edible = 25;
         icon = "icons\ico_banane.paa";
@@ -1076,9 +1054,20 @@ class VirtualItems {
         icon = "icons\ico_corail.paa";
     };
     
-    class algue {
-        variable = "algue";
-        displayName = "STR_Item_Algue";
+    class algueu {
+        variable = "algueu";
+        displayName = "STR_Item_Algueu";
+        weight = 2;
+        buyPrice = -1;
+        sellPrice = -1;
+        illegal = false;
+        edible = 10;
+        icon = "icons\ico_algue.paa";
+    };
+    
+    class alguep {
+        variable = "alguep";
+        displayName = "STR_Item_Alguep";
         weight = 2;
         buyPrice = 100;
         sellPrice = 350;
