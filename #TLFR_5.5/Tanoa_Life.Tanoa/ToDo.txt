@@ -1,4 +1,4 @@
-   | Liste des choses à faire : Avec indications de celui qui s'occupe |
+﻿   | Liste des choses à faire : Avec indications de celui qui s'occupe |
 
 
 |FAIT| véhicule aérien ,rajouter les camions |FAIT|
@@ -17,6 +17,7 @@
 |FAIT| Respawn dans l'eau(en 0.0) |FAIT|   ---------------------------------\ Résolu grâce à un spawn fixe
 |FAIT| Respawn sans la tenue et sans map (-> initciv voir) |FAIT|-----------/  comme la police (La map supprimée venait de l'erreur du spawn)
 |FAIT| Finir tout les items pour personnage masqué |FAIT|
+|FAIT| Bug dans la phrase "Vous recevrez votre prochain chèque dans any minutes" |FAIT|
 
 //Ressources (John) : 
 - Meth & pleins d'autres  || EN COURS
@@ -50,12 +51,15 @@ meth | multiprocess |FAIT| POINT MAP A FINIR DE PLACER
 -Rajouter marqueur sur la map
 
 //Autre :
--Impossible de récolter champ de cocaine
+-fix License armée de terre pour acheter le tlc gendarmerie
+-Sac police à virer et mettre un tout noire
+-ATM à réhausser dans la gendarmerie de GeorgeTown
+-Déplacer le concessionnaire de véhicule de georgetown (y'aura les entreprise dans les 2 entrepôts)
 -Wanted Stringtable a modifier car en français marche pas
 -Remettre le "montrer son insigne"
 -Debug la barrière qui s'envole
+-Régler le bug du placer item en civ quand on appuie sur C
 
-//Debug urgent :
--Bug dans la phrase "Vous recevrez votre prochain chèque dans any minutes" -> je pense savoir d'ou sa vient (Sakzy)
+
 
 
