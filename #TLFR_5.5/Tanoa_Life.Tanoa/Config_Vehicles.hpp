@@ -1382,7 +1382,7 @@ class LifeCfgVehicles {
     
     class GeK_TLC100_Police {    
         vItemSpace = 55;
-        licenses[] = { {""}, {"armee"}, {""}, {""} };
+        licenses[] = { {""}, {""}, {""}, {""} };
         price = 17500;
 		textures[] = {
 
@@ -4260,7 +4260,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
         licenses[] = { {""}, {""}, {""}, {""} };
         price = 10;
         textures[] = {
-        	{ "Armee", "armer", {
+        	{ "Armee", "armee", {
                 "alfr_Arm\data\ALFR_hunter_base_armee.jpg",
 				"alfr_Arm\data\ALFR_hunter_back_armee.jpg"
             } }
@@ -4325,7 +4325,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
 			{ "Rebel Digital", "reb", {
 	                "\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_digital_co.paa"
             } },
-            { "Armer", "armer", {
+            { "Armer", "armee", {
                 "alfr_Arm\data\ALFR_lite_armee.jpg"
             } },
 			{ "Monster", "civ", {
@@ -4387,7 +4387,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
 			{ "Rebel Digital", "reb", {
 	                "\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_digital_co.paa"
             } },
-            { "Armer", "armer", {
+            { "Armer", "armee", {
                 "alfr_Arm\data\ALFR_lite_armee.jpg"
             } },
 			{ "Monster", "civ", {
@@ -4459,7 +4459,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
                 "ALFR_TexSnd\huronunibleu2.paa",
 				"ALFR_TexSnd\huronunibleu1.paa"
             } },
-			{ "Armee", "armer", {
+			{ "Armee", "armee", {
                 "alfr_Arm\data\ALFR_huronk_front_armee.jpg",
 				"alfr_Arm\data\ALFR_huronk_back_armee.jpg"
             } },

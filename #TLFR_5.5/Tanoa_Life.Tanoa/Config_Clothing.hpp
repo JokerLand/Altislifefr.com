@@ -292,7 +292,7 @@ class Clothing {
 			{ "NONE", "Supprimer uniforme", 0, { "", "", -1 } },
 			{ "hightline_gendarmerie_gilet", "Gilet Jaune", 1500, { "", "", -1 } },
 			{ "hightline_gendarmerie_03", "Tenue Gendarme", 1500, { "", "", -1 } },
-			{ "hightline_gendarmerie_04", "Tenue Motard", 1500, { "", "", 4 } },
+			{ "hightline_gendarmerie_04", "Tenue Motard", 1500, { "life_coplevel", "SCALAR", 4 } },
             { "hightline_gendarmerie_02", "Tenue Officier de Gendarmerie", 1500, { "life_coplevel", "SCALAR", 6 } },
             { "U_B_Wetsuit", "", 1500, { "", "", -1 } },
 			{ "U_B_JaKdo_PCU_kryptek", "Tenue BAC", 1500, { "life_coplevel", "SCALAR", 5 } },
