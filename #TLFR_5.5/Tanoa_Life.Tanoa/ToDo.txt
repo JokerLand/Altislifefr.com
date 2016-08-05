@@ -59,3 +59,5 @@ meth | multiprocess |FAIT| POINT MAP A FINIR DE PLACER
 -Mettre tout les icons droit sur la mission.sqm
 -Sound harvest not found quand on récolte ?
 -A fix en 129073 placer bien l'atm et retirer les murs bétons
+
+Prenez le ALFR_force + R3FUniform + R3fRetex du FTP Serveur/@ALFR/addons/... et mettez les dans votre jeu (remplacez si vous avez déjà)
