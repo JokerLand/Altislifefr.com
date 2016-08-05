@@ -19,7 +19,7 @@ class CfgGather {
             item = "";
         };
         
-        class algue {
+        class algueu {
             amount = 6;
             zones[] = { "algue_1" };
             item = "";
