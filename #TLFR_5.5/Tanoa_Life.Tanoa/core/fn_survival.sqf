@@ -187,6 +187,10 @@ for "_i" from 0 to 1 step 0 do {
         if (backpack player == "TRYK_B_Kitbag_blk") then { _load = 78; };
         if (backpack player == "TRYK_B_Medbag") then { _load = 78; };
         if (backpack player == "ALFR_Police_Backpack") then { _load = 78; };
+        if (backpack player == "B_Bergen_hex_F") then { _load = 106; };
+        if (backpack player == "B_Bergen_mcamo_F") then { _load = 106; };
+        if (backpack player == "B_Bergen_dgtl_F") then { _load = 106; };
+        if (backpack player == "B_Bergen_tna_F") then { _load = 106; };
 		life_maxWeight = life_maxWeightT + _load;
 		waitUntil {backpack player != _bp};
 		if(backpack player == "") then
