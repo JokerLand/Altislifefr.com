@@ -1,4 +1,4 @@
-   | Liste des choses à faire : Avec indications de celui qui s'occupe |
+﻿   | Liste des choses à faire : Avec indications de celui qui s'occupe |
 
 
 |FAIT| véhicule aérien ,rajouter les camions |FAIT|
@@ -54,8 +54,8 @@ meth | multiprocess |FAIT| POINT MAP A FINIR DE PLACER
 
 //Autre :
 -fix License armée de terre pour acheter le tlc gendarmerie
--Sac police à virer et mettre un tout noire
 -Wanted Stringtable a modifier car en français marche pas
 -Remettre le "montrer son insigne"
--Debug la barrière qui s'envole
--Régler le bug du placer item en civ quand on appuie sur C
+-Mettre tout les icons droit sur la mission.sqm
+-Sound harvest not found quand on récolte ?
+-A fix en 129073 placer bien l'atm et retirer les murs bétons
