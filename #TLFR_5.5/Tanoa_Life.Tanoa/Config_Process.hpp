@@ -160,15 +160,7 @@ class ProcessAction {
         //ScrollText = "Mix Cement";
         NoLicenseCost = 500;
     };
-    
-    class algue {
-        MaterialsReq[] = {{"algueunprocessed",1}};
-        MaterialsGive[] = {{"algalithe",1}};
-        Text = "STR_Process_Algue";
-        //ScrollText = "Mix Cement";
-        NoLicenseCost = 750;
-    };
-    
+        
     class tabaccigarette {
         MaterialsReq[] = {{"tabacunprocessed",1}};
         MaterialsGive[] = {{"cigarette",1}};
