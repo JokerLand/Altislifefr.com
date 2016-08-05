@@ -182,7 +182,7 @@ class ProcessAction {
         MaterialsGive[] = {{"sugarcaneprocessed",1}};
         Text = "STR_Process_Sugarcane";
         //ScrollText = "Mix Cement";
-        NoLicenseCost = 1500;
+        NoLicenseCost = 500;
     };
     
     class joint {

@@ -5361,8 +5361,8 @@
         </Key>
         //ALFR FIN
         <Key ID="STR_Item_SugarcaneUnprocessed">
-            <Original>Canne à Sucre Brut</Original>
-            <French>Canne à Sucre Brut</French>
+            <Original>Sucre</Original>
+            <French>Sucre</French>
         </Key>
         <Key ID="STR_Item_SugarcaneProcessed">
             <Original>Canne à Sucre Traitée</Original>
@@ -6798,8 +6798,8 @@
     </Package>
     <Package name="Process_Action">
         <Key ID="STR_Process_Sugarcane">
-            <Original>Découpe de canne à sucre</Original>
-            <French>Découpe de canne à sucre</French>
+            <Original>Extraction du sucre de la canne à sucre</Original>
+            <French>Extraction du sucre de la canne à sucre</French>
         </Key>
         <Key ID="STR_Process_Oil">
             <Original>Processing Oil</Original>
@@ -8771,9 +8771,9 @@
             <Italian>Processo diamanti</Italian>
         </Key>
         <Key ID="STR_MAR_Oil_Field">
-            <Original>Oil Field</Original>
+            <Original>Plateforme Pétrolière</Original>
             <Czech>Ropné poles</Czech>
-            <French>Champs de Pétrole</French>
+            <French>Plateforme Pétrolière</French>
             <Spanish>Campo de Petróleo</Spanish>
             <German>Öl Felder</German>
             <Portuguese>Campo de Petróleo</Portuguese>
@@ -8851,8 +8851,8 @@
             <Italian>Vendita Sale</Italian>
         </Key>
         <Key ID="STR_MAR_Sugarcane_Trader">
-            <Original>Vendeur de canne à sucre</Original>
-            <French>Vendeur de canne à sucre</French>
+            <Original>Acheteur de Sucre</Original>
+            <French>Acheteur de Sucre</French>
         </Key>
         <Key ID="STR_MAR_Diamond_Trader">
             <Original>Diamond Trader</Original>

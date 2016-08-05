@@ -756,7 +756,7 @@ class VirtualItems {
         displayName = "STR_Item_SugarcaneProcessed";
         weight = 2;
         buyPrice = -1;
-        sellPrice = 120;
+        sellPrice = 2000;
         illegal = false;
         edible = -1;
         icon = "";

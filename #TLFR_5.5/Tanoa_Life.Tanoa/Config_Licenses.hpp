@@ -220,7 +220,7 @@ class Licenses {
     class sugarcane {
         variable = "sugarcane";
         displayName = "STR_License_Sugarcane";
-        price = 15000;
+        price = 6500;
         illegal = false;
         side = "civ";
     };
