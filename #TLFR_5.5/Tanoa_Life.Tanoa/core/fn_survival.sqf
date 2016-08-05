@@ -79,40 +79,16 @@ for "_i" from 0 to 1 step 0 do {
     if ((time - _foodTime) > 850) then {[] call _fnc_food; _foodTime = time;};
 
     /* Adjustment of carrying capacity based on backpack changes */
-    if (backpack player isEqualTo "") then {
-        life_maxWeight = LIFE_SETTINGS(getNumber,"total_maxWeight");
-        _bp = backpack player;
-    } else {
-        if (!(backpack player isEqualTo "") && {!(backpack player isEqualTo _bp)}) then {
-            _bp = backpack player;
-            life_maxWeight = LIFE_SETTINGS(getNumber,"total_maxWeight") + round(FETCH_CONFIG2(getNumber,"CfgVehicles",_bp,"maximumload") / 4);
-			if (backpack player == "B_Parachute") then { _load = 24; };
-			if (backpack player == "B_FieldPack_cbr") then { _load = 52; };
-			if (backpack player == "B_FieldPack_khk") then { _load = 52; };
-			if (backpack player == "B_FieldPack_blk") then { _load = 52; };
-			if (backpack player == "B_FieldPack_oucamo") then { _load = 52; };
-			if (backpack player == "TRYK_B_FieldPack_Wood") then { _load = 52; };
-			if (backpack player == "ALFR_Civ_Bags_backpack_DC") then { _load = 78; };
-			if (backpack player == "ALFR_Civ_Bags_backpack_terminator") then { _load = 78; };
-			if (backpack player == "ALFR_Civ_Bags_backpack_monster") then { _load = 78; };
-			if (backpack player == "ALFR_Civ_Bags_backpack_superman") then { _load = 78; };
-			if (backpack player == "ALFR_Civ_Bags_Nitrado") then { _load = 78; };
-			if (backpack player == "B_Carryall_oli") then { _load = 78; };
-			if (backpack player == "B_Carryall_cbr") then { _load = 78; };
-			if (backpack player == "B_Carryall_khk") then { _load = 78; };
-			if (backpack player == "TRYK_B_Carryall_blk") then { _load = 78; };
-			if (backpack player == "B_Carryall_ocamo") then { _load = 78; };
-			if (backpack player == "B_Carryall_mcamo") then { _load = 78; };
-			if (backpack player == "TRYK_B_Carryall_JSDF") then { _load = 78; };
-			if (backpack player == "TRYK_B_Carryall_wood") then { _load = 78; };
-			if (backpack player == "ALFR_Police_Bags") then { _load = 78; };
-			if (backpack player == "TRYK_B_Kitbag_blk") then { _load = 78; };
-			if (backpack player == "TRYK_B_Medbag") then { _load = 78; };
-			if (backpack player == "ALFR_Police_Backpack") then { _load = 78; };
-			life_maxWeight = _load;			
-        };
-    };
-
+	if(EQUAL(backpack player,"")) then {
+		life_maxWeight = LIFE_SETTINGS(getNumber,"total_maxWeight");
+		_bp = backpack player;
+	} else {
+		if(!(EQUAL(backpack player,"")) && {!(EQUAL(backpack player,_bp))}) then {
+			_bp = backpack player;
+			life_maxWeight = LIFE_SETTINGS(getNumber,"total_maxWeight") + round(FETCH_CONFIG2(getNumber,CONFIG_VEHICLES,_bp,"maximumload") / 4);
+		};
+	};
+    
     /* Check if the player's state changed? */
     if (vehicle player != _lastState || {!alive player}) then {
         [] call life_fnc_updateViewDistance;
@@ -176,5 +152,46 @@ for "_i" from 0 to 1 step 0 do {
 		"radialBlur" ppEffectEnable false;
 		life_drink = 0;
 		
+	};
+};
+
+[] spawn
+{
+	private["_bp","_load","_cfg"];
+	while{true} do
+	{
+		waitUntil {backpack player != ""};
+		_bp = backpack player;
+		_cfg = getNumber(configFile >> "CfgVehicles" >> (backpack player) >> "maximumload");
+		_load = round(_cfg / 8);
+        if (backpack player == "B_Parachute") then { _load = 24; };
+        if (backpack player == "B_FieldPack_cbr") then { _load = 52; };
+        if (backpack player == "B_FieldPack_khk") then { _load = 52; };
+        if (backpack player == "B_FieldPack_blk") then { _load = 52; };
+        if (backpack player == "B_FieldPack_oucamo") then { _load = 52; };
+        if (backpack player == "TRYK_B_FieldPack_Wood") then { _load = 52; };
+        if (backpack player == "ALFR_Civ_Bags_backpack_DC") then { _load = 78; };
+        if (backpack player == "ALFR_Civ_Bags_backpack_terminator") then { _load = 78; };
+        if (backpack player == "ALFR_Civ_Bags_backpack_monster") then { _load = 78; };
+        if (backpack player == "ALFR_Civ_Bags_backpack_superman") then { _load = 78; };
+        if (backpack player == "ALFR_Civ_Bags_Nitrado") then { _load = 78; };
+        if (backpack player == "B_Carryall_oli") then { _load = 78; };
+        if (backpack player == "B_Carryall_cbr") then { _load = 78; };
+        if (backpack player == "B_Carryall_khk") then { _load = 78; };
+        if (backpack player == "TRYK_B_Carryall_blk") then { _load = 78; };
+        if (backpack player == "B_Carryall_ocamo") then { _load = 78; };
+        if (backpack player == "B_Carryall_mcamo") then { _load = 78; };
+        if (backpack player == "TRYK_B_Carryall_JSDF") then { _load = 78; };
+        if (backpack player == "TRYK_B_Carryall_wood") then { _load = 78; };
+        if (backpack player == "ALFR_Police_Bags") then { _load = 78; };
+        if (backpack player == "TRYK_B_Kitbag_blk") then { _load = 78; };
+        if (backpack player == "TRYK_B_Medbag") then { _load = 78; };
+        if (backpack player == "ALFR_Police_Backpack") then { _load = 78; };
+		life_maxWeight = life_maxWeightT + _load;
+		waitUntil {backpack player != _bp};
+		if(backpack player == "") then
+		{
+			life_maxWeight = life_maxWeightT;
+		};
 	};
 };
