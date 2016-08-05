@@ -30,3 +30,5 @@ waitUntil{isNull (findDisplay 38500)}; //Wait for the spawn selection to be done
 
 //Bar de statut en bas a droite
 [] execVM "statusBar.sqf";
+//Objets Placeables
+[] call life_fnc_placeablesInitMEDIC;

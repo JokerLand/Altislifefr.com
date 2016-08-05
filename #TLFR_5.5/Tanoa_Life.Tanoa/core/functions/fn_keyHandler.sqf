@@ -488,16 +488,16 @@ switch (_code) do {
             };
         };
     };
-    case 46	: {
-            _currentPos = getPosATL life_barrier_activeObj;
-            detach life_barrier_activeObj;
-            life_barrier_activeObj setPos[(getPos life_barrier_activeObj select 0), (getPos life_barrier_activeObj select 1), 0];
-            life_barrier_activeObj enableSimulationGlobal true;
-            life_bar_placey pushBack life_barrier_activeObj;
-            life_barrier_active = false;
-            life_barrier_activeObj = ObjNull;
-            hint "Vous avez placé l'objet !";
-   	};
+    
+    if (life_barrier_active) then {
+		switch (_code) do {
+			//space key
+			case 57: {
+				[] spawn life_fnc_placeablesPlaceComplete;
+			};
+		};
+		true;
+	};
 };
 
 _handled;

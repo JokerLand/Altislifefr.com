@@ -202,6 +202,16 @@ class Life_Client_Core {
 	    class placeableCancel {};
 	    class placeablesPlaceComplete {};
     };
+    
+    class CopPlaceablesMEDIC {
+	    file = "core\medical\MedicPlaceables";
+	    class placeablesInitMEDIC {};
+	    class placeablesMenuMEDIC {};
+	    class placeablesRemoveAllMEDIC {};
+	    class placeablePlaceMEDIC {};
+	    class placeableCancelMEDIC {};
+	    class placeablesPlaceCompleteMEDIC {};
+    };
 
     class Functions    {
         file = "core\functions";
