@@ -137,18 +137,21 @@ class CarShops {
         side = "civ";
         vehicles[] = {
             { "C_Heli_Light_01_civil_F", { "", "", -1 } },
-			{ "GNT_C185", { "", "", -1 } },
 			{ "O_Heli_Light_02_unarmed_F", { "", "", -1 } },
 			{ "I_Heli_Transport_02_F", { "", "", -1 } },
-			{ "B_Heli_Transport_03_unarmed_F", { "", "", -1 } }
+			{ "B_Heli_Transport_03_unarmed_F", { "", "", -1 } },
+            { "C_Plane_Civil_01_F", { "", "", -1 } },
+            { "C_Plane_Civil_01_racing_F", { "", "", -1 } }
         };
     };
 
      class civ_ship { //OK
         side = "civ";
         vehicles[] = {
+            { "C_Scooter_Transport_01_F", { "", "", -1 } },
             { "C_Rubberboat", { "", "", -1 } },
-            { "C_Boat_Civil_01_F", { "", "", -1 } }
+            { "C_Boat_Civil_01_F", { "", "", -1 } },
+            { "C_Boat_Transport_02_F", { "", "", -1 } }
         };
     };
 
@@ -300,8 +303,6 @@ class CarShops {
 			{ "C_Van_01_fuel_F", { "", "", -1 } },
 			{ "sab_BI_An2", { "", "", -1 } }, 
 			{ "Sab_sea_An2", { "", "", -1 } }, 
-			{ "GNT_C185F", { "", "", -1 } },
-			{ "GNT_C185", { "", "", -1 } },
 			{ "IVORY_T6A_1", { "", "", -1 } }, 
 			{ "GR_Bell412_2", { "", "", -1 } },
 			{ "GR_UH1H_3", { "", "", -1 } },
@@ -356,11 +357,43 @@ class LifeCfgVehicles {
         price = -1;
         textures[] = {};  
     };
-	
-    class GNT_C185 {
-        vItemSpace = 5;
+    
+    class C_Plane_Civil_01_F {
+        vItemSpace = 100;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
-        price = 500000;
+        price = 100000;
+        textures[] = {
+            { "Tribal", "civ", {
+                "\A3\Air_F_Exp\Plane_Civil_01\Data\btt_ext_01_Tribal_co.paa",
+				"\A3\Air_F_Exp\Plane_Civil_01\Data\btt_ext_02_Tribal_co.paa",
+				"\A3\Air_F_Exp\Plane_Civil_01\Data\btt_int_01_co.paa",
+				"\A3\Air_F_Exp\Plane_Civil_01\Data\btt_int_02_co.paa"
+            } },
+            { "Ligne Rouge", "civ", {
+                "\A3\Air_F_Exp\Plane_Civil_01\Data\btt_ext_01_RedLine_co.paa",
+				"\A3\Air_F_Exp\Plane_Civil_01\Data\btt_ext_02_RedLine_co.paa",
+				"\A3\Air_F_Exp\Plane_Civil_01\Data\btt_int_01_co.paa",
+				"\A3\Air_F_Exp\Plane_Civil_01\Data\btt_int_02_co.paa"
+            } },
+			{ "Course", "civ", {
+                "\A3\Air_F_Exp\Plane_Civil_01\Data\btt_ext_01_Racer_co.paa",
+				"\A3\Air_F_Exp\Plane_Civil_01\Data\btt_ext_02_Racer_co.paa",
+				"\A3\Air_F_Exp\Plane_Civil_01\Data\btt_int_01_tan_co.paa",
+				"\A3\Air_F_Exp\Plane_Civil_01\Data\btt_int_02_tan_co.paa"
+            } },
+			{ "Vague Bleu", "civ", {
+                "\A3\Air_F_Exp\Plane_Civil_01\Data\btt_ext_01_Wave_co.paa",
+				"\A3\Air_F_Exp\Plane_Civil_01\Data\btt_ext_02_Wave_co.paa",
+				"\A3\Air_F_Exp\Plane_Civil_01\Data\btt_int_01_tan_co.paa",
+				"\A3\Air_F_Exp\Plane_Civil_01\Data\btt_int_02_tan_co.paa"
+            } }
+        };
+    };
+    
+    class C_Plane_Civil_01_racing_F {
+        vItemSpace = 100;
+        licenses[] = { {"pilot"}, {""}, {""}, {""} };
+        price = 100000;
         textures[] = {};
     };
     
@@ -382,14 +415,6 @@ class LifeCfgVehicles {
         vItemSpace = 5;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
         price = 160000;
-        textures[] = {};
-    };
-    
-    
-    class GNT_C185F {
-        vItemSpace = 5;
-        licenses[] = { {"pilot"}, {""}, {""}, {""} };
-        price = 189000;
         textures[] = {};
     };
     
@@ -3350,8 +3375,44 @@ class LifeCfgVehicles {
     class C_Rubberboat {
         vItemSpace = 45;
         licenses[] = { {"boat"}, {""}, {""}, {""} };
-        price = 15000;
+        price = 10000;
         textures[] = { };
+    };
+    
+    class C_Scooter_Transport_01_F {
+        vItemSpace = 20;
+        licenses[] = { {"boat"}, {""}, {""}, {""} };
+        price = 15000;
+        textures[] = {
+            { "Noir", "civ", {
+                "\A3\Boat_F_Exp\Scooter_Transport_01\Data\Scooter_Transport_01_Black_CO.paa","civ","\A3\Boat_F_Exp\Scooter_Transport_01\Data\Scooter_Transport_01_VP_Black_CO.paa"
+            } },
+            { "Bleu", "civ", {
+                "\A3\Boat_F_Exp\Scooter_Transport_01\Data\Scooter_Transport_01_Blue_CO.paa","civ","\A3\Boat_F_Exp\Scooter_Transport_01\Data\Scooter_Transport_01_VP_Blue_CO.paa"
+            } },
+			{ "Gris", "civ", {
+                "\A3\Boat_F_Exp\Scooter_Transport_01\Data\Scooter_Transport_01_Grey_CO.paa","civ","\A3\Boat_F_Exp\Scooter_Transport_01\Data\Scooter_Transport_01_VP_Grey_CO.paa"
+            } },
+			{ "Vert", "civ", {
+                "\A3\Boat_F_Exp\Scooter_Transport_01\Data\Scooter_Transport_01_Lime_CO.paa","civ","\A3\Boat_F_Exp\Scooter_Transport_01\Data\Scooter_Transport_01_VP_Lime_CO.paa"
+            } },
+			{ "Rouge", "civ", {
+                "\A3\Boat_F_Exp\Scooter_Transport_01\Data\Scooter_Transport_01_Red_CO.paa","civ","\A3\Boat_F_Exp\Scooter_Transport_01\Data\Scooter_Transport_01_VP_CO.paa"
+            } },
+			{ "Blanc", "civ", {
+                "\A3\Boat_F_Exp\Scooter_Transport_01\Data\Scooter_Transport_01_CO.paa","civ","\A3\Boat_F_Exp\Scooter_Transport_01\Data\Scooter_Transport_01_VP_CO.paa"
+            } },
+			{ "Jaune", "civ", {
+                "\A3\Boat_F_Exp\Scooter_Transport_01\Data\Scooter_Transport_01_Yellow_CO.paa","civ","\A3\Boat_F_Exp\Scooter_Transport_01\Data\Scooter_Transport_01_VP_Yellow_CO.paa"
+            } }
+		};
+    };
+    
+    class C_Boat_Transport_02_F {
+        vItemSpace = 200;
+        licenses[] = { {"boat"}, {""}, {""}, {""} };
+        price = 50000;
+        textures[] = {};
     };
 
     class B_Heli_Transport_01_F {
