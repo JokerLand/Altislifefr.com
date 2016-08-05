@@ -8441,14 +8441,14 @@
             <Italian>Processo del sale</Italian>
         </Key>
         <Key ID="STR_MAR_Altis_Corrections">
-            <Original>Altis Corrections</Original>
-            <Czech>Altis Opravy</Czech>
-            <French>Pénitencier d'Altis</French>
-            <Spanish>Prisión de Altis</Spanish>
-            <German>Altis Bundesgefängnis</German>
-            <Portuguese>Prisão de Altis</Portuguese>
-            <Polish>Więzienie Altis</Polish>
-            <Italian>Penitenziario di Altis</Italian>
+            <Original>Tanoa Corrections</Original>
+            <Czech>Tanoa Opravy</Czech>
+            <French>Pénitencier de Tanoa</French>
+            <Spanish>Prisión de Tanoa</Spanish>
+            <German>Tanoa Bundesgefängnis</German>
+            <Portuguese>Prisão de Tanoa</Portuguese>
+            <Polish>Więzienie Tanoa</Polish>
+            <Italian>Penitenziario di Tanoa</Italian>
         </Key>
         <Key ID="STR_MAR_Police_HQ">
             <Original>Police HQ</Original>
