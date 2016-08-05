@@ -113,20 +113,20 @@ class CarShops {
     class civ_truck { //OK
         side = "civ";
         vehicles[] = {
-            { "GeK_Renault_Trafic", { "", "", -1 } },
             { "C_Van_01_transport_F", { "", "", -1 } },
+            { "GeK_Renault_Trafic", { "", "", -1 } },
             { "cl3_transit_black", { "", "", -1 } },
-            { "cg_rv_camper", { "", "", -1 } },
-			{ "CL3_bus_cl_black", { "", "", -1 } },
-            { "shounka_a3_spr_civ", { "", "", -1 } },
             { "C_Van_01_box_F", { "", "", -1 } },
-			{ "I_Truck_02_transport_F", { "", "", -1 } },
-			{ "I_Truck_02_covered_F", { "", "", -1 } },
+            { "I_Truck_02_transport_F", { "", "", -1 } },
+            { "I_Truck_02_covered_F", { "", "", -1 } },
+            { "CL3_bus_cl_black", { "", "", -1 } },
+            { "cg_rv_camper", { "", "", -1 } },
+            { "shounka_a3_spr_civ", { "", "", -1 } },
             { "B_Truck_01_transport_F", { "", "", -1 } },
 			{ "Jonzie_Tanker_Truck", { "", "", -1 } },
 			{ "B_Truck_01_box_F", { "", "", -1 } },
+            { "ALFR_GeK_Scania_420", { "", "", -1 } },
 			{ "Jonzie_Box_Truck", { "", "", -1 } },
-			{ "ALFR_GeK_Scania_420", { "", "", -1 } },
 			{ "GeK_Renault_Magnum", { "", "", -1 } },
 			{ "ALFR_GeK_Volvo_FH16_2012", { "", "", -1 } },
             { "GeK_Iveco_Stralis", { "", "", -1 } }
@@ -363,13 +363,25 @@ class LifeCfgVehicles {
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
         price = 100000;
         textures[] = {
-			{ "Bleu/Jaune", "civ", {
+            { "Tribal", "civ", {
+                "\A3\Air_F_Exp\Plane_Civil_01\Data\btt_ext_01_Tribal_co.paa",
+				"\A3\Air_F_Exp\Plane_Civil_01\Data\btt_ext_02_Tribal_co.paa",
+				"\A3\Air_F_Exp\Plane_Civil_01\Data\btt_int_01_co.paa",
+				"\A3\Air_F_Exp\Plane_Civil_01\Data\btt_int_02_co.paa"
+            } },
+            { "Ligne Rouge", "civ", {
+                "\A3\Air_F_Exp\Plane_Civil_01\Data\btt_ext_01_RedLine_co.paa",
+				"\A3\Air_F_Exp\Plane_Civil_01\Data\btt_ext_02_RedLine_co.paa",
+				"\A3\Air_F_Exp\Plane_Civil_01\Data\btt_int_01_co.paa",
+				"\A3\Air_F_Exp\Plane_Civil_01\Data\btt_int_02_co.paa"
+            } },
+			{ "Course", "civ", {
                 "\A3\Air_F_Exp\Plane_Civil_01\Data\btt_ext_01_Racer_co.paa",
 				"\A3\Air_F_Exp\Plane_Civil_01\Data\btt_ext_02_Racer_co.paa",
 				"\A3\Air_F_Exp\Plane_Civil_01\Data\btt_int_01_tan_co.paa",
 				"\A3\Air_F_Exp\Plane_Civil_01\Data\btt_int_02_tan_co.paa"
             } },
-			{ "Blanc/Bleu", "civ", {
+			{ "Vague Bleu", "civ", {
                 "\A3\Air_F_Exp\Plane_Civil_01\Data\btt_ext_01_Wave_co.paa",
 				"\A3\Air_F_Exp\Plane_Civil_01\Data\btt_ext_02_Wave_co.paa",
 				"\A3\Air_F_Exp\Plane_Civil_01\Data\btt_int_01_tan_co.paa",
@@ -382,20 +394,7 @@ class LifeCfgVehicles {
         vItemSpace = 100;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
         price = 100000;
-        textures[] = {
-            { "Vert/Blanc/Noir", "civ", {
-                "\A3\Air_F_Exp\Plane_Civil_01\Data\btt_ext_01_Tribal_co.paa",
-				"\A3\Air_F_Exp\Plane_Civil_01\Data\btt_ext_02_Tribal_co.paa",
-				"\A3\Air_F_Exp\Plane_Civil_01\Data\btt_int_01_co.paa",
-				"\A3\Air_F_Exp\Plane_Civil_01\Data\btt_int_02_co.paa"
-            } },
-            { "Rouge/Blanc/Noir", "civ", {
-                "\A3\Air_F_Exp\Plane_Civil_01\Data\btt_ext_01_RedLine_co.paa",
-				"\A3\Air_F_Exp\Plane_Civil_01\Data\btt_ext_02_RedLine_co.paa",
-				"\A3\Air_F_Exp\Plane_Civil_01\Data\btt_int_01_co.paa",
-				"\A3\Air_F_Exp\Plane_Civil_01\Data\btt_int_02_co.paa"
-            } }
-        };
+        textures[] = {};
     };
     
     class IVORY_T6A_1 {
@@ -3739,6 +3738,50 @@ class LifeCfgVehicles {
 		vItemSpace = 580;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
 		price = 515000;
+        textures[] = {
+			{ "Noir", "civ", {
+                "#(ai,64,64,1)Fresnel(0.3,3)"
+            } },
+			{ "Gris sombre", "civ", {
+                "#(argb,8,8,3)color(0.1,0.1,0.1,0.7)"
+            } },
+			{ "Gris", "civ", {
+                "#(argb,8,8,3)color(0.5,0.5,0.5,0.1)"
+            } },
+			{ "Gris clair", "civ", {
+                "#(argb,8,8,3)color(0.3,0.3,0.3,0.8)"
+            } },
+			{ "Blanc", "civ", {
+                "#(argb,8,8,3)color(1,1,1,1)"
+            } },
+			{ "Sable", "civ", {
+                "#(argb,8,8,3)color(1.5,1.6,0.9,0.2)"
+            } },
+			{ "Bordeau", "civ", {
+                "#(argb,8,8,3)color(1,0,0,0.1)"
+            } },
+			{ "Bleu", "civ", {
+                "#(argb,8,8,3)color(0.01,0.6,1,0.1)"
+            } },
+			{ "Bleu Nuit", "civ", {
+                "#(argb,8,8,3)color(0,0,0.5,0.1)"
+            } },
+			{ "Mauve Nuit", "civ", {
+                "#(argb,8,8,3)color(0.6,0,1,0.01)"
+            } },
+			{ "Vert", "civ", {
+                "#(argb,8,8,3)color(0.5,1,0.5,0.05)"
+            } },
+			{ "Rouge", "civ", {
+                "#(argb,8,8,3)color(1,0,0,1)"
+            } },
+			{ "Jaune", "civ", {
+                "#(argb,8,8,3)color(0.6,0.3,0.01,1)"
+            } },
+			{ "Orange", "civ", {
+                "#(argb,8,8,3)color(1,0.3,0.01,0.6)"
+            } }
+		};
 	};
     
     class  ALFR_GeK_Scania_420 {
@@ -3954,6 +3997,50 @@ class LifeCfgVehicles {
 		vItemSpace = 450;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
 		price = 225000;
+        textures[] = {
+			{ "Noir", "civ", {
+                "#(ai,64,64,1)Fresnel(0.3,3)"
+            } },
+			{ "Gris sombre", "civ", {
+                "#(argb,8,8,3)color(0.1,0.1,0.1,0.7)"
+            } },
+			{ "Gris", "civ", {
+                "#(argb,8,8,3)color(0.5,0.5,0.5,0.1)"
+            } },
+			{ "Gris clair", "civ", {
+                "#(argb,8,8,3)color(0.3,0.3,0.3,0.8)"
+            } },
+			{ "Blanc", "civ", {
+                "#(argb,8,8,3)color(1,1,1,1)"
+            } },
+			{ "Sable", "civ", {
+                "#(argb,8,8,3)color(1.5,1.6,0.9,0.2)"
+            } },
+			{ "Bordeau", "civ", {
+                "#(argb,8,8,3)color(1,0,0,0.1)"
+            } },
+			{ "Bleu", "civ", {
+                "#(argb,8,8,3)color(0.01,0.6,1,0.1)"
+            } },
+			{ "Bleu Nuit", "civ", {
+                "#(argb,8,8,3)color(0,0,0.5,0.1)"
+            } },
+			{ "Mauve Nuit", "civ", {
+                "#(argb,8,8,3)color(0.6,0,1,0.01)"
+            } },
+			{ "Vert", "civ", {
+                "#(argb,8,8,3)color(0.5,1,0.5,0.05)"
+            } },
+			{ "Rouge", "civ", {
+                "#(argb,8,8,3)color(1,0,0,1)"
+            } },
+			{ "Jaune", "civ", {
+                "#(argb,8,8,3)color(0.6,0.3,0.01,1)"
+            } },
+			{ "Orange", "civ", {
+                "#(argb,8,8,3)color(1,0.3,0.01,0.6)"
+            } }
+		};
 	};
 
     class O_MRAP_02_F {
@@ -4542,6 +4629,9 @@ will modify the virtual space and the price of the vehicle, but other informatio
             } },
             { "White / Blue", "civ", {
                 "\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_civilian_co.paa"
+            } },
+            { "Digi Green", "civ", {
+                "\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_indp_co.paa"
             } },
             { "Desert Digi", "reb", {
                 "\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_opfor_co.paa"
