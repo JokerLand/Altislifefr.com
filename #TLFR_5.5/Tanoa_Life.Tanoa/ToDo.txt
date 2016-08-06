@@ -64,5 +64,6 @@ meth | multiprocess |FAIT| POINT MAP A FINIR DE PLACER
 //Urgent : (Sakzy)
 -Fix glitch atm gang retirer
 -Fix revente de maison cause de dupli
+-Bug clés de maison ?
 
 Prenez le ALFR_force + R3FUniform + R3fRetex du FTP Serveur/@ALFR/addons/... et mettez les dans votre jeu (remplacez si vous avez déjà)
