@@ -159,17 +159,18 @@ class CarShops {
         side = "civ";
         vehicles[] = {
 			{ "UAZ_Unarmed", { "", "", -1 } },
-			{ "B_G_Offroad_01_F", { "", "", -1 } },
 			{ "GeK_Avalanche", { "", "", -1 } },
 			{ "GeK_G65", { "", "", -1 } },
 			{ "GeK_Mercedes_ML63_Rebelle", { "", "", -1 } },
-			{ "O_MRAP_02_F", { "", "", -1 } },
-			{ "B_Heli_Light_01_F", { "", "", -1 } },
+            { "O_T_LSV_02_unarmed_F", { "", "", -1 } },
+            { "B_G_Offroad_01_F", { "", "", -1 } },
 			{ "B_G_Offroad_01_armed_F", { "", "", -1 } },
+            { "O_MRAP_02_F", { "", "", -1 } },
 			{ "O_Truck_03_transport_F", { "", "", -1 } },
 			{ "O_Truck_03_device_F", { "", "", -1 } },
 			{ "O_Truck_03_covered_F", { "", "", -1 } },
 			{ "O_Truck_03_ammo_F", { "", "", -1 } },
+            { "B_Heli_Light_01_F", { "", "", -1 } },
 			{ "O_Heli_Transport_04_ammo_F", { "", "", -1 } },
 			{ "O_Heli_Transport_04_bench_F", { "", "", -1 } },
 			{ "O_Heli_Transport_04_covered_F", { "", "", -1 } }
@@ -3712,6 +3713,13 @@ class LifeCfgVehicles {
                 "\a3\soft_f_bootcamp\Offroad_01\Data\offroad_01_ext_ig_12_co.paa"
             } }
         };	
+    };
+    
+    class O_T_LSV_02_unarmed_F {
+        vItemSpace = 40;
+        licenses[] = { {"rebel"}, {""}, {""}, {""} };
+        price = 750000;
+        textures[] = {};	
     };
 
     class C_Boat_Civil_01_F {
