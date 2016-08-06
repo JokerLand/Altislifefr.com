@@ -140,7 +140,8 @@ class CarShops {
 			{ "I_Heli_Transport_02_F", { "", "", -1 } },
 			{ "B_Heli_Transport_03_unarmed_F", { "", "", -1 } },
             { "C_Plane_Civil_01_F", { "", "", -1 } },
-            { "C_Plane_Civil_01_racing_F", { "", "", -1 } }
+            { "C_Plane_Civil_01_racing_F", { "", "", -1 } },
+            { "B_T_VTOL_01_infantry_F", { "", "", -1 } }
         };
     };
 
@@ -395,6 +396,13 @@ class LifeCfgVehicles {
 				"\A3\Air_F_Exp\Plane_Civil_01\Data\btt_int_02_co.paa"
             } }
         };
+    };
+    
+    class B_T_VTOL_01_infantry_F {
+        vItemSpace = 180;
+        licenses[] = { {"pilot"}, {""}, {""}, {""} };
+        price = 6000000;
+        textures[] = {};
     };
     
     class IVORY_T6A_1 {
