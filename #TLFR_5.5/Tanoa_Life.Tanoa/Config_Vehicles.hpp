@@ -17,27 +17,27 @@ class CarShops {
         vehicles[] = {
             { "B_Quadbike_01_F", { "", "", -1 } },
 			{ "GeK_107", { "", "", -1 } },
-			{ "Jonzie_Mini_Cooper", { "", "", -1 } }, //144km
+			//{ "Jonzie_Mini_Cooper", { "", "", -1 } }, //144km
 			//{ "cl3_polo_gti_black", { "", "", -1 } },
 			//{ "cl3_civic_vti_black", { "", "", -1 } },
 			{ "GeK_Clio", { "", "", -1 } },
-			{ "Jonzie_Ceed", { "", "", -1 } }, //170km - Style Clio
+			//{ "Jonzie_Ceed", { "", "", -1 } }, //170km - Style Clio
             { "GeK_DS3", { "", "", -1 } },
             { "C_SUV_01_F", { "", "", -1 } },
 			{ "C_Offroad_01_F", { "", "", -1 } },
 			{ "I_G_Offroad_01_F", { "", "", -1 } },
             { "GeK_C30", { "", "", -1 } },
-			{ "Jonzie_Datsun_510", { "", "", -1 } }, //130km
-			{ "Jonzie_30CSL", { "", "", -1 } }, // 207km
-			{ "Jonzie_Datsun_Z432", { "", "", -1 } }, //210km
+			//{ "Jonzie_Datsun_510", { "", "", -1 } }, //130km
+			//{ "Jonzie_30CSL", { "", "", -1 } }, // 207km
+			//{ "Jonzie_Datsun_Z432", { "", "", -1 } }, //210km
 			{ "zorak_bmw_120i", { "", "", -1 } },
-			{ "Jonzie_Corolla", { "", "", -1 } }, //180km
+			//{ "Jonzie_Corolla", { "", "", -1 } }, //180km
 			//{ "Sn0cky_DS4_noir", { "", "", -1 } },
 			//{ "cl3_taurus_black", { "", "", -1 } },
-			{ "Jonzie_Escalade", { "", "", -1 } }, //231km
-			{ "Jonzie_XB", { "", "", -1 } }, //194km - Style FordMustang
-			{ "Jonzie_Galant", { "", "", -1 } }, //222km
-			{ "Jonzie_Mini_Cooper_R_spec", { "", "", -1 } }, //225km
+			//{ "Jonzie_Escalade", { "", "", -1 } }, //231km
+			//{ "Jonzie_XB", { "", "", -1 } }, //194km - Style FordMustang
+			//{ "Jonzie_Galant", { "", "", -1 } }, //222km
+			//{ "Jonzie_Mini_Cooper_R_spec", { "", "", -1 } }, //225km
 			//{ "cl3_e60_m5_black", { "", "", -1 } },
 			{ "GeK_Supra", { "", "", -1 } },
 			//{ "cl3_e63_amg_black", { "", "", -1 } },
@@ -48,12 +48,12 @@ class CarShops {
 			//{ "cl3_q7_black", { "", "", -1 } },
 			{ "GeK_A45", { "", "", -1 } },
 			{ "wirk_cayenne", { "", "", -1 } },
-			{ "Jonzie_Quattroporte", { "", "", -1 } }, // 286km
+			//{ "Jonzie_Quattroporte", { "", "", -1 } }, // 286km
 			{ "zorak_mazda_rx8", { "", "", -1 } },
 			{ "GeK_S60", { "", "", -1 } },
 			{ "GeK_CTSV", { "", "", -1 } },
 			{ "Gek_audi_a4_avant", { "", "", -1 } },
-			{ "Jonzie_STI", { "", "", -1 } }, //260km
+			//{ "Jonzie_STI", { "", "", -1 } }, //260km
 			{ "zorak_audi_a6", { "", "", -1 } },
 			{ "zorak_jeep_cherokee", { "", "", -1 } },
 			{ "GeK_Yukon", { "", "", -1 } },
@@ -65,7 +65,7 @@ class CarShops {
 	class luxe_car { //A FAIRE PLUS TARD
         side = "civ";
         vehicles[] = {
-			{ "cl3_xr_1000_black", { "", "", -1 } },
+			//{ "cl3_xr_1000_black", { "", "", -1 } },
             { "Mrshounka_ducati_p", { "", "", -1 } },
 			{ "GeK_Cadillac_Fleetwood_Brougham_85", { "", "", -1 } },  
 			{ "SAL_IROCCiv", { "", "", -1 } },
@@ -73,28 +73,28 @@ class CarShops {
 			// { "Sn0cky_RS3", { "", "", -1 } },
 			{ "AudiA8_Limo", { "", "", -1 } },
 			{ "GeK_IS", { "", "", -1 } },
-			{ "cl3_z4_2008_black", { "", "", -1 } },
+			//{ "cl3_z4_2008_black", { "", "", -1 } },
 			// { "Sn0cky_Crossfire_noir", { "", "", -1 } },
 			// { "Sn0cky_CL65_noir", { "", "", -1 } },
 			{ "GeK_C63_AMG", { "", "", -1 } },
 			{ "zorak_audi_rs6", { "", "", -1 } },
 			// { "Sn0cky_S65_noir", { "", "", -1 } },
-          	{ "cl3_arielatom_black", { "", "", -1 } },
+          	//{ "cl3_arielatom_black", { "", "", -1 } },
 			{ "wirk_ktm", { "", "", -1 } },
 			{ "GeK_Camaro", { "", "", -1 } },
-			{ "cl3_arielatom_race_black", { "", "", -1 } },
-			{ "cl3_dbs_volante_black", { "", "", -1 } }, 
-			{ "cl3_carrera_gt_black", { "", "", -1 } },
+			//{ "cl3_arielatom_race_black", { "", "", -1 } },
+			//{ "cl3_dbs_volante_black", { "", "", -1 } }, 
+			//{ "cl3_carrera_gt_black", { "", "", -1 } },
 			{ "GeK_GTR", { "", "", -1 } }, 
-            { "cl3_r8_spyder_black", { "", "", -1 } },
-            { "cl3_458_black", { "", "", -1 } },	
+            //{ "cl3_r8_spyder_black", { "", "", -1 } },
+            //{ "cl3_458_black", { "", "", -1 } },	
 			{ "ALFR_GeK_Panamera", { "", "", -1 } },		
-			{ "cl3_murcielago_black", { "", "", -1 } },
-			{ "Jonzie_Viper", { "", "", -1 } },
+			//{ "cl3_murcielago_black", { "", "", -1 } },
+			//{ "Jonzie_Viper", { "", "", -1 } },
 			{ "wirk_ferrari_california", { "", "", -1 } },
 			{ "GeK_Gallardo", { "", "", -1 } },
-			{ "cl3_reventon_black", { "", "", -1 } },
-			{ "cl3_veyron_wht_blu", { "", "", -1 } },
+			//{ "cl3_reventon_black", { "", "", -1 } },
+			//{ "cl3_veyron_wht_blu", { "", "", -1 } },
 			{ "ALFR_GeK_MF1", { "", "", -1 } },
 			{ "ALFR_GeK_Pagani_Zonda", { "", "", -1 } }
         };
@@ -115,17 +115,17 @@ class CarShops {
         vehicles[] = {
             { "C_Van_01_transport_F", { "", "", -1 } },
             { "GeK_Renault_Trafic", { "", "", -1 } },
-            { "cl3_transit_black", { "", "", -1 } },
+            //{ "cl3_transit_black", { "", "", -1 } },
             { "C_Van_01_box_F", { "", "", -1 } },
             { "I_Truck_02_transport_F", { "", "", -1 } },
             { "I_Truck_02_covered_F", { "", "", -1 } },
             { "cg_rv_camper", { "", "", -1 } },
             { "shounka_a3_spr_civ", { "", "", -1 } },
             { "B_Truck_01_transport_F", { "", "", -1 } },
-			{ "Jonzie_Tanker_Truck", { "", "", -1 } },
+			//{ "Jonzie_Tanker_Truck", { "", "", -1 } },
 			{ "B_Truck_01_box_F", { "", "", -1 } },
             { "ALFR_GeK_Scania_420", { "", "", -1 } },
-			{ "Jonzie_Box_Truck", { "", "", -1 } },
+			//{ "Jonzie_Box_Truck", { "", "", -1 } },
 			{ "GeK_Renault_Magnum", { "", "", -1 } },
 			{ "ALFR_GeK_Volvo_FH16_2012", { "", "", -1 } },
             { "GeK_Iveco_Stralis", { "", "", -1 } }
@@ -182,7 +182,7 @@ class CarShops {
             { "C_Offroad_01_F", { "", "", -1 } },
             { "GeK_Renault_Trafic_Ambulance", { "", "", -1 } },//
             { "C_SUV_01_F", { "life_mediclevel", "SCALAR", 2 } },
-			{ "Jonzie_Ambulance", { "life_mediclevel", "SCALAR", 2 } },//
+			//{ "Jonzie_Ambulance", { "life_mediclevel", "SCALAR", 2 } },//
 			{ "GeK_TLC100_Medic", { "life_mediclevel", "SCALAR", 3 } },
 			{ "zorak_master_ambulance", { "life_mediclevel", "SCALAR", 4 } },//
 			{ "GeK_S60_Medic", { "life_mediclevel", "SCALAR", 4 } },
@@ -270,7 +270,7 @@ class CarShops {
         side = "civ";
         vehicles[] = {
             { "C_Offroad_01_repair_F", { "", "", -1 } },
-			{ "Jonzie_Forklift", { "", "", -1 } },
+			//{ "Jonzie_Forklift", { "", "", -1 } },
 			{ "GeK_Volvo_FH16_2012_Depannage", { "", "", -1 } },
             { "GR_UH1H_3", { "", "", -1 } },            
             { "GR_Bell412_2", { "", "", -1 } },
@@ -281,10 +281,10 @@ class CarShops {
 	class veh_ion { //OK
         side = "civ";
         vehicles[] = {
-			{ "cl3_suv_black", { "", "", -1 } }, 
+			//{ "cl3_suv_black", { "", "", -1 } }, 
             { "GeK_Yukon", { "", "", -1 } },
 			{ "GeK_Renault_Trafic", { "", "", -1 } },
-			{ "cl3_transit_black", { "", "", -1 } },
+			//{ "cl3_transit_black", { "", "", -1 } },
 			{ "C_Van_01_box_F", { "", "", -1 } },
 			{ "ALFR_GeK_Scania_420", { "", "", -1 } },
 			{ "GeK_Renault_Magnum", { "", "", -1 } },
@@ -298,7 +298,7 @@ class CarShops {
     class veh_altisfly { //OK
 		side = "civ";
 		vehicles[] = {
-			{ "cl3_suv_black", { "", "", -1 } },
+			//{ "cl3_suv_black", { "", "", -1 } },
 			{ "GeK_Yukon", { "", "", -1 } },
 			{ "C_Van_01_fuel_F", { "", "", -1 } },
 			{ "sab_BI_An2", { "", "", -1 } }, 
@@ -317,7 +317,7 @@ class CarShops {
         vehicles[] = {
 			{ "Gek_audi_a4_avant", { "", "", -1 } },
             { "GeK_Yukon", { "", "", -1 } },
-			{ "cl3_transit_black", { "", "", -1 } },
+			//{ "cl3_transit_black", { "", "", -1 } },
             { "C_Heli_Light_01_civil_F", { "", "", -1 } }
         };
     };		
