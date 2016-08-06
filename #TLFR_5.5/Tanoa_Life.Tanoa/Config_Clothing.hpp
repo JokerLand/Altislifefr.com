@@ -359,6 +359,7 @@ class Clothing {
         };
         vests[] = {
 			{ "NONE", "Supprime gilet", 0, { "", "", -1 } },
+			{ "V_Gendarmes_GiletJaune", "", 1000, { "", "", 1 } },
 			{ "V_TacVest_blk_POLICE", "", 1000, { "", "", -1 } },
 			{ "V_Police_light", "", 1000, { "", "", 1 } },
 			{ "V_Police_medium", "", 1000, { "life_coplevel", "SCALAR", 2 } },
@@ -485,18 +486,38 @@ class Clothing {
         side = "med";
         uniforms[] = {
             { "NONE", "Supprimer uniforme", 0, { "", "", -1 } },
-            { "U_Rangemaster", "Uniforme Medecin", 1500, { "", "", -1 } }
+            { "U_Pompiers_TenueIntervention", "Tenue Intervention", 1500, { "", "", -1 } },
+            { "U_Pompiers_Uniforme", "Uniforme Pompiers", 1500, { "", "", -1 } },
+            { "U_Pompiers_Pilote", "Tenue Pilote Pompiers", 1500, { "", "", -1 } }
         };
         headgear[] = {
             { "NONE", "Supprimer couvre-chef", 0, { "", "", -1 } },
-            { "H_Cap_blu", "", 100, { "", "", -1 } }
+            { "H_Pompiers_CasqueHelico", "", 100, { "", "", -1 } }
         };
         goggles[] = {
-            { "NONE", "Supprimer lunette", 0, { "", "", -1 } },
-            { "G_Shades_Blue", "", 100, { "", "", -1 } }
+			{ "NONE", "Supprime lunette", 0, { "", "", -1 } },
+			{ "G_Shades_Black", "", 50, { "", "", -1 } },
+			{ "G_Shades_Blue", "", 50, { "", "", -1 } },
+			{ "G_Sport_Blackred", "", 50, { "", "", -1 } },
+			{ "G_Sport_Checkered", "", 50, { "", "", -1 } },
+			{ "G_Sport_Blackyellow", "", 50, { "", "", -1 } },
+			{ "G_Sport_BlackWhite", "", 50, { "", "", -1 } },
+			{ "G_Squares", "", 50, { "", "", -1 } },
+			{ "G_Aviator", "", 50, { "", "", -1 } },
+			{ "G_Lady_Mirror", "", 50, { "", "", -1 } },
+			{ "G_Lady_Dark", "", 50, { "", "", -1 } },
+			{ "G_Lady_Blue", "", 50, { "", "", -1 } },
+			{ "G_Lowprofile", "", 50, { "", "", -1 } },
+			{ "G_Combat", "", 50, { "", "", -1 } },
+            { "G_B_Diving", "", 50, { "", "", -1 } },
+			{ "EWK_Cigar1", "", 200, { "", "", -1 } },
+			{ "EWK_Cig6", "", 200, { "", "", -1 } },
+			{ "EWK_Glasses_Cig6", "", 200, { "", "", -1 } },
+			{ "EWK_Cigar2", "", 200, { "", "", -1 } }	
         };
         vests[] = {
-            { "NONE", "Supprimer gilet", 0, { "", "", -1 } }
+            { "NONE", "Supprimer gilet", 0, { "", "", -1 } },
+            { "V_Pompiers_GiletMedecin", "Gilet Medecin (OP ONLY)", 5000, { "", "", -1 } }
         };
         backpacks[] = {
             { "NONE", "Supprimer sac", 0, { "", "", -1 } },
@@ -1131,7 +1152,7 @@ class Clothing {
 	};	
 
     //Shop Femme
-    class girl {
+    /*class girl {
 		title = "Vestiaire Féminin";
 		license = "rebel";
 		side = "civ";
@@ -1166,7 +1187,7 @@ class Clothing {
 		backpacks[] = {
 			{ "NONE", "Supprimer sac", 0, { "", "", -1 } }
 		};
-	};	
+	};*/
 
     class kart {
         title = "STR_Shops_C_Kart";
