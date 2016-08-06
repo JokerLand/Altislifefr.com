@@ -5772,17 +5772,91 @@
             <Original>Banane</Original>
             <French>Banane</French>
         </Key>
-        <Key ID="STR_Item_Cacao">
-            <Original>Cacao</Original>
-            <French>Cacao</French>
+        <Key ID="STR_Item_Noixcoco">
+            <Original>Noix de Coco</Original>
+            <French>Noix de Coco</French>
         </Key>
+        <Key ID="STR_Item_Cacao">
+            <Original>Fève de Cacao</Original>
+            <French>Fève de Cacao</French>
+        </Key>
+        //
+        <Key ID="STR_Item_Meth">
+            <Original>Méthamphétamine</Original>
+            <French>Méthamphétamine</French>
+        </Key>
+        <Key ID="STR_Item_Phosphore_Rouge">
+            <Original>Phosphore Rouge</Original>
+            <French>Phosphore Rouge</French>
+        </Key>
+        <Key ID="STR_Item_Iode">
+            <Original>Iode</Original>
+            <French>Iode</French>
+        </Key>
+        <Key ID="STR_Item_Ephedrine">
+            <Original>Ephedrine</Original>
+            <French>Ephedrine</French>
+        </Key>
+        //
         <Key ID="STR_Item_Corail">
             <Original>Corail</Original>
             <French>Corail</French>
         </Key>
-        <Key ID="STR_Item_Algue">
+        <Key ID="STR_Item_Algueu">
+            <Original>Algue Verte</Original>
+            <French>Algue Verte</French>
+        </Key>
+        <Key ID="STR_Item_Alguep">
             <Original>Algue</Original>
             <French>Algue</French>
+        </Key>
+        <Key ID="STR_Item_Maisu">
+            <Original>Epi de Maïs</Original>
+            <French>Epi de Maïs</French>
+        </Key>
+        <Key ID="STR_Item_Maisp">
+            <Original>Maïs</Original>
+            <French>Maïs</French>
+        </Key>
+        <Key ID="STR_Item_Emeraudeu">
+            <Original>Emeraude</Original>
+            <French>Emeraude</French>
+        </Key>
+        <Key ID="STR_Item_Emeraudep">
+            <Original>Emeraude Taillée</Original>
+            <French>Emeraude Taillée</French>
+        </Key>
+        <Key ID="STR_Item_Saphiru">
+            <Original>Saphir</Original>
+            <French>Saphir</French>
+        </Key>
+        <Key ID="STR_Item_Saphirp">
+            <Original>Saphir Taillé</Original>
+            <French>Saphir Taillé</French>
+        </Key>
+        <Key ID="STR_Item_Pierrevolcaniqueu">
+            <Original>Pierre Volcanique</Original>
+            <French>Pierre Volcanique</French>
+        </Key>
+        <Key ID="STR_Item_Pierrevolcaniquep">
+            <Original>Pierre de Lave</Original>
+            <French>Pierre de Lave</French>
+        </Key>
+        <Key ID="STR_Item_Souffreu">
+            <Original>Souffre</Original>
+            <French>Souffre</French>
+        </Key>
+        <Key ID="STR_Item_Souffrep">
+            <Original>Crystal de Souffre</Original>
+            <French>Crystal de Souffre</French>
+        </Key>
+        <Key ID="STR_Item_Boisu">
+            <Original>Rondin de Bois</Original>
+            <French>Rondin de Bois</French>
+        </Key>
+        <Key ID="STR_Item_Boisp">
+            <Original>Buche Sciée</Original>
+            <French>Buche Sciée</French>
         </Key>
         <Key ID="STR_Item_FuelE">
             <Original>Empty Fuel Canister</Original>
@@ -6166,6 +6240,30 @@
         <Key ID="STR_License_Armee">
             <Original>Armée de Terre</Original>
             <French>Armée de Terre</French>
+        </Key>
+        <Key ID="STR_License_Algue">
+            <Original>Lavage d'Algues Vertes</Original>
+            <French>Lavage d'Algues Vertes</French>
+        </Key>
+        <Key ID="STR_License_Souffre">
+            <Original>Traitement du Souffre</Original>
+            <French>Traitement du Souffre</French>
+        </Key>
+        <Key ID="STR_License_Emeraude">
+            <Original>Taillage de l'Emeraude</Original>
+            <French>Taillage de l'Emeraude</French>
+        </Key>
+        <Key ID="STR_License_Pierrevolcanique">
+            <Original>Lavage de Pierre Volcanique</Original>
+            <French>Lavage de Pierre Volcanique</French>
+        </Key>
+        <Key ID="STR_License_Bois">
+            <Original>Scierie Publique</Original>
+            <French>Scierie Publique</French>
+        </Key>
+        <Key ID="STR_License_Mais">
+            <Original>Castrage du Maïs</Original>
+            <French>Castrage du Maïs</French>
         </Key>
         <Key ID="STR_License_CG">
             <Original>Coast Guard License</Original>
@@ -6825,6 +6923,38 @@
             <Portuguese>Lapidando Diamante</Portuguese>
             <Polish>Szlif diamentów</Polish>
         </Key>
+        <Key ID="STR_Process_Mais">
+            <Original>Castrage du Maïs</Original>
+            <French>Castrage du Maïs</French>
+        </Key>
+        <Key ID="STR_Process_Meth">
+            <Original>Traitement de Méthamphétamine</Original>
+            <French>Traitement de Méthamphétamine</French>
+        </Key>
+        <Key ID="STR_Process_Algue">
+            <Original>Lavage d'Algues Vertes</Original>
+            <French>Lavage d'Algues Vertes</French>
+        </Key>
+        <Key ID="STR_Process_Emeraude">
+            <Original>Taillage de l'Emeraude</Original>
+            <French>Taillage de l'Emeraude</French>
+        </Key>
+        <Key ID="STR_Process_Saphir">
+            <Original>Taillage du Saphir</Original>
+            <French>Taillage du Saphir</French>
+        </Key>
+        <Key ID="STR_Process_Pierrevolcanique">
+            <Original>Lavage de Pierre Volcanique</Original>
+            <French>Lavage de Pierre Volcanique</French>
+        </Key>
+        <Key ID="STR_Process_Souffre">
+            <Original>Traitement du Souffre</Original>
+            <French>Traitement du Souffre</French>
+        </Key>
+        <Key ID="STR_Process_Bois">
+            <Original>Sciage du Bois</Original>
+            <French>Sciage du Bois</French>
+        </Key>        
         <Key ID="STR_Process_Heroin">
             <Original>Processing Opium</Original>
             <Czech>zpracování Opium</Czech>

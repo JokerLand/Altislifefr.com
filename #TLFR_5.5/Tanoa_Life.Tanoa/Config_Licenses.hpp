@@ -92,7 +92,7 @@ class Licenses {
         variable = "algue";
         displayName = "STR_License_Algue";
         price = 28000;
-        illegal = false;
+        illegal = true;
         side = "civ";
     };
     
@@ -100,7 +100,7 @@ class Licenses {
         variable = "souffre";
         displayName = "STR_License_Souffre";
         price = 75000;
-        illegal = false;
+        illegal = true;
         side = "civ";
     };
     
@@ -127,15 +127,7 @@ class Licenses {
         illegal = true;
         side = "civ";
     };
-    
-    class corail {
-        variable = "corail";
-        displayName = "STR_License_Corail";
-        price = 28000;
-        illegal = false;
-        side = "civ";
-    };
-    
+        
     class bois {
         variable = "bois";
         displayName = "STR_License_Bois";
@@ -150,6 +142,14 @@ class Licenses {
         displayName = "STR_License_Mais";
         price = 28000;
         illegal = false;
+        side = "civ";
+    };
+    
+    class meth {
+        variable = "meth";
+        displayName = "STR_License_Meth";
+        price = 28000;
+        illegal = true;
         side = "civ";
     };
 

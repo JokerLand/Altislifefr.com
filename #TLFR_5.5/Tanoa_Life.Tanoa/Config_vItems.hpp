@@ -1043,6 +1043,17 @@ class VirtualItems {
         icon = "icons\ico_cacao.paa";
     };
     
+    class noixcoco {
+        variable = "noixcoco";
+        displayName = "STR_Item_Noixcoco";
+        weight = 1;
+        buyPrice = 110;
+        sellPrice = 55;
+        illegal = false;
+        edible = 20;
+        icon = "icons\ico_cacao.paa";
+    };
+    
     class corail {
         variable = "corail";
         displayName = "STR_Item_Corail";
@@ -1060,7 +1071,7 @@ class VirtualItems {
         weight = 2;
         buyPrice = -1;
         sellPrice = -1;
-        illegal = false;
+        illegal = true;
         edible = 10;
         icon = "icons\ico_algue.paa";
     };
@@ -1071,7 +1082,7 @@ class VirtualItems {
         weight = 2;
         buyPrice = 100;
         sellPrice = 350;
-        illegal = false;
+        illegal = true;
         edible = 10;
         icon = "icons\ico_algue.paa";
     };
@@ -1170,7 +1181,7 @@ class VirtualItems {
         weight = 3;
         buyPrice = -1;
         sellPrice = -1;
-        illegal = false;
+        illegal = true;
         edible = -1;
         icon = "icons\ico_meat.paa";
     };
@@ -1181,7 +1192,7 @@ class VirtualItems {
         weight = 2;
         buyPrice = -1;
         sellPrice = 75;
-        illegal = false;
+        illegal = true;
         edible = -1;
         icon = "icons\ico_meat.paa";
     };

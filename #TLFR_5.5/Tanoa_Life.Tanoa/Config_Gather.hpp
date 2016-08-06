@@ -2,8 +2,14 @@ class CfgGather {
     zoneSize = 30;
     class Resources {
         class cacao {
-            amount = 5;
+            amount = 3;
             zones[] = { "cacao_1", "cacao_2", "cacao_3", "cacao_4", "cacao_5" };
+            item = "";
+        };
+        
+        class noixcoco {
+            amount = 5;
+            zones[] = { "noixcoco_1", "noixcoco_2", "noixcoco_3", "noixcoco_4", "noixcoco_5" };
             item = "";
         };
 
@@ -67,11 +73,11 @@ class CfgGather {
             item = "";
         };
         
-        class girolle {
-            amount = 5;
-            zones[] = { "champignon_1" };
-            item = "";
-            mined[] = { {"truffe",0,20},{"girolle",20,95},{"champignon_halu",95,100} };
+        class emeraudeusaphiru {
+            amount = 4;
+            zones[] = { "emeraudeusaphiru_1" };
+            item = "pickaxe";
+            mined[] = { {"emeraudeu",0,10},{"saphiru",10,100} };
     };
         
         class algueunprocessed {
@@ -163,21 +169,7 @@ Example 2:
             item = "pickaxe";
             mined[] = { "oil_unprocessed" };
         };
-        
-        class emeraudeu {
-            amount = 2;
-            zones[] = { "emeraude_1", "emeraude_2" };
-            item = "pickaxe";
-            mined[] = { "emeraudeu" };
-        };
-        
-        class saphiru {
-            amount = 2;
-            zones[] = { "saphir_1", "saphir_2" };
-            item = "pickaxe";
-            mined[] = { "saphiru" };
-        };
-        
+                
         class pierrevolcaniqueu {
             amount = 2;
             zones[] = { "pierrevolcanique_1", "pierrevolcanique_2" };

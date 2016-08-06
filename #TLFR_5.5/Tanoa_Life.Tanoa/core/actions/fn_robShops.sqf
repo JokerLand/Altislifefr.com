@@ -25,7 +25,7 @@ _shop setVariable["robbed",true,true];
 _cash = 5000 + round(random 10000);
 _shop switchMove "AmovPercMstpSsurWnonDnon";
 hint "Le caissier a activé l'alarme, la police ne va pas tarder à arriver!";
-[0,"STR_ISTR_ShopRob"] remoteExecCall ["life_fnc_broadcast",west];
+[0,"ALERTE! - La station: %1 est en train d'etre braquee!"] remoteExecCall ["life_fnc_broadcast",west];
 playSound "alarme_magasin";
 
 
