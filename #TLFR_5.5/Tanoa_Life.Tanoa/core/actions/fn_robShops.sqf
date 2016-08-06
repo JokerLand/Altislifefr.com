@@ -25,8 +25,10 @@ _shop setVariable["robbed",true,true];
 _cash = 5000 + round(random 10000);
 _shop switchMove "AmovPercMstpSsurWnonDnon";
 hint "Le caissier a activé l'alarme, la police ne va pas tarder à arriver!";
-[[1,format["ALERTE! - La station: %1 est en train d'etre braquee!", _shop], false],"life_fnc_broadcast",west,false] spawn life_fnc_MP;
-[[player, "alarme_magasin",10],"life_fnc_playSound",true,false] spawn life_fnc_MP;
+[0,"STR_ISTR_ShopRob"] remoteExecCall ["life_fnc_broadcast",west];
+playSound "alarme_magasin";
+
+
 
 disableSerialization;
 5 cutRsc ["life_progress","PLAIN"];

@@ -6343,6 +6343,10 @@
             <Portuguese>O explosivo foi colocado no cofre , você tem até o tempo acabar para desarmar o explosivo.</Portuguese>
             <Polish>Ładunek wybuchowy został założony na skarbcu rezerw federalnych, musisz rozbroić ładunek nim wybuchnie!</Polish>
         </Key>
+        <Key ID="STR_ISTR_ShopRob">
+            <Original>ALERTE! - La station: %1 est en train d'etre braquee!</Original>
+            <French>ALERTE! - La station: %1 est en train d'etre braquee!</French>
+        </Key>
         <Key ID="STR_ISTR_Blast_KeepOff">
             <Original>The timer is ticking! Keep the cops away from the vault!</Original>
             <Czech>Časovač je tikání! Udržujte policajty od trezoru!</Czech>
