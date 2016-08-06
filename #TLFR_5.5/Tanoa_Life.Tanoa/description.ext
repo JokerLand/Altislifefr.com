@@ -135,7 +135,7 @@ class CfgSounds
 	class alert
     {
         name = "alert";
-        sound[] = {"\sounds\alert.ogg", 1.0, 1};
+        sound[] = {"\sounds\alert.ogg", 5, 5};
         titles[] = {};
     };
     
