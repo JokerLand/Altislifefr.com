@@ -18,8 +18,8 @@ class CarShops {
             { "B_Quadbike_01_F", { "", "", -1 } },
 			{ "GeK_107", { "", "", -1 } },
 			{ "Jonzie_Mini_Cooper", { "", "", -1 } }, //144km
-			{ "cl3_polo_gti_black", { "", "", -1 } },
-			{ "cl3_civic_vti_black", { "", "", -1 } },
+			//{ "cl3_polo_gti_black", { "", "", -1 } },
+			//{ "cl3_civic_vti_black", { "", "", -1 } },
 			{ "GeK_Clio", { "", "", -1 } },
 			{ "Jonzie_Ceed", { "", "", -1 } }, //170km - Style Clio
             { "GeK_DS3", { "", "", -1 } },
@@ -32,20 +32,20 @@ class CarShops {
 			{ "Jonzie_Datsun_Z432", { "", "", -1 } }, //210km
 			{ "zorak_bmw_120i", { "", "", -1 } },
 			{ "Jonzie_Corolla", { "", "", -1 } }, //180km
-			// { "Sn0cky_DS4_noir", { "", "", -1 } },
-			{ "cl3_taurus_black", { "", "", -1 } },
+			//{ "Sn0cky_DS4_noir", { "", "", -1 } },
+			//{ "cl3_taurus_black", { "", "", -1 } },
 			{ "Jonzie_Escalade", { "", "", -1 } }, //231km
 			{ "Jonzie_XB", { "", "", -1 } }, //194km - Style FordMustang
 			{ "Jonzie_Galant", { "", "", -1 } }, //222km
 			{ "Jonzie_Mini_Cooper_R_spec", { "", "", -1 } }, //225km
-			{ "cl3_e60_m5_black", { "", "", -1 } },
+			//{ "cl3_e60_m5_black", { "", "", -1 } },
 			{ "GeK_Supra", { "", "", -1 } },
-			{ "cl3_e63_amg_black", { "", "", -1 } },
-			{ "cl3_dodge_charger_s_black", { "", "", -1 } },
+			//{ "cl3_e63_amg_black", { "", "", -1 } },
+			//{ "cl3_dodge_charger_s_black", { "", "", -1 } },
 			{ "GeK_ElCamino", { "", "", -1 } },
 			{ "GeK_TLC100", { "", "", -1 } },
-			// { "Sn0cky_CT200h_noir", { "", "", -1 } },
-			{ "cl3_q7_black", { "", "", -1 } },
+			//{ "Sn0cky_CT200h_noir", { "", "", -1 } },
+			//{ "cl3_q7_black", { "", "", -1 } },
 			{ "GeK_A45", { "", "", -1 } },
 			{ "wirk_cayenne", { "", "", -1 } },
 			{ "Jonzie_Quattroporte", { "", "", -1 } }, // 286km
