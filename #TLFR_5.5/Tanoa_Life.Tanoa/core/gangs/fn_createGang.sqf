@@ -4,7 +4,7 @@
     Author: Bryan "Tonic" Boardwine
 
     Description:
-    Pulls up the menu and creates the gang?
+    Pulls up the menu and creates the gang with the name the user enters in.
 */
 private["_gangName","_length","_badChar","_chrByte","_allowed"];
 disableSerialization;
@@ -27,9 +27,9 @@ if (life_HC_isActive) then {
 
 if (LIFE_SETTINGS(getNumber,"player_advancedLog") isEqualTo 1) then {
     if (LIFE_SETTINGS(getNumber,"battlEye_friendlyLogging") isEqualTo 1) then {
-        advanced_log = format ["created a gang named: %1 for $%2",_gangName,(LIFE_SETTINGS(getNumber,"gang_price"))];
+        advanced_log = format [localize "STR_DL_AL_createdGang_BEF",_gangName,(LIFE_SETTINGS(getNumber,"gang_price"))];
     } else {
-        advanced_log = format ["%1 - %2 created a gang named: %3 for $%4",profileName,(getPlayerUID player),_gangName,(LIFE_SETTINGS(getNumber,"gang_price"))];
+        advanced_log = format [localize "STR_DL_AL_createdGang",profileName,(getPlayerUID player),_gangName,(LIFE_SETTINGS(getNumber,"gang_price"))];
     };
     publicVariableServer "advanced_log";
 };
