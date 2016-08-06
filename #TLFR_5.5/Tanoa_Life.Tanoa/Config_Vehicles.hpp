@@ -119,7 +119,6 @@ class CarShops {
             { "C_Van_01_box_F", { "", "", -1 } },
             { "I_Truck_02_transport_F", { "", "", -1 } },
             { "I_Truck_02_covered_F", { "", "", -1 } },
-            { "CL3_bus_cl_black", { "", "", -1 } },
             { "cg_rv_camper", { "", "", -1 } },
             { "shounka_a3_spr_civ", { "", "", -1 } },
             { "B_Truck_01_transport_F", { "", "", -1 } },
@@ -4333,9 +4332,6 @@ will modify the virtual space and the price of the vehicle, but other informatio
 		textures[] = {
             { "Police", "cop", {
                 "ALFR_TexSnd\bus_exterior_cop.jpg"
-            } },
-			{ "Donator", "civ", {
-                "ALFR_TexSnd\bus_exterior_donator.jpg"
             } }
 		};
 	};
