@@ -5361,12 +5361,12 @@
         </Key>
         //ALFR FIN
         <Key ID="STR_Item_SugarcaneUnprocessed">
-            <Original>Sucre</Original>
-            <French>Sucre</French>
+            <Original>Canne à Sucre</Original>
+            <French>Canne à Sucre</French>
         </Key>
         <Key ID="STR_Item_SugarcaneProcessed">
-            <Original>Canne à Sucre Traitée</Original>
-            <French>Canne à Sucre Traitée</French>
+            <Original>Sucre</Original>
+            <French>Sucre</French>
         </Key>
         <Key ID="STR_Item_Cannabis">
             <Original>Marijuana leaf</Original>
