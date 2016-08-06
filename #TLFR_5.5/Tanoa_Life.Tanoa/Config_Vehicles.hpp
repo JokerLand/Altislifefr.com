@@ -362,25 +362,13 @@ class LifeCfgVehicles {
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
         price = 100000;
         textures[] = {
-            { "Tribal", "civ", {
-                "\A3\Air_F_Exp\Plane_Civil_01\Data\btt_ext_01_Tribal_co.paa",
-				"\A3\Air_F_Exp\Plane_Civil_01\Data\btt_ext_02_Tribal_co.paa",
-				"\A3\Air_F_Exp\Plane_Civil_01\Data\btt_int_01_co.paa",
-				"\A3\Air_F_Exp\Plane_Civil_01\Data\btt_int_02_co.paa"
-            } },
-            { "Ligne Rouge", "civ", {
-                "\A3\Air_F_Exp\Plane_Civil_01\Data\btt_ext_01_RedLine_co.paa",
-				"\A3\Air_F_Exp\Plane_Civil_01\Data\btt_ext_02_RedLine_co.paa",
-				"\A3\Air_F_Exp\Plane_Civil_01\Data\btt_int_01_co.paa",
-				"\A3\Air_F_Exp\Plane_Civil_01\Data\btt_int_02_co.paa"
-            } },
-			{ "Course", "civ", {
+			{ "Bleu/Jaune", "civ", {
                 "\A3\Air_F_Exp\Plane_Civil_01\Data\btt_ext_01_Racer_co.paa",
 				"\A3\Air_F_Exp\Plane_Civil_01\Data\btt_ext_02_Racer_co.paa",
 				"\A3\Air_F_Exp\Plane_Civil_01\Data\btt_int_01_tan_co.paa",
 				"\A3\Air_F_Exp\Plane_Civil_01\Data\btt_int_02_tan_co.paa"
             } },
-			{ "Vague Bleu", "civ", {
+			{ "Blanc/Bleu", "civ", {
                 "\A3\Air_F_Exp\Plane_Civil_01\Data\btt_ext_01_Wave_co.paa",
 				"\A3\Air_F_Exp\Plane_Civil_01\Data\btt_ext_02_Wave_co.paa",
 				"\A3\Air_F_Exp\Plane_Civil_01\Data\btt_int_01_tan_co.paa",
@@ -393,7 +381,20 @@ class LifeCfgVehicles {
         vItemSpace = 100;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
         price = 100000;
-        textures[] = {};
+        textures[] = {
+            { "Vert/Blanc/Vague Noir", "civ", {
+                "\A3\Air_F_Exp\Plane_Civil_01\Data\btt_ext_01_Tribal_co.paa",
+				"\A3\Air_F_Exp\Plane_Civil_01\Data\btt_ext_02_Tribal_co.paa",
+				"\A3\Air_F_Exp\Plane_Civil_01\Data\btt_int_01_co.paa",
+				"\A3\Air_F_Exp\Plane_Civil_01\Data\btt_int_02_co.paa"
+            } },
+            { "Rouge/Ligne Blanche", "civ", {
+                "\A3\Air_F_Exp\Plane_Civil_01\Data\btt_ext_01_RedLine_co.paa",
+				"\A3\Air_F_Exp\Plane_Civil_01\Data\btt_ext_02_RedLine_co.paa",
+				"\A3\Air_F_Exp\Plane_Civil_01\Data\btt_int_01_co.paa",
+				"\A3\Air_F_Exp\Plane_Civil_01\Data\btt_int_02_co.paa"
+            } }
+        };
     };
     
     class IVORY_T6A_1 {
@@ -4625,9 +4626,6 @@ will modify the virtual space and the price of the vehicle, but other informatio
             } },
             { "White / Blue", "civ", {
                 "\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_civilian_co.paa"
-            } },
-            { "Digi Green", "civ", {
-                "\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_indp_co.paa"
             } },
             { "Desert Digi", "reb", {
                 "\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_opfor_co.paa"
