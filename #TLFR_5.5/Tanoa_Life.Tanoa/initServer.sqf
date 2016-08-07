@@ -10,7 +10,7 @@ if (!(_this select 0)) exitWith {}; //Not server
 
 // - MAPPING -
 // INUTILE [] execVM "Mappings\athira_hopital.sqf";
-// INUTILE [] execVM "Mappings\Mappings_armee.sqf";
+[] execVM "Mappings\John_Bank_Tanoa.sqf";
 
 //Cycle Jour/nuit
 [16,true,true,16] execFSM "core\fsm\timeModule.fsm";

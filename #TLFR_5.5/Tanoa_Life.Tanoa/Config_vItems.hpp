@@ -101,7 +101,15 @@ class VirtualShops {
         side = "civ";
         license = "";
         level[] = { "", "", -1, "" };
-        items[] = { "cocaine_processed", "heroin_processed", "marijuana", "joint", "meth" };
+        items[] = { "cocaine_processed", "heroin_processed", "marijuana", "joint" };
+    };
+    
+    class methv {
+        name = "STR_MAR_Meth_Trader";
+        side = "civ";
+        license = "";
+        level[] = { "", "", -1, "" };
+        items[] = { "meth" };
     };
     
     class produitchimique {

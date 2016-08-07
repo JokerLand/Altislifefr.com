@@ -79,7 +79,7 @@ class Life_Settings {
 
     /* Item-related Restrictions */
     restrict_medic_weapons = true; //Set to false to allow medics to use any weapon --true will remove ANY weapon they attempt to use (primary,secondary,launcher)
-    restrict_clothingPickup = true; //Set to false to allow civilians to pickup/take any uniform (ground/crates/vehicles)
+    restrict_clothingPickup = false; //Set to false to allow civilians to pickup/take any uniform (ground/crates/vehicles)
     restrict_weaponPickup = false; //Set to false to allow civilians to pickup/take any weapon (ground/crates/vehicles)
     restricted_uniforms[] = { "U_Rangemaster", "ALFR_FR_police_tenu" };
     restricted_weapons[] = { "hgun_P07_snds_F", "DDOPP_X26", "DDOPP_3Rnd_X3", "DDOPP_X3_b", "DDOPP_X26_b" };
@@ -95,13 +95,13 @@ class Life_Settings {
     hospital_heal_fee = 350; //Fee to heal at a hospital NPC
 
     /* Paycheck & Bank System Configurations */
-    bank_cop = 10000; //Amount of cash in bank for new cops
-    bank_civ = 6000; //Amount of cash in bank for new civillians
-    bank_med = 10000; //Amount of cash in bank for new medics
+    bank_cop = 35000; //Amount of cash in bank for new cops
+    bank_civ = 40000; //Amount of cash in bank for new civillians
+    bank_med = 35000; //Amount of cash in bank for new medics
 
-    paycheck_cop = 550; //Payment for cops
-    paycheck_civ = 520; //Payment for civillians
-    paycheck_med = 550; //Payment for medics
+    paycheck_cop = 4000; //Payment for cops
+    paycheck_civ = 4000; //Payment for civillians
+    paycheck_med = 4000; //Payment for medics
 
     paycheck_period = 10; //Scaled in minutes
     bank_transferTax = .05; //Tax that player pays when transferring money from ATM. Tax = Amount * multiplier

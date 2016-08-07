@@ -111,7 +111,7 @@ class CfgSpawnPoints {
         };
         
         class Athira {
-            displayName = "Lijnhaven";
+            displayName = "Lijnhaven - Base Aérienne";
             spawnMarker = "cop_spawn_3";
             icon = "\a3\ui_f\data\map\Markers\NATO\b_air.paa";
             licenses[] = { { "", true } };

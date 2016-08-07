@@ -30,8 +30,6 @@ switch (true) do {
 	case (_house == "Land_House_Big_03_F"): {[2500000,4]};
 	case (_house == "Land_Hotel_02_F"): {[4000000,5]};
 	case (_house == "Land_Hotel_01_F"): {[5000000,6]};
-	case (_house == "Land_FuelStation_02_workshop_F"): {[500000,1]};
-	case (_house == "Land_FuelStation_01_shop_F"): {[750000,2]};
 	case (_house == "Land_School_01_F"): {[1000000,3]};
 	case (_house == "Land_Supermarket_01_F"): {[1500000,4]};
 	case (_house == "Land_Shop_Town_01_F"): {[2500000,1]};

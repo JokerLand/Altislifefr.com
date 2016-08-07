@@ -203,28 +203,28 @@ class CarShops {
     class cop_car { //OK
         side = "cop";
         vehicles[] = {
-            { "C_Offroad_01_F", { "", "", -1 } },
             //{ "C_SUV_01_F", { "", "", -1 } },
+			//{ "shounka_a3_gendsprinter", { "", "", -1 } },
+			//{ "zorak_mazda_rx8_police", { "life_coplevel", "SCALAR", 3 } },
+			//{ "Mrshounka_ducati_police_p", { "life_coplevel", "SCALAR", 4 } },
+			//{ "CL3_bus_cl_black", { "life_coplevel", "SCALAR", 4 } },
+			//{ "ALFR_GeK_Panamera_Police", { "life_coplevel", "SCALAR", 4 } },
+			//{ "ALFR_GeK_MF1_Police", { "life_coplevel", "SCALAR", 5 } },
+			//{ "cg_h2_sert", { "life_coplevel", "SCALAR", 7 } },
+            { "C_Offroad_01_F", { "", "", -1 } },
 			{ "GeK_107_Police", { "", "", -1 } }, 
             { "GeK_Renault_Trafic_Police", { "", "", -1 } },
-			//{ "shounka_a3_gendsprinter", { "", "", -1 } },
 			{ "GeK_S60_Police", { "life_coplevel", "SCALAR", 2 } },
 			{ "gek_audi_a4_avant_police", { "life_coplevel", "SCALAR", 2 } },
 			{ "GeK_TLC100_Police", { "life_coplevel", "SCALAR", 2 } },
 			{ "GeK_ML63_Police", { "life_coplevel", "SCALAR", 3 } },
-			//{ "zorak_mazda_rx8_police", { "life_coplevel", "SCALAR", 3 } },
 			{ "GeK_Impreza_Police", { "life_coplevel", "SCALAR", 3 } },
-			//{ "Mrshounka_ducati_police_p", { "life_coplevel", "SCALAR", 4 } },
-			//{ "CL3_bus_cl_black", { "life_coplevel", "SCALAR", 4 } },
 			{ "GeK_C63_Police", { "life_coplevel", "SCALAR", 4 } },
-			//{ "ALFR_GeK_Panamera_Police", { "life_coplevel", "SCALAR", 4 } },
 			{ "I_MRAP_03_F", { "life_coplevel", "SCALAR", 4 } },
-			//{ "ALFR_GeK_MF1_Police", { "life_coplevel", "SCALAR", 5 } },
 			{ "GeK_S60_Police_ST", { "life_coplevel", "SCALAR", 5 } },
 			{ "ALFR_GeK_Panamera_Police_ST", { "life_coplevel", "SCALAR", 5 } },
 			{ "GeK_TLC100", { "life_coplevel", "SCALAR", 5 } },
 			{ "zorak_audi_rs6_police", { "life_coplevel", "SCALAR", 6 } },
-			//{ "cg_h2_sert", { "life_coplevel", "SCALAR", 7 } },
             { "zorak_audi_a6_police", { "life_coplevel", "SCALAR", 8 } }
         };
     };
@@ -1416,14 +1416,14 @@ class LifeCfgVehicles {
     
     class GeK_TLC100_Police {    
         vItemSpace = 55;
-        licenses[] = { {""}, {""}, {""}, {""} };
+        licenses[] = { {""}, {"armee"}, {""}, {""} };
         price = 17500;
 		textures[] = {
 
 			{ "Police", "cop", {
                 "ALFR_TexSnd\TLCPolice.paa"
             } },
-			{ "Armee", "armee", {
+			{ "Armee", "cop", {
                 "alfr_Arm\data\ALFR_range_armee.jpg"
             } }
 

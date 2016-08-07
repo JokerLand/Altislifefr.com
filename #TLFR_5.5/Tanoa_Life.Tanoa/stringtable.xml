@@ -85,6 +85,10 @@
             <Original>Bar d'Altos</Original>
             <French>Bar d'Altos</French>
         </Key>
+        <Key ID="STR_Shops_Produitchimique">
+            <Original>Vendeur de Produits Chimiques</Original>
+            <French>Vendeur de Produits Chimiques</French>
+        </Key>
         <Key ID="STR_Shops_Rebel">
             <Original>Rebel Market</Original>
             <Czech>Rebel Market</Czech>
@@ -153,10 +157,6 @@
         <Key ID="STR_Shops_Paper">
             <Original>Paper Shop</Original>
             <French>Acheteur de Papier</French>
-        </Key>
-        <Key ID="STR_Shops_Algue">
-            <Original>Seaweed Shop</Original>
-            <French>Acheteur d'Algalithe</French>
         </Key>
         <Key ID="STR_Shops_PrefecturePasseport">
             <Original>Préfecture (Passeport)</Original>
@@ -8988,6 +8988,42 @@
             <Original>Acheteur de Sucre</Original>
             <French>Acheteur de Sucre</French>
         </Key>
+        <Key ID="STR_MAR_Souffre_Trader">
+            <Original>Acheteur de Souffre</Original>
+            <French>Acheteur de Souffre</French>
+        </Key>
+        <Key ID="STR_MAR_Pierrevolcanique_Trader">
+            <Original>Acheteur de Pierre de Lave</Original>
+            <French>Acheteur de Pierre de Lave</French>
+        </Key>
+        <Key ID="STR_MAR_Bois_Trader">
+            <Original>Acheteur de Planches</Original>
+            <French>Acheteur de Planches</French>
+        </Key>
+        <Key ID="STR_MAR_Saphir_Trader">
+            <Original>Acheteur de Saphir</Original>
+            <French>Acheteur de Saphir</French>
+        </Key>
+        <Key ID="STR_MAR_Emeraude_Trader">
+            <Original>Acheteur d'Emeraude</Original>
+            <French>Acheteur d'Emeraude</French>
+        </Key>
+        <Key ID="STR_MAR_Mais_Trader">
+            <Original>Acheteur de Maïs</Original>
+            <French>Acheteur de Maïs</French>
+        </Key>
+        <Key ID="STR_MAR_Corail_Trader">
+            <Original>Acheteur de Corail</Original>
+            <French>Acheteur de Corail</French>
+        </Key>
+        <Key ID="STR_MAR_Algue_Trader">
+            <Original>Acheteur d'Algues</Original>
+            <French>Acheteur d'Algues</French>
+        </Key>
+        <Key ID="STR_MAR_Meth_Trader">
+            <Original>Acheteur de Méthamphétamine</Original>
+            <French>Acheteur de Méthamphétamine</French>
+        </Key>
         <Key ID="STR_MAR_Diamond_Trader">
             <Original>Diamond Trader</Original>
             <Czech>Diamond Trader</Czech>
@@ -9206,6 +9242,10 @@
             <Portuguese>Loja de Roupas Rebeldes</Portuguese>
             <Polish>Magazyn rebelianta</Polish>
         </Key>
+        <Key ID="STR_MAR_Armee_Clothing_Shop">
+            <Original>Vestiaire Militaire</Original>
+            <French>Vestiaire Militaire</French>
+        </Key>
         <Key ID="STR_MAR_Rebel_Weapon_Shop">
             <Original>Magasin d'Armes Rebelles</Original>
             <Czech>Rebel obchodu se zbraněmi</Czech>
@@ -9327,6 +9367,10 @@
             <German>Polizei Uniformen</German>
             <Portuguese>Loja de Roupas da Polícia</Portuguese>
             <Polish>Umundurowanie</Polish>
+        </Key>
+        <Key ID="STR_MAR_Cop_Weapon_Shop">
+            <Original>Quincaillerie</Original>
+	        <French>Quincaillerie</French>
         </Key>
         <Key ID="STR_MAR_Policier_Weapon_Shop">
             <Original>Armurerie Policier</Original>
