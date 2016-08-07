@@ -182,6 +182,7 @@ class CarShops {
         vehicles[] = {
             { "C_Offroad_01_F", { "", "", -1 } },
             { "GeK_Renault_Trafic_Ambulance", { "", "", -1 } },//
+            { "C_Offroad_02_unarmed_F", { "life_mediclevel", "SCALAR", 2 } }, 
             { "C_SUV_01_F", { "life_mediclevel", "SCALAR", 2 } },
 			//{ "Jonzie_Ambulance", { "life_mediclevel", "SCALAR", 2 } },//
 			{ "GeK_TLC100_Medic", { "life_mediclevel", "SCALAR", 3 } },
@@ -213,13 +214,14 @@ class CarShops {
 			//{ "cg_h2_sert", { "life_coplevel", "SCALAR", 7 } },
             { "C_Offroad_01_F", { "", "", -1 } },
 			{ "GeK_107_Police", { "", "", -1 } }, 
-            { "GeK_Renault_Trafic_Police", { "", "", -1 } },
+            { "GeK_Renault_Trafic_Police", { "", "", -1 } }, 
 			{ "GeK_S60_Police", { "life_coplevel", "SCALAR", 2 } },
 			{ "gek_audi_a4_avant_police", { "life_coplevel", "SCALAR", 2 } },
 			{ "GeK_TLC100_Police", { "life_coplevel", "SCALAR", 2 } },
 			{ "GeK_ML63_Police", { "life_coplevel", "SCALAR", 3 } },
 			{ "GeK_Impreza_Police", { "life_coplevel", "SCALAR", 3 } },
 			{ "GeK_C63_Police", { "life_coplevel", "SCALAR", 4 } },
+            { "C_Offroad_02_unarmed_F", { "life_coplevel", "SCALAR", 4 } }, 
 			{ "I_MRAP_03_F", { "life_coplevel", "SCALAR", 4 } },
 			{ "GeK_S60_Police_ST", { "life_coplevel", "SCALAR", 5 } },
 			{ "ALFR_GeK_Panamera_Police_ST", { "life_coplevel", "SCALAR", 5 } },
@@ -743,7 +745,21 @@ class LifeCfgVehicles {
                 "ALFR_TexSnd\Gek_renault_trafic_police.paa"
             } }
 		};
-	};
+	}; 
+    
+    class C_Offroad_02_unarmed_F {   
+		vItemSpace = 65;
+        licenses[] = { {""}, {""}, {""}, {""} };
+		price = 65000;
+        textures[] = {
+			{ "Police", "cop", {
+                "ALFR_TexSnd\jeepGendarmerie.paa"
+            } },
+			{ "Pompier", "med", {
+	                "ALFR_TexSnd\pompiers\jeepPompier.paa"
+            } }
+		};
+	}; 
     
     class GeK_Renault_Trafic {   
 		vItemSpace = 75;

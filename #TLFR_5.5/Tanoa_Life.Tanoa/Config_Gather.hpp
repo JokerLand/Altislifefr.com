@@ -78,12 +78,6 @@ class CfgGather {
             zones[] = { "emeraudeusaphiru_1" };
             item = "pickaxe";
             mined[] = { {"emeraudeu",0,10},{"saphiru",10,100} };
-    };
-        
-        class algueunprocessed {
-            amount = 3;
-            zones[] = { "algue_1" };
-            item = "";
         };
     };
 

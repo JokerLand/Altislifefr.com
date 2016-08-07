@@ -28,12 +28,7 @@ _restricted = switch(typeOf _building) do {
 	case "Land_House_Big_03_F": {[0,2,3,6,7,8,9,12,13,14,15,18,19,20,21]}; //Possibilité 6 coffres
 	case "Land_Hotel_02_F": {[0,1,2,3,4,5,7,8,9,10,11,12,14,16,17,18,19,20,21,22,25,28,30]}; //Possibilités 8 coffres
 	case "Land_Hotel_01_F": {[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21]}; // Possibilités 4 Coffres 
-	case "Land_FuelStation_02_workshop_F": {[4,5,6]}; //Possibilité 3 coffres
-	case "Land_FuelStation_01_shop_F": {[2]}; //Possibilité 7 coffres
 	case "Land_School_01_F": {[0,2,5,9,11,15]}; //Possibilité 15 coffres
-	case "Land_Supermarket_01_F": {[6,7,8,9,10,11,12,13,14,15]}; //Possibilité 7 coffres
-	case "Land_Shop_Town_01_F": {[3,4,5,6,8,9]}; //Possibilité 6 coffres
-	case "Land_Shop_Town_03_F": {[3,4,5,6,7,8,10,14,15,18]}; //Possibilité 11 coffres
 	case "Land_SM_01_shed_F": {[0,1,4,9]}; //Possibilité 6 coffres
 	case "Land_i_Shed_Ind_F": {[0,1,4,9]}; //Possibilité 6 coffres	
 default {[]};
