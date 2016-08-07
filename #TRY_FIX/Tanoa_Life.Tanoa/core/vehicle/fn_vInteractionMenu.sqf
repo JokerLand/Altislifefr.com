@@ -4,7 +4,7 @@
     Author: Bryan "Tonic" Boardwine
 
     Description:
-    Replaces the mass addactions for various vehicle actions
+    Replaces the mass add actions for various vehicle actions.
 */
 #define Btn1 37450
 #define Btn2 37451
@@ -19,7 +19,7 @@ if (!dialog) then {
 };
 disableSerialization;
 
-_curTarget = param [0,ObjNull,[ObjNull]];
+_curTarget = param [0,objNull,[objNull]];
 if (isNull _curTarget) exitWith {closeDialog 0;}; //Bad target
 _isVehicle = if ((_curTarget isKindOf "landVehicle") || (_curTarget isKindOf "Ship") || (_curTarget isKindOf "Air")) then {true} else {false};
 if (!_isVehicle) exitWith {closeDialog 0;};

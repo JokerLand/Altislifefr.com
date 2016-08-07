@@ -1,10 +1,10 @@
 #include "..\..\script_macros.hpp"
 /*
-    File: fn_RefuelCar.sqf
+    File: fn_fuelRefuelCar.sqf
     Author: NiiRoZz
 
     Description:
-    Add fuel in car.
+    Adds fuel in car.
 */
 disableSerialization;
 private["_control","_index","_className","_basePrice","_vehicleInfo","_colorArray","_ctrl"];
