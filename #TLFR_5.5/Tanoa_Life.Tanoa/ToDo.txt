@@ -30,18 +30,18 @@
 - Meth & pleins d'autres  || EN COURS
 
 Ressource | Traitement
-mais | oui |FAIT| POINT MAP A FINIR DE PLACER
-canne a sucre | oui |FAIT| POINT MAP A FINIR DE PLACER
-banane | non |FAIT| POINT MAP A FINIR DE PLACER
-cacao | non |FAIT| POINT MAP A FINIR DE PLACER
-corail | non |FAIT| POINT MAP A FINIR DE PLACER
-emeraude | oui |FAIT| POINT MAP A FINIR DE PLACER
-saphire | oui |FAIT| POINT MAP A FINIR DE PLACER
-pierre volcanique | oui |FAIT| POINT MAP A FINIR DE PLACER
-souffre | oui |FAIT| POINT MAP A FINIR DE PLACER
-algue | non |FAIT| POINT MAP A FINIR DE PLACER
-bois | oui |FAIT| POINT MAP A FINIR DE PLACER
-meth | multiprocess |FAIT| POINT MAP A FINIR DE PLACER
+mais | oui |FAIT| 
+canne a sucre | oui |FAIT| 
+banane | non |FAIT| 
+cacao | non |FAIT| 
+corail | non |FAIT| 
+emeraude | oui |FAIT| 
+saphire | oui |FAIT| 
+pierre volcanique | oui |FAIT| 
+souffre | oui |FAIT| 
+algue | non |FAIT| 
+bois | oui |FAIT| 
+meth | multiprocess |FAIT| 
 
 //Fret (Sakzy) :
 -Rajouter panneaux pub addaction dans les 4 grande ville
@@ -63,7 +63,6 @@ meth | multiprocess |FAIT| POINT MAP A FINIR DE PLACER
 -Remettre le "montrer son insigne"
 -Remettre les Safezones sur toute la map
 - Calibrer toutes les ressources ; Prix / Prix License / Trajet / Poids / nbr qu'on récolte en mm temps/etc
-Point entreprise à mettre map
 
 //Urgent : (Sakzy)
 -Bug clés de maison ?

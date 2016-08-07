@@ -9024,6 +9024,14 @@
             <Original>Acheteur de Méthamphétamine</Original>
             <French>Acheteur de Méthamphétamine</French>
         </Key>
+        <Key ID="STR_MAR_Entreprise">
+            <Original>Siège Social des Entreprises</Original>
+            <French>Siège Social des Entreprises</French>
+        </Key>
+        <Key ID="STR_MAR_AltisFly">
+            <Original>Entrepôt TanoaCargo</Original>
+            <French>Entrepôt TanoaCargo</French>
+        </Key>
         <Key ID="STR_MAR_Diamond_Trader">
             <Original>Diamond Trader</Original>
             <Czech>Diamond Trader</Czech>
@@ -9433,15 +9441,13 @@
             <Portuguese>Armurerie SWAT</Portuguese>
             <Polish>Armurerie SWAT</Polish>
         </Key>
-        <Key ID="STR_MAR_W_E_Vehicle Shop">
-            <Original>Vendeur de Véhicules Rebelles</Original>
-            <Czech>Shop Vehicle</Czech>
-            <French>Vendeur de Véhicules Rebelles</French>
-            <Spanish>Tienda de Vehículos</Spanish>
-            <Italian>di veicoli</Italian>
-            <German>Autohändler</German>
-            <Portuguese>Loja de Carros</Portuguese>
-            <Polish>Pojazdy - sklep</Polish>
+        <Key ID="STR_MAR_W_E_Vehicle_Shop">
+            <Original>Vendeur de Véhicules</Original>
+            <French>Vendeur de Véhicules</French>
+        </Key>
+        <Key ID="STR_MAR_W_E_VehicleRebel_Shop">
+            <Original>Vendeur de Véhicules</Original>
+            <French>Vendeur de Véhicules</French>
         </Key>
         <Key ID="STR_MAR_Process_Sand">
             <Original>Process Sand</Original>

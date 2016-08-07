@@ -17,6 +17,7 @@ StartProgress = false;
 [] execVM "safezone.sqf";
 //Météo
 //[] execVM "D41_Wetter.sqf";
-
+//IgiLoadDepanneur
+_igiload = execVM "IgiLoad\IgiLoadInit.sqf";
 StartProgress = true;
 

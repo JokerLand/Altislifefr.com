@@ -309,6 +309,7 @@ class CarShops {
 			{ "GR_UH1H_3", { "", "", -1 } },
 			{ "GR_UH1N_1", { "", "", -1 } }, 
 			{ "GR_UH1N_2", { "", "", -1 } }, 
+			{ "globemaster_c17_Qatar", { "", "", -1 } }, 
 			{ "IVORY_ERJ135_1", { "", "", -1 } } 
 		};
 	};	
@@ -3496,6 +3497,13 @@ class LifeCfgVehicles {
         vItemSpace = 35;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
         price = 175000;
+        textures[] = { };
+    };
+    
+    class globemaster_c17_Qatar {  
+        vItemSpace = 45;
+        licenses[] = { {"pilot"}, {""}, {""}, {""} };
+        price = 350000;
         textures[] = { };
     };
     
