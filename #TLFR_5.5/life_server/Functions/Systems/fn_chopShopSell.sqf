@@ -6,12 +6,11 @@
     Description:
     Checks whether or not the vehicle is persistent or temp and sells it.
 */
-params [
-  ["_unit",objNull,[objNull]],
-  ["_vehicle",objNull,[objNull]],
-  ["_price",500,[0]],
-  ["_cash",0,[0]]
-];
+private["_unit","_vehicle","_price","_cash"];
+_unit = [_this,0,objNull,[objNull]] call BIS_fnc_param;
+_vehicle = [_this,1,objNull,[objNull]] call BIS_fnc_param;
+_price = [_this,2,500,[0]] call BIS_fnc_param;
+_cash = [_this,3,0,[0]] call BIS_fnc_param;
 
 //Error checks
 if (isNull _vehicle || isNull _unit) exitWith  {
