@@ -1,0 +1,297 @@
+author = "Tonic & TanoaLifeFr";
+onLoadName = "Tanoa Life RPG v5.5";
+onLoadMission = "Un mod roleplay développé par www.Tanoa-LifeFr.com";
+
+joinUnassigned = 1;
+respawndelay = 5;
+disabledAI = true;
+
+enableDebugConsole = 1;
+LoadScreen  = "textures\armalife.jpg";
+respawnDialog = 0;
+
+class Header
+{
+	gameType = RPG;
+	minPlayers = 1;
+	maxPlayers = 120;
+};
+
+wreckLimit = 3;
+wreckRemovalMinTime = 60;
+wreckRemovalMaxTime = 320;
+corpseLimit = 150;
+corpseRemovalMinTime = 999;
+corpseRemovalMaxTime = 9999;
+
+disableChannels[]={{0,true,true},{1,true,true},{2,true,true},{3,false,false},{4,false,false},{5,false,false}};    // Disabled text and voice for global, side, and command channels. disableChannels[] = {{channelID<number>, disableChat<bool>, disableVoice<bool>}};
+
+#include "Config_Spyglass.hpp"
+#include "CfgRemoteExec.hpp"
+#include "dialog\MasterHandler.hpp"
+#include "Config_Master.hpp"
+
+class CfgServer {
+    DatabaseName = "altislife"; //Config name that'll be grep in the extdb-conf.ini. Default: [altislife]
+    DebugMode = 0; //Enable many server/hc debugging logs. Default: 0 (1 = Enabled / 0 = Disabled)
+    HeadlessSupport = 1; //Enable/Disable Headless client support. Default: 1 (1 = Enabled / 0 = Disabled)
+    /*
+    Enabled: When HeadlessSupport is set to 1 (enabled), the server will run without fault when no Headless Client is connected. However, it will support the Headless Client if you choose to connect one.
+    Disabled: If HeadlessSupport is set to 0 (disabled), the connection of a Headless Client will make no difference. This option will increase server performance a TINY but negligible amount.
+    */
+};
+
+class RscTitles {
+    #include "dialog\progress.hpp"
+    #include "dialog\hud_nameTags.hpp"
+    #include "dialog\hud_stats.hpp"
+	#include "statusBar.hpp"
+};
+
+class CfgFunctions {
+    #include "Functions.hpp"
+};
+
+class CfgSounds
+{
+	sounds[] = {};
+	class SirenLong
+	{
+		name = "SirenLong";
+		sound[] = {"\sounds\SirenLong.ogg", 1.0, 1};
+		titles[] = {};
+	};
+
+	class SirenMedic
+	{
+		name = "SirenMedic";
+		sound[] = {"\sounds\Siren_Medic.ogg", 1.0, 1};
+		titles[] = {};
+	};
+	
+	class tazersound
+	{
+		name = "Tazersound";
+		sound[] = {"\sounds\tazer.ogg", 0.25, 1};
+		titles[] = {};
+	};
+
+	class flashbang
+	{
+		name = "flashbang";
+		sound[] = {"\sounds\flashbang.ogg", 1.0, 1};
+		titles[] = {};
+	};
+
+	class BeepBeep
+    {
+        name = "BeepBeep";
+        sound[] = {"\sounds\BeepBeep.ogg", 0.9, 1};
+        titles[] = {};
+    };
+
+	class beepshoot
+    {
+        name = "beepshoot";
+        sound[] = {"\sounds\beepshoot.ogg", 1, 1};
+        titles[] = {};
+    };
+	
+    class Beep
+    {
+        name = "Beep";
+        sound[] = {"\sounds\Beep.ogg", 0.9, 1};
+        titles[] = {};
+    };
+
+	class Cuff
+    {
+        name = "cuff";
+        sound[] = {"\sounds\cuff.ogg", 0.95, 0.95};
+        titles[] = {};
+    };
+
+	class Caching
+    {
+	    name = "caching";
+	    sound[] = {"\sounds\caching.ogg", 1, 1};
+	    titles[] = {};
+    };
+
+	class Bag
+    {
+	    name = "bag";
+	    sound[] = {"\sounds\bag.ogg", 1, 1};
+	    titles[] = {};
+    };
+
+	class Intro
+    {
+	    name = "Intro";
+	    sound[] = {"\sounds\Intro.ogg", 1, 1};
+	    titles[] = {};
+    };
+
+	class alert
+    {
+        name = "alert";
+        sound[] = {"\sounds\alert.ogg", 5, 5};
+        titles[] = {};
+    };
+    
+    class alertmessage
+    {
+        name = "alertmessage";
+        sound[] = {"\sounds\alertmessage.ogg", 1.0, 1};
+        titles[] = {};
+    };
+
+	class car_alarm
+	{
+		name="car_alarm";
+		sound[] = {"\sounds\car_alarm.ogg", 1, 1};
+		titles[] = {};
+
+	};
+
+	class boire
+	{
+		name="boire";
+		sound[] = {"\sounds\boire.ogg", 7, 7};
+		titles[] = {};
+
+	};
+	
+	class soif
+	{
+		name="soif";
+		sound[] = {"\sounds\soif.ogg", 5, 5};
+		titles[] = {};
+
+	};
+
+	class mange
+	{
+		name="mange";
+		sound[] = {"\sounds\mange.ogg", 5, 5};
+		titles[] = {};
+
+	};
+	
+	class alarme_magasin
+    {
+        name = "alarme_magasin";
+        sound[] = {"\sounds\alarme_magasin.ogg", 1, 1};
+        titles[] = {};
+	};
+
+	class Mining
+    {
+	    name = "mining";
+        sound[] = {"\sounds\mining.ogg", 0.95, 0.95};
+        titles[] = {};
+    };
+	
+	class Bank
+    {
+	    name = "Bank";
+        sound[] = {"\sounds\bank.ogg", 0.95, 0.95};
+        titles[] = {};
+    };
+};
+
+class CfgDebriefing {
+  
+    class NotWhitelisted {
+		title = "Echec Mission";
+		subtitle = "Vous n'êtes pas whitelist";
+		description = "Vous n'avez pas la permission d'utiliser ce slot car vous n'êtes pas whitelist.";
+		pictureBackground = "";
+		picture = "";
+		pictureColor[] = {0,0.3,0.6,1};
+	};
+
+    class Blacklisted {
+		title = "BlackList";
+		subtitle = "Vous êtes Blackliste de la Police";
+		description = "Vous avez été blacklist de la police, cela veut dire que vous n'avez plus le droit de jouer policier sur le serveur AltisLifeFr.com. Pour plus d'informations merci de vous référer à un ModGlobal/Fondateur sur le Teamspeak";
+		pictureBackground = "";
+		picture = "";
+		pictureColor[] = {0,0.3,0.6,1};
+	};
+
+    class SpyGlass {
+		title = "The SpyGlass sees you";
+		subTitle = "Vous avez été détecter par SpyGlass";
+		description = "Vous avez été détecter avec un fichier non autorisé.";
+		pictureBackground = "";
+		picture = "";
+		pictureColor[] = {0,0.3,0.6,1};
+	};
+};
+
+class CfgNotifications {
+    class MedicalRequestEmerg {
+        title = "Alerte SAMU";
+        iconPicture = "\A3\ui_f\data\map\mapcontrol\taskIcon_ca.paa";
+        description = "%1";
+        duration = 5;
+        priority = 7;
+    };
+
+    class DeliveryAssigned {
+        title = "Job de Livraison accepté";
+        iconPicture = "\A3\ui_f\data\map\mapcontrol\taskIcon_ca.paa";
+        description = "%1";
+        duration = 10;
+        priority = 7;
+    };
+
+    class DeliveryFailed {
+        title = "Job de Livraison échoué";
+        iconPicture = "\A3\ui_f\data\map\mapcontrol\taskiconfailed_ca.paa";
+        description = "%1";
+        duration = 7;
+        priority = 7;
+    };
+
+    class DeliverySucceeded {
+        title = "Job de Livraison terminé";
+        iconPicture = "\A3\ui_f\data\map\mapcontrol\taskIcondone_ca.paa";
+        description = "%1";
+        duration = 6;
+        priority = 6;
+    };
+
+    class TextMessage {
+        title = "Nouveau Message";
+        iconPicture = "icons\ico_messageNew.paa";
+        description = "%1";
+        duration = 10;
+        priority = 6;
+    };
+
+    class PoliceDispatch {
+        title = "Alerte Police Secours";
+        iconPicture = "icons\ico_messagePolice.paa";
+        description = "%1";
+        duration = 10;
+        priority = 6;
+    };
+
+    class AdminDispatch {
+        title = "Requête Admin";
+        iconPicture = "icons\ico_messageAdmin.paa";
+        description = "%1";
+        duration = 10;
+        priority = 6;
+    };
+
+    class AdminMessage {
+        title = "Message des Admins";
+        iconPicture = "icons\ico_messageAdmin.paa";
+        description = "%1";
+        duration = 10;
+        priority = 5;
+    };
+};
