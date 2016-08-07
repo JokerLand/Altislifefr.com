@@ -7,14 +7,16 @@
     Sends the query request to the database, if an array is returned then it creates
     the vehicle if it's not in use or dead.
 */
-private["_vid","_sp","_pid","_query","_sql","_vehicle","_nearVehicles","_name","_side","_tickTime","_dir","_servIndex","_damage","_wasIllegal","_location","_thread"];
-_vid = [_this,0,-1,[0]] call BIS_fnc_param;
-_pid = [_this,1,"",[""]] call BIS_fnc_param;
-_sp = [_this,2,[],[[],""]] call BIS_fnc_param;
-_unit = [_this,3,objNull,[objNull]] call BIS_fnc_param;
-_price = [_this,4,0,[0]] call BIS_fnc_param;
-_dir = [_this,5,0,[0]] call BIS_fnc_param;
-_spawntext = _this select 6;
+private["_query","_sql","_vehicle","_nearVehicles","_name","_side","_tickTime","_servIndex","_damage","_wasIllegal","_location","_thread"];
+params [
+  ["_vid",-1,[0]],
+  ["_pid","",[""]],
+  ["_sp",[],[[],""]],
+  ["_unit",objNull,[objNull]],
+  ["_price",0,[0]],
+  ["_dir",0,[0]],
+  ["_spawntext","",[""]]
+];
 _unit_return = _unit;
 _name = name _unit;
 _side = side _unit;
@@ -25,7 +27,7 @@ if (_vid in serv_sv_use) exitWith {};
 serv_sv_use pushBack _vid;
 _servIndex = serv_sv_use find _vid;
 
-_query = format["SELECT id, side, classname, type, pid, alive, active, plate, color, inventory, gear, fuel, damage, blacklist, insure FROM vehicles WHERE id='%1' AND pid='%2'",_vid,_pid]; 
+_query = format["SELECT id, side, classname, type, pid, alive, active, plate, color, inventory, gear, fuel, damage, blacklist FROM vehicles WHERE id='%1' AND pid='%2'",_vid,_pid];
 
 _tickTime = diag_tickTime;
 _queryResult = [_query,2] call DB_fnc_asyncCall;
@@ -98,7 +100,7 @@ _vehicle lock 2;
 //Reskin the vehicle
 [_vehicle,(_vInfo select 8)] remoteExecCall ["life_fnc_colorVehicle",_unit];
 _vehicle setVariable ["vehicle_info_owners",[[_pid,_name]],true];
-_vehicle setVariable ["dbInfo",[(_vInfo select 4),(_vInfo select 7),(_vInfo select 14)],true];
+_vehicle setVariable ["dbInfo",[(_vInfo select 4),(_vInfo select 7)],true];
 _vehicle disableTIEquipment true; //No Thermals.. They're cheap but addictive.
 [_vehicle] call life_fnc_clearVehicleAmmo;
 
@@ -168,9 +170,5 @@ if ((_vInfo select 1) isEqualTo "med" && (_vInfo select 2) isEqualTo "C_Offroad_
     [_vehicle,"med_offroad",true] remoteExecCall ["life_fnc_vehicleAnimate",_unit];
 };
 
-if ((_vInfo select 14) isEqualTo 1) then {
-	[1,"Votre véhicule est disponible et il est assuré!"] remoteExecCall ["life_fnc_broadcast",_unit];
-}else{
-	[1,"Votre véhicule est disponible mais il n'est pas assuré!"] remoteExecCall ["life_fnc_broadcast",_unit];
-};
-serv_sv_use deleteAt _servIndex; 
+[1,_spawntext] remoteExecCall ["life_fnc_broadcast",_unit];
+serv_sv_use deleteAt _servIndex;
