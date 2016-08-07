@@ -63,6 +63,7 @@ meth | multiprocess |FAIT| POINT MAP A FINIR DE PLACER
 -Remettre le "montrer son insigne"
 -Remettre les Safezones sur toute la map
 - Calibrer toutes les ressources ; Prix / Prix License / Trajet / Poids / nbr qu'on récolte en mm temps/etc
+Point entreprise à mettre map
 
 //Urgent : (Sakzy)
 -Bug clés de maison ?
