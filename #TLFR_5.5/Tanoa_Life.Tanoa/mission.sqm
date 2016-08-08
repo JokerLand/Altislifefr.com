@@ -8,18 +8,18 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=2515;
+		nextID=2522;
 	};
 	class MarkerIDProvider
 	{
-		nextID=237;
+		nextID=241;
 	};
 	class Camera
 	{
-		pos[]={5953.584,51.775543,10361.262};
-		dir[]={0.9277764,-0.34391776,-0.14535367};
-		up[]={0.33985332,0.93895942,-0.053246308};
-		aside[]={-0.15479438,-8.1603139e-007,-0.98803997};
+		pos[]={4944.6587,275.6405,10341.319};
+		dir[]={0.8992027,-0.42299604,-0.11195442};
+		up[]={0.41976276,0.90612692,-0.052262206};
+		aside[]={-0.12355252,4.2658939e-008,-0.9923535};
 	};
 };
 binarizationWanted=0;
@@ -358,7 +358,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=750;
+		items=753;
 		class Item0
 		{
 			dataType="Marker";
@@ -404,7 +404,7 @@ class Mission
 			position[]={5634.8228,2.21,10353.264};
 			name="civ_spawn_1";
 			type="Empty";
-			angle=111.80637;
+			angle=111.80634;
 			id=5;
 		};
 		class Item5
@@ -12369,13 +12369,13 @@ class Mission
 		class Item409
 		{
 			dataType="Marker";
-			position[]={-5677.1431,3.4519424,3337.1416};
+			position[]={-5668.5723,0,3337.1411};
 			name="légende_Safe";
 			text="Zone Safe";
-			type="hd_dot";
+			type="Select";
 			colorName="ColorGreen";
 			id=1607;
-			atlOffset=56.188629;
+			atlOffset=52.736694;
 		};
 		class Item410
 		{
@@ -16067,7 +16067,7 @@ class Mission
 			position[]={5620.7056,0,10384.956};
 			name="boat_2";
 			type="Empty";
-			angle=204.92252;
+			angle=204.9225;
 			id=2182;
 			atlOffset=2.8083351;
 		};
@@ -16077,7 +16077,7 @@ class Mission
 			position[]={9961.4336,-0.58544922,13659.115};
 			name="boat_2_1_1";
 			type="Empty";
-			angle=102.65115;
+			angle=102.65113;
 			id=2183;
 			atlOffset=6.7982564;
 		};
@@ -16570,7 +16570,7 @@ class Mission
 			position[]={5876.9536,21.208132,10294.576};
 			name="med_hel_1";
 			type="Empty";
-			angle=83.876625;
+			angle=83.876602;
 			id=2223;
 		};
 		class Item654
@@ -17723,7 +17723,7 @@ class Mission
 			position[]={9464.2549,7.0283446e+022,4261.2559};
 			name="boat_2_3";
 			type="Empty";
-			angle=32.075409;
+			angle=32.075405;
 			id=2441;
 			atlOffset=7.0283446e+022;
 		};
@@ -18004,7 +18004,7 @@ class Mission
 			position[]={3169.4246,7.0283446e+022,10989.669};
 			name="boat_2_5";
 			type="Empty";
-			angle=162.93068;
+			angle=162.93066;
 			id=2457;
 			atlOffset=7.0283446e+022;
 		};
@@ -18423,6 +18423,43 @@ class Mission
 			id=2499;
 			type="Land_GamingSet_01_controller_F";
 			atlOffset=0.00015258789;
+		};
+		class Item750
+		{
+			dataType="Marker";
+			position[]={-5653.1182,7.0902309e+036,3345.3279};
+			name="Legende_safe";
+			markerType="ELLIPSE";
+			type="ellipse";
+			colorName="ColorGreen";
+			a=350;
+			b=350;
+			id=2515;
+			atlOffset=7.0902309e+036;
+		};
+		class Item751
+		{
+			dataType="Marker";
+			position[]={1262.786,-3.7582362e-017,565.47998};
+			name="spawnglobal_safe";
+			markerType="ELLIPSE";
+			type="ellipse";
+			colorName="ColorGreen";
+			a=175;
+			b=175;
+			id=2516;
+			atlOffset=-13.933151;
+		};
+		class Item752
+		{
+			dataType="Marker";
+			position[]={1268.1851,-3.7609044e-017,566.66302};
+			name="Marker_interdit";
+			text="Île de spawn, Accès strictement interdit !";
+			type="mil_warning";
+			colorName="ColorRed";
+			id=2521;
+			atlOffset=-14.390793;
 		};
 	};
 };

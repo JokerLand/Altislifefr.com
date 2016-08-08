@@ -8,7 +8,7 @@
     Edit the #defines below.
 */
 
-#define SAFETY_ZONES    [["rebelle_safezone", 50]]
+#define SAFETY_ZONES    [["spawnglobal_safe", 175],["rebelle_safezone", 50]]
 // Syntax: [["marker1", radius1], ["marker2", radius2], ...]
 #define MESSAGE "Vous êtes dans une safezone, vous ne pouvez pas entreprendre d'action agressive."
 
