@@ -280,7 +280,7 @@ class VirtualItems {
     class defibrillator {
         variable = "defibrillator";
         displayName = "STR_Item_Defibrillator";
-        weight = 4;
+        weight = 5;
         buyPrice = 900;
         sellPrice = 450;
         illegal = false;
@@ -291,7 +291,7 @@ class VirtualItems {
     class toolkit {
         variable = "toolkit";
         displayName = "STR_Item_Toolkit";
-        weight = 4;
+        weight = 5;
         buyPrice = 350;
         sellPrice = 100;
         illegal = false;
