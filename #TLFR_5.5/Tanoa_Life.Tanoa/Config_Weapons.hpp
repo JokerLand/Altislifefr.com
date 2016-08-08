@@ -45,8 +45,7 @@ class WeaponShops {
         side = "civ";
         level[] = { "", "", -1, "" };
         items[] = {        
-            { "arifle_SDAR_F", "", 75000, -1 },   
-            { "optic_ACO_grn_smg", "", 500 }
+            { "arifle_SDAR_F", "", 75000, -1 }
         };
         mags[] = {
             { "20Rnd_556x45_UW_mag", "Chargeur SDAR", 25 }  
