@@ -5,10 +5,10 @@ class EditorData
 	angleGridStep=0.2617994;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=513;
+	toggles=641;
 	class ItemIDProvider
 	{
-		nextID=2434;
+		nextID=2436;
 	};
 	class MarkerIDProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={5811.856,16.531586,10307.325};
-		dir[]={-0.56797874,-0.51500934,-0.6420089};
-		up[]={-0.3412506,0.85718334,-0.38572931};
-		aside[]={-0.74897367,3.7369318e-008,0.66260999};
+		pos[]={8876.5156,154.85136,14916.044};
+		dir[]={-0.22910352,-0.93393517,-0.27437571};
+		up[]={-0.5986197,0.35733876,-0.7169109};
+		aside[]={-0.76759386,9.9011231e-008,0.64094019};
 	};
 };
 binarizationWanted=0;
@@ -276,6 +276,24 @@ class CustomAttributes
 		name="Multiplayer";
 		class Attribute0
 		{
+			property="RespawnTemplates";
+			expression="true";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"ARRAY"
+						};
+					};
+				};
+			};
+		};
+		class Attribute1
+		{
 			property="RespawnButton";
 			expression="true";
 			class Value
@@ -290,24 +308,6 @@ class CustomAttributes
 						};
 					};
 					value=1;
-				};
-			};
-		};
-		class Attribute1
-		{
-			property="RespawnTemplates";
-			expression="true";
-			class Value
-			{
-				class data
-				{
-					class type
-					{
-						type[]=
-						{
-							"ARRAY"
-						};
-					};
 				};
 			};
 		};
@@ -366,7 +366,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=722;
+		items=724;
 		class Item0
 		{
 			dataType="Marker";
@@ -398,13 +398,13 @@ class Mission
 		class Item3
 		{
 			dataType="Marker";
-			position[]={5893.8394,14.96,10243.784};
+			position[]={5893.8389,-2.5923899e-016,10243.784};
 			name="hospital_marker";
 			text="@STR_MAR_Hospital";
 			type="loc_Hospital";
 			colorName="ColorRed";
-			angle=117.21129;
 			id=4;
+			atlOffset=-14.96;
 		};
 		class Item4
 		{
@@ -1272,7 +1272,7 @@ class Mission
 			type="o_armor";
 			colorName="Color1_FD_F";
 			id=172;
-			atlOffset=66.689911;
+			atlOffset=70.7034;
 		};
 		class Item87
 		{
@@ -1321,7 +1321,7 @@ class Mission
 			position[]={5887.001,14.96,10265.318};
 			name="medic_spawn_1";
 			type="Empty";
-			angle=123.70238;
+			angle=123.70237;
 			id=178;
 		};
 		class Item92
@@ -1436,13 +1436,12 @@ class Mission
 		class Item103
 		{
 			dataType="Marker";
-			position[]={5888.6216,2.3888326e+031,10243.642};
+			position[]={5887.2773,0,10244.074};
 			name="atm_marker_1_1";
 			type="loc_Tourism";
 			colorName="ColorGreen";
-			angle=117.21129;
 			id=204;
-			atlOffset=2.3888326e+031;
+			atlOffset=-8.5100002;
 		};
 		class Item104
 		{
@@ -1463,7 +1462,7 @@ class Mission
 			type="loc_ViewTower";
 			colorName="ColorYellow";
 			id=207;
-			atlOffset=43.141273;
+			atlOffset=39.542492;
 		};
 		class Item106
 		{
@@ -2469,6 +2468,7 @@ class Mission
 			};
 			id=560;
 			type="Land_Atm_02_F";
+			atlOffset=0.10159349;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -10444,8 +10444,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={-1050.8823,0.57273102,11112.957};
-				angles[]={0,2.8431046,0};
+				position[]={-1050.882,0.57300186,11112.957};
+				angles[]={0,2.8431063,0};
 			};
 			side="Empty";
 			class Attributes
@@ -10454,7 +10454,7 @@ class Mission
 			};
 			id=1243;
 			type="Land_InfoStand_V2_F";
-			atlOffset=55.836731;
+			atlOffset=55.837002;
 		};
 		class Item292
 		{
@@ -10471,7 +10471,7 @@ class Mission
 			};
 			id=1247;
 			type="Land_InfoStand_V2_F";
-			atlOffset=1.1610088;
+			atlOffset=0.90207481;
 		};
 		class Item293
 		{
@@ -10482,7 +10482,6 @@ class Mission
 				angles[]={0,1.6464937,0};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 				init="this enableSimulation false; this allowDamage false; this addAction[localize""STR_MAR_Station_Shop"",life_fnc_weaponShopMenu,""f_station_store""];this addAction[localize""STR_Shop_Station_Coffee"",life_fnc_virt_menu,""f_station_coffee""]; this addAction[""Braquer la Station Service"",life_fnc_robShops];";
@@ -10490,6 +10489,7 @@ class Mission
 			};
 			id=1257;
 			type="Land_CashDesk_F";
+			atlOffset=0.45763612;
 		};
 		class Item294
 		{
@@ -11061,7 +11061,6 @@ class Mission
 			};
 			id=1477;
 			type="Land_CashDesk_F";
-			atlOffset=0.046600342;
 		};
 		class Item327
 		{
@@ -11090,6 +11089,7 @@ class Mission
 				angles[]={0,0.88736027,6.2826962};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 				init=" " \n "this enableSimulation false; this allowDamage false; this addAction[localize""STR_MAR_Station_Shop"",life_fnc_weaponShopMenu,""f_station_store""];this addAction[localize""STR_Shop_Station_Coffee"",life_fnc_virt_menu,""f_station_coffee""]; ";
@@ -11097,7 +11097,7 @@ class Mission
 			};
 			id=1482;
 			type="Land_CashDesk_F";
-			atlOffset=0.41699982;
+			atlOffset=0.00032043457;
 		};
 		class Item329
 		{
@@ -11895,13 +11895,13 @@ class Mission
 				angles[]={6.2802153,0.61963892,0.0019531252};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 				init="this enableSimulation false; this allowDamage false; this addAction[localize""STR_Shops_W_Gun"",life_fnc_weaponShopMenu,""gun"",0,false,false,"""",' license_civ_gun && playerSide isEqualTo civilian']; this addAction[localize ""STR_Shops_C_Gun"",life_fnc_clothingMenu,""gun_clothing"",0,false,false,"""",' license_civ_gun && playerSide isEqualTo civilian']; this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""gun"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""gun"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""gun"",0,false,false,"""",' !license_civ_gun && playerSide isEqualTo civilian '];";
 			};
 			id=1557;
 			type="Land_CashDesk_F";
+			atlOffset=0.43502426;
 		};
 		class Item378
 		{
@@ -14790,25 +14790,24 @@ class Mission
 				angles[]={0,3.1179285,0};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 				init="this allowDamage false; this enableSimulation false; this addAction[localize""STR_MAR_Emeraude_Trader"",life_fnc_virt_menu,""emeraudev""];";
 			};
 			id=2045;
 			type="Land_CashDesk_F";
-			atlOffset=1.0941505;
 		};
 		class Item541
 		{
 			dataType="Marker";
-			position[]={13959.279,52.728737,9207.8516};
+			position[]={13959.28,6.905079e+019,9207.8516};
 			name="emeraude_trader";
 			text="Vendeur d'Emeraude";
 			type="mil_box";
 			colorName="ColorGUER";
-			angle=11.931148;
 			id=2046;
-			atlOffset=0.21630478;
+			atlOffset=6.905079e+019;
 		};
 		class Item542
 		{
@@ -14878,13 +14877,13 @@ class Mission
 		class Item547
 		{
 			dataType="Marker";
-			position[]={8866.2813,-4.5266113,14915.59};
+			position[]={8876.4326,0,14916.043};
 			name="corail_1";
-			text="Récif Coraillien";
+			text="Récif Corallien";
 			type="mil_dot";
 			colorName="ColorOrange";
 			id=2052;
-			atlOffset=-4.2095556;
+			atlOffset=0.74720949;
 		};
 		class Item548
 		{
@@ -16564,7 +16563,6 @@ class Mission
 			};
 			id=2203;
 			type="Land_CashDesk_F";
-			atlOffset=0.19844246;
 		};
 		class Item652
 		{
@@ -16805,11 +16803,12 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={5888.8193,21.622494,10306.278};
+				position[]={5888.8188,21.622072,10306.278};
 			};
 			init="(getPos this nearestObject 464720) hideObject true; this allowDamage false; " \n "";
 			id=2225;
 			type="SideBLUFOR_F";
+			atlOffset=0.44602394;
 		};
 		class Item668
 		{
@@ -17838,6 +17837,40 @@ class Mission
 			id=2433;
 			type="Land_HeliPad";
 			atlOffset=-4;
+		};
+		class Item722
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={8881.0029,-16.948587,14914.655};
+				angles[]={0,1.5707964,0};
+			};
+			side="Empty";
+			flags=1;
+			class Attributes
+			{
+			};
+			id=2434;
+			type="Land_PierWooden_01_hut_F";
+			atlOffset=0.79005027;
+		};
+		class Item723
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={8873.8057,-18.314707,14915.824};
+				angles[]={0,4.712389,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=2435;
+			type="Land_PierWooden_01_10m_noRails_F";
+			atlOffset=-0.19999999;
 		};
 	};
 };
