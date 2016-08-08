@@ -152,7 +152,8 @@ class CarShops {
             { "C_Scooter_Transport_01_F", { "", "", -1 } },
             { "C_Rubberboat", { "", "", -1 } },
             { "C_Boat_Civil_01_F", { "", "", -1 } },
-            { "C_Boat_Transport_02_F", { "", "", -1 } }
+            { "C_Boat_Transport_02_F", { "", "", -1 } },
+            { "Burnes_MK10_1", { "", "", -1 } }
         };
     };
 
@@ -3582,7 +3583,14 @@ class LifeCfgVehicles {
     class C_Boat_Transport_02_F {
         vItemSpace = 200;
         licenses[] = { {"boat"}, {""}, {""}, {""} };
-        price = 50000;
+        price = 75000;
+        textures[] = {};
+    };
+    
+    class Burnes_MK10_1 {
+        vItemSpace = 30;
+        licenses[] = { {"boat"}, {""}, {""}, {""} };
+        price = 250000;
         textures[] = {};
     };
 
@@ -3914,7 +3922,7 @@ class LifeCfgVehicles {
     class C_Boat_Civil_01_F {
         vItemSpace = 85;
         licenses[] = { {"boat"}, {""}, {""}, {""} };
-        price = 77000;
+        price = 50000;
         textures[] = { };
     };
     
