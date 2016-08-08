@@ -5855,8 +5855,8 @@
             <French>Rondin de Bois</French>
         </Key>
         <Key ID="STR_Item_Boisp">
-            <Original>Buche Sciée</Original>
-            <French>Buche Sciée</French>
+            <Original>Planche de bois</Original>
+            <French>Planche de bois</French>
         </Key>
         <Key ID="STR_Item_FuelE">
             <Original>Empty Fuel Canister</Original>
