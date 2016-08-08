@@ -14,7 +14,7 @@ systemChat format["[TanoaLifeFr] HUD Chargement %1!", _rscLayer];
 	{
 		sleep 1;
 		_counter = _counter - 1;
-		_statusText = "TanoaLifeFr par AltisLifeFr.com";
+		_statusText = "TanoaLifeFr";
 		((uiNamespace getVariable "altiStatusBar")displayCtrl 1000)ctrlSetText format["%3 | TS3 : ts3.altislifefr.com | Policiers: %4 | Medic: %6 | Position: %5  | Joueurs connectés: %2  ", round diag_fps, count playableUnits, _statusText, west countSide playableUnits, mapGridPosition player, independent countSide playableUnits, _counter];
 	};
 };

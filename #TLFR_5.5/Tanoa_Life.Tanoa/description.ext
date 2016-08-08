@@ -1,6 +1,6 @@
 author = "Tonic & TanoaLifeFr";
 onLoadName = "Tanoa Life RPG v5.5";
-onLoadMission = "Un mod roleplay développé par www.Tanoa-LifeFr.com";
+onLoadMission = "Un mod roleplay développé par www.AltisLifeFr.com";
 
 joinUnassigned = 1;
 respawndelay = 5;
