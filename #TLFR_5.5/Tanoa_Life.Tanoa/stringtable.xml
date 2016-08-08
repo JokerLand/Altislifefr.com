@@ -8580,6 +8580,10 @@
             <Portuguese>Área de Tartarugas</Portuguese>
             <Polish>Strefa występowania żółwi morskich</Polish>
         </Key>
+        <Key ID="STR_MAR_Turtle_Weapon">
+            <Original>Vendeur d'équipement de tortues</Original>
+            <French>Vendeur d'équipement de tortues</French>
+        </Key>
         <Key ID="STR_MAR_Turtle_Dealer">
             <Original>Turtle Dealer</Original>
             <Czech>Turtle prodejce</Czech>
