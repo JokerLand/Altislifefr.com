@@ -34,7 +34,12 @@ switch (true) do {
 		[cursorTarget] spawn life_fnc_boltcutter;
 		closeDialog 0;
 	};
-
+    
+    case (EQUAL(_item,"gpsTracker")): {
+		[cursorTarget] spawn life_fnc_gpsTracker;   
+		closeDialog 0;
+	};
+    
 	case (EQUAL(_item,"blastingcharge")): {
 		player reveal fed_bank;
 		(group player) reveal fed_bank;
@@ -140,10 +145,6 @@ switch (true) do {
 		[] spawn life_fnc_crowbar;
 		};
 	
-    case (_item == "gpsTracker"): {
-		[cursorTarget] spawn life_fnc_gpsTracker;
-		closeDialog 0;
-	};    
     
 	case (_item == "passeport"):
 		{
@@ -314,7 +315,6 @@ switch (true) do {
 		{
 			[] spawn life_fnc_meth;
 		};
-	};
 	};
 	
 	case (_item =="rhum"):
