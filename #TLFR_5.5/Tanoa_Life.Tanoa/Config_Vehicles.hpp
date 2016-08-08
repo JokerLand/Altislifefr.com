@@ -40,10 +40,12 @@ class CarShops {
 			//{ "Jonzie_Mini_Cooper_R_spec", { "", "", -1 } }, //225km
 			//{ "cl3_e60_m5_black", { "", "", -1 } },
 			{ "GeK_Supra", { "", "", -1 } },
+            { "C_Offroad_02_unarmed_F", { "", "", -1 } },
 			//{ "cl3_e63_amg_black", { "", "", -1 } },
 			//{ "cl3_dodge_charger_s_black", { "", "", -1 } },
 			{ "GeK_ElCamino", { "", "", -1 } },
 			{ "GeK_TLC100", { "", "", -1 } },
+			{ "Conry_Tahoe", { "", "", -1 } },
 			//{ "Sn0cky_CT200h_noir", { "", "", -1 } },
 			//{ "cl3_q7_black", { "", "", -1 } },
 			{ "GeK_A45", { "", "", -1 } },
@@ -119,7 +121,6 @@ class CarShops {
             { "C_Van_01_box_F", { "", "", -1 } },
             { "I_Truck_02_transport_F", { "", "", -1 } },
             { "I_Truck_02_covered_F", { "", "", -1 } },
-            { "cg_rv_camper", { "", "", -1 } },
             { "shounka_a3_spr_civ", { "", "", -1 } },
             { "B_Truck_01_transport_F", { "", "", -1 } },
 			//{ "Jonzie_Tanker_Truck", { "", "", -1 } },
@@ -186,7 +187,7 @@ class CarShops {
             { "C_SUV_01_F", { "life_mediclevel", "SCALAR", 2 } },
 			//{ "Jonzie_Ambulance", { "life_mediclevel", "SCALAR", 2 } },//
 			{ "GeK_TLC100_Medic", { "life_mediclevel", "SCALAR", 3 } },
-			{ "zorak_master_ambulance", { "life_mediclevel", "SCALAR", 4 } },//
+			//{ "zorak_master_ambulance", { "life_mediclevel", "SCALAR", 4 } },//
 			{ "GeK_S60_Medic", { "life_mediclevel", "SCALAR", 4 } },
             { "B_Truck_01_medical_F", { "life_mediclevel", "SCALAR", 5 } }
         };
@@ -236,7 +237,8 @@ class CarShops {
         side = "cop";
         vehicles[] = {
             { "GeK_Panhard", { "", "", -1 } },
-			{ "ALFR_suv_armee", { "life_coplevel", "SCALAR", 2 } },
+			{ "ALFR_suv_armee", { "", "", -1 } },
+			{ "GeK_S60", { "life_coplevel", "SCALAR", 2 } },
 			{ "GeK_TLC100_Police", { "life_coplevel", "SCALAR", 2 } },
 			{ "GeK_TLC100", { "life_coplevel", "SCALAR", 3 } },
 			{ "B_MRAP_01_F", { "life_coplevel", "SCALAR", 3 } }
@@ -754,11 +756,53 @@ class LifeCfgVehicles {
 	}; 
     
     class C_Offroad_02_unarmed_F {   
-		vItemSpace = 65;
-        licenses[] = { {""}, {""}, {""}, {""} };
+		vItemSpace = 45;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
 		price = 65000;
         textures[] = {
-			{ "Police", "cop", {
+			{ "Noir", "civ", {
+                "#(ai,64,64,1)Fresnel(0.3,3)"
+            } },
+			{ "Gris sombre", "civ", {
+                "#(argb,8,8,3)color(0.1,0.1,0.1,0.7)"
+            } },
+			{ "Gris", "civ", {
+                "#(argb,8,8,3)color(0.5,0.5,0.5,0.1)"
+            } },
+			{ "Gris clair", "civ", {
+                "#(argb,8,8,3)color(0.3,0.3,0.3,0.8)"
+            } },
+			{ "Blanc", "civ", {
+                "#(argb,8,8,3)color(1,1,1,1)"
+            } },
+			{ "Sable", "civ", {
+                "#(argb,8,8,3)color(1.5,1.6,0.9,0.2)"
+            } },
+			{ "Bordeau", "civ", {
+                "#(argb,8,8,3)color(1,0,0,0.1)"
+            } },
+			{ "Bleu", "civ", {
+                "#(argb,8,8,3)color(0.01,0.6,1,0.1)"
+            } },
+			{ "Bleu Nuit", "civ", {
+                "#(argb,8,8,3)color(0,0,0.5,0.1)"
+            } },
+			{ "Mauve Nuit", "civ", {
+                "#(argb,8,8,3)color(0.6,0,1,0.01)"
+            } },
+			{ "Vert", "civ", {
+                "#(argb,8,8,3)color(0.5,1,0.5,0.05)"
+            } },
+			{ "Rouge", "civ", {
+                "#(argb,8,8,3)color(1,0,0,1)"
+            } },
+			{ "Jaune", "civ", {
+                "#(argb,8,8,3)color(0.6,0.3,0.01,1)"
+            } },
+			{ "Orange", "civ", {
+                "#(argb,8,8,3)color(1,0.3,0.01,0.6)"
+            } },
+			{ "Gendarmerie", "cop", {
                 "ALFR_TexSnd\jeepGendarmerie.paa"
             } },
 			{ "Pompier", "med", {
@@ -1437,6 +1481,84 @@ class LifeCfgVehicles {
 		};
 	};	
     
+    class Conry_Tahoe {  
+        vItemSpace = 55;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 182000;
+		textures[] = {
+
+			{ "Noir", "civ", {
+                "#(ai,64,64,1)Fresnel(0.3,3)"
+            } },			
+			{ "Gris sombre", "civ", {
+                "#(argb,8,8,3)color(0.1,0.1,0.1,0.7)"
+            } },
+			{ "Gris", "civ", {
+                "#(argb,8,8,3)color(0.5,0.5,0.5,0.1)"
+            } },
+			{ "Gris clair", "civ", {
+                "#(argb,8,8,3)color(0.3,0.3,0.3,0.8)"
+            } },
+			{ "Blanc", "civ", {
+                "#(argb,8,8,3)color(1,1,1,1)"
+            } },
+			{ "Sable", "civ", {
+                "#(argb,8,8,3)color(1.5,1.6,0.9,0.2)"
+            } },
+			{ "Bordeau", "civ", {
+                "#(argb,8,8,3)color(1,0,0,0.1)"
+            } },
+			{ "Bleu", "civ", {
+                "#(argb,8,8,3)color(0.01,0.6,1,0.1)"
+            } },
+			{ "Bleu Nuit", "civ", {
+                "#(argb,8,8,3)color(0,0,0.5,0.1)"
+            } },
+			{ "Mauve Nuit", "civ", {
+                "#(argb,8,8,3)color(0.6,0,1,0.01)"
+            } },
+			{ "Vert", "civ", {
+                "#(argb,8,8,3)color(0.5,1,0.5,0.05)"
+            } },
+			{ "Rouge", "civ", {
+                "#(argb,8,8,3)color(1,0,0,1)"
+            } },
+			{ "Jaune", "civ", {
+                "#(argb,8,8,3)color(0.6,0.3,0.01,1)"
+            } },
+			{ "Orange", "civ", {
+                "#(argb,8,8,3)color(1,0.3,0.01,0.6)"
+            } },
+            { "Bleu", "reb", {
+                "ALFR_TexSnd\Conry_Tahoe\bleutexture.paa"
+            } },
+            { "Boisé", "reb", {
+                "ALFR_TexSnd\Conry_Tahoe\boisetexture.paa"
+            } },
+            { "Camo Clair", "reb", {
+                "ALFR_TexSnd\Conry_Tahoe\camoclairtexture.paa"
+            } },
+            { "Desert", "reb", {
+                "ALFR_TexSnd\Conry_Tahoe\deserttexture.paa"
+            } },
+            { "Digital", "reb", {
+                "ALFR_TexSnd\Conry_Tahoe\digitaltexture.paa"
+            } },
+            { "Hiver", "reb", {
+                "ALFR_TexSnd\Conry_Tahoe\hivertexture.paa"
+            } },
+            { "Jaune Orangé", "reb", {
+                "ALFR_TexSnd\Conry_Tahoe\orangetexture.paa"
+            } },
+            { "Rouge Digital", "reb", {
+                "ALFR_TexSnd\Conry_Tahoe\rougetexture.paa"
+            } },
+            { "Vert", "reb", {
+                "ALFR_TexSnd\Conry_Tahoe\verttexture.paa"
+            } }
+		};
+	};	
+    
     class GeK_Panhard  {    
         vItemSpace = 30;
         licenses[] = { {""}, {"armee"}, {""}, {""} };
@@ -1664,7 +1786,7 @@ class LifeCfgVehicles {
     
     class GeK_S60 {
         vItemSpace = 40;
-        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        licenses[] = { {"driver"}, {"armee"}, {""}, {""} };
         price = 148750;
 		textures[] = {
 
@@ -1709,6 +1831,9 @@ class LifeCfgVehicles {
             } },
 			{ "Orange", "civ", {
                 "#(argb,8,8,3)color(1,0.3,0.01,0.6)"
+            } },
+            { "Armee", "cop", {
+                "alfr_Arm\data\VolvoArmee.jpg"
             } }
 		};
 	};	
@@ -4400,11 +4525,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
 		};
 	};
     
-    class cg_rv_camper : Default {
-		vItemSpace = 80;
-        licenses[] = { {"trucking"}, {""}, {""}, {""} };
-		price = 130000;
-	};
+    
     
     class CL3_bus_cl_black : Default {
 		vItemSpace = 60;
