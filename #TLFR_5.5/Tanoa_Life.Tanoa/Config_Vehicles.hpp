@@ -3585,15 +3585,8 @@ class LifeCfgVehicles {
     
     class C_Boat_Transport_02_F {
         vItemSpace = 200;
-        licenses[] = { {"boat"}, {""}, {""}, {""} };
+        licenses[] = { {"boat"}, {"cg"}, {""}, {""} };
         price = 75000;
-        textures[] = {};
-    };
-    
-    class C_Boat_Transport_02_F {
-        vItemSpace = 200;
-        licenses[] = { {""}, {"cg"}, {""}, {""} };
-        price = 7500;
         textures[] = {};
     };
     
@@ -3601,13 +3594,6 @@ class LifeCfgVehicles {
         vItemSpace = 30;
         licenses[] = { {"boat"}, {"cg"}, {""}, {""} };
         price = 250000;
-        textures[] = {};
-    };
-    
-    class Burnes_MK10_1 {
-        vItemSpace = 30;
-        licenses[] = { {""}, {"cg"}, {""}, {""} };
-        price = 30000;
         textures[] = {};
     };
 
