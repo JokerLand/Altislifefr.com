@@ -43,41 +43,12 @@ class CfgGather {
             item = "";
         };        
 
-        class heroin_unprocessed {
-            amount = 3;
-            zones[] = { "heroin_1" };
-            item = "";
-        };
-
-        class cocaine_unprocessed {
-            amount = 3;
-            zones[] = { "cocaine_1" };
-            item = "";
-        };
-
-        class cannabis {
-            amount = 3;
-            zones[] = { "weed_1" };
-            item = "";
-        };
-        
-        class tabacunprocessed {
-            amount = 2;
-            zones[] = { "tabac_1" };
-            item = "";
-        };
-        
         class sugarcaneunprocessed {
             amount = 2;
             zones[] = { "sugarcane_1" };
             item = "";
         };
         
-        class algueunprocessed {
-            amount = 3;
-            zones[] = { "algue_1" };
-            item = "";
-        };
     };
 
 /*
@@ -114,46 +85,11 @@ Example 2:
 */
 
     class Minerals {
-        class copper_unrefined {
-            amount = 2;
-            zones[] = { "copper_mine" };
-            item = "pickaxe";
-            mined[] = {"copper_unrefined"};
-        };
-
-        class iron_unrefined {
-            amount = 2;
-            zones[] = { "iron_mine" };
-            item = "pickaxe";
-            mined[] = { "iron_unrefined" };
-        };
-
-        class salt_unrefined {
-            amount = 2;
-            zones[] = { "salt_mine" };
-            item = "pickaxe";
-            mined[] = { "salt_unrefined" };
-        };
-
         class sand {
             amount = 2;
             zones[] = { "sand_mine" };
             item = "pickaxe";
             mined[] = { "sand" };
-        };
-
-        class diamond_uncut {
-            amount = 2;
-            zones[] = { "diamond_mine" };
-            item = "pickaxe";
-            mined[] = { "diamond_uncut" };
-        };
-
-        class rock {
-            amount = 2;
-            zones[] = { "rock_quarry" };
-            item = "pickaxe";
-            mined[] = { "rock" };
         };
 
         class oil_unprocessed {

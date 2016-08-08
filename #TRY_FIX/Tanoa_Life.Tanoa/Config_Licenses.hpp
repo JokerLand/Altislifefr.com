@@ -153,22 +153,6 @@ class Licenses {
         side = "civ";
     };
 
-    class diamond {
-        variable = "diamond";
-        displayName = "STR_License_Diamond";
-        price = 11000;
-        illegal = false;
-        side = "civ";
-    };
-
-    class salt {
-        variable = "salt";
-        displayName = "STR_License_Salt";
-        price = 7500;
-        illegal = false;
-        side = "civ";
-    };
-
     class sand {
         variable = "sand";
         displayName = "STR_License_Sand";
@@ -177,46 +161,6 @@ class Licenses {
         side = "civ";
     };
 
-    class iron {
-        variable = "iron";
-        displayName = "STR_License_Iron";
-        price = 7000;
-        illegal = false;
-        side = "civ";
-    };
-
-    class copper {
-        variable = "copper";
-        displayName = "STR_License_Copper";
-        price = 5500;
-        illegal = false;
-        side = "civ";
-    };
-
-    class cement {
-        variable = "cement";
-        displayName = "STR_License_Cement";
-        price = 6500;
-        illegal = false;
-        side = "civ";
-    };
-    
-    class tabaccigarette {
-        variable = "tabaccigarette";
-        displayName = "STR_License_TabacCigarette";
-        price = 24000;
-        illegal = false;
-        side = "civ";
-    };
-    
-    class tabaccigare {
-        variable = "tabaccigare";
-        displayName = "STR_License_TabacCigare";
-        price = 32000;
-        illegal = false;
-        side = "civ";
-    };
-    
     class sugarcane {
         variable = "sugarcane";
         displayName = "STR_License_Sugarcane";
@@ -225,46 +169,7 @@ class Licenses {
         side = "civ";
     };
     
-    class medmarijuana {
-        variable = "medmarijuana";
-        displayName = "STR_License_Medmarijuana";
-        price = 20000;
-        illegal = false;
-        side = "civ";
-    };
-
     //Illegal Licenses
-    class cocaine {
-        variable = "cocaine";
-        displayName = "STR_License_Cocaine";
-        price = 55000;
-        illegal = true;
-        side = "civ";
-    };
-
-    class heroin {
-        variable = "heroin";
-        displayName = "STR_License_Heroin";
-        price = 50000;
-        illegal = true;
-        side = "civ";
-    };
-
-    class marijuana {
-        variable = "marijuana";
-        displayName = "STR_License_Marijuana";
-        price = 40000;
-        illegal = true;
-        side = "civ";
-    };
-	
-    class tabacjoint {
-        variable = "tabacjoint";
-        displayName = "STR_License_TabacJoint";
-        price = 70000;
-        illegal = true;
-        side = "civ";
-    };
     
     /*class gangster {
         variable = "gangster";
@@ -275,7 +180,6 @@ class Licenses {
     };	
     */
 
-    
     class rebel {
         variable = "rebel";
         displayName = "STR_License_Rebel";
