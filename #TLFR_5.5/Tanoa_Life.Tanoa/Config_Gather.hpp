@@ -61,24 +61,12 @@ class CfgGather {
             item = "";
         };
         
-        class tabacunprocessed {
-            amount = 2;
-            zones[] = { "tabac_1" };
-            item = "";
-        };
-        
         class sugarcaneunprocessed {
-            amount = 2;
+            amount = 6;
             zones[] = { "sugarcane_1" };
             item = "";
         };
-        
-        class emeraudeusaphiru {
-            amount = 4;
-            zones[] = { "emeraudeusaphiru_1" };
-            item = "pickaxe";
-            mined[] = { {"emeraudeu",0,10},{"saphiru",10,100} };
-        };
+
     };
 
 /*
@@ -115,46 +103,18 @@ Example 2:
 */
 
     class Minerals {
-        class copper_unrefined {
-            amount = 2;
-            zones[] = { "copper_mine" };
+        class emeraudeusaphiru {
+            amount = 4;
+            zones[] = { "emeraudeusaphiru_1" };
             item = "pickaxe";
-            mined[] = {"copper_unrefined"};
+            mined[] = { {"emeraudeu",0,10},{"saphiru",10,100} };
         };
-
-        class iron_unrefined {
-            amount = 2;
-            zones[] = { "iron_mine" };
-            item = "pickaxe";
-            mined[] = { "iron_unrefined" };
-        };
-
-        class salt_unrefined {
-            amount = 2;
-            zones[] = { "salt_mine" };
-            item = "pickaxe";
-            mined[] = { "salt_unrefined" };
-        };
-
+        
         class sand {
             amount = 2;
             zones[] = { "sand_mine" };
             item = "pickaxe";
             mined[] = { "sand" };
-        };
-
-        class diamond_uncut {
-            amount = 2;
-            zones[] = { "diamond_mine" };
-            item = "pickaxe";
-            mined[] = { "diamond_uncut" };
-        };
-
-        class rock {
-            amount = 2;
-            zones[] = { "rock_quarry" };
-            item = "pickaxe";
-            mined[] = { "rock" };
         };
 
         class oil_unprocessed {

@@ -5372,46 +5372,6 @@
             <Original>Sucre</Original>
             <French>Sucre</French>
         </Key>
-        <Key ID="STR_Item_Cannabis">
-            <Original>Marijuana leaf</Original>
-            <Czech>marihuana list</Czech>
-            <Spanish>Cannabis</Spanish>
-            <German>Kannabis</German>
-            <French>Cannabis</French>
-            <Italian>Cannabis</Italian>
-            <Portuguese>Maconha não Processada</Portuguese>
-            <Polish>Konopie</Polish>
-        </Key>
-        <Key ID="STR_Item_Apple">
-            <Original>Apple</Original>
-            <Czech>Jablko</Czech>
-            <Spanish>Manzana</Spanish>
-            <German>Apfel</German>
-            <French>Pomme</French>
-            <Italian>Mela</Italian>
-            <Portuguese>Maçã</Portuguese>
-            <Polish>Jabłko</Polish>
-        </Key>
-        <Key ID="STR_Item_Apples">
-            <Original>Apples</Original>
-            <Czech>jablka</Czech>
-            <Spanish>Manzanas</Spanish>
-            <German>Äpfel</German>
-            <French>Pommes</French>
-            <Italian>Mele</Italian>
-            <Portuguese>Maçãs</Portuguese>
-            <Polish>Jabłka</Polish>
-        </Key>
-        <Key ID="STR_Item_Heroin">
-            <Original>Heroin</Original>
-            <Czech>Heroin</Czech>
-            <Spanish>Heroina</Spanish>
-            <German>Heroin</German>
-            <French>Heroïne</French>
-            <Italian>Eroina</Italian>
-            <Portuguese>Heroína</Portuguese>
-            <Polish>Heroina</Polish>
-        </Key>
         <Key ID="STR_Item_Oil">
             <Original>Oil</Original>
             <Czech>Olej</Czech>
@@ -5421,26 +5381,6 @@
             <Italian>Olio</Italian>
             <Portuguese>Petróleo</Portuguese>
             <Polish>Benzyna</Polish>
-        </Key>
-        <Key ID="STR_Item_Peach">
-            <Original>Peach</Original>
-            <Czech>Broskev</Czech>
-            <Spanish>Melocotón</Spanish>
-            <German>Pfirsich</German>
-            <French>Pêche</French>
-            <Italian>Pesca</Italian>
-            <Portuguese>Pêssego</Portuguese>
-            <Polish>Brzoskwinia</Polish>
-        </Key>
-        <Key ID="STR_Item_Peaches">
-            <Original>Peaches</Original>
-            <Czech>broskve</Czech>
-            <Spanish>Melocotones</Spanish>
-            <German>Pfirsiche</German>
-            <French>Pêches</French>
-            <Italian>Pesche</Italian>
-            <Portuguese>Pêssegos</Portuguese>
-            <Polish>Brzoskwinie</Polish>
         </Key>
         <Key ID="STR_Item_OilU">
             <Original>Crude Oil</Original>
@@ -5461,36 +5401,6 @@
             <Italian>Olio processato</Italian>
             <Portuguese>Petróleo Refinado</Portuguese>
             <Polish>Olej napędowy</Polish>
-        </Key>
-        <Key ID="STR_Item_HeroinU">
-            <Original>Opium Poppy</Original>
-            <Czech>Mák setý</Czech>
-            <Spanish>Planta del Opio</Spanish>
-            <German>Unverarbeitetes Heroin</German>
-            <French>Graine de pavot</French>
-            <Italian>Eroina non processata</Italian>
-            <Portuguese>Heroína não Processada</Portuguese>
-            <Polish>Heroina nieoczyszczona</Polish>
-        </Key>
-        <Key ID="STR_Item_HeroinP">
-            <Original>Heroin</Original>
-            <Czech>Heroin</Czech>
-            <Spanish>Heroina</Spanish>
-            <German>Verarbeitetes Heroin</German>
-            <French>Héroine</French>
-            <Italian>Eroina processata</Italian>
-            <Portuguese>Heroína Processada</Portuguese>
-            <Polish>Heroina oczyszczona</Polish>
-        </Key>
-        <Key ID="STR_Item_Marijuana">
-            <Original>Pot</Original>
-            <Czech>Hrnec</Czech>
-            <Spanish>Marihuana</Spanish>
-            <German>Marihuana</German>
-            <French>Marijuana</French>
-            <Italian>Marijuana</Italian>
-            <Portuguese>Maconha Processada</Portuguese>
-            <Polish>Marihuana</Polish>
         </Key>
         <Key ID="STR_Item_RabbitRaw">
             <Original>Raw Rabbit</Original>
@@ -5912,46 +5822,6 @@
             <Portuguese>Picareta</Portuguese>
             <Polish>Kilof</Polish>
         </Key>
-        <Key ID="STR_Item_CopperOre">
-            <Original>Copper Ore</Original>
-            <Czech>Měděná ruda</Czech>
-            <Spanish>Cobre</Spanish>
-            <German>Kupfererz</German>
-            <French>Minerai de Cuivre</French>
-            <Italian>Minerale di Rame</Italian>
-            <Portuguese>Pepita de Cobre</Portuguese>
-            <Polish>Ruda miedzi</Polish>
-        </Key>
-        <Key ID="STR_Item_IronOre">
-            <Original>Iron Ore</Original>
-            <Czech>Železná Ruda</Czech>
-            <Spanish>Hierro</Spanish>
-            <German>Eisenerz</German>
-            <French>Minerai de Fer</French>
-            <Italian>Minerale di Ferro</Italian>
-            <Portuguese>Pepita de Ferro</Portuguese>
-            <Polish>Ruda żelaza</Polish>
-        </Key>
-        <Key ID="STR_Item_IronIngot">
-            <Original>Iron Ingot</Original>
-            <Czech>Železná cihla</Czech>
-            <Spanish>Lingote de Hierro</Spanish>
-            <German>Eisenbarren</German>
-            <French>Lingot de Fer</French>
-            <Italian>Lingotto di ferro</Italian>
-            <Portuguese>Barra de Ferro</Portuguese>
-            <Polish>Sztabka żelaza</Polish>
-        </Key>
-        <Key ID="STR_Item_CopperIngot">
-            <Original>Copper Ingot</Original>
-            <Czech>měď ingotů</Czech>
-            <Spanish>Lingote de Cobre</Spanish>
-            <German>Kupferbarren</German>
-            <French>Lingot de cuivre</French>
-            <Italian>Lingotto di Rame</Italian>
-            <Portuguese>Barra de Cobre</Portuguese>
-            <Polish>Sztabka miedzi</Polish>
-        </Key>
         <Key ID="STR_Item_Sand">
             <Original>Sand</Original>
             <Czech>Písek</Czech>
@@ -5962,26 +5832,6 @@
             <Portuguese>Areia</Portuguese>
             <Polish>Piasek</Polish>
         </Key>
-        <Key ID="STR_Item_Salt">
-            <Original>Salt</Original>
-            <Czech>Sůl</Czech>
-            <Spanish>Sal</Spanish>
-            <German>Salz</German>
-            <French>Sel</French>
-            <Italian>Sale</Italian>
-            <Portuguese>Sal</Portuguese>
-            <Polish>Sól kopana</Polish>
-        </Key>
-        <Key ID="STR_Item_SaltR">
-            <Original>Refined Salt</Original>
-            <Czech>rafinovaný Salt</Czech>
-            <Spanish>Sal Refinada</Spanish>
-            <German>Raffiniertes Salz</German>
-            <French>Sel traité</French>
-            <Italian>Sale raffinato</Italian>
-            <Portuguese>Sal Refinado</Portuguese>
-            <Polish>Sól rafinowana</Polish>
-        </Key>
         <Key ID="STR_Item_Glass">
             <Original>Glass</Original>
             <Czech>Sklo</Czech>
@@ -5991,26 +5841,6 @@
             <Italian>Vetro</Italian>
             <Portuguese>Vidro</Portuguese>
             <Polish>Szkło</Polish>
-        </Key>
-        <Key ID="STR_Item_DiamondC">
-            <Original>Polished Diamond</Original>
-            <Czech>leštěný Diamond</Czech>
-            <Spanish>Diamante Pulido</Spanish>
-            <German>Geschliffene Diamanten</German>
-            <French>Diamant Taillé</French>
-            <Italian>Diamante tagliato</Italian>
-            <Portuguese>Diamante Lapidado</Portuguese>
-            <Polish>Diament szlifowany</Polish>
-        </Key>
-        <Key ID="STR_Item_DiamondU">
-            <Original>Uncut Diamond</Original>
-            <Czech>Uncut Diamond</Czech>
-            <Spanish>Diamante Bruto</Spanish>
-            <German>Ungeschliffene Diamanten</German>
-            <French>Diamant Brut</French>
-            <Italian>Diamante grezzo</Italian>
-            <Portuguese>Diamante Bruto</Portuguese>
-            <Polish>Diament surowy</Polish>
         </Key>
         <Key ID="STR_Item_TBacon">
             <Original>Tactical Bacon</Original>
@@ -6058,26 +5888,6 @@
             <Italian>Grimaldello</Italian>
             <Portuguese>Chave Mestra</Portuguese>
             <Polish>Wytrych</Polish>
-        </Key>
-        <Key ID="STR_Item_Rock">
-            <Original>Rock</Original>
-            <Czech>Skála</Czech>
-            <Spanish>Piedra</Spanish>
-            <German>Stein</German>
-            <French>Pierre</French>
-            <Italian>Roccia</Italian>
-            <Portuguese>Pedra</Portuguese>
-            <Polish>Skała</Polish>
-        </Key>
-        <Key ID="STR_Item_CementBag">
-            <Original>Cement Bag</Original>
-            <Czech>cement Bag</Czech>
-            <Spanish>Bolsa de Cemento</Spanish>
-            <German>Zement Sack</German>
-            <French>Sac de ciment</French>
-            <Italian>Sacco di Cemento</Italian>
-            <Portuguese>Saco de Cimento</Portuguese>
-            <Polish>Worek cementu</Polish>
         </Key>
         <Key ID="STR_Item_GoldBar">
             <Original>Gold Bar</Original>
@@ -6139,26 +5949,6 @@
             <Portuguese>Caixa Grande</Portuguese>
             <Polish>Duży pojemnik</Polish>
         </Key>
-        <Key ID="STR_Item_CocaineU">
-            <Original>Coca Leaf</Original>
-            <Czech>Coca Leaf</Czech>
-            <Spanish>Hoja de Coca</Spanish>
-            <German>Unverarbeitetes Kokain</German>
-            <French>Feuille de Coca</French>
-            <Italian>Cocaina non processata</Italian>
-            <Portuguese>Cocaína não Refinada</Portuguese>
-            <Polish>Nieoczyszczona kokaina</Polish>
-        </Key>
-        <Key ID="STR_Item_CocaineP">
-            <Original>Coke</Original>
-            <Czech>Koks</Czech>
-            <Spanish>Cocaína</Spanish>
-            <German>Verarbeitetes Kokain</German>
-            <French>Cocaïne</French>
-            <Italian>Cocaina processata</Italian>
-            <Portuguese>Cocaína Refinada</Portuguese>
-            <Polish>Oczyszczona kokaina</Polish>
-        </Key>
         <Key ID="STR_Item_SpikeStrip">
             <Original>Spike Strip</Original>
             <Czech>Spike Strip</Czech>
@@ -6190,16 +5980,6 @@
             <Italian>Licenza da Pilota</Italian>
             <Portuguese>Licença de Piloto</Portuguese>
             <Polish>Licencja Pilota</Polish>
-        </Key>
-        <Key ID="STR_License_Heroin">
-            <Original>Heroin Training</Original>
-            <Czech>heroin Training</Czech>
-            <Spanish>Entrenamiento de Heroina</Spanish>
-            <German>Heroinausbildung</German>
-            <French>Transformation du Pavot</French>
-            <Italian>Processo Eroina</Italian>
-            <Portuguese>Treinamento de Heroina</Portuguese>
-            <Polish>Wytwarzanie Heroiny</Polish>
         </Key>
         <Key ID="STR_License_Oil">
             <Original>Oil Processing</Original>
@@ -6327,36 +6107,6 @@
             <Original>Extraction du Sucre</Original>
             <French>Extraction du Sucre</French>
         </Key>
-        <Key ID="STR_License_Diamond">
-            <Original>Diamond Processing</Original>
-            <Czech>Diamond Processing</Czech>
-            <Spanish>Procesamiento de Diamantes</Spanish>
-            <German>Diamantenverarbeitung</German>
-            <French>Taillage des Diamands</French>
-            <Italian>Processo Diamanti</Italian>
-            <Portuguese>Lapidação de Diamante</Portuguese>
-            <Polish>Szlifierz diamentów</Polish>
-        </Key>
-        <Key ID="STR_License_Copper">
-            <Original>Copper Processing</Original>
-            <Czech>Zpracování měď</Czech>
-            <Spanish>Procesamiento de Cobre</Spanish>
-            <German>Kupferverarbeitung</German>
-            <French>Fonte du Cuivre</French>
-            <Italian>Processo Rame</Italian>
-            <Portuguese>Processamento de Cobre</Portuguese>
-            <Polish>Wytapianie miedzi</Polish>
-        </Key>
-        <Key ID="STR_License_Iron">
-            <Original>Iron Processing</Original>
-            <Czech>Zpracování Iron</Czech>
-            <Spanish>Procesamiento de Hierro</Spanish>
-            <German>Eisenverarbeitung</German>
-            <French>Fonte du Fer</French>
-            <Italian>Processo Ferro</Italian>
-            <Portuguese>Processamento de Ferro</Portuguese>
-            <Polish>Wytapianie żelaza</Polish>
-        </Key>
         <Key ID="STR_License_Sand">
             <Original>Sand Processing</Original>
             <Czech>Zpracování písek</Czech>
@@ -6366,56 +6116,6 @@
             <Italian>Processo Sabbia</Italian>
             <Portuguese>Processamento de Areia</Portuguese>
             <Polish>Hutnik szkła z piasku</Polish>
-        </Key>
-        <Key ID="STR_License_Salt">
-            <Original>Salt Processing</Original>
-            <Czech>sůl Processing</Czech>
-            <Spanish>Procesamiento de Sal</Spanish>
-            <German>Salzverarbeitung</German>
-            <French>Traitement du Sel</French>
-            <Italian>Processo Sale</Italian>
-            <Portuguese>Processamento de Sal</Portuguese>
-            <Polish>Warzenie soli</Polish>
-        </Key>
-        <Key ID="STR_License_Cocaine">
-            <Original>Cocaine Training</Original>
-            <Czech>kokain Training</Czech>
-            <Spanish>Entrenamiento de Cocaína</Spanish>
-            <German>Kokainausbildung</German>
-            <French>Transformation de la Cocaine</French>
-            <Italian>Processo Cocaina</Italian>
-            <Portuguese>Treinamento de Cocaína</Portuguese>
-            <Polish>Oczyszczanie kokainy</Polish>
-        </Key>
-        <Key ID="STR_License_Marijuana">
-            <Original>Marijuana Training</Original>
-            <Czech>Marihuana Training</Czech>
-            <Spanish>Entrenamiento de Marihuana</Spanish>
-            <German>Marihuanaausbildung</German>
-            <French>Traitement du Cannabis</French>
-            <Italian>Processo Marijuana</Italian>
-            <Portuguese>Treinamento de Maconha</Portuguese>
-            <Polish>Suszenie konopi</Polish>
-        </Key>
-        <Key ID="STR_License_Cement">
-            <Original>Cement Mixing License</Original>
-            <Czech>Cement Mixing licence</Czech>
-            <Spanish>Licencia para Mezclar Cemento</Spanish>
-            <German>Zementmisch-Lizenz</German>
-            <French>Fabrication du Ciment</French>
-            <Italian>Processo Cemento</Italian>
-            <Portuguese>Licença de Cimento</Portuguese>
-            <Polish>Wytwórca cementu</Polish>
-        </Key>
-        <Key ID="STR_License_Medmarijuana">
-            <Original>Medical Marijuana License</Original>
-            <Czech>Medical Marihuana Licence</Czech>
-            <Spanish>Licencia de Marihuana Medicinal</Spanish>
-            <German>Medizinisches Marijuana-Lizenz</German>
-            <French>Marijuana Médicale Licence</French>
-            <Italian>Medical Marijuana Licenza</Italian>
-            <Portuguese>Licença Medical Marijuana</Portuguese>
-            <Polish>Medical Marijuana Licencji</Polish>
         </Key>
         <Key ID="STR_License_Home">
             <Original>Home Owners License</Original>
@@ -6917,16 +6617,6 @@
             <Portuguese>Processando Petróleo</Portuguese>
             <Polish>Rafinacja ropy</Polish>
         </Key>
-        <Key ID="STR_Process_Diamond">
-            <Original>Cutting Diamonds</Original>
-            <Czech>řezání diamantů</Czech>
-            <Spanish>Cortando Diamantes</Spanish>
-            <German>Diamanten werden geschliffen</German>
-            <French>Taillage de diamant</French>
-            <Italian>Rifinendo diamanti</Italian>
-            <Portuguese>Lapidando Diamante</Portuguese>
-            <Polish>Szlif diamentów</Polish>
-        </Key>
         <Key ID="STR_Process_Mais">
             <Original>Castrage du Maïs</Original>
             <French>Castrage du Maïs</French>
@@ -6958,36 +6648,6 @@
         <Key ID="STR_Process_Bois">
             <Original>Sciage du Bois</Original>
             <French>Sciage du Bois</French>
-        </Key>        
-        <Key ID="STR_Process_Heroin">
-            <Original>Processing Opium</Original>
-            <Czech>zpracování Opium</Czech>
-            <Spanish>Procesando Opio</Spanish>
-            <German>Heroin wird verarbeitet</German>
-            <French>Traitement d'Heroine</French>
-            <Italian>Processando Eroina</Italian>
-            <Portuguese>Processando Heroína</Portuguese>
-            <Polish>Oczyszczanie heroiny</Polish>
-        </Key>
-        <Key ID="STR_Process_Copper">
-            <Original>Casting Copper Ingots</Original>
-            <Czech>Casting měděných ingotů</Czech>
-            <Spanish>Fundiendo Lingotes de Cobre</Spanish>
-            <German>Kupfer wird verarbeitet</German>
-            <French>Fonte de Cuivre</French>
-            <Italian>Processando in lingotti di Rame</Italian>
-            <Portuguese>Processando Cobre</Portuguese>
-            <Polish>Wytop miedzi</Polish>
-        </Key>
-        <Key ID="STR_Process_Iron">
-            <Original>Casting Iron Ingots</Original>
-            <Czech>Litiny ingoty</Czech>
-            <Spanish>Fundiendo Lingotes de Hierro</Spanish>
-            <German>Eisen wird verarbeitet</German>
-            <French>Fonte de fer</French>
-            <Italian>Processando Ferro</Italian>
-            <Portuguese>Processando Ferro</Portuguese>
-            <Polish>Wytop żelaza</Polish>
         </Key>
         <Key ID="STR_Process_Sand">
             <Original>Processing Sand</Original>
@@ -6998,46 +6658,6 @@
             <Italian>Processando Sabbia</Italian>
             <Portuguese>Processando Areia</Portuguese>
             <Polish>Topienie piasku</Polish>
-        </Key>
-        <Key ID="STR_Process_Salt">
-            <Original>Processing Salt</Original>
-            <Czech>zpracování Salt</Czech>
-            <Spanish>Procesando Sal</Spanish>
-            <German>Salz wird verarbeitet</German>
-            <French>Traitement du Sel</French>
-            <Italian>Processando Sale</Italian>
-            <Portuguese>Refinando Sal</Portuguese>
-            <Polish>Warzenie soli</Polish>
-        </Key>
-        <Key ID="STR_Process_Cocaine">
-            <Original>Processing Coca Leaves</Original>
-            <Czech>Zpracování listů koky</Czech>
-            <Spanish>Procesando Hojas de Coca</Spanish>
-            <German>Kokain wird verarbeitet</German>
-            <French>Traitement de Cocaine</French>
-            <Italian>Processando Cocaina</Italian>
-            <Portuguese>Processando Cocaína</Portuguese>
-            <Polish>Oczyszczanie kokainy</Polish>
-        </Key>
-        <Key ID="STR_Process_Marijuana">
-            <Original>Processing Marijuana</Original>
-            <Czech>zpracování Marihuana</Czech>
-            <Spanish>Procesando Marihuana</Spanish>
-            <German>Marihuana wird verarbeitet</German>
-            <French>Traitement de Marijuana</French>
-            <Italian>Processando Marijuana</Italian>
-            <Portuguese>Processando Maconha</Portuguese>
-            <Polish>Suszenie marihuany</Polish>
-        </Key>
-        <Key ID="STR_Process_Cement">
-            <Original>Mixing Cement</Original>
-            <Czech>Míchání Cement</Czech>
-            <Spanish>Mezclando Cemento</Spanish>
-            <German>Zement wird gemischt</German>
-            <French>Mélange de ciment</French>
-            <Italian>Processando Cemento</Italian>
-            <Portuguese>Misturando Cimento</Portuguese>
-            <Polish>Mielenie cementu</Polish>
         </Key>
         <Key ID="STR_Process_Stay">
             <Original>You need to stay within 10m to process.</Original>
@@ -8548,36 +8168,6 @@
             <Portuguese>QG Aéreo Policial</Portuguese>
             <Polish>Baza lotnicza policji</Polish>
         </Key>
-        <Key ID="STR_MAR_Iron_Mine">
-            <Original>Iron Mine</Original>
-            <Czech>Železný důl</Czech>
-            <French>Mine de fer</French>
-            <Spanish>Mina de Hierro</Spanish>
-            <German>Eisenmine</German>
-            <Portuguese>Mina de Ferro</Portuguese>
-            <Polish>Kopalnia miedzi</Polish>
-            <Italian>Miniera di ferro</Italian>
-        </Key>
-        <Key ID="STR_MAR_Salt_Mine">
-            <Original>Salt Mine</Original>
-            <Czech>Solný důl</Czech>
-            <French>Mine de sel</French>
-            <Spanish>Mina de Sal</Spanish>
-            <German>Salzmine</German>
-            <Portuguese>Mina de Sal</Portuguese>
-            <Polish>Kopalnia soli</Polish>
-            <Italian>Salina</Italian>
-        </Key>
-        <Key ID="STR_MAR_Salt_Processing">
-            <Original>Salt Processing</Original>
-            <Czech>sůl Processing</Czech>
-            <French>Traitement de sel</French>
-            <Spanish>Procesador de Sal</Spanish>
-            <German>Salzverarbeitung</German>
-            <Portuguese>Processador de Sal</Portuguese>
-            <Polish>Warzelnia soli</Polish>
-            <Italian>Processo del sale</Italian>
-        </Key>
         <Key ID="STR_MAR_Altis_Corrections">
             <Original>Tanoa Corrections</Original>
             <Czech>Tanoa Opravy</Czech>
@@ -8648,16 +8238,6 @@
             <Polish>Rafineria ropy naftowej</Polish>
             <Italian>Raffineria di Petrolio</Italian>
         </Key>
-        <Key ID="STR_MAR_Iron_processing">
-            <Original>Iron Processing</Original>
-            <Czech>Zpracování Iron</Czech>
-            <French>Traitement de fer</French>
-            <Spanish>Procesador de Hierro</Spanish>
-            <Italian>Processo del ferro</Italian>
-            <German>Eisenschmelze</German>
-            <Portuguese>Processador de Ferro</Portuguese>
-            <Polish>Huta żelaza</Polish>
-        </Key>
         <Key ID="STR_MAR_Sand_Mine">
             <Original>Sand Mine</Original>
             <Czech>písek Mine</Czech>
@@ -8677,26 +8257,6 @@
             <German>Schrotthändler</German>
             <Portuguese>Desmanche</Portuguese>
             <Polish>Dziupla</Polish>
-        </Key>
-        <Key ID="STR_MAR_Cocaine_Processing">
-            <Original>Cocaine Processing</Original>
-            <Czech>Zpracování kokain</Czech>
-            <French>Traitement de cocaïne</French>
-            <Spanish>Procesador de Cocaína</Spanish>
-            <Italian>Trattamento cocaina</Italian>
-            <German>Kokain Verarbeiter</German>
-            <Portuguese>Processador de Cocaína</Portuguese>
-            <Polish>Oczyszczanie kokainy</Polish>
-        </Key>
-        <Key ID="STR_MAR_Copper_Mine">
-            <Original>Copper Mine</Original>
-            <Czech>měděný důl</Czech>
-            <French>Mine de cuivre</French>
-            <Spanish>Mina de Cobre</Spanish>
-            <Italian>Miniera di rame</Italian>
-            <German>Kupfermine</German>
-            <Portuguese>Mina de Cobre</Portuguese>
-            <Polish>Kopalnia miedzi</Polish>
         </Key>
         <Key ID="STR_MAR_ATM">
             <Original>ATM</Original>
@@ -8738,16 +8298,6 @@
             <Portuguese>Hospital/Clínica</Portuguese>
             <Polish>Klinika Altis</Polish>
         </Key>
-        <Key ID="STR_MAR_Diamond_Mine">
-            <Original>Diamond Mine</Original>
-            <Czech>Diamond Mine</Czech>
-            <French>Mine de diamant</French>
-            <Spanish>Mina de Diamantes</Spanish>
-            <Italian>Miniera di diamanti</Italian>
-            <German>Diamanten Mine</German>
-            <Portuguese>Mina de Diamante</Portuguese>
-            <Polish>Kopalnia diamentów</Polish>
-        </Key>
         <Key ID="STR_MAR_General_Store">
             <Original>Quincaillerie</Original>
             <Czech>Obchod se smíšeným zbožím</Czech>
@@ -8787,26 +8337,6 @@
             <Portuguese>Loja de Roupas</Portuguese>
             <Polish>Sklep odzieżowy</Polish>
             <German>Bruce Outback Outfits</German>
-        </Key>
-        <Key ID="STR_MAR_Apple_Field">
-            <Original>Apple Field</Original>
-            <Czech>Apple Field</Czech>
-            <French>Champs de Pommes</French>
-            <Spanish>Campo de Manzanas</Spanish>
-            <Italian>Campo di Mele</Italian>
-            <German>Apfel Plantage</German>
-            <Portuguese>Campo de Maçãs</Portuguese>
-            <Polish>Sad jabłkowy</Polish>
-        </Key>
-        <Key ID="STR_MAR_Peaches_Field">
-            <Original>Peaches Field</Original>
-            <Czech>broskve Field</Czech>
-            <French>Champs de Pêches</French>
-            <Spanish>Campo de Melocotones</Spanish>
-            <Italian>Campo di Pesche</Italian>
-            <German>Pfirsich Plantage</German>
-            <Portuguese>Campo de Pêras</Portuguese>
-            <Polish>Sad brzoskwiniowy</Polish>
         </Key>
         <Key ID="STR_MAR_Market">
             <Original>Market</Original>
@@ -8898,16 +8428,6 @@
             <Polish>Diler narkotyków</Polish>
             <Italian>Spacciatore</Italian>
         </Key>
-        <Key ID="STR_MAR_Diamond_Processing">
-            <Original>Diamond Processing</Original>
-            <Czech>Diamond Processing</Czech>
-            <French>Traitement de diamant</French>
-            <Spanish>Procesador de Diamante</Spanish>
-            <German>Diamantenschleifer</German>
-            <Portuguese>Processador de Diamante</Portuguese>
-            <Polish>Szlifierz diamentów</Polish>
-            <Italian>Processo diamanti</Italian>
-        </Key>
         <Key ID="STR_MAR_Oil_Field">
             <Original>Plateforme Pétrolière</Original>
             <Czech>Ropné poles</Czech>
@@ -8917,26 +8437,6 @@
             <Portuguese>Campo de Petróleo</Portuguese>
             <Polish>Szyb naftowy</Polish>
             <Italian>Giacimento di Petrolio</Italian>
-        </Key>
-        <Key ID="STR_MAR_Weed_Field">
-            <Original>Marijuana Field</Original>
-            <Czech>Marihuana Field</Czech>
-            <French>Champs de pavots</French>
-            <Spanish>Campo de Marihuana</Spanish>
-            <German>Gras Plantage</German>
-            <Portuguese>Campo de Maconha</Portuguese>
-            <Polish>Pole marihuany</Polish>
-            <Italian>Campo di Marijuana</Italian>
-        </Key>
-        <Key ID="STR_MAR_Weed_Processing">
-            <Original>Marijuana Processing</Original>
-            <Czech>Zpracování marihuana</Czech>
-            <French>Traitement du pavot</French>
-            <Spanish>Procesador de Marihuana</Spanish>
-            <German>Gras Verarbeitung</German>
-            <Portuguese>Processador de Maconha</Portuguese>
-            <Polish>Suszarnia marihuany</Polish>
-            <Italian>Trattamento Marijuana</Italian>
         </Key>
         <Key ID="STR_MAR_Boat_Spawn">
             <Original>Boat Spawn</Original>
@@ -8958,16 +8458,6 @@
             <Polish>Huta miedzi</Polish>
             <Italian>Processo Rame</Italian>
         </Key>
-        <Key ID="STR_MAR_Cocaine_Field">
-            <Original>Coca Field</Original>
-            <Czech>Coca Field</Czech>
-            <French>Champ de Cocaine</French>
-            <Spanish>Campo de Cocaína</Spanish>
-            <German>Koks Plantage</German>
-            <Portuguese>Campo de Cocaína</Portuguese>
-            <Polish>Pole kokainy</Polish>
-            <Italian>Campo di Cocaina</Italian>
-        </Key>
         <Key ID="STR_MAR_Oil_Trader">
             <Original>Oil Trader</Original>
             <Czech>olej Trader</Czech>
@@ -8977,16 +8467,6 @@
             <Portuguese>Comprador de Petróleo</Portuguese>
             <Polish>Skup benzyny</Polish>
             <Italian>Vendita Olio</Italian>
-        </Key>
-        <Key ID="STR_MAR_Salt_Trader">
-            <Original>Salt Trader</Original>
-            <Czech>sůl Trader</Czech>
-            <French>Vendeur de sel</French>
-            <Spanish>Comerciante de Sal</Spanish>
-            <German>Salz Händler</German>
-            <Portuguese>Comprador de Sal</Portuguese>
-            <Polish>Skup soli</Polish>
-            <Italian>Vendita Sale</Italian>
         </Key>
         <Key ID="STR_MAR_Sugarcane_Trader">
             <Original>Acheteur de Sucre</Original>
@@ -9036,16 +8516,6 @@
             <Original>Entrepôt TanoaCargo</Original>
             <French>Entrepôt TanoaCargo</French>
         </Key>
-        <Key ID="STR_MAR_Diamond_Trader">
-            <Original>Diamond Trader</Original>
-            <Czech>Diamond Trader</Czech>
-            <French>Vendeur de diamant</French>
-            <Spanish>Comerciante de Diamantes</Spanish>
-            <German>Juwelier</German>
-            <Portuguese>Comprador de Diamante</Portuguese>
-            <Polish>Skup diamentów</Polish>
-            <Italian>Vendita Diamanti</Italian>
-        </Key>
         <Key ID="STR_MAR_Glass_Trader">
             <Original>Glass Trader</Original>
             <Czech>sklo Trader</Czech>
@@ -9055,14 +8525,6 @@
             <Portuguese>Comprador de Vidro</Portuguese>
             <Polish>Skup szkła</Polish>
             <Italian>Vendita del Vetro</Italian>
-        </Key>
-        <Key ID="STR_MAR_Copper_Trader">
-            <Original>Vendeur de Cuivre</Original>
-            <French>Vendeur de Cuivre</French>
-        </Key>
-        <Key ID="STR_MAR_Iron_Trader">
-            <Original>Vendeur de Fer</Original>
-            <French>Vendeur de Fer</French>
         </Key>
         <Key ID="STR_MAR_Sand_Processing">
             <Original>Sand Processing</Original>
@@ -9083,26 +8545,6 @@
             <Portuguese>Loja de Armas</Portuguese>
             <Polish>Sklep z bronią</Polish>
             <Italian>Armeria</Italian>
-        </Key>
-        <Key ID="STR_MAR_Heroin_Field">
-            <Original>Opium Poppy Field</Original>
-            <Czech>Opium Poppy Field</Czech>
-            <French>Champs d'héroïne</French>
-            <Spanish>Campo de Opio</Spanish>
-            <Italian>Opium Poppy Field</Italian>
-            <German>Heroin Plantage</German>
-            <Portuguese>Campo de Heroína</Portuguese>
-            <Polish>Pole heroiny</Polish>
-        </Key>
-        <Key ID="STR_MAR_Heroin_Processing">
-            <Original>Heroin Processing</Original>
-            <Czech>Zpracování heroin</Czech>
-            <French>Traitement d'héroïne</French>
-            <Spanish>Procesador de Heroina</Spanish>
-            <Italian>Processing eroina</Italian>
-            <German>Heroin Verarbeitung</German>
-            <Portuguese>Processador de Heroína</Portuguese>
-            <Polish>Oczyszczanie heroiny</Polish>
         </Key>
         <Key ID="STR_MAR_Garage">
             <Original>Garage</Original>
@@ -9133,36 +8575,6 @@
             <Portuguese>Base da Polícia Rodoviária</Portuguese>
             <Polish>Posterunek policji drogowej</Polish>
             <Italian>Checkpoint di polizia</Italian>
-        </Key>
-        <Key ID="STR_MAR_Rock_Quarry">
-            <Original>Rock Quarry</Original>
-            <Czech>kamenolomu</Czech>
-            <French>Mine de pierres</French>
-            <Spanish>Mina de Piedra</Spanish>
-            <German>Steinbruch</German>
-            <Portuguese>Pedreira</Portuguese>
-            <Polish>Kamieniołom</Polish>
-            <Italian>Cava di Roccia</Italian>
-        </Key>
-        <Key ID="STR_MAR_Rock_Processing">
-            <Original>Rock Processing</Original>
-            <Czech>rock Processing</Czech>
-            <French>Traitement de pierres</French>
-            <Spanish>Procesador de Piedra</Spanish>
-            <German>Stein Verarbeitung</German>
-            <Portuguese>Processador de Pedra</Portuguese>
-            <Polish>Wytwórnia cementu z kamienia</Polish>
-            <Italian>Processo Roccia</Italian>
-        </Key>
-        <Key ID="STR_MAR_Cement_Trader">
-            <Original>Cement Trader</Original>
-            <Czech>cement Trader</Czech>
-            <French>Vendeur de ciment</French>
-            <Spanish>Comerciante de Cemento</Spanish>
-            <German>Zement Händler</German>
-            <Portuguese>Comprador de Cimento</Portuguese>
-            <Polish>Skup cementu</Polish>
-            <Italian>Vendita del Cemento</Italian>
         </Key>
         <Key ID="STR_MAR_Turtle_Poaching">
             <Original>Turtle Poaching</Original>
@@ -9462,16 +8874,6 @@
             <Portuguese>Processar Areia</Portuguese>
             <Polish>Przetop piasek na szkło</Polish>
             <Italian>Lavorazione Sabbia</Italian>
-        </Key>
-        <Key ID="STR_MAR_Process_Rock">
-            <Original>Process Rock</Original>
-            <Czech>proces rock</Czech>
-            <French>Traitement la pierre</French>
-            <Spanish>Procesar Piedra</Spanish>
-            <German>Verarbeite Stein</German>
-            <Portuguese>Processar Pedra</Portuguese>
-            <Polish>Zmiel skały na cement</Polish>
-            <Italian>Processo Roccia</Italian>
         </Key>
         <Key ID="STR_MAR_Wong_Food_Cart">
             <Original>Wong's Food Cart</Original>
