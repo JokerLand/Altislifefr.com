@@ -94,11 +94,11 @@ class CarShops {
 			//{ "cl3_murcielago_black", { "", "", -1 } },
 			//{ "Jonzie_Viper", { "", "", -1 } },
 			{ "wirk_ferrari_california", { "", "", -1 } },
-			{ "GeK_Gallardo", { "", "", -1 } },
+			{ "GeK_Gallardo", { "", "", -1 } }
 			//{ "cl3_reventon_black", { "", "", -1 } },
 			//{ "cl3_veyron_wht_blu", { "", "", -1 } },
-			{ "ALFR_GeK_MF1", { "", "", -1 } },
-			{ "ALFR_GeK_Pagani_Zonda", { "", "", -1 } }
+			//{ "ALFR_GeK_MF1", { "", "", -1 } },
+			//{ "ALFR_GeK_Pagani_Zonda", { "", "", -1 } }
         };
     };	
 
@@ -162,6 +162,7 @@ class CarShops {
         vehicles[] = {
 			{ "UAZ_Unarmed", { "", "", -1 } },
 			{ "GeK_Avalanche", { "", "", -1 } },
+			{ "Conry_Tahoe", { "", "", -1 } },
 			{ "GeK_G65", { "", "", -1 } },
 			{ "GeK_Mercedes_ML63_Rebelle", { "", "", -1 } },
             { "O_T_LSV_02_unarmed_F", { "", "", -1 } },
@@ -1485,7 +1486,7 @@ class LifeCfgVehicles {
     class Conry_Tahoe {  
         vItemSpace = 55;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 182000;
+        price = 275000;
 		textures[] = {
 
 			{ "Noir", "civ", {

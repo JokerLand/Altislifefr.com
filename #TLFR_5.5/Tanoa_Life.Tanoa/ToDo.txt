@@ -25,6 +25,7 @@
 |FAIT| Fix glitch atm gang retirer |FAIT|
 |FAIT| Fix revente de maison cause de dupli |FAIT|
 |FAIT| Sound harvest not found quand on récolte ? -> Fait sur TOUT |FAIT|
+|FAIT| Calibrer toutes les ressources ; Prix / Prix License / Trajet / Poids / nbr qu'on récolte en mm temps/etc |FAIT|
 |FAIT| Bug GiveKey / Car / House |FAIT|
 
 //Ressources (John) : 
@@ -64,7 +65,6 @@ Cacao ==> Milka Chocolat ==> Chocolaterie |A FAIRE|
 -Wanted Stringtable a modifier car en français marche pas
 -Remettre le "montrer son insigne"
 -Remettre les Safezones sur toute la map
-- Calibrer toutes les ressources ; Prix / Prix License / Trajet / Poids / nbr qu'on récolte en mm temps/etc
 
 //Urgent :
 
