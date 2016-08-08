@@ -466,7 +466,7 @@ class VirtualItems {
         sellPrice = -1;
         illegal = false;
         edible = -1;
-        icon = "";
+        icon = "icons\ico_sugar_cane.paa";
     };
     
     class sugarcaneprocessed {
@@ -477,7 +477,7 @@ class VirtualItems {
         sellPrice = 500;
         illegal = false;
         edible = -1;
-        icon = "";
+        icon = "icons\ico_sugar.paa";
     };
     
     //Drugs
@@ -501,7 +501,7 @@ class VirtualItems {
         sellPrice = -1;
         illegal = true;
         edible = -1;
-        icon = "icons\ico_marijuana.paa";
+        icon = "icons\ico_ephedrine.paa";
     };
     
     class phosphore_rouge {
@@ -523,7 +523,7 @@ class VirtualItems {
         sellPrice = 7250;
         illegal = true;
         edible = -1;
-        icon = "icons\ico_marijuana.paa";
+        icon = "icons\ico_meth.paa";
     };
 
     
@@ -570,7 +570,7 @@ class VirtualItems {
         sellPrice = 0;
         illegal = false;
         edible = 50;
-        icon = "icons\ico_redgull.paa";
+        icon = "icons\ico_rhum.paa";
     };
     class vodka  {
         variable = "vodka";
@@ -658,7 +658,7 @@ class VirtualItems {
         sellPrice = 45;
         illegal = false;
         edible = 20;
-        icon = "icons\ico_cacao.paa";
+        icon = "icons\ico_noixcoco.paa";
     };
     
     class corail {
@@ -702,7 +702,7 @@ class VirtualItems {
         sellPrice = -1;
         illegal = false;
         edible = -1;
-        icon = "icons\ico_meat.paa";
+        icon = "icons\ico_maisu.paa";
     };
     
     class maisp {
@@ -713,7 +713,7 @@ class VirtualItems {
         sellPrice = 600;
         illegal = false;
         edible = 15;
-        icon = "icons\ico_meat.paa";
+        icon = "icons\ico_mais.paa";
     };
     
     class emeraudeu {
@@ -746,7 +746,7 @@ class VirtualItems {
         sellPrice = -1;
         illegal = false;
         edible = -1;
-        icon = "icons\ico_meat.paa";
+        icon = "icons\ico_saphir.paa";
     };
     
     class saphirp {
@@ -757,7 +757,7 @@ class VirtualItems {
         sellPrice = 2750;
         illegal = false;
         edible = -1;
-        icon = "icons\ico_meat.paa";
+        icon = "icons\ico_saphir.paa";
     };
     
     class pierrevolcaniqueu {
@@ -768,7 +768,7 @@ class VirtualItems {
         sellPrice = -1;
         illegal = false;
         edible = -1;
-        icon = "icons\ico_meat.paa";
+        icon = "icons\ico_pierre.paa";
     };
     
     class pierrevolcaniquep {
@@ -779,7 +779,7 @@ class VirtualItems {
         sellPrice = 1850;
         illegal = false;
         edible = -1;
-        icon = "icons\ico_meat.paa";
+        icon = "icons\ico_volcanique.paa";
     };
     
     class souffreu {
@@ -790,7 +790,7 @@ class VirtualItems {
         sellPrice = -1;
         illegal = true;
         edible = -1;
-        icon = "icons\ico_meat.paa";
+        icon = "icons\ico_souffre.paa";
     };
     
     class souffrep {
@@ -801,7 +801,7 @@ class VirtualItems {
         sellPrice = 1550;
         illegal = true;
         edible = -1;
-        icon = "icons\ico_meat.paa";
+        icon = "icons\ico_souffre_hydrate.paa";
     };
     
     class boisu {
@@ -823,7 +823,7 @@ class VirtualItems {
         sellPrice = 1300;
         illegal = false;
         edible = -1;
-        icon = "icons\ico_meat.paa";
+        icon = "icons\ico_planche.paa";
     };
     
     
@@ -990,7 +990,7 @@ class VirtualItems {
         sellPrice = 3500;
         illegal = true;
         edible = -1;
-        icon = "icons\ico_meat.paa";
+        icon = "icons\ico_tortue.paa";
     };
 
     class turtle_soup {
