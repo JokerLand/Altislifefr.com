@@ -903,7 +903,7 @@ class LifeCfgVehicles {
 	                "#(ai,64,64,1)Fresnel(0.3,3)"
             } },
 			{ "Police", "cop", {
-	                "ALFR_TexSnd\offroad_police.jpg"
+	                "#(ai,64,64,1)Fresnel(1.3,7)"
             } },
             { "Taxi(Jaune)", "civ", {
 	                "#(argb,8,8,3)color(0.6,0.3,0.01,1)"

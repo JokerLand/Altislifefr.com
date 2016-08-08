@@ -217,7 +217,6 @@ class WeaponShops {
         items[] = {
 		    { "Binocular", "", 150, -1 },
 			{ "ItemGPS", "", 150, -1 },
-			{ "ToolKit", "", 250, -1 },
 			{ "FirstAidKit", "", 105, -1 },
 			{ "pmc_earpiece", "", 2500, -1 },
 			{ "Rangefinder", "", 1, -1 },
