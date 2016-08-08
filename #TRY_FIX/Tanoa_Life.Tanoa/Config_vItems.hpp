@@ -1066,7 +1066,7 @@ class VirtualItems {
         variable = "corail";
         displayName = "STR_Item_Corail";
         weight = 6;
-        buyPrice = 100;
+        buyPrice = -1;
         sellPrice = 1500;
         illegal = true;
         edible = -1;
@@ -1088,7 +1088,7 @@ class VirtualItems {
         variable = "alguep";
         displayName = "STR_Item_Alguep";
         weight = 2;
-        buyPrice = 100;
+        buyPrice = -1;
         sellPrice = 350;
         illegal = true;
         edible = 10;
