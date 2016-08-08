@@ -274,6 +274,7 @@ class CarShops {
             { "C_Boat_Civil_01_police_F", { "", "", -1 } },
             { "C_Boat_Transport_02_F", { "", "", -1 } },
 			{ "B_SDV_01_F", { "life_coplevel", "SCALAR", 4 } },
+            { "Burnes_MK10_1", { "life_coplevel", "SCALAR", 6 } },
             { "B_Boat_Armed_01_minigun_F", { "life_coplevel", "SCALAR", 7 } }
         };
     };
@@ -3591,7 +3592,7 @@ class LifeCfgVehicles {
     
     class Burnes_MK10_1 {
         vItemSpace = 30;
-        licenses[] = { {"boat"}, {""}, {""}, {""} };
+        licenses[] = { {"boat"}, {"cg"}, {""}, {""} };
         price = 250000;
         textures[] = {};
     };
