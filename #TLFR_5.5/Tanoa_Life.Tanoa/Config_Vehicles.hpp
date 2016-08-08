@@ -4272,14 +4272,14 @@ will modify the virtual space and the price of the vehicle, but other informatio
 
     class O_Truck_03_covered_F {  
         vItemSpace = 1000;
-        licenses[] = { {"trucking"}, {""}, {""}, {""} };
+        licenses[] = { {"rebel"}, {""}, {""}, {""} };
         price = 1350000;
         textures[] = {};
     };
     
     class O_Truck_03_ammo_F {  
         vItemSpace = 1250;
-        licenses[] = { {"trucking"}, {""}, {""}, {""} };
+        licenses[] = { {"rebel"}, {""}, {""}, {""} };
         price = 1750000;
         textures[] = {};
     };

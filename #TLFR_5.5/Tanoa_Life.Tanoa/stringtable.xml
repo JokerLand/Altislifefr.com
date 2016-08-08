@@ -4857,7 +4857,7 @@
             <Polish>Dzwięk został ustawiony w tryb wyciszony!</Polish>
         </Key>
         <Key ID="STR_MISC_overviewText">
-            <Original>An RPG game mode developed by Tonic.</Original>
+            <Original>An RPG game mode developed by Tonic. Modifié par www.AltisLifeFR.com</Original>
             <Czech>Mód RPG hra vyvinutá Tonic.</Czech>
             <French>Un mode de jeu RPG développé par Tonic. Modifié par www.AltisLifeFR.com</French>
             <Spanish>Un modo de juego de rol desarrollado por Tonic.</Spanish>
@@ -6026,36 +6026,36 @@
             <French>Armée de Terre</French>
         </Key>
         <Key ID="STR_License_Algue">
-            <Original>Lavage d'Algues Vertes</Original>
-            <French>Lavage d'Algues Vertes</French>
+            <Original>License du Lavage d'Algues Vertes</Original>
+            <French>License du Lavage d'Algues Vertes</French>
         </Key>
         <Key ID="STR_License_Souffre">
-            <Original>Traitement du Souffre</Original>
-            <French>Traitement du Souffre</French>
+            <Original>License du Traitement du Souffre</Original>
+            <French>License du Traitement du Souffre</French>
         </Key>
         <Key ID="STR_License_Emeraude">
-            <Original>Taillage de l'Emeraude</Original>
-            <French>Taillage de l'Emeraude</French>
+            <Original>License de Taillage de l'Emeraude</Original>
+            <French>License de Taillage de l'Emeraude</French>
         </Key>
         <Key ID="STR_License_Pierrevolcanique">
-            <Original>Lavage de Pierre Volcanique</Original>
-            <French>Lavage de Pierre Volcanique</French>
+            <Original>License de Lavage de Pierre Volcanique</Original>
+            <French>License de Lavage de Pierre Volcanique</French>
         </Key>
         <Key ID="STR_License_Bois">
-            <Original>Scierie Publique</Original>
-            <French>Scierie Publique</French>
+            <Original>License pour Traitement du Bois</Original>
+            <French>License pour Traitement du Bois</French>
         </Key>
         <Key ID="STR_License_Mais">
-            <Original>Castrage du Maïs</Original>
-            <French>Castrage du Maïs</French>
+            <Original>License du Castrage du Maïs</Original>
+            <French>License du Castrage du Maïs</French>
         </Key>
         <Key ID="STR_License_Meth">
-            <Original>Traitement de Méthamphétamine</Original>
-            <French>Traitement de Méthamphétamine</French>
+            <Original>License de Traitement de Méthamphétamine</Original>
+            <French>License de Traitement de Méthamphétamine</French>
         </Key>
         <Key ID="STR_License_Saphir">
-            <Original>Taillage de Saphir</Original>
-            <French>Taillage de Saphir</French>
+            <Original>License du Taillage de Saphir</Original>
+            <French>License du Taillage de Saphir</French>
         </Key>
         <Key ID="STR_License_Depan">
             <Original>Dépanneur Agréé</Original>
@@ -6084,14 +6084,8 @@
             <Polish>Trening straż przybrzeżna</Polish>
         </Key>
         <Key ID="STR_License_Rebel">
-            <Original>Rebel Training</Original>
-            <Czech>Rebel Training</Czech>
-            <Spanish>Entrenamiento Rebelde</Spanish>
-            <German>Rebellenausbildung</German>
+            <Original>License Rebelle</Original>
             <French>Entrainement Terroriste</French>
-            <Italian>Licenza da Ribelle</Italian>
-            <Portuguese>Treinamento Rebelde</Portuguese>
-            <Polish>Trening rebelianta</Polish>
         </Key>
         <Key ID="STR_License_Truck">
             <Original>Truck License</Original>
