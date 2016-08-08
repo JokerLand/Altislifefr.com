@@ -39,13 +39,13 @@ class Life_Settings {
     /* ATM & Federal Reserve System Configurations */
     global_ATM = false; //Allow users to access any ATM on the map (Marked & Unmarked).
     noatm_timer = 10; //Time in minutes that players cannot deposit money after selling stolen gold.
-    minimum_cops = 8; //Minimum cops required online to rob the Federal Reserve
+    minimum_cops = 1; //Minimum cops required online to rob the Federal Reserve
 
     /* Basic System Configurations */
     donor_level = true; //Enable the donor level set in database (var = life_donorlevel; levels = 0,1,2,3,4,5). ATTENTION! Before enabling, read: https://www.bistudio.com/community/game-content-usage-rules & https://www.bistudio.com/monetization
     enable_fatigue = false; //Set to false to disable the ARMA 3 fatigue system.
     total_maxWeight = 24; //Static variable for the maximum weight allowed without having a backpack
-    respawn_timer = 35; //How many seconds a player should wait, before being able to respawn. Minimum 5 seconds.
+    respawn_timer = 5; //How many seconds a player should wait, before being able to respawn. Minimum 5 seconds.
     
     /* Channel 7 News Station Configurations */
     news_broadcast_cost = 100000; //Cost for a player to send a news station broadcast.

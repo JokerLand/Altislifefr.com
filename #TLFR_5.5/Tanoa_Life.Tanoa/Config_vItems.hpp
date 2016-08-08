@@ -230,7 +230,7 @@ class VirtualShops {
         side = "cop";
         license = "";
         level[] = { "", "", -1, "" };
-        items[] = { "donuts", "coffee", "telecommande", "crowbar", "banane", "redgull", "toolkit", "fuelFull", "defusekit" }; //, "spikeStrip", "ladder", "barrier", "barrierl", "panneau", "panneauattention", "cone", "conel", "cordon", "glissiere", "barstop", "lightd",
+        items[] = { "donuts", "coffee", "telecommande", "gpsTracker", "crowbar", "banane", "redgull", "toolkit", "fuelFull", "defusekit" }; //, "spikeStrip", "ladder", "barrier", "barrierl", "panneau", "panneauattention", "cone", "conel", "cordon", "glissiere", "barstop", "lightd",
     };
         
     class depan {
@@ -1102,6 +1102,17 @@ class VirtualItems {
         illegal = false;
         edible = -1;
         icon = "icons\ico_telecommande.paa";
+    };
+    
+    class gpsTracker {
+        variable = "gpsTracker";
+        displayName = "STR_Item_GpsTracker";
+        weight = 2;
+        buyPrice = 0;
+        sellPrice = 0;
+        illegal = false;
+        edible = -1;
+        icon = "icons\GPSTracker.paa";
     };
     
     class barrier {

@@ -29,7 +29,7 @@ class ProcessAction {
         MaterialsReq[] = {{"maisu",1}};
         MaterialsGive[] = {{"maisp",1}};
         Text = "STR_Process_Mais";
-        //ScrollText = "Cut Diamonds";
+        ScrollText = "test mais défilant";
         NoLicenseCost = 1350;
     };
     

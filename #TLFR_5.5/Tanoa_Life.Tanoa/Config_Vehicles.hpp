@@ -4481,18 +4481,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
         };
     };
 
-    class B_MRAP_01_F {
-        vItemSpace = 65;
-        licenses[] = { {""}, {""}, {""}, {""} };
-        price = 10;
-        textures[] = {
-        	{ "Armee", "armee", {
-                "alfr_Arm\data\ALFR_hunter_base_armee.jpg",
-				"alfr_Arm\data\ALFR_hunter_back_armee.jpg"
-            } }
-        };
-    };
-
+    
      class B_Heli_Light_01_stripped_F {
         vItemSpace = 90;
         licenses[] = { {"rebel"}, {""}, {""}, {""} };
