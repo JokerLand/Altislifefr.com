@@ -27,6 +27,7 @@
 |FAIT| Sound harvest not found quand on récolte ? -> Fait sur TOUT |FAIT|
 |FAIT| Calibrer toutes les ressources ; Prix / Prix License / Trajet / Poids / nbr qu'on récolte en mm temps/etc |FAIT|
 |FAIT| Bug GiveKey / Car / House |FAIT|
+|FAIT| Debug Spawn Helico Medic |FAIT|
 
 //Ressources (John) : 
 - Meth & pleins d'autres  || EN COURS
