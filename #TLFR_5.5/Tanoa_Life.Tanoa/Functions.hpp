@@ -386,7 +386,7 @@ class Life_Client_Core {
     class Medical_System {
         file = "core\medical";
         class deathScreen {};
-        class fn_medEnter {};
+        class medEnter {};
         class medicLights {};
         class medicLoadout {};
         class medicMarkers {};
