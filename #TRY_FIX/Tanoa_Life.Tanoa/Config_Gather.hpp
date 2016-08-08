@@ -73,13 +73,6 @@ class CfgGather {
             item = "";
         };
         
-        class emeraudeusaphiru {
-            amount = 4;
-            zones[] = { "emeraudeusaphiru_1" };
-            item = "pickaxe";
-            mined[] = { {"emeraudeu",0,10},{"saphiru",10,100} };
-    };
-        
         class algueunprocessed {
             amount = 3;
             zones[] = { "algue_1" };
@@ -168,6 +161,13 @@ Example 2:
             zones[] = { "oil_field_1", "oil_field_2" };
             item = "pickaxe";
             mined[] = { "oil_unprocessed" };
+        };
+        
+        class emeraudeusaphiru {
+            amount = 4;
+            zones[] = { "emeraudeusaphiru_1" };
+            item = "pickaxe";
+            mined[] = { {"emeraudeu",0,10},{"saphiru",10,100} };
         };
                 
         class pierrevolcaniqueu {
