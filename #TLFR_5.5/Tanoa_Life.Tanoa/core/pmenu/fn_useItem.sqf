@@ -140,6 +140,11 @@ switch (true) do {
 		[] spawn life_fnc_crowbar;
 		};
 	
+    case (_item == "gpsTracker"): {
+		[cursorTarget] spawn life_fnc_gpsTracker;
+		closeDialog 0;
+	};    
+    
 	case (_item == "passeport"):
 		{
 			[] spawn life_fnc_usepasseport;
@@ -265,7 +270,7 @@ switch (true) do {
 			[] spawn life_fnc_usepasseportjingmei;
 		};
 		
-	case (_item in ["apple","rabbit","salema","ornate","mackerel","tuna","mullet","catshark","turtle","turtlesoup","donuts","tbacon","peach"]): {
+	case (_item in ["apple","rabbit","salema","ornate","mackerel","tuna","mullet","catshark","turtle","turtlesoup","donuts","tbacon","banane","noixcoco","peach"]): {
 		if(!(EQUAL(M_CONFIG(getNumber,"VirtualItems",_item,"edible"),-1))) then {
 			if([false,_item,1] call life_fnc_handleInv) then {
 				_val = M_CONFIG(getNumber,"VirtualItems",_item,"edible");
@@ -291,7 +296,7 @@ switch (true) do {
     
     case (_item =="vodka"):
 	{
-		if(playerSide in [west,independent]) exitWith {hint "Pas d'alcool durant le service !";};
+		if(playerSide in [west,independent]) exitWith {hint "Pas d'alcool durant le service, ou c'est le Rapport aux Officiers !";};
 		if((player getVariable ["inDrink",FALSE])) exitWith {hint "Vous êtes déja en train de boire !";};
 		if(([false,_item,1] call life_fnc_handleInv)) then
 		{
@@ -301,10 +306,20 @@ switch (true) do {
 			[] spawn life_fnc_drinkwhiskey;
 		};
 	};
+    
+    case (_item =="meth"):
+	{
+		if(playerSide in [west,independent]) exitWith {hint "Vous souhaitez être viré pour consommation de Stup' ?  Proposez-en aux CapiChef's, voire ce qu'ils en pensent...";};
+		if(([false,_item,1] call life_fnc_handleInv)) then
+		{
+			[] spawn life_fnc_meth;
+		};
+	};
+	};
 	
 	case (_item =="rhum"):
 	{
-		if(playerSide in [west,independent]) exitWith {hint "Pas d'alcool durant le service !";};
+		if(playerSide in [west,independent]) exitWith {hint "Pas d'alcool durant le service, ou c'est le Rapport aux Officiers !";};
 		if((player getVariable ["inDrink",FALSE])) exitWith {hint "Vous êtes déja en train de boire !";};
 		if(([false,_item,1] call life_fnc_handleInv)) then
 		{
@@ -317,7 +332,7 @@ switch (true) do {
 	
 	case (_item =="whiskey"):
 	{
-		if(playerSide in [west,independent]) exitWith {hint "Pas d'alcool durant le service !";};
+		if(playerSide in [west,independent]) exitWith {hint "Pas d'alcool durant le service, ou c'est le Rapport aux Officiers !";};
 		if((player getVariable ["inDrink",FALSE])) exitWith {hint "Vous êtes déja en train de boire !";};
 		if(([false,_item,1] call life_fnc_handleInv)) then
 		{
@@ -331,7 +346,7 @@ switch (true) do {
 	case (_item =="beer"):
 	{
 		
-		if(playerSide in [west,independent]) exitWith {hint localize "Pas d'alcool durant le service !";};
+		if(playerSide in [west,independent]) exitWith {hint localize "Pas d'alcool durant le service, ou c'est le Rapport aux Officiers !";};
 		if((player getVariable ["inDrink",FALSE])) exitWith {hint localize "Vous êtes déja en train de boire !";};
 		if(([false,_item,1] call life_fnc_handleInv)) then
 		{

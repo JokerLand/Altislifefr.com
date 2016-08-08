@@ -191,6 +191,13 @@ class CfgSounds
         sound[] = {"\sounds\mining.ogg", 0.95, 0.95};
         titles[] = {};
     };
+    
+    class Harvest
+    {
+	    name = "harvest";
+        sound[] = {"\sounds\harvest.ogg", 5, 5};
+        titles[] = {};
+    };
 	
 	class Bank
     {
@@ -232,7 +239,7 @@ class CfgDebriefing {
 
 class CfgNotifications {
     class MedicalRequestEmerg {
-        title = "Alerte SAMU";
+        title = "Alerte Pompier";
         iconPicture = "\A3\ui_f\data\map\mapcontrol\taskIcon_ca.paa";
         description = "%1";
         duration = 5;
@@ -272,7 +279,7 @@ class CfgNotifications {
     };
 
     class PoliceDispatch {
-        title = "Alerte Police Secours";
+        title = "Central Gendarmerie";
         iconPicture = "icons\ico_messagePolice.paa";
         description = "%1";
         duration = 10;
@@ -288,7 +295,7 @@ class CfgNotifications {
     };
 
     class AdminMessage {
-        title = "Message des Admins";
+        title = "Message du Gouvernement";
         iconPicture = "icons\ico_messageAdmin.paa";
         description = "%1";
         duration = 10;

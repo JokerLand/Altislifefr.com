@@ -69,6 +69,7 @@ class Life_Client_Core {
 		class robTraceurGPSAction {};
         class searchAction {};
         class searchVehAction {};
+        class seizeObjects {};
         class seizePlayerAction {};
         class serviceChopper {};
         class stopEscorting {};
@@ -315,6 +316,8 @@ class Life_Client_Core {
         class drinkrhum {};
         class drinkvodka {};
         class drinkwhiskey {};
+        class meth {};
+        class gpsTracker {};
         class flashbang {};
         class jerrycanRefuel {};
         class jerryRefuel {};
@@ -383,6 +386,7 @@ class Life_Client_Core {
     class Medical_System {
         file = "core\medical";
         class deathScreen {};
+        class fn_medEnter {};
         class medicLights {};
         class medicLoadout {};
         class medicMarkers {};

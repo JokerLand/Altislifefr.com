@@ -24,7 +24,7 @@ switch (playerSide) do
 		life_actions = life_actions + [player addAction["Prendre le traceur GPS",life_fnc_robTraceurGPSAction,"",0,false,false,"",'
 		!isNull cursorTarget && player distance cursorTarget < 3.5 && isPlayer cursorTarget && (cursorTarget getVariable["restrained",TRUE]) && ("ItemGPS" in assignedItems cursorTarget) ']];
         
-        //Seize weapons - add the code below
+        //Seize weapons 
         life_actions = life_actions + [player addAction["Saisir l'arme",life_fnc_seizePlayerWeapon,cursorTarget,0,false,false,"",'!isNull cursorTarget && (player distance cursorTarget) < 6 && speed cursorTarget < 2 && cursorTarget isKindOf "Man" && (isPlayer cursorTarget) && (side cursorTarget == civilian) && (cursorTarget getVariable "restrained")']];
 	};
 	case civilian:

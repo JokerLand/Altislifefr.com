@@ -197,6 +197,7 @@ class CarShops {
         vehicles[] = {
             { "B_Heli_Light_01_F", { "", "", -1 } },
 			{ "GR_Bell412_1", { "life_mediclevel", "SCALAR", 2 } },
+			{ "ALE_MedOrca", { "life_mediclevel", "SCALAR", 3 } },
             { "EC635_SAR", { "life_mediclevel", "SCALAR", 5 } }
         };
     };
@@ -231,21 +232,26 @@ class CarShops {
         };
     };
     
-    /*class armee_car { 
+    class armee_car { 
         side = "cop";
         vehicles[] = {
-            { "C_Offroad_01_F", { "", "", -1 } },
-            { "C_SUV_01_F", { "", "", -1 } },
-			{ "GeK_107_Police", { "", "", -1 } }, 
-            { "GeK_Renault_Trafic_Police", { "", "", -1 } },
-			{ "shounka_a3_gendsprinter", { "", "", -1 } },
-			{ "GeK_S60_Police", { "life_coplevel", "SCALAR", 2 } },
-			{ "gek_audi_a4_avant_police", { "life_coplevel", "SCALAR", 2 } },
+            { "GeK_Panhard", { "", "", -1 } },
+			{ "ALFR_suv_armee", { "life_coplevel", "SCALAR", 2 } },
 			{ "GeK_TLC100_Police", { "life_coplevel", "SCALAR", 2 } },
-			{ "GeK_ML63_Police", { "life_coplevel", "SCALAR", 3 } }
+			{ "GeK_TLC100", { "life_coplevel", "SCALAR", 3 } },
+			{ "B_MRAP_01_F", { "life_coplevel", "SCALAR", 3 } }
         };
-    };*/
-
+    };
+    
+    class armee_air { //OK
+        side = "cop";
+        vehicles[] = {
+            { "ALFR_Armee_Hummingbird", { "life_coplevel", "SCALAR", 2 } },
+			{ "B_Heli_Transport_03_unarmed_F", { "life_coplevel", "EQUAL", 3 } }
+        };
+    };
+    
+    
     class cop_air { //OK
         side = "cop";
         vehicles[] = {
@@ -1431,9 +1437,23 @@ class LifeCfgVehicles {
 		};
 	};	
     
-    class GeK_TLC100_Police {    
+    class GeK_Panhard  {    
+        vItemSpace = 30;
+        licenses[] = { {""}, {"armee"}, {""}, {""} };
+        price = 17500;
+		textures[] = {};
+	};
+    
+    class ALFR_suv_armee  {    
         vItemSpace = 55;
         licenses[] = { {""}, {"armee"}, {""}, {""} };
+        price = 17500;
+		textures[] = {};
+	};
+    
+    class GeK_TLC100_Police {    
+        vItemSpace = 55;
+        licenses[] = { {""}, {""}, {""}, {""} };
         price = 17500;
 		textures[] = {
 
@@ -3444,7 +3464,7 @@ class LifeCfgVehicles {
     class B_Heli_Transport_01_F {
         vItemSpace = 200;
         licenses[] = { {""}, {"cAir"}, {""}, {""} };
-        price = 2310000;
+        price = 200000;
         textures[] = {
 			{ "Police", "cop", {
                 "alfr_police\hawk\hawkav1.jpg",
@@ -3452,6 +3472,26 @@ class LifeCfgVehicles {
             } }
 
 		};
+    }; 
+    
+    class B_MRAP_01_F { 
+        vItemSpace = 30;
+        licenses[] = { {""}, {"armee"}, {""}, {""} };
+        price = 50000;
+        textures[] = {
+			{ "Armee", "cop", {
+                "alfr_Arm\data\ALFR_hunter_base_armee.jpg",
+				"alfr_Arm\data\ALFR_hunter_back_armee.jpg"
+            } }
+
+		};
+    };
+    
+    class ALFR_Armee_Hummingbird { 
+        vItemSpace = 5;
+        licenses[] = { {""}, {"armee"}, {""}, {""} };
+        price = 15000;
+        textures[] = {};
     };
 
     class B_MRAP_01_hmg_F {
@@ -4590,6 +4630,13 @@ will modify the virtual space and the price of the vehicle, but other informatio
         licenses[] = { {""}, {""}, {"mAir"}, {""} };
 		price = 5000;
         textures[] = {};
+	}; 
+    
+    class ALE_MedOrca {
+		vItemSpace = 5;
+        licenses[] = { {""}, {""}, {"mAir"}, {""} };
+		price = 5000;
+        textures[] = {};
 	};
 
     class EC635_SAR {
@@ -4645,7 +4692,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
                 "ALFR_TexSnd\huronunibleu2.paa",
 				"ALFR_TexSnd\huronunibleu1.paa"
             } },
-			{ "Armee", "armee", {
+			{ "Armee", "cop", {
                 "alfr_Arm\data\ALFR_huronk_front_armee.jpg",
 				"alfr_Arm\data\ALFR_huronk_back_armee.jpg"
             } },

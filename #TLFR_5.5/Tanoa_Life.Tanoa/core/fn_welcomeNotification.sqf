@@ -28,7 +28,7 @@ _message = "";
 _message = _message + "<t align='center' size='8' shadow='0'><img image='textures\armalife.jpg' /></t><br /><br />";
 _message = _message + "Lien de notre site (cliquer dessus pour l'ouvrir sur votre navigateur)<br /><br />";
 _message = _message + " <a href='http://www.altislifefr.com/' color='#56BDD6'>AltisLifeFR.com</a> -- Pour tout problèmes nous vous invitons à demander de l'aide sur le Forum ou Teamspeak..<br /><br />";
-_message = _message + "Vous êtes sur un serveur RP (Jeu de Rôle). Il est donc important de consulter les règles disponibles sur le forum. Le Fairplay et le RP sont de rigueur en Jeu !<br /><br />";
+_message = _message + "Vous êtes sur un serveur Semi-RP (Jeu de Rôle). Il est donc important de consulter les règles disponibles sur le forum. Le Fairplay et le RP sont de rigueur en Jeu !<br /><br />";
 _message = _message + "Si vous voyez des objets invisibles ou autres bugs, verifiez que vous lancez bien le jeu via notre <t color='#00aa00'>#Launcher</t> disponible sur notre site<br /><br />";
 _message = _message + "Bienvenue et Bon Jeu ! <br /><br />";
 

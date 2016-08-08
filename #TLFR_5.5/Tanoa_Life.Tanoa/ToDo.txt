@@ -24,7 +24,8 @@
 |FAIT| A fix en 129073 placer bien l'atm et retirer les murs bétons |FAIT|
 |FAIT| Fix glitch atm gang retirer |FAIT|
 |FAIT| Fix revente de maison cause de dupli |FAIT|
-|FAIT| Sound harvest not found quand on récolte ? -> fait que sur le champ de sugarcane |FAIT|
+|FAIT| Sound harvest not found quand on récolte ? -> Fait sur TOUT |FAIT|
+|FAIT| Bug GiveKey / Car / House |FAIT|
 
 //Ressources (John) : 
 - Meth & pleins d'autres  || EN COURS
@@ -42,6 +43,7 @@ souffre | oui |FAIT|
 algue | non |FAIT| 
 bois | oui |FAIT| 
 meth | multiprocess |FAIT| 
+Cacao ==> Milka Chocolat ==> Chocolaterie |A FAIRE|
 
 //Fret (Sakzy) :
 -Rajouter panneaux pub addaction dans les 4 grande ville
@@ -64,7 +66,7 @@ meth | multiprocess |FAIT|
 -Remettre les Safezones sur toute la map
 - Calibrer toutes les ressources ; Prix / Prix License / Trajet / Poids / nbr qu'on récolte en mm temps/etc
 
-//Urgent : (Sakzy)
--Bug clés de maison ?
+//Urgent :
+
 
 Prenez le ALFR_force + alfr_texsnd+ R3FUniform + R3fRetex du FTP Serveur/@ALFR/addons/... et mettez les dans votre jeu (remplacez si vous avez déjà)

@@ -5303,6 +5303,10 @@
             <Original>Télécommande</Original>
             <French>Télécommande</French>
         </Key>
+        <Key ID="STR_Item_GpsTracker">
+            <Original>Traceur GPS</Original>
+            <French>Traceur GPS</French>
+        </Key>
         <Key ID="STR_Item_barrier">
             <Original>Barrière</Original>
             <French>Barrière</French>
