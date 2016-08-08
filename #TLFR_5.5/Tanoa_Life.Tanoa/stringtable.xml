@@ -4156,8 +4156,8 @@
             <Polish>Wybrałeś zły numer</Polish>
         </Key>
         <Key ID="STR_Cop_TicketOver100">
-            <Original>Tickets can not be more than 999,999€!</Original>
-            <French>Les amendes ne peuvent dépassées plus de 999,999€!</French>
+            <Original>Les amendes ne peuvent dépassées plus de 200.000€!</Original>
+            <French>Les amendes ne peuvent dépassées plus de 200.000€!</French>
         </Key>
         <Key ID="STR_Cop_TicketGive">
             <Original>%1 gave a ticket of %2€ to %3</Original>
