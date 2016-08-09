@@ -17,9 +17,9 @@ class EditorData
 	class Camera
 	{
 		pos[]={5245.3501,5.6479912,10635.235};
-		dir[]={0,-0.70710683,0.70710683};
-		up[]={0,0.70710677,0.70710677};
-		aside[]={0.99999994,0,-0};
+		dir[]={0.12224613,-0.75549084,0.64365387};
+		up[]={0.14096701,0.65515804,0.74222302};
+		aside[]={0.98243809,-7.7561708e-009,-0.18658991};
 	};
 };
 binarizationWanted=0;
@@ -257,6 +257,24 @@ class CustomAttributes
 		name="Multiplayer";
 		class Attribute0
 		{
+			property="RespawnTemplates";
+			expression="true";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"ARRAY"
+						};
+					};
+				};
+			};
+		};
+		class Attribute1
+		{
 			property="RespawnButton";
 			expression="true";
 			class Value
@@ -271,24 +289,6 @@ class CustomAttributes
 						};
 					};
 					value=1;
-				};
-			};
-		};
-		class Attribute1
-		{
-			property="RespawnTemplates";
-			expression="true";
-			class Value
-			{
-				class data
-				{
-					class type
-					{
-						type[]=
-						{
-							"ARRAY"
-						};
-					};
 				};
 			};
 		};
@@ -393,7 +393,7 @@ class Mission
 			position[]={5634.8228,2.21,10353.264};
 			name="civ_spawn_1";
 			type="Empty";
-			angle=111.80632;
+			angle=111.80631;
 			id=5;
 		};
 		class Item5
@@ -684,14 +684,13 @@ class Mission
 		class Item32
 		{
 			dataType="Marker";
-			position[]={5616.0293,0,10395.813};
+			position[]={5616.0288,-1.0142231e-028,10395.813};
 			name="dive_shop";
 			text="@STR_MAR_Diving_Shop";
 			type="mil_box";
 			colorName="ColorOrange";
-			angle=215.54425;
 			id=60;
-			atlOffset=3.1340895;
+			atlOffset=3.1341162;
 		};
 		class Item33
 		{
@@ -3226,7 +3225,7 @@ class Mission
 			};
 			id=766;
 			type="Land_CashDesk_F";
-			atlOffset=312.1731;
+			atlOffset=311.64316;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -10101,6 +10100,7 @@ class Mission
 				angles[]={0,0.88736027,6.2826962};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 				init=" " \n "this enableSimulation false; this allowDamage false; this addAction[localize""STR_MAR_Station_Shop"",life_fnc_weaponShopMenu,""f_station_store""];this addAction[localize""STR_Shop_Station_Coffee"",life_fnc_virt_menu,""f_station_coffee""]; ";
@@ -10108,7 +10108,7 @@ class Mission
 			};
 			id=1482;
 			type="Land_CashDesk_F";
-			atlOffset=0.41699982;
+			atlOffset=0.00032043457;
 		};
 		class Item304
 		{
@@ -13022,7 +13022,6 @@ class Mission
 			};
 			id=1994;
 			type="Land_InfoStand_V2_F";
-			atlOffset=0.009970665;
 		};
 		class Item470
 		{
@@ -15278,7 +15277,7 @@ class Mission
 		class Item614
 		{
 			dataType="Marker";
-			position[]={5876.9536,21.208132,10294.576};
+			position[]={5875.8838,21.622494,10295.025};
 			name="med_hel_1";
 			type="Empty";
 			angle=83.876579;
@@ -17253,7 +17252,7 @@ class Mission
 			};
 			id=2539;
 			type="Land_CncBarrier_F";
-			atlOffset=0.004532814;
+			atlOffset=0.0045337677;
 		};
 		class Item718
 		{

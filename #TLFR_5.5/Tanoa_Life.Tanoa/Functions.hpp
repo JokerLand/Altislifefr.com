@@ -28,7 +28,6 @@ class Life_Client_Core {
         file = "core\actions";
         class arrestAction {};
         class buyLicense {};
-        class captureHideout {};
         class catchFish {};
         class dpFinish {};
         class dropFishingNet {};
