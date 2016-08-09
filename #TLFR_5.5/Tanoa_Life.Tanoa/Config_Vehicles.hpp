@@ -195,7 +195,7 @@ class CarShops {
         };
     };
 
-    class med_air_hs { //OK
+    class med_heli { //OK
         side = "med";
         vehicles[] = {
             { "B_Heli_Light_01_F", { "", "", -1 } },
