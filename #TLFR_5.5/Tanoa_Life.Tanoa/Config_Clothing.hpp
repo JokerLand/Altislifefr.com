@@ -319,6 +319,8 @@ class Clothing {
 		};
         headgear[] = {
 			{ "NONE", "Supprime couvre-chef", 0, { "", "", -1 } },
+            { "hightline_gendarmerie_cap_01", "Casquette de Gendarmerie", 100, { "", "", -1 } },
+            { "ALE_H_Calot", "Calot de Gendarmerie", 100, { "", "", -1 } },
 			{ "H_MilCap_gen_F", "", 200, { "", "", -1 } },
 			{ "H_ALFR_Gasmask", "", 200, { "", "", -1 } },
 			//{ "H_Beret_blk", "", 200, { "life_coplevel", "SCALAR", 2 } },
@@ -355,7 +357,7 @@ class Clothing {
 			{ "EWK_Cigar1", "", 200, { "", "", -1 } },
 			{ "EWK_Cig6", "", 200, { "", "", -1 } },
 			{ "EWK_Glasses_Cig6", "", 200, { "", "", -1 } },
-			{ "EWK_Cigar2", "", 200, { "", "", -1 } }	
+			{ "EWK_Cigar2", "", 200, { "", "", -1 } }
         };
         vests[] = {
 			{ "NONE", "Supprime gilet", 0, { "", "", -1 } },
@@ -455,28 +457,6 @@ class Clothing {
         };
         backpacks[] = {
             { "NONE", "Supprime sac", 0, { "", "", -1 } }
-        };
-    };
-
-    class gang_clothing {
-        title = "STR_Shops_C_Gang";
-        license = "";
-        side = "civ";
-        uniforms[] = {
-            { "NONE", "Supprimer uniforme", 0, { "", "", -1 } }
-        };
-        headgear[] = {
-            { "NONE", "Supprimer couvre-chef", 0, { "", "", -1 } }
-        };
-        goggles[] = {
-            { "NONE", "Supprimer lunette", 0, { "", "", -1 } }
-        };
-        vests[] = {
-            { "NONE", "Supprimer gilet", 0, { "", "", -1 } },
-            { "V_Rangemaster_belt", "", 2000, { "", "", -1 } }
-        };
-        backpacks[] = {
-            { "NONE", "Supprimer sac", 0, { "", "", -1 } }
         };
     };
 

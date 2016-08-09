@@ -336,7 +336,14 @@ class CarShops {
 			//{ "cl3_transit_black", { "", "", -1 } },
             { "C_Heli_Light_01_civil_F", { "", "", -1 } }
         };
-    };		
+    };
+    
+    class veh_boat {
+        side = "civ";
+        vehicles[] = {
+			{ "Gek_Ship", { "", "", -1 } },
+        };
+    };
 };
 
 class LifeCfgVehicles {
@@ -3599,6 +3606,13 @@ class LifeCfgVehicles {
     class Burnes_MK10_1 {
         vItemSpace = 30;
         licenses[] = { {"boat"}, {"cg"}, {""}, {""} };
+        price = 250000;
+        textures[] = {};
+    };
+    
+    class GeK_Ship {
+        vItemSpace = 3000;
+        licenses[] = { {""}, {""}, {""}, {""} };
         price = 250000;
         textures[] = {};
     };

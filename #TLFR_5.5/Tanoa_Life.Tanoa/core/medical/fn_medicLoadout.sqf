@@ -10,11 +10,14 @@ private["_handle"];
 _handle = [] spawn life_fnc_stripDownPlayer;
 waitUntil {scriptDone _handle};
 
-player addUniform "U_Rangemaster";
-player addBackpack "TRYK_B_Medbag";
+//Tenue
+player addUniform "U_Pompiers_Uniforme";
+player addBackpack "TRYK_B_Medbag_BK";
+
+//Items dans la tenue
 player addItemToBackpack "Medikit";
-player addItem "FirstAidKit";
-player addItem "FirstAidKit";
+
+//Items
 player addItem "ItemMap";
 player assignItem "ItemMap";
 player addItem "ItemCompass";

@@ -8,18 +8,18 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=2554;
+		nextID=2568;
 	};
 	class MarkerIDProvider
 	{
-		nextID=241;
+		nextID=242;
 	};
 	class Camera
 	{
-		pos[]={5934.9121,58.337032,10247.116};
-		dir[]={-0.54716641,-0.73574406,0.3992309};
-		up[]={-0.59436035,0.67724431,0.43366542};
-		aside[]={0.58944917,6.8559893e-007,0.80786628};
+		pos[]={5670.7168,134.70436,10351.349};
+		dir[]={-0.84321213,-0.35491705,-0.40384257};
+		up[]={-0.32017207,0.93486315,-0.15334229};
+		aside[]={-0.43196282,-2.2572203e-007,0.90192538};
 	};
 };
 binarizationWanted=0;
@@ -72,7 +72,8 @@ addons[]=
 	"Helipad_MapObject",
 	"A3_Structures_F_Heli_Items_Electronics",
 	"ALE_Objects",
-	"A3_Structures_F_Walls"
+	"A3_Structures_F_Walls",
+	"A3_Structures_F_Exp_Industrial_Port"
 };
 class AddonsMetaData
 {
@@ -347,7 +348,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=726;
+		items=732;
 		class Item0
 		{
 			dataType="Marker";
@@ -393,7 +394,7 @@ class Mission
 			position[]={5634.8228,2.21,10353.264};
 			name="civ_spawn_1";
 			type="Empty";
-			angle=111.80627;
+			angle=111.80621;
 			id=5;
 		};
 		class Item5
@@ -9367,8 +9368,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={5738.6387,5.100605,10240.696};
-				angles[]={0,1.1219418,0};
+				position[]={5738.6392,5.1003599,10240.696};
+				angles[]={0,1.1219499,0};
 			};
 			side="Empty";
 			flags=4;
@@ -9378,7 +9379,7 @@ class Mission
 			};
 			id=1196;
 			type="Land_InfoStand_V2_F";
-			atlOffset=0.21524954;
+			atlOffset=0.21499968;
 		};
 		class Item262
 		{
@@ -11517,17 +11518,17 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={5675.8374,4.752943,10163.035};
-				angles[]={0.0026520467,1.6880802,0};
+				position[]={5675.8369,4.7530947,10163.035};
+				angles[]={0.0026529003,1.6880825,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
+				init="this allowDamage false; this enableSimulation false;";
 			};
 			id=1832;
 			type="Land_JetEngineStarter_01_F";
-			atlOffset=-0.00015163422;
 		};
 		class Item394
 		{
@@ -15279,12 +15280,11 @@ class Mission
 		class Item614
 		{
 			dataType="Marker";
-			position[]={5924.5288,-3.680442e-033,10254.342};
+			position[]={5875.7764,21.622494,10294.526};
 			name="med_heli_spawn";
 			type="Empty";
 			angle=83.876976;
 			id=2223;
-			atlOffset=-14.974625;
 		};
 		class Item615
 		{
@@ -15641,8 +15641,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={5798.0054,8.6560535,10315.87};
-				angles[]={6.2542825,0.13641493,0.027227135};
+				position[]={5796.126,8.6076784,10315.95};
+				angles[]={6.254283,0.13641493,0.027235383};
 			};
 			side="Empty";
 			flags=4;
@@ -15653,15 +15653,14 @@ class Mission
 			};
 			id=2329;
 			type="Land_InfoStand_V2_F";
-			atlOffset=0.10000086;
 		};
 		class Item637
 		{
 			dataType="Marker";
-			position[]={5794.833,0,10300.838};
+			position[]={5794.833,-1.5020324e-027,10300.838};
 			name="depannage_1_1";
 			type="Empty";
-			angle=99.10247;
+			angle=99.101974;
 			id=2330;
 			atlOffset=-7.7602258;
 		};
@@ -16305,7 +16304,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={5881.0552,17.390659,10284.607};
+				position[]={5881.0552,16.730942,10284.607};
 				angles[]={0,3.0559714,0};
 			};
 			side="Empty";
@@ -16314,14 +16313,14 @@ class Mission
 			};
 			id=2428;
 			type="Land_HeliPad";
-			atlOffset=2.4700003;
+			atlOffset=1.8102827;
 		};
 		class Item669
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={5878.793,17.120001,10303.388};
+				position[]={5878.793,16.620001,10303.388};
 				angles[]={0,4.0527067,0};
 			};
 			side="Empty";
@@ -16331,7 +16330,7 @@ class Mission
 			};
 			id=2433;
 			type="Land_HeliPad";
-			atlOffset=-4;
+			atlOffset=-4.5;
 		};
 		class Item670
 		{
@@ -17379,8 +17378,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={5888.9512,21.756306,10327.667};
-				angles[]={0,0.12968364,0};
+				position[]={5882.3296,21.697094,10303.263};
+				angles[]={0.0053265258,5.0773358,6.2778587};
 			};
 			side="Empty";
 			flags=4;
@@ -17390,6 +17389,95 @@ class Mission
 			};
 			id=2553;
 			type="Land_InfoStand_V2_F";
+			atlOffset=-1.7166138e-005;
+		};
+		class Item726
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5256.6768,25.448217,10098.105};
+				angles[]={0,1.5570431,0};
+			};
+			side="Empty";
+			flags=1;
+			class Attributes
+			{
+				init="this allowDamage false; this enableSimulation false;";
+			};
+			id=2557;
+			type="Land_MobileCrane_01_F";
+			atlOffset=7.0040598;
+		};
+		class Item727
+		{
+			dataType="Marker";
+			position[]={5257.2139,-3.2983123e-033,10140.305};
+			name="entreprise_boat_spawn";
+			type="Empty";
+			angle=270.207;
+			id=2559;
+			atlOffset=4.7619286;
+		};
+		class Item728
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5235.3892,3.0000582,10151.841};
+				angles[]={0,3.1375957,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="this allowDamage false; this enableSimulation false; this addAction[""Bateaux Entreprise Maritime"",life_fnc_vehicleShopMenu,[""veh_entreprise_maritime"",civilian,[""entreprise_boat_spawn""],""civ"",""Bateaux Entreprise Maritime""],0,false,false,"""",'license_civ_boat_ent']; this enableSimulation false; this allowDamage false; this addAction[""Vehicle Garage"",  {   [[getPlayerUID player,playerSide,""Ship"",player],""TON_fnc_getVehicles"",false,false] spawn life_fnc_MP; life_garage_type = ""Ship"";  createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""entreprise_boat_spawn"";  }]; this addAction[""Store vehicle in Garage"",life_fnc_storeVehicle,"",0,false,false,"",'!life_garage_store'];";
+			};
+			id=2561;
+			type="Land_InfoStand_V2_F";
+			atlOffset=0.00033378601;
+		};
+		class Item729
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5242.0933,2.9932175,10041.215};
+				angles[]={0,4.7383747,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=2562;
+			type="Land_InfoStand_V2_F";
+		};
+		class Item730
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5242.0776,2.9932175,10039.729};
+				angles[]={0,4.7388945,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=2563;
+			type="Land_InfoStand_V2_F";
+		};
+		class Item731
+		{
+			dataType="Marker";
+			position[]={5258.7739,-1.8633689e-010,10030.796};
+			name="entreprise_maritime_spawn";
+			type="Empty";
+			angle=1.6639997;
+			id=2565;
+			atlOffset=-2.21;
 		};
 	};
 };

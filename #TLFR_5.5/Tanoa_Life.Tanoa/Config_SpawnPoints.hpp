@@ -91,6 +91,13 @@ class CfgSpawnPoints {
             licenses[] = { { "altisfly", true } };
             level[] = { "", "", -1 };
         };
+         class entreprise_maritime {
+            displayName = "QG Maritime";
+            spawnMarker = "entreprise_maritime_spawn";
+            icon = "\plp_markers\icons\plp_mark_as_building.pac";
+            licenses[] = { { "entreprise_maritime", true } };
+            level[] = { "", "", -1 };
+        };
     };
 
     class Cop {

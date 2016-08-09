@@ -12,8 +12,9 @@ _handle = [] spawn life_fnc_stripDownPlayer;
 waitUntil {scriptDone _handle};
 
 //Load player with default cop gear.
-player addUniform "hightline_gendarmerie_03";
-player addVest "V_Police_light";
+player addUniform "hightline_gendarmerie_gilet";
+player addVest "V_Rangemaster_belt";
+player addHeadgear "hightline_gendarmerie_cap_01";
 
 if(FETCH_CONST(life_coplevel) == 1) then
 {

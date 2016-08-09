@@ -247,4 +247,12 @@ class Licenses {
         illegal = false;
         side = "civ";
     };
+    
+    class entreprise_maritime {
+        variable = "entreprise_maritime";
+        displayName = "STR_License_entreprise_maritime";
+        price = -1;
+        illegal = false;
+        side = "civ";
+    };
 };

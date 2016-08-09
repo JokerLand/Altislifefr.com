@@ -6073,6 +6073,10 @@
             <Original>Tanoa Cargo Incorporation</Original>
             <French>Tanoa Cargo Incorporation</French>
         </Key>
+        <Key ID="STR_License_entreprise_maritime">
+            <Original>License Maritime</Original>
+            <French>License Maritime</French>
+        </Key>
         <Key ID="STR_License_CG">
             <Original>Coast Guard License</Original>
             <Czech>Pobřežní stráž licence</Czech>
