@@ -482,7 +482,7 @@ class VirtualItems {
         sellPrice = 250;
         illegal = true;
         edible = -1;
-        icon = "icons\ico_marijuana.paa";
+        icon = "icons\ico_iode.paa";
     };
     
     class ephedrine {
@@ -504,7 +504,7 @@ class VirtualItems {
         sellPrice = 250;
         illegal = true;
         edible = -1;
-        icon = "icons\ico_marijuana.paa";
+        icon = "icons\ico_phosphorerouge.paa";
     };
     
     class meth {
@@ -540,7 +540,7 @@ class VirtualItems {
         sellPrice = 0;
         illegal = false;
         edible = 50;
-        icon = "icons\ico_redgull.paa";
+        icon = "icons\ico_biere.paa";
     };
     
     class whiskey {
@@ -551,7 +551,7 @@ class VirtualItems {
         sellPrice = 0;
         illegal = false;
         edible = 50;
-        icon = "icons\ico_redgull.paa";
+        icon = "icons\ico_whisky.paa";
     };
     
     class rhum {
@@ -738,7 +738,7 @@ class VirtualItems {
         sellPrice = -1;
         illegal = false;
         edible = -1;
-        icon = "icons\ico_saphir.paa";
+        icon = "icons\ico_saphiru.paa";
     };
     
     class saphirp {
@@ -804,7 +804,7 @@ class VirtualItems {
         sellPrice = -1;
         illegal = false;
         edible = -1;
-        icon = "icons\ico_meat.paa";
+        icon = "icons\ico_bois.paa";
     };
     
     class boisp {
