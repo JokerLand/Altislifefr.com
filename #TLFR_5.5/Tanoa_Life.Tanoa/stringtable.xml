@@ -8193,14 +8193,8 @@
             <Italian>Guardia Costiera</Italian>
         </Key>
         <Key ID="STR_MAR_Rebel_Outpost">
-            <Original>Camp Rebel</Original>
-            <Czech>Rebel Outpost</Czech>
-            <French>Camp Rebel</French>
-            <Spanish>Base Rebelde</Spanish>
-            <Italian>Avamposto Ribelle</Italian>
-            <German>Rebellen Außenposten</German>
-            <Portuguese>Base Rebelde</Portuguese>
-            <Polish>Baza rebeliantów</Polish>
+            <Original>Camp Rebelle</Original>
+            <French>Camp Rebelle</French>
         </Key>
         <Key ID="STR_MAR_Air_Shop">
             <Original>Air Shop</Original>
@@ -8571,14 +8565,8 @@
             <Italian>Checkpoint di polizia</Italian>
         </Key>
         <Key ID="STR_MAR_Turtle_Poaching">
-            <Original>Turtle Poaching</Original>
-            <Czech>Turtle pytláctví</Czech>
-            <French>Zones de tortues</French>
-            <Spanish>Caza de Tortugas</Spanish>
-            <Italian>Bracconaggio di Tartarughe</Italian>
-            <German>Wilderei für Schildkröten</German>
-            <Portuguese>Área de Tartarugas</Portuguese>
-            <Polish>Strefa występowania żółwi morskich</Polish>
+            <Original>Zone de tortues</Original>
+            <French>Zone de tortues</French>
         </Key>
         <Key ID="STR_MAR_Turtle_Weapon">
             <Original>Vendeur d'équipement de tortues</Original>

@@ -7,32 +7,26 @@
 _illegalmarkers = [
 
 
-//Weed
-"weed_1", "Weed_p_1",
-
-//Cocaine
-"cocaine_1", "coke_area", "cocaine_processing",
-
-//Heroine
-"heroin_1", "heroin_area", "heroin_p",
-    
-//Zone de Tortue
+//Zones de Tortues
 "turtle_1_name_2", "turtle_1_name_1", "turtle_1_name", "turtle_2", "turtle_3", "turtle_1",   
 
 //Rebelle
-"Rebelop_1_1", "Rebelop_1_1_1", "garage_reb_1_1", "garage_reb_1", "faussaire_1", "faussaire_2", "faussaire_3",
-    
-//Gangster
-"Rebelop_1_1_1_1", "garage_reb_1_1_2", "garage_reb_1_1_1", "Gangster_shop",    
+"mark_reb_4", "mark_reb_3", "mark_reb_2", "mark_reb_1", "Rebelop_2", "faussaire_2",
     
 //SafeZone
-"safezone_reb_1", "safezone_frini",    
+"rebelle_safezone",  
 
-//Dealer
-"Dealer_1", "Dealer_1_3", "Dealer_3", "turle_dealer", "turle_dealer_1", "turle_dealer_2",
+//Meth
+"ephedrine_1", "produitchimique_trader", "meth_processing", "meth_trader",
     
-//Planque d'Arme
-"gang_area_1", "gang_area_2", "gang_area_3",    
+//Algue
+"algue_1", "algue_processing", "algue_trader",
+    
+//Corail
+"corail_1", "corail_trader",
+    
+//Dealer
+"Turtle_dealer", 
 
 //Revendeur de véhicule volé
 "chop_shop_1", "chop_shop_2", "chop_shop_3", "chop_shop_4"
