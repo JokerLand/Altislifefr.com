@@ -142,27 +142,6 @@ class WeaponShops {
         accs[] = {};
     };
 
-    class gang {
-        name = "Hideout Armament";
-        side = "civ";
-        license = "";
-        level[] = { "", "", -1, "" };
-        items[] = {
-            { "hgun_Rook40_F", "", 10000, -1 },
-            { "hgun_Pistol_heavy_02_F", "", 12000, -1 },
-            { "hgun_ACPC2_F", "", 15000, -1 },
-            { "hgun_PDW2000_F", "", 20000, -1 },
-            { "optic_ACO_grn_smg", "", 2500 }
-        };
-        mags[] = {
-            { "16Rnd_9x21_Mag", "", 25 },
-            { "6Rnd_45ACP_Cylinder", "", 50 },
-            { "9Rnd_45ACP_Mag", "", 45 },
-            { "30Rnd_9x21_Mag", "", 75 }
-        };
-        accs[] = {};
-    };
-
     //Basic Shops
     class genstore {
         name = "Quincaillerie";
