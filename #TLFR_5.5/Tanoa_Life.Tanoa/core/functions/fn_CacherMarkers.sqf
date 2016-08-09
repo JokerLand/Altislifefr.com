@@ -19,6 +19,9 @@ _illegalmarkers = [
 //Meth
 "ephedrine_1", "produitchimique_trader", "meth_processing", "meth_trader",
     
+//Souffre
+"souffre_1", "souffre_processing_1", "souffre_trader",
+    
 //Algue
 "algue_1", "algue_processing", "algue_trader",
     
