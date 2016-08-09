@@ -1774,13 +1774,11 @@
     <Package name="Garage_Strings">
         <Key ID="STR_Garage_Title">
             <Original>Vehicle Garage</Original>
-            <Czech>Garáž Vehicle</Czech>
-            <Spanish>Garaje de Vehículos</Spanish>
-            <German>Fahrzeug Garage</German>
             <French>Garage de Véhicule</French>
-            <Italian>Garage Veicoli</Italian>
-            <Portuguese>Garagem de Veículos</Portuguese>
-            <Polish>Garaż</Polish>
+        </Key>
+        <Key ID="STR_Garage_Title">
+            <Original>Garage Aérien</Original>
+            <French>Garage Aérien</French>
         </Key>
         <Key ID="STR_Garage_GetVehicle">
             <Original>Get Vehicle</Original>
@@ -8854,6 +8852,14 @@
         <Key ID="STR_MAR_W_E_VehicleRebel_Shop">
             <Original>Vendeur de Véhicules</Original>
             <French>Vendeur de Véhicules</French>
+        </Key>
+        <Key ID="STR_MAR_IonShop">
+            <Original>Véhicules ION</Original>
+            <French>Véhicules ION</French>
+        </Key>
+        <Key ID="STR_MAR_DepanShop">
+            <Original>Véhicules Dépanneurs</Original>
+            <French>Véhicules Dépanneurs</French>
         </Key>
         <Key ID="STR_MAR_Process_Sand">
             <Original>Process Sand</Original>
