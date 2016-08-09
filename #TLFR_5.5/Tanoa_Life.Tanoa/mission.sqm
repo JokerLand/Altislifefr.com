@@ -8,7 +8,7 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=2568;
+		nextID=2573;
 	};
 	class MarkerIDProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={5670.7168,134.70436,10351.349};
-		dir[]={-0.84321213,-0.35491705,-0.40384257};
-		up[]={-0.32017207,0.93486315,-0.15334229};
-		aside[]={-0.43196282,-2.2572203e-007,0.90192538};
+		pos[]={5256.6538,485.98538,10129.301};
+		dir[]={0.68668574,-0.69897455,0.19976884};
+		up[]={0.67115211,0.71514326,0.19525027};
+		aside[]={0.27933806,3.8417056e-009,-0.96019679};
 	};
 };
 binarizationWanted=0;
@@ -348,7 +348,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=732;
+		items=733;
 		class Item0
 		{
 			dataType="Marker";
@@ -394,7 +394,7 @@ class Mission
 			position[]={5634.8228,2.21,10353.264};
 			name="civ_spawn_1";
 			type="Empty";
-			angle=111.80621;
+			angle=111.8062;
 			id=5;
 		};
 		class Item5
@@ -1243,7 +1243,7 @@ class Mission
 			type="o_armor";
 			colorName="Color1_FD_F";
 			id=172;
-			atlOffset=70.7034;
+			atlOffset=66.689911;
 		};
 		class Item86
 		{
@@ -1265,7 +1265,7 @@ class Mission
 			type="o_armor";
 			colorName="Color1_FD_F";
 			id=174;
-			atlOffset=30.742357;
+			atlOffset=24.994411;
 		};
 		class Item88
 		{
@@ -2431,7 +2431,6 @@ class Mission
 			};
 			id=560;
 			type="Land_Atm_02_F";
-			atlOffset=0.10159349;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -3227,7 +3226,7 @@ class Mission
 			};
 			id=766;
 			type="Land_CashDesk_F";
-			atlOffset=312.1731;
+			atlOffset=311.64316;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -9411,7 +9410,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="this addAction[localize""STR_MAR_W_E_Vehicle Shop"",life_fnc_vehicleShopMenu,[""med_shop"",independent,""med_car_1"",""med"",""GeorgeTown Hospital""]]; this addAction[localize""STR_MAR_W_Car_Garage"",  {   if (life_HC_isActive) then {    [getPlayerUID player,playerSide,""Car"",player] remoteExecCall [""HC_fnc_getVehicles"",HC_Life]; } else { [getPlayerUID player,playerSide,""Car"",player] remoteExecCall [""TON_fnc_getVehicles"",2];};   createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""med_car_1""; life_garage_type = ""Car"";  },"""",0,false,false,"""",'playerSide isEqualTo independent']; this addAction[localize""STR_MAR_Store_vehicle_in_Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store']; ";
+				init="this enableSimulation false; this allowDamage false; this enableSimulation false; this allowDamage false; this addAction[localize""STR_MAR_W_E_Vehicle Shop"",life_fnc_vehicleShopMenu,[""med_shop"",independent,""med_car_1"",""med"",""GeorgeTown Hospital""]]; this addAction[localize""STR_MAR_W_Car_Garage"",  {   if (life_HC_isActive) then {    [getPlayerUID player,playerSide,""Car"",player] remoteExecCall [""HC_fnc_getVehicles"",HC_Life]; } else { [getPlayerUID player,playerSide,""Car"",player] remoteExecCall [""TON_fnc_getVehicles"",2];};   createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""med_car_1""; life_garage_type = ""Car"";  },"""",0,false,false,"""",'playerSide isEqualTo independent']; this addAction[localize""STR_MAR_Store_vehicle_in_Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store']; ";
 			};
 			id=1223;
 			type="Land_InfoStand_V2_F";
@@ -9494,6 +9493,7 @@ class Mission
 				angles[]={0,1.6464937,0};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 				init="this enableSimulation false; this allowDamage false; this addAction[localize""STR_MAR_Station_Shop"",life_fnc_weaponShopMenu,""f_station_store""];this addAction[localize""STR_Shop_Station_Coffee"",life_fnc_virt_menu,""f_station_coffee""];";
@@ -9501,7 +9501,6 @@ class Mission
 			};
 			id=1257;
 			type="Land_CashDesk_F";
-			atlOffset=0.45763612;
 		};
 		class Item269
 		{
@@ -10074,7 +10073,6 @@ class Mission
 			};
 			id=1477;
 			type="Land_CashDesk_F";
-			atlOffset=0.046600342;
 		};
 		class Item302
 		{
@@ -10103,6 +10101,7 @@ class Mission
 				angles[]={0,0.88736027,6.2826962};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 				init=" " \n "this enableSimulation false; this allowDamage false; this addAction[localize""STR_MAR_Station_Shop"",life_fnc_weaponShopMenu,""f_station_store""];this addAction[localize""STR_Shop_Station_Coffee"",life_fnc_virt_menu,""f_station_coffee""]; ";
@@ -10110,7 +10109,7 @@ class Mission
 			};
 			id=1482;
 			type="Land_CashDesk_F";
-			atlOffset=0.41699982;
+			atlOffset=0.00032043457;
 		};
 		class Item304
 		{
@@ -10877,13 +10876,13 @@ class Mission
 				angles[]={6.2802153,0.61963892,0.0019531252};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 				init="this enableSimulation false; this allowDamage false; this addAction[localize""STR_Shops_W_Gun"",life_fnc_weaponShopMenu,""gun"",0,false,false,"""",' license_civ_gun && playerSide isEqualTo civilian']; this addAction[localize ""STR_Shops_C_Gun"",life_fnc_clothingMenu,""gun_clothing"",0,false,false,"""",' license_civ_gun && playerSide isEqualTo civilian']; this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""gun"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""gun"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""gun"",0,false,false,"""",' !license_civ_gun && playerSide isEqualTo civilian '];";
 			};
 			id=1557;
 			type="Land_CashDesk_F";
-			atlOffset=0.43502426;
 		};
 		class Item351
 		{
@@ -10969,13 +10968,13 @@ class Mission
 				angles[]={0,0.20287536,6.2826972};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 				init="this allowDamage false; this enableSimulation false; this addAction[localize""STR_MAR_Clothing_Store"",life_fnc_clothingMenu,""bruce""];";
 			};
 			id=1565;
 			type="Land_CashDesk_F";
-			atlOffset=0.64319897;
 		};
 		class Item355
 		{
@@ -13024,7 +13023,6 @@ class Mission
 			};
 			id=1994;
 			type="Land_InfoStand_V2_F";
-			atlOffset=0.009970665;
 		};
 		class Item470
 		{
@@ -15086,8 +15084,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={5907.7295,15.763431,10251.244};
-				angles[]={0,0.66395807,0};
+				position[]={5907.73,15.763258,10251.244};
+				angles[]={0,0.66395813,0};
 			};
 			side="Empty";
 			flags=4;
@@ -15097,6 +15095,7 @@ class Mission
 			};
 			id=2209;
 			type="Land_InfoStand_V2_F";
+			atlOffset=0.22299957;
 		};
 		class Item603
 		{
@@ -15660,7 +15659,7 @@ class Mission
 			position[]={5794.833,-1.5020324e-027,10300.838};
 			name="depannage_1_1";
 			type="Empty";
-			angle=99.101974;
+			angle=99.101952;
 			id=2330;
 			atlOffset=-7.7602258;
 		};
@@ -17378,18 +17377,17 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={5882.3296,21.697094,10303.263};
-				angles[]={0.0053265258,5.0773358,6.2778587};
+				position[]={5882.3301,21.697107,10303.263};
+				angles[]={0.0053232545,5.0773373,6.2778621};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
-				init="this addAction[localize""STR_MAR_Helicopter_Shop"", life_fnc_vehicleShopMenu,[""med_heli"",independent,""med_heli_spawn"",""med"",""GeorgeTown Hospital""]]; this addAction[localize""STR_MAR_Helicopter_Garage"",  {   if (life_HC_isActive) then {    [getPlayerUID player,playerSide,""Air"",player] remoteExecCall [""HC_fnc_getVehicles"",HC_Life]; } else { [getPlayerUID player,playerSide,""Air"",player] remoteExecCall [""TON_fnc_getVehicles"",2];};   createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""med_heli_spawn""; life_garage_type = ""Air"";  },"""",0,false,false,"""",'playerSide isEqualTo independent ']; this addAction[localize""STR_MAR_Store_vehicle_in_Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store']; ";
+				init="this addAction[localize""STR_MAR_Helicopter_Shop"", life_fnc_vehicleShopMenu,[""med_heli"",independent,""med_heli_spawn"",""med"",""GeorgeTown Hospital""]]; this addAction[localize""STR_MAR_Helicopter_Garage"",  {   if (life_HC_isActive) then {    [getPlayerUID player,playerSide,""Air"",player] remoteExecCall [""HC_fnc_getVehicles"",HC_Life]; } else { [getPlayerUID player,playerSide,""Air"",player] remoteExecCall [""TON_fnc_getVehicles"",2];};   createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""med_heli_spawn_1""; life_garage_type = ""Air"";  },"""",0,false,false,"""",'playerSide isEqualTo independent ']; this addAction[localize""STR_MAR_Store_vehicle_in_Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store']; ";
 			};
 			id=2553;
 			type="Land_InfoStand_V2_F";
-			atlOffset=-1.7166138e-005;
 		};
 		class Item726
 		{
@@ -17424,18 +17422,18 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={5235.3892,3.0000582,10151.841};
+				position[]={5234.085,2.9999933,10151.845};
 				angles[]={0,3.1375957,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
-				init="this allowDamage false; this enableSimulation false; this addAction[""Bateaux Entreprise Maritime"",life_fnc_vehicleShopMenu,[""veh_entreprise_maritime"",civilian,[""entreprise_boat_spawn""],""civ"",""Bateaux Entreprise Maritime""],0,false,false,"""",'license_civ_boat_ent']; this enableSimulation false; this allowDamage false; this addAction[""Vehicle Garage"",  {   [[getPlayerUID player,playerSide,""Ship"",player],""TON_fnc_getVehicles"",false,false] spawn life_fnc_MP; life_garage_type = ""Ship"";  createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""entreprise_boat_spawn"";  }]; this addAction[""Store vehicle in Garage"",life_fnc_storeVehicle,"",0,false,false,"",'!life_garage_store'];";
+				init="this allowDamage false; this enableSimulation false; this addAction[""Bateaux Entreprise Maritime"",life_fnc_vehicleShopMenu,[""veh_entreprise_maritime"",civilian,[""entreprise_boat_spawn""],""civ"",""Bateaux Entreprise Maritime""],0,false,false,"""",'license_civ_entreprise_maritime']; this enableSimulation false; this allowDamage false; this addAction[""Vehicle Garage"",  {   [[getPlayerUID player,playerSide,""Ship"",player],""TON_fnc_getVehicles"",false,false] spawn life_fnc_MP; life_garage_type = ""Ship"";  createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""entreprise_boat_spawn"";  }]; this addAction[""Store vehicle in Garage"",life_fnc_storeVehicle,"",0,false,false,"",'!life_garage_store'];";
 			};
 			id=2561;
 			type="Land_InfoStand_V2_F";
-			atlOffset=0.00033378601;
+			atlOffset=0.00026893616;
 		};
 		class Item729
 		{
@@ -17478,6 +17476,15 @@ class Mission
 			angle=1.6639997;
 			id=2565;
 			atlOffset=-2.21;
+		};
+		class Item732
+		{
+			dataType="Marker";
+			position[]={5884.4023,21.120001,10312.701};
+			name="med_heli_spawn_1";
+			type="Empty";
+			angle=142.51695;
+			id=2568;
 		};
 	};
 };

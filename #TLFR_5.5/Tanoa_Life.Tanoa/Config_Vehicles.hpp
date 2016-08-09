@@ -338,7 +338,7 @@ class CarShops {
         };
     };
     
-    class veh_boat {
+    class veh_entreprise_maritime {
         side = "civ";
         vehicles[] = {
 			{ "Gek_Ship", { "", "", -1 } },
