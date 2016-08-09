@@ -5820,6 +5820,10 @@
             <Portuguese>Picareta</Portuguese>
             <Polish>Kilof</Polish>
         </Key>
+        <Key ID="STR_Item_Axe">
+            <Original>Hache</Original>
+            <French>Hache</French>
+        </Key>
         <Key ID="STR_Item_Sand">
             <Original>Sand</Original>
             <Czech>Písek</Czech>

@@ -37,7 +37,7 @@ class VirtualShops {
         side = "civ";
         license = "";
         level[] = { "", "", -1, "" };
-        items[] = { "waterBottle", "rabbit", "noixcoco", "banane", "redgull", "tbacon", "pickaxe", "toolkit", "fuelFull", "storagesmall", "rabbit_raw", "hen_raw", "rooster_raw", "sheep_raw", "goat_raw" };
+        items[] = { "waterBottle", "rabbit", "noixcoco", "banane", "redgull", "tbacon", "pickaxe", "axe", "toolkit", "fuelFull", "storagesmall", "rabbit_raw", "hen_raw", "rooster_raw", "sheep_raw", "goat_raw" };
     };
     
     class bar {
@@ -61,7 +61,7 @@ class VirtualShops {
         side = "civ";
         license = "rebel";
         level[] = { "", "", -1, "" };
-        items[] = { "waterBottle", "rabbit", "noixcoco", "banane", "redgull", "tbacon", "lockpick", "pickaxe", "toolkit", "fuelFull", "blastingcharge" };
+        items[] = { "waterBottle", "rabbit", "noixcoco", "banane", "redgull", "tbacon", "lockpick", "pickaxe", "axe", "toolkit", "fuelFull", "blastingcharge" };
     };
 
     class wongs {
@@ -246,7 +246,7 @@ class VirtualShops {
         side = "civ";
         license = "ion";
         level[] = { "", "", -1, "" };
-        items[] = { "waterBottle", "rabbit", "noixcoco", "banane", "redgull", "tbacon", "pickaxe", "fuelFull", "storagesmall" };
+        items[] = { "waterBottle", "rabbit", "noixcoco", "banane", "redgull", "tbacon", "pickaxe", "axe", "fuelFull", "storagesmall" };
     };
 };
 
@@ -275,6 +275,17 @@ class VirtualItems {
         illegal = false;
         edible = -1;
         icon = "icons\ico_pickaxe.paa";
+    };
+    
+    class axe {
+        variable = "axe";
+        displayName = "STR_Item_Axe";
+        weight = 2;
+        buyPrice = 1200;
+        sellPrice = 0;
+        illegal = false;
+        edible = -1;
+        icon = "icons\ico_axe.paa";
     };
 
     class defibrillator {
