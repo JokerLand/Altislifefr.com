@@ -3587,7 +3587,13 @@ class LifeCfgVehicles {
         vItemSpace = 200;
         licenses[] = { {"boat"}, {"cg"}, {""}, {""} };
         price = 75000;
-        textures[] = {};
+        textures[] = {
+            { "Black", "cop", {
+                "#(argb,8,8,3)color(0.05,0.05,0.05,1)",
+                "#(argb,8,8,3)color(0.05,0.05,0.05,1)",
+                "#(argb,8,8,3)color(0.05,0.05,0.05,1)"
+            } }
+        };
     };
     
     class Burnes_MK10_1 {
