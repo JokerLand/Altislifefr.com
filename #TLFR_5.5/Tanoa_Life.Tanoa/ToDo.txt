@@ -1,5 +1,6 @@
-﻿   | Liste des choses à faire : Avec indications de celui qui s'occupe |
+   | Liste des choses à faire : Avec indications de celui qui s'occupe |
 
+CHOSES FAITES :
 
 |FAIT| véhicule aérien ,rajouter les camions |FAIT|
 |FAIT| l'econommie vehicule air , camions et rebelle |FAIT|
@@ -28,6 +29,18 @@
 |FAIT| Calibrer toutes les ressources ; Prix / Prix License / Trajet / Poids / nbr qu'on récolte en mm temps/etc |FAIT|
 |FAIT| Bug GiveKey / Car / House |FAIT|
 |FAIT| Debug Spawn Helico Medic |FAIT|
+|FAIT| Remettre les Safezones sur toute la map |FAIT|
+|FAIT| fix License armée de terre pour acheter le tlc gendarmerie |FAIT|
+
+CHOSES A FAIRE DANS UNE PROCHAINE MàJ :
+
+- Ressources : 
+        - Cacao ==> Milka Chocolat ==> Chocolaterie
+        - Pétrole
+- Mapping comico à revoir
+- Remapper l'hopitale avec le mod EM_Building
+- FRET (Voir détails plus bas)
+- Donateur + Mapping (Voir détails plus bas)
 
 //Ressources (John) : 
 - Meth & pleins d'autres  || EN COURS
@@ -45,7 +58,7 @@ souffre | oui |FAIT|
 algue | non |FAIT| 
 bois | oui |FAIT| 
 meth | multiprocess |FAIT| 
-Cacao ==> Milka Chocolat ==> Chocolaterie |A FAIRE|
+
 
 //Fret (Sakzy) :
 -Rajouter panneaux pub addaction dans les 4 grande ville
@@ -55,17 +68,15 @@ Cacao ==> Milka Chocolat ==> Chocolaterie |A FAIRE|
 -Rajouter les panneaux + le mapping donateur
 -Voir si les classes sont là + les variables définis
 
-//Concessionnaire
+//Concessionnaire (à virer ?)
 -Mettre un message du braquage du concessionnaire
 -Augmenter le temps du braquage du concessionnaire
 -Mettre une alarme pour le braquage du concessionnaire
 -Rajouter marqueur sur la map
 
 //Autre :
--fix License armée de terre pour acheter le tlc gendarmerie
 -Wanted Stringtable a modifier car en français marche pas
 -Remettre le "montrer son insigne"
--Remettre les Safezones sur toute la map
 
 //Urgent :
 
