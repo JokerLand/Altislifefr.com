@@ -222,7 +222,15 @@ class VirtualShops {
         side = "cop";
         license = "";
         level[] = { "", "", -1, "" };
-        items[] = { "donuts", "coffee", "telecommande", "gpsTracker", "crowbar", "banane", "redgull", "toolkit", "fuelFull", "defusekit" }; //, "spikeStrip", "ladder", "barrier", "barrierl", "panneau", "panneauattention", "cone", "conel", "cordon", "glissiere", "barstop", "lightd",
+        items[] = { "donuts", "coffee", "telecommande", "crowbar", "banane", "redgull", "toolkit", "fuelFull", "defusekit" }; //, "spikeStrip", "ladder", "barrier", "barrierl", "panneau", "panneauattention", "cone", "conel", "cordon", "glissiere", "barstop", "lightd",
+    };
+    
+    class copoff {
+        name = "STR_Shops_CopOff";
+        side = "cop";
+        license = "";
+        level[] = { "life_coplevel", "SCALAR", 6, "Ceci est une Boutique Réservée aux Officiers, vous avez cependant l'autorisation de prêter les équipements ci-dessous " };
+        items[] = { "gpsTracker" }; //, "spikeStrip", "ladder", "barrier", "barrierl", "panneau", "panneauattention", "cone", "conel", "cordon", "glissiere", "barstop", "lightd",
     };
         
     class depan {
@@ -230,7 +238,7 @@ class VirtualShops {
         side = "civ";
         license = "depan";
         level[] = { "", "", -1, "" };
-        items[] = { "waterBottle", "rabbit", "noixcoco", "banane", "tbacon", "redgull", "lockpick", "cone", "conel", "barriere", "barrierel", "cordon", "lightd", "panneauattention", "fuelFull" };
+        items[] = { "waterBottle", "rabbit", "noixcoco", "banane", "tbacon", "redgull", "lockpick", "fuelFull" };
     };
     
     class ion {
@@ -238,7 +246,7 @@ class VirtualShops {
         side = "civ";
         license = "ion";
         level[] = { "", "", -1, "" };
-        items[] = { "waterBottle", "rabbit", "noixcoco", "banane", "redgull", "tbacon", "light", "pickaxe", "fuelFull", "storagesmall", "rabbit_raw", "hen_raw", "rooster_raw", "sheep_raw", "goat_raw" };
+        items[] = { "waterBottle", "rabbit", "noixcoco", "banane", "redgull", "tbacon", "pickaxe", "fuelFull", "storagesmall" };
     };
 };
 
