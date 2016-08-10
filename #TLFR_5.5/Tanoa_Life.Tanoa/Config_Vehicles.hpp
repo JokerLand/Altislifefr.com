@@ -243,6 +243,7 @@ class CarShops {
 			{ "GeK_S60", { "life_coplevel", "SCALAR", 2 } },
 			{ "GeK_TLC100_Police", { "life_coplevel", "SCALAR", 2 } },
 			{ "GeK_TLC100", { "life_coplevel", "SCALAR", 3 } },
+			{ "B_T_LSV_01_unarmed_F", { "life_coplevel", "SCALAR", 3 } },
 			{ "B_MRAP_01_F", { "life_coplevel", "SCALAR", 3 } }
         };
     };
@@ -3628,6 +3629,13 @@ class LifeCfgVehicles {
 
 		};
     }; 
+    
+    class B_T_LSV_01_unarmed_F { 
+        vItemSpace = 30;
+        licenses[] = { {""}, {"armee"}, {""}, {""} };
+        price = 50000;
+        textures[] = {};
+    };
     
     class B_MRAP_01_F { 
         vItemSpace = 30;
