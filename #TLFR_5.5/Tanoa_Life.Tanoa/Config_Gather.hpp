@@ -137,9 +137,7 @@ Example 2:
             item = "pickaxe";
             mined[] = { "souffreu" };
         };
-    };
-    
-    class cutable {
+        
         class boisu {
             amount = 2;
             zones[] = { "bois_1", "bois_2" };
