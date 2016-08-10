@@ -238,7 +238,7 @@ class VirtualShops {
         side = "civ";
         license = "depan";
         level[] = { "", "", -1, "" };
-        items[] = { "waterBottle", "rabbit", "noixcoco", "banane", "tbacon", "redgull", "lockpick", "fuelFull" };
+        items[] = { "waterBottle", "rabbit", "noixcoco", "banane", "toolkit", "tbacon", "redgull", "lockpick", "fuelFull" };
     };
     
     class ion {
@@ -246,7 +246,7 @@ class VirtualShops {
         side = "civ";
         license = "ion";
         level[] = { "", "", -1, "" };
-        items[] = { "waterBottle", "rabbit", "noixcoco", "banane", "redgull", "tbacon", "pickaxe", "axe", "fuelFull", "storagesmall" };
+        items[] = { "waterBottle", "rabbit", "noixcoco", "banane", "toolkit", "redgull", "tbacon", "pickaxe", "axe", "fuelFull", "storagesmall" };
     };
 };
 
@@ -359,7 +359,7 @@ class VirtualItems {
         displayName = "STR_Item_GoldBar";
         weight = 12;
         buyPrice = -1;
-        sellPrice = 95000;
+        sellPrice = 35000;
         illegal = true;
         edible = -1;
         icon = "icons\ico_goldBar.paa";
