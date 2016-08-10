@@ -8686,13 +8686,11 @@
         </Key>
         <Key ID="STR_MAR_Helicopter_Shop">
             <Original>Vendeur d'Hélicoptère</Original>
-            <Czech>vrtulník Shop</Czech>
             <French>Vendeur d'Hélicoptère</French>
-            <Spanish>Tienda de Helicópteros</Spanish>
-            <Italian>Elicottero negozio</Italian>
-            <German>Verkäufer für Heli's</German>
-            <Portuguese>Loja de Helicópteros</Portuguese>
-            <Polish>Sklep lotniczy</Polish>
+        </Key>
+        <Key ID="STR_MAR_HelicopterArmee_Shop">
+            <Original>Vendeur d'Hélicoptère Armée</Original>
+            <French>Vendeur d'Hélicoptère Armée</French>
         </Key>
         <Key ID="STR_MAR_Station_Shop">
             <Original>Quincaillerie de la Station Service</Original>
@@ -8853,6 +8851,10 @@
             <Original>Vendeur de Véhicules</Original>
             <French>Vendeur de Véhicules</French>
         </Key>
+        <Key ID="STR_MAR_W_E_VehicleArmeeShop">
+            <Original>Vendeur de Véhicules Armée</Original>
+            <French>Vendeur de Véhicules Armée</French>
+        </Key>
         <Key ID="STR_MAR_W_E_VehicleRebel_Shop">
             <Original>Vendeur de Véhicules</Original>
             <French>Vendeur de Véhicules</French>
@@ -8864,6 +8866,10 @@
         <Key ID="STR_MAR_DepanShop">
             <Original>Véhicules Dépanneurs</Original>
             <French>Véhicules Dépanneurs</French>
+        </Key>
+        <Key ID="STR_MAR_AltisFlyShop">
+            <Original>Véhicules Tanoa Cargo</Original>
+            <French>Véhicules Tanoa Cargo</French>
         </Key>
         <Key ID="STR_MAR_Process_Sand">
             <Original>Process Sand</Original>

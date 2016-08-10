@@ -466,6 +466,7 @@ class Clothing {
         side = "med";
         uniforms[] = {
             { "NONE", "Supprimer uniforme", 0, { "", "", -1 } },
+            { "U_B_Wetsuit", "Tenue Plongée", 1500, { "", "", -1 } },
             { "U_Pompiers_TenueIntervention", "Tenue Intervention", 1500, { "", "", -1 } },
             { "U_Pompiers_Uniforme", "Uniforme Pompiers", 1500, { "", "", -1 } },
             { "U_Pompiers_Pilote", "Tenue Pilote Pompiers", 1500, { "", "", -1 } }
@@ -476,6 +477,7 @@ class Clothing {
         };
         goggles[] = {
 			{ "NONE", "Supprime lunette", 0, { "", "", -1 } },
+			{ "G_Diving", "Lunettes Plongée", 50, { "", "", -1 } },
 			{ "G_Shades_Black", "", 50, { "", "", -1 } },
 			{ "G_Shades_Blue", "", 50, { "", "", -1 } },
 			{ "G_Sport_Blackred", "", 50, { "", "", -1 } },
@@ -497,6 +499,7 @@ class Clothing {
         };
         vests[] = {
             { "NONE", "Supprimer gilet", 0, { "", "", -1 } },
+            { "V_RebreatherB", "Recycleur", 5000, { "", "", -1 } },
             { "V_Pompiers_GiletMedecin", "Gilet Medecin (OP ONLY)", 5000, { "", "", -1 } }
         };
         backpacks[] = {
