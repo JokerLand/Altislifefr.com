@@ -319,7 +319,6 @@ class CarShops {
 			{ "sab_BI_An2", { "", "", -1 } }, 
 			{ "Sab_sea_An2", { "", "", -1 } }, 
 			{ "IVORY_T6A_1", { "", "", -1 } }, 
-			{ "GR_Bell412_2", { "", "", -1 } },
 			{ "GR_UH1H_3", { "", "", -1 } },
 			{ "GR_UH1N_1", { "", "", -1 } }, 
 			{ "GR_UH1N_2", { "", "", -1 } }, 
@@ -3606,7 +3605,7 @@ class LifeCfgVehicles {
     class Burnes_MK10_1 {
         vItemSpace = 30;
         licenses[] = { {"boat"}, {"cg"}, {""}, {""} };
-        price = 250000;
+        price = 750000;
         textures[] = {};
     };
     
