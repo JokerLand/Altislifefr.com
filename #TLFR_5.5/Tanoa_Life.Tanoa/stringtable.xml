@@ -2097,11 +2097,11 @@
             <Polish>Admin Menu</Polish>
         </Key>
         <Key ID="STR_PM_SyncData">
-            <Original>Sync Data</Original>
+            <Original>Sauvegarder</Original>
             <Czech>synchronizace dat</Czech>
             <Spanish>Sincronizar</Spanish>
             <German>Daten speichern</German>
-            <French>Sync Data</French>
+            <French>Sauvegarder</French>
             <Italian>Salva Dati</Italian>
             <Portuguese>Sincronizar Dados</Portuguese>
             <Polish>Synchronizuj</Polish>
@@ -2109,7 +2109,7 @@
     </Package>
     <Package name="Settings_Menu">
         <Key ID="STR_SM_Title">
-            <Original>Settings Menu</Original>
+            <Original>Menu Paramètre</Original>
             <Czech>Nabídka Nastavení</Czech>
             <Spanish>Configuración</Spanish>
             <German>Einstellungen</German>
@@ -2119,7 +2119,7 @@
             <Polish>Ustawienia:</Polish>
         </Key>
         <Key ID="STR_SM_onFoot">
-            <Original>On Foot:</Original>
+            <Original>Pied:</Original>
             <Czech>Pěšky:</Czech>
             <Spanish>A Pie:</Spanish>
             <German>Zu Fuß:</German>
@@ -2129,17 +2129,17 @@
             <Polish>Na nogach:</Polish>
         </Key>
         <Key ID="STR_SM_inCar">
-            <Original>In Car:</Original>
+            <Original>Voiture:</Original>
             <Czech>V autě:</Czech>
             <Spanish>En Carro:</Spanish>
             <German>Im Auto:</German>
-            <French>Terre:</French>
+            <French>Voiture:</French>
             <Italian>Auto:</Italian>
             <Portuguese>No Carro:</Portuguese>
             <Polish>W aucie:</Polish>
         </Key>
         <Key ID="STR_SM_inAir">
-            <Original>In Air:</Original>
+            <Original>Air:</Original>
             <Czech>Ve vzduchu:</Czech>
             <Spanish>En Aire:</Spanish>
             <German>In der Luft:</German>
@@ -2149,7 +2149,7 @@
             <Polish>W powietrzu:</Polish>
         </Key>
         <Key ID="STR_SM_ToolTip1">
-            <Original>View distance while on foot</Original>
+            <Original>Distance de vue à pied</Original>
             <Czech>Pohled vzdálenost, zatímco na nohy</Czech>
             <Spanish>Distancia de vista a pie</Spanish>
             <German>Sichtweite zu Fuß</German>
@@ -2159,7 +2159,7 @@
             <Polish>Widoczność gdy na nogach</Polish>
         </Key>
         <Key ID="STR_SM_ToolTip2">
-            <Original>View distance while in a land vehicle</Original>
+            <Original>Distance de vue en voiture</Original>
             <Czech>Pohled vzdálenost, zatímco v pozemního vozidla</Czech>
             <Spanish>Distancia de vista en vehiculo terrestre</Spanish>
             <German>Sichtweite in Fahrzeugen</German>
@@ -2169,7 +2169,7 @@
             <Polish>Widoczność gdy w aucie</Polish>
         </Key>
         <Key ID="STR_SM_ToolTip3">
-            <Original>View distance while in a air vehicle</Original>
+            <Original>Distance de vue dans les airs</Original>
             <Czech>Pohled vzdálenost, zatímco ve vzduchu vozidle</Czech>
             <Spanish>Distancia de vista en vehiculo aéreo</Spanish>
             <German>Sichtweite in Helikoptern</German>
@@ -2179,7 +2179,7 @@
             <Polish>Widoczność gdy w powietrzu</Polish>
         </Key>
         <Key ID="STR_SM_PlayerTags">
-            <Original>Player Tags</Original>
+            <Original>Tags Joueurs</Original>
             <Czech>přehrávač Tags</Czech>
             <Spanish>Marcador de Jugadores</Spanish>
             <German>Spielernamen</German>
@@ -2209,9 +2209,9 @@
             <Polish>Tagi OFF</Polish>
         </Key>
         <Key ID="STR_SM_SC">
-            <Original>Sidechat Switch</Original>
+            <Original>SideChannel</Original>
             <Czech>Sidechat Spínač</Czech>
-            <French>Canal camp</French>
+            <French>SideChannel</French>
             <Spanish>Habilitar Sidechat</Spanish>
             <Italian>Interruttore Sidechat</Italian>
             <Polish>Sidechat Przełącznik</Polish>
@@ -2219,7 +2219,7 @@
             <German>Sidechat aktivieren</German>
         </Key>
         <Key ID="STR_SM_RNObj">
-            <Original>Reveal Nearest Objects</Original>
+            <Original>Révéler les objets les plus proches</Original>
             <Czech>Reveal Nejbližší objekty</Czech>
             <French>Révéler les objets les plus proches</French>
             <Spanish>Revelar Objetos Cercanos</Spanish>
@@ -9644,9 +9644,9 @@
     </Package>
     <Package name="Blacklisted">
         <Key ID="STR_Blacklisted_Title">
-            <Original>Mission Failed</Original>
+            <Original>Vous êtes blacklist de cette faction, contacter un membre du Staff</Original>
             <Czech>Mise selhala</Czech>
-            <French>Mission échouée</French>
+            <French>Vous êtes blacklist de cette faction, contacter un membre du Staff</French>
             <Spanish>Misión fallida</Spanish>
             <Italian>Missione fallita</Italian>
             <Polish>Misja nie powiodła się</Polish>
@@ -9655,9 +9655,9 @@
             <German>Mission fehlgeschlagen</German>
         </Key>
         <Key ID="STR_Blacklisted_SubTitle">
-            <Original>You are blacklisted from cops.</Original>
+            <Original>Vous êtes blacklist de cette faction, contacter un membre du Staff</Original>
             <Czech>Ty jsou na černé listině z policajtů.</Czech>
-            <French>Vous êtes sur la liste noire de flics.</French>
+            <French>Vous êtes blacklist de cette faction, contacter un membre du Staff</French>
             <Spanish>Usted está en la lista negra de policías.</Spanish>
             <Italian>Stai lista nera da poliziotti.</Italian>
             <Polish>Jesteś na czarnej liście od policjantów.</Polish>
@@ -9666,9 +9666,9 @@
             <German>Sie sind von Polizisten die schwarze Liste gesetzt.</German>
         </Key>
         <Key ID="STR_Blacklisted_Descript">
-            <Original>You are not allowed to be a cop due to previous actions and the admins have removed you from being a cop.</Original>
+            <Original>Vous êtes blacklist de cette faction, contacter un membre du Staff</Original>
             <Czech>Ty jsou nesmí být policajt vzhledem k předcházejícími akcemi a administrátoři vám odstraní z bytí policista.</Czech>
-            <French>Vous n'êtes pas autorisé à être un flic en raison des actions précédentes et les admins vous avez supprimé d'être un flic.</French>
+            <French>Vous êtes blacklist de cette faction, contacter un membre du Staff</French>
             <Spanish>No se le permite ser un policía debido a las acciones anteriores y los administradores de haber quitado de ser un policía.</Spanish>
             <Italian>Non è consentito fare il poliziotto a causa di azioni precedenti e gli amministratori di aver rimosso da essere un poliziotto.</Italian>
             <Polish>Nie mogą być policjantem z powodu wcześniejszych działań oraz administratorzy usunęli cię od bycia policjantem.</Polish>
@@ -9714,9 +9714,9 @@
     </Package>
     <Package name="TextNotifications">
         <Key ID="STR_MedicalRequestEmerg_Title">
-            <Original>EMS Requested</Original>
+            <Original>Pompier demandé</Original>
             <Czech>EMS Požadované</Czech>
-            <French>Medecin demandé</French>
+            <French>Pompier demandé</French>
             <Spanish>ccsme solicitada</Spanish>
             <Italian>EMS richiesto</Italian>
             <Polish>EMS Zamówiony</Polish>
@@ -9758,7 +9758,7 @@
             <German>Lieferung Auftrag abgeschlossen</German>
         </Key>
         <Key ID="STR_TextMessage_Title">
-            <Original>Received A Text Message</Original>
+            <Original>Vous avez reçu un message texte</Original>
             <Czech>Přijetí textové zprávy</Czech>
             <French>Vous avez reçu un message texte</French>
             <Spanish>Recibió un mensaje de texto</Spanish>
@@ -9775,7 +9775,7 @@
         <Key ID="STR_AdminDispatch_Title">
             <Original>Admin Announcement</Original>
             <Czech>Admin Dispatch Center</Czech>
-            <French>Administrateur Annonce</French>
+            <French>Administrateur : </French>
             <Spanish>Administrador Centro de Despacho</Spanish>
             <Italian>Admin centro di spedizione</Italian>
             <Polish>Administrator Dispatch Center</Polish>
@@ -9784,7 +9784,7 @@
             <German>Admin Verteilzentrum</German>
         </Key>
         <Key ID="STR_AdminMessage_Title">
-            <Original>Governement Announcement</Original>
+            <Original>Message du Gouvernement</Original>
             <Czech>Admin Message</Czech>
             <French>Message du Gouvernement</French>
             <Spanish>Mensaje de administración</Spanish>

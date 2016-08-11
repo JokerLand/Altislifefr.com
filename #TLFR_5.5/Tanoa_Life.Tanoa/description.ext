@@ -177,6 +177,14 @@ class CfgSounds
 		titles[] = {};
 
 	};
+    
+    class faim
+	{
+		name="faim";
+		sound[] = {"\sounds\faim.ogg", 5, 5};
+		titles[] = {};
+
+	};
 	
 	class alarme_magasin
     {
