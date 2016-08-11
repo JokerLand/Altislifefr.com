@@ -61,7 +61,7 @@ class VirtualShops {
         side = "civ";
         license = "rebel";
         level[] = { "", "", -1, "" };
-        items[] = { "waterBottle", "rabbit", "noixcoco", "banane", "redgull", "tbacon", "lockpick", "pickaxe", "axe", "toolkit", "fuelFull", "blastingcharge" };
+        items[] = { "waterBottle", "rabbit", "noixcoco", "banane", "redgull", "tbacon", "lockpick", "pickaxe", "axe", "toolkit", "fuelFull", "gpsTrackerreb", "blastingcharge" };
     };
 
     class wongs {
@@ -1120,6 +1120,17 @@ class VirtualItems {
         displayName = "STR_Item_GpsTracker";
         weight = 2;
         buyPrice = 0;
+        sellPrice = 0;
+        illegal = false;
+        edible = -1;
+        icon = "icons\GPSTracker.paa";
+    };
+    
+    class gpsTrackerreb {
+        variable = "gpsTrackerreb";
+        displayName = "STR_Item_GpsTracker";
+        weight = 2;
+        buyPrice = 55000;
         sellPrice = 0;
         illegal = false;
         edible = -1;

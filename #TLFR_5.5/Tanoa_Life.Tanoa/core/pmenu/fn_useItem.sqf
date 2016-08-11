@@ -40,6 +40,11 @@ switch (true) do {
 		closeDialog 0;
 	};
     
+    case (EQUAL(_item,"gpsTrackerreb")): {
+		[cursorTarget] spawn life_fnc_gpsTrackerreb;   
+		closeDialog 0;
+	};
+    
 	case (EQUAL(_item,"blastingcharge")): {
 		player reveal fed_bank;
 		(group player) reveal fed_bank;

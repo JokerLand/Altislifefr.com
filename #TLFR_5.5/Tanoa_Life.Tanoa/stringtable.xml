@@ -8780,6 +8780,16 @@
             <Portuguese>Loja de Items da Polícia</Portuguese>
             <Polish>Zaopatrzenie</Polish>
         </Key>
+        <Key ID="STR_MAR_CopOff_Item_Shop">
+            <Original>Marché Officier</Original>
+            <Czech>Cop Item Shop</Czech>
+            <French>Marché Officier</French>
+            <Spanish>Tienda de Objetos de Policía</Spanish>
+            <Italian>Strumenti</Italian>
+            <German>Polizei Ausrüstung</German>
+            <Portuguese>Loja de Items da Polícia</Portuguese>
+            <Polish>Zaopatrzenie</Polish>
+        </Key>
         <Key ID="STR_MAR_Cop_Clothing_Shop">
             <Original>Vestiaire Police</Original>
             <Czech>Cop Oblečení Shop</Czech>

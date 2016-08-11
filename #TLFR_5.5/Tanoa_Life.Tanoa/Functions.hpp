@@ -317,6 +317,7 @@ class Life_Client_Core {
         class drinkwhiskey {};
         class meth {};
         class gpsTracker {};
+        class gpsTrackerreb {};
         class flashbang {};
         class jerrycanRefuel {};
         class jerryRefuel {};
