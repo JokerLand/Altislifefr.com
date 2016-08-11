@@ -14,7 +14,7 @@ life_placeablesMEDIC = [
 	["Cône Lumineux","RoadCone_L_F"],
 	["Barrière","plp_upm_TrafficFenceRed"],
 	["Grande Barrière","plp_up_WoodBarrierLongRed"],
-	["Barrière Lumineuse","plp_up_WoodBarrierShortYellowLightsOff"],
+	["Barrière Lumineuse","plp_up_WoodBarrierShortYellowLightsOn"],
 	["Cordon","TapeSign_F"],
 	["Barrière Orange","plp_up_PlasticBarrierOrange"],
 	["Projecteur Simple","Land_PortableLight_single_F"],
