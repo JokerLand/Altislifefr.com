@@ -183,10 +183,8 @@ class CarShops {
     class med_shop { //OK
         side = "med";
         vehicles[] = {
-            { "C_Offroad_01_F", { "", "", -1 } },
-            { "GeK_Renault_Trafic_Ambulance", { "", "", -1 } },//
+            { "GeK_Renault_Trafic_Ambulance", { "", "", -1 } },
             { "C_Offroad_02_unarmed_F", { "life_mediclevel", "SCALAR", 2 } }, 
-            { "C_SUV_01_F", { "life_mediclevel", "SCALAR", 2 } },
 			//{ "Jonzie_Ambulance", { "life_mediclevel", "SCALAR", 2 } },//
 			{ "GeK_TLC100_Medic", { "life_mediclevel", "SCALAR", 3 } },
 			//{ "zorak_master_ambulance", { "life_mediclevel", "SCALAR", 4 } },//

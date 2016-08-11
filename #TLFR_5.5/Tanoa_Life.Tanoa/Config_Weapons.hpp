@@ -1122,7 +1122,7 @@ class WeaponShops {
             { "ItemGPS", "", 100, -1 },
             { "Binocular", "", 150, -1 },
             { "FirstAidKit", "", 150, -1 },
-            { "NVGoggles", "", 1200, -1 },
+            { "pmc_earpiece", "", 2500, -1 },
             { "Chemlight_green", "", 300, -1 }
         };
         mags[] = {};
