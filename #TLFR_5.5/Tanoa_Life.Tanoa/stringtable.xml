@@ -8148,6 +8148,14 @@
             <Polish>Szpital</Polish>
             <Italian>Ospedale</Italian>
         </Key>
+        <Key ID="STR_MAR_ArmeeVehShop">
+            <Original>Véhicule de l'Armée</Original>
+            <French>Véhicule de l'Armée</French>
+        </Key>
+        <Key ID="STR_MAR_ArmeeAirShop">
+            <Original>Véhicule Aérien de l'Armée</Original>
+            <French>Véhicule Aérien de l'Armée</French>
+        </Key>
         <Key ID="STR_MAR_Police_Station">
             <Original>Poste de Police</Original>
             <Czech>Policejní stanice</Czech>
