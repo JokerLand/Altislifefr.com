@@ -8,18 +8,18 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=2575;
+		nextID=2639;
 	};
 	class MarkerIDProvider
 	{
-		nextID=242;
+		nextID=243;
 	};
 	class Camera
 	{
-		pos[]={6976.6606,6.3505521,7195.249};
-		dir[]={0.85338813,-0.51219082,0.097097963};
-		up[]={0.5089246,0.85886025,0.057904668};
-		aside[]={0.11305124,8.5890861e-008,-0.99360788};
+		pos[]={5683.0596,117.09283,10396.603};
+		dir[]={-0.72053206,-0.68758297,0.091221154};
+		up[]={-0.68222213,0.72602332,0.086376734};
+		aside[]={0.12562349,1.5238766e-007,0.99219978};
 	};
 };
 binarizationWanted=0;
@@ -73,7 +73,10 @@ addons[]=
 	"A3_Structures_F_Heli_Items_Electronics",
 	"ALE_Objects",
 	"A3_Structures_F_Walls",
-	"A3_Structures_F_Exp_Industrial_Port"
+	"A3_Structures_F_Exp_Industrial_Port",
+	"A3_Structures_F_Civ_Lamps",
+	"A3_Structures_F_EPB_Civ_Camping",
+	"A3_Structures_F_Civ_Camping"
 };
 class AddonsMetaData
 {
@@ -258,24 +261,6 @@ class CustomAttributes
 		name="Multiplayer";
 		class Attribute0
 		{
-			property="RespawnTemplates";
-			expression="true";
-			class Value
-			{
-				class data
-				{
-					class type
-					{
-						type[]=
-						{
-							"ARRAY"
-						};
-					};
-				};
-			};
-		};
-		class Attribute1
-		{
 			property="RespawnButton";
 			expression="true";
 			class Value
@@ -290,6 +275,24 @@ class CustomAttributes
 						};
 					};
 					value=1;
+				};
+			};
+		};
+		class Attribute1
+		{
+			property="RespawnTemplates";
+			expression="true";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"ARRAY"
+						};
+					};
 				};
 			};
 		};
@@ -341,14 +344,14 @@ class Mission
 		year=2035;
 		month=7;
 		day=6;
-		hour=8;
-		minute=0;
+		hour=3;
+		minute=-29;
 		startFogDecay=0.0049333;
 		forecastFogDecay=0.0049333;
 	};
 	class Entities
 	{
-		items=734;
+		items=773;
 		class Item0
 		{
 			dataType="Marker";
@@ -394,7 +397,7 @@ class Mission
 			position[]={5634.8228,2.21,10353.264};
 			name="civ_spawn_1";
 			type="Empty";
-			angle=111.80618;
+			angle=111.80614;
 			id=5;
 		};
 		class Item5
@@ -2336,11 +2339,10 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={5640.6475,3.5031471,10391.09};
-				angles[]={0,5.0747972,0};
+				position[]={5620.8154,3.5023732,10401.1};
+				angles[]={0,5.1309714,0};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 				skill=0.60000002;
@@ -2348,6 +2350,7 @@ class Mission
 			};
 			id=557;
 			type="Land_Atm_02_F";
+			atlOffset=5.1070771;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -2431,7 +2434,6 @@ class Mission
 			};
 			id=560;
 			type="Land_Atm_02_F";
-			atlOffset=0.10159349;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -9386,7 +9388,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={5839.5249,5.0052576,10692.925};
+				position[]={5839.5933,5.0102577,10692.77};
 				angles[]={0,1.5232536,0};
 			};
 			side="Empty";
@@ -9397,7 +9399,6 @@ class Mission
 			};
 			id=1199;
 			type="Land_InfoStand_V2_F";
-			atlOffset=-0.0050001144;
 		};
 		class Item263
 		{
@@ -10071,6 +10072,7 @@ class Mission
 			};
 			id=1477;
 			type="Land_CashDesk_F";
+			atlOffset=0.046600342;
 		};
 		class Item302
 		{
@@ -10099,7 +10101,6 @@ class Mission
 				angles[]={0,0.88736027,6.2826962};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 				init=" " \n "this enableSimulation false; this allowDamage false; this addAction[localize""STR_MAR_Station_Shop"",life_fnc_weaponShopMenu,""f_station_store""];this addAction[localize""STR_Shop_Station_Coffee"",life_fnc_virt_menu,""f_station_coffee""]; ";
@@ -10107,7 +10108,7 @@ class Mission
 			};
 			id=1482;
 			type="Land_CashDesk_F";
-			atlOffset=0.00032043457;
+			atlOffset=0.41699982;
 		};
 		class Item304
 		{
@@ -10697,8 +10698,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={5772.189,7.897027,10340.895};
-				angles[]={0,0.31111154,0};
+				position[]={5772.189,7.8975024,10340.895};
+				angles[]={0,0.31110495,0};
 			};
 			side="Empty";
 			flags=4;
@@ -10708,6 +10709,7 @@ class Mission
 			};
 			id=1541;
 			type="Land_CashDesk_F";
+			atlOffset=0.00047540665;
 		};
 		class Item343
 		{
@@ -10874,13 +10876,13 @@ class Mission
 				angles[]={6.2802153,0.61963892,0.0019531252};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 				init="this enableSimulation false; this allowDamage false; this addAction[localize""STR_Shops_W_Gun"",life_fnc_weaponShopMenu,""gun"",0,false,false,"""",' license_civ_gun && playerSide isEqualTo civilian']; this addAction[localize ""STR_Shops_C_Gun"",life_fnc_clothingMenu,""gun_clothing"",0,false,false,"""",' license_civ_gun && playerSide isEqualTo civilian']; this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""gun"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""gun"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""gun"",0,false,false,"""",' !license_civ_gun && playerSide isEqualTo civilian '];";
 			};
 			id=1557;
 			type="Land_CashDesk_F";
-			atlOffset=0.43502426;
 		};
 		class Item351
 		{
@@ -13021,6 +13023,7 @@ class Mission
 			};
 			id=1994;
 			type="Land_InfoStand_V2_F";
+			atlOffset=0.009970665;
 		};
 		class Item470
 		{
@@ -13548,7 +13551,7 @@ class Mission
 			};
 			id=2035;
 			type="Land_CashDesk_F";
-			atlOffset=0.19099998;
+			atlOffset=2.7656555e-005;
 		};
 		class Item503
 		{
@@ -16295,7 +16298,7 @@ class Mission
 			};
 			id=2423;
 			type="Land_LightHouse_F";
-			atlOffset=0.0084633827;
+			atlOffset=0.0084629059;
 		};
 		class Item668
 		{
@@ -17011,7 +17014,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="this enableSimulation false; this allowDamage false;";
+				init="this enableSimulation false; this allowDamage false; this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu,"""",0,FALSE,FALSE,"""",' isNull objectParent player && player distance _target < 4 '];  this addAction[localize""STR_Garage_Title"",  {   if (life_HC_isActive) then {    [getPlayerUID player,playerSide,""Car"",player] remoteExecCall [""HC_fnc_getVehicles"",HC_Life]; } else { [getPlayerUID player,playerSide,""Car"",player] remoteExecCall [""TON_fnc_getVehicles"",2];}; life_garage_type = ""Car"";   createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""car_g_staff"";  }];  this addAction[localize""STR_MAR_Store_vehicle_in_Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store']; this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""rebel"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""rebel"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""rebel"",0,false,false,"""",' !license_civ_rebel && playerSide isEqualTo civilian ']; this addAction[""Marché Rebelle"",life_fnc_virt_menu,""rebel""]; this allowDamage false;  this addAction[""Vetements Rebelles"",life_fnc_clothingMenu,""reb"",0,false,false,"""",' license_civ_rebel && playerSide == civilian'];  this addAction[""Armes Rebelles"",life_fnc_weaponShopMenu,""rebel"",0,false,false,"""",' license_civ_rebel && playerSide == civilian'];";
 			};
 			id=2489;
 			type="Land_PCSet_01_screen_F";
@@ -17501,6 +17504,675 @@ class Mission
 			};
 			id=2574;
 			type="Land_InfoStand_V2_F";
+		};
+		class Item734
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5768.7949,9.936698,10357.866};
+				angles[]={0,0.22288579,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				init="this allowDamage false;";
+			};
+			id=2578;
+			type="Land_LampDecor_F";
+		};
+		class Item735
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5751.1328,9.7057095,10363.922};
+				angles[]={0,3.5185287,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				init="this allowDamage false;";
+			};
+			id=2579;
+			type="Land_LampDecor_F";
+		};
+		class Item736
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5785.1729,6.7856655,10350.787};
+				angles[]={0,6.1490216,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				init="this allowDamage false;";
+			};
+			id=2580;
+			type="Land_LampHalogen_F";
+			atlOffset=-7;
+		};
+		class Item737
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5707.4829,6.6167021,10236.124};
+				angles[]={0,3.5185287,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				init="this allowDamage false;";
+			};
+			id=2583;
+			type="Land_LampDecor_F";
+			atlOffset=0.087295532;
+		};
+		class Item738
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5714.2837,6.571805,10254.185};
+				angles[]={0,3.5185287,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				init="this allowDamage false;";
+			};
+			id=2584;
+			type="Land_LampDecor_F";
+		};
+		class Item739
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5727.1143,6.6418238,10234.782};
+				angles[]={0,3.5185287,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				init="this allowDamage false;";
+			};
+			id=2585;
+			type="Land_LampDecor_F";
+		};
+		class Item740
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5721.3267,6.643343,10216.825};
+				angles[]={0,3.5185287,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				init="this allowDamage false;";
+			};
+			id=2586;
+			type="Land_LampDecor_F";
+		};
+		class Item741
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5665.271,2.3786905,10162.743};
+				angles[]={0,2.1615205,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				init="this allowDamage false;";
+			};
+			id=2587;
+			type="Land_LampHalogen_F";
+			atlOffset=-7;
+		};
+		class Item742
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5748.4175,7.436451,10299.939};
+				angles[]={0,3.5185287,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				init="this allowDamage false;";
+			};
+			id=2588;
+			type="Land_LampDecor_F";
+		};
+		class Item743
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5732.5308,7.3865032,10305.812};
+				angles[]={0,3.5185287,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				init="this allowDamage false;";
+			};
+			id=2589;
+			type="Land_LampDecor_F";
+		};
+		class Item744
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5630.2051,4.6523085,10398.123};
+				angles[]={0,3.5185287,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				init="this allowDamage false;";
+			};
+			id=2591;
+			type="Land_LampDecor_F";
+		};
+		class Item745
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5619.4868,4.6499071,10412.12};
+				angles[]={0,5.168138,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=2592;
+			type="Land_LampDecor_F";
+		};
+		class Item746
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5601.1079,4.599493,10411.315};
+				angles[]={0,5.168138,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=2596;
+			type="Land_LampDecor_F";
+			atlOffset=2.3841858e-007;
+		};
+		class Item747
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5590.0532,4.6348953,10425.279};
+				angles[]={0,5.168138,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=2598;
+			type="Land_LampDecor_F";
+		};
+		class Item748
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5573.8877,4.6603069,10431.626};
+				angles[]={0,4.010601,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				init="this allowDamage false;";
+			};
+			id=2601;
+			type="Land_LampDecor_F";
+		};
+		class Item749
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5571.4941,4.655005,10449.297};
+				angles[]={0,0.88350445,0};
+			};
+			side="Empty";
+			flags=1;
+			class Attributes
+			{
+			};
+			id=2602;
+			type="Land_LampDecor_F";
+			atlOffset=10.110703;
+		};
+		class Item750
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5556.4487,4.6440382,10456.058};
+				angles[]={0,0.9537071,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				init="this allowDamage false;";
+			};
+			id=2605;
+			type="Land_LampDecor_F";
+		};
+		class Item751
+		{
+			dataType="Marker";
+			position[]={8891.9824,0,10205.618};
+			name="atm_marker_2_13";
+			type="loc_Tourism";
+			colorName="ColorGreen";
+			id=2608;
+			atlOffset=-19.077139;
+		};
+		class Item752
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={8892.0879,20.263014,10205.506};
+				angles[]={6.2458701,0.51815331,0.037315138};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				skill=0.60000002;
+				init="this enableSimulation false; this allowDamage false; this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu,"""",0,FALSE,FALSE,"""",' isNull objectParent player && player distance _target < 4 '];";
+			};
+			id=2609;
+			type="Land_Atm_02_F";
+			atlOffset=-0.10000038;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item753
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5602.5181,3.2369611,10387.586};
+			};
+			side="Empty";
+			class Attributes
+			{
+				init="this allowDamage false;";
+			};
+			id=2611;
+			type="Land_Camping_Light_F";
+			atlOffset=0.99735355;
+		};
+		class Item754
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5603.2661,4.9459276,10387.956};
+			};
+			side="Empty";
+			class Attributes
+			{
+				init="this allowDamage false;";
+			};
+			id=2612;
+			type="Land_Camping_Light_F";
+			atlOffset=8.71;
+		};
+		class Item755
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5609.0298,4.912673,10385.229};
+			};
+			side="Empty";
+			class Attributes
+			{
+				init="this allowDamage false;";
+			};
+			id=2613;
+			type="Land_Camping_Light_F";
+			atlOffset=8.2589998;
+		};
+		class Item756
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5607.6563,4.8876076,10397.294};
+				angles[]={0,1.1847407,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+				init="this allowDamage false;";
+			};
+			id=2614;
+			type="Land_Camping_Light_F";
+			atlOffset=2.6480002;
+		};
+		class Item757
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5613.4746,4.8409138,10394.503};
+				angles[]={0,2.8228452,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+				init="this allowDamage false;";
+			};
+			id=2615;
+			type="Land_Camping_Light_F";
+			atlOffset=8.0105801;
+		};
+		class Item758
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5639.855,3.289674,10372.678};
+				angles[]={0,0,6.2818937};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="this allowDamage false;";
+			};
+			id=2616;
+			type="Land_Camping_Light_F";
+			atlOffset=0.00041007996;
+		};
+		class Item759
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5637.6914,6.4567204,10371.431};
+			};
+			side="Empty";
+			class Attributes
+			{
+				init="this allowDamage false;";
+			};
+			id=2617;
+			type="Land_Camping_Light_F";
+			atlOffset=4.1145039;
+		};
+		class Item760
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5669.4312,2.9621792,10563.771};
+				angles[]={0,0.026860617,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=2618;
+			type="Land_LampHalogen_F";
+			atlOffset=-6;
+		};
+		class Item761
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5808.6108,6.5695868,10611.099};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				init="this allowDamage false;";
+			};
+			id=2619;
+			type="Land_LampDecor_F";
+		};
+		class Item762
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5800.6982,6.6801014,10610.663};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				init="this allowDamage false;";
+			};
+			id=2620;
+			type="Land_LampDecor_F";
+		};
+		class Item763
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5809.4482,6.5995874,10598.976};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				init="this allowDamage false;";
+			};
+			id=2621;
+			type="Land_LampDecor_F";
+		};
+		class Item764
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5801.3774,6.7028913,10598.749};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				init="this allowDamage false;";
+			};
+			id=2622;
+			type="Land_LampDecor_F";
+		};
+		class Item765
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5807.8887,8.3534889,10580.147};
+				angles[]={0,5.3941598,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=2623;
+			type="Land_Camping_Light_off_F";
+			atlOffset=3.2565441;
+		};
+		class Item766
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5840.2988,4.412179,10692.809};
+				angles[]={0,6.2608795,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=2624;
+			type="Land_LampHalogen_F";
+			atlOffset=-6;
+		};
+		class Item767
+		{
+			dataType="Marker";
+			position[]={5938.0059,-5.4435853e-030,10373.563};
+			name="car_g_staff";
+			type="Empty";
+			angle=79.830994;
+			id=2627;
+			atlOffset=-45.716873;
+		};
+		class Item768
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5929.5044,48.463905,10377.502};
+				angles[]={0,6.0357528,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				init="this allowDamage false;";
+			};
+			id=2634;
+			type="Land_LampDecor_F";
+		};
+		class Item769
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5943.9443,48.476601,10381.097};
+				angles[]={0,6.1027842,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				init="this allowDamage false;";
+			};
+			id=2635;
+			type="Land_LampDecor_F";
+		};
+		class Item770
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5935.3242,48.3396,10348.179};
+				angles[]={0,2.9385195,0};
+			};
+			side="Empty";
+			flags=1;
+			class Attributes
+			{
+				init="this allowDamage false;";
+			};
+			id=2636;
+			type="Land_LampDecor_F";
+			atlOffset=4.1160278;
+		};
+		class Item771
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5976.5386,48.481037,10357.095};
+				angles[]={0,2.9017422,0};
+			};
+			side="Empty";
+			flags=1;
+			class Attributes
+			{
+				init="this allowDamage false;";
+			};
+			id=2637;
+			type="Land_LampDecor_F";
+			atlOffset=0.2792511;
+		};
+		class Item772
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5954.4722,48.476601,10383.208};
+				angles[]={0,6.1027842,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				init="this allowDamage false;";
+			};
+			id=2638;
+			type="Land_LampDecor_F";
 		};
 	};
 };
