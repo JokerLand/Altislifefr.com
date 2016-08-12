@@ -295,7 +295,7 @@ class Clothing {
         uniforms[] = {
 			{ "NONE", "Supprimer uniforme", 0, { "", "", -1 } },
 			{ "hightline_gendarmerie_gilet", "Gilet Jaune", 1500, { "", "", -1 } },
-			{ "hightline_gendarmerie_03", "Tenue Gendarme", 1500, { "", "", -1 } },
+			{ "hightline_gendarmerie_03", "Tenue Gendarme", 1500, { "life_coplevel", "SCALAR", 3 } },
 			{ "hightline_gendarmerie_04", "Tenue Motard", 1500, { "life_coplevel", "SCALAR", 4 } },
             { "hightline_gendarmerie_02", "Tenue Officier de Gendarmerie", 1500, { "life_coplevel", "SCALAR", 6 } },
             { "U_B_Wetsuit", "", 1500, { "", "", -1 } },
@@ -320,7 +320,7 @@ class Clothing {
         headgear[] = {
 			{ "NONE", "Supprime couvre-chef", 0, { "", "", -1 } },
             { "hightline_gendarmerie_cap_01", "Casquette de Gendarmerie", 100, { "", "", -1 } },
-            { "ALE_H_Calot", "Calot de Gendarmerie", 100, { "", "", -1 } },
+            { "ALE_H_Calot", "Calot de Gendarmerie", 100, { "life_coplevel", "SCALAR", 3 } },
 			{ "H_MilCap_gen_F", "", 200, { "", "", -1 } },
 			{ "H_ALFR_Gasmask", "", 200, { "", "", -1 } },
 			//{ "H_Beret_blk", "", 200, { "life_coplevel", "SCALAR", 2 } },
@@ -336,7 +336,7 @@ class Clothing {
 			//{ "H_Beret_C", "", 200, { "life_coplevel", "SCALAR", 3 } },
             //{ "H_Beret_02", "", 200, { "life_coplevel", "SCALAR", 4 } },
             //{ "H_Beret_B", "", 200, { "life_coplevel", "SCALAR", 5 } },
-            { "H_Beret_Colonel", "", 200, { "life_coplevel", "SCALAR", 8 } }
+            { "H_Beret_Colonel", "", 200, { "life_coplevel", "SCALAR", 9 } }
         };
         goggles[] = {
 			{ "NONE", "Supprime lunette", 0, { "", "", -1 } },

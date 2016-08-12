@@ -60,7 +60,7 @@ bois | oui |FAIT|
 meth | multiprocess |FAIT| 
 
 
-//Fret (Sakzy) :
+//Fret (Sakzy) : BUGE pour l'instant
 -Rajouter panneaux pub addaction dans les 4 grande ville
 -Rajouter les classname dans le script des camions manquants
 
@@ -78,7 +78,5 @@ meth | multiprocess |FAIT|
 -Wanted Stringtable a modifier car en français marche pas
 -Remettre le "montrer son insigne"
 
-//Urgent :
+//Contenu dans le prochain CHANGELOG - Ici mettez tout vos ajouts qui seront dans le prochain patch note, pour facilité sa rédaction, & pas oublier des choses
 
-
-Prenez le ALFR_force + alfr_texsnd+ R3FUniform + R3fRetex du FTP Serveur/@ALFR/addons/... et mettez les dans votre jeu (remplacez si vous avez déjà)
