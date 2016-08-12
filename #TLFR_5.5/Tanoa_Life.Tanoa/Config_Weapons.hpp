@@ -35,7 +35,7 @@ class WeaponShops {
             { "9Rnd_45ACP_Mag", "Chargeur ACP-C2", 10 },
             { "11Rnd_45ACP_Mag", "Chargeur 4-Five", 10 },
             { "30Rnd_9x21_Mag_SMG_02", "Chargeur Protector 9mm", 10 },
-            { "30Rnd_9x21_Mag", "Chargeur PDW2000 9mm", 10}
+            { "30Rnd_9x21_Mag", "Chargeur PDW2000 9mm", 10 }
         };
         accs[] = {};
     };

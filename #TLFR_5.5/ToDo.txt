@@ -80,3 +80,6 @@ meth | multiprocess |FAIT|
 
 //Contenu dans le prochain CHANGELOG - Ici mettez tout vos ajouts qui seront dans le prochain patch note, pour facilité sa rédaction, & pas oublier des choses
 
+-Changement du Sac pompier médic
+- Fix chargeurs pdw armurerie
+

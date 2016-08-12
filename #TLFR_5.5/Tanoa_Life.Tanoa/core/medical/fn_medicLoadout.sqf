@@ -12,10 +12,16 @@ waitUntil {scriptDone _handle};
 
 //Tenue
 player addUniform "U_Pompiers_Uniforme";
-player addBackpack "TRYK_B_Medbag_BK";
+player addBackpack "B_Pompiers_Sac";
+player addWeapon "Rangefinder";
+player addItem "pmc_earpiece";
+player assignItem "pmc_earpiece";
 
 //Items dans la tenue
 player addItemToBackpack "Medikit";
+player addItemToBackpack "FirstAidKit";
+player addItemToBackpack "FirstAidKit";
+player addItemToBackpack "FirstAidKit";
 
 //Items
 player addItem "ItemMap";
