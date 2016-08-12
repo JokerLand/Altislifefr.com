@@ -229,7 +229,7 @@ class VirtualShops {
         name = "STR_Shops_CopOff";
         side = "cop";
         license = "";
-        level[] = { "life_coplevel", "SCALAR", 6, "Ceci est une Boutique Réservée aux Officiers, vous avez cependant l'autorisation de prêter les équipements ci-dessous " };
+        level[] = { "life_coplevel", "SCALAR", 6, "Ceci est une Boutique Réservée aux Officiers (Major & +) " };
         items[] = { "gpsTracker" }; //, "spikeStrip", "ladder", "barrier", "barrierl", "panneau", "panneauattention", "cone", "conel", "cordon", "glissiere", "barstop", "lightd",
     };
         
