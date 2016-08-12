@@ -184,12 +184,13 @@ class CarShops {
         side = "med";
         vehicles[] = {
             { "GeK_Renault_Trafic_Ambulance", { "", "", -1 } },
+            { "C_Offroad_01_F", { "", "", -1 } }, 
             { "C_Offroad_02_unarmed_F", { "life_mediclevel", "SCALAR", 2 } }, 
 			//{ "Jonzie_Ambulance", { "life_mediclevel", "SCALAR", 2 } },//
-			{ "GeK_TLC100_Medic", { "life_mediclevel", "SCALAR", 3 } },
+			{ "GeK_TLC100_Medic", { "life_mediclevel", "SCALAR", 2 } },
 			//{ "zorak_master_ambulance", { "life_mediclevel", "SCALAR", 4 } },//
-			{ "GeK_S60_Medic", { "life_mediclevel", "SCALAR", 4 } },
-            { "B_Truck_01_medical_F", { "life_mediclevel", "SCALAR", 5 } }
+			{ "GeK_S60_Medic", { "life_mediclevel", "SCALAR", 3 } },
+            { "B_Truck_01_medical_F", { "life_mediclevel", "SCALAR", 4 } }
         };
     };
 
@@ -199,7 +200,7 @@ class CarShops {
             { "B_Heli_Light_01_F", { "", "", -1 } },
 			{ "GR_Bell412_1", { "life_mediclevel", "SCALAR", 2 } },
 			{ "ALE_MedOrca", { "life_mediclevel", "SCALAR", 3 } },
-            { "EC635_SAR", { "life_mediclevel", "SCALAR", 5 } }
+            { "EC635_SAR", { "life_mediclevel", "SCALAR", 4 } }
         };
     };
 
