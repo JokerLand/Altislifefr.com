@@ -53,7 +53,6 @@ _units = _units - [player];
 					case 7: {"\a3\ui_f\data\gui\cfg\Ranks\captain_gs.paa"};
 					case 8: {"\a3\ui_f\data\gui\cfg\Ranks\major_gs.paa"};
 					case 9: {"\a3\ui_f\data\gui\cfg\Ranks\colonel_gs.paa"};
-					case 8: {"\a3\ui_f\data\gui\cfg\Ranks\general_gs.paa"};
 					default {"\a3\ui_f\data\gui\cfg\Ranks\private_gs.paa"};
 					},_x getVariable ["realname",name _x]]};
 				case ((!isNil {_x getVariable "name"} && playerSide == independent)): {format["<t color='#FF0000'><img image='a3\ui_f\data\map\MapControl\hospital_ca.paa' size='1.5'></img></t> %1",_x getVariable ["name","Unknown Player"]]};
