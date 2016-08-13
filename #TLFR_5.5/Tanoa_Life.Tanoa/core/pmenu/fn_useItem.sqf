@@ -302,7 +302,6 @@ switch (true) do {
     
     case (_item =="vodka"):
 	{
-		if(playerSide in [west,independent]) exitWith {hint "Pas d'alcool durant le service, ou c'est le Rapport aux Officiers !";};
 		if((player getVariable ["inDrink",FALSE])) exitWith {hint "Vous êtes déja en train de boire !";};
 		if(([false,_item,1] call life_fnc_handleInv)) then
 		{
@@ -315,7 +314,6 @@ switch (true) do {
     
     case (_item =="meth"):
 	{
-		if(playerSide in [west,independent]) exitWith {hint "Vous souhaitez être viré pour consommation de Stup' ?  Proposez-en aux CapiChef's, voire ce qu'ils en pensent...";};
 		if(([false,_item,1] call life_fnc_handleInv)) then
 		{
 			[] spawn life_fnc_meth;
@@ -324,7 +322,6 @@ switch (true) do {
 	
 	case (_item =="rhum"):
 	{
-		if(playerSide in [west,independent]) exitWith {hint "Pas d'alcool durant le service, ou c'est le Rapport aux Officiers !";};
 		if((player getVariable ["inDrink",FALSE])) exitWith {hint "Vous êtes déja en train de boire !";};
 		if(([false,_item,1] call life_fnc_handleInv)) then
 		{
@@ -337,7 +334,6 @@ switch (true) do {
 	
 	case (_item =="whiskey"):
 	{
-		if(playerSide in [west,independent]) exitWith {hint "Pas d'alcool durant le service, ou c'est le Rapport aux Officiers !";};
 		if((player getVariable ["inDrink",FALSE])) exitWith {hint "Vous êtes déja en train de boire !";};
 		if(([false,_item,1] call life_fnc_handleInv)) then
 		{
@@ -350,8 +346,6 @@ switch (true) do {
 	
 	case (_item =="beer"):
 	{
-		
-		if(playerSide in [west,independent]) exitWith {hint localize "Pas d'alcool durant le service, ou c'est le Rapport aux Officiers !";};
 		if((player getVariable ["inDrink",FALSE])) exitWith {hint localize "Vous êtes déja en train de boire !";};
 		if(([false,_item,1] call life_fnc_handleInv)) then
 		{
