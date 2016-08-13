@@ -122,8 +122,11 @@ class CarShops {
             { "I_Truck_02_transport_F", { "", "", -1 } },
             { "I_Truck_02_covered_F", { "", "", -1 } },
             { "shounka_a3_spr_civ", { "", "", -1 } },
+            { "DAR_MK27", { "", "", -1 } },
+            { "DAR_MK27E", { "", "", -1 } },
             { "B_Truck_01_transport_F", { "", "", -1 } },
 			//{ "Jonzie_Tanker_Truck", { "", "", -1 } },
+            { "DAR_LHS_16", { "", "", -1} },
 			{ "B_Truck_01_box_F", { "", "", -1 } },
             { "ALFR_GeK_Scania_420", { "", "", -1 } },
 			//{ "Jonzie_Box_Truck", { "", "", -1 } },
@@ -4232,6 +4235,27 @@ class LifeCfgVehicles {
         vItemSpace = 400;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
         price = 200000;
+        textures[] = { };
+    };
+    
+    class DAR_MK27 {
+        vItemSpace = 400;
+        licenses[] = { {"trucking"}, {""}, {""}, {""} };
+        price = 200000;
+        textures[] = { };
+    };
+    
+    class DAR_MK27E {
+        vItemSpace = 450;
+        licenses[] = { {"trucking"}, {""}, {""}, {""} };
+        price = 300000;
+        textures[] = { };
+    };
+    
+    class DAR_LHS_16 {
+        vItemSpace = 500;
+        licenses[] = { {"trucking"}, {""}, {""}, {""} };
+        price = 400000;
         textures[] = { };
     };
     
