@@ -1,0 +1,3 @@
+//regex
+1 ""
+5 "" !=hgun_(ACPC2|Rook40|PDW2000|Pistol_heavy_02)_F !=hgun_P07_(snds_)?F !=arifle_(TRG20|Katiba|SDAR|MX[C]?)_F !=srifle_DMR_01_F !=SMG_02_ACO_F
