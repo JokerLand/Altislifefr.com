@@ -882,7 +882,6 @@ class Clothing {
 			{ "B_Carryall_mcamo", "", 1000, {"", "", -1} },
 			{ "TRYK_B_Carryall_JSDF", "", 1000, {"", "", -1} },
 			{ "TRYK_B_Carryall_wood", "", 1000, {"", "", -1} },
-			{ "CUP_B_ACRPara_m95", "", 2100, {"", "", -1} },
 			{ "B_Parachute", "", 500, {"", "", -1} }
 		};
 	};
