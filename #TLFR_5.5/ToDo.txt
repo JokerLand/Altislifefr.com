@@ -80,10 +80,5 @@ meth | multiprocess |FAIT|
 
 //Contenu dans le prochain CHANGELOG - Ici mettez tout vos ajouts qui seront dans le prochain patch note, pour facilité sa rédaction, & pas oublier des choses
 
-Changement prix armes police 
-Ajout frf2 armee
-Changement prix achat veh medic 
-up ressource +500 chaque
-Alcools & Meth sont utilisable par police
 
 

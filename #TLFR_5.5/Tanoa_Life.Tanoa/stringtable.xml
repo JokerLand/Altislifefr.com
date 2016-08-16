@@ -8281,14 +8281,12 @@
             <Polish>Bank Altis</Polish>
         </Key>
         <Key ID="STR_MAR_Car_Shop">
-            <Original>Car Shop</Original>
-            <Czech>Auto Shop</Czech>
+            <Original>Concessionnaire de voitures</Original>
             <French>Concessionnaire de voitures</French>
-            <Spanish>Tienda de Coches</Spanish>
-            <Italian>Concessionario d `auto</Italian>
-            <German>Autohändler</German>
-            <Portuguese>Loja de Carros</Portuguese>
-            <Polish>Salon samochodowy</Polish>
+        </Key>
+        <Key ID="STR_MAR_LuxeCar_Shop">
+            <Original>Concessionnaire de voitures de Luxe</Original>
+            <French>Concessionnaire de voitures de Luxe</French>
         </Key>
         <Key ID="STR_MAR_Hospital_Clinic">
             <Original>Hospital/Clinic</Original>
