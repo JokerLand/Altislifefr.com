@@ -84,6 +84,14 @@ class CfgSpawnPoints {
             level[] = { "", "", -1 };
         };
         
+        class ion_spawn_2 {
+            displayName = "ION Port Industriel";
+            spawnMarker = "ion_spawn_2";
+            icon = "\plp_markers\icons\plp_mark_as_building.pac";
+            licenses[] = { { "ion", true } };
+            level[] = { "", "", -1 };
+        };
+        
         class altisfly {
             displayName = "QG Altis Wings";
             spawnMarker = "altisfly_spawn";

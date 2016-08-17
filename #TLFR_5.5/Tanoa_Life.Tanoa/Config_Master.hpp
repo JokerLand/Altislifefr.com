@@ -18,7 +18,7 @@ class Life_Settings {
 /* Database Related Settings */
     /* Player Data Saving */
     save_virtualItems = true; //Save Virtual items (all sides)?
-    saved_virtualItems[] = { "pickaxe","fuelEmpty","fuelFull", "spikeStrip", "telecommande", "gpsTracker", "gpsTrackerreb", "lockpick", "defuseKit","storageSmall","storageBig","redgull","coffee","waterBottle","apple","peach","tbacon","donuts","rabbit","salema","ornate","mackerel","tuna","mullet","catshark","turtle_soup","hen","rooster","sheep","goat","defibrillator","toolkit","johnpasseport","michealpasseport","michealpasseport","tompasseport","marcelpasseport","marcpasseport","nathanpasseport","francispasseport","deweypasseport","halpasseport","craigpasseport","ericpasseport","joshuapasseport","dougpasseport","richardpasseport","anthonypasseport","leonpasseport","tracypasseport","nikkipasseport","monicapasseport","monicapasseport","mariepasseport","mirandapasseport","christinapasseport","ericapasseport","jingmeipasseport" }; //Array of virtual items that can be saved on your player.
+    saved_virtualItems[] = { "pickaxe","fuelEmpty","axe","fuelFull", "spikeStrip", "telecommande", "gpsTracker", "gpsTrackerreb", "lockpick", "defuseKit","storageSmall","storageBig","redgull","coffee","waterBottle","apple","peach","tbacon","donuts","rabbit","salema","ornate","mackerel","tuna","mullet","catshark","turtle_soup","hen","rooster","sheep","goat","defibrillator","toolkit","johnpasseport","michealpasseport","michealpasseport","tompasseport","marcelpasseport","marcpasseport","nathanpasseport","francispasseport","deweypasseport","halpasseport","craigpasseport","ericpasseport","joshuapasseport","dougpasseport","richardpasseport","anthonypasseport","leonpasseport","tracypasseport","nikkipasseport","monicapasseport","monicapasseport","mariepasseport","mirandapasseport","christinapasseport","ericapasseport","jingmeipasseport" }; //Array of virtual items that can be saved on your player.
     save_playerStats = false; //Save food, water and damage (all sides)?
     save_civilian_weapons = true; //Allow civilians to save weapons on them?
     save_civilian_position = false; //Save civilian location?
@@ -28,7 +28,7 @@ class Life_Settings {
 
     /* Vehicle Data Saving */
     save_vehicle_virtualItems = true; //Save virtual items inside the vehicle (all sides)(-- See defined items on next line --)
-    save_vehicle_items[] = { "pickaxe","fuelEmpty","telecommande","gpsTracker","gpsTrackerreb","fuelFull","spikeStrip","lockpick","defuseKit","storageSmall","storageBig","redgull","coffee","waterBottle","tbacon","donuts","rabbit","defibrillator","toolkit" };
+    save_vehicle_items[] = { "pickaxe","fuelEmpty","axe","telecommande","gpsTracker","gpsTrackerreb","fuelFull","spikeStrip","lockpick","defuseKit","storageSmall","storageBig","redgull","coffee","waterBottle","tbacon","donuts","rabbit","defibrillator","toolkit" };
     save_vehicle_inventory = true; //Save Arma inventory of vehicle to the database
     save_vehicle_fuel = true; //Save vehicle fuel level to the database (Impounded/Garaged).
     save_vehicle_damage = false; //Save vehicle damage to the database.
@@ -48,7 +48,7 @@ class Life_Settings {
     respawn_timer = 120; //How many seconds a player should wait, before being able to respawn. Minimum 5 seconds.
     
     /* Channel 7 News Station Configurations */
-    news_broadcast_cost = 100000; //Cost for a player to send a news station broadcast.
+    news_broadcast_cost = 75000; //Cost for a player to send a news station broadcast.
     news_broadcast_cooldown = 20; //Time in minutes that is required between news station broadcasts. (Default = 20 minutes)
     news_broadcast_header_length = 120; //Number of characters that a header can consist of. Anything over this may clip. This depends on the font size and various other factors. Adjust with caution.
 
@@ -62,7 +62,7 @@ class Life_Settings {
     /* Fuel System Configurations */
     pump_service = true; //Allow users to use pump service on the map. Default = false
     fuel_cost = 15; //Cost of fuel per liter at fuel stations (if not defined for the vehicle already).
-    service_chopper = 1500; //Cost to service chopper at chopper service station(Repair/Refuel).
+    service_chopper = 1000; //Cost to service chopper at chopper service station(Repair/Refuel).
     fuelCan_refuel = 250; //Cost to refuel an empty fuel canister at the fuel station pumps. (Be wary of your buy/sell prices on fuel cans to prevent exploits...)
 
     /* Gang System Configurations */

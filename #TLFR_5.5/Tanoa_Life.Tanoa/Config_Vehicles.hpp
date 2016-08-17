@@ -3615,7 +3615,7 @@ class LifeCfgVehicles {
     class GeK_Ship {
         vItemSpace = 3000;
         licenses[] = { {""}, {""}, {""}, {""} };
-        price = 250000;
+        price = 15000;
         textures[] = {};
     };
 
@@ -3724,7 +3724,7 @@ class LifeCfgVehicles {
     class globemaster_c17_Qatar {  
         vItemSpace = 45;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
-        price = 350000;
+        price = 75000;
         textures[] = { };
     };
     
@@ -4879,7 +4879,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
         licenses[] = { {"pilot" }, {""}, {"mAir"}, {""} };
         price = 350000;
         textures[] = {
-            { "Black", "cop", {
+            { "Black", "ion", {
                 "\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_co.paa"
             } },
             { "White / Blue", "civ", {
