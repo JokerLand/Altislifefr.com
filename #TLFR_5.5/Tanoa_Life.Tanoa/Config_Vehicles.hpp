@@ -4814,14 +4814,32 @@ will modify the virtual space and the price of the vehicle, but other informatio
 		vItemSpace = 5;
         licenses[] = { {""}, {""}, {"mAir"}, {""} };
 		price = 5000;
-        textures[] = {};
+        textures[] = {
+        	{ "Médical", "med", {
+                "ALFR_TexSnd\pompiers\Bawl_co.paa",
+                "ALFR_TexSnd\pompiers\CargoDoors_co.paa",
+                "ALFR_TexSnd\pompiers\OuterHaul_co.paa",
+                "ALFR_TexSnd\pompiers\SideDoors_co.paa",
+                "ALFR_TexSnd\pompiers\Tail_co.paa",
+                "ALFR_TexSnd\pompiers\UpperParts_co.paa"
+            } }
+        };
 	};
     
     class EC635_Unarmed {
 		vItemSpace = 5;
         licenses[] = { {""}, {"cAir"}, {""}, {""} };
 		price = 180000;
-        textures[] = {};  
+        textures[] = {
+        	{ "Gendarmerie", "cop", {
+                "ALFR_TexSnd\gendarmerie\Bawl_co.paa",
+                "ALFR_TexSnd\gendarmerie\CargoDoors_co.paa",
+                "ALFR_TexSnd\gendarmerie\OuterHaul_co.paa",
+                "ALFR_TexSnd\gendarmerie\SideDoors_co.paa",
+                "ALFR_TexSnd\gendarmerie\Tail_co.paa",
+                "ALFR_TexSnd\gendarmerie\UpperParts_co.paa"
+            } }
+        }; 
 	};
     
     class I_Heli_Transport_02_F {
