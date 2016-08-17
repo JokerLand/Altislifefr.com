@@ -31,6 +31,7 @@ class CarShops {
 			//{ "Jonzie_30CSL", { "", "", -1 } }, // 207km
 			//{ "Jonzie_Datsun_Z432", { "", "", -1 } }, //210km
 			{ "zorak_bmw_120i", { "", "", -1 } },
+            { "GeK_Golf", { "", "", -1 } },
 			//{ "Jonzie_Corolla", { "", "", -1 } }, //180km
 			//{ "Sn0cky_DS4_noir", { "", "", -1 } },
 			//{ "cl3_taurus_black", { "", "", -1 } },
@@ -44,6 +45,7 @@ class CarShops {
 			//{ "cl3_e63_amg_black", { "", "", -1 } },
 			//{ "cl3_dodge_charger_s_black", { "", "", -1 } },
 			{ "GeK_ElCamino", { "", "", -1 } },
+            { "GeK_Fj_Cruiser", { "", "", -1 } },
 			{ "GeK_TLC100", { "", "", -1 } },
 			{ "Conry_Tahoe", { "", "", -1 } },
 			//{ "Sn0cky_CT200h_noir", { "", "", -1 } },
@@ -54,6 +56,7 @@ class CarShops {
 			{ "zorak_mazda_rx8", { "", "", -1 } },
 			{ "GeK_S60", { "", "", -1 } },
 			{ "GeK_CTSV", { "", "", -1 } },
+            { "GeK_Insignia", { "", "", -1 } },
 			{ "Gek_audi_a4_avant", { "", "", -1 } },
 			//{ "Jonzie_STI", { "", "", -1 } }, //260km
 			{ "zorak_audi_a6", { "", "", -1 } },
@@ -69,7 +72,8 @@ class CarShops {
         vehicles[] = {
 			//{ "cl3_xr_1000_black", { "", "", -1 } },
             { "Mrshounka_ducati_p", { "", "", -1 } },
-			{ "GeK_Cadillac_Fleetwood_Brougham_85", { "", "", -1 } },  
+			{ "GeK_Cadillac_Fleetwood_Brougham_85", { "", "", -1 } },
+            { "GeK_250GT", { "", "", -1 } },    
 			{ "SAL_IROCCiv", { "", "", -1 } },
 			{ "GeK_911_1972", { "", "", -1 } },
 			// { "Sn0cky_RS3", { "", "", -1 } },
@@ -78,15 +82,18 @@ class CarShops {
 			//{ "cl3_z4_2008_black", { "", "", -1 } },
 			// { "Sn0cky_Crossfire_noir", { "", "", -1 } },
 			// { "Sn0cky_CL65_noir", { "", "", -1 } },
+            { "GeK_M6", { "", "", -1 } },    
 			{ "GeK_C63_AMG", { "", "", -1 } },
 			{ "zorak_audi_rs6", { "", "", -1 } },
 			// { "Sn0cky_S65_noir", { "", "", -1 } },
           	//{ "cl3_arielatom_black", { "", "", -1 } },
-			{ "wirk_ktm", { "", "", -1 } },
+			//{ "wirk_ktm", { "", "", -1 } },
 			{ "GeK_Camaro", { "", "", -1 } },
+            { "GeK_Mustang", { "", "", -1 } },    
 			//{ "cl3_arielatom_race_black", { "", "", -1 } },
 			//{ "cl3_dbs_volante_black", { "", "", -1 } }, 
 			//{ "cl3_carrera_gt_black", { "", "", -1 } },
+            { "gek_gt86", { "", "", -1 } },    
 			{ "GeK_GTR", { "", "", -1 } }, 
             //{ "cl3_r8_spyder_black", { "", "", -1 } },
             //{ "cl3_458_black", { "", "", -1 } },	
@@ -94,6 +101,8 @@ class CarShops {
 			//{ "cl3_murcielago_black", { "", "", -1 } },
 			//{ "Jonzie_Viper", { "", "", -1 } },
 			{ "wirk_ferrari_california", { "", "", -1 } },
+            { "GeK_Apollo", { "", "", -1 } },    
+            { "GeK_Agera", { "", "", -1 } },    
 			{ "GeK_Gallardo", { "", "", -1 } }
 			//{ "cl3_reventon_black", { "", "", -1 } },
 			//{ "cl3_veyron_wht_blu", { "", "", -1 } },
@@ -116,6 +125,7 @@ class CarShops {
         side = "civ";
         vehicles[] = {
             { "C_Van_01_transport_F", { "", "", -1 } },
+            { "GeK_Fiorino", { "", "", -1 } },
             { "GeK_Renault_Trafic", { "", "", -1 } },
             //{ "cl3_transit_black", { "", "", -1 } },
             { "C_Van_01_box_F", { "", "", -1 } },
@@ -824,6 +834,56 @@ class LifeCfgVehicles {
 		};
 	}; 
     
+    class GeK_Fiorino {   
+		vItemSpace = 70;
+        licenses[] = { {"trucking"}, {""}, {""}, {""} };
+		price = 45000;
+		textures[] = {
+			{ "Noir", "civ", {
+                "#(ai,64,64,1)Fresnel(0.3,3)"
+            } },
+			{ "Gris sombre", "civ", {
+                "#(argb,8,8,3)color(0.1,0.1,0.1,0.7)"
+            } },
+			{ "Gris", "civ", {
+                "#(argb,8,8,3)color(0.5,0.5,0.5,0.1)"
+            } },
+			{ "Gris clair", "civ", {
+                "#(argb,8,8,3)color(0.3,0.3,0.3,0.8)"
+            } },
+			{ "Blanc", "civ", {
+                "#(argb,8,8,3)color(1,1,1,1)"
+            } },
+			{ "Sable", "civ", {
+                "#(argb,8,8,3)color(1.5,1.6,0.9,0.2)"
+            } },
+			{ "Bordeau", "civ", {
+                "#(argb,8,8,3)color(1,0,0,0.1)"
+            } },
+			{ "Bleu", "civ", {
+                "#(argb,8,8,3)color(0.01,0.6,1,0.1)"
+            } },
+			{ "Bleu Nuit", "civ", {
+                "#(argb,8,8,3)color(0,0,0.5,0.1)"
+            } },
+			{ "Mauve Nuit", "civ", {
+                "#(argb,8,8,3)color(0.6,0,1,0.01)"
+            } },
+			{ "Vert", "civ", {
+                "#(argb,8,8,3)color(0.5,1,0.5,0.05)"
+            } },
+			{ "Rouge", "civ", {
+                "#(argb,8,8,3)color(1,0,0,1)"
+            } },
+			{ "Jaune", "civ", {
+                "#(argb,8,8,3)color(0.6,0.3,0.01,1)"
+            } },
+			{ "Orange", "civ", {
+                "#(argb,8,8,3)color(1,0.3,0.01,0.6)"
+            } }
+		};
+	};
+    
     class GeK_Renault_Trafic {   
 		vItemSpace = 75;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
@@ -1098,7 +1158,58 @@ class LifeCfgVehicles {
                 "#(argb,8,8,3)color(1,0.3,0.01,0.6)"
             } }
 		};
-	};		
+	};
+    
+    class GeK_Golf {
+        vItemSpace = 55;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 55125;
+		textures[] = {
+
+            { "Noir", "civ", {
+                "#(ai,64,64,1)Fresnel(0.3,3)"
+            } },			
+			{ "Gris sombre", "civ", {
+                "#(argb,8,8,3)color(0.1,0.1,0.1,0.7)"
+            } },
+			{ "Gris", "civ", {
+                "#(argb,8,8,3)color(0.5,0.5,0.5,0.1)"
+            } },
+			{ "Gris clair", "civ", {
+                "#(argb,8,8,3)color(0.3,0.3,0.3,0.8)"
+            } },
+			{ "Blanc", "civ", {
+                "#(argb,8,8,3)color(1,1,1,1)"
+            } },
+			{ "Sable", "civ", {
+                "#(argb,8,8,3)color(1.5,1.6,0.9,0.2)"
+            } },
+			{ "Bordeau", "civ", {
+                "#(argb,8,8,3)color(1,0,0,0.1)"
+            } },
+			{ "Bleu", "civ", {
+                "#(argb,8,8,3)color(0.01,0.6,1,0.1)"
+            } },
+			{ "Bleu Nuit", "civ", {
+                "#(argb,8,8,3)color(0,0,0.5,0.1)"
+            } },
+			{ "Mauve Nuit", "civ", {
+                "#(argb,8,8,3)color(0.6,0,1,0.01)"
+            } },
+			{ "Vert", "civ", {
+                "#(argb,8,8,3)color(0.5,1,0.5,0.05)"
+            } },
+			{ "Rouge", "civ", {
+                "#(argb,8,8,3)color(1,0,0,1)"
+            } },
+			{ "Jaune", "civ", {
+                "#(argb,8,8,3)color(0.6,0.3,0.01,1)"
+            } },
+			{ "Orange", "civ", {
+                "#(argb,8,8,3)color(1,0.3,0.01,0.6)"
+            } }
+		};
+	};
 
     class Jonzie_Corolla {
         vItemSpace = 60;
@@ -1439,6 +1550,57 @@ class LifeCfgVehicles {
             } }
 		};
 	};	
+    
+    class GeK_Fj_Cruiser {  
+        vItemSpace = 55;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 182000;
+		textures[] = {
+
+			{ "Noir", "civ", {
+                "#(ai,64,64,1)Fresnel(0.3,3)"
+            } },			
+			{ "Gris sombre", "civ", {
+                "#(argb,8,8,3)color(0.1,0.1,0.1,0.7)"
+            } },
+			{ "Gris", "civ", {
+                "#(argb,8,8,3)color(0.5,0.5,0.5,0.1)"
+            } },
+			{ "Gris clair", "civ", {
+                "#(argb,8,8,3)color(0.3,0.3,0.3,0.8)"
+            } },
+			{ "Blanc", "civ", {
+                "#(argb,8,8,3)color(1,1,1,1)"
+            } },
+			{ "Sable", "civ", {
+                "#(argb,8,8,3)color(1.5,1.6,0.9,0.2)"
+            } },
+			{ "Bordeau", "civ", {
+                "#(argb,8,8,3)color(1,0,0,0.1)"
+            } },
+			{ "Bleu", "civ", {
+                "#(argb,8,8,3)color(0.01,0.6,1,0.1)"
+            } },
+			{ "Bleu Nuit", "civ", {
+                "#(argb,8,8,3)color(0,0,0.5,0.1)"
+            } },
+			{ "Mauve Nuit", "civ", {
+                "#(argb,8,8,3)color(0.6,0,1,0.01)"
+            } },
+			{ "Vert", "civ", {
+                "#(argb,8,8,3)color(0.5,1,0.5,0.05)"
+            } },
+			{ "Rouge", "civ", {
+                "#(argb,8,8,3)color(1,0,0,1)"
+            } },
+			{ "Jaune", "civ", {
+                "#(argb,8,8,3)color(0.6,0.3,0.01,1)"
+            } },
+			{ "Orange", "civ", {
+                "#(argb,8,8,3)color(1,0.3,0.01,0.6)"
+            } }
+		};
+	};
     
     class GeK_TLC100 {  
         vItemSpace = 55;
@@ -2015,6 +2177,57 @@ class LifeCfgVehicles {
 		};
 	};
     
+    class GeK_Insignia {
+        vItemSpace = 35;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 157500;
+		textures[] = {
+
+			{ "Noir", "civ", {
+                "#(ai,64,64,1)Fresnel(0.3,3)"
+            } },			
+			{ "Gris sombre", "civ", {
+                "#(argb,8,8,3)color(0.1,0.1,0.1,0.7)"
+            } },
+			{ "Gris", "civ", {
+                "#(argb,8,8,3)color(0.5,0.5,0.5,0.1)"
+            } },
+			{ "Gris clair", "civ", {
+                "#(argb,8,8,3)color(0.3,0.3,0.3,0.8)"
+            } },
+			{ "Blanc", "civ", {
+                "#(argb,8,8,3)color(1,1,1,1)"
+            } },
+			{ "Sable", "civ", {
+                "#(argb,8,8,3)color(1.5,1.6,0.9,0.2)"
+            } },
+			{ "Bordeau", "civ", {
+                "#(argb,8,8,3)color(1,0,0,0.1)"
+            } },
+			{ "Bleu", "civ", {
+                "#(argb,8,8,3)color(0.01,0.6,1,0.1)"
+            } },
+			{ "Bleu Nuit", "civ", {
+                "#(argb,8,8,3)color(0,0,0.5,0.1)"
+            } },
+			{ "Mauve Nuit", "civ", {
+                "#(argb,8,8,3)color(0.6,0,1,0.01)"
+            } },
+			{ "Vert", "civ", {
+                "#(argb,8,8,3)color(0.5,1,0.5,0.05)"
+            } },
+			{ "Rouge", "civ", {
+                "#(argb,8,8,3)color(1,0,0,1)"
+            } },
+			{ "Jaune", "civ", {
+                "#(argb,8,8,3)color(0.6,0.3,0.01,1)"
+            } },
+			{ "Orange", "civ", {
+                "#(argb,8,8,3)color(1,0.3,0.01,0.6)"
+            } }
+		};
+	};
+    
     class zorak_audi_a6 {
         vItemSpace = 35;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
@@ -2301,6 +2514,64 @@ class LifeCfgVehicles {
 		};
 	};
     
+    class GeK_250GT {
+        vItemSpace = 45;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 232750;
+		textures[] = {
+
+			{ "Noir", "civ", {
+                "#(ai,64,64,1)Fresnel(0.3,3)"
+            } },
+			{ "Gris sombre", "civ", {
+                "#(argb,8,8,3)color(0.1,0.1,0.1,0.7)"
+            } },
+			{ "Gris", "civ", {
+                "#(argb,8,8,3)color(0.5,0.5,0.5,0.1)"
+            } },
+			{ "Gris clair", "civ", {
+                "#(argb,8,8,3)color(0.3,0.3,0.3,0.8)"
+            } },
+			{ "Blanc", "civ", {
+                "#(argb,8,8,3)color(1,1,1,1)"
+            } },
+			{ "Sable", "civ", {
+                "#(argb,8,8,3)color(1.5,1.6,0.9,0.2)"
+            } },
+			{ "Bordeau", "civ", {
+                "#(argb,8,8,3)color(1,0,0,0.1)"
+            } },
+			{ "Bleu", "civ", {
+                "#(argb,8,8,3)color(0.01,0.6,1,0.1)"
+            } },
+			{ "Bleu Nuit", "civ", {
+                "#(argb,8,8,3)color(0,0,0.5,0.1)"
+            } },
+			{ "Mauve Nuit", "civ", {
+                "#(argb,8,8,3)color(0.6,0,1,0.01)"
+            } },
+			{ "Vert", "civ", {
+                "#(argb,8,8,3)color(0.5,1,0.5,0.05)"
+            } },
+			{ "Rouge", "civ", {
+                "#(argb,8,8,3)color(1,0,0,1)"
+            } },
+			{ "Jaune", "civ", {
+                "#(argb,8,8,3)color(0.6,0.3,0.01,1)"
+            } },
+			{ "Orange", "civ", {
+                "#(argb,8,8,3)color(1,0.3,0.01,0.6)"
+            } }
+		};
+	};
+    
+    class GeK_UAZ {  
+        vItemSpace = 45;
+        licenses[] = { {"pilot"}, {""}, {""}, {""} };
+        price = 232750;
+        textures[] = { };
+    };
+    
     class SAL_IROCCiv {
         vItemSpace = 45;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
@@ -2457,6 +2728,57 @@ class LifeCfgVehicles {
         vItemSpace = 45;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 227500;
+		textures[] = {
+
+			{ "Noir", "civ", {
+                "#(ai,64,64,1)Fresnel(0.3,3)"
+            } },
+			{ "Gris sombre", "civ", {
+                "#(argb,8,8,3)color(0.1,0.1,0.1,0.7)"
+            } },
+			{ "Gris", "civ", {
+                "#(argb,8,8,3)color(0.5,0.5,0.5,0.1)"
+            } },
+			{ "Gris clair", "civ", {
+                "#(argb,8,8,3)color(0.3,0.3,0.3,0.8)"
+            } },
+			{ "Blanc", "civ", {
+                "#(argb,8,8,3)color(1,1,1,1)"
+            } },
+			{ "Sable", "civ", {
+                "#(argb,8,8,3)color(1.5,1.6,0.9,0.2)"
+            } },
+			{ "Bordeau", "civ", {
+                "#(argb,8,8,3)color(1,0,0,0.1)"
+            } },
+			{ "Bleu", "civ", {
+                "#(argb,8,8,3)color(0.01,0.6,1,0.1)"
+            } },
+			{ "Bleu Nuit", "civ", {
+                "#(argb,8,8,3)color(0,0,0.5,0.1)"
+            } },
+			{ "Mauve Nuit", "civ", {
+                "#(argb,8,8,3)color(0.6,0,1,0.01)"
+            } },
+			{ "Vert", "civ", {
+                "#(argb,8,8,3)color(0.5,1,0.5,0.05)"
+            } },
+			{ "Rouge", "civ", {
+                "#(argb,8,8,3)color(1,0,0,1)"
+            } },
+			{ "Jaune", "civ", {
+                "#(argb,8,8,3)color(0.6,0.3,0.01,1)"
+            } },
+			{ "Orange", "civ", {
+                "#(argb,8,8,3)color(1,0.3,0.01,0.6)"
+            } }
+		};
+	};
+    
+    class GeK_M6 {
+        vItemSpace = 45;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 232750;
 		textures[] = {
 
 			{ "Noir", "civ", {
@@ -2759,6 +3081,57 @@ class LifeCfgVehicles {
 		};
 	};
     
+    class GeK_Mustang {
+        vItemSpace = 45;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 232750;
+		textures[] = {
+
+			{ "Noir", "civ", {
+                "#(ai,64,64,1)Fresnel(0.3,3)"
+            } },
+			{ "Gris sombre", "civ", {
+                "#(argb,8,8,3)color(0.1,0.1,0.1,0.7)"
+            } },
+			{ "Gris", "civ", {
+                "#(argb,8,8,3)color(0.5,0.5,0.5,0.1)"
+            } },
+			{ "Gris clair", "civ", {
+                "#(argb,8,8,3)color(0.3,0.3,0.3,0.8)"
+            } },
+			{ "Blanc", "civ", {
+                "#(argb,8,8,3)color(1,1,1,1)"
+            } },
+			{ "Sable", "civ", {
+                "#(argb,8,8,3)color(1.5,1.6,0.9,0.2)"
+            } },
+			{ "Bordeau", "civ", {
+                "#(argb,8,8,3)color(1,0,0,0.1)"
+            } },
+			{ "Bleu", "civ", {
+                "#(argb,8,8,3)color(0.01,0.6,1,0.1)"
+            } },
+			{ "Bleu Nuit", "civ", {
+                "#(argb,8,8,3)color(0,0,0.5,0.1)"
+            } },
+			{ "Mauve Nuit", "civ", {
+                "#(argb,8,8,3)color(0.6,0,1,0.01)"
+            } },
+			{ "Vert", "civ", {
+                "#(argb,8,8,3)color(0.5,1,0.5,0.05)"
+            } },
+			{ "Rouge", "civ", {
+                "#(argb,8,8,3)color(1,0,0,1)"
+            } },
+			{ "Jaune", "civ", {
+                "#(argb,8,8,3)color(0.6,0.3,0.01,1)"
+            } },
+			{ "Orange", "civ", {
+                "#(argb,8,8,3)color(1,0.3,0.01,0.6)"
+            } }
+		};
+	};
+    
     class cl3_arielatom_race_black {
         vItemSpace = 45;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
@@ -2914,6 +3287,56 @@ class LifeCfgVehicles {
 		};
 	};
 
+    class gek_gt86 {
+        vItemSpace = 45;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 232750;
+		textures[] = {
+
+			{ "Noir", "civ", {
+                "#(ai,64,64,1)Fresnel(0.3,3)"
+            } },
+			{ "Gris sombre", "civ", {
+                "#(argb,8,8,3)color(0.1,0.1,0.1,0.7)"
+            } },
+			{ "Gris", "civ", {
+                "#(argb,8,8,3)color(0.5,0.5,0.5,0.1)"
+            } },
+			{ "Gris clair", "civ", {
+                "#(argb,8,8,3)color(0.3,0.3,0.3,0.8)"
+            } },
+			{ "Blanc", "civ", {
+                "#(argb,8,8,3)color(1,1,1,1)"
+            } },
+			{ "Sable", "civ", {
+                "#(argb,8,8,3)color(1.5,1.6,0.9,0.2)"
+            } },
+			{ "Bordeau", "civ", {
+                "#(argb,8,8,3)color(1,0,0,0.1)"
+            } },
+			{ "Bleu", "civ", {
+                "#(argb,8,8,3)color(0.01,0.6,1,0.1)"
+            } },
+			{ "Bleu Nuit", "civ", {
+                "#(argb,8,8,3)color(0,0,0.5,0.1)"
+            } },
+			{ "Mauve Nuit", "civ", {
+                "#(argb,8,8,3)color(0.6,0,1,0.01)"
+            } },
+			{ "Vert", "civ", {
+                "#(argb,8,8,3)color(0.5,1,0.5,0.05)"
+            } },
+			{ "Rouge", "civ", {
+                "#(argb,8,8,3)color(1,0,0,1)"
+            } },
+			{ "Jaune", "civ", {
+                "#(argb,8,8,3)color(0.6,0.3,0.01,1)"
+            } },
+			{ "Orange", "civ", {
+                "#(argb,8,8,3)color(1,0.3,0.01,0.6)"
+            } }
+		};
+	};
     
     class GeK_GTR {
         vItemSpace = 45;
@@ -3277,6 +3700,107 @@ class LifeCfgVehicles {
 		};
 	};
 
+    class GeK_Apollo {
+        vItemSpace = 45;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 232750;
+		textures[] = {
+
+			{ "Noir", "civ", {
+                "#(ai,64,64,1)Fresnel(0.3,3)"
+            } },
+			{ "Gris sombre", "civ", {
+                "#(argb,8,8,3)color(0.1,0.1,0.1,0.7)"
+            } },
+			{ "Gris", "civ", {
+                "#(argb,8,8,3)color(0.5,0.5,0.5,0.1)"
+            } },
+			{ "Gris clair", "civ", {
+                "#(argb,8,8,3)color(0.3,0.3,0.3,0.8)"
+            } },
+			{ "Blanc", "civ", {
+                "#(argb,8,8,3)color(1,1,1,1)"
+            } },
+			{ "Sable", "civ", {
+                "#(argb,8,8,3)color(1.5,1.6,0.9,0.2)"
+            } },
+			{ "Bordeau", "civ", {
+                "#(argb,8,8,3)color(1,0,0,0.1)"
+            } },
+			{ "Bleu", "civ", {
+                "#(argb,8,8,3)color(0.01,0.6,1,0.1)"
+            } },
+			{ "Bleu Nuit", "civ", {
+                "#(argb,8,8,3)color(0,0,0.5,0.1)"
+            } },
+			{ "Mauve Nuit", "civ", {
+                "#(argb,8,8,3)color(0.6,0,1,0.01)"
+            } },
+			{ "Vert", "civ", {
+                "#(argb,8,8,3)color(0.5,1,0.5,0.05)"
+            } },
+			{ "Rouge", "civ", {
+                "#(argb,8,8,3)color(1,0,0,1)"
+            } },
+			{ "Jaune", "civ", {
+                "#(argb,8,8,3)color(0.6,0.3,0.01,1)"
+            } },
+			{ "Orange", "civ", {
+                "#(argb,8,8,3)color(1,0.3,0.01,0.6)"
+            } }
+		};
+	};
+    
+    class GeK_Agera {
+        vItemSpace = 45;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 232750;
+		textures[] = {
+
+			{ "Noir", "civ", {
+                "#(ai,64,64,1)Fresnel(0.3,3)"
+            } },
+			{ "Gris sombre", "civ", {
+                "#(argb,8,8,3)color(0.1,0.1,0.1,0.7)"
+            } },
+			{ "Gris", "civ", {
+                "#(argb,8,8,3)color(0.5,0.5,0.5,0.1)"
+            } },
+			{ "Gris clair", "civ", {
+                "#(argb,8,8,3)color(0.3,0.3,0.3,0.8)"
+            } },
+			{ "Blanc", "civ", {
+                "#(argb,8,8,3)color(1,1,1,1)"
+            } },
+			{ "Sable", "civ", {
+                "#(argb,8,8,3)color(1.5,1.6,0.9,0.2)"
+            } },
+			{ "Bordeau", "civ", {
+                "#(argb,8,8,3)color(1,0,0,0.1)"
+            } },
+			{ "Bleu", "civ", {
+                "#(argb,8,8,3)color(0.01,0.6,1,0.1)"
+            } },
+			{ "Bleu Nuit", "civ", {
+                "#(argb,8,8,3)color(0,0,0.5,0.1)"
+            } },
+			{ "Mauve Nuit", "civ", {
+                "#(argb,8,8,3)color(0.6,0,1,0.01)"
+            } },
+			{ "Vert", "civ", {
+                "#(argb,8,8,3)color(0.5,1,0.5,0.05)"
+            } },
+			{ "Rouge", "civ", {
+                "#(argb,8,8,3)color(1,0,0,1)"
+            } },
+			{ "Jaune", "civ", {
+                "#(argb,8,8,3)color(0.6,0.3,0.01,1)"
+            } },
+			{ "Orange", "civ", {
+                "#(argb,8,8,3)color(1,0.3,0.01,0.6)"
+            } }
+		};
+	};
     
     class GeK_Gallardo {
         vItemSpace = 45;
