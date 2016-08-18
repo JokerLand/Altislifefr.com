@@ -66,14 +66,14 @@ class CarShops {
 			{ "GeK_Mercedes_ML63", { "", "", -1 } }
         };
     };
-	
+
 	class luxe_car { //A FAIRE PLUS TARD
         side = "civ";
         vehicles[] = {
 			//{ "cl3_xr_1000_black", { "", "", -1 } },
             { "Mrshounka_ducati_p", { "", "", -1 } },
 			{ "GeK_Cadillac_Fleetwood_Brougham_85", { "", "", -1 } },
-            { "GeK_250GT", { "", "", -1 } },  
+            { "GeK_250GT", { "", "", -1 } },
             { "GeK_UAZ", { "", "", -1 } },
 			{ "SAL_IROCCiv", { "", "", -1 } },
 			{ "GeK_911_1972", { "", "", -1 } },
@@ -83,34 +83,34 @@ class CarShops {
 			//{ "cl3_z4_2008_black", { "", "", -1 } },
 			// { "Sn0cky_Crossfire_noir", { "", "", -1 } },
 			// { "Sn0cky_CL65_noir", { "", "", -1 } },
-            { "GeK_M6", { "", "", -1 } },    
+            { "GeK_M6", { "", "", -1 } },
 			{ "GeK_C63_AMG", { "", "", -1 } },
 			{ "zorak_audi_rs6", { "", "", -1 } },
 			// { "Sn0cky_S65_noir", { "", "", -1 } },
           	//{ "cl3_arielatom_black", { "", "", -1 } },
 			//{ "wirk_ktm", { "", "", -1 } },
 			{ "GeK_Camaro", { "", "", -1 } },
-            { "GeK_Mustang", { "", "", -1 } },    
+            { "GeK_Mustang", { "", "", -1 } },
 			//{ "cl3_arielatom_race_black", { "", "", -1 } },
-			//{ "cl3_dbs_volante_black", { "", "", -1 } }, 
+			//{ "cl3_dbs_volante_black", { "", "", -1 } },
 			//{ "cl3_carrera_gt_black", { "", "", -1 } },
-            { "gek_gt86", { "", "", -1 } },    
-			{ "GeK_GTR", { "", "", -1 } }, 
+            { "gek_gt86", { "", "", -1 } },
+			{ "GeK_GTR", { "", "", -1 } },
             //{ "cl3_r8_spyder_black", { "", "", -1 } },
-            //{ "cl3_458_black", { "", "", -1 } },	
-			{ "ALFR_GeK_Panamera", { "", "", -1 } },		
+            //{ "cl3_458_black", { "", "", -1 } },
+			{ "ALFR_GeK_Panamera", { "", "", -1 } },
 			//{ "cl3_murcielago_black", { "", "", -1 } },
 			//{ "Jonzie_Viper", { "", "", -1 } },
-			{ "wirk_ferrari_california", { "", "", -1 } },
-            { "GeK_Apollo", { "", "", -1 } },    
-            { "GeK_Agera", { "", "", -1 } },    
+			//{ "wirk_ferrari_california", { "", "", -1 } },
+            { "GeK_Apollo", { "", "", -1 } },
+            { "GeK_Agera", { "", "", -1 } },
 			{ "GeK_Gallardo", { "", "", -1 } }
 			//{ "cl3_reventon_black", { "", "", -1 } },
 			//{ "cl3_veyron_wht_blu", { "", "", -1 } },
 			//{ "ALFR_GeK_MF1", { "", "", -1 } },
 			//{ "ALFR_GeK_Pagani_Zonda", { "", "", -1 } }
         };
-    };	
+    };
 
     class kart_shop { //OK
         side = "civ";
@@ -198,8 +198,8 @@ class CarShops {
         side = "med";
         vehicles[] = {
             { "GeK_Renault_Trafic_Ambulance", { "", "", -1 } },
-            { "C_Offroad_01_F", { "", "", -1 } }, 
-            { "C_Offroad_02_unarmed_F", { "life_mediclevel", "SCALAR", 2 } }, 
+            { "C_Offroad_01_F", { "", "", -1 } },
+            { "C_Offroad_02_unarmed_F", { "life_mediclevel", "SCALAR", 2 } },
 			//{ "Jonzie_Ambulance", { "life_mediclevel", "SCALAR", 2 } },//
 			{ "GeK_TLC100_Medic", { "life_mediclevel", "SCALAR", 2 } },
 			//{ "zorak_master_ambulance", { "life_mediclevel", "SCALAR", 4 } },//
@@ -230,15 +230,15 @@ class CarShops {
 			//{ "ALFR_GeK_MF1_Police", { "life_coplevel", "SCALAR", 5 } },
 			//{ "cg_h2_sert", { "life_coplevel", "SCALAR", 7 } },
             { "C_Offroad_01_F", { "", "", -1 } },
-			{ "GeK_107_Police", { "", "", -1 } }, 
-            { "GeK_Renault_Trafic_Police", { "", "", -1 } }, 
+			{ "GeK_107_Police", { "", "", -1 } },
+            { "GeK_Renault_Trafic_Police", { "", "", -1 } },
 			{ "GeK_S60_Police", { "life_coplevel", "SCALAR", 2 } },
 			{ "gek_audi_a4_avant_police", { "life_coplevel", "SCALAR", 2 } },
 			{ "GeK_TLC100_Police", { "life_coplevel", "SCALAR", 2 } },
 			{ "GeK_ML63_Police", { "life_coplevel", "SCALAR", 3 } },
 			{ "GeK_Impreza_Police", { "life_coplevel", "SCALAR", 3 } },
 			{ "GeK_C63_Police", { "life_coplevel", "SCALAR", 4 } },
-            { "C_Offroad_02_unarmed_F", { "life_coplevel", "SCALAR", 4 } }, 
+            { "C_Offroad_02_unarmed_F", { "life_coplevel", "SCALAR", 4 } },
 			{ "I_MRAP_03_F", { "life_coplevel", "SCALAR", 4 } },
 			{ "GeK_S60_Police_ST", { "life_coplevel", "SCALAR", 5 } },
 			{ "ALFR_GeK_Panamera_Police_ST", { "life_coplevel", "SCALAR", 5 } },
@@ -247,8 +247,8 @@ class CarShops {
             { "zorak_audi_a6_police", { "life_coplevel", "SCALAR", 8 } }
         };
     };
-    
-    class armee_car { 
+
+    class armee_car {
         side = "cop";
         vehicles[] = {
             { "GeK_Panhard", { "", "", -1 } },
@@ -260,7 +260,7 @@ class CarShops {
 			{ "B_MRAP_01_F", { "life_coplevel", "SCALAR", 3 } }
         };
     };
-    
+
     class armee_air { //OK
         side = "cop";
         vehicles[] = {
@@ -268,8 +268,8 @@ class CarShops {
 			{ "B_Heli_Transport_03_unarmed_F", { "life_coplevel", "EQUAL", 3 } }
         };
     };
-    
-    
+
+
     class cop_air { //OK
         side = "cop";
         vehicles[] = {
@@ -279,7 +279,7 @@ class CarShops {
 			{ "B_Heli_Transport_01_F", { "life_coplevel", "SCALAR", 8 } }
         };
     };
-    
+
 
     class cop_ship { //OK
         side = "cop";
@@ -292,25 +292,25 @@ class CarShops {
             { "B_Boat_Armed_01_minigun_F", { "life_coplevel", "SCALAR", 7 } }
         };
     };
-	
-// AltisLifeFR Entreprise et autres	
-    
+
+// AltisLifeFR Entreprise et autres
+
 	class veh_depan {  //OK
         side = "civ";
         vehicles[] = {
             { "C_Offroad_01_repair_F", { "", "", -1 } },
 			//{ "Jonzie_Forklift", { "", "", -1 } },
 			{ "GeK_Volvo_FH16_2012_Depannage", { "", "", -1 } },
-            { "GR_UH1H_3", { "", "", -1 } },            
+            { "GR_UH1H_3", { "", "", -1 } },
             { "GR_Bell412_2", { "", "", -1 } },
-            { "EC635_ADAC", { "", "", -1 } }            
+            { "EC635_ADAC", { "", "", -1 } }
         };
     };
-	
+
 	class veh_ion { //OK
         side = "civ";
         vehicles[] = {
-			//{ "cl3_suv_black", { "", "", -1 } }, 
+			//{ "cl3_suv_black", { "", "", -1 } },
             { "GeK_Yukon", { "", "", -1 } },
 			{ "GeK_Renault_Trafic", { "", "", -1 } },
 			//{ "cl3_transit_black", { "", "", -1 } },
@@ -323,24 +323,24 @@ class CarShops {
             { "I_Heli_Transport_02_F", { "", "", -1 } }
         };
     };
-	
+
     class veh_altisfly { //OK
 		side = "civ";
 		vehicles[] = {
 			//{ "cl3_suv_black", { "", "", -1 } },
 			{ "GeK_Yukon", { "", "", -1 } },
 			{ "C_Van_01_fuel_F", { "", "", -1 } },
-			{ "sab_BI_An2", { "", "", -1 } }, 
-			{ "Sab_sea_An2", { "", "", -1 } }, 
-			{ "IVORY_T6A_1", { "", "", -1 } }, 
+			{ "sab_BI_An2", { "", "", -1 } },
+			{ "Sab_sea_An2", { "", "", -1 } },
+			{ "IVORY_T6A_1", { "", "", -1 } },
 			{ "GR_UH1H_3", { "", "", -1 } },
-			{ "GR_UH1N_1", { "", "", -1 } }, 
-			{ "GR_UH1N_2", { "", "", -1 } }, 
-			{ "globemaster_c17_Qatar", { "", "", -1 } }, 
-			{ "IVORY_ERJ135_1", { "", "", -1 } } 
+			{ "GR_UH1N_1", { "", "", -1 } },
+			{ "GR_UH1N_2", { "", "", -1 } },
+			{ "globemaster_c17_Qatar", { "", "", -1 } },
+			{ "IVORY_ERJ135_1", { "", "", -1 } }
 		};
-	};	
-	
+	};
+
 	class veh_aan { //OK
         side = "civ";
         vehicles[] = {
@@ -350,7 +350,7 @@ class CarShops {
             { "C_Heli_Light_01_civil_F", { "", "", -1 } }
         };
     };
-    
+
     class veh_entreprise_maritime {
         side = "civ";
         vehicles[] = {
@@ -391,9 +391,9 @@ class LifeCfgVehicles {
         vItemSpace = -1;
         licenses[] = { {""}, {""}, {""}, {""} };
         price = -1;
-        textures[] = {};  
+        textures[] = {};
     };
-    
+
     class C_Plane_Civil_01_F {
         vItemSpace = 100;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
@@ -413,7 +413,7 @@ class LifeCfgVehicles {
             } }
         };
     };
-    
+
     class C_Plane_Civil_01_racing_F {
         vItemSpace = 100;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
@@ -433,42 +433,42 @@ class LifeCfgVehicles {
             } }
         };
     };
-    
+
     class B_T_VTOL_01_infantry_F {
         vItemSpace = 180;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
         price = 6000000;
         textures[] = {};
     };
-    
+
     class IVORY_T6A_1 {
         vItemSpace = 5;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
         price = 200000;
         textures[] = {};
-    };    
-    
+    };
+
     class sab_BI_An2 {
         vItemSpace = 5;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
         price = 160000;
         textures[] = {};
     };
-    
+
     class sab_sea_An2 {
         vItemSpace = 5;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
         price = 160000;
         textures[] = {};
     };
-    
+
     class Jonzie_Mini_Cooper {
         vItemSpace = 20;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 10500;
         textures[] = {};
     };
-	
+
     class GeK_107 {
         vItemSpace = 25;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
@@ -518,7 +518,7 @@ class LifeCfgVehicles {
             } }
 		};
 	};
-	
+
     class cl3_polo_gti_black {
         vItemSpace = 30;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
@@ -568,7 +568,7 @@ class LifeCfgVehicles {
             } }
 		};
 	};
-    
+
     class cl3_civic_vti_black {
         vItemSpace = 30;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
@@ -668,14 +668,14 @@ class LifeCfgVehicles {
             } }
 		};
 	};
-	
+
     class Jonzie_Ceed {
         vItemSpace = 40;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 15000;
         textures[] = {};
     };
-		
+
     class GeK_DS3 {
         vItemSpace = 40;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
@@ -725,7 +725,7 @@ class LifeCfgVehicles {
             } }
 		};
 	};
-	
+
     class C_SUV_01_F {
         vItemSpace = 45;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
@@ -760,15 +760,15 @@ class LifeCfgVehicles {
             } }
 		};
     };
-    
+
     class GeK_107_Police {
 		vItemSpace = 25;
         licenses[] = { {""}, {""}, {""}, {""} };
 		price = 17500;
         textures[] = {};
-	};	
+	};
 
-	class GeK_Renault_Trafic_Police {   
+	class GeK_Renault_Trafic_Police {
 		vItemSpace = 75;
         licenses[] = { {""}, {""}, {""}, {""} };
 		price = 25000;
@@ -777,9 +777,9 @@ class LifeCfgVehicles {
                 "ALFR_TexSnd\Gek_renault_trafic_police.paa"
             } }
 		};
-	}; 
-    
-    class C_Offroad_02_unarmed_F {   
+	};
+
+    class C_Offroad_02_unarmed_F {
 		vItemSpace = 45;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
 		price = 65000;
@@ -833,9 +833,9 @@ class LifeCfgVehicles {
 	                "ALFR_TexSnd\pompiers\jeepPompier.paa"
             } }
 		};
-	}; 
-    
-    class GeK_Fiorino {   
+	};
+
+    class GeK_Fiorino {
 		vItemSpace = 70;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
 		price = 45000;
@@ -884,8 +884,8 @@ class LifeCfgVehicles {
             } }
 		};
 	};
-    
-    class GeK_Renault_Trafic {   
+
+    class GeK_Renault_Trafic {
 		vItemSpace = 75;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
 		price = 45000;
@@ -941,7 +941,7 @@ class LifeCfgVehicles {
 		price = 17500;
 		textures[] = {};
 	};
-	
+
     class C_Offroad_01_F {
         vItemSpace = 60;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
@@ -979,7 +979,7 @@ class LifeCfgVehicles {
             } },
             { "Taxi(Jaune)", "civ", {
 	                "#(argb,8,8,3)color(0.6,0.3,0.01,1)"
-            } },			
+            } },
 			{ "Rouge 2", "civ", {
 	                "#(argb,8,8,3)color(1,0.1,0.01,0.1)"
             } },
@@ -1000,28 +1000,28 @@ class LifeCfgVehicles {
             } }
         };
     };
-    
+
     class GeK_Renault_Trafic_Ambulance {
 		vItemSpace = 70;
         licenses[] = { {""}, {""}, {""}, {""} };
 		price = 17500;
         textures[] = {};
 	};
-	
+
 	class Jonzie_Ambulance {
 		vItemSpace = 80;
         licenses[] = { {""}, {""}, {""}, {""} };
 		price = 17500;
         textures[] = {};
 	};
-    
+
     class zorak_master_ambulance {
 		vItemSpace = 80;
         licenses[] = { {""}, {""}, {""}, {""} };
 		price = 17500;
         textures[] = {};
 	};
-	
+
     class I_G_Offroad_01_F {
         vItemSpace = 62;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
@@ -1105,8 +1105,8 @@ class LifeCfgVehicles {
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 48300;
 		textures[] = {};
-	};	
-	
+	};
+
     class zorak_bmw_120i {
         vItemSpace = 55;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
@@ -1118,7 +1118,7 @@ class LifeCfgVehicles {
             } },
             { "Noir", "reb", {
                 "#(ai,64,64,1)Fresnel(0.3,3)"
-            } },			
+            } },
 			{ "Gris sombre", "civ", {
                 "#(argb,8,8,3)color(0.1,0.1,0.1,0.7)"
             } },
@@ -1160,7 +1160,7 @@ class LifeCfgVehicles {
             } }
 		};
 	};
-    
+
     class GeK_Golf {
         vItemSpace = 55;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
@@ -1169,7 +1169,7 @@ class LifeCfgVehicles {
 
             { "Noir", "civ", {
                 "#(ai,64,64,1)Fresnel(0.3,3)"
-            } },			
+            } },
 			{ "Gris sombre", "civ", {
                 "#(argb,8,8,3)color(0.1,0.1,0.1,0.7)"
             } },
@@ -1217,8 +1217,8 @@ class LifeCfgVehicles {
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 55125;
 		textures[] = {};
-	};	
-	
+	};
+
     class cl3_taurus_black {
         vItemSpace = 64;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
@@ -1267,36 +1267,36 @@ class LifeCfgVehicles {
                 "#(argb,8,8,3)color(1,0.3,0.01,0.6)"
             } }
 		};
-	};	
-    
+	};
+
     class Jonzie_Escalade {
         vItemSpace = 65;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 66500;
 		textures[] = {};
-	};	
-    
+	};
+
     class Jonzie_XB {
         vItemSpace = 70;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 71750;
 		textures[] = {};
-	};	
-    
+	};
+
     class Jonzie_Galant {
         vItemSpace = 75;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 75250;
-		textures[] = {}; 
-	};	
-    
+		textures[] = {};
+	};
+
     class Jonzie_Mini_Cooper_R_spec {
         vItemSpace = 30;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 77000;
 		textures[] = {};
-	};	
-    
+	};
+
     class cl3_e60_m5_black {
         vItemSpace = 40;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
@@ -1346,8 +1346,8 @@ class LifeCfgVehicles {
                 "#(argb,8,8,3)color(1,0.3,0.01,0.6)"
             } }
 		};
-	};	
-    
+	};
+
     class GeK_Supra {
         vItemSpace = 40;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
@@ -1397,8 +1397,8 @@ class LifeCfgVehicles {
                 "#(argb,8,8,3)color(1,0.3,0.01,0.6)"
             } }
 		};
-	};	
-    
+	};
+
     class cl3_e63_amg_black {
         vItemSpace = 30;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
@@ -1448,8 +1448,8 @@ class LifeCfgVehicles {
                 "#(argb,8,8,3)color(1,0.3,0.01,0.6)"
             } }
 		};
-	};	
-    
+	};
+
     class cl3_dodge_charger_s_black {
         vItemSpace = 35;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
@@ -1499,8 +1499,8 @@ class LifeCfgVehicles {
                 "#(argb,8,8,3)color(1,0.3,0.01,0.6)"
             } }
 		};
-	};	
-    
+	};
+
     class GeK_ElCamino {
         vItemSpace = 35;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
@@ -1550,9 +1550,9 @@ class LifeCfgVehicles {
                 "#(argb,8,8,3)color(1,0.3,0.01,0.6)"
             } }
 		};
-	};	
-    
-    class GeK_Fj_Cruiser {  
+	};
+
+    class GeK_Fj_Cruiser {
         vItemSpace = 55;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 182000;
@@ -1560,7 +1560,7 @@ class LifeCfgVehicles {
 
 			{ "Noir", "civ", {
                 "#(ai,64,64,1)Fresnel(0.3,3)"
-            } },			
+            } },
 			{ "Gris sombre", "civ", {
                 "#(argb,8,8,3)color(0.1,0.1,0.1,0.7)"
             } },
@@ -1602,8 +1602,8 @@ class LifeCfgVehicles {
             } }
 		};
 	};
-    
-    class GeK_TLC100 {  
+
+    class GeK_TLC100 {
         vItemSpace = 55;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 182000;
@@ -1614,7 +1614,7 @@ class LifeCfgVehicles {
             } },
 			{ "Noir", "reb", {
                 "#(ai,64,64,1)Fresnel(0.3,3)"
-            } },			
+            } },
 			{ "Gris sombre", "civ", {
                 "#(argb,8,8,3)color(0.1,0.1,0.1,0.7)"
             } },
@@ -1655,9 +1655,9 @@ class LifeCfgVehicles {
                 "#(argb,8,8,3)color(1,0.3,0.01,0.6)"
             } }
 		};
-	};	
-    
-    class Conry_Tahoe {  
+	};
+
+    class Conry_Tahoe {
         vItemSpace = 55;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 275000;
@@ -1665,7 +1665,7 @@ class LifeCfgVehicles {
 
 			{ "Noir", "civ", {
                 "#(ai,64,64,1)Fresnel(0.3,3)"
-            } },			
+            } },
 			{ "Gris sombre", "civ", {
                 "#(argb,8,8,3)color(0.1,0.1,0.1,0.7)"
             } },
@@ -1733,23 +1733,23 @@ class LifeCfgVehicles {
                 "ALFR_TexSnd\Conry_Tahoe\verttexture.paa"
             } }
 		};
-	};	
-    
-    class GeK_Panhard  {    
+	};
+
+    class GeK_Panhard  {
         vItemSpace = 30;
         licenses[] = { {""}, {"armee"}, {""}, {""} };
         price = 17500;
 		textures[] = {};
 	};
-    
-    class ALFR_suv_armee  {    
+
+    class ALFR_suv_armee  {
         vItemSpace = 55;
         licenses[] = { {""}, {"armee"}, {""}, {""} };
         price = 17500;
 		textures[] = {};
 	};
-    
-    class GeK_TLC100_Police {    
+
+    class GeK_TLC100_Police {
         vItemSpace = 55;
         licenses[] = { {""}, {""}, {""}, {""} };
         price = 17500;
@@ -1763,29 +1763,29 @@ class LifeCfgVehicles {
             } }
 
 		};
-	};	
-    
+	};
+
     class GeK_TLC100_Medic {
         vItemSpace = 55;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 175000;
 		textures[] = {};
 	};
-    
+
     class cl3_suv_black {
 		vItemSpace = 35;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 173250;
 		textures[] = {};
 	};
-    
+
     class GeK_Yukon {
 		vItemSpace = 50;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 173250;
 		textures[] = {};
 	};
-    
+
     class cl3_q7_black {
         vItemSpace = 55;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
@@ -1835,7 +1835,7 @@ class LifeCfgVehicles {
                 "#(argb,8,8,3)color(1,0.3,0.01,0.6)"
             } }
 		};
-	};	
+	};
     //
     class GeK_A45 {
         vItemSpace = 35;
@@ -1848,7 +1848,7 @@ class LifeCfgVehicles {
             } },
             { "Noir", "reb", {
                 "#(ai,64,64,1)Fresnel(0.3,3)"
-            } },			
+            } },
 			{ "Gris sombre", "civ", {
                 "#(argb,8,8,3)color(0.1,0.1,0.1,0.7)"
             } },
@@ -1889,23 +1889,23 @@ class LifeCfgVehicles {
                 "#(argb,8,8,3)color(1,0.3,0.01,0.6)"
             } }
 		};
-	};	
-    
+	};
+
     class wirk_cayenne {
         vItemSpace = 55;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 122500;
-		textures[] = {}; 
-	};	
-    
+		textures[] = {};
+	};
+
     class Jonzie_Quattroporte {
         vItemSpace = 30;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 168000;
 		textures[] = {};
-	};	
-    
-    class zorak_mazda_rx8 {  
+	};
+
+    class zorak_mazda_rx8 {
         vItemSpace = 30;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 80500;
@@ -1916,7 +1916,7 @@ class LifeCfgVehicles {
             } },
             { "Noir", "reb", {
                 "#(ai,64,64,1)Fresnel(0.3,3)"
-            } },			
+            } },
 			{ "Gris sombre", "civ", {
                 "#(argb,8,8,3)color(0.1,0.1,0.1,0.7)"
             } },
@@ -1956,10 +1956,10 @@ class LifeCfgVehicles {
 			{ "Orange", "civ", {
                 "#(argb,8,8,3)color(1,0.3,0.01,0.6)"
             } }
-		}; 
-	};	
-    
-    
+		};
+	};
+
+
     class GeK_S60 {
         vItemSpace = 40;
         licenses[] = { {"driver"}, {"armee"}, {""}, {""} };
@@ -2012,15 +2012,15 @@ class LifeCfgVehicles {
                 "alfr_Arm\data\VolvoArmee.jpg"
             } }
 		};
-	};	
-    
-    class GeK_S60_Police { 
+	};
+
+    class GeK_S60_Police {
         vItemSpace = 40;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 17500;
 		textures[] = {};
 	};
-    
+
     class gek_audi_a4_avant_police {
 		vItemSpace = 55;
         licenses[] = { {""}, {""}, {""}, {""} };
@@ -2034,7 +2034,7 @@ class LifeCfgVehicles {
 		price = 17500;
         textures[] = {};
 	};
-    
+
 
     class zorak_mazda_rx8_police {
         vItemSpace = 35;
@@ -2042,7 +2042,7 @@ class LifeCfgVehicles {
 		price = 17500;
         textures[] = {};
     };
-	
+
     class GeK_Impreza_Police {
 		vItemSpace = 40;
         licenses[] = { {""}, {""}, {""}, {""} };
@@ -2056,13 +2056,13 @@ class LifeCfgVehicles {
 		price = 17500;
         textures[] = {};
 	};
-	
+
 	class GeK_C63_Police {
 		vItemSpace = 45;
         licenses[] = { {""}, {""}, {""}, {""} };
 		price = 17500;
         textures[] = {};
-	};		
+	};
 
 	class ALFR_GeK_Panamera_Police {
 		vItemSpace = 40;
@@ -2086,9 +2086,9 @@ class LifeCfgVehicles {
 		vItemSpace = 20;
         licenses[] = { {""}, {""}, {""}, {""} };
 		price = 5000;
-		textures[] = {};        
+		textures[] = {};
 	};
-    
+
     class ALFR_GeK_Panamera_Police_ST {
 		vItemSpace = 40;
         licenses[] = { {""}, {""}, {""}, {""} };
@@ -2109,21 +2109,21 @@ class LifeCfgVehicles {
 		price = 17500;
         textures[] = {};
 	};
-    
+
     class GeK_S60_Medic {
         vItemSpace = 40;
         licenses[] = { {""}, {""}, {""}, {""} };
         price = 5250;
 		textures[] = {};
 	};
-    
+
     class GeK_S60_Police_ST {
         vItemSpace = 40;
         licenses[] = { {""}, {""}, {""}, {""} };
         price = 17500;
 		textures[] = {};
 	};
-    
+
     class GeK_CTSV {
         vItemSpace = 35;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
@@ -2135,7 +2135,7 @@ class LifeCfgVehicles {
             } },
 			{ "Noir", "reb", {
                 "#(ai,64,64,1)Fresnel(0.3,3)"
-            } },			
+            } },
 			{ "Gris sombre", "civ", {
                 "#(argb,8,8,3)color(0.1,0.1,0.1,0.7)"
             } },
@@ -2177,7 +2177,7 @@ class LifeCfgVehicles {
             } }
 		};
 	};
-    
+
     class GeK_Insignia {
         vItemSpace = 35;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
@@ -2186,7 +2186,7 @@ class LifeCfgVehicles {
 
 			{ "Noir", "civ", {
                 "#(ai,64,64,1)Fresnel(0.3,3)"
-            } },			
+            } },
 			{ "Gris sombre", "civ", {
                 "#(argb,8,8,3)color(0.1,0.1,0.1,0.7)"
             } },
@@ -2228,7 +2228,7 @@ class LifeCfgVehicles {
             } }
 		};
 	};
-    
+
     class zorak_audi_a6 {
         vItemSpace = 35;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
@@ -2240,7 +2240,7 @@ class LifeCfgVehicles {
             } },
             { "Noir", "reb", {
                 "#(ai,64,64,1)Fresnel(0.3,3)"
-            } },			
+            } },
 			{ "Gris sombre", "civ", {
                 "#(argb,8,8,3)color(0.1,0.1,0.1,0.7)"
             } },
@@ -2281,15 +2281,15 @@ class LifeCfgVehicles {
                 "#(argb,8,8,3)color(1,0.3,0.01,0.6)"
             } }
 		};
-	};	
-    
+	};
+
     class zorak_audi_a6_police {
         vItemSpace = 35;
         licenses[] = { {""}, {""}, {""}, {""} };
         price = 17500;
         textures[] = {};
     };
-    
+
     class GeK_Civilian_H1 {
 		vItemSpace = 75;
 		licenses[] = { {"driver"}, {""}, {""}, {""} };
@@ -2340,7 +2340,7 @@ class LifeCfgVehicles {
             } }
 		};
 	};
-    
+
     class Gek_audi_a4_avant {
         vItemSpace = 40;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
@@ -2390,15 +2390,15 @@ class LifeCfgVehicles {
                 "#(argb,8,8,3)color(1,0.3,0.01,0.6)"
             } }
 		};
-	};	
-    
+	};
+
     class Jonzie_STI {
         vItemSpace = 40;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 80500;
-		textures[] = {};  
+		textures[] = {};
 	};
-    
+
     class GeK_Mercedes_ML63 {
         vItemSpace = 45;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
@@ -2449,25 +2449,25 @@ class LifeCfgVehicles {
             } }
 		};
 	};
-    
+
     class cl3_xr_1000_black {
         vItemSpace = 45;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 200000;
 		textures[] = {};
 	};
-    
+
     class Mrshounka_ducati_p {
         vItemSpace = 45;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 200000;
 		textures[] = {};
 	};
-    
+
     class GeK_Cadillac_Fleetwood_Brougham_85 {
         vItemSpace = 45;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 232750;
+        price = 80000;
 		textures[] = {
 
 			{ "Noir", "civ", {
@@ -2514,11 +2514,11 @@ class LifeCfgVehicles {
             } }
 		};
 	};
-    
+
     class GeK_250GT {
         vItemSpace = 45;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 232750;
+        price = 130000;
 		textures[] = {
 
 			{ "Noir", "civ", {
@@ -2565,18 +2565,18 @@ class LifeCfgVehicles {
             } }
 		};
 	};
-    
-    class GeK_UAZ {  
+
+    class GeK_UAZ {
         vItemSpace = 45;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
-        price = 232750;
+        price = 125000;
         textures[] = { };
     };
-    
+
     class SAL_IROCCiv {
         vItemSpace = 45;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 232750;
+        price = 120000;
 		textures[] = {
 
 			{ "Noir", "civ", {
@@ -2623,11 +2623,11 @@ class LifeCfgVehicles {
             } }
 		};
 	};
-    
+
     class GeK_911_1972 {
         vItemSpace = 45;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 232750;
+        price = 130000;
 		textures[] = {
 
 			{ "Noir", "civ", {
@@ -2677,7 +2677,7 @@ class LifeCfgVehicles {
     class AudiA8_Limo {
         vItemSpace = 45;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 232750;
+        price = 300000;
 		textures[] = {
 
 			{ "Noir", "civ", {
@@ -2724,7 +2724,7 @@ class LifeCfgVehicles {
             } }
 		};
 	};
-    
+
     class cl3_z4_2008_black {
         vItemSpace = 45;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
@@ -2775,11 +2775,11 @@ class LifeCfgVehicles {
             } }
 		};
 	};
-    
+
     class GeK_IS {
         vItemSpace = 40;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 232750;
+        price = 250000;
 		textures[] = {
 
 			{ "Noir", "civ", {
@@ -2826,11 +2826,11 @@ class LifeCfgVehicles {
             } }
 		};
 	};
-    
+
     class GeK_M6 {
         vItemSpace = 45;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 232750;
+        price = 350000;
 		textures[] = {
 
 			{ "Noir", "civ", {
@@ -2877,11 +2877,11 @@ class LifeCfgVehicles {
             } }
 		};
 	};
-    
+
     class GeK_C63_AMG {
         vItemSpace = 45;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 232750;
+        price = 375000;
 		textures[] = {
 
 			{ "Noir", "civ", {
@@ -2928,11 +2928,11 @@ class LifeCfgVehicles {
             } }
 		};
 	};
-    
+
     class zorak_audi_rs6 {
         vItemSpace = 45;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 232750;
+        price = 400000;
 		textures[] = {
 
 			{ "Noir", "civ", {
@@ -2979,7 +2979,7 @@ class LifeCfgVehicles {
             } }
 		};
 	};
-    
+
     class cl3_arielatom_black {
         vItemSpace = 45;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
@@ -3030,7 +3030,7 @@ class LifeCfgVehicles {
             } }
 		};
 	};
-    
+
     class wirk_ktm {
         vItemSpace = 45;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
@@ -3081,11 +3081,11 @@ class LifeCfgVehicles {
             } }
 		};
 	};
-    
+
     class GeK_Camaro {
         vItemSpace = 45;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 232750;
+        price = 350000;
 		textures[] = {
 
 			{ "Noir", "civ", {
@@ -3132,11 +3132,11 @@ class LifeCfgVehicles {
             } }
 		};
 	};
-    
+
     class GeK_Mustang {
         vItemSpace = 45;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 232750;
+        price = 300000;
 		textures[] = {
 
 			{ "Noir", "civ", {
@@ -3183,7 +3183,7 @@ class LifeCfgVehicles {
             } }
 		};
 	};
-    
+
     class cl3_arielatom_race_black {
         vItemSpace = 45;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
@@ -3235,7 +3235,7 @@ class LifeCfgVehicles {
 		};
 	};
 
-    
+
     class cl3_dbs_volante_black {
         vItemSpace = 45;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
@@ -3287,7 +3287,7 @@ class LifeCfgVehicles {
 		};
 	};
 
-    
+
     class cl3_carrera_gt_black {
         vItemSpace = 45;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
@@ -3342,7 +3342,7 @@ class LifeCfgVehicles {
     class gek_gt86 {
         vItemSpace = 45;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 232750;
+        price = 300000;
 		textures[] = {
 
 			{ "Noir", "civ", {
@@ -3389,11 +3389,11 @@ class LifeCfgVehicles {
             } }
 		};
 	};
-    
+
     class GeK_GTR {
         vItemSpace = 45;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 232750;
+        price = 400000;
 		textures[] = {
 
 			{ "Noir", "civ", {
@@ -3441,7 +3441,7 @@ class LifeCfgVehicles {
 		};
 	};
 
-    
+
     class cl3_r8_spyder_black {
         vItemSpace = 45;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
@@ -3493,7 +3493,7 @@ class LifeCfgVehicles {
 		};
 	};
 
-    
+
     class cl3_458_black {
         vItemSpace = 45;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
@@ -3545,11 +3545,11 @@ class LifeCfgVehicles {
 		};
 	};
 
-    
+
     class ALFR_GeK_Panamera {
         vItemSpace = 45;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 232750;
+        price = 400000;
 		textures[] = {
 
 			{ "Noir", "civ", {
@@ -3597,7 +3597,7 @@ class LifeCfgVehicles {
 		};
 	};
 
-    
+
     class cl3_murcielago_black {
         vItemSpace = 45;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
@@ -3700,7 +3700,7 @@ class LifeCfgVehicles {
 		};
 	};
 
-    
+
     class wirk_ferrari_california {
         vItemSpace = 45;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
@@ -3755,7 +3755,7 @@ class LifeCfgVehicles {
     class GeK_Apollo {
         vItemSpace = 45;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 232750;
+        price = 1000000;
 		textures[] = {
 
 			{ "Noir", "civ", {
@@ -3802,11 +3802,11 @@ class LifeCfgVehicles {
             } }
 		};
 	};
-    
+
     class GeK_Agera {
         vItemSpace = 45;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 232750;
+        price = 1200000;
 		textures[] = {
 
 			{ "Noir", "civ", {
@@ -3853,11 +3853,11 @@ class LifeCfgVehicles {
             } }
 		};
 	};
-    
+
     class GeK_Gallardo {
         vItemSpace = 45;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 232750;
+        price = 500000;
 		textures[] = {
 
 			{ "Noir", "civ", {
@@ -3905,7 +3905,7 @@ class LifeCfgVehicles {
 		};
 	};
 
-    
+
     class cl3_reventon_black {
         vItemSpace = 45;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
@@ -3956,7 +3956,7 @@ class LifeCfgVehicles {
             } }
 		};
 	};
-    
+
     class cl3_veyron_wht_blu {
         vItemSpace = 45;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
@@ -4007,7 +4007,7 @@ class LifeCfgVehicles {
             } }
 		};
 	};
-    
+
     class ALFR_GeK_MF1 {
         vItemSpace = 45;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
@@ -4058,7 +4058,7 @@ class LifeCfgVehicles {
             } }
 		};
 	};
-    
+
     class ALFR_GeK_Pagani_Zonda {
         vItemSpace = 45;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
@@ -4138,7 +4138,7 @@ class LifeCfgVehicles {
         price = 10000;
         textures[] = { };
     };
-    
+
     class C_Scooter_Transport_01_F {
         vItemSpace = 20;
         licenses[] = { {"boat"}, {""}, {""}, {""} };
@@ -4167,7 +4167,7 @@ class LifeCfgVehicles {
             } }
 		};
     };
-    
+
     class C_Boat_Transport_02_F {
         vItemSpace = 200;
         licenses[] = { {"boat"}, {"cg"}, {""}, {""} };
@@ -4180,14 +4180,14 @@ class LifeCfgVehicles {
             } }
         };
     };
-    
+
     class Burnes_MK10_1 {
         vItemSpace = 30;
         licenses[] = { {"boat"}, {"cg"}, {""}, {""} };
         price = 750000;
         textures[] = {};
     };
-    
+
     class GeK_Ship {
         vItemSpace = 3000;
         licenses[] = { {""}, {""}, {""}, {""} };
@@ -4206,16 +4206,16 @@ class LifeCfgVehicles {
             } }
 
 		};
-    }; 
-    
-    class B_T_LSV_01_unarmed_F { 
+    };
+
+    class B_T_LSV_01_unarmed_F {
         vItemSpace = 30;
         licenses[] = { {""}, {"armee"}, {""}, {""} };
         price = 50000;
         textures[] = {};
     };
-    
-    class B_MRAP_01_F { 
+
+    class B_MRAP_01_F {
         vItemSpace = 30;
         licenses[] = { {""}, {"armee"}, {""}, {""} };
         price = 50000;
@@ -4227,8 +4227,8 @@ class LifeCfgVehicles {
 
 		};
     };
-    
-    class ALFR_Armee_Hummingbird { 
+
+    class ALFR_Armee_Hummingbird {
         vItemSpace = 5;
         licenses[] = { {""}, {"armee"}, {""}, {""} };
         price = 15000;
@@ -4254,21 +4254,21 @@ class LifeCfgVehicles {
         price = 75000;
         textures[] = { };
     };
-    
+
     class C_Offroad_01_repair_F {
         vItemSpace = 95;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 75000;
         textures[] = { };
     };
-    
+
     class Jonzie_Forklift {
         vItemSpace = 25;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
         price = 50000;
         textures[] = { };
     };
-    
+
     class GeK_Volvo_FH16_2012_Depannage {
         vItemSpace = 250;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
@@ -4276,48 +4276,48 @@ class LifeCfgVehicles {
         textures[] = { };
     };
 
-    class GR_UH1H_3 {  
+    class GR_UH1H_3 {
         vItemSpace = 35;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
         price = 175000;
         textures[] = { };
     };
-    
-    class GR_UH1N_1 {  
+
+    class GR_UH1N_1 {
         vItemSpace = 35;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
         price = 175000;
         textures[] = { };
     };
-    
-    class GR_UH1N_2 {  
+
+    class GR_UH1N_2 {
         vItemSpace = 35;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
         price = 175000;
         textures[] = { };
     };
-    
-    class globemaster_c17_Qatar {  
+
+    class globemaster_c17_Qatar {
         vItemSpace = 45;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
         price = 75000;
         textures[] = { };
     };
-    
+
     class GR_Bell412_2 {
         vItemSpace = 80;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
         price = 150000;
         textures[] = { };
     };
-    
+
     class EC635_ADAC {
         vItemSpace = 90;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
         price = 170000;
         textures[] = { };
     };
-    
+
     class zorak_jeep_cherokee {
         vItemSpace = 45;
         licenses[] = { {""}, {""}, {""}, {""} };
@@ -4359,21 +4359,21 @@ class LifeCfgVehicles {
         price = -1;
         textures[] = {};
     };
-    
+
     class UAZ_Unarmed : Default {
 		vItemSpace = 40;
 		licenses[] = { {"rebel"}, {""}, {""}, {""} };
 		price = 215000;
         textures[] = {};
 	};
-    
+
     class GeK_G65 : Default {
 		vItemSpace = 70;
 		licenses[] = { {"rebel"}, {""}, {""}, {""} };
 		price = 290000;
         textures[] = {};
 	};
-    
+
     class GeK_Mercedes_ML63_Rebelle : Default {
 		vItemSpace = 65;
 		licenses[] = { {"rebel"}, {""}, {""}, {""} };
@@ -4388,7 +4388,7 @@ class LifeCfgVehicles {
             } }
 		};
 	};
-    
+
     class GeK_Avalanche : Default {
 		vItemSpace = 50;
 		licenses[] = { {"rebel"}, {""}, {""}, {""} };
@@ -4415,7 +4415,7 @@ class LifeCfgVehicles {
             } },
 			{ "Noir", "reb", {
                 "GeK_Avalanche\data\AVL_Noir.paa"
-            } },			
+            } },
 			{ "Orange", "civ", {
                 "GeK_Avalanche\data\AVL_Orange.paa"
             } },
@@ -4517,14 +4517,14 @@ class LifeCfgVehicles {
             { "Guerilla 12", "reb", {
                 "\a3\soft_f_bootcamp\Offroad_01\Data\offroad_01_ext_ig_12_co.paa"
             } }
-        };	
+        };
     };
-    
+
     class O_T_LSV_02_unarmed_F {
         vItemSpace = 40;
         licenses[] = { {"rebel"}, {""}, {""}, {""} };
         price = 750000;
-        textures[] = {};	
+        textures[] = {};
     };
 
     class C_Boat_Civil_01_F {
@@ -4533,7 +4533,7 @@ class LifeCfgVehicles {
         price = 50000;
         textures[] = { };
     };
-    
+
     class B_Boat_Transport_01_F {
         vItemSpace = 40;
         licenses[] = { {""}, {"cg"}, {""}, {""} };
@@ -4554,7 +4554,7 @@ class LifeCfgVehicles {
         price = 400000;
         textures[] = { };
     };
-    
+
     class  Jonzie_Box_Truck: Default {
 		vItemSpace = 580;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
@@ -4604,7 +4604,7 @@ class LifeCfgVehicles {
             } }
 		};
 	};
-    
+
     class  ALFR_GeK_Scania_420 {
 		vItemSpace = 550;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
@@ -4654,7 +4654,7 @@ class LifeCfgVehicles {
             } }
 		};
 	};
-    
+
     class  GeK_Renault_Magnum {
 		vItemSpace = 600;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
@@ -4756,7 +4756,7 @@ class LifeCfgVehicles {
 
 		};
 	};
-    
+
     class  GeK_Iveco_Stralis {
 		vItemSpace = 750;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
@@ -4806,35 +4806,35 @@ class LifeCfgVehicles {
             } }
 		};
 	};
-    
+
     class B_Truck_01_transport_F {
         vItemSpace = 400;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
         price = 200000;
         textures[] = { };
     };
-    
+
     class DAR_MK27 {
         vItemSpace = 400;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
         price = 200000;
         textures[] = { };
     };
-    
+
     class DAR_MK27E {
         vItemSpace = 450;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
         price = 300000;
         textures[] = { };
     };
-    
+
     class DAR_LHS_16 {
         vItemSpace = 500;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
         price = 400000;
         textures[] = { };
     };
-    
+
     class Jonzie_Tanker_Truck: Default {
 		vItemSpace = 450;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
@@ -5032,33 +5032,33 @@ will modify the virtual space and the price of the vehicle, but other informatio
         };
     };
 
-    class O_Truck_03_covered_F {  
+    class O_Truck_03_covered_F {
         vItemSpace = 1000;
         licenses[] = { {"rebel"}, {""}, {""}, {""} };
         price = 1350000;
         textures[] = {};
     };
-    
-    class O_Truck_03_ammo_F {  
+
+    class O_Truck_03_ammo_F {
         vItemSpace = 1250;
         licenses[] = { {"rebel"}, {""}, {""}, {""} };
         price = 1750000;
         textures[] = {};
     };
-    
+
     class O_Heli_Transport_04_covered_F {
 		vItemSpace = 5;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
 		price = 1130000;
 	};
 
-	class O_Heli_Transport_04_ammo_F { 
+	class O_Heli_Transport_04_ammo_F {
 		vItemSpace = 5;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
 		price = 1500000;
 	};
-    
-    class O_Heli_Transport_04_bench_F {  
+
+    class O_Heli_Transport_04_bench_F {
 		vItemSpace = 5;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
 		price = 1000000;
@@ -5096,7 +5096,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
         };
     };
 
-    
+
 
     class C_Van_01_transport_F {
         vItemSpace = 100;
@@ -5111,7 +5111,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
             } }
         };
     };
-    
+
     class cl3_transit_black : Default {
 		vItemSpace = 80;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
@@ -5161,9 +5161,9 @@ will modify the virtual space and the price of the vehicle, but other informatio
             } }
 		};
 	};
-    
-    
-    
+
+
+
     class CL3_bus_cl_black : Default {
 		vItemSpace = 60;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
@@ -5174,7 +5174,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
             } }
 		};
 	};
-    
+
     class shounka_a3_spr_civ : Default {
 		vItemSpace = 90;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
@@ -5224,7 +5224,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
             } }
 		};
 	};
-    
+
     class C_Van_01_box_F {
         vItemSpace = 150;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
@@ -5239,7 +5239,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
         };
     };
 
-    
+
      class B_Heli_Light_01_stripped_F {
         vItemSpace = 90;
         licenses[] = { {"rebel"}, {""}, {""}, {""} };
@@ -5312,7 +5312,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
             } }
         };
     };
-    
+
     class  C_Heli_Light_01_civil_F: Default {
         vItemSpace = 5;
         licenses[] = { {"pilot"}, {"cAir"}, {"mAir"}, {""} };
@@ -5371,14 +5371,14 @@ will modify the virtual space and the price of the vehicle, but other informatio
             } }
         };
 	};
-    
+
     class GR_Bell412_1 {
 		vItemSpace = 5;
         licenses[] = { {""}, {""}, {"mAir"}, {""} };
 		price = 5000;
         textures[] = {};
-	}; 
-    
+	};
+
     class ALE_MedOrca {
 		vItemSpace = 5;
         licenses[] = { {""}, {""}, {"mAir"}, {""} };
@@ -5401,7 +5401,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
             } }
         };
 	};
-    
+
     class EC635_Unarmed {
 		vItemSpace = 5;
         licenses[] = { {""}, {"cAir"}, {""}, {""} };
@@ -5415,9 +5415,9 @@ will modify the virtual space and the price of the vehicle, but other informatio
                 "ALFR_TexSnd\gendarmerie\Tail_co.paa",
                 "ALFR_TexSnd\gendarmerie\UpperParts_co.paa"
             } }
-        }; 
+        };
 	};
-    
+
     class I_Heli_Transport_02_F {
 		vItemSpace = 5;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
@@ -5435,7 +5435,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
             } }
         };
 	};
-    
+
     class B_Heli_Transport_03_unarmed_F {
 		vItemSpace = 90;
         licenses[] = { {"pilot"}, {"cAir"}, {"mAir"}, {""} };
@@ -5487,7 +5487,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
             } }
         };
     };
-    
+
     class B_SDV_01_F {
         vItemSpace = 50;
         licenses[] = { {"boat"}, {"cg"}, {""}, {""} };
