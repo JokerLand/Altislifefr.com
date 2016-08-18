@@ -18,7 +18,9 @@ if (player getVariable ["playerSurrender",false]) then {
 
 while {player getVariable ["playerSurrender",false]} do {
     player playMove "AmovPercMstpSnonWnonDnon_AmovPercMstpSsurWnonDnon";
+    life_action_surrender = true;
     if (!alive player || (vehicle player) != player) then { player setVariable ["playerSurrender",false,true]; };
 };
 
 player playMoveNow "AmovPercMstpSsurWnonDnon_AmovPercMstpSnonWnonDnon";
+life_action_surrender = false;

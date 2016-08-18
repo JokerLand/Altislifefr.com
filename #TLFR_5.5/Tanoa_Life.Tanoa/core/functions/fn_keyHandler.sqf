@@ -37,7 +37,9 @@ if (life_action_inUse) exitWith {
 //Hotfix for Interaction key not being able to be bound on some operation systems.
 if (!(count (actionKeys "User10") isEqualTo 0) && {(inputAction "User10" > 0)}) exitWith {
     //Interaction key (default is Left Windows, can be mapped via Controls -> Custom -> User Action 10)
-    if (!life_action_inUse) then {
+   if(life_action_gathering) exitWith {}; //Action is in use, exit to prevent spamming.
+   if(life_action_surrender) exitWith {}; //Action is in use, exit to prevent spamming.
+   if (!life_action_inUse) then {
         [] spawn {
             private "_handle";
             _handle = [] spawn life_fnc_actionKeyHandler;
@@ -60,7 +62,7 @@ if (life_container_active) then {
 
 switch (_code) do {
     //Space key for Jumping
-/*		
+/*
     case 57: {
         if (isNil "jumpActionTime") then {jumpActionTime = 0;};
         if (_shift && {!(animationState player isEqualTo "AovrPercMrunSrasWrflDf")} && {isTouchingGround player} && {stance player isEqualTo "STAND"} && {speed player > 2} && {!life_is_arrested} && {((velocity player) select 2) < 2.5} && {time - jumpActionTime > 1.5}) then {
@@ -92,7 +94,7 @@ switch (_code) do {
     };
 
     //Holster / recall weapon. (Shift + H)
-    case 35: 
+    case 35:
 	{
 		if(!_alt && !_ctrlKey && !_shift) then
         {
@@ -103,7 +105,7 @@ switch (_code) do {
             };
             _handled = true;
         };
-		
+
         if (_shift && !_ctrlKey && !(currentWeapon player isEqualTo "")) then {
             life_curWep_h = currentWeapon player;
             player action ["SwitchWeapon", player, player, 100];
@@ -119,6 +121,8 @@ switch (_code) do {
 
     //Interaction key (default is Left Windows, can be mapped via Controls -> Custom -> User Action 10)
     case _interactionKey: {
+        if(life_action_gathering) exitWith {}; //Action is in use, exit to prevent spamming.
+        if(life_action_surrender) exitWith {}; //Action is in use, exit to prevent spamming.
         if (!life_action_inUse) then {
             [] spawn  {
                 private "_handle";
@@ -149,6 +153,7 @@ switch (_code) do {
 
     //T Key (Trunk)
     case 20: {
+        if(life_action_gathering) exitWith {}; //Action is in use, exit to prevent spamming.
         if (!_alt && !_ctrlKey && !dialog && {!life_action_inUse}) then {
             if (vehicle player != player && alive vehicle player) then {
                 if ((vehicle player) in life_vehicles) then {
@@ -175,7 +180,7 @@ switch (_code) do {
             };
         };
     };
-	
+
     //Shift+C Serflex ( Pour que les rebelles/gangster puissent menotter )
 	/*
     case 46:
@@ -186,7 +191,7 @@ switch (_code) do {
 			if([false,"serflex",1] call life_fnc_handleInv) then
 			{
 			[] call life_fnc_restrainAction;
-			hint "Vous avez attaché votre cible avec un Serflex. Pour plus d'options, utilisez votre menu d'interaction (Par défaut : 'Windows gauche')";
+			hint "Vous avez attach? votre cible avec un Serflex. Pour plus d'options, utilisez votre menu d'interaction (Par d?faut : 'Windows gauche')";
 			}
 				else
 				{
@@ -208,7 +213,7 @@ switch (_code) do {
 	    };
     };
 
-    //Touche pour supprimer cones, barrières et herses lorsqu'un policier vise cet objet ( O )
+    //Touche pour supprimer cones, barri?res et herses lorsqu'un policier vise cet objet ( O )
 	case 41:
 	{
 		if (playerSide != west) then {} else
@@ -225,12 +230,12 @@ switch (_code) do {
                 deleteVehicle _panneau;
                 deleteVehicle _panneauattention;
 				deleteVehicle _spikeStrip;
-				cutText [format["Vous avez supprimé cet/ces objet(s)."], "PLAIN DOWN"];
+				cutText [format["Vous avez supprim? cet/ces objet(s)."], "PLAIN DOWN"];
 				playSound "bag";
 				sleep 1;
 			};
 		};
-	};	
+	};
 
     //L Key?
     case 38: {
@@ -253,10 +258,11 @@ switch (_code) do {
 
     //Y Player Menu
     case 21: {
+        if(life_action_gathering) exitWith {};
         if (!_alt && !_ctrlKey && !dialog && !(player getVariable ["restrained",false]) && {!life_action_inUse}) then {
             if (!_shift) then {
                 [] call life_fnc_p_openMenu;
-            };    
+            };
         };
     };
 
@@ -290,17 +296,17 @@ switch (_code) do {
     case 24: {
 	[] call life_fnc_copOpener
 	};
-	
+
 	//Bloquage d'ouverture d'inventaire lorsque le joueur est proche de panneaux
  	case 23:
  	{
  		if (((player distance "Land_InfoStand_V2_F") < 10) || ((player distance "Land_InfoStand_V1_F") < 10)) then
  		{
  			closeDialog 0;
- 			cutText [format["Vous ne pouvez pas ouvrir votre inventaire à moins de 10 mètres d'un panneau !"], "PLAIN DOWN"];
+ 			cutText [format["Vous ne pouvez pas ouvrir votre inventaire ? moins de 10 m?tres d'un panneau !"], "PLAIN DOWN"];
  		};
 	};
-	
+
 	//Takwondo(f5)
 	case 63:
 	{
@@ -345,12 +351,12 @@ switch (_code) do {
 		};
 	};
 
-    //Anti petit ²
+    //Anti petit ?
 	case 41	:
     {
 
 		if((_code in (actionKeys "SelectAll") || _code in (actionKeys "ForceCommandingMode"))) then {true;};
-	};	
+	};
 
     //U Key
     case 22: {
@@ -481,14 +487,14 @@ switch (_code) do {
                             _veh animateDoor ['DoorR_Back_Open ',0];
                         };
 						hint composeText [ image "icons\lock.paa", "  Vehicule ferme" ];
-						_veh say3D "BeepBeep";	
+						_veh say3D "BeepBeep";
                         //[_veh,"LockCarSound"] remoteExec ["life_fnc_say3D",RANY];
                     };
                 };
             };
         };
     };
-    
+
     if (life_barrier_active) then {
 		switch (_code) do {
 			//space key

@@ -2,69 +2,99 @@ class CfgGather {
     zoneSize = 30;
     class Resources {
         class cacao {
-            amount = 3;
+            amount = 150;
             zones[] = { "cacao_1", "cacao_2", "cacao_3", "cacao_4", "cacao_5" };
             item = "";
         };
-        
+
         class noixcoco {
-            amount = 5;
+            amount = 150;
             zones[] = { "noixcoco_1", "noixcoco_2", "noixcoco_3", "noixcoco_4", "noixcoco_5" };
             item = "";
         };
 
         class banane {
-            amount = 5;
+            amount = 150;
             zones[] = { "banane_1", "banane_2", "banane_3", "banane_4" };
             item = "";
         };
-        
+
         class corail {
-            amount = 3;
+            amount = 150;
             zones[] = { "corail_1" };
             item = "";
         };
-        
+
         class algueu {
-            amount = 6;
+            amount = 150;
             zones[] = { "algue_1" };
             item = "";
         };
-        
+
         class maisu {
-            amount = 6;
+            amount = 150;
             zones[] = { "mais_1" };
             item = "";
         };
-        
+
         class ephedrine {
-            amount = 4;
+            amount = 150;
             zones[] = { "ephedrine_1" };
             item = "";
-        };        
+        };
 
         class heroin_unprocessed {
-            amount = 3;
+            amount = 150;
             zones[] = { "heroin_1" };
             item = "";
         };
 
         class cocaine_unprocessed {
-            amount = 3;
+            amount = 150;
             zones[] = { "cocaine_1" };
             item = "";
         };
 
         class cannabis {
-            amount = 3;
+            amount = 150;
             zones[] = { "weed_1" };
             item = "";
         };
-        
+
         class sugarcaneunprocessed {
-            amount = 6;
+            amount = 150;
             zones[] = { "sugarcane_1" };
             item = "";
+        };
+
+        class sand {
+            amount = 150;
+            zones[] = { "sand_mine" };
+            item = "pickaxe";
+        };
+
+        class oil_unprocessed {
+            amount = 150;
+            zones[] = { "oil_field_1", "oil_field_2" };
+            item = "pickaxe";
+        };
+
+        class pierrevolcaniqueu {
+            amount = 150;
+            zones[] = { "pierrevolcanique_1", "pierrevolcanique_2" };
+            item = "pickaxe";
+        };
+
+        class souffreu {
+            amount = 150;
+            zones[] = { "souffre_1", "souffre_2" };
+            item = "pickaxe";
+        };
+
+        class boisu {
+            amount = 150;
+            zones[] = { "bois_1", "bois_2" };
+            item = "axe";
         };
 
     };
@@ -108,41 +138,6 @@ Example 2:
             zones[] = { "emeraudeusaphiru_1" };
             item = "pickaxe";
             mined[] = { {"emeraudeu",0,10},{"saphiru",10,100} };
-        };
-        
-        class sand {
-            amount = 2;
-            zones[] = { "sand_mine" };
-            item = "pickaxe";
-            mined[] = { "sand" };
-        };
-
-        class oil_unprocessed {
-            amount = 2;
-            zones[] = { "oil_field_1", "oil_field_2" };
-            item = "pickaxe";
-            mined[] = { "oil_unprocessed" };
-        };
-                
-        class pierrevolcaniqueu {
-            amount = 2;
-            zones[] = { "pierrevolcanique_1", "pierrevolcanique_2" };
-            item = "pickaxe";
-            mined[] = { "pierrevolcaniqueu" };
-        };
-        
-        class souffreu {
-            amount = 2;
-            zones[] = { "souffre_1", "souffre_2" };
-            item = "pickaxe";
-            mined[] = { "souffreu" };
-        };
-        
-        class boisu {
-            amount = 2;
-            zones[] = { "bois_1", "bois_2" };
-            item = "axe";
-            mined[] = { "boisu" };
         };
     };
 };

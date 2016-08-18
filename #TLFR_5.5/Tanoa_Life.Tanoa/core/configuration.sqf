@@ -25,6 +25,7 @@ life_redgull_effect = time;
 life_is_processing = false;
 life_bail_paid = false;
 life_impound_inuse = false;
+life_action_surrender = false;
 life_action_inUse = false;
 life_spikestrip = ObjNull;
 life_knockout = false;
