@@ -220,7 +220,17 @@ class Clothing {
             { "H_Hat_Turban_A", "Turban 5", 500, {"", "", -1} },
             { "H_Hat_Pagri_C", "Turban 6", 500, {"", "", -1} },
             { "H_Hat_Pagri_B", "Turban 7", 500, {"", "", -1} },
-            { "H_Hat_Turban_E", "Turban 8", 500, {"", "", -1} }
+            { "H_Hat_Turban_E", "Turban 8", 500, {"", "", -1} },
+            { "H_RacingHelmet_1_black_F", "", 200, { "", "", -1 } },
+			{ "H_RacingHelmet_1_red_F", "", 200, { "", "", -1 } },
+			{ "H_RacingHelmet_1_white_F", "", 200, { "", "", -1 } },
+			{ "H_RacingHelmet_1_blue_F", "", 200, { "", "", -1 } },
+			{ "H_RacingHelmet_1_yellow_F", "", 200, { "", "", -1 } },
+			{ "H_RacingHelmet_1_green_F", "", 200, { "", "", -1 } },
+			{ "H_RacingHelmet_1_F", "", 200, { "", "", -1 } },
+			{ "H_RacingHelmet_2_F", "", 200, { "", "", -1 } },
+			{ "H_RacingHelmet_3_F", "", 200, { "", "", -1 } },
+			{ "H_RacingHelmet_4_F", "", 200, { "", "", -1 } }
 		};
         goggles[] = {
 			{ "NONE", "Supprime lunette", 0, { "", "", -1 } },
