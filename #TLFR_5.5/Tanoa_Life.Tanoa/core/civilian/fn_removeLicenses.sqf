@@ -23,7 +23,6 @@ switch (_state) do {
     case 1: {
         missionNamespace setVariable [LICENSE_VARNAME("gun","civ"),false];
         missionNamespace setVariable [LICENSE_VARNAME("driver","civ"),false];
-        missionNamespace setVariable [LICENSE_VARNAME("rebel","civ"),false];
     };
 
     //Remove motor vehicle licenses
