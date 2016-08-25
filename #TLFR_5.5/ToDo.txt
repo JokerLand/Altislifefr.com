@@ -1,4 +1,4 @@
-   | Liste des choses à faire : Avec indications de celui qui s'occupe |
+﻿   | Liste des choses à faire : Avec indications de celui qui s'occupe |
 
 CHOSES FAITES :
 
@@ -80,5 +80,6 @@ meth | multiprocess |FAIT|
 
 //Contenu dans le prochain CHANGELOG - Ici mettez tout vos ajouts qui seront dans le prochain patch note, pour facilité sa rédaction, & pas oublier des choses
 
+-Debug chargeur M249 et Minimi Police (chargeur 200 balles)
 
 
