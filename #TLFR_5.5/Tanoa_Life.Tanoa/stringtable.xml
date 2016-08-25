@@ -8288,6 +8288,14 @@
             <Original>Concessionnaire de voitures de Luxe</Original>
             <French>Concessionnaire de voitures de Luxe</French>
         </Key>
+        <Key ID="STR_MAR_AltisFly_Aerien_Garage">
+            <Original>Garage Aérien TanoaCargo</Original>
+            <French>Garage Aérien TanoaCargo</French>
+        </Key>
+        <Key ID="STR_MAR_AltisFly_Garage">
+            <Original>Garage TanoaCargo</Original>
+            <French>Garage TanoaCargo</French>
+        </Key>
         <Key ID="STR_MAR_Hospital_Clinic">
             <Original>Hospital/Clinic</Original>
             <Czech>Nemocnice / Klinika</Czech>

@@ -80,6 +80,10 @@ meth | multiprocess |FAIT|
 
 //Contenu dans le prochain CHANGELOG - Ici mettez tout vos ajouts qui seront dans le prochain patch note, pour facilité sa rédaction, & pas oublier des choses
 
--Debug chargeur M249 et Minimi Police (chargeur 200 balles)
+- Debug Shop armée avec MK200 en double + case "NULL"
+- Ajout Minimi + M249 Pour Sous-Off. et Off.
+- Delete du shop SWAT Useless
+- Debug chargeur M249 et Minimi Police (chargeur 200 balles)
+- Debug Panneau Tanoa Cargo + spawn aerien garage au bonne endroit
 
 

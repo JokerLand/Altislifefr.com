@@ -331,7 +331,7 @@ class CarShops {
 			{ "GeK_Yukon", { "", "", -1 } },
 			{ "C_Van_01_fuel_F", { "", "", -1 } },
 			{ "sab_BI_An2", { "", "", -1 } },
-			{ "Sab_sea_An2", { "", "", -1 } },
+			//{ "Sab_sea_An2", { "", "", -1 } },
 			{ "IVORY_T6A_1", { "", "", -1 } },
 			{ "GR_UH1H_3", { "", "", -1 } },
 			{ "GR_UH1N_1", { "", "", -1 } },
@@ -432,6 +432,13 @@ class LifeCfgVehicles {
 				"\A3\Air_F_Exp\Plane_Civil_01\Data\btt_int_02_co.paa"
             } }
         };
+    };
+    
+   class IVORY_ERJ135_1 {
+        vItemSpace = 30;
+        licenses[] = { {"pilot"}, {""}, {""}, {""} };
+        price = 50000;
+        textures[] = {};
     };
 
     class B_T_VTOL_01_infantry_F {
