@@ -8,7 +8,7 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=2874;
+		nextID=2892;
 	};
 	class MarkerIDProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={5916.9102,128.21172,10467.448};
-		dir[]={-0.71414447,-0.61667055,-0.33143321};
-		up[]={-0.5593828,0.78720009,-0.25960785};
-		aside[]={-0.42099771,1.6670674e-007,0.90713155};
+		pos[]={5690.856,262.53378,10441.004};
+		dir[]={-0.26074478,-0.63731503,-0.72527963};
+		up[]={-0.2156325,0.77054513,-0.59979689};
+		aside[]={-0.94112843,1.1227676e-006,0.33834708};
 	};
 };
 binarizationWanted=0;
@@ -79,13 +79,14 @@ addons[]=
 	"A3_Structures_F_Exp_Commercial_FuelStation_02",
 	"A3_Structures_F_Exp_Commercial_FuelStation_01",
 	"A3_Structures_F_EPA_Mil_Scrapyard",
-	"A3_Supplies_F_Exp_Ammoboxes"
+	"A3_Supplies_F_Exp_Ammoboxes",
+	"rds_a2port_cman"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=22;
+		items=23;
 		class Item0
 		{
 			className="A3_Ui_F";
@@ -232,6 +233,11 @@ class AddonsMetaData
 			author="Bohemia Interactive";
 			url="http://www.arma3.com";
 		};
+		class Item22
+		{
+			className="rds_a2port_cman";
+			name="rds_a2port_cman";
+		};
 	};
 };
 randomSeed=2639488;
@@ -358,7 +364,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=844;
+		items=850;
 		class Item0
 		{
 			dataType="Marker";
@@ -16878,17 +16884,17 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={5955.4702,50.303406,10357.69};
-				angles[]={0,2.9355567,6.2826962};
+				position[]={5955.4448,50.303627,10357.708};
+				angles[]={0,2.9355567,6.2826972};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 				init="this enableSimulation false; this allowDamage false;";
 			};
 			id=2484;
 			type="OfficeTable_01_new_F";
-			atlOffset=3.4959984;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -17093,7 +17099,7 @@ class Mission
 			};
 			id=2498;
 			type="Land_PCSet_01_screen_F";
-			atlOffset=0.00037765503;
+			atlOffset=0.00016784668;
 		};
 		class Item708
 		{
@@ -17104,14 +17110,13 @@ class Mission
 				angles[]={0,2.3667014,6.2826962};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 				init="this enableSimulation false; this allowDamage false;";
 			};
 			id=2499;
 			type="Land_GamingSet_01_controller_F";
-			atlOffset=0.00015258789;
+			atlOffset=0.84474945;
 		};
 		class Item709
 		{
@@ -18043,7 +18048,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={5954.4722,48.476601,10383.208};
+				position[]={5955.1748,48.476601,10383.666};
 				angles[]={0,6.1027842,0};
 			};
 			side="Empty";
@@ -18228,7 +18233,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={5938,47.857925,10361.005};
+				position[]={5945.873,47.867924,10362.729};
 				angles[]={0,4.512444,6.2826962};
 			};
 			side="Empty";
@@ -18315,12 +18320,11 @@ class Mission
 		class Item778
 		{
 			dataType="Marker";
-			position[]={5948.8291,0.80297852,10385.467};
+			position[]={5901.771,38.611927,10390.395};
 			name="car_g_staff_1";
 			type="Empty";
-			angle=345.70816;
+			angle=181.12593;
 			id=2696;
-			atlOffset=-45.651447;
 		};
 		class Item779
 		{
@@ -19591,6 +19595,172 @@ class Mission
 			id=2873;
 			type="Land_Document_01_F";
 			atlOffset=0.00019073486;
+		};
+		class Item844
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5938.354,47.394138,10361.032};
+				angles[]={0,4.5052009,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				init="this enableSimulation false; this allowDamage false;";
+			};
+			id=2876;
+			type="Land_Wall_IndCnc_2deco_F";
+			atlOffset=0.10641098;
+		};
+		class Item845
+		{
+			dataType="Group";
+			side="Civilian";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={5952.0718,46.388439,10372.788};
+						angles[]={0,4.491343,0};
+					};
+					side="Civilian";
+					flags=7;
+					class Attributes
+					{
+						init="this enableSimulation false; this allowDamage false; removeAllWeapons this; removeVest this; removeBackpack this; removeHeadgear this; removeGoggles this;";
+					};
+					id=2884;
+					type="RDS_Functionary1";
+					atlOffset=0.00033950806;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.99000001;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=2883;
+			atlOffset=0.00033950806;
+		};
+		class Item846
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5950.9399,47.63007,10373.561};
+				angles[]={0,1.6586561,6.2826962};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="this enableSimulation false; this allowDamage false;";
+			};
+			id=2885;
+			type="Land_Laptop_unfolded_F";
+			atlOffset=0.00039672852;
+		};
+		class Item847
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5950.9702,47.478458,10373.154};
+				angles[]={0,1.0177888,6.2826962};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="this enableSimulation false; this allowDamage false;";
+			};
+			id=2886;
+			type="Land_MobilePhone_smart_F";
+			atlOffset=0.00040817261;
+		};
+		class Item848
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5952.9111,47.060673,10372.908};
+				angles[]={0,1.4822271,6.2826972};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="this enableSimulation false; this allowDamage false;";
+			};
+			id=2888;
+			type="Land_OfficeChair_01_F";
+		};
+		class Item849
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5954.1577,47.166142,10372.483};
+				angles[]={0,1.3579974,6.2826972};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="this enableSimulation false; this allowDamage false;";
+			};
+			id=2889;
+			type="Land_OfficeCabinet_01_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="[[[[],[]],[[],[]],[[],[]],[[],[]]],true]";
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 	};
 };
