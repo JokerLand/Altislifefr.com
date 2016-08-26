@@ -1149,7 +1149,6 @@ class WeaponShops {
         license = "staff";
         level[] = { "", "", -1, "" };
         items[] = {
-            { "NONE", "Supprimer Arme", 0, -1 },
             { "", "- ! - ! - NVG Cheated - ! - ! -", 1, -1 },
             { "NVGogglesB_gry_F", "Lunette Nocturne + Thermique", 10, -1 },
             { "NVGogglesB_blk_F", "Lunette Nocturne + Thermique", 10, -1 },
