@@ -255,4 +255,12 @@ class Licenses {
         illegal = false;
         side = "civ";
     };
+    
+    class staff {
+        variable = "staff";
+        displayName = "STR_License_staff";
+        price = -1;
+        illegal = false;
+        side = "civ";
+    };
 };

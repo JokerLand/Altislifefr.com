@@ -8156,6 +8156,30 @@
             <Original>Véhicule Aérien de l'Armée</Original>
             <French>Véhicule Aérien de l'Armée</French>
         </Key>
+        <Key ID="STR_MAR_Staff_Weapons">
+            <Original>Armes Du Staff</Original>
+            <French>Armes Du Staff</French>
+        </Key>
+        <Key ID="STR_MAR_Staff_Clothes">
+            <Original>Vêtements Civile Du Staff</Original>
+            <French>Vêtements Civile Du Staff</French>
+        </Key>
+        <Key ID="STR_MAR_Staff_Clothes_Reb">
+            <Original>Vêtements Rebelle Du Staff</Original>
+            <French>Vêtements Rebelle Du Staff</French>
+        </Key>
+        <Key ID="STR_MAR_Staff_Vehicle">
+            <Original>Véhicules Du Staff</Original>
+            <French>Véhicules Du Staff</French>
+        </Key>
+        <Key ID="STR_MAR_Staff_Vehicle_Garage">
+            <Original>Garage Du Staff</Original>
+            <French>Garage Du Staff</French>
+        </Key>
+        <Key ID="STR_MAR_Staff_Air_Garage">
+            <Original>Garage Aérien Du Staff</Original>
+            <French>Garage Aérien Du Staff</French>
+        </Key>
         <Key ID="STR_MAR_Police_Station">
             <Original>Poste de Police</Original>
             <Czech>Policejní stanice</Czech>

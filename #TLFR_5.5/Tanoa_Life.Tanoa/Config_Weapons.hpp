@@ -1141,4 +1141,123 @@ class WeaponShops {
         mags[] = {};
         accs[] = {};
     };
+    
+    //Staff
+    class staff_weapons {
+        name = "Armurerie du Staff";
+        side = "civ";
+        license = "staff";
+        level[] = { "", "", -1, "" };
+        items[] = {
+            { "NONE", "Supprimer Arme", 0, -1 },
+            { "", "- ! - ! - NVG Cheated - ! - ! -", 1, -1 },
+            { "NVGogglesB_gry_F", "Lunette Nocturne + Thermique", 10, -1 },
+            { "NVGogglesB_blk_F", "Lunette Nocturne + Thermique", 10, -1 },
+            { "NVGogglesB_grn_F", "Lunette Nocturne + Thermique", 10, -1 },
+            { "", "- ! - ! - Armes Légales - ! - ! -", 1, -1 },
+            { "hgun_Pistol_01_F", "", 10, -1 },
+            { "hgun_ACPC2_F", "", 10, -1 },
+            { "hgun_Pistol_heavy_01_F", "", 10, -1 },
+            { "SMG_05_F", "",10 10, -1 },
+            { "hgun_PDW2000_F", "", 10, -1 },
+            { "optic_ACO_grn_smg", "", 10 },
+            { "", "- ! - ! - Armes Illégales - ! - ! -", 1, -1 },
+            { "Rangefinder", "", 10, -1 },
+            { "arifle_AKS_F", "", 10, -1 },                      //AKS 74u
+            { "arifle_Mk20_F", "", 10, -1 },                    //Mk20
+            { "hlc_rifle_aek971_mtk", "", 10, -1 },             //AEK971
+            { "hlc_rifle_SAMR", "", 10, -1 },                   //RRA LAR 15
+            { "arifle_SPAR_02_blk_F", "", 10, -1 },             //SPAR 
+            { "arifle_ARX_hex_F", "", 10, -1 },                 //TYPE 115
+            { "arifle_CTARS_hex_F", "", 10, -1 },               //CAR 95
+            { "srifle_DMR_07_hex_F", "", 10, -1 },              //CMR 76
+            { "hlc_rifle_stgw57_commando", "", 10, -1 },        //SIG STGW Commando
+            { "hlc_rifle_stgw57_RIS", "", 10, -1 },             //SIG.STGW RIS
+            { "hlc_rifle_STG58F", "", 10, -1 },                 //SIG.58
+            { "arifle_AKM_F", "", 10, -1 },                     //AKM
+            { "hlc_rifle_M14_Rail", "", 10, -1 },               //M14 rail
+            { "hlc_rifle_m14sopmod", "", 10, -1 },              //M14 sopmod
+            { "srifle_DMR_01_F", "", 10, -1 },                  //Rahim
+            { "srifle_DMR_03_woodland_F", "", 10, -1 },         //MK-I
+            { "srifle_DMR_03_multicam_F", "", 10, -1 },
+            { "srifle_DMR_03_khaki_F", "", 10, -1 },
+            { "srifle_DMR_03_tan_F", "", 10, -1 },
+            { "arifle_SPAR_03_khk_F", "", 10, -1 },
+            { "arifle_AK12_F", "", 10, -1 },                    //AK12
+            { "hlc_rifle_awMagnum_FDE_ghillie", "", 10, -1 },   //AWM
+            { "R3F_FRF2_DES", "", 10, -1 },                     //FRF2
+            { "LMG_Zafir_F", "", 10, -1 },                      //Zafir
+            { "R3F_PGM_Hecate_II_DES", "", 10, -1 },            //Hecate II
+            { "R3F_TAC50", "", 10, -1 },                        //McMillan
+            { "", "- ! - ! - EXTRA - ! - ! -", 1, -1 },
+            { "R3F_Minimi_762_HG", "", 10, -1 },                //Minimi Para   7.62
+            { "hlc_m249_SQuantoon", "", 10, -1 },               //M249   
+            { "launch_RPG7_F", "", 10, -1 },
+            { "R3F_AT4CS", "", 10, -1 },                        //AT-4
+            { "", "- ! - ! - Viseurs (Illégaux) - ! - ! -", 1, -1 },
+            { "bipod_03_F_blk", "", 10 },
+            { "R3F_LAMPE_SURB", "", 10 },
+            { "acc_flashlight", "", 10 }, 
+            { "optic_Holosight", "", 10 },
+            { "R3F_AIMPOINT", "", 10 },
+            { "FHQ_optic_AIM", "", 10 },
+            { "FHQ_optic_MARS", "", 10 },            
+            { "C1987_zeiss_AIM", "", 10 },
+            { "optic_Hamr", "", 10 },
+            { "optic_MRCO", "", 10 },
+            { "optic_Arco", "", 10 },
+            { "FHQ_optic_AC11704", "", 10 },
+            { "FHQ_acc_LLM01L", "", 10 },
+            { "FHQ_acc_ANPEQ15_black", "", 10 },
+            { "FHQ_optic_ACOG", "", 10 },
+            { "R3F_EOTECH", "", 10 },            
+            { "optic_SOS", "", 10 },
+            { "optic_DMS", "", 10 },                     
+            { "optic_KHS_blk", "", 10 },                                 
+            { "optic_AMS", "", 10 },         
+            { "optic_LRPS", "", 10 }
+            
+        };
+        mags[] = {
+            { "CUP_7Rnd_45ACP_1911", "Chargeur M1911", 10 },
+            { "10Rnd_9x21_Mag", "Chargeur PM 9mm", 10 },
+            { "9Rnd_45ACP_Mag", "Chargeur ACP-C2", 10 },
+            { "11Rnd_45ACP_Mag", "Chargeur 4-Five", 10 },
+            { "30Rnd_9x21_Mag_SMG_02", "Chargeur Protector 9mm", 10 },
+            { "30Rnd_9x21_Mag", "Chargeur PDW2000 9mm", 10 },
+            { "9Rnd_45ACP_Mag", "", 10 },
+            { "11Rnd_45ACP_Mag", "Chargeur 4-Five", 10 },
+            { "CUP_6Rnd_45ACP_M", "", 10 },
+            { "CUP_30Rnd_9x19_UZI", "", 10 },
+            { "30Rnd_545x39_Mag_F", "Chargeur AKS-74U", 10 },
+            { "30Rnd_556x45_Stanag", "Chargeur MK20", 10 },
+            { "hlc_30Rnd_545x39_B_AK", "Chargeur AEK971", 10 },
+            { "hlc_30rnd_556x45_EPR", "Chargeur RRA LAR-15", 10 },
+            { "150Rnd_556x45_Drum_Mag_Tracer_F", "Chargeur SPAR-16S", 10 },
+            { "30Rnd_65x39_caseless_green", "Chargeur Type 115", 10 },
+            { "10Rnd_50BW_Mag_F", "Chargeur Type 115 - Cal. 50", 10 },
+            { "100Rnd_580x42_Mag_Tracer_F", "Chargeur CAR-95", 10 },
+            { "20Rnd_650x39_Cased_Mag_F", "Chargeur CMR 76", 10 },
+            { "hlc_24Rnd_75x55_B_stgw", "Chargeur SIG STGW.57 Commando ", 10 },
+            { "hlc_24Rnd_75x55_B_stgw", "Chargeur SIG STGW.57+RIS", 10 },
+            { "hlc_20Rnd_762x51_B_fal", "Chargeur STG.58", 10 },
+            { "30Rnd_762x39_Mag_F", "Chargeur AKM", 10 },
+            { "hlc_20Rnd_762x51_B_M14", "Chargeur Springfield M14", 10 },
+            { "hlc_20Rnd_762x51_B_M14", "Chargeur Troy M14", 10 },
+            { "10Rnd_762x54_Mag", "Chargeur Rahim", 10 },
+            { "20Rnd_762x51_Mag", "Chargeur MK-I", 10 },
+            { "20Rnd_762x51_Mag", "Chargeur SPAR-17", 10 },
+            { "30Rnd_762x39_Mag_F", "Chargeur AK12", 10 },
+            { "hlc_5rnd_300WM_FMJ_AWM", "Chargeur AWM", 10 },
+            { "R3F_10Rnd_762x51_FRF2", "Chargeur FRF2", 10 },
+            { "150Rnd_762x54_Box_Tracer", "Chargeur Zafir", 10 },
+            { "R3F_7Rnd_127x99_PGM", "Chargeur PGM Hecate II", 10 },
+            { "R3F_5Rnd_127x99_TAC50", "Chargeur Mc Millan TAC50", 10 },
+            { "R3F_100Rnd_762x51_MINIMI", "Chargeur Minimi Para 7.62", 10 },
+            { "hlc_200rnd_556x45_B_SAW", "Chargeur M249", 10, -1 },
+            { "RPG7_F", "Missile RPG-7", 10, -1 },
+            { "R3F_AT4CS_Mag", "Missile At-4", 10, -1 }
+        };
+        accs[] = {};
+    };
 };

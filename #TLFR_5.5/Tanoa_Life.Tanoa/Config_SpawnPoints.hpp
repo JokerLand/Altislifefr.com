@@ -106,6 +106,13 @@ class CfgSpawnPoints {
             licenses[] = { { "entreprise_maritime", true } };
             level[] = { "", "", -1 };
         };
+        class staff {
+            displayName = "Maison Du Staff";
+            spawnMarker = "staff_spawn";
+            icon = "\plp_markers\icons\plp_mark_as_building.pac";
+            licenses[] = { { "staff", true } };
+            level[] = { "", "", -1 };
+        };
     };
 
     class Cop {
