@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={5739.9517,134.33853,10338.15};
-		dir[]={0.23332268,-0.63419145,0.73718584};
-		up[]={0.19137153,0.77316529,0.60464293};
-		aside[]={0.95343435,2.6161433e-007,-0.30176628};
+		pos[]={5838.5635,75.179298,9655.667};
+		dir[]={0,-0.70710683,0.70710683};
+		up[]={0,0.70710677,0.70710677};
+		aside[]={0.99999994,0,-0};
 	};
 };
 binarizationWanted=0;
@@ -321,24 +321,6 @@ class CustomAttributes
 		name="Multiplayer";
 		class Attribute0
 		{
-			property="RespawnTemplates";
-			expression="true";
-			class Value
-			{
-				class data
-				{
-					class type
-					{
-						type[]=
-						{
-							"ARRAY"
-						};
-					};
-				};
-			};
-		};
-		class Attribute1
-		{
 			property="RespawnButton";
 			expression="true";
 			class Value
@@ -353,6 +335,24 @@ class CustomAttributes
 						};
 					};
 					value=1;
+				};
+			};
+		};
+		class Attribute1
+		{
+			property="RespawnTemplates";
+			expression="true";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"ARRAY"
+						};
+					};
 				};
 			};
 		};
@@ -1308,7 +1308,7 @@ class Mission
 			type="o_armor";
 			colorName="Color1_FD_F";
 			id=172;
-			atlOffset=66.689911;
+			atlOffset=70.7034;
 		};
 		class Item86
 		{
@@ -2483,6 +2483,7 @@ class Mission
 			};
 			id=560;
 			type="Land_Atm_02_F";
+			atlOffset=0.10159349;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -9515,7 +9516,7 @@ class Mission
 			};
 			id=1243;
 			type="Land_InfoStand_V2_F";
-			atlOffset=56.957012;
+			atlOffset=56.956539;
 		};
 		class Item266
 		{
@@ -9543,7 +9544,6 @@ class Mission
 				angles[]={0,1.6464937,0};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 				init="this enableSimulation false; this allowDamage false; this addAction[localize""STR_MAR_Station_Shop"",life_fnc_weaponShopMenu,""f_station_store""];this addAction[localize""STR_Shop_Station_Coffee"",life_fnc_virt_menu,""f_station_coffee""];";
@@ -9551,6 +9551,7 @@ class Mission
 			};
 			id=1257;
 			type="Land_CashDesk_F";
+			atlOffset=0.45763612;
 		};
 		class Item268
 		{
@@ -9601,7 +9602,7 @@ class Mission
 			};
 			id=1260;
 			type="Land_InfoStand_V2_F";
-			atlOffset=57.844769;
+			atlOffset=57.837254;
 		};
 		class Item271
 		{
@@ -9618,7 +9619,7 @@ class Mission
 			};
 			id=1261;
 			type="Land_InfoStand_V2_F";
-			atlOffset=56.754482;
+			atlOffset=56.746967;
 		};
 		class Item272
 		{
@@ -9635,7 +9636,7 @@ class Mission
 			};
 			id=1262;
 			type="Land_InfoStand_V2_F";
-			atlOffset=56.754482;
+			atlOffset=56.746967;
 		};
 		class Item273
 		{
@@ -10925,13 +10926,13 @@ class Mission
 				angles[]={6.2802153,0.61963892,0.0019531252};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 				init="this enableSimulation false; this allowDamage false; this addAction[localize""STR_Shops_W_Gun"",life_fnc_weaponShopMenu,""gun"",0,false,false,"""",' license_civ_gun && playerSide isEqualTo civilian']; this addAction[localize ""STR_Shops_C_Gun"",life_fnc_clothingMenu,""gun_clothing"",0,false,false,"""",' license_civ_gun && playerSide isEqualTo civilian']; this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""gun"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""gun"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""gun"",0,false,false,"""",' !license_civ_gun && playerSide isEqualTo civilian '];";
 			};
 			id=1557;
 			type="Land_CashDesk_F";
+			atlOffset=0.43502426;
 		};
 		class Item350
 		{
@@ -13568,7 +13569,7 @@ class Mission
 			};
 			id=2035;
 			type="Land_CashDesk_F";
-			atlOffset=0.19099998;
+			atlOffset=2.7656555e-005;
 		};
 		class Item500
 		{
@@ -13674,13 +13675,13 @@ class Mission
 				angles[]={0,3.1179285,0};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 				init="this allowDamage false; this enableSimulation false; this addAction[localize""STR_MAR_Emeraude_Trader"",life_fnc_virt_menu,""emeraudev""];";
 			};
 			id=2045;
 			type="Land_CashDesk_F";
-			atlOffset=1.0941505;
 		};
 		class Item508
 		{
@@ -13785,6 +13786,7 @@ class Mission
 			};
 			id=2055;
 			type="Land_CashDesk_F";
+			atlOffset=0.00023722649;
 		};
 		class Item516
 		{
@@ -21588,8 +21590,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={5360.8691,4.1402578,11193.35};
-				angles[]={0,5.6694927,0};
+				position[]={13883.961,4.4578791,11834.278};
+				angles[]={0,5.1051211,0};
 			};
 			side="Empty";
 			flags=4;
@@ -21603,10 +21605,11 @@ class Mission
 		class Item969
 		{
 			dataType="Marker";
-			position[]={5360.8896,3.5599999,11193.425};
+			position[]={13883.972,2.55,11835.205};
 			name="marker_246";
 			text="Raffinerie de Pétrole";
 			type="mil_box";
+			angle=85.533386;
 			id=3119;
 		};
 		class Item970
@@ -21630,11 +21633,12 @@ class Mission
 		class Item971
 		{
 			dataType="Marker";
-			position[]={10955.342,110.4494,9867.6611};
+			position[]={10955.342,1.118883e+027,9867.6611};
 			name="marker_247";
-			text="Acheteur de Pétrole";
+			text="Acheteur d'Essence";
 			type="mil_box";
 			id=3122;
+			atlOffset=1.118883e+027;
 		};
 		class Item972
 		{
