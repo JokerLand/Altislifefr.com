@@ -5,10 +5,10 @@ class EditorData
 	angleGridStep=0.2617994;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=513;
+	toggles=1537;
 	class ItemIDProvider
 	{
-		nextID=3026;
+		nextID=3054;
 	};
 	class MarkerIDProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={5899.6719,101.01338,10821.273};
-		dir[]={-0.53481823,-0.62536633,-0.56833607};
-		up[]={-0.42863113,0.7802524,-0.4554933};
-		aside[]={-0.72829896,-1.8277206e-008,0.68535024};
+		pos[]={5934.2949,220.92111,10791.427};
+		dir[]={-0.50167972,-0.71453798,-0.48784989};
+		up[]={-0.51236939,0.69940317,-0.49824372};
+		aside[]={-0.69722229,1.0377844e-006,0.71698809};
 	};
 };
 binarizationWanted=0;
@@ -87,13 +87,14 @@ addons[]=
 	"A3_Structures_F_Exp_Walls_Concrete",
 	"plp_urban_barriers",
 	"A3_Structures_F_Bootcamp_VR_Helpers",
-	"A3_Structures_F_Training"
+	"A3_Structures_F_Training",
+	"Test_car_F"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=27;
+		items=28;
 		class Item0
 		{
 			className="A3_Ui_F";
@@ -269,6 +270,11 @@ class AddonsMetaData
 			author="Bohemia Interactive";
 			url="http://www.arma3.com";
 		};
+		class Item27
+		{
+			className="Test_car_F";
+			name="Test_car_F";
+		};
 	};
 };
 randomSeed=2639488;
@@ -395,7 +401,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=923;
+		items=939;
 		class Item0
 		{
 			dataType="Marker";
@@ -10142,6 +10148,7 @@ class Mission
 				angles[]={0,0.88736027,6.2826962};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 				init=" " \n "this enableSimulation false; this allowDamage false; this addAction[localize""STR_MAR_Station_Shop"",life_fnc_weaponShopMenu,""f_station_store""];this addAction[localize""STR_Shop_Station_Coffee"",life_fnc_virt_menu,""f_station_coffee""]; ";
@@ -10149,7 +10156,7 @@ class Mission
 			};
 			id=1482;
 			type="Land_CashDesk_F";
-			atlOffset=0.41699982;
+			atlOffset=0.00032043457;
 		};
 		class Item304
 		{
@@ -20787,6 +20794,263 @@ class Mission
 			};
 			id=3023;
 			type="Land_PCSet_01_case_F";
+		};
+		class Item923
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5833.5684,5.9662075,10727.205};
+				angles[]={0,6.2395239,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=3026;
+			type="C_Test_Car_01_F";
+		};
+		class Item924
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5836.7378,5.9662075,10727.315};
+				angles[]={0,6.2395239,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=3027;
+			type="C_Test_Car_01_F";
+		};
+		class Item925
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5833.7949,5.9662075,10721.608};
+				angles[]={0,6.2395239,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=3028;
+			type="C_Test_Car_01_F";
+		};
+		class Item926
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5836.9722,5.9662075,10721.713};
+				angles[]={0,6.2395239,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=3029;
+			type="C_Test_Car_01_F";
+		};
+		class Item927
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5826.0215,5.9662075,10726.934};
+				angles[]={0,6.2395239,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=3030;
+			type="C_Test_Car_01_F";
+		};
+		class Item928
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5822.564,5.9662075,10726.785};
+				angles[]={0,6.2395239,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=3031;
+			type="C_Test_Car_01_F";
+		};
+		class Item929
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5826.293,5.9722009,10721.248};
+				angles[]={0,6.2395239,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=3032;
+			type="C_Test_Car_01_F";
+		};
+		class Item930
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5822.8354,5.9722009,10721.1};
+				angles[]={0,6.2395239,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=3033;
+			type="C_Test_Car_01_F";
+			atlOffset=0.0059933662;
+		};
+		class Item931
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5832.3999,5.9662075,10755.114};
+				angles[]={0,3.0905719,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=3034;
+			type="C_Test_Car_01_F";
+		};
+		class Item932
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5835.8564,5.9662075,10755.288};
+				angles[]={0,3.0905719,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=3035;
+			type="C_Test_Car_01_F";
+		};
+		class Item933
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5832.1455,5.9662075,10760.695};
+				angles[]={0,3.1108332,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=3036;
+			type="C_Test_Car_01_F";
+		};
+		class Item934
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5835.6045,5.9662075,10760.799};
+				angles[]={0,3.1108332,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=3037;
+			type="C_Test_Car_01_F";
+		};
+		class Item935
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5821.0244,5.9739766,10754.617};
+				angles[]={0,3.1108332,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=3038;
+			type="C_Test_Car_01_F";
+		};
+		class Item936
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5824.4834,5.9727826,10754.721};
+				angles[]={0,3.1108332,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=3039;
+			type="C_Test_Car_01_F";
+		};
+		class Item937
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5820.8418,5.9740396,10760.158};
+				angles[]={0,3.1108332,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=3040;
+			type="C_Test_Car_01_F";
+		};
+		class Item938
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5824.2788,5.9728532,10760.356};
+				angles[]={0,3.1108332,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=3041;
+			type="C_Test_Car_01_F";
 		};
 	};
 };
