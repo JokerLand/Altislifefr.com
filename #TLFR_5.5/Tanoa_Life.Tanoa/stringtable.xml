@@ -184,14 +184,8 @@
         </Key>	
         //FIN_FARM ALFR
         <Key ID="STR_Shops_Oil">
-            <Original>Oil Trader</Original>
-            <Czech>olej Trader</Czech>
-            <Spanish>Comerciante de Petroleo</Spanish>
-            <German>Ölhändler</German>
-            <Italian>Vendita Petrolio</Italian>
-            <French>Acheteur de Pétrole</French>
-            <Portuguese>Comprador de Petróleo</Portuguese>
-            <Polish>Skup Ropy</Polish>
+            <Original>Acheteur d'Essence</Original>
+            <French>Acheteur d'Essence</French>
         </Key>
         <Key ID="STR_Shops_FishMarket">
             <Original>Local Fish Market</Original>
@@ -5381,24 +5375,8 @@
             <Polish>Benzyna</Polish>
         </Key>
         <Key ID="STR_Item_OilU">
-            <Original>Crude Oil</Original>
-            <Czech>Ropa</Czech>
-            <Spanish>Petróleo Crudo</Spanish>
-            <German>Unverarbeitetes Öl</German>
-            <French>Pétrole non raffiné</French>
-            <Italian>Olio non processato</Italian>
-            <Portuguese>Petróleo não Refinado</Portuguese>
-            <Polish>Ropa naftowa</Polish>
-        </Key>
-        <Key ID="STR_Item_OilP">
-            <Original>Processed Oil</Original>
-            <Czech>Zpracovaný olej</Czech>
-            <Spanish>Petróleo Procesado</Spanish>
-            <German>Verarbeitetes Öl</German>
-            <French>Pétrole raffiné</French>
-            <Italian>Olio processato</Italian>
-            <Portuguese>Petróleo Refinado</Portuguese>
-            <Polish>Olej napędowy</Polish>
+            <Original>Pétrole</Original>
+            <French>Pétrole</French>
         </Key>
         <Key ID="STR_Item_RabbitRaw">
             <Original>Raw Rabbit</Original>
@@ -6059,6 +6037,10 @@
             <Original>License du Taillage de Saphir</Original>
             <French>License du Taillage de Saphir</French>
         </Key>
+        <Key ID="STR_License_Petrole">
+            <Original>License de Raffinage de Pétrole</Original>
+            <French>License de Raffinage de Pétrole</French>
+        </Key>
         <Key ID="STR_License_Depan">
             <Original>Dépanneur Agréé</Original>
             <French>Dépanneur Agréé</French>
@@ -6608,14 +6590,8 @@
             <French>Extraction du sucre</French>
         </Key>
         <Key ID="STR_Process_Oil">
-            <Original>Processing Oil</Original>
-            <Czech>zpracování ropy</Czech>
-            <Spanish>Procesando Petróleo</Spanish>
-            <German>Öl wird verarbeite</German>
-            <French>Raffinage de Pétrole</French>
-            <Italian>Raffinando il Petrolio</Italian>
-            <Portuguese>Processando Petróleo</Portuguese>
-            <Polish>Rafinacja ropy</Polish>
+            <Original>Raffinage du Pétrole</Original>
+            <French>Raffinage du Pétrole</French>
         </Key>
         <Key ID="STR_Process_Mais">
             <Original>Castrage du Maïs</Original>
@@ -8460,15 +8436,9 @@
             <Polish>Diler narkotyków</Polish>
             <Italian>Spacciatore</Italian>
         </Key>
-        <Key ID="STR_MAR_Oil_Field">
-            <Original>Plateforme Pétrolière</Original>
-            <Czech>Ropné poles</Czech>
-            <French>Plateforme Pétrolière</French>
-            <Spanish>Campo de Petróleo</Spanish>
-            <German>Öl Felder</German>
-            <Portuguese>Campo de Petróleo</Portuguese>
-            <Polish>Szyb naftowy</Polish>
-            <Italian>Giacimento di Petrolio</Italian>
+        <Key ID="STR_MAR_Oil_Field_Gather">
+            <Original>Récolter des Bidons de Pétrole</Original>
+            <French>Récolter des Bidons de Pétrole</French>
         </Key>
         <Key ID="STR_MAR_Boat_Spawn">
             <Original>Boat Spawn</Original>
@@ -8491,14 +8461,8 @@
             <Italian>Processo Rame</Italian>
         </Key>
         <Key ID="STR_MAR_Oil_Trader">
-            <Original>Oil Trader</Original>
-            <Czech>olej Trader</Czech>
-            <French>Vendeur de pétrole</French>
-            <Spanish>Comerciante de Petróleo</Spanish>
-            <German>Öl Händler</German>
-            <Portuguese>Comprador de Petróleo</Portuguese>
-            <Polish>Skup benzyny</Polish>
-            <Italian>Vendita Olio</Italian>
+            <Original>Vendeur de Pétrole</Original>
+            <French>Vendeur de Pétrole</French>
         </Key>
         <Key ID="STR_MAR_Sugarcane_Trader">
             <Original>Acheteur de Sucre</Original>

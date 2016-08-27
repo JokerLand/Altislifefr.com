@@ -17,12 +17,12 @@
 */
 
 class ProcessAction {
-    class oil {
-        MaterialsReq[] = {{"oil_unprocessed",1}};
-        MaterialsGive[] = {{"oil_processed",1}};
+    class petrole {
+        MaterialsReq[] = {{"petroleu",1}};
+        MaterialsGive[] = {{"fuelFull",1}};
         Text = "STR_Process_Oil";
         //ScrollText = "Process Oil";
-        NoLicenseCost = 1200;
+        NoLicenseCost = 1500;
     };
 
     class mais {

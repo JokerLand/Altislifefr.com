@@ -112,12 +112,12 @@ class VirtualShops {
         items[] = { "phosphore_rouge", "iode" };
     };
 
-    class oil {
+    class petrolev {
         name = "STR_Shops_Oil";
         side = "civ";
         license = "";
         level[] = { "", "", -1, "" };
-        items[] = { "oil_processed", "pickaxe", "fuelFull" };
+        items[] = { "fuelFull" };
     };
         
 
@@ -324,9 +324,9 @@ class VirtualItems {
     class fuelFull {
         variable = "fuelFull";
         displayName = "STR_Item_FuelF";
-        weight = 5;
-        buyPrice = 100;
-        sellPrice = 50;
+        weight = 4;
+        buyPrice = 5000;
+        sellPrice = 3000;
         illegal = false;
         edible = -1;
         icon = "icons\ico_fuel.paa";
@@ -425,8 +425,8 @@ class VirtualItems {
     //Mined Items
     
 	    
-    class oil_unprocessed {
-        variable = "oilUnprocessed";
+    class petroleu {
+        variable = "petroleu";
         displayName = "STR_Item_OilU";
         weight = 6;
         buyPrice = -1;
@@ -434,17 +434,6 @@ class VirtualItems {
         illegal = false;
         edible = -1;
         icon = "icons\ico_oilUnprocessed.paa";
-    };
-
-    class oil_processed {
-        variable = "oilProcessed";
-        displayName = "STR_Item_OilP";
-        weight = 4;
-        buyPrice = -1;
-        sellPrice = 2900;
-        illegal = false;
-        edible = -1;
-        icon = "icons\ico_oilProcessed.paa";
     };
 
     class sand {

@@ -144,6 +144,14 @@ class Licenses {
         illegal = false;
         side = "civ";
     };
+    
+    class petrole {
+        variable = "petrole";
+        displayName = "STR_License_Petrole";
+        price = 20000;
+        illegal = false;
+        side = "civ";
+    };
 
     class sugarcane {
         variable = "sugarcane";

@@ -36,6 +36,7 @@ class Life_Client_Core {
         class gather {};
 		class gatherAlgue {};
 		class gatherArcheo {};
+        class gatherPetrole {};
         class getDPMission {};
         class gutAnimal {};
         class healHospital {};

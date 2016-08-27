@@ -73,12 +73,6 @@ class CfgGather {
             item = "pickaxe";
         };
 
-        class oil_unprocessed {
-            amount = 150;
-            zones[] = { "oil_field_1", "oil_field_2" };
-            item = "pickaxe";
-        };
-
         class pierrevolcaniqueu {
             amount = 150;
             zones[] = { "pierrevolcanique_1", "pierrevolcanique_2" };
