@@ -8,7 +8,7 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=3138;
+		nextID=3146;
 	};
 	class MarkerIDProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={5838.5635,75.179298,9655.667};
-		dir[]={0,-0.70710683,0.70710683};
-		up[]={0,0.70710677,0.70710677};
-		aside[]={0.99999994,0,-0};
+		pos[]={5751.1016,195.01825,10817.617};
+		dir[]={0.32889035,-0.8522833,-0.40694082};
+		up[]={0.53577948,0.52293712,-0.66293061};
+		aside[]={-0.77780783,-1.3697427e-006,-0.62863106};
 	};
 };
 binarizationWanted=0;
@@ -321,6 +321,24 @@ class CustomAttributes
 		name="Multiplayer";
 		class Attribute0
 		{
+			property="RespawnTemplates";
+			expression="true";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"ARRAY"
+						};
+					};
+				};
+			};
+		};
+		class Attribute1
+		{
 			property="RespawnButton";
 			expression="true";
 			class Value
@@ -335,24 +353,6 @@ class CustomAttributes
 						};
 					};
 					value=1;
-				};
-			};
-		};
-		class Attribute1
-		{
-			property="RespawnTemplates";
-			expression="true";
-			class Value
-			{
-				class data
-				{
-					class type
-					{
-						type[]=
-						{
-							"ARRAY"
-						};
-					};
 				};
 			};
 		};
@@ -395,6 +395,7 @@ class Mission
 		startWaves=0.12;
 		startGust=0.099999994;
 		forecastWeather=0;
+		forecastFog=0.55526078;
 		forecastWind=0.29999998;
 		forecastWaves=0.12;
 		forecastGust=0.099999994;
@@ -406,14 +407,14 @@ class Mission
 		year=2035;
 		month=7;
 		day=6;
-		hour=12;
+		hour=0;
 		minute=0;
 		startFogDecay=0.0049333;
 		forecastFogDecay=0.0049333;
 	};
 	class Entities
 	{
-		items=976;
+		items=982;
 		class Item0
 		{
 			dataType="Marker";
@@ -1330,7 +1331,7 @@ class Mission
 			type="o_armor";
 			colorName="Color1_FD_F";
 			id=174;
-			atlOffset=30.742357;
+			atlOffset=24.994411;
 		};
 		class Item88
 		{
@@ -1486,7 +1487,7 @@ class Mission
 			type="loc_ViewTower";
 			colorName="ColorYellow";
 			id=207;
-			atlOffset=43.141273;
+			atlOffset=39.542492;
 		};
 		class Item104
 		{
@@ -3271,6 +3272,7 @@ class Mission
 				angles[]={0,5.2770157,0};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 				skill=0.60000002;
@@ -3279,7 +3281,6 @@ class Mission
 			};
 			id=766;
 			type="Land_CashDesk_F";
-			atlOffset=0.52993774;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -9429,7 +9430,7 @@ class Mission
 			};
 			id=1196;
 			type="Land_InfoStand_V2_F";
-			atlOffset=0.21495724;
+			atlOffset=0.21499968;
 		};
 		class Item261
 		{
@@ -9533,7 +9534,7 @@ class Mission
 			};
 			id=1247;
 			type="Land_InfoStand_V2_F";
-			atlOffset=1.1610088;
+			atlOffset=0.90207481;
 		};
 		class Item267
 		{
@@ -10121,7 +10122,6 @@ class Mission
 			};
 			id=1477;
 			type="Land_CashDesk_F";
-			atlOffset=0.046600342;
 		};
 		class Item301
 		{
@@ -10150,6 +10150,7 @@ class Mission
 				angles[]={0,0.88736027,6.2826962};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 				init=" " \n "this enableSimulation false; this allowDamage false; this addAction[localize""STR_MAR_Station_Shop"",life_fnc_weaponShopMenu,""f_station_store""];this addAction[localize""STR_Shop_Station_Coffee"",life_fnc_virt_menu,""f_station_coffee""]; ";
@@ -10157,7 +10158,7 @@ class Mission
 			};
 			id=1482;
 			type="Land_CashDesk_F";
-			atlOffset=0.41699982;
+			atlOffset=0.00032043457;
 		};
 		class Item303
 		{
@@ -11018,13 +11019,13 @@ class Mission
 				angles[]={0,0.20287536,6.2826972};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 				init="this allowDamage false; this enableSimulation false; this addAction[localize""STR_MAR_Clothing_Store"",life_fnc_clothingMenu,""bruce""];";
 			};
 			id=1565;
 			type="Land_CashDesk_F";
-			atlOffset=0.64319897;
 		};
 		class Item354
 		{
@@ -13041,7 +13042,6 @@ class Mission
 			};
 			id=1994;
 			type="Land_InfoStand_V2_F";
-			atlOffset=0.009970665;
 		};
 		class Item467
 		{
@@ -13569,7 +13569,7 @@ class Mission
 			};
 			id=2035;
 			type="Land_CashDesk_F";
-			atlOffset=2.7656555e-005;
+			atlOffset=0.19099998;
 		};
 		class Item500
 		{
@@ -13675,13 +13675,13 @@ class Mission
 				angles[]={0,3.1179285,0};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 				init="this allowDamage false; this enableSimulation false; this addAction[localize""STR_MAR_Emeraude_Trader"",life_fnc_virt_menu,""emeraudev""];";
 			};
 			id=2045;
 			type="Land_CashDesk_F";
+			atlOffset=1.0941505;
 		};
 		class Item508
 		{
@@ -15068,7 +15068,6 @@ class Mission
 			};
 			id=2203;
 			type="Land_CashDesk_F";
-			atlOffset=0.19844246;
 		};
 		class Item597
 		{
@@ -21594,13 +21593,13 @@ class Mission
 				angles[]={0,5.1051211,0};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 				init="this enableSimulation false;  this allowDamage false;  this addAction[localize""STR_Process_Oil"",life_fnc_processAction,""petrole"",0,false,false,"""",' life_inv_petroleu > 0 && !life_is_processing && !life_action_inUse'];  this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""petrole"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""petrole"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""petrole"",0,false,false,"""",' !license_civ_petrole && playerSide isEqualTo civilian '];";
 			};
 			id=3117;
 			type="Land_InfoStand_V2_F";
+			atlOffset=1.3276212;
 		};
 		class Item969
 		{
@@ -21609,7 +21608,7 @@ class Mission
 			name="marker_246";
 			text="Raffinerie de Pétrole";
 			type="mil_box";
-			angle=85.533386;
+			angle=85.533379;
 			id=3119;
 		};
 		class Item970
@@ -21710,6 +21709,109 @@ class Mission
 			id=3136;
 			type="Land_QuayConcrete_01_pier_F";
 			atlOffset=1.9291813;
+		};
+		class Item976
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5862.9038,10.412179,10715.6};
+				angles[]={0,0.61336106,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				init="this allowDamage false;";
+			};
+			id=3138;
+			type="Land_LampHalogen_F";
+		};
+		class Item977
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5860.958,10.523179,10767.42};
+				angles[]={0,5.7925735,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				init="this allowDamage false;";
+			};
+			id=3139;
+			type="Land_LampHalogen_F";
+			atlOffset=0.00030136108;
+		};
+		class Item978
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5852.7598,10.412179,10780.384};
+				angles[]={0,5.2240844,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				init="this allowDamage false;";
+			};
+			id=3140;
+			type="Land_LampHalogen_F";
+		};
+		class Item979
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5791.2739,10.36587,10770.464};
+				angles[]={0,4.0498619,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				init="this allowDamage false;";
+			};
+			id=3141;
+			type="Land_LampHalogen_F";
+		};
+		class Item980
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5790.4209,10.412179,10745.74};
+				angles[]={0,3.0978897,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				init="this allowDamage false;";
+			};
+			id=3142;
+			type="Land_LampHalogen_F";
+		};
+		class Item981
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5797.0518,10.412179,10715.694};
+				angles[]={0,2.2250504,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				init="this allowDamage false;";
+			};
+			id=3143;
+			type="Land_LampHalogen_F";
 		};
 	};
 };
