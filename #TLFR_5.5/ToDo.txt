@@ -85,6 +85,9 @@ meth | multiprocess |FAIT|
 - Delete du shop SWAT Useless
 - Debug chargeur M249 et Minimi Police (chargeur 200 balles)
 - Debug Panneau Tanoa Cargo + spawn aerien garage au bonne endroit
-- Deplacement totale de l'hopitale NOUVEAU MAPPING 
-
+- Deplacement totale de l'hopitale NOUVEAU MAPPING
+- Rajout mapping hopitale
+- Ajout Ressource Pétrole
+- Mapping Plateforme Pétrolière
+- Le traitement donne des jerricans fuel full pour le RP
 
