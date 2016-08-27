@@ -474,7 +474,7 @@ class VirtualItems {
         displayName = "STR_Item_SugarcaneProcessed";
         weight = 2;
         buyPrice = -1;
-        sellPrice = 1500;
+        sellPrice = 1000;
         illegal = false;
         edible = -1;
         icon = "icons\ico_sugar.paa";
@@ -666,7 +666,7 @@ class VirtualItems {
         displayName = "STR_Item_Corail";
         weight = 5;
         buyPrice = -1;
-        sellPrice = 3550;
+        sellPrice = 3000;
         illegal = true;
         edible = -1;
         icon = "icons\ico_corail.paa";
