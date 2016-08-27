@@ -8,6 +8,13 @@
 private ["_NiiRoZz_Station_Essence","_pumpClass","_pump"];
 _NiiRoZz_Station_Essence = [
 
+
+// Station Service Maritime
+[5339.138,10237.407,0],
+[5339.250,10226.353,0],
+[3109.891,10957.445,0],
+[3113.081,10946.861,0],
+
 // Georgetown Sud
 [5403.81,9913.74,0],
 [5409.68,9913.75,0],
