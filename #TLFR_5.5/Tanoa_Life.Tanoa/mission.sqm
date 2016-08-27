@@ -8,7 +8,7 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=3127;
+		nextID=3138;
 	};
 	class MarkerIDProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={1156.9346,51.352421,15077.992};
-		dir[]={-0.57582456,-0.73641235,-0.3552711};
-		up[]={-0.62672961,0.6765148,-0.38667849};
-		aside[]={-0.52510303,-2.6622729e-008,0.85108918};
+		pos[]={12995.055,94.81868,7345.1069};
+		dir[]={-0.71108824,-0.49202228,-0.50250381};
+		up[]={-0.4021233,0.870332,-0.28416601};
+		aside[]={-0.57717597,-2.5121699e-006,0.81675899};
 	};
 };
 binarizationWanted=0;
@@ -321,24 +321,6 @@ class CustomAttributes
 		name="Multiplayer";
 		class Attribute0
 		{
-			property="RespawnTemplates";
-			expression="true";
-			class Value
-			{
-				class data
-				{
-					class type
-					{
-						type[]=
-						{
-							"ARRAY"
-						};
-					};
-				};
-			};
-		};
-		class Attribute1
-		{
 			property="RespawnButton";
 			expression="true";
 			class Value
@@ -353,6 +335,24 @@ class CustomAttributes
 						};
 					};
 					value=1;
+				};
+			};
+		};
+		class Attribute1
+		{
+			property="RespawnTemplates";
+			expression="true";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"ARRAY"
+						};
+					};
 				};
 			};
 		};
@@ -413,7 +413,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=977;
+		items=980;
 		class Item0
 		{
 			dataType="Marker";
@@ -2494,7 +2494,6 @@ class Mission
 			};
 			id=560;
 			type="Land_Atm_02_F";
-			atlOffset=0.10159349;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -9555,6 +9554,7 @@ class Mission
 				angles[]={0,1.6464937,0};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 				init="this enableSimulation false; this allowDamage false; this addAction[localize""STR_MAR_Station_Shop"",life_fnc_weaponShopMenu,""f_station_store""];this addAction[localize""STR_Shop_Station_Coffee"",life_fnc_virt_menu,""f_station_coffee""];";
@@ -9562,7 +9562,6 @@ class Mission
 			};
 			id=1257;
 			type="Land_CashDesk_F";
-			atlOffset=0.45763612;
 		};
 		class Item269
 		{
@@ -10937,13 +10936,13 @@ class Mission
 				angles[]={6.2802153,0.61963892,0.0019531252};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 				init="this enableSimulation false; this allowDamage false; this addAction[localize""STR_Shops_W_Gun"",life_fnc_weaponShopMenu,""gun"",0,false,false,"""",' license_civ_gun && playerSide isEqualTo civilian']; this addAction[localize ""STR_Shops_C_Gun"",life_fnc_clothingMenu,""gun_clothing"",0,false,false,"""",' license_civ_gun && playerSide isEqualTo civilian']; this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""gun"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""gun"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""gun"",0,false,false,"""",' !license_civ_gun && playerSide isEqualTo civilian '];";
 			};
 			id=1557;
 			type="Land_CashDesk_F";
-			atlOffset=0.43502426;
 		};
 		class Item351
 		{
@@ -13715,13 +13714,13 @@ class Mission
 				angles[]={0,3.1179285,0};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 				init="this allowDamage false; this enableSimulation false; this addAction[localize""STR_MAR_Emeraude_Trader"",life_fnc_virt_menu,""emeraudev""];";
 			};
 			id=2045;
 			type="Land_CashDesk_F";
-			atlOffset=1.0941505;
 		};
 		class Item511
 		{
@@ -14833,12 +14832,12 @@ class Mission
 		class Item582
 		{
 			dataType="Marker";
-			position[]={5620.7056,0,10384.956};
+			position[]={5586.1172,-3.5422363,10406.347};
 			name="boat_2";
 			type="Empty";
-			angle=204.9225;
+			angle=292.81201;
 			id=2182;
-			atlOffset=2.8083351;
+			atlOffset=1.5275197;
 		};
 		class Item583
 		{
@@ -21676,6 +21675,7 @@ class Mission
 			};
 			id=3121;
 			type="Land_CashDesk_F";
+			atlOffset=7.6293945e-006;
 		};
 		class Item975
 		{
@@ -21702,6 +21702,60 @@ class Mission
 			id=3124;
 			type="CargoNet_01_barrels_F";
 			atlOffset=0.00038146973;
+		};
+		class Item977
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={12972.485,-10.263018,7349.4839};
+				angles[]={0,5.7271581,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				init="this enableSimulation false; this allowDamage false;";
+			};
+			id=3134;
+			type="Land_AirstripPlatform_01_F";
+			atlOffset=-2.2000003;
+		};
+		class Item978
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={12979.42,-3.4879622,7343.9004};
+				angles[]={0,5.7269487,0};
+			};
+			side="Empty";
+			flags=1;
+			class Attributes
+			{
+				init="this enableSimulation false; this allowDamage false;";
+			};
+			id=3135;
+			type="Land_QuayConcrete_01_pier_F";
+			atlOffset=2.0256371;
+		};
+		class Item979
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={12974.273,-3.4966424,7340.7271};
+				angles[]={0,5.7269487,0};
+			};
+			side="Empty";
+			flags=1;
+			class Attributes
+			{
+				init="this enableSimulation false; this allowDamage false;";
+			};
+			id=3136;
+			type="Land_QuayConcrete_01_pier_F";
+			atlOffset=1.9291813;
 		};
 	};
 };

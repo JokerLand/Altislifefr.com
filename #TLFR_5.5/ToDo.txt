@@ -90,4 +90,5 @@ meth | multiprocess |FAIT|
 - Ajout Ressource Pétrole
 - Mapping Plateforme Pétrolière
 - Le traitement donne des jerricans fuel full pour le RP
+- Mapping rampe de chargemment pour MK10 a ouméré
 
