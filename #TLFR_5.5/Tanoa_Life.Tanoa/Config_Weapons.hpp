@@ -820,6 +820,7 @@ class WeaponShops {
             { "hlc_10rnd_12g_buck_S12", "Chargeur Buck Saiga 12K", 10 },            
             { "20Rnd_762x51_Mag", "Chargeur MK18", 10 },
             { "hlc_5rnd_300WM_mk248_AWM", "Chargeur AWM", 10 },
+            { "hlc_100Rnd_762x51_T_M60E4", "Chargeur M60E4", 10 },
             { "R3F_10Rnd_762x51_FRF2", "Chargeur FRF2", 10 }
         };
         accs[] = {};
@@ -913,10 +914,12 @@ class WeaponShops {
             { "20Rnd_762x51_Mag", "Chargeur MK18", 10 },
             { "hlc_10Rnd_762x51_M_M10E4", "Chargeur M10E4", 10 },
             { "hlc_5rnd_300WM_mk248_AWM", "Chargeur AWM", 10 },
+            { "hlc_100Rnd_762x51_T_M60E4", "Chargeur M60E4", 10 },
+            { "hlc_100Rnd_762x51_T_M60E4", "Chargeur M60", 10 },
+            { "200Rnd_65x39_cased_Box_Tracer", "Chargeur MK200", 10 },
             { "R3F_10Rnd_762x51_FRF2", "Chargeur FRF2", 10 },
-            { "7Rnd_408_Mag", "Chargeur M320", 10 },           
-            { "10Rnd_65x39_cased_Box_Tracer", "Chargeur MK10", 10 },
-            { "acc_flashlight", "", 10 }
+            { "7Rnd_408_Mag", "Chargeur M320", 10 },
+            { "10Rnd_65x39_cased_Box_Tracer", "Chargeur MK10", 10 }
         };
         accs[] = {};
     };
@@ -1012,6 +1015,9 @@ class WeaponShops {
             { "20Rnd_762x51_Mag", "Chargeur MK18", 10 },
             { "hlc_10Rnd_762x51_M_M10E4", "Chargeur M10E4", 10 },
             { "hlc_5rnd_300WM_mk248_AWM", "Chargeur AWM", 10 },
+            { "hlc_100Rnd_762x51_T_M60E4", "Chargeur M60E4", 10 },
+            { "hlc_100Rnd_762x51_T_M60E4", "Chargeur M60", 10 },
+            { "200Rnd_65x39_cased_Box_Tracer", "Chargeur MK200", 10 },
             { "R3F_10Rnd_762x51_FRF2", "Chargeur FRF2", 10 },
             { "7Rnd_408_Mag", "Chargeur M320", 10 },           
             { "10Rnd_65x39_cased_Box_Tracer", "Chargeur MK10", 10 },
@@ -1114,6 +1120,9 @@ class WeaponShops {
             { "20Rnd_762x51_Mag", "Chargeur MK18", 10 },
             { "hlc_10Rnd_762x51_M_M10E4", "Chargeur M10E4", 10 },
             { "hlc_5rnd_300WM_mk248_AWM", "Chargeur AWM", 10 },
+            { "hlc_100Rnd_762x51_T_M60E4", "Chargeur M60E4", 10 },
+            { "hlc_100Rnd_762x51_T_M60E4", "Chargeur M60", 10 },
+            { "200Rnd_65x39_cased_Box_Tracer", "Chargeur MK200", 10 },
             { "R3F_10Rnd_762x51_FRF2", "Chargeur FRF2", 10 },
             { "7Rnd_408_Mag", "Chargeur M320", 10 },           
             { "10Rnd_65x39_cased_Box_Tracer", "Chargeur MK10", 10 },

@@ -452,7 +452,7 @@ class VirtualItems {
         displayName = "STR_Item_Glass";
         weight = 3;
         buyPrice = -1;
-        sellPrice = 2150;
+        sellPrice = 2300;
         illegal = false;
         edible = -1;
         icon = "icons\ico_glass.paa";
@@ -520,7 +520,7 @@ class VirtualItems {
         displayName = "STR_Item_Meth";
         weight = 2;
         buyPrice = -1;
-        sellPrice = 9150;
+        sellPrice = 11500;
         illegal = true;
         edible = -1;
         icon = "icons\ico_meth.paa";
@@ -679,7 +679,7 @@ class VirtualItems {
         buyPrice = -1;
         sellPrice = -1;
         illegal = true;
-        edible = 10;
+        edible = -1;
         icon = "icons\ico_algue.paa";
     };
     
@@ -688,9 +688,9 @@ class VirtualItems {
         displayName = "STR_Item_Alguep";
         weight = 2;
         buyPrice = -1;
-        sellPrice = 2300;
+        sellPrice = 2500;
         illegal = true;
-        edible = 10;
+        edible = -1;
         icon = "icons\ico_algue.paa";
     };
     
@@ -710,7 +710,7 @@ class VirtualItems {
         displayName = "STR_Item_Maisp";
         weight = 2;
         buyPrice = -1;
-        sellPrice = 1600;
+        sellPrice = 1350;
         illegal = false;
         edible = 15;
         icon = "icons\ico_mais.paa";
@@ -776,7 +776,7 @@ class VirtualItems {
         displayName = "STR_Item_Pierrevolcaniquep";
         weight = 4;
         buyPrice = -1;
-        sellPrice = 2850;
+        sellPrice = 3800;
         illegal = false;
         edible = -1;
         icon = "icons\ico_volcanique.paa";
@@ -798,7 +798,7 @@ class VirtualItems {
         displayName = "STR_Item_Souffrep";
         weight = 3;
         buyPrice = -1;
-        sellPrice = 2550;
+        sellPrice = 3000;
         illegal = true;
         edible = -1;
         icon = "icons\ico_souffre_hydrate.paa";
@@ -820,7 +820,7 @@ class VirtualItems {
         displayName = "STR_Item_Boisp";
         weight = 3;
         buyPrice = -1;
-        sellPrice = 2300;
+        sellPrice = 26,,00;
         illegal = false;
         edible = -1;
         icon = "icons\ico_planche.paa";
@@ -987,7 +987,7 @@ class VirtualItems {
         displayName = "STR_Item_TurtleRaw";
         weight = 4;
         buyPrice = -1;
-        sellPrice = 2050;
+        sellPrice = 4000;
         illegal = true;
         edible = -1;
         icon = "icons\ico_tortue.paa";
@@ -997,8 +997,8 @@ class VirtualItems {
         variable = "turtleSoup";
         displayName = "STR_Item_TurtleSoup";
         weight = 2;
-        buyPrice = 2500;
-        sellPrice = 0;
+        buyPrice = -1;
+        sellPrice = -1;
         illegal = false;
         edible = 100;
         icon = "icons\ico_cookedMeat.paa";
