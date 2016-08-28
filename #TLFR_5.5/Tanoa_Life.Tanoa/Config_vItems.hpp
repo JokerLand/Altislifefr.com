@@ -820,7 +820,7 @@ class VirtualItems {
         displayName = "STR_Item_Boisp";
         weight = 3;
         buyPrice = -1;
-        sellPrice = 26,,00;
+        sellPrice = 2600;
         illegal = false;
         edible = -1;
         icon = "icons\ico_planche.paa";

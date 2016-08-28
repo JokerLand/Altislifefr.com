@@ -1,0 +1,45 @@
+Légal :
+
+• Noix de coco : 155 | Stralis = 750 x 155 = 116.250 €
+
+• Banane : 155 | Stralis = 750 x 155 = 116.250 €
+
+• Canne à Sucre : 1000 | Stralis = 250 x 1000 = 250.000 €
+		       | Tempest Ammo = 416 x 1000 = 416.000 €
+
+• Maïs : 1350 | Stralis = 250 x 1350 = 337.500 €
+	      | Tempest Ammo = 416 x 1350 = 561.600 €
+
+• Sable : 2300 | Stralis = 187 x 2300 = 430.100 €
+	       | Tempest Ammo = 312 x 2300 = 717.600 €
+
+• Bois : 2600 | Stralis = 150 x 2600 = 390.000 €		Le sable est plus long niveau trajet que le bois.
+	      | Tempest Ammo = 250 x 2600 = 650.000 €
+
+• Pétrole : 3000 | Stralis = 125 x 3000 = 375.000 €
+	         | Tempest Ammo = 208 x 3000 = 624.000 €
+
+• Saphir : 3750 | Stralis = 150 x 3750 = 562.500 €
+	        | Tempest Ammo = 250 x 3750 = 937.500 €
+
+• Pierre Volcanique : 3800 | Stralis = 125 x 3800 = 475.000 €
+	        	   | Tempest Ammo = 208 x 3800 = 790.400 €
+
+• Emeraude : 4500 | Stralis = 150 x 4500 = 675.000 €
+	          | Tempest Ammo = 250 x 4500 = 1.125.000 €
+
+
+Illégal :
+ 
+• Algue : 2500 | Stralis = 250 x 2500 = 625.000 €
+	       | Tempest Ammo = 416 x 2500 = 1.040.000 €
+
+• Corail : 3000 | Stralis = 150 x 3000 = 450.000 €
+	        | Tempest Ammo = 250 x 3000 = 750.000 €          PAS DE TRAITEMENT
+
+• Souffre : 3000 | Stralis = 187 x 3000 = 561.000 €
+	         | Tempest Ammo = 312 x 3000 = 936.000 €
+
+• Meth : 11500 | Stralis = 93 x 11500 = 1.069.500 €            - 93.000 = 976.500 € BENEF
+	       | Tempest Ammo = 156 x 11500 = 1.794.000 €      - 156.000 = 1.638.000 € BENEF
+	        (8 de poids pour faire 1 meth)
