@@ -110,6 +110,13 @@ class CfgSounds
         sound[] = {"\sounds\cuff.ogg", 0.95, 0.95};
         titles[] = {};
     };
+    
+    /*class Serflex
+    {
+        name = "serflex";
+        sound[] = {"\sounds\serflex.ogg", 0.95, 0.95};
+        titles[] = {};
+    };*/
 
 	class Caching
     {

@@ -140,6 +140,23 @@ switch (_code) do {
             [] call life_fnc_restrainAction;
         };
     };
+    
+    //Restraining (Shift + V)
+    case 47: {
+        if (_shift) then {_handled = true;};
+        if (_shift && playerSide isEqualTo civilian && {!isNull cursorObject} && {cursorObject isKindOf "Man"} && {(isPlayer cursorObject)} && {(side cursorObject in [west,independent])} && {alive cursorObject} && {cursorObject distance player < 3.5} && {!(cursorObject getVariable "Escorting")} && {!(cursorObject getVariable "restrained")} && {speed cursorObject < 1}) then 
+        {
+			if([false,"serflex",1] call life_fnc_handleInv) then
+			{
+			[] call life_fnc_restrainActionReb;
+			hint "Vous avez attaché votre cible avec un Serflex. Pour plus d'options, utilisez votre menu d'interaction ('Windows gauche')";
+			}
+				else
+				{
+				hint "Vous n'avez pas de Serflex sur vous!";
+				};
+        };
+    };
 
     //Knock out, this is experimental and yeah... (Shift + G)
     case 34: {

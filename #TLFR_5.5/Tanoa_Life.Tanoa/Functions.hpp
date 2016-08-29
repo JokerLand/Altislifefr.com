@@ -63,6 +63,7 @@ class Life_Client_Core {
         class removeContainer {};
         class repairTruck {};
         class restrainAction {};
+        class restrainActionReb {};
         class robAction {};
 		class robShops {};
 		class robConcessionnaire {};        

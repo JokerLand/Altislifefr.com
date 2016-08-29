@@ -61,7 +61,7 @@ class VirtualShops {
         side = "civ";
         license = "rebel";
         level[] = { "", "", -1, "" };
-        items[] = { "waterBottle", "rabbit", "noixcoco", "banane", "redgull", "tbacon", "lockpick", "pickaxe", "axe", "toolkit", "fuelFull", "gpsTrackerreb", "blastingcharge" };
+        items[] = { "waterBottle", "rabbit", "noixcoco", "banane", "redgull", "tbacon", "lockpick", "pickaxe", "axe", "toolkit", "fuelFull", "serflex", "gpsTrackerreb", "blastingcharge" };
     };
 
     class wongs {
@@ -358,7 +358,7 @@ class VirtualItems {
         variable = "lockpick";
         displayName = "STR_Item_Lockpick";
         weight = 1;
-        buyPrice = 2500;
+        buyPrice = 1500;
         sellPrice = 0;
         illegal = true;
         edible = -1;
@@ -1272,8 +1272,8 @@ class VirtualItems {
     class serflex {
         variable = "serflex";
         displayName = "STR_Item_serflex";
-        weight = 2;
-        buyPrice = 0;
+        weight = 1;
+        buyPrice = 2500;
         sellPrice = 0;
         illegal = false;
         edible = -1;
