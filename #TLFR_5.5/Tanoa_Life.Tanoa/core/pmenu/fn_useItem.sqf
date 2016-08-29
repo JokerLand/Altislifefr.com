@@ -48,7 +48,7 @@ switch (true) do {
 	case (EQUAL(_item,"blastingcharge")): {
 		player reveal fed_bank;
 		(group player) reveal fed_bank;
-		[cursorTarget] spawn life_fnc_;
+		[cursorTarget] spawn life_fnc_blastingCharge;
 	};
 
 	case (EQUAL(_item,"defusekit")): {
