@@ -48,7 +48,7 @@ switch (true) do {
 	case (EQUAL(_item,"blastingcharge")): {
 		player reveal fed_bank;
 		(group player) reveal fed_bank;
-		[cursorTarget] spawn life_fnc_blastingCharge;
+		[cursorTarget] spawn life_fnc_;
 	};
 
 	case (EQUAL(_item,"defusekit")): {
@@ -139,6 +139,11 @@ switch (true) do {
 	case (EQUAL(_item,"fuelFull")): {
 		if(vehicle player != player) exitWith {hint localize "STR_ISTR_RefuelInVehicle"};
 		[] spawn life_fnc_jerryRefuel;
+	};
+    
+    case (EQUAL(_item,"fuelFullpolice")): {
+		if(vehicle player != player) exitWith {hint localize "STR_ISTR_RefuelInVehicle"};
+		[] spawn life_fnc_jerryRefuelPolice;
 	};
 
 	case (EQUAL(_item,"lockpick")): {

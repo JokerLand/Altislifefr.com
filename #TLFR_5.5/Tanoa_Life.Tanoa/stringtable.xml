@@ -6564,7 +6564,7 @@
             <French>Vous avez déjà un cône lumineux entrain d'être deployé</French>
         </Key>
         <Key ID="STR_ISTR_RefuelInVehicle">
-            <Original>You can't refuel the vehicle while in it!</Original>
+            <Original>Vous ne pouvez pas faire le plein du véhicule tout en étant de le véhicule!</Original>
             <Czech>Nemůžete natankovat z vozidla, když v něm!</Czech>
             <Spanish>No puedes llenar tu vehiculo mientras estas adentro de él!</Spanish>
             <German>Du kannst ein Fahrzeug nicht betanken während du dich darin befindest!</German>

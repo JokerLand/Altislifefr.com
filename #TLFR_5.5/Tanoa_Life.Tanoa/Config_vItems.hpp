@@ -53,7 +53,7 @@ class VirtualShops {
         side = "med";
         license = "";
         level[] = { "", "", -1, "" };
-        items[] = { "coffee", "banane", "noixcoco", "redgull", "fuelFull", "toolkit", "defibrillator" };
+        items[] = { "coffee", "banane", "noixcoco", "redgull", "fuelFullpolice", "toolkit", "defibrillator" };
     };
 
     class rebel {
@@ -222,7 +222,7 @@ class VirtualShops {
         side = "cop";
         license = "";
         level[] = { "", "", -1, "" };
-        items[] = { "donuts", "coffee", "telecommande", "crowbar", "toolkit", "fuelFull", "defusekit" }; //, "spikeStrip", "ladder", "barrier", "barrierl", "panneau", "panneauattention", "cone", "conel", "cordon", "glissiere", "barstop", "lightd",
+        items[] = { "donuts", "coffee", "telecommande", "crowbar", "toolkit", "fuelFullpolice", "defusekit" }; //, "spikeStrip", "ladder", "barrier", "barrierl", "panneau", "panneauattention", "cone", "conel", "cordon", "glissiere", "barstop", "lightd",
     };
     
     class copoff {
@@ -292,8 +292,8 @@ class VirtualItems {
         variable = "defibrillator";
         displayName = "STR_Item_Defibrillator";
         weight = 5;
-        buyPrice = 900;
-        sellPrice = 450;
+        buyPrice = 0;
+        sellPrice = 0;
         illegal = false;
         edible = -1;
         icon = "icons\ico_defibrillator.paa";
@@ -327,6 +327,17 @@ class VirtualItems {
         weight = 4;
         buyPrice = 5000;
         sellPrice = 3000;
+        illegal = false;
+        edible = -1;
+        icon = "icons\ico_fuel.paa";
+    };
+    
+    class fuelFullpolice {
+        variable = "fuelFullpolice";
+        displayName = "STR_Item_FuelF";
+        weight = 4;
+        buyPrice = 0;
+        sellPrice = -1;
         illegal = false;
         edible = -1;
         icon = "icons\ico_fuel.paa";

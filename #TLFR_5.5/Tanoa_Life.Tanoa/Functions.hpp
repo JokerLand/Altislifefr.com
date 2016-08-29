@@ -322,6 +322,7 @@ class Life_Client_Core {
         class flashbang {};
         class jerrycanRefuel {};
         class jerryRefuel {};
+        class jerryRefuelPolice {};
         class ladder {};        
         class lockpick {};
         class placestorage {};
