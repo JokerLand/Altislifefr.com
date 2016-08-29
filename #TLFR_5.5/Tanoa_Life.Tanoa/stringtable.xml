@@ -8504,9 +8504,17 @@
             <Original>Acheteur de Méthamphétamine</Original>
             <French>Acheteur de Méthamphétamine</French>
         </Key>
-        <Key ID="STR_MAR_Entreprise">
-            <Original>Siège Social des Entreprises</Original>
-            <French>Siège Social des Entreprises</French>
+        <Key ID="STR_MAR_EntrepriseION">
+            <Original>Siège Social de l'Entreprise ION</Original>
+            <French>Siège Social de l'Entreprise ION</French>
+        </Key>
+        <Key ID="STR_MAR_EntrepriseION_Port">
+            <Original>Entreprise Portuaire ION</Original>
+            <French>Entreprise Portuaire ION</French>
+        </Key>
+        <Key ID="STR_MAR_EntrepriseDEPAN">
+            <Original>Siège Social de l'Entreprise Dépanneur</Original>
+            <French>Siège Social de l'Entreprise Dépanneur</French>
         </Key>
         <Key ID="STR_MAR_AltisFly">
             <Original>Entrepôt TanoaCargo</Original>
