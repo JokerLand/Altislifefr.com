@@ -268,15 +268,29 @@ class CarShops {
 			{ "B_Heli_Transport_03_unarmed_F", { "life_coplevel", "EQUAL", 3 } }
         };
     };
+    
+    class armee_ship {
+        side = "cop";
+        vehicles[] = {
+            { "B_Boat_Transport_01_F", { "", "", -1 } },
+            { "C_Boat_Civil_01_police_F", { "", "", -1 } },
+            { "C_Boat_Transport_02_F", { "", "", -1 } },
+			{ "B_SDV_01_F", { "life_coplevel", "SCALAR", 3 } },
+            { "Burnes_MK10_1", { "life_coplevel", "SCALAR", 3 } },
+            { "B_Boat_Armed_01_minigun_F", { "life_coplevel", "SCALAR", 3 } }
+        };
+    };
 
 
     class cop_air { //OK
         side = "cop";
         vehicles[] = {
-            { "B_Heli_Light_01_F", { "life_coplevel", "SCALAR", 2 } },
-			{ "EC635_Unarmed", { "life_coplevel", "SCALAR", 6 } },
-			{ "B_Heli_Transport_03_unarmed_F", { "life_coplevel", "SCALAR", 6 } },
-			{ "B_Heli_Transport_01_F", { "life_coplevel", "SCALAR", 8 } }
+            { "B_Boat_Transport_01_F", { "", "", -1 } },
+            { "C_Boat_Civil_01_police_F", { "", "", -1 } },
+            { "C_Boat_Transport_02_F", { "", "", -1 } },
+			{ "B_SDV_01_F", { "life_coplevel", "SCALAR", 3 } },
+            { "Burnes_MK10_1", { "life_coplevel", "SCALAR", 3 } },
+            { "B_Boat_Armed_01_minigun_F", { "life_coplevel", "SCALAR", 3 } }
         };
     };
 

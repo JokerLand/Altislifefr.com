@@ -8128,6 +8128,10 @@
             <Original>Véhicule de l'Armée</Original>
             <French>Véhicule de l'Armée</French>
         </Key>
+        <Key ID="STR_MAR_ArmeeBoatShop">
+            <Original>Bateaux de l'Armée</Original>
+            <French>Bateaux de l'Armée</French>
+        </Key>
         <Key ID="STR_MAR_ArmeeAirShop">
             <Original>Véhicule Aérien de l'Armée</Original>
             <French>Véhicule Aérien de l'Armée</French>
