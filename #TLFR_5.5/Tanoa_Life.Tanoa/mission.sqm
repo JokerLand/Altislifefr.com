@@ -8,18 +8,18 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=3197;
+		nextID=3200;
 	};
 	class MarkerIDProvider
 	{
-		nextID=248;
+		nextID=249;
 	};
 	class Camera
 	{
-		pos[]={5257.2871,16.970848,10185.852};
-		dir[]={-0.47041935,-0.5233506,-0.71050781};
-		up[]={-0.28898814,0.85203916,-0.43647966};
-		aside[]={-0.83381176,-9.6857548e-008,0.5520578};
+		pos[]={5840.106,232.99998,10444.194};
+		dir[]={-0.52432072,-0.77868921,-0.34465307};
+		up[]={-0.65069818,0.62741017,-0.42772543};
+		aside[]={-0.54930735,3.350433e-007,0.83565825};
 	};
 };
 binarizationWanted=0;
@@ -321,6 +321,24 @@ class CustomAttributes
 		name="Multiplayer";
 		class Attribute0
 		{
+			property="RespawnTemplates";
+			expression="true";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"ARRAY"
+						};
+					};
+				};
+			};
+		};
+		class Attribute1
+		{
 			property="RespawnButton";
 			expression="true";
 			class Value
@@ -335,24 +353,6 @@ class CustomAttributes
 						};
 					};
 					value=1;
-				};
-			};
-		};
-		class Attribute1
-		{
-			property="RespawnTemplates";
-			expression="true";
-			class Value
-			{
-				class data
-				{
-					class type
-					{
-						type[]=
-						{
-							"ARRAY"
-						};
-					};
 				};
 			};
 		};
@@ -413,7 +413,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=1008;
+		items=1009;
 		class Item0
 		{
 			dataType="Marker";
@@ -1330,7 +1330,7 @@ class Mission
 			type="o_armor";
 			colorName="Color1_FD_F";
 			id=174;
-			atlOffset=30.742357;
+			atlOffset=24.994411;
 		};
 		class Item88
 		{
@@ -1486,7 +1486,7 @@ class Mission
 			type="loc_ViewTower";
 			colorName="ColorYellow";
 			id=207;
-			atlOffset=43.141273;
+			atlOffset=39.542492;
 		};
 		class Item104
 		{
@@ -2483,6 +2483,7 @@ class Mission
 			};
 			id=560;
 			type="Land_Atm_02_F";
+			atlOffset=0.10159349;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -9489,7 +9490,7 @@ class Mission
 			};
 			id=1247;
 			type="Land_InfoStand_V2_F";
-			atlOffset=1.1610088;
+			atlOffset=0.90207481;
 		};
 		class Item266
 		{
@@ -9500,7 +9501,6 @@ class Mission
 				angles[]={0,1.6464937,0};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 				init="this enableSimulation false; this allowDamage false; this addAction[localize""STR_MAR_Station_Shop"",life_fnc_weaponShopMenu,""f_station_store""];this addAction[localize""STR_Shop_Station_Coffee"",life_fnc_virt_menu,""f_station_coffee""];";
@@ -9508,6 +9508,7 @@ class Mission
 			};
 			id=1257;
 			type="Land_CashDesk_F";
+			atlOffset=0.45763612;
 		};
 		class Item267
 		{
@@ -10881,13 +10882,13 @@ class Mission
 				angles[]={6.2802153,0.61963892,0.0019531252};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 				init="this enableSimulation false; this allowDamage false; this addAction[localize""STR_Shops_W_Gun"",life_fnc_weaponShopMenu,""gun"",0,false,false,"""",' license_civ_gun && playerSide isEqualTo civilian']; this addAction[localize ""STR_Shops_C_Gun"",life_fnc_clothingMenu,""gun_clothing"",0,false,false,"""",' license_civ_gun && playerSide isEqualTo civilian']; this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""gun"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""gun"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""gun"",0,false,false,"""",' !license_civ_gun && playerSide isEqualTo civilian '];";
 			};
 			id=1557;
 			type="Land_CashDesk_F";
+			atlOffset=0.43502426;
 		};
 		class Item349
 		{
@@ -10973,13 +10974,13 @@ class Mission
 				angles[]={0,0.20287536,6.2826972};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 				init="this allowDamage false; this enableSimulation false; this addAction[localize""STR_MAR_Clothing_Store"",life_fnc_clothingMenu,""bruce""];";
 			};
 			id=1565;
 			type="Land_CashDesk_F";
-			atlOffset=0.64319897;
 		};
 		class Item353
 		{
@@ -18989,7 +18990,7 @@ class Mission
 			position[]={13270.595,0,12025.305};
 			name="ion_spawn_2";
 			type="Empty";
-			angle=207.18121;
+			angle=207.18117;
 			id=2791;
 			atlOffset=-2.45;
 		};
@@ -19405,7 +19406,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
-				init="this enableSimulation false; this allowDamage false; this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu,"""",0,FALSE,FALSE,"""",' isNull objectParent player && player distance _target < 4 ']; this addAction[localize""STR_Shops_Market"",life_fnc_virt_menu,""market""]; this addAction[localize ""STR_MAR_General_Store"",life_fnc_weaponShopMenu,""genstore""]; this addAction[localize""STR_MAR_Staff_Vehicle"",life_fnc_vehicleShopMenu,[""staff_car"",civilian,""car_g_staff_1"",""civ"",""Véhicules Du Staff""],0,false,false,"""",'license_civ_staff']; this addAction[localize""STR_MAR_Staff_Vehicle_Garage"",  {   [getPlayerUID player,playerSide,""Car"",player] remoteExecCall [""TON_fnc_getVehicles"",2];   createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""car_g_staff""; life_garage_type = ""Car"";  },"""",0,false,false,"""",'license_civ_staff'];this addAction[localize""STR_MAR_Staff_Air_Garage"",  {   if (life_HC_isActive) then { [getPlayerUID player,playerSide,""Air"",player] remoteExecCall [""HC_fnc_getVehicles"",HC_Life]; } else { [getPlayerUID player,playerSide,""Air"",player] remoteExecCall [""TON_fnc_getVehicles"",2];};  life_garage_type = ""Air""; createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""staff_air_spawn""; },"""",0,false,false,"""",'license_civ_staff']; this addAction[localize""STR_MAR_Store_vehicle_in_Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store']; ";
+				init="this enableSimulation false; this allowDamage false; this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu,"""",0,FALSE,FALSE,"""",' isNull objectParent player && player distance _target < 4 ']; this addAction[localize""STR_Shops_Market"",life_fnc_virt_menu,""market""]; this addAction[""Marché Rebelle"",life_fnc_virt_menu,""staff""]; this addAction[localize ""STR_MAR_General_Store"",life_fnc_weaponShopMenu,""genstore""]; this addAction[localize""STR_MAR_Staff_Vehicle"",life_fnc_vehicleShopMenu,[""staff_car"",civilian,""car_g_staff_1"",""civ"",""Véhicules Du Staff""],0,false,false,"""",'license_civ_staff']; this addAction[localize""STR_MAR_Staff_Vehicle_Garage"",  {   [getPlayerUID player,playerSide,""Car"",player] remoteExecCall [""TON_fnc_getVehicles"",2];   createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""car_g_staff""; life_garage_type = ""Car"";  },"""",0,false,false,"""",'license_civ_staff'];this addAction[localize""STR_MAR_Staff_Air_Garage"",  {   if (life_HC_isActive) then { [getPlayerUID player,playerSide,""Air"",player] remoteExecCall [""HC_fnc_getVehicles"",HC_Life]; } else { [getPlayerUID player,playerSide,""Air"",player] remoteExecCall [""TON_fnc_getVehicles"",2];};  life_garage_type = ""Air""; createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""staff_air_spawn""; },"""",0,false,false,"""",'license_civ_staff']; this addAction[localize""STR_MAR_Store_vehicle_in_Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store']; ";
 			};
 			id=2843;
 			type="Land_Laptop_device_F";
@@ -22264,13 +22265,13 @@ class Mission
 		class Item1006
 		{
 			dataType="Marker";
-			position[]={5249.2832,1.4515704e+021,10033.691};
+			position[]={5249.2832,7.0834798e+028,10033.691};
 			name="entreprises_4";
 			text="@STR_MAR_EntrepriseION_Port";
 			type="mil_circle";
 			colorName="ColorOrange";
 			id=3195;
-			atlOffset=1.4515704e+021;
+			atlOffset=7.0834798e+028;
 		};
 		class Item1007
 		{
@@ -22282,6 +22283,19 @@ class Mission
 			colorName="ColorOrange";
 			id=3196;
 			atlOffset=-4702.6772;
+		};
+		class Item1008
+		{
+			dataType="Marker";
+			position[]={5634.8398,-3114.0732,10353.476};
+			name="safezone_spawn";
+			markerType="ELLIPSE";
+			type="ellipse";
+			colorName="ColorGreen";
+			a=20;
+			b=20;
+			id=3197;
+			atlOffset=-3116.2832;
 		};
 	};
 };
