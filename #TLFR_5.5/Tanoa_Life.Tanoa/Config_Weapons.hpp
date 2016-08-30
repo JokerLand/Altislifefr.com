@@ -65,7 +65,7 @@ class WeaponShops {
             { "arifle_AKS_F", "", 90000, -1 },                      //AKS 74u
             { "arifle_Mk20_F", "", 120000, -1 },                    //Mk20
             { "hlc_rifle_aek971_mtk", "", 135000, -1 },             //AEK971
-            { "hlc_rifle_SAMR", "", 140000, -1 },                   //RRA LAR 15
+            { "hlc_rifle_samr2", "", 140000, -1 },                  //RRA LAR 15
             { "arifle_SPAR_02_blk_F", "", 150000, -1 },             //SPAR 
             { "arifle_ARX_hex_F", "", 150000, -1 },                 //TYPE 115
             { "arifle_CTARS_hex_F", "", 150000, -1 },               //CAR 95
@@ -247,7 +247,7 @@ class WeaponShops {
             { "hlc_30Rnd_9x19_B_MP5", "Chargeur HK MP5K", 10 },
             { "R3F_25Rnd_556x45_TRACER_FAMAS", "Chargeur Famas x25", 10 },
             { "R3F_30Rnd_556x45_TRACER_FAMAS", "Chargeur Famas x30", 10 },
-            { "200Rnd_65x39_cased_Box", "Chargeur MK200", 10 }
+            { "200Rnd_65x39_cased_Box_Tracer", "Chargeur MK200", 10 }
         };
         accs[] = {};
     };
@@ -279,7 +279,7 @@ class WeaponShops {
             { "arifle_MXM_Black_F", "", 20000, -1 },
             { "hlc_rifle_FAL5061Rail", "", 20000, -1 },
             { "srifle_DMR_03_F", "", 20000, -1 },
-            { "R3F_HK417L", "", 20000, -1 },
+            { "R3F_HK417L_DES", "", 20000, -1 },
             { "R3F_FRF2", "", 20000, -1 },
             { "bipod_03_F_blk", "", 10 },
             { "acc_flashlight", "", 10 },
@@ -298,8 +298,8 @@ class WeaponShops {
             { "FHQ_optic_ACOG", "", 10 },
             { "R3F_EOTECH", "", 10 },            
             { "optic_SOS", "", 10 },
-            { "optic_DMS", "", 10 },                     
-            { "optic_KHS_blk", "", 10 },                                 
+            { "optic_DMS", "", 10 },
+            { "optic_KHS_blk", "", 10 },
             { "optic_AMS", "", 10 },         
             { "optic_LRPS", "", 10 }       
         };
@@ -313,10 +313,11 @@ class WeaponShops {
             { "30Rnd_9x21_Mag", "Chargeur Sting", 10 },
             { "R3F_30Rnd_9x19_MP5", "Chargeur MP5 A5", 10 },           
             { "hlc_30Rnd_9x19_B_MP5", "Chargeur HK MP5K", 10 },    
-            { "R3F_30Rnd_556x45_FAMAS", "Chargeur Famas", 10 },
+            { "R3F_30Rnd_556x45_TRACER_FAMAS", "Chargeur Famas x30", 10 },
+            { "R3F_25Rnd_556x45_TRACER_FAMAS", "Chargeur Famas x25", 10 },
             { "30Rnd_65x39_caseless_mag", "Chargeur G36", 10 },
             { "30Rnd_65x39_caseless_mag", "Chargeur MXM", 10 },
-            { "200Rnd_65x39_cased_Box", "Chargeur MK200", 10 },
+            { "200Rnd_65x39_cased_Box_Tracer", "Chargeur MK200", 10 },
             { "hlc_200rnd_556x45_T_SAW", "Chargeur M249", 10 },
             { "hlc_200rnd_556x45_T_SAW", "Chargeur Minimi", 10 },
             { "10Rnd_65x39_cased_Box", "Chargeur MK10", 10 },
@@ -363,6 +364,8 @@ class WeaponShops {
             { "ALFR_Shield_F", "", 10, -1 },
             { "DDOPP_X26_b", "", 10, -1 },
             { "DDOPP_X3_b", "", 10, -1 },
+            { "hlc_smg_mp5k", 500, -1 },
+            { "C1987_MP7_folded", 500, -1 },
             { "hgun_Pistol_heavy_01_F", "", 10, -1 },
             { "hgun_ACPC2_F", "", 10, -1 },
             { "SMG_02_F", "", 10, -1 },
@@ -379,10 +382,11 @@ class WeaponShops {
             { "hlc_rifle_FAL5061Rail", "", 20000, -1 },
             { "R3F_FRF2", "", 20000, -1 },
             { "srifle_DMR_03_F", "", 20000, -1 },
-            { "R3F_HK417L", "", 20000, -1 },
+            { "R3F_HK417L_DES", "", 20000, -1 },
             { "srifle_EBR_F", "", 20000, -1 },
             { "srifle_LRR_F", "", 20000, -1 },
-            { "R3F_PGM_Hecate_II_POLY", "", 20000, -1 },
+            { "hlc_lmg_mk48", "", 30000, -1 },
+            { "R3F_PGM_Hecate_II_DES", "", 20000, -1 },
             { "acc_flashlight", "", 10 }, 
             { "optic_Holosight", "", 10 },
             { "R3F_AIMPOINT", "", 10 },
@@ -407,7 +411,9 @@ class WeaponShops {
         };
         mags[] = {
             { "DDOPP_1Rnd_X26", "Chargeur Tazer X26", 10 },
-            { "DDOPP_3Rnd_X3", "Chargeur Taser X3", 10 },   
+            { "DDOPP_3Rnd_X3", "Chargeur Taser X3", 10 },
+            { "C1987_MP7_folded_p", "Chargeur MP7", 10 },
+            { "hlc_30Rnd_9x19_B_MP5", "Chargeur HK MP5K", 10 },
             { "11Rnd_45ACP_Mag", "Chargeur 4-Five", 10 },
             { "9Rnd_45ACP_Mag", "Chargeur ACP", 10 },
             { "R3F_7Rnd_M4S10", "Chargeur Benelli M4 S10", 10 },
@@ -415,10 +421,11 @@ class WeaponShops {
             { "30Rnd_9x21_Mag", "Chargeur Sting", 10 },
             { "R3F_30Rnd_9x19_MP5", "Chargeur MP5 A5", 10 },           
             { "hlc_30Rnd_9x19_B_MP5", "Chargeur HK MP5K", 10 },    
-            { "R3F_30Rnd_556x45_FAMAS", "Chargeur Famas", 10 },
+            { "R3F_30Rnd_556x45_TRACER_FAMAS", "Chargeur Famas x30", 10 },
+            { "R3F_25Rnd_556x45_TRACER_FAMAS", "Chargeur Famas x25", 10 },
             { "30Rnd_65x39_caseless_mag", "Chargeur G36", 10 },
             { "30Rnd_65x39_caseless_mag", "Chargeur MXM", 10 },
-            { "200Rnd_65x39_cased_Box", "Chargeur MK200", 10 },
+            { "200Rnd_65x39_cased_Box_Tracer", "Chargeur MK200", 10 },
             { "hlc_200rnd_556x45_T_SAW", "Chargeur M249", 10 },
             { "hlc_200rnd_556x45_T_SAW", "Chargeur Minimi", 10 },
             { "10Rnd_65x39_cased_Box", "Chargeur MK10", 10 },
@@ -427,6 +434,7 @@ class WeaponShops {
             { "R3F_10Rnd_762x51_FRF2", "Chargeur FRF2", 10 },
             { "R3F_20Rnd_762x51_HK417", "Chargeur HK 417", 10 },
             { "7Rnd_408_Mag", "Chargeur M320", 10 },
+            { "hlc_100Rnd_762x51_T_M60E4", "Chargeur MK48", 10 },
             { "R3F_7Rnd_127x99_PGM", "Chargeur PGM Hecate II", 10 },
             { "bipod_03_F_blk", "", 10 },
             { "acc_flashlight", "", 10 },
