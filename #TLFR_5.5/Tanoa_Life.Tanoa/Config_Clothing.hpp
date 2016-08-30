@@ -1407,7 +1407,15 @@ class Clothing {
 			{ "rds_uniform_Villager1", "", 10, { "", "", -1 } },
 			{ "rds_uniform_Villager2", "", 10, { "", "", -1 } },
 			{ "rds_uniform_Villager3", "", 10, { "", "", -1 } },
-			{ "rds_uniform_Villager4", "", 10, { "", "", -1 } }
+			{ "rds_uniform_Villager4", "", 10, { "", "", -1 } },
+			{ "U_TKLocalUniLong_E", "", 10, { "", "", -1 } },
+			{ "U_TKLocalUniLong_A", "", 10, { "", "", -1 } },
+			{ "U_TKLocalUniLong_C", "", 10, { "", "", -1 } },
+			{ "U_TKLocalUniLong_B", "", 10, { "", "", -1 } },
+			{ "U_TKLocalUniLong_D", "", 10, { "", "", -1 } },
+			{ "U_MilitiaSport_A", "", 10, { "", "", -1 } },
+			{ "U_MilitiaSport_C", "", 10, { "", "", -1 } },
+			{ "U_MilitiaSport_B", "", 10, { "", "", -1 } }
 		};
         headgear[] = {
 			{ "NONE", "Supprime couvre-chef", 0, { "", "", -1 } },
