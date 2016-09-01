@@ -281,6 +281,7 @@ class Life_Client_Core {
         class gangNewLeader {};
         class gangUpgrade {};
         class initGang {};
+        class gangMarkers {};
     };
 
     class Housing {
