@@ -5094,6 +5094,13 @@ will modify the virtual space and the price of the vehicle, but other informatio
             } }
         };
     };
+    
+    class RDS_Gaz24_Civ_01 {
+        vItemSpace = 25;
+        licenses[] = { {""}, {""}, {""}, {""} };
+        price = 15000;
+        textures[] = {};
+    };
 
     class I_Truck_02_covered_F {
         vItemSpace = 350;
