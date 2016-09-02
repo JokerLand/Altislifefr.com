@@ -18,7 +18,7 @@ link5[] = {4,3};
 link6[] = {5,2};
 link7[] = {6,7};
 globals[] = {0.000000,0,0,0,0,640,480,1,10,6316128,1,-179.640472,752.478394,202.634552,-384.673431,1010,884,1};
-window[] = {2,-1,-1,-1,-1,890,130,1570,130,3,1028};
+window[] = {2,-1,-1,-1,-1,812,52,1492,52,3,1028};
 *//*%FSM</HEAD>*/
 class FSM
 {
@@ -31,9 +31,9 @@ class FSM
                         name = "Init";
                         itemno = 0;
                         init = /*%FSM<STATEINIT""">*/"private [""_skipDay"", ""_skipNight"", ""_method"", ""_fastNight"", ""_sunState""];" \n
-                         "_skipDay = [_this,0,8,[0]] call BIS_fnc_param;" \n
+                         "_skipDay = [_this,0,16,[0]] call BIS_fnc_param;" \n
                          "_fastNight = [_this,2,false,[true]] call BIS_fnc_param;" \n
-                         "_skipNight = [_this,3,24,[0]] call BIS_fnc_param;"/*%FSM</STATEINIT""">*/;
+                         "_skipNight = [_this,3,16,[0]] call BIS_fnc_param;"/*%FSM</STATEINIT""">*/;
                         precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
                         class Links
                         {
