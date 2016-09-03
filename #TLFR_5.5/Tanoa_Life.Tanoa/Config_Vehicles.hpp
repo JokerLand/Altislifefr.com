@@ -481,7 +481,7 @@ class LifeCfgVehicles {
     };
 
     class C_Plane_Civil_01_F {
-        vItemSpace = 100;
+        vItemSpace = 25;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
         price = 100000;
         textures[] = {
@@ -501,7 +501,7 @@ class LifeCfgVehicles {
     };
 
     class C_Plane_Civil_01_racing_F {
-        vItemSpace = 100;
+        vItemSpace = 25;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
         price = 100000;
         textures[] = {
@@ -5537,7 +5537,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
 	};
 
     class B_Heli_Transport_03_unarmed_F {
-		vItemSpace = 90;
+		vItemSpace = 40;
         licenses[] = { {"pilot"}, {"cAir"}, {"mAir"}, {""} };
 		price = 3200000;
 		textures[] = {
@@ -5569,7 +5569,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
 	};
 
     class O_Heli_Light_02_unarmed_F {
-        vItemSpace = 60;
+        vItemSpace = 25;
         licenses[] = { {"pilot" }, {""}, {"mAir"}, {""} };
         price = 350000;
         textures[] = {
