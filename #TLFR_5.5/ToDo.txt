@@ -80,5 +80,40 @@ meth | multiprocess |FAIT|
 
 //Contenu dans le prochain CHANGELOG - Ici mettez tout vos ajouts qui seront dans le prochain patch note, pour facilité sa rédaction, & pas oublier des choses
 
+Bonjour, voici le changelog de cette mise à jour, permettant de corriger de légers bugs,
 
+Général :
+• Déplacement du Siège Social ON
+• Changement du stockage virtuel des hélicoptères civiles
+
+Police :
+• Ajout d'un jerrycane d'essence moins chère
+• La crowbar est maintenant sauvegarder dans l'inventaire Y
+
+Armée : 
+• Les cagoules cachent désormais votre tag
+• Ajout chargeur tracer MK200
+• Changement de skin de la HK417
+• Ajout des chargeurs FAMAS
+• Ajout de deux armes secondaires : MP7 Sidearm + HK MP5K (Grade Off)
+• Changement de skin du PGM HECATE II
+• Ajout de la MK48 Mod 7.62 (Grade Off)
+• Ajout d'un vendeur de bateau propre à l'armée pour les différents grades
+
+
+Rebelle :
+• Ajout Serflex pour menotter [Shift + V]
+• Changement de Skin RRA LAR-15
+
+Entreprise ION :
+• Déplacement du Siège Social dans Georgetown
+• Ajout de marqueur sur la carte des lieux ION
+• Déplacement des panneaux au port de Blue Pearl pour facilité le spawn de véhicule terrestre comme aérien
+• Debug du garage à bateaux au port de Blue Pearl
+• Debug du garage à bateaux au port de Georgetown
+
+Bon jeu sur le serveur,
+
+Cordialement,
+Le Staff.
 
