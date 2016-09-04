@@ -84,6 +84,9 @@ Bonjour, voici le changelog de cette mise à jour, permettant de corriger de lé
 
 Général :
 • Déplacement du Siège Social ON
+• Modification du cycle jour/nuit
+
+Civil :
 • Changement du stockage virtuel des hélicoptères civiles
 
 Police :
