@@ -1,4 +1,4 @@
-﻿/*
+/*
 	Fichier: fn_robShops.sqf
 	By www.impulsionlife.com
 	Sign: altisdev.com & TanoaLifeFR
@@ -30,7 +30,7 @@ if(_chance < 100) then { hint "Le caissier a activé l'alarme, la police ne va p
 playSound "alarme_magasin";
 
 _cops = (west countSide playableUnits);
-if(_cops < 3) exitWith{[[_vault,-1],"disableSerialization;",false,false] spawn life_fnc_MP; hint "Un minimum de trois policier est requis.";};
+if(_cops < 0) exitWith{[[_vault,-1],"disableSerialization;",false,false] spawn life_fnc_MP; hint "Un minimum de trois policier est requis.";};
 disableSerialization;
 5 cutRsc ["life_progress","PLAIN"];
 _ui = uiNameSpace getVariable "life_progress";
