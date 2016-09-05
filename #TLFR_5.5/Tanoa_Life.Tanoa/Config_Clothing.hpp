@@ -392,7 +392,9 @@ class Clothing {
 		uniforms[] = {
 			{ "NONE", "Supprime uniforme", 0, { "", "", -1 } },
 			{ "R3F_uniform_f1", "", 1250, { "", "", -1 } },
-			{ "R3F_uniform_apso", "", 1250, { "", "", -1 } }
+			{ "R3F_uniform_apso", "", 1250, { "", "", -1 } },
+			{ "R3F_uniform_urr", "", 1250, { "", "", -1 } },
+			{ "R3F_uniform_Ghillie", "Ghillie Only Sniper", 1250, { "", "", -1 } }
 		};
 
 		headgear[] = {
@@ -407,6 +409,8 @@ class Clothing {
 			{ "NONE", "Supprime lunette", 0, { "", "", -1 } },
 			{ "R3F_cagoule_punisher", "", 125, { "", "", -1 } },
 			{ "R3F_cagoule_olive", "", 125, { "", "", -1 } },
+			{ "G_Bandanna_beast", "", 10, {"", "", -1} },
+			{ "G_Bandanna_aviator", "", 10, {"", "", -1} },
 			{ "G_Aviator", "", 125, { "life_coplevel", "SCALAR", 2 } },
 			{ "G_Squares_Tinted", "", 125, { "life_coplevel", "SCALAR", 2 } },
 			{ "G_Spectacles_Tinted", "", 125, { "life_coplevel", "SCALAR", 3 } }
