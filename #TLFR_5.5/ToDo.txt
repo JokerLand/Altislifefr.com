@@ -92,6 +92,7 @@ Civil :
 Police :
 • Ajout d'un jerrycane d'essence moins chère
 • La crowbar est maintenant sauvegarder dans l'inventaire Y
+• Ajouter destruction véhicule (JokerLand)
 
 Armée : 
 • Les cagoules cachent désormais votre tag
