@@ -1,0 +1,7 @@
+Moddé ou non la 6.0 ?
+
+A FAIRE :
+-Changer les ressources
+-Remettre les points de spawn pour Altis
+-Changer la mission.SQM
+-Remettre des mappins d'avant
