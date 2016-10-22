@@ -6,7 +6,7 @@
 
 private [ "_camera", "_welcomeMessage", "_camDistance" ];
 [] call life_fnc_hudUpdate;
-_welcomeMessage = format["Bienvenue sur TanoaLifeFr par AltisLifeFr.com %1",format["%1", name player]];
+_welcomeMessage = format["Bienvenue sur AltisLifeFr.com %1",format["%1", name player]];
 _camDistance = 40;
 waitUntil { alive player };
 //waituntil {!isnull (finddisplay 46)};
@@ -38,7 +38,7 @@ _onScreenTime = 5;
 sleep 3; //Wait in seconds before the credits start after player is in-game
 //player say "Intro";
  
-_role1 = "Bienvenue sur TanoaLifeFr";
+_role1 = "Bienvenue sur AltisLifeFr";
 _role1names = ["Server only FR"];
 _role2 = "Site/Forum";
 _role2names = ["www.AltisLifeFr.com"];
