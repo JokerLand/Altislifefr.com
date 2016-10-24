@@ -150,6 +150,10 @@
             <Polish>Sprzedawca 'Trawy'</Polish>
         </Key>
         //FARM ALFR
+        <Key ID="STR_Shops_Lingots">
+            <Original>Acheteur de Lingots</Original>
+            <French>Acheteur de Lingots</French>
+        </Key>
         <Key ID="STR_Shops_SugarCane">
             <Original>Acheteur de Canne à Sucre</Original>
             <French>Acheteur de Canne à Sucre</French>
@@ -5356,6 +5360,14 @@
             <French>Pied de Biche</French>
         </Key>
         //ALFR FIN
+        <Key ID="STR_Item_Copper_u">
+            <Original>Minerai de Cuivre</Original>
+            <French>Minerai de Cuivre</French>
+        </Key>
+        <Key ID="STR_Item_Copper_p">
+            <Original>Lingot de Cuivre</Original>
+            <French>Lingot de Cuivre</French>
+        </Key>
         <Key ID="STR_Item_SugarcaneUnprocessed">
             <Original>Canne à Sucre</Original>
             <French>Canne à Sucre</French>
@@ -5363,16 +5375,6 @@
         <Key ID="STR_Item_SugarcaneProcessed">
             <Original>Sucre</Original>
             <French>Sucre</French>
-        </Key>
-        <Key ID="STR_Item_Oil">
-            <Original>Oil</Original>
-            <Czech>Olej</Czech>
-            <Spanish>Petróleo</Spanish>
-            <German>Öl</German>
-            <French>Pétrole</French>
-            <Italian>Olio</Italian>
-            <Portuguese>Petróleo</Portuguese>
-            <Polish>Benzyna</Polish>
         </Key>
         <Key ID="STR_Item_OilU">
             <Original>Pétrole</Original>
@@ -5658,19 +5660,14 @@
             <Portuguese>Rosquinha</Portuguese>
             <Polish>Pączki</Polish>
         </Key>
-        <Key ID="STR_Item_Banane">
-            <Original>Banane</Original>
-            <French>Banane</French>
+        <Key ID="STR_Item_Apple">
+            <Original>Pomme</Original>
+            <French>Pomme</French>
         </Key>
-        <Key ID="STR_Item_Noixcoco">
-            <Original>Noix de Coco</Original>
-            <French>Noix de Coco</French>
+        <Key ID="STR_Item_Peach">
+            <Original>Pêche</Original>
+            <French>Pêche</French>
         </Key>
-        <Key ID="STR_Item_Cacao">
-            <Original>Fève de Cacao</Original>
-            <French>Fève de Cacao</French>
-        </Key>
-        //
         <Key ID="STR_Item_Meth">
             <Original>Méthamphétamine</Original>
             <French>Méthamphétamine</French>
@@ -6004,6 +6001,14 @@
         <Key ID="STR_License_Armee">
             <Original>Armée de Terre</Original>
             <French>Armée de Terre</French>
+        </Key>
+        <Key ID="STR_License_Copper">
+            <Original>License de Fonte du Cuivre</Original>
+            <French>License de Fonte du Cuivre</French>
+        </Key>
+        <Key ID="STR_License_Iron">
+            <Original>License de Fonte du Fer</Original>
+            <French>License de Fonte du Fer</French>
         </Key>
         <Key ID="STR_License_Algue">
             <Original>License du Lavage d'Algues Vertes</Original>
@@ -6585,8 +6590,16 @@
         </Key>
     </Package>
     <Package name="Process_Action">
+        <Key ID="STR_Process_Copper">
+            <Original>Fonte du Cuivre</Original>
+            <French>Fonte du Cuivre</French>
+        </Key>
+        <Key ID="STR_Process_Iron">
+            <Original>Fonte du Fer</Original>
+            <French>Fonte du Fer</French>
+        </Key>
         <Key ID="STR_Process_Sugarcane">
-            <Original>Extraction du sucre </Original>
+            <Original>Extraction du sucre</Original>
             <French>Extraction du sucre</French>
         </Key>
         <Key ID="STR_Process_Oil">
@@ -8463,6 +8476,10 @@
             <Portuguese>Processador de Cobre</Portuguese>
             <Polish>Huta miedzi</Polish>
             <Italian>Processo Rame</Italian>
+        </Key>
+        <Key ID="STR_MAR_Ingots_Trader">
+            <Original>Acheteur de Lingots</Original>
+            <French>Acheteur de Lingots</French>
         </Key>
         <Key ID="STR_MAR_Oil_Trader">
             <Original>Vendeur de Pétrole</Original>

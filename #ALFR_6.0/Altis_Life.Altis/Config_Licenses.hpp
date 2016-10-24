@@ -7,7 +7,7 @@
 *        side = side indicator
 */
 class Licenses {
-    //Civilian Licenses
+    //PERMIS
     class driver {
         variable = "driver";
         displayName = "STR_License_Driver";
@@ -39,7 +39,7 @@ class Licenses {
         illegal = false;
         side = "civ";
     };
-
+    //PERMIS AUTRES
     class gun {
         variable = "gun";
         displayName = "STR_License_Firearm";
@@ -63,7 +63,24 @@ class Licenses {
         illegal = false;
         side = "civ";
     };
-
+    //LICENSE TRAITEMENT
+    
+    class copper {
+        variable = "copper";
+        displayName = "STR_License_Copper";     //PRIX A METTRE
+        price = 10;
+        illegal = false;
+        side = "civ";
+    };
+    
+    class iron {
+        variable = "iron";
+        displayName = "STR_License_Iron";       //PRIX A METTRE
+        price = 10;
+        illegal = false;
+        side = "civ";
+    };
+    
     class oil {
         variable = "oil";
         displayName = "STR_License_Oil";
@@ -85,22 +102,6 @@ class Licenses {
         displayName = "STR_License_Souffre";
         price = 28500;
         illegal = true;
-        side = "civ";
-    };
-    
-    class saphir {
-        variable = "saphir";
-        displayName = "STR_License_Saphir";
-        price = 37500;
-        illegal = false;
-        side = "civ";
-    };
-    
-    class emeraude {
-        variable = "emeraude";
-        displayName = "STR_License_Emeraude";
-        price = 45000;
-        illegal = false;
         side = "civ";
     };
     
@@ -141,14 +142,6 @@ class Licenses {
         variable = "sand";
         displayName = "STR_License_Sand";
         price = 15000;
-        illegal = false;
-        side = "civ";
-    };
-    
-    class petrole {
-        variable = "petrole";
-        displayName = "STR_License_Petrole";
-        price = 20000;
         illegal = false;
         side = "civ";
     };

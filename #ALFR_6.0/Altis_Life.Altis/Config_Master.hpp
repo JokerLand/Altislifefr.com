@@ -18,7 +18,7 @@ class Life_Settings {
 /* Database Related Settings */
     /* Player Data Saving */
     save_virtualItems = true; //Save Virtual items (all sides)?
-    saved_virtualItems[] = { "pickaxe","fuelEmpty","axe","fuelFull", "spikeStrip", "crowbar", "telecommande", "gpsTracker", "gpsTrackerreb", "lockpick", "defuseKit","storageSmall","storageBig","redgull","coffee","waterBottle","apple","peach","tbacon","donuts","rabbit","salema","ornate","mackerel","tuna","mullet","catshark","turtle_soup","hen","rooster","sheep","goat","defibrillator","toolkit","johnpasseport","michealpasseport","michealpasseport","tompasseport","marcelpasseport","marcpasseport","nathanpasseport","francispasseport","deweypasseport","halpasseport","craigpasseport","ericpasseport","joshuapasseport","dougpasseport","richardpasseport","anthonypasseport","leonpasseport","tracypasseport","nikkipasseport","monicapasseport","monicapasseport","mariepasseport","mirandapasseport","christinapasseport","ericapasseport","jingmeipasseport" }; //Array of virtual items that can be saved on your player.
+    saved_virtualItems[] = { "pickaxe","fuelEmpty","axe","fuelFull", "spikeStrip", "crowbar", "telecommande", "gpsTracker", "gpsTrackerreb", "lockpick", "defuseKit","storageSmall","storageBig","redgull","coffee","waterBottle","apple","peach","tbacon","donuts","rabbit","salema","ornate","mackerel","tuna","mullet","catshark","turtle_soup","hen","rooster","sheep","goat","defibrillator","toolkit" }; //Array of virtual items that can be saved on your player.
     save_playerStats = false; //Save food, water and damage (all sides)?
     save_civilian_weapons = true; //Allow civilians to save weapons on them?
     save_civilian_position = false; //Save civilian location?

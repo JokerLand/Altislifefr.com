@@ -1,21 +1,15 @@
 class CfgGather {
     zoneSize = 30;
     class Resources {
-        class cacao {
+        class apple {
             amount = 150;
-            zones[] = { "cacao_1", "cacao_2", "cacao_3", "cacao_4", "cacao_5" };
+            zones[] = { "apple_1", "apple_2", "apple_3" };
             item = "";
         };
 
-        class noixcoco {
+        class peach {
             amount = 150;
-            zones[] = { "noixcoco_1", "noixcoco_2", "noixcoco_3", "noixcoco_4", "noixcoco_5" };
-            item = "";
-        };
-
-        class banane {
-            amount = 150;
-            zones[] = { "banane_1", "banane_2", "banane_3", "banane_4" };
+            zones[] = { "peach_1", "peach_2", "peach_3" };
             item = "";
         };
 
@@ -127,11 +121,13 @@ Example 2:
 */
 
     class Minerals {
-        class emeraudeusaphiru {
-            amount = 4;
-            zones[] = { "emeraudeusaphiru_1" };
+        
+        class iron_copper_u {
+            amount = 3;
+            zones[] = { "iron_copper_1" };
             item = "pickaxe";
-            mined[] = { {"emeraudeu",0,10},{"saphiru",10,100} };
+            mined[] = { {"copper_u",0,50},{"iron_u",50,100} };
         };
+        
     };
 };

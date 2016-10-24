@@ -17,11 +17,24 @@
 */
 
 class ProcessAction {
+    class copper {
+        MaterialsReq[] = {{"copper_u",1}};
+        MaterialsGive[] = {{"copper_p",1}};
+        Text = "STR_Process_Copper";
+        NoLicenseCost = 1500;
+    };
+    
+    class iron {
+        MaterialsReq[] = {{"iron_u",1}};
+        MaterialsGive[] = {{"iron_p",1}};
+        Text = "STR_Process_Iron";
+        NoLicenseCost = 1500;
+    };
+    
     class petrole {
         MaterialsReq[] = {{"petroleu",1}};
         MaterialsGive[] = {{"fuelFull",1}};
         Text = "STR_Process_Oil";
-        //ScrollText = "Process Oil";
         NoLicenseCost = 1500;
     };
 
@@ -29,7 +42,6 @@ class ProcessAction {
         MaterialsReq[] = {{"maisu",1}};
         MaterialsGive[] = {{"maisp",1}};
         Text = "STR_Process_Mais";
-        ScrollText = "test mais défilant";
         NoLicenseCost = 1350;
     };
     
@@ -37,23 +49,6 @@ class ProcessAction {
         MaterialsReq[] = {{"algueu",1}};
         MaterialsGive[] = {{"alguep",1}};
         Text = "STR_Process_Algue";
-        //ScrollText = "Cut Diamonds";
-        NoLicenseCost = 1350;
-    };
-    
-    class emeraude {
-        MaterialsReq[] = {{"emeraudeu",1}};
-        MaterialsGive[] = {{"emeraudep",1}};
-        Text = "STR_Process_Emeraude";
-        //ScrollText = "Cut Diamonds";
-        NoLicenseCost = 1350;
-    };
-    
-    class saphir {
-        MaterialsReq[] = {{"saphiru",1}};
-        MaterialsGive[] = {{"saphirp",1}};
-        Text = "STR_Process_Saphir";
-        //ScrollText = "Cut Diamonds";
         NoLicenseCost = 1350;
     };
     
@@ -61,7 +56,6 @@ class ProcessAction {
         MaterialsReq[] = {{"pierrevolcaniqueu",1}};
         MaterialsGive[] = {{"pierrevolcaniquep",1}};
         Text = "STR_Process_Pierrevolcanique";
-        //ScrollText = "Cut Diamonds";
         NoLicenseCost = 1350;
     };
     
@@ -69,7 +63,6 @@ class ProcessAction {
         MaterialsReq[] = {{"souffreu",1}};
         MaterialsGive[] = {{"souffrep",1}};
         Text = "STR_Process_Souffre";
-        //ScrollText = "Cut Diamonds";
         NoLicenseCost = 1350;
     };
     
@@ -77,7 +70,6 @@ class ProcessAction {
         MaterialsReq[] = {{"boisu",1}};
         MaterialsGive[] = {{"boisp",1}};
         Text = "STR_Process_Bois";
-        //ScrollText = "Cut Diamonds";
         NoLicenseCost = 1350;
     };
 
@@ -85,7 +77,6 @@ class ProcessAction {
         MaterialsReq[] = {{"sand",1}};
         MaterialsGive[] = {{"glass",1}};
         Text = "STR_Process_Sand";
-        //ScrollText = "Melt Sand into Glass";
         NoLicenseCost = 650;
     };
 
@@ -93,7 +84,6 @@ class ProcessAction {
         MaterialsReq[] = {{"sugarcaneunprocessed",1}};
         MaterialsGive[] = {{"sugarcaneprocessed",1}};
         Text = "STR_Process_Sugarcane";
-        //ScrollText = "Mix Cement";
         NoLicenseCost = 500;
     };
     
@@ -101,7 +91,6 @@ class ProcessAction {
         MaterialsReq[] = {{"phosphore_rouge",1},{"ephedrine",1},{"iode",1}};
         MaterialsGive[] = {{"meth",1}};
         Text = "STR_Process_Meth";
-        //ScrollText = "Mix Cement";
         NoLicenseCost = 4000;
     };
 };

@@ -20,33 +20,33 @@
 */
 class CfgSpawnPoints {
     class Civilian {
-        class Georgetown {
-            displayName = "Georgetown";
+        class Kavala {
+            displayName = "Kavala";
             spawnMarker = "civ_spawn_1";
             icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
             licenses[] = { { "", true } };
             level[] = { "", "", -1 };
         };
-
-        class LaRochelle {
-            displayName = "La Rochelle";
-            spawnMarker = "civ_spawn_4";
+        
+        class Athira {
+            displayName = "Athira";
+            spawnMarker = "civ_spawn_2";
             icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
             licenses[] = { { "", true } };
             level[] = { "", "", -1 };
         };
         
-        class Lijnhaben {
-            displayName = "Lijnhaven";
+        class Pyrgos {
+            displayName = "Pyrgos";
             spawnMarker = "civ_spawn_3";
             icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
             licenses[] = { { "", true } };
             level[] = { "", "", -1 };
         };
-
-        class Oumere {
-            displayName = "Ouméré";
-            spawnMarker = "civ_spawn_2";
+        
+        class Sofia {
+            displayName = "Sofia";
+            spawnMarker = "civ_spawn_4";
             icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
             licenses[] = { { "", true } };
             level[] = { "", "", -1 };
@@ -60,14 +60,6 @@ class CfgSpawnPoints {
             level[] = { "", "", -1 };
         };
         
-        class depan {
-            displayName = "QG Dépanneurs";
-            spawnMarker = "depan_spawn";
-            icon = "\plp_markers\icons\plp_mark_as_building.pac";
-            licenses[] = { { "depan", true } };
-            level[] = { "", "", -1 };
-        };
-        
         class aan {
             displayName = "QG AAN";
             spawnMarker = "aan_spawn";
@@ -76,36 +68,6 @@ class CfgSpawnPoints {
             level[] = { "", "", -1 };
         };
         
-        class ion {
-            displayName = "QG ION";
-            spawnMarker = "ion_spawn";
-            icon = "\plp_markers\icons\plp_mark_as_building.pac";
-            licenses[] = { { "ion", true } };
-            level[] = { "", "", -1 };
-        };
-        
-        class ion_spawn_2 {
-            displayName = "ION Port Industriel";
-            spawnMarker = "ion_spawn_2";
-            icon = "\plp_markers\icons\plp_mark_as_building.pac";
-            licenses[] = { { "ion", true } };
-            level[] = { "", "", -1 };
-        };
-        
-        class altisfly {
-            displayName = "QG Altis Wings";
-            spawnMarker = "altisfly_spawn";
-            icon = "\plp_markers\icons\plp_mark_as_building.pac";
-            licenses[] = { { "altisfly", true } };
-            level[] = { "", "", -1 };
-        };
-         class entreprise_maritime {
-            displayName = "QG Maritime";
-            spawnMarker = "entreprise_maritime_spawn";
-            icon = "\plp_markers\icons\plp_mark_as_building.pac";
-            licenses[] = { { "entreprise_maritime", true } };
-            level[] = { "", "", -1 };
-        };
         class staff {
             displayName = "Maison Du Staff";
             spawnMarker = "staff_spawn";
@@ -117,44 +79,28 @@ class CfgSpawnPoints {
 
     class Cop {
         class Kavala {
-            displayName = "Georgetown";
-            spawnMarker = "cop_spawn_1";
-            icon = "\a3\ui_f\data\map\Markers\NATO\b_air.paa";
-            licenses[] = { { "", true } };
-            level[] = { "", "", -1 };
-        };
-
-        class Pyrgos {
-            displayName = "La Rochelle";
-            spawnMarker = "cop_spawn_4";
+            displayName = "Kavala";
+            spawnMarker = "police_hq_1";
             icon = "\a3\ui_f\data\map\Markers\NATO\b_air.paa";
             licenses[] = { { "", true } };
             level[] = { "", "", -1 };
         };
         
         class Athira {
-            displayName = "Lijnhaven - Base Aérienne";
-            spawnMarker = "cop_spawn_3";
+            displayName = "Athira";
+            spawnMarker = "police_hq_2";
             icon = "\a3\ui_f\data\map\Markers\NATO\b_air.paa";
             licenses[] = { { "", true } };
             level[] = { "", "", -1 };
         };
-
-        class Paros {
-            displayName = "Ouméré";
-            spawnMarker = "cop_spawn_2";
+        
+        class Athira {
+            displayName = "Athira";
+            spawnMarker = "police_hq_3";
             icon = "\a3\ui_f\data\map\Markers\NATO\b_air.paa";
             licenses[] = { { "", true } };
             level[] = { "", "", -1 };
         };
-
-        //class HW {
-          //  displayName = "HW Patrol";
-            //spawnMarker = "cop_spawn_5";
-            //icon = "\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa";
-            //licenses[] = { { "", true } };
-            //level[] = { "life_coplevel", "SCALAR", 3 };
-        //};
     };
 
     class Medic {
@@ -165,21 +111,5 @@ class CfgSpawnPoints {
             licenses[] = { { "", true } };
             level[] = { "", "", -1 };
         };
-
-        //class AirHQ {
-            //displayName = "Hôpital Air HQ";
-            //spawnMarker = "medic_spawn_2";
-            //icon = "\a3\ui_f\data\map\MapControl\hospital_ca.paa";
-            //licenses[] = { { "", true } };
-            //level[] = { "", "", -1 };
-        //};
-
-        //class Pyrgos {
-            //displayName = "Hôpital Pyrgos";
-            //spawnMarker = "medic_spawn_3";
-            //icon = "\a3\ui_f\data\map\MapControl\hospital_ca.paa";
-            //licenses[] = { { "", true } };
-            //level[] = { "", "", -1 };
-        //};
     };
 };
